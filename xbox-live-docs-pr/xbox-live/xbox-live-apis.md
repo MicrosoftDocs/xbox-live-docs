@@ -1,13 +1,13 @@
 ---
-title: Player stats
+title: Xbox Live APIs
 author: mikehoffms
-description: Player stats.
+description: Xbox Live APIs.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, player stats, leaderboards
+keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
-# Player stats
+# Xbox Live APIs

@@ -1,5 +1,5 @@
 ---
-title: Multiplayer Service Configuration
+title: Configuring Multiplayer Service
 author: KevinAsgari
 description: Learn how to configure the Xbox Live Multiplayer Service.
 ms.assetid: d042d4d5-1c75-4257-8a6f-07eddd39ca7e
@@ -12,7 +12,8 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, servic
 ms.localizationpriority: medium
 ---
 
-# Multiplayer Service Configuration
+# Configuring Multiplayer Service
+
 In order for your title to take advantage of the services that Xbox Live provides, you must first define your service configuration. This service configuration exists in the Xbox Live cloud service, and defines how the Xbox Live service interacts with any devices that are running your title/game.
 
 For multiplayer services, there are three aspects of multiplayer that you can configure:

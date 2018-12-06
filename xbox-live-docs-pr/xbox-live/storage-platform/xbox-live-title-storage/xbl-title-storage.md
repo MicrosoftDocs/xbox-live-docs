@@ -1,13 +1,13 @@
 ---
-title: Player stats
+title: Title Storage
 author: mikehoffms
-description: Player stats.
+description: Title Storage.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, player stats, leaderboards
+keywords: xbox live, xbox, games, uwp, windows 10, xbox one, title storage
 ms.localizationpriority: medium
 ---
-# Player stats
+# Title Storage

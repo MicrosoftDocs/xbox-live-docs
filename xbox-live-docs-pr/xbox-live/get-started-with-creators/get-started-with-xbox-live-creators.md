@@ -1,5 +1,5 @@
 ---
-title: Get started with Xbox Live Creators Program
+title: Get started with the Xbox Live Creators Program
 author: KevinAsgari
 description: Provides links to help you get started with the Xbox Live Creators Program.
 ms.assetid: 2a744405-7ee4-42b4-8f36-9916e8c3a530

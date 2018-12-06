@@ -1,7 +1,7 @@
 ---
-title: Storage Platform
+title: Visual Studio for UWP games
 author: mikehoffms
-description: Storage Platform.
+description: Visual Studio for UWP games
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
@@ -10,4 +10,4 @@ ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
-# Storage Platform
+# Visual Studio for UWP games
