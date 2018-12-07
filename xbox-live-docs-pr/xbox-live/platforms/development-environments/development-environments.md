@@ -17,5 +17,5 @@ ms.localizationpriority: medium
 
 | Topic                                                                                                                                             | Description                                                                                                   |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Setting up Visual Studio](platforms/development-environments/visual-studio-platform.md) | Setting up your development machine and making your first API call when using Visual Studio. |
-| [Setting up Unity](platforms/development-environments/unity-platform.md) | Setting up your development machine and making your first API call when using Unity. |
+| [Setting up Visual Studio](visual-studio-platform.md) | Setting up your development machine and making your first API call when using Visual Studio. |
+| [Setting up Unity](unity-platform.md) | Setting up your development machine and making your first API call when using Unity. |

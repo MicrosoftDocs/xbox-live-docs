@@ -17,7 +17,7 @@ ms.localizationpriority: medium
 
 | Topic                                                                                                                                             | Description                                                                                                   |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Targeting Xbox](platforms/operating-systems/xbox-platform.md) | Setting up your environment and making your first API call when targeting Xbox. |
-| [Targeting Windows](platforms/operating-systems/windows-platform.md) | Setting up your environment and making your first API call when targeting Windows. |
-| [Targeting iOS](platforms/operating-systems/ios-platform.md) | Setting up your environment and making your first API call when targeting iOS. |
-| [Targeting Android](platforms/operating-systems/android-platform.md) | Setting up your environment and making your first API call when targeting Android. |
+| [Targeting Xbox](xbox-platform.md) | Setting up your environment and making your first API call when targeting Xbox. |
+| [Targeting Windows](windows-platform.md) | Setting up your environment and making your first API call when targeting Windows. |
+| [Targeting iOS](ios-platform.md) | Setting up your environment and making your first API call when targeting iOS. |
+| [Targeting Android](android-platform.md) | Setting up your environment and making your first API call when targeting Android. |
