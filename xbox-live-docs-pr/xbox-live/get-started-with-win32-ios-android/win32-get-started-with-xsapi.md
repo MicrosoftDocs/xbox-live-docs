@@ -15,29 +15,17 @@ ms.localizationpriority: medium
 
 In order to use the Xbox Live APIs with a Win32 game, you must include the Xbox Live API source in your project and build it.
 
-## Add the Xbox Live API projects to your Visual Studio solution
+## Add the Xbox Live SDK to your Visual Studio project (using binaries, preferred option)
 
-1. Add the Xbox Live API props file to your solution by clicking **View->Other Windows->Property manager**.
+1. Download the Xbox Live SDK zip package to your local machine, and extract the contents to a local directory
 
-1. Right click your project and select **Add existing property sheet** and select `xsapi.staticlib.props` in the Xbox Live API source root.
+1. Open Visual Studio, go to **Tools > Options > NuGet Package Manager => Package Sources**, and add the local directory to Available package sources.
 
-    This automatically updates your include path and adds references to the Xbox Live APIs and all of the dependencies.
+1. Right click your project and select **Manage NuGet Packages...**
 
-1. Add the following dependency projects to your solution:  
+1. Set the **Package source** to the local folder containing the Xbox Live NuGet packages, and then browse packages.
 
-    For Visual Studio 2017:
-
-    * `Build\Microsoft.Xbox.Services.141.Win32.Cpp\Microsoft.Xbox.Services.141.Win32.Cpp.vcxproj`
-    * `External\xal\Source\Xal\Xal.Core.vcxitems`
-    * `External\xal\Source\Xal\Xal.Platform.Common.vcxitems`
-    * `External\xal\Source\Xal\Xal.Win32.vcxproj`
-    * `External\xal\External\libHttpClient\Build\libcrypto.141.Win32\libcrypto.141.Win32.vcxproj`
-    * `External\xal\External\libHttpClient\Build\libssl.141.Win32\libssl.141.Win32.vcxproj`
-    * `External\xal\External\libHttpClient\Build\libHttpClient.141.Win32.C\libHttpClient.141.Win32.C.vcxproj`
-
-    For Visual Studio 2015:
-
-    * Use the same set of files for 2017, but replace the 141 in the paths with 140.
+1. Select the **Microsoft.Xbox.Live.SDK.Cpp.Win32** package and install it.
 
 1. Include the appropriate services.h file in your app source:
 
@@ -46,10 +34,11 @@ In order to use the Xbox Live APIs with a Win32 game, you must include the Xbox 
 
 ## Samples
 
-Included in the SDK download are Win32 samples for achievements and social, under `{Xbox Live API root}\InProgressSamples\ID@XboxSDK`.
+The Win32 samples for achievements and social can be found in Microsoft.Xbox.Services.VS2017.sln under Win32\Tests folder.
+To build these samples, first build Microsoft.Xbox.Services.Dependency.VS2017.sln
 
 > [!IMPORTANT]
-> The Win32 samples use a C# sign-in app for demonstration purposes, but your actual game should render its own web page for sign-in.
+> The Win32 samples use a trivial C# sign-in test app called TestWebClient for demonstration purposes only, but your actual game should render its own web page for sign-in.
 
 ## Usage differences for the Xbox Live APIs between UWP and Win32
 

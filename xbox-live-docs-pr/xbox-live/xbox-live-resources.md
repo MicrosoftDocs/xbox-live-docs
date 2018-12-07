@@ -1,16 +1,11 @@
 ---
-author: KevinAsgari
 title: Xbox Live resources
 description: Find out where to download important resources for Xbox Live development.
-ms.author: kevinasg
 ms.date: 09/12/2017
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: windows 10, uwp, games, xbox, xbox live, resources, API, reference
 ms.localizationpriority: medium
 ---
-
 # Xbox Live resources
 
 This topic contains links to useful resources for developing Xbox Live games.
@@ -21,7 +16,7 @@ The WinRT SDK API reference can be found online here:
 
 * [Xbox Live WinRT SDK](https://docs.microsoft.com/en-us/dotnet/api/?view=xboxlive-dotnet-2017.11.20171204.01)
 
-The C++ SDK is currently only available in offline format.
+The C++ SDK API reference is currently only available in offline format.
 
 You can download the full API reference documentation (which includes C++ as well as WinRT) at:
 
