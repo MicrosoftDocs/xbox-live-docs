@@ -1,7 +1,7 @@
 ---
 title: Data Platform
 author: mikehoffms
-description: Data Platform.
+description: The Data Platform service manages achievements, player stats, and leaderboards.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article

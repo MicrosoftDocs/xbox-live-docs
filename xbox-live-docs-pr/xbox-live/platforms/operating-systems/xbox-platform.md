@@ -1,7 +1,7 @@
 ---
-title: Xbox platform
+title: Targeting Xbox
 author: mikehoffms
-description: Xbox platform.
+description: Setting up your environment and making your first API call when targeting Xbox.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
@@ -11,4 +11,4 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Xbox platform
+# Targeting Xbox

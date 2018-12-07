@@ -1,7 +1,7 @@
 ---
 author: aablackm
 title: Testing on Xbox One Console
-description: Learn how to test Xbox Live services on the Xbox Live Console
+description: Testing Xbox Live services on the Xbox One console.
 ms.author: aablackm
 ms.date: 08/15/2018
 ms.topic: article
@@ -12,7 +12,7 @@ ms.localizationpriority: low
 ---
 # Testing on the Xbox One console
 
-When developing your title for the Xbox One family of consoles it is only natural that you would want to be able to test your title and Xbox Live features on an actual console. There are a few options for testing your title on hardware. You can use any retail Xbox One Console to test a Universal Windows Platform (UWP) title or app by activating the console's developer mode. This option is accessible to all developers and is the only option for Xbox Live Creators Program Developers. ID@Xbox and managed partners have the option of ordering and using an Xbox Development Kit.
+When developing your title for the Xbox One family of consoles it is only natural that you would want to be able to test your title and Xbox Live features on an actual console. There are a few options for testing your title on hardware. You can use any retail Xbox One Console to test a Universal Windows Platform (UWP) title or app by activating the console's developer mode. This option is accessible to all developers and is the only option for Xbox Live Creators Program Developers. ID@Xbox and managed partners also have the option of ordering and using an Xbox Development Kit.
 
 ## Retail console testing: Xbox Live Creators
 

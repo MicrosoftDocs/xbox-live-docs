@@ -1,7 +1,7 @@
 ---
 title: Xbox Live sandboxes
 author: PhillipLucas
-description: Xbox Live sandboxes introduction
+description: Introduction to Xbox Live sandboxes, configured at Windows Dev Center.
 ms.assetid: e7daf845-e6cb-4561-9dfa-7cfba882f494
 ms.author: kevinasg
 ms.date: 10/30/2017

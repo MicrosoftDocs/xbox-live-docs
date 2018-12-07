@@ -1,7 +1,7 @@
 ---
 title: Platforms
 author: mikehoffms
-description: Xbox Live platforms
+description: Setting up your development machine and making your first API call when using various development environments or targeting various operating systems.
 ms.author: v-mihof
 ms.date: 11-28-2018
 ms.topic: article
@@ -13,10 +13,9 @@ ms.localizationpriority: medium
 
 # Platforms
 
-
+## In this section
 
 | Topic                                                                                                                                             | Description                                                                                                   |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Developer Program Overview](developer-program-overview.md) | Discusses the various developer programs that enable Xbox Live development. |
-| [Get started with Xbox Live Creators Program](get-started-with-creators/get-started-with-xbox-live-creators.md) | How to get started with Xbox Live in the Xbox Live Creators Program. |
-| [Get started with Xbox Live as an ID@Xbox or managed developer](get-started-with-partner/get-started-with-xbox-live-partner.md) | How to get started with Xbox Live as a developer in the ID@Xbox Program. |
+| [Setting up development environments](platforms/development-environments/development-environments.md) | Setting up your development machine and making your first API call when using various development environments. |
+| [Targeting operating systems](platforms/operating-systems/target-operating-systems.md) | Setting up your development machine and making your first API call when targeting various operating systems. |

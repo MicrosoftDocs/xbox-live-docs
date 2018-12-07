@@ -13,10 +13,14 @@ ms.localizationpriority: medium
 
 # Features
 
-
+## In this section
 
 | Topic                                                                                                                                             | Description                                                                                                   |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Developer Program Overview](developer-program-overview.md) | Discusses the various developer programs that enable Xbox Live development. |
-| [Get started with Xbox Live Creators Program](get-started-with-creators/get-started-with-xbox-live-creators.md) | How to get started with Xbox Live in the Xbox Live Creators Program. |
-| [Get started with Xbox Live as an ID@Xbox or managed developer](get-started-with-partner/get-started-with-xbox-live-partner.md) | How to get started with Xbox Live as a developer in the ID@Xbox Program. |
+| [Social Platform](social-platform/social-platform.md) | The Social Platform service is a gaming-oriented social network that includes a user's profile, gamerscore, achievements, clubs, and activity feed. |
+| [Data Platform](data-platform/data-platform.md) | The Data Platform service manages achievements, player stats, and leaderboards. |
+| [Storage Platform](storage-platform/storage-platform.md) | The Storage Platform includes Connected Storage to store game state, and Title Storage to store player statistics. |
+| [Multiplayer Platform](multiplayer/multiplayer-platform.md) | The Multiplayer Platform includes Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat. |
+| [Contextual Search](contextual-search/contextual-search.md) | Contextual Search automatically tags broadcasts and game clips with real-time stats such as ranking, current level, weapons, and K/D ratio. |
+| [Real-Time Activity (RTA) Service](real-time-activity-service/real-time-activity-service.md) | The Real-Time Activity service allows an application on any device to subscribe to state data, user statistics, and presence. |
+| [Tools](tools/tools.md) | Tools to help develop and test your Xbox Live-enabled title. |

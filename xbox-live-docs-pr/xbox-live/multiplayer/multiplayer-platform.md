@@ -1,7 +1,7 @@
 ---
 title: Multiplayer Platform
 author: mikehoffms
-description: Multiplayer Platform.
+description: The Multiplayer Platform includes Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article

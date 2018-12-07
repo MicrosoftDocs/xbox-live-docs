@@ -1,7 +1,7 @@
 ---
 title: Xbox Live sandboxes
 author: KevinAsgari
-description: Learn about sandboxes for Xbox Live development.
+description: Development sandboxes at Windows Dev Center, such as RETAIL.
 ms.assetid: a5acb5bf-dc11-4dff-aa94-6d1f01472d2a
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -25,7 +25,6 @@ By default, Xbox One Consoles and Windows 10 PCs are in the RETAIL sandbox.
 ## Benefits
 
 Development sandboxes offer a few benefits:
-
 
 1. You can iterate on changes to an update for your title without affecting the currently available version.
 2. Some tools only work in a development sandbox for security reasons.

@@ -1,7 +1,7 @@
 ---
 title: API Reference
 author: mikehoffms
-description: Xbox Live API reference
+description: Xbox Live API reference.
 ms.author: v-mihof
 ms.date: 11-28-2018
 ms.topic: article
@@ -13,9 +13,10 @@ ms.localizationpriority: medium
 
 # API Reference
 
+## In this section
 
 | Topic                                                                                                                                             | Description                                                                                                   |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Developer Program Overview](developer-program-overview.md) | Discusses the various developer programs that enable Xbox Live development. |
-| [Get started with Xbox Live Creators Program](get-started-with-creators/get-started-with-xbox-live-creators.md) | How to get started with Xbox Live in the Xbox Live Creators Program. |
-| [Get started with Xbox Live as an ID@Xbox or managed developer](get-started-with-partner/get-started-with-xbox-live-partner.md) | How to get started with Xbox Live as a developer in the ID@Xbox Program. |
+| [API Samples](samples.md) | The available API code samples for Xbox Live. |
+| [Xbox Live RESTful reference](xbox-live-rest/TOC.md) | Xbox Live Services RESTful Reference. |
+| [Xbox Live WinRT SDK API...](https://docs.microsoft.com/en-us/dotnet/api/?view=xboxlive-dotnet-2017.11.20171204.01) | Xbox Live WinRT SDK API Reference, in the .NET API Browser. |

@@ -1,7 +1,7 @@
 ---
 title: Multiplayer Platform overview
 author: KevinAsgari
-description: Learn about the multiplayer platforms that are support by Xbox Live.
+description: The Multiplayer Platform includes Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
 ms.assetid: 958b94b3-dccd-479a-bf52-54f7ff1656fa
 ms.author: kevinasg
 ms.date: 04/04/2017

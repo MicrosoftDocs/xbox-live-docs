@@ -1,7 +1,7 @@
 ---
 title: Managed partners and ID@Xbox developers
 author: mikehoffms
-description: Managed partners and ID@Xbox developers.
+description: High-level steps, from joining ID@Xbox or managed partners, through releasing your game.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article

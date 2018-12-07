@@ -1,7 +1,7 @@
 ---
-title: Unity platform
+title: Setting up Unity
 author: mikehoffms
-description: Unity platform.
+description: Setting up your development machine and making your first API call when using Unity.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: Storage Platform
 author: mikehoffms
-description: Storage Platform.
+description: The Storage Platform includes Connected Storage to store game state, and Title Storage to store player statistics.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
