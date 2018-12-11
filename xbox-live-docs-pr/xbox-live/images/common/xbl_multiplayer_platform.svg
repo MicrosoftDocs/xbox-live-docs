@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>i_multi-connect</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Working-Vers-of-Verticle-Slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="L2---Bucketed-Landing-Template---Feature-Knowledge" transform="translate(-462.000000, -799.000000)">
+            <g id="i_multi-connect" transform="translate(463.000000, 799.000000)">
+                <path d="M10.2295082,24.21875 L31.4754098,7.8125" id="Shape" stroke="#556A8A" stroke-width="2"></path>
+                <path d="M10.2295082,24.21875 L41.704918,28.125" id="Shape" stroke="#556A8A" stroke-width="2"></path>
+                <path d="M27.5409836,44.53125 L10.2295082,24.21875" id="Shape" stroke="#556A8A" stroke-width="2"></path>
+                <ellipse id="Oval" stroke="#556A8A" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="41.704918" cy="28.125" rx="6.29508197" ry="6.25"></ellipse>
+                <ellipse id="Oval" stroke="#556A8A" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="10.2295082" cy="24.21875" rx="10.2295082" ry="10.15625"></ellipse>
+                <ellipse id="Oval" fill="#7ED321" fill-rule="nonzero" cx="31.0819672" cy="8.203125" rx="8.26229508" ry="8.203125"></ellipse>
+                <ellipse id="Oval" fill="#417505" fill-rule="nonzero" cx="27.5409836" cy="44.53125" rx="5.50819672" ry="5.46875"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

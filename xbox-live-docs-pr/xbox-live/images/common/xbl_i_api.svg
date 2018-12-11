@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>i_api</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Screen-States-of-Verticle-Slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="L1---Landing-API-References" transform="translate(-512.000000, -425.000000)">
+            <g id="i_api" transform="translate(513.000000, 426.000000)">
+                <path d="M12.21,48.59 C16.8235423,54.9258799 25.0065413,57.5482186 32.443376,55.0740246 C39.8802107,52.5998305 44.8612628,45.5978843 44.7595821,37.7609329 C44.6579013,29.9239814 39.4968625,23.0536241 31.998339,20.7732093 C24.4998154,18.4927945 16.3876069,21.326556 11.94,27.78" id="Shape" stroke="#556A8A" stroke-width="2"></path>
+                <polyline id="Shape" stroke="#556A8A" stroke-width="2" points="19 39 0 39 0 0 56 0 56 39 45 39"></polyline>
+                <circle id="Oval" fill="#7ED321" fill-rule="nonzero" cx="26.83" cy="38" r="9"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

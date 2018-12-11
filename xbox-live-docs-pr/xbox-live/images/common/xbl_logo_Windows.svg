@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>logo_Windows</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Screen-States-of-Verticle-Slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="L1---Landing---Platforms" transform="translate(-513.000000, -412.000000)" fill="#0078D7" fill-rule="nonzero">
+            <g id="logo_Windows" transform="translate(513.000000, 412.000000)">
+                <polygon id="Shape" points="26 29 26 4.61 0 7.98 0 29"></polygon>
+                <polygon id="Shape" points="28 29 62 29 62 0.09 28 4.51"></polygon>
+                <polygon id="Shape" points="28 31 28 56.55 62 61.18 62 31"></polygon>
+                <polygon id="Shape" points="25.97 31 0 31 0 52.49 25.97 56.14"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
