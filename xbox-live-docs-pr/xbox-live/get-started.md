@@ -17,8 +17,8 @@ ms.localizationpriority: medium
 
 <h2>Get Started</h2>
 <p>Learn how to build your first XBL feature by getting enrolled in a program, setting up a development kit, calling an API.</p>
-<img src="../images/common/enroll_step1_icon.svg" alt="Enroll" />
-<img src="../images/common/setup_step2_icon.svg" alt="Setup" />
+<img src="images/common/enroll_step1_icon.svg" alt="Enroll" />
+<img src="images/common/setup_step2_icon.svg" alt="Setup" />
 
 <h2>Guides</h2>
 <ul class="cardsF panelContent cols cols2">
@@ -29,7 +29,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/common/xbl_real_time_activity_placeholder.svg" alt="Creators Program" />
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Creators Program" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -48,7 +48,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/common/xbl_real_time_activity_placeholder.svg" alt="ID@Xbox Program" />
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="ID@Xbox Program" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -67,7 +67,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/common/xbl_real_time_activity_placeholder.svg" alt="Configure Xbox Live" />
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Configure Xbox Live" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -86,7 +86,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/common/xbl_real_time_activity_placeholder.svg" alt="XBL Sandboxes" />
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="XBL Sandboxes" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -105,7 +105,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/common/xbl_real_time_activity_placeholder.svg" alt="Test Accounts" />
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Test Accounts" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -124,7 +124,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/common/xbl_real_time_activity_placeholder.svg" alt="Test on Xbox One Console" />
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Test on Xbox One Console" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -143,7 +143,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/common/xbl_real_time_activity_placeholder.svg" alt="Use Xbox Live" />
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Use Xbox Live" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -162,7 +162,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/common/xbl_real_time_activity_placeholder.svg" alt="Developer Resources" />
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Developer Resources" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -175,13 +175,13 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="porting-xbox-live-code-from-xdk-to-uwp.md">
+        <a href="using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/common/xbl_real_time_activity_placeholder.svg" alt="Port XBL code from XDK to UWP" />
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Port XBL code from XDK to UWP" />
                         </div>
                     </div>
                     <div class="cardText">
