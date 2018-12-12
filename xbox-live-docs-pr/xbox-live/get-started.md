@@ -218,7 +218,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardText">
                         <h3>Tutorials</h3>
-                        <p><a href="" data-linktype="absolute-path">Connect to SharePoint OnlineXbox Live Samples and Combination Samples</a></p>
+                        <p><a href="" data-linktype="absolute-path">Xbox Live Samples and Combination Samples</a></p>
                      </div>
                 </div>
             </div>
