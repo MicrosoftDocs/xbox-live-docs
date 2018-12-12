@@ -16,11 +16,11 @@ ms.localizationpriority: medium
 <p>Anyone with a Partner Center account can build an Xbox Live enabled Universal Windows Platform (UWP) game that can run on both Windows 10 PCs and Xbox One consoles. For game developers that want to take advantage of the full Xbox Live experience, joining a program yields rich results.</p>
 
 <h2>Get Started</h2>
-<p>Learn how to build your first XBL feature by getting enrolled in a program, setting up a development kit, calling an API.</p><br>
-<table><tr>
-<td><img src="images/common/enroll_step1_icon.svg" alt="Enroll" /><br><b>Enroll</b></td>
-<td><img src="images/common/setup_step2_icon.svg" alt="Setup" /><br><b>Setup</b></td>
-</tr></table>
+<p>Learn how to build your first XBL feature by getting enrolled in a program, setting up a development kit, calling an API.</p>
+<div class="ico46Case halfStack">
+    <div class="ico48Link"><a href=""><img src="images/common/enroll_step1_icon.svg"><span>Enroll</span></a></div>
+    <div class="ico48Link"><a href=""><img src="images/common/setup_step2_icon.svg"><span>Setup</span></a></div>
+</div>
 
 <h2>Guides</h2>
 <ul class="cardsF panelContent cols cols2">

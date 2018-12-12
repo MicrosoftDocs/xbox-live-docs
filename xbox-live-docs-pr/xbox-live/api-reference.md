@@ -16,10 +16,10 @@ ms.localizationpriority: medium
 <p>Xbox Live Services is a set of services for managing games and player information. These services support the Xbox.Services API which should be used whenever possible. Use the RESTful interface described in this section for newer methods that have not be added to Xbox.Services yet.</p>
 
 <h2>Get Started</h2>
-<p>Learn how to build your first XBL feature by getting enrolled in a program, setting up a development kit, calling an API.</p><br>
+<p>Learn how to build your first XBL feature by getting enrolled in a program, setting up a development kit, calling an API.</p>
 <div class="ico46Case halfStack">
     <div class="ico48Link"><a href=""><img src="images/common/enroll_step1_icon.svg"><span>Enroll</span></a></div>
-    <div class="ico48Link"><a href=""><img src="images/common/enroll_step2_icon.svg"><span>Setup</span></a></div>
+    <div class="ico48Link"><a href=""><img src="images/common/setup_step2_icon.svg"><span>Setup</span></a></div>
 </div>
 
 
