@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="63px" viewBox="0 0 63 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>i_data-mining</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Screen-States-of-Verticle-Slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="L1---Landing---Feature-Knowledge" transform="translate(-842.000000, -414.000000)">
+            <g id="Group" transform="translate(747.000000, 405.000000)">
+                <g id="i_data-mining" transform="translate(96.000000, 10.000000)">
+                    <path d="M60.17,48.64 L59.17,48.64 C57.78,41.95 54.64,34.86 49.8,26.85 L41,26.85 L6.93,60.92 L0.93,54.92 L35,20.85 L35,12.09 C27,7.26 19.91,4.09 13.21,2.73 L13.21,1.68 C22,-0.39 36.93,1.33 46.07,7.57 L51,4.85 L57,10.85 L54.28,15.78 C60.51,24.92 62.24,39.86 60.17,48.64 Z" id="Shape" fill="#417505" fill-rule="nonzero"></path>
+                    <path d="M60.17,48.64 C53.57,6.35 22.62,2.42 13.17,2.22 L13.17,1.68 C22,-0.39 36.93,1.33 46.07,7.57 L51,4.85 L57,10.85 L54.28,15.78 C60.51,24.92 62.24,39.86 60.17,48.64 Z" id="Shape" fill="#7ED321" fill-rule="nonzero"></path>
+                    <path d="M54.28,15.78 L57,10.85 L51,4.85 L46.06,7.57 C36.93,1.33 22,-0.39 13.21,1.68 L13.21,2.73 C19.9,4.11 27,7.26 35,12.09 L35,20.85 L0.92,54.92 L6.92,60.92 L41,26.85 L49.76,26.85 C54.6,34.85 57.76,41.95 59.13,48.64 L60.13,48.64 C62.24,39.86 60.51,24.92 54.28,15.78 Z" id="icon_bg" stroke="#556A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

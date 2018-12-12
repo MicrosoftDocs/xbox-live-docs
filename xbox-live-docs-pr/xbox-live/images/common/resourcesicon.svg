@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="60px" viewBox="0 0 64 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>resourcesicon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Screen-States-of-Verticle-Slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="L1---Landing---Getting-Started" transform="translate(-455.000000, -982.000000)" fill-rule="nonzero">
+            <g id="resourcesicon" transform="translate(456.000000, 982.000000)">
+                <polygon id="Shape" stroke="#556A8A" stroke-width="2" fill="#FFFFFF" points="0 5 0 59 62 59 62 5"></polygon>
+                <path d="M37.5,1 C34.9785679,0.904576235 32.5632408,2.01934256 31,4 C29.4367592,2.01934256 27.0214321,0.904576235 24.5,1 L7,1 L7,52 L24.5,52 C26.434285,52.0706047 28.249355,52.9527287 29.5,54.43 C30.15,55.16 31,56 31,56 C31,56 31.85,55.16 32.5,54.43 C33.750645,52.9527287 35.565715,52.0706047 37.5,52 L55,52 L55,1 L37.5,1 Z" id="Shape" stroke="#556A8A" stroke-width="2" fill="#FFFFFF"></path>
+                <rect id="Rectangle-path" fill="#B8E986" x="8" y="2" width="8" height="49"></rect>
+                <rect id="Rectangle-path" fill="#B8E986" x="46" y="2" width="8" height="49"></rect>
+                <path d="M32,4.34 L32,53.5 L31.75,53.77 L31,54.57 C30.76,54.32 30.49,54.04 30.25,53.77 L30,53.5 L30,4.33 L32,4.34 Z" id="Shape" fill="#7ED321"></path>
+            </g>
+        </g>
+    </g>
+</svg>
