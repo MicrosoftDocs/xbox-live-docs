@@ -17,8 +17,10 @@ ms.localizationpriority: medium
 
 <h2>Get Started</h2>
 <p>Learn how to build your first XBL feature by getting enrolled in a program, setting up a development kit, calling an API.</p><br>
-<img src="images/common/enroll_step1_icon.svg" alt="Enroll" /><br>**Enroll**
-<img src="images/common/setup_step2_icon.svg" alt="Setup" /><br>**Setup**
+<table><tr>
+<td><img src="images/common/enroll_step1_icon.svg" alt="Enroll" /><br><b>Enroll</b></td>
+<td><img src="images/common/setup_step2_icon.svg" alt="Setup" /><br><b>Setup</b></td>
+</tr></table>
 
 <h2>Guides</h2>
 <ul class="cardsF panelContent cols cols2">
