@@ -17,13 +17,13 @@ ms.localizationpriority: medium
 
 <h2>Get Started</h2>
 <p>Learn how to build your first XBL feature by getting enrolled in a program, setting up a development kit, calling an API.</p>
-<div class="ico46Case halfStack">
+<div class="ico48Case halfStack">
     <div class="ico48Link"><a href=""><img src="images/common/enroll_step1_icon.svg"><span>Enroll</span></a></div>
     <div class="ico48Link"><a href=""><img src="images/common/setup_step2_icon.svg"><span>Setup</span></a></div>
 </div>
 
 
-<h2>Universal Resources Identifier (URI) Reference</h2>
+<h2>Overview of API References</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
         <a href="">
@@ -36,7 +36,8 @@ ms.localizationpriority: medium
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Provides reference material for the resources and methods that can be used with Xbox Live Services.</p>
+                        <h3>Universal Resources Identifier (URI) Reference</h3>
+                        <p>Provides reference material for the resources and methods that can be used with Xbox Live Services.</p>
                     </div>
                 </div>
             </div>
