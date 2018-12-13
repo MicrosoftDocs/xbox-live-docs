@@ -91,13 +91,13 @@ ms.localizationpriority: medium
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="media/index/azure_dev-1.svg" alt="" />
+                                                    <img src="images/common/xbl_if_xbox_395436.svg" alt="Creator Program" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
                                                 <h3>Creator Program</h3>
                                                 <p>
-                                                    <a href="">Get started</a>
+                                                    <a href="get-started.md">Get Started</a>
                                                 </p>
                                                 <p>
                                                     <a href="">Overview</a>
@@ -113,13 +113,13 @@ ms.localizationpriority: medium
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="media/index/azure_dev-2.svg" alt="" />
+                                                    <img src="images/common/xbl_if_xbox_395630..svg" alt="ID@XBOX Program" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
                                                 <h3>ID@XBOX Program</h3>
                                                 <p>
-                                                    <a href="">Get started</a>
+                                                    <a href="get-started.md">Get Started</a>
                                                 </p>
                                                 <p>
                                                     <a href="">Overview</a>
@@ -140,13 +140,13 @@ ms.localizationpriority: medium
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="media/index/azure_dev-7.svg" alt="" />
+                                                    <img src="images/common/xbl_ICONS-64x.svg" alt="Configure XBL" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
                                                 <h3>Configure XBL</h3>
                                                 <p>
-                                                    <a href="">Get Started</a>
+                                                    <a href="get-started.md">Get Started</a>
                                                 </p>
                                                 <p>
                                                     <a href="">Overview</a>
@@ -162,16 +162,16 @@ ms.localizationpriority: medium
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="media/index/azure_dev-7.svg" alt="" />
+                                                    <img src="images/common/xblsandboxicon.svg" alt="XBL Sandboxes" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
                                                 <h3>XBL Sandboxes</h3>
                                                 <p>
-                                                    <a href="">Get Started</a>
+                                                    <a href="get-started.md">Get Started</a>
                                                 </p>
                                                 <p>
-                                                    <a href="">Overview</a>
+                                                    <a href="xbox-live-sandboxes.md">Overview</a>
                                                 </p>
                                             </div>
                                         </div>
@@ -184,16 +184,16 @@ ms.localizationpriority: medium
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="media/index/azure_dev-7.svg" alt="" />
+                                                    <img src="images/common/xblsandboxicon.svg" alt="Create Test Accounts" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
                                                 <h3>Create Test Accounts</h3>
                                                 <p>
-                                                    <a href="">Get Started</a>
+                                                    <a href="get-started.md">Get Started</a>
                                                 </p>
                                                 <p>
-                                                    <a href="">Overview</a>
+                                                    <a href="xbox-live-test-accounts.md">Overview</a>
                                                 </p>
                                             </div>
                                         </div>
@@ -206,16 +206,16 @@ ms.localizationpriority: medium
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="media/index/azure_dev-7.svg" alt="" />
+                                                    <img src="images/common/testonxboxoneicon.svg" alt=">Test on Xbox One Console" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
                                                 <h3>Test on Xbox One Console</h3>
                                                 <p>
-                                                    <a href="">Get Started</a>
+                                                    <a href="get-started.md">Get Started</a>
                                                 </p>
                                                 <p>
-                                                    <a href="">Overview</a>
+                                                    <a href="testing-on-console.md">Overview</a>
                                                 </p>
                                             </div>
                                         </div>
@@ -233,16 +233,16 @@ ms.localizationpriority: medium
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="media/index/azure_dev-7.svg" alt="" />
+                                                    <img src="images/common/toolsicon.svg" alt="Use XBL" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
                                                 <h3>Use XBL</h3>
                                                 <p>
-                                                    <a href="">Get Started</a>
+                                                    <a href="get-started.md">Get Started</a>
                                                 </p>
                                                 <p>
-                                                    <a href="">Overview</a>
+                                                    <a href="using-xbox- live.md">Overview</a>
                                                 </p>
                                             </div>
                                         </div>
@@ -255,16 +255,16 @@ ms.localizationpriority: medium
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="media/index/azure_dev-7.svg" alt="" />
+                                                    <img src="images/common/resourcesicon.svg" alt="Developer Resources" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
                                                 <h3>Developer Resources</h3>
                                                 <p>
-                                                    <a href="">Get Started</a>
+                                                    <a href="get-started.md">Get Started</a>
                                                 </p>
                                                 <p>
-                                                    <a href="">Overview</a>
+                                                    <a href="xbox-live-resources.md">Overview</a>
                                                 </p>
                                             </div>
                                         </div>
@@ -277,16 +277,16 @@ ms.localizationpriority: medium
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="media/index/azure_dev-7.svg" alt="" />
+                                                    <img src="images/common/portingcodeicon.svg" alt="Porting XBL Code" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
                                                 <h3>Porting XBL Code</h3>
                                                 <p>
-                                                    <a href="">Get Started</a>
+                                                    <a href="get-started.md">Get Started</a>
                                                 </p>
                                                 <p>
-                                                    <a href="">Overview</a>
+                                                    <a href="porting-xbox- live-code-from-xdk-to-uwp.md">Overview</a>
                                                 </p>
                                             </div>
                                         </div>
