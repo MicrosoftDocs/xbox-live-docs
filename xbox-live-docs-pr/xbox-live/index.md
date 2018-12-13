@@ -22,7 +22,7 @@ ms.localizationpriority: medium
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="images/common/xbl_i_code-samples.svg" src="images/common/xbl_i_code-samples.svg" alt="" />
+                                        <img src="images/common/xbl_i_code-samples.svg" alt="Explore XBL Documentation Story" />
                                     </div>
                                 </div>
                                 <div class="cardText">
@@ -40,7 +40,7 @@ ms.localizationpriority: medium
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="images/common/xbl_i_virtual-training.svg" src="images/common/xbl_i_virtual-training.svg" alt="" />
+                                        <img src="images/common/xbl_i_virtual-training.svg" alt="Xbox Live University" />
                                     </div>
                                 </div>
                                 <div class="cardText">
@@ -58,7 +58,7 @@ ms.localizationpriority: medium
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="images/common/xbl_i_delivery.svg" src="images/common/xbl_i_delivery.svg" alt="" />
+                                        <img src="images/common/xbl_i_delivery.svg" alt="Free Azure Courses from Pluralsight" />
                                     </div>
                                 </div>
                                 <div class="cardText">
@@ -91,7 +91,7 @@ ms.localizationpriority: medium
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="images/common/xbl_if_xbox_395436.svg" alt="Creator Program" />
+                                                    <img src="images/common/xbl_if_xbox_395630.svg" alt="Creator Program" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -113,7 +113,7 @@ ms.localizationpriority: medium
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="images/common/xbl_if_xbox_395630..svg" alt="ID@XBOX Program" />
+                                                    <img src="images/common/xbl_if_xbox_395630.svg" alt="ID@XBOX Program" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -140,7 +140,7 @@ ms.localizationpriority: medium
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="images/common/xbl_ICONS-64x.svg" alt="Configure XBL" />
+                                                    <img src="images/common/xbl_icon-64x.svg" alt="Configure XBL" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -298,5 +298,6 @@ ms.localizationpriority: medium
                 </ul>
             </li>
         </ul>
-    </div>    
+    </div>
+
 </div>
