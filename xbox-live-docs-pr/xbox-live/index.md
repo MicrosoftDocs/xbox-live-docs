@@ -564,6 +564,149 @@ ms.localizationpriority: medium
                     </li>
                 </ul>
             </li>
+            <li>
+                <a href="#platforms">Platforms</a>
+                <ul id="platforms">
+                    <li>
+                        <a href="#platforms-all"></a>
+                        <ul id="platforms-all" class="cardsA">
+                            <li>
+                                <a href="platforms.md">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xbl_i_whats-new.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Platforms</h3>
+                                                    <p>The Xbox Live Creators Program allows you to quickly and directly publish your games to Xbox One and Windows 10, with a simplified certification process and no concept approval required.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xbl_logo_Windows.svg" alt="PC" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>PC</h3>
+                                                    <p>Buid a title specific for the Windows platform.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xbl_Xbox_logo.svg" alt="XBox" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Xbox</h3>
+                                                    <p>Build a title specific for the Xbox console.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xbl_logo_ios.svg" alt="iOS Platform" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>iOS Platform</h3>
+                                                    <p>Create powerful gaming experiences on iOS.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xbl_logo_android_black.svg" alt="Android Platform" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Android Platform</h3>
+                                                    <p>Create powerful gaming experineces on Android.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xbl_unity logo.svg" alt="Unity" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Unity</h3>
+                                                    <p>Intigrate XBL title with the Unity game engine.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xbl_visual-studio.svg" alt="Visual Studio" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Visual Studio</h3>
+                                                    <p>Leveraging Visual Studio to build a title.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
         </ul>
     </div>
 </div>
