@@ -78,7 +78,6 @@ ms.localizationpriority: medium
                 <a href="#getstarted">Get Started</a>
                 <ul id="getstarted">
                     <li>
-                        <a href="#getstarted-all">all</a>
                         <ul id="getstarted-all" class="cardsF">
                             <li>
                                 <div class="container">
@@ -292,6 +291,148 @@ ms.localizationpriority: medium
                                         </div>
                                     </div>
                                 </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#feature">Feature Knowledge</a>
+                <ul id="feature">
+                    <li>
+                        <ul id="feature-all" class="cardsA">
+                            <li>
+                                <a href="features.md">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xbl_i_whats-new.svg" alt="Feature Knowledge" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Feature Knowledge</h3>
+                                                    <p>The Xbox Live Creators Program allows you to quickly and directly publish your games to Xbox One and Windows 10, with a simplified certification process and no concept approval required.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xbl_socialplatform.svg" alt="FSocial Platform" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Social Platform</h3>
+                                                    <p>Tools to enhance the social aspect of any XBL experience.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xbl_i_data-mining.svg" alt="Data Platform" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Data Platform</h3>
+                                                    <p>Provision any title to run as a service while incorporating engagement driving features.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xbl_storage_platform.svg" alt="Storage Platform" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Storage Platform</h3>
+                                                    <p>Enable global title data and player specific data in the cloud.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xbl_multiplayer icon.svg" alt="Multiplayer Platform" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Multiplayer Platform</h3>
+                                                    <p>Utilize a set of client API’s to impliment real-time multiplayer gameplay.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xbl_contextual_search.svg" alt="Contextual Search" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Contextual Search</h3>
+                                                    <p>Automatically tag broadcasts and game clips from a title with real time stats.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xxbl_real_time_activity.svg" alt="Real Time Activity Search" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Real Time Activity Search</h3>
+                                                    <p>Allow an application on any device to subscribe to state data, user statistics, and presence.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
                             </li>
                         </ul>
                     </li>
