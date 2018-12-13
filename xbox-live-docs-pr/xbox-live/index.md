@@ -72,7 +72,7 @@ ms.localizationpriority: medium
         </ul>
     </div>
     <div class="container">
-        <h1 class="visually-hidden">Xbox Live developer guide</h1>
+        <h1>Microsoft Xbox Live Documentation</h1>
         <ul class="pivots">
             <li>
                 <a href="#getstarted">Get Started</a>
