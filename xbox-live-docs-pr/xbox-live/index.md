@@ -329,7 +329,7 @@ ms.localizationpriority: medium
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/common/xbl_socialplatform.svg" alt="FSocial Platform" />
+                                                        <img src="images/common/xbl_socialplatform.svg" alt="Social Platform" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -424,7 +424,7 @@ ms.localizationpriority: medium
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/common/xxbl_real_time_activity.svg" alt="Real Time Activity Search" />
+                                                        <img src="images/common/xbl_real_time_activity.svg" alt="Real Time Activity Search" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -440,7 +440,130 @@ ms.localizationpriority: medium
                     </li>
                 </ul>
             </li>
+            <li>
+                <a href="#tutorials">Tutorials</a>
+                <ul id="tutorials">
+                    <li>
+                        <a href="#tutorials-all"></a>
+                        <ul id="tutorials-all" class="cardsA">
+                            <li>
+                                <a href="tutorials.md">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xbl_i_whats-new.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Tutorials</h3>
+                                                    <p>The Xbox Live Creators Program allows you to quickly and directly publish your games to Xbox One and Windows 10, with a simplified certification process and no concept approval required.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xboxliveicon.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>XBL Services tutorial A</h3>
+                                                    <p>Boilerplate tutorial description A.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xboxliveicon.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>XBL Services tutorial B</h3>
+                                                    <p>Boilerplate tutorial description B.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xboxliveicon.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>XBL Services tutorial C</h3>
+                                                    <p>Boilerplate tutorial description C.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xbl_and_pf_i.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>XBL and Playfab tutorial A</h3>
+                                                    <p>Boilerplate tutorial description A.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xbl_and_pf_i.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>XBL and Playfab tutorial B</h3>
+                                                    <p>Boilerplate tutorial description B.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
         </ul>
     </div>
-
 </div>
