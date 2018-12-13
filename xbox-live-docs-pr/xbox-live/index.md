@@ -707,6 +707,111 @@ ms.localizationpriority: medium
                     </li>
                 </ul>
             </li>
+            <li>
+                <a href="#api">API-References</a>
+                <ul id="api">
+                    <li>
+                        <a href="#api-all"></a>
+                        <ul id="api-all" class="cardsA">
+                            <li>
+                                <a href="api-reference.md">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xbl_i_whats-new.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>API-References</h3>
+                                                    <p>The Xbox Live Creators Program allows you to quickly and directly publish your games to Xbox One and Windows 10, with a simplified certification process and no concept approval required.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xbl_i_api.svg" alt="Universal Resource Identifier" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Universal Resource Identifier</h3>
+                                                    <p>Dive deeper into Universal Resource Identifiers and Hypertext Transport Protocols used by XBL services.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xbl_i_api-reference.svg" alt="JavaScript Object Notion" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>JavaScript Object Notion</h3>
+                                                    <p>Detailed specifics on each JSON utilzed by XBL services.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xbl_i_api-reference2.svg" alt="Enumerations Used in JSON " />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Enumerations Used in JSON </h3>
+                                                    <p>Explore defined JSON objects that are used in request to, and reponces from, XBL services.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img src="images/common/xbl_logo_git-blk.svg" alt="Additional RESTful Resources" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Additional RESTful Resources</h3>
+                                                    <p>Reference material that includes Entertainment Discover Services (EDS).</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
         </ul>
     </div>
 </div>
