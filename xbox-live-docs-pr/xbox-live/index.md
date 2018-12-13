@@ -78,6 +78,7 @@ ms.localizationpriority: medium
                 <a href="#getstarted">Get Started</a>
                 <ul id="getstarted">
                     <li>
+                        <a href="#getstarted-all"></a>
                         <ul id="getstarted-all" class="cardsF">
                             <li>
                                 <div class="container">
@@ -300,6 +301,7 @@ ms.localizationpriority: medium
                 <a href="#feature">Feature Knowledge</a>
                 <ul id="feature">
                     <li>
+                        <a href="#feature-all"></a>
                         <ul id="feature-all" class="cardsA">
                             <li>
                                 <a href="features.md">
