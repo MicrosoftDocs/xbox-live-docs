@@ -71,3 +71,232 @@ ms.localizationpriority: medium
             </li>
         </ul>
     </div>
+    <div class="container">
+        <h1 class="visually-hidden">Xbox Live developer guide</h1>
+        <ul class="pivots">
+            <li>
+                <a href="#getstarted">Get Started</a>
+                <ul id="getstarted">
+                    <li>
+                        <a href="#getstarted-all">all</a>
+                        <ul id="getstarted-all" class="cardsF">
+                            <li>
+                                <div class="container">
+                                    <h2>Program Overviews</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="media/index/azure_dev-1.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Creator Program</h3>
+                                                <p>
+                                                    <a href="">Get started</a>
+                                                </p>
+                                                <p>
+                                                    <a href="">Overview</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="media/index/azure_dev-2.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>ID@XBOX Program</h3>
+                                                <p>
+                                                    <a href="">Get started</a>
+                                                </p>
+                                                <p>
+                                                    <a href="">Overview</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="container">
+                                    <h2>Configuration and Testing</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="media/index/azure_dev-7.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Configure XBL</h3>
+                                                <p>
+                                                    <a href="">Get Started</a>
+                                                </p>
+                                                <p>
+                                                    <a href="">Overview</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="media/index/azure_dev-7.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>XBL Sandboxes</h3>
+                                                <p>
+                                                    <a href="">Get Started</a>
+                                                </p>
+                                                <p>
+                                                    <a href="">Overview</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="media/index/azure_dev-7.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Create Test Accounts</h3>
+                                                <p>
+                                                    <a href="">Get Started</a>
+                                                </p>
+                                                <p>
+                                                    <a href="">Overview</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="media/index/azure_dev-7.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Test on Xbox One Console</h3>
+                                                <p>
+                                                    <a href="">Get Started</a>
+                                                </p>
+                                                <p>
+                                                    <a href="">Overview</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="container">
+                                    <h2>Tools</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="media/index/azure_dev-7.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Use XBL</h3>
+                                                <p>
+                                                    <a href="">Get Started</a>
+                                                </p>
+                                                <p>
+                                                    <a href="">Overview</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="media/index/azure_dev-7.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Developer Resources</h3>
+                                                <p>
+                                                    <a href="">Get Started</a>
+                                                </p>
+                                                <p>
+                                                    <a href="">Overview</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="media/index/azure_dev-7.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Porting XBL Code</h3>
+                                                <p>
+                                                    <a href="">Get Started</a>
+                                                </p>
+                                                <p>
+                                                    <a href="">Overview</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>    
+</div>
