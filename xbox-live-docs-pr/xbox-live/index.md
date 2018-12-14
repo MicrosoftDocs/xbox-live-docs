@@ -472,7 +472,7 @@ ms.localizationpriority: medium
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/common/xboxliveiconx64.svg" alt="" />
+                                                        <img src="images/common/xbl_Xbox_logo.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -491,7 +491,7 @@ ms.localizationpriority: medium
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/common/xboxliveiconx64.svg" alt="" />
+                                                        <img src="images/common/xbl_Xbox_logo.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -510,7 +510,7 @@ ms.localizationpriority: medium
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/common/xboxliveiconx64.svg" alt="" />
+                                                        <img src="images/common/xbl_Xbox_logo.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -529,7 +529,7 @@ ms.localizationpriority: medium
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/common/xbl_and_pf_ix64.svg" alt="" />
+                                                        <img src="images/common/xbl_Xbox_logo.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -548,7 +548,7 @@ ms.localizationpriority: medium
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/common/xbl_and_pf_ix64.svg" alt="" />
+                                                        <img src="images/common/xbl_Xbox_logo.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
