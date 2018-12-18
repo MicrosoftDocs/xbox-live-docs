@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>i_api-reference</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Screen-States-of-Verticle-Slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="L1---Landing-API-References" transform="translate(-1151.000000, -410.000000)">
+            <g id="i_api-reference" transform="translate(1152.000000, 411.000000)">
+                <path d="M62,31 C62,48.1208272 48.1208272,62 31,62 C13.8791728,62 2.22044605e-15,48.1208272 0,31 C-2.10942375e-15,13.8791728 13.8791728,3.33066907e-15 31,0 C39.2217112,-1.33226763e-15 47.1066825,3.26606205 52.9203102,9.07968978 C58.7339379,14.8933175 62,22.7782888 62,31 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M47.5,46.5 C47.5,63.6208272 33.6208272,77.5 16.5,77.5 L16.5,15.5 C33.6208272,15.5 47.5,29.3791728 47.5,46.5 Z" id="Shape" fill="#B8E986" fill-rule="nonzero" transform="translate(32.000000, 46.500000) rotate(90.000000) translate(-32.000000, -46.500000) "></path>
+                <path d="M62,31 C62,48.1208272 48.1208272,62 31,62 C13.8791728,62 2.22044605e-15,48.1208272 0,31 C-2.10942375e-15,13.8791728 13.8791728,3.33066907e-15 31,0 C39.2217112,-1.33226763e-15 47.1066825,3.26606205 52.9203102,9.07968978 C58.7339379,14.8933175 62,22.7782888 62,31 Z" id="Shape" stroke="#556A8A" stroke-width="2"></path>
+                <path d="M21,48.12 C24.3990459,52.1024008 29.9198461,53.5444768 34.8322725,51.7330971 C39.7446989,49.9217174 43.0077219,45.2407453 43.0077219,40.005 C43.0077219,34.7692547 39.7446989,30.0882826 34.8322725,28.2769029 C29.9198461,26.4655232 24.3990459,27.9075992 21,31.89" id="Shape" stroke="#556A8A" stroke-width="2"></path>
+                <polyline id="Shape" stroke="#556A8A" stroke-width="2" points="28 40 12 40 12 14 50 14 50 40 42 40"></polyline>
+                <circle id="Oval" fill="#7ED321" fill-rule="nonzero" cx="31.44" cy="40" r="6.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

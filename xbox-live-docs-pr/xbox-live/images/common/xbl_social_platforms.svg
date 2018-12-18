@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="49px" viewBox="0 0 49 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>i_configure-teams</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Working-Vers-of-Verticle-Slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="L2---Bucketed-Landing-Template---Feature-Knowledge" transform="translate(-463.000000, -637.000000)">
+            <g id="i_configure-teams" transform="translate(463.000000, 637.000000)">
+                <rect id="Rectangle-path" fill="#7ED321" fill-rule="nonzero" x="8.25" y="0" width="1.5" height="18"></rect>
+                <g id="Group" transform="translate(19.500000, 0.750000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#556A8A" stroke-width="2">
+                    <circle id="Oval" cx="13.875" cy="9.5625" r="9.1875"></circle>
+                    <path d="M0,32.25 C0.106963521,24.6920705 6.31697655,18.6498957 13.875,18.75 C21.4330235,18.6498957 27.6430365,24.6920705 27.75,32.25" id="Shape"></path>
+                </g>
+                <rect id="Rectangle-path" fill="#7ED321" fill-rule="nonzero" x="0" y="8.25" width="18" height="1.5"></rect>
+                <g id="Group" transform="translate(3.750000, 15.750000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#556A8A" stroke-width="2">
+                    <circle id="Oval" cx="14.1" cy="9.5625" r="9.1875"></circle>
+                    <path d="M0.225,32.25 C0.331963521,24.6920705 6.54197655,18.6498957 14.1,18.75 C21.6580235,18.6498957 27.8680365,24.6920705 27.975,32.25" id="Shape"></path>
+                </g>
+                <rect id="Rectangle-path" x="0" y="0" width="48" height="48"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="43px" viewBox="0 0 65 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>i_virtual-training</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Screen-States-of-Verticle-Slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing---Home" transform="translate(-571.000000, -174.000000)">
+            <g id="i_virtual-training" transform="translate(572.000000, 175.000000)">
+                <path d="M62,27.41 C61.9977977,23.7670099 60.284338,20.3366674 57.3730149,18.1467863 C54.4616918,15.9569052 50.6907296,15.2618959 47.19,16.27 C47.3729987,15.4898014 47.4669322,14.6913669 47.47,13.89 C47.47,8 43.89,11 38,11 C35.91,11 32,7 31.14,4.9 C28.9972524,1.87361749 25.5377711,0.0528378344 21.83,0 C15.83,0 10.76,5 9.83,11.52 C4.16,12.83 0,18.49 0,25.09 C0,31.69 4.84,41.9 17.44,40.94 C17.44,40.94 49.31,40.94 49.44,40.94 C49.57,40.94 62,40.94 62,27.41 Z" id="Shape" stroke="#556A8A" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <rect id="Rectangle-path" fill="#556A8A" fill-rule="nonzero" x="20" y="12" width="2" height="15" rx="0.5"></rect>
+                <path d="M60.65,11.18 L40,3 L18.37,11.18 L25,14.1 L25,25.57 C25,29.63 32.1,33.05 40,33.05 C47.9,33.05 54,29.62 54,25.4 L54,13.93 L60.65,11.18 Z" id="Shape" fill="#E5E5E5" fill-rule="nonzero"></path>
+                <path d="M40.3,20.12 L25,14.1 L25,25.57 C25,29.63 32.1,33.05 40,33.05 C47.9,33.05 54,29.62 54,25.4 L54,13.93 L40.3,20.12 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M60.65,11.18 L40,3 L18.37,11.18 L25,14.1 L25,25.57 C25,29.63 32.1,33.05 40,33.05 C47.9,33.05 54,29.62 54,25.4 L54,13.93 L60.65,11.18 Z" id="Shape" stroke="#556A8A" stroke-width="2"></path>
+                <path d="M19,30 L19,27.08 C19,25.48 19.72,24 20.6,24 L21.4,24 C22.28,24 23,25.48 23,27.08 L23,30 L19,30 Z" id="Shape" fill="#556A8A" fill-rule="nonzero"></path>
+                <polygon id="Shape" fill="#7ED321" fill-rule="nonzero" points="53 15 40 20.15 26 15 26 18.41 40 23.95 53 18.41"></polygon>
+                <polyline id="Shape" stroke="#556A8A" stroke-width="2" points="24.06 13.73 40 20 54.08 13.93"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="64px" viewBox="0 0 45 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>toolsicon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Screen-States-of-Verticle-Slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="L1---Landing---Getting-Started" transform="translate(-88.000000, -980.000000)" fill-rule="nonzero">
+            <g id="toolsicon" transform="translate(89.000000, 981.000000)">
+                <path d="M44,35 L39,35 L39,14 L42,10 L39,0 L35,0 L32,10 L35,14 L35,35 L30,35 L30,41 L33,41 C33,43 31,45 30,45.08 L30,57.5 C30,60.8 32,63 34,63 L40,63 C42,63 44,60.3 44,57 L44,45 C43,45 41,43 41,41 L44,41 L44,35 Z" id="Shape" fill="#7ED321"></path>
+                <rect id="Rectangle-path" fill="#FFFFFF" x="34" y="44" width="2" height="17"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" x="38" y="44" width="2" height="17"></rect>
+                <path d="M24,12 C24.0005036,7.30748972 21.2657703,3.0452126 17,1.09 L17,9 L12,13 L7,9 L7,1.09 C2.73903321,3.04683716 0.00809095365,7.30617822 0.00809095365,11.995 C0.00809095365,16.6838218 2.73903321,20.9431628 7,22.9 L7,58 C7,60.209139 8.790861,62 11,62 L12,62 C14.209139,62 16,60.209139 16,58 L16,23.3 C20.7898174,21.6065476 23.9941951,17.080364 24,12 Z" id="Shape" stroke="#556A8A" stroke-width="2" fill="#FFFFFF"></path>
+                <rect id="Rectangle-path" fill="#E5E5E5" x="8" y="52" width="7" height="5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
