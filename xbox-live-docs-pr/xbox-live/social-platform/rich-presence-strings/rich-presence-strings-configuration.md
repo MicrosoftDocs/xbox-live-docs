@@ -1,7 +1,7 @@
 ---
 title: Rich Presence configuration
 author: KevinAsgari
-description: Learn how to configure Xbox Live Rich Presence strings.
+description: Configuring Rich Presence strings.
 ms.assetid: 7b08d46d-d3aa-42eb-93f2-ecd9338fccea
 ms.author: kevinasg
 ms.date: 04/04/2017

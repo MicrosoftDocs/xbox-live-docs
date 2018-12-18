@@ -1,7 +1,7 @@
 ---
-title: RTA Best Practices
+title: Best Practices for the RTA service
 author: KevinAsgari
-description: Learn about the best practices when using the Xbox Live Real-Time Acitivity service.
+description: Best practices for using the Real Time Activity (RTA) service.
 ms.assetid: 543b78e3-d06b-4969-95db-2cb996a8bbd3
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -12,8 +12,9 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, real time activity
 ms.localizationpriority: medium
 ---
 
-# Real Time Activity (RTA) Best Practices
-These best practices will help you make the most out of your title's use of RTA.
+# Best Practices for the RTA service
+
+These best practices will help you make the most out of your title's use of the Real Time Activity (RTA) service.
 
 
 ## The Basics
@@ -27,7 +28,7 @@ When your title doesn't require real-time updates on a statistic, it should term
 
 ## Handling Disconnects
 
-Titles should be aware that when the authentication token for the user expires, their session will be terminated by the service. The title needs to be capable of detecting when such event happens, reconnect and re-subscribe to all the statistics it was previously subscribed to.
+A title should be aware that when the authentication token for the user expires, the session will be terminated by the service. The title needs to be capable of detecting when such event happens, reconnect and re-subscribe to all the statistics it was previously subscribed to.
 
 A client could also get disconnected due to a user's ISP having issues or when the process for the title is suspended. When this happens, a WebSocket event is raised to let the client know. In general, it is best practice to be able to handle disconnects from the service.
 

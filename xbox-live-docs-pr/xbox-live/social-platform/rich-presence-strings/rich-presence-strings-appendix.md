@@ -1,7 +1,7 @@
 ---
 title: Rich Presence appendix
 author: KevinAsgari
-description: Learn about using the Xbox Live Data Platform to enhance Rich Presence strings.
+description: Using stats from the data platform in Rich Presence strings.
 ms.assetid: 626c1661-3be9-49e4-a5ce-d3f5abd79a9b
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 
 ## Data Platform
 
-The basics of the data platform are part of the Entertainment as a Service initiative. The idea is that everything in a game can be described as events with attributes associated with those events. Developers can configure statistics and state values important to the game's experience in the service.
+The basics of the data platform are part of the Entertainment as a Service initiative. The idea is that everything in a game can be described as events, with attributes associated with those events. Developers can configure statistics and state values important to the game's experience in the service.
 
 Some example statistics are:
 

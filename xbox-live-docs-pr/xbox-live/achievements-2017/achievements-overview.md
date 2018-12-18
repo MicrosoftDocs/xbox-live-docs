@@ -1,7 +1,7 @@
 ---
 title: Achievements overview
 author: KevinAsgari
-description: Achievements overview.
+description: Achievements includes Gamerscore and other rewards such as digital artwork, new maps, characters, and stat boosts.
 ms.assetid: 35e055c2-3c84-4d73-bb86-fc776327d901
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -14,9 +14,11 @@ ms.localizationpriority: medium
 
 # Achievements overview
 
+Achievements includes Gamerscore and other rewards such as digital artwork, new maps, characters, and stat boosts.
+
 In 2005, Xbox LIVE introduced the gaming industry to the notion of an achievement, a system-wide mechanism for directing and rewarding users' in-game actions in a consistent manner across all games.
 
-With Xbox One, the achievement system expands to engage users across a broader range of activities, devices, and scenarios. Achievements are now more inclusive, more social, and more engaging than ever before! Developers and publishers can create achievements with new achievement types and rewards that go beyond Gamerscore. Gamerscore is still a key reward, however, so developers can now add more achievements and gamerscore over the lifetime of the title, even without a new content release. Across the board, achievements on Xbox One have been reimagined to give service-like flexibility to titles.
+With Xbox One, the achievement system expands to engage users across a broader range of activities, devices, and scenarios. Achievements are now more inclusive, more social, and more engaging. Developers and publishers can create achievements with new achievement types and rewards that go beyond Gamerscore. Gamerscore is still a key reward, however, so developers can now add more achievements and gamerscore over the lifetime of the title, even without a new content release. Across the board, achievements on Xbox One have been reimagined to give service-like flexibility to titles.
 
 ## Feature Summary ##
 This list provides a summary of the key features and components that contribute to the achievement system on Xbox One.

@@ -1,7 +1,7 @@
 ---
 title: Match engagement
 author: KevinAsgari
-description: Describes the UX stages of players progressing through a tournament experience.
+description: The UX stages of players progressing through a tournament experience (Ready, Playing, Results, and End).
 ms.author: kevinasg
 ms.date: 10-10-2017
 ms.topic: article
@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 # Match engagement
 
-After a gamer has registered and checked in for a tournament, they’re set up to play. A participant can be at one of four stages. Each stage contains a unique set of criteria guiding users through the in-game tournament experience. The four stages are:
+After a gamer has registered and checked in for a tournament, they’re set up to play. A participant can be at any one of four stages. Each stage contains a unique set of criteria guiding users through the in-game tournament experience. The four stages are:
 
 1.	Ready (Arena UI or in-game)
 2.	Playing (in-game)

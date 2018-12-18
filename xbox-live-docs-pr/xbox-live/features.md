@@ -1,7 +1,7 @@
 ---
 title: Features
 author: mikehoffms
-description: Using Xbox Live features
+description: Using Xbox Live features.
 ms.author: v-mihof
 ms.date: 11-28-2018
 ms.topic: article
@@ -12,6 +12,8 @@ ms.localizationpriority: medium
 ---
 
 # Features
+
+Using Xbox Live features.
 
 ## In this section
 

@@ -1,7 +1,7 @@
 ---
 title: Reading a configuration blob
 author: KevinAsgari
-description: Learn how to read a configuration blob in Xbox Live Title Storage.
+description: Reading a JSON configuration blob in Title Storage, using GET.
 ms.assetid: ee62d221-69b9-4f52-9b5d-5a44d04de548
 ms.author: kevinasg
 ms.date: 04/04/2017

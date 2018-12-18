@@ -1,7 +1,7 @@
 ---
-title: Add Multi-User Support to your Unity Game
+title: Add multi-user support to your Unity game
 author: KevinAsgari
-description: Add Multi-User Support to your Unity Game using the Xbox Live Unity plug-in
+description: Adding multi-user support to your Unity game using the Xbox Live Unity plug-in.
 ms.assetid: 
 ms.author: heba
 ms.date: 07/14/2017
@@ -12,7 +12,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity, multi user
 ms.localizationpriority: medium
 ---
 
-# Add multi-user support to your Unity Game
+# Add multi-user support to your Unity game
 > [!IMPORTANT]
 > The Xbox Live Unity plugin does not support achievements or online multiplayer and is only recommended for [Xbox Live Creators Program](../developer-program-overview.md) members.
 

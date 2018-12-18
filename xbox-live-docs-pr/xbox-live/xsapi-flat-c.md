@@ -1,7 +1,7 @@
 ---
 title: Xbox Live C APIs
 author: KevinAsgari
-description: Learn about the flat C API model that you can use to interact with the Xbox Live service.
+description: XSAPI added a flat C API model, to interact with the Xbox Live service.
 ms.author: kevinasg
 ms.date: 06/05/2018
 ms.topic: article
@@ -13,9 +13,9 @@ ms.localizationpriority: medium
 
 # Introduction to the Xbox Live C APIs
 
-In June, 2018, a new flat C API layer was added to XSAPI. This new API layer solves some issues that occurred with the C++ and WinRT API layers.
+In June 2018, a new, flat C API layer was added to XSAPI. This new API layer solves some issues that occurred with the C++ and WinRT API layers.
 
-The C API does not yet cover all XSAPI features, but additional features are being worked on. All 3 API layers, C, C++, and WinRT will continue to be supported and have additional features added over time.
+The C API does not yet cover all XSAPI features, but additional features are being worked on. All three API layers (C, C++, and WinRT) will continue to be supported and have additional features added over time.
 
 > [!NOTE]
 > The C APIs currently only work with titles that use the Xbox Developer Kit (XDK). They do not support UWP games at this time.

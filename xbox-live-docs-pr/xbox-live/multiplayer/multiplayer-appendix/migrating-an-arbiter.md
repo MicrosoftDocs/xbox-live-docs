@@ -1,7 +1,7 @@
 ---
 title: Migrating an arbiter
 author: KevinAsgari
-description: Learn how to migrate an arbiter in Xbox Live Multiplayer 2015
+description: Selecting a new arbiter for 2015 Multiplayer by using either graceful or failover migration.
 ms.assetid: 9fb5d2c0-d548-4a22-b64e-6b215f78d22e
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 # Migrating an arbiter
 
-At some point during a complete session, you might need to select a new arbiter using arbiter migration. There are two types of migration:
+At some point during a 2015 Multiplayer session, you might need to select a new arbiter, using arbiter migration. There are two types of migration:
 
 -   **Graceful arbiter migration**
 -   **Failover arbiter migration**
@@ -22,6 +22,7 @@ At some point during a complete session, you might need to select a new arbiter 
 The following flow chart illustrates how to migrate an arbiter.
 
 ![](../../images/multiplayer/Multiplayer_2015_HostMigration.png)
+
 
 ## Graceful Arbiter Migration
 
@@ -31,6 +32,8 @@ In graceful arbiter migration, the outgoing arbiter can assist with the migratio
 ## Failover Arbiter Migration
 
 In a failover arbiter migration, connection to the previous arbiter is lost and the remaining peers must determine a new arbiter for the session. Failover arbiter migration also sets the host device token, and handles HTTP/412 status codes just as graceful arbiter migration does. However, there are multiple approaches for selecting a new arbiter during a failover arbiter migration.
+
+
 ## Select Arbiter Using the Host Candidate List
 
 You can configure MPSD to provide an ordered host candidate list based on matchmaking QoS metrics that are measured during certain operations. The client can use this list to determine a new arbiter. To take advantage of this list during arbiter migration, each peer can:

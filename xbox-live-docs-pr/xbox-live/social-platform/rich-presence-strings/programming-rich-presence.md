@@ -1,7 +1,7 @@
 ---
 title: Programming Rich Presence
 author: KevinAsgari
-description: Provides a code example on setting the online presence status of an Xbox Live member.
+description: Code example for setting a user's online presence status.
 ms.assetid: 7e6e7b69-d7c3-42fa-bcc4-6d68947f6fdb
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -13,6 +13,8 @@ ms.localizationpriority: medium
 ---
 
 # Programming Rich Presence
+
+This code example sets a user's online presence status.
 
 Rich presence provides features for advertising a player's current activity to other players. For more information, see [Rich Presence Strings: Overview](rich-presence-strings-overview.md).
 

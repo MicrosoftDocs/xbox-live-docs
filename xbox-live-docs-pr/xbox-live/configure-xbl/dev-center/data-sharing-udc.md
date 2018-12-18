@@ -1,7 +1,7 @@
 ---
 title: Configure data sharing in Dev Center
 author: KevinAsgari
-description: Describes how you can configure data sharing in Dev Center to allow other apps, games, and services to access the Xbox Live settings.
+description: Configuring data sharing in Dev Center to allow other apps, games, and services to access the Xbox Live settings.
 ms.assetid:
 ms.author: kevinasg
 ms.date: 02/21/2018

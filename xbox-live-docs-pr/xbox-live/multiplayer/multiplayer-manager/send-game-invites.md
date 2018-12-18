@@ -1,7 +1,7 @@
 ---
 title: Send game invites
 author: KevinAsgari
-description: Learn how to use Xbox Live multiplayer manager to let a player send game invites.
+description: Using Multiplayer Manager to enable a player to send game invites to other players to join the game.
 ms.assetid: 8b9a98af-fb78-431b-9a2a-876168e2fd76
 ms.author: kevinasg
 ms.date: 04/04/2017

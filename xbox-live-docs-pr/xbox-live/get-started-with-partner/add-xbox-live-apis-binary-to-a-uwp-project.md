@@ -1,7 +1,7 @@
 ---
 title: Add Xbox Live APIs binary to a UWP project
 author: KevinAsgari
-description: Learn how to use NuGet to add the Xbox Live APIs binary package to your UWP project.
+description: Using NuGet to add the Xbox Live APIs binary package to your UWP project.
 ms.assetid: 1e77ce9f-8a0e-402c-9f46-e37f9cda90ed
 ms.author: kevinasg
 ms.date: 11/28/2017

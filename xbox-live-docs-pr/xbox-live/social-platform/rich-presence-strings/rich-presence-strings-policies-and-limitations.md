@@ -1,7 +1,7 @@
 ---
 title: Rich Presence policies and limitations
 author: KevinAsgari
-description: Learn about policies and limitations of the Xbox Live Rich Presence system.
+description: Policies and limits for Rich Presence strings.
 ms.assetid: 0ad21a75-0524-45a8-8d8a-0dec0f7d6d6f
 ms.author: kevinasg
 ms.date: 04/04/2017

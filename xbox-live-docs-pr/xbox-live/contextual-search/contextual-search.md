@@ -11,3 +11,12 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, contextual search, 
 ms.localizationpriority: medium
 ---
 # Contextual Search
+
+Contextual Search automatically tags broadcasts and game clips with real-time stats such as ranking, current level, weapons, and K/D ratio.
+
+## In this section
+
+| Topic                                                                                                                                             | Description                                                                                                   |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| [Contextual Search overview](contextual-search/introduction-to-contextual-search.md) | Contextual Search automatically tags broadcasts and game clips with real-time stats such as ranking, current level, weapons, and K/D ratio. |
+| [Configuring Contextual Search](contextual-search/configuring-contextual-search.md) | Configuring Contextual Search to tag game clips and broadcasts. |

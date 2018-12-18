@@ -14,8 +14,9 @@ ms.localizationpriority: medium
 
 # Multiplayer Platform overview
 
-The Xbox Live Multiplayer Platform empowers your game to bring Xbox Live players together over the Internet and can dramatically extend the life and usage of a title beyond typical solo play.
+The Multiplayer Platform includes Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
 
+The Xbox Live Multiplayer Platform empowers your game to bring Xbox Live players together over the Internet and can dramatically extend the life and usage of a title beyond typical solo play.
 By building a great multiplayer experience for your audience, you can leverage the large social network of Xbox Live gamers to increase the user base for your game and promote a sustained community of dedicated fans playing together.
 
 
@@ -63,5 +64,5 @@ Functionality | Xbox Integrated Multiplayer| Multiplayer Manager
 --  | -- | --
 Visibility |  XIM is provided as a compiled library without source.  | MPM is provided with source, so you may customize behavior by directly interacting with Xbox Live services or with XSAPI.
 Session and Matchmaking | XIM provides simple pre-configured matchmaking rules and does not require multiplayer configuration. | MPM [requires configuring the Multiplayer service](service-configuration/configure-the-multiplayer-service.md), which enables sophisticated specification of matchmaking and session behavior.
-Networking | XIM provides a simple & secure player to player network, backed by the Xbox Live Relay service when required. | MPM is designed so you can plug in your own secure networking solution using Windows.Networking.XboxLive.
+Networking | XIM provides a simple & secure player-to-player network, backed by the Xbox Live Relay service when required. | MPM is designed so you can plug in your own secure networking solution using Windows.Networking.XboxLive.
 Game chat | XIM provides integrated voice and text chat. | In-game communication can be implemented with the Game Chat 2 API or by using XIM out-of-band reservations to enable chat for an MPM managed roster.

@@ -1,7 +1,7 @@
 ---
 title: Using Game Chat 2
 author: KevinAsgari
-description: Learn how to use Xbox Live Game Chat 2 to add voice communication to your game.
+description: Using the C++ API of Game Chat 2 to add voice and text communication to your game.
 ms.author: kevinasg
 ms.date: 3/20/2018
 ms.topic: article
@@ -13,7 +13,9 @@ ms.localizationpriority: medium
 
 # Using Game Chat 2 (C++)
 
-This is a brief walkthrough on using Game Chat 2's C++ API. Game developers wanting to access Game Chat 2 through C# should see [Use Game Chat 2 WinRT Projections](using-game-chat-2-winrt.md).
+This is a brief walkthrough on using Game Chat 2's C++ API. 
+
+Game developers wanting to access Game Chat 2 through C# should see [Use Game Chat 2 WinRT Projections](using-game-chat-2-winrt.md).
 
 1. [Prerequisites](#prerequisites)
 2. [Initialization](#initialization)

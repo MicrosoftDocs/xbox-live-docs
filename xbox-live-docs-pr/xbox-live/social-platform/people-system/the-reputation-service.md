@@ -1,7 +1,7 @@
 ---
 title: The Reputation service
 author: KevinAsgari
-description: Learn how Xbox Live uses the Reputation service to encourage positive gameplay.
+description: The Reputation service encourages positive gameplay.
 ms.assetid: f8966184-5db7-4cab-93ca-9a0250a6077d
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -14,7 +14,10 @@ ms.localizationpriority: medium
 
 # The Reputation service
 
-Reputation is a user statistic, just like any other, and is included in calls to retrieve all of a user's statistics and use them in reporting and tracking. The reputation itself is represented by the **Reputation Class**. The **ReputationService Class**represents the reputation service. The corresponding URIs are described in **Reputation URIs**.
+Reputation is a user statistic, just like any other, and is included in calls to retrieve all of a user's statistics and use them in reporting and tracking. 
+*   The **Reputation** class represents the reputation.
+*   The **ReputationService** class represents the reputation service. 
+*   The corresponding URIs are described in **Reputation URIs**.
 
 > [!IMPORTANT]
 > Reputation statistics are global across the service, not tied to a specific title. The service configuration ID (SCID) for the service is the global SCID used to access reputation statistics.
@@ -29,11 +32,11 @@ The reputation service:
 -   Allows titles direct access to the API. A user can submit feedback directly from within a game, and from within the context of the game area where the user is currently.
 -   Handles low reputation as affecting what users are able to do on Xbox Live and within titles. Thus users must keep an eye on their reputation and act more appropriately during online play.
 -   Permits positive feedback, as well as negative feedback. Users who help the Xbox community or a title's community can be rewarded for their efforts, and they can even be given special privileges.
--   Derives a single, overall reputation, represented by the **Reputation.OverallReputation Property**. It is derived from the following reputation types:
+-   Derives a single, overall reputation, represented by the **Reputation.OverallReputation** property, which is derived from the following reputation types:
 
-    -   Fair play. Represented by the **Reputation.FairplayReputation Property**.
-    -   Communications. Represented by the **Reputation.CommunicationsReputation Property**.
-    -   User-generated content (UGC). Represented by the **Reputation.UserGeneratedContentReputation Property**.
+    -   Fair play. Represented by the **Reputation.FairplayReputation** property.
+    -   Communications. Represented by the **Reputation.CommunicationsReputation** property.
+    -   User-generated content (UGC). Represented by the **Reputation.UserGeneratedContentReputation** property.
 
 See **ResetReputation (JSON)** for more information.
 

@@ -1,7 +1,7 @@
 ---
 title: Localized strings
 author: shrutimundra
-description: Learn how to localize strings on Windows Dev Center
+description: Configuring localized strings on Windows Dev Center.
 ms.assetid: e0f307d2-ea02-48ea-bcdf-828272a894d4
 ms.author: kevinasg
 ms.date: 11/17/2017
@@ -11,7 +11,7 @@ ms.technology: uwp
 ms.localizationpriority: medium
 keywords: Xbox Live, Xbox, games, uwp, windows 10, Xbox one, Localized strings, Windows Dev Center
 ---
-# Configuring Localized strings on Windows Dev Center
+# Configuring localized strings on Windows Dev Center
 
 You can use this page to localize all your Xbox Live configurations to all the languages that your game supports. All of the service configurations that you have created on any of the subsequent Xbox Live pages will be added to the file that you would download.
 

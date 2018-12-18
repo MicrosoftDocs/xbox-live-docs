@@ -1,7 +1,7 @@
 ---
 title: Game DVR
 author: shrutimundra
-description: Learn how to configure Xbox Live Game DVR strings on Windows Dev Center 2017
+description: Configuring Xbox Live Game DVR strings on Windows Dev Center.
 ms.assetid: e0f307d2-ea02-48ea-bcdf-828272a894d4
 ms.author: kevinasg
 ms.date: 10/30/2017

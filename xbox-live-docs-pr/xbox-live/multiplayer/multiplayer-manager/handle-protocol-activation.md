@@ -1,7 +1,7 @@
 ---
 title: Handle protocol activation
 author: KevinAsgari
-description: Learn how to use Xbox Live multiplayer manager to handle protocol activation.
+description: Using Multiplayer Manager to handle protocol activation, so that the game automatically starts in response to another action, such as when a player accepts a game invite from another player.
 ms.assetid: e514bcb8-4302-4eeb-8c5b-176e23f3929f
 ms.author: kevinasg
 ms.date: 04/04/2017

@@ -1,7 +1,7 @@
 ---
 title: Multiplayer manager API overview
 author: KevinAsgari
-description: Learn about the Xbox Live Multiplayer Manager API.
+description: The most important classes and methods in the Multiplayer Manager API.
 ms.assetid: 658babf5-d43e-4f5d-a5c5-18c08fe69a66
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -14,7 +14,11 @@ ms.localizationpriority: medium
 
 # Multiplayer Manager API overview
 
-This page describes a broad overview of the Multiplayer Manager API, and how they are used in a game. It calls out the most important classes and methods in the API. For detailed API information, see the reference documentation. For examples of how to use these APIs in an application, see the Multiplayer Sample.
+The following are the most important classes and methods in the Multiplayer Manager API.
+
+For detailed API information, see the reference documentation.
+
+For examples of how to use these APIs in an application, see the Multiplayer Sample.
 
 ## Namespace
 The Multiplayer Manager classes are included the following namespace:

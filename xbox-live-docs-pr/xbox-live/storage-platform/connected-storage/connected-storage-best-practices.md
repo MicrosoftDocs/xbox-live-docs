@@ -1,7 +1,7 @@
 ---
-title: Connected Storage Best Practices
+title: Connected Storage best practices
 author: aablackm
-description: Recommendations on how to get the best performance and experience from Connected Storage
+description: Getting the best performance and experience from Connected Storage, such as when to load and save.
 ms.author: aablackm
 ms.date: 02/27/2018
 ms.topic: article
@@ -19,8 +19,11 @@ Because Xbox One allows users to quickly switch among titles, developers should 
 ## When to load a user's Connected Storage space data
 
 The execution time for loading a user's Connected Storage data space can vary. Apps should take this action during main execution, rather than in response to a user's starting to sign out or in response to receiving a suspend notification from the system.
+
 Generally, apps should load a Connected Storage space as a user signs in and indicates desire to play, unless the game is in a mode in which it's certain no save functionality is needed. You should also consider aligning the loading of a Connected Storage space with long sequences of data loading, so that the operations can execute in parallel.
+
 Once your app has loaded a user's Connected Storage space data, it should retain this value for future saves. Retaining a Connected Storage space over time does not have negative effects on performance or robustness. Because loading a Connected Storage space causes a synchronization check with the cloud if the system is online, releasing and re-loading a user's Connected Storage space during slow or unreliable network conditions might cause the user to see a synchronization UI until the system times out.
+
 Connected Storage spaces do not need to be freed explicitly to cause cloud synchronization. Once the completion handler specified in a `SubmitUpdatesAsync` call has returned with `AsyncStatus::Completed`, the system takes care of synchronization with the cloud whether or not the app frees the `ConnectedStorageSpace` object.
 
 ## When to save

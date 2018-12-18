@@ -1,7 +1,7 @@
 ---
 title: Retrieving Windows System User on UWP
 author: KevinAsgari
-description: Learn how to retrieve the Windows System User in a Universal Windows Platform (UWP) game.
+description: Retrieving the Windows System User in a Universal Windows Platform (UWP) game.
 ms.author: kevinasg
 ms.date: 06/07/2017
 ms.topic: article

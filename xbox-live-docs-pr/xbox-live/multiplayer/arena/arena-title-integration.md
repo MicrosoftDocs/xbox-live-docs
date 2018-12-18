@@ -1,7 +1,7 @@
 ---
 title: Arena title integration guide
 author: KevinAsgari
-description: Learn how a title can build in support for the Xbox Live Arena platform.
+description: Adding support in a game for the Arena platform, which allows Tournament Organizers to create and operate tournaments.
 ms.assetid: 470914df-cbb5-4580-b33a-edb353873e32
 ms.author: kevinasg
 ms.date: 09-14-2017

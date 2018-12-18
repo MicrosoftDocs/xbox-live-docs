@@ -1,7 +1,7 @@
 ---
 title: Asynchronous C API calling patterns
 author: aablackm
-description: Learn the asynchronous C API calling patterns for the XSAPI C API
+description: Making asynchronous calls in the XSAPI flat C API.
 ms.author: aablackm
 ms.date: 06/10/2018
 ms.topic: article

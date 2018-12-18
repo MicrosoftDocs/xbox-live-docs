@@ -1,7 +1,7 @@
 ---
 title: Arena participant user scenarios
 author: KevinAsgari
-description: Describes user scenarios for Xbox Arena participants.
+description: User scenarios for Xbox Arena participants are various combinations of collaboration and competition.
 ms.author: kevinasg
 ms.date: 10-10-2017
 ms.topic: article

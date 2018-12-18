@@ -1,7 +1,7 @@
 ---
 title: Use the Leaderboard Example Scene in Unity
 author: aablackm
-description: Shows the steps to properly setting up the Unity Leaderboard Scene
+description: Setting up the Leaderboard example scene in Unity.
 ms.author: aablackm
 ms.date: 4/24/2018
 ms.topic: get-started-article

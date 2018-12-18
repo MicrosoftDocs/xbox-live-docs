@@ -1,7 +1,7 @@
 ---
 title: Privileges Configuration on Dev Center
 author: aablackm
-description: Learn how to configure privileges on Windows Dev Center
+description: Configuring privileges on Windows Dev Center.
 ms.author: aablackm
 ms.date: 04/09/2018
 ms.topic: article

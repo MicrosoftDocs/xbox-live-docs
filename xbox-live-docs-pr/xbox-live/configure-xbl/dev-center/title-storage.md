@@ -1,7 +1,7 @@
 ---
 title: Title Storage configuration on Dev Center
 author: aablackm
-description: Learn how to configure Title Storage on Windows Dev Center
+description: Configuring Title Storage on Windows Dev Center, for game-save in the cloud.
 ms.author: aablackm
 ms.date: 04/24/2018
 ms.topic: article

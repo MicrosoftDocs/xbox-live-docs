@@ -1,7 +1,7 @@
 ---
 title: Check user privilege settings in Unity
 author: aablackm
-description: Learn how to check privilege settings for a signed in Xbox Live account.
+description: Checking user privilege settings in Unity for a signed-in Xbox Live account.
 ms.assetid:
 ms.author: aablackm
 ms.date: 10/26/2017
@@ -11,9 +11,11 @@ ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, accounts, test accounts, parental controls, user privileges, enforcement bans, upsell
 ---
 # Check user privilege settings in Unity
+
 On Xbox Live, every authenticated user’s account has associated privileges. Privileges control which features of Xbox Live a user can access at a given point in time. Some of these privileges are for system-controlled features, while others may be associated with specific games or extension subscriptions. In addition, parental controls and bans issued by the Xbox Live enforcement team can restrict the privileges of a user. These privileges cover a number of common scenarios, including multiplayer, accessing user generated content, chatting, or to streaming video. Games use this information to make access control and personalization decisions.
 
 ## Prerequisites
+
 In order to determine user privilege settings, you must have configured your game for authentication with Xbox Live and successfully signed a user in.
 
 >[!IMPORTANT]
@@ -25,6 +27,7 @@ The following articles outline the steps that you can take:
 * [Test your Unity game build in Visual Studio](test-visual-studio-build.md)
 
 ## Determine privileges
+
 A user’s privileges are carried in the token received at authentication time. In Unity, you can access the list of privileges that a user has in the `XboxLiveUser` class, after the user has successfully signed in. Privileges are stored as a single string, separated by a space. For example, you might see a user with the following privileges:
 
 ```csharp

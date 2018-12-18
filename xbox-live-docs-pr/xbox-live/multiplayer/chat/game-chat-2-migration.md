@@ -1,7 +1,7 @@
 ---
 title: Game Chat 2 Migration
 author: KevinAsgari
-description: Learn how to migrate existing Game Chat code to use Game Chat 2.
+description: Migrating existing Game Chat code to use Game Chat 2.
 ms.author: kevinasg
 ms.date: 5/2/2018
 ms.topic: article

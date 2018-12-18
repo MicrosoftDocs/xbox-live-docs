@@ -1,7 +1,7 @@
 ---
 title: Get Started
 author: mikehoffms
-description: What to do first when developing an Xbox Live game
+description: What to do first when developing an Xbox Live game.
 ms.author: v-mihof
 ms.date: 11-28-2018
 ms.topic: article
@@ -12,6 +12,8 @@ ms.localizationpriority: medium
 ---
 
 # Get Started
+
+What to do first when developing an Xbox Live game.
 
 ## In this section
 

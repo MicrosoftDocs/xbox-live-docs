@@ -1,7 +1,7 @@
 ---
-title: Xbox Live Account Tool
+title: Xbox Live Developer Account Tool
 author: KevinAsgari
-description: Learn how to use the Xbox Live Account Tool to quickly create test accounts for testing your Xbox Live enabled title.
+description: The Xbox Live Developer Account Tool creates test accounts for testing your Xbox Live enabled title.
 ms.assetid: ec5959f9-1c60-4aa4-94a6-5d8bdcf77a96
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -12,10 +12,9 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, testing, test accou
 ms.localizationpriority: medium
 ---
 
-# Xbox Live Account Tool
+# Xbox Live Developer Account Tool
 
-## What is Xbox Live Account Tool?
-The Xbox Live Account Tool is a tool designed to help title developers set up existing dev accounts for testing game scenarios. For example, you can use Xbox Live Account Tool to change a dev account's gamertag, or quickly add 1000 followers to an account's friends list.
+The Xbox Live Developer Account Tool is a tool designed to help title developers set up existing dev accounts for testing game scenarios. For example, you can use Xbox Live Account Tool to change a dev account's gamertag, or quickly add 1000 followers to an account's friends list.
 
 ## What can I do with Xbox Live Account Tool?
 You can:

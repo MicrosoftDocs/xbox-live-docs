@@ -1,7 +1,7 @@
 ---
 title: Configuring Contextual Search
 author: KevinAsgari
-description: Learn how to configure contextual search to tag game clips and broadcasts.
+description: Configuring Contextual Search to tag game clips and broadcasts.
 ms.assetid: 6cb2cb10-811a-4b20-9b9b-a3fc59a033c2
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -17,7 +17,7 @@ ms.localizationpriority: medium
 ## Configuration Info
 
 ### Designing Your Data
-When configuring your title for Contextual Search, it's important to think about the things that make your title unique.  If a user is looking for video content, what would be top of mind to search for?  How granular does the data need to be?
+When configuring your title for Contextual Search, it's important to think about the things that make your title unique.  If a user is looking for video content, what would be top-of-mind to search for?  How granular does the data need to be?
 
 Contextual Search supports the ability to both filter and sort content, so your metadata should reflect these search constructs to ensure great coverage.  A good rules of thumb is to think of your game's data in two pivots:
 1. Game State - ex.  Level, Character, Weapon, Map, Role, Checkpoint/Story Point, DLC
@@ -25,11 +25,11 @@ Contextual Search supports the ability to both filter and sort content, so your 
 
 The first pivot is great for filtering content, the second is great for sorting.  Additionally, depending on the type of content being surfaced, varying levels of stat granularity are important.  For broadcasts, assuming there is a limited number of active broadcasts at any given time, lower granularity data will ensure a higher likelihood of a successful search.  For game clips, the number continually increases, so finer granularity data will ensure more accurate results.
 
-It's quite likely that you already have this data created for Xbox Live features like Rich Presence or Hero Stats, so this is a great opportunity to leverage already completed work.
+It's likely that you already have this data created for Xbox Live features like Rich Presence or Hero Stats, so this is a great opportunity to leverage already completed work.
 
 If you are using stats to filter content, be aware that all Contextual Search stats are available to query at any time.  You should design your eventing accordingly to support this.
 
-For example, if you are using stats like SinglePlayerMap and MultiplayerMap to filter content, the player is only going to be in one of them at once.  However, both values will be available to query from the service at any time.  It’s important that as you set one, you clear out the other.  For string based stats, an empty string is great (make sure not to include that in your UI configuration as an option).
+For example, if you are using stats like SinglePlayerMap and MultiplayerMap to filter content, the player is only going to be in one of them at once.  However, both values will be available to query from the service at any time.  It’s important that as you set one, you clear out the other.  For string-based stats, an empty string is great (make sure not to include that in your UI configuration as an option).
 
 ### Configuring a Stat for Contextual Search
 Configuring your title for Contextual Search is easy once you've set up the Events and Stats that power the tagging.  See other existing XDP or Windows Dev Center documentation on setting up Contextual Search if you're not already familiar.
@@ -70,8 +70,10 @@ To successfully configure a stat for Contextual Search, complete the following s
 If you aren't familiar with Sets, they are a way to map potential stat values to localizable strings that can be exposed to an end user.  They are very important to the Contextual Search stats you want to filter with.
 
 {% raw %}
-As an examples, let’s say I have an integer Stat called SinglePlayerMap.  Showing a bunch of numbers to end users doesn’t make any sense.  So instead, I create a Set of mappings like ```{{0, “Blood Gulch”}, {1, “Lockout”}, {2, “Zanzibar”}}```.  The user will see the string, but we use the number as part of the Contextual Search search-query.  You can map integers or strings to localized strings in Sets.
+As an example, suppose there's an integer Stat called SinglePlayerMap.  Showing a bunch of numbers to end users doesn’t make any sense.  So instead, create a Set of mappings like ```{{0, “Blood Gulch”}, {1, “Lockout”}, {2, “Zanzibar”}}```.  The user will see the string, but we use the number as part of the Contextual Search search-query.  You can map integers or strings to localized strings in Sets.
 {% endraw %}
 
 ### Updating Your Contextual Search Document
-At present, you can easily change the stats on your Contextual Search document as we only support broadcasting at the moment (which is volatile data).  Once we begin to support game clip tagging (September 2015), if you decided to add or remove stats, you will be impacting clips that have already been indexed.  If you add a new stat, only game clips and broadcasts created after the change goes into effect will be tagged and surfaced in queries using the new stat. Old game clips will not be query-able from this stat. If you remove a stat from the Contextual Search document, the old stat attached to the game clip will be useless and will not be returned.
+At present, you can easily change the stats on your Contextual Search document as we only support broadcasting at the moment (which is volatile data).  Once we begin to support game clip tagging (September 2015), if you decided to add or remove stats, you will be impacting clips that have already been indexed.  
+
+If you add a new stat, only game clips and broadcasts created after the change goes into effect will be tagged and surfaced in queries using the new stat. Old game clips will not be query-able from this stat. If you remove a stat from the Contextual Search document, the old stat attached to the game clip will be useless and will not be returned.

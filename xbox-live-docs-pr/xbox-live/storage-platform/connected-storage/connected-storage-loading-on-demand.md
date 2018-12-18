@@ -1,7 +1,7 @@
 ---
 title: Connected Storage loading on demand
 author: aablackm
-description: Learn how to load Connected Storage data on demand, instead of all at once.
+description: Loading Connected Storage gameplay data on-demand, instead of loading all data at once, for large file saves.
 ms.assetid: a0797a14-c972-4017-864c-c6ba0d5a3363
 ms.author: aablackm
 ms.date: 02/27/2018
@@ -127,7 +127,7 @@ A Connected Storage synce will be triggered by calling any of the following exis
 
 This will cause the user to see the usual sync UI and progress bar as data from their selected container is downloaded. Note that only data from the selected container is synchronized; data from other containers is not downloaded.
 
-When calling these API in the context of an on demand sync, these operations can all produce the following new error codes:
+When calling these APIs in the context of an on-demand sync, these operations can all produce the following error codes:
 
 -   `ConnectedStorageErrorStatus::ContainerSyncFailed`(`GameSaveErrorStatus.ContainerSyncFailed` in UWP C# API): This error indicates that the operation failed and the container could not be synced with the cloud. The most likely cause is the user's network conditions caused the sync to fail. They may want to try again after they've fixed their network or they may choose to use a container they don't have to sync. Your UI should allow either of these options. No retry dialog is required, since they will have already seen the system UI retry dialog.
 

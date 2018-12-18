@@ -1,7 +1,7 @@
 ---
 title: Multiplayer session templates
 author: KevinAsgari
-description: Learn about Xbox Live multiplayer session templates.
+description: A multiplayer session template is a blueprint that is used to create a multiplayer session.
 ms.assetid: 178c9863-0fce-4e6a-9147-a928110b53a2
 ms.author: kevinasg
 ms.date: 04/04/2017

@@ -1,7 +1,7 @@
 ---
 title: Authentication for UWP projects
 author: aablackm
-description: Learn how to sign in Xbox Live users in a Universal Windows Platform (UWP) title.
+description: Signing-in Xbox Live users in a Universal Windows Platform (UWP) title.
 ms.assetid: e54c98ce-e049-4189-a50d-bb1cb319697c
 ms.author: aablackm
 ms.date: 03/14/2018
@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 ---
 # Authentication for UWP projects
 
-To take advantage of Xbox Live features in games, a user needs to create an Xbox Live profile to identify themselves in the Xbox Live community.  Xbox Live services keep track of game related activities using that Xbox Live profile, such as the user's gamertag and gamer picture, who the user's gaming friends are, what games the user has played, what achievements the user has unlocked, where the user stands on the leaderboard for a particular game, etc.
+To take advantage of Xbox Live features in games, a user needs to create an Xbox Live profile to identify themselves in the Xbox Live community.  Xbox Live services keep track of game-related activities using that Xbox Live profile, such as the user's gamertag and gamer picture, who the user's gaming friends are, what games the user has played, what achievements the user has unlocked, and where the user stands on the leaderboard for a particular game.
 
 When a user wants to access Xbox Live services in a particular game on a particular device, the user needs to authenticate first.  The game can call Xbox Live APIs to initiate the authenticate process.  In some cases, the user will be presented with an interface to provide additional information, such as entering the username and password of the Microsoft Account to use, giving permission consent to the game, resolving account issues, accepting new terms of use, etc.
 
@@ -23,12 +23,12 @@ Once authenticated, the user is associated with on that device until they explic
 
 At a high level, you use the Xbox Live APIs by following these steps:
 
-1. Create an XboxLiveUser object to represent the user
-2. Sign-in silently to Xbox Live at startup
-3. Attempt to sign-in with UX if required
-4. Create an Xbox Live context based on the interacting user
-5. Use the Xbox Live context to access Xbox Live services
-6. When the game exits or the user signs-out, release the XboxLiveUser object and XboxLiveContext object by setting them to null
+1. Create an XboxLiveUser object to represent the user.
+2. Sign-in silently to Xbox Live at startup.
+3. Attempt to sign-in with UX if required.
+4. Create an Xbox Live context based on the interacting user.
+5. Use the Xbox Live context to access Xbox Live services.
+6. When the game exits or the user signs-out, release the XboxLiveUser object and XboxLiveContext object by setting them to null.
 
 ### Creating an XboxLiveUser object
 

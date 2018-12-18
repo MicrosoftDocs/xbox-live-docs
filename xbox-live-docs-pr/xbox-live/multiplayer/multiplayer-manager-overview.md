@@ -1,7 +1,7 @@
 ---
 title: Multiplayer Manager overview
 author: KevinAsgari
-description: Xbox Live multiplayer manager, a high level API designed to make it easier to implement multiplayer.
+description: Multiplayer Manager is a high-level API for adding multiplayer functionality to your game by managing sessions and matchmaking, and by providing a state- and event-based programming model.
 ms.assetid: f3a6c8bc-4f73-4b99-ac51-aadee73c8cfa
 ms.author: kevinasg
 ms.date: 04/04/2017

@@ -1,7 +1,7 @@
 ---
 title: Xbox Arena Operations Portal
 author: KevinAsgari
-description: Learn how to use the operations portal to manage your Xbox tournaments.
+description: Using the Xbox Arena Operations Portal to manage tournaments for your game.
 ms.author: kevinasg
 ms.date: 06-18-2018
 ms.topic: article
@@ -13,8 +13,6 @@ ms.localizationpriority: medium
 
 # Xbox Arena Operations Portal
 
-
-
 The Xbox Arena Operations Portal allows you to create and manage official tournaments for titles that are integrated with Xbox Arena. Official tournaments are run by the title and allow the developer a greater degree of customizability and manageability than user created tournaments.
 
 This portal gives you the opportunity to build and run tournament experiences that are tailored for your title.
@@ -24,7 +22,7 @@ This portal gives you the opportunity to build and run tournament experiences th
 
 ## Features
 
-The Xbox Arena portal offers features beyond those of player-created tournaments. The following lists outline the additional features offered over player created tournaments:
+The Xbox Arena Operations Portal offers features beyond those of player-created tournaments. The following lists outline the additional features offered over player-created tournaments:
 
 #### Tournament creation features:
 

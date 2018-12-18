@@ -1,7 +1,7 @@
 ---
 title: Title Storage overview
 author: KevinAsgari
-description: Learn how to use Xbox Live Title Storage to store game information for a title in the cloud.
+description: Using Title Storage to store game information for a title in the cloud, especially for large amounts of per-user or per-title data.
 ms.assetid: a4182bc8-d232-4e77-93ae-97fe17ac71b1
 ms.author: kevinasg
 ms.date: 04/04/2017

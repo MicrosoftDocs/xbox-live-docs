@@ -1,7 +1,7 @@
 ---
 title: Featured Stats and leaderboards 2017
 author: shrutimundra
-description: Learn how to configure Xbox Live Featured Stats and Leaderboards 2017 on Windows Dev Center
+description: Configuring Xbox Live Featured Stats and Leaderboards 2017 on Windows Dev Center.
 ms.assetid: e0f307d2-ea02-48ea-bcdf-828272a894d4
 ms.author: kevinasg
 ms.date: 10/30/2017

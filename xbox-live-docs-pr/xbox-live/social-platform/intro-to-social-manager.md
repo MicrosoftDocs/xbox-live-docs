@@ -1,7 +1,7 @@
 ---
 title: Introduction to Social Manager
 author: aablackm
-description: Learn about the Xbox Live Social Manager API to keep track of online friends.
+description: The Xbox Live Social Manager API simplifies keeping track of online friends and their gaming activity.
 ms.assetid: d4c6d5aa-e18c-4d59-91f8-63077116eda3
 ms.author: aablackm
 ms.date: 03/26/2018
@@ -13,17 +13,15 @@ ms.localizationpriority: medium
 ---
 # Introduction to Social Manager
 
-## Description
+The Xbox Live Social Manager API simplifies keeping track of online friends and their gaming activity.
 
-Xbox Live provides a rich social graph that titles can use for various scenarios.
-
-Using the social APIs in the Xbox Live API (XSAPI) to obtain and maintain information about a social graph is complex, and keeping this information up to date can be complicated.  Not doing this correctly can result in performance issues, stale data, or being throttled due to calling the Xbox Live social services more frequently than necessary.
+Xbox Live provides a rich social graph that titles can use for various scenarios.  Using the social APIs in the Xbox Live Services API (XSAPI) to obtain and maintain information about a social graph is complex, and keeping this information up to date can be complicated.  Not doing this correctly can result in performance issues, stale data, or being throttled due to calling the Xbox Live social services more frequently than necessary.
 
 The Social Manager solves this problem by:
 
-* Creating a simple API to call
-* Creating up to date information using the real time activity service behind the scenes
-* Developers can call the Social Manager API synchronously without any extra strain on the service
+* Creating a simple API to call.
+* Creating up to date information using the real time activity service behind the scenes.
+* Developers can call the Social Manager API synchronously without any extra strain on the service.
 
 The Social Manager masks the complexity of dealing with multiple RTA subscriptions, and refreshing data for users and allows developers to easily get the up to date graph they want to create interesting scenarios.
 
@@ -34,7 +32,7 @@ For a look at the Social Manager memory and performance characteristics take a l
 The Social Manager provides the following features:
 
 * Simplified Social API
-* Up to date social graph
+* Up-to-date social graph
 * Control over the verbosity of information displayed
 * Reduce number of calls to Xbox Live services
   * This directly correlates to overall latency reduction in data acquisition

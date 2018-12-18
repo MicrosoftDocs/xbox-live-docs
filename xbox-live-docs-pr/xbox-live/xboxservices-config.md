@@ -1,7 +1,7 @@
 ---
 title: XboxServices.config
 author: KevinAsgari
-description: Describes the XboxServices.config file for associating your UWP game with an Xbox Live configuration.
+description: The XboxServices.config file associates your UWP game with an Xbox Live configuration.
 ms.author: kevinasg
 ms.date: 03/29/2018
 ms.topic: article

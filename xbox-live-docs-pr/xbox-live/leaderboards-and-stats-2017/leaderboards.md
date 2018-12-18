@@ -1,7 +1,7 @@
 ---
 title: Leaderboards
 author: KevinAsgari
-description: Learn how to use Xbox Live leaderboards to compare players.
+description: Defining leaderboards to compare players by showing selected stats for a game.
 ms.assetid: 132604f9-6107-4479-9246-f8f497978db7
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 
 ## Introduction
 
-As described in [Data Platform Overview](../data-platform/data-platform.md), Leaderboards are a great way to encourage competition between your players, and keep players engaged in trying to beat their previous best score as well as that of their friends.
+As described in [Data Platform Overview](../data-platform/data-platform-for-stats-leaderboards-achievements.md), Leaderboards are a great way to encourage competition between your players, and keep players engaged in trying to beat their previous best score as well as that of their friends.
 
 Leaderboards for [Featured Stats](stats2017.md#configured-stats-and-featured-leaderboards) are always displayed in a title's Game Hub and sometimes displayed as a part of the UI for a title when it is pinned to the homepage. You can also use your configured Featured Stats to create Leaderboards inside of your title.
 

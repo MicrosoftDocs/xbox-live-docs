@@ -1,7 +1,7 @@
 ---
 title: Advanced Xbox Live sandboxes
 author: KevinAsgari
-description: Learn how to isolate content effectively by using Xbox Live sandboxes as a managed partner or an ID@Xbox member.
+description: Isolating content effectively by using Xbox Live sandboxes, as a managed partner or an ID@Xbox member.
 ms.assetid: bd8a2c51-2434-4cfe-8601-76b08321a658
 ms.author: kevinasg
 ms.date: 04/04/2017

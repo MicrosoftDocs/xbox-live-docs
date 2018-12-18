@@ -1,7 +1,7 @@
 ---
 title: Play a multiplayer game by using SmartMatch
 author: KevinAsgari
-description: Learn how to use Xbox Live multiplayer manager to let a player find a multiplayer game by using SmartMatch.
+description: Using Multiplayer Manager to enable a player to find a multiplayer game by using SmartMatch matchmaking.
 ms.assetid: f9001364-214f-4ba0-a0a6-0f3be0b2f523
 ms.author: kevinasg
 ms.date: 04/04/2017

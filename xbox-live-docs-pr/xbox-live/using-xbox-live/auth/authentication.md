@@ -1,7 +1,7 @@
 ---
 title: Authentication
 author: KevinAsgari
-description: Learn how to sign-in an Xbox Live user in your title.
+description: Signing-in an Xbox Live user in your title.
 ms.assetid: 7a9dfb3c-1ccc-4948-a218-37101069c91a
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -14,14 +14,13 @@ ms.localizationpriority: medium
 
 # Authentication
 
-This section covers authentication with Xbox Live
+Signing-in an Xbox Live user in your title.
 
 ## In this section
 
-[Authentication for Universal Windows Platform (UWP) projects](authentication-for-UWP-projects.md)
-
-[Authentication for Xbox Developer Kit (XDK) projects](authentication-for-XDK-projects.md)
-
-[Single Point of Presence (SPOP)](single-point-of-presence.md)
-
-[Retrieving the Windows System User on UWP](retrieving-windows-system-user-on-UWP.md)
+| Topic                                                                                                                                             | Description                                                                                                   |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| [Authentication for Universal Windows Platform (UWP) projects](authentication-for-UWP-projects.md) | Signing-in Xbox Live users in a Universal Windows Platform (UWP) title. |
+| [Authentication for Xbox Developer Kit (XDK) projects](authentication-for-XDK-projects.md) | Signing-in Xbox Live users in an Xbox Development Kit (XDK) title. |
+| [Single Point of Presence (SPOP)](single-point-of-presence.md) | Using Xbox Live Single Point of Presence (SPOP) to ensure that a title is played on only a single device at a time. |
+| [Retrieving the Windows System User on UWP](retrieving-windows-system-user-on-UWP.md) | Retrieving the Windows System User in a Universal Windows Platform (UWP) game. |

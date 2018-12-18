@@ -1,7 +1,7 @@
 ---
-title: Using SmartMatch Matchmaking
+title: Using SmartMatch matchmaking
 author: KevinAsgari
-description: Learn how to use Xbox Live SmartMatch to match players in a multiplayer game.
+description: Using SmartMatch to match players in a multiplayer game.
 ms.assetid: 10b6413e-51d9-4fec-9110-5e258d291040
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -12,11 +12,12 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, matchm
 ms.localizationpriority: medium
 ---
 
-# Using SmartMatch Matchmaking
+# Using SmartMatch matchmaking
 
 The following flow chart illustrates the SmartMatch matchmaking process.
 
 ![](../../images/multiplayer/Multiplayer_2015_SmartMatch_Matchmaking.png)
+
 
 ## Creating a Match Ticket Session and a Match Ticket
 

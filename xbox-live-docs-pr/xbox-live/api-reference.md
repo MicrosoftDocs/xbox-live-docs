@@ -13,6 +13,8 @@ ms.localizationpriority: medium
 
 # API Reference
 
+Xbox Live API reference.
+
 ## In this section
 
 | Topic                                                                                                                                             | Description                                                                                                   |

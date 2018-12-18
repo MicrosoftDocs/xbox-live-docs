@@ -1,7 +1,7 @@
 ---
 title: Use Connected Storage to delete data
 author: aablackm
-description: Learn how to use Connected Storage to delete blob and container data.
+description: Code examples using Connected Storage to delete blob data and container data.
 ms.assetid: ccf7488c-5d55-480e-b3aa-412220d03104
 ms.author: aablackm
 ms.date: 02/27/2018

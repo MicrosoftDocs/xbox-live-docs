@@ -1,7 +1,7 @@
 ---
-title: Player Stats
+title: Stats 2017
 author: aablackm
-description: Intro to Stats 2017
+description: When using Stats 2017, the title keeps track of the stat values, and sends the values to the service.
 ms.author: aablackm
 ms.date: 07/02/2018
 ms.topic: article
@@ -14,11 +14,11 @@ ms.localizationpriority: medium
 
 Stats 2017 allows developers to configure stats for individual players signifying progress and prowess in game. These stats are a social tool that will allow players to be more competitive with their friends and the larger title's community, as well as showcasing some of the capabilities and challenges your title has to offer. If you have a racing game with featured statistics like longest drift and best hang time, you can communicate the type of racing game your players can expect. Seeing how players stack against their friends and the community at large will give them more incentive to buy and play your title. Players will see featured statistics on the title's GameHub. Featured Stats may also periodically appear in pinned content blocks that users may add to their Home view.
 
-Stats 2017 operates by accepting stat values as key value pairs from your title for a player and storing that stat value so that it can be displayed at a later time. Stats 2017 is meant to support Xbox Live leaderboard scenarios by saving stats about individual players so they can be compared and ranked on a leaderboard later. Stats 2017 accepts values sent to it with little to no validation so it is up to your title to handle all of the logic which determines the correct value for a stat.
+Stats 2017 operates by accepting stat values as key value pairs from your title for a player and storing that stat value so that it can be displayed at a later time. Stats 2017 supports Xbox Live leaderboard scenarios by saving stats about individual players so they can be compared and ranked on a leaderboard later. Stats 2017 accepts values sent to it with little to no validation so it is up to your title to handle all of the logic which determines the correct value for a stat.
 
 ## Configured stats and featured leaderboards
 
-Stats are configured on the [Windows Development Center dashboard](https://developer.microsoft.com/en-us/dashboard/windows/overview). In order to configure stats you must already have a title configured. If you do not have a title configured you can learn how to do so by reading [Create and test a new Creator's title](../get-started-with-creators/create-and-test-a-new-creators-title.md).  The Stats you configure on Windows Dev Center will appear in your title's GameHub as pictured:
+Stats are configured on the [Windows Development Center dashboard](https://developer.microsoft.com/en-us/dashboard/windows/overview). In order to configure stats you must already have a title configured. If you do not have a title configured, you can learn how to do so by reading [Create and test a new Creator's title](../get-started-with-creators/create-and-test-a-new-creators-title.md).  The Stats you configure on Windows Dev Center will appear in your title's GameHub as pictured:
 
 The *Feature Stats* are highlighted in yellow in the image below.
 ![Official Club Page Social Leaderboard](../images/omega/gamehub_featuredstats.png)

@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 # Connected Storage
 
 > [!NOTE]
-> This document was originally written for Managed Partner Xbox One developers.  Some of the Xbox One specific content like Local and Title storage can be ignored for UWP on Windows.  The conceptual content and API in this document are still relevant.  Please contact your Microsoft representative (if applicable) with any questions.
+> This document was originally written for Managed Partner Xbox One developers.  Some of the Xbox One-specific content like Local and Title storage can be ignored for UWP on Windows.  The conceptual content and API in this document are still relevant.  Please contact your Microsoft representative (if applicable) with any questions.
 
 The storage and save models on Xbox One are much different from those on Xbox 360; Xbox One has a more flexible application model that supports fast application switching, multiple simultaneous applications, and quick suspend and resume of apps. Data stored by using the Connected Storage API automatically roams for users across multiple Xbox One consoles, and is also available for use offline.
 

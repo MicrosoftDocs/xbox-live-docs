@@ -1,7 +1,7 @@
 ---
-title: XBL In Unity Prefabs and Sign-In
+title: Unity Prefabs and Scripted Sign-In
 author: aablackm
-description: Covers the the social prefabs and script examples for social services on Xbox Live
+description: Unity prefabs and Scripted Sign-In examples for Social services on Xbox Live.
 ms.author: aablackm
 ms.date: 1/24/2018
 ms.topic: get-started-article

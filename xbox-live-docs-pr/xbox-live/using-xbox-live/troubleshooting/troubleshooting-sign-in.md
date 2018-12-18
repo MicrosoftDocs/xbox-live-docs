@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting Xbox Live sign-in
 author: KevinAsgari
-description: Learn how to troubleshoot issues with Xbox Live sign-in.
+description: Troubleshooting issues with Xbox Live sign-in, such as correct sandbox and configuration IDs.
 ms.assetid: 87b70b4c-c9c1-48ba-bdea-b922b0236da4
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -44,7 +44,7 @@ There are several pieces of ID required to configure your game.  You can see mor
 
 Some things to watch out for are:
 
-* Ensure your  App ID is entered into XDP or Dev Center correctly
+* Ensure your App ID is entered into XDP or Dev Center correctly
 * Ensure your PFN is entered into XDP or Dev Center correctly
 * Double-check you have created an xboxservices.config in the same directory as your Visual Studio project as described in the [Adding Xbox Live to a new or existing UWP project](../../get-started-with-partner/get-started-with-visual-studio-and-uwp.md) guide.
 * Ensure that the "Package Identity" in your appxmanifest is correct.  This is shown in Windows Dev Center as "Package/Identity/Name" on Windows Dev Center in the App Identity section.

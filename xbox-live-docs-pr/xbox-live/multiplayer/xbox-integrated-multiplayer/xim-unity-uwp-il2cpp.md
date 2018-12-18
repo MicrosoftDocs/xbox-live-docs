@@ -1,7 +1,7 @@
 ---
 title: Use XIM (Unity with IL2CPP)
 author: KevinAsgari
-description: Using Xbox Integrated Multiplayer with Unity for UWP with IL2CPP scripting backend
+description: Using Xbox Integrated Multiplayer with Unity for UWP with the IL2CPP scripting backend.
 ms.author: kevinasg
 ms.date: 04/03/2018
 ms.topic: article
@@ -15,9 +15,9 @@ ms.localizationpriority: medium
 
 ## Overview
 
-Windows Runtime Support for IL2CPP in Unity
+Windows Runtime Support for IL2CPP (Intermediate Language to C++) in Unity
 
-With the release of Unity 5.6f3 the engine has included a new feature that enables developers to use Windows Runtime (WinRT) components directly in script by including them in the game project directly. Until 5.6 developers have needed a plugin, or dll to support any platform feature (including Xbox Integrated Multiplayer) from game script in UWP. This new projection layer removes the plugin requirement, and introduces a new and simplified workflow supported only with games that choose the IL2CPP scripting backend.
+With the release of Unity 5.6f3, the engine has included a new feature that enables developers to use Windows Runtime (WinRT) components directly in script by including them in the game project directly. Until version 5.6, developers have needed a plugin, or dll to support any platform feature (including Xbox Integrated Multiplayer) from game script in UWP. This new projection layer removes the plugin requirement, and introduces a new and simplified workflow supported only with games that choose the IL2CPP scripting backend.
 
 - For more information on how to get started with using WinRT and Unity, see the [Unity documentation](https://docs.unity3d.com/Manual/IL2CPP-WindowsRuntimeSupport.html).
 - For more information on how to add Xbox Live support to Unity using IL2CPP, see the [Xbox Live documentation](https://docs.microsoft.com/windows/uwp/xbox-live/get-started-with-partner/partner-add-xbox-live-to-unity-uwp) on the subject.
@@ -40,7 +40,7 @@ For Visual Studio 2015, this can be found [in the Visual Studio Marketplace](htt
 
 ### 5. Enable IL2CPP scripting backend in the Unity player settings, and set API compatibility to .NET 4.6
 
-![The Configuration secion of the Unity Player Settings menu with the "Api Compatibility" setting set to ".NET 4.6"](../../images/unity/unity-il2cpp-1.png)
+![The Configuration section of the Unity Player Settings menu with the "Api Compatibility" setting set to ".NET 4.6"](../../images/unity/unity-il2cpp-1.png)
 
 ### 6. Import the latest version of the Xbox Integrated Multiplayer WinRT Unity asset package
 

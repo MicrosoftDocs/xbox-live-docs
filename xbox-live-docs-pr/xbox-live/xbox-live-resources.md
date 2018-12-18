@@ -73,8 +73,10 @@ Public Xbox Live code samples are available on GitHub.
 
 Samples that are restricted to managed partners can be found on the Games Developer Network Portal.
 
-## Xbox Live managed partner only content
+## Xbox Live managed partner-only content
 
 Some documentation for Xbox Live is available only to managed partners. To access this information, you must have a Microsoft Account (MSA) that has been enabled for full Xbox Live access.
 
-If you have an authorized MSA, you can find the partner only content at [Xbox Live partner content](https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/partner-content).
+* [XGD > Xbox One > Xbox Live](https://developer.microsoft.com/en-us/games/xbox/partner/live-home) - Jump pages for Xbox Live resources.
+* [XGD > Xbox One > White papers](https://developer.microsoft.com/en-us/games/xbox/partner/development-education-whitepapers) - The section "Xbox Live and Networking" contains about 30 white papers.
+* [XGD > XDK > Xbox Live Services](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/xbox-live-services) - Additional pages about User Privileges, Data Platform, Marketplace, and Cloud Compute.

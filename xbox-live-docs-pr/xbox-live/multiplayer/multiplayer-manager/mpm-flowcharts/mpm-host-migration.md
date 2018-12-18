@@ -1,7 +1,7 @@
 ---
 title: Flowchart - Handle host migration
 author: KevinAsgari
-description: Xbox Live multiplayer manager flowchart - handle host migration.
+description: Flowcharts of handling a host migration when the host of a multiplayer game disconnects.
 ms.assetid: fdd59a9b-4c84-4a5d-b4b7-f899c08c615f
 ms.author: kevinasg
 ms.date: 04/04/2017

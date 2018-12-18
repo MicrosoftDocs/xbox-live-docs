@@ -1,7 +1,7 @@
 ---
 title: Script a Leaderboard in Unity
 author: aablackm
-description: Guide on building your own Leaderboard in Unity
+description: Building your own Leaderboard UI in Unity.
 ms.author: aablackm
 ms.date: 4/24/2018
 ms.topic: get-started-article

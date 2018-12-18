@@ -1,7 +1,7 @@
 ---
 title: Add Xbox Live APIs source to a UWP project
 author: KevinAsgari
-description: Learn how to add and compile the Xbox Live APIs source in your UWP project.
+description: Adding and compiling the Xbox Live APIs source in your UWP project.
 ms.assetid: 744f87dc-510b-4a26-b2c0-74fc70b8453b
 ms.author: kevinasg
 ms.date: 04/04/2017

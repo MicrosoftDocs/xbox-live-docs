@@ -1,7 +1,7 @@
 ---
 title: Achievements 2017
 author: PhillipLucas
-description: Describes how you can configure achievements in Microsoft Dev Center to deliver rewards.
+description: Configuring Achievements in Microsoft Dev Center, to deliver rewards.
 ms.assetid:
 ms.author: kevinasg
 ms.date: 11/10/2017
@@ -36,7 +36,7 @@ The **Locked Description** field is the description that players will see when t
 The **Unlocked Description** field is the description that players will see once they have unlocked the achievement. It has a 100 character limit.
 
 ## Details
-The details section is used to associate important information such as the image, the type of achievement, the Gamerscore reward (if any) and whether the achievement should be hidden until unlocked.
+The Details section is used to associate important information such as the image, the type of achievement, the Gamerscore reward (if any) and whether the achievement should be hidden until unlocked.
 
 ![Screenshot of the details fields when configuring a new achievement in Microsoft Dev Center](../../images/dev-center/achievements-3.png)
 

@@ -1,7 +1,7 @@
 ---
 title: Game session visibility and joinability
 author: KevinAsgari
-description: Describes Xbox Live game session and game party visibility and joinability.
+description: Visibility and joinability of multiplayer game sessions and game parties.
 ms.assetid: 39b6dac1-0c6b-4dc1-9fe0-3cb7c471fbab
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 # Game session and game party visibility and joinability
 
-On Xbox One, the *visibility* and *joinability* settings for game sessions and game parties, respectively, control access to multiplayer experiences. To provide a great user experience for session joining, and for inviting players into game sessions and parties, title developers need to understand these settings. This white paper reviews the differences between visibility and joinability, and it discusses the specific settings we recommend that titles use to give their consumers the best multiplayer user flow.
+On Xbox One, the *visibility* and *joinability* settings for game sessions and game parties control access to multiplayer experiences. To provide a great user experience for session joining, and for inviting players into game sessions and parties, title developers need to understand these settings. This white paper reviews the differences between visibility and joinability, and it discusses the specific settings we recommend that titles use to give their consumers the best multiplayer user flow.
 
 ## Game session visibility
 

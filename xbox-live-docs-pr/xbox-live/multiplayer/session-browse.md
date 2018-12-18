@@ -1,7 +1,7 @@
 ---
 title: Multiplayer session browse
 author: KevinAsgari
-description: Learn how to implement multiplayer session browse by using Xbox Live multiplayer.
+description: Multiplayer session browse enables a title to query for a list of open multiplayer game sessions that meet the specified criteria.
 ms.assetid: b4b3ed67-9e2c-4c14-9b27-083b8bccb3ce
 ms.author: kevinasg
 ms.date: 10/16/2017
@@ -14,7 +14,9 @@ ms.localizationpriority: medium
 
 # Multiplayer session browse
 
-Multiplayer session browse is a new feature introduced in November 2016 that enables a title to query for a list of open multiplayer game sessions that meet the specified criteria.
+Multiplayer session browse enables a title to query for a list of open multiplayer game sessions that meet the specified criteria.
+
+Multiplayer session browse was introduced in November 2016.
 
 ## What is session browse?
 

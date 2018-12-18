@@ -1,7 +1,7 @@
 ---
 title: Rich Presence updating strings
 author: KevinAsgari
-description: Learn how to update an Xbox Live Rich Presence string.
+description: Updating Rich Presence strings.
 ms.assetid: eb2bb82e-8730-4d74-9b33-95d133360e44
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 ---
 # Rich Presence updating strings
 
-To update the Rich Presence string in your title, you can call the Write Title URI with the appropriate parameters in a JSON object. This restful call is also wrapped by Xbox Service APIs. See **Microsoft.Xbox.Services.Presence Namespace** for information on the related API.
+To update a Rich Presence string in your title, you can call the Write Title URI with the appropriate parameters in a JSON object. This restful call is also wrapped by Xbox Service APIs. See **Microsoft.Xbox.Services.Presence Namespace** for information on the related API.
 
 The URI looks like this:
 
@@ -40,7 +40,7 @@ Property | Type | Req'd | Description
 Id|String|Y|The friendlyName of the Rich Presence string that should be used
 Scid|String|Y|Scid that tells us where the Rich Presence strings are defined.
 
-For example, if I wanted to update the Rich Presence for user whose xuid is 12345, my call would look as follows:
+For example, to update the Rich Presence for the user whose xuid is 12345, the call would look as follows:
 
           POST /users/xuid(12345)/devices/current/titles/current
 

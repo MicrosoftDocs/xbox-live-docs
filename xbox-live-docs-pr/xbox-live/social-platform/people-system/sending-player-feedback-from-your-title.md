@@ -1,7 +1,7 @@
 ---
-title: Sending Player Feedback From Your Title
+title: Sending player feedback from your title
 author: KevinAsgari
-description: Learn how your title can help promote positive player experiences by sending player feedback to the Xbox Live reputation service.
+description: Promoting positive player experiences by sending player feedback to the Xbox Live Reputation service.
 ms.assetid: 49f8eb44-1e31-4248-b645-9123df6f8689
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -13,17 +13,21 @@ ms.localizationpriority: medium
 ---
 
 # Sending player feedback from your title
+
 The majority of Xbox Live members are awesome, but there are a small percentage of "Bad Apples" who hurt other people's game experiences. We identify these small percentages of users through user and title submitted feedback. We help protect the rest of the population by ensuring that these "Bad Apples" have a limited multiplayer experience where they can't interfere with good players' games. Xbox relies heavily on users to report other users to keep the system accurate, but titles in Xbox One can directly participate and dramatically help improve the accuracy of the user reputation population.
 
 ## Steps to Submit Feedback from Title or Title Service
-1. Add feedback moments to title or title service
-2. Determine the correct feedback type
-3. Call Reputation Feedback APIs with Feedback
+
+1. Add feedback moments to title or title service.
+2. Determine the correct feedback type.
+3. Call Reputation Feedback APIs with feedback.
 
 ### Adding Feedback Moments to Title or Title Service
+
 All gamers have had bad experiences with teammates who sabotage their own side, players who just stand around instead of actively playing, or cheaters who ruin their games. Xbox Live allows users to report these problematic players directly, but user feedback isn't perfect. Titles can easily determine simple things like players idling in game and quitting early and can sometimes even determine when someone is cheating. Your title can submit feedback in a wide variety of feedback moments, which will help improve the experience of all good players.
 
 ### Determining the Correct Feedback Type
+
 The Reputation system has many feedback types that are intended to capture the various ways that a user may warrant feedback. They are fully listed in Table 1 below. Most of them are negative, but it is possible to improve a user's reputation with positive feedback as well.
 
 Xbox system UI provides a way for players to submit feedback on other users in-game. That user-to-user feedback does not carry much weight, since users are prone to griefing one another when they lose. Titles can supplement that system UI, providing UI for users to directly submit feedback on another, but instead, we prefer that titles submit feedback on behalf of the title itself by using Partner feedback. Partner feedback is highly trusted.
@@ -31,9 +35,11 @@ Xbox system UI provides a way for players to submit feedback on other users in-g
 ## Example Partner Feedback Usage Scenarios
 
 ### User quitting a game in the middle of a match
+
 A player is losing a game and uses the game's menu to quit the game, abandoning her teammates. When a title detects this behavior they can report the behavior using **FairPlayQuitter.**
 
 ### Idling after match found in game
+
 A player gets matched with other players to play, but consistently stands idle in the game instead of helping the team. The title can report the player behavior using **FairplayIdler.**
 
 ### Killing Teammates in Game

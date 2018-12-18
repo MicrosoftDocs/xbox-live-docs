@@ -1,7 +1,7 @@
 ---
 title: Common multiplayer scenarios
 author: KevinAsgari
-description: Learn about the different multiplayer scenarios and how Xbox Live supports those scenarios.
+description: Multiplayer scenarios include Comparative (Indirect) Play, Online Play with friends, Skill-Based Matchmaking, and Tournaments.
 ms.assetid: 470914df-cbb5-4580-b33a-edb353873e32
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 # Common multiplayer scenarios
 There are many different types of multiplayer scenarios, and choosing the right scenario can increase player engagement and the player base for your game, which in turn helps extend the active life of your game for as long as possible.
 
-Even games that are mostly single player experiences can benefit from competitive Xbox Live features like Leaderboards, Stats or Social elements.
+Even games that are mostly single-player experiences can benefit from competitive Xbox Live features such as Leaderboards, Stats, or Social elements.
 
 The following list describes some of the more common multiplayer scenarios that you can implement with Xbox Live. The list is ordered in terms of complexity and amount of work required to implement and test, and you should consider these factors when deciding on type scenarios that you want your game to support.
 

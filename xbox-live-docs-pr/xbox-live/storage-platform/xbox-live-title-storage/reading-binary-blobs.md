@@ -1,7 +1,7 @@
 ---
-title: Reading a binary blob
+title: Reading a binary blob in Xbox Live Title Storage
 author: KevinAsgari
-description: Learn about reading a binary blob in Xbox Live Title Storage.
+description: Reading a binary blob in Title Storage, using GET.
 ms.assetid: 9b8e0c35-0cea-4491-bf30-22fad224f11b
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -21,8 +21,6 @@ ms.localizationpriority: medium
         x-xbl-contract-version: 1
         Authorization: XBL3.0 x=<userHash>;<STSTokenString>
         Connection: Keep-Alive
-
-
 
 -   The user must be in the session to update it.
 

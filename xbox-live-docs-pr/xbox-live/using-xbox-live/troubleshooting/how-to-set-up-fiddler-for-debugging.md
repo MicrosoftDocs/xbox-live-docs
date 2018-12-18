@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting Xbox Live using Fiddler
 author: KevinAsgari
-description: Learn how to use Fiddler to troubleshoot Xbox Live service calls.
+description: Using Fiddler to log and troubleshoot Xbox Live service calls.
 ms.assetid: 7d76e444-027b-4659-80d5-5b2bf56d199e
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -18,19 +18,19 @@ Fiddler is a web debugging proxy which logs all HTTP and HTTPS traffic between y
 
 ## For Windows UWP PC apps
 
-1. Make sure that the current user is in the administrator group on the PC
-1. Download Fiddler from [http://www.telerik.com/fiddler](http://www.telerik.com/fiddler)
-1. Make sure that you select the version that is “Built for .NET 4”
-1. Once installed, go to Tools->Fiddler Options and enable Capture HTTPS CONNECTs and Decrypt HTTPS traffic.  All communications between the runtime and Xbox LIVE services are encrypted with SSL.  Without this option you won’t see anything useful.  Accept all dialogs Fiddler pops up (should be 5 dialogs including UAC)
+1. Make sure that the current user is in the administrator group on the PC.
+1. Download Fiddler from [http://www.telerik.com/fiddler](http://www.telerik.com/fiddler).
+1. Make sure that you select the version that is “Built for .NET 4”.
+1. Once installed, go to Tools->Fiddler Options and enable Capture HTTPS CONNECTs and Decrypt HTTPS traffic.  All communications between the runtime and Xbox LIVE services are encrypted with SSL.  Without this option you won’t see anything useful.  Accept all dialogs Fiddler pops up (there should be 5 dialogs, including UAC).
 1. Go to “WinConfig”, “Exempt All”, and “Save Changes”.  Otherwise Fiddler won’t work with Store apps.
-1. Now if you run your app you should see the requests/responses between the app, runtime, and Xbox LIVE.
+1. Now if you run your app, you should see the requests/responses between the app, runtime, and Xbox LIVE.
 
-To debug UWP OS level calls which isn't usually needed but can be helpful when debugging sign-in and in-game events, you need to configure Fiddler to capture WinHTTP traffic.
+To debug UWP OS level calls, which isn't usually needed but can be helpful when debugging sign-in and in-game events, you need to configure Fiddler to capture WinHTTP traffic.
 This can be done with:
 ```cpp
     netsh winhttp set proxy 127.0.0.1:8888 "<-loopback>"
 ```
-where the port 8888 matches the port you've configured on Fiddlers Tools | Options | Connections tab which by default is 8888.
+where the port 8888 matches the port you've configured on Fiddlers Tools | Options | Connections tab, which by default is 8888.
 To undo this, do:
 ```cpp
     netsh winhttp reset proxy
@@ -38,7 +38,7 @@ To undo this, do:
 
 ## For Xbox One UWP based projects
 
-Follow the steps here [https://docs.microsoft.com/en-us/windows/uwp/xbox-apps/uwp-fiddler](https://docs.microsoft.com/en-us/windows/uwp/xbox-apps/uwp-fiddler)
+Follow the steps at [https://docs.microsoft.com/en-us/windows/uwp/xbox-apps/uwp-fiddler](https://docs.microsoft.com/en-us/windows/uwp/xbox-apps/uwp-fiddler).
 
 ## For Xbox One XDK based projects
 
@@ -88,7 +88,7 @@ Fiddler configuration on the dev kit has been simplified from the method used in
 
 1. Copy the Fiddler root certificate that you exported to the desktop, to the dev kit as``` xs:\Microsoft\Cert\FiddlerRoot.cer```.  You can use the following command:  ```xbcp [local Fiddler Root directory]\FiddlerRoot.cer xs:\Microsoft\Cert\FiddlerRoot.cer```
 1. Create a text file named ```ProxyAddress.txt```, with the IP address or hostname of the development PC running Fiddler and the port number where Fiddler is listening as the only content in the file. Format the name/IP address and port as follows: "HOST:PORT". (By default, Fiddler uses port 8888.) For example, "10.124.220.250:8888" or "my_dev_pc.contoso.com:8888". Copy this file to the dev kit as xs:\Microsoft\Fiddler\ProxyAddress.txt.  You can use the following command:  ```xbcp [local Proxy Address file directory]\ProxyAddress.txt xs:\Microsoft\Fiddler\ProxyAddress.txt```
-1. Reboot the dev kit by typing ```xbreboot``` into the command prompt
+1. Reboot the dev kit by typing ```xbreboot``` into the command prompt.
 
 ### To stop using Fiddler
 

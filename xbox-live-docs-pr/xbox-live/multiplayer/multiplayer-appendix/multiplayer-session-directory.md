@@ -1,7 +1,7 @@
 ---
-title: Multiplayer Session Directory
+title: Multiplayer Session Directory (MPSD)
 author: KevinAsgari
-description: Learn about the Xbox Live Multiplayer Session Directory (MPSD).
+description: Multiplayer Session Directory (MPSD) enables a title to share the information needed to connect a group of users, to create a multiplayer session.
 ms.assetid: a9b029ea-4cc1-485a-8253-e1c74184f35e
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -28,9 +28,14 @@ This article contains the following sections:
 
 ### What is MPSD?
 
-Multiplayer session directory (MPSD) is a service operating in the Xbox Live cloud that centralizes a game's multiplayer system metadata across multiple clients. It is wrapped by the **MultiplayerService Class**.
+Multiplayer Session Directory (MPSD) enables titles to share the basic information needed to connect a group of users.
+MPSD coordinates with the shell and console operating system in sending/accepting invites and in being joined via the gamer card.
 
-MPSD allows titles to share the basic information needed to connect a group of users. It ensures that session functionality is synchronized and consistent. It coordinates with the shell and console operating system in sending/accepting invites and in being joined via the gamer card.
+MPSD centralizes a game's multiplayer system metadata across multiple clients.
+MPSD ensures that session functionality is synchronized and consistent.
+
+MPSD is a service operating in the Xbox Live cloud.
+MPSD is wrapped by the **MultiplayerService Class**.
 
 
 ### MPSD Sessions
@@ -81,7 +86,8 @@ When a change to a session matches the title's subscription for that session, MP
 
 ### Handling Notifications of Connection State Changes
 
-The title can also be notified about changes in the health of the connection to MPSD. Two events signal these changes:   ** RealTimeActivityService.MultiplayerSubscriptionsLost Event ** -- fired when the title's connection to MPSD using the real-time activity service is lost. When this event occurs, the title should shut down the multiplayer.
+The title can also be notified about changes in the health of the connection to MPSD. Two events signal these changes:
+-   ** RealTimeActivityService.MultiplayerSubscriptionsLost Event ** -- fired when the title's connection to MPSD using the real-time activity service is lost. When this event occurs, the title should shut down the multiplayer.
 -   ** RealTimeActivityService.ConnectionStateChanged Event ** -- fired upon a temporary change in the health of the title's connection to the real-time activity service. The title is not required to take any action upon receiving this event, but it might be useful to use the event for diagnostic purposes.
 
 

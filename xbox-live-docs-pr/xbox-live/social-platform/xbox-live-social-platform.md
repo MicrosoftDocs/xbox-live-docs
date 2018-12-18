@@ -14,7 +14,9 @@ ms.localizationpriority: medium
 
 # Xbox Live social platform
 
-For gamers to adopt your title and stay engaged, it is crucial for them to play and compete with others. Xbox Live offers the best gaming social network with over 50 million active gamers and growing. We have created a set of tools to bring gamers together and get their eyes on new and exciting games like the one you’re sure to create. Integrating the Xbox Live social platform in your title is easy, and the return on investment is huge whether you are building a single player casual game, a companion app, or a massive multiplayer game.
+The Social Platform service is a gaming-oriented social network that includes a user's profile, gamerscore, achievements, clubs, and activity feed.
+
+For gamers to adopt your title and stay engaged, it is crucial for them to play and compete with others. Xbox Live offers the best gaming social network with over 50 million active gamers and growing. We have created a set of tools to bring gamers together and get their eyes on new and exciting games. Integrating the Xbox Live social platform in your title is easy, and the return on investment is huge whether you are building a single player casual game, a companion app, or a massive multiplayer game.
 
 ## Concepts in this article
 - [Profile](#profile)

@@ -1,7 +1,7 @@
 ---
 title: Large sessions
 author: KevinAsgari
-description: Learn about using large sessions with Xbox Live multiplayer platform.
+description: Using large sessions (more than 100 members) with the Multiplayer platform.
 ms.author: kevinasg
 ms.date: 07/11/2017
 ms.topic: article
@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 ---
 # Large sessions
 
-If you need a multiplayer session that can handle more than 100 members, you'll need to use what is known as a large session. This scenario is most common to massively multiplayer online (MMO) games and broadcasts (where most of the members are spectators), but may have applications to other styles of games as well.
+If you need a multiplayer session that can handle more than 100 members, you'll need to use a *large session*. This scenario is most common to massively multiplayer online (MMO) games and broadcasts (where most of the members are spectators), but may have applications to other styles of games as well.
 
 In some circumstances, you may also wish to use large sessions even when dealing with smaller groups of players. If you want multiple players to be in the same session, but not necessarily be aware of each other if they don't encounter each other in game, you can use the "encounters" property of large sessions.
 
@@ -20,14 +20,14 @@ Large sessions are not currently supported by [Xbox Integrated Multiplayer (XIM)
 
 Large sessions are treated slightly differently than regular sessions:
 
-* Contains less information than regular sessions, but are more efficient.
-* Supports up to 10,000 members.
+* Large sessions contain less information than regular sessions, but are more efficient.
+* Large sessions support up to 10,000 members.
 * You cannot subscribe to a large session.
 * There is no automatic inclusion into the recent player lists for members of a large session.
 
 ## Recent players
 
-One of the features of Xbox Live is that when Xbox Live players play multiplayer games with new people, after the game they can see those players on their dashboard in the **recent players** list. If a player had a great experience with a new player in a game, they may want to play with them again, or add them as a friend. If they had a poor experience with a player, they may wish to avoid them in the future, and/or report the bad behavior after the game is over.
+When Xbox Live players play multiplayer games with new people, after the game they can see those players on their dashboard in the **recent players** list. If a player had a great experience with a new player in a game, they may want to play with them again, or add them as a friend. If they had a poor experience with a player, they may wish to avoid them in the future, and/or report the bad behavior after the game is over.
 
 With regular sessions, Xbox Live automatically adds players in the same session to the recent players list. If you use large sessions however, you must take some extra steps to ensure that the recent player lists are properly populated.
 
@@ -59,7 +59,7 @@ To set sessions up as large, add `“large”: true` to the capabilities section
 
 ## Working with large sessions
 
-When writing large sessions to MPSD, we recommend that you do not to exceed 10 writes per second. This is typically a 1000 player session with a write every 2 minutes on average per player (e.g. join/leave).
+When writing large sessions to Multiplayer Service Directory (MPSD), we recommend that you do not to exceed 10 writes per second. This is typically a 1000 player session with a write every 2 minutes on average per player (e.g. join/leave).
 
 Other properties should not be maintained in the large sessions.
 

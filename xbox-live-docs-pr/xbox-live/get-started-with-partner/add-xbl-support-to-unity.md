@@ -1,7 +1,7 @@
 ---
 title: Add XBL support to Unity for UWP
 author: mikehoffms
-description: Add XBL support to Unity for UWP.
+description: Adding Xbox Live support to Unity for UWP with a scripting backend, for ID@Xbox and managed partners.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
@@ -11,3 +11,13 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, Unity
 ms.localizationpriority: medium
 ---
 # Add XBL support to Unity for UWP
+
+Adding Xbox Live support to Unity for UWP with a scripting backend, for ID@Xbox and managed partners.
+
+## In this section
+
+| Topic                                                                                                                                             | Description                                                                                                   |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| [Add XBL support to Unity for UWP for partners](partner-add-xbox-live-to-unity-uwp.md) | Add Xbox Live support to Unity for UWP with .NET scripting backend, for ID@Xbox and managed partners. |
+| [Unity for UWP with IL2CPP backend](partner-unity-uwp-il2cpp.md) | Add Xbox Live support to Unity for UWP with IL2CPP scripting backend, for ID@Xbox and managed partners. |
+| [Unity for XDK with IL2CPP backend](partner-unity-xdk-il2cpp.md) | Add Xbox Live support to Unity for XDK with IL2CPP scripting backend, for ID@Xbox and managed partners. |

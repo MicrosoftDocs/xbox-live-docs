@@ -1,7 +1,7 @@
 ---
 title: Configure Xbox Live in Unity
 author: aablackm
-description: Learn how to use the Xbox Live Unity plugin to configure Xbox Live in your Unity game.
+description: Use the Xbox Live Unity plugin to configure Xbox Live in your Unity game.
 ms.assetid: 55147c41-cc49-47f3-829b-fa7e1a46b2dd
 ms.author: aablackm
 ms.date: 1/25/2018

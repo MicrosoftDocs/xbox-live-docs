@@ -1,7 +1,7 @@
 ---
 title: Xbox Live Setup configuration
 author: shrutimundra
-description: Describes how you can configure Xbox Live Setup in Windows Dev Center.
+description: Configuring Xbox Live Setup at Windows Dev Center.
 ms.assetid:
 ms.author: kevinasg
 ms.date: 10/30/2017

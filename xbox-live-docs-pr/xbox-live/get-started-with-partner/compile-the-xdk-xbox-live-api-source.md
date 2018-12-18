@@ -1,7 +1,7 @@
 ---
 title: Compile the XDK Xbox Live API source
 author: KevinAsgari
-description: Learn how to compile the Xbox Live API source that is shipped with the Xbox Developer Kit (XDK).
+description: Compiling the Xbox Live API source that is shipped with the Xbox Developer Kit (XDK).
 ms.assetid: 78425e82-c132-4f6b-9db3-2536862f1ce5
 ms.author: kevinasg
 ms.date: 04/04/2017

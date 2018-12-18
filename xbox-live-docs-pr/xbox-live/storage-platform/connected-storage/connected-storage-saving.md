@@ -1,7 +1,7 @@
 ---
 title: Use Connected Storage to save data
 author: aablackm
-description: Learn how to use Connected Storage to save data.
+description: Code examples using Connected Storage to save gameplay data.
 ms.assetid: ccf7488c-5d55-480e-b3aa-412220d03104
 ms.author: aablackm
 ms.date: 02/27/2018
@@ -14,8 +14,7 @@ ms.localizationpriority: medium
 
 # Use Connected Storage to save data
 
-
-Data is asynchronously saved by creating a `ConnectedStorageContainer` in a `ConnectedStorageSpace` for a user and calling the `SubmitUpdatesAsync` method on the container.
+With Connected Storage, data is asynchronously saved by creating a `ConnectedStorageContainer` in a `ConnectedStorageSpace` for a user and calling the `SubmitUpdatesAsync` method on the container.
 
 > [!IMPORTANT]
 > Data dependencies across connected storage containers are unsafe. For example, uploading of one container to the cloud might complete, while another might remain queued for uploading. If the user moved to another console, the synchronization operation would allow the first container to be synchronized and accessed on the second console, without the first container being present.
@@ -24,7 +23,7 @@ Data is asynchronously saved by creating a `ConnectedStorageContainer` in a `Con
 
 1.  Retrieve a `ConnectedStorageSpace` object for the user by calling `GetForUserAsync`.
 
-    In the XDK example the returned `ConnectedStorageSpace` object is being added to a map to enable easy management of `ConnectedStorageSpace` objects for multiple users.
+    In the XDK example, the returned `ConnectedStorageSpace` object is added to a map to enable easy management of `ConnectedStorageSpace` objects for multiple users.
 
 2.  Create a `ConnectedStorageContainer` object by calling `CreateContainer` on the `ConnectedStorageSpace` object.
 3.  Call `SubmitUpdatesAsync` on the `ConnectedStorageContainer` with you game save data blob as the `blobsToWrite` parameter.

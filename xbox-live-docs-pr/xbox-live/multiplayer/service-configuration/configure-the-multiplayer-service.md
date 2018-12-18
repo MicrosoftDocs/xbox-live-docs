@@ -1,7 +1,7 @@
 ---
 title: Configuring Multiplayer Service
 author: KevinAsgari
-description: Learn how to configure the Xbox Live Multiplayer Service.
+description: Configuring the Multiplayer Service, including session templates, SmartMatch hoppers, and custom invite strings.
 ms.assetid: d042d4d5-1c75-4257-8a6f-07eddd39ca7e
 ms.author: kevinasg
 ms.date: 07/12/2017

@@ -1,7 +1,7 @@
 ---
 title: Best practices for calling Xbox Live
 author: KevinAsgari
-description: Learn about the best practices for calling Xbox Live APIs.
+description: Best practices for calling Xbox Live APIs, such as proper calling patterns and retry logic.
 ms.assetid: f4c7156b-7736-41e5-9b3d-e87cc8dd2531
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 
 The Xbox Live services can be called from two primary ways: using the Xbox Services API (XSAPI), or calling the REST endpoints directly. Regardless of how your code calls Xbox Live, it is important to have proper calling patterns and retry logic.
 
-To understand how to write proper retry logic, it is necessary to know about the two types of REST endpoints - **idempotent** and **non-idempotent**. We will discuss each of these below
+To understand how to write proper retry logic, it is necessary to know about the two types of REST endpoints - **idempotent** and **non-idempotent**. We will discuss each of these below.
  
 ## Non-idempotent endpoints
 

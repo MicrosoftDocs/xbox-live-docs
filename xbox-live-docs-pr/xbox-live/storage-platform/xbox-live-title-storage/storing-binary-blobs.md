@@ -1,7 +1,7 @@
 ---
-title: Storing a binary blob
+title: Storing a binary blob in Xbox Live Title Storage
 author: KevinAsgari
-description: Learn how to store a binary blob in Xbox Live Title Storage.
+description: Storing a binary blob in Title Storage, using PUT.
 ms.assetid: a0da36ef-5a5a-466d-80a8-e055ba7e4cdc
 ms.author: kevinasg
 ms.date: 04/04/2017

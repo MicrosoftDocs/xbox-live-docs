@@ -1,7 +1,7 @@
 ---
 title: Rich Presence Configuration on Dev Center
 author: aablackm
-description: Learn how to configure Rich Presence strings on Windows Dev Center
+description: Configuring Rich Presence strings on Windows Dev Center, to show what a user is currently doing within a game.
 ms.author: aablackm
 ms.date: 02/27/2018
 ms.topic: article
@@ -13,7 +13,7 @@ keywords: Xbox Live, Xbox, games, uwp, windows 10, Xbox one, Rich Presence strin
 
 # Configure Rich Presence on Windows Dev Center
 
-Rich Presence strings display a user's in-game activity. They are displayed under a player's Gamertag in the **Friends & clubs** list as well as in their Xbox Live user profile. Configured Rich Presence strings are appended to the name of the game being played. If you create a game called BubblePop and configure the Rich Presence string "Popping bubbles with friends", your configured string would produce "BubblePop - Popping bubbles with friends" as a status. Below you can see how a Rich Presence string will appear in context.
+A Rich Presence string displays a user's in-game activity after the name of the game that the user is playing, separated by a hyphen. A Rich Presence string is displayed under a player's Gamertag in the **Friends & clubs** list as well as in the player's Xbox Live user profile. Configured Rich Presence strings are appended to the name of the game being played. If you create a game called BubblePop and configure the Rich Presence string "Popping bubbles with friends", your configured string would produce "BubblePop - Popping bubbles with friends" as a status. Below you can see how a Rich Presence string will appear in context.
 
 In the following screenshot Xbox Live users **Last Roar** and **Lucha Uno** are playing games using Rich Presence strings.
 

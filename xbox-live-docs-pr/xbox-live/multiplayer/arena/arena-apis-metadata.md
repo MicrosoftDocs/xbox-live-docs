@@ -1,7 +1,7 @@
 ---
 title: Arena APIs UI metadata
 author: KevinAsgari
-description: Contains a comprehensive list of UI metadata for Xbox Arena APIs.
+description: Comprehensive list of UI metadata for Xbox Arena APIs, including tournament, match, team, and registration details.
 ms.author: kevinasg
 ms.date: 10-10-2017
 ms.topic: article

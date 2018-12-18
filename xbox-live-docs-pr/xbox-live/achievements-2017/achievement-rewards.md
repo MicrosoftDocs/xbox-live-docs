@@ -1,7 +1,7 @@
 ---
 title: Achievement Rewards
 author: KevinAsgari
-description: Describes how you can configure an achievement to deliver rewards.
+description: Configuring an achievement to deliver rewards, such as gamerscore, art, and in-app rewards.
 ms.assetid: b6fc5bdb-ba7b-4687-985e-894182f066da
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -14,7 +14,8 @@ ms.localizationpriority: medium
 
 # Achievement Rewards
 
-The following diagram illustrates how a developer might manage the lifecycle of a title. The new achievement system is designed to elevate our familiar mechanic with much more flexibility—in how achievements are unlocked, in how and when they are added, and in what benefits they deliver to users—that empowers the developer to run the title as a service by adding value and maintaining user engagement over time.
+The following diagram illustrates how a developer might manage the lifecycle of a title. The new achievement system elevates our familiar mechanics with more flexibility, that empowers the developer to run the title as a service by adding value and maintaining user engagement over time.
+This new achievement system provides more flexibility of how achievements are unlocked, how and when achievements are added, and what benefits achievements deliver to users.
 
 ##### Figure 1.   How a title might drive user behavior. #####
 ![rewarding_achievements](../images/omega/achievements_overview_01_drive_behavior.png)

@@ -1,7 +1,7 @@
 ---
 title: Updating Stats 2017
 author: KevinAsgari
-description: Learn how to update Xbox Live player stats by using Stats 2017.
+description: Updating player stats when using Stats 2017, by sending the latest value to the Xbox Live Service using the StatsManager APIs.
 ms.assetid: 019723e9-4c36-4059-9377-4a191c8b8775
 ms.author: kevinasg
 ms.date: 08/24/2018
@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 # Updating Stats 2017
 
-You update stats by sending the latest value for the Xbox Live Serivce using the `StatsManager` APIs which will be discussed below.
+You update stats by sending the latest value for the Xbox Live Service using the `StatsManager` APIs which will be discussed below.
 
 It is up to your title to keep track of player stats, and you call `StatsManager` to update these as appropriate.  `StatsManager` will buffer any changes and flush these to the service periodically.  Your title can also manually flush.
 

@@ -1,7 +1,7 @@
 ---
 title: How to get the XDK
 author: KevinAsgari
-description: Learn how to get access to get the Xbox Developer Kit (XDK) as a managed partner.
+description: Obtaining the Xbox Developer Kit (XDK).
 ms.assetid: 5e7abfb7-5d68-4e77-a941-13dd081268ac
 ms.author: kevinasg
 ms.date: 04/04/2017

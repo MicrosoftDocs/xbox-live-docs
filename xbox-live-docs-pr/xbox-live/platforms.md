@@ -13,9 +13,15 @@ ms.localizationpriority: medium
 
 # Platforms
 
+How to set up your development machine and make your first API call when using various development environments or targeting various operating systems.
+
 ## In this section
 
 | Topic                                                                                                                                             | Description                                                                                                   |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Setting up development environments](platforms/development-environments/development-environments.md) | Setting up your development machine and making your first API call when using various development environments. |
-| [Targeting operating systems](platforms/operating-systems/target-operating-systems.md) | Setting up your development machine and making your first API call when targeting various operating systems. |
+| [Setting up Visual Studio](platforms/visual-studio-platform.md) | Setting up your development machine and making your first API call when using Visual Studio. |
+| [Setting up Unity](platforms/unity-platform.md) | Setting up your development machine and making your first API call when using Unity. |
+| [Targeting Xbox](platforms/xbox-platform.md) | Setting up your environment and making your first API call when targeting Xbox. |
+| [Targeting Windows](platforms/windows-platform.md) | Setting up your environment and making your first API call when targeting Windows. |
+| [Targeting iOS](platforms/ios-platform.md) | Setting up your environment and making your first API call when targeting iOS. |
+| [Targeting Android](platforms/android-platform.md) | Setting up your environment and making your first API call when targeting Android. |

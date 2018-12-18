@@ -1,7 +1,7 @@
 ---
 title: WinRT API error handling
 author: KevinAsgari
-description: Learn how to handle errors when making an Xbox Live service call with the WinRT APIs.
+description: Handling errors when making an Xbox Live service call with the WinRT APIs.
 ms.assetid: b4f04798-df91-430e-90f0-83b5a48b9ab2
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -13,9 +13,9 @@ ms.localizationpriority: medium
 ---
 # WinRT API error handling
 
-In the WinRT API, which can be called from C++/CX, C#, or Javascript, errors are reported using exceptions, so try/catch blocks must be used to handle errors.
+The WinRT API can be called from C++/CX, C#, or JavaScript.  In the WinRT API, errors are reported using exceptions, so try/catch blocks must be used to handle errors.
 
-Note that the for async calls, two try/catch blocks are needed like this:
+For async calls, two try/catch blocks are needed. For example:
 
 ```cpp
     try
@@ -53,7 +53,7 @@ Note that the for async calls, two try/catch blocks are needed like this:
     }
 ```
 
-The XSAPI  async methods do have some code that runs synchronously when a method is called.  The synchronous code does work like validating the input arguments and starting the async operations or actions.  So, even calling the async methods can result in an exception – although this shouldn’t happen for normal scenarios (i.e. programmer error, not network error).  Please be conscious of this possibility and program defensively by validating input and testing your code thoroughly during development.  Whether you put a try/catch around the call itself, or place one at a higher level in the callstack, the important thing is to have one.
+The XSAPI async methods do have some code that runs synchronously when a method is called.  The synchronous code does work like validating the input arguments and starting the async operations or actions.  So, even calling the async methods can result in an exception – although this shouldn’t happen for normal scenarios (i.e. programmer error, not network error).  Be conscious of this possibility and program defensively by validating input and testing your code thoroughly during development.  Whether you put a try/catch around the call itself, or place a try/catch at a higher level in the callstack, the important thing is to have a try/catch.
 
 ## Help! My game crashes when I call XYZ Xbox Service API
 

@@ -1,7 +1,7 @@
 ---
 title: Xbox Live fine grained rate limiting
 author: KevinAsgari
-description: Learn how Xbox Live fine grained rate limiting works, and how to prevent your title from being rate limited.
+description: How Xbox Live fine-grained rate limiting works, to prevent your title from being rate-limited.
 ms.assetid: ceca4784-9fe3-47c2-94c3-eb582ddf47d6
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -12,7 +12,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, throttling, rate li
 ms.localizationpriority: medium
 ---
 
-# Xbox Live fine grained rate limiting
+# Xbox Live fine-grained rate limiting
 
 ## Introduction
 
@@ -40,21 +40,21 @@ Fine Grained Rate Limiting uses the same core mechanics mentioned above however 
 
 ## Fair Usage
 
-Xbox Live believes that each user should have the same high quality experience no matter what game/app he/she is playing. FGRL is designed to solve the following scenario:
+Xbox Live believes that each user should have the same high-quality experience no matter what game/app he/she is playing. FGRL is designed to solve the following scenario:
 
 Developer A has just released a title that follows all the Xbox live best practices ensuring optimal use of services while Developer B has also just released a title however this one has an unknown bug. This bug causes the title and each user to spam presence which results in the service going under heavy load. The service slows and eventually halts breaking the experience for developer A’s users even though it was developer B’s bug that caused the issue. If FGRL was implemented the service would have been able to stop receiving requests from the miss behaving title allowing it to serve Developer A’s title its fair slice of the resource pie.
 
 ## Title and User granularity
 
-Title and User were chosen as the key to ensure fair usage of Xbox Live resources. Tracking just the user would create a scenario in which the user experience would be at the mercy of each titles integration. For example, most titles use the people service already so for the sake of this example, let’s say Fine Grained Rate Limiting was set up on the people service allowing no more than 100 requests in 5 minutes. If a user were to play a game that made 100 requests in 1 minute the limit would be exceeded and the user would not be able to make any more requests to the people service; imagine that in the same period the user then goes back to the home screen and clicks his friends list: Since the user would already have exceeded the limit that friends list call would fail until the 5 minutes interval has passed, even though the home screen was not responsible for putting the user in the limited state.
+Title and User were chosen as the key to ensure fair usage of Xbox Live resources. Tracking just the user would create a scenario in which the user experience would be at the mercy of each titles integration. For example, most titles use the people service already so for the sake of this example, let’s say Fine Grained Rate Limiting was set up on the people service allowing no more than 100 requests in 5 minutes. If a user were to play a game that made 100 requests in 1 minute, the limit would be exceeded, and the user would not be able to make any more requests to the people service; imagine that in the same period the user then goes back to the home screen and clicks his friends list: Since the user would already have exceeded the limit that friends list call would fail until the 5-minute interval has passed, even though the home screen was not responsible for putting the user in the limited state.
 
-Alternatively limiting based only on the title would produce an equally unfair result. Setting a limit per title would ignore the popularity of the titles and the requests would just be first come first serve until a limit is reached.
+Alternatively, limiting based only on the title would produce an equally unfair result. Setting a limit per title would ignore the popularity of the titles, and the requests would just be first-come first-served until a limit is reached.
 
-The pairing of User and Title ensures that no title uses more resources than what is appropriate given the number of active users while also giving each user a consistent slice of the resource pie.
+The pairing of User and Title ensures that no title uses more resources than what is appropriate given the number of active users, while also giving each user a consistent slice of the resource pie.
 
 ![](../../images/FGRL.png)
 
-The diagram above shows a high level view of how the request is handled. First the request is generated and then received by the desired service. Upon receiving the request, the system checks to see how many times the user and title together have accessed the service. If the request is under the limit, then it will be processed as normal. If the request is found to be at or above the limit the services will drop it and instead return a 429 response. The response will indicate how long until the period rolls over and the user and title requests can be handled.
+The diagram above shows a high-level view of how the request is handled. First the request is generated and then received by the desired service. Upon receiving the request, the system checks to see how many times the user and title together have accessed the service. If the request is under the limit, then it will be processed as normal. If the request is found to be at or above the limit the services will drop it and instead return a 429 response. The response will indicate how long until the period rolls over and the user and title requests can be handled.
 
 ## Burst and Sustain Limits
 

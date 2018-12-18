@@ -1,7 +1,7 @@
 ---
 title: Introduction to Xbox Live APIs
 author: KevinAsgari
-description: Learn about the various API models that you can use to interact with the Xbox Live service.
+description: Xbox Live services can be called through client-side XSAPI (WinRT, C++11, or C) or through REST endpoints.
 ms.assetid: 5918c3a2-6529-4f07-b44d-51f9861f91ec
 ms.author: kevinasg
 ms.date: 06/05/2018
@@ -18,8 +18,8 @@ ms.localizationpriority: medium
 
 There are two ways to get information from the Xbox Live services:
 
-- Use a client side API called Xbox Live Services API (**XSAPI**)
-- Call the **Xbox Live REST endpoints** directly
+- Use a client-side API called Xbox Live Services API (**XSAPI**).
+- Call the **Xbox Live REST endpoints** directly.
 
 The advantages of using the Xbox Live Services API (**XSAPI**) include:
 

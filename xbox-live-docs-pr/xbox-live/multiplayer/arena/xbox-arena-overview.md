@@ -1,7 +1,7 @@
 ---
 title: Xbox Arena overview
 author: KevinAsgari
-description: Learn how to use Xbox Arena to run tournaments for your game.
+description: Using Xbox Arena to run tournaments for your game.
 ms.author: kevinasg
 ms.date: 09-20-2017
 ms.topic: article

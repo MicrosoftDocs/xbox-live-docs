@@ -1,7 +1,7 @@
 ---
 title: Multiplayer how-tos
 author: KevinAsgari
-description: Describes how to implement common tasks in Xbox Live Multiplayer 2015.
+description: Implementing common tasks in Multiplayer 2015.
 ms.assetid: 99c5b7c4-018c-4f7a-b2c9-0deed0e34097
 ms.author: kevinasg
 ms.date: 08/29/2017
@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 # Multiplayer how-to's
 
-This topic contains information on how to implement specific tasks related to using multiplayer 2015.
+This topic contains information on how to implement specific tasks related to using Multiplayer 2015.
 
 * Subscribe for MPSD session change notifications
 * Create an MPSD session
@@ -36,8 +36,6 @@ This topic contains information on how to implement specific tasks related to us
 | Note                                                                                                                                                                                                                                                                                                                                    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Subscribing for changes to a session requires the associated player to be active in the session. The connectionRequiredForActiveMembers field must also be set to true in the /constants/system/capabilities object for the session. This field is usually set in the session template. See [MPSD Session Templates](multiplayer-session-directory.md). |
-
-
 
 To receive MPSD session change notifications, the title can follow the procedure below.
 

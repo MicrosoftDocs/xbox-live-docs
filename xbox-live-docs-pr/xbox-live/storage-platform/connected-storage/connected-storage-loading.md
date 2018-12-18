@@ -1,7 +1,7 @@
 ---
 title: Use Connected Storage to load data
 author: aablackm
-description: Learn how to use Connected Storage to load data.
+description: Code examples using Connected Storage to read data by calling ReadAsync or GetAsync.
 ms.assetid: c660a456-fe7d-453a-ae7b-9ecaa2ba0a15
 ms.author: aablackm
 ms.date: 02/27/2018

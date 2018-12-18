@@ -12,3 +12,11 @@ ms.localizationpriority: medium
 ---
 # Configuring Xbox Live Services
 
+Configuring Xbox Live services for your game.
+
+## In this section
+
+| Topic                                                                                                                                             | Description                                                                                                   |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| [Xbox Live service configuration](xbox-live-service-configuration.md) | Configuring Xbox Live services for your game. |
+| [Partner Center](configure-xbl/windows-dev-center.md) | Configuring Xbox Live services at Windows Dev Center. |
