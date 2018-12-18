@@ -20,7 +20,7 @@ Developing an Xbox Live-enabled game.
 
 | Topic                                                                                                                                             | Description                                                                                                   |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Xbox Live APIs](xbox-live-apis.md) | Xbox Live services can be called through the client-side XSAPI (WinRT, C++11, or C) or through REST endpoints. |
+| [Xbox Live APIs](../xbox-live-apis.md) | Xbox Live services can be called through the client-side XSAPI (WinRT, C++11, or C) or through REST endpoints. |
 | [Best practices for calling Xbox Live](best-practices/best-practices-for-calling-xbox-live.md) | Best practices for calling Xbox Live APIs, such as proper calling patterns and retry logic. |
 | [Error handling](error-handling/error-handling.md) | Handling errors when calling an Xbox Live service through XSAPI. |
 | [Troubleshooting Xbox Live](troubleshooting/troubleshooting.md) | Troubleshoot Xbox Live development, such as by logging responses, checking the dev PC setup, checking the sign-in sandbox, and logging calls. |
