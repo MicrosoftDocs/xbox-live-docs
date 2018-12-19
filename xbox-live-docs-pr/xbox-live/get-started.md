@@ -17,8 +17,10 @@ ms.localizationpriority: medium
 
 <h2>Get Started</h2>
 <p>Learn how to build your first XBL feature by getting enrolled in a program, setting up a development kit, calling an API.</p>
-<img src="images/common/enroll_step1_icon.svg" alt="Enroll" />
-<img src="images/common/setup_step2_icon.svg" alt="Setup" />
+<div class="ico48Case halfStack">
+    <div class="ico48Link"><a href=""><img src="images/common/enroll_step1_icon.svg"><span>Enroll</span></a></div>
+    <div class="ico48Link"><a href=""><img src="images/common/setup_step2_icon.svg"><span>Setup</span></a></div>
+</div>
 
 <h2>Guides</h2>
 <ul class="cardsF panelContent cols cols2">
@@ -216,7 +218,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardText">
                         <h3>Tutorials</h3>
-                        <p><a href="" data-linktype="absolute-path">Connect to SharePoint OnlineXbox Live Samples and Combination Samples</a></p>
+                        <p><a href="" data-linktype="absolute-path">Xbox Live Samples and Combination Samples</a></p>
                      </div>
                 </div>
             </div>
