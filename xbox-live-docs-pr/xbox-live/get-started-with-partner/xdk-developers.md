@@ -1,17 +1,12 @@
 ---
 title: Get started with Visual Studio for XDK games
-author: KevinAsgari
 description: Getting started with Xbox Live development in an Xbox Developer Kit (XDK)-based project using Visual Studio.
 ms.assetid: 3430cf97-0136-4c69-bcec-9cc3edf5fc95
-ms.author: kevinasg
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, xdk
 ms.localizationpriority: medium
 ---
-
 # Get started with using Visual Studio for XDK based games
 
 Getting started with Xbox Live development in an Xbox Developer Kit (XDK)-based project using Visual Studio.

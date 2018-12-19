@@ -1,16 +1,13 @@
 ---
 title: Rich Presence updating strings
-author: KevinAsgari
 description: Updating Rich Presence strings.
 ms.assetid: eb2bb82e-8730-4d74-9b33-95d133360e44
-ms.author: kevinasg
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, rich presence
 ms.localizationpriority: medium
 ---
+
 # Rich Presence updating strings
 
 To update a Rich Presence string in your title, you can call the Write Title URI with the appropriate parameters in a JSON object. This restful call is also wrapped by Xbox Service APIs. See **Microsoft.Xbox.Services.Presence Namespace** for information on the related API.

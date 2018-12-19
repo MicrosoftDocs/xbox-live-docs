@@ -1,12 +1,8 @@
 ---
 title: Large sessions
-author: KevinAsgari
 description: Using large sessions (more than 100 members) with the Multiplayer platform.
-ms.author: kevinasg
 ms.date: 07/11/2017
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, large session, recent players
 ms.localizationpriority: medium
 ---

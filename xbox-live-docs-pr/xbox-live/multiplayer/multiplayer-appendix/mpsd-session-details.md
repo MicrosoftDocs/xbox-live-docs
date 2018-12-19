@@ -1,13 +1,9 @@
 ---
 title: Multiplayer sessions in Multiplayer Session Directory (MPSD)
-author: KevinAsgari
 description: Details about multiplayer sessions.
 ms.assetid: 5aeae339-4a97-45f4-b0e7-e669c994f249
-ms.author: kevinasg
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer 2015, session, mpsd
 ms.localizationpriority: medium
 ---
@@ -162,7 +158,7 @@ Servers are non-users that have joined or been invited into a session. The assoc
 
 There are two ways to control the configuration of sessions:
 
--   Use session templates ingested through XDP or Windows Dev Center.
+-   Use session templates ingested through XDP or Partner Center.
 -   Use calls to the multiplayer and matchmaking WinRT APIs or REST APIs. You must still use a template but the template does not have to contain the values you want to configure. Note that your title cannot override the constants already set in the template.
 
 A separate JSON document is provided to define the session itself. In addition, the developer must implement any WinRT wrapper functionality required for a particular title. The contents of the JSON documents and any WinRT wrapper code must reflect each other precisely, and must reflect the latest template contract version.
@@ -180,7 +176,7 @@ Each session template is a JSON document, part of the service configuration, tha
 
 ## Session Capabilities
 
-Capabilities are constants in the MPSD session that configure behavior that the MPSD should apply to that session. You most commonly use XDP and Windows Dev Center to set capabilities in the session template. They are set in the /constants/system/capabilities object. If no capabilities are needed, use an empty capabilities object.
+Capabilities are constants in the MPSD session that configure behavior that the MPSD should apply to that session. You most commonly use XDP and Partner Center to set capabilities in the session template. They are set in the /constants/system/capabilities object. If no capabilities are needed, use an empty capabilities object.
 
 | Note                                                                                                       |
 |-------------------------------------------------------------------------------------------------------------------------|

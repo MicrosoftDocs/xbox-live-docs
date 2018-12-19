@@ -1,13 +1,9 @@
 ---
 title: Xbox Live multiplayer concepts
-author: KevinAsgari
-description: Concepts used by Xbox Live multiplayer systems, including multiplayer session, multiplayer service session directory, SmartMatch matchmaking, and quality of service (QoS).
+description: Concepts used by Multiplayer systems, including multiplayer session, multiplayer service session directory, SmartMatch matchmaking, and quality of service (QoS).
 ms.assetid: 1e765f19-1530-4464-b5cf-b00259807fd3
-ms.author: kevinasg
 ms.date: 08/25/2017
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer
 ms.localizationpriority: medium
 ---

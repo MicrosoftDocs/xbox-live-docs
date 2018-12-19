@@ -1,13 +1,9 @@
 ---
 layout: LandingPage
-author: KevinAsgari
 title: Xbox Live developer guide
 description: Learn how to use Xbox Live services to connect your game to the Xbox Live gaming network.
-ms.author: kevinasg
 ms.date: 12/11/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---

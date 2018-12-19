@@ -1,7 +1,7 @@
 ---
 title: XAL on iOS
 author: aablackm
-description: Sign in to Xbox Live with your iOS project
+description: Signing in to Xbox Live with your iOS project.
 ms.assetid: e54c98ce-e049-4189-a50d-bb1cb319697c
 ms.author: aablackm
 ms.date: 08/30/2018

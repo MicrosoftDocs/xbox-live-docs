@@ -1,19 +1,16 @@
 ---
 title: XIM Out-of-band Reservations
-author: KevinAsgari
 description: Using Xbox Integrated Multiplayer (XIM) as a dedicated chat solution via out-of-band reservations.
 ms.assetid: 0ed26d19-defb-414d-a414-c4877bd0ed37
-ms.author: kevinasg
 ms.date: 01/28/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, xbox integrated multiplayer, xim, chat
 ms.localizationpriority: medium
 ---
+
 # Using XIM as a dedicated chat solution via out-of-band reservations
 
-Most apps use XIM to handle every aspect of getting players together. After all, a focus on assembling all the features needed to support common multiplayer scenarios end-to-end is the reason it's called "Xbox Integrated Multiplayer". However some apps that implement their own multiplayer solutions using dedicated Internet servers would also like the advantages of establishing reliable, low latency, low cost peer-to-peer chat communication. XIM recognizes this need, and supports an extension mode which takes advantage of XIM's simplified peer communication to augment external player management happening outside of the XIM API. Instead of moving into a XIM network through social means or matchmaking, players move using "reservations", guaranteed placeholders for particular users that are exchanged "out-of-band" through the app's external player rendezvous mechanism.
+Most apps use XIM to handle every aspect of getting players together. After all, a focus on assembling all the features needed to support common multiplayer scenarios end-to-end is the reason it's called "Xbox Integrated Multiplayer". However, some apps that implement their own multiplayer solutions using dedicated Internet servers would also like the advantages of establishing reliable, low latency, low cost peer-to-peer chat communication. XIM recognizes this need, and supports an extension mode which takes advantage of XIM's simplified peer communication to augment external player management happening outside of the XIM API. Instead of moving into a XIM network through social means or matchmaking, players move using "reservations", guaranteed placeholders for particular users that are exchanged "out-of-band" through the app's external player rendezvous mechanism.
 
 Aside from the move process, XIM networks managed using out-of-band reservations are effectively the same as any other XIM network. All communication functions work identically. However, matchmaking and social discovery API methods are necessarily disabled for XIM networks managed using out-of-band reservations since they would conflict with the app's own external implementation. You can't send invites from such a XIM network, for example.
 

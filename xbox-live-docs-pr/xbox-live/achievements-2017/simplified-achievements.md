@@ -1,17 +1,12 @@
 ---
 title: Achievements 2017
-author: KevinAsgari
 description: Achievements 2017 is simpler than cloud-powered achievements, using direct calling, simple configuration, and local troubleshooting.
 ms.assetid: d424db04-328d-470c-81d3-5d4b82cb792f
-ms.author: kevinasg
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
-
 # Achievements 2017
 
 Achievements 2017 is simpler than cloud-powered achievements, using direct calling, simple configuration, and local troubleshooting.
@@ -76,7 +71,7 @@ The API signature is as follows:
     /// <param name="xboxUserId">The Xbox User ID of the player.</param>
     /// <param name="titleId">The title ID.</param>
     /// <param name="serviceConfigurationId">The service configuration ID (SCID) for the title.</param>
-    /// <param name="achievementId">The achievement ID as defined by XDP or Dev Center.</param>
+    /// <param name="achievementId">The achievement ID as defined by XDP or Partner Center.</param>
     /// <param name="percentComplete">The completion percentage of the achievement to indicate progress.
     /// Valid values are from 1 to 100. Set to 100 to unlock the achievement.  
     /// Progress will be set by the server to the highest value sent</param>

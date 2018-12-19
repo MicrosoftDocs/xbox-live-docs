@@ -1,7 +1,7 @@
 ---
 title: Xbox Live Authentication Library (XAL)
 author: aablackm
-description: An introduction to XAL and how to integrate it into your Xbox Live project
+description: An introduction to XAL and how to integrate it into your Xbox Live project.
 ms.assetid: e54c98ce-e049-4189-a50d-bb1cb319697c
 ms.author: aablackm
 ms.date: 08/30/2018

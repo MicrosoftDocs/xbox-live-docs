@@ -1,5 +1,5 @@
 ---
-title: Tools
+title: Development tools for Xbox Live
 author: mikehoffms
 description: Tools to help develop and test your Xbox Live-enabled title.
 ms.author: v-mihof

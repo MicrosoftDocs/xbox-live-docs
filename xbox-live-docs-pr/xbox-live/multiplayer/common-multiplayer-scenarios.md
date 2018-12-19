@@ -1,9 +1,7 @@
 ---
 title: Common multiplayer scenarios
-author: KevinAsgari
 description: Multiplayer scenarios include Comparative (Indirect) Play, Online Play with friends, Skill-Based Matchmaking, and Tournaments.
 ms.assetid: 470914df-cbb5-4580-b33a-edb353873e32
-ms.author: kevinasg
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: windows

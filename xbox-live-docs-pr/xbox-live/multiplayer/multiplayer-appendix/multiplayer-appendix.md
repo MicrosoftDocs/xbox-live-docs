@@ -1,13 +1,9 @@
 ---
 title: Multiplayer 2015 appendix
-author: KevinAsgari
 description: The Multiplayer 2015 service is a more complex way than the Multiplayer Manager API, to enable game play and assembling game players into groups.
 ms.assetid: 412ae5f4-6975-4a8b-9cc2-9747e093ec4d
-ms.author: kevinasg
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---

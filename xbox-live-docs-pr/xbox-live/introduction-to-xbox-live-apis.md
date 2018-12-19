@@ -1,17 +1,12 @@
 ---
 title: Introduction to Xbox Live APIs
-author: KevinAsgari
 description: Xbox Live services can be called through client-side XSAPI (WinRT, C++11, or C) or through REST endpoints.
 ms.assetid: 5918c3a2-6529-4f07-b44d-51f9861f91ec
-ms.author: kevinasg
 ms.date: 06/05/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
-
 # Introduction to Xbox Live APIs
 
 ## Use Xbox Live services
@@ -56,7 +51,7 @@ Comparing the APIs:
 
 Here's an example of calling the XSAPI WinRT API using C++/WinRT:
 
-```c++
+```cpp
 winrt::Windows::Xbox::System::User cppWinrtUser = winrt::Windows::Xbox::System::User::Users().GetAt(0);
 winrt::Microsoft::Xbox::Services::XboxLiveContext xblContext(cppWinrtUser);
 ```
@@ -64,7 +59,7 @@ winrt::Microsoft::Xbox::Services::XboxLiveContext xblContext(cppWinrtUser);
 If you want to mix C++/CX and C++/WinRT as you are migrating code you can do this too but is a little more complex.  
 Here's an example of calling the XSAPI WinRT API using C++/WinRT given C++/CX User^ object.
 
-```c++
+```cpp
 ::Windows::Xbox::System::User^ user1 = ::Windows::Xbox::System::User::Users->GetAt(0);
 winrt::Windows::Xbox::System::User cppWinrtUser(nullptr);
 winrt::copy_from(cppWinrtUser, reinterpret_cast<winrt::ABI::Windows::Xbox::System::IUser*>(user1));
@@ -81,7 +76,7 @@ winrt::Microsoft::Xbox::Services::XboxLiveContext xblContext(cppWinrtUser);
 - The C++11 based API is the recommended API to use for C++ game engines for better performance, and better debugging.
 - If you are in the Xbox Live Creators Program, before including the XSAPI header define XBOX_LIVE_CREATORS_SDK. This limits the API surface area to only those that are usable by developers in the Xbox Live Creators Program and changes the sign-in method to work for titles in the Creators program.  For example:
 
-```c++
+```cpp
 #define XBOX_LIVE_CREATORS_SDK
 #include "xsapi\services.h"
 ```
@@ -90,14 +85,14 @@ winrt::Microsoft::Xbox::Services::XboxLiveContext xblContext(cppWinrtUser);
 
 To use C++/WinRT with the XSAPI C++ API, before including the XSAPI header define XSAPI_CPPWINRT.  For example:
 
-```c++
+```cpp
 #define XSAPI_CPPWINRT
 #include "xsapi\services.h"
 ```
 
 Here's an example of calling the XSAPI C++ API using C++/WinRT:
 
-```c++
+```cpp
 winrt::Windows::Xbox::System::User cppWinrtUser = winrt::Windows::Xbox::System::User::Users().GetAt(0);
 std::shared_ptr<xbox::services::xbox_live_context> xboxLiveContext = std::make_shared<xbox::services::xbox_live_context>(cppWinrtUser);
 ```

@@ -10,6 +10,7 @@ ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, connected storage
 ms.localizationpriority: medium
 ---
+
 # Connected Storage
 
 Connected Storage saves and loads gameplay data and other state data across devices.

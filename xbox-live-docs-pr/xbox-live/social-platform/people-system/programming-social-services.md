@@ -1,13 +1,9 @@
 ---
 title: Programming Social Services
-author: KevinAsgari
 description: Code example showing how to use the Social Manager API to retrieve a user's social relationships and their public properties.
 ms.assetid: 101d059a-e03f-472c-8300-800aa5730ee2
-ms.author: kevinasg
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, social manager, example
 ms.localizationpriority: medium
 ---

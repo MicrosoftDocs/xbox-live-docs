@@ -1,13 +1,9 @@
 ---
 title: Multiplayer Platform overview
-author: KevinAsgari
 description: The Multiplayer Platform includes Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
 ms.assetid: 958b94b3-dccd-479a-bf52-54f7ff1656fa
-ms.author: kevinasg
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer
 ms.localizationpriority: medium
 ---

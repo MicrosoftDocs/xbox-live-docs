@@ -1,17 +1,12 @@
 ---
 title: Multiplayer manager flowcharts
-author: KevinAsgari
 description: Flowcharts of code for implementing specific Multiplayer Manager scenarios.
 ms.assetid: 0e81ab13-9285-4b72-a6ce-f15add559128
-ms.author: kevinasg
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer manager, flowchart
 ms.localizationpriority: medium
 ---
-
 # Multiplayer manager flowcharts
 
 These flowchart diagrams depict implementing specific Multiplayer Manager scenarios.

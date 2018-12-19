@@ -1,7 +1,7 @@
 ---
 title: XAL on Android
 author: aablackm
-description: Sign in to Xbox Live with your Android project
+description: Signing in to Xbox Live with your Android project.
 ms.author: aablackm
 ms.date: 08/30/2018
 ms.topic: article

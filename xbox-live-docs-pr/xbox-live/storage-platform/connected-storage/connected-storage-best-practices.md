@@ -1,15 +1,12 @@
 ---
 title: Connected Storage best practices
-author: aablackm
 description: Getting the best performance and experience from Connected Storage, such as when to load and save.
-ms.author: aablackm
 ms.date: 02/27/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, Connected Storage
 ms.localizationpriority: medium
 ---
+
 # Connected Storage best practices
 
 Developers should divide save data into logical groupings which are independently updateable rather than writing monolithic saves. This allows titles to reduce the amount of data they write in various situations, reducing both local resource consumption and upload bandwidth usage. The API also allows titles to update more than one data item in an atomic operation which is guaranteed to succeed entirely or not take effect at all (for instance in the case of catastrophic failure mid-save).

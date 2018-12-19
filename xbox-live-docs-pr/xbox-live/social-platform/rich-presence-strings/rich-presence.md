@@ -10,6 +10,7 @@ ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, rich presence
 ms.localizationpriority: medium
 ---
+
 # Rich Presence
 
 Rich Presence shows what activity a user is currently doing, in which area of which game.

@@ -1,13 +1,9 @@
 ---
-title: Xbox Live fine grained rate limiting
-author: KevinAsgari
+title: Xbox Live fine-grained rate limiting
 description: How Xbox Live fine-grained rate limiting works, to prevent your title from being rate-limited.
 ms.assetid: ceca4784-9fe3-47c2-94c3-eb582ddf47d6
-ms.author: kevinasg
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, throttling, rate limiting
 ms.localizationpriority: medium
 ---
@@ -16,13 +12,13 @@ ms.localizationpriority: medium
 
 ## Introduction
 
-This article provides an overview of Xbox Live fine grained rate limiting. In addition to summarizing what rate limiting is, this paper also intends to help you determine if you are being limited, and if you are, what tools and resources are at your disposal.
+This article provides an overview of Xbox Live fine-grained rate limiting. In addition to summarizing what rate limiting is, this paper also intends to help you determine if you are being limited, and if you are, what tools and resources are at your disposal.
 
 ## Terminology Guide
 
 | Term         | Definition                                                  |
 |--------------|-----------------------------------------------------------------------------
-| FGRL         | Fine Grained Rate Limiting                                                  
+| FGRL         | Fine-Grained Rate Limiting                                                  
 | XSAPI        | Xbox Services Application Program Interface                                 
 | CU           | Content Update                                                              
 | Burst        | Represents a volume of requests received in a short period of time          
@@ -30,13 +26,13 @@ This article provides an overview of Xbox Live fine grained rate limiting. In ad
 | User + Title | Represents the pairing of a user and title as one entity                    
 | XLTA         | Xbox Live Trace Analyzer tool, used for determining if your title is being rate limited
 
-## Xbox Live Fine Grained Rate Limiting
+## Xbox Live Fine-Grained Rate Limiting
 
-**Fine Grained Rate Limiting** was commissioned to promote **fair usage** of shared Xbox Live resources amongst different titles. This solution is like most traditional limiting systems which have a service keeping a count of the number of requests an entity has made in a given period of time.
+**Fine-Grained Rate Limiting** was commissioned to promote **fair usage** of shared Xbox Live resources amongst different titles. This solution is like most traditional limiting systems which have a service keeping a count of the number of requests an entity has made in a given period of time.
 
 Entities that reach the services specified limit are then moved to a rejecting state where all incoming requests from the entity will be turned away. Entities are only able to exit this state when the given period of time expires causing the entities associated count to reset.
 
-Fine Grained Rate Limiting uses the same core mechanics mentioned above however instead of tracking one entity FGRL tracks the combination of **user and title** and compares the associated count to **two** different **limits** as oppose to one. FGRL dual limits are enforced on each service meaning the request count for GameClips will not affect the request count for Presence. The following sections will go into more detail about the user and title pairing, dual limiting, and the HTTP 429 limiting response object.
+Fine-Grained Rate Limiting uses the same core mechanics mentioned above however instead of tracking one entity FGRL tracks the combination of **user and title** and compares the associated count to **two** different **limits** as oppose to one. FGRL dual limits are enforced on each service meaning the request count for GameClips will not affect the request count for Presence. The following sections will go into more detail about the user and title pairing, dual limiting, and the HTTP 429 limiting response object.
 
 ## Fair Usage
 
@@ -46,7 +42,7 @@ Developer A has just released a title that follows all the Xbox live best practi
 
 ## Title and User granularity
 
-Title and User were chosen as the key to ensure fair usage of Xbox Live resources. Tracking just the user would create a scenario in which the user experience would be at the mercy of each titles integration. For example, most titles use the people service already so for the sake of this example, let’s say Fine Grained Rate Limiting was set up on the people service allowing no more than 100 requests in 5 minutes. If a user were to play a game that made 100 requests in 1 minute, the limit would be exceeded, and the user would not be able to make any more requests to the people service; imagine that in the same period the user then goes back to the home screen and clicks his friends list: Since the user would already have exceeded the limit that friends list call would fail until the 5-minute interval has passed, even though the home screen was not responsible for putting the user in the limited state.
+Title and User were chosen as the key to ensure fair usage of Xbox Live resources. Tracking just the user would create a scenario in which the user experience would be at the mercy of each titles integration. For example, most titles use the people service already so for the sake of this example, let’s say Fine-Grained Rate Limiting was set up on the people service allowing no more than 100 requests in 5 minutes. If a user were to play a game that made 100 requests in 1 minute, the limit would be exceeded, and the user would not be able to make any more requests to the people service; imagine that in the same period the user then goes back to the home screen and clicks his friends list: Since the user would already have exceeded the limit that friends list call would fail until the 5-minute interval has passed, even though the home screen was not responsible for putting the user in the limited state.
 
 Alternatively, limiting based only on the title would produce an equally unfair result. Setting a limit per title would ignore the popularity of the titles, and the requests would just be first-come first-served until a limit is reached.
 
@@ -90,7 +86,7 @@ When the associated user and title count is at or above either the burst or sust
 
 ## Implemented limits
 
-The following services have implemented FGRL limits, with enforcement of these limits in place since **May 2016**. To reiterate, these limits will be the same across all sandboxes and titles. **Any title that was published via Xbox Developer Platform or Dev Center and shipped prior to May 2016 will be considered Legacy and therefore exempted.**
+The following services have implemented FGRL limits, with enforcement of these limits in place since **May 2016**. To reiterate, these limits will be the same across all sandboxes and titles. **Any title that was published via Xbox Developer Platform or Partner Center and shipped prior to May 2016 will be considered Legacy and therefore exempted.**
 
 | **Name** | **Burst Limit** (15 seconds per user per title) | **Sustain Limit** (300 seconds per user per title) | **Certification Limit** (10x Sustained, 300 seconds per user per title) |
 |----------------------------|---------------------------|----------------------------|----------------------------|

@@ -1,13 +1,9 @@
 ---
 title: Working with Connected Storage buffers
-author: KevinAsgari
 description: Code examples using Connected Storage buffers.
 ms.assetid: 1d9d1b52-4bfe-4cd9-8b80-50ca6c0e9ae1
-ms.author: kevinasg
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, connected storage
 ms.localizationpriority: medium
 ---

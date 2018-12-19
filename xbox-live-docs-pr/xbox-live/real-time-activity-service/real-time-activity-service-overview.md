@@ -1,9 +1,7 @@
 ---
 title: Real-Time Activity service overview
-author: KevinAsgari
 description: The Real-Time Activity service enables an application on any device to subscribe to state data, user statistics, and presence.
 ms.assetid: 50de262f-fc55-4301-83b5-0a8a30bc7852
-ms.author: kevinasg
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: windows

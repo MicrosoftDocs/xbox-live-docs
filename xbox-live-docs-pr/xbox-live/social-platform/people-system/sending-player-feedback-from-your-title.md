@@ -1,13 +1,9 @@
 ---
 title: Sending player feedback from your title
-author: KevinAsgari
-description: Promoting positive player experiences by sending player feedback to the Xbox Live Reputation service.
+description: Promoting positive player experiences by sending player feedback to the Reputation service.
 ms.assetid: 49f8eb44-1e31-4248-b645-9123df6f8689
-ms.author: kevinasg
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, reputation, player feedback
 ms.localizationpriority: medium
 ---

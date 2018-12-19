@@ -1,13 +1,9 @@
 ---
 title: Contextual Search overview
-author: KevinAsgari
 description: Contextual Search automatically tags broadcasts and game clips with real-time stats such as ranking, current level, weapons, and K/D ratio.
 ms.assetid: 0c2afbfa-f32a-4ddd-9e9e-c8ac7eedae18
-ms.author: kevinasg
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, contextual search, broadcast, game clip
 ms.localizationpriority: medium
 ---
@@ -26,4 +22,4 @@ Contextual Search includes:
 * Surface new DLC in action
 * Contextually deliver creator commentary
 
-Simply by configuring in XDP or the Window Dev Center, Contextual Search for your title will automatically light up in broadcasting applications immediately, and the Xbox Shell and Cortana at a later date.  Additionally, titles can leverage the search APIs directly in game, enabling differentiated experiences for users without leaving the game.  Regardless of the level of integration, you'll generate a tremendous amount of value and exposure for your title.
+Simply by configuring in XDP or Partner Center, Contextual Search for your title will automatically light up in broadcasting applications immediately, and the Xbox Shell and Cortana at a later date.  Additionally, titles can leverage the search APIs directly in game, enabling differentiated experiences for users without leaving the game.  Regardless of the level of integration, you'll generate a tremendous amount of value and exposure for your title.
