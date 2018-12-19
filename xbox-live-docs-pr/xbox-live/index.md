@@ -242,7 +242,7 @@ ms.localizationpriority: medium
                                                     <a href="get-started.md">Get Started</a>
                                                 </p>
                                                 <p>
-                                                    <a href="using-xbox- live.md">Overview</a>
+                                                    <a href="using-xbox-live/using-xbox-live.md">Overview</a>
                                                 </p>
                                             </div>
                                         </div>
@@ -286,7 +286,7 @@ ms.localizationpriority: medium
                                                     <a href="get-started.md">Get Started</a>
                                                 </p>
                                                 <p>
-                                                    <a href="porting-xbox- live-code-from-xdk-to-uwp.md">Overview</a>
+                                                    <a href="using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md">Overview</a>
                                                 </p>
                                             </div>
                                         </div>
