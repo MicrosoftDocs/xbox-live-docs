@@ -1,5 +1,5 @@
 ---
-layout: LandingPage
+layout: HubPage
 title: Xbox Live developer guide
 description: Learn how to use Xbox Live services to connect your game to the Xbox Live gaming network.
 ms.date: 12/11/2018
