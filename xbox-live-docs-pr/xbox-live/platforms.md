@@ -25,102 +25,7 @@ ms.localizationpriority: medium
 <h2>Overview of Platforms</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="PC" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>PC</h3>
-                        <p>Blandit, sociis dignissim aptent bibendum est metus. Elit torquent nibh dapibus? Ut condimentum praesent fames nisl facilisi.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="XBox" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>XBox</h3>
-                        <p>Blandit, sociis dignissim aptent bibendum est metus. Elit torquent nibh dapibus? Ut condimentum praesent fames nisl facilisi.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="iOS" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>iOS</h3>
-                        <p>Blandit, sociis dignissim aptent bibendum est metus. Elit torquent nibh dapibus? Ut condimentum praesent fames nisl facilisi.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="xbox-live-sandboxes.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Android" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Android</h3>
-                        <p>Blandit, sociis dignissim aptent bibendum est metus. Elit torquent nibh dapibus? Ut condimentum praesent fames nisl facilisi.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="xbox-live-test-accounts.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Visual Studio" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Visual Studio</h3>
-                        <p>Blandit, sociis dignissim aptent bibendum est metus. Elit torquent nibh dapibus? Ut condimentum praesent fames nisl facilisi.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="xbox-live-test-accounts.md">
+        <a href="platforms/unity-platform.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -131,7 +36,102 @@ ms.localizationpriority: medium
                     </div>
                     <div class="cardText">
                         <h3>Unity</h3>
-                        <p>Blandit, sociis dignissim aptent bibendum est metus. Elit torquent nibh dapibus? Ut condimentum praesent fames nisl facilisi.</p>
+                        <p>Setting up Unity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="platforms/visual-studio-platform.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Visual Studio" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Visual Studio</h3>
+                        <p>Setting up Visual Studio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="platforms/xbox-platform.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="XBox" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>XBox</h3>
+                        <p>Targeting Xbox.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="platforms/windows-platform.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Windows" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>PC</h3>
+                        <p>Targeting Windows.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="platforms/ios-platform.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="iOS" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>iOS</h3>
+                        <p>Targeting iOS.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="platforms/android-platform.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Android" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Android</h3>
+                        <p>Targeting Android.</p>
                     </div>
                 </div>
             </div>
@@ -149,7 +149,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardText">
                         <h3>API</h3>
-                        <p><a href="" data-linktype="absolute-path">Xbox Live RESTful API</a></p>
+                        <p><a href="xbox-live-rest/TOC.md" data-linktype="relative-path">Xbox Live RESTful API</a></p>
                     </div>
                 </div>
             </div>
@@ -161,7 +161,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardText">
                         <h3>Tutorials</h3>
-                        <p><a href="" data-linktype="absolute-path">Xbox Live Samples and Combination Samples</a></p>
+                        <p><a href="samples.md" data-linktype="relative-path">Xbox Live Samples and Combination Samples</a></p>
                      </div>
                 </div>
             </div>

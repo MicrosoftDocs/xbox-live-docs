@@ -112,6 +112,8 @@
         - name: Partner Center
           href: configure-xbl/windows-dev-center.md
           items: 
+            - name: Summary tab
+              href: configure-xbl/dev-center/summary.md
             - name: Xbox Live Setup
               href: configure-xbl/dev-center/xbox-live-setup.md
             - name: Achievements 2017
@@ -126,6 +128,10 @@
               href: configure-xbl/dev-center/rich-presence-configuration.md
             - name: Title Storage
               href: configure-xbl/dev-center/title-storage.md
+            - name: Access Policies
+              href: configure-xbl/dev-center/access-policies-udc.md
+            - name: Web Services
+              href: configure-xbl/dev-center/web-services.md
             - name: Data sharing
               href: configure-xbl/dev-center/data-sharing-udc.md
             - name: Localized strings
@@ -252,6 +258,8 @@
           href: social-platform/people-system/programming-social-services.md
         - name: The People System
           href: social-platform/people-system/xbox-live-people-system.md
+        - name: Displaying People from the People System
+          href: social-platform/people-system/displaying-people-from-the-people-system.md
     - name: Data Platform
       href: data-platform/data-platform.md
       items: 
@@ -493,10 +501,10 @@
 - name: Platforms
   href: platforms.md
   items:
-    - name: Setting up Visual Studio
-      href: platforms/visual-studio-platform.md
     - name: Setting up Unity
       href: platforms/unity-platform.md
+    - name: Setting up Visual Studio
+      href: platforms/visual-studio-platform.md
     - name: Targeting Xbox
       href: platforms/xbox-platform.md
     - name: Targeting Windows

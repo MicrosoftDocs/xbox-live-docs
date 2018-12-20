@@ -1,6 +1,6 @@
 ---
-   title: Web Services
-   description: Learn how to create a Web Service for your app
+   title: Web services
+   description: Creating a Web service for an Xbox Live-enabled app.
    ms.date: 06-04-2018
    ms.topic: article
    ms.prod: windows
@@ -11,11 +11,11 @@
 # Set up Web Services in UDC
 
 > [!WARNING]
-> The following article is for ID@Xbox and Managed Partner developers only due to restrictions placed on Web Service configuration. Web Services configuration is only available to developers with the Relying Parties account level permission granted. If you do not have control of your account level permissions contact your Development Account Manager (DAM) for assistance.
+> The following article is for ID@Xbox and Managed Partner developers only due to restrictions placed on web service configuration. Web Services configuration is only available to developers with the Relying Parties account level permission granted. If you do not have control of your account level permissions, contact your Development Account Manager (DAM) for assistance.
 
-Publishers can create Web Services if they want to customize the way their apps/titles interact with Xbox Live services. Web Services are publisher-level configurations and can be called by any title within a sandbox owned by the publisher by configuring single sign-on.
+Publishers can create web services if they want to customize the way their apps/titles interact with Xbox Live services. Web services are publisher-level configurations and can be called by any title within a sandbox owned by the publisher by configuring single sign-on.
 
-Reasons to define Web Services:
+Reasons to define web services:
 
 1. Providing single sign-on to Xbox Live users - In order for your web service to provide single-sign-on to Xbox Live users, it needs to be configured as a relying party of Xbox Live. When configured that way, users who are authenticated to Xbox Live will automatically be authenticated to your service without having to re-enter a different set of credentials.
 2. Making service to service calls from your service to Xbox Live services - If your product will use one of your web services to make calls to an Xbox Live service, either directly or on behalf of individual users, you'll need a business partner certificate.
