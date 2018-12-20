@@ -1,813 +1,240 @@
 ---
-layout: HubPage
-title: Xbox Live developer guide
-description: Learn how to use Xbox Live services to connect your game to the Xbox Live gaming network.
-ms.date: 12/11/2018
+layout: LandingPage
+title: Xbox Live
+author: mikehoffms
+description: Xbox Live is a gaming network that connects millions of gamers across the world. You can add Xbox Live features to your Windows 10 or Xbox One game, such as multiplayer, achievements, stats, and matchmaking.
+ms.author: v-mihof
+ms.date: 12-11-2018
 ms.topic: article
+ms.prod: windows
+ms.technology: uwp
 keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<div id="main" class="v2">
-    <div class="container">
-        <ul class="cardsY panelContent featuredContent">
-            <li>
-                <a href="">
-                    <div class="cardSize">
-                        <div class="cardPadding">
-                            <div class="card">
-                                <div class="cardImageOuter">
-                                    <div class="cardImage">
-                                        <img src="images/common/xbl_i_code-samples.svg" alt="Explore XBL Documentation Story" />
-                                    </div>
-                                </div>
-                                <div class="cardText">
-                                    <span class="likeAnH3">Explore XBL Documentation Story</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <div class="cardSize">
-                        <div class="cardPadding">
-                            <div class="card">
-                                <div class="cardImageOuter">
-                                    <div class="cardImage">
-                                        <img src="images/common/xbl_i_virtual-training.svg" alt="Xbox Live University" />
-                                    </div>
-                                </div>
-                                <div class="cardText">
-                                    <span class="likeAnH3">Xbox Live University: Learn for free online</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <div class="cardSize">
-                        <div class="cardPadding">
-                            <div class="card">
-                                <div class="cardImageOuter">
-                                    <div class="cardImage">
-                                        <img src="images/common/xbl_i_delivery.svg" alt="Free Azure Courses from Pluralsight" />
-                                    </div>
-                                </div>
-                                <div class="cardText">
-                                    <span class="likeAnH3">Free Azure Courses from Pluralsight</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <div class="container">
-        <h1>Microsoft Xbox Live Documentation</h1>
-        <ul class="pivots">
-            <li>
-                <a href="#getstarted">Get Started</a>
-                <ul id="getstarted">
-                    <li>
-                        <a href="#getstarted-all"></a>
-                        <ul id="getstarted-all" class="cardsF">
-                            <li>
-                                <div class="container">
-                                    <h2>Program Overviews</h2>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="images/common/xbl_if_xbox_395630.svg" alt="Creator Program" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Creator Program</h3>
-                                                <p>
-                                                    <a href="get-started.md">Get Started</a>
-                                                </p>
-                                                <p>
-                                                    <a href="">Overview</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="images/common/xbl_if_xbox_395630.svg" alt="ID@XBOX Program" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>ID@XBOX Program</h3>
-                                                <p>
-                                                    <a href="get-started.md">Get Started</a>
-                                                </p>
-                                                <p>
-                                                    <a href="">Overview</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="container">
-                                    <h2>Configuration and Testing</h2>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="images/common/xbl_icon-64x.svg" alt="Configure XBL" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Configure XBL</h3>
-                                                <p>
-                                                    <a href="get-started.md">Get Started</a>
-                                                </p>
-                                                <p>
-                                                    <a href="">Overview</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="images/common/xblsandboxicon.svg" alt="XBL Sandboxes" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>XBL Sandboxes</h3>
-                                                <p>
-                                                    <a href="get-started.md">Get Started</a>
-                                                </p>
-                                                <p>
-                                                    <a href="xbox-live-sandboxes.md">Overview</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="images/common/xblsandboxicon.svg" alt="Create Test Accounts" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Create Test Accounts</h3>
-                                                <p>
-                                                    <a href="get-started.md">Get Started</a>
-                                                </p>
-                                                <p>
-                                                    <a href="xbox-live-test-accounts.md">Overview</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="images/common/testonxboxoneicon.svg" alt=">Test on Xbox One Console" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Test on Xbox One Console</h3>
-                                                <p>
-                                                    <a href="get-started.md">Get Started</a>
-                                                </p>
-                                                <p>
-                                                    <a href="testing-on-console.md">Overview</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="container">
-                                    <h2>Tools</h2>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="images/common/toolsicon.svg" alt="Use XBL" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Use XBL</h3>
-                                                <p>
-                                                    <a href="get-started.md">Get Started</a>
-                                                </p>
-                                                <p>
-                                                    <a href="using-xbox-live/using-xbox-live.md">Overview</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="images/common/resourcesicon.svg" alt="Developer Resources" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Developer Resources</h3>
-                                                <p>
-                                                    <a href="get-started.md">Get Started</a>
-                                                </p>
-                                                <p>
-                                                    <a href="xbox-live-resources.md">Overview</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="images/common/portingcodeicon.svg" alt="Porting XBL Code" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Porting XBL Code</h3>
-                                                <p>
-                                                    <a href="get-started.md">Get Started</a>
-                                                </p>
-                                                <p>
-                                                    <a href="using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md">Overview</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="#feature">Feature Knowledge</a>
-                <ul id="feature">
-                    <li>
-                        <a href="#feature-all"></a>
-                        <ul id="feature-all" class="cardsA">
-                            <li>
-                                <a href="features.md">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_i_whats-new.svg" alt="Feature Knowledge" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Feature Knowledge</h3>
-                                                    <p>The Xbox Live Creators Program allows you to quickly and directly publish your games to Xbox One and Windows 10, with a simplified certification process and no concept approval required.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_socialplatform.svg" alt="Social Platform" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Social Platform</h3>
-                                                    <p>Tools to enhance the social aspect of any XBL experience.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_i_data-mining.svg" alt="Data Platform" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Data Platform</h3>
-                                                    <p>Provision any title to run as a service while incorporating engagement driving features.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_storage_platform.svg" alt="Storage Platform" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Storage Platform</h3>
-                                                    <p>Enable global title data and player specific data in the cloud.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_multiplayer icon.svg" alt="Multiplayer Platform" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Multiplayer Platform</h3>
-                                                    <p>Utilize a set of client API’s to impliment real-time multiplayer gameplay.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_contextual_search.svg" alt="Contextual Search" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Contextual Search</h3>
-                                                    <p>Automatically tag broadcasts and game clips from a title with real time stats.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_real_time_activity.svg" alt="Real Time Activity Search" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Real Time Activity Search</h3>
-                                                    <p>Allow an application on any device to subscribe to state data, user statistics, and presence.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="#tutorials">Tutorials</a>
-                <ul id="tutorials">
-                    <li>
-                        <a href="#tutorials-all"></a>
-                        <ul id="tutorials-all" class="cardsA">
-                            <li>
-                                <a href="tutorials.md">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_i_whats-new.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Tutorials</h3>
-                                                    <p>The Xbox Live Creators Program allows you to quickly and directly publish your games to Xbox One and Windows 10, with a simplified certification process and no concept approval required.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_Xbox_logo.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>XBL Services tutorial A</h3>
-                                                    <p>Boilerplate tutorial description A.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_Xbox_logo.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>XBL Services tutorial B</h3>
-                                                    <p>Boilerplate tutorial description B.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_Xbox_logo.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>XBL Services tutorial C</h3>
-                                                    <p>Boilerplate tutorial description C.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_Xbox_logo.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>XBL and Playfab tutorial A</h3>
-                                                    <p>Boilerplate tutorial description A.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_Xbox_logo.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>XBL and Playfab tutorial B</h3>
-                                                    <p>Boilerplate tutorial description B.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="#platforms">Platforms</a>
-                <ul id="platforms">
-                    <li>
-                        <a href="#platforms-all"></a>
-                        <ul id="platforms-all" class="cardsA">
-                            <li>
-                                <a href="platforms.md">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_i_whats-new.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Platforms</h3>
-                                                    <p>The Xbox Live Creators Program allows you to quickly and directly publish your games to Xbox One and Windows 10, with a simplified certification process and no concept approval required.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_logo_Windows.svg" alt="PC" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>PC</h3>
-                                                    <p>Buid a title specific for the Windows platform.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_Xbox_logo.svg" alt="XBox" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Xbox</h3>
-                                                    <p>Build a title specific for the Xbox console.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_logo_ios.svg" alt="iOS Platform" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>iOS Platform</h3>
-                                                    <p>Create powerful gaming experiences on iOS.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_logo_android_black.svg" alt="Android Platform" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Android Platform</h3>
-                                                    <p>Create powerful gaming experineces on Android.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_unity logo.svg" alt="Unity" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Unity</h3>
-                                                    <p>Intigrate XBL title with the Unity game engine.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_visual-studio.svg" alt="Visual Studio" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Visual Studio</h3>
-                                                    <p>Leveraging Visual Studio to build a title.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="#api">API-References</a>
-                <ul id="api">
-                    <li>
-                        <a href="#api-all"></a>
-                        <ul id="api-all" class="cardsA">
-                            <li>
-                                <a href="api-reference.md">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_i_whats-new.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>API-References</h3>
-                                                    <p>The Xbox Live Creators Program allows you to quickly and directly publish your games to Xbox One and Windows 10, with a simplified certification process and no concept approval required.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_i_api.svg" alt="Universal Resource Identifier" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Universal Resource Identifier</h3>
-                                                    <p>Dive deeper into Universal Resource Identifiers and Hypertext Transport Protocols used by XBL services.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_i_api-reference.svg" alt="JavaScript Object Notion" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>JavaScript Object Notion</h3>
-                                                    <p>Detailed specifics on each JSON utilzed by XBL services.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_i_api-reference2.svg" alt="Enumerations Used in JSON " />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Enumerations Used in JSON </h3>
-                                                    <p>Explore defined JSON objects that are used in request to, and reponces from, XBL services.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img src="images/common/xbl_logo_git-blk.svg" alt="Additional RESTful Resources" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Additional RESTful Resources</h3>
-                                                    <p>Reference material that includes Entertainment Discover Services (EDS).</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+<h1>Xbox Live</h1>
+<p>Xbox Live is a gaming network that connects millions of gamers across the world. You can add Xbox Live features to your Windows 10 or Xbox One game, such as multiplayer, achievements, stats, and matchmaking.</p>
+
+<h2>Get Started</h2>
+<p>Learn how to build your first XBL feature by getting enrolled in a program, setting up a development kit, calling an API.</p>
+<div class="ico48Case halfStack">
+    <div class="ico48Link"><a href=""><img src="images/common/enroll_step1_icon.svg"><span>Enroll</span></a></div>
+    <div class="ico48Link"><a href=""><img src="images/common/setup_step2_icon.svg"><span>Setup</span></a></div>
 </div>
+
+<h2>Guides</h2>
+<ul class="cardsF panelContent cols cols2">
+    <li>
+        <a href="">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Creators Program" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Creators Program</h3>
+                        <p>Whether you’re just getting into game development, finishing a student project, or looking to take your latest creation to the biggest screen   in the house, the Xbox Live Creators Program is for you</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="ID@Xbox Program" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>ID@Xbox Program</h3>
+                        <p>The ID@Xbox program enables qualified game developers of all sizes to unleash their creativity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Configure Xbox Live" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Configure Xbox Live</h3>
+                        <p>Perform some one-time configuration so that Xbox Live knows about features implemented in your title</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="xbox-live-sandboxes.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="XBL Sandboxes" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>XBL Sandboxes</h3>
+                        <p>Learn about publishing to the development sandbox</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="xbox-live-test-accounts.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Test Accounts" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Test Accounts</h3>
+                        <p>Testing functionality in your title during development, it can be helpful to create additional Xbox Live accounts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="testing-on-console.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Test on Xbox One Console" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Test on Xbox One Console</h3>
+                        <p>Use any retail Xbox One Console to test a Universal Windows Platform (UWP) title or app by activating the console's developer mode</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Use Xbox Live" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Use Xbox Live</h3>
+                        <p>How to implement authentication, how to handle error handling and trouble shooting Xbox Live</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="xbox-live-resources.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Developer Resources" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Developer Resources</h3>
+                        <p>SDK’s, API source code, and samples for each of thier respective programs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Port XBL code from XDK to UWP" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Port XBL code from XDK to UWP</h3>
+                        <p>Get started migrating Xbox Live code to the Windows 10 Universal Windows Platform (UWP)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
+
+<hr>
+<h2>Reference</h2>
+<ul class="panelContent cardsW">
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>API</h3>
+                        <p><a href="" data-linktype="absolute-path">Xbox Live RESTful API</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Tutorials</h3>
+                        <p><a href="" data-linktype="absolute-path">Xbox Live Samples and Combination Samples</a></p>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Forums and Github </h3>
+                        <p><a href="https://forums.xboxlive.com/index.html" data-linktype="absolute-path">XBL Developer Forum</a></p>
+                        <p><a href="https://github.com/Microsoft/xbox-live-api" data-linktype="absolute-path">XBL Github portal</a></p>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>

@@ -1,6 +1,8 @@
 - name: Xbox Live
   href: index.md
   items:
+    - name: Hub Page for Xbox Live or Gaming
+      href: index-hubpage.md
     - name: What's new for Xbox Live
       href: whats-new/whats-new.md
 - name: Get Started
