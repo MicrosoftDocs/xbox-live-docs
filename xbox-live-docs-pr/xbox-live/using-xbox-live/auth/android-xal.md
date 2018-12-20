@@ -1,7 +1,7 @@
 ---
 title: XAL on Android
 author: aablackm
-description: Signing in to Xbox Live with your Android project.
+description: Signing in to Xbox Live with an Android project.
 ms.author: aablackm
 ms.date: 08/30/2018
 ms.topic: article
@@ -12,11 +12,11 @@ ms.localizationpriority: medium
 ---
 # XAL on Android
 
-Once you have acquired the source code package for XAL, by following the instructions in the [XAL conceptual article](xal.md), this article will help you set up a Visual Studio development environment for your android project.
+Once you have acquired the source code package for XAL, by following the instructions in [Xbox Live Authentication Library (XAL) overview](using-xbox-live/auth/xal-overview.md), this article will help you set up a Visual Studio development environment for your Android project.
 
 ## Requirements
 
-You will need to use Visual Studio 2017 or later in order to use the XAL APIs. Your Visual Studio instance will require the following components to use XAL properly.
+To use the XAL APIs, you need to use Visual Studio 2017 or later. Your Visual Studio instance will require the following components to use XAL properly:
 
 - Workloads
     - Mobile development with C++
@@ -36,7 +36,7 @@ Visual Studio Installer workloads page
 
 ## Setting up the project
 
-The introductory [XAL article](xal.md#integrate-xal-into-visual-studio) gives instructions on how to setup a visual studio project for XAL development. This "Setting up the project" section carries the specific instructions for setting up a Xal project for Android development.
+[Xbox Live Authentication Library (XAL) overview](using-xbox-live/auth/xal-overview.md#integrate-xal-into-visual-studio) gives instructions on how to set up a Visual Studio project for XAL development. The present section carries the specific instructions for setting up a Xal project for Android development.
 
 > [!TIP]
 > Everything you need can be found in the Xal.vs2017.sln. Opening the solution will make it easier to follow along with the rest of the article.

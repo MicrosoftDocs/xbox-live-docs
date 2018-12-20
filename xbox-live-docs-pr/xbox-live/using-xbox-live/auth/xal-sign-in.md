@@ -1,7 +1,7 @@
 ---
 title: XAL sign-in
 author: aablackm
-description: Sign-in scenarios common to XAL
+description: Sign-in scenarios for XAL are soft single-user authentication, hard single-user authentication, and multi-user authentication.
 ms.author: aablackm
 ms.date: 08/30/2018
 ms.topic: article
@@ -12,17 +12,25 @@ ms.localizationpriority: medium
 ---
 # Sign-in with XAL
 
-Sign-in scenarios for XAL can be divided into two broad categories depending on the platform XAL is used to authenticate on. There are **single user authentication(SUA)** devices and **multi user authentication(MUA)** devices. On a single user authentication device you may have at most one user signed-in to Xbox Live at a time. SUA devices can also be split into two categories, **soft SUA**, and **hard SUA**. On a soft SUA device you may operate in a state where zero or one users are signed in, hard SUA devices require that one user and only one user be signed-in at all times. MUA devices allow more than one user to be signed-in to Xbox Live at once. You can quickly reference the three common scenarios in the table below
+Sign-in scenarios for the Xbox Live Authentication Library (XAL) can be divided into two broad categories depending on the platform XAL is used to authenticate on. There are **single-user authentication (SUA)** devices and **multi-user authentication (MUA)** devices.
+
+* On a single-user authentication (SUA) device, you can have at most one user signed-in to Xbox Live at a time. SUA devices can also be split into two categories, **soft SUA**, and **hard SUA**.
+    * On a soft SUA device, you may operate in a state where zero or one users are signed in.
+    * Hard SUA devices require that one user and only one user be signed-in at all times.
+
+* Multi-user authentication (MUA) devices allow more than one user to be signed-in to Xbox Live at once.
+
+The three common scenarios:
 
 |Scenario  |Authentication Limits|
 |---------|---------|
-|Hard SUA | One user and one user only must be signed-in to Xbox live for the duration of the app. This means a user will be signed in on application start and remain signed in until the application ends. Signing out or attempting to change users will end the application.|
 |Soft SUA | You may operate the application with zero or one users signed-in. You may not sign-in additional users but switching users is allowed.|
+|Hard SUA | One user and one user only must be signed-in to Xbox live for the duration of the app. This means a user will be signed in on application start and remain signed in until the application ends. Signing out or attempting to change users will end the application.|
 |MUA      | You may operate the application with zero or more users signed-in. This scenario is the only scenario which allows more than one simultaneous sign-in.|
 
-Each of the three scenarios will require you to vary your approach to sign-in.
+Each of the three scenarios require you to vary your approach to sign-in.
 
-If you're not sure what scenario you are using you can use the `XalGetMaxUsers` function to check whether it is a SUA or MUA scenario. If the max users parameter returns as 1 it is a single user authentication scenario. To distinguish between soft and hard SUA you can check for the presence of `XalSignOutUserAsync`.
+If you're not sure what scenario you are using, you can use the `XalGetMaxUsers` function to check whether it is a SUA or MUA scenario. If the max users parameter returns 1, it is a single-user authentication scenario. To distinguish between soft and hard SUA, you can check for the presence of `XalSignOutUserAsync`.
 
 ```cpp
 HRESULT res = S_OK;
@@ -36,17 +44,17 @@ assert(!XalSignOutUserAsyncIsPresent()); // check for the presence of XalSignOus
 
 ### Setting hooks
 
-Before Initializing or running any sign-in sign-up code you must first set all of the event handlers XAL may need to use in order to complete its functions. There are several "SetEventHandle" functions that XAL provides to complete this task. To give a few examples:
+Before Initializing or running any sign-in sign-up code, you must first set all of the event handlers XAL may need to use in order to complete its functions. There are several "SetEventHandle" functions that XAL provides to complete this task. To give a few examples:
 
 - `XalPlatformWebSetEventHandler()`
 - `XalPlatformStorageSetEventHandlers()`
 - `XalUserRegisterChangeEventHandler()`
 
-All of these functions are used to set functions to be called by XAL when it needs to give control over to gain some information. The `XalPlatfromWebSetEventHandler()` will be most commonly used as it allows for UI to be displayed on behalf of XAL.
+All of these functions are used to set functions to be called by XAL when it needs to give control over to gain some information. The `XalPlatfromWebSetEventHandler()` is most commonly used, because it allows for UI to be displayed on behalf of XAL.
 
 ### Hooking up UI
 
-In order to get your very first sign-in on a device you will have to implement some UI. You will need to use a function hook provided by XAL to bring XAL any information that requires UI. You will then write code for you specific platform to implement the necessary UI.
+In order to get your very first sign-in on a device, you will have to implement some UI. You will need to use a function hook provided by XAL to bring XAL any information that requires UI. You will then write code for you specific platform to implement the necessary UI.
 
 To do this, you will set an event handler to be called whenever UI is required. This is done using the `XalPlatformWebSetEventHandler()` function:
 
