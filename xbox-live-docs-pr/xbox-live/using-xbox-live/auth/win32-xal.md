@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 ---
 # XAL on Win32
 
-Once you have acquired the source code package for XAL per [Xbox Live Authentication Library (XAL) overview](using-xbox-live/auth/xal-overview.md), set up a Visual Studio development environment, as follows.
+Once you have acquired the source code package for XAL per [Xbox Live Authentication Library (XAL) overview](xal-overview.md), set up a Visual Studio development environment, as follows.
 
 ## Requirements
 
@@ -36,4 +36,4 @@ Visual Studio Installer workloads page
 
 ## Setup and sign-in
 
-[Xbox Live Authentication Library (XAL) overview](using-xbox-live/auth/xal-overview.md#integrate-xal-into-visual-studio) covers how to setup your Visual Studio 2017 project to develop with XAL, so you will not need to take any additional steps. Once your environment is set up, you will be able to implement the code described in the [XAL best practices article](xal-sign-in.md). Since Win32 is already a C++ environment, you will not need to take further steps to implement XAL sign-in.
+[Xbox Live Authentication Library (XAL) overview](xal-overview.md#integrate-xal-into-visual-studio) covers how to setup your Visual Studio 2017 project to develop with XAL, so you will not need to take any additional steps. Once your environment is set up, you will be able to implement the code described in the [XAL best practices article](xal-sign-in.md). Since Win32 is already a C++ environment, you will not need to take further steps to implement XAL sign-in.

@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 ---
 # XAL on Android
 
-Once you have acquired the source code package for XAL, by following the instructions in [Xbox Live Authentication Library (XAL) overview](using-xbox-live/auth/xal-overview.md), this article will help you set up a Visual Studio development environment for your Android project.
+Once you have acquired the source code package for XAL, by following the instructions in [Xbox Live Authentication Library (XAL) overview](xal-overview.md), this article will help you set up a Visual Studio development environment for your Android project.
 
 ## Requirements
 
@@ -36,7 +36,7 @@ Visual Studio Installer workloads page
 
 ## Setting up the project
 
-[Xbox Live Authentication Library (XAL) overview](using-xbox-live/auth/xal-overview.md#integrate-xal-into-visual-studio) gives instructions on how to set up a Visual Studio project for XAL development. The present section carries the specific instructions for setting up a Xal project for Android development.
+[Xbox Live Authentication Library (XAL) overview](xal-overview.md#integrate-xal-into-visual-studio) gives instructions on how to set up a Visual Studio project for XAL development. The present section carries the specific instructions for setting up a Xal project for Android development.
 
 > [!TIP]
 > Everything you need can be found in the Xal.vs2017.sln. Opening the solution will make it easier to follow along with the rest of the article.
