@@ -18,5 +18,5 @@ The People System manages relationships between gamers, such as only showing a u
 
 | Topic                                                                                                                                             | Description                                                                                                   |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [People System overview](social-platform/people-system/xbox-live-people-system.md) | The People System manages relationships between gamers, such as only showing a user's real name to close friends. |
-| [Displaying People from the People System](social-platform/people-system/displaying-people-from-the-people-system.md) | The code flow to display people by using the People System. |
+| [People System overview](xbox-live-people-system.md) | The People System manages relationships between gamers, such as only showing a user's real name to close friends. |
+| [Displaying People from the People System](displaying-people-from-the-people-system.md) | The code flow to display people by using the People System. |
