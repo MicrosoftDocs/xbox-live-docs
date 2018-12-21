@@ -1,11 +1,20 @@
 - name: XBOX LIVE
   href: index.md
+  items:
+    - name: Hub Page for Xbox Live or Gaming
+      href: index-hubpage.md
+    - name: What's new for Xbox Live
+      href: whats-new/whats-new.md
 - name: GETTING STARTED
-  href: index.md
+  href: get-started.md
   items: 
-    - name: CREATORS
-      href: index.md
+    - name: Developer program overview
+      href: developer-program-overview.md
+    - name: The CREATORS Program
+      href: get-started-with-creators/creators-program.md
       items: 
+        - name: Get started with the Xbox Live Creators Program
+          href: get-started-with-creators/get-started-with-xbox-live-creators.md
         - name: CREATE TITLE
           href: index.md
         - name: ENABLE TITLE
@@ -18,344 +27,6 @@
           href: index.md
         - name: SIGN IN
           href: index.md
-    - name: ID AND MANAGED PARTNERS
-      href: index.md
-      items: 
-        - name: CREATE TITLE
-          href: index.md
-        - name: GET TITLE APPROVED
-          href: index.md
-        - name: CHOOSE SBX
-          href: index.md
-        - name: ENABLE TITLE
-          href: index.md
-        - name: PUBLISH TITLE
-          href: index.md
-        - name: CREATE TEST ACCOUNT
-          href: index.md
-        - name: GET SAMPLE
-          href: index.md
-        - name: SIGN IN
-          href: index.md
-    - name: PLATFORMS
-      href: index.md
-      items: 
-        - name: UNITY
-          href: index.md
-        - name: VS
-          href: index.md
-        - name: WINDOWS
-          href: index.md
-        - name: XBOX
-          href: index.md
-        - name: IOS
-          href: index.md
-        - name: ANDROID
-          href: index.md
-- name: FEATURES
-  href: index.md
-  items: 
-    - name: SOCIAL - FEATURE CATEGORY
-      href: index.md
-      items: 
-        - name: MANAGER - FEATURE
-          href: index.md
-          items: 
-            - name: OVERVIEW
-              href: index.md
-            - name: PORTAL CONFIG
-              href: index.md
-            - name: SDK CONFIG
-              href: index.md
-        - name: PEOPLE - FEATURE
-          href: index.md
-          items: 
-            - name: OVERVIEW
-              href: index.md
-            - name: PORTAL CONFIG
-              href: index.md
-            - name: SDK CONFIG
-              href: index.md
-        - name: RICH PRESENCE - FEATURE
-          href: index.md
-          items: 
-            - name: RICH
-              href: index.md
-              items: 
-                - name: OVERVIEW
-                  href: index.md
-                - name: PORTAL CONFIG
-                  href: index.md
-                - name: SDK CONFIG
-                  href: index.md
-            - name: SIMPLE
-              href: index.md
-              items: 
-                - name: OVERVIEW
-                  href: index.md
-                - name: PORTAL CONFIG
-                  href: index.md
-                - name: SDK CONFIG
-                  href: index.md
-        - name: REPUTATION - FEATURE
-          href: index.md
-          items: 
-            - name: OVERVIEW
-              href: index.md
-            - name: PORTAL CONFIG
-              href: index.md
-            - name: SDK CONFIG
-              href: index.md
-        - name: PRIVILEGES - FEATURE
-          href: index.md
-          items: 
-            - name: OVERVIEW
-              href: index.md
-            - name: PORTAL CONFIG
-              href: index.md
-            - name: SDK CONFIG
-              href: index.md
-        - name: LOCALIZED STRINGS - FEATURE
-          href: index.md
-          items: 
-            - name: OVERVIEW
-              href: index.md
-            - name: PORTAL CONFIG
-              href: index.md
-            - name: SDK CONFIG
-              href: index.md
-    - name: DATA PLATFORM - FEATURE CATEGORY
-      href: index.md
-      items: 
-        - name: ACHIEVEMENTS - FEATURE
-          href: index.md
-          items: 
-            - name: RICH
-              href: index.md
-              items: 
-                - name: OVERVIEW
-                  href: index.md
-                - name: PORTAL CONFIG
-                  href: index.md
-                - name: SDK CONFIG
-                  href: index.md
-            - name: SIMPLE
-              href: index.md
-              items: 
-                - name: OVERVIEW
-                  href: index.md
-                - name: PORTAL CONFIG
-                  href: index.md
-                - name: SDK CONFIG
-                  href: index.md
-        - name: STATS - FEATURE
-          href: index.md
-          items: 
-            - name: RICH
-              href: index.md
-              items: 
-                - name: OVERVIEW
-                  href: index.md
-                - name: PORTAL CONFIG
-                  href: index.md
-                - name: SDK CONFIG
-                  href: index.md
-        - name: LEADERBOARDS - FEATURE
-          href: index.md
-          items: 
-            - name: RICH
-              href: index.md
-              items: 
-                - name: OVERVIEW
-                  href: index.md
-                - name: PORTAL CONFIG
-                  href: index.md
-                - name: SDK CONFIG
-                  href: index.md
-        - name: FEATURED STATS - FEATURE
-          href: index.md
-          items: 
-            - name: RICH
-              href: index.md
-              items: 
-                - name: OVERVIEW
-                  href: index.md
-                - name: PORTAL CONFIG
-                  href: index.md
-                - name: SDK CONFIG
-                  href: index.md
-            - name: SIMPLE
-              href: index.md
-              items: 
-                - name: OVERVIEW
-                  href: index.md
-                - name: PORTAL CONFIG
-                  href: index.md
-                - name: SDK CONFIG
-                  href: index.md
-    - name: CLOUD STORAGE - FEATURE CATEGORY
-      href: index.md
-      items: 
-        - name: CONNECTED STORAGE - FEATURE
-          href: index.md
-          items: 
-            - name: OVERVIEW
-              href: index.md
-            - name: PORTAL CONFIG
-              href: index.md
-            - name: SDK CONFIG
-              href: index.md
-        - name: AZURE TITLE STORAGE - FEATURE
-          href: index.md
-          items: 
-            - name: OVERVIEW
-              href: index.md
-            - name: PORTAL CONFIG
-              href: index.md
-            - name: SDK CONFIG
-              href: index.md
-    - name: MULTIPLAYER - FEATURE CATEGORY
-      href: index.md
-      items: 
-        - name: XIM - FEATURE
-          href: index.md
-          items: 
-            - name: OVERVIEW
-              href: index.md
-            - name: PORTAL CONFIG
-              href: index.md
-            - name: SDK CONFIG
-              href: index.md
-        - name: MULTIPLAYER MANAGER - FEATURE
-          href: index.md
-          items: 
-            - name: OVERVIEW
-              href: index.md
-            - name: PORTAL CONFIG
-              href: index.md
-            - name: SDK CONFIG
-              href: index.md
-        - name: SESSION - FEATURE
-          href: index.md
-          items: 
-            - name: OVERVIEW
-              href: index.md
-            - name: PORTAL CONFIG
-              href: index.md
-            - name: SDK CONFIG
-              href: index.md
-        - name: SMARTMATCH - FEATURE
-          href: index.md
-          items: 
-            - name: OVERVIEW
-              href: index.md
-            - name: PORTAL CONFIG
-              href: index.md
-            - name: SDK CONFIG
-              href: index.md
-        - name: INVITES - FEATURE
-          href: index.md
-          items: 
-            - name: OVERVIEW
-              href: index.md
-            - name: PORTAL CONFIG
-              href: index.md
-            - name: SDK CONFIG
-              href: index.md
-        - name: GAME CHAT - FEATURE
-          href: index.md
-          items: 
-            - name: OVERVIEW
-              href: index.md
-            - name: PORTAL CONFIG
-              href: index.md
-            - name: SDK CONFIG
-              href: index.md
-    - name: EXTERNAL SERVICES - FEATURE CATEGORY
-      href: index.md
-      items: 
-        - name: WEB SERVICES - FEATURE
-          href: index.md
-          items: 
-            - name: OVERVIEW
-              href: index.md
-            - name: PORTAL CONFIG
-              href: index.md
-            - name: SDK CONFIG
-              href: index.md
-        - name: RELYING PARTIES - FEATURE
-          href: index.md
-          items: 
-            - name: OVERVIEW
-              href: index.md
-            - name: PORTAL CONFIG
-              href: index.md
-            - name: SDK CONFIG
-              href: index.md
-        - name: SINGLE SIGN-ON - FEATURE
-          href: index.md
-          items: 
-            - name: OVERVIEW
-              href: index.md
-            - name: PORTAL CONFIG
-              href: index.md
-            - name: SDK CONFIG
-              href: index.md
-        - name: ACCESS POLICIES - FEATURE
-          href: index.md
-          items: 
-            - name: OVERVIEW
-              href: index.md
-            - name: PORTAL CONFIG
-              href: index.md
-            - name: SDK CONFIG
-              href: index.md
-    - name: RTA - FEATURE CATEGORY
-      href: index.md
-      items: 
-        - name: OVERVIEW
-          href: index.md
-        - name: PORTAL CONFIG
-          href: index.md
-        - name: SDK CONFIG
-          href: index.md
-- name: TUTORIALS
-  href: index.md
-  items: 
-    - name: IDENTITY
-      href: index.md
-    - name: MULTIPLAYER
-      href: index.md
-      items: 
-        - name: CUSTOM SAMPLE
-          href: index.md
-        - name: XIM
-          href: index.md
-        - name: XIM CHAT ONLY
-          href: index.md
-        - name: MULTIPLAYER MANAGER
-          href: index.md
-        - name: MULTIPLAYER MANAGER BRING YOUR OWN MATCH
-          href: index.md
-    - name: PUBLISHING
-      href: index.md
-- name: Xbox Live
-  href: index.md
-  items:
-    - name: Hub Page for Xbox Live or Gaming
-      href: index-hubpage.md
-    - name: What's new for Xbox Live
-      href: whats-new/whats-new.md
-- name: Get Started
-  href: get-started.md
-  items: 
-    - name: Developer program overview
-      href: developer-program-overview.md
-    - name: The Creators Program
-      href: get-started-with-creators/creators-program.md
-      items: 
-        - name: Get started with the Xbox Live Creators Program
-          href: get-started-with-creators/get-started-with-xbox-live-creators.md
         - name: Create a title and publish to test environment
           href: get-started-with-creators/create-and-test-a-new-creators-title.md
         - name: Develop in Visual Studio
@@ -393,13 +64,27 @@
           href: get-started-with-creators/xbox-live-sandboxes-creators.md
         - name: Authorize XBL accounts for testing
           href: get-started-with-creators/authorize-xbox-live-accounts.md
-    - name: Managed partners and ID@Xbox developers
+    - name: MANAGED PARTNERS AND ID@Xbox developers
       href: get-started-with-partner/managed-partners-and-id-xbox-developers.md
       items: 
         - name: Get started as a managed partner or ID developer
           href: get-started-with-partner/get-started-with-xbox-live-partner.md
-        - name: Create a title
+        - name: CREATE a title
           href: get-started-with-partner/create-a-new-title.md
+        - name: GET TITLE APPROVED
+          href: index.md
+        - name: CHOOSE SBX
+          href: index.md
+        - name: ENABLE TITLE
+          href: index.md
+        - name: PUBLISH TITLE
+          href: index.md
+        - name: CREATE TEST ACCOUNT
+          href: index.md
+        - name: GET SAMPLE
+          href: index.md
+        - name: SIGN IN
+          href: index.md
         - name: Get started with the Xbox Live APIs on Win32
           href: get-started-with-win32-ios-android/win32-get-started-with-xsapi.md
         - name: Get started with the Xbox Live APIs on Win32 using source code
@@ -447,6 +132,21 @@
           href: get-started-with-partner/get-started-with-cross-play-games.md
         - name: Advanced XBL sandboxes
           href: advanced-xbox-live-sandboxes.md
+    - name: PLATFORMS - Setting Up Platforms
+      href: platforms.md
+      items:
+        - name: Setting up Unity
+          href: platforms/unity-platform.md
+        - name: Setting up Visual Studio
+          href: platforms/visual-studio-platform.md
+        - name: Targeting Xbox
+          href: platforms/xbox-platform.md
+        - name: Targeting Windows
+          href: platforms/windows-platform.md
+        - name: Targeting iOS
+          href: platforms/ios-platform.md
+        - name: Targeting Android
+          href: platforms/android-platform.md
     - name: Configure Xbox Live Services
       href: configuring-xbox-live-services.md
       items: 
@@ -558,33 +258,59 @@
       href: xbox-live-resources.md
     - name: Port XBL code from XDK to UWP
       href: using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md
-- name: Features
+- name: FEATURES
   href: features.md
   items:
-    - name: Social Platform
+    - name: SOCIAL FEATURES - FEATURE CATEGORY
       href: social-platform/social-platform.md
       items: 
-        - name: Xbox Live Social Platform
+        - name: Social features overview
           href: social-platform/xbox-live-social-platform.md
-        - name: The Social Manager
+        - name: SOCIAL MANAGER - FEATURE
           href: social-platform/the-social-manager.md
           items: 
-            - name: Introduction to Social Manager
+            - name: Social Manager OVERVIEW
               href: social-platform/intro-to-social-manager.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
             - name: Social Manager Memory and Performance
               href: social-platform/social-manager-memory-and-performance-overview.md
-        - name: Reputation
-          href: social-platform/people-system/reputation.md
+        - name: PEOPLE SYSTEM - FEATURE
+          href: social-platform/people-system/people-system.md
           items: 
-            - name: The Reputation service
-              href: social-platform/people-system/the-reputation-service.md
-            - name: Send player feedback from title
-              href: social-platform/people-system/sending-player-feedback-from-your-title.md
-        - name: Rich Presence
+            - name: People System OVERVIEW
+              href: social-platform/people-system/xbox-live-people-system.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+            - name: Displaying People from the People System
+              href: social-platform/people-system/displaying-people-from-the-people-system.md
+        - name: RICH PRESENCE - FEATURE
           href: social-platform/rich-presence-strings/rich-presence.md
           items: 
             - name: Overview of Rich Presence strings
               href: social-platform/rich-presence-strings/rich-presence-strings-overview.md
+            - name: RICH RICH PRESENCE
+              href: index.md
+              items: 
+                - name: OVERVIEW
+                  href: index.md
+                - name: PORTAL CONFIG
+                  href: index.md
+                - name: SDK CONFIG
+                  href: index.md
+            - name: SIMPLE RICH PRESENCE
+              href: index.md
+              items: 
+                - name: OVERVIEW
+                  href: index.md
+                - name: PORTAL CONFIG
+                  href: index.md
+                - name: SDK CONFIG
+                  href: index.md
             - name: Configuration
               href: social-platform/rich-presence-strings/rich-presence-strings-configuration.md
             - name: Update strings
@@ -593,56 +319,142 @@
               href: social-platform/rich-presence-strings/rich-presence-strings-best-practices.md
             - name: Policies and limitations
               href: social-platform/rich-presence-strings/rich-presence-strings-policies-and-limitations.md
-            - name: Appendix
+            - name: Appendix for Rich Presence Strings
               href: social-platform/rich-presence-strings/rich-presence-strings-appendix.md
-            - name: Program Rich Presence
+            - name: Programming Rich Presence
               href: social-platform/rich-presence-strings/programming-rich-presence.md
+        - name: REPUTATION - FEATURE
+          href: social-platform/people-system/reputation.md
+          items: 
+            - name: Reputation service OVERVIEW
+              href: social-platform/people-system/the-reputation-service.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+            - name: Send player feedback from title
+              href: social-platform/people-system/sending-player-feedback-from-your-title.md
+        - name: PRIVILEGES - FEATURE
+          href: index.md
+          items: 
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+        - name: LOCALIZED STRINGS - FEATURE
+          href: index.md
+          items: 
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
         - name: Program Social Services
           href: social-platform/people-system/programming-social-services.md
-        - name: The People System
-          href: social-platform/people-system/people-system.md
-          items:
-            - name: People System overview
-              href: social-platform/people-system/xbox-live-people-system.md
-            - name: Displaying People from the People System
-              href: social-platform/people-system/displaying-people-from-the-people-system.md
-    - name: Data Platform
+    - name: DATA PLATFORM - FEATURE CATEGORY
       href: data-platform/data-platform.md
       items: 
         - name: Data Platform for Stats, Leaderboards, and Achievements
           href: data-platform/data-platform-for-stats-leaderboards-achievements.md
-        - name: Design XBL Experiences
+        - name: Design XBL Experiences - Data Platform overview
           href: data-platform/designing-xbox-live-experiences.md
-        - name: Player stats
+        - name: ACHIEVEMENTS - FEATURE
+          href: achievements-2017/achievements.md
+          items: 
+            - name: Achievements overview
+              href: achievements-2017/achievements-overview.md
+            - name: RICH
+              href: index.md
+              items: 
+                - name: OVERVIEW
+                  href: index.md
+                - name: PORTAL CONFIG
+                  href: index.md
+                - name: SDK CONFIG
+                  href: index.md
+            - name: SIMPLE
+              href: index.md
+              items: 
+                - name: OVERVIEW
+                  href: index.md
+                - name: PORTAL CONFIG
+                  href: index.md
+                - name: SDK CONFIG
+                  href: index.md
+            - name: Achievements 2017
+              href: achievements-2017/simplified-achievements.md
+            - name: Achievement Rewards
+              href: achievements-2017/achievement-rewards.md
+        - name: Player STATS - FEATURE
           href: leaderboards-and-stats-2017/player-stats.md
           items: 
+            - name: RICH
+              href: index.md
+              items: 
+                - name: OVERVIEW
+                  href: index.md
+                - name: PORTAL CONFIG
+                  href: index.md
+                - name: SDK CONFIG
+                  href: index.md
             - name: Using player stats
               href: leaderboards-and-stats-2017/using-player-stats.md
             - name: Stats 2017
               href: leaderboards-and-stats-2017/stats2017.md
             - name: Update Stats 2017
               href: leaderboards-and-stats-2017/player-stats-updating.md
-        - name: Leaderboards
-          href: leaderboards-and-stats-2017/leaderboards.md
-        - name: Achievements
-          href: achievements-2017/achievements.md
+        - name: LEADERBOARDS - FEATURE
+          href: index.md
           items: 
-            - name: Achievements overview
-              href: achievements-2017/achievements-overview.md
-            - name: Achievements 2017
-              href: achievements-2017/simplified-achievements.md
-            - name: Achievement Rewards
-              href: achievements-2017/achievement-rewards.md
-    - name: Storage Platform
+            - name: Leaderboards overview
+              href: leaderboards-and-stats-2017/leaderboards.md
+            - name: RICH
+              href: index.md
+              items: 
+                - name: OVERVIEW
+                  href: index.md
+                - name: PORTAL CONFIG
+                  href: index.md
+                - name: SDK CONFIG
+                  href: index.md
+        - name: FEATURED STATS - FEATURE
+          href: index.md
+          items: 
+            - name: RICH
+              href: index.md
+              items: 
+                - name: OVERVIEW
+                  href: index.md
+                - name: PORTAL CONFIG
+                  href: index.md
+                - name: SDK CONFIG
+                  href: index.md
+            - name: SIMPLE
+              href: index.md
+              items: 
+                - name: OVERVIEW
+                  href: index.md
+                - name: PORTAL CONFIG
+                  href: index.md
+                - name: SDK CONFIG
+                  href: index.md
+    - name: CLOUD STORAGE - FEATURE CATEGORY
       href: storage-platform/storage-platform.md
       items: 
         - name: Connected Storage vs. Title Storage
           href: storage-platform/connected-storage-vs-title-storage.md
-        - name: Connected Storage
+        - name: CONNECTED STORAGE - FEATURE
           href: storage-platform/connected-storage/connected-storage.md
           items: 
-            - name: Connected Storage overview
+            - name: Connected Storage OVERVIEW
               href: storage-platform/connected-storage/connected-storage-overview.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
             - name: Save Data
               href: storage-platform/connected-storage/connected-storage-saving.md
             - name: Load Data
@@ -659,11 +471,15 @@
               href: storage-platform/connected-storage/connected-storage-best-practices.md
             - name: Connected Storage technical overview
               href: storage-platform/connected-storage/connected-storage-technical-overview.md
-        - name: Title Storage
+        - name: AZURE TITLE STORAGE - FEATURE
           href: storage-platform/xbox-live-title-storage/xbl-title-storage.md
           items: 
-            - name: Title Storage overview
+            - name: Azure Title Storage OVERVIEW
               href: storage-platform/xbox-live-title-storage/xbox-live-title-storage.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
             - name: Read a configuration blob
               href: storage-platform/xbox-live-title-storage/reading-configuration-blobs.md
             - name: Store a binary blob
@@ -674,7 +490,7 @@
               href: storage-platform/xbox-live-title-storage/storing-jsonblobs.md
             - name: Read a JSON blob
               href: storage-platform/xbox-live-title-storage/reading-jsonblobs.md
-    - name: Multiplayer Platform
+    - name: MULTIPLAYER features - FEATURE CATEGORY
       href: multiplayer/multiplayer-platform.md
       items: 
         - name: Multiplayer Platform overview
@@ -688,11 +504,15 @@
               href: multiplayer/common-multiplayer-scenarios.md
             - name: Session browse
               href: multiplayer/session-browse.md
-        - name: Xbox Integrated Multiplayer (XIM)
-          href: multiplayer/xbox-integrated-multiplayer.md
+        - name: Xbox Integrated Multiplayer (XIM) - FEATURE
+          href: index.md
           items: 
-            - name: Intro to Xbox Integrated Multiplayer (XIM)
+            - name: Xbox Integrated Multiplayer (XIM) OVERVIEW
               href: multiplayer/intro-to-xbox-integrated-multiplayer.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
             - name: Use XIM (C++)
               href: multiplayer/xbox-integrated-multiplayer/using-xim.md
             - name: Use XIM (C#)
@@ -705,11 +525,15 @@
               href: multiplayer/xbox-integrated-multiplayer/xim-manifest.md
             - name: XIM Release Notes
               href: multiplayer/xbox-integrated-multiplayer/xim-release-notes.md
-        - name: Multiplayer Manager
+        - name: MULTIPLAYER MANAGER - FEATURE
           href: multiplayer/multiplayer-manager.md
           items: 
-            - name: Multiplayer Manager overview
+            - name: Multiplayer Manager OVERVIEW
               href: multiplayer/multiplayer-manager-overview.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
             - name: API overview
               href: multiplayer/multiplayer-manager/multiplayer-manager-api-overview.md
             - name: Multiplayer games with friends
@@ -725,8 +549,6 @@
               items: 
                 - name: Multiplayer/co-op game with friends
                   href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-play-with-friends.md
-                - name: Smartmatch Matchmaking
-                  href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-play-with-smartmatch-matchmaking.md
                 - name: Matchmaking and Quality of Service
                   href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-use-matchmaking-and-qos.md
                 - name: Invitation Sending
@@ -739,7 +561,53 @@
                   href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-host-migration.md
                 - name: Shut down after multiplayer game
                   href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-shut-down.md
-        - name: Xbox Arena
+        - name: MULTIPLAYER SESSIONS - FEATURE
+          href: index.md
+          items: 
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+        - name: SMARTMATCH - FEATURE
+          href: index.md
+          items: 
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+            - name: SmartMatch Matchmaking flow diagram
+              href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-play-with-smartmatch-matchmaking.md
+        - name: INVITES - FEATURE
+          href: index.md
+          items: 
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+        - name: GAME CHAT - FEATURE
+          href: multiplayer/chat/game-chat-2.md
+          items: 
+            - name: Game Chat 2 OVERVIEW
+              href: multiplayer/chat/game-chat-2-overview.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+            - name: Use Game Chat 2 (C++)
+              href: multiplayer/chat/using-game-chat-2.md
+            - name: Use Game Chat 2 (WinRT Projections)
+              href: multiplayer/chat/using-game-chat-2-winrt.md
+            - name: Real-time audio manipulation
+              href: multiplayer/chat/real-time-audio-manipulation.md
+            - name: Migration from Game Chat to Game Chat 2
+              href: multiplayer/chat/game-chat-2-migration.md
+        - name: Xbox Arena - feature in Multiplayer
           href: multiplayer/arena/xbox-arena.md
           items: 
             - name: Xbox Arena overview
@@ -760,20 +628,7 @@
               href: multiplayer/arena/arena-notifications.md
             - name: UX - Arena user scenarios
               href: multiplayer/arena/arena-user-scenarios.md
-        - name: Game Chat 2
-          href: multiplayer/chat/game-chat-2.md
-          items: 
-            - name: Game Chat 2 overview
-              href: multiplayer/chat/game-chat-2-overview.md
-            - name: Use Game Chat 2 (C++)
-              href: multiplayer/chat/using-game-chat-2.md
-            - name: Use Game Chat 2 (WinRT Projections)
-              href: multiplayer/chat/using-game-chat-2-winrt.md
-            - name: Real-time audio manipulation
-              href: multiplayer/chat/real-time-audio-manipulation.md
-            - name: Migration from Game Chat
-              href: multiplayer/chat/game-chat-2-migration.md
-        - name: Multiplayer Service configuration
+        - name: Multiplayer Service configuration - feature in Multiplayer
           href: multiplayer/service-configuration/multiplayer-service-configuration.md
           items: 
             - name: Configuring Multiplayer Service
@@ -786,7 +641,7 @@
               href: multiplayer/service-configuration/session-template-constants.md
             - name: Large sessions
               href: multiplayer/service-configuration/large-sessions.md
-        - name: Multiplayer 2015 appendix
+        - name: Multiplayer 2015 appendix - feature in Multiplayer
           href: multiplayer/multiplayer-appendix/multiplayer-appendix.md
           items: 
             - name: Introduction to the Multiplayer system
@@ -815,6 +670,60 @@
               href: multiplayer/multiplayer-appendix/flows-for-multiplayer-game-invites.md
             - name: Game session/party - visibility and joinability
               href: multiplayer/multiplayer-appendix/game-session-and-game-party-visibility-and-joinability.md
+    - name: EXTERNAL SERVICES - FEATURE CATEGORY
+      href: index.md
+      items: 
+        - name: WEB SERVICES - FEATURE
+          href: index.md
+          items: 
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+        - name: RELYING PARTIES - FEATURE
+          href: index.md
+          items: 
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+        - name: SINGLE SIGN-ON - FEATURE
+          href: index.md
+          items: 
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+        - name: ACCESS POLICIES - FEATURE
+          href: index.md
+          items: 
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+    - name: Real-Time Activity (RTA) service - feature
+      href: real-time-activity-service/real-time-activity-service.md
+      items: 
+        - name: OVERVIEW of Real-Time Activity (RTA) service
+          href: real-time-activity-service/real-time-activity-service-overview.md
+        - name: PORTAL CONFIG
+          href: index.md
+        - name: SDK CONFIG
+          href: index.md
+        - name: Register for Stat change notifications
+          href: real-time-activity-service/register-for-stat-notifications.md
+        - name: Program RTA Service with C++ APIs
+          href: real-time-activity-service/programming-the-real-time-activity-service.md
+        - name: Best Practices
+          href: real-time-activity-service/rta-best-practices.md
     - name: Contextual Search
       href: contextual-search/contextual-search.md
       items: 
@@ -822,17 +731,6 @@
           href: contextual-search/introduction-to-contextual-search.md
         - name: Configure Contextual Search
           href: contextual-search/configuring-contextual-search.md
-    - name: Real-Time Activity (RTA) service
-      href: real-time-activity-service/real-time-activity-service.md
-      items: 
-        - name: Real-Time Activity (RTA) service overview
-          href: real-time-activity-service/real-time-activity-service-overview.md
-        - name: Register for Stat change notifications
-          href: real-time-activity-service/register-for-stat-notifications.md
-        - name: Program RTA Service with C++ APIs
-          href: real-time-activity-service/programming-the-real-time-activity-service.md
-        - name: Best Practices
-          href: real-time-activity-service/rta-best-practices.md
     - name: Tools
       href: tools/tools.md
       items: 
@@ -842,24 +740,27 @@
           href: tools/analyze-service-calls.md
         - name: XBL Account Tool
           href: tools/xbox-live-account-tool.md
-- name: Tutorials
+- name: TUTORIALS
   href: tutorials.md
-- name: Platforms
-  href: platforms.md
-  items:
-    - name: Setting up Unity
-      href: platforms/unity-platform.md
-    - name: Setting up Visual Studio
-      href: platforms/visual-studio-platform.md
-    - name: Targeting Xbox
-      href: platforms/xbox-platform.md
-    - name: Targeting Windows
-      href: platforms/windows-platform.md
-    - name: Targeting iOS
-      href: platforms/ios-platform.md
-    - name: Targeting Android
-      href: platforms/android-platform.md
-- name: API Reference
+  items: 
+    - name: IDENTITY
+      href: index.md
+    - name: MULTIPLAYER
+      href: index.md
+      items: 
+        - name: CUSTOM SAMPLE
+          href: index.md
+        - name: XIM
+          href: index.md
+        - name: XIM CHAT ONLY
+          href: index.md
+        - name: MULTIPLAYER MANAGER
+          href: index.md
+        - name: MULTIPLAYER MANAGER BRING YOUR OWN MATCH
+          href: index.md
+    - name: PUBLISHING
+      href: index.md
+- name: API REFERENCE
   href: api-reference.md
   items:
     - name: API Samples
