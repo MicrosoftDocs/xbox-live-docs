@@ -1,3 +1,301 @@
+- name: XBOX LIVE
+  href: index.md
+- name: GETTING STARTED
+  href: index.md
+    - name: CREATORS
+      href: index.md
+        - name: CREATE TITLE
+          href: index.md
+        - name: ENABLE TITLE
+          href: index.md
+        - name: PUBLISH TITLE
+          href: index.md
+        - name: ALLOW TEST ACCOUNT
+          href: index.md
+        - name: GET SAMPLE
+          href: index.md
+        - name: SIGN IN
+          href: index.md
+    - name: ID AND MANAGED PARTNERS
+      href: index.md
+        - name: CREATE TITLE
+          href: index.md
+        - name: GET TITLE APPROVED
+          href: index.md
+        - name: CHOOSE SBX
+          href: index.md
+        - name: ENABLE TITLE
+          href: index.md
+        - name: PUBLISH TITLE
+          href: index.md
+        - name: CREATE TEST ACCOUNT
+          href: index.md
+        - name: GET SAMPLE
+          href: index.md
+        - name: SIGN IN
+          href: index.md
+    - name: PLATFORMS
+      href: index.md
+        - name: UNITY
+          href: index.md
+        - name: VS
+          href: index.md
+        - name: WINDOWS
+          href: index.md
+        - name: XBOX
+          href: index.md
+        - name: IOS
+          href: index.md
+        - name: ANDROID
+          href: index.md
+- name: FEATURES
+  href: index.md
+    - name: SOCIAL - FEATURE CATEGORY
+      href: index.md
+        - name: MANAGER - FEATURE
+          href: index.md
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+        - name: PEOPLE - FEATURE
+          href: index.md
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+        - name: RICH PRESENCE - FEATURE
+          href: index.md
+            - name: RICH
+              href: index.md
+                - name: OVERVIEW
+                  href: index.md
+                - name: PORTAL CONFIG
+                  href: index.md
+                - name: SDK CONFIG
+                  href: index.md
+            - name: SIMPLE
+              href: index.md
+                - name: OVERVIEW
+                  href: index.md
+                - name: PORTAL CONFIG
+                  href: index.md
+                - name: SDK CONFIG
+                  href: index.md
+        - name: REPUTATION - FEATURE
+          href: index.md
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+        - name: PRIVILEGES - FEATURE
+          href: index.md
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+        - name: LOCALIZED STRINGS - FEATURE
+          href: index.md
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+    - name: DATA PLATFORM - FEATURE CATEGORY
+      href: index.md
+        - name: ACHIEVEMENTS - FEATURE
+          href: index.md
+            - name: RICH
+              href: index.md
+                - name: OVERVIEW
+                  href: index.md
+                - name: PORTAL CONFIG
+                  href: index.md
+                - name: SDK CONFIG
+                  href: index.md
+            - name: SIMPLE
+              href: index.md
+                - name: OVERVIEW
+                  href: index.md
+                - name: PORTAL CONFIG
+                  href: index.md
+                - name: SDK CONFIG
+                  href: index.md
+        - name: STATS - FEATURE
+          href: index.md
+            - name: RICH
+              href: index.md
+                - name: OVERVIEW
+                  href: index.md
+                - name: PORTAL CONFIG
+                  href: index.md
+                - name: SDK CONFIG
+                  href: index.md
+        - name: LEADERBOARDS - FEATURE
+          href: index.md
+            - name: RICH
+              href: index.md
+                - name: OVERVIEW
+                  href: index.md
+                - name: PORTAL CONFIG
+                  href: index.md
+                - name: SDK CONFIG
+                  href: index.md
+        - name: FEATURED STATS - FEATURE
+          href: index.md
+            - name: RICH
+              href: index.md
+                - name: OVERVIEW
+                  href: index.md
+                - name: PORTAL CONFIG
+                  href: index.md
+                - name: SDK CONFIG
+                  href: index.md
+            - name: SIMPLE
+              href: index.md
+                - name: OVERVIEW
+                  href: index.md
+                - name: PORTAL CONFIG
+                  href: index.md
+                - name: SDK CONFIG
+                  href: index.md
+    - name: CLOUD STORAGE - FEATURE CATEGORY
+      href: index.md
+        - name: CONNECTED STORAGE - FEATURE
+          href: index.md
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+        - name: AZURE TITLE STORAGE - FEATURE
+          href: index.md
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+    - name: MULTIPLAYER - FEATURE CATEGORY
+      href: index.md
+        - name: XIM - FEATURE
+          href: index.md
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+        - name: MULTIPLAYER MANAGER - FEATURE
+          href: index.md
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+        - name: SESSION - FEATURE
+          href: index.md
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+        - name: SMARTMATCH - FEATURE
+          href: index.md
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+        - name: INVITES - FEATURE
+          href: index.md
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+        - name: GAME CHAT - FEATURE
+          href: index.md
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+    - name: EXTERNAL SERVICES - FEATURE CATEGORY
+      href: index.md
+        - name: WEB SERVICES - FEATURE
+          href: index.md
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+        - name: RELYING PARTIES - FEATURE
+          href: index.md
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+        - name: SINGLE SIGN-ON - FEATURE
+          href: index.md
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+        - name: ACCESS POLICIES - FEATURE
+          href: index.md
+            - name: OVERVIEW
+              href: index.md
+            - name: PORTAL CONFIG
+              href: index.md
+            - name: SDK CONFIG
+              href: index.md
+    - name: RTA - FEATURE CATEGORY
+      href: index.md
+        - name: OVERVIEW
+          href: index.md
+        - name: PORTAL CONFIG
+          href: index.md
+        - name: SDK CONFIG
+          href: index.md
+- name: TUTORIALS
+  href: index.md
+    - name: IDENTITY
+      href: index.md
+    - name: MULTIPLAYER
+      href: index.md
+        - name: CUSTOM SAMPLE
+          href: index.md
+        - name: XIM
+          href: index.md
+        - name: XIM CHAT ONLY
+          href: index.md
+        - name: MULTIPLAYER MANAGER
+          href: index.md
+        - name: MULTIPLAYER MANAGER BRING YOUR OWN MATCH
+          href: index.md
+    - name: PUBLISHING
+      href: index.md
 - name: Xbox Live
   href: index.md
   items:
@@ -259,9 +557,12 @@
         - name: Program Social Services
           href: social-platform/people-system/programming-social-services.md
         - name: The People System
-          href: social-platform/people-system/xbox-live-people-system.md
-        - name: Displaying People from the People System
-          href: social-platform/people-system/displaying-people-from-the-people-system.md
+          href: social-platform/people-system/people-system.md
+          items:
+            - name: People System overview
+              href: social-platform/people-system/xbox-live-people-system.md
+            - name: Displaying People from the People System
+              href: social-platform/people-system/displaying-people-from-the-people-system.md
     - name: Data Platform
       href: data-platform/data-platform.md
       items: 
