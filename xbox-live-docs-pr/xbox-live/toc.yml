@@ -1,7 +1,7 @@
-- name: XBOX LIVE  [home landing page]
+- name: Xbox Live  [home landing page]
   href: index.md
   items:
-    - name: Hub Page for Xbox Live or Gaming
+    - name: XBL hub page
       href: index-hubpage.md
     - name: What's new for Xbox Live
       href: whats-new/whats-new.md
