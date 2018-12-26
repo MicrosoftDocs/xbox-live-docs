@@ -16,17 +16,17 @@
             - name: Get started with the Xbox Live Creators Program
               href: get-started-with-creators/get-started-with-xbox-live-creators.md
             - name: CREATE TITLE
-              href: index.md
+              href: stub.md
             - name: ENABLE TITLE
-              href: index.md
+              href: stub.md
             - name: PUBLISH TITLE
-              href: index.md
+              href: stub.md
             - name: ALLOW TEST ACCOUNT
-              href: index.md
+              href: stub.md
             - name: GET SAMPLE
-              href: index.md
+              href: stub.md
             - name: SIGN IN
-              href: index.md
+              href: stub.md
             - name: Create a title and publish to test environment
               href: get-started-with-creators/create-and-test-a-new-creators-title.md
             - name: Develop in Visual Studio
@@ -72,19 +72,19 @@
             - name: CREATE a title
               href: get-started-with-partner/create-a-new-title.md
             - name: GET TITLE APPROVED
-              href: index.md
+              href: stub.md
             - name: CHOOSE SBX
-              href: index.md
+              href: stub.md
             - name: ENABLE TITLE
-              href: index.md
+              href: stub.md
             - name: PUBLISH TITLE
-              href: index.md
+              href: stub.md
             - name: CREATE TEST ACCOUNT
-              href: index.md
+              href: stub.md
             - name: GET SAMPLE
-              href: index.md
+              href: stub.md
             - name: SIGN IN
-              href: index.md
+              href: stub.md
             - name: Get started with the Xbox Live APIs on Win32
               href: get-started-with-win32-ios-android/win32-get-started-with-xsapi.md
             - name: Get started with the Xbox Live APIs on Win32 using source code
@@ -272,9 +272,9 @@
                 - name: Social Manager OVERVIEW
                   href: social-platform/intro-to-social-manager.md
                 - name: PORTAL CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: SDK CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: Social Manager Memory and Performance
                   href: social-platform/social-manager-memory-and-performance-overview.md
             - name: PEOPLE SYSTEM - FEATURE
@@ -283,9 +283,9 @@
                 - name: People System OVERVIEW
                   href: social-platform/people-system/xbox-live-people-system.md
                 - name: PORTAL CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: SDK CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: Displaying People from the People System
                   href: social-platform/people-system/displaying-people-from-the-people-system.md
             - name: RICH PRESENCE - FEATURE
@@ -294,23 +294,23 @@
                 - name: Overview of Rich Presence strings
                   href: social-platform/rich-presence-strings/rich-presence-strings-overview.md
                 - name: RICH RICH PRESENCE
-                  href: index.md
+                  href: stub.md
                   items: 
                     - name: OVERVIEW
-                      href: index.md
+                      href: stub.md
                     - name: PORTAL CONFIG
-                      href: index.md
+                      href: stub.md
                     - name: SDK CONFIG
-                      href: index.md
+                      href: stub.md
                 - name: SIMPLE RICH PRESENCE
-                  href: index.md
+                  href: stub.md
                   items: 
                     - name: OVERVIEW
-                      href: index.md
+                      href: stub.md
                     - name: PORTAL CONFIG
-                      href: index.md
+                      href: stub.md
                     - name: SDK CONFIG
-                      href: index.md
+                      href: stub.md
                 - name: Configuration
                   href: social-platform/rich-presence-strings/rich-presence-strings-configuration.md
                 - name: Update strings
@@ -329,29 +329,29 @@
                 - name: Reputation service OVERVIEW
                   href: social-platform/people-system/the-reputation-service.md
                 - name: PORTAL CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: SDK CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: Send player feedback from title
                   href: social-platform/people-system/sending-player-feedback-from-your-title.md
             - name: PRIVILEGES - FEATURE
-              href: index.md
+              href: stub.md
               items: 
                 - name: OVERVIEW
-                  href: index.md
+                  href: stub.md
                 - name: PORTAL CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: SDK CONFIG
-                  href: index.md
+                  href: stub.md
             - name: LOCALIZED STRINGS - FEATURE
-              href: index.md
+              href: stub.md
               items: 
                 - name: OVERVIEW
-                  href: index.md
+                  href: stub.md
                 - name: PORTAL CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: SDK CONFIG
-                  href: index.md
+                  href: stub.md
             - name: Program Social Services
               href: social-platform/people-system/programming-social-services.md
         - name: DATA PLATFORM - FEATURE CATEGORY
@@ -367,23 +367,23 @@
                 - name: Achievements overview
                   href: achievements-2017/achievements-overview.md
                 - name: RICH
-                  href: index.md
+                  href: stub.md
                   items: 
                     - name: OVERVIEW
-                      href: index.md
+                      href: stub.md
                     - name: PORTAL CONFIG
-                      href: index.md
+                      href: stub.md
                     - name: SDK CONFIG
-                      href: index.md
+                      href: stub.md
                 - name: SIMPLE
-                  href: index.md
+                  href: stub.md
                   items: 
                     - name: OVERVIEW
-                      href: index.md
+                      href: stub.md
                     - name: PORTAL CONFIG
-                      href: index.md
+                      href: stub.md
                     - name: SDK CONFIG
-                      href: index.md
+                      href: stub.md
                 - name: Achievements 2017
                   href: achievements-2017/simplified-achievements.md
                 - name: Achievement Rewards
@@ -392,14 +392,14 @@
               href: leaderboards-and-stats-2017/player-stats.md
               items: 
                 - name: RICH
-                  href: index.md
+                  href: stub.md
                   items: 
                     - name: OVERVIEW
-                      href: index.md
+                      href: stub.md
                     - name: PORTAL CONFIG
-                      href: index.md
+                      href: stub.md
                     - name: SDK CONFIG
-                      href: index.md
+                      href: stub.md
                 - name: Using player stats
                   href: leaderboards-and-stats-2017/using-player-stats.md
                 - name: Stats 2017
@@ -407,40 +407,40 @@
                 - name: Update Stats 2017
                   href: leaderboards-and-stats-2017/player-stats-updating.md
             - name: LEADERBOARDS - FEATURE
-              href: index.md
+              href: stub.md
               items: 
                 - name: Leaderboards overview
                   href: leaderboards-and-stats-2017/leaderboards.md
                 - name: RICH
-                  href: index.md
+                  href: stub.md
                   items: 
                     - name: OVERVIEW
-                      href: index.md
+                      href: stub.md
                     - name: PORTAL CONFIG
-                      href: index.md
+                      href: stub.md
                     - name: SDK CONFIG
-                      href: index.md
+                      href: stub.md
             - name: FEATURED STATS - FEATURE
-              href: index.md
+              href: stub.md
               items: 
                 - name: RICH
-                  href: index.md
+                  href: stub.md
                   items: 
                     - name: OVERVIEW
-                      href: index.md
+                      href: stub.md
                     - name: PORTAL CONFIG
-                      href: index.md
+                      href: stub.md
                     - name: SDK CONFIG
-                      href: index.md
+                      href: stub.md
                 - name: SIMPLE
-                  href: index.md
+                  href: stub.md
                   items: 
                     - name: OVERVIEW
-                      href: index.md
+                      href: stub.md
                     - name: PORTAL CONFIG
-                      href: index.md
+                      href: stub.md
                     - name: SDK CONFIG
-                      href: index.md
+                      href: stub.md
         - name: CLOUD STORAGE - FEATURE CATEGORY
           href: storage-platform/storage-platform.md
           items: 
@@ -452,9 +452,9 @@
                 - name: Connected Storage OVERVIEW
                   href: storage-platform/connected-storage/connected-storage-overview.md
                 - name: PORTAL CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: SDK CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: Save Data
                   href: storage-platform/connected-storage/connected-storage-saving.md
                 - name: Load Data
@@ -477,9 +477,9 @@
                 - name: Azure Title Storage OVERVIEW
                   href: storage-platform/xbox-live-title-storage/xbox-live-title-storage.md
                 - name: PORTAL CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: SDK CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: Read a configuration blob
                   href: storage-platform/xbox-live-title-storage/reading-configuration-blobs.md
                 - name: Store a binary blob
@@ -505,14 +505,14 @@
                 - name: Session browse
                   href: multiplayer/session-browse.md
             - name: Xbox Integrated Multiplayer (XIM) - FEATURE
-              href: index.md
+              href: stub.md
               items: 
                 - name: Xbox Integrated Multiplayer (XIM) OVERVIEW
                   href: multiplayer/intro-to-xbox-integrated-multiplayer.md
                 - name: PORTAL CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: SDK CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: Use XIM (C++)
                   href: multiplayer/xbox-integrated-multiplayer/using-xim.md
                 - name: Use XIM (C#)
@@ -531,9 +531,9 @@
                 - name: Multiplayer Manager OVERVIEW
                   href: multiplayer/multiplayer-manager-overview.md
                 - name: PORTAL CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: SDK CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: API overview
                   href: multiplayer/multiplayer-manager/multiplayer-manager-api-overview.md
                 - name: Multiplayer games with friends
@@ -562,43 +562,43 @@
                     - name: Shut down after multiplayer game
                       href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-shut-down.md
             - name: MULTIPLAYER SESSIONS - FEATURE
-              href: index.md
+              href: stub.md
               items: 
                 - name: OVERVIEW
-                  href: index.md
+                  href: stub.md
                 - name: PORTAL CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: SDK CONFIG
-                  href: index.md
+                  href: stub.md
             - name: SMARTMATCH - FEATURE
-              href: index.md
+              href: stub.md
               items: 
                 - name: OVERVIEW
-                  href: index.md
+                  href: stub.md
                 - name: PORTAL CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: SDK CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: SmartMatch Matchmaking flow diagram
                   href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-play-with-smartmatch-matchmaking.md
             - name: INVITES - FEATURE
-              href: index.md
+              href: stub.md
               items: 
                 - name: OVERVIEW
-                  href: index.md
+                  href: stub.md
                 - name: PORTAL CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: SDK CONFIG
-                  href: index.md
+                  href: stub.md
             - name: GAME CHAT - FEATURE
               href: multiplayer/chat/game-chat-2.md
               items: 
                 - name: Game Chat 2 OVERVIEW
                   href: multiplayer/chat/game-chat-2-overview.md
                 - name: PORTAL CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: SDK CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: Use Game Chat 2 (C++)
                   href: multiplayer/chat/using-game-chat-2.md
                 - name: Use Game Chat 2 (WinRT Projections)
@@ -671,53 +671,53 @@
                 - name: Game session/party - visibility and joinability
                   href: multiplayer/multiplayer-appendix/game-session-and-game-party-visibility-and-joinability.md
         - name: EXTERNAL SERVICES - FEATURE CATEGORY
-          href: index.md
+          href: stub.md
           items: 
             - name: WEB SERVICES - FEATURE
-              href: index.md
+              href: stub.md
               items: 
                 - name: OVERVIEW
-                  href: index.md
+                  href: stub.md
                 - name: PORTAL CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: SDK CONFIG
-                  href: index.md
+                  href: stub.md
             - name: RELYING PARTIES - FEATURE
-              href: index.md
+              href: stub.md
               items: 
                 - name: OVERVIEW
-                  href: index.md
+                  href: stub.md
                 - name: PORTAL CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: SDK CONFIG
-                  href: index.md
+                  href: stub.md
             - name: SINGLE SIGN-ON - FEATURE
-              href: index.md
+              href: stub.md
               items: 
                 - name: OVERVIEW
-                  href: index.md
+                  href: stub.md
                 - name: PORTAL CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: SDK CONFIG
-                  href: index.md
+                  href: stub.md
             - name: ACCESS POLICIES - FEATURE
-              href: index.md
+              href: stub.md
               items: 
                 - name: OVERVIEW
-                  href: index.md
+                  href: stub.md
                 - name: PORTAL CONFIG
-                  href: index.md
+                  href: stub.md
                 - name: SDK CONFIG
-                  href: index.md
+                  href: stub.md
         - name: Real-Time Activity (RTA) service - feature
           href: real-time-activity-service/real-time-activity-service.md
           items: 
             - name: OVERVIEW of Real-Time Activity (RTA) service
               href: real-time-activity-service/real-time-activity-service-overview.md
             - name: PORTAL CONFIG
-              href: index.md
+              href: stub.md
             - name: SDK CONFIG
-              href: index.md
+              href: stub.md
             - name: Register for Stat change notifications
               href: real-time-activity-service/register-for-stat-notifications.md
             - name: Program RTA Service with C++ APIs
@@ -744,22 +744,22 @@
       href: tutorials.md
       items: 
         - name: IDENTITY
-          href: index.md
+          href: stub.md
         - name: MULTIPLAYER
-          href: index.md
+          href: stub.md
           items: 
             - name: CUSTOM SAMPLE
-              href: index.md
+              href: stub.md
             - name: XIM
-              href: index.md
+              href: stub.md
             - name: XIM CHAT ONLY
-              href: index.md
+              href: stub.md
             - name: MULTIPLAYER MANAGER
-              href: index.md
+              href: stub.md
             - name: MULTIPLAYER MANAGER BRING YOUR OWN MATCH
-              href: index.md
+              href: stub.md
         - name: PUBLISHING
-          href: index.md
+          href: stub.md
     - name: API REFERENCE
       href: api-reference.md
       items:
