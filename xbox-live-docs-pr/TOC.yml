@@ -1,2 +1,6 @@
-- name: Xbox Foo
-  href: xbox-live/toc.yml
+### YamlMime:ContextObject
+uhfHeaderId: MSDocsHeader-XboxLive
+searchScope:
+  - XboxLive
+toc_rel: ./xbox-live/toc.yml
+breadcrumb_path: ./breadcrumb/toc.yml
