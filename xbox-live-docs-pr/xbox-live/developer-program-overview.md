@@ -229,7 +229,7 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 
 
 <tr class="dev-program-feature-start">
-<td rowspan="6" class="dev-program-feature-name">4. Online Multiplayer</td>
+<td rowspan="5" class="dev-program-feature-name">4. Multiplayer platform</td>
 <td>4.3 Multiplayer Session Directory (MPSD)</td>
 <td>Stores information about a multiplayer session, such as list of players and their state.</td>
 <td class="xbl-features-optional">Required</td>
