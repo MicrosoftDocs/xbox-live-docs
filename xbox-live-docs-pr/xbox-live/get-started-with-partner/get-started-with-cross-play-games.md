@@ -135,7 +135,7 @@ Once you’ve entered your MSA App ID in the “Application ID” field, click t
 
 While the above steps are enough to get your UWP game authenticated and using Xbox Live with the Service Configuration you create and publish in XDP, certain Xbox Live features (like multiplayer invites) need to be aware of your UWP game’s PFN in order to work correctly.
 
-To do this, navigate to Product Setup &gt; Dev Center Binding
+To do this, navigate to Product Setup &gt; Partner Center Binding
 
 ![](../images/ingesting_crossplay_games_xdp/image13.png)
 

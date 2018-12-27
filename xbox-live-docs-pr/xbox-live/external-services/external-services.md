@@ -1,22 +1,24 @@
 ---
-title: Configuring Xbox Live Services
+title: External services
 author: mikehoffms
-description: Configuring Xbox Live services for your game.
+description: External services.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, service configuration
+keywords: xbox live
 ms.localizationpriority: medium
 ---
-# Configuring Xbox Live Services
+# External services
 
-Configuring Xbox Live services for your game.
+External services.
 
 ## In this section
 
 | Topic                                                                                                                                             | Description                                                                                                   |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Xbox Live service configuration](xbox-live-service-configuration.md) | Configuring Xbox Live services for your game. |
-| [Partner Center](configure-xbl/windows-dev-center.md) | Configuring Xbox Live services at Partner Center. |
+| [Web services](web-services/web-services.md) | __ |
+| [Relying parties](relying-parties/relying-parties.md) | __ |
+| [Single sign-on](single-sign-on/single-sign-on.md) | __ |
+| [Access policies](access-policies/access-policies.md) | __ |

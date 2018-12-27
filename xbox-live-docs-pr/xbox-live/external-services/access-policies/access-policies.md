@@ -1,22 +1,23 @@
 ---
-title: Configuring Xbox Live Services
+title: Access policies
 author: mikehoffms
-description: Configuring Xbox Live services for your game.
+description: Access policies.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, service configuration
+keywords: xbox live
 ms.localizationpriority: medium
 ---
-# Configuring Xbox Live Services
+# Access policies
 
-Configuring Xbox Live services for your game.
+Configuring access policies to allow other apps, games, and services to access a title's Xbox Live settings.
 
 ## In this section
 
 | Topic                                                                                                                                             | Description                                                                                                   |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Xbox Live service configuration](xbox-live-service-configuration.md) | Configuring Xbox Live services for your game. |
-| [Partner Center](configure-xbl/windows-dev-center.md) | Configuring Xbox Live services at Partner Center. |
+| [Access policies overview](access-policies-overview.md) | Configuring access policies to allow other apps, games, and services to access a title's Xbox Live settings. |
+| [Portal configuration of access policies](../../configure-xbl/dev-center/access-policies-udc.md) | Configuring access policies to allow other apps, games, and services to access a title's Xbox Live settings. |
+| [SDK configuration of access policies](access-policies-sdk-config.md) | __ |

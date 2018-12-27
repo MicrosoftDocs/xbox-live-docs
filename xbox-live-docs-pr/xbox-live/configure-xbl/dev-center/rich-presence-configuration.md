@@ -1,6 +1,6 @@
 ---
-title: Rich Presence Configuration on Dev Center
-description: Configuring Rich Presence strings on Windows Dev Center, to show what a user is currently doing within a game.
+title: Rich Presence Configuration on Partner Center
+description: Configuring Rich Presence strings on Partner Center, to show what a user is currently doing within a game.
 ms.date: 02/27/2018
 ms.topic: article
 ms.localizationpriority: medium

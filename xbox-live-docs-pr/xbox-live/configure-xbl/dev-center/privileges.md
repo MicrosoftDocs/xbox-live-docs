@@ -1,6 +1,6 @@
 ---
-title: Privileges Configuration on Dev Center
-description: Configuring privileges on Windows Dev Center.
+title: Privileges Configuration on Partner Center
+description: Configuring privileges on Partner Center.
 ms.author: aablackm
 ms.date: 04/09/2018
 ms.topic: article

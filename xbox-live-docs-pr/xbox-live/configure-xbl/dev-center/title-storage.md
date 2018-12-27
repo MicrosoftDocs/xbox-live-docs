@@ -1,6 +1,6 @@
 ---
-title: Title Storage configuration on Dev Center
-description: Configuring Title Storage on Windows Dev Center, for game-save in the cloud.
+title: Title Storage configuration on Partner Center
+description: Configuring Title Storage on Partner Center, for game-save in the cloud.
 ms.date: 04/24/2018
 ms.topic: article
 ms.localizationpriority: medium

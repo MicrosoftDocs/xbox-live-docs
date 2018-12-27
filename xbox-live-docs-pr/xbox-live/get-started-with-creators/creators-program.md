@@ -21,5 +21,5 @@ ms.localizationpriority: medium
 | [Develop in Visual Studio](develop-creators-title-with-visual-studio.md) | Developing an Xbox Live-enable game as a Creators Program member, using Visual Studio. |
 | [Develop in Unity](develop-creators-unity.md) | Developing an Xbox Live-enable game as a Creators Program member, using Unity. |
 | [XBL service configuration](xbox-live-service-configuration-creators.md) | Configuring Xbox Live services, for the Creators Program. |
-| [XBL sandboxes introduction](xbox-live-sandboxes-creators.md) | Introduction to Xbox Live sandboxes, configured at Windows Dev Center. |
+| [XBL sandboxes introduction](xbox-live-sandboxes-creators.md) | Introduction to Xbox Live sandboxes, configured at Partner Center. |
 | [Authorize XBL accounts for testing](authorize-xbox-live-accounts.md) | Authorizing a public Xbox Live account for testing in your development environment. |

@@ -1,22 +1,23 @@
 ---
-title: Configuring Xbox Live Services
+title: Web services
 author: mikehoffms
-description: Configuring Xbox Live services for your game.
+description: Web services.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, service configuration
+keywords: xbox live
 ms.localizationpriority: medium
 ---
-# Configuring Xbox Live Services
+# Web services
 
-Configuring Xbox Live services for your game.
+Web services.
 
 ## In this section
 
 | Topic                                                                                                                                             | Description                                                                                                   |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Xbox Live service configuration](xbox-live-service-configuration.md) | Configuring Xbox Live services for your game. |
-| [Partner Center](configure-xbl/windows-dev-center.md) | Configuring Xbox Live services at Partner Center. |
+| [Web services overview](web-services-overview.md) | __ |
+| [Portal configuration of web services](web-services-portal-config.md) | __ |
+| [SDK configuration of web services](web-services-sdk-config.md) | __ |

@@ -1,6 +1,6 @@
 ---
 title: Achievements 2017
-description: Configuring Achievements in Microsoft Dev Center, to deliver rewards.
+description: Configuring Achievements in Partner Center, to deliver rewards.
 ms.assetid:
 ms.date: 11/10/2017
 ms.topic: article

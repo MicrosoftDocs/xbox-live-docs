@@ -1,22 +1,23 @@
 ---
-title: Configuring Xbox Live Services
+title: Single sign-on
 author: mikehoffms
-description: Configuring Xbox Live services for your game.
+description: Single sign-on.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, service configuration
+keywords: xbox live
 ms.localizationpriority: medium
 ---
-# Configuring Xbox Live Services
+# Single sign-on
 
-Configuring Xbox Live services for your game.
+Single sign-on.
 
 ## In this section
 
 | Topic                                                                                                                                             | Description                                                                                                   |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Xbox Live service configuration](xbox-live-service-configuration.md) | Configuring Xbox Live services for your game. |
-| [Partner Center](configure-xbl/windows-dev-center.md) | Configuring Xbox Live services at Partner Center. |
+| [Single sign-on overview](single-sign-on-overview.md) | __ |
+| [Portal configuration of single sign-on](single-sign-on-portal-config.md) | __ |
+| [SDK configuration of single sign-on](single-sign-on-sdk-config.md) | __ |

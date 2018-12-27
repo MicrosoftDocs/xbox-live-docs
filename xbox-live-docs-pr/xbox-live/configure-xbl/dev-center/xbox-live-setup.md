@@ -1,6 +1,6 @@
 ---
 title: Xbox Live Setup configuration
-description: Configuring Xbox Live Setup at Windows Dev Center.
+description: Configuring Xbox Live Setup at Partner Center.
 ms.assetid:
 ms.date: 10/30/2017
 ms.topic: article

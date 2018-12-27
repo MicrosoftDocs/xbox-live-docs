@@ -1,6 +1,6 @@
 ---
-title: Configure single sign-on in Dev Center
-description: Configuring single sign-on in Dev Center to allow a title to sign a user into your services by using their Xbox Live ID.
+title: Configure single sign-on in Partner Center
+description: Configuring single sign-on in Partner Center to allow a title to sign a user into your services by using their Xbox Live ID.
 ms.assetid:
 ms.date: 02/21/2018
 ms.topic: article

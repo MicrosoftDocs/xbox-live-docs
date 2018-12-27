@@ -1,22 +1,23 @@
 ---
-title: Configuring Xbox Live Services
+title: Relying parties
 author: mikehoffms
-description: Configuring Xbox Live services for your game.
+description: Relying parties.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, service configuration
+keywords: xbox live
 ms.localizationpriority: medium
 ---
-# Configuring Xbox Live Services
+# Relying parties
 
-Configuring Xbox Live services for your game.
+Relying parties.
 
 ## In this section
 
 | Topic                                                                                                                                             | Description                                                                                                   |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Xbox Live service configuration](xbox-live-service-configuration.md) | Configuring Xbox Live services for your game. |
-| [Partner Center](configure-xbl/windows-dev-center.md) | Configuring Xbox Live services at Partner Center. |
+| [Relying parties overview](relying-parties-overview.md) | __ |
+| [Portal configuration of relying parties](relying-parties-portal-config.md) | __ |
+| [SDK configuration of relying parties](relying-parties-sdk-config.md) | __ |

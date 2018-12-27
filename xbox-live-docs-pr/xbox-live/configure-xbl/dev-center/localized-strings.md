@@ -1,6 +1,6 @@
 ---
 title: Localized strings
-description: Configuring localized strings on Windows Dev Center.
+description: Configuring localized strings on Partner Center.
 ms.assetid: e0f307d2-ea02-48ea-bcdf-828272a894d4
 ms.date: 11/17/2017
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
-title: Dev Center service configuration  
-description: Configuring Xbox Live services at Windows Dev Center.
+title: Partner Center service configuration  
+description: Configuring Xbox Live services at Partner Center.
 ms.date: 7/30/2018
 ms.topic: article
 ms.localizationpriority: medium
@@ -22,16 +22,16 @@ To access the Xbox Live configuration pages, after selecting your title in [Part
 | Topic                                                                                                                                             | Description                                                                                                   |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
 | [Summary tab](dev-center/summary.md) | Using the Summary tab in Partner Center. |
-| [Xbox Live Setup](dev-center/xbox-live-setup.md) | Configuring Xbox Live Setup at Windows Dev Center. |
-| [Achievements 2017](dev-center/achievements-in-udc.md) | Configuring Achievements in Microsoft Dev Center, to deliver rewards. |
-| [Featured Stats and Leaderboards 2017](dev-center/featured-stats-and-leaderboards.md) | Configuring Xbox Live Featured Stats and Leaderboards 2017 on Windows Dev Center. |
-| [Game DVR](dev-center/game-dvr.md) | Configuring Xbox Live Game DVR strings on Windows Dev Center. |
-| [Localized strings](dev-center/localized-strings.md) | Configuring localized strings on Windows Dev Center. |
-| [Privileges](dev-center/privileges.md) | Configuring privileges on Windows Dev Center. |
-| [Rich Presence strings](dev-center/rich-presence-configuration.md) | Configuring Rich Presence strings on Windows Dev Center, to show what a user is currently doing within a game. |
-| [Title Storage](dev-center/title-storage.md) | Configuring Title Storage on Windows Dev Center, for game-save in the cloud. |
+| [Xbox Live Setup](dev-center/xbox-live-setup.md) | Configuring Xbox Live Setup at Partner Center. |
+| [Achievements 2017](dev-center/achievements-in-udc.md) | Configuring Achievements in Partner Center, to deliver rewards. |
+| [Featured Stats and Leaderboards 2017](dev-center/featured-stats-and-leaderboards.md) | Configuring Xbox Live Featured Stats and Leaderboards 2017 on Partner Center. |
+| [Game DVR](dev-center/game-dvr.md) | Configuring Xbox Live Game DVR strings on Partner Center. |
+| [Localized strings](dev-center/localized-strings.md) | Configuring localized strings on Partner Center. |
+| [Privileges](dev-center/privileges.md) | Configuring privileges on Partner Center. |
+| [Rich Presence strings](dev-center/rich-presence-configuration.md) | Configuring Rich Presence strings on Partner Center, to show what a user is currently doing within a game. |
+| [Title Storage](dev-center/title-storage.md) | Configuring Title Storage on Partner Center, for game-save in the cloud. |
 | [Access Policies](dev-center/access-policies-udc.md) | Configuring access policies to allow other apps, games, and services to access the Xbox Live settings. |
 | [Web Services](dev-center/web-services.md) | Creating a Web service for an Xbox Live-enabled app. |
-| [Data sharing](dev-center/data-sharing-udc.md) | Configuring data sharing in Dev Center to allow other apps, games, and services to access the Xbox Live settings. |
-| [Single sign-on](dev-center/single-sign-on.md) | Configuring single sign-on in Dev Center to allow a title to sign a user into your services by using their Xbox Live ID. |
+| [Data sharing](dev-center/data-sharing-udc.md) | Configuring data sharing in Partner Center to allow other apps, games, and services to access the Xbox Live settings. |
+| [Single sign-on](dev-center/single-sign-on.md) | Configuring single sign-on in Partner Center to allow a title to sign a user into your services by using their Xbox Live ID. |
 | [XboxServices.config](../xboxservices-config.md) | The XboxServices.config file associates your UWP game with an Xbox Live configuration. |

@@ -1,7 +1,7 @@
 ---
-title: Configure data sharing in Dev Center
+title: Configure data sharing in Partner Center
 author: KevinAsgari
-description: Configuring data sharing in Dev Center to allow other apps, games, and services to access the Xbox Live settings.
+description: Configuring data sharing in Partner Center to allow other apps, games, and services to access the Xbox Live settings.
 ms.assetid:
 ms.author: kevinasg
 ms.date: 02/21/2018
@@ -12,18 +12,18 @@ ms.localizationpriority: medium
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, udc, universal developer center
 ---
 
-# Configure data sharing on Dev Center
+# Configure data sharing on Partner Center
 
-You can use [Windows Dev Center](https://developer.microsoft.com/dashboard/windows/overview) to allow other services, games, and apps to access your title's Xbox Live settings and data. For example, you may want a web service to display leaderboards on your website, or you may have a companion app that can access the game's title storage to view or modify saved game data.
+You can use [Partner Center](https://developer.microsoft.com/dashboard/windows/overview) to allow other services, games, and apps to access your title's Xbox Live settings and data. For example, you may want a web service to display leaderboards on your website, or you may have a companion app that can access the game's title storage to view or modify saved game data.
 
-By default, only the title itself can access the settings and data stored on the Xbox Live service. You can change this by configuring data sharing on the Dev Center.
+By default, only the title itself can access the settings and data stored on the Xbox Live service. You can change this by configuring data sharing on Partner Center.
 
 > [!NOTE]
 > This topic does not apply to titles in the Xbox Live Creators Program.
 
 Add configuration by doing the following:
 
-1. After selecting your title in [Dev Center](https://developer.microsoft.com/dashboard/windows/overview), navigate to **Services** > **Xbox Live**.
+1. After selecting your title in [Partner Center](https://developer.microsoft.com/dashboard/windows/overview), navigate to **Services** > **Xbox Live**.
 
 2. Click on the link to **Data sharing**.
 

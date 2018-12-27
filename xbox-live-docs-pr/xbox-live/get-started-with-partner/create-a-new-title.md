@@ -1,6 +1,6 @@
 ---
-title: Create a new title
-description: Creating a new title for Xbox Live by using the Windows Universal Dev Center (UDC).
+title: Create a new title for Xbox Live
+description: Creating a new title for Xbox Live, in Partner Center.
 ms.assetid: b8bd69e6-887a-4b1f-a42d-8affdbec0234
 ms.date: 04/04/2017
 ms.topic: article
@@ -13,9 +13,9 @@ ms.localizationpriority: medium
 
 Before writing any code, you must setup a new title on your service configuration portal.  You can learn more about service configuration in [Xbox Live Service Configuration](../xbox-live-service-configuration.md)
 
-This article will walk you through this process with the following assumptions
+This article will walk you through this process with the following assumptions:
 
-1. You are developing a Universal Windows Platform (UWP) title.  UWP titles run on Xbox One, Windows 10 desktop PCs, and mobile
+1. You are developing a Universal Windows Platform (UWP) title.  UWP titles run on Xbox One, Windows 10 desktop PCs, and mobile.
 2. You are configuring your title in [Partner Center](https://partner.microsoft.com/dashboard).
 3. You are using either Visual Studio with a custom game engine, or Unity.
 4. Your development machine is running Windows 10.

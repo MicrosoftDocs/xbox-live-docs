@@ -40,13 +40,8 @@ There are several pieces of ID required to configure your game.  You can see mor
 
 Some things to watch out for are:
 
-<<<<<<< HEAD
-* Ensure your App ID is entered into XDP or Dev Center correctly
-* Ensure your PFN is entered into XDP or Dev Center correctly
-=======
 * Ensure your  App ID is entered into XDP or Partner Center correctly
 * Ensure your PFN is entered into XDP or Partner Center correctly
->>>>>>> master
 * Double-check you have created an xboxservices.config in the same directory as your Visual Studio project as described in the [Adding Xbox Live to a new or existing UWP project](../../get-started-with-partner/get-started-with-visual-studio-and-uwp.md) guide.
 * Ensure that the "Package Identity" in your appxmanifest is correct.  This is shown in Partner Center as "Package/Identity/Name" in the App Identity section.
 
@@ -98,13 +93,13 @@ You may need to remove your old account from Windows 10, you can do that by goin
 
 ### 0x87DD0005 Unexpected or unknown title
 
-Double-check the Application ID Setup and Dev Center Binding in XDP. You can view the instructions in [Adding Xbox Live Support to a new or existing Visual Studio UWP](https://docs.microsoft.com/windows-hardware/drivers/devapps/step-1--create-a-uwp-device-app#span-idassociateyourappwiththewindowsstorespanspan-idassociateyourappwiththewindowsstorespanspan-idassociateyourappwiththewindowsstorespanassociate-your-app-with-the-microsoft-store)
+Double-check the Application ID Setup and Partner Center Binding in XDP. You can view the instructions in [Adding Xbox Live Support to a new or existing Visual Studio UWP](https://docs.microsoft.com/windows-hardware/drivers/devapps/step-1--create-a-uwp-device-app#span-idassociateyourappwiththewindowsstorespanspan-idassociateyourappwiththewindowsstorespanspan-idassociateyourappwiththewindowsstorespanassociate-your-app-with-the-microsoft-store)
 
 ### 0x87DD000E Title not authorized
 
 Double-check that your device is set to the proper development sandbox and that the user has access to the sandbox. See the [Test using the Xbox App](#test-xbox-app) section for more information on how you can verify these with the Xbox App.
 
-If that doesn't resolve the issue, then also check the Dev Center Binding and App ID setup as described above.
+If that doesn't resolve the issue, then also check the Partner Center Binding and App ID setup as described above.
 
 If you are getting an error not described here, please refer to the error list in the xbox::services::xbox_live_error_code documentation to get more information about the error codes. You can also refer to errors.h in the XSAPI includes.
 

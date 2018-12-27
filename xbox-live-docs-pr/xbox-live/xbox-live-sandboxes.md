@@ -1,6 +1,6 @@
 ---
 title: Xbox Live sandboxes
-description: Development sandboxes at Windows Dev Center, such as RETAIL.
+description: Development sandboxes at Partner Center, such as RETAIL.
 ms.assetid: a5acb5bf-dc11-4dff-aa94-6d1f01472d2a
 ms.date: 04/04/2017
 ms.topic: article

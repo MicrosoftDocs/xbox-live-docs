@@ -1,6 +1,6 @@
 ---
 title: Configure access policies in Partner Center
-description: Configuring access policies to allow other apps, games, and services to access the Xbox Live settings.
+description: Configuring access policies to allow other apps, games, and services to access a title's Xbox Live settings.
 ms.assetid:
 ms.date: 02/21/2018
 ms.topic: article
