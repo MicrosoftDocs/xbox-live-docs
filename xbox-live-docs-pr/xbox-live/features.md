@@ -26,18 +26,18 @@ ms.localizationpriority: medium
 <h2>Overview of Feature Knowledge</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="">
+        <a href="social-platform/social-platform.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="images/common/xbl_socialplatform.svg" alt="Social Platforms" />
+                            <img src="images/common/xbl_socialplatform.svg" alt="Social Platform" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Social Platforms</h3>
-                        <p>Tutorials to get you up and running with tools to enhance the social aspect of any XBL experience.</p>
+                        <h3>Social Platform</h3>
+                        <p>Tools to enhance the social aspect of any XBL experience.</p>
                     </div>
                 </div>
             </div>
@@ -45,18 +45,18 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="">
+        <a href="data-platform/data-platform.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="images/common/xbl_i_data-mining.svg" alt="Data Platforms" />
+                            <img src="images/common/xbl_i_data-mining.svg" alt="Data Platform" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Data Platforms</h3>
-                        <p>Everything you need to know to build any title to run as a service while incorporating engagement driving features.</p>
+                        <h3>Data Platform</h3>
+                        <p>Build a title to run as a service while incorporating engagement driving features.</p>
                     </div>
                 </div>
             </div>
@@ -64,26 +64,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="images/common/xbl_multiplayer icon.svg" alt="Multiplayer Platform" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Multiplayer Platform</h3>
-                        <p>Learn about how to utilize a set of client API’s to impliment real-time multiplayer gameplay.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="">
+        <a href="storage-platform/storage-platform.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -94,7 +75,7 @@ ms.localizationpriority: medium
                     </div>
                     <div class="cardText">
                         <h3>Storage Platform</h3>
-                        <p>Supplementary reference material for Xbox Live Services. Trigger events that will enable global title data and player specific data in the cloud.</p>
+                        <p>Supplementary reference material for Xbox Live Services. Trigger events that enable global title data and player specific data in the cloud.</p>
                     </div>
                 </div>
             </div>
@@ -102,7 +83,45 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="">
+        <a href="multiplayer/multiplayer-platform.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_multiplayer icon.svg" alt="Multiplayer Platform" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Multiplayer Platform</h3>
+                        <p>Client APIs to implement real-time multiplayer gameplay.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="real-time-activity-service/real-time-activity-service.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity.svg" alt="Real Time Activity Service" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Real Time Activity (RTA) service</h3>
+                        <p>Enables an application on any device to subscribe to state data, user statistics, and presence.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="contextual-search/contextual-search.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -113,26 +132,7 @@ ms.localizationpriority: medium
                     </div>
                     <div class="cardText">
                         <h3>Contextual Search</h3>
-                        <p>SLearn how to implement tools to automatically tag broadcasts and game clips from a title with real time stats.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="images/common/xbl_real_time_activity.svg" alt="Real Time Activity Service" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Real Time Activity Service</h3>
-                        <p>Add RTA-S to allow an application on any device to subscribe to state data, user statistics, and presence.</p>
+                        <p>Implement tools to automatically tag broadcasts and game clips from a title with real time stats.</p>
                     </div>
                 </div>
             </div>

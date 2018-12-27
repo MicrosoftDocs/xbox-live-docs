@@ -35,13 +35,14 @@ MPSD is wrapped by the **MultiplayerService Class**.
 
 ### MPSD Sessions
 
-An MPSD session is represented by the **MultiplayerSession Class** as the scenario in which one or more people use a game. A session is stored by MPSD as a secure JSON document residing in the Xbox Live cloud. Specifically, an MPSD session has the following characteristics:   Is created and managed by titles.
+An MPSD session is represented by the **MultiplayerSession Class** as the scenario in which one or more people use a game. A session is stored by MPSD as a secure JSON document residing in the Xbox Live cloud. Specifically, an MPSD session has the following characteristics:
 
+-   Is created and managed by titles.
 -   Has a unique URI. For more information, see **Session Directory URIs**.
 -   Enables connectivity among users, called session members.
 -   Stores data useful for enabling game play, for example, per-member attributes, game settings, bootstrapping information, and game server information.
 
-MPSD supports several session variations for use in setting up multiplayer games. Every session contains players' Xbox user identifiers (XUIDs) and secure device association address data.
+MPSD supports several variations of sessions, for use in setting up multiplayer games. Every session contains players' Xbox user identifiers (XUIDs) and secure device association address data.  Session variations include:
 
 -   Game session, used as the pattern for game play. A game session can be peer-to-peer, peer-to-host, peer-to-server, or a hybrid of these types.
 -   Ticket session, a helper session used to track the state of a match during matchmaking. It is often also a lobby session, and can sometimes be a game session. See [SmartMatch Matchmaking](smartmatch-matchmaking.md).
@@ -59,7 +60,10 @@ MPSD enables clients to connect to it using the real-time activity service web s
 
 ### Making User Connections
 
-The XSAPI library manages the connection between the client and MPSD. The title first calls the **MultiplayerService.EnableMultiplayerSubscriptions Method**. This method tells XSAPI that the client intends to use a real-time activity connection for multiplayer purposes. Then, when the title makes its first call to the **MultiplayerService.WriteSessionAsync Method** or the **MultiplayerService.WriteSessionByHandleAsync Method**, with the current user set to the Active state, a connection is created and hooked up to MPSD.
+The XSAPI library manages the connection between the client and MPSD. 
+
+1. First, the title calls the **MultiplayerService.EnableMultiplayerSubscriptions Method**. This method tells XSAPI that the client intends to use a real-time activity connection for multiplayer purposes. 
+2. Then, when the title makes its first call to the **MultiplayerService.WriteSessionAsync Method** or the **MultiplayerService.WriteSessionByHandleAsync Method**, with the current user set to the Active state, a connection is created and hooked up to MPSD.
 
 | Note                                                                                                                         |
 |-------------------------------------------------------------------------------------------------------------------------------------------|
