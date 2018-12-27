@@ -77,22 +77,15 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 <th>Feature</th>
 <th>Description</th>
 <th> ID@Xbox </th>
-<th>Xbox Live Creators Program</th>
+<th>Creators Program</th>
 </tr>
 
 
 
 <tr class="dev-program-feature-start">
 <td rowspan="13" class="dev-program-feature-name">1. Social platform</td>
-<td>Basic Presence</td>
-<td>Display basic presence strings showing user activity within a title.  Eg: "Steve is playing Minecraft"</td>
-<td class="xbl-features-automatic">Automatic</td>
-<td class="xbl-features-automatic">Automatic</td>
-</tr>
-
-<tr>
 <td>1.1 Social Manager</td>
-<td>Efficiently retrieve information about a player's social graph</td>
+<td>Efficiently retrieve information about a player's social graph.</td>
 <td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-limited">Optional / Limited (only friends who have played your title are exposed)</td>
 </tr>
@@ -119,22 +112,29 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 </tr>
 
 <tr>
+<td>Basic Presence</td>
+<td>Display basic presence strings showing user activity within a title, such as "Steve is playing Minecraft."</td>
+<td class="xbl-features-automatic">Automatic</td>
+<td class="xbl-features-automatic">Automatic</td>
+</tr>
+
+<tr>
 <td>Recently Played</td>
-<td>Appear in recently played titles in the Xbox App or Xbox One</td>
+<td>Appear in recently played titles in the Xbox App or Xbox One.</td>
 <td class="xbl-features-automatic">Automatic</td>
 <td class="xbl-features-automatic">Automatic</td>
 </tr>
 
 <tr>
 <td>Activity Feed</td>
-<td>Appear in the activity feed in the Xbox App or Xbox One</td>
+<td>Appear in the activity feed in the Xbox App or Xbox One.</td>
 <td class="xbl-features-automatic">Automatic</td>
 <td class="xbl-features-automatic">Automatic</td>
 </tr>
 
 <tr>
 <td>Games Hub</td>
-<td>Have a Game Hub associated with your title displaying stats, videos, and other content in a feed specific to your title</td>
+<td>Have a Game Hub associated with your title displaying stats, videos, and other content in a feed specific to your title.</td>
 <td class="xbl-features-automatic">Automatic</td>
 <td class="xbl-features-automatic">Automatic</td>
 </tr>
@@ -162,14 +162,14 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 
 <tr>
 <td>Broadcast</td>
-<td>Players can live broadcast their gameplay via streaming services like Mixer and Twitch</td>
+<td>Players can live broadcast their gameplay via streaming services like Mixer and Twitch.</td>
 <td class="xbl-features-automatic">Automatic</td>
 <td class="xbl-features-automatic">Automatic</td>
 </tr>
 
 <tr>
 <td>Privacy</td>
-<td>Allow players to mute or block or other players</td>
+<td>Allow players to mute or block or other players.</td>
 <td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-optional">Optional</td>
 </tr>
@@ -213,7 +213,7 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 <td rowspan="2" class="dev-program-feature-name">3. Cloud Storage platform</td>
 
 <td>3.1 Connected Storage</td>
-<td>Roaming game saves across Xbox One Consoles and PCs</td>
+<td>Roaming game saves across Xbox One Consoles and PCs.</td>
 <td class="xbl-features-required">Required</td>
 <td class="xbl-features-optional">Optional</td>
 </tr>
@@ -230,9 +230,8 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 
 <tr class="dev-program-feature-start">
 <td rowspan="6" class="dev-program-feature-name">4. Online Multiplayer</td>
-
 <td>4.3 Multiplayer Session Directory (MPSD)</td>
-<td>Stores information about a multiplayer session, such as list of players, state, etc.</td>
+<td>Stores information about a multiplayer session, such as list of players and their state.</td>
 <td class="xbl-features-optional">Required</td>
 <td class="xbl-features-notavailable">Not Supported</td>
 </tr>
@@ -246,7 +245,7 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 
 <tr>
 <td>4.6 Game Chat</td>
-<td>Voice chat for players in a multiplayer game</td>
+<td>Voice chat for players in a multiplayer game.</td>
 <td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-notavailable">Not Supported</td>
 </tr>
@@ -267,17 +266,17 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 
 
 
-<tr>
+<tr class="dev-program-feature-start">
 <td rowspan="2" class="dev-program-feature-name">Identity</td>
 <td>Sign-in / Sign-up</td>
-<td>Allow players to sign-in to Xbox Live within your title, or create a new Xbox Live account if necessary</td>
+<td>Allow players to sign-in to Xbox Live within your title, or create a new Xbox Live account if necessary.</td>
 <td class="xbl-features-required">Required</td>
 <td class="xbl-features-required">Required</td>
 </tr>
 
 <tr>
 <td>User Identity</td>
-<td>Utilize Xbox Live identity by displaying the Gamertag, Gamerpic, etc</td>
+<td>Use Xbox Live Identity by displaying information such as Gamertag and Gamerpic.</td>
 <td class="xbl-features-required">Required</td>
 <td class="xbl-features-required">Required</td>
 </tr>
