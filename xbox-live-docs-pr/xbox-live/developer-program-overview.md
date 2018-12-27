@@ -179,17 +179,17 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 
 <tr class="dev-program-feature-start">
 <td rowspan="4" class="dev-program-feature-name">2. Data platform</td>
-<td>2.2 Player Stats</td>
-<td>Upload statistics about players which can be used in Leaderboards.</td>
-<td class="xbl-features-optional">Optional</td>
-<td class="xbl-features-optional">Optional (Data platform 2017 only)</td>
-</tr>
-
-<tr>
 <td>2.1 Achievements</td>
 <td>Gamerscore and other rewards such as digital artwork, new maps, characters, and stat boosts.</td>
 <td class="xbl-features-required">Required</td>
 <td class="xbl-features-notavailable">Not Supported</td>
+</tr>
+
+<tr>
+<td>2.2 Player Stats</td>
+<td>Upload statistics about players which can be used in Leaderboards.</td>
+<td class="xbl-features-optional">Optional</td>
+<td class="xbl-features-optional">Optional (Data platform 2017 only)</td>
 </tr>
 
 <tr>
