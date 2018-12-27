@@ -9,7 +9,7 @@
       href: get-started.md
       items: 
         - name: Overview of portals and doc sites
-          href: overview-portals-docsites.md
+          href: get-started/overview-portals-docsites.md
         - name: Developer program overview
           href: developer-program-overview.md
         - name: The CREATORS Program
