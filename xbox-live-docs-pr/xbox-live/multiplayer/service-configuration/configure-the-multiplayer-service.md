@@ -10,19 +10,25 @@ ms.localizationpriority: medium
 
 # Configuring the Multiplayer service
 
-In order for your title to take advantage of the services that Xbox Live provides, you must first define your service configuration. This service configuration exists in the Xbox Live cloud service, and defines how the Xbox Live service interacts with any devices that are running your title/game.
+For your title to take advantage of the services that Xbox Live provides, you must first define your service configuration.
+This service configuration exists in the Xbox Live cloud service, and defines how the Xbox Live service interacts with any devices that are running your title/game.
 
 For multiplayer services, there are three aspects of multiplayer that you can configure:
 * Session templates
 * SmartMatch Hoppers
 * Custom invite strings
 
+
 ## Session templates
-The Xbox multiplayer service allows gamers to create and join sessions, to exchange session messages with other gamers in the same session, and to post the results of their play to the session. (Posting the results cleans up the session, and also updates the leaderboards for all players in the session.)
 
-For example, a multiplayer session could be a single game of chess between two players. Alternatively, it could be a continuing session of an action and adventure title played by a much larger number of players.
+The Xbox multiplayer service allows gamers to create and join sessions, to exchange session messages with other gamers in the same session, and to post the results of their play to the session.
+(Posting the results cleans up the session, and also updates the leaderboards for all players in the session.)
 
-When a game creates a new session, it creates the session based off of a predefined session template. This template is essentially a JSON object that contains attributes that describe the session.
+For example, a multiplayer session could be a single game of chess between two players.
+Alternatively, it could be a continuing session of an action and adventure title played by a much larger number of players.
+
+When a game creates a new session, it creates the session based off of a predefined session template.
+This template is essentially a JSON object that contains attributes that describe the session.
 
 When you create a new session template, you must define the following:
 
@@ -36,11 +42,14 @@ For more info about multiplayer session templates, including several predefined 
 
 > **Important:** After a title passes Final Certification, existing multiplayer sessions in that title can no longer be changed or deleted.
 
+
 ## SmartMatch hoppers
 
 An optional addition to the Xbox multiplayer service is the Xbox server-based matchmaking service, which provides a method of grouping players together based on information provided by the title or stored in user statistics, or based on the user's preferences, or based on quality of service.
 
-Because Xbox One matchmaking is server-based, users can provide a request to the service and then be notified later, whenever a match is found. That is: the user is not forced to wait in your title while the matchmaking process occurs—they are free to play the single-player portion of your title, or even to play other titles, and still be candidates for matchmaking. This eliminates the need to achieve a "critical mass" of players before matches can be found.
+Because Xbox One matchmaking is server-based, users can provide a request to the service and then be notified later, whenever a match is found.
+That is: the user is not forced to wait in your title while the matchmaking process occurs—they are free to play the single-player portion of your title, or even to play other titles, and still be candidates for matchmaking.
+This eliminates the need to achieve a "critical mass" of players before matches can be found.
 
 A matchmaking hopper must be based on a previously defined session template.
 
@@ -57,7 +66,9 @@ When you create a new matchmaking hopper, you must define the following:
 
 > **Important:** After a title passes Final Certification, existing matchmaking hoppers in that title can no longer be changed or deleted.
 
+
 ## Custom invite strings
+
 When your title sends an invitation to a player to join a multiplayer game, you can choose to display a custom invite text string instead of the default invite string.
 
 When you create a new custom invite string, you must define the following:
@@ -66,6 +77,7 @@ When you create a new custom invite string, you must define the following:
 |---|---|
 | ID | The ID of the custom invite string that will be used to identify the string. "custominvitestrings_" will automatically be appended to the beginning of your ID. Max 100 characters |
 | Value | The text of the custom invite string that will appear in your custom invite toast. Max 100 characters |
+
 
 ## Additional information
 

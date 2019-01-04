@@ -7,16 +7,28 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
+
 # Get started with the Xbox Live Creators Program
  
-The Xbox Live Creators Program allows you to quickly and directly publish your games to Xbox One and Windows 10, with a simplified certification process and no concept approval required. If your game integrates Xbox Live and follows our [standard Store policies](https://msdn.microsoft.com/en-us/library/windows/apps/dn764944.aspx), you are ready to publish. This article will outline the steps needed to get your game up and running with Xbox Live integration. 
+The Xbox Live Creators Program allows you to quickly and directly publish your games to Xbox One and Windows 10, with a simplified certification process and no concept approval required.
+If your game integrates Xbox Live and follows our [standard Store policies](https://msdn.microsoft.com/en-us/library/windows/apps/dn764944.aspx), you are ready to publish.
+This article outlines the steps needed to get your game up and running with Xbox Live integration.
 
-Xbox Live Creators Program games must be a Universal Windows Platform (UWP) application. For Xbox One, see [UWP on Xbox One](https://msdn.microsoft.com/en-us/windows/uwp/xbox-apps/index) and specifically [System resources for UWP apps and games on Xbox One](https://msdn.microsoft.com/en-us/windows/uwp/xbox-apps/system-resource-allocation). Games published through the Xbox Live Creators Program do not have access to the achievements or online multiplayer services. For a full list of supported services, see the [Developer program overview feature table](https://docs.microsoft.com/en-us/windows/uwp/xbox-live/developer-program-overview#feature-table).
+Xbox Live Creators Program games must be a Universal Windows Platform (UWP) application.
+ For Xbox One, see [UWP on Xbox One](https://msdn.microsoft.com/en-us/windows/uwp/xbox-apps/index) and specifically [System resources for UWP apps and games on Xbox One](https://msdn.microsoft.com/en-us/windows/uwp/xbox-apps/system-resource-allocation).
+
+Games published through the Xbox Live Creators Program do not have access to the achievements or online multiplayer services.
+For a full list of supported services, see the [Developer program overview feature table](https://docs.microsoft.com/en-us/windows/uwp/xbox-live/developer-program-overview#feature-table).
+
 
 ## 1. Ensure you have a title created in Partner Center
-Every Xbox Live title must be defined in [Partner Center](https://partner.microsoft.com/dashboard) before you will be able to sign-in and make Xbox Live Service calls.  [Creating a new Creators title](create-and-test-a-new-creators-title.md) will show you how to do this.
+
+Every Xbox Live title must be defined in [Partner Center](https://partner.microsoft.com/dashboard) before you will be able to sign-in and make Xbox Live Service calls.
+See [Creating a new Creators title](create-and-test-a-new-creators-title.md).
+
 
 ## 2. Follow the appropriate guide to setup your IDE or game engine
+
 You can follow the appropriate "getting started guide" for your platform and engine and learn the basics of Xbox Live as you go along:
 
 * [Develop a Creators title with Visual Studio](develop-creators-title-with-visual-studio.md) will show you how to link your Visual Studio project with your Xbox Live configuration in Partner Center.
@@ -31,17 +43,22 @@ For other game development engines without documented Xbox Live integration, you
 
 For support using Xbox Live Services with third party game engines that are not Unity, work with the appropriate game engine staff to answer your questions.
 
+
 ## 3. Xbox Live concepts & testing
+
 Once you have a title created, you should learn about the Xbox Live concepts that will affect your experience developing titles. It's also important to test your game on all of the platforms that it will support to ensure that it behaves as expected.
 
 - [Xbox Live service configuration for the Creators Program](xbox-live-service-configuration-creators.md)
 - [Xbox Live test environment](../xbox-live-sandboxes.md)
 - [Authorize Xbox Live accounts](authorize-xbox-live-accounts.md)
 
+
 ## 4. Enable Xbox Live sign-in
+
 All Xbox Live Creators Program games must integrate Xbox Live sign-in and display the user identity (Gamertag, Gamerpic, etc.). You can choose to automatically sign in the user or have them push a button to initiate it. The Gamertag must be displayed once signed in so that the player can validate that they are using the right profile.
 
 - [Xbox Live Social Platform - Profile, Friends, Presence](../social-platform/social-platform.md)
+
 
 ## 5. Add optional Xbox Live features
 
@@ -52,6 +69,7 @@ Xbox Live Creators Program offers an array of features designed to help promote 
 - [Xbox Live Social Platform - Profile, Friends, Presence](../social-platform/social-platform.md) lets gamers connect with friends and talk about your game.
 
 It is important to note that the Xbox Live Creators Program does not support online multiplayer, achievements, or gamerscore.
+
 
 ## 6. Release your game
 

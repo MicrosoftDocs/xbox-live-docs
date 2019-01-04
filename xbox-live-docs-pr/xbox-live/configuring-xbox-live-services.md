@@ -10,13 +10,15 @@ ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, service configuration
 ms.localizationpriority: medium
 ---
+
 # Configuring Xbox Live Services
 
 Configuring Xbox Live services for your game.
 
+
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| Article | Description |
+|---------|-------------|
 | [Xbox Live service configuration](xbox-live-service-configuration.md) | Configuring Xbox Live services for your game. |
 | [Partner Center](configure-xbl/windows-dev-center.md) | Configuring Xbox Live services at Partner Center. |

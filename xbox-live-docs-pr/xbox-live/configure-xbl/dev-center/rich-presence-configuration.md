@@ -1,12 +1,13 @@
 ---
-title: Rich Presence Configuration on Partner Center
-description: Configuring Rich Presence strings on Partner Center, to show what a user is currently doing within a game.
+title: Configuring Rich Presence strings in Partner Center
+description: Configuring Rich Presence strings in Partner Center, to show what a user is currently doing within a game.
 ms.date: 02/27/2018
 ms.topic: article
 ms.localizationpriority: medium
 keywords: Xbox Live, Xbox, games, uwp, windows 10, Xbox one, Rich Presence strings, Partner Center
 ---
-# Configure Rich Presence in Partner Center
+
+# Configuring Rich Presence strings in Partner Center
 
 A Rich Presence string displays a user's in-game activity after the name of the game that the user is playing, separated by a hyphen. A Rich Presence string is displayed under a player's Gamertag in the **Friends & clubs** list as well as in the player's Xbox Live user profile. Configured Rich Presence strings are appended to the name of the game being played. If you create a game called BubblePop and configure the Rich Presence string "Popping bubbles with friends", your configured string would produce "BubblePop - Popping bubbles with friends" as a status. Below you can see how a Rich Presence string will appear in context.
 
@@ -21,6 +22,7 @@ In the following screenshot you can see **Lucha Uno's** full Rich Presence strin
 > [!IMPORTANT]
 > Rich Presence strings are not available to Xbox Live Creators Program titles and therefore are not configurable for those titles. The content in this article is for ID@Xbox and Managed Partner titles.
 
+
 ## Requirements
 
 Before configuring Rich Presence strings you and your title must meet the following criteria:
@@ -30,6 +32,7 @@ Before configuring Rich Presence strings you and your title must meet the follow
 - Your title must be registered in Partner Center and be Xbox Live enabled.
 
 Before you can use Rich Presence strings you must configure them in Partner Center.
+
 
 ## Rich Presence Configuration Page
 
@@ -50,6 +53,7 @@ The Rich Presence page displays a brief description of the service, a button to 
 > [!NOTE]
 > Strings like "Playing Net Runner - Multiplayer deathmatch on Moon Base with 10 kills.” will not be available to developers as of the Data Platform 2017 update. Data Platform 2013 *Variables* are unavailable in Data Platform 2017. The variable in this case is the number of kills "10". The equivalent string after the Data Platform 2017 update would be "Playing Net Runner - Multiplayer deathmatch on Moon Base." “Playing Net Runner - In the menus” is still a valid Rich Presence string.
 
+
 ## Create a new Rich Presence string
 
 To create a Rich Presence string, click the button labeled **New Rich Presence string**. You will be presented with UI to fill in the **Presence Details** which include the **Unique Rich Presence ID** as well as the **Display string** for your new Rich Presence string.
@@ -63,6 +67,7 @@ To create a Rich Presence string, click the button labeled **New Rich Presence s
 In order to create your new Rich Presence string, fill in both fields and press the **Save** button.
 Once you click save you will be taken back to the Rich Presence Configuration Page where you will see your new Rich Presence string added to the list of configured strings.
 
+
 ## Review, edit, and delete strings
 
 Here you can see a Rich Presence configuration page with a few configured strings.
@@ -74,6 +79,7 @@ To edit a Rich Presence string simply click on the **Unique Rich Presence ID** l
 
 To delete a configured Rich Presence string click the **delete** link on the Rich Presence Configuration page in the same row as the Rich Presence string you would like to delete. You will be asked to confirm the deletion.
 
+
 ## Further Reading
 
-To get more in-depth conceptual information about Rich Presence string features and how to implement them, read the [Rich Presence documentation](https://docs.microsoft.com/en-us/windows/uwp/xbox-live/social-platform/rich-presence-strings/rich-presence-strings-overview).
+[Overview of Rich Presence strings](https://docs.microsoft.com/en-us/windows/uwp/xbox-live/social-platform/rich-presence-strings/rich-presence-strings-overview)

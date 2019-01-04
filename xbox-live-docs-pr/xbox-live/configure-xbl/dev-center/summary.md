@@ -1,5 +1,5 @@
 ---
-title: Xbox Live Summary Page
+title: Summary page for Xbox Live configuration
 description: Using the Summary tab in Partner Center.
 ms.assetid:
 ms.date: 10/19/2018
@@ -7,10 +7,15 @@ ms.topic: article
 ms.localizationpriority: medium
 keywords: Xbox live, Xbox, games, uwp, windows 10, Xbox one, xbox live summary, summary, publish, xbox live history, command bar, history tab, summary table
 ---
-# The Xbox Live configuration Summary page
 
-You can use [Partner Center](https://developer.microsoft.com/dashboard) to configure Xbox Live for your title. With Partner Center you will be able to manage the service configuration for each of your title's sandboxes.
-In order to configure the Xbox Live aspects of your title, navigate to the Xbox Live section for your title, located under **Services** > **Xbox Live**. On this page, you will find a snapshot of your current configuration on the selected sandbox. You will also find a detailed breakdown of what has been configured and published to the sandbox as well.
+# Summary page for Xbox Live configuration
+
+To configure Xbox Live for your title, you can use [Partner Center](https://developer.microsoft.com/dashboard).
+With Partner Center, you can manage the service configuration for each of your title's sandboxes.
+
+To configure the Xbox Live aspects of your title, navigate to the Xbox Live section for your title, located under **Services** > **Xbox Live**.
+This page shows a snapshot of your current configuration on the selected sandbox, including details of what has been configured and published to the sandbox.
+
 
 ## Sandbox selector
 
@@ -21,6 +26,7 @@ In order to configure the Xbox Live aspects of your title, navigate to the Xbox 
  You can add additional sandboxes by selecting the "+" which will present you with a dialog where you specify which sandbox you would like to copy the config from and which sandbox you would like to copy the config to.  
 
  ![Image of expanding to a new sandbox tab](../../images/summary/sandbox-tabs2.gif)
+
 
 ## Command bar
 
@@ -35,6 +41,7 @@ As mentioned above the page displayed is always within the context of a sandbox,
   
 ![Image of the command bar](../../images/summary/command-bar.png)  
 
+
 ## Summary table
 
 The UI now provides a meaningful roll up of all your different configurations, allowing for an at a glance view of what has been configured, what is optional, and what is still required before publishing to retail.  
@@ -47,11 +54,13 @@ The UI now provides a meaningful roll up of all your different configurations, a
   
 ![Image of the command bar](../../images/summary/summary-table.png)  
 
+
 ## History pane
 
 The history pane displays what objects were created in the sandbox and indicates by whom and when. When on the summary page, the history pane will show all objects created and publish actions made on the sandbox. However, when you open this pane on a specific page like achievements you will see only achievement history allowing you to easily filter your history search.  
 
 ![Image of the history pane](../../images/summary/history.png)  
+
 
 ## Best practices
 

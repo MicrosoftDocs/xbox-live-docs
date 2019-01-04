@@ -1,5 +1,5 @@
 ---
-title: Xbox Live sandboxes
+title: Xbox Live Sandboxes overview
 description: Development sandboxes at Partner Center, such as RETAIL.
 ms.assetid: a5acb5bf-dc11-4dff-aa94-6d1f01472d2a
 ms.date: 04/04/2017
@@ -7,7 +7,8 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
-# Xbox Live Sandboxes Intro
+
+# Xbox Live Sandboxes overview
 
 In [Xbox Live Service Configuration](xbox-live-service-configuration.md), it was explained that you must configure information about your title online, usually in [Partner Center](https://partner.microsoft.com/dashboard).  This information includes things like the leaderboards your title wants to display, achievements that players can unlock, matchmaking configuration, etc.
 
@@ -16,6 +17,7 @@ When you make changes to your service configuration, these need to be published 
 You publish to what is called a development sandbox.  These allow you to work on changes to your title in an isolated environment.  These offer several benefits described in the below section.
 
 By default, Xbox One Consoles and Windows 10 PCs are in the RETAIL sandbox.
+
 
 ## Benefits
 
@@ -29,6 +31,7 @@ Development sandboxes offer a few benefits:
 You can also **optionally** create test accounts.  You can use these if you don't want to use your regular Xbox Live account for testing your title, or you need several accounts to test scenarios such as social interaction (eg: view a friend's stats) or multiplayer.
 
 Test accounts can only sign-in to development sandboxes, and will be explained in a section below.
+
 
 ## Finding out about your Sandbox
 
@@ -46,6 +49,7 @@ The vast majority of developers need only one sandbox.  Fortunately a sandbox is
 1. You can now see your sandbox listed as follows
 ![](images/getting_started/devcenter_sandbox_id.png)
 
+
 ## How your Sandbox impacts your workflow
 
 Typically you work with sandboxes in the following ways:
@@ -57,9 +61,11 @@ Typically you work with sandboxes in the following ways:
 
 These scenarios will be described in more detail below.  The process has some differences on PC and Console, so there are separate sections for each.
 
+
 ## Switch your PC's development sandbox
 
 If you want to switch your PC's development sandbox, the recommended way to do so is using Windows Device Portal (WDP).  You may also do so via the Command Line.  We will describe both ways.
+
 
 ### Windows Device Portal
 
@@ -75,6 +81,7 @@ Then you can enter your sandbox which you got via the steps in the *Finding Out 
 
 To switch back to RETAIL, you can enter RETAIL here.
 
+
 ### PowerShell module
 
 [Xbox Live PowerShell Module](https://github.com/Microsoft/xbox-live-powershell-module/blob/master/docs/XboxLivePsModule.md)
@@ -88,6 +95,7 @@ XboxlivePSModule contains various utilities to help Xbox Live development includ
 * To consume it from a zip file at [https://aka.ms/xboxliveuwptools](https://aka.ms/xboxliveuwptools), open a PowerShell window,
     1. Run `Import-Module <path to unzipped folder>\XboxLivePsModule\XboxLivePsModule.psd1`
     2. Run cmdlets, i.e. Set-XblSandbox XDKS.1, or Get-XblSandbox
+
 
 ### Command Prompt Script
 
@@ -107,11 +115,13 @@ SwitchSandbox.cmd RETAIL
 
 ## Switch your Xbox One console development sandbox
 
+
 ### Using Windows Dev Portal
 
 You can use the Windows Dev Portal to change the sandbox on your console.  To do this, go to "Dev Home" on your console and enable it.
 
 After that you can type in the IP address on the web browser on your PC to connect to your console.  You can then click on "Xbox Live" and enter the sandbox in the textbox there.
+
 
 ### Using Xbox One Manager
 
@@ -121,11 +131,14 @@ Right click on the console you want to change the sandbox for and go to "Setting
 
 You can then enter a sandbox there.
 
+
 ### Using Xbox One console UI
 
 If you want to change your development sandbox right from your console, you can go to "Settings".  Then go to "Developer Settings" and you will see an option to change your sandbox.
 
+
 ## Sandbox uses
+
 
 ### Data that is sandboxed
 You can use the sandbox features to manage access between developers on your team during the development process.  For example, you may want to isolate data between your development team and testers.
@@ -137,20 +150,24 @@ Sandboxed data includes:
 
 Non-sandboxed data is predominantly social information.  So for example if a user follows another user, that relationship is sandbox agnostic.
 
+
 ### Examples
 Some examples will be provided below to help illustrate some of the benefits of why you might want to use multiple sandboxes.
 
 > **Note**: If you are in the Xbox Creators Program, you may only have one sandbox.  If you have need to create multiple sandboxes, please apply to the ID@Xbox program.
+
 
 #### Service config isolation
 As mentioned above, service configuration is sandbox specific.  So you might have a *Development* sandbox, and a *Testing* sandbox.  When you give a build of your title to your testers, you would publish your [service configuration](xbox-live-service-configuration.md) to the *Testing* sandbox.
 
 Then in the meantime, you could add achievements, or different multiplayer session types to your *Development* sandbox without affecting the service configuration that your testers are seeing.
 
+
 #### Multiplayer
 Take the above example with a *Development* and *Testing* sandbox.  Maybe your service configuration is the same between sandboxes, but your developers are creating multiplayer features and want to testing matchmaking with each other.  Your testers are also testing multiplayer.
 
 In a case like this, your developers might not want the Xbox Live Matchmaking service to match them with testers, because they are debugging issues separately.  A good way to prevent this would be for your developers to be in the *Development* sandbox and testers to be in a separate *Testing* sandbox.  This keeps both groups isolated.
+
 
 ## Advanced
 

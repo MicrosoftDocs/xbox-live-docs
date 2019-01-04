@@ -7,7 +7,9 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
+
 # Leaderboards
+
 
 ## Introduction
 
@@ -15,27 +17,36 @@ As described in [Data Platform Overview](../data-platform/data-platform-for-stat
 
 Leaderboards for [Featured Stats](stats2017.md#configured-stats-and-featured-leaderboards) are always displayed in a title's Game Hub and sometimes displayed as a part of the UI for a title when it is pinned to the homepage. You can also use your configured Featured Stats to create Leaderboards inside of your title.
 
+
 ## Choosing Good Leaderboards
 
 As discussed in [Player Stats](player-stats.md), a leaderboard corresponds to a stat that you have defined.  You should choose leaderboards that correspond to an accomplishment that a player can work towards improving.
 
 For example, Best Lap Time in a racing game is a good leaderboard, because players will want to work towards improving their Best Lap Time.  Other examples are Kill/Death ratio for shooters, or Max Combo Size in a fighting game.
 
+
 ## When To Display Leaderboards
 
 You have the ability to display leaderboards at any time in your title.  You should choose a time when a leaderboard will not interfere with the gameplay or the flow of your title.  In between rounds and after matches are both good times.
 
+
 ## How to Display Leaderboards
 
-There are numerous options for displaying leaderboards provided in the Xbox Live SDK.  If you are using Unity with the Xbox Live Creators Program, you can get started by using a Leaderboard Prefab to display your leaderboard data.  See the [Configure Xbox Live in Unity](../get-started-with-creators/configure-xbox-live-in-unity.md) article for specifics.
+There are numerous options for displaying leaderboards provided in the Xbox Live SDK.  If you are using Unity with the Xbox Live Creators Program, you can get started by using a Leaderboard Prefab to display your leaderboard data.  For specifics, see [Configure Xbox Live in Unity](../get-started-with-creators/configure-xbox-live-in-unity.md).
 
 If you are coding against the Xbox Live SDK directly, then read on to learn about the APIs you can use.
 
+
 ## Programming Guide
 
-There are several Leaderboard APIs you can use to get the current state of a leaderboard.  All of the APIs are asynchronous and do not block.  You would make a request to get leaderboard data and continue your usual game processing.  When the leaderboard results are returned from the service, you can display the results at the appropriate time.
+There are several Leaderboard APIs you can use to get the current state of a leaderboard.
+All of the APIs are asynchronous and do not block.  
+
+You would make a request to get leaderboard data and continue your usual game processing.
+When the leaderboard results are returned from the service, you can display the results at the appropriate time.
 
 You should request the leaderboard data from the service, slightly ahead of when you want to display it, so that players are not blocked waiting for the leaderboard to display.
+
 
 ## Leaderboards 2013 APIs
 
@@ -223,6 +234,7 @@ for (const xbox::services::leaderboard::leaderboard_row& row : leaderboard.rows(
 
 When using the WinRT C# layer you will not need to make a separate callback task and will simply need to use the `await` keyword when calling the leaderboard service.
 
+
 ### 1. Access the LeaderboardService
 
 The `LeaderboardService` can be retrieved from the `XboxLiveContext` created when signing in a user to the game, you will need it to call for leaderboard data.
@@ -315,7 +327,9 @@ public void GetSocialLeaderboard(
     )
 ```  
 
+
 ## 2017 C++ Example
+
 
 ### 1. Get a Singleton Instance of the stats_manager
 
@@ -324,6 +338,7 @@ Before you can call the `stats_manager` functions you will need to set a variabl
 ```csharp
 m_statsManager = stats_manager::get_singleton_instance();
 ```
+
 
 ### 2. Create a LeaderboardQuery
 
@@ -352,6 +367,7 @@ This query would return ten rows of the leaderboard starting at the 100th ranked
 > [!WARNING]
 > Setting SkipResultToRank higher than the number of players contained within the leaderboard will cause the leaderboard data to return with zero rows.
 
+
 ### 3. Call get_leaderboard
 
 ```cpp
@@ -361,6 +377,7 @@ m_statsManager->get_leaderboard(user, statName, leaderboardQuery);
 
 > [!IMPORTANT]
 > The `statName` used in the `GetLeaderboard()` call must be the same as the name of a stat configured for your title in [Partner Center](https://partner.microsoft.com/dashboard), which is case-sensitive.
+
 
 ### 4. Read the Leaderboard data
 
@@ -467,6 +484,7 @@ void Sample::ProcessLeaderboards(
 
 ## 2017 WinRT C# Example
 
+
 ### 1. Get a singleton instance of the StatisticManager
 
 Before you can call the `StatisticManager` functions you will need to set a variable to it's Singleton Instance.
@@ -474,6 +492,7 @@ Before you can call the `StatisticManager` functions you will need to set a vari
 ```csharp
 statManager = StatisticManager.SingletonInstance;
 ```
+
 
 ### 2. Create a LeaderboardQuery
 
@@ -521,6 +540,7 @@ This query would return five rows of the leaderboard starting at the 100th ranke
 > [!WARNING]
 > Setting SkipResultToRank higher than the number of players contained within the leaderboard will cause the leaderboard data to return with zero rows.
 
+
 ### 3. Call GetLeaderboard()
 
 You can now call `GetLeaderboard()` with your `XboxLiveUser`, the name of your statistic, and a `LeaderboardQuery`.
@@ -531,6 +551,7 @@ statManager.GetLeaderboard(xboxLiveUser, statName, leaderboardQuery);
 
 > [!IMPORTANT]
 > The `statName` used in the `GetLeaderboard()` call must be the same as the name of a stat configured for your title in [Partner Center](https://partner.microsoft.com/dashboard), which is case-sensitive.
+
 
 ### 4. Read Leaderboard data
 
@@ -558,6 +579,7 @@ In your title code `StatisticManager.DoWork()` should be used to handle all inco
 
 > [!NOTE]
 > In order to retrieve the `LeaderboardResultEventArgs` you will need to cast the `StatisticEvent.EventArgs` as a `LeaderboardResultEventArgs` variable.
+
 
 ### 5. Retrieve more leaderboard data
 

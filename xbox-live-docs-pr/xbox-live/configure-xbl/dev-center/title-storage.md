@@ -1,24 +1,44 @@
 ---
-title: Title Storage configuration on Partner Center
+title: Configuring Title Storage in Partner Center
 description: Configuring Title Storage on Partner Center, for game-save in the cloud.
 ms.date: 04/24/2018
 ms.topic: article
 ms.localizationpriority: medium
 keywords: Xbox Live, Xbox, games, uwp, windows 10, Xbox one, Title Storage, Partner Center
 ---
-# Configure storage for you title in Partner Center
 
-Xbox Live allows you to save data associated with your game in the cloud through the Title Storage service. The Title Storage configuration page allows you to determine what types of cloud storage services your game will allow, as well as upload files to be used for Global Storage.
+# Configuring Title Storage in Partner Center
 
-You can find the Xbox Live Title Storage configuration page by going to [Partner](https://partner.microsoft.com/dashboard), choosing your app from **Overview** or **Products**, opening the **Services** drop down, and selecting **Xbox Live**. Developers in the Creators Program will need to click **show options** in the **Cloud saves and storage** section of their configuration page to see the Title Storage configuration options. Those with the full set of Xbox Live features available will need to find the **Title Storage** link to navigate to the Title Storage configuration page.
+Xbox Live allows you to save data associated with your game in the cloud through the Title Storage service.
+The **Title Storage** configuration page allows you to determine what types of cloud storage services your game will allow, as well as upload files to be used for Global Storage.
 
-Title Storage configuration has two main sections. The Title Storage settings section and the global storage file management section.
+To find the Xbox Live Title Storage configuration page:
+
+1. Go to [Partner](https://partner.microsoft.com/dashboard).
+1. In **Overview** or **Products**, select your app.
+1. Click the **Services** drop-down, then click **Xbox Live**.
+
+To see the Title Storage configuration options, developers in the Creators Program will need to click **show options** in the **Cloud saves and storage** section of their configuration page.
+
+To navigate to the Title Storage configuration page, those with the full set of Xbox Live features available will need to find the **Title Storage** link.
+
+Title Storage configuration has two main sections: the Title Storage settings section, and the global storage file management section.
+
 
 ## Section 1: Title Storage settings
 
 ![Title Storage settings screenshot](../../images/dev-center/title-storage/title-storage-settings.JPG)
 
-In this section you can enable any of the four storage types by checking the box in the **Active** column. After choosing you title's storage types you can choose whether reading the data will be restricted to the player who owns it, by clicking the storage type row's **Owner** Only radio button, or shared publicly, by clicking on the **Everyone** radio button. If you select **Owner Only** for a given **Storage Type** then the Title Storage data of that type will only be readable by the player who generated that data. If you select **Everyone** for a given **Storage Type** then the Title Storage data of that type will be readable to all players. Writing or modifying saved data is only available to the user who generated it in all cases.
+In this section, you can enable any of the four storage types by checking the box in the **Active** column.
+
+After choosing you title's storage types you can choose whether reading the data will be restricted to the player who owns it, by clicking the storage type row's **Owner** Only radio button, or shared publicly, by clicking on the **Everyone** radio button.
+
+If you select **Owner Only** for a given **Storage Type**, the Title Storage data of that type will only be readable by the player who generated that data.
+
+If you select **Everyone** for a given **Storage Type**, the Title Storage data of that type will be readable by all players.
+
+Writing or modifying saved data is only available to the user who generated it, in all cases.
+
 
 ## Storage types
 

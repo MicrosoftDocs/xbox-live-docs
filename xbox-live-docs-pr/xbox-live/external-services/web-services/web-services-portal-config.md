@@ -1,7 +1,7 @@
 ---
-title: Stub page
+title: Portal configuration of web services
 author: mikehoffms
-description: Stub page.
+description: Portal configuration of web services.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
@@ -10,6 +10,7 @@ ms.technology: uwp
 keywords: xbox live
 ms.localizationpriority: medium
 ---
-# Stub page
 
-General-purpose temporary stub page.
+# Portal configuration of web services
+
+TBD

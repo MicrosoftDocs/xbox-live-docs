@@ -11,20 +11,24 @@ ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, authentication, sign-in
 ms.localizationpriority: medium
 ---
+
 # XAL on iOS
 
-Once you have acquired the XAL source code, you will need to set up your iOS development environment. iOS work can only be done on a Mac in the Xcode development environment.  
+Once you have acquired the XAL source code, you will need to set up your iOS development environment.
+iOS work can only be done on a Mac in the Xcode development environment.
+
 
 ## Requirements
 
 - Macintosh computer.
 - Xcode 9 or later; we recommend the latest version.
 
+
 ## Setup
 
-In your Xcode environment, open `Xal.xcworkspace`.
+1. In your Xcode environment, open `Xal.xcworkspace`.
 
-To use XAL in your iOS project, include the following projects:
+2. To use XAL in your iOS project, include the following projects:
 
 ```
 - \External\CompactCoreCLL\CompactCoreCLL.xcodeproj
@@ -36,7 +40,7 @@ To do that, you can drag the projects into the **Project Navigator** of your iOS
 
 ![xcode project navigator](../../images/xal/xcode_projectnavigator.png)
 
-Link with the resulting binaries in the **Build Phases** settings of your project.  
+3. Link with the resulting binaries in the **Build Phases** settings of your project.  
 
 - libHttpClient.a
 - libCompactCoreCLL.a
@@ -44,7 +48,8 @@ Link with the resulting binaries in the **Build Phases** settings of your projec
 
 ![xcode buildphases](../../images/xal/xcode_buildphases.png)
 
-Navigate to **Build Settings** and add the following paths to your **Header Search Paths** setting:
+
+4. Navigate to **Build Settings** and add the following paths to your **Header Search Paths** setting:
 
 ```
 - ../Source/Xal/Source/Include
@@ -53,8 +58,8 @@ Navigate to **Build Settings** and add the following paths to your **Header Sear
 
 ![set header search paths](../../images/xal/xcode_buildsettings_headersearchpaths.png)
 
-Finally, navigate to the **Keychain Sharing** section of your project **Capabilities** and add "com.microsoft.xal" to the list.  
+5. Finally, navigate to the **Keychain Sharing** section of your project **Capabilities** and add "com.microsoft.xal" to the list.  
 
 ![xcode keychain sharing](../../images/xal/xcode_capabilities_keychainsharing.png)
 
-At this point, you can build the iOS sample app, as well as integrate XAL code into your iOS project.
+6. At this point, you can build the iOS sample app, as well as integrate XAL code into your iOS project.

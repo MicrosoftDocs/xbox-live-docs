@@ -13,10 +13,11 @@ ms.localizationpriority: medium
 
 Xbox Integrated Multiplayer (XIM) is an all-in-one multiplayer/networking/chat solution for Xbox Live games.
 
+
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| Article | Description |
+|---------|-------------|
 | [Intro to Xbox Integrated Multiplayer (XIM)](intro-to-xbox-integrated-multiplayer.md) | Xbox Integrated Multiplayer (XIM) is an all-in-one multiplayer/networking/chat solution for Xbox Live games. |
 | [Use XIM (C++)](xbox-integrated-multiplayer/using-xim.md) | Using Xbox Integrated Multiplayer (XIM) with C++. |
 | [Use XIM (C#)](xbox-integrated-multiplayer/using-xim-cs.md) | Using Xbox Integrated Multiplayer (XIM) with C#. |

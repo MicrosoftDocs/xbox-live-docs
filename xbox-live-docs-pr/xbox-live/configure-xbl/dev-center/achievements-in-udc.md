@@ -1,15 +1,14 @@
 ---
-title: Achievements 2017
+title: Configuring Achievements 2017 in Partner Center
 description: Configuring Achievements in Partner Center, to deliver rewards.
 ms.assetid:
 ms.date: 11/10/2017
 ms.topic: article
-
-
 ms.localizationpriority: medium
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, udc, universal developer center
 ---
-# Configure Achievements 2017 in Partner Center
+
+# Configuring Achievements 2017 in Partner Center
 
 > [!IMPORTANT]
 > Achievements are only applicable to ID@Xbox or Managed Partners. Games participating in the Xbox Live Creators Program are not supported.
@@ -21,6 +20,7 @@ You can use [Partner Center](https://partner.microsoft.com/dashboard) to configu
 
 ![Screenshot to create a new achievement in Partner Center](../../images/dev-center/achievement-table.png)
 
+
 ## Description
 The description section is where you can enter the basics of your achievement, such as the name and locked/unlocked descriptions. You can add localization support to achievements by accessing the **Localized strings** service configuration section in [Partner Center](https://partner.microsoft.com/dashboard).
 
@@ -31,6 +31,7 @@ The **Achievement Name** field is the public facing name of the achievement.
 The **Locked Description** field is the description that players will see when they have not unlocked the achievement. It has a 100 character limit.
 
 The **Unlocked Description** field is the description that players will see once they have unlocked the achievement. It has a 100 character limit.
+
 
 ## Details
 The Details section is used to associate important information such as the image, the type of achievement, the Gamerscore reward (if any) and whether the achievement should be hidden until unlocked.
@@ -50,19 +51,23 @@ The **Gamerscore** field is the amount of Gamerscore points that your achievemen
 > [!TIP]
 > Achievement Deep links require the hexadecimal TitleId of your game. You can find it on [Xbox Live Setup](xbox-live-setup.md) screen in [Partner Center](https://developer.microsoft.com/dashboard).
 
+
 ## Additional Rewards
+
 In some cases, you might want to offer an in-game reward or artwork when a player unlocks an achievement. You can define the rewards (if any) that are associated with an achievement in the **Additional Rewards** section. An achievement can contain two additional rewards - one of each reward type. You can read more on the [Achievement Rewards](../../achievements-2017/achievement-rewards.md) article.
 
 To create a new reward, click the **Add Reward** button in the **Additional Rewards** section and fill out the form.
 
 ![Screenshot of adding rewards to an achievement in Partner Center](../../images/dev-center/achievement-reward.png)
 
+
 ### Reward Details
+
 Fill out the Reward Details to associate a new reward. Once completed, click **Add**.
 
 ![Screenshot of configuring award details for an achievement in Partner Center](../../images/dev-center/achievements-5.png)
 
-There are two types of achievement rewards that can be created. They are:
+There are two types of achievement rewards that can be created:
 
 1. The **Art** type can be used if you want to reward the player with things such as high-resolution concept art, early design drawings, specially created art assets or other digital art. Art assets are displayed within the Xbox One Dashboard and can be also be displayed in companion experiences by querying the Achievements service.
 2. The **In-Game** type can be used if you want to reward the player with custom in-game rewards without updating your title. Some potential scenarios are extra in-game currency/points or access to special characters, weapons or maps.

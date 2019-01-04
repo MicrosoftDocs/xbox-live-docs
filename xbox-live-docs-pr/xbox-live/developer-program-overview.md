@@ -7,6 +7,7 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, developer program, creators
 ms.localizationpriority: medium
 ---
+
 # Developer program overview
 
 If you would like to develop Xbox Live enabled titles, there are several options available to you:
@@ -16,6 +17,7 @@ If you would like to develop Xbox Live enabled titles, there are several options
 
 Each option offers varying levels of time investment on your part, features available to you, and support options.
 
+
 ## Xbox Live Creators Program
 
 The Xbox Live Creators Program is a good starting point for Xbox Live if you are looking to familiarize yourself with Xbox Live development. No approval process from Microsoft is required to join this program, and there are minimal certification and publishing requirements.
@@ -24,18 +26,24 @@ The Xbox Live Creators Program only supports the creation of titles for the [Uni
 
 On Xbox One, which offers gamers a curated store experience, games published through the Xbox Live Creators Program will be sold in the new Creators Collection section of the Microsoft Store on Xbox. This offers a balance between ensuring an open platform where anyone can develop and ship a game, and a curated store experience console gamers have come to know and expect. On Windows 10, your title will be published among all of the other Xbox Live games in the Microsoft Store.
 
+
 ### Publishing and certification
+
 You must be enrolled in the [Partner Center developer program](https://developer.microsoft.com/store/register) to release a game as part of the Xbox Live Creators Program. There are two sets of requirements that your game must follow:
 
 1. Integrate Xbox Live Sign-In and display the user identity (Gamertag, Gamerpic, etc.). All other Xbox Live services are optional.
 2. Follow to the standard [Microsoft Store Policies](https://msdn.microsoft.com/en-us/library/windows/apps/dn764944.aspx).
 
+
 ### Supported Xbox Live services
+
 Titles enabled under the Xbox Live Creators Program can use Leaderboards, Featured Stats, Title Storage, Connected Storage, and a restricted set of social features. Achievements, online multiplayer, and many social features are **not** supported for titles in the Xbox Live Creators Program.
 
 For a full list of supported services, see the [Feature Table](#feature-table).
 
+
 ### Supported third party game development engines
+
 Xbox Live Creators Program titles are UWP games which can be built with a number of popular game engines. Microsoft provides documentation for integrating Xbox Live services into UWP games built with the [Unity game engine](https://unity.com). You can find [documentation](get-started-with-creators/develop-creators-title-with-unity.md) detailing Xbox Live integration with Unity games here on this site, as well as download and learn about the Microsoft-built [Xbox Live Unity plugin](https://github.com/Microsoft/xbox-live-unity-plugin).
 
 Xbox Live Creators Program titles can also be built with the game engines [Construct (2 & 3)](https://www.scirra.com/construct2), and [GameMaker Studio 2](https://www.yoyogames.com/gamemaker). Both game engines have added Xbox Live support, however, that support is handled by the game engines creators and not Microsoft. For details and support for adding Xbox Live to your Construct or GameMaker Studio 2 project you will have to consult each game engines documentation respectively.
@@ -46,10 +54,13 @@ Xbox Live Creators Program titles can also be built with the game engines [Const
 
 For other game development engines, like [MonoGame](http://www.monogame.net/) or [Xenko](https://xenko.com/), that do not have baked in Xbox Live functionality or a plug-in, you can still use the Xbox Live APIs to add Xbox Live to your title. To use the Xbox Live API from your project, you can either add references to the binaries with NuGet packages or add the API source. Adding NuGet packages makes compilation quicker while adding the source makes debugging easier.
 
+
 ### Support and feedback
+
 Any questions you might have can be answered on the [MSDN Forums](https://social.msdn.microsoft.com/Forums/en-US/home?forum=xboxlivedev).  You can also ask programming related questions to [Stack Overflow](http://stackoverflow.com/questions/tagged/xbox-live) using the "xbox-live" tag.  The Xbox Live team will be engaged with the community and be continually improving our APIs, tools, and documentation based on the feedback received there.
 
 For developers in the Xbox Live Creators Program, you can [submit a new idea](https://xbox.uservoice.com/forums/363186--new-ideas?category_id=196261) or [vote on an existing idea](https://xbox.uservoice.com/forums/251649?category_id=210838) at our [Xbox User Voice](https://xbox.uservoice.com/forums/363186--new-ideas).
+
 
 ## ID@Xbox
 
@@ -60,10 +71,10 @@ ID@Xbox titles get placement in the primary section of the Store, versus the Cre
 
 Developers in the ID@Xbox program also gain access to developer support and promotional assistance from Microsoft, as well as the full complement of private whitepapers and developer technical forums. You can continue to use [MSDN Forums](https://social.msdn.microsoft.com/Forums/en-US/home?forum=xboxlivedev) or ask programming related questions on [Stack Overflow](http://stackoverflow.com/questions/tagged/xbox-live) using the "xbox-live" tag if you like.
 
+
 ## Microsoft partners
 
 Developers working with a game publisher that is a Microsoft Partner have access to the full set of Xbox Live features and dedicated Microsoft representatives to assist in your development, certification, and release process.
-
 
 
 ## Feature table
@@ -79,7 +90,6 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 <th> ID@Xbox </th>
 <th>Creators Program</th>
 </tr>
-
 
 
 <tr class="dev-program-feature-start">
@@ -207,8 +217,6 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 </tr>
 
 
-
-
 <tr class="dev-program-feature-start">
 <td rowspan="2" class="dev-program-feature-name">3. Cloud Storage platform</td>
 
@@ -224,8 +232,6 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 <td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-optional">Optional</td>
 </tr>
-
-
 
 
 <tr class="dev-program-feature-start">
@@ -263,7 +269,6 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 <td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-notavailable">Not Supported</td>
 </tr>
-
 
 
 <tr class="dev-program-feature-start">

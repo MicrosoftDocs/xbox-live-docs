@@ -1,11 +1,12 @@
 ---
-title: Xbox Live C APIs
+title: Introduction to the Xbox Live C APIs
 description: XSAPI's flat C API for the Xbox Live service.
 ms.date: 06/05/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, c, xsapi
 ms.localizationpriority: medium
 ---
+
 # Introduction to the Xbox Live C APIs
 
 In June 2018, a new, flat C API layer was added to XSAPI. This new API layer solves some issues that occurred with the C++ and WinRT API layers.
@@ -14,6 +15,7 @@ The C API does not yet cover all XSAPI features, but additional features are bei
 
 > [!NOTE]
 > The C APIs currently only work with titles that use the Xbox Developer Kit (XDK). They do not support UWP games at this time.
+
 
 ## Features covered by the C APIs
 
@@ -25,6 +27,7 @@ The C API currently supports the following features and services:
 - Social
 - Social Manager
 
+
 ## Benefits of the C API for XSAPI
 
 - Allows titles to control the memory allocations when calling XSAPI.
@@ -32,6 +35,7 @@ The C API currently supports the following features and services:
 - Uses a new HTTP library, libHttpClient, designed for game developers.
 
 You can use the C APIs alongside C++ XSAPI, but you will not gain the previously listed benefits with the C++ APIs.
+
 
 ### Managing memory allocations
 
@@ -48,9 +52,11 @@ To manually specify your memory routines, you can do the following:
   - Call `XblCleanup()` to reclaim all resources associated with the XSAPI library.
   - Clean up your game's custom memory manager.
 
+
 ### Managing asynchronous threads
 
 The C API introduces a new asynchronous thread calling pattern that allows developers full control over the threading model. For more information, see [Calling pattern for XSAPI flat C layer async calls](flatc-async-patterns.md).
+
 
 ## Migrating code to use C XSAPI
 
@@ -60,6 +66,7 @@ The C APIs and C++ APIs are really just thin wrappers around a common core, just
 
 > [!IMPORTANT]
 > You cannot mix XSAPI WinRT APIs with the C APIs.
+
 
 ## Where to view the C APIs
 

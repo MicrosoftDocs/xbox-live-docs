@@ -6,6 +6,7 @@ ms.topic: article
 ms.localizationpriority: medium
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, udc, universal developer center
 ---
+
 # Partner Center service configuration
 
 Games that are published in [Partner Center](https://partner.microsoft.com/dashboard) and use the full set of Xbox Live features can configure their Xbox Live services in Partner Center.
@@ -17,10 +18,11 @@ Your game must be enabled for full Xbox Live access in order to access the confi
 
 To access the Xbox Live configuration pages, after selecting your title in [Partner Center](https://partner.microsoft.com/dashboard), navigate to **Services** > **Xbox Live**.
 
+
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| Article | Description |
+|---------|-------------|
 | [Summary tab](dev-center/summary.md) | Using the Summary tab in Partner Center. |
 | [Xbox Live Setup](dev-center/xbox-live-setup.md) | Configuring Xbox Live Setup at Partner Center. |
 | [Achievements 2017](dev-center/achievements-in-udc.md) | Configuring Achievements in Partner Center, to deliver rewards. |

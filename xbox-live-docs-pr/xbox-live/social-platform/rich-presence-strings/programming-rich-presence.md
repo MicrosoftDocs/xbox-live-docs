@@ -12,10 +12,11 @@ ms.localizationpriority: medium
 
 This code example sets a user's online presence status.
 
-Rich presence provides features for advertising a player's current activity to other players. For more information, see [Rich Presence Strings: Overview](rich-presence-strings-overview.md).
+Rich Presence provides features for advertising a player's current activity to other players.
+
+ For more information, see [Overview of Rich Presence strings](rich-presence-strings-overview.md).
 
 ```cpp
-
 XboxLiveContext^ xboxLiveContext = NULL;
 
 // Set the XboxLiveContext for a user *once* otherwise you may encounter unpredictable behavior.

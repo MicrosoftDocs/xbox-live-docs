@@ -21,10 +21,11 @@ The Multiplayer 2015 system in Xbox One enables game play and the assembly of ga
 
 The Multiplayer 2015 service abstracts-away the Multiplayer 2014 "game party" concept and instead uses the multiplayer session directory (MPSD) to control game sessions.
 
+
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| Article | Description |
+|---------|-------------|
 | [Introduction](introduction-to-the-multiplayer-system.md) | The Multiplayer 2015 service is a more complex way than the Multiplayer Manager API, to enable game play and assembling game players into groups. |
 | [Multiplayer Session Directory (mpsd)](multiplayer-session-directory.md) | Multiplayer Session Directory centralizes a game's multiplayer API metadata across all the titles and manages game sessions. |
 | [MPSD Session Details](mpsd-session-details.md) | Details about multiplayer sessions. |

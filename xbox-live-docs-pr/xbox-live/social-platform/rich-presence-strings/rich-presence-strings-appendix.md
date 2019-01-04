@@ -10,19 +10,21 @@ ms.localizationpriority: medium
 
 # Rich Presence appendix
 
-## Data Platform
 
-The basics of the data platform are part of the Entertainment as a Service initiative. The idea is that everything in a game can be described as events, with attributes associated with those events. Developers can configure statistics and state values important to the game's experience in the service.
+## Data platform
 
-Some example statistics are:
+The basics of the Data platform are part of the "Entertainment as a Service" initiative.
+The idea is that everything in a game can be described as events, with attributes associated with those events.
 
+You can configure statistics and state values that are important to the game's experience in the service.
+
+Example statistics:
 -   Number of kills
 -   Number of side quests completed
 -   Number of coins collected
 -   Number of miles driven
 
-Some example state data are:
-
+Example state data:
 -   Current map
 -   Current X, Y, Z coordinates
 -   Current weapon

@@ -7,14 +7,16 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
+
 # Using Xbox Live
 
 Developing an Xbox Live-enabled game.
 
+
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| Article | Description |
+|---------|-------------|
 | [Xbox Live APIs](../xbox-live-apis.md) | Xbox Live services can be called through the client-side XSAPI (WinRT, C++11, or C) or through REST endpoints. |
 | [Best practices for calling Xbox Live](best-practices/best-practices-for-calling-xbox-live.md) | Best practices for calling Xbox Live APIs, such as proper calling patterns and retry logic. |
 | [Error handling](error-handling/error-handling.md) | Handling errors when calling an Xbox Live service through XSAPI. |

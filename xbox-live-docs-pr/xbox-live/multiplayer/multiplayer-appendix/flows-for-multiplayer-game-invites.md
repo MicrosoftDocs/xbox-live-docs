@@ -1,5 +1,5 @@
 ---
-title: Updated Flows For Multiplayer Game Invites
+title: Updated flows for multiplayer game invites
 description: Updated flow diagrams for implementing multiplayer game invites, to invite another player to a multiplayer game.
 ms.assetid: 1569588e-3bbc-47d3-8b7d-cc9774071adc
 ms.date: 04/04/2017
@@ -7,9 +7,13 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer 2015
 ms.localizationpriority: medium
 ---
-# Updated Flows For Multiplayer Game Invites
 
-As a result of Xbox One beta feedback, the user experience flow for multiplayer game invites has been changed as of Xbox One Recovery Update 24, released on November 6, 2013. This is a change to the **user-experience (UX) only** and will not affect any behavior or functionality from the perspective of a game title. Title developers will not need to make any code changes.
+# Updated flows for multiplayer game invites
+
+As a result of Xbox One beta feedback, the user experience flow for multiplayer game invites has been changed as of Xbox One Recovery Update 24, released on November 6, 2013.
+This is a change to the **user-experience (UX) only** and will not affect any behavior or functionality from the perspective of a game title.
+Title developers will not need to make any code changes.
+
 
 ## Summary of changes
 
@@ -19,7 +23,12 @@ As a result of Xbox One beta feedback, the user experience flow for multiplayer 
 
 -   A new toast has been added on the sender’s side that says “Adding \[*number*\] friends to the game”. This makes it clear that invites were sent out when a game session is associated with a user’s party.
 
-The detailed user experience flows are described in the following examples. Each table shows an example flow for two users, David and Laura. These flows are shown in each column and occur in parallel. The <b style="background-color: #FFFF00">highlighted text</b> shows the adjustments that have been made from the prior UX flows.
+The detailed user experience flows are described in the following examples.
+Each table shows an example flow for two users, David and Laura.
+These flows are shown in each column and occur in parallel.
+
+The <b style="background-color: #FFFF00">highlighted text</b> shows the adjustments that have been made from the prior UX flows.
+
 
 ## Inviting users from within a game
 
@@ -80,6 +89,7 @@ The detailed user experience flows are described in the following examples. Each
   </tr>
 </table>
 
+
 ## In-game invite flow: In a party, and switching titles
 
 <table>
@@ -139,6 +149,7 @@ The detailed user experience flows are described in the following examples. Each
   </tr>
 </table>
 
+
 ## Invite flow from Home
 
 <table>
@@ -159,7 +170,7 @@ The detailed user experience flows are described in the following examples. Each
     <p><br>
     In the Notification Center, Laura has the option to <b>Accept the invite</b>.
     <p><br>
-    When Laura accepts, the Party app snaps.                                                                         </td>
+    When Laura accepts, the Party app snaps.</td>
   </tr>
   <tr>
     <td>
@@ -187,6 +198,8 @@ The detailed user experience flows are described in the following examples. Each
 
 ## More about the Game Invite Sent toast
 
-The **Game Invite Sent** toast will only appear the first time a game session is established with remote party members. Subsequent requests sent to remote party members will not generate this toast. This prevents the user from being spammed with repeated **Game Invite Sent** toasts if the title makes multiple calls to **PullReservedPlayersAsync**.
+The **Game Invite Sent** toast will only appear the first time a game session is established with remote party members.
+Subsequent requests sent to remote party members will not generate this toast.
+This prevents the user from being spammed with repeated **Game Invite Sent** toasts if the title makes multiple calls to **PullReservedPlayersAsync**.
 
 **Note** The best practice is to add all desired friends as Reserved, and then call **PullReservedPlayersAsync** only once.

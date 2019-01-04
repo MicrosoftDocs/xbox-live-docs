@@ -1,16 +1,19 @@
 ---
-title: Asynchronous C API calling patterns
+title: Making async calls in the XSAPI C API
 description: Making asynchronous calls in the XSAPI flat C API.
 ms.date: 06/10/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, developer program,
 ms.localizationpriority: medium
 ---
-# Calling pattern for XSAPI flat C layer async calls
+
+# Making async calls in the XSAPI C API
 
 An **asynchronous API** is an API that returns quickly but starts an **asynchronous task** and the result is returned after the task is finished.
 
-Traditionally games have little control over which thread executes the **asynchronous task** and which thread returns the results when using a **completion callback**.  Some games are designed so that a section of the heap is only touched by a single thread to avoid any need for thread synchronization. If the **completion callback** isn't called from a thread the game controls, updating shared state with the result of an **asynchronous task** will require thread synchronization.
+Traditionally, games have little control over which thread executes the **asynchronous task** and which thread returns the results when using a **completion callback**.
+Some games are designed so that a section of the heap is only touched by a single thread to avoid any need for thread synchronization.
+If the **completion callback** isn't called from a thread the game controls, updating shared state with the result of an **asynchronous task** will require thread synchronization.
 
 The XSAPI C API exposes a new asynchronous C API that gives developers direct thread control when
 making an **asynchronous API** call, such as **XblSocialGetSocialRelationshipsAsync()**, **XblProfileGetUserProfileAsync()** and **XblAchievementsGetAchievementsForTitleIdAsync()**.
@@ -63,6 +66,7 @@ You should create a new AsyncBlock on the heap for each async API you call.  The
 > [!IMPORTANT]
 > An **AsyncBlock** must remain in memory until the **asynchronous task** completes. If it is dynamically allocated, it can be deleted inside the AsyncBlock's **completion callback**.
 
+
 ### Waiting for **asynchronous task**
 
 You can tell an **asynchronous task** is complete a number of different ways:
@@ -78,6 +82,7 @@ Once the **asynchronous task** is complete, you can get the results.
 ### Getting the result of the **asynchronous task**
 
 To get the result, most **asynchronous API** functions have a corresponding \[Name of Function\]Result function to receive the result of the asynchronous call. In our example code, **XblProfileGetUserProfileAsync** has a corresponding **XblProfileGetUserProfileResult** function. You can use this function to return the result of the function and act accordingly.  See the documention of each **asynchronous API** function for full details on retrieving results.
+
 
 ## The **AsyncQueue**
 
@@ -266,7 +271,8 @@ DWORD WINAPI BackgroundWorkThreadProc(LPVOID lpParam)
 }
 ```
 
-It is best practice to use implement with Win32 Semaphore object.  If instead you implement using a Win32 Event object, then you'll need to ensure don't miss any events with code such as:
+It is best practice to implement using the Win32 Semaphore object.
+If you instead implement using a Win32 Event object, ensure you don't miss any events; for example, do the following:
 
 ```cpp
     case WAIT_OBJECT_0: 
@@ -281,6 +287,4 @@ It is best practice to use implement with Win32 Semaphore object.  If instead yo
         break;
 ```
 
-
-You can view an example of the best practices for async integration at [Social C Sample AsyncIntegration.cpp](https://github.com/Microsoft/xbox-live-api/blob/master/InProgressSamples/Social/Xbox/C/AsyncIntegration.cpp)
-
+You can view an example of the best practices for async integration at [Social C Sample AsyncIntegration.cpp](https://github.com/Microsoft/xbox-live-api/blob/master/InProgressSamples/Social/Xbox/C/AsyncIntegration.cpp).

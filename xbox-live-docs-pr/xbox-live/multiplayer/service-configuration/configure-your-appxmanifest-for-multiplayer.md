@@ -16,11 +16,14 @@ You need to make some updates to the `Package.appxmanifest` file in your Visual 
 
 If you don't do this step, then your title will not get protocol activated when a recipient player accepts an invitation to play.
 
+
 ## Open your Package.appxmanifest
 
-Your `Package.appxmanifest` file is typically located in the same directory as your Visual Studio project's solution file.  Or you can find the `Package.appxmanifest` file in the Solution Explorer.
+Your `Package.appxmanifest` file is typically located in the same directory as your Visual Studio project's solution file.
+Or you can find the `Package.appxmanifest` file in the Solution Explorer.
 
 ![](../../images/multiplayer/multiplayer_open_appxmanifest.png)
+
 
 ## Add new entry
 
@@ -38,4 +41,5 @@ For example:
 
 ![](../../images/multiplayer/multiplayer_appxmanifest_changes.png)
 
-Save and rebuild your title.  To learn how to use the Multiplayer Manager to implement the ability to invite players to your title, see [Play Multiplayer With Friends](../multiplayer-manager/play-multiplayer-with-friends.md).
+Save and rebuild your title.
+To learn how to use the Multiplayer Manager to implement the ability to invite players to your title, see [Play Multiplayer With Friends](../multiplayer-manager/play-multiplayer-with-friends.md).

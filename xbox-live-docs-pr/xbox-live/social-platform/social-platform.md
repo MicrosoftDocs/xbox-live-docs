@@ -1,7 +1,7 @@
 ---
-title: Xbox Live Social Platform
+title: Xbox Live Social platform
 author: mikehoffms
-description: The Social Platform service is a gaming-oriented social network that includes a user's profile, gamerscore, achievements, clubs, and activity feed.
+description: The Social platform service is a gaming-oriented social network that includes a user's profile, gamerscore, achievements, clubs, and activity feed.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
@@ -10,15 +10,17 @@ ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, social platform
 ms.localizationpriority: medium
 ---
-# Xbox Live Social Platform
 
-The Social Platform service is a gaming-oriented social network that includes a user's profile, gamerscore, achievements, clubs, and activity feed.
+# Xbox Live Social platform
+
+The Social platform service is a gaming-oriented social network that includes a user's profile, gamerscore, achievements, clubs, and activity feed.
+
 
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Xbox Live Social Platform](xbox-live-social-platform.md) | The Social Platform service is a gaming-oriented social network that includes a user's profile, gamerscore, achievements, clubs, and activity feed. |
+| Article | Description |
+|---------|-------------|
+| [Xbox Live Social platform](xbox-live-social-platform.md) | The Social platform service is a gaming-oriented social network that includes a user's profile, gamerscore, achievements, clubs, and activity feed. |
 | [The Social Manager](the-social-manager.md) | The Xbox Live Social Manager API simplifies keeping track of online friends and their gaming activity. |
 | [Reputation](people-system/reputation.md) | The Reputation service encourages positive gameplay. |
 | [Rich Presence](rich-presence-strings/rich-presence.md) | Rich Presence shows what activity a user is currently doing, in which area of which game. |

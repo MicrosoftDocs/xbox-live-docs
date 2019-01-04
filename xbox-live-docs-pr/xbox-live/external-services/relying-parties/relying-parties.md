@@ -10,14 +10,16 @@ ms.technology: uwp
 keywords: xbox live
 ms.localizationpriority: medium
 ---
+
 # Relying parties
 
 Relying parties.
 
+
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| Article | Description |
+|---------|-------------|
 | [Relying parties overview](relying-parties-overview.md) | __ |
 | [Portal configuration of relying parties](relying-parties-portal-config.md) | __ |
 | [SDK configuration of relying parties](relying-parties-sdk-config.md) | __ |

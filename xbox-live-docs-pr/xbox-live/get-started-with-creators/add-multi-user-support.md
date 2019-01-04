@@ -6,12 +6,9 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity, multi user
 ms.localizationpriority: medium
 ---
-<<<<<<< HEAD
 
 # Add multi-user support to your Unity game
-=======
-# Add multi-user support to your Unity Game
->>>>>>> master
+
 > [!IMPORTANT]
 > The Xbox Live Unity plugin does not support achievements or online multiplayer and is only recommended for [Xbox Live Creators Program](../developer-program-overview.md) members.
 
@@ -22,8 +19,11 @@ This tutorial will walk you through how to add multi-user support to the differe
 > [!IMPORTANT]
 > Multi-User Scenarios are only supported on Xbox consoles. This functionality does not work on PC.
 
+
 ## Prerequisites
+
 You will need to have followed the [Getting Started](configure-xbox-live-in-unity.md) tutorial to enable and configure Xbox Live.
+
 
 ## Adding and signing in multiple Xbox Live users
 
@@ -50,16 +50,18 @@ For this tutorial, we'll use `joystick 1 button 0` for the **UserProfile** that 
 
     ![Testing Multi-User Support in Unity Editor](../images/unity/run-example-mua.png)
 
+
 ## Building and Testing the UWP
 
 1. After following the steps outlined at the [Develop Creators Titles with Unity](configure-xbox-live-in-unity.md) tutorial, open the exported UWP solution in Visual Studio.
 
-2. Under the UWP project of your game, right click on the `package.appxmanifest.xml` file and choose **View Code**.
+2. Under the UWP project of your game, right-click the `package.appxmanifest.xml` file, and then click **View Code**.
 
 3. Under the `<Properties></Properties>` section, add the following which enables multi-user input for the app:
   `<uap:SupportedUsers>multiple</uap:SupportedUsers>`
 
-4. To test on Xbox, follow the documentation at the [Set up your UWP on Xbox development environment](https://docs.microsoft.com/en-us/windows/uwp/xbox-apps/development-environment-setup) tutorial.
+4. To test on Xbox, see [Set up your UWP on Xbox development environment](https://docs.microsoft.com/en-us/windows/uwp/xbox-apps/development-environment-setup).
+
 
 ## Using the other Xbox Live Prefabs with multiple Users
 

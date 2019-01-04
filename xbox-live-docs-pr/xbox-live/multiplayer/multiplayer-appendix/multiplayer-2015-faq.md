@@ -7,8 +7,10 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer
 ms.localizationpriority: medium
 ---
+
 # Multiplayer 2015 FAQ and troubleshooting
 
+The following questions are answered below.
 -   I am developing a new title. Which multiplayer API elements should I use?
 -   How can I access the new multiplayer API from a service?
 -   Can my title subscribe to changes for more than one session?

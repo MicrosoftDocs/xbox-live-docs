@@ -1,45 +1,53 @@
 ---
-   title: Web services
-   description: Creating a Web service for an Xbox Live-enabled app.
-   ms.date: 06-04-2018
-   ms.topic: article
-   ms.prod: windows
-   ms.technology: uwp
-   keywords: xbox live, xbox, games, uwp, windows 10, xbox one, web services
+title: Setting up Web Services in UDC
+description: Creating a Web service for an Xbox Live-enabled app.
+ms.date: 06-04-2018
+ms.topic: article
+ms.prod: windows
+ms.technology: uwp
+keywords: xbox live, xbox, games, uwp, windows 10, xbox one, web services
 ---
 
-# Set up Web Services in UDC
+# Setting up Web Services in UDC
 
 > [!WARNING]
-> The following article is for ID@Xbox and Managed Partner developers only due to restrictions placed on web service configuration. Web Services configuration is only available to developers with the Relying Parties account level permission granted. If you do not have control of your account level permissions, contact your Development Account Manager (DAM) for assistance.
+> The following article is for ID@Xbox and Managed Partner developers only, due to restrictions placed on web service configuration. Web Services configuration is only available to developers with the Relying Parties account level permission granted. If you do not have control of your account level permissions, contact your Development Account Manager (DAM) for assistance.
 
 Publishers can create web services if they want to customize the way their apps/titles interact with Xbox Live services. Web services are publisher-level configurations and can be called by any title within a sandbox owned by the publisher by configuring single sign-on.
 
 Reasons to define web services:
 
-1. Providing single sign-on to Xbox Live users - In order for your web service to provide single-sign-on to Xbox Live users, it needs to be configured as a relying party of Xbox Live. When configured that way, users who are authenticated to Xbox Live will automatically be authenticated to your service without having to re-enter a different set of credentials.
-2. Making service to service calls from your service to Xbox Live services - If your product will use one of your web services to make calls to an Xbox Live service, either directly or on behalf of individual users, you'll need a business partner certificate.
+1. **Providing single sign-on to Xbox Live users** - In order for your web service to provide single-sign-on to Xbox Live users, it needs to be configured as a relying party of Xbox Live. When configured that way, users who are authenticated to Xbox Live will automatically be authenticated to your service without having to re-enter a different set of credentials.
+2. **Making service to service calls from your service to Xbox Live services** - If your product will use one of your web services to make calls to an Xbox Live service, either directly or on behalf of individual users, you'll need a business partner certificate.
 
-1. ## Create a Web Service
 
-1. Go to the [Partner Center Dashboard](https://partner.microsoft.com/dashboard/windows/overview)  
-2. Click on the gear shaped icon at the top right corner of the page to access the **Settings** dropdown.
+## Create a Web Service
+
+1. Go to the [Partner Center Dashboard](https://partner.microsoft.com/dashboard/windows/overview).
+2. Click the gear-shaped icon at the top right corner of the page to access the **Settings** dropdown.
 3. Within the dropdown, select **Developer Settings**.
 4. On the left-side navigation bar, expand the option **Xbox Live** and select **Web Services**.
 
-![web services gif ](../../images/dev-center/web-services/web-services.gif)
+![web services gif](../../images/dev-center/web-services/web-services.gif)
 
 5. In the Web Services page, click on **New Web Service**.
 6. Enter the Web Service Name and choose the access type as required.  
     * Telemetry access enables your service to retrieve game telemetry data for any of your games.
     * App Channel access gives the media provider owning the service the authority to programmatically publish app channels for consumption on console through the OneGuide twist.
-7. Click **Save**
+7. Click **Save**.
 
-At this point, you have defined the service and Xbox Live is aware of the existence of the service. Depending on the reasons for creating the web service, you will be required to configure Relying Parties(Single Sing-On) or Business Partner Certificates(Service-to-service calls).  
+At this point, you have defined the service and Xbox Live is aware of the existence of the service. Depending on the reasons for creating the web service, you will be required to configure Relying Parties (Single Sign-On) or Business Partner Certificates (Service-to-service calls).  
+
 
 ## Configure Relying Party
 
-A web service needs to be configured as a relying party of Xbox live in order to provide the Single Sign-On experience to Xbox Live users – users who are authenticated to Xbox Live will be automatically authenticated to the web service without having to re-enter a different set of credentials. To facilitate this, trust must be established between Xbox services and the web service. A set of claims (such as gamertag, device type, title ID) are used as part of relying party configurations to enforce this trust. This is the information exchanged between Xbox Live and the web service to help automatically authenticate users.
+A web service needs to be configured as a relying party of Xbox live in order to provide the Single Sign-On experience to Xbox Live users.
+Users who are authenticated to Xbox Live will be automatically authenticated to the web service without having to re-enter a different set of credentials. 
+
+To facilitate this, trust must be established between Xbox services and the web service. 
+A set of claims (such as gamertag, device type, title ID) are used as part of relying party configurations to enforce this trust. 
+This is the information exchanged between Xbox Live and the web service to help automatically authenticate users.
+
 
 ### Create a Relying Party
 
@@ -55,9 +63,11 @@ A web service needs to be configured as a relying party of Xbox live in order to
 10. Under **Claims**, the dropdown offers a list of claims that your relying party service can use for the purpose of authentication. Select all the claims that you want to use. The selected claims will appear below the dropdown. Some standard claims will be populated in that space by default.
 11. Click **Save** when you're done.  
 
+
 ## Configure a Business Partner Certificate
 
 If your product will use one of your web services to make calls to an Xbox Live service, either directly or on behalf of individual users, you'll need a business partner certificate.
+
 
 ### Generate a Business Partner Certificate
 

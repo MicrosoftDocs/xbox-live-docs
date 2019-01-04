@@ -15,10 +15,11 @@ ms.localizationpriority: medium
 
 Rich Presence shows what activity a user is currently doing, in which area of which game.
 
+
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| Article | Description |
+|---------|-------------|
 | [Overview of Rich Presence strings](rich-presence-strings-overview.md) | Rich Presence shows what activity a user is currently doing, in which area of which game. |
 | [Configuration](rich-presence-strings-configuration.md) | Configuring Rich Presence strings. |
 | [Update strings](rich-presence-strings-updating-strings.md) | Updating Rich Presence strings. |

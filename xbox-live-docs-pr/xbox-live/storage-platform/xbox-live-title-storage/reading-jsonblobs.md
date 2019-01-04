@@ -1,5 +1,5 @@
 ---
-title: Reading a JSON blob
+title: Reading a JSON blob in Title Storage
 description: Reading a JSON blob in Title Storage, using GET.
 ms.assetid: 3697af16-d054-4835-af7f-7fee8c628345
 ms.date: 04/04/2017
@@ -7,7 +7,8 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
-# Reading a JSON blob in Xbox Live Title Storage
+
+# Reading a JSON blob in Title Storage
 
 1.  Send a request using the *GET* method to read the data from title storage. This example uses global title storage.
 
@@ -21,6 +22,7 @@ ms.localizationpriority: medium
 
 -   STSTokenString is a placeholder for brevity and should be replaced with the token returned by the authentication request.
 
-#### Reference
+
+### Reference
 
 **/global/scids/{scid}/data/{pathAndFileName},{type}**

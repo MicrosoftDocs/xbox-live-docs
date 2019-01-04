@@ -1,5 +1,5 @@
 ---
-title: Development tools for Xbox Live
+title: Development tools
 author: mikehoffms
 description: Tools to help develop and test your Xbox Live-enabled title.
 ms.author: v-mihof
@@ -11,14 +11,15 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, tools, player reset
 ms.localizationpriority: medium
 ---
 
-# Tools
+# Development tools
 
 Tools to help develop and test your Xbox Live-enabled title.
 
+
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| Article | Description |
+|---------|-------------|
 | [Development tools for Xbox Live](development-tools-for-xbox-live.md) | Tools to help develop and test your Xbox Live-enabled title. |
 | [XBL Trace Analyzer](analyze-service-calls.md) | Using the Xbox Live Trace Analyzer to review the service calls made by your title. |
-| [XBL Account Tool](xbox-live-account-tool.md) | The Xbox Live Developer Account Tool creates test accounts for testing your Xbox Live enabled title. |
+| [XBL Account Tool](xbox-live-account-tool.md) | The Xbox Live Developer Account Tool creates test accounts for testing your Xbox Live-enabled title. |

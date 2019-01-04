@@ -7,6 +7,7 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
+
 # Configure your Xbox development console
 
 To configure your development console:
@@ -16,21 +17,33 @@ To configure your development console:
  
 These steps are detailed below.
 
+
 ## Get your IDs
-To enable sandboxes and Xbox Live services, you will need to obtain several IDs to configure your development kit and your title. These can be done with the same process.
+
+To enable sandboxes and Xbox Live services, you will need to obtain several IDs to configure your development kit and your title.
+These can be done with the same process.
 
 Follow [Xbox Live service configuration](../xbox-live-service-configuration.md) to get your IDs.
 
+
 ## Set your sandbox on your development kits
-You will not be able to boot your development kit without setting your Sandbox ID. To do this, you can use the "Xbox One Manager" that's installed on your PC by the XDK, or you can open an XDK command window and use the Configuration (xbconfig.exe) command as follows:
 
-Check your current sandbox. Type xbconfig sandboxid at the command prompt.
+To boot your development kit, you must set your Sandbox ID.
+To do this, you can use the "Xbox One Manager" that's installed on your PC by the XDK, or you can open an XDK command window and use the Configuration (xbconfig.exe) command, as follows:
 
-If it’s not what you expect, change your sandbox id. Type xbconfig sandboxid=<your sandbox id> at the command prompt.
+1. Check your current sandbox.
+To do this, type `xbconfig sandboxid` at the command prompt.
 
-Reboot your console using Reboot (xbreboot.exe) at the command prompt.
+2. If the ID is not what you expect, change your sandbox ID.
+To do this, type the following at the command prompt:
 
-Verify your sandbox has been correctly reset. Type xbconfig sandboxid at the command prompt.
+   `xbconfig sandboxid=<your sandbox id>`
+
+3. Reboot your console using Reboot (xbreboot.exe) at the command prompt.
+
+4. Verify that your sandbox has been correctly reset.
+To do this, type `xbconfig sandboxid` at the command prompt.
+
 
 ## Sign in with a development account
 

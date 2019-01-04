@@ -12,6 +12,11 @@
           href: get-started/what-is-xbox-live.md
         - name: Overview of portals and doc sites
           href: get-started/overview-portals-docsites.md
+        - name: What's new
+          href: 
+          items: 
+            - name: 
+              href: 
         - name: Developer program overview
           href: developer-program-overview.md
         - name: The CREATORS Program
@@ -134,7 +139,7 @@
                   href: get-started-with-partner/compile-the-xdk-xbox-live-api-source.md
             - name: Cross-play games
               href: get-started-with-partner/get-started-with-cross-play-games.md
-            - name: Advanced XBL sandboxes
+            - name: Advanced Xbox Live sandboxes
               href: advanced-xbox-live-sandboxes.md
         - name: PLATFORMS - Setting Up Platforms
           href: platforms.md
@@ -203,7 +208,7 @@
                   href: introduction-to-xbox-live-apis.md
                 - name: Xbox Live C API
                   href: xsapi-flat-c.md
-                - name: Async C API
+                - name: Making async calls in the XSAPI C API
                   href: flatc-async-patterns.md
             - name: Best practices
               href: using-xbox-live/best-practices/best-practices.md
@@ -745,25 +750,25 @@
             - name: XBL Account Tool
               href: tools/xbox-live-account-tool.md
     - name: Tutorials  [landing page]
-      href: tutorials.md
+      href: tutorials/tutorials.md
       items: 
-        - name: IDENTITY
-          href: stub.md
-        - name: MULTIPLAYER
-          href: stub.md
+        - name: IDENTITY tutorial
+          href: tutorials/identity-tutorial.md
+        - name: MULTIPLAYER tutorials
+          href: tutorials/multiplayer/multiplayer-tutorials.md
           items: 
-            - name: CUSTOM SAMPLE
-              href: stub.md
-            - name: XIM
-              href: stub.md
-            - name: XIM CHAT ONLY
-              href: stub.md
-            - name: MULTIPLAYER MANAGER
-              href: stub.md
-            - name: MULTIPLAYER MANAGER BRING YOUR OWN MATCH
-              href: stub.md
-        - name: PUBLISHING
-          href: stub.md
+            - name: Multiplayer CUSTOM sample tutorial
+              href: tutorials/multiplayer/multiplayer-custom-sample-tutorial.md
+            - name: Xbox Integrated Multiplayer (XIM) tutorial
+              href: tutorials/multiplayer/multiplayer-xim-tutorial.md
+            - name: Xbox Integrated Multiplayer (XIM) CHAT tutorial
+              href: tutorials/multiplayer/multiplayer-xim-chat-tutorial.md
+            - name: MULTIPLAYER MANAGER tutorial
+              href: tutorials/multiplayer/multiplayer-manager-tutorial.md
+            - name: MULTIPLAYER MANAGER BRING-YOUR-OWN-MATCH tutorial
+              href: tutorials/multiplayer/multiplayer-manager-byo-match-tutorial.md
+        - name: PUBLISHING tutorial
+          href: tutorials/publishing-tutorial.md
     - name: API Reference  [landing page]
       href: api-reference.md
       items:

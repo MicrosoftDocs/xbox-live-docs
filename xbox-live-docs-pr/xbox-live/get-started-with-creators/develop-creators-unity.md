@@ -10,14 +10,16 @@ ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, creators
 ms.localizationpriority: medium
 ---
+
 # Develop in Unity
 
 Developing an Xbox Live-enabled game as a Creators Program member, using Unity.
 
+
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| Article | Description |
+|---------|-------------|
 | [Get started developing a Creators title with Unity](develop-creators-title-with-unity.md) | Get started developing an Xbox Live Creators Program title with the Unity game engine. |
 | [Configure XBL in Unity](configure-xbox-live-in-unity.md) | Use the Xbox Live Unity plugin to configure Xbox Live in your Unity game. |
 | [Unity Prefabs and sign-in](unity-prefabs-and-sign-in.md) | Unity prefabs and Scripted Sign-In examples for Social services on Xbox Live. |

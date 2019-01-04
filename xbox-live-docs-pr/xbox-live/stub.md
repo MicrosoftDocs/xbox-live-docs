@@ -10,6 +10,7 @@ ms.technology: uwp
 keywords: xbox live
 ms.localizationpriority: medium
 ---
+
 # Stub page
 
 General-purpose temporary stub page.

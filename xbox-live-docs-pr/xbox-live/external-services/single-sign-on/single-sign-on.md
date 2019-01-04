@@ -10,14 +10,16 @@ ms.technology: uwp
 keywords: xbox live
 ms.localizationpriority: medium
 ---
+
 # Single sign-on
 
 Single sign-on.
 
+
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Single sign-on overview](single-sign-on-overview.md) | __ |
+| Article | Description |
+|---------|-------------|
+| [Overview of single sign-on](single-sign-on-overview.md) | __ |
 | [Portal configuration of single sign-on](single-sign-on-portal-config.md) | __ |
 | [SDK configuration of single sign-on](single-sign-on-sdk-config.md) | __ |

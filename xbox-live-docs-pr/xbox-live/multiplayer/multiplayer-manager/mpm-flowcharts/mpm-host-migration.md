@@ -7,9 +7,11 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer manager, flowchart
 ms.localizationpriority: medium
 ---
+
 # Flowchart - Handle host migration
 
 The following flowcharts show the flow of handling a host migration when the host of a multiplayer game disconnects.
+
 
 ## Handle host migration
 

@@ -16,10 +16,11 @@ ms.localizationpriority: medium
 Connected Storage saves and loads gameplay data and other state data across devices.
 Title data is stored locally and also synced to the cloud.
 
+
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| Article | Description |
+|---------|-------------|
 | [Connected Storage overview](connected-storage-overview.md) | Connected Storage saves and loads gameplay data and other state data across devices.  Title data is stored locally and also synced to the cloud. |
 | [Save Data](connected-storage-saving.md) | Code examples using Connected Storage to save gameplay data. |
 | [Load Data](connected-storage-loading.md) | Code examples using Connected Storage to save gameplay data. |

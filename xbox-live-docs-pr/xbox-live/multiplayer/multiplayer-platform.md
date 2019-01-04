@@ -1,7 +1,7 @@
 ---
-title: Multiplayer Platform
+title: Multiplayer platform
 author: mikehoffms
-description: The Multiplayer Platform includes Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
+description: The Multiplayer platform includes Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
@@ -10,15 +10,17 @@ ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer
 ms.localizationpriority: medium
 ---
-# Multiplayer Platform
 
-The Multiplayer Platform includes Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
+# Multiplayer platform
+
+The Multiplayer platform includes Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
+
 
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Multiplayer Platform overview](multiplayer-intro.md) | The Multiplayer Platform includes Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat. |
+| Article | Description |
+|---------|-------------|
+| [Multiplayer platform overview](multiplayer-intro.md) | The Multiplayer platform includes Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat. |
 | [Concepts](multiplayer-concepts.md) | Concepts used by Xbox Live multiplayer systems, including multiplayer session, multiplayer service session directory, SmartMatch matchmaking, and quality of service (QoS). |
 | [Multiplayer scenarios](multiplayer-scenarios.md) | Multiplayer scenarios include Comparative (Indirect) Play, Online Play with friends, Skill-Based Matchmaking, and Tournaments. |
 | [Xbox Integrated Multiplayer (XIM)](xbox-integrated-multiplayer.md) | Xbox Integrated Multiplayer (XIM) is an all-in-one multiplayer/networking/chat solution for Xbox Live games. |

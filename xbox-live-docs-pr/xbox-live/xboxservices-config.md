@@ -1,16 +1,18 @@
 ---
-title: XboxServices.config
+title: XboxServices.config file description
 description: The XboxServices.config file associates your UWP game with an Xbox Live configuration.
 ms.date: 03/29/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, service configuration, xboxservices.config
 ms.localizationpriority: medium
 ---
+
 # XboxServices.config file description
 
 When you develop an Xbox Live enabled UWP game, your project must include an XboxServices.config file.  This file enables the Xbox Live SDK to associate your game with your Partner Center app and your Xbox Live services configuration. This file contains a JSON object that details information such as the service configuration ID, title ID, etc.
 
 If you are using Unity to design an Xbox Live Creators Program game by using the Xbox Live plug-in, this file is automatically created for you by the Xbox Live Association Wizard.
+
 
 ## XboxServices.config fields
 
@@ -26,21 +28,19 @@ TitleId  |  The decimal Title ID for your app. In [Partner Center](https://partn
 XboxLiveCreatorsTitle  |  If "true", indicates that the app is an Xbox Live Creators Program app. Otherwise, "false".
 Scope  |  **(Optional)** Defines the scope of functionality used by the app. See below for further description.
 
+
 ### Scope field
 
 The **Scope** field is an optional field that you can use to indicate the functionality used by your game.
 
-
 If the **Scope** field is not specified, then the scope is set to a default value that depends on the value of the **XboxLiveCreatorsTitle** field, as described in the following table:
 
 XboxLiveCreatorsTitle value | Default Scope value
---- | ---
+--- | ------------------------------------------------------------------------------------------------
 "true"  |  "xbl.signin xbl.friends"
 "false"  |  "xboxlive.signin"
 
-
-
-The following list describes the valid values for the **Scope** field.
+Valid values for the **Scope** field:
 
 Scope value | Description
 --- | ---
@@ -55,6 +55,7 @@ Currently, the only reason to specify the **Scope** field is if you are making a
 ```
 
 Adding this line prevents the UWP app from requesting permission to access friend lists when you start the app for the first time.
+
 
 ## Example XboxServices.config file
 

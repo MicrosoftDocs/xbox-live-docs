@@ -6,9 +6,11 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, arena, tournament, ux
 ms.localizationpriority: medium
 ---
+
 # Arena notifications
 
-Xbox Arena surfaces the following notifications to participants registered for Arena tournaments, to usher them through the tournament stages. Any additional alerts, promotion, or game-related details must be provided by your title.
+Xbox Arena surfaces the following notifications to participants registered for Arena tournaments, to usher them through the tournament stages.
+Any additional alerts, promotion, or game-related details must be provided by your title.
 
 REGISTRATION | TEAM FORMATION | TOURNAMENT STATE
 --- | --- | ---

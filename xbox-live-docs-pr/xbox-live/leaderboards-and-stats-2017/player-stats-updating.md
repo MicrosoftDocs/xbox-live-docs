@@ -7,16 +7,20 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, player stats, stats 2017
 ms.localizationpriority: medium
 ---
+
 # Updating Stats 2017
 
 You update stats by sending the latest value for the Xbox Live Service using the `StatsManager` APIs which will be discussed below.
 
-It is up to your title to keep track of player stats, and you call `StatsManager` to update these as appropriate.  `StatsManager` will buffer any changes and flush these to the service periodically.  Your title can also manually flush.
+It is up to your title to keep track of player stats, and you call `StatsManager` to update these as appropriate.
+`StatsManager` will buffer any changes and flush these to the service periodically.
+Your title can also manually flush.
 
 > [!NOTE]
 > Do not flush stats too often.  Otherwise your title will be rate limited.  A best practice is to flush at most once every 5 minutes.
 
-### Multiple Devices
+
+## Multiple Devices
 
 It is possible for a player to play your title on multiple devices.  In this case, you need to make certain effort to keep things in sync.
 
@@ -27,11 +31,13 @@ There are a few ways you can do this:
 1. Store them using [Connected Storage](../storage-platform/connected-storage/connected-storage-technical-overview.md).  Usually you would use Connected Storage for per-user save data.  This data is kept in sync across different devices for a given user.
 2. Use your own web service to keep stats in sync if you already have one for performing auxillary tasks for your title.
 
-### Offline
 
-As we mentioned above, your title is responsible to keep track of player stats and, therefore, responsbile to support offline scenarios. 
+## Offline
 
-### Examples
+Your title is responsible to keep track of player stats and, therefore, responsible to support offline scenarios.
+
+
+## Examples
 
 We will go through an example to tie these concepts together.
 
@@ -45,15 +51,17 @@ You can track their previous best in one of the following ways:
 
 The service will replace the stat value no matter what.  So even if you were to update with a lap time that's greater than their previous best, then their previous best would be overwritten.
 
-So please ensure in your title, that you are only sending the proper stat values based on your gameplay scenario.  In some cases lower values might be better, in some other cases higher might be better, or something else entirely.
+So ensure in your title, that you are only sending the proper stat values based on your gameplay scenario.  In some cases lower values might be better, in some other cases higher might be better, or something else entirely.
+
 
 ## Programming Guide
 
 Typically your flow for using stats is:
 
 1. Initialize the `StatsManager` API by passing in a local user.
-1. As a user plays through your title, update stat values using the `set_stat` functions.
-1. These stat updates will be periodically flushed and written to Xbox Live.  You can also do this manually.
+2. As a user plays through your title, update stat values using the `set_stat` functions.
+3. These stat updates will be periodically flushed and written to Xbox Live.  You can also do this manually.
+
 
 ### Initialization
 
@@ -83,7 +91,9 @@ You write stats using the `stats_manager::set_stat` family of functions.  There 
 
 When you call these, the stat updates are cached locally on the device.  Periodically these will be flushed to Xbox Live.
 
-You have the option of manually flushing stats via the `stats_manager::request_flush_to_service` API.  Please note that if you call this function too often, you will be rate limited.  This does not mean that the stat will never get updated.  It merely means that the update will happen when the timeout expires.
+You have the option of manually flushing stats via the `stats_manager::request_flush_to_service` API, as shown below.
+If you call this function too often, you will be rate-limited.
+This does not mean that the stat will never get updated; it merely means that the update will happen when the timeout expires.
 
 ```cpp
 statsManager->set_stat_integer(user, L"numHeadshots", 20);
@@ -99,7 +109,8 @@ statManager.DoWork();
 
 #### Example
 
-Let's say that you have a first-person shooter.  During a match you might accumulate the following stats:
+Suppose you have a first-person shooter.
+During a match, you might accumulate the following stats:
 
 | Stat Name | Format |
 |-----------|--------|
@@ -113,20 +124,26 @@ As the player goes through the match, you would increment the *Kills Per Round*,
 At the end of the match you would do the following:
 1. Compare the kills they got in the round, with their previous best.  If it is greater, then update `StatsManager`.
 2. Update their Lifetime Kills and Deaths with the new values and update `StatsManager`.
-3. Calculate Kills/Deaths and update `StatsManager`
+3. Calculate Kills/Deaths and update `StatsManager`.
 
-Note that for 1 and 2, you need to know their previous stat values.  See the above sections for best practices on retrieving these.
+Note that for 1 and 2, you need to know their previous stat values.
+See the above sections for best practices on retrieving these.
 
 Any of these stats could correspond to a leaderboard, which will be discussed in the next article.
 
+
 ### Flushing Stats
 
-You can manually flush stats using `stats_manager::request_flush_to_service`.  You might want to do this if you are want to display a leaderboard.
+You can manually flush stats using `stats_manager::request_flush_to_service`.
+You might want to do this if you are want to display a leaderboard.
 
-For example, if you had a leaderboard for `Lifetime Kills` in the above example, you would want to make sure that the stat updates corresponding to this stat had been flushed to the server before displaying the leaderboard.  That way the leaderboards reflects the player's latest progress.
+For example, if you had a leaderboard for `Lifetime Kills` in the above example, you would want to make sure that the stat updates corresponding to this stat had been flushed to the server before displaying the leaderboard.  That way, the leaderboards reflects the player's latest progress.
+
 
 ### Cleanup
-When the title closes, remove the user from stats manager. This will flush the latest stat values to the service.
+
+When the title closes, remove the user from stats manager, as shown below.
+This will flush the latest stat values to the service.
 
 ```cpp
 statsManager->remove_local_user(user);

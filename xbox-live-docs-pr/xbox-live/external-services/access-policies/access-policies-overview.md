@@ -10,6 +10,7 @@ ms.technology: uwp
 keywords: xbox live, access policies
 ms.localizationpriority: medium
 ---
+
 # Overview of configuring access policies
 
 Configuring access policies to allow other apps, games, and services to access a title's Xbox Live settings.

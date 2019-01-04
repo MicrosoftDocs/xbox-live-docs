@@ -1,5 +1,5 @@
 ---
-title: Multiplayer manager API overview
+title: Multiplayer Manager API overview
 description: The most important classes and methods in the Multiplayer Manager API.
 ms.assetid: 658babf5-d43e-4f5d-a5c5-18c08fe69a66
 ms.date: 04/04/2017
@@ -7,6 +7,7 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, multiplayer manager
 ms.localizationpriority: medium
 ---
+
 # Multiplayer Manager API overview
 
 The following are the most important classes and methods in the Multiplayer Manager API.
@@ -15,7 +16,9 @@ For detailed API information, see the reference documentation.
 
 For examples of how to use these APIs in an application, see the Multiplayer Sample.
 
+
 ## Namespace
+
 The Multiplayer Manager classes are included the following namespace:
 
 | language | namespace |
@@ -31,6 +34,7 @@ There following lists describes the major classes that you should understand:
 * [Multiplayer Lobby Session class](#multiplayer-lobby-session-class)
 * [Multiplayer Game Session class](#multiplayer-game-session-class)
 
+
 ## Multiplayer Manager class <a name="multiplayer-manager-class">
 
 | language | class |
@@ -38,12 +42,14 @@ There following lists describes the major classes that you should understand:
 | C++/CX | MultiplayerManager |
 | C++ | multiplayer_manager |
 
-This class is the primary class for interacting with Multiplayer Manager. It is a singleton class, so you only need to create and initialize the class once.
+This class is the primary class for interacting with Multiplayer Manager.
+It is a singleton class, so you only need to create and initialize the class once.
 This class contains a single lobby session object and a single game session object.
 
 At a minimum, you must call the `initialize()` and `do_work()` methods on this class in order for Multiplayer Manager to function.
 
-The following tables describes some, but not all, of the more commonly used methods and properties for this class. For a complete descriptive list of class members, see the reference.
+The following tables describes some, but not all, of the more commonly used methods and properties for this class.
+For a complete descriptive list of class members, see the reference.
 
 | C++/CX | C++ | description |
 | --- | --- | --- |
@@ -59,6 +65,7 @@ The following tables describes some, but not all, of the more commonly used meth
 | LobbySession | lobby_session() | A handle to an object that represents the lobby session. |
 | GameSession |  game_session() | A handle to an object that represents the game session. |
 
+
 ## Multiplayer Event class <a name="multiplayer-event-class">
 
 | language | class |
@@ -66,13 +73,16 @@ The following tables describes some, but not all, of the more commonly used meth
 | C++/CX | MultiplayerEvent |
 | C++ | multiplayer_event |
 
-When you call `do_work()`, Multiplayer Manager returns a list of events that represent the changes to the sessions since you last called `do_work()`. These events include changes such as a member has joined a session, a member has left a session, member properties have changed, the host client has changed, etc.
+When you call `do_work()`, Multiplayer Manager returns a list of events that represent the changes to the sessions since you last called `do_work()`.
+These events include changes such as a member has joined a session, a member has left a session, member properties have changed, the host client has changed, etc.
 
 For a list of all possible event types, see the `multiplayer_event_type` enumeration.
 
-Each returned `multiplayer_event` includes an `event_args`, which you must cast to the appropriate event_args class for the event type. For example, if the `event_type` is `member_joined`, then you would cast the `event_args` reference to a `member_joined_event_args` class.
+Each returned `multiplayer_event` includes an `event_args`, which you must cast to the appropriate event_args class for the event type.
+For example, if the `event_type` is `member_joined`, then you would cast the `event_args` reference to a `member_joined_event_args` class.
 
 Your game should handle each of the events as necessary after calling `do_work()`.
+
 
 ## Multiplayer Member class <a name="multiplayer-member-class">
 
@@ -81,7 +91,9 @@ Your game should handle each of the events as necessary after calling `do_work()
 | C++/CX | MultiplayerMember |
 | C++ | multiplayer_member |
 
-This class represents a player in a lobby or game session. The class contains properties about the member, including the XboxUserID for the player, the network connection address for the player, custom properties for each player, and more.
+This class represents a player in a lobby or game session.
+The class contains properties about the member, including the XboxUserID for the player, the network connection address for the player, custom properties for each player, and more.
+
 
 ## Multiplayer Lobby Session class <a name="multiplayer-lobby-session-class">
 
@@ -90,9 +102,12 @@ This class represents a player in a lobby or game session. The class contains pr
 | C++/CX | MultiplayerLobbySession |
 | C++ | multiplayer_lobby_session |
 
-A persistent session used for managing users that are local to this device and your invited friends that wish to play together. A lobby session must contain at least one member in order for Multiplayer Manager to take any multiplayer actions. You can initially create a new lobby session by calling the `add_local_user()` method.
+A persistent session used for managing users that are local to this device and your invited friends that wish to play together.
+A lobby session must contain at least one member in order for Multiplayer Manager to take any multiplayer actions.
+You can initially create a new lobby session by calling the `add_local_user()` method.
 
-The following tables describes some, but not all, of the more commonly used methods and properties for this class. For a complete descriptive list of class members, see the reference.
+The following tables describes some, but not all, of the more commonly used methods and properties for this class.
+For a complete descriptive list of class members, see the reference.
 
 | C++/CX | C++ | description |
 | --- | --- | --- |
@@ -121,11 +136,16 @@ The following tables describes some, but not all, of the more commonly used meth
 | C++/CX | MultiplayerGameSession |
 | C++ | multiplayer_game_session |
 
-The game session represents the group of Xbox Live members that are participating in an instance of actual game play. This can include players that have been matched up via matchmaking services.
+The game session represents the group of Xbox Live members that are participating in an instance of actual game play.
+This can include players that have been matched up via matchmaking services.
 
-To start a new game session that includes members from the `lobby_session`, you can call `multiplayer_manager::join_game_from_lobby()`. If you want to use Xbox Live matchmaking, you can call `multiplayer_manager::find_match()`. If you're using a third party matchmaking service, you can call `multiplayer_manager::join_game()`.
+To start a new game session that includes members from the `lobby_session`, you can call `multiplayer_manager::join_game_from_lobby()`.
+If you want to use Xbox Live matchmaking, you can call `multiplayer_manager::find_match()`.
+If you're using a third party matchmaking service, you can call `multiplayer_manager::join_game()`.
+<!-- tbd: link to c++ ref if possible (global) -->
 
-The following tables describes some, but not all, of the more commonly used methods and properties for this class. For a complete descriptive list of class members, see the reference.
+The following tables describes some, but not all, of the more commonly used methods and properties for the `multiplayer_manager` class.
+For a complete descriptive list of class members, see the API Reference for this class.
 
 | C++/CX | C++ | description |
 | --- | --- | --- |

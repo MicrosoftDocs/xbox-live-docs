@@ -7,14 +7,21 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, spop, single point of presence
 ms.localizationpriority: medium
 ---
+
 # Single Point of Presence (SPOP)
 
-## Overview
-Single Point of Presence (SPOP), is an Xbox Live enforced condition where a title can only be played on one device at a time. This is enforced for Xbox One XDK and UWP titles on any device.
-An Xbox Live title, regardless of the device it is on, can kick a user who is signed into a title on another Xbox One or Windows 10 device.
+Single Point of Presence (SPOP) is an Xbox Live-enforced condition where a title can only be played on one device at a time.
+This is enforced for Xbox One XDK and UWP titles on any device.
+
+An Xbox Live title, regardless of the device it is on, can sign-out a user who is signed into a title on another Xbox One or Windows 10 device.
+
 
 ## How to handle SPOP
-SPOP should be handled by the title the same way as any other type of sign out event. The user will always be notified via UI when they do an action that would initiate an SPOP to verify that they would like to cause the title to be disconnected on the other device.
+
+Single Point of Presence (SPOP) should be handled by the title the same way as any other type of sign-out event.
+The user will always be notified via UI when they do an action that would initiate an SPOP sign-out event, to verify that the user wants the title to be disconnected on the other device.
 
 * For XDK titles, the `User::SignOutCompleted` event will trigger when this occurs.
-* For UWP titles, they will be notified of the sign out through the `sign_out_complete` handler from the `xbox_live_user` class. See [Authentication for UWP projects](authentication-for-UWP-projects.md) for more detail
+
+* For UWP titles, they will be notified of the sign out through the `sign_out_complete` handler from the `xbox_live_user` class.
+  See [Authentication for UWP projects](authentication-for-UWP-projects.md) for more detail

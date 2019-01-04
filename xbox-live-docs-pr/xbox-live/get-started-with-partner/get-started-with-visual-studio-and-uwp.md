@@ -1,5 +1,5 @@
 ---
-title: Get started with Visual Studio for UWP games
+title: Get started using Visual Studio for UWP games
 description: Setting up a Visual Studio project to enable Xbox Live for a UWP game.
 ms.assetid: b53bc91f-79db-4d8f-8919-b9144e2d609b
 ms.date: 11/28/2017
@@ -7,25 +7,30 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
+
 # Get started using Visual Studio for UWP games
+
 
 ## Requirements
 
-1. Enrollment in the **[Partner Center developer program](https://developer.microsoft.com/store/register)**.
-2. **[Windows 10](https://microsoft.com/windows)**.
-3. **[Visual Studio](https://www.visualstudio.com/)** with the **Universal Windows App Development Tools**. The minimum required version for UWP apps is Visual Studio 2015 Update 3. We recommend that you use the latest release of Visual Studio for developer and security updates. 
-4. **[Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk) v10.0.10586.0** or later.
+* Enrollment in the **[Partner Center developer program](https://developer.microsoft.com/store/register)**.
+* **[Windows 10](https://microsoft.com/windows)**.
+* **[Visual Studio](https://www.visualstudio.com/)** with the **Universal Windows App Development Tools**. The minimum required version for UWP apps is Visual Studio 2015 Update 3. We recommend that you use the latest release of Visual Studio for developer and security updates. 
+* **[Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk) v10.0.10586.0** or later.
 
 > [!IMPORTANT]
 > Visual Studio 2017 is required if using Windows 10 SDK version 10.0.15063.0 (also known as Creators Update) or later.
+
 
 ## Create a new product in Partner Center
 
 Every Xbox Live title must have a product created in [Partner Center](https://partner.microsoft.com/dashboard) before you will be able to sign-in and make Xbox Live Service calls. See [Create a title on UDC](create-a-new-title.md) for more information.
 
+
 ## Configuring your development device
 
 The following preliminary setup steps are required on your device, so that you can successfully login with Xbox Live and call the various Xbox Live Services.
+
 
 ### Set your sandbox
 
@@ -33,13 +38,16 @@ Sandboxes offer a way to keep your [Xbox Live Service Configuration](../xbox-liv
 
 See the [Xbox Live Sandboxes](../xbox-live-sandboxes.md) article to learn more and see how to set your sandbox.
 
+
 ### Sign-in with a test account
 
 To sign-in to your development sandbox, you must either create a test account, or provision a regular Microsoft Account (MSA) for access to your sandbox. This provides improved security for your titles in development, as well as some other benefits.
 
 To learn more about test accounts and how to create one, see [Xbox Live Test Accounts](../xbox-live-test-accounts.md)
 
+
 ## Visual Studio Project Setup
+
 
 ### 1. Open a UWP project
 If you do not already have an existing UWP project, you can create one by doing the following:
@@ -53,6 +61,7 @@ If you do not already have an existing UWP project, you can create one by doing 
 
 > [!NOTE]
 > Xbox Live API (XSAPI) requires a minimum version 10.0.10586.0 or higher.
+
 
 ### 2. Add references to the Xbox Live API (XSAPI) in your project
 
@@ -79,11 +88,17 @@ To use the Xbox Live API from your project, you can either add references to the
 > [!IMPORTANT]
 > For `Microsoft.Xbox.Live.SDK.Cpp.*` based projects, make sure to include the header `#include <xsapi\services.h>` in your project's source.
 
+
 ### 3. (Optional) Using Connected Storage and/or Secure Sockets
+
 Depending on the version of the Windows SDK that you are using, you may need to install additional content or manually add references to your project in order to use Xbox Live [Connected Storage](../storage-platform/connected-storage/connected-storage-technical-overview.md) or Secure Sockets. If you want to use the Connected Storage feature, you will need to access the `Windows.Gaming.XboxLive.Storage` namespace. If you want to use Secure Sockets, you will need to access `Windows.Networking.XboxLive`.
 
+
 #### Windows 10 SDK version 10.0.16299 or higher
-If you've targeted Windows 10 SDK 10.0.16299 or higher, then you will be able to access the Connected Storage namespace without doing any additional work. To access Secure Sockets, you will need to add a reference to **Windows Desktop Extensions for UWP**. You can do this by:
+
+If you've targeted Windows 10 SDK 10.0.16299 or higher, then you will be able to access the Connected Storage namespace without doing any additional work.
+To access Secure Sockets, you will need to add a reference to **Windows Desktop Extensions for UWP**.
+You can do this by:
 
 1. In the **Solution Explorer**, right click on the **References** node and pick **Add Reference...**
 2. On the left side of the **Reference Manager** dialog, select **Universal Windows** > **Extensions**.
@@ -92,18 +107,23 @@ If you've targeted Windows 10 SDK 10.0.16299 or higher, then you will be able to
 
 ![add new reference in VS](../images/getting_started/get-started-vs-add-ref.png)
 
+
 #### Windows 10 SDK version 10.0.15063 or lower
-If you want to use Connected Storage or Secure Sockets, you will need to install the Xbox Live Platforms Extensions SDK before you can add references to your project. You can do this by:
+
+If you want to use Connected Storage or Secure Sockets, you will need to install the Xbox Live Platforms Extensions SDK before you can add references to your project.
+You can do this as follows:
 
 1. Download and extract the [Xbox Live Platform Extensions SDK](http://aka.ms/xblextsdk).
 2. Once extracted, run the included MSI file that matches the Windows 10 SDK version that you are using.
 
-After you have installed the Xbox Live Platform Extensions SDK, you will need to add a reference to it in Visual Studio. You can do this by:
+After you have installed the Xbox Live Platform Extensions SDK, you will need to add a reference to it in Visual Studio.
+You can do this as follows:
 
 1. In the **Solution Explorer**, right click on the **References** node and pick **Add Reference...**
 2. On the left side of the **Reference Manager** dialog, select **Universal Windows** > **Extensions**.
 3. In the list that appears, search for **Windows Desktop Extensions for UWP** and select the checkbox next to the version that matches your Windows 10 SDK.
 4. Click **OK**.
+
 
 ### 4. Associate your Visual Studio project with your UWP app
 
@@ -115,13 +135,16 @@ For your game to be able to sign-in, it must be associated with the product you 
 > [!TIP]
 > See [Packaging apps](https://docs.microsoft.com/windows/uwp/packaging/) for more information on preparing your game for Windows Store.
 
+
 ### 5. Add Internet capabilities to your Visual Studio Project
+
 Your UWP project will need to specify internet capabilities to communicate with Xbox Live. You can set these properties by:
 
 1. Double click on the **package.appxmanifest** file in Visual Studio to open the **Manifest Designer**.
 2. Click on the **Capabilities** tab and check **Internet (Client)**.
 
 ![add new reference in VS](../images/getting_started/get-started-vs-add-capability.png)
+
 
 ### 6. Associate your Visual Studio project with your Xbox Live enabled title
 
@@ -153,9 +176,11 @@ For example:
 > [!TIP]
 > All values inside xboxservices.config are case sensitive. See [Service Configuration](../xbox-live-service-configuration.md) for more information on obtaining the TitleID and PrimaryServiceConfigId.
 
+
 ### 7. (Optional) Add multiplayer capabilities
 
 If you plan to add Multiplayer support to your title, and want to implement the ability for players to invite other users for a multiplayer game, then you need to add another field to your AppXManifest file. See [Configure your AppXManifest For Multiplayer](../multiplayer/service-configuration/configure-your-appxmanifest-for-multiplayer.md) for more information.
+
 
 ## Learn More
 

@@ -8,9 +8,11 @@ ms.technology: uwp
 keywords: windows 10, uwp, games, xbox, xbox live, resources, API, reference, tools
 ms.localizationpriority: medium
 ---
+
 # Xbox Live resources
 
 The following are useful resources for developing Xbox Live-enabled games.
+
 
 ## API reference
 
@@ -35,6 +37,7 @@ The Xbox Live API source code is publicly available on GitHub at:
 
 * [Xbox Live API source](https://github.com/Microsoft/xbox-live-api)
 
+
 ## Xbox Live Unity plug-in
 
 For developers in the Xbox Live Creators Program that are using Unity to develop their game, the Xbox Live Unity plug-in is available on GitHub at:
@@ -43,6 +46,7 @@ For developers in the Xbox Live Creators Program that are using Unity to develop
 
 > [!WARNING]
 > Because this is an Xbox Live Creators Program tool, the Xbox Live Unity plug-in will not provide the full suite of Xbox Live features. Refer to the [developer program overview feature table](developer-program-overview.md#feature-table) to see what Xbox Live services will be available.
+
 
 ## Xbox Live Platform Extensions SDK
 
@@ -54,11 +58,13 @@ This package contains winmd files and documentation related to Secure Networking
 > - This download is not required if your developer environment is using the Windows 10 Fall Creators Update SDK or later.
 > - Secure Sockets are not available to developers in the Xbox Live Creators Program.
 
+
 ## Xbox Live tools
 
 There are several useful tools that you use to help you develop for Xbox Live. Find more information at:
 
 * [Development tools for Xbox Live](tools/tools.md)
+
 
 ## Xbox Live code samples
 
@@ -69,6 +75,7 @@ Public Xbox Live code samples are available on GitHub.
 * [Samples for ID@Xbox](https://github.com/Microsoft/xbox-live-samples/tree/master/Samples/ID%40XboxSDK)
 
 Samples that are restricted to managed partners can be found on the Games Developer Network Portal.
+
 
 ## Xbox Live managed partner-only content
 

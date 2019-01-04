@@ -596,8 +596,8 @@ ms.localizationpriority: medium
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>PC</h3>
-                                                    <p>Buid a title specific for the Windows platform.</p>
+                                                    <h3>Windows</h3>
+                                                    <p>Build a title specifically for the Windows platform.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -616,7 +616,7 @@ ms.localizationpriority: medium
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Xbox</h3>
-                                                    <p>Build a title specific for the Xbox console.</p>
+                                                    <p>Build a title specifically for the Xbox console.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -654,7 +654,7 @@ ms.localizationpriority: medium
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Android Platform</h3>
-                                                    <p>Create powerful gaming experineces on Android.</p>
+                                                    <p>Create powerful gaming experiences on Android.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -673,7 +673,7 @@ ms.localizationpriority: medium
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Unity</h3>
-                                                    <p>Intigrate XBL title with the Unity game engine.</p>
+                                                    <p>Integrate an XBL game with the Unity game engine.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -759,7 +759,7 @@ ms.localizationpriority: medium
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>JavaScript Object Notion</h3>
-                                                    <p>Detailed specifics on each JSON utilzed by XBL services.</p>
+                                                    <p>Detailed specifics on each JSON utilized by XBL services.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -777,8 +777,8 @@ ms.localizationpriority: medium
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Enumerations Used in JSON </h3>
-                                                    <p>Explore defined JSON objects that are used in request to, and reponces from, XBL services.</p>
+                                                    <h3>Enumerations Used in JSON</h3>
+                                                    <p>Explore defined JSON objects that are used in request to, and responses from, XBL services.</p>
                                                 </div>
                                             </div>
                                         </div>

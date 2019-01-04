@@ -7,9 +7,11 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer manager, flowchart
 ms.localizationpriority: medium
 ---
+
 # Flowchart - Handle protocol activation
 
 The following flowcharts show the flow of responding to a game invite, or joining a game via the member's profile card.
+
 
 ## Handle protocol activation
 

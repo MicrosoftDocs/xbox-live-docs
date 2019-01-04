@@ -1,5 +1,5 @@
 ---
-title: Unity for UWP with .NET scripting
+title: Add XBL support to Unity for UWP, with .NET scripting
 description: Add Xbox Live support to Unity for UWP with .NET scripting backend, for ID@Xbox and managed partners.
 ms.assetid: 790a49ad-eff4-4916-8578-968ca8483211
 ms.date: 04/04/2017
@@ -7,7 +7,10 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, Unity
 ms.localizationpriority: medium
 ---
-# Add Xbox Live support to Unity for UWP with .NET scripting backend for ID@Xbox and managed partners
+
+# Add XBL support to Unity for UWP, with .NET scripting
+
+You can add Xbox Live support to Unity for UWP with .NET scripting backend for ID@Xbox and managed partners.
 
 **1) Install Unity**
 
@@ -121,6 +124,7 @@ If you change anything in Unity, then you must rebuild the UWP project.
 Note that Unity will replace your pfx file when you recompile which will cause Xbox Live sign-in to fail, so you must update it inside the Unity project to avoid this issue.
 
 To do this, go to File \| Build Settings, click on "Build Settings" on the Windows Store player and click the PFX button to replace the PFX file with the one you got from above. You can alternatively delete the PFX file each time you rebuild the project from within Unity.
+
 
 ## Troubleshooting common issues
 

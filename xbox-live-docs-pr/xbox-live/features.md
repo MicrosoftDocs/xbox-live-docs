@@ -12,18 +12,26 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h1>Feature Knowledge</h1>
-<p>Xbox Live is a premier gaming network that connects millions of gamers across the world. You can add Xbox Live to your Windows 10 or Xbox One game in order to take advantage of the Xbox Live features and services.</p>
+<h1>Features</h1>
+
+<p>
+    Xbox Live is a premier gaming network that connects millions of gamers across the world. You can add Xbox Live to your Windows 10 or Xbox One game in order to take advantage of the Xbox Live features and services.
+</p>
+
 
 <h2>Get Started</h2>
-<p>Learn how to build your first XBL feature by getting enrolled in a program, setting up a development kit, calling an API.</p>
+
+<p>
+    Build your first XBL feature by getting enrolled in a program, setting up a development kit, and then calling an API.
+</p>
 <div class="ico48Case halfStack">
-    <div class="ico48Link"><a href=""><img src="images/common/enroll_step1_icon.svg"><span>Enroll</span></a></div>
-    <div class="ico48Link"><a href=""><img src="images/common/setup_step2_icon.svg"><span>Setup</span></a></div>
+    <div class="ico48Link"><a href="https://www.xbox.com/en-US/developers/creators-program/" data-linktype="absolute-path"><img src="images/common/enroll_step1_icon.svg"><span>Enroll as Creator</span></a></div>
+    <div class="ico48Link"><a href="http://www.xbox.com/en-US/developers/id" data-linktype="absolute-path"><img src="images/common/enroll_step1_icon.svg"><span>Enroll in ID@Xbox</span></a></div>
+    <div class="ico48Link"><a href="get-started-with-creators/get-started-with-xbox-live-creators.md"><img src="images/common/setup_step2_icon.svg"><span>Set up as Creator</span></a></div>
+    <div class="ico48Link"><a href="get-started-with-partner/get-started-with-xbox-live-partner.md"><img src="images/common/setup_step2_icon.svg"><span>Set up in ID@Xbox</span></a></div>
 </div>
 
-
-<h2>Overview of Feature Knowledge</h2>
+<h2>Overview of feature areas</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
         <a href="social-platform/social-platform.md">
@@ -36,7 +44,7 @@ ms.localizationpriority: medium
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Social Platform</h3>
+                        <h3>Social platform</h3>
                         <p>Tools to enhance the social aspect of any XBL experience.</p>
                     </div>
                 </div>
@@ -55,7 +63,7 @@ ms.localizationpriority: medium
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Data Platform</h3>
+                        <h3>Data platform</h3>
                         <p>Build a title to run as a service while incorporating engagement driving features.</p>
                     </div>
                 </div>
@@ -74,7 +82,7 @@ ms.localizationpriority: medium
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Storage Platform</h3>
+                        <h3>Cloud Storage</h3>
                         <p>Supplementary reference material for Xbox Live Services. Trigger events that enable global title data and player specific data in the cloud.</p>
                     </div>
                 </div>
@@ -93,7 +101,7 @@ ms.localizationpriority: medium
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Multiplayer Platform</h3>
+                        <h3>Multiplayer platform</h3>
                         <p>Client APIs to implement real-time multiplayer gameplay.</p>
                     </div>
                 </div>
@@ -150,7 +158,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardText">
                         <h3>API</h3>
-                        <p><a href="" data-linktype="absolute-path">Xbox Live RESTful API</a></p>
+                        <p><a href="xbox-live-rest/atoc-xboxlivews-reference.md">Xbox Live RESTful API</a></p>
                     </div>
                 </div>
             </div>
@@ -162,7 +170,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardText">
                         <h3>Tutorials</h3>
-                        <p><a href="" data-linktype="absolute-path">Xbox Live Samples and Combination Samples</a></p>
+                        <p><a href="samples.md">Xbox Live Samples and Combination Samples</a></p>
                      </div>
                 </div>
             </div>

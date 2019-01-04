@@ -10,14 +10,16 @@ ms.technology: uwp
 keywords: xbox live
 ms.localizationpriority: medium
 ---
+
 # Web services
 
 Web services.
 
+
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Web services overview](web-services-overview.md) | __ |
+| Article | Description |
+|---------|-------------|
+| [Overview of web services](web-services-overview.md) | __ |
 | [Portal configuration of web services](web-services-portal-config.md) | __ |
 | [SDK configuration of web services](web-services-sdk-config.md) | __ |

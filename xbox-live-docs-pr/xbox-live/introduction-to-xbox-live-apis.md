@@ -7,9 +7,11 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
+
 # Introduction to Xbox Live APIs
 
-## Use Xbox Live services
+
+## Using Xbox Live services
 
 There are two ways to get information from the Xbox Live services:
 
@@ -31,7 +33,8 @@ The advantages of using the **Xbox Live REST endpoints** directly include:
 
 Your games and apps are not limited to using just one of these methods. You can use the XSAPI wrapper and still call the REST endpoints directly if needed.
 
-## Xbox Live Services API Overview ##
+
+## Overview of the Xbox Live Services API
 
 The Xbox Live Services API (**XSAPI**) exposes three sets of client side APIs that support a wide range of customer scenarios:
 
@@ -41,7 +44,8 @@ The Xbox Live Services API (**XSAPI**) exposes three sets of client side APIs th
 
 Comparing the APIs:
 
-### XSAPI WinRT based API
+
+### XSAPI WinRT-based API
 
 - Supports applications written with C++/CX, C#, and JavaScript.
     - C++/CX is a Microsoft C++ extension to make WinRT programming easy for example using ^ as WinRT pointers.
@@ -67,7 +71,7 @@ winrt::Microsoft::Xbox::Services::XboxLiveContext xblContext(cppWinrtUser);
 ```
 
 
-### XSAPI C++11 based API
+### XSAPI C++11-based API
 
 - Uses cross platform ISO standard C++11
 - Supports applications written with C++
@@ -83,7 +87,7 @@ winrt::Microsoft::Xbox::Services::XboxLiveContext xblContext(cppWinrtUser);
 
 - C++/WinRT is also supported.  More information about C++/WinRT can be found at [https://moderncpp.com/2016/10/13/cppwinrt-available-on-github/](https://moderncpp.com/2016/10/13/cppwinrt-available-on-github/)
 
-To use C++/WinRT with the XSAPI C++ API, before including the XSAPI header define XSAPI_CPPWINRT.  For example:
+To use C++/WinRT with the XSAPI C++ API, before including the XSAPI header, define XSAPI_CPPWINRT.  For example:
 
 ```cpp
 #define XSAPI_CPPWINRT
@@ -97,10 +101,10 @@ winrt::Windows::Xbox::System::User cppWinrtUser = winrt::Windows::Xbox::System::
 std::shared_ptr<xbox::services::xbox_live_context> xboxLiveContext = std::make_shared<xbox::services::xbox_live_context>(cppWinrtUser);
 ```
 
-### XSAPI C based API
+### XSAPI C-based API
 
 - Allows titles to control the memory allocations when calling XSAPI.
 - Allows titles to gain full control of thread handling when calling XSAPI.
 - Uses a new HTTP library, libHttpClient, designed for game developers.
 
-For more information, see [Introduction to the Xbox Live C APIs](xsapi-flat-c.md).
+See [Introduction to the Xbox Live C APIs](xsapi-flat-c.md).

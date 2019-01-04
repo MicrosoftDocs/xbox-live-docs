@@ -1,5 +1,5 @@
 ---
-title: Reputation
+title: The Reputation service
 author: mikehoffms
 description: The Reputation service encourages positive gameplay.
 ms.author: v-mihof
@@ -9,13 +9,14 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, reputation, social 
 ms.localizationpriority: medium
 ---
 
-# Reputation
+# The Reputation service
 
 The Reputation service encourages positive gameplay.
 
+
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| Article | Description |
+|---------|-------------|
 | [The Reputation service](the-reputation-service.md) | The Reputation service encourages positive gameplay. |
-| [Send player feedback from title](sending-player-feedback-from-your-title.md) | Promoting positive player experiences by sending player feedback to the Xbox Live Reputation service. |
+| [Sending Reputation feedback from your title](sending-player-feedback-from-your-title.md) | Promoting positive player experiences by sending player feedback to the Xbox Live Reputation service. |

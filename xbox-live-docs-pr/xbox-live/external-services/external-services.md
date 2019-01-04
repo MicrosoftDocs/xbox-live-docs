@@ -10,14 +10,16 @@ ms.technology: uwp
 keywords: xbox live
 ms.localizationpriority: medium
 ---
+
 # External services
 
 External services.
 
+
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| Article | Description |
+|---------|-------------|
 | [Web services](web-services/web-services.md) | __ |
 | [Relying parties](relying-parties/relying-parties.md) | __ |
 | [Single sign-on](single-sign-on/single-sign-on.md) | __ |

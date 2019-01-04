@@ -10,14 +10,16 @@ ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer manager
 ms.localizationpriority: medium
 ---
+
 # Multiplayer Manager
 
 Multiplayer Manager is a high-level API for adding multiplayer functionality to your game by managing sessions and matchmaking, and by providing a state- and event-based programming model.
 
+
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| Article | Description |
+|---------|-------------|
 | [Multiplayer Manager overview](multiplayer-manager-overview.md) | Multiplayer Manager is a high-level API for adding multiplayer functionality to your game by managing sessions and matchmaking, and by providing a state- and event-based programming model. |
 | [API overview](multiplayer-manager/multiplayer-manager-api-overview.md) | The most important classes and methods in the Multiplayer Manager API. |
 | [Multiplayer games with friends](multiplayer-manager/play-multiplayer-with-friends.md) | Using Multiplayer Manager to enable playing a multiplayer game online with friends. |

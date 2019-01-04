@@ -10,8 +10,9 @@ ms.technology: uwp
 keywords: xbox live
 ms.localizationpriority: medium
 ---
+
 # Overview of portals and documentation sites
 
-Overview of portals and documentation sites.
+Overview of portals and documentation sites for enabling your game for Xbox Live.
 
 TBD

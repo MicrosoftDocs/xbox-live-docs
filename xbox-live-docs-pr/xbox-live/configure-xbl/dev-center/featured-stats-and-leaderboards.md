@@ -7,6 +7,7 @@ ms.topic: article
 ms.localizationpriority: medium
 keywords: Xbox Live, Xbox, games, uwp, windows 10, Xbox one, Featured Stats and leaderboards, leaderboards, stats 2017, Partner Center
 ---
+
 # Configuring Featured Stats and Leaderboards 2017 in Partner Center
 
 For a game to interact with the stats service, a stat needs to be defined in [Partner Center](https://partner.microsoft.com/dashboard). All Featured Stats will show up on the GameHub, which makes it automatically act as a leaderboard. We will store the raw value, however, the game will own the logic for determining if a new value should be provided.
@@ -47,6 +48,7 @@ Please note the following requirements when configuring a featured stat and lead
 | Xbox Live Creators Program | There is no requirement to designate any stats as Featured Stats | 20 |
 | ID@Xbox and Microsoft Partners | You must designate at least 3 Featured Stats | 20 |
 
+
 ## Next steps
 
-Next you'll need to update the stats from your code.  See [Updating Stats](../../leaderboards-and-stats-2017/player-stats-updating.md) for more details.
+Next, update the stats from your code; see [Updating Stats](../../leaderboards-and-stats-2017/player-stats-updating.md).

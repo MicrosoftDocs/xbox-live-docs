@@ -7,7 +7,9 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, service configuration
 ms.localizationpriority: medium
 ---
+
 # Xbox Live service configuration
+
 
 ## What is Service Configuration?
 
@@ -23,6 +25,7 @@ If you are a developing your title as part of the Xbox Live Creators Program, yo
 
 If you are an ID@Xbox Developer or working with a publisher that is a Microsoft Partner, please read on.
 
+
 ## Choose your development portal
 
 As mentioned above, there are two different portals that can be used to configure Xbox Live Services. Partner Center at [https://partner.microsoft.com/dashboard](https://partner.microsoft.com/dashboard) and the Xbox Development Portal (XDP) at [http://xdp.xboxlive.com](http://xdp.xboxlive.com).
@@ -36,8 +39,10 @@ You can find information about specific service configuration pages depending on
 
 If you already have a title configured, you can scroll down to [Get your IDs](#get_ids) to learn how to get the various identifiers required to setup your title.
 
+
 ### PC/Mobile UWP game only
 Partner Center is recommended for configuring and managing UWP games that run only on Windows 10 PCs and/or Windows 10 mobile devices.
+
 
 #### Using XDP to configure UWP titles
 
@@ -57,6 +62,7 @@ Using XDP to configure Xbox Live Services for UWP applications has a few importa
 
 Given these two considerations, we recommended using Partner Center for PC/Mobile games, unless you fall into one of the categories described above.
 
+
 ### Cross-play between Xbox One and PC/Mobile games ###
 Cross-device gaming between the Xbox One and the PC, known as cross-play, is a showcase Windows 10 experience. In this scenario, both the Xbox One and PC versions of a game share the same Xbox Live configuration.
 
@@ -71,6 +77,7 @@ In order to implement cross-play, do the following:
 
 There's more detail on this process, including items which are *not* self-service in the [Getting started with cross-play games](get-started-with-partner/get-started-with-cross-play-games.md) guide
 
+
 ### Separate versions of Xbox One and PC/Mobile games that are not cross-play
 You may decide to keep your Xbox One version of a game separate from the PC/Mobile version of the same game. In this case, you create two separate products, and follow the guidance for Xbox One XDK only and PC/Mobile UWP game only respectively.
 
@@ -78,17 +85,20 @@ You cannot use the same service configuration for both versions in this case, an
 
 <a name="get_ids"></a>
 
+
 ## Get your IDs
 
 To enable Xbox Live services, you will need to obtain several IDs to configure your development kit and your title. These can be obtained by doing Xbox Live service configuration.
 
 If you do not currently have a title in XDP or Partner Center, see the above section [Xbox Live Service Configuration portals](#xbox_live_portals) for guidance.
 
+
 ### Critical IDs
 
 There are three IDs which are critical for development of titles and applications for Xbox One: the sandbox ID, the Title ID, and the SCID.
 
 While it is necessary to have a sandbox ID to use a development kit, the Title ID and SCID are not required for initial development but are required for any use of Xbox Live services. We therefore recommend that you obtain all three at once.
+
 
 #### Sandbox IDs
 
@@ -108,6 +118,7 @@ If you are configuring your title on XDP, you get your Sandbox ID on the overvie
 
 ![](images/getting_started/xdp_sandbox_id.png)
 
+
 #### Service Configuration ID (SCID)
 
 As a part of development, you will create events, achievements, and a host of other online features. These are all part of your service configuration, and require the SCID for access.
@@ -126,11 +137,12 @@ To retrieve your SCID on XDP, navigate to the "Product Setup" section under your
 
 ![](images/getting_started/xdp_scid.png)
 
+
 #### Title ID
 
 The Title ID uniquely identifies your title to Xbox Live services. It is used throughout the services to enable your users to access your title's Live content, their user statistics, achievements, and so forth, and to enable Live multiplayer functionality.
 
-Title IDs can be case sensitive, depending on how and where they are used.
+Title IDs can be case-sensitive, depending on how and where they are used.
 
 **Partner Center**
 
@@ -138,6 +150,6 @@ Your Title ID in Partner Center is found in the same table as the SCID in the *X
 
 **XDP**
 
-Your Title ID on XDP is obtained from the same location as the SCID is.
+Your Title ID on XDP is obtained from the same location as the SCID.
 
 <a name="xbox_live_portals"></a>

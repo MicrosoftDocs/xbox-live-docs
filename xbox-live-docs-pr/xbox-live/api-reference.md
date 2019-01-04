@@ -13,7 +13,12 @@ ms.localizationpriority: medium
 ---
 
 <h1>API Reference</h1>
-<p>Xbox Live Services is a set of services for managing games and player information. These services support the Xbox.Services API which should be used whenever possible. Use the RESTful interface described in this section for newer methods that have not be added to Xbox.Services yet.</p>
+
+<p>
+    Xbox Live Services is a set of services for managing games and player information.
+    Xbox Live Services support the Xbox.Services API, which should be used whenever possible.
+    Use the RESTful interface described in this section for newer methods that have not be added to Xbox.Services yet.
+</p>
 
 <h2>Get Started</h2>
 <p>Learn how to build your first XBL feature by getting enrolled in a program, setting up a development kit, calling an API.</p>
@@ -26,7 +31,26 @@ ms.localizationpriority: medium
 <h2>Overview of API References</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="">
+        <a href="samples.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Xbox Live samples" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Xbox Live samples</h3>
+                        <p>There are Xbox Live API samples and Xbox Developer Kit samples.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="xbox-live-rest/uri/atoc-xboxlivews-reference-uris.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -37,7 +61,7 @@ ms.localizationpriority: medium
                     </div>
                     <div class="cardText">
                         <h3>Universal Resources Identifier (URI) Reference</h3>
-                        <p>Provides reference material for the resources and methods that can be used with Xbox Live Services.</p>
+                        <p>Reference material for the resources and methods that can be used with Xbox Live Services.</p>
                     </div>
                 </div>
             </div>
@@ -45,7 +69,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="">
+        <a href="xbox-live-rest/json/atoc-xboxlivews-reference-json.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -56,7 +80,7 @@ ms.localizationpriority: medium
                     </div>
                     <div class="cardText">
                         <h3>JavaScript Object Notation (JSON) Object Reference</h3>
-                        <p>Provides reference material for the JavaScript Object Notation (JSON) objects used with Xbox Live Services.</p>
+                        <p>Reference material for the JavaScript Object Notation (JSON) objects used with Xbox Live Services.</p>
                     </div>
                 </div>
             </div>
@@ -64,7 +88,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="">
+        <a href="xbox-live-rest/enums/atoc-xboxlivews-reference-enums.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -75,7 +99,7 @@ ms.localizationpriority: medium
                     </div>
                     <div class="cardText">
                         <h3>Enumerations Used In JavaScript Object Notation (JSON) Objects</h3>
-                        <p>Provides reference material for the enumerations used in JavaScript Object Notation (JSON) objects used with Xbox Live Services.</p>
+                        <p>Reference material for the enumerations used in JavaScript Object Notation (JSON) objects used with Xbox Live Services.</p>
                     </div>
                 </div>
             </div>
@@ -94,7 +118,7 @@ ms.localizationpriority: medium
                     </div>
                     <div class="cardText">
                         <h3>Additional Reference</h3>
-                        <p>Supplementary reference material for Xbox Live Services. This includes information about authorization types, data types, standard HTTP status codes and headers, paging parameters, and Entertainment Discovery Services (EDS).</p>
+                        <p>Supplementary reference material for Xbox Live Services, including authorization types, data types, standard HTTP status codes and headers, paging parameters, and Entertainment Discovery Services (EDS).</p>
                     </div>
                 </div>
             </div>
@@ -112,7 +136,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardText">
                         <h3>API</h3>
-                        <p><a href="" data-linktype="absolute-path">Xbox Live RESTful API</a></p>
+                        <p><a href="xbox-live-rest/atoc-xboxlivews-reference.md" data-linktype="relative-path">Xbox Live RESTful API</a></p>
                     </div>
                 </div>
             </div>
@@ -124,7 +148,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardText">
                         <h3>Tutorials</h3>
-                        <p><a href="" data-linktype="absolute-path">Xbox Live Samples and Combination Samples</a></p>
+                        <p><a href="samples.md" data-linktype="relative-path">Xbox Live Samples and Combination Samples</a></p>
                      </div>
                 </div>
             </div>

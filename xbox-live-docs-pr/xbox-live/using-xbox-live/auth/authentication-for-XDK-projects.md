@@ -7,9 +7,17 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
+
 # Authentication for XDK projects
 
-To take advantage of Xbox Live features in games, a user needs to create an Xbox Live profile to identify themselves in the Xbox Live community.  Xbox Live services keep track of game related activities using that Xbox Live profile, such as the user's gamertag and gamer picture, who the user's gaming friends are, what games the user has played, what achievements the user has unlocked, where the user stands on the leaderboard for a particular game, etc.
+To take advantage of Xbox Live features in games, a user needs to create an Xbox Live profile to identify themselves in the Xbox Live community.
+
+Xbox Live services keep track of game related activities using that Xbox Live profile, such as:
+* The user's gamertag and gamer picture
+* Who the user's gaming friends are
+* What games the user has played
+* What achievements the user has unlocked
+* Where the user stands on the leaderboard for a particular game
 
 At a high level, you use the Xbox Live APIs by following these steps:
 1. Identify the interacting user
@@ -17,17 +25,20 @@ At a high level, you use the Xbox Live APIs by following these steps:
 3. Use the Xbox Live context to access Xbox Live services
 4. When the game exits or the user signs-out, release the XboxLiveContext object by setting it to null
 
-### Creating an XboxLiveUser object
-Most of the Xbox Live activities are related to the Xbox Live Users.  As a game developer, you need to first create an XboxLiveUser object to represent the local user.
+
+## Creating an XboxLiveUser object
+
+Most of the Xbox Live activities are related to the Xbox Live Users.
+As a game developer, you need to first create an XboxLiveUser object to represent the local user.
 
 C++:
 ```
-Windows::Xbox::System::User^ user; // the interacting user.  From User::Users, etc
+Windows::Xbox::System::User^ user; // the interacting user.  From User::Users, etc.
 std::shared_ptr<xbox::services::xbox_live_context> xboxLiveContext = std::make_shared<xbox::services::xbox_live_context>( user );
 ```
 
 WinRT:
 ```
-Windows::Xbox::System::User^ user; // the interacting user.  From User::Users, etc
+Windows::Xbox::System::User^ user; // the interacting user.  From User::Users, etc.
 Microsoft::Xbox::Services::XboxLiveContext^ xboxLiveContext = ref new Microsoft::Xbox::Services::XboxLiveContext( user );
 ```

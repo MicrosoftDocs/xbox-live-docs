@@ -11,9 +11,10 @@ keywords: xbox live, xbox, games, windows, win32
 ms.localizationpriority: medium
 ---
 
-# Get started with the Xbox Live APIs on Win32
+# Get started with Xbox Live APIs on Win32
 
 In order to use the Xbox Live APIs with a Win32 game, you must include the Xbox Live API source in your project and build it.
+
 
 ## Add the Xbox Live SDK projects to your Visual Studio solution (using source code)
 
@@ -47,6 +48,7 @@ In order to use the Xbox Live APIs with a Win32 game, you must include the Xbox 
     If you are using C++ APIs, add `#include "xsapi\services.h"`.  
     If you are using flat C APIs, add `#include "xsapi-c\services_c.h"`.
 
+
 ## Samples
 
 Included in the SDK download are Win32 samples for achievements and social, under `{Xbox Live API root}\InProgressSamples\ID@XboxSDK`.
@@ -54,7 +56,9 @@ Included in the SDK download are Win32 samples for achievements and social, unde
 > [!IMPORTANT]
 > The Win32 samples use a C# sign-in app for demonstration purposes, but your actual game should render its own web page for sign-in.
 
+
 ## Usage differences for the Xbox Live APIs between UWP and Win32
+
 
 ### Sign-in and authorization
 
@@ -64,10 +68,15 @@ After signing a player in with XAL, your game should then create an xbox_live_co
 
 For more information about signing in a player by using XAL in a Win32 game, see [Xbox Live Authentication Library (Xal)](../using-xbox-live/auth/xal.md).
 
+
 ### xboxservices.config
 
-The Xbox Live APIs for Win32 rely on xboxservices.config just like the UWP version does, but the expected location of the file is slightly different. On UWP, the APIs  look for the file in the app installation directory, but on Win32 they look for it in the same directory as the game .exe.
+The Xbox Live APIs for Win32 rely on xboxservices.config just like the UWP version does, but the expected location of the file is slightly different:
+* On UWP, the APIs look for the file in the app installation directory.
+* On Win32, the APIs look for the file in the same directory as the game .exe.
 
-### Title callable UI (TCUI)
 
-Win32 does not currently provide any TCUI, so the `title_callable_ui` APIs are not available to Win32 games. Instead, games must create their own UI if they want to display profile cards, friend lists, etc.
+### Title-Callable UI (TCUI)
+
+Win32 does not currently provide any Title-Callable UI (TCUI), so the `title_callable_ui` APIs are not available to Win32 games.
+Instead, games must create their own UI if they want to display profile cards, friend lists, etc.

@@ -1,5 +1,5 @@
 ---
-title: Configure access policies in Partner Center
+title: Configuring access policies in Partner Center
 description: Configuring access policies to allow other apps, games, and services to access a title's Xbox Live settings.
 ms.assetid:
 ms.date: 02/21/2018
@@ -7,7 +7,8 @@ ms.topic: article
 ms.localizationpriority: medium
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, udc, universal developer center
 ---
-# Configure access policies in Partner Center
+
+# Configuring access policies in Partner Center
 
 You can use [Partner Center](https://partner.microsoft.com/dashboard) to allow other services, games, and apps to access your title's Xbox Live settings and data. For example, you may want a web service to display leaderboards on your website, or you may have a companion app that can access the game's title storage to view or modify saved game data.
 
@@ -28,7 +29,7 @@ Add configuration by doing the following:
 
 5. Select if the app or service can only read the data, or if it has full access to the data.
 
-6. Repeat for each setting, and for each app or service that needs access to those settings. You can click **Delete** to remove an entry.
+6. Repeat for each setting, and for each app or service that needs access to those settings. To remove an entry, click **Delete**.
 
 7. When you are finished, click the **Save** button to save your changes.
 

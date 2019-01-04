@@ -1,31 +1,51 @@
 ---
-title: Use the Leaderboard Example Scene in Unity
+title: Setting up the Leaderboard example scene in Unity
 description: Setting up the Leaderboard example scene in Unity.
 ms.date: 4/24/2018
 ms.topic: get-started-article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity, leaderboards
 ---
-# The Leaderboard example scene in Unity
 
-[The Unity Plugin](https://github.com/Microsoft/xbox-live-unity-plugin) hosts a number of example scenes to showcase the Xbox Live services available to Unity developers. One such scene is the leaderboard example scene. In the screenshot below you will see that the leaderboard example scene simply displays a sign-in panel for the Xbox Live user and a panel to contain the leaderboard. If you hit play at this point without adding to this scene you will find the sign-in panel is populated with fake user data, but the leaderboard loads no information. In order to get this example scene to load an actual leaderboard you'll have to make some additions.
+# Setting up the Leaderboard example scene in Unity
+
+[The Unity Plugin](https://github.com/Microsoft/xbox-live-unity-plugin) hosts a number of example scenes to showcase the Xbox Live services available to Unity developers.
+One such scene is the leaderboard example scene.
+
+In the screenshot below, the leaderboard example scene simply displays a sign-in panel for the Xbox Live user and a panel to contain the leaderboard.
+
+If you hit play at this point without adding to this scene, you will find the sign-in panel is populated with fake user data, but the leaderboard loads no information.
+In order to get this example scene to load an actual leaderboard, you'll have to make some additions.
 
 ![Leaderboard Scene Screenshot](../images/unity/leaderboard-scene-1804.JPG)
 
+
 ## Prerequisites
 
-Leaderboards in Xbox Live are based on the stats in the Xbox Live stats service. Before you can populate a leaderboard with data you will need to have some stats associated with your test accounts. If you have not already added statistics to your title you can learn how to do so by reading [Add player stats and leaderboards to your Unity project](add-stats-and-leaderboards-in-unity.md). After performing the actions in the stats section of that article come back here to display a stat in the example leaderboard scene.
+Leaderboards in Xbox Live are based on the stats in the Xbox Live stats service.
+Before you can populate a leaderboard with data you will need to have some stats associated with your test accounts.
+
+If you have not already added statistics to your title you can learn how to do so by reading [Add player stats and leaderboards to your Unity project](add-stats-and-leaderboards-in-unity.md).
+After performing the actions in the stats section of that article come back here to display a stat in the example leaderboard scene.
+
 
 ## The leaderboard inspector
 
-The leaderboard prefab has a number of settings that can be changed in the inspector section for the leaderboard's script component, such as the UI *theme*, the player associated with the leaderboard, xbox controller settings, and other leaderboard settings. You can see the leaderboard settings are split into a few different sections in the inspector below.
+The leaderboard prefab has a number of settings that can be changed in the inspector section for the leaderboard's script component, such as the UI *theme*, the player associated with the leaderboard, xbox controller settings, and other leaderboard settings.
+The leaderboard settings are split into a few different sections in the inspector below.
 
 ![Leaderboard inspector screenshot](../images/unity/leaderboard_script_inspector.JPG)
 
+
 ### Theme and display settings
 
-This section has one setting called *Theme*. This is a simple drop down which allows you to use a dark or light theme for your leaderboard prefab. This will change the background, font, and image colors of the prefab. The effect is easily seen when playing the scene in the unity player.
+This section has one setting called *Theme*.
+This is a simple drop-down which allows you to use a dark or light theme for your leaderboard prefab.
+This will change the background, font, and image colors of the prefab.
+
+The effect is easily seen when playing the scene in the Unity player.
 
 ![Light Theme](../images/unity/leaderboard_light_theme.JPG) ![Dark Theme](../images/unity/leaderboard_dark_theme.JPG)
+
 
 ### Stat configuration
 
@@ -33,8 +53,12 @@ This section allows you to determine what sort of data will be retrieved when th
 
 - **Player Number** - This dictates which player is associated with the leaderboard.
 - **Stat** - The stat used to populate the leaderboard data. This is required for the leaderboard prefab to load data.
-- **Leaderboard Type** - This drop down menu applies a filter to the leaderboard data loaded. If *Global* is selected the leaderboard will be unfiltered and will show every player with a value for the selected stat. If *Friends* is selected the leaderboard will be filtered to only show players on the leaderboard who are also in your friends list. If *Favorite* is selected the leaderboard will be filtered to only show players on the leaderboard who are also in your favorites list.
+- **Leaderboard Type** - This drop-down menu applies a filter to the leaderboard data loaded.
+   - If *Global* is selected, the leaderboard will be unfiltered and will show every player with a value for the selected stat.
+   - If *Friends* is selected, the leaderboard will be filtered to only show players on the leaderboard who are also in your friends list.
+   - If *Favorite* is selected, the leaderboard will be filtered to only show players on the leaderboard who are also in your favorites list.
 - **Entry Count** - A slider with a range of 1 to 100 that dictates how many rows of the leaderboard will be returned at a time. The number set here will determine the number of leaderboard rows shown per page.
+
 
 ### Controller configuration
 
@@ -52,9 +76,11 @@ The leaderboard prefab allows developers to easily configure Xbox controller use
 > [!NOTE]
 > Changing the buttons used for changing the page or view of the leaderboard will also change the picture associated with the button used for each function of the leaderboard. You do not need to alter the UI References section manually to match the picture to the button.
 
+
 ### UI References
 
 This section controls the images and general makeup of the leaderboard prefab. This section does not need to be changed for successful use of the leaderboard prefab. However you may need to make adjustments to this section to customize the look of the prefab for your own purposes.
+
 
 ## Populating the Unity Player leaderboard (with fake data)
 
@@ -66,6 +92,16 @@ Now play the scene in Unity and you will find that the leaderboard is populated 
 
 ![Fake data populated leaderboard screenshot](../images/unity/leaderboard-fake-data-1804.JPG)
 
+
 ## Populating a Visual Studio built project with real data
 
-In order to populate a leaderboard with real data for your title you will need to build your game to run locally on you machine. You will need a local build because the Unity editor does not have access to Xbox Live. In addition to building your project to run locally, you will have to configure the stat in your leaderboard to a stat that is initialized and has values for your title. In order to associate a stat to your leaderboard you will need to modify the ID and Display Name of the stat object in the leaderboard prefab. The ID will need to match that of a stat configured in [Partner Center](https://partner.microsoft.com/dashboard). After you have done this, build your project as described in the [build section of the configure Xbox Live in Unity article](configure-xbox-live-in-unity.md#build-and-test-the-project). Executing this project as an x64 build targeting the Local Machine should allow you to sign-in with a real gamertag and populate the leaderboard with real data.
+In order to populate a leaderboard with real data for your title you will need to build your game to run locally on you machine.
+You will need a local build because the Unity editor does not have access to Xbox Live.
+
+In addition to building your project to run locally, you will have to configure the stat in your leaderboard to a stat that is initialized and has values for your title.
+In order to associate a stat to your leaderboard you will need to modify the ID and Display Name of the stat object in the leaderboard prefab.
+The ID will need to match that of a stat configured in [Partner Center](https://partner.microsoft.com/dashboard).
+
+After you have done this, build your project as described in the [build section of the configure Xbox Live in Unity article](configure-xbox-live-in-unity.md#build-and-test-the-project).
+
+Executing this project as an x64 build targeting the Local Machine should allow you to sign-in with a real gamertag and populate the leaderboard with real data.

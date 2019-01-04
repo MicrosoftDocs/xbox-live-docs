@@ -10,14 +10,16 @@ ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, game chat, game chat 2, voice communication
 ms.localizationpriority: medium
 ---
+
 # Game Chat 2
 
 Add voice and text communication to your game by using Xbox Live Game Chat 2.
 
+
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| Article | Description |
+|---------|-------------|
 | [Game Chat 2 overview](game-chat-2-overview.md) | Adding voice and text communication to your game by using Xbox Live Game Chat 2. |
 | [Use Game Chat 2 (C++)](using-game-chat-2.md) | Using the C++ API of Game Chat 2 to add voice and text communication to your game. |
 | [Use Game Chat 2 (WinRT Projections)](using-game-chat-2-winrt.md) | Using the C# API of Game Chat 2 with WinRT projections to add voice and text communication to your game. |

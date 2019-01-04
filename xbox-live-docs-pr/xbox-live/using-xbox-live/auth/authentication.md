@@ -11,10 +11,11 @@ ms.localizationpriority: medium
 
 Signing-in an Xbox Live user in your title.
 
+
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| Article | Description |
+|---------|-------------|
 | [Xbox Authentication Layer (XAL)](xal.md) | An introduction to XAL and how to integrate it into your Xbox Live project. |
 | [Authentication for Universal Windows Platform (UWP) projects](authentication-for-UWP-projects.md) | Signing-in Xbox Live users in a Universal Windows Platform (UWP) title. |
 | [Authentication for Xbox Developer Kit (XDK) projects](authentication-for-XDK-projects.md) | Signing-in Xbox Live users in an Xbox Development Kit (XDK) title. |

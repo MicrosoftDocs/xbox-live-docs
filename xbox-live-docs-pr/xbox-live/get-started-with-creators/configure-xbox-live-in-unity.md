@@ -1,5 +1,5 @@
 ---
-title: Configure Xbox Live in Unity
+title: Configuring Xbox Live in Unity
 description: Use the Xbox Live Unity plugin to configure Xbox Live in your Unity game.
 ms.assetid: 55147c41-cc49-47f3-829b-fa7e1a46b2dd
 ms.date: 1/25/2018
@@ -7,7 +7,8 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, Unity, configure
 localizationpriority: medium
 ---
-# Configure Xbox Live in Unity
+
+# Configuring Xbox Live in Unity
 
 > [!NOTE]
 > The Xbox Live Unity plugin is only recommended for [Xbox Live Creators Program](../developer-program-overview.md) members, since currently there is no support for achievements or multiplayer.
@@ -15,6 +16,7 @@ localizationpriority: medium
 With the [Xbox Live Unity Plugin](https://github.com/Microsoft/xbox-live-unity-plugin), adding Xbox Live support to a Unity game is easy, giving you more time to focus on using Xbox Live in ways that best suit your title.
 
 This topic will go through the process of setting up the Xbox Live plugin in Unity.
+
 
 ## Prerequisites
 
@@ -41,6 +43,7 @@ To import the plugin into your new or existing Unity project, follow these steps
 3. In Unity, click **Assets** > **Import Package** > **Custom Package** and navigate to **XboxLive.unitypackage**.
 
 ![successful import](../images/unity/get-started-with-creators/importXBL_Small.gif)
+
 
 ### (Optional) Configure the plugin to work in the Unity Editor (.NET 4.6 or IL2CPP only)
 
@@ -74,11 +77,13 @@ We've added additional scripting runtime support to the Xbox Live Unity Plugin, 
 > [!IMPORTANT]
 > These steps will need to be reversed if you change the scripting runtime version in your project back to 3.5.
 
+
 ## Set Visual Studio as the IDE in Unity
 
 Visual Studio is required to build a [Universal Windows Platform (UWP)](https://docs.microsoft.com/windows/uwp/get-started/whats-a-uwp) game. You can set your IDE in Unity to Visual Studio by going into **Edit** > **Preferences** > **External Tools** and setting the **External Script Editor** to Visual Studio.
 
 ![set VS External Tool](../images/unity/get-started-with-creators/setVSExternalTool_Small.gif)
+
 
 ## Unity plugin file structure
 
@@ -92,6 +97,7 @@ The Unity plugin's file structure is broken into the following parts:
     * __Prefabs__ contains various [Unity prefab](https://docs.unity3d.com/Manual/Prefabs.html) objects that implement Xbox Live functionality.
     * __Scripts__ contains all the code files that call the Xbox Live APIs from the prefabs. This is a great place to look for examples about how to properly call the Xbox Live APIs.
     * __Tools\AssociationWizard__ contains the Xbox Live Association Wizard, used to pull down application configuration from [Partner Center](https://developer.microsoft.com/windows) for use within Unity.
+
 
 ## Enable Xbox Live
 
@@ -112,6 +118,7 @@ To call Xbox Live services, your desktop must be in developer mode and set to th
 ![XBL Enabled](../images/unity/unity-xbl-enabled.png)
 
 See [Xbox Live sandboxes](../xbox-live-sandboxes.md) for information about sandboxes.
+
 
 ## Build and test the project
 
@@ -139,21 +146,28 @@ If you enabled **script debugging** when you built the UWP solution from Unity, 
 > Before using your Visual Studio build to test your game with real data, follow [this checklist](test-visual-studio-build.md) to help ensure your title will be able to access the Xbox Live service.
 
 > [!IMPORTANT]
-> As of May 2018 it is now required that you make an update to the package.appxmanifest.xml file in order to test your UWP title properly in Visual Studio. To do this:
+> Starting May 2018, to test your UWP title properly in Visual Studio, you must update the `package.appxmanifest.xml` file. To do this:
 >
-> 1. Search the Solution Explorer for the package.appxmanifest.xml file
-> 2. Right click the file and choose View Code.  
-    If the View Code option is not available or the package.appxmanifest file does not have an extension. You will need to open the file as an xml and continue with the remaining steps.
-> 3. Under the `<Properties></Properties>` section, add the following line: `<uap:SupportedUsers>multiple</uap:SupportedUsers>`.
+> 1. Search the Solution Explorer for the `package.appxmanifest.xml` file.
+> 2. Right-click the file and then click **View Code**.
+    If the **View Code** option is not available, or the `package.appxmanifest` file does not have an extension, you will need to open the file as an XML file and then continue with the remaining steps.
+> 3. In the `<Properties>` section, add the following line: `<uap:SupportedUsers>multiple</uap:SupportedUsers>`.
 > 4. Deploy the game to your Xbox by starting a remote debugging build from Visual Studio. To set up your title on an Xbox, see [Set up your UWP on Xbox development environment](https://docs.microsoft.com/windows/uwp/xbox-apps/development-environment-setup).
 >
-> The piece of configuration changed may look like it is enabling multi-player but it is still necessary to run your game in single player scenarios.
+> The piece of configuration that is changed may look like it is enabling multi-player, but it is still necessary to run your game in single-player scenarios.
+
 
 ## Try out the examples
 
-You're all set to start using Xbox Live in your Unity project! Try opening scenes in the **Xbox Live/Examples** folder to see the plugin in action, and for examples of how to use the functionality yourself. Running the examples in the editor will give you fake data, but if you build the project in Visual Studio and [associate your Xbox Live account with the sandbox](authorize-xbox-live-accounts.md), you can sign in with your gamertag.
+You can now start using Xbox Live in your Unity project.
+Try opening scenes in the **Xbox Live/Examples** folder to see the plugin in action, and for examples of how to use the functionality yourself.
 
-Try the **SignInAndProfile** scene for signing into your Microsoft Account, the **Leaderboard** scene for creating a leaderboard, and the **UpdateStat** scene for displaying and updating stats.
+Running the examples in the editor will give you fake data - to sign in with your gamertag, build the project in Visual Studio and [associate your Xbox Live account with the sandbox](authorize-xbox-live-accounts.md).
+
+* Try the **SignInAndProfile** scene for signing into your Microsoft Account.
+* Try the **Leaderboard** scene for creating a leaderboard.
+* Try the **UpdateStat** scene for displaying and updating stats.
+
 
 ## See also
 

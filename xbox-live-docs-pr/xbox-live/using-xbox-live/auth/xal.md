@@ -13,10 +13,11 @@ ms.localizationpriority: medium
 
 The Xbox Live Authentication Library (XAL) is a cross-platform authentication platform for Win32, Android, and iOS.
 
+
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| Article | Description |
+|---------|-------------|
 | [Xbox Live Authentication Library (XAL) overview](xal-overview.md) | The Xbox Live Authentication Library (XAL) is a cross-platform authentication platform for Win32, Android, and iOS. |
 | [XAL Sign-in scenarios](xal-sign-in.md) | Sign-in scenarios for XAL are soft single-user authentication, hard single-user authentication, and multi-user authentication. |
 | [XAL on Win32](win32-xal.md) | Signing in to Xbox Live with an Win32 project. |

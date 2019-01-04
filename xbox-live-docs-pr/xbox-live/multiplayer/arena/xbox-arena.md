@@ -8,14 +8,16 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, arena, tournament, ux
 ms.localizationpriority: medium
 ---
+
 # Xbox Arena
 
 Xbox Arena runs tournaments for your game.
 
+
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| Article | Description |
+|---------|-------------|
 | [Xbox Arena overview](xbox-arena-overview.md) | Using Xbox Arena to run tournaments for your game. |
 | [Arena title integration](arena-title-integration.md) | Adding support in a game for the Arena platform, which allows Tournament Organizers to create and operate tournaments. |
 | [Arena Operations Portal](operations-portal.md) | Using the Xbox Arena Operations Portal to manage tournaments for your game. |

@@ -7,31 +7,44 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
+
 # Advanced Xbox Live sandboxes
 
-> **Note** This article explain advanced usage of sandboxes and is mainly applicable to large gaming studios which have multiple teams and complex permissions requirements.  If you are part of the Xbox Live Creators Program or an ID@Xbox developer, it is recommended to look at the [Xbox Live Sandboxes Intro](../xbox-live-sandboxes.md)
+> **Note** This article explain advanced usage of sandboxes and is mainly applicable to large gaming studios which have multiple teams and complex permissions requirements.
+If you are part of the Xbox Live Creators Program or an ID@Xbox developer, it is recommended to look at the [Xbox Live Sandboxes Intro](../xbox-live-sandboxes.md)
 
 The Xbox Live *sandbox* provides an entire private environment for development. This document explains what sandboxes are, why they exist, how they apply to publishers, and how they impact internal Xbox teams. The audience for this document is publishers who build Xbox One content and use sandboxes.
+
 
 ## Summary
 
 In Xbox Live, there is only a single production environment where all prerelease (in-development and beta), certification, and retail content resides.
 
-Content isolation is the way to ensure that there are no publisher content leaks in production. At its core, content isolation ensures that any principal user, device, or title that requests permission to access a resource (a title or a service) has been authorized to access the resource. With content isolation, partitions are divided into sandboxes where title or service data is stored. Said differently, authorization policies are defined within the scope of a sandbox.
+Content isolation is the way to ensure that there are no publisher content leaks in production.
+At its core, content isolation ensures that any principal user, device, or title that requests permission to access a resource (a title or a service) has been authorized to access the resource.
 
-Sandboxes are a way to partition data that is in production. With Xbox 360 era services, PartnerNet and ProductionNet are two distinct environments. With Xbox One era services, a single production environment contains *n* distinct virtual environments where each virtual environment is called a sandbox. Because there is a single production environment for all content, sandboxes are actually unique virtual environments where data generated in one environment cannot cross over to another.
+With content isolation, partitions are divided into sandboxes where title or service data is stored.
+Said differently, authorization policies are defined within the scope of a sandbox.
 
-The following figure shows a single production environment in which publishers can create their private development sandboxes. Only authorized dev accounts or dev kits are permitted access to these sandboxes.
+Sandboxes are a way to partition data that is in production.
+With Xbox 360 era services, PartnerNet and ProductionNet are two distinct environments.
+
+With Xbox One era services, a single production environment contains *n* distinct virtual environments where each virtual environment is called a sandbox.
+Because there is a single production environment for all content, sandboxes are actually unique virtual environments where data generated in one environment cannot cross over to another.
+
+The following figure shows a single production environment in which publishers can create their private development sandboxes.
+Only authorized dev accounts or dev kits are permitted access to these sandboxes.
 
 Figure 1. Sandboxes in a production environment.
 
-![](../images/sandboxes/sandboxes_image1.png)
+![Sandboxes in a production environment](../images/sandboxes/sandboxes_image1.png)
 
 Just as PublisherA has her development sandboxes, other publishers have their own development sandboxes. The same title ID may reside in different sandboxes but the data generated for the title ID is distinct across sandboxes.
 
 There are two system sandboxes that can only be populated by Microsoft: CERT and RETAIL. As the names suggest, the CERT sandbox is for titles that are undergoing certification prior to release, while the RETAIL sandbox is the sandbox representing real dollars that is accessible by all retail users and devices.
 
 Whereas a title ID was formerly unique in Xbox Live, now a title ID plus a sandbox ID is unique. The same applies to product IDs and other ID spaces that were once treated as unique. They must now be paired with a sandbox ID. All data in Xbox Live will be primarily partitioned by the sandbox ID throughout the system.
+
 
 ## Initial setup for a title
 
@@ -43,10 +56,11 @@ In order to create a title, a publisher creates a product group, specifies the g
 
 Figure 2. The relationships between a product group, a product, a product instance, and a sandbox.
 
-![](../images/sandboxes/sandboxes_image2.png)
+![relationship between product group, product, instance, sandbox](../images/sandboxes/sandboxes_image2.png)
 
-Product instances
------------------
+
+## Product instances
+
 A *product instance* is a projection of title, product, and configuration data in a specific sandbox. This data is described in the following three areas: service configuration, catalog metadata, and binaries.
 
 ### Service configuration
@@ -105,6 +119,7 @@ Figure 4. An unauthorized user's credentials fail to gain access to the sandbox,
 
 ![](../images/sandboxes/sandboxes_image4.png)
 
+
 ### Dev accounts setup
 
 Dev accounts in Xbox One are just standard Microsoft accounts (MSA) with special rules applied to them. They are used in Xbox Live for development. A dev account:
@@ -119,6 +134,7 @@ Dev accounts in Xbox One are just standard Microsoft accounts (MSA) with special
 
 -   Can purchase Xbox Live Developer Gold subscription or other subscriptions for free in order to test.
 
+
 ### User group setup
 
 A user group, the first kind of principal group, is a collection of XDP users. When XDP users are added to user groups, their dev accounts flow with these XDP users.
@@ -127,13 +143,16 @@ So when a user group is assigned to a sandbox, the dev accounts associated with 
 
 **Note** The user groups that are created to access sandboxes are the same user groups that are used to prevent access to configuration data in XDP for product groups and products.
 
+
 ### Device setup
 
 A device also gets added to a principal group. A device can only be used as a dev kit if an entitlement is purchased through the Game Developer Store and the device is provisioned to be a dev kit. Once a device is provisioned as a dev kit, the device shows up in the list of devices that can be added to device groups.
 
+
 ### Device group setup
 
 A device group, the second kind of principal group, can also be given access to sandboxes. The setup is similar to the user group setup detailed above.
+
 
 ## Sandboxes
 
@@ -163,51 +182,58 @@ A sandbox ID (case sensitive) is a string in the following format: &lt;Publisher
 
 When the title data moves through services, Xbox services use the sandbox ID to uniquely identify the “environment” for the data that is generated.
 
-What data is sandboxed?
------------------------
+
+## What data is sandboxed?
+
 The diagram below shows what user and title data is sandboxed.
 
 ![](../images/sandboxes/sandboxes_image5.png)
 
-Global override sandbox
------------------------
+
+## Global override sandbox
+
 A developer sets the sandbox ID on her dev kit and thus sets the sandbox that the dev kit runs in; this is also known as the global override sandbox. Thus, all requests made to Xbox Live services (for example, achievements, matchmaking, licensing, EDS, etc.) from the titles (shell apps and regular apps) in the dev kit are made in that sandbox.
 
 The global override sandbox also implies that only the content ingested in the global override sandbox is visible when being browsed.
 
-Types of sandboxes
--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Types of sandboxes
+
 There are two different categories of sandboxes. These categories are defined as follows:
 
 -   *Publisher sandboxes*. Publishers have access to their in-development sandboxes. These may look like XLDP.0, XLDP.1, XLDP.2, XLDP.3, etc. This is where publishers would put their title product instances. Access to these sandboxes is gated to the users/devices that the publishers grants access to
 
 -   *Microsoft sandboxes*. These are the built-in sandboxes: RETAIL and CERT Only Microsoft is allowed to publish to these protected sandboxes.
 
-CERT sandbox
-------------
+## CERT sandbox
+
 When a title is ready for general availability, it needs to go through certification first. The CERT sandbox is a Microsoft-controlled sandbox that only individuals in certification have access to. Publishers can see what content they own is going through certification.
 
 Any product instances that fail while in certification can be brought back to a development sandbox to be debugged and fixed by the publishers using XDP.
 
-RETAIL sandbox
---------------
+
+## RETAIL sandbox
+
 The RETAIL sandbox is the final destination for all content that is created for Xbox One.
 
-After a title passes certification, it is added to the RETAIL sandbox. Only green signed content is permitted to run in the RETAIL sandbox. This has an important implication that publisher-driven betas are also done in the RETAIL sandbox. Data generated in the RETAIL sandbox represents real customer production data.
+After a title passes certification, it is added to the RETAIL sandbox. Only green-signed content is permitted to run in the RETAIL sandbox. This has an important implication that publisher-driven betas are also done in the RETAIL sandbox. Data generated in the RETAIL sandbox represents real customer production data.
 
 Note that access to content is the RETAIL sandbox is still controllable through content isolation.
 
 For example, publisher-driven betas are run in the RETAIL sandbox, where the publisher chooses which principal groups get to access publisher-defined beta resource set titles. The service data generated by the beta titles is real prod data and continues to exist once the title goes to general availability.
 
-Cross-sandbox data interaction
-------------------------------
+
+## Cross-sandbox data interaction
+
 By definition, a sandbox is a container that restricts data sharing. Thus, cross-sandbox data interaction is not possible.
+
 
 ## Organizing your sandboxes
 
 This section provides an example of how a publisher can organize sandboxes. A publisher needs to understand how to use sandboxes to organize data.
 
 **Note** The examples below only show run-time access management with content isolation.
+
 
 ### Scenario 1: Two titles, one sandbox
 
@@ -222,6 +248,7 @@ In this instance, the publisher just needs a single sandbox for all pre-release 
 The diagram below shows a user group. The publisher may choose to use a device group instead of a user group, if deemed easier. Also, this user group has run-time and design-time access to sandbox XLDP.1 and the titles in this sandbox.
 
 ![](../images/sandboxes/sandboxes_image6.png)
+
 
 ### Scenario 2: One title, different teams
 
@@ -247,6 +274,7 @@ Also, the finance user (Group C) has design-time access to TitleX. Because the f
 
 ![](../images/sandboxes/sandboxes_image7.png)
 
+
 ### Scenario 3: Two titles, completely separate
 
 In this example, the requirements change a bit:
@@ -262,6 +290,7 @@ In this example, the requirements change a bit:
 In this model, the publisher has chosen to keep both titles completely separated and thus assigned these two titles in two different sandboxes. The publisher has also chosen to create a separate admin user group and assigned access to the two products.
 
 ![](../images/sandboxes/sandboxes_image8.png)
+
 
 ### Scenario 4: Anyway you like it
 
@@ -291,8 +320,11 @@ The model followed below is:
 
 ![](../images/sandboxes/sandboxes_image9.png)
 
+
 ## Summary
 
-Xbox Live development provides tremendous opportunity to publishers to test in production with production-quality services and production MSA developer accounts. The increase in functionality and flexibility requires new configuration steps in XDP to create title data and manage access to the titles while in development and in general availability.
+Xbox Live development provides tremendous opportunity to publishers to test in production with production-quality services and production MSA developer accounts.
+The increase in functionality and flexibility requires new configuration steps in XDP to create title data and manage access to the titles while in development and in general availability.
 
-Sandboxes are a way to partition data in production. Because there is a single production environment for all content, sandboxes act as “virtual environments” where data generated in one environment does not cross over to the other.
+Sandboxes are a way to partition data in production.
+Because there is a single production environment for all content, sandboxes act as “virtual environments” where data generated in one environment does not cross over to the other.

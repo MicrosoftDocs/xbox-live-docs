@@ -11,9 +11,10 @@ keywords: xbox live, xbox, games, android
 ms.localizationpriority: medium
 ---
 
-# Get started with the Xbox Live APIs on Android
+# Get started with Xbox Live APIs on Android
 
 In order to use the Xbox Live APIs with an Android game, you can use the pre-compiled binaries, or include the Xbox Live API source in your project and build it.
+
 
 ## Requirements
 
@@ -26,6 +27,7 @@ You must use Visual Studio 2017 or later in order to build the Xbox Live APIs. Y
   * Android SDK setup (API Level 27)
 * Extensions
   * [Java Language Service for Android and Eclipse Android Project Import](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.JavaLanguageServiceforAndroidandEclipseAndroidProj )
+
 
 ## Add the Xbox Live SDK to your Android project (using precompiled binaries and Maven)
 
@@ -82,11 +84,14 @@ You must use Visual Studio 2017 or later in order to build the Xbox Live APIs. Y
      <application
    ```
 
+
 ## Samples
 
 Included in the SDK download are Android samples for achievements and social, under `{Xbox Live API root}\InProgressSamples\ID@XboxSDK`.
 
+
 ## Remarks about using the Xbox Live APIs on Android
+
 
 ### Sign-in and authorization
 
@@ -96,13 +101,15 @@ After signing a player in with XAL, your game should then create an `xbox_live_c
 
 For more information about signing in a player by using XAL in an Android game, see [Xbox Live Authentication Layer (Xal) with Android](../using-xbox-live/auth/android-xal.md).
 
+
 ### xboxservices.config
 
 The Xbox Live APIs rely on [xboxservices.config](../xboxservices-config.md). On Android, you can just add the config file to your project.
 
+
 ### Async library
 
-The async library for Android only supports `AsyncQueueDispatchMode::AsyncQueueDispatchMode_Manual`. This means your title has to create an async queue and pump the work and completion threads.  
+The async library for Android only supports `AsyncQueueDispatchMode::AsyncQueueDispatchMode_Manual`. This means your title has to create an async queue and pump the work and completion threads.
 
 You can find a cross-platform solution at `{Xbox Live API Root}\InProgressSamples\Kits\XboxLiveToolkit\mobile\AsyncIntegration`.  
 `AsyncIntegration` handles pumping the background thread and allows the title to control the completion thread by calling `DrainAsyncCompletionQueueUntilEmpty` when ready.

@@ -7,14 +7,16 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer manager, flowchart
 ms.localizationpriority: medium
 ---
+
 # Multiplayer manager flowcharts
 
 These flowchart diagrams depict implementing specific Multiplayer Manager scenarios.
 
+
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| Article | Description |
+|---------|-------------|
 | [Play a multiplayer/co-op game with friends](mpm-flowcharts/mpm-play-with-friends.md) | Flowcharts showing how to start a new multiplayer game by adding and inviting friends to the game. |
 | [Play a multiplayer game by using SmartMatch matchmaking](mpm-flowcharts/mpm-play-with-smartmatch-matchmaking.md) | Flowcharts showing how to start a new multiplayer game by adding and inviting friends to the game, and then using SmartMatch matchmaking to fill any open slots with other Xbox Live members. |
 | [Use matchmaking and manage Quality of Service](mpm-flowcharts/mpm-use-matchmaking-and-qos.md) | Flowcharts showing when to perform Quality of Service (QoS) checks in a matchmaking work flow. |

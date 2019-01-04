@@ -10,14 +10,16 @@ ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, partner, ID@Xbox
 ms.localizationpriority: medium
 ---
+
 # Managed partners and ID@Xbox developers
 
 High-level steps, all the way from joining ID@Xbox or managed partners, through releasing your game.
 
+
 ## In this section
 
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
+| Article | Description |
+|---------|-------------|
 | [Get started as a managed partner or ID developer](get-started-with-xbox-live-partner.md) | Getting started with Xbox Live development as a managed partner or ID@Xbox member. |
 | [Create a title](create-a-new-title.md) | Creating a new title for Xbox Live by using Partner Center. |
 | [Visual Studio for UWP games](visual-studio-for-uwp-games.md) | Setting up a Visual Studio project to enable Xbox Live for a UWP game. |

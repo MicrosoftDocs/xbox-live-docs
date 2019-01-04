@@ -1,6 +1,6 @@
 ---
 layout: LandingPage
-title: Platforms
+title: Setting up platforms for Xbox Live development
 author: mikehoffms
 description: Setting up your development machine and making your first API call when using various development environments or targeting various operating systems.
 ms.author: v-mihof
@@ -12,7 +12,7 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h1>Platforms</h1>
+<h1>Setting up platforms for Xbox Live development</h1>
 <p>Xbox Live is a premier gaming network that connects millions of gamers across the world. You can add Xbox Live to your Windows 10 or Xbox One game in order to take advantage of the Xbox Live features and services.</p>
 
 <h2>Get Started</h2>
@@ -92,7 +92,7 @@ ms.localizationpriority: medium
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>PC</h3>
+                        <h3>Windows</h3>
                         <p>Targeting Windows.</p>
                     </div>
                 </div>
