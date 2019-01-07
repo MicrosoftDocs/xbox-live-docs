@@ -15,4 +15,4 @@ ms.localizationpriority: medium
 
 Overview of portals and documentation sites for enabling your game for Xbox Live.
 
-TBD
+TBD <!--see Resources article, equivalent-->
