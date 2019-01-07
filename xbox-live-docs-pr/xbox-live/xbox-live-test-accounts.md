@@ -10,16 +10,21 @@ ms.localizationpriority: medium
 
 # Xbox Live test accounts
 
-When testing functionality in your title during development, it can be helpful to create additional Xbox Live accounts.  For example, you might want a fresh account with no achievements.  Or you might want to make several accounts and make them friends of each other for testing Social scenarios.
+When testing functionality in your title during development, it can be helpful to create additional Xbox Live accounts.
+For example, you might want a fresh account with no achievements.
+Or you might want to make several accounts and make them friends of each other for testing Social scenarios.
 
 It can be time consuming to create multiple Microsoft Accounts (MSA) so an easy way to create many test accounts at once is provided.
 
-Test accounts have some other benefits also.  They can sign into your *Development Sandbox*, whereas a regular MSA cannot due to security restrictions.  If you don't know what a *Development Sandbox* is, then please see [Xbox Live Sandboxes](xbox-live-sandboxes.md)
+Test accounts have some other benefits also.
+They can sign into your *Development Sandbox*, whereas a regular MSA cannot due to security restrictions.
+See [Xbox Live Sandboxes](xbox-live-sandboxes.md).
 
 
 ## Types of test accounts
 
-There are two options of test accounts.  Regular MSAs that are provisioned to work in your Development Sandbox, or test accounts that only work in a development sandbox.
+There are two options of test accounts.
+Regular MSAs that are provisioned to work in your Development Sandbox, or test accounts that only work in a development sandbox.
 
 If you are developing a title with the Creators Program, you may only use Regular MSAs that are provisioned for your Development Sandbox.
 
@@ -35,7 +40,8 @@ If you do not have an existing Xbox Live Account or require additional MSAs, you
 
 ## Creating Test Accounts
 
-If you are an ID@Xbox developer, then you may also create test accounts exclusively for use in your development sandboxes.  You can also create multiple test accounts at once.
+If you are an ID@Xbox developer, then you may also create test accounts exclusively for use in your development sandboxes.
+You can also create multiple test accounts at once.
 
 To go to the Test Account management page in Partner Center.
 1. Go to [Partner Center](https://partner.microsoft.com/dashboard).
@@ -46,7 +52,8 @@ Screenshot showing where to find this:
 
 ![](images/getting_started/devcenter_testaccount_nav.png)
 
-Once you click on "Test Accounts", you will see a summary of any existing test accounts if you have any.  You also have the option to create new test accounts.
+Once you click on "Test Accounts", you will see a summary of any existing test accounts if you have any.
+You also have the option to create new test accounts.
 
 ![](images/getting_started/devcenter_testaccount_summary.png)
 

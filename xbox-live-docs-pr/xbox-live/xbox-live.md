@@ -9,7 +9,8 @@ ms.localizationpriority: medium
 
 # Xbox Live
 
-Xbox Live is a premier gaming network that connects millions of gamers across the world. You can add Xbox Live to your Windows 10 or Xbox One game in order to take advantage of the Xbox Live features and services.
+Xbox Live is a premier gaming network that connects millions of gamers across the world.
+You can add Xbox Live to your Windows 10 or Xbox One game in order to take advantage of the Xbox Live features and services.
 
 With the Xbox Live Creators Program, anyone with a Partner Center account can build an Xbox Live enabled Universal Windows Platform (UWP) game that can run on both Windows 10 PCs and Xbox One consoles.
 
@@ -18,7 +19,8 @@ For game developers that want to take advantage of the full Xbox Live experience
 
 ### Get started with Xbox Live
 
-The following guides can help you get started with Xbox Live development, regardless of whether you are a UWP or Xbox console developer.  There are also guides for getting setup with game engines.
+The following guides can help you get started with Xbox Live development, regardless of whether you are a UWP or Xbox console developer.
+There are also guides for getting setup with game engines.
 
 | Article | Description |
 |---------|-------------|
@@ -41,7 +43,8 @@ Once you have a title created and the fundamentals working, this section provide
 
 ### Xbox Live Social platform
 
-Xbox Live social features can organically grow your audience, spreading awareness to over 55 million active users.  This section describes how to get started with the Xbox Live social features.
+Xbox Live social features can organically grow your audience, spreading awareness to over 55 million active users.
+This section describes how to get started with the Xbox Live social features.
 
 | Article | Description |
 |---------|-------------|
@@ -50,7 +53,8 @@ Xbox Live social features can organically grow your audience, spreading awarenes
 
 ### Xbox Live Data platform
 
-The Xbox Live Data platform drives the usage of player stats, achievements, and leaderboards.  Read this series of topics to learn more about how to use these in your title.
+The Xbox Live Data platform drives the usage of player stats, achievements, and leaderboards.
+Read this series of topics to learn more about how to use these in your title.
 
 | Article | Description |
 |---------|-------------|
@@ -62,7 +66,9 @@ The Xbox Live Data platform drives the usage of player stats, achievements, and 
 
 ### Xbox Live Multiplayer platform
 
-Multiplayer is a great way to extend the lifetime of your title and keep gameplay experiences fresh.  Xbox Live provides extensive multiplayer and matchmaking features.  You also have several options of API that provide varying levels of simplicity vs flexibility.
+Multiplayer is a great way to extend the lifetime of your title and keep gameplay experiences fresh.
+Xbox Live provides extensive multiplayer and matchmaking features.
+You also have several options of API that provide varying levels of simplicity vs flexibility.
 
 | Article | Description |
 |---------|-------------|

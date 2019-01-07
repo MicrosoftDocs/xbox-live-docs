@@ -1,5 +1,5 @@
 ---
-title: Fine-grained rate limiting
+title: Fine-Grained Rate Limiting
 description: How Xbox Live fine-grained rate limiting works, to prevent your title from being rate-limited.
 ms.assetid: ceca4784-9fe3-47c2-94c3-eb582ddf47d6
 ms.date: 04/04/2017
@@ -8,13 +8,24 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, throttling, rate li
 ms.localizationpriority: medium
 ---
 
-# Fine-grained rate limiting
+# Fine-Grained Rate Limiting
 
-This article provides an overview of Xbox Live fine-grained rate limiting.
+This article provides an overview of Xbox Live fine-grained rate limiting (FGRL).
 In addition to summarizing what rate limiting is, this paper also intends to help you determine if you are being limited, and if you are, what tools and resources are at your disposal.
 
+**Fine-Grained Rate Limiting** was commissioned to promote **fair usage** of shared Xbox Live resources among different titles.
+This solution is like most traditional limiting systems which have a service keeping a count of the number of requests an entity has made in a given period of time.
 
-## Terminology Guide
+Entities that reach the services specified limit are then moved to a rejecting state where all incoming requests from the entity will be turned away.
+Entities are only able to exit this state when the given period of time expires causing the entities associated count to reset.
+
+Fine-Grained Rate Limiting uses the same core mechanics mentioned above however instead of tracking one entity FGRL tracks the combination of **user and title** and compares the associated count to **two** different **limits** as oppose to one.
+FGRL dual limits are enforced on each service meaning the request count for GameClips will not affect the request count for Presence.
+
+The following sections will go into more detail about the user and title pairing, dual limiting, and the HTTP 429 limiting response object.
+
+
+## Terminology for Fine-Grained Rate Limiting
 
 | Term         | Definition                                                  |
 |--------------|-----------------------------------------------------------------------------
@@ -27,24 +38,10 @@ In addition to summarizing what rate limiting is, this paper also intends to hel
 | XLTA         | Xbox Live Trace Analyzer tool, used for determining if your title is being rate limited
 
 
-## Xbox Live Fine-Grained Rate Limiting
-
-**Fine-Grained Rate Limiting** was commissioned to promote **fair usage** of shared Xbox Live resources amongst different titles.
-This solution is like most traditional limiting systems which have a service keeping a count of the number of requests an entity has made in a given period of time.
-
-Entities that reach the services specified limit are then moved to a rejecting state where all incoming requests from the entity will be turned away.
-Entities are only able to exit this state when the given period of time expires causing the entities associated count to reset.
-
-Fine-Grained Rate Limiting uses the same core mechanics mentioned above however instead of tracking one entity FGRL tracks the combination of **user and title** and compares the associated count to **two** different **limits** as oppose to one.
-FGRL dual limits are enforced on each service meaning the request count for GameClips will not affect the request count for Presence.
-
-The following sections will go into more detail about the user and title pairing, dual limiting, and the HTTP 429 limiting response object.
-
-
 ## Fair Usage
 
 Xbox Live believes that each user should have the same high-quality experience no matter what game (or app) the user is playing.
-FGRL is designed to solve the following scenario:
+Fine-Grained Rate Limiting (FGRL) solves the following scenario:
 
 Developer A has just released a title that follows all the Xbox live best practices ensuring optimal use of services while Developer B has also just released a title however this one has an unknown bug.
 This bug causes the title and each user to spam presence which results in the service going under heavy load.
@@ -84,15 +81,17 @@ Traditionally, rate limiting consists of one limit per endpoint which is tracked
 This period represents the amount of time that an entities request count is tracked.
 At the end of the period the entities count is reset to 0 to begin tracking again.
 
-This approach works for most API’s however it was not resilient enough for games and apps that call Xbox live.
-The solution above assumes that people are calling in a consistent steady predictable manor.
-In the Xbox Live case, depending on the service and requesting title/app, the calling patterns are drastically different.
+This approach works for most APIs; however, this approach was not resilient enough for games and apps that call Xbox live.
+The solution above assumes that people are calling in a consistent steady predictable manner.
+In the Xbox Live case, depending on the service and requesting title, the calling patterns are drastically different.
 
 Choosing just one limit in this case would require compromising on both ends of the call pattern spectrum.
 The Xbox Live solution uses two periods and limits.
 The smaller period is called the Burst period while the bigger longer one is known as the Sustain period.
 
-The burst time period for FGRL is always 15 seconds whereas the sustain is always 300 seconds (5 minutes) So during a 5 minute sustain period there are 20 burst periods.
+The burst time period for FGRL is always 15 seconds, whereas the sustain is always 300 seconds (5 minutes).
+So during a 5 minute sustain period, there are 20 burst periods.
+
 Both burst and sustain limits are tracking at the same time, and as such, count requests at the same time.
 Both the burst and the sustain limit are set on the service, meaning each service has its own burst and sustain count.
 
@@ -121,8 +120,8 @@ Once either limit is tripped, no requests are let through, as shown when both li
 When the associated user and title count is at or above either the burst or sustain limit the service will not handle the request and will instead return a HTTP 429 response.
 The HTTP 429 code stands for “too many requests” will be accompanied by a header containing a “retry after X seconds” value.
 
-FGRL 429’s contains a retry after header that specifies the amount of time the calling entities should wait before trying again.
-Developers that use XSAPI will not have to worry as XSAPI honors and handles the Retry-After header.
+An FGRL 429 response object contains a "retry after" header, which specifies the amount of time the calling entities should wait before trying again.
+Developers that use XSAPI will not have to worry, as XSAPI honors and handles the Retry-After header.
 
 The actual response will contain the following fields:
 
@@ -138,7 +137,7 @@ The actual response will contain the following fields:
 ## Implemented limits
 
 The following services have implemented FGRL limits, with enforcement of these limits in place since **May 2016**.
-To reiterate, these limits will be the same across all sandboxes and titles.
+These limits are the same across all sandboxes and titles.
 
 **Any title that was published via Xbox Developer Platform or Partner Center and shipped prior to May 2016 will be considered Legacy and therefore exempted.**
 
@@ -158,14 +157,14 @@ To reiterate, these limits will be the same across all sandboxes and titles.
 | Clubs                      | 10                        | 30                         | 300                        |
 
 The table above represents the current list of services that were selected for FGRL.
-This list is not final as new services and existing services can be added.
-When a service is going to be added the table will be updated and an announcement will be made.
+This list is not final, as new services and existing services can be added.
+When a service is going to be added, this table will be updated and an announcement will be made.
 
-The limits represented in the table should also not be viewed as finalized.
-As services change and evolve, so too will the limits, however you will be notified and the necessary legacy exemptions will be made.
+The limits in the table aren't finalized.
+As services change and evolve, so will the limits; however, you will be notified and the necessary legacy exemptions will be made.
 
 As of **April 2018**, titles will not pass certification if they exceed the sustain limit (limit at which rate limiting takes effect) by 10x.
-For example, if the sustained limit at which FGRL takes effect is set to 300 calls in 300 seconds as specified in the table above, titles at or above 3000 calls in 300 seconds will fail certification.
+For example, if the sustained limit at which FGRL takes effect is set to 300 calls in 300 seconds, as specified in the table above, titles at or above 3000 calls in 300 seconds will fail certification.
 
 
 ## Service Mapping and Title Effects of Rate Limiting
@@ -193,15 +192,15 @@ For example, if the sustained limit at which FGRL takes effect is set to 300 cal
 
 ### How can I determine I am being throttled and what steps can I take?
 
-Please refer to the [Xbox Live Best Practices](best-practices-for-calling-xbox-live.md) document as it will contain steps for improving your call pattern as well as an explanation of how the XSAPI assertion and XSAPI Social and Multiplayer managers can be used to notify you of and mitigate throttling issues.
+See the [Xbox Live Best Practices](best-practices-for-calling-xbox-live.md) document, which contains steps for improving your call pattern, as well as an explanation of how the XSAPI assertion and XSAPI Social and Multiplayer managers can be used to notify you of throttling issues and mitigate those throttling issues.
 
-Another option is to record a trace of the Xbox Live calls and then analyze that trace using the [Xbox Live Trace Analyzer tool](https://docs.microsoft.com/windows/uwp/xbox-live/tools/analyze-service-calls).
+Another option is to record a trace of the Xbox Live calls, and then analyze that trace using the [Xbox Live Trace Analyzer tool](https://docs.microsoft.com/windows/uwp/xbox-live/tools/analyze-service-calls).
 To record a trace, you can either use Fiddler to record a .SAZ file, or use the built-in trace logging of XSAPI.
 
-For more information, how to use turn on traces in XSAPI see the Xbox Live documentation page "Analyze calls to Xbox Live Services".
+To turn on and use traces in XSAPI, see the Xbox Live documentation page "Analyze calls to Xbox Live Services"<!-- tbd link - not found, so added the next link, ok? --> and [Xbox Live Trace Analyzer](../../tools/analyze-service-calls.md).
 Once you have a trace, the Xbox Live Trace Analyzer tool will warn upon detecting throttled calls.
 
-You can find the best practices paper on GDNP and SDK and XDK docs 1602 and higher.
+You can find the best practices paper on GDNP and SDK and XDK docs 1602 and higher. <!-- tbd link/clarify -->
 
 
 ### Can limits change?

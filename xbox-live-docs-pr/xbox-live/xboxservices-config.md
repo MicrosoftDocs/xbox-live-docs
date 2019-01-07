@@ -1,5 +1,5 @@
 ---
-title: XboxServices.config file description
+title: The XboxServices.config file
 description: The XboxServices.config file associates your UWP game with an Xbox Live configuration.
 ms.date: 03/29/2018
 ms.topic: article
@@ -7,11 +7,14 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, service configurati
 ms.localizationpriority: medium
 ---
 
-# XboxServices.config file description
+# The XboxServices.config file
 
-When you develop an Xbox Live enabled UWP game, your project must include an XboxServices.config file.  This file enables the Xbox Live SDK to associate your game with your Partner Center app and your Xbox Live services configuration. This file contains a JSON object that details information such as the service configuration ID, title ID, etc.
+When you develop an Xbox Live enabled UWP game, your project must include an `XboxServices.config` file.
+The `XboxServices.config` file enables the Xbox Live SDK to associate your game with your Partner Center app and your Xbox Live services configuration.
 
-If you are using Unity to design an Xbox Live Creators Program game by using the Xbox Live plug-in, this file is automatically created for you by the Xbox Live Association Wizard.
+This file contains a JSON object that details information such as the service configuration ID and the title ID.
+
+If you are using Unity to design an Xbox Live Creators Program game by using the Xbox Live plug-in, the `XboxServices.config` file is automatically created for you by the Xbox Live Association Wizard.
 
 
 ## XboxServices.config fields
@@ -19,7 +22,7 @@ If you are using Unity to design an Xbox Live Creators Program game by using the
 >[!NOTE]
 > The file created by the Xbox Live Association Wizard may include additional fields beyond the ones described below, but they are not used by the service.
 
-The following fields are defined in the JSON object in the config file:
+The following fields are defined in the JSON object in the `XboxServices.config` file:
 
 Field | Description
 --- | ---
@@ -48,7 +51,8 @@ xbl.signin  | Includes the sign in functionality for Creators Program games. Req
 xbl.friends | Includes the friends and social leaderboards functionality for Creators Program games.
 xboxlive.signin | Includes the sign in functionality for games that access the full functionality of Xbox Live. Required for non-Creators Program games.
 
-Currently, the only reason to specify the **Scope** field is if you are making an Xbox Live Creators Program game, and your game does not need to access friends lists or social leaderboards (leaderboards which are scoped to your friends). If this is the case, you can add the following line to your XboxServices.config file:
+Currently, the only reason to specify the **Scope** field is if you are making an Xbox Live Creators Program game, and your game does not need to access friends lists or social leaderboards (leaderboards which are scoped to your friends).
+If this is the case, you can add the following line to your `XboxServices.config` file:
 
 ```
   "Scope" : "xbl.signin"

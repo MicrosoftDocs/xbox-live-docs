@@ -45,12 +45,13 @@ For developers in the Xbox Live Creators Program that are using Unity to develop
 * [Xbox Live Unity plug-in](https://github.com/Microsoft/xbox-live-unity-plugin)
 
 > [!WARNING]
-> Because this is an Xbox Live Creators Program tool, the Xbox Live Unity plug-in will not provide the full suite of Xbox Live features. Refer to the [developer program overview feature table](developer-program-overview.md#feature-table) to see what Xbox Live services will be available.
+> Because this is an Xbox Live Creators Program tool, the Xbox Live Unity plug-in will not provide the full suite of Xbox Live features. To see what Xbox Live services are available, see the [developer program overview feature table](developer-program-overview.md#feature-table).
 
 
 ## Xbox Live Platform Extensions SDK
 
-This package contains winmd files and documentation related to Secure Networking and Connected Storage features for the UWP platform. This extension will enable the use of Connected Storage in your UWP titles through use of the Windows.Gaming.XboxLive.Storage namespace.
+This package contains winmd files and documentation related to Secure Networking and Connected Storage features for the UWP platform.
+This extension will enable the use of Connected Storage in your UWP titles through use of the `Windows.Gaming.XboxLive.Storage` namespace.
 
 * [Xbox Live Platform Extensions SDK](http://aka.ms/xblextsdk)
 
@@ -61,7 +62,8 @@ This package contains winmd files and documentation related to Secure Networking
 
 ## Xbox Live tools
 
-There are several useful tools that you use to help you develop for Xbox Live. Find more information at:
+There are several useful tools that you use to help you develop for Xbox Live.
+Find more information at:
 
 * [Development tools for Xbox Live](tools/tools.md)
 
@@ -79,7 +81,8 @@ Samples that are restricted to managed partners can be found on the Games Develo
 
 ## Xbox Live managed partner-only content
 
-Some documentation for Xbox Live is available only to managed partners. To access this information, you must have a Microsoft Account (MSA) that has been enabled for full Xbox Live access.
+Some documentation for Xbox Live is available only to managed partners.
+To access this information, you must have a Microsoft Account (MSA) that has been enabled for full Xbox Live access.
 
 * [XGD > Xbox One > Xbox Live](https://developer.microsoft.com/en-us/games/xbox/partner/live-home) - Jump pages for Xbox Live resources.
 * [XGD > Xbox One > White papers](https://developer.microsoft.com/en-us/games/xbox/partner/development-education-whitepapers) - The section "Xbox Live and Networking" contains about 30 white papers.

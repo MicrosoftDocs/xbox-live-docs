@@ -7,15 +7,25 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, troubleshooting, error, log
 ms.localizationpriority: medium
 ---
-# Troubleshooting the Xbox Live APIs
+
+# Troubleshooting the Xbox Live Services APIs
+
 
 ## Code
 
-It is difficult to diagnose a failure using only the error from the Xbox Live Services API layer. Extra error information—such as logging of all RESTful calls—could be available to the server. To listen to this data, hook up the response logger and enable debug tracing. Response logging allows you to see HTTP traffic and web service response codes, which is often as useful as a Fiddler trace.
+It is difficult to diagnose a failure using only the error from the Xbox Live Services API layer.
+Additional, helpful error information — such as logging of all RESTful calls — can be made available to the server.
+
+To listen to this additional data, hook up the response logger and enable debug tracing.
+Response logging allows you to see HTTP traffic and web service response codes, which is often as useful as a Fiddler trace.
+
 
 ### C++
 
-The following code example enables response logging and sets the debug error level to Verbose (you can also set the debug error level to Error to show only trace failed calls, or to Off to disable tracing). The resulting debug output is sent to the Output pane when running your project in Visual Studio.  
+The following code example enables response logging, and sets the debug error level to **Verbose**.
+(You can also set the debug error level to **Error**, to show only trace failed calls; or to **Off**, to disable tracing.)
+
+The resulting debug output is sent to the Output pane when running your project in Visual Studio.
 
 ```cpp
 
@@ -25,7 +35,7 @@ The following code example enables response logging and sets the debug error lev
                 );
 ```
 
-You can also choose to redirect debug output to your own log file like so:
+You can also choose to redirect debug output to your own log file, as follows:
 
 ```cpp
 

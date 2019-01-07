@@ -17,7 +17,7 @@ There are Xbox Live API samples and Xbox Developer Kit samples.
 
 These samples showcase usage for the Xbox Live API.
 These samples are for both Xbox Live Creators Program and ID@Xbox.
-These samples are in the [Xbox Live Samples GitHub repo](https://github.com/Microsoft/xbox-live-samples) (https://github.com/Microsoft/xbox-live-samples).
+These samples are in the [Xbox Live Samples GitHub repo](https://github.com/Microsoft/xbox-live-samples).
 
 | Sample Name             | Platforms | Languages                     | Description                                                                                                                                                                                                           |
 |:------------------------|:----------|:------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -34,5 +34,5 @@ These samples are in the [Xbox Live Samples GitHub repo](https://github.com/Micr
 
 ## XDK samples
 
-The Xbox Developer Kit (XDK) samples, including some Xbox Live samples, are hosted on GDNP. 
+The Xbox Developer Kit (XDK) samples, including some Xbox Live samples, are hosted on GDNP.
 Contact your developer account manager (DAM) for access.

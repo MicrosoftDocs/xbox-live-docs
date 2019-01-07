@@ -9,9 +9,11 @@ ms.localizationpriority: medium
 
 # Introduction to the Xbox Live C APIs
 
-In June 2018, a new, flat C API layer was added to XSAPI. This new API layer solves some issues that occurred with the C++ and WinRT API layers.
+In June 2018, a new, flat C API layer was added to XSAPI.
+This new API layer solves some issues that occurred with the C++ and WinRT API layers.
 
-The C API does not yet cover all XSAPI features, but additional features are being worked on. All three API layers (C, C++, and WinRT) will continue to be supported and have additional features added over time.
+The C API does not yet cover all XSAPI features, but additional features are being worked on.
+All three API layers (C, C++, and WinRT) will continue to be supported and have additional features added over time.
 
 > [!NOTE]
 > The C APIs currently only work with titles that use the Xbox Developer Kit (XDK). They do not support UWP games at this time.
@@ -39,15 +41,16 @@ You can use the C APIs alongside C++ XSAPI, but you will not gain the previously
 
 ### Managing memory allocations
 
-With the new C API, you can now specify a function callback that XSAPI will call whenever it tries to allocate memory. If you do not specify function callbacks, XSAPI will use standard memory allocation routines.
+With the new C API, you can now specify a function callback that XSAPI will call whenever it tries to allocate memory.
+If you do not specify function callbacks, XSAPI will use standard memory allocation routines.
 
 To manually specify your memory routines, you can do the following:
 
 - At the start of the game:
   - Call `XblMemSetFunctions(memAllocFunc, memFreeFunc)` to specify the allocation callbacks for assigning and releasing memory.
-  - Call `XblInitialize()` to initialize the library instance.  
+  - Call `XblInitialize()` to initialize the library instance.
 - While the game is running:
-  - Calling any of the new C APIs in XSAPI that allocate or free memory will cause XSAPI to call the specified memory handling callbacks.  
+  - Calling any of the new C APIs in XSAPI that allocate or free memory will cause XSAPI to call the specified memory handling callbacks.
 - When the game exits:
   - Call `XblCleanup()` to reclaim all resources associated with the XSAPI library.
   - Clean up your game's custom memory manager.
@@ -55,14 +58,16 @@ To manually specify your memory routines, you can do the following:
 
 ### Managing asynchronous threads
 
-The C API introduces a new asynchronous thread calling pattern that allows developers full control over the threading model. For more information, see [Calling pattern for XSAPI flat C layer async calls](flatc-async-patterns.md).
+The C API introduces a new asynchronous thread calling pattern that allows developers full control over the threading model.
+For more information, see [Calling pattern for XSAPI flat C layer async calls](flatc-async-patterns.md).
 
 
 ## Migrating code to use C XSAPI
 
 The XSAPI C APIs can be used alongside the XSAPI C++ APIs in a project, so we recommend that you migrate one feature at a time.
 
-The C APIs and C++ APIs are really just thin wrappers around a common core, just with different entry points, so the functionality should be unchanged. However, only the C APIs can take advantage of the custom memory and thread management features.
+The C APIs and C++ APIs are really just thin wrappers around a common core, just with different entry points, so the functionality should be unchanged.
+However, only the C APIs can take advantage of the custom memory and thread management features.
 
 > [!IMPORTANT]
 > You cannot mix XSAPI WinRT APIs with the C APIs.
