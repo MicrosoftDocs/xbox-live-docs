@@ -18,8 +18,8 @@ ms.localizationpriority: medium
 <h2>Get Started</h2>
 <p>Learn how to build your first XBL feature by getting enrolled in a program, setting up a development kit, and calling an API.</p>
 <div class="ico48Case halfStack">
-    <div class="ico48Link"><a href=""><img src="images/common/enroll_step1_icon.svg"><span>Enroll</span></a></div>
-    <div class="ico48Link"><a href=""><img src="images/common/setup_step2_icon.svg"><span>Setup</span></a></div>
+    <div class="ico48Link"><a href=""><img src="../images/common/enroll_step1_icon.svg"><span>Enroll</span></a></div>
+    <div class="ico48Link"><a href=""><img src="../images/common/setup_step2_icon.svg"><span>Setup</span></a></div>
 </div>
 
 <h2>Overview of Tutorials</h2>
@@ -31,7 +31,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Identity tutorial" />
+                            <img src="../images/common/xbl_real_time_activity_placeholder.svg" alt="Identity tutorial" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -50,7 +50,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Multiplayer tutorials" />
+                            <img src="../images/common/xbl_real_time_activity_placeholder.svg" alt="Multiplayer tutorials" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -69,7 +69,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Publishing tutorial" />
+                            <img src="../images/common/xbl_real_time_activity_placeholder.svg" alt="Publishing tutorial" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -92,7 +92,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardText">
                         <h3>API</h3>
-                        <p><a href="" data-linktype="absolute-path">Xbox Live RESTful API</a></p>
+                        <p><a href="../xbox-live-rest/atoc-xboxlivews-reference.md">Xbox Live RESTful API</a></p>
                     </div>
                 </div>
             </div>
@@ -104,7 +104,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardText">
                         <h3>Tutorials</h3>
-                        <p><a href="" data-linktype="absolute-path">Xbox Live Samples and Combination Samples</a></p>
+                        <p><a href="../samples.md">Xbox Live Samples and Combination Samples</a></p>
                      </div>
                 </div>
             </div>

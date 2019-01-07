@@ -443,7 +443,7 @@ ms.localizationpriority: medium
                         <a href="#tutorials-all"></a>
                         <ul id="tutorials-all" class="cardsA">
                             <li>
-                                <a href="tutorials.md">
+                                <a href="tutorials/tutorials.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">

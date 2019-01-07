@@ -33,4 +33,4 @@ No approval process from Microsoft is required to join this program, and there a
 
 ## See also
 
-[Developer program overview](developer-program-overview.md)
+[Developer program overview](../developer-program-overview.md)
