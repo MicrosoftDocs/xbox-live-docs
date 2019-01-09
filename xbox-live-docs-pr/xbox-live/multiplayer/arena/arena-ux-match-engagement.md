@@ -1,5 +1,5 @@
 ---
-title: Match engagement
+title: UX for match engagement
 description: The UX stages of players progressing through a tournament experience (Ready, Playing, Results, and End).
 ms.date: 10/12/2017
 ms.topic: article
@@ -7,7 +7,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, arena, tournament, 
 ms.localizationpriority: medium
 ---
 
-# Match engagement
+# UX for match engagement
 
 After a gamer has registered and checked in for a tournament, they’re set up to play.
 A participant can be at any one of four stages.

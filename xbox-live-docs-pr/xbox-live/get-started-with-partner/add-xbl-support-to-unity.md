@@ -1,5 +1,5 @@
 ---
-title: Add XBL support to Unity for UWP
+title: Add XBL support in Unity, for UWP games
 author: mikehoffms
 description: Adding Xbox Live support to Unity for UWP with a scripting backend, for ID@Xbox and managed partners.
 ms.author: v-mihof
@@ -11,7 +11,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, Unity
 ms.localizationpriority: medium
 ---
 
-# Add XBL support to Unity for UWP
+# Add XBL support in Unity, for UWP games
 
 Adding Xbox Live support to Unity for UWP with a scripting backend, for ID@Xbox and managed partners.
 

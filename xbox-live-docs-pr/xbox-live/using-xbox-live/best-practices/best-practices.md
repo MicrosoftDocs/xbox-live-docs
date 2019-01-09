@@ -1,5 +1,5 @@
 ---
-title: Best practices
+title: Best practices for Xbox Live
 author: mikehoffms
 description: Best practices for calling Xbox Live APIs, such as proper calling patterns and retry logic.
 ms.author: v-mihof
@@ -11,7 +11,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, best practices
 ms.localizationpriority: medium
 ---
 
-# Best practices
+# Best practices for Xbox Live
 
 Best practices for calling Xbox Live APIs, such as proper calling patterns and retry logic.
 

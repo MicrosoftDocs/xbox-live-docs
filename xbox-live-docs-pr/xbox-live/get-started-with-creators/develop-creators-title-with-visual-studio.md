@@ -1,5 +1,5 @@
 ---
-title: Get started developing an Xbox Live Creators Program title with Visual Studio
+title: Get started developing a Creators Program title with Visual Studio
 description: Get started developing an Xbox Live Creators Program title using Visual Studio.
 ms.assetid: 6952dac0-66ff-4717-b3c7-8b3792e834e3
 ms.date: 11/28/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, xbox live creators,
 ms.localizationpriority: medium
 ---
 
-# Get started developing an Xbox Live Creators Program title with Visual Studio
+# Get started developing a Creators Program title with Visual Studio
 
 > [!NOTE]
 > There is a plugin available for games that are being developed with Unity. See [Develop a Creators title with Unity](develop-creators-title-with-unity.md).

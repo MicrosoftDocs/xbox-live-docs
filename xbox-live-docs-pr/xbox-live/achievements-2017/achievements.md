@@ -13,6 +13,8 @@ ms.localizationpriority: medium
 
 Achievements includes Gamerscore and other rewards such as digital artwork, new maps, characters, and stat boosts.
 
+Achievements is a feature within the Xbox Live Data platform.
+
 
 ## In this section
 

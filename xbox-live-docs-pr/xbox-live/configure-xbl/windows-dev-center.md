@@ -1,5 +1,5 @@
 ---
-title: Partner Center service configuration  
+title: Partner Center services configuration  
 description: Configuring Xbox Live services at Partner Center.
 ms.date: 7/30/2018
 ms.topic: article
@@ -7,7 +7,7 @@ ms.localizationpriority: medium
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, udc, universal developer center
 ---
 
-# Partner Center service configuration
+# Partner Center services configuration
 
 Games that are published in [Partner Center](https://partner.microsoft.com/dashboard) and use the full set of Xbox Live features can configure their Xbox Live services in Partner Center.
 

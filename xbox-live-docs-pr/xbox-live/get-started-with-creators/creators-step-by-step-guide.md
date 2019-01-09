@@ -1,5 +1,5 @@
 ---
-title: Step by step guide for Xbox Live Creators
+title: Integrating Xbox Live, for Creators program
 description: Provides a guideline of steps to integrate Xbox Live for the Creators Program.
 ms.assetid: 7f9d093e-479a-4ad4-9965-a4ea6f0b2ac3
 ms.date: 04/04/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, creators
 ms.localizationpriority: medium
 ---
 
-# Step-by-step guide to integrating Xbox Live Creators Program
+# Integrating Xbox Live, for Creators program
 
 This section will help you get your title up and running with Xbox Live:
 

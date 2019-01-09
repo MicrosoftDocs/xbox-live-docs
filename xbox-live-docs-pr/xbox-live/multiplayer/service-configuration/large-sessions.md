@@ -1,5 +1,5 @@
 ---
-title: Large sessions for multiplayer
+title: Using large sessions for Multiplayer
 description: Using large sessions (more than 100 members) with the Multiplayer platform.
 ms.date: 07/11/2017
 ms.topic: article
@@ -7,7 +7,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, large 
 ms.localizationpriority: medium
 ---
 
-# Large sessions for multiplayer
+# Using large sessions for Multiplayer
 
 If you need a multiplayer session that can handle more than 100 members, you'll need to use a *large session*.
 This scenario is most common to massively multiplayer online (MMO) games and broadcasts (where most of the members are spectators), but may have applications to other styles of games as well.
@@ -68,7 +68,7 @@ A session template like the below should work:
 ## Working with large sessions
 
 When writing large sessions to Multiplayer Service Directory (MPSD), we recommend that you do not to exceed 10 writes per second.
-This is typically a 1000 player session with a write every 2 minutes on average per player (e.g. join/leave).
+This is typically a 1000 player session with a write every 2 minutes on average per player (such as join/leave).
 
 Other properties should not be maintained in the large sessions.
 
@@ -85,7 +85,9 @@ There are two ways to indicate that people in a session played together (for upd
 
 #### 1. Persistent groups
 
-If a group of people is staying together on an ongoing basis, potentially with people coming and going from it, you can give the group a name (for example, a guid – following the same naming rules as for regular sessions).  As each member comes and goes from the group, they should add or remove the group name to their own “groups” property, which is an array of strings:
+If a group of people is staying together on an ongoing basis, potentially with people coming and going from it, you can give the group a name (for example, a guid – following the same naming rules as for regular sessions).
+
+As each member comes and goes from the group, they should add or remove the group name to their own “groups” property, which is an array of strings:
 
 ```json
 {
@@ -105,6 +107,7 @@ If a group of people is staying together on an ongoing basis, potentially with p
 #### 2. Brief encounters
 
 If two people have a brief one-time encounter, the game can instead use the “encounters” array.
+
 Give each encounter a name, and after the encounter, both (or all) participants would write the name to their own “encounters” property:
 
 ```json
@@ -126,5 +129,6 @@ That will cause the individual to see all the members of the group as recent pla
 
 Encounters count as having been a member of the group for 30 seconds.
 Since the encounters are considered one-off events, the “encounters” array is always immediately processed and then cleared from the session.
+
 The “encounters” array will never appear in a response.
 In contrast, the “groups” array remains until altered or removed, or the member leaves the session.

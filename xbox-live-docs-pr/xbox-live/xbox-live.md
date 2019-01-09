@@ -7,6 +7,8 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
+<!--xbox-live.md is not in toc, is redundant with what-is-xbox-live.md - delete this file-->
+
 # Xbox Live
 
 Xbox Live is a premier gaming network that connects millions of gamers across the world.

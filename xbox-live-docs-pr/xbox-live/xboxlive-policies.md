@@ -8,6 +8,8 @@ keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
 ---
 
+<!-- xboxlive-policies.md is not in toc - delete file? tbd    search doc-set for links to this -->
+
 ## Xbox Live policies
 
 **Document version: 2.0**

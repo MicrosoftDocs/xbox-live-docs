@@ -1,5 +1,5 @@
 ---
-title: Xbox Live resources
+title: Xbox Live resources, sites, and downloads
 description: Download resources for Xbox Live development, such as tools and API Reference.
 ms.date: 09/12/2017
 ms.topic: article
@@ -9,7 +9,7 @@ keywords: windows 10, uwp, games, xbox, xbox live, resources, API, reference, to
 ms.localizationpriority: medium
 ---
 
-# Xbox Live resources
+# Xbox Live resources, sites, and downloads
 
 The following are useful resources for developing Xbox Live-enabled games.
 

@@ -1,5 +1,5 @@
 ---
-title: Use Connected Storage to delete data
+title: Deleting data with Connected Storage
 description: Code examples using Connected Storage to delete blob data and container data.
 ms.assetid: ccf7488c-5d55-480e-b3aa-412220d03104
 ms.date: 02/27/2018
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, connected storage
 ms.localizationpriority: medium
 ---
 
-# Use Connected Storage to delete data
+# Deleting data with Connected Storage
 
 Data blobs are asynchronously deleted by creating a `ConnectedStorageContainer` in a `ConnectedStorageSpace` for a user and calling the `SubmitUpdatesAsync` method on the container providing a list of strings representing the named blobs to be deleted for the blobsToDelete parameter.
 

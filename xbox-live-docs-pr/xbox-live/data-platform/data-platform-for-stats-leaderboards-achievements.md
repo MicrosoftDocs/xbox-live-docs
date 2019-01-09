@@ -1,5 +1,5 @@
 ---
-title: Data platform - Stats, Leaderboards, Achievements
+title: Data platform for Stats, Leaderboards, and Achievements
 author: KevinAsgari
 description: The Data Platform service manages achievements, player stats, and leaderboards.
 ms.assetid: a8bb7c4f-09fe-4dba-b3ce-1fab60453831
@@ -12,7 +12,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, stats, achievements
 ms.localizationpriority: medium
 ---
 
-# Data platform - Stats, Leaderboards, Achievements
+# Data platform for Stats, Leaderboards, and Achievements
 
 Writing game data to the Xbox Live Data platform enables your title to run as a service. Additionally, the Xbox Live Data Platform drives user engagement with your title using stats, leaderboards, and achievements, and surfaces featured stats in the console shell and Xbox App.
 

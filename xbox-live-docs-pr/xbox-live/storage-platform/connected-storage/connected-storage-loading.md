@@ -1,5 +1,5 @@
 ---
-title: Use Connected Storage to load data
+title: Loading data with Connected Storage
 description: Code examples using Connected Storage to read data by calling ReadAsync or GetAsync.
 ms.assetid: c660a456-fe7d-453a-ae7b-9ecaa2ba0a15
 ms.date: 02/27/2018
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, connected storage
 ms.localizationpriority: medium
 ---
 
-# Use Connected Storage to load data
+# Loading data with Connected Storage
 
 Data is asynchronously read using the `ReadAsync` or `GetAsync` connected storage method.
 

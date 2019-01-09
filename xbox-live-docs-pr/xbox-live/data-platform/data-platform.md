@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 
 # Data platform
 
-The Data platform service manages achievements, player stats, and leaderboards.
+The Xbox Live Data platform service manages achievements, player stats, and leaderboards.
 
 
 ## In this section

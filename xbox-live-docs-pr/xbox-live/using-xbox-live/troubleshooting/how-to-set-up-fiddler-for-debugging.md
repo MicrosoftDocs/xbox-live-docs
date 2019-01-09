@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting Xbox Live using Fiddler
+title: Using Fiddler to inspect web service calls
 description: Using Fiddler to log and troubleshoot Xbox Live service calls.
 ms.assetid: 7d76e444-027b-4659-80d5-5b2bf56d199e
 ms.date: 04/04/2017
@@ -8,10 +8,10 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, fiddler, service ca
 ms.localizationpriority: medium
 ---
 
-# Troubleshooting Xbox Live using Fiddler
+# Using Fiddler to inspect web service calls
 
 Fiddler is a web debugging proxy which logs all HTTP and HTTPS traffic between your device and the Internet.
-You will use it to log and inspect traffic to and from the Xbox Live services and relying party web services, to understand and debug web service calls.
+Use Fiddler to log and inspect traffic to and from the Xbox Live services and relying party web services, to understand and debug web service calls.
 
 
 ## For Windows UWP PC apps
@@ -45,12 +45,12 @@ To undo that, do the following:
 ```
 
 
-## For Xbox One UWP based projects
+## For Xbox One UWP projects
 
 Follow the steps at [https://docs.microsoft.com/en-us/windows/uwp/xbox-apps/uwp-fiddler](https://docs.microsoft.com/en-us/windows/uwp/xbox-apps/uwp-fiddler).
 
 
-## For Xbox One XDK based projects
+## For Xbox One XDK projects
 
 In normal operation, a console that communicates through a proxy is at risk of having its communications modified by the proxy, possibly allowing players to cheat.
 Thus, consoles are designed not to allow communication through a proxy.

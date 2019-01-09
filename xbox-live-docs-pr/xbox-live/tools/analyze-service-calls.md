@@ -1,6 +1,6 @@
 ---
-title: Xbox Live Trace Analyzer
-description: Using the Xbox Live Trace Analyzer to review the service calls made by your title.
+title: Trace Analyzer for reviewing service calls
+description: The Xbox Live Trace Analyzer reviews the service calls made by a title.
 ms.assetid: b4490fae-d554-403d-bbbc-601af38af0ef
 ms.date: 04/04/2017
 ms.topic: article
@@ -8,14 +8,17 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, service calls, test
 ms.localizationpriority: medium
 ---
 
-# Xbox Live Trace Analyzer
+# Trace Analyzer for reviewing service calls
 
-The Xbox Live Services API allows you to capture all service calls and then analyze them offline for any violations in calling patterns.
+The Xbox Live Trace Analyzer reviews the service calls made by a title.
+
+The Xbox Live Services API allows you to capture all service calls, so that the Trace Analyzer can analyze the service calls offline.
+The *Xbox Live Trace Analyzer* is an offline analysis tool, to find any violations in calling patterns.
 
 Service call tracing can be activated by using functionality available in the **xbtrace** command line tool, or through protocol activation for more advanced scenarios.
 Activating service call tracking directly from title code is also supported.
 
-The offline analysis tool, called the Xbox Live Trace Analyzer (**XBLTraceAnalyzer.exe**) can be found as part of the Xbox Live Tools package from [https://aka.ms/xboxliveuwptools](https://aka.ms/xboxliveuwptools).
+The Trace Analyzer (**XBLTraceAnalyzer.exe**) can be found as part of the Xbox Live Tools package from [https://aka.ms/xboxliveuwptools](https://aka.ms/xboxliveuwptools).
 
 
 ## Gather logs and analyze the service calls

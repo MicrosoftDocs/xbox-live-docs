@@ -1,5 +1,5 @@
 ---
-title: Sign-in with XAL
+title: Single-user and multi-user device sign-in
 author: aablackm
 description: Sign-in scenarios for XAL are soft single-user authentication, hard single-user authentication, and multi-user authentication.
 ms.author: aablackm
@@ -11,12 +11,12 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, authentication, sig
 ms.localizationpriority: medium
 ---
 
-# Sign-in with XAL
+# Single-user and multi-user device sign-in
 
 Sign-in scenarios for the Xbox Live Authentication Library (XAL) can be divided into two broad categories depending on the platform XAL is used to authenticate on.
 There are **single-user authentication (SUA)** devices and **multi-user authentication (MUA)** devices.
 
-* On a single-user authentication (SUA) device, you can have at most one user signed-in to Xbox Live at a time. SUA devices can also be split into two categories, **soft SUA**, and **hard SUA**.
+* On a single-user authentication (SUA) device, you can have at most one user signed-in to Xbox Live at a time. Single-user devices can also be split into two categories, **soft SUA**, and **hard SUA**.
     * On a soft SUA device, you may operate in a state where zero or one users are signed in.
     * Hard SUA devices require that one user and only one user be signed-in at all times.
 
@@ -33,7 +33,10 @@ The three common scenarios:
 Each of the three scenarios require you to vary your approach to sign-in.
 
 If you're not sure what scenario you are using, you can use the `XalGetMaxUsers` function to check whether it is a single-user authentication (SUA) or MUA scenario.
-If the max users parameter returns 1, it is a single-user authentication scenario.
+If the "max users" parameter returns 1, it is a single-user authentication scenario.
+
+
+## Checking whether soft or hard SUA is used
 
 To distinguish between soft and hard SUA, you can check for the presence of `XalSignOutUserAsync`, as follows:
 

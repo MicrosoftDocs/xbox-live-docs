@@ -1,5 +1,5 @@
 ---
-title: Storage platform
+title: Cloud Storage platform
 author: mikehoffms
 description: The Storage platform includes Connected Storage to store game state, and Title Storage to store player statistics and assets.
 ms.author: v-mihof
@@ -9,9 +9,11 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Storage platform
+# Cloud Storage platform
 
-The Storage platform includes Connected Storage to store game state, and Title Storage to store player statistics and assets.
+The Xbox Live Storage platform includes:
+* Connected Storage to store game state.
+* Title Storage to store player statistics and assets.
 
 
 ## In this section

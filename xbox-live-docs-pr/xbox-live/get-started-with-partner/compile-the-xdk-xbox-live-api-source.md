@@ -14,8 +14,8 @@ The Xbox Developer Kit (XDK) includes source for building the Microsoft.Xbox.Ser
 These instructions update the project to use a local build of the DLL.
 
 You might want to build XSAPI yourself if:
-1. If you want to debug an issue to understand where an error code is coming from.
-1. If we provide a source code patch to fix an issue for you, before we can distribute a QFE.
+* If you want to debug an issue to understand where an error code is coming from.
+* If we provide a source code patch to fix an issue for you, before we can distribute a QFE.
 
 
 ## To compile the XDK C++ XSAPI project for yourself

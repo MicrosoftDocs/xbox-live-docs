@@ -8,9 +8,9 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, xdk
 ms.localizationpriority: medium
 ---
 
-# Add Xbox Live to a new or existing XDK project
+# Add Xbox Live to an XDK project
 
-This topic outlines how to add Xbox Live to a new or existing XDK project.
+You can add Xbox Live to a new or existing XDK project.
 
 The process is:
 
@@ -29,7 +29,8 @@ First, set up the console by following "Setting Up Your Xbox One Development Env
 
 ## Get your IDs
 
-To enable Xbox Live services, you will need to obtain several IDs to configure your development kit and your title. These can be done with the same process.
+To enable Xbox Live services, you will need to obtain several IDs to configure your development kit and your title.
+These can be done with the same process.
 
 You will obtain your IDs by doing the process of [Xbox Live service configuration](../xbox-live-service-configuration.md)
 

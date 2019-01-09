@@ -1,5 +1,5 @@
 ---
-title: Title Storage overview
+title: Overview of Title Storage
 description: Using Title Storage to store game information for a title in the cloud, especially for large amounts of per-user or per-title data.
 ms.assetid: a4182bc8-d232-4e77-93ae-97fe17ac71b1
 ms.date: 04/04/2017
@@ -10,9 +10,9 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, title storage
 ms.localizationpriority: medium
 ---
 
-# Title Storage overview
+# Overview of Title Storage
 
-The Xbox Live title storage service provides a way to store game information for a title in the cloud.
+The Xbox Live Title Storage service provides a way to store game information for a title in the cloud.
 Games running on all platforms can use this service.
 
 

@@ -1,5 +1,5 @@
 ---
-title: The Reputation service
+title: Reputation
 author: mikehoffms
 description: The Reputation service encourages positive gameplay.
 ms.author: v-mihof
@@ -9,9 +9,11 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, reputation, social 
 ms.localizationpriority: medium
 ---
 
-# The Reputation service
+# Reputation
 
 The Reputation service encourages positive gameplay.
+
+Reputation is a feature in the Xbox Live Social platform.
 
 
 ## In this section

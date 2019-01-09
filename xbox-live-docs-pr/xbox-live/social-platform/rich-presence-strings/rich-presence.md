@@ -15,6 +15,8 @@ ms.localizationpriority: medium
 
 Rich Presence shows what activity a user is currently doing, in which area of which game.
 
+Rich Presence is a feature in the Xbox Live Social platform.
+
 
 ## In this section
 

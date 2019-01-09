@@ -1,5 +1,5 @@
 ---
-title: The Social Manager
+title: Social Manager
 author: mikehoffms
 description: The Xbox Live Social Manager API simplifies keeping track of online friends and their gaming activity.
 ms.author: v-mihof
@@ -11,7 +11,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# The Social Manager
+# Social Manager
 
 The Xbox Live Social Manager API simplifies keeping track of online friends and their gaming activity.
 

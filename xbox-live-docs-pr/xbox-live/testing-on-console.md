@@ -1,5 +1,5 @@
 ---
-title: Testing on Xbox One Console
+title: Testing on the Xbox One console
 description: Testing Xbox Live services on the Xbox One console.
 ms.date: 08/15/2018
 ms.topic: article

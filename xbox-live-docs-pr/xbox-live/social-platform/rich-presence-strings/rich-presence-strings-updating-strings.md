@@ -10,7 +10,8 @@ ms.localizationpriority: medium
 
 # Updating a Rich Presence string
 
-To update a Rich Presence string in your title, you can call the Write Title URI with the appropriate parameters in a JSON object.
+To update a Rich Presence string in your title, you can call the `Write Title` URI with the appropriate parameters in a JSON object.
+
 This restful call is also wrapped by Xbox Service APIs.
 For information on the related API, see **Microsoft.Xbox.Services.Presence Namespace**.
 
@@ -19,7 +20,7 @@ The URI looks like this:
           POST /users/xuid({xuid})/devices/current/titles/current
 
 Below are only the fields for setting Rich Presence strings.
-There are other optional fields related to the writing presence for a title not listed here.
+There are other optional fields related to writing presence for a title, not listed here.
 
 
 ## TitleRequest Object
@@ -75,8 +76,8 @@ It may take a few seconds for the data to find its way through the Data Platform
 
 Then, when someone attempts to read user 12345's Rich Presence, the service will look at what locale is being requested and format the string appropriately before returning.
 In this case, suppose a user wants to read the en-US string.
-Reading rich presence would work as follows:
 
+Reading rich presence would work as follows:
 
           GET /users/xuid(12345)?level=all
 

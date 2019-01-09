@@ -11,7 +11,7 @@ keywords: xbox live, xbox, games, iOS
 ms.localizationpriority: medium
 ---
 
-# Get started with the Xbox Live APIs on iOS
+# Get started with Xbox Live APIs on iOS
 
 In order to use the Xbox Live APIs with an iOS game, you must link the Xbox Live API source in your project and build it.
 

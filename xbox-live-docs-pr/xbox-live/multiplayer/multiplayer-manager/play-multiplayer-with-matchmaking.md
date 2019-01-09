@@ -11,9 +11,9 @@ ms.localizationpriority: medium
 # Finding a multiplayer game by using SmartMatch
 
 Sometimes, a gamer may not have enough friends online when they want to play a game, or they just want to play against random people online.
-You can use the Xbox Live SmartMatch service to find other Xbox Live players
+You can use the Xbox Live SmartMatch service to find other Xbox Live players.
 
-This page covers the basic steps you need to implement SmartMatch matchmaking by using Multiplayer Manager.
+This article covers the basic steps you need to implement SmartMatch matchmaking by using Multiplayer Manager.
 
 
 ## Find a match
@@ -227,9 +227,11 @@ Error/success is handled via the `join_lobby_completed` event
 
 | Call | Event triggered |
 |-----|----------------|
-| `multiplayer_manager::find_match()` | Many events, as described in ```match_status``` (eg: ```searching```, ```found```, ```measuring```, etc) |
+| `multiplayer_manager::find_match()` | Many events, as described in ```match_status``` (eg: ```searching```, ```found```, ```measuring```). |
 
-After invites, if any, have been accepted, and the host is ready to start playing the game, you can use SmartMatch to either find an existing game that has enough open player slots for all of the members in the lobby session by calling `find_match()`, or create a new game session that includes all of the members from the lobby session and fill up open spots with other people looking for a match of the same game type, by calling `join_game_from_lobby()` followed with `set_auto_fill_members_during_matchmaking()`.
+After invites (if any) have been accepted, and the host is ready to start playing the game, you can use SmartMatch to either:
+* Find an existing game that has enough open player slots for all of the members in the lobby session by calling `find_match()`.
+* Create a new game session that includes all of the members from the lobby session and fill up open spots with other people looking for a match of the same game type, by calling `join_game_from_lobby()` followed with `set_auto_fill_members_during_matchmaking()`.
 
 Before you can call `find_match()`, you must first configure hoppers in your service configuration.
 A hopper defines the rules that SmartMatch uses to match players.

@@ -1,5 +1,5 @@
 ---
-title: How to get the XDK
+title: Getting the XDK
 description: Obtaining the Xbox Developer Kit (XDK).
 ms.assetid: 5e7abfb7-5d68-4e77-a941-13dd081268ac
 ms.date: 04/04/2017
@@ -8,14 +8,15 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, xdk
 ms.localizationpriority: medium
 ---
 
-# How to get the XDK
+# Getting the XDK
 
 The Xbox Development Kit (XDK) is not publicly available.
 There are two groups, managed partners and ID@Xbox developers, who are allowed access to the XDK and associated development resources like documentation and middleware tools.
 
 The XDK can be downloaded from the [software downloads page](https://developer.microsoft.com/en-us/games/xbox/partner/resources-softwaredownloads) on the developer.microsoft.com site.
 
-If you do not have access to the site, you will not be able to download or use the XDK. If you do no not have access, contact your account manager.
+If you do not have access to the site, you will not be able to download or use the XDK.
+If you do no not have access, contact your account manager.
 
 In order to qualify for XDK access, you can [apply to become an ID@Xbox developer](https://www.xbox.com/en-us/Developers/id).
 To learn more about the ID@Xbox program and other developer tiers, see [Developer program overview](../developer-program-overview.md).
@@ -41,12 +42,12 @@ Access to the XDK will also grant you access to resources which will guide you t
 Like the XDK, these resources are not public and are only available to ID@Xbox and managed partner developers.
 
 - Read about using the Xbox Live Development Kit in the [XDK Docs](https://developer.microsoft.com/en-us/games/xbox/partner/development-documentation).
-- For additional help you can consult the [developer forums](https://forums.xboxlive.com/index.html) for community assistance, or contact your account manager.
+- For additional help, consult the [developer forums](https://forums.xboxlive.com/index.html) for community assistance, or contact your account manager.
 
 
 ## Install the XDK
 
 After downloading and installing the XDK, you can integrate Xbox Live into your project.
-See one of these:
+See one of these articles:
 - [Compiling the Xbox Live APIs source shipped with the XDK](compile-the-xdk-xbox-live-api-source.md)
 - [Using Xbox Live APIs built into the XDK](using-xbox-live-apis-built-into-the-xdk.md)

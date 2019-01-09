@@ -1,5 +1,5 @@
 ---
-title: Add XSAPI binary package to a UWP project
+title: Add an XSAPI binary package to a UWP project
 description: Using NuGet to add the Xbox Live APIs binary package to your UWP project.
 ms.assetid: 1e77ce9f-8a0e-402c-9f46-e37f9cda90ed
 ms.date: 11/28/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, nuget
 ms.localizationpriority: medium
 ---
 
-# Add XSAPI binary package to a UWP project
+# Add an XSAPI binary package to a UWP project
 
 
 ## Requirements
@@ -37,10 +37,9 @@ The Xbox Services API comes in flavors for both UWP and XDK, and for C++ and Win
 > You can read more about running UWP on Xbox One at [Getting started with UWP app development on Xbox One](https://docs.microsoft.com/windows/uwp/xbox-apps/getting-started).
 
 You can add the Xbox Live SDK NuGet package, as follows:
-
-1. In Visual Studio go to **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution...**.
+1. In Visual Studio, go to **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution...**.
 2. In the NuGet package manager, click on **Browse** and enter **Xbox.Live.SDK** in the search box.
-3. Select the version of the Xbox Live SDK that you want to use from the list on the left.
+3. From the list on the left, select the version of the Xbox Live SDK that you want to use.
 3. On the right side of the window, check the box next to your project and click **Install**.
 
 > [!NOTE]

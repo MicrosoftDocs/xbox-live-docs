@@ -1,5 +1,5 @@
 ---
-title: Visual Studio for UWP games
+title: Add XBL support in Visual Studio, for UWP games
 author: mikehoffms
 description: Setting up a Visual Studio project to enable Xbox Live for a UWP game.
 ms.author: v-mihof
@@ -11,7 +11,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Visual Studio for UWP games
+# Add XBL support in Visual Studio, for UWP games
 
 Setting up a Visual Studio project to enable Xbox Live for a UWP game.
 

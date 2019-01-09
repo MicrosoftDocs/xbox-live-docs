@@ -1,5 +1,5 @@
 ---
-title: Changing a title from 2014 to 2015 Multiplayer
+title: Changing a game from 2014 to 2015 Multiplayer
 description: Changing a title from 2014 Multiplayer to 2015 Multiplayer.
 ms.assetid: 206f8fe4-c7aa-44b8-923b-18f679d8439f
 ms.date: 04/04/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Changing a title from 2014 to 2015 Multiplayer
+# Changing a game from 2014 to 2015 Multiplayer
 
 This topic describes issues that you must consider when adapting a 2014 Multiplayer title for 2015 Multiplayer.
 

@@ -1,5 +1,5 @@
 ---
-title: Programming the Real-Time Activity Service using C++ APIs
+title: Programming the RTA service via C++ APIs
 description: Programming the Real-Time Activity Service with the C++ APIs.
 ms.assetid: 98cdcb1f-41d8-43db-98fc-6647755d3b17
 ms.date: 04/04/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, real time activity
 ms.localizationpriority: medium
 ---
 
-# Programming the Real-Time Activity Service using C++ APIs
+# Programming the RTA service via C++ APIs
 
 This article contains the following sections:
 * [Connecting to the Real-Time Activity Service from Xbox Live](#connecting-to-the-real-time-activity-service-from-xbox-live)

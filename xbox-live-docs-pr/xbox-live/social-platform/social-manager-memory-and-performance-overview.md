@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 ## Memory
 
-Social Manager now allows its allocated persistent memory to be held in title space.
+Xbox Live Social Manager now allows its allocated persistent memory to be held in title space.
 A custom memory allocator for use by social manager can be specified by calling `xbox_live_services_settings::set_memory_allocation_hooks()`.
 This memory allocator hook will may also be used for future large memory allocations that the Xbox Live Services API (XSAPI) uses.
 

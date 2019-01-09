@@ -1,5 +1,5 @@
 ---
-title: XAL on iOS
+title: Setting up Xcode for sign-in with iOS
 author: aablackm
 description: Signing in to Xbox Live with an iOS project.
 ms.assetid: e54c98ce-e049-4189-a50d-bb1cb319697c
@@ -12,7 +12,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, authentication, sig
 ms.localizationpriority: medium
 ---
 
-# XAL on iOS
+# Setting up Xcode for sign-in with iOS
 
 Once you have acquired the XAL source code, you will need to set up your iOS development environment.
 iOS work can only be done on a Mac in the Xcode development environment.

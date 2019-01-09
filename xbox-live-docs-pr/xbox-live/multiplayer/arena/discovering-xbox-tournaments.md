@@ -1,5 +1,5 @@
 ---
-title: Discovering Xbox tournaments
+title: UX for discovering Xbox tournaments
 author: KevinAsgari
 description: Creating a UI for your game's tournament discovery.
 ms.author: kevinasg
@@ -9,7 +9,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, arena, tournament, 
 ms.localizationpriority: medium
 ---
 
-# Discovering Xbox tournaments
+# UX for discovering Xbox tournaments
 
 Gamers have multiple options in the Xbox Dashboard, or the Xbox app on a PC, to learn more about participating in or watching a tournament.
 There are also opportunities to increase tournament discovery from within your title.

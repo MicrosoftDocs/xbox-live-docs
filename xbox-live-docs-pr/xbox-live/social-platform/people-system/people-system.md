@@ -1,5 +1,5 @@
 ---
-title: The People System
+title: People System
 author: mikehoffms
 description: The People System manages relationships between gamers, such as only showing a user's real name to close friends.
 ms.author: v-mihof
@@ -11,9 +11,11 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# The People System
+# People System
 
 The People System manages relationships between gamers, such as only showing a user's real name to close friends.
+
+The People System is a feature in the Xbox Live Social platform.
 
 
 ## In this section

@@ -1,12 +1,12 @@
 ---
-title: Unity Prefabs and Scripted Sign-In
+title: Unity Prefabs and scripted sign-in
 description: Unity prefabs and Scripted Sign-In examples for Social services on Xbox Live.
 ms.date: 1/24/2018
 ms.topic: get-started-article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity
 ---
 
-# Unity Prefabs and Scripted Sign-In
+# Unity Prefabs and scripted sign-in
 
 This article will guide you through adding Xbox Live sign-in to your Unity projects.
 There are two ways you can achieve sign-in, if you have downloaded the [Xbox Live Unity Plugin](https://github.com/Microsoft/xbox-live-unity-plugin):

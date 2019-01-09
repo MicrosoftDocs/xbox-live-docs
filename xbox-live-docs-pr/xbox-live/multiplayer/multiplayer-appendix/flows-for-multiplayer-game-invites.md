@@ -1,5 +1,5 @@
 ---
-title: Updated flows for multiplayer game invites
+title: Flows for multiplayer game invites
 description: Updated flow diagrams for implementing multiplayer game invites, to invite another player to a multiplayer game.
 ms.assetid: 1569588e-3bbc-47d3-8b7d-cc9774071adc
 ms.date: 04/04/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer 2015
 ms.localizationpriority: medium
 ---
 
-# Updated flows for multiplayer game invites
+# Flows for multiplayer game invites
 
 As a result of Xbox One beta feedback, the user experience flow for multiplayer game invites has been changed as of Xbox One Recovery Update 24, released on November 6, 2013.
 This is a change to the **user-experience (UX) only** and will not affect any behavior or functionality from the perspective of a game title.

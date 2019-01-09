@@ -1,6 +1,6 @@
 ---
-title: Get started with Xbox Live as a partner
-description: Getting started with Xbox Live development as a managed partner or ID@Xbox member.
+title: Get started with Xbox Live, as an ID@Xbox developer or managed partner
+description: Getting started with Xbox Live development, as an ID@Xbox developer or managed partner.
 ms.assetid: 69ab75d1-c0e7-4bad-bf8f-5df5cfce13d5
 ms.date: 06/07/2017
 ms.topic: article
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, partner, ID@Xbox
 ms.localizationpriority: medium
 ---
 
-# Get started with Xbox Live as a managed partner or an ID@Xbox developer
+# Get started with Xbox Live, as an ID@Xbox developer or managed partner
 
 This section covers getting started with Xbox Live development as a managed partner or as an ID@Xbox developer.
 Partners and ID developers can access the full range of Xbox Live features, including achievements, multiplayer, and more.

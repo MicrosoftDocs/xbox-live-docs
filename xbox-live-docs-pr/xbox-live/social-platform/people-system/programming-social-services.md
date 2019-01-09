@@ -1,5 +1,5 @@
 ---
-title: Programming Social Services
+title: Programming Social services
 description: Code example showing how to use the Social Manager API to retrieve a user's social relationships and their public properties.
 ms.assetid: 101d059a-e03f-472c-8300-800aa5730ee2
 ms.date: 04/04/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, social manager, exa
 ms.localizationpriority: medium
 ---
 
-# Programming Social Services
+# Programming Social services
 
 > [!NOTE]
 > This article demonstrates advanced API usage.  As a starting point, please take a look at the [Introduction to the Social Manager API](../intro-to-social-manager.md) which significantly simplifies development.  Please let your DAM know if you find an unsupported scenario in the Social Manager.

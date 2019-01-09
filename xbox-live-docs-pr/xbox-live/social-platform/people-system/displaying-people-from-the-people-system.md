@@ -43,7 +43,7 @@ Following are some example call flow scenarios that illustrate how titles obtain
 
 ## Title has:
 
-The current user's XUID
+The current user's XUID.
 
 
 ## Goal
@@ -73,12 +73,12 @@ To render a rich list of online users that are in the current user's people list
 
 ## Title has:
 
-The ID/name of the leaderboard
+The ID/name of the leaderboard.
 
 
 ## Goal
 
-To render basic info for each user on the leaderboard
+To render basic info for each user on the leaderboard.
 
 
 ## Field to render [owning service]
@@ -109,7 +109,7 @@ To render basic info for each user on the leaderboard
 
 ## Goal
 
-To render basic info for each user on the leaderboard
+To render basic info for each user on the leaderboard.
 
 
 ## Field to render [owning service]

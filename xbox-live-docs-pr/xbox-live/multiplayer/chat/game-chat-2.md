@@ -1,5 +1,5 @@
 ---
-title: Game Chat 2
+title: Game Chat
 author: mikehoffms
 description: Adding voice and text communication to your game by using Xbox Live Game Chat 2.
 ms.author: v-mihof
@@ -11,9 +11,9 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, game chat, game cha
 ms.localizationpriority: medium
 ---
 
-# Game Chat 2
+# Game Chat
 
-Add voice and text communication to your game by using Xbox Live Game Chat 2.
+Add voice and text communication to a game by using Xbox Live Game Chat 2.
 
 
 ## In this section

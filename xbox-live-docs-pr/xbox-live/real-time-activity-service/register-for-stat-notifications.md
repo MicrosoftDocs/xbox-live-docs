@@ -1,5 +1,5 @@
 ---
-title: Registering for player stat change notifications
+title: Registering for player Stat change notifications
 description: Using the Real-Time Activity service to register for player stat change notifications.
 ms.assetid: d8dd61d4-4188-4dbc-abc5-ffcb491a2778
 ms.date: 06/12/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, rta, stat, notifica
 ms.localizationpriority: medium
 ---
 
-# Registering for player stat change notifications
+# Registering for player Stat change notifications
 
 Real-Time Activity (RTA) is enabled for statistics via the Xbox Live Service Configuration.
 

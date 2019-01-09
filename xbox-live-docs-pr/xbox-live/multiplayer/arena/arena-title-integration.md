@@ -1,5 +1,5 @@
 ---
-title: Arena title integration guide
+title: Arena title integration
 description: Adding support in a game for the Arena platform, which allows Tournament Organizers to create and operate tournaments.
 ms.assetid: 470914df-cbb5-4580-b33a-edb353873e32
 ms.date: 10/12/2017
@@ -8,10 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, arena, tournament
 ms.localizationpriority: medium
 ---
 
-# Arena title integration guide
-
-
-## Introduction
+# Arena title integration
 
 The Arena platform for Xbox allows Tournament Organizers (TOs) to create and operate tournaments for titles that support Arena.
 Arena supports both an Xbox Live Tournament Organizer that enables publisher and user-run tournaments, as well as third-party Tournament Organizers who integrate with Arena.

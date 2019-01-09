@@ -1,5 +1,5 @@
 ---
-title: Flowchart - Play a game with friends
+title: Flowchart - Playing a game with friends
 description: Flowcharts showing how to start a new multiplayer game by adding and inviting friends to the game.
 ms.assetid: ead5b172-6410-4aae-97fc-3c295745d27e
 ms.date: 04/04/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer manager
 ms.localizationpriority: medium
 ---
 
-# Flowchart - Play a game with friends
+# Flowchart - Playing a game with friends
 
 The following flowcharts show how to start a new multiplayer game by adding and inviting friends to the game.
 

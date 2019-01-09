@@ -1,6 +1,6 @@
 ---
-title: Connected Storage technical overview
-description: A deep dive on the inner workings of Connected Storage.
+title: Technical overview of Connected Storage
+description: The inner workings of Connected Storage.
 ms.assetid: a0bacf59-120a-4ffc-85e1-fbeec5db1308
 ms.date: 02/27/2018
 ms.topic: article
@@ -8,10 +8,10 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, connected storage
 ms.localizationpriority: medium
 ---
 
-# Connected Storage technical overview
+# Technical overview of Connected Storage
 
 > [!NOTE]
-> This document was originally written for Managed Partner Xbox One developers. Some of the Xbox One-specific content like Local and Title storage can be ignored for UWP on Windows.  The conceptual content and API in this document are still relevant.  Please contact your Microsoft representative (if applicable) with any questions.
+> This document was originally written for Managed Partner Xbox One developers. Some of the Xbox One-specific content like Local and Title storage can be ignored for UWP on Windows.  The conceptual content and API in this document are still relevant.  Contact your Microsoft representative (if applicable) with any questions.
 
 The storage and save models on Xbox One are much different from those on Xbox 360; Xbox One has a more flexible application model that supports fast application switching, multiple simultaneous applications, and quick suspend and resume of apps.
 Data stored by using the Connected Storage API automatically roams for users across multiple Xbox One consoles, and is also available for use offline.
@@ -30,23 +30,48 @@ This article covers:
 ## Overview
 
 The Xbox One application model allows users to use multiple apps at once, which means your app can't ask a user to wait for data to be saved before turning off the console or moving on to another app.
+
 Xbox One users will also enjoy having their data roam automatically across consoles so that every Xbox One console feels like their own console.
+
 The Xbox One platform provides the Connected Storage API to help your app satisfy these requirements.
 
+
+### Data blobs in containers for later quick sync
+
 The connected storage system allows apps to store data as one or more *blobs* in *containers*.
-When an app saves data, it is quickly copied from the exclusive partition into the shared partition so that the tasks of storing the data on disk and uploading it to Xbox Live Title Storage can be handled outside the lifetime of your app.
+
+When an app saves data, the data is quickly copied from the exclusive partition into the shared partition, so that the tasks of *storing the data on disk* and *uploading the data to Xbox Live Title Storage* can be handled outside the lifetime of your app.
+
+
+### Notifies if waiting for data to download
 
 When your app requests a specific user's data from the connected storage system, the system automatically checks with the cloud for updated data and notifies users if they need to wait for data to download.
-The system also asks users to choose between conflicting data in some cases, such as when a user has played off-line on more than one console, or when another console is uploading saved data for that user.
 
-Your app also has a dedicated, but limited, amount of cloud storage space for every user, so users will not have to make hard choices about permanently deleting data from one app to make space for another app's saves.
-There is, however, a limited amount of storage space on the Xbox One hard drive for caching saves locally, so the system provides a user experience for freeing up local cache space.
+
+### Prompts user to choose data from multiple consoles
+
+The system asks users to choose between conflicting data in some cases, such as when a user has played off-line on more than one console, or when another console is uploading saved data for that user.
+
+
+### UX to free up local cache
+
+Your app has a dedicated, but limited, amount of cloud storage space for every user, so users will not have to make hard choices about permanently deleting data from one app to make space for another app's saves.
+
+There is, however, a limited amount of storage space on the Xbox One hard drive for caching saves locally, so the system provides a UX for freeing up local cache space.
+
 Users are in control of what is cached locally; they never lose access to data they care about when they're playing offline.
+
+
+### Small local storage
 
 The connected storage system also allows a small amount of user-independent data to be stored locally for the app.
 This per-machine data does not roam and is not uploaded to the cloud.
 
-The Xbox One connected storage system takes care of system power management so that pending writes to the hard disk and uploads to the cloud are handled automatically—there is no need for titles to display UI to say "save in progress, please do not turn off your console."
+
+### System power management and pending writes
+
+The Xbox One connected storage system takes care of system power management, so that pending writes to the hard disk and pending uploads to the cloud are handled automatically.
+There is no need for a title to display UI to say "Saving is in progress, please do not turn off your console."
 
 
 ### The Xbox One app model and app navigation

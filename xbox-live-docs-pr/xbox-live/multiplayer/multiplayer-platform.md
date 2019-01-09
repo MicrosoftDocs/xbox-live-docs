@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 # Multiplayer platform
 
-The Multiplayer platform includes Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
+The Xbox Live Multiplayer platform includes Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
 
 
 ## In this section

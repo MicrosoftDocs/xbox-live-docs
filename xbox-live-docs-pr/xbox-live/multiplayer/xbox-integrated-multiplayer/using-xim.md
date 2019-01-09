@@ -1,5 +1,5 @@
 ﻿---
-title: Using XIM (C++)
+title: Using XIM via C++
 description: Using Xbox Integrated Multiplayer (XIM) with C++.
 ms.date: 04/24/2018
 ms.topic: article
@@ -7,7 +7,7 @@ keywords: xbox live, xbox, games, xbox one, xbox integrated multiplayer
 ms.localizationpriority: medium
 ---
 
-# Using XIM (C++)
+# Using XIM via C++
 
 > [!div class="op_single_selector" title1="Language"]
 > - [C++](using-xim.md)

@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 # External services
 
-External services.
+Xbox Live External services include Web services, relying parties, single sign-on, and access policies.
 
 
 ## In this section

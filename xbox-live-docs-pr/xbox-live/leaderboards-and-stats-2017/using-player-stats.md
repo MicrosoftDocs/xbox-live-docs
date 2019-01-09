@@ -34,19 +34,25 @@ Xbox Live Creators Program developers may only use Stats 2017 and so can ignore 
 
 Xbox Live Creators Program developers can skip ahead to the [Stats 2017 document](stats2017.md).
 
-These two implementations operate on fundamentally different principles. 
+These two implementations operate on fundamentally different principles, as follows.
 
-*   When using Stats 2013, you send **events** to the Xbox Live Service containing certain information about an action a user performed.
 
-    The information in these **events** is used to update stats accordingly.
-    In Stats 2013, the service keeps track of and updates all of your stats values, so that the service is the source of truth for statistic values for a player or group of players.
+### Stats 2013
 
-*   When using Stats 2017, you send up the actual stat value itself for the server to use.
+When using Stats 2013, you send **events** to the Xbox Live Service containing certain information about an action a user performed.
 
-    In Stats 2017, the server does little to no validation on the value sent to it, and so it is up to your title to keep track of the correct stat values; your title is the source of truth for statistic values.
-    When using Stats 2017, we recommend that you track and store your stats in the cloud with the [Xbox Live Storage Platform](../storage-platform/storage-platform.md).
+The information in these **events** is used to update stats accordingly.
+In Stats 2013, the service keeps track of and updates all of your stats values, so that the service is the source of truth for statistic values for a player or group of players.
 
-    Stats 2017 is like a reporting service: you send the correct stat for your game to the server, your stat then sits on the server and waits to be displayed on request or updated.
+
+### Stats 2017
+
+When using Stats 2017, you send up the actual stat value itself for the server to use.
+
+In Stats 2017, the server does little to no validation on the value sent to it, and so it is up to your title to keep track of the correct stat values; your title is the source of truth for statistic values.
+When using Stats 2017, we recommend that you track and store your stats in the cloud with the [Xbox Live Storage Platform](../storage-platform/storage-platform.md).
+
+Stats 2017 is like a reporting service: you send the correct stat for your game to the server, your stat then sits on the server and waits to be displayed on request or updated.
 
 
 ## History
@@ -88,7 +94,6 @@ The service has minimal validation checks to make sure that you're sending a num
 
 Although you may use the Stats 2017 service to recall the values of stats at the beginning of a game session, you should not use the Stats 2017 service to confirm the value of a stat while the session is ongoing.
 
-
 How the two flavors of Stats operate:
 ![Stats 2013 vs. 2017](../images/stats/Stats2013-7DiagramColored.jpg)
 
@@ -119,6 +124,6 @@ Stats 2017 is only used to produce leaderboards.
 
 ## Further reading
 
-For a more in-depth explanation of Stats 2013, read the [partner only documentation on Stats 2013](https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/event-driven-data-platform/user-stats).
+For a more in-depth explanation of Stats 2013, read the [partner-only documentation on Stats 2013](https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/event-driven-data-platform/user-stats).
 
 For a more in-depth explanation of Stats 2017, read the [Stats 2017 Documentation](stats2017.md).

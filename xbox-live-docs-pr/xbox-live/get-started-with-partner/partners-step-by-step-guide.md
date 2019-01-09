@@ -1,6 +1,6 @@
 ---
-title: Step by step guide for Xbox Live partners
-description: Provides a guideline of steps to integrate Xbox Live for managed partners.
+title: Integrate Xbox Live, for managed partners and ID@Xbox members
+description: Steps to integrate Xbox Live into a game, for managed partners and ID@Xbox members.
 ms.assetid: f0c9db8f-f492-4955-8622-e1736f0a4509
 ms.date: 04/04/2017
 ms.topic: article
@@ -8,9 +8,9 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Step by step guide to integrate Xbox Live for managed partners and ID@Xbox members
+# Integrate Xbox Live, for managed partners and ID@Xbox members
 
-This section will help you get up and running with Xbox Live:
+This article helps you get up and running with Xbox Live.
 
 
 ## 1. Choose a Platform
@@ -25,7 +25,8 @@ Decide between making an Xbox Development Kit (XDK), Universal Windows Platform 
 
 ## 2. Ensure you have a title created in Partner Center or XDP
 
-Every Xbox Live title must be defined in Partner Center or the Xbox Developer Portal (XDP) before you will be able to sign-in and make Xbox Live Service calls.  [Creating A New Title](create-a-new-title.md) will show you how to do this.
+Every Xbox Live title must be defined in Partner Center or the Xbox Developer Portal (XDP) before you will be able to sign-in and make Xbox Live Service calls.
+To do this, see [Creating A New Title](create-a-new-title.md).
 
 
 ## 3. Follow the appropriate guide to setup your IDE or Game Engine
@@ -63,4 +64,7 @@ Add Xbox Live features to your game:
 
 ## 6. Release Your Title
 
-ID@Xbox titles and titles released by game publisher is this a Microsoft Partner must go through a certification process before release.  This is because these titles have access to additional features such as Multiplayer, Achievements, and Rich Presence.  Once you are ready to release your title, contact your Microsoft representative for more detail on the submission and release process.
+ID@Xbox titles and titles released by a Microsoft Partner must go through a certification process before release.
+This is because these titles have access to additional features such as Multiplayer, Achievements, and Rich Presence.
+
+When you are ready to release your title, contact your Microsoft representative for more detail on the submission and release process.

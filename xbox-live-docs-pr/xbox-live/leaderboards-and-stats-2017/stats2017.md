@@ -27,7 +27,11 @@ Stats 2017 accepts values sent to it with little to no validation, so it is up t
 
 ## Configured stats and featured leaderboards
 
-Stats are configured on the [Windows Development Center dashboard](https://developer.microsoft.com/en-us/dashboard/windows/overview). In order to configure stats you must already have a title configured. If you do not have a title configured, you can learn how to do so by reading [Create and test a new Creator's title](../get-started-with-creators/create-and-test-a-new-creators-title.md).  The Stats you configure in Partner Center will appear in your title's GameHub as pictured:
+Stats are configured on the [Windows Development Center dashboard](https://developer.microsoft.com/en-us/dashboard/windows/overview).
+In order to configure stats, you must already have a title configured.
+
+If you do not have a title configured, you can learn how to do so by reading [Create and test a new Creator's title](../get-started-with-creators/create-and-test-a-new-creators-title.md).
+The Stats you configure in Partner Center will appear in your title's GameHub as pictured:
 
 The *Featured Stats* are highlighted in yellow in the image below.
 ![Official Club Page Social Leaderboard](../images/omega/gamehub_featuredstats.png)
@@ -48,7 +52,7 @@ Featured Stat leaderboards are monthly leaderboards which are reset on the first
 Developers are limited to having no more than 20 featured stats for their title, but there is no requirement for developers to include Featured Stats in their title.
 
 
-## Further reading
+## See also
 
-Learn to configure stats with [Configuring Featured Stats and Leaderboards 2017](../configure-xbl/dev-center/featured-stats-and-leaderboards.md)
-Learn how to update stat values with [Updating Stats 2017](player-stats-updating.md)
+[Configuring Featured Stats and Leaderboards 2017](../configure-xbl/dev-center/featured-stats-and-leaderboards.md)
+[Updating Stats 2017](player-stats-updating.md)

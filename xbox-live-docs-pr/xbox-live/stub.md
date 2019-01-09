@@ -13,4 +13,4 @@ ms.localizationpriority: medium
 
 # Stub page
 
-General-purpose temporary stub page.
+Shared temporary stub page.

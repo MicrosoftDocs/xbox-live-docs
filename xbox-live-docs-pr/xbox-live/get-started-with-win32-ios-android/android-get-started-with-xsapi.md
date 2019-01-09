@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 # Get started with Xbox Live APIs on Android
 
-In order to use the Xbox Live APIs with an Android game, you can use the pre-compiled binaries, or include the Xbox Live API source in your project and build it.
+To use the Xbox Live APIs with an Android game, you can use the pre-compiled binaries, or include the Xbox Live API source in your project and build it.
 
 
 ## Requirements

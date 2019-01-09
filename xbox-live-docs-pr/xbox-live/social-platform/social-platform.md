@@ -1,5 +1,5 @@
 ---
-title: Xbox Live Social platform
+title: Social platform
 author: mikehoffms
 description: The Social platform service is a gaming-oriented social network that includes a user's profile, gamerscore, achievements, clubs, and activity feed.
 ms.author: v-mihof
@@ -11,9 +11,9 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, social platform
 ms.localizationpriority: medium
 ---
 
-# Xbox Live Social platform
+# Social platform
 
-The Social platform service is a gaming-oriented social network that includes a user's profile, gamerscore, achievements, clubs, and activity feed.
+The Social platform in Xbox Live is a gaming-oriented social network that includes a user's profile, gamerscore, achievements, clubs, and activity feed.
 
 
 ## In this section

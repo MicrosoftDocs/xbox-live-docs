@@ -1,7 +1,7 @@
 ---
-title: Get started with Xbox Live APIs on Win32
+title: Including XBL API sources in a Win32 project, for debugging
 author: KevinAsgari
-description: Learn how to add and compile the Xbox Live APIs source in your Win32 project.
+description: Add and compile Xbox Live APIs source in a Win32 project, for debugging into the XBL sources.
 ms.author: kevinasg
 ms.date: 09/21/2018
 ms.topic: article
@@ -11,9 +11,9 @@ keywords: xbox live, xbox, games, windows, win32
 ms.localizationpriority: medium
 ---
 
-# Get started with Xbox Live APIs on Win32
+# Including XBL API sources in a Win32 project, for debugging
 
-In order to use the Xbox Live APIs with a Win32 game, you must include the Xbox Live API source in your project and build it.
+To use the Xbox Live APIs with a Win32 game, when you need to debug into the Xbox Live source code, include the Xbox Live API source in your project and build it.
 
 
 ## Add the Xbox Live SDK projects to your Visual Studio solution (using source code)

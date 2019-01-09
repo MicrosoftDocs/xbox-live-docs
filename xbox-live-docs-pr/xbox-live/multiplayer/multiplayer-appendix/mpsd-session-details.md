@@ -1,5 +1,5 @@
 ---
-title: Multiplayer sessions in Multiplayer Session Directory (MPSD)
+title: Multiplayer sessions in MPSD
 description: Details about multiplayer sessions.
 ms.assetid: 5aeae339-4a97-45f4-b0e7-e669c994f249
 ms.date: 04/04/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer 2015, s
 ms.localizationpriority: medium
 ---
 
-# Multiplayer sessions in Multiplayer Session Directory (MPSD)
+# Multiplayer sessions in MPSD
 
 
 ## Session Overview

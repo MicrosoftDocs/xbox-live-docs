@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 # Title Storage
 
-Cloud storage for large amounts of per-user or per-title data, such as player statistics and assets.
+In Xbox Live, Title Storage is cloud storage for large amounts of per-user or per-title data, such as player statistics and assets.
 
 
 ## In this section

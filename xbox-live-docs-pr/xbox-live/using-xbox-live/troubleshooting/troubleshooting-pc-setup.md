@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting Xbox Live setup on Windows PC
+title: Troubleshooting Xbox Live setup on Windows 10 PC
 description: Ensuring that your Windows 10 PC is set up as an Xbox Live development environment.
 ms.assetid: 9cfebdcd-0c1c-4fc2-9457-e7e434b6374c
 ms.date: 04/04/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, troubleshoot
 ms.localizationpriority: medium
 ---
 
-# Troubleshooting Xbox Live setup on Windows PC
+# Troubleshooting Xbox Live setup on Windows 10 PC
 
 On Windows 10 PC, ensure that your machine is set up correctly, as follows:
 

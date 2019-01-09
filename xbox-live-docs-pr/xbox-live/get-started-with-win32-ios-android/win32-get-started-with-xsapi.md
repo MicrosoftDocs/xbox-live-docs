@@ -11,9 +11,7 @@ keywords: xbox live, xbox, games, windows, win32
 ms.localizationpriority: medium
 ---
 
-# Get started with the Xbox Live APIs on Win32
-
-To use the Xbox Live APIs with a Win32 game, you must include the Xbox Live API source in your project and build it.
+# Get started with Xbox Live APIs on Win32
 
 
 ## Add the Xbox Live SDK to your Visual Studio project (using binaries, preferred option)
