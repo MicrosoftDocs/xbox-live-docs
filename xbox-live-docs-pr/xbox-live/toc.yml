@@ -518,7 +518,7 @@
                 - name: Multiplayer session browse
                   href: multiplayer/session-browse.md
             - name: Xbox Integrated Multiplayer (XIM)  [feature]
-              href: xbox-integrated-multiplayer.md
+              href: multiplayer/xbox-integrated-multiplayer.md
               items: 
                 - name: OVERVIEW of Xbox Integrated Multiplayer (XIM)
                   href: multiplayer/intro-to-xbox-integrated-multiplayer.md
