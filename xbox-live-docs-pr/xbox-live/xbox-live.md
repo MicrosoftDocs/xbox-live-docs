@@ -56,7 +56,7 @@ This section describes how to get started with the Xbox Live social features.
 ### Xbox Live Data platform
 
 The Xbox Live Data platform drives the usage of player stats, achievements, and leaderboards.
-Read this series of topics to learn more about how to use these in your title.
+Read this series of articles to learn more about how to use these in your title.
 
 | Article | Description |
 |---------|-------------|

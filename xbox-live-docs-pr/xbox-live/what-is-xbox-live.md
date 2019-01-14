@@ -43,7 +43,8 @@ In addition to the REST APIs, there are client side APIs that wrap the REST func
 
 ## Join the Creators or ID program
 
-The following guides can help you get started with Xbox Live development, regardless of whether you are a UWP or Xbox console developer.  There are also guides for getting setup with game engines.
+The following guides can help you get started with Xbox Live development, regardless of whether you are a UWP or Xbox console developer.
+There are also guides for getting setup with game engines.
 
 | Article | Description |
 |---------|-------------|
@@ -65,7 +66,8 @@ Once you have a title created and the fundamentals working, this section provide
 
 ## 1. Social platform
 
-Xbox Live social features can organically grow your audience, spreading awareness to over 55 million active users.  This section describes how to get started with the Xbox Live social features.
+Xbox Live social features can organically grow your audience, spreading awareness to over 55 million active users.
+This section describes how to get started with the Xbox Live social features.
 
 | Article | Description |
 |---------|-------------|
@@ -74,7 +76,8 @@ Xbox Live social features can organically grow your audience, spreading awarenes
 
 ## 2. Data platform
 
-The Xbox Live Data Platform drives the usage of player stats, achievements, and leaderboards.  Read this series of topics to learn more about how to use these in your title.
+The Xbox Live Data Platform drives the usage of player stats, achievements, and leaderboards.
+Read this series of articles to learn more about how to use these in your title.
 
 | Article | Description |
 |---------|-------------|
@@ -86,7 +89,8 @@ The Xbox Live Data Platform drives the usage of player stats, achievements, and 
 
 ## 3. Storage platform
 
-The Xbox Live Storage Platform provides both Title Storage and Connected Storage.  These are two different but complementary services:  
+The Xbox Live Storage Platform provides both Title Storage and Connected Storage.
+These are two different but complementary services:  
 
 *  *Connected Storage* allows you to implement game saves in the cloud, that will roam across devices regardless of where a user is signed-in.
 *  *Title Storage* lets you store blobs of data that can be per user or per title and shared across different users.
@@ -100,7 +104,9 @@ The Xbox Live Storage Platform provides both Title Storage and Connected Storage
 
 ## 4. Multiplayer platform
 
-Multiplayer is a great way to extend the lifetime of your title and keep gameplay experiences fresh.  Xbox Live provides extensive multiplayer and matchmaking features.  You also have several options of API that provide varying levels of simplicity vs flexibility.
+Multiplayer is a great way to extend the lifetime of your title and keep gameplay experiences fresh.
+Xbox Live provides extensive multiplayer and matchmaking features.
+You also have several options of API that provide varying levels of simplicity vs flexibility.
 
 | Article | Description |
 |---------|-------------|

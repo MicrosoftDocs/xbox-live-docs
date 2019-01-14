@@ -10,13 +10,13 @@ ms.localizationpriority: medium
 
 # Designing Xbox Live Experiences
 
-This topic walks you through a sample process of thinking about and adding user statistics,
-achievements, and leaderboards to your game by using the Data Platform features of Xbox Live.
+This article walks you through a sample process of thinking about and adding user statistics, achievements, and leaderboards to your game by using the Data Platform features of Xbox Live.
 
 
 ## Example
 
-Let's configure a fictional game that shows you how Data Platform can help you light up amazing Xbox Live experiences in the Xbox One dashboard, the Xbox app on Windows 10, and in your game. For this scenario, we'll work with an imaginary racing game called _Races 2015_.
+Let's configure a fictional game that shows you how Data Platform can help you light up amazing Xbox Live experiences in the Xbox One dashboard, the Xbox app on Windows 10, and in your game.
+For this scenario, we'll work with an imaginary racing game called _Races 2015_.
 
 To get the most value out of these experiences, we will follow these recommended planning phases:
 1. Design your XBL experiences
@@ -26,10 +26,14 @@ To get the most value out of these experiences, we will follow these recommended
 
 ## Design your Xbox Live experiences
 
-We want _Race 2015_ to get the most out of Xbox Live in order to keep users engaged both inside and outside of the game. The first questions to ask are:
+We want _Race 2015_ to get the most out of Xbox Live in order to keep users engaged both inside and outside of the game.
+
+The first questions to ask are:
 
 1. What do we want our GameHub's Achievements tab experience to be like? (Featured Statistics & Social Leaderboards)
+
 2. What goals and motivations do we want to give to the players to do in the game? (Achievements)
+
 3. What scores or stats do we want players to use to rank themselves against other players in game? (Leaderboards)
 
 
@@ -46,7 +50,8 @@ For example, the Forza 6 **Achievement** tab could look something like this:
 
 ![Gamehub Image](../images/omega/forza_gamehub.png)
 
-Some of the statistics such as Miles Driven and First Place Finishes have gold, silver, or bronze decorations that illustrate where the player ranks against the player's friends. Interacting with any of these statistics will show a complete leaderboard like this:
+Some of the statistics such as Miles Driven and First Place Finishes have gold, silver, or bronze decorations that illustrate where the player ranks against the player's friends.
+Interacting with any of these statistics will show a complete leaderboard like this:
 
 ![Leaderboard](../images/omega/progress_gamehub_lb.png)
 
@@ -71,8 +76,10 @@ For _Races 2015_, here is a subset of the achievements we want to configure:
 
 ##  Leaderboards
 
-Leaderboards provide a way for gamers to rate themselves against other gamers for specific actions they can achieve in the game. Besides the social leaderboards in the GameHubs, we can configure Global Leaderboards to be used in game. These are some of the Leaderboards we'll want to rank all of our users on:
+Leaderboards provide a way for gamers to rate themselves against other gamers for specific actions they can achieve in the game.
+Besides the social leaderboards in the GameHubs, we can configure Global Leaderboards to be used in game.
 
+These are some of the Leaderboards we'll want to rank all of our users on:
 * Fastest lap time
 * Metadata: track where this happened
 * Metadata: car used

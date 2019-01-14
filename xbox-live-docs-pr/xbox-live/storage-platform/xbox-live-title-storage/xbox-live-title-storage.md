@@ -292,7 +292,7 @@ Some examples include saved games, game state, daily challenges, game maps, and 
 Next determine what titles and platforms will need to access the data.
 Title storage supports cloud data access from a single title on a single platform, and from multiple titles on multiple platforms.
 
-Finally, use the topics in this section to configure your storage, upload your data, and set access permissions appropriately based on your choices.
+Finally, use the articles in this section to configure your storage, upload your data, and set access permissions appropriately based on your choices.
 
 
 <a name="ID4EJFAC"></a>

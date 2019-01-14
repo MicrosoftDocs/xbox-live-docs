@@ -39,14 +39,17 @@ While Unity is the only third party game engine for which we provide documentati
 * [Game Maker Studio 2 UWP now supports Xbox Live Creators Program](https://www.yoyogames.com/gamemaker/xblc) will show you how to export your Game Maker Studio projects to play on Xbox One and Windows 10 PC.
 * [Using Xbox Live in UWP apps - Construct](https://www.scirra.com/tutorials/9540/using-xbox-live-in-uwp-apps) will show you how to use Xbox Live in your Construct 2 and 3 games.
 
-For other game development engines without documented Xbox Live integration, you can still use the Xbox Live APIs to add Xbox Live to your title. To use the Xbox Live API from your project, you can either add references to the binaries with NuGet packages or add the API source. Adding NuGet packages makes compilation quicker while adding the source makes debugging easier.
+For other game development engines without documented Xbox Live integration, you can still use the Xbox Live APIs to add Xbox Live to your title.
+To use the Xbox Live API from your project, you can either add references to the binaries with NuGet packages or add the API source.
+Adding NuGet packages makes compilation quicker while adding the source makes debugging easier.
 
 For support using Xbox Live Services with third party game engines that are not Unity, work with the appropriate game engine staff to answer your questions.
 
 
 ## 3. Xbox Live concepts & testing
 
-Once you have a title created, you should learn about the Xbox Live concepts that will affect your experience developing titles. It's also important to test your game on all of the platforms that it will support to ensure that it behaves as expected.
+Once you have a title created, you should learn about the Xbox Live concepts that will affect your experience developing titles.
+It's also important to test your game on all of the platforms that it will support to ensure that it behaves as expected.
 
 - [Xbox Live service configuration for the Creators Program](xbox-live-service-configuration-creators.md)
 - [Xbox Live test environment](../xbox-live-sandboxes.md)
@@ -55,7 +58,9 @@ Once you have a title created, you should learn about the Xbox Live concepts tha
 
 ## 4. Enable Xbox Live sign-in
 
-All Xbox Live Creators Program games must integrate Xbox Live sign-in and display the user identity (Gamertag, Gamerpic, etc.). You can choose to automatically sign in the user or have them push a button to initiate it. The Gamertag must be displayed once signed in so that the player can validate that they are using the right profile.
+All Xbox Live Creators Program games must integrate Xbox Live sign-in and display the user identity (Gamertag, Gamerpic, etc.).
+You can choose to automatically sign in the user or have them push a button to initiate it.
+The Gamertag must be displayed once signed in so that the player can validate that they are using the right profile.
 
 - [Xbox Live Social Platform - Profile, Friends, Presence](../social-platform/social-platform.md)
 
@@ -74,6 +79,5 @@ It is important to note that the Xbox Live Creators Program does not support onl
 ## 6. Release your game
 
 If you are using the Xbox Live Creators Program, then the process is no different than releasing any other UWP application:
-
 - [Microsoft Store Policies](https://msdn.microsoft.com/en-us/library/windows/apps/dn764944.aspx) including [Gaming and Xbox Policies](https://msdn.microsoft.com/en-us/library/windows/apps/dn764944.aspx#pol_10_13)
 - [Publish Windows apps](https://developer.microsoft.com/en-us/store/publish-apps)

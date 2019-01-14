@@ -10,15 +10,18 @@ keywords: Xbox Live, Xbox, games, uwp, windows 10, Xbox one, Localized strings, 
 
 # Configuring localized strings in Partner Center
 
-To localize all your Xbox Live configurations to all the languages that your game supports, you can use the **Localized strings** page in Partner Center. All of the service configurations that you have created on any of the subsequent Xbox Live pages will be added to the file that you would download.
+To localize all your Xbox Live configurations to all the languages that your game supports, you can use the **Localized strings** page in Partner Center.
+All of the service configurations that you have created on any of the subsequent Xbox Live pages will be added to the file that you would download.
 
-You can use [Partner Center](https://partner.microsoft.com/dashboard) to configure the localized strings in all languages associated with your game. Add configuration by doing the following:
+You can use [Partner Center](https://partner.microsoft.com/dashboard) to configure the localized strings in all languages associated with your game.
+
+Add configuration by doing the following:
 
 1. In Partner Center, click **Services** > **Xbox Live** > **Localized strings**.
 
    The **Localized strings** section for your title appears.
 
-2. Click the **Download** button. 
+2. Click the **Download** button.
 
    A `localization.xml` file is downloaded onto your local machine.
 

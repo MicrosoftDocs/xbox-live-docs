@@ -1,5 +1,5 @@
 ---
-title: Migrating from Game Chat to Game Chat 2
+title: Migrating from Game Chat 1 to Game Chat 2
 description: Migrating existing Game Chat code to use Game Chat 2.
 ms.date: 5/2/2018
 ms.topic: article
@@ -7,41 +7,22 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, game chat 2, game c
 ms.localizationpriority: medium
 ---
 
-# Migrating from Game Chat to Game Chat 2
+# Migrating from Game Chat 1 to Game Chat 2
 
-This document details the similarities between Game Chat and Game Chat 2 and how to migrate from Game Chat to Game Chat 2.
-As such, it is for titles that have an existing Game Chat implementation that wish to migrate to Game Chat 2.
+This document details the similarities between Game Chat (here called *Game Chat 1*) and Game Chat 2 and how to migrate from Game Chat 1 to Game Chat 2.
+As such, it is for titles that have an existing Game Chat 1 implementation that wish to migrate to Game Chat 2.
 
 If you don't already have a Game Chat implementation, the suggested starting point is [Using Game Chat 2](using-game-chat-2.md).
-
-This document contains the following topics:
-
-1. [Preface](#preface)
-2. [Prerequisites](#prerequisites)
-3. [Initialization](#initialization)
-4. [Configuring Users](#configuring-users)
-5. [Processing data](#processing-data)
-6. [Processing events](#processing-events)
-7. [Text chat](#text-chat)
-8. [Accessibility](#accessibility)
-9. [UI](#UI)
-10. [Muting](#muting)
-11. [Bad reputation auto-mute](#bad-reputation-auto-mute)
-12. [Privilege and privacy](#privilege-and-privacy)
-13. [Cleanup](#cleanup)
-14. [Failure model and debugging](#failure-model-and-debugging)
-15. [How to configure popular scenarios](#how-to-configure-popular-scenarios)
-16. [Pre-encode and post-decode audio manipulation](#pre-encode-and-post-decode-audio-manipulation)
 
 
 ## Preface
 
 The original Game Chat API is a WinRT API that exposed a concept of chat users and voice channels to assist in the implementation of Xbox Live in-game voice chat scenarios.
-The Game Chat API is built on top of the Chat API, which itself is a WinRT API that exposed a concept of chat users and voice channels while requiring low-level management of audio devices.
+The Game Chat 1 API is built on top of the Chat API, which itself is a WinRT API that exposed a concept of chat users and voice channels while requiring low-level management of audio devices.
 
 Game Chat 2 is the successor to the original Game Chat and Chat APIs - it was designed to be a simpler API for basic chat scenarios, such as team communication, while simultaneously providing more flexibility for advanced chat scenarios, such as broadcast-style communication and real-time audio manipulation.
 
-Both Game Chat and Game Chat 2 fill the same niche: the APIs each provide a convenient method for integrating Xbox Live enabled, in-game voice chat, while the title provides a transport layer for transmitting data packets to and from remote instances of Game Chat or Game Chat 2.
+Game Chat 1 and Game Chat 2 fill the same niche: the APIs each provide a convenient method for integrating Xbox Live enabled, in-game voice chat, while the title provides a transport layer for transmitting data packets to and from remote instances of Game Chat 1 or Game Chat 2.
 
 The Game Chat 2 API has many advantages over the original Game Chat and Chat APIs.
 Some highlights include:
@@ -53,8 +34,8 @@ Some highlights include:
 * Memory hooks to redirect Game Chat 2 allocations through a custom allocator.
 * Identical UWP + Exclusive Resource Application (ERA) headers for a more convenient cross-plat development experience.
 
-This document details the similarities between Game Chat and Game Chat 2 and how to migrate from Game Chat to the Game Chat 2 C++ API.
-If you are interested in migration from Game Chat to the Game Chat 2 WinRT API, it is suggested that you read this document to understand how to map Game Chat concepts to Game Chat 2, and then see [Using Game Chat 2 WinRT Projections](using-game-chat-2-winrt.md) for the patterns specific to WinRT.
+This document details the similarities between Game Chat 1 and Game Chat 2 and how to migrate from Game Chat 1 to the Game Chat 2 C++ API.
+If you are interested in migration from Game Chat 1 to the Game Chat 2 WinRT API, it is suggested that you read this document to understand how to map Game Chat 1 concepts to Game Chat 2, and then see [Using Game Chat 2 WinRT Projections](using-game-chat-2-winrt.md) for the patterns specific to WinRT.
 
 The sample code for the original Game Chat in this document uses C++/CX.
 
@@ -87,7 +68,7 @@ The implementation does, however, throw exceptions as a means of fatal error rep
 ## Initialization
 
 
-### Game Chat
+### Initialization of Game Chat 1
 
 Interacting with the original Game Chat is done through the `ChatManager` class.
 The following example shows how to construct a `ChatManager` instance using default parameters:
@@ -96,14 +77,14 @@ The following example shows how to construct a `ChatManager` instance using defa
 auto chatManager = ref new ChatManager();
 ```
 
-### Game Chat 2
+### Initialization of Game Chat 2
 
 All interaction with Game Chat 2 is done through Game Chat 2's `chat_manager` singleton.
 The singleton must be initialized before any meaningful interaction with the library can occur.
 
 The singleton requires that the maximum number of concurrent local and remote chat users be specified at initialization time; this is because Game Chat 2 pre-allocates memory proportional to the expected number of users.
 
-The following example shows how to intialize the singleton instance when the maximum number of concurrent local and remote chat users will be four:
+The following example shows how to initialize the singleton instance when the maximum number of concurrent local and remote chat users will be four:
 
 ```cpp
 chat_manager::singleton_instance().initialize(4);
@@ -116,7 +97,7 @@ For more detail on these parameters, refer to the documentation of `chat_manager
 ## Configuring users
 
 
-### Game Chat
+### Configuring users in Game Chat 1
 
 Adding local users to the original Game Chat API is done through `ChatManager::AddLocalUserToChatChannelAsync()`.
 Adding the user to multiple chat channels requires multiple calls, each specifying a different channel.
@@ -154,7 +135,7 @@ When the local instance receives packets containing information about new remote
 Removing users from the Game Chat instance is performed through similar calls to `ChatManager::RemoveLocalUserFromChatChannelAsync()` and `ChatManager::RemoveRemoteConsoleAsync()`
 
 
-### Game Chat 2
+### Configuring users in Game Chat 2
 
 Adding local users to Game Chat 2 is done synchronously through `chat_manager::add_local_user()`.
 In this example, User A will represent a local user with Xbox User Id `L"myLocalXboxUserId"`:
@@ -199,9 +180,9 @@ Refer to [Using Game Chat 2 - Configuring Users](using-game-chat-2.md#configurin
 ## Processing data
 
 
-### Game Chat
+### Processing data in Game Chat 1
 
-Game Chat does not have its own transport layer; this must be provided by the app.
+Game Chat 1 does not have its own transport layer; this must be provided by the app.
 Outgoing packets are handled by subscribing to the `OnOutgoingChatPacketReady` event and inspecting the arguments to determine the packet destination and transport requirements.
 The following example shows how to subscribe to the event and forward the arguments the `HandleOutgoingPacket()` method implemented by the title:
 
@@ -214,7 +195,7 @@ auto token = chatManager->OnOutgoingChatPacketReady +=
     });
 ```
 
-Incoming packets are submitted to Game Chat via `ChatManager::ProcessingIncomingChatMessage()`.
+Incoming packets are submitted to Game Chat 1 via `ChatManager::ProcessingIncomingChatMessage()`.
 The raw packet buffer and the remote device identifier must be provided.
 The following example shows how to submit a packet that is stored in the local `packetBuffer` and remote device identifier stored in the local variable `remoteIdentifier`.
 
@@ -226,7 +207,7 @@ chatManager->ProcessIncomingChatMessage(packetBuffer, remoteIdentifier);
 ```
 
 
-### Game Chat 2
+### Processing data in Game Chat 2
 
 Similarly, Game Chat 2 does not have its own transport layer; this must be provided by the app.
 Outgoing packets are handled by the app's regular, frequent calls to the `chat_manager::start_processing_data_frames()` and `chat_manager::finish_processing_data_frames()` pair of methods.
@@ -278,7 +259,7 @@ chatManager::singleton_instance().process_incoming_data(remoteEndpointIdentifier
 ## Processing events
 
 
-### Game Chat
+### Processing events in Game Chat 1
 
 Game Chat uses an eventing model to inform the app when something of interest occurs - such as the receipt of a text message or the changing of a user's accessibility preference.
 The app must subscribe to and implement a handler for each event of interest.
@@ -301,7 +282,7 @@ auto token = chatManager->OnTextMessageReceived +=
 ```
 
 
-### Game Chat 2
+### Processing events in Game Chat 2
 
 Game Chat 2 provides updates to the app, such as received text messages, through the app's regular, frequent calls to the `chat_manager::start_processing_state_changes()` and `chat_manager::finish_processing_state_changes()` pair of methods.
 They're designed to operate quickly such that they can be called every graphics frame in your UI rendering loop.
@@ -346,9 +327,9 @@ Because `chat_manager::remove_user()` immediately invalidates the memory associa
 ## Text chat
 
 
-### Game Chat
+### Text chat in Game Chat
 
-To send text chat with Game Chat, `GameChatUser::GenerateTextMessage()` can be used.
+To send text chat with Game Chat 1, `GameChatUser::GenerateTextMessage()` can be used.
 The following example shows how to send a chat text message with a local chat user represented by the `chatUser` variable:
 
 ```cpp
@@ -360,7 +341,7 @@ For more details, see [Accessibility](#accessibilityGame Chat then generates a c
 Remote instances of Game Chat will be notified of the text message via the `OnTextMessageReceived` event.
 
 
-### Game Chat 2
+### Text chat in Game Chat 2
 
 To send text chat with Game Chat 2, use `chat_user::chat_user_local::send_chat_text()`.
 This following example shows how to send a chat text message with a local chat user represented by the `chatUser` variable:
@@ -387,7 +368,7 @@ Similarly, text display is required because users may configure the system to us
 Both Game Chat and Game Chat 2 provide methods of detecting and respecting a user's accessibility preferences; you may wish to conditionally enable text mechanisms based on these settings.
 
 
-### Text-to-speech - Game Chat
+### Text-to-speech in Game Chat 1
 
 When a user has text-to-speech enabled, `GameChatUser::HasRequestedSynthesizedAudio()` will return true.
 When this state is detected, `GameChatUser::GenerateTextMessage()` will additionally generate text-to-speech audio that is inserted into the audio stream associated with the local user.
@@ -400,7 +381,7 @@ chatUser->GenerateTextMessage(L"Hello", true);
 The second boolean parameter is used to allow the app to override the speech-to-text preference - 'true' indicates that Game Chat should generate text-to-speech audio when the user's text-to-speech preference has been enabled, while 'false' indicates that Game Chat should never generate text-to-speech audio from the message.
 
 
-### Text-to-speech - Game Chat 2
+### Text-to-speech in Game Chat 2
 
 When a user has text-to-speech enabled, `chat_user::chat_user_local::text_to_speech_conversion_preference_enabled()` will return 'true'.
 When this state is detected, the app must provide a method of text input.
@@ -418,14 +399,14 @@ The audio synthesized as part of this operation will be transported to all users
 If `chat_user::chat_user_local::synthesize_text_to_speech()` is called on a user who does not have text-to-speech enabled Game Chat 2 will take no action.
 
 
-### Speech-to-text - Game Chat
+### Speech-to-text in Game Chat 1
 
 When a user has speech-to-text enabled, `GameChatUser::HasRequestSynthesizedAudio()` will return 'true'.
 When this state is detected, Game Chat will automatically transcribe the audio of each remote user's audio and expose it via the `OnTextMessageReceived` event.
 When the `OnTextMessageReceived` event fires due to the receipt of a transcription message, the `TextMessageReceivedEventArgs` will indicate a message type of `ChatTextMessageType::TranscribedSpeechMessage`.
 
 
-### Speech-to-text - Game Chat 2
+### Speech-to-text in Game Chat 2
 
 When a user has speech-to-text enabled, `chat_user::chat_user_local::speech_to_text_conversion_preference_enabled()` will return true.
 When this state is detected, the app must be prepared to provide UI associated with transcribed chat messages.
@@ -442,7 +423,7 @@ It's recommended that anywhere players are shown, particularly in a list of game
 Game Chat 2 introduces a coalesced indicator that provides a simpler means of determining the appropriate UI elements to show.
 
 
-### Game Chat
+### UI for Game Chat 1
 
 A `GameChatUser` has three properties that are commonly inspected when determining appropriate UI elements - `GameChatUser::TalkingMode`, `GameChatUser::IsMuted`, and `GameChatUser::RestrictionMode`.
 The following example demonstrates a possible heuristic for determining a particular icon constant vlaue to assign to an `iconToShow` variable from a `GameChatUser` object pointed to by the variable 'chatUser'.
@@ -473,7 +454,7 @@ else
 ```
 
 
-### Game Chat 2
+### UI for Game Chat 2
 
 Game Chat 2 has a coalesced `game_chat_user_chat_indicator` used to represent the current, instantaneous status of chat for a player.
 This value is retrieved by calling `chat_user::chat_indicator()`.
@@ -507,13 +488,13 @@ switch (chatUser->chat_indicator())
 ## Muting
 
 
-## Game Chat
+## Muting in Game Chat 1
 
 Muting or unmuting a user in Game Chat is performed through a call to `ChatManager::MuteUserFromAllChannels()` or `ChatManager::UnMuteUIserFromAllChannels()`, respectively.
 The mute state of a user can be retrieved by inspecting `GameChatUser::IsMuted` or `GameChatUser::IsLocalUserMuted`.
 
 
-## Game Chat 2
+## Muting in Game Chat 2
 
 The `chat_user::chat_user_local::set_microphone_muted()` method can be used to toggle the mute state of a local user's microphone.
 When the microphone is muted, no audio from that microphone will be captured.
@@ -544,13 +525,13 @@ Both Game Chat and Game Chat 2 enforce Xbox Live privilege and privacy restricti
 Game Chat 2 additionally provides diagnostic information to determine exactly how the restriction is impacting the direction of audio (e.g. whether audio an audio restriction is uni- or bi-directional).
 
 
-### Game Chat
+### Privilege and privacy in Game Chat 1
 
 Game Chat exposed privilege and privacy information through the `RestrictionMode` property.
 It can be retrieved by inspecting `GameChatUser::RestrictionMode`.
 
 
-### Game Chat 2
+### Privilege and privacy in Game Chat 2
 
 Game Chat 2 performs privilege and privacy restriction lookups when a user is first added; the user's `chat_user::chat_indicator()` will always return `game_chat_user_chat_indicator::silent` until those operations complete.
 If communication with a user is affected by a privilege or privacy restriction, the user's `chat_user::chat_indicator()` will return `game_chat_user_chat_indicator::platform_restricted`.

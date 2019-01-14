@@ -20,19 +20,32 @@ There are two API calls to retrieve leaderboard data.
 - `void GetLeaderboard(XboxLiveUser user, string statName, LeaderboardQuery query)`
 - `void GetSocialLeaderboard(XboxLiveUSer user, string statName, string socialGroup, LeaderboardQuery query)`
 
-To successfully make either of these calls return data, you will need to acquire an `XboxLiveUser` by [sign-in](unity-prefabs-and-sign-in.md), have a [configured stat](add-stats-and-leaderboards-in-unity.md) with value for at least one player, and form a `LeaderboardQuery`.
-If you do not already know how to sign-in a user, or you need to initialize a statistic for your leaderboard, you can read the linked articles.
+To successfully make either of these calls return data, do the following steps:
+* Acquire an `XboxLiveUser` by [sign-in](unity-prefabs-and-sign-in.md).
+* Have a [configured stat](add-stats-and-leaderboards-in-unity.md) with value for at least one player.
+* Form a `LeaderboardQuery`.
+
+Examples are below.
+
+
+## Configuring a stat
 
 Once you have an initialized statistic, the easiest way to associate it with your leaderboard script is to include one of the statistic prefabs: `IntegerStat`, `DoubleStat`, or `StringStat` as a public variable.
 Your stat will need to have its ID property configured at the very least, because this is what we will use for the **statName** parameter when we call for our leaderboard data.
+
+
+## Forming a LeaderboardQuery
 
 Finally, you will need to form a `LeaderboardQuery` object.
 
 A `LeaderboardQuery` has a few attributes that can be set which will effect the data returned:
 
 - **SkipResultToRank**: if set, this uint variable will determine what ranking the leaderboard data will start with when returning. Rankings start at rank 1.
+
 - **SkipResultToMe**: if set to true this boolean value will cause the leaderboard data returned to start at the `XboxLiveUser` used in the `GetLeaderboard()` call.
+
 - **Order**: Enums of type `Microsoft.Xbox.Services.Leaderboard.SortOrder` have two possible values, ascending, and descending. Setting this variable for your query will determine the sort order of your leaderboard.
+
 - **MaxItems**: This uint determines the maximum number of rows to return per call to `GetLeaderboard()` or `GetSocialLeaderboard()`.
 
 Forming your leaderboardQuery may look like the following:
@@ -52,12 +65,15 @@ This query would return five rows of the leaderboard starting at the 100th ranke
 > [!WARNING]
 > Setting SkipResultToRank higher than the number of players contained within the leaderboard will cause the leaderboard data to return with zero rows.
 
+
+## Call GetLeaderboard()
+
 Now that we have all of the pieces together we can call the `GetLeaderboard(XboxLiveUser user, string statName, LeaderboardQuery query)` function.
 
 The `GetSocialLeaderboard(XboxLiveUSer user, string statName, string socialGroup, LeaderboardQuery query)` function has one extra parameter called socialGroup. This string acts as a relationship filter on the returned data. The acceptable values for socialGroup are as follows:
 
-- "all": this will return a leaderboard filtered to the XboxLiveUser's friends
-- "favorite": this will return a leaderboard filtered to the XboxLiveUser's favorite friends
+- "all": Returns a leaderboard filtered to the XboxLiveUser's friends.
+- "favorite": Returns a leaderboard filtered to the XboxLiveUser's favorite friends.
 
 You can use the `LeaderboardTypes` enum in the `Microsoft.Xbox.Services.Client` namespace to label your leaderboards socialGroup and then use the `LeaderboardHelper` class function `GetSocialGroupFromLeaderboardType(LeaderboardTypes leaderboardType)` to pull out the appropriate string.
 
@@ -103,16 +119,16 @@ public void LoadLeaderboard()
 ```
 
 These two leaderboard-retrieving functions return void, and thus do not return the leaderboard data we are looking for.
-We will actually retrieve the leaderboard data in an event function discussed in the next section.
+We will retrieve the leaderboard data in an event function, discussed in the next section.
 
 
-## Receive the Leaderboard data
+## Retrieving the Leaderboard data
 
-In order to retrieve the leaderboard data, you will need to add a listening function to the `StatsManagerComponent` instance for your title.
-You should add the following line of code to the `Awake()` function of your code: `StatsManagerComponent.Instance.GetLeaderboardCompleted += this.MyGetLeaderboardCompletedFunction`.
+To retrieve the leaderboard data, you need to add a listening function to the `StatsManagerComponent` instance for your title.
+Add the following line of code to the `Awake()` function of your code: `StatsManagerComponent.Instance.GetLeaderboardCompleted += this.MyGetLeaderboardCompletedFunction`.
 
 The `StatsManagerComponent` in the `Microsoft.Xbox.Services.Client` namespace listens for leaderboard completion events.
-By running this line of code, you will add a function  to the list of functions to be called when a leaderboard completion event occurs.
+This line of code adds a function to the list of functions to be called when a leaderboard completion event occurs.
 
 In this example, that function is named `MyGetLeaderBoardCompletedFunction`; you can name the function as you like in your own script.
 
@@ -129,6 +145,9 @@ private void GetLeaderboardCompleted(object sender, StatEventArgs statArgs)
         //Do Something;
     }
 ```
+
+
+## Checking for errors
 
 The first thing this function should do is check for errors, which can be found in the `StatEventArgs` parameter `statArgs`.
 `statArgs` contains a `StatisticEvent` EventData which contains error data.
@@ -153,7 +172,10 @@ private void GetLeaderboardCompleted(object sender, StatEventArgs statArgs)
     }
 ```
 
-After confirming that there are no errors, store the results of the leaderboard request which are found in `statArgs.EventData.EventArgs.Result`. `Result` is a `LeaderBoardResult` object which contains the data you need to populate your leaderboard.
+
+## Storing the results of the leaderboard request
+
+After confirming that there are no errors, store the results of the leaderboard request, which are found in `statArgs.EventData.EventArgs.Result`. `Result` is a `LeaderBoardResult` object which contains the data you need to populate your leaderboard.
 
 In our example code, we will extract this data and send it to another function called `LoadResult()`:
 
@@ -191,7 +213,10 @@ This is important because the `LeaderboardResult` contains a `HasNext` property 
 The result also contains a total count of the rows that make up the leaderboard.
 These properties will be important to navigating your leaderboard.
 
-To pull data from your `LeaderBoardResult`, simply implement a `for` loop using the `LeaderboardResults` list of `LeaderboardRow` called `Rows`. 
+
+## Concatenating LeaderboardRow values into a display string
+
+To pull data from your `LeaderBoardResult`, implement a `for` loop using the `LeaderboardResults` list of `LeaderboardRow` called `Rows`.
 
 In our sample code, we simply concatenate the values in each `LeaderboardRow` into a string to be displayed:
 
@@ -213,9 +238,9 @@ void LoadResult(LeaderboardResult result)
 }
 ```
 
-In our example we used the Rank, Gamertag, and Values properties of LeaderBoardResult to populate our strings, as well as the DisplayName of the stat associated with the leaderboard.
+The above example uses the Rank, Gamertag, and Values properties of LeaderBoardResult to populate the strings, as well as the DisplayName of the stat associated with the leaderboard.
 
-I am sure you'll be able to do something more creative with all of this leaderboard data.
+You can implement a creative user experience with all of this leaderboard data.
 
 
 ## Navigating the Leaderboard data
@@ -250,12 +275,13 @@ void GetNextLeaders()
     }
 ```
 
+
+## Moving backwards in a leaderboard
+
 Moving backwards in your leaderboard is a little more difficult, because there is no function to pull the previous X number of ranks from your leaderboard.
-In order to retrieve previous rankings, you will have to write your own logic.
+To retrieve previous rankings, you must write your own logic.
 
-One method would be to store your `MaxItems` per `LeaderboardQuery` and calculate what rank you need to skip to using the `SkipToRank` attribute of your `LeaderboardQuery`.
-
-That code might look something like this:
+One approach for moving backwards in this leaderboard is to store your `MaxItems` per `LeaderboardQuery` and calculate what rank you need to skip to using the `SkipToRank` attribute of your `LeaderboardQuery`:
 
 ```csharp
 using Microsoft.Xbox.Services;
@@ -281,8 +307,10 @@ void GetPreviousLeader()
 }
 ```
 
+## Showing player's position on the leaderboard
+
 The final most common scenario is that a player may simply want to see their spot on the Leaderboard.
-This is easily achieved by calling the `GetLeaderboard()` function with a query where the `SkipResultToMe` attribute is set to true:
+This is achieved by calling the `GetLeaderboard()` function with a query, where the `SkipResultToMe` attribute is set to `true`:
 
 ```csharp
 using Microsoft.Xbox.Services;
@@ -301,4 +329,7 @@ using Microsoft.Xbox.Services.Leaderboard;
     }
 ```
 
-If you want to dive into a more detailed Leaderboard example, you can always read the `Leaderboard.cs` script in the XboxLive Plugin folder under **Assets >> XboxLive >> Scripts >> Leaderboard.cs**.
+
+## See also
+
+For a more detailed Leaderboard example, see the `Leaderboard.cs` script in the XboxLive Plugin folder under **Assets >> XboxLive >> Scripts >> Leaderboard.cs**.

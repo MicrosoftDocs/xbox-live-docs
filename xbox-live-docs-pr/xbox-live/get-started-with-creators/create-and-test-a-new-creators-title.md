@@ -19,7 +19,6 @@ See also [Xbox Live Service Configuration](../xbox-live-service-configuration.md
 This article will walk through everything required to configure a title in [Partner Center](https://partner.microsoft.com/dashboard), create a new project, and prepare Xbox Live for testing.
 
 This article assumes the following:
-
 1. You are using the Xbox Live Creators Program.
 2. You are developing a Universal Windows Platform (UWP) title.  UWP titles can run on Xbox One, Windows 10 desktop PCs, and mobile.
 3. You are configuring your title in [Partner Center](https://partner.microsoft.com/dashboard).
@@ -80,7 +79,8 @@ Click the **Confirm** button to enable Xbox Live Creators Program for your game.
 
 When you make changes to the Xbox Live configuration for your game, you need to publish the changes to a specific environment before they are picked up by the rest of Xbox Live and can be seen by your game.
 
-When you are still working on your game, you publish to your own development sandbox.  The development sandbox allows you to work on changes to your game in an isolated environment.
+When you are still working on your game, you publish to your own development sandbox.
+The development sandbox allows you to work on changes to your game in an isolated environment.
 
 When your game is released to the public, the Xbox Live configuration will automatically be published to the RETAIL sandbox.
 
@@ -100,14 +100,15 @@ On the Xbox Live configuration page, click the **Test** button to publish the cu
 
 Only authorized devices and users can access the Xbox Live configuration for the game in your development sandbox.
 
-By default, all the Xbox One development consoles you have added to your Partner Center account have access to your development sandbox.  To add an Xbox One console, go to [Manage Xbox One consoles](https://partner.microsoft.com/XboxDevices). If you’re already in your Partner Center account, you can go to **Account Settings** > **Account Settings** > **Dev devices** > **Xbox One development consoles**.
+By default, all the Xbox One development consoles you have added to your Partner Center account have access to your development sandbox.
+To add an Xbox One console, go to [Manage Xbox One consoles](https://partner.microsoft.com/XboxDevices).
+If you’re already in your Partner Center account, you can go to **Account Settings** > **Account Settings** > **Dev devices** > **Xbox One development consoles**.
 
-You can also authorize normal Xbox Live accounts to have access to your development sandbox.  To authorize Xbox Live accounts access to your development sandbox, go to
-[Manage Accounts](https://developer.microsoft.com/xboxtestaccounts/configurecreators).
+You can also authorize normal Xbox Live accounts to have access to your development sandbox.
+To authorize Xbox Live accounts access to your development sandbox, see [Manage Accounts](https://developer.microsoft.com/xboxtestaccounts/configurecreators).
 
 
 ## Next steps
 
-Now that you have a new title created, you can now set up an Xbox Live-enabled title in your game engine, Visual Studio, or build environment of choice.
-
+After you have a new title created, you can set up an Xbox Live-enabled title in your game engine, Visual Studio, or build environment of choice.
 See [Step by step guide to integrate Xbox Live](creators-step-by-step-guide.md).

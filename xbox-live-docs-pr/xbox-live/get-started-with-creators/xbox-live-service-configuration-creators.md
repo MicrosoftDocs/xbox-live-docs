@@ -37,12 +37,16 @@ If you do not currently have a title in Partner Center, see [Create and test a n
 
 ### Critical IDs
 
-There are three IDs which are critical for development of titles and applications for Xbox One: the Sandbox ID, the Title ID, and the service configuration ID (SCID).
+There are three IDs which are critical for development of titles and applications for Xbox One:
+* The Sandbox ID
+* The Title ID
+* The service configuration ID (SCID).
 
-While it is necessary to have a Sandbox ID to setup your development environment, the Title ID and SCID are not required for initial development but are required for any use of Xbox Live services.
-We therefore recommend that you obtain all three at once.
+It is necessary to have a Sandbox ID to set up your development environment.
+The Title ID and SCID are not required for initial development, but are required for any use of Xbox Live services.
+We therefore recommend that you obtain all three IDs at once.
 
-You can view all of the IDs on the "Xbox Live" root configuration page as shown below:
+You can view all of these IDs on the "Xbox Live" root configuration page, as shown below:
 
 ![](../images/getting_started/devcenter_sandbox_id.png)
 
@@ -60,7 +64,7 @@ Sandbox IDs are case sensitive.
 
 As a part of development, you will create stats, leaderboards and a host of other online features.
 These are all part of your service configuration, and require the SCID for access.
-SCIDs are case sensitive.
+SCIDs are case-sensitive.
 
 
 #### Title ID

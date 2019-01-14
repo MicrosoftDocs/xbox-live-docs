@@ -1,7 +1,7 @@
 ---
 title: Pulling code snippets into docs
 author: KevinAsgari
-description: Experimental topic to demonstrate how to use code snippets.
+description: Experimental page to demonstrate how to use code snippets.
 ms.assetid: d4c6d5aa-e18c-4d59-91f8-63077116eda3
 ms.author: kevinasg
 ms.date: 10/26/2018

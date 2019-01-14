@@ -14,7 +14,6 @@ The Privileges configuration page dictates whether or not gamers will be restric
 By default, your game will not restrict broadcasting on any streaming platform; changes to this page are only required if you would like to restrict broadcasting.
 
 You can restrict broadcasting in two ways:
-
 * Disable broadcasting everywhere, by checking the box in the **Default** section.
 * Restrict broadcasting by Sandbox, by adding a sandbox in the **Sandbox overrides** section.
 
@@ -22,7 +21,8 @@ Checking the box in the **Default** section restricts broadcasting for this titl
 
 ![default broadcasting restricted](../../images/dev-center/privileges/default-privileges-check.JPG)
 
-To restrict broadcasting on a particular sandbox, click **Add** button in the **Sandbox overrides** section. Choose the target sandbox from the dropdown list, then check the box underneath to restrict broadcasting for that title on the chosen sandbox. 
+To restrict broadcasting on a particular sandbox, click **Add** button in the **Sandbox overrides** section.
+Choose the target sandbox from the dropdown list, then check the box underneath to restrict broadcasting for that title on the chosen sandbox.
 
 To remove restrictions on broadcasting, sandbox overrides can be unchecked or deleted.
 

@@ -62,8 +62,8 @@ This section allows you to determine what sort of data will be retrieved when th
 
 ### Controller configuration
 
-The leaderboard prefab allows developers to easily configure Xbox controller use. The controller configuration section of the prefab allows you to enable and choose the buttons that control the leaderboard prefab.
-
+The leaderboard prefab allows developers to easily configure Xbox controller use.
+The controller configuration section of the prefab allows you to enable and choose the buttons that control the leaderboard prefab:
 - **Enable Controller Input** - A simple radio button toggle. If this is checked then you may use an Xbox controller to interact with the prefab. Required for controller support.
 - **Joystick Number** - Designates which controller can interact with this leaderboard prefab.
 - **Next Page Controller Button** - Drop down menu which controls which button loads the next page of leaderboard rows.
@@ -79,12 +79,17 @@ The leaderboard prefab allows developers to easily configure Xbox controller use
 
 ### UI References
 
-This section controls the images and general makeup of the leaderboard prefab. This section does not need to be changed for successful use of the leaderboard prefab. However you may need to make adjustments to this section to customize the look of the prefab for your own purposes.
+This section controls the images and general makeup of the leaderboard prefab.
+This section does not need to be changed for successful use of the leaderboard prefab.
+However, you may need to make adjustments to this section to customize the look of the prefab for your own purposes.
 
 
 ## Populating the Unity Player leaderboard (with fake data)
 
-In order to populate the Unity Player leaderboard with data you will need to add a statistic to the leaderboard prefab. Viewing the leaderboard prefab in the inspector will reveal that it can take an object of type `Stat Base` as a public parameter in its script. You can drag any of the `State Base` type prefabs `IntegerStat`, `DoubleStat`, or `StringStat` from the prefabs folder of the Xbox Live Unity plugin and place it in this spot in the leaderboard prefab.
+In order to populate the Unity Player leaderboard with data you will need to add a statistic to the leaderboard prefab.
+Viewing the leaderboard prefab in the inspector will reveal that it can take an object of type `Stat Base` as a public parameter in its script.
+
+You can drag any of the `State Base` type prefabs `IntegerStat`, `DoubleStat`, or `StringStat` from the prefabs folder of the Xbox Live Unity plugin and place it in this spot in the leaderboard prefab.
 
 ![Drag and Drop Stat Prefab](../images/unity/stat-to-leaderbaord-drag.gif)
 
@@ -95,13 +100,13 @@ Now play the scene in Unity and you will find that the leaderboard is populated 
 
 ## Populating a Visual Studio built project with real data
 
-In order to populate a leaderboard with real data for your title you will need to build your game to run locally on you machine.
-You will need a local build because the Unity editor does not have access to Xbox Live.
+To populate a leaderboard with real data for your title, you will need to build your game to run locally on your machine.
+The Unity editor does not have access to Xbox Live, so you will need a local build.
 
 In addition to building your project to run locally, you will have to configure the stat in your leaderboard to a stat that is initialized and has values for your title.
 In order to associate a stat to your leaderboard you will need to modify the ID and Display Name of the stat object in the leaderboard prefab.
 The ID will need to match that of a stat configured in [Partner Center](https://partner.microsoft.com/dashboard).
 
-After you have done this, build your project as described in the [build section of the configure Xbox Live in Unity article](configure-xbox-live-in-unity.md#build-and-test-the-project).
+After you have done the above, build your project as described in the [build section of the configure Xbox Live in Unity article](configure-xbox-live-in-unity.md#build-and-test-the-project).
 
-Executing this project as an x64 build targeting the Local Machine should allow you to sign-in with a real gamertag and populate the leaderboard with real data.
+Executing this project as an x64 build that targets the "Local Machine" enables you to sign-in with a real gamertag and populate the leaderboard with real data.

@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 
 # Authorize Xbox Live Accounts for Testing in your environment
 
-This topic will go through the process of setting up an Xbox Live account with your publisher's test environment.
+This article shows the process of setting up an Xbox Live account with your publisher's test environment.
 
 
 ## Prerequisites
@@ -61,4 +61,5 @@ To authorize a new account:
 The email address that was entered in the modal dialog box is run through a few checks, including a lookup to ensure there is an Xbox Live account associated with it.
 If any of these checks fail, the account is not added to the table and is therefore not authorized, and you may get a "Sorry, there was an issue adding your email address" error.
 
-A good check if you are having issues is to try and sign in with the account on [Xbox.com](http://www.xbox.com/live/). If you can’t sign in, the account is not an Xbox Live account.
+A good check if you are having issues is to try and sign in with the account on [Xbox.com](http://www.xbox.com/live/).
+If you can’t sign in, the account is not an Xbox Live account.

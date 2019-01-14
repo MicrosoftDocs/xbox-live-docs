@@ -33,9 +33,11 @@ The following articles outline the steps that you can take:
 
 ## Determine privileges
 
-A user’s privileges are carried in the token received at authentication time. In Unity, you can access the list of privileges that a user has in the `XboxLiveUser` class, after the user has successfully signed in.
+A user’s privileges are carried in the token received at authentication time.
+In Unity, you can access the list of privileges that a user has in the `XboxLiveUser` class, after the user has successfully signed in.
 
-Privileges are stored as a single string, separated by a space. For example, you might see a user with the following privileges:
+Privileges are stored as a single string, separated by a space.
+For example, you might see a user with the following privileges:
 
 ```csharp
 public XboxLiveUserInfo XboxLiveUser;

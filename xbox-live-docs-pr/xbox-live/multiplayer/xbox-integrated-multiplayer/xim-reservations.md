@@ -14,27 +14,22 @@ You can use XIM as a dedicated chat solution via out-of-band reservations.
 
 Most apps use XIM to handle every aspect of getting players together.
 After all, a focus on assembling all the features needed to support common multiplayer scenarios end-to-end is the reason it's called "Xbox Integrated Multiplayer".
+
 However, some apps that implement their own multiplayer solutions using dedicated Internet servers would also like the advantages of establishing reliable, low latency, low cost peer-to-peer chat communication.
 XIM recognizes this need, and supports an extension mode which takes advantage of XIM's simplified peer communication to augment external player management happening outside of the XIM API.
-Instead of moving into a XIM network through social means or matchmaking, players move using "reservations", guaranteed placeholders for particular users that are exchanged "out-of-band" through the app's external player rendezvous mechanism.
 
+Instead of moving into a XIM network through social means or matchmaking, players move using "reservations", guaranteed placeholders for particular users that are exchanged "out-of-band" through the app's external player rendezvous mechanism.
 Aside from the move process, XIM networks managed using out-of-band reservations are effectively the same as any other XIM network.
+
 All communication functions work identically.
 However, matchmaking and social discovery API methods are necessarily disabled for XIM networks managed using out-of-band reservations since they would conflict with the app's own external implementation.
-You can't send invites from such a XIM network, for example.
+For example, you can't send invites from such a XIM network.
 
 >XIM is optimized to provide a simple end-to-end solution. Therefore, not all complex topologies or scenarios may be a perfect fit for out-of-band reservations. If you have questions about whether or how to leverage XIM's communication features, contact your Microsoft representative.
 
-The subsequent topics describe how to leverage out-of-band reservations in XIM.
+This article describes how to leverage out-of-band reservations in XIM.
 Because of the relatively few differences from "standard" XIM usage described in previous sections, some discussion is abbreviated.
 Familiarity with [Using XIM](using-xim.md) is recommended.
-
-**Sections of this article:**
-1. [Moving to a new out-of-band reservation XIM network](#moving)
-1. [Adding players to a XIM network managed using out-of-band reservations](#adding)
-1. [Configuring chat targets in a XIM network managed using out-of-band reservations](#targets)
-1. [Removing players from a XIM network managed using out-of-band reservations](#remove)
-1. [Cleaning up a XIM network managed using out-of-band reservations](#clean)
 
 
 ## Moving to a new out-of-band reservation XIM network
@@ -42,7 +37,8 @@ Familiarity with [Using XIM](using-xim.md) is recommended.
 To begin using out-of-band reservations, one of your gathered participants must move into a new XIM network created in this mode.
 The selection of which participating peer device is up to you.
 You may already have a concept of game host or server, which is a natural choice for starting the process, but this is not required.
-We do recommend choosing a device that reports an "Open" network access type to achieve the fastest connectivity setup time.
+
+We recommend choosing a device that reports an "Open" network access type to achieve the fastest connectivity setup time.
 See the `Windows::Networking::XboxLive` platform documentation for more information.
 
 Moving to a XIM network managed through out-of-band reservations is done by initializing XIM and declaring the intended local Xbox User IDs as seen in the standard XIM usage walkthrough, but instead of calling a method like `xim::move_to_new_network()`, call `xim::move_to_network_using_out_of_band_reservation()` with a null reservation string.
@@ -93,6 +89,7 @@ Once the initial device has processed the state changes and had its player(s) su
 
 XIM networks that are managed using out-of-band reservations always report a value of `xim_allowed_player_joins::out_of_band_reservation` from the `xim::allowed_player_joins()` method; they're closed to all players except those with spots reserved for their Xbox User IDs by calling `xim::create_out_of_band_reservation()`.
 `xim::create_out_of_band_reservation()` takes an array of users, so you can create such reservations for your externally gathered players all at once or over time.
+
 Also, users that already have players participating in the XIM network are ignored, so you can also provide additional Xbox User IDs as a complete replacement set or as delta changes, whichever is convenient.
 
 The following example assumes you already have your fully gathered set of Xbox User IDs string pointers into an array variable 'xboxUserIds' with 'xboxUserIdCount' number elements:
@@ -103,7 +100,9 @@ The following example assumes you already have your fully gathered set of Xbox U
 
 This begins the asynchronous process of creating a reservations for the specified Xbox User IDs.
 When the operation completes, XIM will provided a `xim_create_out_of_band_reservation_completed_state_change` that reports success or failure.
+
 If successful, a reservation string will be made available for your system to provide to those Xbox User IDs provided to the operation.
+
 Reservation strings created successfully are valid for only a certain amount of time.
 That time is returned within `xim_create_out_of_band_reservation_completed_state_change`.
 
@@ -122,6 +121,7 @@ xim::singleton_instance().move_to_network_using_out_of_band_reservation(reservat
 The move operations executes asynchronously just like for the initial device that specified a null pointer for the reservation string.
 State changes `xim_move_to_network_starting_state_change`, `xim_player_joined_state_change`, and `xim_move_to_network_succeeded_state_change` will be generated by the move.
 When the move is successful, both local and remote players will be added.
+
 Existing devices on the XIM network will be provided a `xim_player_joined_state_change` for these new players.
 At this point, voice and text chat communication is automatically enabled among the players on these different devices in this XIM network (where privacy and policy permit).
 
@@ -162,7 +162,8 @@ The following example configures a player pointer 'localPlayer' to have a new te
 All devices are informed that the player has a new team index value in effect when they're provided a xim_player_team_index_changed_state_change for that player.
 If the chat target configuration is currently `xim_chat_targets::same_team_index_only`, then other players with that same new team index will begin hearing voice and being provided text chat (privacy and policy permitting) from the changing player and vice versa.
 Players with the old team index will stop exchanging such chat communication.
-If the chat target configuration is currently `xim_chat_targets::all_players`, then team index has no impact on who can chat with whom.
+
+If the chat target configuration is currently `xim_chat_targets::all_players`, the team index has no impact on who can chat with whom.
 
 
 ## Removing players from a XIM network managed using out-of-band reservations

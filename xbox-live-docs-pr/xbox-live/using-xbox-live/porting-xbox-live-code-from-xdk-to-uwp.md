@@ -25,9 +25,9 @@ This article also covers:
 ## Setting up and configuring your project in Partner Center and XDP
 
 A UWP title that uses Xbox Live services needs to be configured in [Partner Center](https://partner.microsoft.com/dashboard).
-For the latest information, see [Adding Xbox Live to a new or existing UWP project](../get-started-with-partner/get-started-with-visual-studio-and-uwp.md) in the Xbox Live Programming Guide included with the [Xbox Live SDK](https://developer.xboxlive.com/en-us/live/development/Pages/Downloads.aspx).
 
-Topics on that page include these steps for using Xbox Live services in your title:
+See [Adding Xbox Live to a new or existing UWP project](../get-started-with-partner/get-started-with-visual-studio-and-uwp.md).
+Sections in that article include these steps for using Xbox Live services in your title:
 
 -   Create the UWP app project in Partner Center.
 
@@ -412,7 +412,7 @@ For now, you will need to search for the privilege you need in the string list r
 For example, to check for multiplayer privileges, look for privilege "254."
 Using the XDK documentation, you can find a list of all the Xbox Live privileges in the **Windows::Xbox::ApplicationModel::Store::KnownPrivileges** enumeration.
 
-For a discussion on this topic, see the forum post [xsapi & user privileges](https://forums.xboxlive.com/questions/48513/xsapi-user-privileges.html).
+See the forum post [xsapi & user privileges](https://forums.xboxlive.com/questions/48513/xsapi-user-privileges.html).
 
 
 <a name="_Supporting_multiplayer_cross-play"></a>

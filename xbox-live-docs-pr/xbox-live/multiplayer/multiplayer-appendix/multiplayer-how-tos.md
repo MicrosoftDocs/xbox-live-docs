@@ -10,22 +10,7 @@ ms.localizationpriority: medium
 
 # Multiplayer tasks
 
-This topic contains information on how to implement specific tasks related to using Multiplayer 2015.
-
-* Subscribe for MPSD session change notifications
-* Create an MPSD session
-* Set an arbiter for an MPSD session
-* Manage Title Activation
-* Make the user joinable
-* Send game invites
-* Join a game session from a lobby session
-* Join an MPSD session from a Title Activation
-* Set the user's current activity
-* Update an MPSD session
-* Leave an MPSD session
-* Fill open session slots during matchmaking
-* Create a match ticket
-* Get match ticket status
+This article shows how to implement specific tasks related to using Multiplayer 2015.
 
 
 ## Subscribe for MPSD session change notifications

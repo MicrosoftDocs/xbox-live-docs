@@ -19,7 +19,6 @@ A *session template* is a JSON document that provides default settings for the s
 The session template is part of a service configuration with a service configuration identifier (SCID), which is a GUID.
 The session template can be found on [Xbox Developer Portal (XDP)](https://xdp.xboxlive.com) and the [Partner Center](https://partner.microsoft.com/dashboard/windows/overview).
 
-
 *Service configurations* are the developer-facing resources used for ingestion, management, and security policy.
 When a session is accessed through MPSD, principal authorization is performed against the service configuration according to the access policies set by the developer through XDP or Partner Center.
 Secondary access checks, such as session membership validation, are performed at the session level when the session is loaded, after access to the service configuration is authorized.
@@ -346,7 +345,7 @@ The session activities associated with the users are automatically cleared when 
 ## Visibility and Joinability
 
 Session access is controlled at the MPSD level by two settings: session visibility and session joinability.
-The visibility and joinability recommendations in this topic apply for the most common title scenarios.
+The visibility and joinability recommendations in this article apply for the most common title scenarios.
 Titles should follow these settings, if possible, and they should use in-title logic to make the final, authoritative determination as to whether a new player is admitted into a session.
 
 

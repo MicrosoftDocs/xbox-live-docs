@@ -14,14 +14,16 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, udc, universal deve
 
 # Configuring data sharing in Partner Center
 
-You can use [Partner Center](https://developer.microsoft.com/dashboard/windows/overview) to allow other services, games, and apps to access your title's Xbox Live settings and data. For example, you may want a web service to display leaderboards on your website, or you may have a companion app that can access the game's title storage to view or modify saved game data.
+You can use [Partner Center](https://developer.microsoft.com/dashboard/windows/overview) to allow other services, games, and apps to access your title's Xbox Live settings and data.
+For example, you may want a web service to display leaderboards on your website, or you may have a companion app that can access the game's title storage to view or modify saved game data.
 
-By default, only the title itself can access the settings and data stored on the Xbox Live service. You can change this by configuring data sharing on Partner Center.
+By default, only the title itself can access the settings and data stored on the Xbox Live service.
+You can change this by configuring data sharing on Partner Center.
 
 > [!NOTE]
 > This topic does not apply to titles in the Xbox Live Creators Program.
 
-Add configuration by doing the following:
+## To add configuration:
 
 1. After selecting your title in [Partner Center](https://developer.microsoft.com/dashboard/windows/overview), navigate to **Services** > **Xbox Live**.
 

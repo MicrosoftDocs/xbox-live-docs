@@ -1,5 +1,5 @@
 ---
-title: Using Game Chat 2 C# API with WinRT projections
+title: Using the Game Chat 2 C# API with WinRT projections
 description: Using the C# API of Game Chat 2 with WinRT projections to add voice and text communication to your game.
 ms.date: 4/11/2018
 ms.topic: article
@@ -7,7 +7,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, game chat 2, game c
 ms.localizationpriority: medium
 ---
 
-# Using Game Chat 2 C# API with WinRT projections
+# Using the Game Chat 2 C# API with WinRT projections
 
 This is a brief walkthrough on using the C# API of Game Chat 2 with WinRT projections to add voice and text communication to your game.
 

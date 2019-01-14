@@ -13,11 +13,13 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, web services
 > [!WARNING]
 > The following article is for ID@Xbox and Managed Partner developers only, due to restrictions placed on web service configuration. Web Services configuration is only available to developers with the Relying Parties account level permission granted. If you do not have control of your account level permissions, contact your Development Account Manager (DAM) for assistance.
 
-Publishers can create web services if they want to customize the way their apps/titles interact with Xbox Live services. Web services are publisher-level configurations and can be called by any title within a sandbox owned by the publisher by configuring single sign-on.
+Publishers can create web services if they want to customize the way their apps/titles interact with Xbox Live services.
+Web services are publisher-level configurations and can be called by any title within a sandbox owned by the publisher by configuring single sign-on.
 
 Reasons to define web services:
 
 1. **Providing single sign-on to Xbox Live users** - In order for your web service to provide single-sign-on to Xbox Live users, it needs to be configured as a relying party of Xbox Live. When configured that way, users who are authenticated to Xbox Live will automatically be authenticated to your service without having to re-enter a different set of credentials.
+
 2. **Making service to service calls from your service to Xbox Live services** - If your product will use one of your web services to make calls to an Xbox Live service, either directly or on behalf of individual users, you'll need a business partner certificate.
 
 
@@ -31,21 +33,22 @@ Reasons to define web services:
 ![web services gif](../../images/dev-center/web-services/web-services.gif)
 
 5. In the Web Services page, click on **New Web Service**.
-6. Enter the Web Service Name and choose the access type as required.  
+6. Enter the Web Service Name and choose the access type as required.
     * Telemetry access enables your service to retrieve game telemetry data for any of your games.
     * App Channel access gives the media provider owning the service the authority to programmatically publish app channels for consumption on console through the OneGuide twist.
 7. Click **Save**.
 
-At this point, you have defined the service and Xbox Live is aware of the existence of the service. Depending on the reasons for creating the web service, you will be required to configure Relying Parties (Single Sign-On) or Business Partner Certificates (Service-to-service calls).  
+At this point, you have defined the service and Xbox Live is aware of the existence of the service.
+Depending on the reasons for creating the web service, you will be required to configure Relying Parties (Single Sign-On) or Business Partner Certificates (Service-to-service calls).
 
 
 ## Configure Relying Party
 
 A web service needs to be configured as a relying party of Xbox live in order to provide the Single Sign-On experience to Xbox Live users.
-Users who are authenticated to Xbox Live will be automatically authenticated to the web service without having to re-enter a different set of credentials. 
+Users who are authenticated to Xbox Live will be automatically authenticated to the web service without having to re-enter a different set of credentials.
 
-To facilitate this, trust must be established between Xbox services and the web service. 
-A set of claims (such as gamertag, device type, title ID) are used as part of relying party configurations to enforce this trust. 
+To facilitate this, trust must be established between Xbox services and the web service.
+A set of claims (such as gamertag, device type, title ID) are used as part of relying party configurations to enforce this trust.
 This is the information exchanged between Xbox Live and the web service to help automatically authenticate users.
 
 
@@ -71,7 +74,7 @@ If your product will use one of your web services to make calls to an Xbox Live 
 
 ### Generate a Business Partner Certificate
 
-Proceed with the steps below after successfully creating a Web Service.  
+Proceed with the steps below after successfully creating a Web Service.
 
 1. On the Web Services page, find the web service that you want to associate a Business Partner Certificate with.
 2. Select the **Generate Certificate** link against the chosen web service.

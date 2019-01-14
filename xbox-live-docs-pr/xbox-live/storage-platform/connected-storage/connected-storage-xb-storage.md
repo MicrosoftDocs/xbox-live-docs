@@ -200,7 +200,7 @@ Examples of usage:
 
 Generates dummy data and saves to a file specified by \<filename>.
 
-For more information about the file's XML format, see [Import and export file format](#xbstorage_fileformat), later in this topic.
+For more information about the file's XML format, see [Import and export file format](#xbstorage_fileformat), later in this article.
 
 The service configuration identifier (SCID) will be set to 00000000-0000-0000-0000-000000000000, and the account will be set for a per-machine Connected Storage space.
 If you want to change those values, you can edit the file directly after it is generated.

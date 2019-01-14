@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 
 This section covers how to integrate Xbox Live into games developed with the Unity game engine.
 
-The Xbox Live Unity Plugin is intended to be used for [Xbox Live Creators Program](../developer-program-overview.md#xbox-live-creators-program) titles. 
+The Xbox Live Unity Plugin is intended to be used for [Xbox Live Creators Program](../developer-program-overview.md#xbox-live-creators-program) titles.
 Following along with these articles to start integrating Xbox Live into a Unity project.
 
 
@@ -21,7 +21,6 @@ Following along with these articles to start integrating Xbox Live into a Unity 
 <!-- tbd: reconcile with parent's list: -->
 
 [Create and test publish an Xbox Live Creators Program Title](create-and-test-a-new-creators-title.md) - applies to both Visual Studio and Unity
-
 
 [Configure Xbox Live In Unity](configure-xbox-live-in-unity.md)
 

@@ -12,7 +12,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, udc, universal deve
 Games that are published in [Partner Center](https://partner.microsoft.com/dashboard) and use the full set of Xbox Live features can configure their Xbox Live services in Partner Center.
 
 > [!IMPORTANT]
-> These topics do not apply to titles in the Xbox Live Creators Program.
+> These articles do not apply to titles in the Xbox Live Creators Program.
 
 Your game must be enabled for full Xbox Live access in order to access the configuration pages.
 

@@ -155,7 +155,7 @@
               href: platforms/ios-platform.md
             - name: Targeting Android
               href: platforms/android-platform.md
-        - name: Configure Xbox Live Services
+        - name: Configuring Xbox Live services
           href: configuring-xbox-live-services.md
           items: 
             - name: Xbox Live service configuration
@@ -612,13 +612,13 @@
                   href: stub.md
                 - name: SDK CONFIGuration of Game Chat
                   href: stub.md
-                - name: Using Game Chat 2 C++ API
+                - name: Using the Game Chat 2 C++ API
                   href: multiplayer/chat/using-game-chat-2.md
-                - name: Using Game Chat 2 C# API with WinRT projections
+                - name: Using the Game Chat 2 C# API with WinRT projections
                   href: multiplayer/chat/using-game-chat-2-winrt.md
                 - name: Real-time audio manipulation
                   href: multiplayer/chat/real-time-audio-manipulation.md
-                - name: Migration from Game Chat to Game Chat 2
+                - name: Migrating from Game Chat 1 to Game Chat 2
                   href: multiplayer/chat/game-chat-2-migration.md
             - name: Xbox Arena  [feature in Multiplayer]
               href: multiplayer/arena/xbox-arena.md

@@ -1,5 +1,5 @@
 ---
-title: Configuring Xbox Live Services
+title: Configuring Xbox Live services
 author: mikehoffms
 description: Configuring Xbox Live services for your game.
 ms.author: v-mihof
@@ -11,7 +11,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, service configurati
 ms.localizationpriority: medium
 ---
 
-# Configuring Xbox Live Services
+# Configuring Xbox Live services
 
 Configuring Xbox Live services for your game.
 

@@ -8,8 +8,10 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity, leaderboards
 
 # Leaderboard data in Unity
 <!-- not included in TOC -->
+<!-- not reformatted like newer article -->
 
-For those of you who want a custom leaderboard experience, this article will give you the tools to implement your own leaderboard by going over the APIs available to Unity developers. Once you understand how to pull down leaderboard data, you will be able to apply it to the user interface of your choosing.
+This article shows how to implement your own custom leaderboard experience by going over the APIs available to Unity developers.
+Once you understand how to pull down leaderboard data, you will be able to apply it to the user interface of your choosing.
 
 [!IMPORTANT]
 > This article applies to a version of the plugin prior to an update made in May of 2018 (1804 Release). If you installed the Xbox Live Plugin after that time, or have not yet downloaded it, you may have a newer version which uses different calls to collect leaderboard data. In addition to this, you will find that the screenshots in this plugin do not match those of the most recent release. Please instead refer to the [newer unity leaderboards from scratch article](unity-leaderboard-from-scratch.md).
@@ -68,7 +70,7 @@ public void LoadLeaderboard()
         // check to make sure you have a valid stat
         if (this.stat == null)
         {
-            // TO DO: Display "Stat not specified" error message!
+            // TO DO: Display "Stat not specified" error message
             return;
         }
 
@@ -78,10 +80,10 @@ public void LoadLeaderboard()
             if (XboxLiveUserManager.Instance.UserForSingleUserMode != null
                 && XboxLiveUserManager.Instance.UserForSingleUserMode.User != null)
             {
-                // set the XboxLiveUser if one is available
+                // set the XboxLiveUser, if one is available
                 this.xboxLiveUser = XboxLiveUserManager.Instance.UserForSingleUserMode.User;
             }
-            else // if you don't have a user signed in display an error message and exit. 
+            else // if you don't have a user signed-in, display an error message and exit.
             {
                 // TO DO: Display "User Not logged In" error message
                 return;
@@ -101,7 +103,7 @@ public void LoadLeaderboard()
     }
 ```
 
-Our leaderboard retrieving function `GetLeaderboard()` returns void, and thus does not return the leaderboard data we are looking for.
+Our leaderboard-retrieving function `GetLeaderboard()` doesn't return leaderboard data; the function only returns `void`.
 We will actually retrieve the leaderboard data in an event function discussed in the next section.
 
 
@@ -190,11 +192,11 @@ void LoadResult(LeaderboardResult result)
     }
 ```
 
-This is important because the `LeaderboardResult` contains a HasNext property that determines whether or not there is a later section of the leaderboard that can be retrieved.
+This is important because the `LeaderboardResult` contains a `HasNext` property that determines whether or not there is a later section of the leaderboard that can be retrieved.
 The `LeaderboardResult` also stores a variable for the total of rows that make up the leaderboard.
 These properties will be important to navigating your leaderboard.
 
-To pull data from your `LeaderBoardResult`, simply implement a `for` loop using the `LeaderboardResults` list of `LeaderboardRow` called `Rows`.
+To pull data from your `LeaderBoardResult`, implement a `for` loop using the `LeaderboardResults` list of `LeaderboardRow` called `Rows`.
 In our sample code, we are simply going to concatenate the values in each `LeaderboardRow` into a string to be displayed.
 
 ```csharp
@@ -214,7 +216,7 @@ void LoadResult(LeaderboardResult result)
 }
 ```
 
-In our example, we used the Rank, Gamertag, and Values properties of `LeaderBoardResult` to populate our strings, as well as the DisplayName of the stat associated with the leaderboard.
+In our example, we used the Rank, Gamertag, and Values properties of `LeaderBoardResult` to populate our strings, as well as the `DisplayName` of the stat associated with the leaderboard.
 
 You can be creative in presenting leaderboard data.
 
@@ -223,7 +225,7 @@ You can be creative in presenting leaderboard data.
 
 In the most common instances, you will not load every rank in your leaderboard at once, and will need to be able to navigate the ranks to display different sections of the leaderboard for the user.
 
-Suppose you have a leaderboard with 100 ranked players. 
+Suppose you have a leaderboard with 100 ranked players.
 In your initial call to `GetLeaderboard()`, you retrieve ten `LeaderboardRows` and display them for the player.
 The player may want to see more than the top ten players.
 
@@ -249,7 +251,10 @@ void GetNextLeaders()
     }
 ```
 
-Moving backwards in your leaderboard is a little more difficult as there is no function to pull the previous X number of ranks from your leaderboard. In order to retrieve previous rankings you will have to write your own logic. One method would be to store your `MaxItems` per `LeaderboardQuery` and calculate what rank you need to skip to using the `SkipToRank` attribute of your `LeaderboardQuery`. That code might look something like this:
+Moving backwards in your leaderboard is a little more difficult, because there is no function to pull the previous X number of ranks from your leaderboard.
+To retrieve previous rankings, you will have to write your own logic.
+
+One approach to moving backwards in your leaderboard is to store your `MaxItems` per `LeaderboardQuery`, and calculate what rank you need to skip to using the `SkipToRank` attribute of your `LeaderboardQuery`, as follows:
 
 ```csharp
 using Microsoft.Xbox.Services;
@@ -276,7 +281,8 @@ void GetPreviousLeader()
 }
 ```
 
-The final most common scenario is that a player may simply want to see their spot on the leaderboard. This is easily achieved by calling the `GetLeaderboard()` function with a query where the `SkipResultToMe` attribute is set to true.
+The final most common scenario is that a player may simply want to see their spot on the leaderboard.
+This is easily achieved by calling the `GetLeaderboard()` function with a query where the `SkipResultToMe` attribute is set to true.
 
 ```csharp
 using Microsoft.Xbox.Services;

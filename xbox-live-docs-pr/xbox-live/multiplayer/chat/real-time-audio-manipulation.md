@@ -15,13 +15,7 @@ This can be useful for applying interesting audio effects to players' voices in 
 Game Chat 2's audio manipulation pipeline is interacted with through audio stream objects that can be polled for audio data.
 As opposed to using callbacks, this model allows developers to inspect or manipulate audio on whatever processing thread is most convenient for them.
 
-A brief walkthrough using real-time audio manipulation is featured below, containing the following topics:
-
-1. [Initializing the audio manipulation pipeline](#initializing-the-audio-manipulation-pipeline)
-2. [Processing audio stream state changes](#processing-audio-stream-state-changes)
-3. [Manipulating pre-encode chat audio](#manipulating-pre-encode-chat-audio-data)
-4. [Manipulating post-decode chat audio](#manipulating-post-decode-chat-audio-data)
-5. [Chat user lifetimes](#chat-user-lifetimes)
+A brief walkthrough using real-time audio manipulation is featured below.
 
 
 ## Initializing the audio manipulation pipeline

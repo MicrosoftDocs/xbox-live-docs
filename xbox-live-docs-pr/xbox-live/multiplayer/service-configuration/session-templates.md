@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 
 # Multiplayer session templates
 
-This topic gives a brief overview of multiplayer session templates and provides several examples of templates that you can copy and modify for your multiplayer sessions.
+This article gives a brief overview of multiplayer session templates and provides several examples of templates that you can copy and modify for your multiplayer sessions.
 
 A multiplayer session template is a blueprint that is used to create a multiplayer session.
 All sessions must be created based on a predefined template.
@@ -33,7 +33,7 @@ The constants can be any session constants, including a custom section and the f
 
 ### Session template versions
 
-The session templates defined in this topic are constructed using template contract version 107.
+The session templates defined in this article are constructed using template contract version 107.
 When using them to create a new template, make sure that 107 is entered as the contract version.
 
 If you use XSAPI and watch the resulting requests in the debugger, you might notice that the requests use template contract version 105.

@@ -8,20 +8,21 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity
 
 # Scripting Sign-In with the SignInManager in Unity
 
-In order to add sign-in to your own custom game objects, you will need to script it into a GameObject.
+To add sign-in to your own custom game objects, you script it into a GameObject.
 
-Suppose the PlayerAuthentication prefab doesn't fit your game and you'd like to have your own sign-in panel - this article will take you through the basic steps of adding sign-in logic to your title.
+Suppose the PlayerAuthentication prefab doesn't fit your game, and you'd like to use your own sign-in panel instead.
+This article shows the basic steps of adding sign-in logic to your title.
 
 
 ## Sign in with the SignInManager
 
 The Xbox Live Unity plug-in contains a script for the `SignInManager` under the file path **Assets >> XboxLive >> Scripts >> SignInManager.cs**.
-The manager is a Singleton class which can be called form anywhere in your title by referring to the title's *Instance* of the `SignInManager`.
+The manager is a Singleton class which can be called from anywhere in your title by referring to the title's *Instance* of the `SignInManager`.
 
 This *Instance* does not need to be initialized and you can use the it as soon as your game begins.
 You can access all of the its public properties and functions by referring to the *Instance* as `SignInManager.Instance`.
 
-The `SignInManager` contains all of the code necessary for managing authentication for your title, this includes sign-in, sign-out, and getting information about which users are signed in as which player.
+The `SignInManager` contains all of the code necessary for managing authentication for your title, this includes sign-in, sign-out, and getting information about which users are signed-in as which player.
 
 
 ### Calls and Results
@@ -61,10 +62,10 @@ The above code snippet adds sign-in and sign-out listeners for the player associ
 * This GameObject's `OnPlayerSignIn` function will be called when the `SignInManager` detects a sign-in attempt has completed.
 * This GameObject's `OnPlayerSignOut` function will be called when the `SignInManager` detects a sign-out.
 
-The event functions in your GameObject must have a return type and parameters to match the function type called by the SignInManager.
-Both the `OnPlayerSignIn` and `OnPlayerSignOut` are void functions which need an `XboxLiveUser`, `XboxLiveAuthStatus`, and a string as their parameters.
+The event functions in your GameObject must have a return type and parameters that match the function type called by the SignInManager.
+Both the `OnPlayerSignIn` and `OnPlayerSignOut` are functions that return void and take the parameters `XboxLiveUser`, `XboxLiveAuthStatus`, and an error string.
 
-The shell of your functions may look like the following:
+The shell of your sign-in and sign-out functions look like the following:
 
 ```csharp
 using Microsoft.Xbox.Services;
@@ -79,11 +80,12 @@ private void OnPlayerSignOut(XboxLiveUser xboxLiveUserParam, XboxLiveAuthStatus 
 }
 ```
 
-In both functions check the `XboxLiveAuthStatus` to make sure that your call to the `SignInManager.Instance` was successful.
-On a successful call the `XboxLiveUser` will be the `XboxLiveUser`, that was signed in our out by `SignInManager`.
-When the call is unsuccessful the `errorMessage` string will contain details on the reason for failure.
+In both functions, check the `XboxLiveAuthStatus` to make sure that your call to the `SignInManager.Instance` was successful.
+On a successful call, the `XboxLiveUser` will be the `XboxLiveUser` which was signed-in or signed-out by `SignInManager`.
 
-Adding a few lines of code to check for a successful call would result in code like the following:
+If the call is unsuccessful, the `errorMessage` string will contain details on the reason for failure.
+
+Below, a few lines of code to check for a successful call have been added:
 
 ```csharp
 using Microsoft.Xbox.Services;
@@ -133,7 +135,7 @@ On PC, this will be limited to a single signed-in player, and on the Xbox it is 
 You can check how near the limit you are by comparing the result of `SignInManager.Instance.GetCurrentNumberOfPlayers()` to the result of `SignInManager.Instance.GetMaximumNumberOfPlayers()`.
 
 The SignInManager has a dictionary of signed-in players indexed by that player's *playerNumber*.
-You can use this dictionary to retrieve some basic information about the player accessible from their associated `XboxLiveUser`:
+You can use this dictionary of signed-in players to retrieve some basic information about the player, accessible from the associated `XboxLiveUser`:
 
 ```csharp
 if (SignInManager.Instance.GetPlayer(this.playerNumber).IsSignedIn) // If there is a player signed in for this gameObjects player number
@@ -142,13 +144,16 @@ if (SignInManager.Instance.GetPlayer(this.playerNumber).IsSignedIn) // If there 
             }
 ```
 
-This little bit of code checks to see if there is a player signed in to the player number slot for this GameObject and then stores that users gamertag to be displayed if they are signed in.
-While the `XboxLiveUser` contains the signed in users gamertag and Xbox user ID (xuid) you will need to call other services like the `SocialManager` to access information like gamerpic and gamerscore.
+This little bit of code checks to see if there is a player signed in to the player number slot for this GameObject, and then stores that user's gamertag, which is displayed when the user is signed in.
+
+The `XboxLiveUser` contains the signed-in user's gamertag and Xbox user ID (xuid).
+To access information such as gamerpic and gamerscore, you will need to call other services like the `SocialManager` 
 
 
 ## Destroying your sign-in GameObject
 
-When destroying a game object that uses one of the Xbox Live plugin managers like the `SignInManager` or the `SocialManager`, usually when loading a new scene, it is important to remove any functions added to the list of event listeners for the manager.
+When destroying a game object that uses one of the Xbox Live plugin managers such as the `SignInManager` or the `SocialManager`, usually when loading a new scene, it is important to remove any functions added to the list of event listeners for the manager.
+
 In the example code for this article, we would need to remove the functions we added to the event listeners for sign-in and sign-out.
 
 We would remove these functions from the `SignInManager` in the `OnDestroy()` function of our GameObject:
@@ -163,10 +168,10 @@ private void OnDestroy()
     }
 ```
 
-The above code removes the sign-in and sign-out callback functions for the player associated with this GameObject.
+The above code removes the sign-in and sign-out callback functions for the player which is associated with this GameObject.
 
 
-## Testing you code in Visual Studio
+## Testing your code in Visual Studio
 
 In addition to the [steps required to build your game in Visual Studio](configure-xbox-live-in-unity.md#build-and-test-the-project), listed in the [Configure your Xbox Live Title for Unity](configure-xbox-live-in-unity.md) article, there is an additional step required to test your game properly in Visual Studio.
 You will need to update a property of the package.appxmanifest.xml file.

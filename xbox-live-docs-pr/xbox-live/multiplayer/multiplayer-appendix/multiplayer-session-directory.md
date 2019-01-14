@@ -10,22 +10,6 @@ ms.localizationpriority: medium
 
 # Multiplayer Session Directory (MPSD)
 
-This article contains the following sections:
-
-* MPSD Overview
-* MPSD Change Notification Handling and Disconnect Detection
-* MPSD Handles to Sessions
-* Synchronization of Session Updates
-* Calling MPSD
-* MPSD Session Templates
-* Multiplayer Session Explorer
-
-
-## Session Overview
-
-
-### What is MPSD?
-
 Multiplayer Session Directory (MPSD) enables titles to share the basic information needed to connect a group of users.
 MPSD coordinates with the shell and console operating system in sending/accepting invites and in being joined via the gamer card.
 
@@ -36,7 +20,7 @@ MPSD is a service operating in the Xbox Live cloud.
 MPSD is wrapped by the **MultiplayerService Class**.
 
 
-### MPSD Sessions
+## MPSD Sessions
 
 An MPSD session is represented by the **MultiplayerSession Class** as the scenario in which one or more people use a game.
 A session is stored by MPSD as a secure JSON document residing in the Xbox Live cloud.
@@ -284,7 +268,7 @@ The response structure frames the session members as a linked list and fills in 
 ### Querying for Sessions and Session Templates (REST)
 
 Your titles can query for session information at the service configuration and the session template levels.
-This topic discusses queries that use the multiplayer REST API.
+This article discusses queries that use the multiplayer REST API.
 
 
 #### Query for Basic Session Information

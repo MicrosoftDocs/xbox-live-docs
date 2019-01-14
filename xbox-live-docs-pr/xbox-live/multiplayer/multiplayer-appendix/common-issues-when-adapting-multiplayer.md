@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 
 # Changing a game from 2014 to 2015 Multiplayer
 
-This topic describes issues that you must consider when adapting a 2014 Multiplayer title for 2015 Multiplayer.
+This article describes issues that you must consider when adapting a 2014 Multiplayer title for 2015 Multiplayer.
 
 
 ## Configuration Changes to Make for 2015 Multiplayer

@@ -14,7 +14,8 @@ ms.localizationpriority: medium
 
 All of the Xbox Live Unity Plugin Prefabs support specifying controller input in the inspector.
 
-For example, suppose you have a game object called `UserProfile1` which is based on the `UserProfile` prefab. If you would like to tie this game object to Player 1 and have player 1 sign in with the `A` button on their Xbox Controller, write `joystick 1 button 0` in the `Input Controller Button` field in the inspector.
+For example, suppose you have a game object called `UserProfile1` which is based on the `UserProfile` prefab.
+If you want to tie this game object to Player 1, and have player 1 sign in with the `A` button on their Xbox Controller, write `joystick 1 button 0` in the `Input Controller Button` field in the inspector.
 
   ![Controller Support in UserProfile Prefab](../images/unity/controller-support-example.png)
 

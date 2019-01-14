@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 
 # Multiplayer session status codes
 
-This topic lists multiplayer status codes concerning sessions.
+These are the multiplayer status codes concerning sessions.
 
 | Note                                                                                                         |
 |---------------------------------------------------------------------------------------------------------------------------|
