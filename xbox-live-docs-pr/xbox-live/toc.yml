@@ -362,7 +362,7 @@
                       href: stub.md
                     - name: SDK CONFIGuration of Official Clubs
                       href: stub.md
-               - name: SOCIAL CLUBS [subfeature]
+               -  name: SOCIAL CLUBS [subfeature]
                   href: stub.md
                   items: 
                     - name: OVERVIEW of Social Clubs
@@ -371,7 +371,7 @@
                       href: stub.md
                     - name: SDK CONFIGuration of Social Clubs
                       href: stub.md
-               - name: IN-GAME CLUBS [subfeature]
+                - name: IN-GAME CLUBS [subfeature]
                   href: stub.md
                   items: 
                     - name: OVERVIEW of In-game Clubs
@@ -585,7 +585,6 @@
                   href: storage-platform/connected-storage/connected-storage-best-practices.md
                 - name: Technical overview of Connected Storage
                   href: storage-platform/connected-storage/connected-storage-technical-overview.md
-
             - name: Title Storage  [feature]
               href: storage-platform/xbox-live-title-storage/xbl-title-storage.md
               items: 
@@ -974,7 +973,7 @@
               href: stub.md
             - name: SINGLE SIGN-ON tutorial
               href: stub.md
-   - name: RELEASING a game  [landing page]
+    - name: RELEASING a game  [landing page]
       href: stub.md
       items:
         - name: CREATORS
