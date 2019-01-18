@@ -13,21 +13,6 @@ This is a brief walkthrough on using the C++ API of Game Chat 2 to add voice and
 
 Game developers wanting to access Game Chat 2 through C# should see [Use Game Chat 2 WinRT Projections](using-game-chat-2-winrt.md).
 
-1. [Prerequisites](#prerequisites)
-2. [Initialization](#initialization)
-3. [Configuring users](#configuring-users)
-4. [Processing data frames](#processing-data-frames)
-5. [Processing state changes](#processing-state-changes)
-6. [Text chat](#text-chat)
-7. [Accessibility](#accessibility)
-8. [UI](#ui)
-9. [Muting](#muting)
-10. [Bad reputation auto-mute](#bad-reputation-auto-mute)
-11. [Privilege and privacy](#privilege-and-privacy)
-12. [Cleanup](#cleanup)
-13. [Failure model](#failure-model)
-14. [How to configure popular scenarios](#how-to-configure-popular-scenarios)
-
 
 ## Prerequisites
 

@@ -14,14 +14,6 @@ ms.localizationpriority: medium
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | This article is for advanced API usage.  As a starting point, please take a look at the [Multiplayer Manager API](../multiplayer-manager.md) which significantly simplifies development.  Please let your DAM know if you find an unsupported scenario in the Multiplayer Manager. |
 
-This article contains the following sections:
-* About the Multiplayer System
-* Multiplayer Components, Interfaces, and Architectures
-* Parties Supported by 2015 Multiplayer
-* Multiplayer Terminology
-* What's New in 2015 Multiplayer
-* Differences Between Xbox 360 and Xbox One MPSD Session Functions
-
 
 ## About the Multiplayer System
 

@@ -20,43 +20,43 @@ Depending on the function of the URI in question, the domains for these URIs are
    *  gameclipsmetadata.xboxlive.com 
    *  gameclipstransfer.xboxlive.com 
   
-<a id="ID4EZB"></a>
 
+<a id="ID4EZB"></a>
  
 ## In this section
 
 [/public/scids/{scid}/clips](uri-publicscidclips.md)
 
-&nbsp;&nbsp;Access public clips. This URI actually can be specified in two forms, `/public/scids/{scid}/clips` and `/public/titles/{titleId}/clips`. See below for more details.
+&nbsp;&nbsp; Access public clips. This URI actually can be specified in two forms, `/public/scids/{scid}/clips` and `/public/titles/{titleId}/clips`. See below for more details.
 
 [/{uri}](uri-uri.md)
 
-&nbsp;&nbsp;Access game clip data.
+&nbsp;&nbsp; Access game clip data.
 
 [/users/me/scids/{scid}/clips](uri-usersmescidclips.md)
 
-&nbsp;&nbsp;Access an initial upload request.
+&nbsp;&nbsp; Access an initial upload request.
 
 [/users/me/scids/{scid}/clips/{gameClipId}](uri-usersmescidclipsgameclipid.md)
 
-&nbsp;&nbsp;Access game clip data and metadata.
+&nbsp;&nbsp; Access game clip data and metadata.
 
 [/users/{ownerId}/clips](uri-usersowneridclips.md)
 
-&nbsp;&nbsp;Access list of user's clips.
+&nbsp;&nbsp; Access list of user's clips.
 
 [/users/{ownerId}/scids/{scid}/clips/{gameClipId}](uri-usersowneridscidclipsgameclipid.md)
 
-&nbsp;&nbsp;Access a single game clip from the system if all the IDs to locate it are known.
+&nbsp;&nbsp; Access a single game clip from the system if all the IDs to locate it are known.
  
-<a id="ID4EOC"></a>
 
+<a id="ID4EOC"></a>
  
 ## See also
+
  
 <a id="ID4EQC"></a>
 
- 
 ##### Parent 
 
 [Universal Resource Identifier (URI) Reference](../atoc-xboxlivews-reference-uris.md)

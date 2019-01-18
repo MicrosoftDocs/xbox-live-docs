@@ -360,7 +360,7 @@ A `leaderboard_query` has a few attributes that can be set which will effect the
 |m_order     |Enums of type `xbox::services::leaderboard::sort_order` have two possible values, ascending, and descending. Setting this variable for your query will determine the sort order of your leaderboard.        |
 |m_maxItems     |This uint determines the maximum number of rows to return per call to `get_leaderboard` or `get_social_leaderboard()`.         |
 
-`leaderboard_query` has several set function you can use to assign value to these properties.
+`leaderboard_query` has several "set_" functions you can use to assign values to these properties.
 The following code shows how to set up a `leaderboard_query`:
 
 ```cpp
@@ -389,7 +389,7 @@ m_statsManager->get_leaderboard(user, statName, leaderboardQuery);
 
 ### 4. Read the Leaderboard data
 
-In order to read the leaderboard data, you need to call the `stats_manager::do_work()` function, which returns a list of `stat_event` values.
+To read the leaderboard data, call the `stats_manager::do_work()` function, which returns a list of `stat_event` values.
 Leaderboard data will be contained in a `stat_event` of the type `stat_event_type::get_leaderboard_complete`.
 When you come across an event of this type in the list of `stat_event`s, you can look through the `leaderboard_result` contained in the `stat_event` to access the data.
 
@@ -591,12 +591,12 @@ foreach(StatisticEvent statEvent in statEvents)
 In your title code, `StatisticManager.DoWork()` should be used to handle all incoming Statistic Manager events, and not just for leaderboards.
 
 > [!NOTE]
-> In order to retrieve the `LeaderboardResultEventArgs` you will need to cast the `StatisticEvent.EventArgs` as a `LeaderboardResultEventArgs` variable.
+> To retrieve the `LeaderboardResultEventArgs`, cast the `StatisticEvent.EventArgs` as a `LeaderboardResultEventArgs` variable.
 
 
 ### 5. Retrieve more leaderboard data
 
-In order to retrieve later pages of leaderboard data, use the `LeaderboardResult.HasNext` property and the `LeaderboardResult.GetNextQuery()` function to retrieve the `LeaderboardQuery`, which will bring you the next page of data:
+To retrieve later pages of leaderboard data, use the `LeaderboardResult.HasNext` property and the `LeaderboardResult.GetNextQuery()` function to retrieve the `LeaderboardQuery`, which will bring you the next page of data:
 
 ```csharp
 while (leaderboardResult.HasNext)
@@ -607,3 +607,9 @@ while (leaderboardResult.HasNext)
     // Leaderboard results are read
 }
 ```
+
+## See also
+
+| Article | Description |
+|---------|-------------|
+| [Xbox Live RESTful reference: Leaderboards URIs](../xbox-live-rest/uri/leaderboard/atoc-reference-leaderboard.md) | URIs and associated HTTP methods for leaderboards. |

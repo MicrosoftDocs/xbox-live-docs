@@ -38,8 +38,9 @@ The **Scope** field is an optional field that you can use to indicate the functi
 
 If the **Scope** field is not specified, then the scope is set to a default value that depends on the value of the **XboxLiveCreatorsTitle** field, as described in the following table:
 
-XboxLiveCreatorsTitle value | Default Scope value
---- | ------------------------------------------------------------------------------------------------
+
+| XboxLiveCreatorsTitle value                                                                                                                                             | Default Scope value                                                                                                   |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
 "true"  |  "xbl.signin xbl.friends"
 "false"  |  "xboxlive.signin"
 

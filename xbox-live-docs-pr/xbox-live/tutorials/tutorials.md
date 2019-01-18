@@ -63,7 +63,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="publishing-tutorial.md">
+        <a href="">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

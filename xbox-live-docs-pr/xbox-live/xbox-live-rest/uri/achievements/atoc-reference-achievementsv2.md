@@ -15,32 +15,29 @@ This section provides detail about Universal Resource Identifier (URI) addresses
 
 The domain for these URIs is achievements.xboxlive.com.
 
-<a id="ID4EDB"></a>
 
+<a id="ID4EDB"></a>
 
 ## In this section
 
 [/users/xuid({xuid})/achievements](uri-achievementsusersxuidachievementsv2.md)
 
-&nbsp;&nbsp;Provides access to user achievements.
+&nbsp;&nbsp; Provides access to user achievements.
 
 [/users/xuid({xuid})/achievements/{scid}/{achievementid}](uri-usersxuidachievementsscidachievementid.md)
 
-&nbsp;&nbsp;Returns details about the achievement, including its configured metadata and user-specific data.
-
+&nbsp;&nbsp; Returns details about the achievement, including its configured metadata and user-specific data.
 
 > [!NOTE] 
 > Only supported for the platform.
 
 
-
 <a id="ID4EMB"></a>
-
 
 ## See also
 
-<a id="ID4EOB"></a>
 
+<a id="ID4EOB"></a>
 
 ##### Parent
 

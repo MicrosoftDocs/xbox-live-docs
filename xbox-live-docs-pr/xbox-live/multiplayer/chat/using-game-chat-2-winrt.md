@@ -13,20 +13,6 @@ This is a brief walkthrough on using the C# API of Game Chat 2 with WinRT projec
 
 Game developers wanting to access Game Chat 2 through C++ should instead see [Using Game Chat 2](using-game-chat-2.md).
 
-1. [Prerequisites](#prereq)
-2. [Initialization](#init)
-3. [Configuring users](#config)
-4. [Processing data frames](#data)
-5. [Processing state changes](#state)
-6. [Text chat](#text)
-7. [Accessibility](#access)
-8. [UI](#UI)
-9. [Muting](#mute)
-10. [Bad reputation auto-mute](#automute)
-11. [Privilege and privacy](#priv)
-12. [Cleanup](#cleanup)
-13. [How to configure popular scenarios](#how-to-configure-popular-scenarios)
-
 
 ## Prerequisites <a name="prereq">
 

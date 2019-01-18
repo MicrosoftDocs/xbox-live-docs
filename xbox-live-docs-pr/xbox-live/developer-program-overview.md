@@ -113,29 +113,29 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 
 
 <tr class="dev-program-feature-start">
-<td rowspan="13" class="dev-program-feature-name">1. Social platform</td>
-<td>1.1 Social Manager</td>
+<td rowspan="13" class="dev-program-feature-name">Social platform</td>
+<td>Social Manager</td>
 <td>Efficiently retrieve information about a player's social graph.</td>
 <td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-limited">Optional / Limited (only friends who have played your title are exposed)</td>
 </tr>
 
 <tr>
-<td>1.2 Friends</td>
+<td>Friends</td>
 <td>Retrieve the sign-in user's friends list to enable social gameplay scenarios in your title.</td>
 <td class="xbl-features-required">Required</td>
 <td class="xbl-features-limited">Optional / Limited (only friends who have played your title are exposed)</td>
 </tr>
 
 <tr>
-<td>1.3 Rich Presence</td>
+<td>Rich Presence</td>
 <td>Shows more detailed information about players in your title.  Whereas Basic Presence might show "User is in Car Racing Game", Rich Presence lets you specify a more detailed string like "User is driving SuperCar in RainyForest"</td>
 <td class="xbl-features-required">Required</td>
 <td class="xbl-features-notavailable">Not Supported</td>
 </tr>
 
 <tr>
-<td>1.4 Reputation</td>
+<td>Reputation</td>
 <td>Players gain or lose reputation through their behavior. Behavior is used in Matchmaking and can be used by your title in custom ways.</td>
 <td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-notavailable">Not Supported</td>
@@ -208,29 +208,29 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 
 
 <tr class="dev-program-feature-start">
-<td rowspan="4" class="dev-program-feature-name">2. Data platform</td>
-<td>2.1 Achievements</td>
+<td rowspan="4" class="dev-program-feature-name">Data platform</td>
+<td>Achievements</td>
 <td>Gamerscore and other rewards such as digital artwork, new maps, characters, and stat boosts.</td>
 <td class="xbl-features-required">Required</td>
 <td class="xbl-features-notavailable">Not Supported</td>
 </tr>
 
 <tr>
-<td>2.2 Player Stats</td>
+<td>Player Stats</td>
 <td>Upload statistics about players which can be used in Leaderboards.</td>
 <td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-optional">Optional (Data platform 2017 only)</td>
 </tr>
 
 <tr>
-<td>2.3 Leaderboards</td>
+<td>Leaderboards</td>
 <td>Retrieve and display player stats in a sorted way to encourage competition.</td>
 <td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-optional">Optional (Data platform 2017 only)</td>
 </tr>
 
 <tr>
-<td>2.4 Featured Stats</td>
+<td>Featured Stats</td>
 <td>Designate certain stats as "Featured Stats" that will show up in the Game Hub.</td>
 <td class="xbl-features-required">Required</td>
 <td class="xbl-features-optional">Optional (Data platform 2017 only)</td>
@@ -238,16 +238,16 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 
 
 <tr class="dev-program-feature-start">
-<td rowspan="2" class="dev-program-feature-name">3. Cloud Storage platform</td>
+<td rowspan="2" class="dev-program-feature-name">Cloud Storage platform</td>
 
-<td>3.1 Connected Storage</td>
+<td>Connected Storage</td>
 <td>Roaming game saves across Xbox One Consoles and PCs.</td>
 <td class="xbl-features-required">Required</td>
 <td class="xbl-features-optional">Optional</td>
 </tr>
 
 <tr>
-<td>3.2 Title Storage</td>
+<td>Title Storage</td>
 <td>Cloud storage for large amounts of per-user or per-title data.</td>
 <td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-optional">Optional</td>
@@ -255,29 +255,29 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 
 
 <tr class="dev-program-feature-start">
-<td rowspan="5" class="dev-program-feature-name">4. Multiplayer platform</td>
-<td>4.3 Multiplayer Session Directory (MPSD)</td>
+<td rowspan="5" class="dev-program-feature-name">Multiplayer platform</td>
+<td>Multiplayer Session Directory (MPSD)</td>
 <td>Stores information about a multiplayer session, such as list of players and their state.</td>
 <td class="xbl-features-optional">Required</td>
 <td class="xbl-features-notavailable">Not Supported</td>
 </tr>
 
 <tr>
-<td>4.4 SmartMatch matchmaking</td>
+<td>SmartMatch matchmaking</td>
 <td>Xbox Live can match different players together for a multiplayer session.</td>
 <td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-notavailable">Not Supported</td>
 </tr>
 
 <tr>
-<td>4.6 Game Chat</td>
+<td>Game Chat</td>
 <td>Voice chat for players in a multiplayer game.</td>
 <td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-notavailable">Not Supported</td>
 </tr>
 <tr>
 
-<td>4.7 Arena</td>
+<td>Arena</td>
 <td>Players can compete against each other tournament style.</td>
 <td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-notavailable">Not Supported</td>
