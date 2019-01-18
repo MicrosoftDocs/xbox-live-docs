@@ -974,7 +974,7 @@
             - name: SINGLE SIGN-ON tutorial
               href: stub.md
     - name: RELEASING a game  [landing page]
-      href: stub.md
+      href: releasing/releasing.md
       items:
         - name: CREATORS
           href: stub.md

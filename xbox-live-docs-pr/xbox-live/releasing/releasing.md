@@ -25,7 +25,7 @@ ms.localizationpriority: medium
 <h2>Overview of Tutorials</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="identity-tutorial.md">
+        <a href="">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -44,7 +44,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="multiplayer/multiplayer-tutorials.md">
+        <a href="">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
