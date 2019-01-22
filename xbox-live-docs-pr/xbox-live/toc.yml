@@ -652,7 +652,7 @@
                   href: stub.md
                 - name: Flowchart - SmartMatch matchmaking
                   href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-play-with-smartmatch-matchmaking.md
-                - name: XIM for Matchmaking  [subfeature 1]
+                - name: XIM for Matchmaking  [subfeature]
                   href: multiplayer/xbox-integrated-multiplayer.md
                   items: 
                     - name: OVERVIEW of Xbox Integrated Multiplayer (XIM)
@@ -671,7 +671,7 @@
                       href: multiplayer/xbox-integrated-multiplayer/xim-manifest.md
                     - name: XIM release notes
                       href: multiplayer/xbox-integrated-multiplayer/xim-release-notes.md
-                - name: MANAGER for Matchmaking  [subfeature 2]
+                - name: MANAGER for Matchmaking  [subfeature]
                   href: multiplayer/multiplayer-manager.md
                   items: 
                     - name: OVERVIEW of Multiplayer Manager
@@ -707,7 +707,7 @@
                           href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-host-migration.md
                         - name: Flowchart - Shutting down a multiplayer session
                           href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-shut-down.md
-                - name: CUSTOM Matchmaking  [subfeature 3]
+                - name: CUSTOM Matchmaking  [subfeature]
                   href: stub.md
                   items: 
                     - name: OVERVIEW of Custom Matchmaking
@@ -902,6 +902,15 @@
                   href: configure-xbl/dev-center/access-policies-udc.md
                 - name: SDK CONFIGuration of access policies
                   href: external-services/access-policies/access-policies-sdk-config.md
+        - name: TCUI  [feature]
+          href: stub.md
+          items: 
+            - name: OVERVIEW of TCUI
+              href: stub.md
+            - name: PORTAL CONFIGuration of TCUI
+              href: stub.md
+            - name: SDK CONFIGuration of TCUI
+              href: stub.md
         - name: Real-Time Activity (RTA) service  [feature]
           href: real-time-activity-service/real-time-activity-service.md
           items: 
