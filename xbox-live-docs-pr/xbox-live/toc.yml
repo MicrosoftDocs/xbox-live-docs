@@ -325,14 +325,16 @@
             - name: Overview of the Social platform
               href: social-platform/xbox-live-social-platform.md
             - name: FRIENDS LIST  [feature]
-              href: stub.md
+              href: social-platform/people-system/people-system.md
               items: 
                 - name: OVERVIEW of Friends List
-                  href: stub.md
+                  href: social-platform/people-system/xbox-live-people-system.md
                 - name: PORTAL CONFIGuration of Friends List
                   href: stub.md
                 - name: SDK CONFIGuration of Friends List
                   href: stub.md
+                - name: Displaying people from the People System
+                  href: social-platform/people-system/displaying-people-from-the-people-system.md
                 - name: Social MANAGER  [feature]
                   href: social-platform/the-social-manager.md
                   items: 
@@ -444,17 +446,6 @@
                   href: stub.md
                 - name: Sending Reputation feedback from a title
                   href: social-platform/people-system/sending-player-feedback-from-your-title.md
-            - name: People System  [feature]
-              href: social-platform/people-system/people-system.md
-              items: 
-                - name: OVERVIEW of the People System
-                  href: social-platform/people-system/xbox-live-people-system.md
-                - name: PORTAL CONFIGuration of People System
-                  href: stub.md
-                - name: SDK CONFIGuration of People System
-                  href: stub.md
-                - name: Displaying people from the People System
-                  href: social-platform/people-system/displaying-people-from-the-people-system.md
             - name: Programming Social services
               href: social-platform/people-system/programming-social-services.md
         - name: DATA PLATFORM  [feature category]
@@ -481,11 +472,11 @@
                 - name: LEGACY Achievements
                   href: stub.md
                   items: 
-                    - name: OVERVIEW of rich Achievements
+                    - name: OVERVIEW of legacy Achievements
                       href: stub.md
                     - name: Configuring Achievements 2017 in Partner Center
                       href: configure-xbl/dev-center/achievements-in-udc.md
-                    - name: SDK CONFIGuration of rich Achievements
+                    - name: SDK CONFIGuration of legacy Achievements
                       href: stub.md
                 - name: Achievements 2017
                   href: achievements-2017/simplified-achievements.md
