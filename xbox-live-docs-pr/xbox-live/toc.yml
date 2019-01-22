@@ -1,4 +1,4 @@
-- name: Xbox Live  [home landing page]
+- name: XBOX LIVE  [home landing page]
   href: index.md
   items:
     - name: Xbox Live hub page
@@ -79,7 +79,7 @@
               href: get-started-with-partner/get-started-with-xbox-live-partner.md
             - name: Integrate Xbox Live, for managed partners and ID@Xbox members
               href: get-started-with-partner/partners-step-by-step-guide.md
-            - name: CREATE a new title that uses Xbox Live
+            - name: CREATE a new TITLE that uses Xbox Live
               href: get-started-with-partner/create-a-new-title.md
             - name: CHOOSE PLATFORMS
               href: stub.md
@@ -283,7 +283,7 @@
                   href: stub.md
                 - name: SDK CONFIGuration of user identity
                   href: stub.md
-            - name: SIGN-IN [feature]
+            - name: SIGN-IN  [feature]
               href: stub.md
               items: 
                 - name: OVERVIEW of Sign-in
@@ -292,7 +292,7 @@
                   href: stub.md
                 - name: SDK CONFIGuration of Sign-in
                   href: stub.md
-                - name: XAL [subfeature]
+                - name: XAL  [subfeature]
                   href: stub.md
                   items: 
                     - name: OVERVIEW of XAL
@@ -310,7 +310,7 @@
                   href: social-platform/privileges/privileges-portal-config.md
                 - name: SDK CONFIGuration of Privileges
                   href: social-platform/privileges/privileges-sdk-config.md
-            - name: PRIVACY [feature]
+            - name: PRIVACY  [feature]
               href: stub.md
               items: 
                 - name: OVERVIEW of Privacy
@@ -319,12 +319,12 @@
                   href: stub.md
                 - name: SDK CONFIGuration of Privacy
                   href: stub.md
-        - name: SOCIAL PLATFORM  [feature category]
+        - name: SOCIAL platform  [feature category]
           href: social-platform/social-platform.md
           items: 
             - name: Overview of the Social platform
               href: social-platform/xbox-live-social-platform.md
-            - name: FRENDS LIST [feature]
+            - name: FRIENDS LIST  [feature]
               href: stub.md
               items: 
                 - name: OVERVIEW of Friends List
@@ -344,7 +344,7 @@
                       href: stub.md
                     - name: Social Manager memory and performance
                       href: social-platform/social-manager-memory-and-performance-overview.md
-            - name: Clubs  [feature]
+            - name: CLUBS  [feature]
               href: social-platform/clubs/clubs.md
               items: 
                 - name: OVERVIEW of Clubs
@@ -353,7 +353,7 @@
                   href: social-platform/clubs/clubs-portal-config.md
                 - name: SDK CONFIGuration of Clubs
                   href: social-platform/clubs/clubs-sdk-config.md
-                - name: OFFICIAL CLUBS [subfeature]
+                - name: OFFICIAL CLUBS  [subfeature]
                   href: stub.md
                   items: 
                     - name: OVERVIEW of Official Clubs
@@ -362,7 +362,7 @@
                       href: stub.md
                     - name: SDK CONFIGuration of Official Clubs
                       href: stub.md
-                - name: SOCIAL CLUBS [subfeature]
+                - name: SOCIAL CLUBS  [subfeature]
                   href: stub.md
                   items: 
                     - name: OVERVIEW of Social Clubs
@@ -371,7 +371,7 @@
                       href: stub.md
                     - name: SDK CONFIGuration of Social Clubs
                       href: stub.md
-                - name: IN-GAME CLUBS [subfeature]
+                - name: IN-GAME CLUBS  [subfeature]
                   href: stub.md
                   items: 
                     - name: OVERVIEW of In-game Clubs
@@ -394,7 +394,7 @@
               items: 
                 - name: Overview of Presence strings
                   href: social-platform/rich-presence-strings/rich-presence-strings-overview.md
-                - name: SIMPLE PRESENCE [subfeature]
+                - name: SIMPLE PRESENCE  [subfeature]
                   href: stub.md
                   items: 
                     - name: OVERVIEW of simple presence strings
@@ -403,7 +403,7 @@
                       href: stub.md
                     - name: SDK CONFIGuration of simple presence strings
                       href: stub.md
-                - name: LEGACY PRESENCE [subfeature]
+                - name: LEGACY PRESENCE  [subfeature]
                   href: stub.md
                   items: 
                     - name: OVERVIEW of legacy presence strings
@@ -494,7 +494,7 @@
             - name: Player STATS  [feature]
               href: leaderboards-and-stats-2017/player-stats.md
               items: 
-                - name: LEGACY player Stats [subfeature]
+                - name: LEGACY player Stats  [subfeature]
                   href: stub.md
                   items: 
                     - name: OVERVIEW of legacy player Stats
@@ -503,7 +503,7 @@
                       href: stub.md
                     - name: SDK CONFIGuration of legacy player Stats
                       href: stub.md
-                - name: DEPRECATED (simple) player Stats [subfeature]
+                - name: DEPRECATED (SIMPLE) player Stats  [subfeature]
                   href: stub.md
                 - name: Using player Stats
                   href: leaderboards-and-stats-2017/using-player-stats.md
@@ -514,30 +514,30 @@
             - name: LEADERBOARDS  [feature]
               href: stub.md
               items: 
-                - name: OVERVIEW of Leaderboards
+                - name: OVERVIEW of leaderboards
                   href: leaderboards-and-stats-2017/leaderboards.md
-                - name: LEGACY LEADERBOARDS [subfeature]
+                - name: LEGACY leaderboards  [subfeature]
                   href: stub.md
                   items: 
-                    - name: OVERVIEW of Legacy Leaderboards
+                    - name: OVERVIEW of legacy leaderboards
                       href: stub.md
-                    - name: PORTAL CONFIGuration of Legacy Leaderboards
+                    - name: PORTAL CONFIGuration of legacy leaderboards
                       href: stub.md
-                    - name: SDK CONFIGuration of Legacy Leaderboards
+                    - name: SDK CONFIGuration of legacy leaderboards
                       href: stub.md
-                - name: DEPRECATED (SIMPLE) LEADERBOARDS [subfeature]
+                - name: DEPRECATED (SIMPLE) leaderboards  [subfeature]
                   href: stub.md
                   items: 
-                    - name: OVERVIEW of simple Leaderboards
+                    - name: OVERVIEW of simple leaderboards
                       href: stub.md
-                    - name: PORTAL CONFIGuration of simple Leaderboards
+                    - name: PORTAL CONFIGuration of simple leaderboards
                       href: stub.md
-                    - name: SDK CONFIGuration of simple Leaderboards
+                    - name: SDK CONFIGuration of simple leaderboards
                       href: stub.md
             - name: FEATURED STATS  [feature]
               href: stub.md
               items: 
-                - name: LEGACY Featured Stats [subfeature]
+                - name: LEGACY Featured Stats  [subfeature]
                   href: stub.md
                   items: 
                     - name: OVERVIEW of Legacy Featured Stats
@@ -546,7 +546,7 @@
                       href: stub.md
                     - name: SDK CONFIGuration of Legacy Featured Stats
                       href: stub.md
-                - name: DEPRECATED (SIMPLE) Featured Stats [subfeature]
+                - name: DEPRECATED (SIMPLE) Featured Stats  [subfeature]
                   href: stub.md
                   items: 
                     - name: OVERVIEW of simple Featured Stats
@@ -585,7 +585,7 @@
                   href: storage-platform/connected-storage/connected-storage-best-practices.md
                 - name: Technical overview of Connected Storage
                   href: storage-platform/connected-storage/connected-storage-technical-overview.md
-            - name: Title Storage  [feature]
+            - name: TITLE STORAGE  [feature]
               href: storage-platform/xbox-live-title-storage/xbl-title-storage.md
               items: 
                 - name: OVERVIEW of Title Storage
@@ -594,7 +594,7 @@
                   href: stub.md
                 - name: SDK CONFIGuration of Title Storage
                   href: stub.md
-                - name: GLOBAL Title Storage [subfeature]
+                - name: GLOBAL Title Storage  [subfeature]
                   href: stub.md
                   items: 
                     - name: OVERVIEW of Global Title Storage
@@ -603,7 +603,7 @@
                       href: stub.md
                     - name: SDK CONFIGuration of Global Title Storage
                       href: stub.md
-                - name: UNIVERSAL Title Storage [subfeature]
+                - name: UNIVERSAL Title Storage  [subfeature]
                   href: stub.md
                   items: 
                     - name: OVERVIEW of Universal Title Storage
@@ -645,14 +645,14 @@
                   href: multiplayer/common-multiplayer-scenarios.md
                 - name: Multiplayer session browse
                   href: multiplayer/session-browse.md
-            - name: SmartMatch MATCHMAKING [feature]
+            - name: SmartMatch MATCHMAKING  [feature]
               href: stub.md
               items: 
                 - name: OVERVIEW of SmartMatch matchmaking
                   href: stub.md
                 - name: Flowchart - SmartMatch matchmaking
                   href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-play-with-smartmatch-matchmaking.md
-                - name: XIM for Matchmaking [subfeature 1]
+                - name: XIM for Matchmaking  [subfeature 1]
                   href: multiplayer/xbox-integrated-multiplayer.md
                   items: 
                     - name: OVERVIEW of Xbox Integrated Multiplayer (XIM)
@@ -917,7 +917,7 @@
               href: real-time-activity-service/programming-the-real-time-activity-service.md
             - name: Best Practices for the RTA service
               href: real-time-activity-service/rta-best-practices.md
-        - name: Contextual Search [feature]
+        - name: Contextual Search  [feature]
           href: contextual-search/contextual-search.md
           items: 
             - name: Contextual Search overview
@@ -936,8 +936,6 @@
     - name: TUTORIALS  [landing page]
       href: tutorials/tutorials.md
       items: 
-        - name: IDENTITY tutorial
-          href: tutorials/identity-tutorial.md
         - name: Real-Time Activity (RTA) tutorial
           href: stub.md
         - name: MULTIPLAYER tutorials
@@ -953,7 +951,7 @@
               href: tutorials/multiplayer/multiplayer-manager-tutorial.md
             - name: MULTIPLAYER MANAGER BRING-YOUR-OWN-MATCH tutorial
               href: tutorials/multiplayer/multiplayer-manager-byo-match-tutorial.md
-        - name: RICH ACHIEVEMENT tutorial
+        - name: RICH ACHIEVEMENTs tutorial
           href: stub.md
           items: 
             - name: CREATE EVENT tutorial
