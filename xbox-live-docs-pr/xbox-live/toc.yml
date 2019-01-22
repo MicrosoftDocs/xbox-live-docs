@@ -800,7 +800,7 @@
                       href: stub.md
                     - name: SDK CONFIGuration of SSL
                       href: stub.md
-            - name: Xbox Arena  [feature]
+            - name: Xbox Arena
               href: multiplayer/arena/xbox-arena.md
               items: 
                 - name: Xbox Arena overview
@@ -821,7 +821,7 @@
                   href: multiplayer/arena/arena-notifications.md
                 - name: UX for Arena participant user scenarios
                   href: multiplayer/arena/arena-user-scenarios.md
-            - name: Multiplayer Service configuration  [feature]
+            - name: Multiplayer Service configuration
               href: multiplayer/service-configuration/multiplayer-service-configuration.md
               items: 
                 - name: Configuring the Multiplayer service
@@ -834,7 +834,7 @@
                   href: multiplayer/service-configuration/session-template-constants.md
                 - name: Using large sessions for Multiplayer
                   href: multiplayer/service-configuration/large-sessions.md
-            - name: Multiplayer 2015 appendix  [feature]
+            - name: Multiplayer 2015 appendix
               href: multiplayer/multiplayer-appendix/multiplayer-appendix.md
               items: 
                 - name: Introduction to the Multiplayer system
@@ -902,7 +902,7 @@
                   href: configure-xbl/dev-center/access-policies-udc.md
                 - name: SDK CONFIGuration of access policies
                   href: external-services/access-policies/access-policies-sdk-config.md
-        - name: TCUI  [feature]
+        - name: TCUI
           href: stub.md
           items: 
             - name: OVERVIEW of TCUI
@@ -911,7 +911,7 @@
               href: stub.md
             - name: SDK CONFIGuration of TCUI
               href: stub.md
-        - name: Real-Time Activity (RTA) service  [feature]
+        - name: Real-Time Activity (RTA) service
           href: real-time-activity-service/real-time-activity-service.md
           items: 
             - name: OVERVIEW of Real-Time Activity service
