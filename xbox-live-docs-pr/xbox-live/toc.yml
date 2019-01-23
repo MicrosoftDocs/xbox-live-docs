@@ -974,14 +974,14 @@
     - name: RELEASING a game  [landing page]
       href: releasing/releasing.md
       items:
-        - name: CREATORS
+        - name: CREATORS program - Testing and publishing a game
           href: stub.md
           items: 
             - name: PRIVATE (TESTING)
               href: stub.md
             - name: PUBLIC
               href: stub.md
-        - name: ID@Xbox and MANAGED Partners
+        - name: ID@Xbox Program - Testing and publishing a game
           href: stub.md
           items: 
             - name: PRIVATE (TESTING)

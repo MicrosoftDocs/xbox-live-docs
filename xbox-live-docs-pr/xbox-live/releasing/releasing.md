@@ -2,7 +2,7 @@
 layout: LandingPage
 title: Releasing a game
 author: mikehoffms
-description: Testing and releasing a game.
+description: Testing, troubleshooting, and publishing a game.
 ms.author: v-mihof
 ms.date: 12-11-2018
 ms.topic: article
@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 ---
 
 <h1>Releasing a game</h1>
-<p>Xbox Live is a premier gaming network that connects millions of gamers across the world. You can add Xbox Live to your Windows 10 or Xbox One game in order to take advantage of the Xbox Live features and services.</p>
+<p>Releasing a game that is Xbox Live-enabled involves testing the Xbox Live functionality of the game, as well as troubleshooting and publishing the game.</p>
 
 <h2>Get Started</h2>
 <p>Learn how to build your first XBL feature by getting enrolled in a program, setting up a development kit, and calling an API.</p>
@@ -22,7 +22,7 @@ ms.localizationpriority: medium
     <div class="ico48Link"><a href=""><img src="../images/common/setup_step2_icon.svg"><span>Setup</span></a></div>
 </div>
 
-<h2>Overview of Tutorials</h2>
+<h2>Overview of Testing and Releasing a Game</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
         <a href="">
@@ -35,8 +35,8 @@ ms.localizationpriority: medium
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Identity tutorial</h3>
-                        <p>Using Identity features of Xbox Live and PlayFab.</p>
+                        <h3>Creators program - Testing and publishing a game</h3>
+                        <p>Members of the Xbox Live Creators program have a single sandbox in which to test and publish the Xbox Live functionality of their game.</p>
                     </div>
                 </div>
             </div>
@@ -54,8 +54,8 @@ ms.localizationpriority: medium
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Multiplayer tutorials</h3>
-                        <p>Using Multiplayer features of Xbox Live and PlayFab.</p>
+                        <h3>ID@Xbox program - Testing and publishing a game</h3>
+                        <p>Members of the ID@Xbox program have multiple sandboxes in which to test and publish the Xbox Live functionality of their game.</p>
                     </div>
                 </div>
             </div>
@@ -73,8 +73,8 @@ ms.localizationpriority: medium
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Publishing tutorial</h3>
-                        <p>Publishing a game that uses Xbox Live and PlayFab, at the portal.</p>
+                        <h3>Troubleshooting</h3>
+                        <p>Tools and guides for troubleshooting Xbox Live functionality of your game.</p>
                     </div>
                 </div>
             </div>
