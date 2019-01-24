@@ -39,7 +39,7 @@
       "extendBreadcrumb": true,
       "feedback_system": "None",
       "_op_documentIdPathDepotMapping": {
-        "gaming/xbox-live/xbox-live/": {
+        "/xbox-live/xbox-live/": {
           "depot_name": "Win.windows-apps",
           "folder_relative_path_in_docset": "xbox-live"
      }
