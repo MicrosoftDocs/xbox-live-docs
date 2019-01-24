@@ -1,9 +1,0 @@
-{
-	"redirections": [
-		{
-            "source_path": "xbox-live-docs-pr/xbox-live/index.md",
-            "redirect_url": "/gaming/xbox-live/xbox-live",
-            "redirect_document_id": false
-        }
-	]
-}
