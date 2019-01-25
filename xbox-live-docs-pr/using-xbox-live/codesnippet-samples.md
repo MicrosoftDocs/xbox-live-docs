@@ -17,4 +17,3 @@ ms.localizationpriority: low
 The code pulled in appears as (using include):
 
 [!INCLUDE [XblProfileGetUserProfileAsync](../code/snippets/xbl-profile-get-user-profile-async.md)]
-

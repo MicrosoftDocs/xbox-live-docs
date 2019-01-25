@@ -64,6 +64,9 @@ HRESULT XalPlatformWebSetEventHandler(
 |context     | Optional pointer to the client provided user specific content.         |
 |handler     | the event handler for the function you want called when UI needs to be shown        |
 
+**Call Sample**  
+[!INCLUDE [XalPlatformWebSetEventHandler](../../code/snippets/XalPlatformWebSetEventHandler.md)]
+
 > [!IMPORTANT]
 > This function must be called before `XalIntialize()`
 
@@ -96,102 +99,30 @@ HRESULT XalPlatformWebShowUrlComplete(
 |result     | the result of the operation        |
 |url     | the full url for the final redirection. This should contain the information needed for XAL functionality |
 
+**Call Sample**  
+[!INCLUDE [XalPlatformWebShowUrlComplete](../../code/snippets/XalPlatformWebShowUrlComplete.md)]  
+
 After event handlers for web views and other necessary processes are set you will want to Initialize XAL so that it can be used for authentication.
 
 ### Initialize
 
 In each scenario you will need to Initialize XAL before signing in a user:
 
-```cpp
-// initialize XAL
-    XalInitArgs initArgs = {};
-    initArgs.ClientId = "msa_client_id";
-    initArgs.TitleId = 1234567890ull;
-    initArgs.Sandbox = "MYSANDBOX.0"; // optional on uwp/xdk/win32
-    res = XalInitialize(&initArgs, XalAsyncQueue); //Actual XAL Initialize function
-    assert(SUCCEEDED(res));
-```
+[!INCLUDE [XalInitialize](../../code/snippets/XalInitialize.md)]
 
 ### Sign-in
 
-XAL has two sign-in functions, `XalTryAddFirstUserSilentlyAsync` which attempts to add a user without showing any ui, and `XalAssUserWithUiAsync`, which attempts to add a user with UI. Both of these functions follow the [Flat-C api calling pattern](../../flatc-async-patterns.md), which you should familiarize yourself with if you have not already.
+XAL has two sign-in functions, `XalTryAddFirstUserSilentlyAsync` which attempts to add a user without showing any ui, and `XalAddUserWithUiAsync`, which attempts to add a user with UI. Both of these functions follow the [Flat-C api calling pattern](../../flatc-async-patterns.md), which you should familiarize yourself with if you have not already.
 
 You will need to setup an `AsyncBlock` which calls the appropriate result function, `XalTryAddFirstUserSilentlyResult` or  `XalAddUserWithUiResult`, in its return function before calling the sign-in function. You will also need to have setup an `AsynceQueue`to handle the asynchronous work.
 
 #### Sign-in silent example
 
-```cpp
-HRESULT res = S_OK;
-
-// Create the Async Block
-auto op = std::make_unique<AsyncBlock>(AsyncBlock{
-    XalAsyncQueue,
-    MyGameState,
-    [](AsyncBlock* rawOp) // Callback function written inline
-    {
-        std::unique_ptr<AsyncBlock> op{ rawOp };
-
-        xal_user_handle_t newUser = nullptr;
-        HRESULT result = XalTryAddFirstUserSilentlyResult(op.get(), &newUser); // Result function called in AsyncBlock callback
-
-        if (result == E_XAL_UIREQUIRED)
-        {
-            // Consent is required, we will call XalAddUserAsync to obtain it
-            assert(!newUser);
-            return;
-        }
-        assert(SUCCEEDED(result));
-
-        GameState* myGameState = static_cast<GameState*>(op->context);
-        myGameState->SetTheUserHandle(newUser); // handle is already duplicated
-    }
-});
-
-// make the silent sign-in call
-res = XalTryAddFirstUserSilentlyAsync(nullptr, op.release());
-```
+[!INCLUDE [XalTryAddFirstUserSilentlyResult](../../code/snippets/XalTryAddFirstUserSilentlyAsync.md)]
 
 #### Sign-in with UI example
 
-```cpp
-HRESULT res = S_OK;
-
-// Create the AsyncBlock
-auto op = std::make_unique<AsyncBlock>(AsyncBlock
-{
-    XalAsyncQueue,
-    MyGameState,
-    [](AsyncBlock* rawOp) // Callback function written inline
-    {
-        std::unique_ptr<AsyncBlock> op{ rawOp };
-
-        xal_user_handle_t newUser = nullptr;
-        HRESULT result = XalAddUserWithUiResult(op.get(), &newUser); // Result function called in the AsyncBlock callback function
-
-        if (result == E_ABORT)
-        {
-            // The user declined consent, there nothing that can be done
-            assert(!newUser);
-            return;
-        }
-        else if (result == E_XAL_USERSETFULL)
-        {
-            // There is a user signed in already, in the hard SUA scenario the
-            // client should avoid calling XalAddUserAsync if there is a user
-            // already signed in
-            assert(!newUser);
-            return;
-        }
-        assert(SUCCEEDED(result));
-
-        GameState* myGameState = static_cast<GameState*>(op->context);
-        myGameState->SetTheUserHandle(newUser); // handle is already duplicated
-    }
-});
-
-// Make the sign-in with UI call
-res = XalAddUserWithUiAsync(nullptr, op.release());
-```
+[!INCLUDE [XalAddUserWithUIAsync](../../code/snippets/XalAddUserWithUiAsync.md)]
 
 ## Soft SUA and MUA
 

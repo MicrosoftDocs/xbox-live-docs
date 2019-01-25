@@ -18,21 +18,7 @@ making an **asynchronous API** call, such as **XblSocialGetSocialRelationshipsAs
 
 Here is a basic example calling the **XblProfileGetUserProfileAsync** API.
 
-```cpp
-AsyncBlock* asyncBlock = new AsyncBlock {};
-asyncBlock->queue = asyncQueue;
-asyncBlock->context = customDataForCallback;
-asyncBlock->callback = [](AsyncBlock* asyncBlock)
-{
-    XblUserProfile profile;
-    if( SUCCEEDED( XblProfileGetUserProfileResult(asyncBlock, &profile) ) )
-    {
-        printf("Profile retrieved successfully\r\n");
-    }
-    delete asyncBlock;
-};
-XblProfileGetUserProfileAsync(asyncBlock, xboxLiveContext, xuid);
-```
+[!INCLUDE [XblProfileGetUserProfileAsync](code/snippets/XblProfileGetUserProfileAsync.md)]
 
 To understand this calling pattern, you will need to understand how to use the **AsyncBlock** and the **AsyncQueue**.
 
@@ -64,7 +50,7 @@ You should create a new AsyncBlock on the heap for each async API you call.  The
 > [!IMPORTANT]
 > An **AsyncBlock** must remain in memory until the **asynchronous task** completes. If it is dynamically allocated, it can be deleted inside the AsyncBlock's **completion callback**.
 
-### Waiting for **asynchronous task**
+### Waiting for an **asynchronous task**
 
 You can tell an **asynchronous task** is complete a number of different ways:
 
@@ -101,7 +87,7 @@ STDAPI CreateAsyncQueue(
     _Out_ async_queue_handle_t* queue);
 ```
 
-where AsyncQueueDispatchMode contains the three dispatch modes introduced earlier:
+This function takes two AsyncQueueDispatchMode as parameters.  There are three possible values for a AsyncQueueDispatchMode:
 
 ```cpp
 typedef enum AsyncQueueDispatchMode
@@ -149,17 +135,15 @@ STDAPI_(void) CloseAsyncQueue(
     _In_ async_queue_handle_t aQueue);
 ```
 
+**Call Sample**:  
+[!INCLUDE [CloseAsyncQueue](code/snippets/CloseAsyncQueue.md)]
+
 ### Manually dispatching an **AsyncQueue**
 
 If you used the manual queue dispatch mode for an **AsyncQueue** work or completion queue, you will need to manually dispatch.
 Let us say that an **AsyncQueue** was created where both the work queue and the completion queue are set to dispatch manually like so:
 
-```cpp
-CreateAsyncQueue(
-    AsyncQueueDispatchMode_Manual,
-    AsyncQueueDispatchMode_Manual,
-    &queue);
-```
+[!INCLUDE [CreateAsyncQueue](code/snippets/CreateAsyncQueue.md)]
 
 In order to dispatch work that has been assigned **AsyncQueueDispatchMode_Manual** you will have to dispatch it with the **DispatchAsyncQueue** function.
 
@@ -169,6 +153,9 @@ STDAPI_(bool) DispatchAsyncQueue(
     _In_ AsyncQueueCallbackType type,
     _In_ uint32_t timeoutInMs);
 ```
+
+**Call Sample**
+[!INCLUDE [DispatchAsyncQueue](code/snippets/DispatchAsyncQueue.md)]
 
 * *queue* - which queue to dispatch work on
 * *type* - an instance of the **AsyncQueueCallbackType** enum
@@ -267,7 +254,7 @@ DWORD WINAPI BackgroundWorkThreadProc(LPVOID lpParam)
 }
 ```
 
-It is best practice to use implement with Win32 Semaphore object.  If instead you implement using a Win32 Event object, then you'll need to ensure don't miss any events with code such as:
+It is best practice to use a Win32 Semaphore object for this implementation.  If instead you implement using a Win32 Event object, then you'll need to ensure you don't miss any events by implementing code like the following:
 
 ```cpp
     case WAIT_OBJECT_0: 
@@ -282,6 +269,4 @@ It is best practice to use implement with Win32 Semaphore object.  If instead yo
         break;
 ```
 
-
 You can view an example of the best practices for async integration at [Social C Sample AsyncIntegration.cpp](https://github.com/Microsoft/xbox-live-api/blob/master/InProgressSamples/Social/Xbox/C/AsyncIntegration.cpp)
-

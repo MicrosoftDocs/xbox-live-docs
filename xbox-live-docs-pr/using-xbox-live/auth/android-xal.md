@@ -47,24 +47,20 @@ In order to use XAL in your Android project you will need to include the followi
 
 First you will need the following XAL resources:
 
-```
 - sdk.xal\Source\Xal\Xal.Android.vcxproj
 - sdk.xal\Source\Xal\Xal.Core.vcxitems
 - sdk.xal\Source\Xal\Xal.Platform.Common.vcxitems
 - sdk.xal\Source\CSharpInterop\CppSource\XalWrapper.Android.vcxproj
 - sdk.xal\Source\XalAndroidJava\XalAndroidJava.androidproj
-```
 
 Next you will need the external resources listed below:
 
-```
 - sdk.xal\External\CompactCoreCLL\CompactCoreCLL.Common.vcxitems
 - sdk.xal\External\CompactCoreCLL\CompactCoreCLL.Android.vcxproj
 - sdk.xal\External\libHttpClient\Build\libcrypto.141.Android\libcrypto.141.Android.vcxproj
 - sdk.xal\External\libHttpClient\Build\libHttpClient.141.Android.C\libHttpClient.141.Android.C.vcxproj
 - sdk.xal\External\libHttpClient\Build\libHttpClient.141.Android.Java\libHttpClient.141.Android.Java.androidproj
 - sdk.xal\External\libHttpClient\Build\libssl.141.Android\libssl.141.Android.vcxproj
-```
 
 ### The base projects
 

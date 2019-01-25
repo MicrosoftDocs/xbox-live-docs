@@ -25,7 +25,6 @@ You can use Visual Studio to build both Win32 and Android applications, the foll
 
 1. Add the following projects from the code source repo to your solution:
 
-```
     - Source\Xal\Xal.{your platform}.vcxproj
     - Source\Xal\Xal.Core.vcxitems
     - Source\Xal\Xal.Platform.Common.vcxitems
@@ -34,7 +33,6 @@ You can use Visual Studio to build both Win32 and Android applications, the foll
     - External\LibHttpClient\Build\libHttpClient.{vs toolset}.{your platform}.C\libHttpClient.{vs toolset}.{your platform}.C.vcxproj
     - External\LibHttpClient\Build\libcrypto.{vs toolset}.{your platform}\libcrypto.{vs toolset}.{your platform}.vcxproj
     - External\LibHttpClient\Build\libssl.{vs toolset}.{your platform}\libssl.{vs toolset}.{your platform}.vcxproj
-```
 
 1. Add the XAL project as a dependency to your project
 1. Add Source\Xal\Include to your project include path

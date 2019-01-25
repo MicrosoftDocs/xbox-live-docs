@@ -173,7 +173,7 @@ All configuration of SmartMatch matchmaking occurs through the [Xbox Developer P
 
 #### Matchmaking Session Template Configuration
 
-As discussed in [SmartMatch Matchmaking](), there are two types of session related to matchmaking, the match ticket session and the match target session. Basically, a ticket session is the input to the matchmaking service, while the target session is the output. When configuring session templates, you should create a template for each session type.
+There are two types of sessions related to matchmaking, the match ticket session and the match target session. Basically, a ticket session is the input to the matchmaking service, while the target session is the output. When configuring session templates, you should create a template for each session type.
 
 For a ticket session, you might use a dedicated template. Alternatively, you can reuse a template for a lobby session or other session not intended to be used for game play.
 

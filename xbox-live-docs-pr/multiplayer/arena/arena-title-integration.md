@@ -37,14 +37,14 @@ This section provides technical guidance and details for integrating your title 
 
 Your title is protocol-activated from the Xbox Arena UI. This could originate from a toast notification, the details page for the tournament, or any other entry point for the match. The steps that occur when a user participates in a match are:
 
-1.	Your title is protocol-activated by the Xbox Arena UI.
-2.	Your title uses the activation parameters to play a single match.
-3.	When the match is over, your title reports the results to the MPSD game session.
-4.	Your title gives the user the option to return to the Arena UI.
+1.	Your title is [protocol-activated](#protocol-activation) by the Xbox Arena UI.
+2.	Your title uses the activation parameters to [play a single match](#playing-the-match).
+3.	When the match is over, your title [reports the results](#reporting-results) to the MPSD game session.
+4.	Your title gives the user the option to [return to the Arena UI](#returning-to-the-xbox-arena-ui).
 
 The following sections go through each of these steps in detail.
 
-### 1.	Protocol activation
+### Protocol activation
 
 The Arena UI kicks things off by protocol-activating your title when a match is ready for the user. There are two cases: your title may be launched at this time, or it may already be running. Both cases are similar to what happens when a title is activated in response to a user accepting an invitation to a multiplayer game.
 
@@ -90,7 +90,7 @@ Paramater(s) | Description
 **scid, templateName, name** | Together, these identify the session. These are the same three parameters in the MPSD URI path to the session:</br> </br>`https://sessiondirectory.xboxlive.com/serviceconfigs/{scid}/sessiontemplates/{templateName}/sessions{name}`.</br></br>In XSAPI, they’re the three parameters to the `multiplayer_session_reference `constructor.
 **returnUri, returnPfn** | The **returnUri** is a protocol-activation URI to return the user to the Xbox Arena UI. The **returnPfn** parameter may or may not be present. If it is, it’s the Product Family Name (PFN) for the app that’s intended to handle the **returnUri**. For sample code that shows how to use these values, see [Returning to the Xbox Arena UI](#returning-to-the-xbox-arena-ui).
 
-### 2.	Playing the match
+### Playing the match
 
 When the MPSD session is created by the Tournament Organizer, the user is set as an inactive member of that session. Your title must immediately set the player to active by using `multiplayer_session::join()`. This indicates to Xbox Live and the other users in the match that the user is in your title and ready to play.
 
@@ -117,7 +117,7 @@ You can retrieve these settings from the session as a JavaScript Object Notation
 
 In general, your title should treat the Arena session the same way it would treat its own MPSD session. For example, it can create handles and subscribe for RTA notifications. But there are a few differences. For example, your title can’t change the roster of the game session or use the Quality of Service (QoS) features of the session, and it must participate in arbitration. The complete details of the session are provided later in this document.
 
-### 3.	Reporting results
+### Reporting results
 
 The results of the match are reported back to Arena and the TO through the session by using a feature called arbitration. Arbitration is a framework for using a session to securely play a match and report a result.
 
@@ -224,7 +224,7 @@ The **resultConfidenceLevel** is an integer between 0 and 100 that indicates the
 
 When the **resultSource** is “arbitration” (and the **resultState** is “completed” or “partialresults”), the results provided are an exact copy of at least one of the player-reported results.
 
-### 4.	Returning to the Xbox Arena UI
+### Returning to the Xbox Arena UI
 
 When the match is over (or potentially in response to a player’s request to abandon the match in progress), present an option for the player to return to the Xbox Arena UI from where they joined the match. This can be done from a post-match results screen or any other end-of-game UI.
 

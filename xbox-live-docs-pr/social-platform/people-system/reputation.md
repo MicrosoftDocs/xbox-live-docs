@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 ---
 # Reputation
 
-Reputation is a user statistic, just like any other, and is included in calls to retrieve all of a user's statistics and use them in reporting and tracking. The reputation itself is represented by the **Reputation Class**. The **ReputationService Class**represents the reputation service. The corresponding URIs are described in **Reputation URIs**.
+Reputation is a user statistic, just like any other, and is included in calls to retrieve all of a user's statistics and use them in reporting and tracking. The reputation itself is represented by the **Reputation Class**. The **ReputationService Class** represents the reputation service. The corresponding URIs are described in **Reputation URIs**.
 
 > [!IMPORTANT]
 > Reputation statistics are global across the service, not tied to a specific title. The service configuration ID (SCID) for the service is the global SCID used to access reputation statistics.

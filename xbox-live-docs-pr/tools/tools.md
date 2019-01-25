@@ -3,7 +3,7 @@ title: Development tools for Xbox Live
 
 description: Learn about tools that are provided to help develop and test your Xbox Live enabled title.
 ms.assetid: 380a29bf-41a7-4817-9c57-f48f2b824b52
-ms.date: 6/13/2018
+ms.date: 06/13/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, tools, player reset, live trace analyzer, LTA, xbox live account tool, 
 ms.localizationpriority: medium
