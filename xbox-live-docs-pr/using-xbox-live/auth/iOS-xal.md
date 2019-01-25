@@ -26,11 +26,9 @@ In your Xcode environment you will want to open Xal.xcworkspace.
 
 In order to use XAL in your iOS project you will need to include the following projects:
 
-```
 - \External\CompactCoreCLL\CompactCoreCLL.xcodeproj
 - \External\libHttpClient\Build\libHttpClient.Apple.C\libHttpClient.xcodeproj
 - \Source\Xal\Xal.xcodeproj
-```
 
 You may drag them into the **Project Navigator** of your iOS project.  
 
@@ -46,10 +44,8 @@ You will need to make sure to link with the resulting binaries in the **Build Ph
 
 Navigate to **Build Settings** and add the following paths to your **Header Search Paths** setting:
 
-```
 - ../Source/Xal/Source/Include
 - ../External/libHttpClient/Include
-```
 
 ![set header search paths](../../images/xal/xcode_buildsettings_headersearchpaths.png)
 

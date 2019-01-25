@@ -2,7 +2,7 @@
 title: Game Chat 2 Migration
 
 description: Learn how to migrate existing Game Chat code to use Game Chat 2.
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, game chat 2, game chat, voice communication
 ms.localizationpriority: medium
@@ -60,7 +60,7 @@ Before you get started coding with Game Chat 2, you must have configured your ap
 
 Compiling Game Chat 2 requires including the primary GameChat2.h header. In order to link properly, your project must also include GameChat2Impl.h in at least one compilation unit (a common precompiled header is recommended since these stub function implementations are small and easy for the compiler to generate as "inline").
 
-The Game Chat 2 interface does not require a project to choose between compiling with C++/CX versus traditional C++; it can be used with either. The implementation also doesn't throw exceptions as a means of non-fatal error reporting so you can consume it easily from exception-free projects if preferred. The implementation does, however, throw exceptions as a means of fatal error reporting (see [Failure model](#failure) for more detail).
+The Game Chat 2 interface does not require a project to choose between compiling with C++/CX versus traditional C++; it can be used with either. The implementation also doesn't throw exceptions as a means of non-fatal error reporting so you can consume it easily from exception-free projects if preferred. The implementation does, however, throw exceptions as a means of fatal error reporting (see [Failure model](#failure-model-and-debugging) for more detail).
 
 ## Initialization
 
@@ -269,7 +269,7 @@ To send text chat with Game Chat, `GameChatUser::GenerateTextMessage()` can be u
 chatUser->GenerateTextMessage(L"Hello", false);
 ```
 
-The second boolean parameter controls text-to-speech conversion. For more details, see [Accessibility](#accessibilityGame Chat then generates a chat packet containing this message. Remote instances of Game Chat will be notified of the text message via the `OnTextMessageReceived` event.
+The second boolean parameter controls text-to-speech conversion. For more details, see [Accessibility](#accessibility). Game Chat then generates a chat packet containing this message. Remote instances of Game Chat will be notified of the text message via the `OnTextMessageReceived` event.
 
 ### Game Chat 2
 
