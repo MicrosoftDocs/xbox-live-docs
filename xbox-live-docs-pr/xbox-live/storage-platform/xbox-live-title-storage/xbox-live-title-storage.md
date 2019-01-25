@@ -25,12 +25,6 @@ Some of the high-level features of Xbox Live title storage include, but are not 
 -   Can be shared across users, titles, and various platforms
 -   Supports JSON, binary, and configuration files
 
-The main features of Xbox Live title storage are explained in more detail in the following sections:
--   [Types of storage](#ID4ETB)
--   [Types of data](#ID4ECF)
--   [Title storage URIs](#ID4EBEAC)
--   [Throttle Limit](#ID4ETEAC)
-
 
 <a name="ID4ETB"></a>
 

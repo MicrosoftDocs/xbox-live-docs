@@ -171,8 +171,6 @@
                   href: configure-xbl/dev-center/summary.md
                 - name: Configuring Xbox Live Setup in Partner Center
                   href: configure-xbl/dev-center/xbox-live-setup.md
-                - name: Configuring Achievements 2017 in Partner Center
-                  href: configure-xbl/dev-center/achievements-in-udc.md
                 - name: Configuring Featured Stats and Leaderboards 2017 in Partner Center
                   href: configure-xbl/dev-center/featured-stats-and-leaderboards.md
                 - name: Configuring Game DVR in Partner Center
@@ -189,83 +187,65 @@
                   href: configure-xbl/dev-center/data-sharing-udc.md
                 - name: Configuring localized strings in Partner Center
                   href: configure-xbl/dev-center/localized-strings.md
-                - name: Configuring single sign-on in Partner Center
-                  href: configure-xbl/dev-center/single-sign-on.md
                 - name: The XboxServices.config file
                   href: xboxservices-config.md
         - name: Xbox Live Sandboxes overview
           href: xbox-live-sandboxes.md
-        - name: Xbox Live test accounts
-          href: xbox-live-test-accounts.md
+        - name: Test accounts
+          href: test-accounts.md
+          items: 
+            - name: Xbox Live test accounts
+              href: xbox-live-test-accounts.md
+            - name: Developer Account Tool to set up test accounts
+              href: tools/xbox-live-account-tool.md
         - name: Testing on the Xbox One console
           href: testing-on-console.md
-        - name: Using Xbox Live
-          href: using-xbox-live/using-xbox-live.md
+        - name: Best practices for Xbox Live
+          href: using-xbox-live/best-practices/best-practices.md
           items: 
-            - name: Xbox Live APIs
-              href: xbox-live-apis.md
+            - name: Best practices for calling Xbox Live
+              href: using-xbox-live/best-practices/best-practices-for-calling-xbox-live.md
+            - name: Fine-Grained Rate Limiting
+              href: using-xbox-live/best-practices/fine-grained-rate-limiting.md
+            - name: Best practices for handling offline play
+              href: using-xbox-live/best-practices/best-practices-for-offline.md
+        - name: Error handling
+          href: using-xbox-live/error-handling/error-handling.md
+          items: 
+            - name: Types of error handling
+              href: using-xbox-live/error-handling/types-of-error-handling.md
+            - name: C++ API error handling
+              href: using-xbox-live/error-handling/error-handling-cpp.md
+            - name: WinRT API error handling
+              href: using-xbox-live/error-handling/error-handling-winrt.md
+        - name: Authentication
+          href: using-xbox-live/auth/authentication.md
+          items: 
+            - name: Xbox Live Authentication Library (XAL)
+              href: using-xbox-live/auth/xal.md
               items: 
-                - name: Introduction to Xbox Live APIs
-                  href: introduction-to-xbox-live-apis.md
-                - name: Introduction to the Xbox Live C APIs
-                  href: xsapi-flat-c.md
-                - name: Making async calls in the XSAPI C API
-                  href: flatc-async-patterns.md
-            - name: Best practices for Xbox Live
-              href: using-xbox-live/best-practices/best-practices.md
-              items: 
-                - name: Best practices for calling Xbox Live
-                  href: using-xbox-live/best-practices/best-practices-for-calling-xbox-live.md
-                - name: Fine-Grained Rate Limiting
-                  href: using-xbox-live/best-practices/fine-grained-rate-limiting.md
-                - name: Best practices for handling offline play
-                  href: using-xbox-live/best-practices/best-practices-for-offline.md
-            - name: Error handling
-              href: using-xbox-live/error-handling/error-handling.md
-              items: 
-                - name: Types of error handling
-                  href: using-xbox-live/error-handling/types-of-error-handling.md
-                - name: C++ API error handling
-                  href: using-xbox-live/error-handling/error-handling-cpp.md
-                - name: WinRT API error handling
-                  href: using-xbox-live/error-handling/error-handling-winrt.md
-            - name: Troubleshooting Xbox Live
-              href: using-xbox-live/troubleshooting/troubleshooting.md
-              items: 
-                - name: Troubleshooting Xbox Live Services APIs
-                  href: using-xbox-live/troubleshooting/troubleshooting-the-xbox-live-services-api.md
-                - name: Troubleshooting Xbox Live setup on Windows 10 PC
-                  href: using-xbox-live/troubleshooting/troubleshooting-pc-setup.md
-                - name: Troubleshooting Xbox Live sign-in
-                  href: using-xbox-live/troubleshooting/troubleshooting-sign-in.md
-                - name: Using Fiddler to inspect web service calls
-                  href: using-xbox-live/troubleshooting/how-to-set-up-fiddler-for-debugging.md
-            - name: Authentication
-              href: using-xbox-live/auth/authentication.md
-              items: 
-                - name: Xbox Live Authentication Library (XAL)
-                  href: using-xbox-live/auth/xal.md
-                  items: 
-                    - name: Xbox Live Authentication Library (XAL) overview
-                      href: using-xbox-live/auth/xal-overview.md
-                    - name: Single-user and multi-user device sign-in
-                      href: using-xbox-live/auth/xal-sign-in.md
-                    - name: Setting up Visual Studio for XAL login on Win32
-                      href: using-xbox-live/auth/win32-xal.md
-                    - name: Setting up Visual Studio for XAL login on Android
-                      href: using-xbox-live/auth/android-xal.md
-                    - name: Setting up Xcode for sign-in with iOS
-                      href: using-xbox-live/auth/iOS-xal.md
-                - name: Authentication for UWP projects
-                  href: using-xbox-live/auth/authentication-for-UWP-projects.md
-                - name: Authentication for XDK projects
-                  href: using-xbox-live/auth/authentication-for-XDK-projects.md
-                - name: Single Point of Presence (SPOP)
-                  href: using-xbox-live/auth/single-point-of-presence.md
-                - name: Retrieving the Windows user in a UWP title
-                  href: using-xbox-live/auth/retrieving-windows-system-user-on-UWP.md
+                - name: Xbox Live Authentication Library (XAL) overview
+                  href: using-xbox-live/auth/xal-overview.md
+                - name: Single-user and multi-user device sign-in
+                  href: using-xbox-live/auth/xal-sign-in.md
+                - name: Setting up Visual Studio for XAL login on Win32
+                  href: using-xbox-live/auth/win32-xal.md
+                - name: Setting up Visual Studio for XAL login on Android
+                  href: using-xbox-live/auth/android-xal.md
+                - name: Setting up Xcode for sign-in with iOS
+                  href: using-xbox-live/auth/iOS-xal.md
+            - name: Authentication for UWP projects
+              href: using-xbox-live/auth/authentication-for-UWP-projects.md
+            - name: Authentication for XDK projects
+              href: using-xbox-live/auth/authentication-for-XDK-projects.md
+            - name: Single Point of Presence (SPOP)
+              href: using-xbox-live/auth/single-point-of-presence.md
+            - name: Retrieving the Windows user in a UWP title
+              href: using-xbox-live/auth/retrieving-windows-system-user-on-UWP.md
         - name: Porting Xbox Live code from XDK to UWP
           href: using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md
+        - name: Using Xbox Live (deprecated article)
+          href: using-xbox-live/using-xbox-live.md
     - name: FEATURES  [landing page]
       href: features.md
       items:
@@ -274,7 +254,7 @@
           items: 
             - name: Overview of Identity
               href: stub.md
-            - name: USER  [feature]
+            - name: USER identity  [feature]
               href: stub.md
               items: 
                 - name: OVERVIEW of user identity
@@ -292,6 +272,8 @@
                   href: stub.md
                 - name: SDK CONFIGuration of Sign-in
                   href: stub.md
+                - name: Troubleshooting Xbox Live sign-in
+                  href: using-xbox-live/troubleshooting/troubleshooting-sign-in.md
                 - name: XAL  [subfeature]
                   href: stub.md
                   items: 
@@ -675,23 +657,19 @@
                       href: multiplayer/multiplayer-manager/multiplayer-manager-api-overview.md
                     - name: Enable playing a multiplayer game with friends
                       href: multiplayer/multiplayer-manager/play-multiplayer-with-friends.md
+                    - name: Flowchart - Playing a game with friends
+                      href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-play-with-friends.md
                     - name: Finding a multiplayer game by using SmartMatch
                       href: multiplayer/multiplayer-manager/play-multiplayer-with-matchmaking.md
-                    - name: Sending game invites
-                      href: multiplayer/multiplayer-manager/send-game-invites.md
                     - name: Handle protocol activation
                       href: multiplayer/multiplayer-manager/handle-protocol-activation.md
+                    - name: Flowchart - Handling protocol activation
+                      href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-on-protocol-activation.md
                     - name: Multiplayer manager flowcharts
                       href: multiplayer/multiplayer-manager/mpm-flowcharts.md
                       items: 
-                        - name: Flowchart - Playing a game with friends
-                          href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-play-with-friends.md
                         - name: Flowchart - Quality of Service checks for matchmaking
                           href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-use-matchmaking-and-qos.md
-                        - name: Flowchart - Inviting another player
-                          href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-send-invites.md
-                        - name: Flowchart - Handling protocol activation
-                          href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-on-protocol-activation.md
                         - name: Flowchart - Filling open slots in a multiplayer game
                           href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-fill-open-slots.md
                         - name: Flowchart - Handling host migration
@@ -730,6 +708,10 @@
                       href: stub.md
                     - name: SDK CONFIGuration of Manager for Invites
                       href: stub.md
+                    - name: Sending game invites
+                      href: multiplayer/multiplayer-manager/send-game-invites.md
+                    - name: Flowchart - Inviting another player
+                      href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-send-invites.md
                 - name: CUSTOM Invites  [subfeature]
                   href: stub.md
                   items: 
@@ -882,6 +864,8 @@
                   href: external-services/single-sign-on/single-sign-on-overview.md
                 - name: PORTAL CONFIGuration of single sign-on
                   href: external-services/single-sign-on/single-sign-on-portal-config.md
+                - name: Configuring single sign-on in Partner Center
+                  href: configure-xbl/dev-center/single-sign-on.md
                 - name: SDK CONFIGuration of single sign-on
                   href: external-services/single-sign-on/single-sign-on-sdk-config.md
             - name: ACCESS POLICIES  [feature]
@@ -931,8 +915,6 @@
               href: tools/development-tools-for-xbox-live.md
             - name: Trace Analyzer for reviewing service calls
               href: tools/analyze-service-calls.md
-            - name: Developer Account Tool to set up test accounts
-              href: tools/xbox-live-account-tool.md
     - name: TUTORIALS  [landing page]
       href: tutorials/tutorials.md
       items: 
@@ -988,16 +970,33 @@
               href: stub.md
             - name: PUBLIC
               href: stub.md
-        - name: TROUBLESHOOTING
-          href: stub.md
+        - name: TROUBLESHOOTING Xbox Live
+          href: using-xbox-live/troubleshooting/troubleshooting.md
           items: 
             - name: TOOLS
               href: stub.md
+              items: 
+                - name: Using Fiddler to inspect web service calls
+                  href: using-xbox-live/troubleshooting/how-to-set-up-fiddler-for-debugging.md
             - name: GUIDES
               href: stub.md
+              items: 
+                - name: Troubleshooting Xbox Live Services APIs
+                  href: using-xbox-live/troubleshooting/troubleshooting-the-xbox-live-services-api.md
+                - name: Troubleshooting Xbox Live setup on Windows 10 PC
+                  href: using-xbox-live/troubleshooting/troubleshooting-pc-setup.md
     - name: API Reference  [landing page]
       href: api-reference.md
       items:
+        - name: Xbox Live APIs
+          href: xbox-live-apis.md
+          items: 
+            - name: Introduction to Xbox Live APIs
+              href: introduction-to-xbox-live-apis.md
+            - name: Introduction to the Xbox Live C APIs
+              href: xsapi-flat-c.md
+            - name: Making async calls in the XSAPI C API
+              href: flatc-async-patterns.md
         - name: Xbox Live samples
           href: samples.md
         - name: XSAPI reference

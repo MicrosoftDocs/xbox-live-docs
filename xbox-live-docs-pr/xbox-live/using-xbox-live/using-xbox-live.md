@@ -1,5 +1,5 @@
 ---
-title: Using Xbox Live
+title: Using Xbox Live (deprecated article)
 description: Developing an Xbox Live-enabled game.
 ms.assetid: 9f3c7071-778f-4f9c-8a7f-94087785016e
 ms.date: 04/04/2017
@@ -8,10 +8,10 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Using Xbox Live
+# Using Xbox Live (deprecated article)
 
 Developing an Xbox Live-enabled game.
-
+<!--page not needed, but has been published, so keep in toc, don't cause 404. todo: should set up as a redirect and remove this page. -->
 
 ## In this section
 
