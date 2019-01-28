@@ -23,7 +23,7 @@ For a full list of supported services, see the [Developer program overview featu
 
 ## 1. Ensure you have a title created in Partner Center
 
-Every Xbox Live title must be defined in [Partner Center](https://partner.microsoft.com/dashboard) before you will be able to sign-in and make Xbox Live Service calls.
+Every Xbox Live title must be defined in Partner Center before you will be able to sign-in and make Xbox Live Service calls.
 See [Creating a new Creators title](create-and-test-a-new-creators-title.md).
 
 

@@ -18,7 +18,7 @@ You can learn more about service configuration in [Xbox Live Service Configurati
 
 This article through this process with the following assumptions:
 * You are developing a Universal Windows Platform (UWP) title.  UWP titles run on Xbox One, Windows 10 desktop PCs, and mobile.
-* You are configuring your title in [Partner Center](https://partner.microsoft.com/dashboard).
+* You are configuring your title in Partner Center.
 * You are using either Visual Studio with a custom game engine, or Unity.
 * Your development machine is running Windows 10.
 
@@ -30,7 +30,7 @@ Provided that the above are true, the remainder of this article will walk throug
 
 ## Partner Center Setup
 
-You need an Xbox Live enabled title created in [Partner Center](https://partner.microsoft.com/dashboard) as a pre-requisite to any Xbox Live functionality working.
+You need an Xbox Live enabled title created in Partner Center as a pre-requisite to any Xbox Live functionality working.
 
 
 ### Create a Microsoft account
@@ -49,7 +49,7 @@ To register, go to [https://developer.microsoft.com/en-us/store/register](https:
 ### Create a new UWP title
 
 Next, you need a UWP title defined in Partner Center.
-You do that by first going to the Dashboard:
+You do that by first going to the [Partner Center Dashboard](https://partner.microsoft.com/dashboard):
 
 ![](../images/getting_started/first_xbltitle_dashboard.png)
 

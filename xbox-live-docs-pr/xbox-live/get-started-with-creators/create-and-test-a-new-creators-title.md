@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 Before writing any Xbox Live code, you must set up a new title on your service configuration portal.
 See also [Xbox Live Service Configuration](../xbox-live-service-configuration.md).
 
-This article will walk through everything required to configure a title in [Partner Center](https://partner.microsoft.com/dashboard), create a new project, and prepare Xbox Live for testing.
+This article will walk through everything required to configure a title in Partner Center, create a new project, and prepare Xbox Live for testing.
 
 This article assumes the following:
 1. You are using the Xbox Live Creators Program.
 2. You are developing a Universal Windows Platform (UWP) title.  UWP titles can run on Xbox One, Windows 10 desktop PCs, and mobile.
-3. You are configuring your title in [Partner Center](https://partner.microsoft.com/dashboard).
+3. You are configuring your title in Partner Center.
 4. Your development machine is running Windows 10.
 
 > [!NOTE]
@@ -30,7 +30,7 @@ This article assumes the following:
 
 ## Partner Center setup
 
-You need an Xbox Live-enabled title created in [Partner Center](https://partner.microsoft.com/dashboard) as a pre-requisite to using any Xbox Live functionality.
+You need an Xbox Live-enabled title created in Partner Center as a pre-requisite to using any Xbox Live functionality.
 
 
 ### Create a Microsoft account
