@@ -19,8 +19,6 @@
           items: 
             - name: Get started with the Xbox Live Creators Program
               href: get-started-with-creators/get-started-with-xbox-live-creators.md
-            - name: Integrating Xbox Live, for Creators program
-              href: get-started-with-creators/creators-step-by-step-guide.md
             - name: CREATE a new Creators Program TITLE and publish it to the test environment
               href: get-started-with-creators/create-and-test-a-new-creators-title.md
             - name: CHOOSE PLATFORMS
@@ -75,8 +73,6 @@
           items: 
             - name: Get started with Xbox Live, as an ID@Xbox developer or managed partner
               href: get-started-with-partner/get-started-with-xbox-live-partner.md
-            - name: Integrate Xbox Live, for managed partners and ID@Xbox members
-              href: get-started-with-partner/partners-step-by-step-guide.md
             - name: CREATE a new TITLE that uses Xbox Live
               href: get-started-with-partner/create-a-new-title.md
             - name: CHOOSE PLATFORMS
