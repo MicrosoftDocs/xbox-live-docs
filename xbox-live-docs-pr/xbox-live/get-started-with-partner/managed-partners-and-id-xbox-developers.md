@@ -1,5 +1,5 @@
 ---
-title: "ID@Xbox developers and managed partners"
+title: ID@Xbox developers and managed partners
 author: mikehoffms
 description: High-level steps, from joining ID@Xbox or managed partners, through releasing your game.
 ms.author: v-mihof
@@ -11,7 +11,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, partner, ID@Xbox
 ms.localizationpriority: medium
 ---
 
-# "ID@Xbox developers and managed partners"
+# ID\@Xbox developers and managed partners
 
 High-level steps, all the way from joining ID@Xbox or managed partners, through releasing your game.
 
