@@ -19,6 +19,10 @@
           items: 
             - name: Get started with the Xbox Live Creators Program
               href: get-started-with-creators/get-started-with-xbox-live-creators.md
+            - name: Integrating Xbox Live, for Creators program
+              href: get-started-with-creators/creators-step-by-step-guide.md
+            - name: Create a new Creators Program title and publish it to the test environment
+              href: get-started-with-creators/create-and-test-a-new-creators-title.md
             - name: CREATE TITLE
               href: stub.md
             - name: CHOOSE PLATFORMS
@@ -33,8 +37,6 @@
               href: stub.md
             - name: SIGN IN
               href: stub.md
-            - name: Create a new Creators Program title and publish it to the test environment
-              href: get-started-with-creators/create-and-test-a-new-creators-title.md
             - name: Get started developing a Creators Program title with Visual Studio
               href: get-started-with-creators/develop-creators-title-with-visual-studio.md
             - name: Develop in Unity
@@ -42,8 +44,6 @@
               items: 
                 - name: Get started developing a Creators Program title with Unity
                   href: get-started-with-creators/develop-creators-title-with-unity.md
-                - name: Integrating Xbox Live, for Creators program
-                  href: get-started-with-creators/creators-step-by-step-guide.md
                 - name: Configuring Xbox Live in Unity
                   href: get-started-with-creators/configure-xbox-live-in-unity.md
                 - name: Unity Prefabs and scripted sign-in
@@ -74,11 +74,11 @@
               href: get-started-with-creators/authorize-xbox-live-accounts.md
         - name: MANAGED partners and ID@Xbox developers
           href: get-started-with-partner/managed-partners-and-id-xbox-developers.md
+        - name: Integrate Xbox Live, for managed partners and ID@Xbox members
+          href: get-started-with-partner/partners-step-by-step-guide.md
           items: 
             - name: Get started with Xbox Live, as an ID@Xbox developer or managed partner
               href: get-started-with-partner/get-started-with-xbox-live-partner.md
-            - name: Integrate Xbox Live, for managed partners and ID@Xbox members
-              href: get-started-with-partner/partners-step-by-step-guide.md
             - name: CREATE a new TITLE that uses Xbox Live
               href: get-started-with-partner/create-a-new-title.md
             - name: CHOOSE PLATFORMS
