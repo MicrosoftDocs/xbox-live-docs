@@ -70,7 +70,7 @@
               href: get-started-with-creators/xbox-live-sandboxes-creators.md
             - name: Authorize Xbox Live Accounts for Testing in your environment
               href: get-started-with-creators/authorize-xbox-live-accounts.md
-        - name: MANAGED partners and ID@Xbox developers
+        - name: ID@Xbox developers and MANAGED partners
           href: get-started-with-partner/managed-partners-and-id-xbox-developers.md
           items: 
             - name: Get started with Xbox Live, as an ID@Xbox developer or managed partner

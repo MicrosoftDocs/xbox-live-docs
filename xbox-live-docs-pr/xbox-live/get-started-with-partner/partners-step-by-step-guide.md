@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Integrate Xbox Live, for managed partners and ID@Xbox members
+# Integrate Xbox Live, for managed partners and ID\@Xbox members
 
 This article helps you get up and running with Xbox Live.
 
