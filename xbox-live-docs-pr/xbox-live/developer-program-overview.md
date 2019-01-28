@@ -11,9 +11,9 @@ ms.localizationpriority: medium
 # Developer program overview
 
 If you would like to develop Xbox Live enabled titles, there are several options available to you:
-*  Creators Program
-*  ID@Xbox
-*  Managed Partners
+*  Creators Program (= baseline features)
+*  ID@Xbox Program (= Creators Program + added features)
+*  Managed Partners (= ID@Xbox Program + added support)
 
 Each option offers varying levels of time investment on your part, features available to you, and support options.
 
@@ -80,7 +80,7 @@ The Xbox Live team will be engaged with the community and be continually improvi
 For developers in the Xbox Live Creators Program, you can [submit a new idea](https://xbox.uservoice.com/forums/363186--new-ideas?category_id=196261) or [vote on an existing idea](https://xbox.uservoice.com/forums/251649?category_id=210838) at our [Xbox User Voice](https://xbox.uservoice.com/forums/363186--new-ideas).
 
 
-## ID@Xbox
+## ID@Xbox Program
 
 The Xbox Live Creators Program is great for lots of games and developers.
 But if you’d like to access the full Xbox Live stack, including online multiplayer, achievements and Gamerscore, or you want to access the full power of the Xbox One family of devices using hardware dev kits, the [ID@Xbox](http://www.xbox.com/en-US/developers/id) program is for you.
@@ -92,14 +92,22 @@ Developers in the ID@Xbox program also gain access to developer support and prom
 You can continue to use [MSDN Forums](https://social.msdn.microsoft.com/Forums/en-US/home?forum=xboxlivedev) or ask programming related questions on [Stack Overflow](http://stackoverflow.com/questions/tagged/xbox-live) using the "xbox-live" tag if you like.
 
 
-## Microsoft partners
+## Managed partners
 
-Developers working with a game publisher that is a Microsoft Partner have access to the full set of Xbox Live features and dedicated Microsoft representatives to assist in your development, certification, and release process.
+*  Creators Program (= baseline features)
+*  ID@Xbox Program (= Creators Program + added features)
+*  Managed Partners (= ID@Xbox Program + added support)
+
+
+Developers working with a game publisher that is a Managed Partner have access to the full set of Xbox Live features and dedicated Microsoft representatives to assist in your development, certification, and release process.
 
 
 ## Feature table
 
-The below table illustrates the features available to the Xbox Live Creators Program, and [ID@Xbox](http://www.xbox.com/en-US/developers/id) programs.
+The below table illustrates the features available to:
+*  Creators Program developers.
+*  ID@Xbox developers &amp; Managed Partners.
+   Managed Partners & ID@Xbox developers have the same, full feature-set support, but Managed Partners have more technical support.
 
 <table>
 
@@ -107,8 +115,8 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 <th>Feature Area</th>
 <th>Feature</th>
 <th>Description</th>
-<th> ID@Xbox </th>
 <th>Creators Program</th>
+<th>ID@Xbox &amp; Managed Partners</th>
 </tr>
 
 
@@ -116,29 +124,29 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 <td rowspan="13" class="dev-program-feature-name">Social platform</td>
 <td>Social Manager</td>
 <td>Efficiently retrieve information about a player's social graph.</td>
-<td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-limited">Optional / Limited (only friends who have played your title are exposed)</td>
+<td class="xbl-features-optional">Optional</td>
 </tr>
 
 <tr>
 <td>Friends</td>
 <td>Retrieve the sign-in user's friends list to enable social gameplay scenarios in your title.</td>
-<td class="xbl-features-required">Required</td>
 <td class="xbl-features-limited">Optional / Limited (only friends who have played your title are exposed)</td>
+<td class="xbl-features-required">Required</td>
 </tr>
 
 <tr>
 <td>Rich Presence</td>
 <td>Shows more detailed information about players in your title.  Whereas Basic Presence might show "User is in Car Racing Game", Rich Presence lets you specify a more detailed string like "User is driving SuperCar in RainyForest"</td>
-<td class="xbl-features-required">Required</td>
 <td class="xbl-features-notavailable">Not Supported</td>
+<td class="xbl-features-required">Required</td>
 </tr>
 
 <tr>
 <td>Reputation</td>
 <td>Players gain or lose reputation through their behavior. Behavior is used in Matchmaking and can be used by your title in custom ways.</td>
-<td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-notavailable">Not Supported</td>
+<td class="xbl-features-optional">Optional</td>
 </tr>
 
 <tr>
@@ -211,29 +219,29 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 <td rowspan="4" class="dev-program-feature-name">Data platform</td>
 <td>Achievements</td>
 <td>Gamerscore and other rewards such as digital artwork, new maps, characters, and stat boosts.</td>
-<td class="xbl-features-required">Required</td>
 <td class="xbl-features-notavailable">Not Supported</td>
+<td class="xbl-features-required">Required</td>
 </tr>
 
 <tr>
 <td>Player Stats</td>
 <td>Upload statistics about players which can be used in Leaderboards.</td>
-<td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-optional">Optional (Data platform 2017 only)</td>
+<td class="xbl-features-optional">Optional</td>
 </tr>
 
 <tr>
 <td>Leaderboards</td>
 <td>Retrieve and display player stats in a sorted way to encourage competition.</td>
-<td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-optional">Optional (Data platform 2017 only)</td>
+<td class="xbl-features-optional">Optional</td>
 </tr>
 
 <tr>
 <td>Featured Stats</td>
 <td>Designate certain stats as "Featured Stats" that will show up in the Game Hub.</td>
-<td class="xbl-features-required">Required</td>
 <td class="xbl-features-optional">Optional (Data platform 2017 only)</td>
+<td class="xbl-features-required">Required</td>
 </tr>
 
 
@@ -242,8 +250,8 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 
 <td>Connected Storage</td>
 <td>Roaming game saves across Xbox One Consoles and PCs.</td>
-<td class="xbl-features-required">Required</td>
 <td class="xbl-features-optional">Optional</td>
+<td class="xbl-features-required">Required</td>
 </tr>
 
 <tr>
@@ -258,36 +266,36 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 <td rowspan="5" class="dev-program-feature-name">Multiplayer platform</td>
 <td>Multiplayer Session Directory (MPSD)</td>
 <td>Stores information about a multiplayer session, such as list of players and their state.</td>
-<td class="xbl-features-optional">Required</td>
 <td class="xbl-features-notavailable">Not Supported</td>
+<td class="xbl-features-optional">Required</td>
 </tr>
 
 <tr>
 <td>SmartMatch matchmaking</td>
 <td>Xbox Live can match different players together for a multiplayer session.</td>
-<td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-notavailable">Not Supported</td>
+<td class="xbl-features-optional">Optional</td>
 </tr>
 
 <tr>
 <td>Game Chat</td>
 <td>Voice chat for players in a multiplayer game.</td>
-<td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-notavailable">Not Supported</td>
+<td class="xbl-features-optional">Optional</td>
 </tr>
 <tr>
 
 <td>Arena</td>
 <td>Players can compete against each other tournament style.</td>
-<td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-notavailable">Not Supported</td>
+<td class="xbl-features-optional">Optional</td>
 </tr>
 
 <tr>
 <td>Xbox Live Compute</td>
 <td>Deploy executables and assets which your title can communicate with, to offload computation from the client.</td>
-<td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-notavailable">Not Supported</td>
+<td class="xbl-features-optional">Optional</td>
 </tr>
 
 
@@ -313,8 +321,13 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 
 <td>Contextual Search</td>
 <td>Annotate GameDVR clips with keywords to make it easier for players to find clips corresponding to what they want to watch.</td>
-<td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-notavailable">Not Supported</td>
+<td class="xbl-features-optional">Optional</td>
 </tr>
 
 </table>
+
+
+## See also
+
+[Welcome to ID@Xbox (at Xbox.com)](http://www.xbox.com/en-US/developers/id)
