@@ -111,4 +111,4 @@ To authorize Xbox Live accounts access to your development sandbox, see [Manage 
 ## Next steps
 
 After you have a new title created, you can set up an Xbox Live-enabled title in your game engine, Visual Studio, or build environment of choice.
-See [Step by step guide to integrate Xbox Live](creators-step-by-step-guide.md).
+See [Get started with the Xbox Live Creators Program](get-started-with-xbox-live-creators.md).
