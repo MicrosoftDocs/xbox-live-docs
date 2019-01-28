@@ -14,10 +14,10 @@ When developing your title for the Xbox One family of consoles it is only natura
 
 Activating developer mode on an Xbox One retail console will allow you to deploy UWP titles and apps to the Xbox One Console by pairing it with a Visual Studio build. This is the console testing option for Xbox Live Creators Program Developers. You will not be able to test XDK games on a retail Xbox One console.
 
-* Follow the [developer mode activation instructions](../xbox-apps/devkit-activation.md) to allow development testing on your retail console.  
-* Load your title onto the Xbox One by following the [Setting up your Xbox One instructions](../xbox-apps/development-environment-setup.md#setting-up-your-xbox-one).  
-* Follow the [developer mode deactivation instructions](../xbox-apps/devkit-deactivation.md) to put your console back into retail mode or uninstall the development environment on your retail console.  
-* While your console is in developer mode you can access it remotely through your PC by using the [Windows Devices portal for Xbox](../debug-test-perf/device-portal-xbox.md).  
+* Follow the [developer mode activation instructions](https://docs.microsoft.com/en-us/windows/uwp/xbox-apps/devkit-activation) to allow development testing on your retail console.  
+* Load your title onto the Xbox One by following the [Setting up your Xbox One instructions](https://docs.microsoft.com/en-us/windows/uwp/xbox-apps/development-environment-setup#setting-up-your-xbox-one).  
+* Follow the [developer mode deactivation instructions](https://docs.microsoft.com/en-us/windows/uwp/xbox-apps/devkit-activation) to put your console back into retail mode or uninstall the development environment on your retail console.  
+* While your console is in developer mode you can access it remotely through your PC by using the [Windows Devices portal for Xbox](https://docs.microsoft.com/en-us/windows/uwp/debug-test-perf/device-portal-xbox).  
 
 ## Xbox Development kit testing: ID@Xbox and Managed Partners
 

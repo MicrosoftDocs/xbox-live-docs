@@ -146,7 +146,7 @@ If you enabled **script debugging** when you built the UWP solution from Unity, 
 > 2. Right click the file and choose View Code.  
     If the View Code option is not available or the package.appxmanifest file does not have an extension. You will need to open the file as an xml and continue with the remaining steps.
 > 3. Under the `<Properties></Properties>` section, add the following line: `<uap:SupportedUsers>multiple</uap:SupportedUsers>`.
-> 4. Deploy the game to your Xbox by starting a remote debugging build from Visual Studio. You can find instruction to set up your title on an Xbox in the [Set up your UWP on Xbox development environment](../../xbox-apps/development-environment-setup.md) article.
+> 4. Deploy the game to your Xbox by starting a remote debugging build from Visual Studio. You can find instruction to set up your title on an Xbox in the [Set up your UWP on Xbox development environment](https://docs.microsoft.com/en-us/windows/uwp/xbox-apps/development-environment-setup) article.
 >
 > The piece of configuration changed may look like it is enabling multi-player but it is still necessary to run your game in single player scenarios.
 

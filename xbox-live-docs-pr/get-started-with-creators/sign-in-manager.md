@@ -125,14 +125,14 @@ private void OnDestroy()
 
 This code will remove the sign-in and sign-out callback functions for the player associated with this GameObject.
 
-## Testing you code in Visual Studio
+## Testing your code in Visual Studio
 
 In addition to the [steps required to build your game in Visual Studio](configure-xbox-live-in-unity.md#build-and-test-the-project), listed in the [Configure your Xbox Live Title for Unity](configure-xbox-live-in-unity.md) article, there is an additional step required to test your game properly in Visual Studio. You will need to update a property of the package.appxmanifest.xml file. To do this:
 
 1. Search the Solution Explorer for the package.appxmanifest.xml file
 2. Right click the file and choose View Code
 3. Under the `<Properties><\/Properties>` section, add the following line: `<uap:SupportedUsers>multiple<\/uap:SupportedUsers>.
-4. Deploy the game to your Xbox by starting a remote debugging build from Visual Studio. You can find instruction to set up your title on an Xbox in the [Set up your UWP on Xbox development environment](../../xbox-apps/development-environment-setup.md) article.
+4. Deploy the game to your Xbox by starting a remote debugging build from Visual Studio. You can find instruction to set up your title on an Xbox in the [Set up your UWP on Xbox development environment](https://docs.microsoft.com/en-us/windows/uwp/xbox-apps/development-environment-setup) article.
 
 > [!NOTE]
 > The piece of configuration changed may look like it is enabling multi-player but it is still necessary to run your game in single player scenarios.
