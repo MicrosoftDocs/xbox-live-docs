@@ -1,5 +1,5 @@
 ---
-title: Flowchart - Handling protocol activation
+title: Handling protocol activation (flowchart)
 description: Flowcharts showing protocol activation; responding to a game invite, or joining a game via the member's profile card.
 ms.assetid: f375af52-a18d-4845-aae7-0762d8ec0f1e
 ms.date: 04/04/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer manager
 ms.localizationpriority: medium
 ---
 
-# Flowchart - Handling protocol activation
+# Handling protocol activation (flowchart)
 
 The following flowcharts show the flow of responding to a game invite, or joining a game via the member's profile card.
 
