@@ -29,7 +29,7 @@ When you implement Rich Presence for your title, you must adhere to the followin
 -   No string verification is done on your strings; you must do any string verification, such as spellcheck and verifying that the string has been localized properly.
     -   If we feel a string-set is inappropriate (such as abusive or offensive language), Microsoft prevents titles from using Rich Presence until strings have been updated to our satisfaction.
 
--   If your title isn't integrating with the data platform, there are no options for using statistics as parameters in your strings.
+-   If your title isn't integrating with Xbox Live Player Data, there are no options for using statistics as parameters in your strings.
     -   All strings must be completely predefined in that case (no tokens are allowed).
 
 -   Enumeration names must be unique across all enumerations and must be unique to statistic names.

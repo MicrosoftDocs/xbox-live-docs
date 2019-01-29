@@ -19,7 +19,7 @@ The more Rich Presence strings you define, the richer the experience of other ga
 Use your stats in your strings, to allow you to set your string and then not worry about it.
 
 If your string has the map name in it, and you're using the CurrentMap stat to fill in the blank, then the service will update your string appropriately, as your players travel from Map to Map in the game.
-This approach enables you not to worry about keeping the string up-to-date, as long as your title is sending the proper events to the data platform.
+This approach enables you not to worry about keeping the string up-to-date, as long as your title is sending the proper events to Xbox Live Player Data.
 
 Your title should set the Rich Presence base string with the presence service periodically, to make sure the Rich Presence information for a user is accurate and the service is using the correct base string.
 

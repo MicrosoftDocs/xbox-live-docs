@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 # Clubs
 
-Clubs is a feature in the Xbox Live Social platform.
+Clubs is one of the Xbox Live Social features.
 
 
 ## In this section

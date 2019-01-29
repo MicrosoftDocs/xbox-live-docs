@@ -1,6 +1,6 @@
 ---
 title: Using large sessions for Multiplayer
-description: Using large sessions (more than 100 members) with the Multiplayer platform.
+description: Using large sessions (more than 100 members) with Multiplayer features.
 ms.date: 07/11/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, large session, recent players

@@ -1,6 +1,6 @@
 ---
 title: Connected Storage vs. Title Storage
-description: The Storage Platform includes Connected Storage to store game state, and Title Storage to store player statistics and assets.
+description: Xbox Live Cloud Storage includes Connected Storage to store game state, and Title Storage to store player statistics and assets.
 ms.assetid: 3c92549c-65fd-4d26-a693-3aded8bae498
 ms.date: 04/04/2017
 ms.topic: article
@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 Xbox Live enables publishers to store global title data and player-specific data in the cloud.
 
-The Storage Platform includes Connected Storage to store game state, and Title Storage to store player statistics and assets.
+Xbox Live Cloud Storage includes Connected Storage to store game state, and Title Storage to store player statistics and assets.
 
 
 ## Connected Storage

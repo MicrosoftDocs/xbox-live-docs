@@ -2,7 +2,7 @@
 layout: LandingPage
 title: Tutorials
 author: mikehoffms
-description: Xbox Live tutorials.
+description: Steps to create a demo program that uses multiple typical Xbox Live features for a specific type of game.
 ms.author: v-mihof
 ms.date: 12-11-2018
 ms.topic: article

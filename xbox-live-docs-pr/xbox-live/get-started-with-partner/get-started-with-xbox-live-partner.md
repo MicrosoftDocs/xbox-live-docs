@@ -23,7 +23,7 @@ You can access that content here: [Xbox Live partner content](https://developer.
 
 Xbox Live offers an array of features designed to help promote your game and keep gamers engaged:
 
-- Xbox Live social platform lets gamers connect with friends and talk about your game.
+- Xbox Live Social features let gamers connect with friends and talk about your game.
 - Xbox Live achievements helps your game get popular by giving your game free promotion to the Xbox Live social graph when gamers unlock achievements.
 - Xbox Live leaderboards helps drive engagement of your game by letting gamers compete to beat their friends and move up the ranks.
 - Xbox Live multiplayer lets gamers play with their friends or a get matched with other players to compete or cooperate in your game.
@@ -69,10 +69,10 @@ Once you have a title created, you should learn about the Xbox Live concepts tha
 
 Add Xbox Live features to your game:
 
-- [Xbox Live Social Platform - Profile, Friends, Presence](../social-platform/social-platform.md)
-- [Xbox Live Data Platform - Stats, Leaderboards, Achievements](../data-platform/data-platform.md)
-- [Xbox Live Multiplayer Platform - Invite, Matchmaking, Tournaments](../multiplayer/multiplayer-intro.md)
-- [Xbox Live Storage Platform - Connected Storage, Title Storage](../storage-platform/storage-platform.md)
+- [Xbox Live Social features - Profile, Friends, Presence](../social-platform/social-platform.md)
+- [Xbox Live Player Data - Stats, Leaderboards, Achievements](../data-platform/data-platform.md)
+- [Xbox Live Multiplayer features - Invite, Matchmaking, Tournaments](../multiplayer/multiplayer-intro.md)
+- [Xbox Live Cloud Storage - Connected Storage, Title Storage](../storage-platform/storage-platform.md)
 - [Contextual Search](../contextual-search/introduction-to-contextual-search.md)
 
 

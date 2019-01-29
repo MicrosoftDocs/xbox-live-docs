@@ -124,7 +124,7 @@ These new tournament APIs enable the following scenarios:
 
 ### Xbox Services API
 
-#### Data Platform 2017
+#### Player Data 2017
 
 We have introduced a simplified Stats API.  Traditionally you had to send events corresponding to stat rules defined on XDP or Partner Center and these would update the stat values in the cloud.  We refer to this model as Stats 2013.
 

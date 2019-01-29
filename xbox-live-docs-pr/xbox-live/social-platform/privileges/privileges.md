@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 # Privileges
 
-Privileges is a feature in the Xbox Live Social platform.
+Privileges is one of the Xbox Live Social features.
 
 
 ## In this section

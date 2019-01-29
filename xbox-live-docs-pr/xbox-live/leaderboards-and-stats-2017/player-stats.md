@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 Setting up key pieces of information to track about a player.
 
-Player Stats is a feature within the Xbox Live Data platform.
+Player Stats is a feature within the Xbox Live Player Data.
 
 
 ## In this section

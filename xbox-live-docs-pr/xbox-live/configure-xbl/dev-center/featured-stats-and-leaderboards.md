@@ -20,11 +20,12 @@ We will store the raw value; however, the game will own the logic for determinin
 The picture above shows how Featured Stats will look in your title's GameHub.
 The Featured Stats are shown withing the red box.
 
-With Data Platform 2017, you only need to configure a stat which is used for a social leaderboard that is featured on a player's GameHub page.
+With Player Data 2017, you only need to configure a stat which is used for a social leaderboard that is featured on a player's GameHub page.
 
 You can use Partner Center to configure a featured stat and leaderboard that is associated with your game.
 
-Add configuration by doing the following:
+
+**To add configuration:**
 
 1. Navigate to the **Featured Stats and Leaderboards** section for your title, located under **Services** > **Xbox Live** > **Featured Stats and Leaderboards**.
 

@@ -1,6 +1,6 @@
 ---
-title: Multiplayer platform overview
-description: The Multiplayer Platform includes Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
+title: Overview of Multiplayer features
+description: Multiplayer features in Xbox Live include Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
 ms.assetid: 958b94b3-dccd-479a-bf52-54f7ff1656fa
 ms.date: 04/04/2017
 ms.topic: article
@@ -8,17 +8,17 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer
 ms.localizationpriority: medium
 ---
 
-# Multiplayer platform overview
+# Overview of Multiplayer features
 
-The Multiplayer Platform includes Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
+Multiplayer features in Xbox Live include Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
 
-The Xbox Live Multiplayer Platform empowers your game to bring Xbox Live players together over the Internet and can dramatically extend the life and usage of a title beyond typical solo play.
+Multiplayer features empower your game to bring Xbox Live players together over the Internet and can dramatically extend the life and usage of a title beyond typical solo play.
 By building a great multiplayer experience for your audience, you can leverage the large social network of Xbox Live gamers to increase the user base for your game and promote a sustained community of dedicated fans playing together.
 
 
-## What is the Xbox Live Multiplayer Platform?
+## What are the Multiplayer features in Xbox Live?
 
-The Xbox Live Multiplayer Platform is a set of client APIs that you can use to implement real-time multiplayer gameplay.
+The Xbox Live Multiplayer features are provided as a set of client APIs that you can use to implement real-time multiplayer gameplay.
 
 The major sub-systems in the API suite are:
 
@@ -32,7 +32,7 @@ For an overview of some of the most common multiplayer scenarios, and which Xbox
 
 ## How can I implement Xbox Live Multiplayer in my game?
 
-Depending on your scenario, the Xbox Live Multiplayer Platform provides several approaches to implementing Xbox Live Multiplayer in your game.
+Depending on your scenario, the Xbox Live Multiplayer features provide several approaches to implementing Xbox Live Multiplayer in your game.
 
 
 ### Xbox Integrated Multiplayer (XIM)
@@ -46,7 +46,7 @@ XIM provides the following functionality:
 - Simple voice and text chat, with facilities for transcribing and narrating communication for a more accessible end-user experience.
 - Aides for detecting and managing network congestion, as well as for migrating game state.
 
-XIM is the simplest multiplayer solution available through the Xbox Live Multiplayer Platform, but also the least customizable and is only suited for P2P games.
+XIM is the simplest multiplayer solution available through the Xbox Live Multiplayer features, but also the least customizable and is only suited for P2P games.
 For more information about XIM, see [Xbox Integrated Multiplayer](xbox-integrated-multiplayer.md).
 
 

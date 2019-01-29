@@ -616,7 +616,7 @@ This is a copy of a user’s **serverMeasurements** from the matchmaking session
 
 ## Quality of Service (QoS) templates
 
-For game session templates, values can be added that inform MPSD to coordinate with the network layer and console social platform.
+For game session templates, values can be added that inform MPSD to coordinate with the network layer and console Social features.
 The purpose of this coordination is to validate the quality of the connection state before a session is created and before a user is informed that the game is ready to join.
 
 The following code excerpt is an example of a peer-to-host game session template with QoS:

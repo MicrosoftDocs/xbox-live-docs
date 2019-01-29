@@ -325,11 +325,11 @@ ms.localizationpriority: medium
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/common/xbl_socialplatform.svg" alt="Social Platform" />
+                                                        <img src="images/common/xbl_socialplatform.svg" alt="Social features" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Social Platform</h3>
+                                                    <h3>Social features</h3>
                                                     <p>Tools to enhance the social aspect of any XBL experience.</p>
                                                 </div>
                                             </div>
@@ -344,11 +344,11 @@ ms.localizationpriority: medium
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/common/xbl_i_data-mining.svg" alt="Data Platform" />
+                                                        <img src="images/common/xbl_i_data-mining.svg" alt="Player Data" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Data Platform</h3>
+                                                    <h3>Player Data</h3>
                                                     <p>Provision any title to run as a service while incorporating engagement driving features.</p>
                                                 </div>
                                             </div>
@@ -363,11 +363,11 @@ ms.localizationpriority: medium
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/common/xbl_storage_platform.svg" alt="Storage Platform" />
+                                                        <img src="images/common/xbl_storage_platform.svg" alt="Cloud Storage" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Storage Platform</h3>
+                                                    <h3>Cloud Storage</h3>
                                                     <p>Enable global title data and player specific data in the cloud.</p>
                                                 </div>
                                             </div>
@@ -382,11 +382,11 @@ ms.localizationpriority: medium
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="images/common/xbl_multiplayer icon.svg" alt="Multiplayer Platform" />
+                                                        <img src="images/common/xbl_multiplayer icon.svg" alt="Multiplayer features" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Multiplayer Platform</h3>
+                                                    <h3>Multiplayer features</h3>
                                                     <p>Utilize a set of client API’s to impliment real-time multiplayer gameplay.</p>
                                                 </div>
                                             </div>

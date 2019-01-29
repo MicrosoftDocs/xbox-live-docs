@@ -5,7 +5,7 @@ description: The Reputation service encourages positive gameplay.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, reputation, social platform
+keywords: xbox live, xbox, games, uwp, windows 10, xbox one, reputation, social features
 ms.localizationpriority: medium
 ---
 
@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 The Reputation service encourages positive gameplay.
 
-Reputation is a feature in the Xbox Live Social platform.
+Reputation is one of the Xbox Live Social features.
 
 
 ## In this section

@@ -62,18 +62,18 @@ All Xbox Live Creators Program games must integrate Xbox Live sign-in and displa
 You can choose to automatically sign in the user or have them push a button to initiate it.
 The Gamertag must be displayed once signed in so that the player can validate that they are using the right profile.
 
-- [Xbox Live Social Platform - Profile, Friends, Presence](../social-platform/social-platform.md)
+- [Xbox Live Social features - Profile, Friends, Presence](../social-platform/social-platform.md)
 
 
 ## 5. Add optional Xbox Live features
 
 Xbox Live Creators Program offers an array of features designed to help promote your game and keep gamers engaged:
 
-- [Xbox Live Data Platform - Stats, Leaderboards](../data-platform/data-platform.md) help drive engagement of your game by letting gamers compete to beat their friends and move up the ranks.
-- [Xbox Live Storage Platform - Connected Storage, Title Storage](../storage-platform/storage-platform.md) offers free save game roaming between devices so gamers can easily continue game progress between Xbox One and Windows PC.
-- [Xbox Live Social Platform - Profile, Friends, Presence](../social-platform/social-platform.md) lets gamers connect with friends and talk about your game.
+- [Xbox Live Player Data: Stats, Leaderboards, and Achievements](../data-platform/data-platform.md) help drive engagement of your game by letting gamers compete to beat their friends and move up the ranks.
+- [Xbox Live Cloud Storage: Connected Storage, Title Storage](../storage-platform/storage-platform.md) offers free save game roaming between devices so gamers can easily continue game progress between Xbox One and Windows PC.
+- [Xbox Live Social features - Profile, Friends, Presence](../social-platform/social-platform.md) lets gamers connect with friends and talk about your game.
 
-It is important to note that the Xbox Live Creators Program does not support online multiplayer, achievements, or gamerscore.
+The online multiplayer, achievements, and gamerscore features are supported for ID@Xbox and for Managed Partners, but not for the Creators Program.
 
 
 ## 6. Release your game

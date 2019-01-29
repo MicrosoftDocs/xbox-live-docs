@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 
 The People System manages relationships between gamers, such as only showing a user's real name to close friends.
 
-The People System is a feature in the Xbox Live Social platform.
+The People System is one of the Xbox Live Social features.
 
 
 ## In this section

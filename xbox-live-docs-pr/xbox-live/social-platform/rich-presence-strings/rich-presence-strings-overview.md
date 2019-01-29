@@ -59,7 +59,7 @@ Best practices for use of Rich Presence in your title.
 The policies about using Rich Presence in your title.
 
 [Rich Presence appendix](rich-presence-strings-appendix.md)  
-Additional examples and details about the Data Platform relevant to Rich Presence.
+Additional examples and details about Player Data relevant to Rich Presence.
 
 [Programming Xbox Live Rich Presence](programming-rich-presence.md)  
 Demonstrates how to use Rich Presence with Xbox Live.

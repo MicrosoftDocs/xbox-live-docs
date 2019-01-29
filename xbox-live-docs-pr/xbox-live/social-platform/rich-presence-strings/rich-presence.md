@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 
 Rich Presence shows what activity a user is currently doing, in which area of which game.
 
-Rich Presence is a feature in the Xbox Live Social platform.
+Rich Presence is one of the Xbox Live Social features.
 
 
 ## In this section
@@ -27,5 +27,5 @@ Rich Presence is a feature in the Xbox Live Social platform.
 | [Update strings](rich-presence-strings-updating-strings.md) | Updating Rich Presence strings. |
 | [Best practices](rich-presence-strings-best-practices.md) | Best practices for using Xbox Live Rich Presence. |
 | [Policies and limitations](rich-presence-strings-policies-and-limitations.md) | Policies and limits for Rich Presence strings. |
-| [Appendix](rich-presence-strings-appendix.md) | Using stats from the data platform in Rich Presence strings. |
+| [Appendix](rich-presence-strings-appendix.md) | Using stats from Player Data in Rich Presence strings. |
 | [Program Rich Presence](programming-rich-presence.md) | Code example for setting a user's online presence status. |

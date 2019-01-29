@@ -1,26 +1,26 @@
 ---
-title: Social platform
+title: Social features
 author: mikehoffms
-description: The Social platform service is a gaming-oriented social network that includes a user's profile, gamerscore, achievements, clubs, and activity feed.
+description: Social features in Xbox Live provide a gaming-oriented social network that includes a user's profile, gamerscore, achievements, clubs, and activity feed.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, social platform
+keywords: xbox live, xbox, games, uwp, windows 10, xbox one, social features
 ms.localizationpriority: medium
 ---
 
-# Social platform
+# Social features
 
-The Social platform in Xbox Live is a gaming-oriented social network that includes a user's profile, gamerscore, achievements, clubs, and activity feed.
+Social features in Xbox Live provide a gaming-oriented social network that includes the following information about a user: Profile, Friends list, Presence (current activity), Gamerscore, Achievements, Reputation, and Clubs.
 
 
 ## In this section
 
 | Article | Description |
 |---------|-------------|
-| [Xbox Live Social platform](xbox-live-social-platform.md) | The Social platform service is a gaming-oriented social network that includes a user's profile, gamerscore, achievements, clubs, and activity feed. |
+| [Xbox Live Social features](xbox-live-social-platform.md) | Social features in Xbox Live provide a gaming-oriented social network that includes a user's profile, gamerscore, achievements, clubs, and activity feed. |
 | [The Social Manager](the-social-manager.md) | The Xbox Live Social Manager API simplifies keeping track of online friends and their gaming activity. |
 | [Reputation](people-system/reputation.md) | The Reputation service encourages positive gameplay. |
 | [Rich Presence](rich-presence-strings/rich-presence.md) | Rich Presence shows what activity a user is currently doing, in which area of which game. |

@@ -117,7 +117,7 @@ The below table illustrates the features available to:
 
 
 <tr class="dev-program-feature-start">
-<td rowspan="13" class="dev-program-feature-name">Social platform</td>
+<td rowspan="13" class="dev-program-feature-name">Social features</td>
 <td>Social Manager</td>
 <td>Efficiently retrieve information about a player's social graph.</td>
 <td class="xbl-features-limited">Optional / Limited (only friends who have played your title are exposed)</td>
@@ -212,7 +212,7 @@ The below table illustrates the features available to:
 
 
 <tr class="dev-program-feature-start">
-<td rowspan="4" class="dev-program-feature-name">Data platform</td>
+<td rowspan="4" class="dev-program-feature-name">Player Data</td>
 <td>Achievements</td>
 <td>Gamerscore and other rewards such as digital artwork, new maps, characters, and stat boosts.</td>
 <td class="xbl-features-notavailable">Not Supported</td>
@@ -222,27 +222,27 @@ The below table illustrates the features available to:
 <tr>
 <td>Player Stats</td>
 <td>Upload statistics about players which can be used in Leaderboards.</td>
-<td class="xbl-features-optional">Optional (Data platform 2017 only)</td>
+<td class="xbl-features-optional">Optional (Player Data 2017 only)</td>
 <td class="xbl-features-optional">Optional</td>
 </tr>
 
 <tr>
 <td>Leaderboards</td>
 <td>Retrieve and display player stats in a sorted way to encourage competition.</td>
-<td class="xbl-features-optional">Optional (Data platform 2017 only)</td>
+<td class="xbl-features-optional">Optional (Player Data 2017 only)</td>
 <td class="xbl-features-optional">Optional</td>
 </tr>
 
 <tr>
 <td>Featured Stats</td>
 <td>Designate certain stats as "Featured Stats" that will show up in the Game Hub.</td>
-<td class="xbl-features-optional">Optional (Data platform 2017 only)</td>
+<td class="xbl-features-optional">Optional (Player Data 2017 only)</td>
 <td class="xbl-features-required">Required</td>
 </tr>
 
 
 <tr class="dev-program-feature-start">
-<td rowspan="2" class="dev-program-feature-name">Cloud Storage platform</td>
+<td rowspan="2" class="dev-program-feature-name">Cloud Storage</td>
 
 <td>Connected Storage</td>
 <td>Roaming game saves across Xbox One Consoles and PCs.</td>
@@ -259,7 +259,7 @@ The below table illustrates the features available to:
 
 
 <tr class="dev-program-feature-start">
-<td rowspan="5" class="dev-program-feature-name">Multiplayer platform</td>
+<td rowspan="5" class="dev-program-feature-name">Multiplayer features</td>
 <td>Multiplayer Session Directory (MPSD)</td>
 <td>Stores information about a multiplayer session, such as list of players and their state.</td>
 <td class="xbl-features-notavailable">Not Supported</td>

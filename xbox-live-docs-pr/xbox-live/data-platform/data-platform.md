@@ -1,25 +1,25 @@
 ---
-title: Data platform
+title: Player Data
 author: mikehoffms
-description: The Data platform service manages achievements, player stats, and leaderboards.
+description: Player Data in Xbox Live includes achievements, player stats, and leaderboards.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, stats, achievements, leaderboards, data platform
+keywords: xbox live, xbox, games, uwp, windows 10, xbox one, stats, achievements, leaderboards, player data
 ms.localizationpriority: medium
 ---
 
-# Data platform
+# Player Data
 
-The Xbox Live Data platform service manages achievements, player stats, and leaderboards.
+Player Data in Xbox Live includes achievements, player stats, and leaderboards.
 
 
 ## In this section
 
 | Article | Description |
 |---------|-------------|
-| [Data platform for Stats, Leaderboards, and Achievements](data-platform-for-stats-leaderboards-achievements.md) | The Data platform service manages achievements, player stats, and leaderboards. |
-| [Design XBL Experiences](designing-xbox-live-experiences.md) | Designing experiences for player stats, leaderboards, and achievements, using the Data platform. |
+| [Player Data: Stats, Leaderboards, and Achievements](data-platform-for-stats-leaderboards-achievements.md) | Player Data in Xbox Live includes achievements, player stats, and leaderboards. |
+| [Design XBL Experiences](designing-xbox-live-experiences.md) | Designing experiences for Player Data, including player stats, leaderboards, and achievements. |
 | [Player stats](../leaderboards-and-stats-2017/player-stats.md) | Setting up key pieces of information to track about a player. |
 | [Leaderboards](../leaderboards-and-stats-2017/leaderboards.md) | Defining leaderboards to compare players by showing selected stats for a game. |
 | [Achievements](../achievements-2017/achievements.md) | Achievements includes gamerscore and other rewards such as digital artwork, new maps, characters, and stat boosts. |

@@ -24,4 +24,4 @@ Configuring the Multiplayer Service includes session templates, SmartMatch hoppe
 | [Configure AppXManifest for Multiplayer](configure-your-appxmanifest-for-multiplayer.md) | Configuring your UWP AppXManifest file to enable Xbox Live multiplayer invites. |
 | [Multiplayer session templates](session-templates.md) | A multiplayer session template is a blueprint that is used to create a multiplayer session. |
 | [Session template constants](session-template-constants.md) | All system constants that are defined in multiplayer session templates, defining settings for a multiplayer session. |
-| [Large sessions](large-sessions.md) | Using large sessions (more than 100 members) with the Multiplayer platform. |
+| [Large sessions](large-sessions.md) | Using large sessions (more than 100 members) with Multiplayer features. |

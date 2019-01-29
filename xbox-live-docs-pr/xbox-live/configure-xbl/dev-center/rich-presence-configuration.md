@@ -62,7 +62,7 @@ From this page you can configure new strings as well as edit and review your con
 ![Example Rich Presence string Config Page](../../images/rich_presence/RichPresence_ConfigPage_New.JPG)
 
 > [!NOTE]
-> Strings like "Playing Net Runner - Multiplayer deathmatch on Moon Base with 10 kills.” will not be available to developers as of the Data Platform 2017 update. Data Platform 2013 *Variables* are unavailable in Data Platform 2017. The variable in this case is the number of kills "10". The equivalent string after the Data Platform 2017 update would be "Playing Net Runner - Multiplayer deathmatch on Moon Base." “Playing Net Runner - In the menus” is still a valid Rich Presence string.
+> Strings like "Playing Net Runner - Multiplayer deathmatch on Moon Base with 10 kills.” will not be available to developers as of the Player Data 2017 update. Player Data 2013 *Variables* are unavailable in Player Data 2017. The variable in this case is the number of kills "10". The equivalent string after the Player Data 2017 update would be "Playing Net Runner - Multiplayer deathmatch on Moon Base." “Playing Net Runner - In the menus” is still a valid Rich Presence string.
 
 
 ## Create a new Rich Presence string

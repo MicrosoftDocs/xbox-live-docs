@@ -66,13 +66,13 @@ With the following JSON body:
 
 Using the wrapper API, this would be a call to **PresenceService.SetPresenceAsync Method**
 
-If you're keeping the data platform up-to-date, then you don't have to reset the Rich Presence String every time the data to fill in the blank changes.
+If you're keeping Xbox Live Player Data up-to-date, then you don't have to reset the Rich Presence String every time the data to fill in the blank changes.
 In the example above, we know that you want to use the current map.
 
-Presence will look up the data in the data platform when a user tries to read the string to fill in the current value.
-So even if the player is switching from map to map to map, you don't have to reset the Rich Presence string in your game as long as you're sending the appropriate events to the data platform.
+Presence will look up the data in Player Data when a user tries to read the string to fill in the current value.
+So even if the player is switching from map to map to map, you don't have to reset the Rich Presence string in your game as long as you're sending the appropriate events to Xbox Live Player Data.
 
-It may take a few seconds for the data to find its way through the Data Platform.
+It may take a few seconds for the data to find its way through the Xbox Live Player Data system.
 
 Then, when someone attempts to read user 12345's Rich Presence, the service will look at what locale is being requested and format the string appropriately before returning.
 In this case, suppose a user wants to read the en-US string.

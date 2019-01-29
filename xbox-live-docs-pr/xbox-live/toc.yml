@@ -295,10 +295,10 @@
                   href: stub.md
                 - name: SDK CONFIGuration of Privacy
                   href: stub.md
-        - name: SOCIAL platform  [feature category]
+        - name: SOCIAL features  [feature category]
           href: social-platform/social-platform.md
           items: 
-            - name: Overview of the Social platform
+            - name: Overview of Social features
               href: social-platform/xbox-live-social-platform.md
             - name: FRIENDS LIST  [feature]
               href: social-platform/people-system/people-system.md
@@ -411,7 +411,14 @@
                   href: social-platform/localized-strings/localized-strings-portal-config.md
                 - name: SDK CONFIGuration of localized strings
                   href: social-platform/localized-strings/localized-strings-sdk-config.md
-            - name: Reputation  [feature]
+            - name: Contextual Search
+              href: contextual-search/contextual-search.md
+              items: 
+                - name: Contextual Search overview
+                  href: contextual-search/introduction-to-contextual-search.md
+                - name: Configuring Contextual Search
+                  href: contextual-search/configuring-contextual-search.md
+            - name: Reputation
               href: social-platform/people-system/reputation.md
               items: 
                 - name: OVERVIEW of the Reputation service
@@ -424,10 +431,10 @@
                   href: social-platform/people-system/sending-player-feedback-from-your-title.md
             - name: Programming Social services
               href: social-platform/people-system/programming-social-services.md
-        - name: DATA PLATFORM  [feature category]
+        - name: PLAYER DATA  [feature category]
           href: data-platform/data-platform.md
           items: 
-            - name: Data platform for Stats, Leaderboards, and Achievements
+            - name: "Player Data: Stats, Leaderboards, and Achievements"
               href: data-platform/data-platform-for-stats-leaderboards-achievements.md
             - name: Designing Xbox Live Experiences
               href: data-platform/designing-xbox-live-experiences.md
@@ -522,7 +529,7 @@
                       href: stub.md
                     - name: SDK CONFIGuration of simple Featured Stats
                       href: stub.md
-        - name: CLOUD STORAGE platform  [feature category]
+        - name: CLOUD STORAGE  [feature category]
           href: storage-platform/storage-platform.md
           items: 
             - name: Connected Storage vs. Title Storage
@@ -598,10 +605,10 @@
                   href: storage-platform/xbox-live-title-storage/storing-jsonblobs.md
                 - name: Reading a JSON blob from Title Storage
                   href: storage-platform/xbox-live-title-storage/reading-jsonblobs.md
-        - name: MULTIPLAYER platform  [feature category]
+        - name: MULTIPLAYER features  [feature category]
           href: multiplayer/multiplayer-platform.md
           items: 
-            - name: Multiplayer platform overview
+            - name: Overview of Multiplayer features
               href: multiplayer/multiplayer-intro.md
             - name: Multiplayer concepts for Xbox Live
               href: multiplayer/multiplayer-concepts.md
@@ -880,35 +887,28 @@
               href: stub.md
             - name: SDK CONFIGuration of TCUI
               href: stub.md
-        - name: Real-Time Activity (RTA) service
-          href: real-time-activity-service/real-time-activity-service.md
-          items: 
-            - name: OVERVIEW of Real-Time Activity service
-              href: real-time-activity-service/real-time-activity-service-overview.md
-            - name: PORTAL CONFIGuration of Real-Time Activity service
-              href: stub.md
-            - name: SDK CONFIGuration of Real-Time Activity service
-              href: stub.md
-            - name: Registering for player Stat change notifications
-              href: real-time-activity-service/register-for-stat-notifications.md
-            - name: Programming the RTA service via C++ APIs
-              href: real-time-activity-service/programming-the-real-time-activity-service.md
-            - name: Best Practices for the RTA service
-              href: real-time-activity-service/rta-best-practices.md
-        - name: Contextual Search  [feature]
-          href: contextual-search/contextual-search.md
-          items: 
-            - name: Contextual Search overview
-              href: contextual-search/introduction-to-contextual-search.md
-            - name: Configuring Contextual Search
-              href: contextual-search/configuring-contextual-search.md
-        - name: Development tools
+        - name: Development tools and services
           href: tools/tools.md
           items: 
             - name: Development tools for Xbox Live
               href: tools/development-tools-for-xbox-live.md
             - name: Trace Analyzer for reviewing service calls
               href: tools/analyze-service-calls.md
+            - name: Real-Time Activity (RTA) service
+              href: real-time-activity-service/real-time-activity-service.md
+              items: 
+                - name: OVERVIEW of Real-Time Activity service
+                  href: real-time-activity-service/real-time-activity-service-overview.md
+                - name: PORTAL CONFIGuration of Real-Time Activity service
+                  href: stub.md
+                - name: SDK CONFIGuration of Real-Time Activity service
+                  href: stub.md
+                - name: Registering for player Stat change notifications
+                  href: real-time-activity-service/register-for-stat-notifications.md
+                - name: Programming the RTA service via C++ APIs
+                  href: real-time-activity-service/programming-the-real-time-activity-service.md
+                - name: Best Practices for the RTA service
+                  href: real-time-activity-service/rta-best-practices.md
     - name: TUTORIALS  [landing page]
       href: tutorials/tutorials.md
       items: 

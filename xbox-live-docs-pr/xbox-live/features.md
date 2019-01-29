@@ -2,7 +2,7 @@
 layout: LandingPage
 title: Features
 author: mikehoffms
-description: Using Xbox Live features.
+description: Configuring Xbox Live features including Identity, Social, Data, Storage, Multiplayer, and External Services.
 ms.author: v-mihof
 ms.date: 12-11-2018
 ms.topic: article
@@ -40,11 +40,11 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="images/common/xbl_socialplatform.svg" alt="Social Platform" />
+                            <img src="images/common/xbl_socialplatform.svg" alt="Social features" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Social platform</h3>
+                        <h3>Social features</h3>
                         <p>Tools to enhance the social aspect of any XBL experience.</p>
                     </div>
                 </div>
@@ -59,11 +59,11 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="images/common/xbl_i_data-mining.svg" alt="Data Platform" />
+                            <img src="images/common/xbl_i_data-mining.svg" alt="Player Data" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Data platform</h3>
+                        <h3>Player Data</h3>
                         <p>Build a title to run as a service while incorporating engagement driving features.</p>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="images/common/xbl_storage_platform.svg" alt="Storage Platform" />
+                            <img src="images/common/xbl_storage_platform.svg" alt="Cloud Storage" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -97,11 +97,11 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="images/common/xbl_multiplayer icon.svg" alt="Multiplayer Platform" />
+                            <img src="images/common/xbl_multiplayer icon.svg" alt="Multiplayer features" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Multiplayer platform</h3>
+                        <h3>Multiplayer features</h3>
                         <p>Client APIs to implement real-time multiplayer gameplay.</p>
                     </div>
                 </div>
