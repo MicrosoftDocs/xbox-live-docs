@@ -94,10 +94,7 @@ You can continue to use [MSDN Forums](https://social.msdn.microsoft.com/Forums/e
 
 ## Managed partners
 
-*  Creators Program (= baseline features)
-*  ID@Xbox Program (= Creators Program + added features)
-*  Managed Partners (= ID@Xbox Program + added support)
-
+Managed Partners & ID@Xbox developers have the same, full feature-set support, but Managed Partners have more technical support.
 
 Developers working with a game publisher that is a Managed Partner have access to the full set of Xbox Live features and dedicated Microsoft representatives to assist in your development, certification, and release process.
 
@@ -107,7 +104,6 @@ Developers working with a game publisher that is a Managed Partner have access t
 The below table illustrates the features available to:
 *  Creators Program developers.
 *  ID@Xbox developers &amp; Managed Partners.
-   Managed Partners & ID@Xbox developers have the same, full feature-set support, but Managed Partners have more technical support.
 
 <table>
 
