@@ -38,7 +38,11 @@
     "globalMetadata": {
       "breadcrumb_path": "/gaming/xbox-live/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "_op_documentIdPathDepotMapping": {
+        "windows-apps-src/xbox-live": {
+          "depot_name": "Win.windows-apps"          
+     }
     },
     "fileMetadata": {},
     "template": [],
