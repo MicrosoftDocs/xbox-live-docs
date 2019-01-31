@@ -42,11 +42,11 @@
       "_op_documentIdPathDepotMapping": {
         "windows-apps-src/xbox-live": {
           "depot_name": "Win.windows-apps",
-          "folder_relative_path_in_docset": "windows-apps-src"
+          "folder_relative_path_in_docset": "xbox-live-docs-pr"
      },
-     "windows-apps-src/xbox-live/index.md": {
-       "folder_relative_path_in_docset": "windows-apps-src"
-     }
+      "windows-apps-src/xbox-live/index.md": {
+        "folder_relative_path_in_docset": "xbox-live-docs-pr"
+      }
 
     },
     "fileMetadata": {},
