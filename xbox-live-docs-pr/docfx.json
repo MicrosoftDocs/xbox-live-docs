@@ -41,8 +41,13 @@
       "feedback_system": "None",
       "_op_documentIdPathDepotMapping": {
         "windows-apps-src/xbox-live": {
-          "depot_name": "Win.windows-apps"          
+          "depot_name": "Win.windows-apps",
+          "folder_relative_path_in_docset": "windows-apps-src"
+     },
+     "windows-apps-src/xbox-live/index.md": {
+       "folder_relative_path_in_docset": "windows-apps-src"
      }
+
     },
     "fileMetadata": {},
     "template": [],
