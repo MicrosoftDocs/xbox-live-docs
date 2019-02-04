@@ -1,92 +1,242 @@
 ---
-title: Xbox Live developer guide
-description: Learn how to use Xbox Live services to connect your game to the Xbox Live gaming network.
-ms.date: 08/22/2017
+layout: LandingPage
+title: Xbox Live
+author: mikehoffms
+description: Xbox Live is a gaming network that connects millions of gamers across the world. You can add Xbox Live features to your Windows 10 or Xbox One game, such as multiplayer, achievements, stats, and matchmaking.
+ms.author: v-mihof
+ms.date: 12-11-2018
 ms.topic: article
+ms.prod: windows
+ms.technology: uwp
 keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
-# What is Xbox Live?
 
-Xbox Live is a premier gaming network that connects millions of gamers across the world. You can add Xbox Live to your Windows 10 or Xbox One game in order to take advantage of the Xbox Live features and services.
+<h1>Xbox Live</h1>
+<p>Xbox Live is a gaming network that connects millions of gamers across the world. You can add Xbox Live features to your Windows 10 or Xbox One game, such as multiplayer, achievements, stats, and matchmaking.</p>
 
-With the Xbox Live Creators Program, anyone with a [Partner Center](https://partner.microsoft.com/dashboard) account can build an Xbox Live enabled Universal Windows Platform (UWP) game that can run on both Windows 10 PCs and Xbox One consoles.
+<h2>Get Started</h2>
+<p>Learn how to build your first XBL feature by getting enrolled in a program, setting up a development kit, calling an API.</p>
+<div class="ico48Case halfStack">
+    <div class="ico48Link"><a href="https://www.xbox.com/en-US/developers/creators-program/" data-linktype="absolute-path"><img src="images/common/enroll_step1_icon.svg"><span>Enroll as Creator</span></a></div>
+    <div class="ico48Link"><a href="http://www.xbox.com/en-US/developers/id" data-linktype="absolute-path"><img src="images/common/enroll_step1_icon.svg"><span>Enroll in ID@Xbox</span></a></div>
+    <div class="ico48Link"><a href="get-started-with-creators/get-started-with-xbox-live-creators.md"><img src="images/common/setup_step2_icon.svg"><span>Set up as Creator</span></a></div>
+    <div class="ico48Link"><a href="get-started-with-partner/get-started-with-xbox-live-partner.md"><img src="images/common/setup_step2_icon.svg"><span>Set up in ID@Xbox</span></a></div>
+</div>
 
-For game developers that want to take advantage of the full Xbox Live experience, including multiplayer, achievements, and native Xbox console development, there are additional developer programs which are detailed in the [Developer Program Overview](developer-program-overview.md).
+<h2>Guides</h2>
+<ul class="cardsF panelContent cols cols2">
+    <li>
+        <a href="developer-program-overview.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Creators Program" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Creators Program</h3>
+                        <p>Whether you’re just getting into game development, finishing a student project, or looking to take your latest creation to the biggest screen in the house, the Xbox Live Creators Program is for you.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="developer-program-overview.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="ID@Xbox Program" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>ID@Xbox Program</h3>
+                        <p>The ID@Xbox program enables qualified game developers of all sizes to unleash their creativity.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="xbox-live-service-configuration.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Configure Xbox Live" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Configure Xbox Live</h3>
+                        <p>Perform some one-time configuration so that Xbox Live knows about features implemented in your title.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="xbox-live-sandboxes.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="XBL Sandboxes" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>XBL Sandboxes</h3>
+                        <p>Learn about publishing to the development sandbox.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="xbox-live-test-accounts.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Test Accounts" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Test Accounts</h3>
+                        <p>Testing functionality in your title during development, it can be helpful to create additional Xbox Live accounts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="testing-on-console.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Test on Xbox One Console" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Test on Xbox One Console</h3>
+                        <p>Use any retail Xbox One Console to test a Universal Windows Platform (UWP) title or app by activating the console's developer mode.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="using-xbox-live/using-xbox-live.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Use Xbox Live" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Use Xbox Live</h3>
+                        <p>How to implement authentication, implement error handling, and troubleshoot Xbox Live.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="xbox-live-resources.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Developer Resources"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Developer Resources</h3>
+                        <p>SDKs, API source code, and samples for each of their respective programs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Port XBL code from XDK to UWP"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Port XBL code from XDK to UWP</h3>
+                        <p>Get started migrating Xbox Live code to the Windows 10 Universal Windows Platform (UWP).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
 
-Here are some reasons to add Xbox Live to your game:
-
-- Xbox Live unites gamers across Xbox One and Windows 10, so gamers can play with their friends and connect with a massive community of players.
-- Xbox Live lets players build a gaming legacy by unlocking achievements, sharing epic game clips, amassing Gamerscore, and perfecting their avatar.
-- Xbox Live lets gamers play and pick up where they left off on another Xbox One or PC, bringing all their saves from another device.
-- With over 1 billion multiplayer matches played each month, Xbox Live is built for performance, speed and reliability.
-- With cross-device multiplayer, gamers can play with your friends regardless of whether they play on Xbox One or Windows 10 PC.
-
-> [!note]
-> These topics are intended for game developers that want to add support for Xbox Live to their game. If you are looking for consumer Xbox Live information, see [Xbox Live](http://www.xbox.com/live/).
-
-## How Xbox Live works
-
-On a technical level, Xbox Live is a collection of micro-services that expose Xbox Live features such as profile, friends and presence, stats, leaderboards, achievements, multiplayer, and matchmaking. Xbox Live data is stored in the cloud, and can be accessed by using REST endpoints and secure websockets that are accessible from a set of client-side APIs designed for game developers.
-
-In addition to the REST APIs, there are client side APIs that wrap the REST functionality. For more information, see [Introduction to Xbox Live APIs](introduction-to-xbox-live-apis.md).
-
-### Get started with Xbox Live
-
-The following guides can help you get started with Xbox Live development, regardless of whether you are a UWP or Xbox console developer.  There are also guides for getting setup with game engines.
-
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Developer Program Overview](developer-program-overview.md) | Discusses the various developer programs that enable Xbox Live development. |
-| [Get started with Xbox Live Creators Program](get-started-with-creators/get-started-with-xbox-live-creators.md) | How to get started with Xbox Live in the Xbox Live Creators Program. |
-| [Get started with Xbox Live as an ID@Xbox or managed  developer](get-started-with-partner/get-started-with-xbox-live-partner.md) | How to get started with Xbox Live as a developer in the ID@Xbox Program. |
-
-### Using Xbox Live
-
-Once you have a title created and the fundamentals working, this section provides necessary background before you jump in and start coding.
-
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Using Xbox Live](using-xbox-live/using-xbox-live.md) | Once you've setup your title and integrated the Xbox Live SDK, you are ready to implement sign-in and learn more about Xbox Live programming.
-| [Best practices for calling Xbox Live](using-xbox-live/best-practices/best-practices-for-calling-xbox-live.md) | Familiarize yourself with the basics on Xbox Live calling patterns and best-practices to ensure your title performs well and doesn't get rate limited.
-| [Troubleshooting the Xbox Live Services API](using-xbox-live/troubleshooting/troubleshooting-the-xbox-live-services-api.md) | Common issues you may encounter and suggestions on how to fix them.
-
-### Xbox Live Social Platform
-
-Xbox Live social features can organically grow your audience, spreading awareness to over 55 million active users.  This section describes how to get started with the Xbox Live social features.
-
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Xbox Live Social Platform](social-platform/social-platform.md) | If you can sign-in a user, then you can start using Xbox Live's social features, such as utilizing a user's social graph, Rich Presence, and others. |
-
-### Xbox Live Data Platform
-
-The Xbox Live Data Platform drives the usage of player stats, achievements, and leaderboards.  Read this series of topics to learn more about how to use these in your title.
-
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Xbox Live Data Platform](data-platform/data-platform.md) | A brief overview of the Data Platform, as well as guidance on how to best incorporate stats, leaderboards, and achievements into your title.
-| [Player Stats](leaderboards-and-stats-2017/player-stats.md) | Stats are the foundation of leaderboards.  Learn how to define and use them here.
-| [Leaderboards](leaderboards-and-stats-2017/leaderboards.md) | Bring out your users' competitive sides by intelligently incorporating leaderboards.
-| [Achievements](achievements-2017/achievements.md) | Achievements are one of the most well known features in Xbox Live, and a great driver of player engagement. Learn how to use them in your title.
-
-### Xbox Live Multiplayer Platform
-
-Multiplayer is a great way to extend the lifetime of your title and keep gameplay experiences fresh.  Xbox Live provides extensive multiplayer and matchmaking features.  You also have several options of API that provide varying levels of simplicity vs flexibility.
-
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Xbox Live Multiplayer Platform](multiplayer/multiplayer-intro.md) | If you are new to Xbox Live multiplayer development, or are unfamiliar with new APIs such as Multiplayer Manager and Xbox Integrated Multiplayer (XIM), then start here. |
-| [Multiplayer scenarios](multiplayer/multiplayer-scenarios.md) | Suggestions and guidance on how you might incorporate multiplayer into your title. |
-| [Xbox Integrated Multiplayer](multiplayer/xbox-integrated-multiplayer.md) | Xbox Integrated Multiplayer (XIM) is an easy self-contained interface for adding multiplayer, real-time networking, and chat to your title. |
-| [Multiplayer Manager](multiplayer/multiplayer-manager.md) | Multiplayer Manager provides an API focused on common multiplayer scenarios. |
-
-### Xbox Live Storage Platform
-
-The Xbox Live Storage Platform provides both Title Storage and Connected Storage.  These are two different but complementary services.  Connected Storage allows you to implement game saves in the cloud, that will roam across devices regardless of where a user is signed-in.  Title Storage lets you store blobs of data that can be per user or per title and shared across different users.
-
-| Topic                                                                                                                                             | Description                                                                                                   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [Xbox Live Storage Platform](storage-platform/storage-platform.md) | Use the Xbox Live storage services for storing game saves, instant replays, user preferences, and other data in the cloud. |
-| [Connected Storage](storage-platform/connected-storage/connected-storage-technical-overview.md) | An overview and programming guide on Connected Storage. |
-| [Title Storage](storage-platform/xbox-live-title-storage/xbox-live-title-storage.md) | An overview and programming guide on Title Storage. |
+<hr>
+<h2>Reference</h2>
+<ul class="panelContent cardsW">
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>API</h3>
+                        <p><a href="xbox-live-rest/atoc-xboxlivews-reference.md">Xbox Live RESTful API</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Tutorials</h3>
+                        <p><a href="samples.md">Xbox Live Samples and Combination Samples</a></p>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Forums and Github </h3>
+                        <p><a href="https://forums.xboxlive.com/index.html" data-linktype="absolute-path">XBL Developer Forum</a></p>
+                        <p><a href="https://github.com/Microsoft/xbox-live-api" data-linktype="absolute-path">XBL Github portal</a></p>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
