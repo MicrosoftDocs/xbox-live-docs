@@ -444,7 +444,7 @@ The Must rule prevents ticket splitting in all generations, and provides the pre
 
 ## Target Session Initialization and QoS
 
-A group of players is matched into a target session by SmartMatch matchmaking, as described in [SmartMatch Matchmaking](). The title must take steps to confirm that enough players have joined that they can successfully connect to one another if they need to. This process is known as target session initialization.
+A group of players is matched into a target session by SmartMatch matchmaking. The title must take steps to confirm that enough players have joined that they can successfully connect to one another if they need to. This process is known as target session initialization.
 
 For games using peer-to-peer network topologies, an important aspect of target session initialization is QoS measurement and evaluation. Associated operations are the measurement of latency and bandwidth between Xbox One consoles (or between consoles and servers), and the evaluation of the resulting measurements to determine whether the network connection between nodes is good.
 
@@ -521,8 +521,4 @@ Peer-to-host topology QOS requirements are set in the peerToHostRequirements obj
 
 ## See also
 
-[Configuring SmartMatch for your Title]()
-
 [MPSD Session Templates](multiplayer-session-directory.md)
-
-[SmartMatch Runtime Operations]()

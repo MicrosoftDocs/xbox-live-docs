@@ -43,7 +43,7 @@ Before you get started coding with Game Chat 2, you must have configured your ap
 
 Compiling Game Chat 2 requires including the primary GameChat2.h header. In order to link properly, your project must also include GameChat2Impl.h in at least one compilation unit (a common precompiled header is recommended since these stub function implementations are small and easy for the compiler to generate as "inline").
 
-The Game Chat 2 interface does not require a project to choose between compiling with C++/CX versus traditional C++; it can be used with either. The implementation also doesn't throw exceptions as a means of non-fatal error reporting so you can consume it easily from exception-free projects if preferred. The implementation does, however, throw exceptions as a means of fatal error reporting (see [Failure model](#failure) for more detail).
+The Game Chat 2 interface does not require a project to choose between compiling with C++/CX versus traditional C++; it can be used with either. The implementation also doesn't throw exceptions as a means of non-fatal error reporting so you can consume it easily from exception-free projects if preferred. The implementation does, however, throw exceptions as a means of fatal error reporting (see [Failure model](#failure-model) for more detail).
 
 ## Initialization
 
@@ -90,7 +90,7 @@ Finally, suppose that User D has left the game and should be removed from the lo
 chat_manager::singleton_instance().remove_user(chatUserD);
 ```
 
-Calling `chat_manager::remove_user()` may invalidate the user object. If you are using [real-time audio manipulation](real-time-audio-manipulation.md), please refer to the [Chat user lifetimes](real-time-audio-manipulation.md#chat-user-lifetimes) documentation for further information. Otherwise, the user object is invalidated immediately when `chat_manager::remove_user()` is called. A subtle restriction on when users can be removed is detailed in [Processing state changes](#state).
+Calling `chat_manager::remove_user()` may invalidate the user object. If you are using [real-time audio manipulation](real-time-audio-manipulation.md), please refer to the [Chat user lifetimes](real-time-audio-manipulation.md#chat-user-lifetimes) documentation for further information. Otherwise, the user object is invalidated immediately when `chat_manager::remove_user()` is called. A subtle restriction on when users can be removed is detailed in [Processing state changes](#processing-state-changes).
 
 ## Processing data frames
 
@@ -163,7 +163,7 @@ chatUserA->local()->send_chat_text(L"Hello");
 
 Game Chat 2 will generate a data frame containing this message; the target endpoints for the data frame will be those associated with users that have been configured to receive text from the local user. When the data is processed by the remote endpoints, the message will be exposed via a `game_chat_text_chat_received_state_change`. As with voice chat, privilege and privacy restrictions are respected for text chat. If a pair of users have been configured to allow text chat, but privilege or privacy restrictions disallow that communication, the text message will be dropped.
 
-Supporting text chat input and display is required for accessibility (see [Accessibility](#access) for more details).
+Supporting text chat input and display is required for accessibility (see [Accessibility](#accessibility) for more details).
 
 ## Accessibility
 
