@@ -1,3 +1,62 @@
+- name: Xbox Live
+  href: index-lp.md
+  items:
+    - name: Getting started
+      href: get-started/get-started.md
+      items: 
+        - name: The Creators program
+          href: get-started/creators-program/creators-program.md
+          items: 
+            - name: Create a new title for the Creators program
+              href: get-started/creators-program/create-title.md
+            - name: Choose platforms
+              href: get-started/creators-program/choose-platforms.md
+            - name: Enable title
+              href: get-started/creators-program/enable-title.md
+            - name: Publish title
+              href: get-started/creators-program/publish-title.md
+            - name: Allow test account
+              href: get-started/creators-program/allow-test-account.md
+            - name: Get sample
+              href: get-started/creators-program/get-sample.md
+            - name: Sign in
+              href: get-started/creators-program/sign-in.md
+        - name: ID@Xbox developers and Managed Partners
+          href: get-started/id-managed-partners/id-managed-partners.md
+          items: 
+            - name: Create a new title for ID@Xbox or Managed Partners
+              href: get-started/id-managed-partners/create-title.md
+            - name: Choose platforms
+              href: get-started/id-managed-partners/choose-platforms.md
+            - name: Get title approved
+              href: get-started/id-managed-partners/get-title-approved.md
+            - name: Choose SBX
+              href: get-started/id-managed-partners/choose-sbx.md
+            - name: Enable title
+              href: get-started/id-managed-partners/enable-title.md
+            - name: Publish title
+              href: get-started/id-managed-partners/publish-title.md
+            - name: Create test account
+              href: get-started/id-managed-partners/create-test-account.md
+            - name: Get sample
+              href: get-started/id-managed-partners/get-sample.md
+            - name: Sign in
+              href: get-started/id-managed-partners/sign-in.md
+        - name: Setting up platforms for Xbox Live development
+          href: get-started/platforms/platforms.md
+          items:
+            - name: Setting up Unity
+              href: get-started/platforms/unity-platform.md
+            - name: Setting up Visual Studio
+              href: get-started/platforms/visual-studio-platform.md
+            - name: Targeting Xbox
+              href: get-started/platforms/xbox-platform.md
+            - name: Targeting Windows
+              href: get-started/platforms/windows-platform.md
+            - name: Targeting iOS
+              href: get-started/platforms/ios-platform.md
+            - name: Targeting Android
+              href: get-started/platforms/android-platform.md
 - name: What is Xbox Live?
   href: index.md
 - name: Developer program overview
