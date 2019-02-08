@@ -16,3 +16,4 @@ ms.localizationpriority: medium
 | [Overview of sign-in](overview.md) | __ |
 | [Portal configuration of sign-in](portal.md) | __ |
 | [SDK configuration of sign-in](sdk.md) | __ |
+| [XAL for sign-in](xal/index.md) | __ |
