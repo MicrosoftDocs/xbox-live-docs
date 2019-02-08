@@ -15,4 +15,4 @@ ms.localizationpriority: medium
 |---------|-------------|
 | [Overview of user identity](overview.md) | __ |
 | [Portal configuration of user identity](portal.md) | __ |
-| [SDK configuration of user identity](sdk.md) | __ |
+| [API for user identity](api.md) | __ |

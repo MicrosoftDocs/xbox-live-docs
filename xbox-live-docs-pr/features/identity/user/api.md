@@ -1,11 +1,11 @@
 ---
-title: SDK configuration of user identity
-description: SDK configuration of user identity.
+title: API for user identity
+description: API for user identity.
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, windows 10, xbox one
 ms.localizationpriority: medium
 ---
-# SDK configuration of user identity
+# API for user identity
 
 TBD

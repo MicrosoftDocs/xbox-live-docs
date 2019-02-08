@@ -15,4 +15,4 @@ ms.localizationpriority: medium
 |---------|-------------|
 | [Overview of XAL for sign-in](overview.md) | __ |
 | [Portal configuration of XAL for sign-in](portal.md) | __ |
-| [SDK configuration of XAL for sign-in](sdk.md) | __ |
+| [API for XAL for sign-in](api.md) | __ |

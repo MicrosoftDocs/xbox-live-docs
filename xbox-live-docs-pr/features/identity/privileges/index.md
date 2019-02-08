@@ -15,4 +15,4 @@ ms.localizationpriority: medium
 |---------|-------------|
 | [Overview of Privileges](overview.md) | __ |
 | [Portal configuration of Privileges](portal.md) | __ |
-| [SDK configuration of Privileges](sdk.md) | __ |
+| [API for Privileges](api.md) | __ |

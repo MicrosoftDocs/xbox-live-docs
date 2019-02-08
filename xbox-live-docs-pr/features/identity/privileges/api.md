@@ -1,11 +1,11 @@
 ---
-title: SDK configuration of Privileges
-description: SDK configuration of Privileges.
+title: API for Privileges
+description: API for Privileges.
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, windows 10, xbox one
 ms.localizationpriority: medium
 ---
-# SDK configuration of Privileges
+# API for Privileges
 
 TBD

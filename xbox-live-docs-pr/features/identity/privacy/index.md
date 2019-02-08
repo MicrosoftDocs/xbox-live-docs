@@ -15,4 +15,4 @@ ms.localizationpriority: medium
 |---------|-------------|
 | [Overview of Privacy](overview.md) | __ |
 | [Portal configuration of Privacy](portal.md) | __ |
-| [SDK configuration of Privacy](sdk.md) | __ |
+| [API for Privacy](api.md) | __ |
