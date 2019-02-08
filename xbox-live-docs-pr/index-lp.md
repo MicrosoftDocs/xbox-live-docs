@@ -8,8 +8,9 @@ ms.localizationpriority: medium
 ---
 # Xbox Live
 
+
 ## In this section
 
 | Article | Description |
 |---------|-------------|
-| [Getting started](get-started.md) | Initial steps to publish a title and sign-in. |
+| [Getting started](get-started/get-started.md) | Initial steps to publish a title and sign-in. |

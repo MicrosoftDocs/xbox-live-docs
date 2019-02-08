@@ -13,10 +13,10 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Create a new title for the Creators Program](get-started/creators-program/create-title.md) | __ |
-| [Choose platforms](get-started/creators-program/choose-platforms.md) | __ |
-| [Enable title](get-started/creators-program/enable-title.md) | __ |
-| [Publish title](get-started/creators-program/publish-title.md) | __ |
-| [Allow test account](get-started/creators-program/allow-test-account.md) | __ |
-| [Get sample](get-started/creators-program/get-sample.md) | __ |
-| [Sign in](get-started/creators-program/sign-in.md) | __ |
+| [Create a new title for the Creators Program](create-title.md) | __ |
+| [Choose platforms](choose-platforms.md) | __ |
+| [Enable title](enable-title.md) | __ |
+| [Publish title](publish-title.md) | __ |
+| [Allow test account](allow-test-account.md) | __ |
+| [Get sample](get-sample.md) | __ |
+| [Sign in](sign-in.md) | __ |

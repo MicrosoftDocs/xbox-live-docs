@@ -13,9 +13,9 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Setting up Unity](get-started/platforms/unity-platform.md) | __ |
-| [Setting up Visual Studio](get-started/platforms/visual-studio-platform.md) | __ |
-| [Targeting Xbox](get-started/platforms/xbox-platform.md) | __ |
-| [Targeting Windows](get-started/platforms/windows-platform.md) | __ |
-| [Targeting iOS](get-started/platforms/ios-platform.md) | __ |
-| [Targeting Android](get-started/platforms/android-platform.md) | __ |
+| [Setting up Unity](unity-platform.md) | __ |
+| [Setting up Visual Studio](visual-studio-platform.md) | __ |
+| [Targeting Xbox](xbox-platform.md) | __ |
+| [Targeting Windows](windows-platform.md) | __ |
+| [Targeting iOS](ios-platform.md) | __ |
+| [Targeting Android](android-platform.md) | __ |
