@@ -1,3 +1,57 @@
+- name: Xbox Live
+  href: index-lp.md
+  items:
+    - name: Features
+      href: features/index.md
+      items:
+        - name: Identity
+          href: features/identity/index.md
+          items: 
+            - name: User identity
+              href: features/identity/user/index.md
+              items: 
+                - name: Overview of user identity
+                  href: features/identity/user/overview.md
+                - name: Portal configuration of user identity
+                  href: features/identity/user/portal.md
+                - name: SDK configuration of user identity
+                  href: features/identity/user/sdk.md
+            - name: Sign-in
+              href: features/identity/sign-in/index.md
+              items: 
+                - name: Overview of sign-in
+                  href: features/identity/sign-in/overview.md
+                - name: Portal configuration of sign-in
+                  href: features/identity/sign-in/portal.md
+                - name: SDK configuration of sign-in
+                  href: features/identity/sign-in/sdk.md
+                - name: XAL for sign-in
+                  href: features/identity/sign-in/xal/index.md
+                  items: 
+                    - name: Overview of XAL for sign-in
+                      href: features/identity/sign-in/xal/overview.md
+                    - name: Portal configuration of XAL for sign-in
+                      href: features/identity/sign-in/xal/portal.md
+                    - name: SDK configuration of XAL for sign-in
+                      href: features/identity/sign-in/xal/sdk.md
+            - name: Privileges
+              href: features/identity/privileges/index.md
+              items: 
+                - name: Overview of Privileges
+                  href: features/identity/privileges/overview.md
+                - name: Portal configuration of Privileges
+                  href: features/identity/privileges/portal.md
+                - name: SDK configuration of Privileges
+                  href: features/identity/privileges/sdk.md
+            - name: Privacy
+              href: features/identity/privacy/index.md
+              items: 
+                - name: Overview of Privacy
+                  href: features/identity/privacy/overview.md
+                - name: Portal configuration of Privacy
+                  href: features/identity/privacy/portal.md
+                - name: SDK configuration of Privacy
+                  href: features/identity/privacy/sdk.md
 - name: What is Xbox Live?
   href: index.md
 - name: Developer program overview
