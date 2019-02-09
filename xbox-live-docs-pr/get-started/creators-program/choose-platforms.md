@@ -1,10 +1,11 @@
 ---
-title: Get started
-description: Initial steps to publish a title and sign-in.
+title: Choose platforms
+description: Choose platforms.
 ms.date: 02/08/2019
 ms.topic: article
-keywords: xbox live, xbox, games, xbox one, sign-in
+keywords: xbox live, xbox, games, xbox one
 ms.localizationpriority: medium
 ---
-# Get started
+# Choose platforms
 
+TBD

@@ -1,6 +1,6 @@
 ---
 title: The Creators program
-description: TBD.
+description: The Creators program.
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, xbox one

@@ -1,10 +1,11 @@
 ---
-title: Get started
-description: Initial steps to publish a title and sign-in.
+title: Create test account
+description: Create test account.
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, xbox one, sign-in
 ms.localizationpriority: medium
 ---
-# Get started
+# Create test account
 
+TBD
