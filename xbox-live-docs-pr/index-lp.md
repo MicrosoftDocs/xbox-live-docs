@@ -13,4 +13,4 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Getting started](get-started/get-started.md) | Initial steps to publish a title and sign-in. |
+| [Getting started](get-started/index.md) | Initial steps to publish a title and sign-in. |
