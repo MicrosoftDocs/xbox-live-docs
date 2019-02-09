@@ -13,6 +13,6 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [The Creators program](creators-program/creators-program.md) | __ |
-| [ID@Xbox developers and Managed Partners](id-managed-partners/id-managed-partners.md) | __ |
-| [Setting up platforms for Xbox Live development](platforms/platforms.md) | __ |
+| [The Creators program](creators-program/index.md) | __ |
+| [ID@Xbox developers and Managed Partners](id-managed-partners/index.md) | __ |
+| [Setting up platforms for Xbox Live development](platforms/index.md) | __ |

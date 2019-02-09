@@ -2,10 +2,10 @@
   href: index-lp.md
   items:
     - name: Getting started
-      href: get-started/get-started.md
+      href: get-started/index.md
       items: 
         - name: The Creators program
-          href: get-started/creators-program/creators-program.md
+          href: get-started/creators-program/index.md
           items: 
             - name: Create a new title for the Creators program
               href: get-started/creators-program/create-title.md
@@ -22,7 +22,7 @@
             - name: Sign in
               href: get-started/creators-program/sign-in.md
         - name: ID@Xbox developers and Managed Partners
-          href: get-started/id-managed-partners/id-managed-partners.md
+          href: get-started/id-managed-partners/index.md
           items: 
             - name: Create a new title for ID@Xbox or Managed Partners
               href: get-started/id-managed-partners/create-title.md
@@ -43,7 +43,7 @@
             - name: Sign in
               href: get-started/id-managed-partners/sign-in.md
         - name: Setting up platforms for Xbox Live development
-          href: get-started/platforms/platforms.md
+          href: get-started/platforms/index.md
           items:
             - name: Setting up Unity
               href: get-started/platforms/unity-platform.md
