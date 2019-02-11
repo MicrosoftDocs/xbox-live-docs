@@ -6,12 +6,12 @@ ms.topic: article
 keywords: xbox live, xbox, games, xbox one
 ms.localizationpriority: medium
 ---
-# ID@Xbox developers and Managed Partners
+# ID\@Xbox developers and Managed Partners
 
 To get started creating a game or other title, follow these articles in the sequence shown.
 
 This page is for ID@Xbox developers and Managed Partners.
-See also [Creators program](../creators-program/).
+See also [Creators program](../creators-program/index.md).
 
 
 ## In this section

@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 To get started creating a game or other title if you are in the Creators program, follow these articles in the sequence shown.
 
 This page is for members of the Creators program.
-See also [ID@Xbox developers and Managed Partners](../id-managed-partners/).
+See also [ID@Xbox developers and Managed Partners](../id-managed-partners/index.md).
 
 <!--
 Test comment: visible via View Source?
