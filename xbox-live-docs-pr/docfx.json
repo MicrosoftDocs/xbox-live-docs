@@ -1,38 +1,26 @@
 {
   "build": {
-    "content": [
-      {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
-      }
-    ],
-    "resource": [
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg",
-          "**/*.gif"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**"
-        ]
-      }
-    ],
+    "content": [{
+      "files": ["**/*.md",
+      "**/*.yml"],
+      "exclude": ["**/obj/**",
+      "**/includes/**",
+      "_themes/**",
+      "_themes.pdf/**",
+      "README.md",
+      "LICENSE",
+      "LICENSE-CODE",
+      "ThirdPartyNotices"]
+    }],
+    "resource": [{
+      "files": ["**/*.png",
+      "**/*.jpg",
+      "**/*.gif"],
+      "exclude": ["**/obj/**",
+      "**/includes/**",
+      "_themes/**",
+      "_themes.pdf/**"]
+    }],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
@@ -43,16 +31,17 @@
         "windows-apps-src/xbox-live": {
           "depot_name": "Win.windows-apps",
           "folder_relative_path_in_docset": "xbox-live-docs-pr"
-     },
-      "windows-apps-src/xbox-live/index.md": {
-        "folder_relative_path_in_docset": "xbox-live-docs-pr"
+        },
+        "windows-apps-src/xbox-live/index.md": {
+          "folder_relative_path_in_docset": "xbox-live-docs-pr"
+        }
       }
-
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+     
+    },
     "template": [],
     "dest": "xbox-live-docs-pr",
     "markdownEngineName": "markdig"
   }
- }
 }
