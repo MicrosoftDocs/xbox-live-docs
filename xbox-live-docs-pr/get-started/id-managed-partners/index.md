@@ -8,17 +8,22 @@ ms.localizationpriority: medium
 ---
 # ID@Xbox developers and Managed Partners
 
+To get started creating a game or other title, follow these articles in the sequence shown.
+
+This page is for ID@Xbox developers and Managed Partners.
+See also [Creators program](../creators-program/).
+
 
 ## In this section
 
 | Article | Description |
 |---------|-------------|
-| [Create a new title for ID@Xbox or Managed Partners](create-title.md) | __ |
-| [Choose platforms](choose-platforms.md) | __ |
-| [Get title approved](get-title-approved.md) | __ |
-| [Choose SBX](choose-sbx.md) | __ |
-| [Enable title](enable-title.md) | __ |
-| [Publish title](publish-title.md) | __ |
-| [Create test account](create-test-account.md) | __ |
-| [Get sample](get-sample.md) | __ |
-| [Sign in](sign-in.md) | __ |
+| [Create a new title](create-title.md) | Create a new game or other title, as a member of the ID@Xbox program or as a Managed Partner. |
+| [Choose platforms](choose-platforms.md) | Set up Visual Studio or Unity, and target selected platforms, such as Windows, Xbox, Android, or iOS. |
+| [Get title approved](get-title-approved.md) | Submit your game or other title for approval by Microsoft. |
+| [Choose SBX](choose-sbx.md) | Choose SBX. |
+| [Enable title](enable-title.md) | Enable your game or other title to use Xbox Live features. |
+| [Publish title](publish-title.md) | Publish your game or other title privately for testing. |
+| [Create test account](create-test-account.md) | Create multiple test accounts and allow them to access your Xbox Live-enabled game. |
+| [Get sample](get-sample.md) | Get sample. |
+| [Sign in](sign-in.md) | Sign-in to Partner Center through your game or other title. |

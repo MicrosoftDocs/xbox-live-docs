@@ -8,4 +8,20 @@ ms.localizationpriority: medium
 ---
 # Choose SBX
 
-TBD
+Choose SBX.
+
+This page is for members of the ID@Xbox or Managed Partners program.
+
+
+## TBD
+
+
+## TBD
+
+
+## TBD
+
+
+## Next steps
+
+[Enable title](enable-title.md)

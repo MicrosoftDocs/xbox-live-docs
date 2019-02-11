@@ -8,4 +8,20 @@ ms.localizationpriority: medium
 ---
 # Get sample
 
-TBD
+Get sample.
+
+This page is for members of the Creators program.
+
+
+## TBD
+
+
+## TBD
+
+
+## TBD
+
+
+## Next steps
+
+[Sign in](sign-in.md)
