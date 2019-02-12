@@ -12,6 +12,17 @@ To add Xbox Live functionality to a game or other title, start by creating a new
 
 This page is for members of the ID@Xbox or Managed Partners program.
 
+<!--
+## Visio: Create Title (= "Create a new app", below)
+## Visio: Choose platforms (not discussed Monday? where/when do this?)
+## Visio: Get title approved (Submission)
+## Visio: Choose sandbox
+## Visio: Enable title (?= option button **Use full Xbox Live feature set (requires concept approval)**)
+## Visio: Publish title
+## Visio: Create Test Account (not discussed Monday?)
+## Visio: Get Sample (not discussed Monday?)
+## Visio: Sign in (not discussed Monday?)
+-->
 
 <!--===========================================================-->
 ## Set up a Partner Center account
@@ -57,8 +68,6 @@ Next, at Partner Center, you create a new app, which is a game or other title, a
    (In the user interface prior to GDC 2019, the "App overview" page appears.)
 
 
-
-
 ### Old UI
 <!--delete? old ui?-->
 7. (If using the old UI): In the App overview page, click the **Start your submission** button.
@@ -76,6 +85,9 @@ Next, at Partner Center, you create a new app, which is a game or other title, a
 
 ### New UI
    <!-- how to now get to the "Game Setup" page after approved? -->
+
+
+## Get title approved
 
 1. Wait for your game or other title to pass the Concept Approval process.
 
