@@ -3,6 +3,7 @@
   items:
     - name: Getting started
       href: get-started/index.md
+      items:
         - name: Getting started, for Creators
           href: get-started/getstart-creators.md
         - name: Getting started, for ID@Xbox or Managed Partners

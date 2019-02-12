@@ -25,7 +25,6 @@ If need to break up subsections of the two articles into separate pages:
 -->
 <!--
 toc entries, for delivering two subtrees of articles instead of two articles:
-      items: 
         - name: The Creators program
           href: get-started/creators-program/index.md
           items: 
