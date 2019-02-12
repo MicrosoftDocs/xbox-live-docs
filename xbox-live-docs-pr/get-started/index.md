@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 |---------|-------------|
 | [Getting started, for Creators](getstart-creators.md) | Get started adding Xbox Live functionality to your game, as a member of the Creators program. |
 | [Getting started, for ID@Xbox or Managed Partners](getstart-id-mp.md) | Get started adding Xbox Live functionality to your game, as a member of the ID@Xbox program or as a Managed Partner. |
-| [Setting up platforms for Xbox Live development](platforms/index.md) | __ |
+| [Setting up platforms for Xbox Live development](platforms/index.md) | Setting up Unity or Visual Studio and targeting Xbox, Windows, Android, or iOS. |
 
 
 <!-- 

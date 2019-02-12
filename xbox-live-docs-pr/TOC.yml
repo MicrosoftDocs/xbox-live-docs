@@ -19,10 +19,10 @@
               href: get-started/platforms/xbox-platform.md
             - name: Targeting Windows
               href: get-started/platforms/windows-platform.md
-            - name: Targeting iOS
-              href: get-started/platforms/ios-platform.md
             - name: Targeting Android
               href: get-started/platforms/android-platform.md
+            - name: Targeting iOS
+              href: get-started/platforms/ios-platform.md
 - name: What is Xbox Live?
   href: index.md
 - name: Developer program overview
