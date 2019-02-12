@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 To add Xbox Live functionality to a game or other title, start by creating a new app at Microsoft Partner Center.
 
 This page is for members of the ID@Xbox or Managed Partners program.
-If you are in the Creators program, see [Create a new title, for ID@Xbox or Managed Partners](../creators/create-title.md).
+If you are in the Creators program, see [Create a new title, for ID@Xbox or Managed Partners](getstart-creators.md).
 
 
 ## 1. Set up a Partner Center account
@@ -232,4 +232,4 @@ TBD
 <!--===========================================================-->
 ## See also
 
-[Partner Center Xbox Live configuration Summary page](../../configure-xbl/dev-center/summary.md)
+[Partner Center Xbox Live configuration Summary page](../configure-xbl/dev-center/summary.md)

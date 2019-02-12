@@ -18,4 +18,4 @@ This page is for members of the Creators program.
 
 ## Next steps
 
-[Choose platforms](choose-platforms.md)
+TBD
