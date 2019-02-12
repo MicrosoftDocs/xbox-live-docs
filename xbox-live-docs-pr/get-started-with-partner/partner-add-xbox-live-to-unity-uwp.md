@@ -129,9 +129,11 @@ To do this, go to File \| Build Settings, click on "Build Settings" on the Windo
 If Unity has that an associated script can not be loaded, then ensure that you did step 3 to drag the WinMD to the Unity project assets panel
 
 **2)**
-If the app crashes immedately at startup or when trying to run this line of code:
+If the app crashes immediately at startup or when trying to run this line of code:
 
-    Microsoft.Xbox.Services.System.XboxLiveUser m_user = new Microsoft.Xbox.Services.System.XboxLiveUser();
+```csharp
+Microsoft.Xbox.Services.System.XboxLiveUser m_user = new Microsoft.Xbox.Services.System.XboxLiveUser();
+```
 
 Ensure you have added a xboxservices.config text file to the project and in its properties, set the "Build Action" to "Content", and "Copy to Output Directory" set to "Copy Always".
 

@@ -61,11 +61,11 @@ if(gameSaveTask.Status == GameSaveErrorStatus.Ok)
 
 This will return a collection of `ContainerInfo2`, which contains 3 new metadata fields:
 
-    -   `DisplayName`: Any display name you have written using the overload of `SubmitUpdatesAsync` that takes a display name string as a parameter. We suggest always using this field to store a user-friendly name.
-    -   `LastModifiedTime`: The last time this container was modified. Note that in the case of conflicting local and remote timestamps, the remote ones is used.
-    -   `NeedsSync`: A boolean indicating if this container has data that needs to be downloaded from the cloud.
+- **DisplayName** : Any display name you have written using the overload of `SubmitUpdatesAsync` that takes a display name string as a parameter. We suggest always using this field to store a user-friendly name.
+- **LastModifiedTime** : The last time this container was modified. Note that in the case of conflicting local and remote timestamps, the remote ones is used.
+- **NeedsSync** : A boolean indicating if this container has data that needs to be downloaded from the cloud.
 
-    Using this additional metadata, you can present the user with core information about their game saves (including name, last time used, and whether selecting one will require a download) without actually performing a full download from the cloud.
+Using this additional metadata, you can present the user with core information about their game saves (including name, last time used, and whether selecting one will require a download) without actually performing a full download from the cloud.
 
 ```cpp
 auto containerQuery = storageSpace->CreateContainerInfoQuery(nullptr); //return list of containers in ConnectedStorageSpace
@@ -107,27 +107,27 @@ A Connected Storage synce will be triggered by calling any of the following exis
 
 **C++**
 
-    -   BlobInfoQueryResult::GetBlobInfoAsync
-    -   BlobInfoQueryResult::GetItemCountAsync
-    -   ConnectedStorageContainer::GetAsync
-    -   ConnectedStorageContainer::ReadAsync
-    -   ConnectedStorageSpace::DeleteContainerAsync
+- BlobInfoQueryResult::GetBlobInfoAsync
+- BlobInfoQueryResult::GetItemCountAsync
+- ConnectedStorageContainer::GetAsync
+- ConnectedStorageContainer::ReadAsync
+- ConnectedStorageSpace::DeleteContainerAsync
 
 **C#**
 
-    -   GameSaveBlobInfoQuery.GetBlobInfoAsync
-    -   GameSaveBlobInfoQuery.GetItemCountAsync
-    -   GameSaveContainer.GetAsync
-    -   GameSaveContainer.ReadAsync
-    -   GameSaveProvider.DeleteContainerAsync
+- GameSaveBlobInfoQuery.GetBlobInfoAsync
+- GameSaveBlobInfoQuery.GetItemCountAsync
+- GameSaveContainer.GetAsync
+- GameSaveContainer.ReadAsync
+- GameSaveProvider.DeleteContainerAsync
 
 This will cause the user to see the usual sync UI and progress bar as data from their selected container is downloaded. Note that only data from the selected container is synchronized; data from other containers is not downloaded.
 
 When calling these API in the context of an on demand sync, these operations can all produce the following new error codes:
 
--   `ConnectedStorageErrorStatus::ContainerSyncFailed`(`GameSaveErrorStatus.ContainerSyncFailed` in UWP C# API): This error indicates that the operation failed and the container could not be synced with the cloud. The most likely cause is the user's network conditions caused the sync to fail. They may want to try again after they've fixed their network or they may choose to use a container they don't have to sync. Your UI should allow either of these options. No retry dialog is required, since they will have already seen the system UI retry dialog.
+-   **ConnectedStorageErrorStatus::ContainerSyncFailed**(**GameSaveErrorStatus.ContainerSyncFailed** in UWP C# API): This error indicates that the operation failed and the container could not be synced with the cloud. The most likely cause is the user's network conditions caused the sync to fail. They may want to try again after they've fixed their network or they may choose to use a container they don't have to sync. Your UI should allow either of these options. No retry dialog is required, since they will have already seen the system UI retry dialog.
 
--   `ConnectedStorageErrorStatus::ContainerNotInSync`(`GameSaveErrorStatus.ContainerNotInSync` in UWP C# API): This error indicates that your title incorrectly tried to write to an unsynced container. Calling `ConnectedStorageContainer::SubmitUpdatesAsync`(`GameSaveContainer.SubmitUpdatesAsync` in UWP C# API) on a container that has the NeedsSync flag set to true is NOT allowed. You must first read a container to trigger a sync before writing to it. If you write to a container without reading from it, it is likely your title has a bug where you could lose user progress.
+-   **ConnectedStorageErrorStatus::ContainerNotInSync**(**GameSaveErrorStatus.ContainerNotInSync** in UWP C# API): This error indicates that your title incorrectly tried to write to an unsynced container. Calling **ConnectedStorageContainer::SubmitUpdatesAsync**(**GameSaveContainer.SubmitUpdatesAsync** in UWP C# API) on a container that has the NeedsSync flag set to true is NOT allowed. You must first read a container to trigger a sync before writing to it. If you write to a container without reading from it, it is likely your title has a bug where you could lose user progress.
 
 This behavior is different from when a user plays offline. While offline, there is no indication of whether containers are synchronized, so it is up to the user to resolve any conflicts at a later time. In this case, however, the system knows the user needs to sync, so it will not allow them to get into a bad state by using an out-of-date container (though if they desire, they can still restart the title and play it offline).
 

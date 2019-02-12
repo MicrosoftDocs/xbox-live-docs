@@ -70,7 +70,7 @@ ms-xbl-multiplayer://tournament?action=joinGame&joinerXuid={memberId}&organizer=
 
 For ERA titles on the console, the activation scheme is slightly different:
 
-```
+```URI
 ms-xbl-{titleIdHex}://
 ```
 

@@ -149,7 +149,9 @@ If Unity has that an associated script can not be loaded, then ensure that you d
 **2)**
 If the app crashes immediately at startup or when trying to run this line of code:
 
-    Microsoft.Xbox.Services.System.XboxLiveUser m_user = new Microsoft.Xbox.Services.System.XboxLiveUser();
+```csharp
+Microsoft.Xbox.Services.System.XboxLiveUser m_user = new Microsoft.Xbox.Services.System.XboxLiveUser();
+```
 
 Ensure you have added a xboxservices.config text file to the project and in its properties, set the "Build Action" to "Content", and "Copy to Output Directory" set to "Copy Always".
 Also ensure it contains proper JSON formatting with the TitleId in decimal form, such as:
@@ -162,7 +164,7 @@ Also ensure it contains proper JSON formatting with the TitleId in decimal form,
 ```
 
 **3)**
-If the app launches, but fails to signin then check the following:
+If the app launches, but fails to sign in then check the following:
 
 a) Your machine is set to the your developer sandbox.  Use the SwitchSandbox.cmd script in the \Tools folder of the Xbox Live SDK to do this.
 

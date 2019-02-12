@@ -31,11 +31,7 @@ ms.localizationpriority: medium
   - Choose between `Microsoft.Xbox.Live.SDK.Cpp.*` and `Microsoft.Xbox.Live.SDK.WinRT.*`. `Cpp` is for C++ game engines using the Xbox Live APIs.  `WinRT` is for game engines written with C++, C#, or Javascript using the Xbox Live APIs.  When using WinRT with a C++ engine, you would use C++/CX which uses hats (^).  `Cpp` is the recommended API to use for C++ game engines.    
 ![](../images/nuget/nuget_xbox_install_5.png)
 ![](../images/nuget/nuget_uwp_install_7.png)
-1. After accepting the License TOS, wait until the package has been successfully added.  You should see this log in the Package Manger output window:
-
-```
-========== Finished ==========
-```
+1. After accepting the License TOS, wait until the package has been successfully added.  The Package Manager output window should read "Finished" when the task is completed.  
 
 ### 3.	Optionally include header
 * For `Microsoft.Xbox.Live.SDK.Cpp.*` based projects `#include <xsapi\services.h>` in your project's source.

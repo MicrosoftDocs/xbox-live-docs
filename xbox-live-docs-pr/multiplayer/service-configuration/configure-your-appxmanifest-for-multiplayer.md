@@ -26,7 +26,7 @@ Your Package.appxmanifest file is typically located in the same directory as you
 
 You will need to add the following to the ```<Extensions>``` element under ```<Applications>``` in your Package.appxmanifest file
 
-```
+```xml
 <Extensions>
   <uap:Extension Category="windows.protocol">
     <uap:Protocol Name="ms-xbl-multiplayer" />

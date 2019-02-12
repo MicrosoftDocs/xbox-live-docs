@@ -55,7 +55,7 @@ All event handlers in the C++ SDK have been changed from a single `void set_*_ha
 Each `add_*_handler()` method now returns a `function_context` object. When you remove the event handler, you must pass in the `function_context` object.
 
 For example:
-```
+```cpp
 function_context subscriptionLostContext = xbox_live_context()->multiplayer_service().add_multiplayer_subscription_lost_handler(...);
 
 localUser->xbox_live_context()->multiplayer_service().remove_multiplayer_subscription_lost_handler(subscriptionLostContext);

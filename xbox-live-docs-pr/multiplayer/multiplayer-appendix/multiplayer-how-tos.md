@@ -84,33 +84,37 @@ The title must do the following to create a new session:
 
 ### Example
 
-    void Example_MultiplayerService_CreateSession()
+
+```cpp
+void Example_MultiplayerService_CreateSession()
+{
+    XboxLiveContext^ xboxLiveContext = ref new Microsoft::Xbox::Services::XboxLiveContext(User::Users->GetAt(0));
+
+    // Values found in Xbox Developer Portal(XDP) or Partner Center configuration
+    MultiplayerSessionReference^ multiplayerSessionReference = ref new MultiplayerSessionReference(
+    "c83c597b-7377-4886-99e3-2b5818fa5e4f", // serviceConfigurationId
+    "team-deathmatch", // sessionTemplateName
+    "mySession" // sessionName
+    );
+
+    MultiplayerSession^ multiplayerSession = ref new MultiplayerSession(
+    xboxLiveContext,
+    multiplayerSessionReference
+    );
+
+    auto asyncOp = xboxLiveContext->MultiplayerService->WriteSessionAsync(
+    multiplayerSession,
+    MultiplayerSessionWriteMode::CreateNew
+    );
+
+    create_task(asyncOp)
+    .then([](MultiplayerSession^ newMultiplayerSession)
     {
-      XboxLiveContext^ xboxLiveContext = ref new Microsoft::Xbox::Services::XboxLiveContext(User::Users->GetAt(0));
+    // Throw away stale multiplayerSession, and use newMultiplayerSession from now on
+    });
+}
+```
 
-      // Values found in Xbox Developer Portal(XDP) or Partner Center configuration
-      MultiplayerSessionReference^ multiplayerSessionReference = ref new MultiplayerSessionReference(
-        "c83c597b-7377-4886-99e3-2b5818fa5e4f", // serviceConfigurationId
-        "team-deathmatch", // sessionTemplateName
-        "mySession" // sessionName
-        );
-
-      MultiplayerSession^ multiplayerSession = ref new MultiplayerSession(
-        xboxLiveContext,
-        multiplayerSessionReference
-        );
-
-      auto asyncOp = xboxLiveContext->MultiplayerService->WriteSessionAsync(
-        multiplayerSession,
-        MultiplayerSessionWriteMode::CreateNew
-        );
-
-      create_task(asyncOp)
-      .then([](MultiplayerSession^ newMultiplayerSession)
-      {
-        // Throw away stale multiplayerSession, and use newMultiplayerSession from now on
-      });
-    }
 
 
 ## Set an arbiter for an MPSD session

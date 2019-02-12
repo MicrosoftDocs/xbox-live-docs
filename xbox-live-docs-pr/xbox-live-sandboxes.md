@@ -97,13 +97,13 @@ Download the Xbox Live Tools Package at [https://aka.ms/xboxliveuwptools](https:
 
 Run this in Administrator mode to switch your sandbox.  The first argument is the sandbox.  For example if you are trying to switch to the XDKS.1 sandbox, you would do:
 
-```
+```cmd
 SwitchSandbox.cmd XDKS.1
 ```
 
 To switch back to RETAIL, you simply provide that as the second argument.
 
-```
+```cmd
 SwitchSandbox.cmd RETAIL
 ```
 

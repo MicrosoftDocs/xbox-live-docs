@@ -12,12 +12,14 @@ ms.localizationpriority: medium
 
 1.  Send a request using the below method to send the data to title storage.
 
-        PUT https://titlestorage.xboxlive.com/trustedplatform/users/xuid(1245111)/scids/{scid}/data/lastturn.bin,binary              
-        Content-Type: application/octet-stream
-        x-xbl-contract-version: 1
-        Authorization: XBL3.0 x=<userHash>;<STSTokenString>
-        Content-Length: 40
-        Connection: Keep-Alive
+```http
+PUT https://titlestorage.xboxlive.com/trustedplatform/users/xuid(1245111)/scids/{scid}/data/lastturn.bin,binary              
+Content-Type: application/octet-stream
+x-xbl-contract-version: 1
+Authorization: XBL3.0 x=<userHash>;<STSTokenString>
+Content-Length: 40
+Connection: Keep-Alive
+```
 
 
 -   The user must be in the session to update it.
@@ -25,8 +27,8 @@ ms.localizationpriority: medium
 -   STSTokenString is a placeholder for brevity and should be replaced with the token returned by the authentication request.
 
 2.  Send the binary data. Since the data will be transferred through HTTP, the data must be constrained to the acceptable character set. Information such as image or audio data must be encoded. You may select any encoding method that generates HTTP compatible characters.
-d
-```
+
+```http
   01EAEFBAD05903A4
   1EA2311656677DFF
   CF00

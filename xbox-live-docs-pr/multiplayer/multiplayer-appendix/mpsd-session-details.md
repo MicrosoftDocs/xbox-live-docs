@@ -91,7 +91,7 @@ Set the member constants at join time for each session member. The JSON object i
 
 Member properties are writable only by a session member. They are set in the /members/{index}/properties/system object and reflect the elements of the **MultiplayerSessionMember Class**. Here is an example:
 
-```
+```JSON
     {
       // These flags control the member status and "activeTitle", and are mutually exclusive (it's an error to set both to true).
       // For each, false is the same as not present. The default status is "inactive", i.e. neither present.
