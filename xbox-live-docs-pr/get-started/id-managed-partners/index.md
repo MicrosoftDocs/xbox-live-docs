@@ -21,9 +21,9 @@ See also [Creators program](../creators-program/index.md).
 | [Create a new title](create-title.md) | Create a new game or other title, as a member of the ID@Xbox program or as a Managed Partner. |
 | [Choose platforms](choose-platforms.md) | Set up Visual Studio or Unity, and target selected platforms, such as Windows, Xbox, Android, or iOS. |
 | [Get title approved](get-title-approved.md) | Submit your game or other title for approval by Microsoft. |
-| [Choose SBX](choose-sbx.md) | Choose SBX. |
+| [Choose a sandbox](choose-sandbox.md) | Choose which sandbox your game will run in. |
 | [Enable title](enable-title.md) | Enable your game or other title to use Xbox Live features. |
 | [Publish title](publish-title.md) | Publish your game or other title privately for testing. |
 | [Create test account](create-test-account.md) | Create multiple test accounts and allow them to access your Xbox Live-enabled game. |
-| [Get sample](get-sample.md) | Get sample. |
+| [Get the sample game](get-sample.md) | Get the Android Sign-in sample game. |
 | [Sign in](sign-in.md) | Sign-in to Partner Center through your game or other title. |
