@@ -24,4 +24,4 @@ This page is for members of the ID@Xbox or Managed Partners program.
 
 ## Next steps
 
-[Choose SBX](choose-sbx.md)
+[Choose a sandbox](choose-sandbox.md)

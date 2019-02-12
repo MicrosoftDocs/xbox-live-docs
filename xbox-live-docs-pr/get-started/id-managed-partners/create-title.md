@@ -56,36 +56,44 @@ Next, at Partner Center, you create a new app, which is a game or other title, a
 
    (In the user interface prior to GDC 2019, the "App overview" page appears.)
 
+
+
+
+### Old UI
 <!--delete? old ui?-->
-7. In the App overview page, click the **Start your submission** button.
+7. (If using the old UI): In the App overview page, click the **Start your submission** button.
 
    The "Start your submission" dialog box appears.
 
-8. In the combo field, click the down-arrow on the right, then click a sandbox, such as "NKDXTT.0 (shared)".
+8. (If using the old UI): In the combo field, click the down-arrow on the right, then click a sandbox, such as "NKDXTT.0 (shared)".
 
-9. Click the **Create submission** button.
+9. (If using the old UI): Click the **Create submission** button.
  
    <!-- correct? or black-box wait? -->
    After some 12 seconds, the submission page appears, such as "NKDXTT.0 (Submission 1)".
 
    <!-- NOW WHAT DO YOU CLICK IN THE UI? -->
 
+### New UI
+   <!-- how to now get to the "Game Setup" page after approved? -->
 
-10. Wait for your game or other title to pass the Concept Approval process.
+1. Wait for your game or other title to pass the Concept Approval process.
 
    When your game or other title passes "concept approval", you receive the email saying "your game concept has been accepted".
    In the "Game setup" page, the "Use full Xbox Live feature set" radio button then becomes un-dimmed and is available to select.
 
    While the game has not been concept-approved, you must keep the "Disable" radio button selected instead.
+   <!-- where is the Disable option button visible? -->
 
+<!-- later, what do you click in the UI to make the "Game setup" page appear?-->
 
+1. In Partner Center dashboard, click __.
 
+   The "Game setup" page appears. 
 
+1. Select the option button **Use full Xbox Live feature set (requires concept approval)**.
 
-
-
-<!--what do you click in the UI to make the "Game setup" page appear?-->
-11. In the "Game setup" page, click the "Use full Xbox Live feature set" radio button.
+   This option becomes visible after your game concept is approved.
 
 
 <!--===========================================================-->
@@ -101,7 +109,7 @@ Next, at Partner Center, you create a new app, which is a game or other title, a
 
 3. On the "Xbox Live" page (the "Create a product in Partner Center" page), click the **Publish** button.
 
-   A __ dialog box appears.
+   A <!--"Foo"--> dialog box appears.
 
 4. Click the **Confirm** button.
 
