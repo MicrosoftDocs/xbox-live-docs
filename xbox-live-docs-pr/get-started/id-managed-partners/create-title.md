@@ -97,13 +97,15 @@ Next, at Partner Center, you create a new app, which is a game or other title, a
    While the game has not been concept-approved, you must keep the "Disable" radio button selected instead.
    <!-- where is the Disable option button visible? -->
 
-<!-- later, what do you click in the UI to make the "Game setup" page appear?-->
 
+## Enable title
+
+<!-- later, what do you click in the UI to make the "Game setup" page appear?-->
 1. In Partner Center dashboard, click __.
 
    The "Game setup" page appears. 
 
-1. Select the option button **Use full Xbox Live feature set (requires concept approval)**.
+2. Select the option button **Use full Xbox Live feature set (requires concept approval)**.
 
    This option becomes visible after your game concept is approved.
 
@@ -133,6 +135,18 @@ Next, at Partner Center, you create a new app, which is a game or other title, a
    Your game, or the Android Sign-in sample (discussed in a later step), runs in the runtime of the sandbox, after you click the **Publish** button.
 
    It is now possible for your game to sign-in to Xbox Live services (discussed in a later step).
+
+
+## Publish title
+
+
+## Create Test Account
+
+
+## Get Sample
+
+
+## Sign in
 
 
 <!--===========================================================-->
