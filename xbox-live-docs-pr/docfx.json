@@ -30,7 +30,7 @@
       "_op_documentIdPathDepotMapping": {
         "./": {
           "depot_name": "Win.windows-apps",
-          "folder_relative_path_in_docset": "."
+          "folder_relative_path_in_docset": "xbox-live/."
         }
       }
     },
