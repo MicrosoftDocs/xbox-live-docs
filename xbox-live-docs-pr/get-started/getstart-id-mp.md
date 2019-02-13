@@ -41,6 +41,8 @@ Next, at Partner Center, create a new app, as follows.
 
    The page "Create your app by reserving a name" appears.
 
+   ![](../images/getting_started/gs_pc_createappreservename.png)
+
 3. In the text box, enter the name of your product.
    You can change the name later.
    <!--
@@ -55,13 +57,19 @@ Next, at Partner Center, create a new app, as follows.
    > For Managed Partners and ID@Xbox developers, to enable Xbox Live functionality, you **MUST** select the option button **Create this product in a sandbox**, the first time through this process. You won't be able to select this option button later.
    > (Do not select the check box "Do not create this product in a sandbox".)
 
+   ![](../images/getting_started/gs_pc_createappreservename02.png)
+
 5. Click the **Reserve product name** button.
 
    The "App overview" page appears.
 
-6. In the App overview page, click the **Start your submission** button.
+   ![](../images/getting_started/gs_pc_app_overview01_pg.png)
+
+6. Click the **Start your submission** button.
 
    The "Start your submission" dialog box appears.
+
+   ![](../images/getting_started/gs_pc_startyoursubmission_dbx.png)
 
 7. In the combo field, click the down-arrow on the right, then click a sandbox; for example, "NKDXTT.0 (shared)".
 
