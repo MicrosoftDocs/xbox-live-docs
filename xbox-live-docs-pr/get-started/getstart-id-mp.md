@@ -8,12 +8,10 @@ ms.localizationpriority: medium
 ---
 # Getting started, for ID\@Xbox or Managed Partners
 
-<!-- todo: add screen captures -->
-
-To add Xbox Live functionality to a game or other title, start by creating a new app at Microsoft Partner Center.
+To add Xbox Live functionality to a game, start by creating a new app at Microsoft Partner Center.
 
 This page is for members of the ID@Xbox or Managed Partners program.
-If you are in the Creators program, see [Create a new title, for ID@Xbox or Managed Partners](getstart-creators.md).
+If you are in the Creators program, see [Getting started, for Creators](getstart-creators.md).
 
 
 ## 1. Set up a Partner Center account
@@ -71,7 +69,7 @@ Next, at Partner Center, create a new app, as follows.
 
    ![](../images/getting_started/gs_pc_startyoursubmission_dbx.png)
 
-7. In the combo field, click the down-arrow on the right, then click a sandbox; for example, "NKDXTT.0 (shared)".
+7. In the "Select the sandbox..." combo field, click the down-arrow on the right, then click a sandbox; for example, "NKDXTT.0 (shared)".
 
 8. Click the **Create submission** button.
  
@@ -100,11 +98,12 @@ Next, at Partner Center, create a new app, as follows.
 
 
 <!--===========================================================-->
-## 4. Enable Xbox Live for the title
+## 4. Enable Xbox Live for the game
 
 When you receive the "concept approved" email, continue with the following steps.
 
-1. Close the browser, to clear the session cache.
+<!-- todo: this will cause to lose their place in this doc -->
+1. Close the browser, including all of the browser's window instances, to clear the session cache.
  
 2. Open the browser.
 
@@ -112,8 +111,10 @@ When you receive the "concept approved" email, continue with the following steps
 
 4. In Partner Center dashboard, click **Products**, then click your game.
 
-<!-- todo: Watch the February 12, 2019 Teams video here, to extract the UI actions/results. -->
+   <!-- todo: Watch the February 12, 2019 Teams video here, to extract the UI actions/results. -->
    The first time you do this for a game, the "Game Setup" page appears.
+
+   <!--todo: capture-->
 
 5. Click the option button **Use full Xbox Live feature set (requires concept approval)**.
 
@@ -143,7 +144,6 @@ When you receive the "concept approved" email, continue with the following steps
 9. Click the **Confirm** button.
 
    At the bottom of the dialog box, the message appears: "Publishing configuration finished successfully."
-
    The game is actually published after a delay of possibly 20 minutes.
 
 10. Click the **Close** button.
@@ -165,7 +165,7 @@ The SDK can now be used in an application to sign-in.
 
 2. Click the **Save** button.
 
-   Xbox Live functionality is now enabled for your game or other title.
+   Xbox Live functionality is now enabled for your game.
 
    After the first call to Xbox Live APIs, after some 30-45 seconds, the page redirects to the "Gameplay Setting" page, which is your Xbox Live configuration page.
 
@@ -176,7 +176,7 @@ The SDK can now be used in an application to sign-in.
 <!--
 4. Click the **Confirm** button.
 
-   Your game or other title now has Xbox Live configuration in a sandbox, but doesn't have a binary running with the Xbox Live SDK or XDK.
+   Your game now has Xbox Live configuration in a sandbox, but doesn't have a binary running with the Xbox Live SDK or XDK.
 
    Your identity configuration information, including the Xbox Live "product identities", is copied into your sandbox for Xbox Live services.
    This only occurs the first time you click Publish (and Confirm) for the game.
@@ -188,7 +188,7 @@ The SDK can now be used in an application to sign-in.
 
 
 <!--===========================================================-->
-## 5. Publish title
+## 5. Publish the game
 
 TBD
 

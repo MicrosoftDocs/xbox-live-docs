@@ -8,16 +8,7 @@ ms.localizationpriority: medium
 ---
 # Create a new title, for ID@Xbox or Managed Partners
 
-See [Create a new title, for ID@Xbox or Managed Partners](../getstart-id-mp.md).
-
-
-## TBD
-
-
-## TBD
-
-
-## TBD
+See [Getting started, for ID@Xbox or Managed Partners](../getstart-id-mp.md).
 
 
 ## Next steps
