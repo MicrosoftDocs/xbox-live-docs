@@ -952,15 +952,20 @@ This is usually a permissions or scope issue. Collect Fiddler traces to help get
 
 This will return 412 Precondition Failed if the session already exists:
 
+```http
 > PUT /serviceconfigs/00000000-0000-0000-0000-000000000000/sessiontemplates/quick/sessions/foo HTTP/1.1
 > Content-Type: application/json
 > If-None-Match: \*
+```
+
 
 This will return 412 Precondition Failed if the session etag doesn’t match the If-Match header:
 
+```http
 > PUT /serviceconfigs/00000000-0000-0000-0000-000000000000/sessiontemplates/quick/sessions/foo HTTP/1.1
 > Content-Type: application/json
 > If--Match: 9555A7DE-8B91-40E4-8CFB-0629312C9C7D
+```
 
 ### I am getting errors such as 405, 409, 503, and 400when calling MPSD.
 

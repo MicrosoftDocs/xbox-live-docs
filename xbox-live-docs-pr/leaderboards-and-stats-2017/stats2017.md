@@ -1,5 +1,5 @@
 ---
-title: Player Stats
+title: Player Stats for Stats 2017
 
 description: Intro to Stats 2017
 ms.date: 07/02/2018

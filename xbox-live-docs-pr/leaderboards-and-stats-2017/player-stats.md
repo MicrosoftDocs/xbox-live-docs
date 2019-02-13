@@ -1,5 +1,5 @@
 ---
-title: Player Stats
+title: Player Stats Overview
 
 description: Learn how to set up player stats in Xbox Live.
 ms.assetid: 5ec7cec6-4296-483d-960d-2f025af6896e

@@ -1,5 +1,5 @@
 ---
-title: Xbox Live sandboxes
+title: Xbox Live sandboxes for Creators Program developers
 
 description: Xbox Live sandboxes introduction
 ms.assetid: e7daf845-e6cb-4561-9dfa-7cfba882f494

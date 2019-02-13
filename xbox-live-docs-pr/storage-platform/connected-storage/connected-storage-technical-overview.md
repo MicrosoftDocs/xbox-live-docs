@@ -8,7 +8,7 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, connected storage
 ms.localizationpriority: medium
 ---
-# Connected Storage
+# Connected Storage technical overview
 
 > [!NOTE]
 > This document was originally written for Managed Partner Xbox One developers.  Some of the Xbox One specific content like Local and Title storage can be ignored for UWP on Windows.  The conceptual content and API in this document are still relevant.  Please contact your Microsoft representative (if applicable) with any questions.

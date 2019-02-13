@@ -1,5 +1,5 @@
 ---
-title: Advanced Xbox Live sandboxes
+title: Advanced Xbox Live sandboxes for Partner developers
 
 description: Learn how to isolate content effectively by using Xbox Live sandboxes as a managed partner or an ID@Xbox member.
 ms.assetid: bd8a2c51-2434-4cfe-8601-76b08321a658
@@ -8,7 +8,7 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
-# Advanced Xbox Live sandboxes
+# Advanced Xbox Live sandboxes for Partner Developers
 
 > **Note** This article explain advanced usage of sandboxes and is mainly applicable to large gaming studios which have multiple teams and complex permissions requirements.  If you are part of the Xbox Live Creators Program or an ID@Xbox developer, it is recommended to look at the [Xbox Live Sandboxes Intro](../xbox-live-sandboxes.md)
 

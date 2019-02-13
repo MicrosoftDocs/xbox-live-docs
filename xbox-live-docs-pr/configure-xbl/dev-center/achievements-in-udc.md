@@ -1,5 +1,5 @@
 ---
-title: Achievements 2017
+title: Configure Achievements 2017 in Partner Center
 
 description: Describes how you can configure achievements in Partner Center to deliver rewards.
 ms.assetid:

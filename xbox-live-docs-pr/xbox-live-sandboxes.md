@@ -1,5 +1,5 @@
 ---
-title: Xbox Live sandboxes
+title: Xbox Live sandboxes introduction
 
 description: Learn about sandboxes for Xbox Live development.
 ms.assetid: a5acb5bf-dc11-4dff-aa94-6d1f01472d2a

@@ -107,9 +107,11 @@ Connection: Keep-Alive
 
 The response body for this query is:
 
-    {
-        "name" : "poison"
-    }
+```json
+{
+    "name" : "poison"
+}
+```
 
 The array can be accessed with a query like this:
 
