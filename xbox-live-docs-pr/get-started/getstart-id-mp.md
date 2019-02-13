@@ -18,9 +18,9 @@ If you are in the Creators program, see [Create a new title, for ID@Xbox or Mana
 
 ## 1. Set up a Partner Center account
 
-   > [!PREREQUISITE]
+   > [!IMPORTANT]
    > As a prerequisite step, you must have a Partner Center account.
-   > To create a Partner Center account, right-click the following link and click **Open in new tab**:
+   > To create a Partner Center account, right-click the following link and then click **Open in new window**:
 [Partner Center documentation site: Create a Partner Center account](https://docs.microsoft.com/en-us/partner-center/mpn-create-a-partner-center-account).
    >Then continue with the steps below.
    <!--todo: open link in new tab>
@@ -31,9 +31,11 @@ If you are in the Creators program, see [Create a new title, for ID@Xbox or Mana
 
 Next, at Partner Center, create a new app, as follows.
 
-1. Go to [Partner Center dashboard](https://partner.microsoft.com/dashboard/) (https://partner.microsoft.com/dashboard/).
+1. Right-click the following link and then click **Open in new window**: [Partner Center dashboard](https://partner.microsoft.com/dashboard/) (https://partner.microsoft.com/dashboard/).
 
    The Partner Center dashboard appears, showing the "Overview" page, within the "WINDOWS" section.
+
+   ![](../images/getting_started/gs_pc_overview_pg.png)
 
 2. Click the **Create a new app** button.
 
@@ -61,8 +63,7 @@ Next, at Partner Center, create a new app, as follows.
 
    The "Start your submission" dialog box appears.
 
-7. In the combo field, click the down-arrow on the right, then click a sandbox. 
-   For example, on the Xbox account, we have "NKDXTT.0 (shared)".
+7. In the combo field, click the down-arrow on the right, then click a sandbox; for example, "NKDXTT.0 (shared)".
 
 8. Click the **Create submission** button.
  
@@ -103,28 +104,35 @@ When you receive the "concept approved" email, continue with the following steps
 
 4. In Partner Center dashboard, click **Products**, then click your game.
 
-   The Game Setup page appears.
+<!-- todo: Watch the February 12, 2019 Teams video here, to extract the UI actions/results. -->
+   The first time you do this for a game, the "Game Setup" page appears.
 
 5. Click the option button **Use full Xbox Live feature set (requires concept approval)**.
 
    The "App overview" page appears.
 
+   ![](../images/getting_started/gs_pc_app_overview_pg.png)
+
    Under "Services", "Xbox Live" now appears.
 
-   The "Enable Xbox Live" page appears.
-   The "Enable Xbox Live" page appears only the first time you click __ above.
+   The "Enable Xbox Live" page appears. <!--after you click what?-->
+   The "Enable Xbox Live" page appears only the first time you click __ <!--what?--> above.
 
-6. Put in the name of the product, using the same name as before.
+6. In the __ page, in the __ control, enter the name of the product, using the same name as before.
 
 7. Click the "Enable" button.
 
    The "Gameplay Setting" page appears.
 
-8. In the top right, click the **Publish** button.
+   ![](../images/getting_started/gs_pc_gameplay_setting_pg.png)
+
+8. In the top right, click the **Publish** link.
 
    The "Publish gameplay settings" dialog box appears.
 
-9. Click **Confirm**.
+   ![](../images/getting_started/gs_pc_pubgameplaysetgs_dbx.png)
+
+9. Click the **Confirm** button.
 
    At the bottom of the dialog box, the message appears: "Publishing configuration finished successfully."
 
@@ -132,9 +140,13 @@ When you receive the "concept approved" email, continue with the following steps
 
 10. Click the **Close** button.
 
-   The "Publish gameplay settings" dialog box closes.
+   The "Publish gameplay settings" dialog box closes, and the "Gameplay Setting" page remains displayed.
 
 The SDK can now be used in an application to sign-in.
+
+(place this image:)
+
+   ![](../images/getting_started/gs_pc_xblconfign_pg.png)
 
 
 <!--===========================================================-->
@@ -180,7 +192,7 @@ TBD
 
 
 <!--===========================================================-->
-## 7. Get Sample
+## 7. Get the Android sign-in sample
 
 TBD
 
