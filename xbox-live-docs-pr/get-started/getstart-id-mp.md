@@ -8,28 +8,40 @@ ms.localizationpriority: medium
 ---
 # Getting started, for ID\@Xbox or Managed Partners
 
-To add Xbox Live functionality to a game, start by creating a new app at Microsoft Partner Center.
+To add Xbox Live functionality to your game, start here.
 
 This page is for members of the ID@Xbox or Managed Partners program.
 If you are in the Creators program, see [Getting started, for Creators](getstart-creators.md).
 
 
-## 1. Set up a Partner Center account
+<!--todo: open external links in new tab-->
 
-   > [!IMPORTANT]
-   > As a prerequisite step, you must have a Partner Center account.
-   > To create a Partner Center account, right-click the following link and then click **Open in new window**:
-[Partner Center documentation site: Create a Partner Center account](https://docs.microsoft.com/en-us/partner-center/mpn-create-a-partner-center-account).
-   >Then continue with the steps below.
-   <!--todo: open link in new tab>
+
+## Prerequisite: Set up a Partner Center account
+
+<!--
+what about MPs?
+shorten step 3?
+-->
+
+1. Prepare a prototype of your game, such as a demo and screen captures.
+
+2. For ID@Xbox partners: If you aren't already an ID@Xbox partner, apply to the ID@Xbox program.
+   To do this, right-click the following link and then click **Open in new window**: [Welcome to ID@Xbox](https://www.xbox.com/developers/id).
+   Follow the instructions at that site, and then continue with the steps below.
+
+3. If you don't have a Partner Center account yet, Microsoft helps you set up your Partner Center account.
+   To create a Partner Center account, right-click the following link and then click **Open in new window**:
+   [Partner Center documentation site: Create a Partner Center account](https://docs.microsoft.com/en-us/partner-center/mpn-create-a-partner-center-account).
+   Follow the instructions at that site, and then continue with the steps below.
 
 
 <!--===========================================================-->
-## 2. Create a new app
+## 1. Create a new app
 
 Next, at Partner Center, create a new app, as follows.
 
-1. Right-click the following link and then click **Open in new window**: [Partner Center dashboard](https://partner.microsoft.com/dashboard/) (https://partner.microsoft.com/dashboard/).
+1. Right-click the following link and then click **Open in new window**: [Partner Center dashboard](https://partner.microsoft.com/dashboard/).
 
    The Partner Center dashboard appears, showing the "Overview" page, within the "WINDOWS" section.
 
@@ -43,16 +55,12 @@ Next, at Partner Center, create a new app, as follows.
 
 3. In the text box, enter the name of your product.
    You can change the name later.
-   <!--
-   used:
-   GetStartManaged01mihof
-   GettingStartedManaged02Greg (confirm).  Pre-approved, to access the post-approval UI.
-   -->
 
 4. Click the check box **Create this product in a sandbox**.
 
    > [!IMPORTANT]
-   > For Managed Partners and ID@Xbox developers, to enable Xbox Live functionality, you **MUST** select the option button **Create this product in a sandbox**, the first time through this process. You won't be able to select this option button later.
+   > For Managed Partners and ID@Xbox developers, to enable Xbox Live functionality, you **MUST** select the option button **Create this product in a sandbox**, the first time through this process.
+   > You won't be able to select this option button later.
    > (Do not select the check box "Do not create this product in a sandbox".)
 
    ![](../images/getting_started/gs_pc_createappreservename02.png)
@@ -77,32 +85,30 @@ Next, at Partner Center, create a new app, as follows.
 
 
 <!--===========================================================-->
-## 3. Request Concept Approval for your game
+## 2. Contact your Microsoft Representative to enable your game
 
-<!-- what if you are a Managed Partner? -->
-1. If you are in the ID@Xbox program, send email to the ID@xbox team, requesting Concept Approval of your game.
-   Send the email to __.
- 
-   The ID@Xbox team emails you the following:
-   * A Non-Disclosure Agreement (NDA).
-   * A Game Information Form (GIF).
+<!-- UI steps? correct capture?-->
 
-2. Sign the Non-Disclosure Agreement and email it to the ID@Xbox team.
+1. In Partner Center, select your game. In the middle column, select Services: Xbox Live: Xbox Live Setup.
 
-3. Fill-in the Game Information Form and email it to the ID@Xbox team.
+   The "Xbox Live configuration" page appears.
 
-   The ID@Xbox team reviews the Game Information Form.
+   ![](../images/getting_started/gs_pc_xblconfign_pg.png)
 
-   If your game concept is approved, the ID@Xbox team emails you, indicating that your game concept is approved.
-   The ID@Xbox team also enables the Xbox Live user interface at Partner Center for your game.
+2. Select and copy the **SCID** value.
+   This is the Store ID.
+
+3. Contact your Microsoft representative to ask them to add Xbox Live capability to your title.
+   Include the store ID (the SCID value).
 
 
 <!--===========================================================-->
-## 4. Enable Xbox Live for the game
+## 3. Enable Xbox Live for the game
 
-When you receive the "concept approved" email, continue with the following steps.
+When you receive a response from your MS Representative, saying that your game has been Xbox Live-enabled, continue with the following steps.
 
 <!-- todo: this will cause to lose their place in this doc -->
+
 1. Close the browser, including all of the browser's window instances, to clear the session cache.
  
 2. Open the browser.
@@ -135,84 +141,68 @@ When you receive the "concept approved" email, continue with the following steps
 
    ![](../images/getting_started/gs_pc_gameplay_setting_pg.png)
 
-8. In the top right, click the **Publish** link.
+
+<!--===========================================================-->
+## 4. Publish the game
+
+In Partner Center, with your game selected as in the above procedures, do the following.
+
+1. In the top right, click the **Publish** link.
 
    The "Publish gameplay settings" dialog box appears.
 
    ![](../images/getting_started/gs_pc_pubgameplaysetgs_dbx.png)
 
-9. Click the **Confirm** button.
+2. Click the **Confirm** button.
 
    At the bottom of the dialog box, the message appears: "Publishing configuration finished successfully."
    The game is actually published after a delay of possibly 20 minutes.
 
-10. Click the **Close** button.
+3. Click the **Close** button.
 
    The "Publish gameplay settings" dialog box closes, and the "Gameplay Setting" page remains displayed.
 
 The SDK can now be used in an application to sign-in.
 
-(place this image:)
 
-   ![](../images/getting_started/gs_pc_xblconfign_pg.png)
+<!--===========================================================-->
+## 5. Create a Test Account
+
+TBD
 
 
 <!--===========================================================-->
-<!-- future UI:
-## Choose a sandbox
+## 6. Get the Android sign-in sample (move into separate article)
 
-1. In the "Primary Xbox Live development sandbox" section, select a starting sandbox.
+TBD
+~~
 
-2. Click the **Save** button.
+How to add sign-in capability to your app.
 
-   Xbox Live functionality is now enabled for your game.
+API
 
-   After the first call to Xbox Live APIs, after some 30-45 seconds, the page redirects to the "Gameplay Setting" page, which is your Xbox Live configuration page.
+drag-and-drop
 
-3. On the "Xbox Live" page (the "Create a product in Partner Center" page), click the **Publish** button.
+1 async method call, depending on platform.  For mobile, signin is not as simple as before. 
 
-   A <!--"Foo" dialog box appears.-->
+Android Studio
+
+
 
 <!--
-4. Click the **Confirm** button.
-
-   Your game now has Xbox Live configuration in a sandbox, but doesn't have a binary running with the Xbox Live SDK or XDK.
-
-   Your identity configuration information, including the Xbox Live "product identities", is copied into your sandbox for Xbox Live services.
-   This only occurs the first time you click Publish (and Confirm) for the game.
-
-   Your game, or the Android Sign-in sample (discussed in a later step), runs in the runtime of the sandbox, after you click the **Publish** button.
-
-   It is now possible for your game to sign-in to Xbox Live services (discussed in a later step).
+setup related:
+https://review.docs.microsoft.com/en-us/gaming/xbox-live/get-started-with-partner/partner-add-xbox-live-to-unity-uwp?branch=getstart-master
+https://review.docs.microsoft.com/en-us/gaming/xbox-live/get-started-with-partner/xdk-developers?branch=getstart-master
 -->
 
-
 <!--===========================================================-->
-## 5. Publish the game
+## 7. Sign in (move into separate article)
 
 TBD
 
 
 <!--===========================================================-->
-## 6. Create Test Account
-
-TBD
-
-
-<!--===========================================================-->
-## 7. Get the Android sign-in sample
-
-TBD
-
-
-<!--===========================================================-->
-## 8. Sign in
-
-TBD
-
-
-<!--===========================================================-->
-## Background information about configuring a game
+## Background information about configuring a game (relevant where?)
 
 There are two areas, which are configured through different means:
 *  Configuration of services, including server ingestion of information about your game.
@@ -234,7 +224,7 @@ The marketing page for your game is generated based on the metadata in the categ
 
 
 <!--===========================================================-->
-## Platforms
+## Platforms (move into separate article)
 
 Supported package types for each platform:
 * Xbox One supports and ERA, UWP packages.
