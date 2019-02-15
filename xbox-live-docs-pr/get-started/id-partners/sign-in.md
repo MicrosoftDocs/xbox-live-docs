@@ -13,12 +13,8 @@ Prerequisite: [Set up code for targeted devices](setup-targets.md).
 
 ## Add core XSAPI integration (Async, XAL, XSAPI)
 
-TBD
-
 
 ## Add basic sign-in integration
-
-TBD
 
 
 <!-- 

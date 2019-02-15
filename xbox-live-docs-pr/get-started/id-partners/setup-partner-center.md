@@ -10,12 +10,12 @@ ms.localizationpriority: medium
 
 <!--todo: open external links in new tab-->
 
-To add Xbox Live functionality to your game, start by setting up an app in Partner Center, as follows.
+To add Xbox Live functionality to your game, start by setting up an app in Partner Center, by following the steps below.
 
 This procedure is for ID@Xbox partners.
 If you are in the Creators program, see [Getting started, for Creators](../creators/index.md).
 
-
+<!-- todo: highlight/color -->
 ## Prerequisite: Become an ID@Xbox partner
 
 1. Prepare a prototype of your game, such as a demo and screen captures.
@@ -69,9 +69,13 @@ Next, at Partner Center, create a new app, as follows.
 
 7. In the "Select the sandbox..." combo field, click the down-arrow on the right, then click a sandbox; for example, "NKDXTT.0 (shared)".
 
+   Note which sandbox you selected, for later.
+
 8. Click the **Create submission** button.
  
    After a delay, the submission page appears, showing the name of the sandbox and the submission number; for example, "NKDXTT.0 (Submission 1)".
+
+   Your app has now been created at Partner Center and is awaiting being Xbox Live-enabled.
 
 
 <!--===========================================================-->
@@ -102,7 +106,7 @@ Next, at Partner Center, create a new app, as follows.
 
    * **Body**: "Hi support, I would like to enable my Partner Center product.  The store ID is [your game's store ID]."
 
-   Your Microsoft representative emails you; for example: "Your game has been Xbox Live-enabled.  You are now able to enable your product in Partner Center."
+   Your Microsoft representative emails you; for example: "You can now enable your product in Partner Center."
 
 
 <!--===========================================================-->
@@ -143,6 +147,10 @@ When you receive the above email from your MS Representative, continue with the 
    
    ![](../../images/getting_started/gs_pc_gameplay_setting_pg.png)
 
+   You've now completed the initial setup of your game.
+   Your game cannot be tested yet; you need to publish the game first.
+   To do this, you take the identity information that was generated above, and push that information into the Xbox Live runtime system, as follows.
+
 
 <!--===========================================================-->
 ## 4. Publish the game
@@ -158,7 +166,7 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 2. Click the **Confirm** button.
 
    At the bottom of the dialog box, the message appears: "Publishing configuration..." and then "Publishing configuration finished successfully."
-   The game is actually published after a delay of possibly 20 minutes.
+   The game is actually published after a delay of possibly 20 minutes.  IMPORTANT: THOUGH THE UI SAYS THE JOB IS COMPLETE, THE XBOX LIVE SERVERS CAN TAKE AS LONG AS 30 MINUTES TO REPLICATE THE NEW INFO.
 
 3. Click the **Close** button.
 
@@ -180,13 +188,61 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 
    ![](../../images/getting_started/gs_pc_xblconfign_pg.png)
 
-2. Copy and save the title ID value for later.
+2. Copy and save the two Title ID values for later, for use by the SDK.
 
 
 <!--===========================================================-->
 ## 5. Create a Test Account
 
-TBD
+<!-- notes for REleasing article later:
+Config world vs. Runtime world, joined by Publish
+
+config world: PC UI: Saves so can use any pc to edit config.
+
+runtime world: 
+Where I can unlcok achievements etc.  
+Access sandboxes here are Test accounts and devices. 
+
+Test Acct-->
+
+1. In Partner Center, click **Products* on the left: click the product you created.
+
+   The "App info" page appears.
+
+2. Click the **Settings** gear in the upper left, then click **Developer Settings**.
+
+   The "Account settings" page appears.
+
+3. In the **Settings** area in the middle, click **Xbox Live**: **Xbox test accounts**.
+
+   The "Manage test accounts" page appears.
+
+4. Click the **New test account** button.
+
+   The "New test accounts" page appears.
+
+5. In the **Number of accounts to create** text box, enter a number, such as 5.
+
+6. Fill in the **First name** and **Last name** text boxes.
+
+7. The box under "Email template" is the sandbox prefix. To the right of that text box, enter name of your app (your game).
+
+8. In the **Keywords** text box, you can put your name.
+
+9. Under **These accounts can access**, select the sandbox which you selected during the **Submission** step above.
+
+10. Click the **Save** button.
+
+    The "Manage test accounts" page appears.
+
+11. Click the **View job history** link.  
+
+    The "Job History" dialog box appears.  
+    You can use these acccount email addresses later to sign in with an app, that can access the sandbox.
+
+12. Click the page outside the dialog box.
+
+    The "Manage test accounts" page appears.
 
 
 <!--===========================================================-->
