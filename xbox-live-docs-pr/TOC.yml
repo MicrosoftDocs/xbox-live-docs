@@ -5,24 +5,46 @@
       href: get-started/index.md
       items:
         - name: Getting started, for Creators
-          href: get-started/getstart-creators.md
-        - name: Getting started, for ID@Xbox or Managed Partners
-          href: get-started/getstart-id-mp.md
-        - name: Setting up platforms for Xbox Live development
-          href: get-started/platforms/index.md
+          href: get-started/creators/index.md
           items:
-            - name: Setting up Unity
-              href: get-started/platforms/unity-platform.md
-            - name: Setting up Visual Studio
-              href: get-started/platforms/visual-studio-platform.md
-            - name: Targeting Xbox
-              href: get-started/platforms/xbox-platform.md
-            - name: Targeting Windows
-              href: get-started/platforms/windows-platform.md
-            - name: Targeting Android
-              href: get-started/platforms/android-platform.md
-            - name: Targeting iOS
-              href: get-started/platforms/ios-platform.md
+            - name: Setting up a game at Partner Center
+              href: get-started/creators/setup-partner-center.md
+            - name: Setting up an IDE for Xbox Live
+              href: get-started/creators/set-up-ide/index.md
+              items:
+                - name: Setting up Visual Studio for Xbox Live
+                  href: get-started/creators/set-up-ide/setup-visual-studio.md
+                - name: Setting up Unity for Xbox Live
+                  href: get-started/creators/set-up-ide/setup-unity.md
+                - name: Setting up Android Studio for Xbox Live
+                  href: get-started/creators/set-up-ide/setup-android-studio.md
+                - name: Setting up Xcode for Xbox Live
+                  href: get-started/creators/set-up-ide/setup-xcode.md
+            - name: Set up code for targeted devices
+              href: get-started/creators/setup-targets.md
+            - name: Signing-in to Xbox Live
+              href: get-started/creators/sign-in.md
+      items:
+        - name: Getting started, for ID@Xbox partners
+          href: get-started/id-partners/index.md
+          items:
+            - name: Setting up a game at Partner Center
+              href: get-started/id-partners/setup-partner-center.md
+            - name: Setting up an IDE for Xbox Live
+              href: get-started/id-partners/set-up-ide/index.md
+              items:
+                - name: Setting up Visual Studio for Xbox Live
+                  href: get-started/id-partners/set-up-ide/setup-visual-studio.md
+                - name: Setting up Unity for Xbox Live
+                  href: get-started/id-partners/set-up-ide/setup-unity.md
+                - name: Setting up Android Studio for Xbox Live
+                  href: get-started/id-partners/set-up-ide/setup-android-studio.md
+                - name: Setting up Xcode for Xbox Live
+                  href: get-started/id-partners/set-up-ide/setup-xcode.md
+            - name: Set up code for targeted devices
+              href: get-started/id-partners/setup-targets.md
+            - name: Signing-in to Xbox Live
+              href: get-started/id-partners/sign-in.md
 - name: What is Xbox Live?
   href: index.md
 - name: Developer program overview

@@ -1,28 +1,19 @@
 ---
-title: Getting started, for ID@Xbox partners
-description: Get started adding Xbox Live functionality to your game, as an ID@Xbox partner.
+title: Setting up a game at Partner Center
+description: Get started adding Xbox Live functionality to your game, by setting up an app at Partner Center.
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, xbox one, sign-in
 ms.localizationpriority: medium
 ---
-# Getting started, for ID\@Xbox partners
-
-To add Xbox Live functionality to your game, start here.
+# Setting up a game at Partner Center
 
 <!--todo: open external links in new tab-->
 
+To add Xbox Live functionality to your game, start by setting up an app in Partner Center, as follows.
 
-## Prerequisite: Become an ID@Xbox partner
-
-1. Prepare a prototype of your game, such as a demo and screen captures.
-
-2. If you aren't already an ID@Xbox partner, apply to the ID@Xbox program.
-   An ID@Xbox partner is a Managed Partner.
-   To apply to become an ID@Xbox partner, right-click the following link and then click **Open in new window**: [Welcome to ID@Xbox](https://www.xbox.com/developers/id).
-   Follow the instructions at that site, which will result in a Microsoft Partner Center account being generated for you.
-
-   If you are in the Creators program, see [Getting started, for Creators](getstart-creators.md).
+This procedure is for the Creators program.
+If you are an ID@Xbox partner, see [Getting started, for ID@Xbox partners](../id-partners/index.md).
 
 
 <!--===========================================================-->
@@ -75,6 +66,8 @@ Next, at Partner Center, create a new app, as follows.
 
 <!--===========================================================-->
 ## 2. Contact your Microsoft Representative to enable your game
+
+tbd: delete section?
 
 <!-- UI steps? correct capture?-->
 
@@ -189,12 +182,12 @@ TBD
 
 
 <!--===========================================================-->
-## Next steps
+## Next step
 
-TBD
+[Setting up an IDE for Xbox Live](set-up-ide/index.md)
 
 
 <!--===========================================================-->
 ## See also
 
-[Partner Center Xbox Live configuration Summary page](../configure-xbl/dev-center/summary.md)
+[Partner Center Xbox Live configuration Summary page](../../configure-xbl/dev-center/summary.md)
