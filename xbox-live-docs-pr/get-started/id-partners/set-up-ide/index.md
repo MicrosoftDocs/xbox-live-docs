@@ -8,7 +8,7 @@ ms.localizationpriority: medium
 ---
 # Setting up an IDE for Xbox Live
 
-Prerequisite step: [Setting up a game at Partner Center](setup-partner-center.md).
+Prerequisite step: [Setting up a game at Partner Center](../setup-partner-center.md).
 
 
 ## In this section

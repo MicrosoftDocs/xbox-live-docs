@@ -35,13 +35,13 @@ Next, at Partner Center, create a new app, as follows.
 
    The Partner Center dashboard appears, showing the "Overview" page, within the "WINDOWS" section.
 
-   ![](../images/getting_started/gs_pc_overview_pg.png)
+   ![](../../images/getting_started/gs_pc_overview_pg.png)
 
 2. Click the **Create a new app** button.
 
    The page "Create your app by reserving a name" appears.
 
-   ![](../images/getting_started/gs_pc_createappreservename.png)
+   ![](../../images/getting_started/gs_pc_createappreservename.png)
 
 3. In the text box, enter the name of your product.
    You can change the name later.
@@ -53,19 +53,19 @@ Next, at Partner Center, create a new app, as follows.
    > You won't be able to select this option button later.
    > (Do not select the check box "Do not create this product in a sandbox".)
 
-   ![](../images/getting_started/gs_pc_createappreservename02.png)
+   ![](../../images/getting_started/gs_pc_createappreservename02.png)
 
 5. Click the **Reserve product name** button.
 
    The "App overview" page appears.
 
-   ![](../images/getting_started/gs_pc_app_overview01_pg.png)
+   ![](../../images/getting_started/gs_pc_app_overview01_pg.png)
 
 6. Click the **Start your submission** button.
 
    The "Start your submission" dialog box appears.
 
-   ![](../images/getting_started/gs_pc_startyoursubmission_dbx.png)
+   ![](../../images/getting_started/gs_pc_startyoursubmission_dbx.png)
 
 7. In the "Select the sandbox..." combo field, click the down-arrow on the right, then click a sandbox; for example, "NKDXTT.0 (shared)".
 
@@ -90,7 +90,7 @@ Next, at Partner Center, create a new app, as follows.
 
    The "Identity details" page appears.
 
-   ![](../images/getting_started/gs_pc_identitydetails_pg.png)
+   ![](../../images/getting_started/gs_pc_identitydetails_pg.png)
 
 3. Copy the **Store ID**.
 
@@ -123,13 +123,13 @@ When you receive the above email from your MS Representative, continue with the 
 
    The "App overview" page appears.
 
-   ![](../images/getting_started/gs_pc_app_overview_pg.png)
+   ![](../../images/getting_started/gs_pc_app_overview_pg.png)
 
 3. Under **Services**, click **Xbox Live**.
 
    The "Enable Xbox Live" page appears, this first time only.
 
-   ![](../images/getting_started/gs_pc_enablexboxlive_pg.png)
+   ![](../../images/getting_started/gs_pc_enablexboxlive_pg.png)
 
 4. In the "Xbox Live app name" text box, enter the name of your game.
    You can use the same name as shown at the top of the page, but it doesn't need to be the same.
@@ -141,7 +141,7 @@ When you receive the above email from your MS Representative, continue with the 
 
    After some time, the Xbox Live "Gameplay Setting" page automatically appears.
    
-   ![](../images/getting_started/gs_pc_gameplay_setting_pg.png)
+   ![](../../images/getting_started/gs_pc_gameplay_setting_pg.png)
 
 
 <!--===========================================================-->
@@ -153,7 +153,7 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 
    The "Publish gameplay settings" dialog box appears.
 
-   ![](../images/getting_started/gs_pc_pubgameplaysetgs_dbx.png)
+   ![](../../images/getting_started/gs_pc_pubgameplaysetgs_dbx.png)
 
 2. Click the **Confirm** button.
 
@@ -178,7 +178,7 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 
    The "Xbox Live configuration" page appears.
 
-   ![](../images/getting_started/gs_pc_xblconfign_pg.png)
+   ![](../../images/getting_started/gs_pc_xblconfign_pg.png)
 
 2. Copy and save the title ID value for later.
 

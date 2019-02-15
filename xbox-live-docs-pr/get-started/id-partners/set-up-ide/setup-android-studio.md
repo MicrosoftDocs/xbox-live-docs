@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 
 This article is for ID@Xbox partners.
 
-Prerequisite step: [Setting up a game at Partner Center](setup-partner-center.md).
+Prerequisite step: [Setting up a game at Partner Center](../setup-partner-center.md).
 
 
 <!--===================================================-->

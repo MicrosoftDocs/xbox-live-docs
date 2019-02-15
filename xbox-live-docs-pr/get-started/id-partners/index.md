@@ -13,7 +13,7 @@ To get started adding Xbox Live functionality to your game, you set up an app at
 Follow these articles in the sequence shown.
 
 This page is for ID@Xbox partners.
-See also [Getting started, for Creators](../creators-program/index.md).
+See also [Getting started, for Creators](../creators/index.md).
 
 
 ## In this section
