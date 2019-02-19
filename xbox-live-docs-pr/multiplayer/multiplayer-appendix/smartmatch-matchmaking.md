@@ -190,7 +190,7 @@ With the config UI for XDP or Partner Center, you can map each session to one or
 
 This section defines the fields used to configure basic hopper fields. After this configuration, you must configure the hopper rules, as described in Configuration of Hopper Rules.
 
-![](../../images/multiplayer/session_template_hopper_edit.png)
+![Hopper Editor screenshot from Xbox Developer Portal](../../images/multiplayer/session_template_hopper_edit.png)
 
 
 ###### Name
@@ -450,7 +450,7 @@ For games using peer-to-peer network topologies, an important aspect of target s
 
 The following flow chart illustrates how to implement the initialization of the target session and QoS operations.
 
-![](../../images/multiplayer/Multiplayer_2015_Matchmaking_QoS.png)
+![Matchmaking Quality of Service flowchart](../../images/multiplayer/Multiplayer_2015_Matchmaking_QoS.png)
 
 ### Managed Initialization
 

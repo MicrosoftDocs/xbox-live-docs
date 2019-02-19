@@ -147,7 +147,7 @@ The match ticket session should be used with a game session template set up with
 
 Figure 2. Sample hopper.
 
-![](../../images/whitepapers/mpsd_image1.png)
+![Hopper edit dialogue screenshot](../../images/whitepapers/mpsd_image1.png)
 
 The code excerpt that follows is an example of a peer-to-peer game session template (title-managed QoS).
 
@@ -431,7 +431,7 @@ Example:
 ```
 
 
-![](../../images/whitepapers/mpsd_image2.png)
+![Member initialization flowchart](../../images/whitepapers/mpsd_image2.png)
 
 **Figure 3. Member initialization flow.**
 

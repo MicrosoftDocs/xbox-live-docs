@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 Install Unity 5.3 or higher and during the Unity install process, check the "Windows Store .NET Scripting backend" component.
 
-![](../images/unity/unity1-install.png)
+![Unity Installation Wizard screnshot](../images/unity/unity1-install.png)
 
 **2) Open a new or existing Unity project**
 
@@ -40,7 +40,7 @@ For example, click on a Unity object such as the "Main Camera", and click "Add C
 
 6.  Click "Build" for Unity to generate the UWP Visual Studio project that wraps your Unity game in a UWP application. When you get prompted for a location, create a new folder to avoid confusion since a lot of new files will be created. It’s recommended you call the folder "Build", and then select that folder
 
-![](../images/unity/unity3-buildsettings.png)
+![Unity build settings screenshot](../images/unity/unity3-buildsettings.png)
 
 
 **6) Open the generated UWP project in Visual Studio**

@@ -24,7 +24,7 @@ The tournament match itself is coordinated by using a Multiplayer Session Direct
 
 Your title uses the session to set up the match and report results. Responding to protocol activation and interacting with the MPSD session is the minimum level of integration required by Arena titles. Browsing and registering for tournaments is supported via the Xbox Arena UI. Optionally, titles can get additional information about the tournament from the Tournaments Hub service, enabling a richer in-title experience. For example, by using the Tournaments Hub, your title can display context such as the team names, and discover new match sessions for a user. This data flow is depicted by the green arrows in the following diagram, and is described in detail in the [Experience requirements and best practices](#experience-requirements-and-best-practices) section. The faded arrows indicate that the reference from the team to the session changes over time, as the user moves from match to match within the tournament.
 
-![](../../images/arena/tournament-flow.png)
+![Tournament call control flowchart](../../images/arena/tournament-flow.png)
 
 
 The Arena protocol activation URI contains information about the tournament, the session for the match, and a deep link that your title can invoke when the match is over. The deep link returns the user to the Xbox Arena UI. These URI components are described in more detail in the [Protocol activation](#protocol-activation) section of [Basic requirements for Arena integration](#basic-requirements-for-arena-integration).
@@ -33,7 +33,7 @@ The Arena protocol activation URI contains information about the tournament, the
 
 This section provides technical guidance and details for integrating your title with the minimum requirements for supporting Arena. This style of integration leverages the data flow depicted by the orange arrows in the following overview diagram.
 
-![](../../images/arena/arena-data-flow.png)
+![Tournament data flowchart](../../images/arena/arena-data-flow.png)
 
 Your title is protocol-activated from the Xbox Arena UI. This could originate from a toast notification, the details page for the tournament, or any other entry point for the match. The steps that occur when a user participates in a match are:
 
@@ -123,7 +123,7 @@ The results of the match are reported back to Arena and the TO through the sessi
 
 The session provided to your title in the protocol-activation step will be an arbitrated session, which means that it has a fixed timeline that the arbitration framework enforces. This diagram shows the arbitration timeline.
 
-![](../../images/arena/arbitration-timeline.png)
+![Tournament arbitration timeline chart](../../images/arena/arbitration-timeline.png)
 
 At least one player must be active in the session before the forfeit time, which is the start time (`multiplayer_session_arbitration_server::arbitration_start_time()`) plus the forfeit time-out. The forfeit time-out is in the session as a number of milliseconds at `/constants/system/arbitration/forfeitTimeout` (`multiplayer_session_constants::forfeit_timeout()`). If no one has joined the session as active before the forfeit time, the match is canceled.
 
@@ -325,7 +325,7 @@ To enable a title for Arena, some additional steps are required when you configu
 
 To enable Arena, go to the service configuration page for your title in XDP and select ‘Arena’.
 
-![](../../images/arena/arena-configure-xdp.png)
+![Arena configuration on Xbox Developer Platform screenshot](../../images/arena/arena-configure-xdp.png)
 
 Here, you’ll have several options:
 

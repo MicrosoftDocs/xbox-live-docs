@@ -101,13 +101,13 @@ Sandbox IDs are case sensitive.
 
 If you are configuring your title in Partner Center, you get your Sandbox ID on the "Xbox Live" root configuration page as shown below:
 
-![](images/getting_started/devcenter_sandbox_id.png)
+![Xbox Live title information on Partner Center screenshot. Includes Sandbox ID](images/getting_started/devcenter_sandbox_id.png)
 
 **XDP**
 
 If you are configuring your title on XDP, you get your Sandbox ID on the overview page for your product as shown below:
 
-![](images/getting_started/xdp_sandbox_id.png)
+![Title Overview page on Xbox Developer Portal. Includes Sandbox ID](images/getting_started/xdp_sandbox_id.png)
 
 #### Service Configuration ID (SCID)
 
@@ -119,13 +119,13 @@ SCIDs are case sensitive.
 
 To retrieve your SCID in Partner Center, navigate to the Xbox Live Services section and go to *Xbox Live Setup* . Your SCID is displayed in the table shown below:
 
-![](images/getting_started/devcenter_scid.png)
+![SCID displayed in Xbox Live Configuration on Partner Center screenshot](images/getting_started/devcenter_scid.png)
 
 **XDP**
 
 To retrieve your SCID on XDP, navigate to the "Product Setup" section under your title and you will see both the Title ID and SCID.
 
-![](images/getting_started/xdp_scid.png)
+![Xbox Developer Portal Product Setup page screenshot. Includes SCID.](images/getting_started/xdp_scid.png)
 
 #### Title ID
 

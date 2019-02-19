@@ -20,7 +20,7 @@ If you don't do this step, then your title will not get  protocol activated when
 
 Your Package.appxmanifest file is typically located in the same directory as your Visual Studio project's solution file.  Or you can find it in the solution explorer.
 
-![](../../images/multiplayer/multiplayer_open_appxmanifest.png)
+![Package.appxmanifest in Solution Explorer and File Explorer screenshot](../../images/multiplayer/multiplayer_open_appxmanifest.png)
 
 ## Add new entry
 
@@ -36,6 +36,6 @@ You will need to add the following to the ```<Extensions>``` element under ```<A
 
 Eg:
 
-![](../../images/multiplayer/multiplayer_appxmanifest_changes.png)
+![Highlighted changes to Package.appxmanifest mark up](../../images/multiplayer/multiplayer_appxmanifest_changes.png)
 
 Save and rebuild your title.  To learn how to use the Multiplayer Manager to implement the ability to invite players to your title, please see [Play Multiplayer With Friends](../multiplayer-manager/play-multiplayer-with-friends.md)
