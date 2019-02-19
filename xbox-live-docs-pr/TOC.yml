@@ -13,7 +13,7 @@
         - name: Setting up Xcode for Xbox Live
           href: get-started/setup-xcode.md
         - name: Signing-in to Xbox Live
-          href: write-sign-in-code.md
+          href: get-started/write-sign-in-code.md
 - name: What is Xbox Live?
   href: index.md
 - name: Developer program overview
