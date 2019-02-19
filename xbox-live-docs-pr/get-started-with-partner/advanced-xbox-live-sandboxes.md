@@ -90,7 +90,7 @@ So, for a user or device to access a pre-release title in a sandbox, access must
 
 Figure 3. A model for setting up access through XDP.
 
-![](../images/sandboxes/sandboxes_image3.png)
+![XDP sandbox resource access setup diagram](../images/sandboxes/sandboxes_image3.png)
 
 The effectiveness of content isolation is based on the fact that your organization owns the following processes:
 
@@ -104,7 +104,7 @@ An example of this setup is illustrated in the figure below.
 
 Figure 4. An unauthorized user's credentials fail to gain access to the sandbox, as do the ordinary credentials of an authorized XDP user account. Only the credentials of the dev account owned by the authorized XDP user account succeed in gaining run-time access to the sandbox, and to all of the product instances currently in it.
 
-![](../images/sandboxes/sandboxes_image4.png)
+![Sandbox access denial diagram](../images/sandboxes/sandboxes_image4.png)
 
 ### Dev accounts setup
 

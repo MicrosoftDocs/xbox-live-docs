@@ -891,7 +891,7 @@ Using certificate authentication: client-sessiondirectory.xboxlive.com
 
 Example:
 
-```
+``` uri
 PUT https://client-sessiondirectory-stress.xboxlive.com/serviceconfigs/8cvda84-2606-4bab-8eda-d12313e65143/sessiontemplates/teamDeathmatch/sessions/3baafc35-816d-49cd-9656-5772506c988a
 ```
 
@@ -899,7 +899,7 @@ Using XToken authentication: sessiondirectory.xboxlive.com
 
 Example:
 
-```
+``` uri
 PUT https://sessiondirectory-stress.xboxlive.com/serviceconfigs/8cvda84-2606-4bab-8eda-d12313e65143/sessiontemplates/teamDeathmatch/sessions/3baafc35-816d-49cd-9656-5772506c988a
 ```
 
