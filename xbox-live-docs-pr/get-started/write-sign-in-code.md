@@ -1,6 +1,6 @@
 ---
 title: Signing-in to Xbox Live
-description: Signing-in to Xbox Live through your game.
+description: Writing code for your game to sign-in to Xbox Live.
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, xbox one, sign-in
@@ -8,7 +8,10 @@ ms.localizationpriority: medium
 ---
 # Signing-in to Xbox Live
 
-Prerequisite: [Set up code for targeted devices](setup-targets.md).
+   > [!IMPORTANT]
+   > Prerequisite step: Set up an IDE with the Xbox Live SDK, for your target platforms. See [Getting started](index.md).
+
+Now that you've set up an app in Partner Center and have set up an IDE, write code for your game to sign-in to Xbox Live, as follows.
 
 
 ## Add core XSAPI integration (Async, XAL, XSAPI)
@@ -37,24 +40,24 @@ set up your envir; initialize the java envir for this device.
 Game_Integration_ini.cpp -- ...InitializeNativeEnv()
 
 core integration: 
-4 fooIntegrration .cpp  files add into your proejct, or at least a way of calling eg XAL integration for XAL iniit. Requires a specific order. 
+4 fooIntegration .cpp  files add into your project, or at least a way of calling eg XAL integration for XAL init. Requires a specific order.
 Set up plat args for a specific java machine.  X
 
 In init, set all this up for native XSAPI calls.
 
 Integrate best practices shown here (XAL_Integration.cpp) into your code.  
 
-Once you have all of that in, the only signin code you might have to include is links to any gameplay you wnat to do after signin or before signout.  in XAL_Gameplay.cpp.  That file also has ShowWebView(), to get from C++ to native java, to enact signin.
+Once you have all of that in, the only signin code you might have to include is links to any gameplay you want to do after signin or before signout.  in XAL_Gameplay.cpp.  That file also has ShowWebView(), to get from C++ to native java, to enact signin.
 
-Sample shows how to welcome the user that has signed-in. 
+Sample shows how to welcome the user that has signed-in.
 -->
-
-
 
 
 <!-- start of "Getting started with Xbox Live in Project Antibes" -->
 
+
 ## Add Xbox Live APIs (XAL and XSAPI) to Your Project
+
 In order to use the Xbox Live APIs in a Project Antibes desktop game on Windows 10 PC, you must include the Xbox Live extension SDK headers and libraries in your project:
 
 1. Make sure that you have installed the Gaming Runtime SDK (GRDK) on your development PC.
@@ -67,7 +70,9 @@ In order to use the Xbox Live APIs in a Project Antibes desktop game on Windows 
   </ImportGroup>
 ```
 
+
 ## Initialize Gaming Runtime
+
 Because Xbox Live APIs depend on the Gaming Runtime service, before calling any XAL or XSAPI APIs, you need to initialize the Gaming Runtime service:
 
 ```c
@@ -76,7 +81,9 @@ Because Xbox Live APIs depend on the Gaming Runtime service, before calling any 
     HRESULT hr = XGameRuntimeInitialize();
 ```
 
+
 ## Optionally Create XTaskQueue
+
 Most of the Xbox Live APIs are asynchronous APIs, and require the use of a task queue. A task queue is an API for queuing work and completion task callbacks. To learn more about XTaskQueue and different dispatch modes, please refer to [XTaskQueue Overview](../../system/overviews/xtaskqueue-overview.md)
 
 For example, the following code creates a task queue using system thread pool:
@@ -90,7 +97,9 @@ For example, the following code creates a task queue using system thread pool:
 
 If you don't create a task queue, you can pass in nullptr below for the queue.  When nullptr is used, the task system will use ThreadPool by default and but can be overridden by calling `XTaskQueueSetCurrentProcessTaskQueue`.
 
+
 ## Initialize XAL (Xbox Authentication Library)
+
 You will need to Initialize XAL before adding a user:
 ```c
     XalInitArgs xalArgs = {};
@@ -100,11 +109,14 @@ You will need to Initialize XAL before adding a user:
 ```
 
 ## Add user to Xbox Live
+
 XAL has two add user functions, `XalTryAddDefaultUserSilentlyResult` which attempts to add a user without showing any UI, and `XalAddUserWithUiAsync`, which attempts to add a user with UI.
 
 You will need to setup an `XAsyncBlock` which calls the appropriate result function, `XalTryAddDefaultUserSilentlyResult` or  `XalAddUserWithUiResult`, in its return function before calling the add function. You will also need to have setup an `XAsyncQueue`to handle the asynchronous work.
 
+
 ### Add a user without showing any UI
+
 You should first attempt to add the user automatically without any UI.
 ```c
     XAsyncBlock* asyncBlock = new XAsyncBlock;
@@ -142,7 +154,9 @@ You should first attempt to add the user automatically without any UI.
     assert(SUCCEEDED(hr));
 ```
 
+
 ### Add user with UI
+
 If the user could not be added silently - for example if the user needs to give consent to the game for accessing Xbox Live profile, you should call the XalAddUserWithUiAsync API to add the user with UI.
 ```c
     XAsyncBlock* asyncBlock = new XAsyncBlock;
@@ -199,7 +213,9 @@ If the user could not be added silently - for example if the user needs to give 
     assert(SUCCEEDED(hr));
 ```
 
+
 ## Initialize XSAPI (Xbox Services API)
+
 You will need to initialize XSAPI before calling other Xbox Service APIs:
 ```c
     XblInitArgs xblArgs = {};
@@ -208,7 +224,9 @@ You will need to initialize XSAPI before calling other Xbox Service APIs:
     XblInitialize(&xblArgs);
 ```
 
+
 ## Create an Xbox Live Context handle in XSAPI 
+
 You will need to create an Xbox Live context handle for each user after the sig
 
 ```c
@@ -220,6 +238,7 @@ void HandleAddUserSuccess(XalUserHandle xalUser)
 ```
 
 ## Use XSAPI APIs
+
 Here is an example of how to call XSAPI to get a user profile.  
 Other XSAPI C async APIs can be called with a similar calling pattern.
 
@@ -252,7 +271,6 @@ Other XSAPI C async APIs can be called with a similar calling pattern.
 <!-- end of "Getting started with Xbox Live in Project Antibes" -->
 
 
-
 ## Testing sign-in
 
 TBD
@@ -260,5 +278,5 @@ TBD
 
 ## Next steps
 
-Add Xbox Live features.
-Feature areas include player identity, social features, player data, cloud storage, multiplayer features, and external services.
+After your game is able to sign-in to Xbox Live, add Xbox Live features.
+See [Getting started](index.md).

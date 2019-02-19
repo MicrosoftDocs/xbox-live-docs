@@ -12,19 +12,25 @@ ms.localizationpriority: medium
 
 To add Xbox Live functionality to your game, start by setting up an app in Partner Center, by following the steps below.
 
-This procedure is for ID@Xbox partners.
-If you are in the Creators program, see [Getting started, for Creators](../creators/index.md).
 
-<!-- todo: highlight/color -->
-## Prerequisite: Become an ID@Xbox partner
+## Prerequisite: Become a Creator or an ID@Xbox partner
 
-1. Prepare a prototype of your game, such as a demo and screen captures.
+   > [!IMPORTANT]
+   >
+   > Prerequisite steps for Creators:
+   > * If you aren't already in the Creators program, join the Creators program.
+   > To join the Creators program, right-click the following link and then click **Open in new window**: [TBD](TBD).
+   > Follow the instructions at that site.
 
-2. If you aren't already an ID@Xbox partner, apply to the ID@Xbox program.
-   An ID@Xbox partner is a Managed Partner.
-   To apply to become an ID@Xbox partner, right-click the following link and then click **Open in new window**: [Welcome to ID@Xbox](https://www.xbox.com/developers/id).
-   Follow the instructions at that site, which will result in a Microsoft Partner Center account being generated for you.
-
+   > Prerequisite steps for ID@Xbox partners:
+   > 1. Prepare a prototype of your game, such as a demo and screen captures.
+   >
+   > 2. If you aren't already an ID@Xbox partner, apply to the ID@Xbox program.
+   >
+   > An ID@Xbox partner is a Managed Partner.
+   > To apply to become an ID@Xbox partner, right-click the following link and then click **Open in new window**: [Welcome to ID@Xbox](https://www.xbox.com/developers/id).
+   > Follow the instructions at that site, which will result in a Microsoft Partner Center account being generated for you.
+   
 
 <!--===========================================================-->
 ## 1. Create a new app
@@ -35,13 +41,13 @@ Next, at Partner Center, create a new app, as follows.
 
    The Partner Center dashboard appears, showing the "Overview" page, within the "WINDOWS" section.
 
-   ![](../../images/getting_started/gs_pc_overview_pg.png)
+   ![](images/pc_overview_pg.png)
 
 2. Click the **Create a new app** button.
 
    The page "Create your app by reserving a name" appears.
 
-   ![](../../images/getting_started/gs_pc_createappreservename.png)
+   ![](images/pc_createappreservename.png)
 
 3. In the text box, enter the name of your product.
    You can change the name later.
@@ -53,26 +59,26 @@ Next, at Partner Center, create a new app, as follows.
    > You won't be able to select this option button later.
    > (Do not select the check box "Do not create this product in a sandbox".)
 
-   ![](../../images/getting_started/gs_pc_createappreservename02.png)
+   ![](images/pc_createappreservename02.png)
 
 5. Click the **Reserve product name** button.
 
    The "App overview" page appears.
 
-   ![](../../images/getting_started/gs_pc_app_overview01_pg.png)
+   ![](images/pc_app_overview01_pg.png)
 
 6. Click the **Start your submission** button.
 
    The "Start your submission" dialog box appears.
 
-   ![](../../images/getting_started/gs_pc_startyoursubmission_dbx.png)
+   ![](images/pc_startyoursubmission_dbx.png)
 
 7. In the "Select the sandbox..." combo field, click the down-arrow on the right, then click a sandbox; for example, "NKDXTT.0 (shared)".
 
    Note which sandbox you selected, for later.
 
 8. Click the **Create submission** button.
- 
+
    After a delay, the submission page appears, showing the name of the sandbox and the submission number; for example, "NKDXTT.0 (Submission 1)".
 
    Your app has now been created at Partner Center and is awaiting being Xbox Live-enabled.
@@ -94,7 +100,7 @@ Next, at Partner Center, create a new app, as follows.
 
    The "Identity details" page appears.
 
-   ![](../../images/getting_started/gs_pc_identitydetails_pg.png)
+   ![](images/pc_identitydetails_pg.png)
 
 3. Copy the **Store ID**.
 
@@ -127,13 +133,13 @@ When you receive the above email from your MS Representative, continue with the 
 
    The "App overview" page appears.
 
-   ![](../../images/getting_started/gs_pc_app_overview_pg.png)
+   ![](images/pc_app_overview_pg.png)
 
 3. Under **Services**, click **Xbox Live**.
 
    The "Enable Xbox Live" page appears, this first time only.
 
-   ![](../../images/getting_started/gs_pc_enablexboxlive_pg.png)
+   ![](images/pc_enablexboxlive_pg.png)
 
 4. In the "Xbox Live app name" text box, enter the name of your game.
    You can use the same name as shown at the top of the page, but it doesn't need to be the same.
@@ -145,7 +151,7 @@ When you receive the above email from your MS Representative, continue with the 
 
    After some time, the Xbox Live "Gameplay Setting" page automatically appears.
    
-   ![](../../images/getting_started/gs_pc_gameplay_setting_pg.png)
+   ![](images/pc_gameplay_setting_pg.png)
 
    You've now completed the initial setup of your game.
    Your game cannot be tested yet; you need to publish the game first.
@@ -161,7 +167,7 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 
    The "Publish gameplay settings" dialog box appears.
 
-   ![](../../images/getting_started/gs_pc_pubgameplaysetgs_dbx.png)
+   ![](images/pc_pubgameplaysetgs_dbx.png)
 
 2. Click the **Confirm** button.
 
@@ -186,7 +192,7 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 
    The "Xbox Live configuration" page appears.
 
-   ![](../../images/getting_started/gs_pc_xblconfign_pg.png)
+   ![](images/pc_xblconfign_pg.png)
 
 2. Copy and save the two Title ID values for later, for use by the SDK.
 
@@ -194,32 +200,29 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 <!--===========================================================-->
 ## 5. Create a Test Account
 
-<!-- notes for REleasing article later:
-Config world vs. Runtime world, joined by Publish
-
-config world: PC UI: Saves so can use any pc to edit config.
-
-runtime world: 
-Where I can unlcok achievements etc.  
-Access sandboxes here are Test accounts and devices. 
-
-Test Acct-->
-
 1. In Partner Center, click **Products* on the left: click the product you created.
 
    The "App info" page appears.
+
+   <!-- ![](images/XX.png) -->
 
 2. Click the **Settings** gear in the upper left, then click **Developer Settings**.
 
    The "Account settings" page appears.
 
+   <!-- ![](images/XX.png) -->
+
 3. In the **Settings** area in the middle, click **Xbox Live**: **Xbox test accounts**.
 
    The "Manage test accounts" page appears.
 
+   <!-- ![](images/XX.png) -->
+
 4. Click the **New test account** button.
 
    The "New test accounts" page appears.
+
+   <!-- ![](images/XX.png) -->
 
 5. In the **Number of accounts to create** text box, enter a number, such as 5.
 
@@ -235,20 +238,27 @@ Test Acct-->
 
     The "Manage test accounts" page appears.
 
+   <!-- ![](images/XX.png) -->
+
 11. Click the **View job history** link.  
 
     The "Job History" dialog box appears.  
     You can use these acccount email addresses later to sign in with an app, that can access the sandbox.
 
+   <!-- ![](images/XX.png) -->
+
 12. Click the page outside the dialog box.
 
     The "Manage test accounts" page appears.
+
+Your game is now set up at Partner Center.
 
 
 <!--===========================================================-->
 ## Next step
 
-[Setting up an IDE for Xbox Live](set-up-ide/index.md)
+After your game is set up at Partner Center, set up an IDE with the Xbox Live SDK, for your target platforms.
+See [Getting started](index.md).
 
 
 <!--===========================================================-->

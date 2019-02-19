@@ -1,18 +1,21 @@
 ---
-title: Setting up Unity for Xbox Live
-description: Setting up Unity to use the Xbox Live SDK.
+title: Setting up Visual Studio for Xbox Live
+description: Setting up Visual Studio to use the Xbox Live SDK, to target UWP, Xbox, or Android.
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, xbox one
 ms.localizationpriority: medium
 ---
-# Setting up Unity for Xbox Live
+# Setting up Visual Studio for Xbox Live
 
-Prerequisite step: [Setting up a game at Partner Center](../setup-partner-center.md).
+   > [!IMPORTANT]
+   > Prerequisite step: Set up a game at Partner Center. See [Getting started](index.md).
+
+In Visual Studio, Creators can target UWP and Xbox; ID@Xbox partners can additionally target Android.
 
 
 <!--===================================================-->
-## Download Unity
+## Download Visual Studio
 
 
 
@@ -22,7 +25,7 @@ Prerequisite step: [Setting up a game at Partner Center](../setup-partner-center
 
 
 <!--===================================================-->
-## Set up Unity to use the Xbox Live SDK
+## Set up Visual Studio to use the Xbox Live SDK
 
 
 ### Add additional SDK libraries (XSAPI)
@@ -40,4 +43,4 @@ Prerequisite step: [Setting up a game at Partner Center](../setup-partner-center
 <!--===================================================-->
 ## Next step
 
-[Set up code for targeted devices](../setup-targets.md)
+Write code for your game to sign-in to Xbox Live. See [Getting started](index.md).

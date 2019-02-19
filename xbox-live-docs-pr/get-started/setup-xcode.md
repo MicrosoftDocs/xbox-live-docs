@@ -1,6 +1,6 @@
 ---
 title: Setting up Xcode for Xbox Live
-description: Setting up Xcode to use the Xbox Live SDK.
+description: Setting up Xcode to use the Xbox Live SDK, to target iOS.
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, xbox one
@@ -8,17 +8,18 @@ ms.localizationpriority: medium
 ---
 # Setting up Xcode for Xbox Live
 
-Prerequisite step: [Setting up a game at Partner Center](../setup-partner-center.md).
+This article is for ID@Xbox partners; Creators set up Visual Studio instead.
+
+   > [!IMPORTANT]
+   > Prerequisite step: Set up a game at Partner Center. See [Getting started](index.md).
 
 
 <!--===================================================-->
 ## Download Xcode
 
 
-
 <!--===================================================-->
 ## Get the Xbox Live SDK
-
 
 
 <!--===================================================-->
@@ -36,8 +37,7 @@ Prerequisite step: [Setting up a game at Partner Center](../setup-partner-center
 ## Set up the Services.config file
 
 
-
 <!--===================================================-->
 ## Next step
 
-[Set up code for targeted devices](../setup-targets.md)
+Write code for your game to sign-in to Xbox Live. See [Getting started](index.md).
