@@ -84,7 +84,8 @@ Because Xbox Live APIs depend on the Gaming Runtime service, before calling any 
 
 ## Optionally Create XTaskQueue
 
-Most of the Xbox Live APIs are asynchronous APIs, and require the use of a task queue. A task queue is an API for queuing work and completion task callbacks. To learn more about XTaskQueue and different dispatch modes, please refer to [XTaskQueue Overview](../../system/overviews/xtaskqueue-overview.md)
+Most of the Xbox Live APIs are asynchronous APIs, and require the use of a task queue. A task queue is an API for queuing work and completion task callbacks.
+<!-- To learn more about XTaskQueue and different dispatch modes, please refer to [XTaskQueue Overview](../../system/overviews/xtaskqueue-overview.md) -->
 
 For example, the following code creates a task queue using system thread pool:
 ```c

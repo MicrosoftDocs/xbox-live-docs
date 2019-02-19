@@ -18,8 +18,8 @@ To add Xbox Live functionality to your game, start by setting up an app in Partn
    > [!IMPORTANT]
    >
    > Prerequisite steps for Creators:
-   > * If you aren't already in the Creators program, join the Creators program.
-   > To join the Creators program, right-click the following link and then click **Open in new window**: [TBD](TBD).
+   > * If you aren't already in the Creators Program, join the Creators Program.
+   > To join the Creators Program, right-click the following link and then click **Open in new window**: [Xbox Live Creators Program](https://www.xbox.com/developers/creators-program).
    > Follow the instructions at that site.
 
    > Prerequisite steps for ID@Xbox partners:
@@ -30,7 +30,7 @@ To add Xbox Live functionality to your game, start by setting up an app in Partn
    > An ID@Xbox partner is a Managed Partner.
    > To apply to become an ID@Xbox partner, right-click the following link and then click **Open in new window**: [Welcome to ID@Xbox](https://www.xbox.com/developers/id).
    > Follow the instructions at that site, which will result in a Microsoft Partner Center account being generated for you.
-   
+
 
 <!--===========================================================-->
 ## 1. Create a new app
@@ -264,4 +264,4 @@ See [Getting started](index.md).
 <!--===========================================================-->
 ## See also
 
-[Partner Center Xbox Live configuration Summary page](../../configure-xbl/dev-center/summary.md)
+[Partner Center Xbox Live configuration Summary page](../configure-xbl/dev-center/summary.md)
