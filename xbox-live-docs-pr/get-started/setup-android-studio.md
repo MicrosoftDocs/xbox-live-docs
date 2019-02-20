@@ -11,12 +11,9 @@ ms.localizationpriority: medium
 This article is for ID@Xbox partners; Creators set up Visual Studio instead.
 
    > [!IMPORTANT]
-   > Prerequisite step: Set up a game at Partner Center. See [Getting started](index.md).
-    
-
-<!--===================================================-->
-## Download Android Studio
-
+   > Prerequisite steps: 
+   > *  Set up a game at Partner Center. See [Getting started](index.md).
+   > *  Have an existing game that you have created in Android Studio.
 
 
 <!--===================================================-->
@@ -24,20 +21,29 @@ This article is for ID@Xbox partners; Creators set up Visual Studio instead.
 
 <!-- Ask Jason, ask where the SDK will be, for users.  James used one from module from internal, packages, maven, manager.  James didn't incorp into Android Studio. -->
 
+### Creators
+
+TBD
+
+
+### ID@Xbox Partners
+
 1. Right-click the following link and then click **Open in new window**: [Xbox Live SDK](https://developer.microsoft.com/en-us/games/xbox/partner/live-downloads).
 
 2. In that page, click **Download SDK**.
 
 
 <!--===================================================-->
-## Set up Android Studio to use the Xbox Live SDK
+## Configure Android Studio to use the Xbox Live SDK
 
 * Open the make or CMake file that builds your project.
 
 
-### Add additional SDK libraries (XSAPI)
+### For ID@Xbox Partners, add libs and includes to project
 
-* Add the following libraries, in the order shown:
+Add the following libs and includes in either the IDE's make file or in a Cmake file.
+
+1.  Add the following libraries, in the order shown:
     
     ```
     libMicrosoft_Xbox_Services_Android.a
@@ -47,16 +53,21 @@ This article is for ID@Xbox partners; Creators set up Visual Studio instead.
     libssl.141.Android.a
     libcrypto.141.Android.a
     ```
-    
-### Add Include directories
 
-* Add the following include directories from your XSAPI folder (your Android Maven ndk folder):
+2.  Add the following include directories from your XSAPI folder (your Android Maven ndk folder):
 
     ```
     include/
     include/cpprestinclude
     ```
-    
+
+#### IDE (Make) file
+
+
+#### Cmake file versions
+
+
+
 <!--
 ### CMAKE option
 If you want to use CMAKE, __.
@@ -66,9 +77,10 @@ CMakeLists.txt, contains cocos contnetN:
 -->
 
 
-<!--===================================================-->
+<!--===================================================
+remove section for 1902
+-->
 ## Set up the Services.config file
-
 
 * Add the following to your services config file `xboxservices.config`.
   Use the title id, service config id, and sandbox from your Partner Center account.
@@ -85,7 +97,7 @@ XBL.Sample.Android/app/main/res/raw/xboxservices.config
 
 
 <!--====================================================-->
-## Android
+## Targeting Android
 
 
 ### Add preprocessor definitions
@@ -106,22 +118,22 @@ __STDC_WANT_LIB_EXT1__=1
 ASIO_STANDALONE
 ```
 
-
-### Add in native core integration files
+<!-- section goes away for 1902 -->
+### Add native modules and Java files
 
 <!-- question: aar modules are internal, not public, needed by xsapi lib for android device usage. Will ms wrap .aar's, (and java files for notif & webview) into xsapi 1902 libs? -->
 
-Add the native core integration files:
-* The .aar module: com.microsoft.xboxlive.aar
-* The .aar module: libHttpClient
-* The .aar module: XalAndroidJava
-* The Java file NotificationListenerService, for notification listener services (required by async). This needs to be in or under the source directory: com.microsoft.xboxlive
-* The Java file XblWebView, for Xbox Live web view (required by XAL). This needs to be in or under the source directory: com.microsoft.xboxlive
-
+1. Add the following native core integration files:
+    * The .aar module: com.microsoft.xboxlive.aar
+    * The .aar module: libHttpClient
+    * The .aar module: XalAndroidJava
+    * The Java file NotificationListenerService, for notification listener services (required by async). This needs to be in or under the source directory: com.microsoft.xboxlive
+    * The Java file XblWebView, for Xbox Live web view (required by XAL). This needs to be in or under the source directory: com.microsoft.xboxlive
+    
 <!-- Add these two native Java files, if 1810. -->
 
 
-### Set up native integration with XSAPI for Android
+### Set up native integration with XSAPI
 
 * Set up to initialize your native environment.
 
@@ -130,6 +142,9 @@ Add the native core integration files:
 * Set up the file storage path.
 
 That incorporates the integration files that are needed to store the Java vm and enact the Java environment, which are utilized by the native core integration files.
+
+
+### Setup emulator
 
 
 <!--===================================================-->

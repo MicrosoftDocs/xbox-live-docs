@@ -8,39 +8,75 @@ ms.localizationpriority: medium
 ---
 # Setting up Visual Studio for Xbox Live
 
-   > [!IMPORTANT]
-   > Prerequisite step: Set up a game at Partner Center. See [Getting started](index.md).
-
 In Visual Studio, Creators can target UWP and Xbox; ID@Xbox partners can additionally target Android.
 
+   > [!IMPORTANT]
+   > Prerequisite steps: 
+   > *  Set up a game at Partner Center. See [Getting started](index.md).
+   > *  Have an existing game that you have created in Visual Studio.
 
-<!--===================================================-->
-## Download Visual Studio
 
-
-
-<!--===================================================-->
+<!--========================================================================-->
 ## Get the Xbox Live SDK
 
 
-
-<!--===================================================-->
-## Set up Visual Studio to use the Xbox Live SDK
+### Creators Version
 
 
-### Add additional SDK libraries (XSAPI)
+### ID@Xbox Partners Version
 
 
-### Add Include directories
+<!--========================================================================-->
+## Add Xbox Live to Visual Studio
+
+
+### Creators Libs/Includes, IDE/Cmake versions
+
+
+### ID@Xbox Partners Libs/Includes, IDE/Cmake versions
 
 
 
-<!--===================================================-->
-## Set up the Services.config file
+<!--========================================================================-->
+## Setup the XboxServices.Config file (should be gone in 1902)
 
 
 
-<!--===================================================-->
+<!--========================================================================-->
+## Target UWP
+
+
+### Add Preprocessor Definitions
+
+
+### Add Native Integration Code (should be gone in 1902)
+
+
+<!--========================================================================-->
+## Target Xbox
+
+
+### Add Preprocessor Definitions
+
+
+### Add Native Integration Code (should be gone in 1902)
+
+
+
+<!--========================================================================-->
+## Target Android
+
+
+### Add Preprocessor Definitions
+
+
+### Add Native Integration Code (should be gone in 1902)
+
+
+### Set up emulator
+
+
+<!--========================================================================-->
 ## Next step
 
 Now that your IDE is set up to use Xbox Live, continue with step 3: Writing code for your game to sign-in to Xbox Live.

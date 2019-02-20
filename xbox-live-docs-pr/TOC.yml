@@ -4,7 +4,9 @@
     - name: Getting started
       href: get-started/index.md
       items:
-        - name: Setting up a game at Partner Center
+        - name: Setting up a game at Partner Center, for Creators
+          href: get-started/setup-partner-center-creators.md
+        - name: Setting up a game at Partner Center, for ID@Xbox Partners
           href: get-started/setup-partner-center.md
         - name: Setting up Visual Studio for Xbox Live
           href: get-started/setup-visual-studio.md

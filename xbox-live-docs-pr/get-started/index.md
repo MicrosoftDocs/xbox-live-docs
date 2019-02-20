@@ -25,7 +25,8 @@ To get started adding Xbox Live functionality to your game, do the following ste
 
 | Article | Description |
 |---------|-------------|
-| [Setting up a game at Partner Center](setup-partner-center.md) | Get started adding Xbox Live functionality to your game, by setting up an app at Partner Center. |
+| [Setting up a game at Partner Center, for Creators](setup-partner-center-creators.md) | Get started adding Xbox Live functionality to your game, by setting up an app at Partner Center. |
+| [Setting up a game at Partner Center, for ID@Xbox Partners](setup-partner-center-id-partners.md) | Get started adding Xbox Live functionality to your game, by setting up an app at Partner Center. |
 | [Setting up Visual Studio for Xbox Live](setup-visual-studio.md) | Setting up Visual Studio to use the Xbox Live SDK, to target UWP, Xbox, or Android. |
 | [Setting up Android Studio for Xbox Live](setup-android-studio.md) | Setting up Android Studio to use the Xbox Live SDK, to target Android. |
 | [Setting up Xcode for Xbox Live](setup-xcode.md) | Setting up Xcode to use the Xbox Live SDK, to target iOS. |

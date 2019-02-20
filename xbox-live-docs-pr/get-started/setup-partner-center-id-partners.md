@@ -1,12 +1,12 @@
 ---
-title: Setting up a game at Partner Center
+title: Setting up a game at Partner Center, for ID@Xbox Partners
 description: Get started adding Xbox Live functionality to your game, by setting up an app at Partner Center.
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, xbox one, sign-in
 ms.localizationpriority: medium
 ---
-# Setting up a game at Partner Center
+# Setting up a game at Partner Center, for ID\@Xbox Partners
 
 <!--todo: open external links in new tab-->
 
@@ -16,12 +16,6 @@ To add Xbox Live functionality to your game, start by setting up an app in Partn
 ## Prerequisite: Become a Creator or an ID@Xbox partner
 
    > [!IMPORTANT]
-   >
-   > Prerequisite steps for Creators:
-   > * If you aren't already in the Creators Program, join the Creators Program.
-   > To join the Creators Program, right-click the following link and then click **Open in new window**: [Xbox Live Creators Program](https://www.xbox.com/developers/creators-program).
-   > Follow the instructions at that site.
-
    > Prerequisite steps for ID@Xbox partners:
    > 1. Prepare a prototype of your game, such as a demo and screen captures.
    >
@@ -92,11 +86,6 @@ Next, at Partner Center, create a new app, as follows.
 <!--===========================================================-->
 ## 2. Contact your Microsoft Representative to enable your game
 
-<!-- UI steps? correct capture?-->
-
-<!-- In the middle column, select Services: Xbox Live: Xbox Live Setup.-->
-
-
 1. In Partner Center, select your game.  
 
    The "App overview" page appears.
@@ -162,9 +151,9 @@ When you receive the above email from your MS Representative, continue with the 
    <!-- status: cropped, ok now? -->
    ![](images/pc_gameplay_setting_pg.png)
 
-   You've now completed the initial setup of your game.
-   Your game cannot be tested yet; you need to publish the game first.
-   To do this, you take the identity information that was generated above, and push that information into the Xbox Live runtime system, as follows.
+You've now completed the initial setup of your game.
+Your game cannot be tested yet; you need to publish the game first.
+To do this, you take the identity information that was generated above, and push that information into the Xbox Live runtime system, as follows.
 
 
 <!--===========================================================-->
@@ -194,7 +183,7 @@ Next, find the ID of your game, as follows.
 
 
 <!--===========================================================-->
-## Find your Xbox Live game information
+## 5. Find your Xbox Live game information
 
 In Partner Center, with your game selected as in the above procedures, do the following.
 
@@ -209,7 +198,7 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 
 
 <!--===========================================================-->
-## 5. Create a Test Account
+## 6. Create Test Accounts
 
 1. In Partner Center, click **Products* on the left: click the product you created.
 
@@ -280,7 +269,7 @@ In Partner Center, with your game selected as in the above procedures, do the fo
     <!-- status: crop to only show the topmost 2 items -->
    ![](images/pc_job_history_dbx.png)
 
-12. Click the page outside the dialog box.
+17. Click the page outside the dialog box.
 
     The dialog box closes; the "Manage test accounts" page remains displayed.
 
