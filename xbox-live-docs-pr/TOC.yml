@@ -7,7 +7,7 @@
         - name: Setting up a game at Partner Center, for Creators
           href: get-started/setup-partner-center-creators.md
         - name: Setting up a game at Partner Center, for ID@Xbox Partners
-          href: get-started/setup-partner-center.md
+          href: get-started/setup-partner-center-id-partners.md
         - name: Setting up Visual Studio for Xbox Live
           href: get-started/setup-visual-studio.md
         - name: Setting up Android Studio for Xbox Live
