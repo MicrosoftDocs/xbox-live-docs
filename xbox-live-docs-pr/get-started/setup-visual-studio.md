@@ -43,4 +43,5 @@ In Visual Studio, Creators can target UWP and Xbox; ID@Xbox partners can additio
 <!--===================================================-->
 ## Next step
 
-Write code for your game to sign-in to Xbox Live. See [Getting started](index.md).
+Now that your IDE is set up to use Xbox Live, continue with step 3: Writing code for your game to sign-in to Xbox Live.
+See [Getting started](index.md).

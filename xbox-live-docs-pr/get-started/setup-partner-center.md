@@ -55,7 +55,7 @@ Next, at Partner Center, create a new app, as follows.
 4. Click the check box **Create this product in a sandbox**.
 
    > [!IMPORTANT]
-   > For Managed Partners and ID@Xbox developers, to enable Xbox Live functionality, you **MUST** select the option button **Create this product in a sandbox**, the first time through this process.
+   > For ID@Xbox partners, to enable Xbox Live functionality, you **MUST** select the option button **Create this product in a sandbox**, the first time through this process.
    > You won't be able to select this option button later.
    > (Do not select the check box "Do not create this product in a sandbox".)
 
@@ -202,54 +202,69 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 
 1. In Partner Center, click **Products* on the left: click the product you created.
 
-   The "App info" page appears.
+   The "App overview" page appears.
 
-   <!-- ![](images/XX.png) -->
+   ![](images/pc_app_overview_02_pg.png)
 
-2. Click the **Settings** gear in the upper left, then click **Developer Settings**.
+2. Click the **Settings** gear in the upper right, then click **Developer settings**.
 
    The "Account settings" page appears.
 
-   <!-- ![](images/XX.png) -->
+   ![](images/pc_account_settings_pg.png)
 
 3. In the **Settings** area in the middle, click **Xbox Live**: **Xbox test accounts**.
 
+   ![](images/pc_account_settings_pg_xblmenu.png)
+
    The "Manage test accounts" page appears.
 
-   <!-- ![](images/XX.png) -->
+   ![](images/pc_manage_test_accounts_pg.png)
 
 4. Click the **New test account** button.
 
    The "New test accounts" page appears.
 
-   <!-- ![](images/XX.png) -->
+   ![](images/pc_new_test_accounts_pg.png)
 
 5. In the **Number of accounts to create** text box, enter a number, such as 5.
 
 6. Fill in the **First name** and **Last name** text boxes.
+   You can keep the default values "Test" and "Account".
 
-7. The box under "Email template" is the sandbox prefix. To the right of that text box, enter name of your app (your game).
+7. In the **Email template** combo box to the left of the hyphen, is shown the sandbox prefix.
+   You can keep the value shown.
 
-8. In the **Keywords** text box, you can put your name.
+8. In the email text box to the right of the hyphen, enter the name of your game, without spaces.
 
-9. Under **These accounts can access**, select the sandbox which you selected during the **Submission** step above.
+9. In the **Password** text box, enter a password.
 
-10. Click the **Save** button.
+10. In the **Secret question** drop-down list, select a question.
 
-    The "Manage test accounts" page appears.
+11. In the **Secret answer** text box, enter an answer for the selected question.
 
-   <!-- ![](images/XX.png) -->
+12. In the **Alternate email address** text box, enter an alternate email address.
 
-11. Click the **View job history** link.  
+13. In the **Keywords** text box, you can put your name.
 
-    The "Job History" dialog box appears.  
+14. Under **These accounts can access:**, there is a check box for each sandbox.
+    Select the sandbox which you selected during the **Submission** step above.
+
+15. Click the **Save** button.
+
+    The "Manage test accounts" page appears, showing your new test accounts.
     You can use these acccount email addresses later to sign in with an app, that can access the sandbox.
 
-   <!-- ![](images/XX.png) -->
+   ![](images/pc_manage_test_accounts_pg_newaccts.png)
+
+16. Under the **New test account** button, click the **View job history** link.  
+
+    The "Job History" dialog box appears.  
+
+   ![](images/pc_job_history_dbx.png)
 
 12. Click the page outside the dialog box.
 
-    The "Manage test accounts" page appears.
+    The dialog box closes; the "Manage test accounts" page remains displayed.
 
 Your game is now set up at Partner Center.
 
@@ -257,7 +272,7 @@ Your game is now set up at Partner Center.
 <!--===========================================================-->
 ## Next step
 
-After your game is set up at Partner Center, set up an IDE with the Xbox Live SDK, for your target platforms.
+After your game is set up at Partner Center, continue with step 2: set up an IDE with the Xbox Live SDK, for your target platforms.
 See [Getting started](index.md).
 
 

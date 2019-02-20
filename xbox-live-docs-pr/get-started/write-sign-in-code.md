@@ -14,14 +14,61 @@ ms.localizationpriority: medium
 Now that you've set up an app in Partner Center and have set up an IDE, write code for your game to sign-in to Xbox Live, as follows.
 
 
-## Add core XSAPI integration (Async, XAL, XSAPI)
+<!-- powerpoint subheadings -->
+
+<!--========================================================================-->
+## Initialize Async
+
+### UWP
+
+### Xbox
+
+### Android
+
+### iOS
 
 
-## Add basic sign-in integration
+<!--========================================================================-->
+## Initialize XAL
+
+### UWP
+
+### Xbox
+
+### Android
+
+### iOS
+
+
+
+<!--========================================================================-->
+## Initialize XSAPI
+
+
+<!--========================================================================-->
+## Integrate Sign-In with UI
+
+
+<!--========================================================================-->
+## Integrate Sign-In Silently
+
+
+<!--========================================================================-->
+## Integrate Sign-Out
+
+
+<!--========================================================================-->
+## Test Sign-In/Sign-Out
+
+
+<!--========================================================================-->
+## Next Step
+
+<!-- / powerpoint subheadings -->
 
 
 <!-- 
-Notes while James recorded video:
+Notes while JS recorded video:
 
 Have your game sign-in to Xbox Live, as follows.
 
@@ -33,13 +80,13 @@ need modules (.ar's): com.microsoft.xboxlive.aar/
 
 Those are native calls that have to be called from the XSAPI client.  In 1902, not 1810, they are automatically included in the library within the lirbaray native calls.  Include those modules if not done auto'ly.
 
-Incorp your XSAPI integrration files for your specific target devices.
+Incorp your XSAPI integration files for your specific target devices.
 
-set up your envir; initialize the java envir for this device.
+set up your environment; initialize the Java environment for this device.
 
 Game_Integration_ini.cpp -- ...InitializeNativeEnv()
 
-core integration: 
+core integration:
 4 fooIntegration .cpp  files add into your project, or at least a way of calling eg XAL integration for XAL init. Requires a specific order.
 Set up plat args for a specific java machine.  X
 
@@ -47,16 +94,15 @@ In init, set all this up for native XSAPI calls.
 
 Integrate best practices shown here (XAL_Integration.cpp) into your code.  
 
-Once you have all of that in, the only signin code you might have to include is links to any gameplay you want to do after signin or before signout.  in XAL_Gameplay.cpp.  That file also has ShowWebView(), to get from C++ to native java, to enact signin.
+Once you have all of that in, the only sign-in code you might have to include is links to any gameplay you want to do after signin or before signout.  in XAL_Gameplay.cpp.  That file also has ShowWebView(), to get from C++ to native java, to enact signin.
 
 Sample shows how to welcome the user that has signed-in.
 -->
 
 
-<!-- start of "Getting started with Xbox Live in Project Antibes" -->
+<!-- start of "Getting started with Xbox Live in Project Antibes": -->
 
-
-## Add Xbox Live APIs (XAL and XSAPI) to Your Project
+## Add Xbox Live APIs (XAL and XSAPI) to Your Project (for Project Antibes)
 
 In order to use the Xbox Live APIs in a Project Antibes desktop game on Windows 10 PC, you must include the Xbox Live extension SDK headers and libraries in your project:
 
@@ -270,11 +316,6 @@ Other XSAPI C async APIs can be called with a similar calling pattern.
 ```
 
 <!-- end of "Getting started with Xbox Live in Project Antibes" -->
-
-
-## Testing sign-in
-
-TBD
 
 
 ## Next steps

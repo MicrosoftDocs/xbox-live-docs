@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 To get started adding Xbox Live functionality to your game, do the following steps in order:
 1. Set up a game at Partner Center.
 2. Set up one of the following IDEs with the Xbox Live SDK, for your target platforms:
-    *  Visual Studio, targeting UWP, Xbox, Android.
+    *  Visual Studio, targeting UWP, Xbox, or Android.
     *  Android Studio, targeting Android.
     *  Xcode, targeting iOS.
 

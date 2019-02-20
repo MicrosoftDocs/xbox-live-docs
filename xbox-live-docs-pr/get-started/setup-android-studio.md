@@ -135,4 +135,5 @@ That incorporates the integration files that are needed to store the Java vm and
 <!--===================================================-->
 ## Next step
 
-Write code for your game to sign-in to Xbox Live. See [Getting started](index.md).
+Now that your IDE is set up to use Xbox Live, continue with step 3: Writing code for your game to sign-in to Xbox Live.
+See [Getting started](index.md).
