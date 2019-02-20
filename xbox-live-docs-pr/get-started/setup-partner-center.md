@@ -41,12 +41,14 @@ Next, at Partner Center, create a new app, as follows.
 
    The Partner Center dashboard appears, showing the "Overview" page, within the "WINDOWS" section.
 
+   <!-- status: clear the items, keep table header -->
    ![](images/pc_overview_pg.png)
 
 2. Click the **Create a new app** button.
 
    The page "Create your app by reserving a name" appears.
 
+   <!-- status: ok -->
    ![](images/pc_createappreservename.png)
 
 3. In the text box, enter the name of your product.
@@ -59,18 +61,21 @@ Next, at Partner Center, create a new app, as follows.
    > You won't be able to select this option button later.
    > (Do not select the check box "Do not create this product in a sandbox".)
 
+   <!-- status: nuke "02mihof" -->
    ![](images/pc_createappreservename02.png)
 
 5. Click the **Reserve product name** button.
 
    The "App overview" page appears.
 
+   <!-- status: ok -->
    ![](images/pc_app_overview01_pg.png)
 
 6. Click the **Start your submission** button.
 
    The "Start your submission" dialog box appears.
 
+   <!-- status: ok -->
    ![](images/pc_startyoursubmission_dbx.png)
 
 7. In the "Select the sandbox..." combo field, click the down-arrow on the right, then click a sandbox; for example, "NKDXTT.0 (shared)".
@@ -100,6 +105,7 @@ Next, at Partner Center, create a new app, as follows.
 
    The "Identity details" page appears.
 
+   <!-- status: nuke "Greg02" (upper right), blur the CN string below that, PFN line: nuke or blur "Greg02_q", blur Package SID value, URL: blur the 9##### string; Store id: blur the value; Store Protocol link: blur the value starting with 9.  -->
    ![](images/pc_identitydetails_pg.png)
 
 3. Copy the **Store ID**.
@@ -133,12 +139,14 @@ When you receive the above email from your MS Representative, continue with the 
 
    The "App overview" page appears.
 
+   <!-- status: crop to elim the browser frame and url. keep black area.  delete "Greg02" from black area. delete the projects below that in black area. -->
    ![](images/pc_app_overview_pg.png)
 
 3. Under **Services**, click **Xbox Live**.
 
    The "Enable Xbox Live" page appears, this first time only.
 
+   <!-- status: ok -->
    ![](images/pc_enablexboxlive_pg.png)
 
 4. In the "Xbox Live app name" text box, enter the name of your game.
@@ -151,6 +159,7 @@ When you receive the above email from your MS Representative, continue with the 
 
    After some time, the Xbox Live "Gameplay Setting" page automatically appears.
    
+   <!-- status: cropped, ok now? -->
    ![](images/pc_gameplay_setting_pg.png)
 
    You've now completed the initial setup of your game.
@@ -167,6 +176,7 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 
    The "Publish gameplay settings" dialog box appears.
 
+   <!-- status: ok -->
    ![](images/pc_pubgameplaysetgs_dbx.png)
 
 2. Click the **Confirm** button.
@@ -192,6 +202,7 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 
    The "Xbox Live configuration" page appears.
 
+   <!-- status: crop to exclude window frame and black left nav column. white-out "greg". blur the 3 numeric strings. -->
    ![](images/pc_xblconfign_pg.png)
 
 2. Copy and save the two Title ID values for later, for use by the SDK.
@@ -204,26 +215,31 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 
    The "App overview" page appears.
 
+   <!-- status: ok -->
    ![](images/pc_app_overview_02_pg.png)
 
 2. Click the **Settings** gear in the upper right, then click **Developer settings**.
 
    The "Account settings" page appears.
 
+   <!-- status: ok -->
    ![](images/pc_account_settings_pg.png)
 
 3. In the **Settings** area in the middle, click **Xbox Live**: **Xbox test accounts**.
 
+   <!-- status: ok -->
    ![](images/pc_account_settings_pg_xblmenu.png)
 
    The "Manage test accounts" page appears.
 
+   <!-- status: white-out the existing entries, keep table header -->
    ![](images/pc_manage_test_accounts_pg.png)
 
 4. Click the **New test account** button.
 
    The "New test accounts" page appears.
 
+   <!-- status: white-out alternate email address v-mihof@ms... -->
    ![](images/pc_new_test_accounts_pg.png)
 
 5. In the **Number of accounts to create** text box, enter a number, such as 5.
@@ -254,12 +270,14 @@ In Partner Center, with your game selected as in the above procedures, do the fo
     The "Manage test accounts" page appears, showing your new test accounts.
     You can use these acccount email addresses later to sign in with an app, that can access the sandbox.
 
+   <!-- status: white-out "hoffman", white-out "ignore" 2x, white-out rightmost 50% of digits on Gamertag (2x) -->
    ![](images/pc_manage_test_accounts_pg_newaccts.png)
 
 16. Under the **New test account** button, click the **View job history** link.  
 
     The "Job History" dialog box appears.  
 
+    <!-- status: crop to only show the topmost 2 items -->
    ![](images/pc_job_history_dbx.png)
 
 12. Click the page outside the dialog box.
