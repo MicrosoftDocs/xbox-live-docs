@@ -42,7 +42,13 @@
       "extendBreadcrumb": true,
       "feedback_system": "None",
       "ms.author": "aablackm",
-      "ms.prod": "xboxlive"
+      "ms.prod": "xboxlive",
+      "_op_documentIdPathDepotMapping": {
+        "./": {
+          "depot_name": "Win.windows-apps",
+          "folder_relative_path_in_docset": "xbox-live/"
+        }
+      }
     },
     "fileMetadata": {},
     "template": [],
