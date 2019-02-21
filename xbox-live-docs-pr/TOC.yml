@@ -1,10 +1,6 @@
 - name: Xbox Live
   href: index.md
   items:
-    - name: Xbox Live hub page
-      href: index-hubpage.md
-    - name: What's new for Xbox Live
-      href: whats-new/whats-new.md
     - name: Get Started
       href: get-started.md
       items: 
@@ -240,6 +236,8 @@
           href: using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md
         - name: Using Xbox Live (deprecated article)
           href: using-xbox-live/using-xbox-live.md
+        - name: What's new for Xbox Live
+          href: whats-new/whats-new.md
     - name: Features
       href: features.md
       items:
