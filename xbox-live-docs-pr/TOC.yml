@@ -17,14 +17,14 @@
                 - name: API for user identity
                   href: features/identity/user/api.md
             - name: XAL sign-in
-              href: features/identity/sign-in/index.md
+              href: features/identity/xal-signin/index.md
               items: 
                 - name: Overview of XAL sign-in
-                  href: features/identity/sign-in/overview.md
+                  href: features/identity/xal-signin/overview.md
                 - name: Portal configuration of XAL sign-in
-                  href: features/identity/sign-in/portal.md
+                  href: features/identity/xal-signin/portal.md
                 - name: API for XAL sign-in
-                  href: features/identity/sign-in/api.md
+                  href: features/identity/xal-signin/api.md
             - name: Privileges
               href: features/identity/privileges/index.md
               items: 
