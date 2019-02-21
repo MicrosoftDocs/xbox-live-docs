@@ -119,7 +119,7 @@ When you receive the above email from your MS Representative, continue with the 
 
    > [!IMPORTANT]
    > First, close the browser, including all of the browser's window instances, to clear the session cache.
-   > Then open a new browser.
+   > Then open a new browser, and return to this section of this page.
 
 1. Go to Partner Center.
    To do this, you can right-click the following link and then click **Open in new window**: [Partner Center dashboard](https://partner.microsoft.com/dashboard/).
