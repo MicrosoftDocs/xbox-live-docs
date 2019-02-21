@@ -12,12 +12,15 @@ ms.localizationpriority: medium
 
 1.  Send a request using the *PUT* method to send the data to Xbox Live Title Storage.
 
-        PUT https://titlestorage.xboxlive.com/json/users/xuid(1245111)/scids/{scid}/data/{pathAndFileName},json
-        Content-Type: application/octet-stream
-        x-xbl-contract-version: 1
-        Authorization: XBL3.0 x=<userHash>;<STSTokenString>
-        Content-Length: 240
-        Connection: Keep-Alive
+
+```http
+PUT https://titlestorage.xboxlive.com/json/users/xuid(1245111)/scids/{scid}/data/{pathAndFileName},json
+Content-Type: application/octet-stream
+x-xbl-contract-version: 1
+Authorization: XBL3.0 x=<userHash>;<STSTokenString>
+Content-Length: 240
+Connection: Keep-Alive
+```
 
 -   The user must be in the session to update it.
 
@@ -25,10 +28,12 @@ ms.localizationpriority: medium
 
 2.  Send a JSON object.
 
-        {
-            "startlevel":"1",
-            "expression":"smile"
-        }
+```json
+{
+        "startlevel":"1",
+        "expression":"smile"
+}
+```
 
 #### Reference
 

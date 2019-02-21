@@ -149,4 +149,4 @@ If that doesn't resolve the issue, then also check the Partner Center Binding an
 If you are getting an error not described here, see the error list in the `xbox::services::xbox_live_error_code` documentation, to get more information about the error codes.
 You can also refer to `errors.h` in the XSAPI includes.
 
-After all these steps, if you still cannot sign-in with your title, post a support thread on the [forums](http://forums.xboxlive.com), or (for ID@xbox or Managed Partners) reach out to your Developer Account Manager (DAM).
+After all these steps, if you still cannot sign-in with your title, post a support thread on the [forums](https://forums.xboxlive.com), or (for ID@xbox or Managed Partners) reach out to your Developer Account Manager (DAM).

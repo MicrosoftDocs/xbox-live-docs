@@ -64,7 +64,7 @@ Setting a limit per title would ignore the popularity of the titles, and the req
 
 The pairing of User and Title ensures that no title uses more resources than what is appropriate given the number of active users, while also giving each user a consistent slice of the resource pie.
 
-![](../../images/FGRL.png)
+![Rate limiting request and response flowchart](../../images/FGRL.png)
 
 The diagram above shows a high-level view of how the request is handled.
 First the request is generated and then received by the desired service.

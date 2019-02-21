@@ -1,6 +1,6 @@
 ---
-title: Stats 2017
-description: When using Stats 2017, the title keeps track of the stat values, and sends the values to the service.
+title: Player Stats for Stats 2017
+description: Intro to Stats 2017
 ms.date: 07/02/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, player stats, leaderboards, stats 2017
@@ -8,6 +8,8 @@ ms.localizationpriority: medium
 ---
 
 # Stats 2017
+
+When using Stats 2017, the title keeps track of the stat values, and sends the values to the service.
 
 Stats 2017 allows developers to configure stats for individual players signifying progress and prowess in game.
 These stats are a social tool that will allow players to be more competitive with their friends and the larger title's community, as well as showcasing some of the capabilities and challenges your title has to offer.

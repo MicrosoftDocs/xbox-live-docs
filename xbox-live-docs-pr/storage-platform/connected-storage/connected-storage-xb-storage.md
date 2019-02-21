@@ -217,7 +217,7 @@ Examples of usage:
 
 > [!NOTE]
 > The byte data is a simple ascending sequence; for example, a five-byte blob would have the following bytes: 00 01 02 03 04. >>  If you want to specify a per-user Connected Storage space, change the **Account** node in the XML file to something like the following:
->  ```
+>  ```xml
 >    <Account msa="user@domain.com"/>
 >  ```
 

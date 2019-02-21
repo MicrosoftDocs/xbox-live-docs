@@ -17,7 +17,9 @@ For information on the related API, see **Microsoft.Xbox.Services.Presence Names
 
 The URI looks like this:
 
-          POST /users/xuid({xuid})/devices/current/titles/current
+```uri
+POST /users/xuid({xuid})/devices/current/titles/current
+```
 
 Below are only the fields for setting Rich Presence strings.
 There are other optional fields related to writing presence for a title, not listed here.
@@ -46,8 +48,9 @@ Scid|String|Y|Scid that tells us where the Rich Presence strings are defined.
 
 For example, to update the Rich Presence for the user whose xuid is 12345, the call would look as follows:
 
-          POST /users/xuid(12345)/devices/current/titles/current
-
+```uri
+POST /users/xuid(12345)/devices/current/titles/current
+```
 
 With the following JSON body:
 
@@ -79,7 +82,9 @@ In this case, suppose a user wants to read the en-US string.
 
 Reading rich presence would work as follows:
 
-          GET /users/xuid(12345)?level=all
+```uri
+GET /users/xuid(12345)?level=all
+```
 
 For more information about this call, see **GET (/users/xuid({xuid}))**.
 

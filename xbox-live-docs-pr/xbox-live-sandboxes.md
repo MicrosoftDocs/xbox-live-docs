@@ -1,6 +1,6 @@
 ---
-title: Xbox Live Sandboxes overview
-description: Development sandboxes at Partner Center, such as RETAIL.
+title: Xbox Live sandboxes introduction
+description: Learn about sandboxes for Xbox Live development.
 ms.assetid: a5acb5bf-dc11-4dff-aa94-6d1f01472d2a
 ms.date: 04/04/2017
 ms.topic: article
@@ -43,16 +43,16 @@ The vast majority of developers need only one sandbox.
 Fortunately a sandbox is created for you when you create a title.
 
 1. You find out about your sandbox by going to Partner Center here:
-![](images/getting_started/first_xbltitle_dashboard.png)
+![Partner Center ribbon dashboard location screenshot](images/getting_started/first_xbltitle_dashboard.png)
 
 1. Then click on your title:
-![](images/getting_started/first_xbltitle_dashboard_overview.png)
+![Title location in Partner Center menu screenshot](images/getting_started/first_xbltitle_dashboard_overview.png)
 
 1. Finally, in the left menu, click **Services** -> **Xbox Live**:
-![](images/getting_started/first_xbltitle_leftnav.png)
+![Xbox Live services in Partner Center menu](images/getting_started/first_xbltitle_leftnav.png)
 
 1. You can now see your sandbox listed, as follows:
-![](images/getting_started/devcenter_sandbox_id.png)
+![Title info in Partner Center. Includes Sandbox ID.](images/getting_started/devcenter_sandbox_id.png)
 
 
 ## How your Sandbox impacts your workflow
@@ -83,7 +83,7 @@ Both ways are described below.
 
 3. Then you click on "Xbox Live" to go the appropriate section as shown below.
 
-   ![](images/getting_started/wdp_switch_sandbox.png)
+   ![Sandbox configuration in Windows Device Portal](images/getting_started/wdp_switch_sandbox.png)
 
 4. Then you can enter your sandbox which you got via the steps in the *Finding Out Your Sandbox* and click "Change".
 
@@ -114,13 +114,13 @@ Run this in Administrator mode to switch your sandbox.
 The first argument is the sandbox.
 For example if you are trying to switch to the XDKS.1 sandbox, you would do:
 
-```
+```cmd
 SwitchSandbox.cmd XDKS.1
 ```
 
 To switch back to RETAIL, you simply provide that as the second argument.
 
-```
+```cmd
 SwitchSandbox.cmd RETAIL
 ```
 

@@ -86,7 +86,7 @@ On **Select**, the gamer is led to a tournaments detail page in the Arena Hub, w
 
 ###### UI Example: A tournament ad displayed alongside the main menu
 
-![](../../images/arena/arena-ux-promo.png)
+![Sample In-Game Tournament UI](../../images/arena/arena-ux-promo.png)
 
 > [!TIP]
 > **UX recommendation**  

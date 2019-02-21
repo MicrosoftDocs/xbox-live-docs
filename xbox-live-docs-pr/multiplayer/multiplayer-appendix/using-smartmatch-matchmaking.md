@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 
 The following flow chart illustrates the SmartMatch matchmaking process.
 
-![](../../images/multiplayer/Multiplayer_2015_SmartMatch_Matchmaking.png)
+![Matchmaking flowchart](../../images/multiplayer/Multiplayer_2015_SmartMatch_Matchmaking.png)
 
 
 ## Creating a Match Ticket Session and a Match Ticket

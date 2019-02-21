@@ -20,11 +20,13 @@ For more information about configuration blobs, see **Title Storage URIs**.
 
 1.  Send a request using the below method to read the data from title storage.
 
-        GET https://titlestorage.xboxlive.com/global/scids/{scid}/data/config.json,config              
-        Content-Type: application/octet-stream
-        x-xbl-contract-version: 1
-        Authorization: XBL3.0 x=<userHash>;<STSTokenString>
-        Connection: Keep-Alive
+```http
+GET https://titlestorage.xboxlive.com/global/scids/{scid}/data/config.json,config              
+Content-Type: application/octet-stream
+x-xbl-contract-version: 1
+Authorization: XBL3.0 x=<userHash>;<STSTokenString>
+Connection: Keep-Alive
+```
 
 -   The user must be in the session to update it.
 -   STSTokenString is a placeholder for brevity and should be replaced with the token returned by the authentication request.

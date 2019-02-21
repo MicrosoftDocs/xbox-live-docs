@@ -169,8 +169,7 @@ However, in this flow a UI toast outside of the title cannot be displayed.
 
 **Note:** Players will automatically be removed from the game party if the title is suspended and/or terminated and will receive no further notifications.
 
-
-## Client multiplayer flow
-
-![](../../images/whitepapers/gamesessionvisibility_image1.png)
-![](../../images/whitepapers/gamesessionvisibility_image2.png)
+Client multiplayer flow
+-----------------------
+![Client Multiplayer flowchart part 1](../../images/whitepapers/gamesessionvisibility_image1.png)
+![Client Multiplayer flowchart part 2](../../images/whitepapers/gamesessionvisibility_image2.png)

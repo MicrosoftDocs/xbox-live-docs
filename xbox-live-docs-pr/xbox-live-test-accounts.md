@@ -50,15 +50,15 @@ To go to the Test Account management page in Partner Center.
 
 Screenshot showing where to find this:
 
-![](images/getting_started/devcenter_testaccount_nav.png)
+![Partner Center screenshot highlighting gear icon and Test Accounts on the account Settings page](images/getting_started/devcenter_testaccount_nav.png)
 
 Once you click on "Test Accounts", you will see a summary of any existing test accounts if you have any.
 You also have the option to create new test accounts.
 
-![](images/getting_started/devcenter_testaccount_summary.png)
+![Partner Center test account editing and creation screenshot](images/getting_started/devcenter_testaccount_summary.png)
 
 You can click on "New Test Account" and you will be presented with a form you can use to create test accounts.
 
-![](images/getting_started/devcenter_testaccount_new.png)
+![Partner Center new test account dialogue box screenshot](images/getting_started/devcenter_testaccount_new.png)
 
 Any test accounts you create will be prefixed with the name of your development sandbox, and will automatically have access to your development sandbox.

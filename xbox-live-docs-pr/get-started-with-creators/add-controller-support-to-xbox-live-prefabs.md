@@ -53,4 +53,4 @@ If you want to tie this game object to Player 1, and have player 1 sign in with 
 
 ## Xbox Controller Button Mappings
 
-For the Xbox Controller Button Mappings in Unity, see [Unity Controller Wiki page](http://wiki.unity3d.com/index.php?title=Xbox360Controller).
+For the Xbox Controller Button Mappings in Unity, check out this [Unity Controller Wiki page](https://wiki.unity3d.com/index.php?title=Xbox360Controller).

@@ -128,7 +128,7 @@ To access Secure Sockets, you need to add a reference to **Windows Desktop Exten
 If you want to use Connected Storage or Secure Sockets, you will need to install the Xbox Live Platforms Extensions SDK before you can add references to your project.
 You can do this as follows:
 
-1. Download and extract the [Xbox Live Platform Extensions SDK](http://aka.ms/xblextsdk).
+1. Download and extract the [Xbox Live Platform Extensions SDK](https://aka.ms/xblextsdk).
 2. Once extracted, run the included MSI file that matches the Windows 10 SDK version that you are using.
 
 After you have installed the Xbox Live Platform Extensions SDK, you will need to add a reference to it in Visual Studio.

@@ -64,8 +64,11 @@ Before using **xbtrace** to start and stop tracing, you must initialize protocol
 
 The following example shows how to start and stop an Xbox Live Services trace by using **xbtrace**:
 
-    xbtrace start xboxliveservices
-    xbtrace stop
+
+```cmd
+xbtrace start xboxliveservices
+xbtrace stop
+```
 
 Before you can start and stop tracing with **xbtrace**, your title must be running, and protocol activation must be initialized.
 
@@ -84,8 +87,10 @@ Tracing is controlled through URIs that contain "serviceCallTracking" parameter.
 
 The following examples show how to start and stop tracing for a title whose title id is 12345678:
 
-    xbapp launch "ms-xbl-12345678://serviceCallTracking?state=start"
-    xbapp launch "ms-xbl-12345678://serviceCallTracking?state=stop"
+```cmd
+xbapp launch "ms-xbl-12345678://serviceCallTracking?state=start"
+xbapp launch "ms-xbl-12345678://serviceCallTracking?state=stop"
+```
 
 
 #### Location of trace file
@@ -103,7 +108,9 @@ Four levels of verbosity are supported: quiet, diagnostic, detailed, and minimal
 
 The following example sets the verbosity level to "diagnostic":
 
-    xbapp launch "ms-xbl-12345678://serviceCallTracking?verbosity=diagnostic"
+```cmd
+xbapp launch "ms-xbl-12345678://serviceCallTracking?verbosity=diagnostic"
+```
 
 
 ## Analyze the trace file

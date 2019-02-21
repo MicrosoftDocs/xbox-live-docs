@@ -18,7 +18,7 @@ Use Fiddler to log and inspect traffic to and from the Xbox Live services and re
 
 1. Make sure that the current user is in the administrator group on the PC.
 
-2. Download Fiddler from [http://www.telerik.com/fiddler](http://www.telerik.com/fiddler).
+2. Download Fiddler from [https://www.telerik.com/fiddler](https://www.telerik.com/fiddler).
 
 3. Make sure that you select the version that is “Built for .NET 4”.
 
@@ -56,7 +56,7 @@ In normal operation, a console that communicates through a proxy is at risk of h
 Thus, consoles are designed not to allow communication through a proxy.
 Using Fiddler with your Xbox One dev kit requires that you perform some special configuration steps on the dev kit to allow it to use the Fiddler proxy.
 
-Fiddler is freeware, and can be downloaded from the [Fiddler website](http://www.telerik.com/fiddler/).
+Fiddler is freeware, and can be downloaded from the [Fiddler website](https://www.telerik.com/fiddler/).
 
 Fiddler can impact the network status reported by the console.
 If an upstream connection is disabled from the machine running Fiddler, the console may not detect this disconnection until the authentication of the console has expired.
@@ -68,7 +68,7 @@ Better still, use the network stress tools so simulate disconnection for testing
 
 To install and enable Fiddler to monitor traffic from your dev kit, follow these steps.
 
-1. Install Fiddler on your development PC, following the directions on the [Fiddler website](http://www.telerik.com/fiddler/).
+1. Install Fiddler on your development PC, following the directions on the [Fiddler website](https://www.telerik.com/fiddler/).
 
 2. Launch Fiddler and select Fiddler Options from the Tools menu.
 

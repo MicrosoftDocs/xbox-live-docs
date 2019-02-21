@@ -12,12 +12,14 @@ ms.localizationpriority: medium
 
 1.  Send a request using the below method to send the data to Xbox Live Title Storage.
 
-        PUT https://titlestorage.xboxlive.com/trustedplatform/users/xuid(1245111)/scids/{scid}/data/lastturn.bin,binary              
-        Content-Type: application/octet-stream
-        x-xbl-contract-version: 1
-        Authorization: XBL3.0 x=<userHash>;<STSTokenString>
-        Content-Length: 40
-        Connection: Keep-Alive
+```http
+PUT https://titlestorage.xboxlive.com/trustedplatform/users/xuid(1245111)/scids/{scid}/data/lastturn.bin,binary              
+Content-Type: application/octet-stream
+x-xbl-contract-version: 1
+Authorization: XBL3.0 x=<userHash>;<STSTokenString>
+Content-Length: 40
+Connection: Keep-Alive
+```
 
     - The user must be in the session to update it.
     
@@ -28,7 +30,7 @@ ms.localizationpriority: medium
     Information such as image or audio data must be encoded.
     You may select any encoding method that generates HTTP-compatible characters.
     
-```
+```http
   01EAEFBAD05903A4
   1EA2311656677DFF
   CF00

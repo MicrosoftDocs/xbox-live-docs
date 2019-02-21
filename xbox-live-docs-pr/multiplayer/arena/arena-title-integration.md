@@ -60,7 +60,7 @@ For example, by using the Tournaments Hub, your title can display context such a
 This data flow is depicted by the green arrows in the following diagram, and is described in detail in the [Experience requirements and best practices](#experience-requirements-and-best-practices) section.
 The faded arrows indicate that the reference from the team to the session changes over time, as the user moves from match to match within the tournament.
 
-![](../../images/arena/tournament-flow.png)
+![Tournament call control flowchart](../../images/arena/tournament-flow.png)
 
 
 The Arena protocol activation URI contains information about the tournament, the session for the match, and a deep link that your title can invoke when the match is over.
@@ -74,7 +74,7 @@ These URI components are described in more detail in the [Protocol activation](#
 This section provides technical guidance and details for integrating your title with the minimum requirements for supporting Arena.
 This style of integration leverages the data flow depicted by the orange arrows in the following overview diagram.
 
-![](../../images/arena/arena-data-flow.png)
+![Tournament data flowchart](../../images/arena/arena-data-flow.png)
 
 Your title is protocol-activated from the Xbox Arena UI.
 This could originate from a toast notification, the details page for the tournament, or any other entry point for the match.
@@ -136,7 +136,7 @@ ms-xbl-multiplayer://tournament?action=joinGame&joinerXuid={memberId}&organizer=
 
 For ERA titles on the console, the activation scheme is slightly different:
 
-```
+```URI
 ms-xbl-{titleIdHex}://
 ```
 
@@ -213,7 +213,7 @@ Arbitration is a framework for using a session to securely play a match and repo
 The session provided to your title in the protocol-activation step will be an arbitrated session, which means that it has a fixed timeline that the arbitration framework enforces.
 This diagram shows the arbitration timeline.
 
-![](../../images/arena/arbitration-timeline.png)
+![Tournament arbitration timeline chart](../../images/arena/arbitration-timeline.png)
 
 
 <!-- #### Subheading TBD -->
@@ -501,7 +501,7 @@ To enable a title for Arena, some additional steps are required when you configu
 
 To enable Arena, go to the service configuration page for your title in XDP and select ‘Arena’.
 
-![](../../images/arena/arena-configure-xdp.png)
+![Arena configuration on Xbox Developer Platform screenshot](../../images/arena/arena-configure-xdp.png)
 
 Here, you’ll have several options:
 

@@ -45,7 +45,7 @@ Only authorized dev accounts or dev kits are permitted access to these sandboxes
 
 Figure 1. Sandboxes in a production environment.
 
-![](images/sandboxes/sandboxes_image1.png)
+![Sandbox structure and access diagram](images/sandboxes/sandboxes_image1.png)
 
 Just as PublisherA has development sandboxes, other publishers have their own development sandboxes.
 The same title ID may reside in different sandboxes but the data generated for the title ID is distinct across sandboxes.
@@ -75,7 +75,7 @@ The following diagram illustrates the relationships between a product group, a p
 
 Figure 2. The relationships between a product group, a product, a product instance, and a sandbox.
 
-![](images/sandboxes/sandboxes_image2.png)
+![Product group and product instance diagram](images/sandboxes/sandboxes_image2.png)
 
 
 ## Product instances
@@ -132,7 +132,7 @@ So, for a user or device to access a pre-release title in a sandbox, access must
 
 Figure 3. A model for setting up access through XDP.
 
-![](images/sandboxes/sandboxes_image3.png)
+![Sandbox resource access diagram](images/sandboxes/sandboxes_image3.png)
 
 The effectiveness of content isolation is based on the fact that your organization owns the following processes:
 
@@ -147,7 +147,7 @@ An example of this setup is illustrated in the figure below.
 Figure 4. An unauthorized user's credentials fail to gain access to the sandbox, as do the ordinary credentials of an authorized XDP user account.
 Only the credentials of the dev account owned by the authorized XDP user account succeed in gaining run-time access to the sandbox, and to all of the product instances currently in it.
 
-![](images/sandboxes/sandboxes_image4.png)
+![Sandbox access example diagram](images/sandboxes/sandboxes_image4.png)
 
 
 ### Dev accounts setup
@@ -234,7 +234,7 @@ When the title data moves through services, Xbox services use the sandbox ID to 
 
 The diagram below shows what user and title data is sandboxed.
 
-![](images/sandboxes/sandboxes_image5.png)
+![What is and is not sandboxed bucket diagram](images/sandboxes/sandboxes_image5.png)
 
 
 ### Global override sandbox
@@ -306,7 +306,7 @@ The diagram below shows a user group.
 The publisher may choose to use a device group instead of a user group, if deemed easier.
 Also, this user group has run-time and design-time access to sandbox XLDP.1 and the titles in this sandbox.
 
-![](images/sandboxes/sandboxes_image6.png)
+![User group with two titles flowchart](images/sandboxes/sandboxes_image6.png)
 
 
 ### Scenario 2: One title, different teams
@@ -335,7 +335,7 @@ Because the finance user group will not typically do any run-time debugging of a
 > [!NOTE]
 > Irrespective of the organization, an XDP user can belong in more than one user group.
 
-![](images/sandboxes/sandboxes_image7.png)
+![One Title with multiple User Groups flowchart](images/sandboxes/sandboxes_image7.png)
 
 
 ### Scenario 3: Two titles, completely separate
@@ -353,7 +353,7 @@ In this example, the requirements change a bit:
 In this model, the publisher has chosen to keep both titles completely separated and thus assigned these two titles in two different sandboxes.
 The publisher has also chosen to create a separate admin user group and assigned access to the two products.
 
-![](images/sandboxes/sandboxes_image8.png)
+![One Admin Two User Group and Two Title flowchart](images/sandboxes/sandboxes_image8.png)
 
 
 ### Scenario 4: Anyway you like it
@@ -383,7 +383,7 @@ The model followed below is:
 
 -   Vendor Device Group C is a vendor-only user group that is given access to sandbox XLDP.3.
 
-![](images/sandboxes/sandboxes_image9.png)
+![Customized Usergroup and Title Access flowchart](images/sandboxes/sandboxes_image9.png)
 
 
 ## Determine the Sandbox your device is targeting

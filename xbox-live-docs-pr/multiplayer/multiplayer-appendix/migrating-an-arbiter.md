@@ -18,7 +18,7 @@ There are two types of migration:
 
 The following flow chart illustrates how to migrate an arbiter.
 
-![](../../images/multiplayer/Multiplayer_2015_HostMigration.png)
+![Arbiter migration flowchart](../../images/multiplayer/Multiplayer_2015_HostMigration.png)
 
 
 ## Graceful Arbiter Migration

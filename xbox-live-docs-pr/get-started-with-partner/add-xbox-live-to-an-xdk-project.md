@@ -46,7 +46,7 @@ Although the Sandbox is configured on a platform level for each Development Kit,
 
 To add a TitleID and SCID to your binary, modify the `Package.appxmanifest` for that binary by adding a new node in the <Extensions> node as follows:
 
-```
+```xml
 <Applications>
     ...
     <Application ...>

@@ -9,6 +9,7 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/snippets/**",
           "_themes/**",
           "_themes.pdf/**",
           "README.md",
@@ -37,9 +38,13 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "author": "aablackm",
       "breadcrumb_path": "/gaming/xbox-live/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "ms.author": "aablackm",
+      "ms.prod": "xboxlive",
+      "titleSuffix": "Xbox Live"
     },
     "fileMetadata": {},
     "template": [],

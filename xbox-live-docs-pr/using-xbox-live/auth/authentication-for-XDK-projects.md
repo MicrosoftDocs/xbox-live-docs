@@ -32,13 +32,13 @@ Most of the Xbox Live activities are related to the Xbox Live Users.
 As a game developer, you need to first create an XboxLiveUser object to represent the local user.
 
 C++:
-```
-Windows::Xbox::System::User^ user; // the interacting user.  From User::Users, etc.
+```cpp
+Windows::Xbox::System::User^ user; // the interacting user.  From User::Users, etc
 std::shared_ptr<xbox::services::xbox_live_context> xboxLiveContext = std::make_shared<xbox::services::xbox_live_context>( user );
 ```
 
 WinRT:
-```
-Windows::Xbox::System::User^ user; // the interacting user.  From User::Users, etc.
+```cpp
+Windows::Xbox::System::User^ user; // the interacting user.  From User::Users, etc
 Microsoft::Xbox::Services::XboxLiveContext^ xboxLiveContext = ref new Microsoft::Xbox::Services::XboxLiveContext( user );
 ```

@@ -126,7 +126,7 @@ Check every platform that you **intend to someday** release the game on with Xbo
 
 Once you have selected your platforms, specify the type of resource access for your game (most likely a XDK title) and the intended release mechanisms for this product.
 
-![](../images/ingesting_crossplay_games_xdp/image4.png)
+![Xbox Developer Portal platform selection for new product screenshot](../images/ingesting_crossplay_games_xdp/image4.png)
 
 
 ### Update your XDP Product Platforms
@@ -134,7 +134,7 @@ Once you have selected your platforms, specify the type of resource access for y
 If you have an existing XDK product in XDP already, it needs to be updated to support the PC platform.
 To do this, once on the product, navigate to Product Setup &gt; Platform Type.
 
-![](../images/ingesting_crossplay_games_xdp/image10.png)
+![Xbox Developer Portal update platforms dialogue screenshot](../images/ingesting_crossplay_games_xdp/image10.png)
 
 On this page, select the platforms you want to support (options are Xbox One, Threshold PC, and Windows Mobile).
 Once you are happy with your selection, select the “Submit Platforms” button.
@@ -148,12 +148,12 @@ This configuration spans sandboxes – you cannot have different platform types 
 Once the XDP product is created, go to the Product Setup page for the product to enter the MSA App ID created earlier.
 Product Setup can be reached by clicking on the left-most “status box” in the Tasks bar for the product in XDP, as shown below.
 
-![](../images/ingesting_crossplay_games_xdp/image11.png)
+![Xbox Developer Portal product setup location screenshot](../images/ingesting_crossplay_games_xdp/image11.png)
 
 Once you make it to the Product Setup page, select the “Application ID Setup” section.
 In this area, you can enter the MSA App ID you retrieved and place it in the “Application ID” field, as shown below.
 
-![](../images/ingesting_crossplay_games_xdp/image12.png)
+![Application ID setup screenshot on Xbox Developer Portal](../images/ingesting_crossplay_games_xdp/image12.png)
 
 **You** **do not need to enter Name and Publisher attribution**, **and specifically should not use the “Get Application ID” link on the page**, as you already have an MSA App ID you need to enter in this field and do not want a new one generated for your application.
 
@@ -167,7 +167,7 @@ While the above steps are enough to get your UWP game authenticated and using Xb
 
 To do this, navigate to Product Setup &gt; Partner Center Binding
 
-![](../images/ingesting_crossplay_games_xdp/image13.png)
+![Dev Center Binding screenshot on Xbox Developer Portal](../images/ingesting_crossplay_games_xdp/image13.png)
 
 On this page, enter the PFN for your UWP app (as retrieved in section 4.1.1), then select the “save” button.
 

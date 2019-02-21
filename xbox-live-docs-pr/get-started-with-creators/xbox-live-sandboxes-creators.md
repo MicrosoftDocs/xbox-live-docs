@@ -1,6 +1,6 @@
 ---
-title: Using Xbox Live sandboxes
-description: Introduction to Xbox Live sandboxes, configured at Partner Center.
+title: Xbox Live sandboxes for Creators Program developers
+description: Xbox Live sandboxes introduction
 ms.assetid: e7daf845-e6cb-4561-9dfa-7cfba882f494
 ms.date: 10/30/2017
 ms.topic: article
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Using Xbox Live sandboxes
+# Xbox Live sandboxes for Creators Program developers
 
 In the [Xbox Live service configuration](xbox-live-service-configuration-creators.md) article, it was explained that you must configure information about your title in [Partner Center](https://partner.microsoft.com/dashboard).
 This information includes the stats, leaderboards, localization, and more.
@@ -32,7 +32,7 @@ A sandbox is created for you when you create a title.
 You can find your Sandbox ID by opening your product in **Partner Center** and navigating to **Services** > **Xbox Live**.
 The **Sandbox ID** will be listed at the top of the page.
 
-![](../images/getting_started/devcenter_sandbox_id.png)
+![Title Information in Partner Center screenshot. Includes Sandbox ID](../images/getting_started/devcenter_sandbox_id.png)
 
 
 ## Switch your PC's development sandbox
@@ -79,7 +79,7 @@ The following needs to be done before you switch your sandbox in Windows Device 
 2. Click on **Xbox Live**.
 3. Enter your development sandbox in the text field, and then click **change**.
 
-![](../images/getting_started/wdp_switch_sandbox.png)
+![Sandbox configuration screenshot on Windows Devices Portal](../images/getting_started/wdp_switch_sandbox.png)
 
 To switch back to RETAIL, you can enter RETAIL here.
 
@@ -126,6 +126,8 @@ You can use the Xbox Dev Portal to change the sandbox on your console:
 1. Enter your development sandbox in the text field and click **change**.
 
 ![switch sandbox](../images/getting_started/xdp_switch_sandbox.png)
+
+![[Sandbox configuration screenshot on Xbox Developer Portal](../images/getting_started/xdp_switch_sandbox.png)
 
 
 ### Using Xbox One console UI

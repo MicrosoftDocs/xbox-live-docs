@@ -48,7 +48,7 @@ We therefore recommend that you obtain all three IDs at once.
 
 You can view all of these IDs on the "Xbox Live" root configuration page, as shown below:
 
-![](../images/getting_started/devcenter_sandbox_id.png)
+![Title Information including IDs in Partner Center screenshot](../images/getting_started/devcenter_sandbox_id.png)
 
 
 #### Sandbox IDs
@@ -86,4 +86,4 @@ By default, Xbox One Consoles and Windows 10 PCs are in the RETAIL sandbox.
 
 On the Xbox Live configuration page, click the **Test** button to publish the current Xbox Live configuration to your development sandbox.
 
-![](../images/creators_udc/creators_udc_xboxlive_config_test.png)
+![Partner center screenshot with test publish button](../images/creators_udc/creators_udc_xboxlive_config_test.png)

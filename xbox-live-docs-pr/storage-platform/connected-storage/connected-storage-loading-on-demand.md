@@ -64,10 +64,11 @@ if(gameSaveTask.Status == GameSaveErrorStatus.Ok)
 
 ### 2:  Perform a container query using `GetContainerInfo2Async`
 
-This will return a collection of `ContainerInfo2`, which contain the following metadata fields:
--   `DisplayName`: Any display name you have written using the overload of `SubmitUpdatesAsync` that takes a display name string as a parameter. We suggest always using this field to store a user-friendly name.
--   `LastModifiedTime`: The last time this container was modified. Note that in the case of conflicting local and remote timestamps, the remote ones is used.
--   `NeedsSync`: A boolean indicating if this container has data that needs to be downloaded from the cloud.
+This will return a collection of `ContainerInfo2`, which contains 3 new metadata fields:
+
+- **DisplayName** : Any display name you have written using the overload of `SubmitUpdatesAsync` that takes a display name string as a parameter. We suggest always using this field to store a user-friendly name.
+- **LastModifiedTime** : The last time this container was modified. Note that in the case of conflicting local and remote timestamps, the remote ones is used.
+- **NeedsSync** : A boolean indicating if this container has data that needs to be downloaded from the cloud.
 
 Using this additional metadata, you can present the user with core information about their game saves (including name, last time used, and whether selecting one will require a download) without actually performing a full download from the cloud.
 
@@ -111,18 +112,20 @@ if(containerInfoResult.Status == GameSaveErrorStatus.Ok)
 A Connected Storage sync is triggered by calling any of the following connected storage methods:
 
 **C++**
--   BlobInfoQueryResult::GetBlobInfoAsync
--   BlobInfoQueryResult::GetItemCountAsync
--   ConnectedStorageContainer::GetAsync
--   ConnectedStorageContainer::ReadAsync
--   ConnectedStorageSpace::DeleteContainerAsync
+
+- BlobInfoQueryResult::GetBlobInfoAsync
+- BlobInfoQueryResult::GetItemCountAsync
+- ConnectedStorageContainer::GetAsync
+- ConnectedStorageContainer::ReadAsync
+- ConnectedStorageSpace::DeleteContainerAsync
 
 **C#**
--   GameSaveBlobInfoQuery.GetBlobInfoAsync
--   GameSaveBlobInfoQuery.GetItemCountAsync
--   GameSaveContainer.GetAsync
--   GameSaveContainer.ReadAsync
--   GameSaveProvider.DeleteContainerAsync
+
+- GameSaveBlobInfoQuery.GetBlobInfoAsync
+- GameSaveBlobInfoQuery.GetItemCountAsync
+- GameSaveContainer.GetAsync
+- GameSaveContainer.ReadAsync
+- GameSaveProvider.DeleteContainerAsync
 
 This will cause the user to see the usual sync UI and progress bar as data from their selected container is downloaded.
 Only data from the selected container is synchronized; data from other containers is not downloaded.

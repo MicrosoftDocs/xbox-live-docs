@@ -258,7 +258,7 @@ For more information, see Basic Hopper Configuration for Matchmaking.
 This section defines the fields used to configure basic hopper fields.
 After this configuration, you must configure the hopper rules, as described in Configuration of Hopper Rules.
 
-![](../../images/multiplayer/session_template_hopper_edit.png)
+![Hopper Editor screenshot from Xbox Developer Portal](../../images/multiplayer/session_template_hopper_edit.png)
 
 
 ###### Name
@@ -614,16 +614,14 @@ The Should rule is identical until the last generation--once there, tickets may 
 
 ## Target Session Initialization and QoS
 
-A group of players is matched into a target session by SmartMatch matchmaking.
-The title must take steps to confirm that enough players have joined that they can successfully connect to one another if they need to.
-This process is known as *target session initialization*.
+A group of players is matched into a target session by SmartMatch matchmaking. The title must take steps to confirm that enough players have joined that they can successfully connect to one another if they need to. This process is known as target session initialization.
 
 For games using peer-to-peer network topologies, an important aspect of target session initialization is QoS measurement and evaluation.
 Associated operations are the measurement of latency and bandwidth between Xbox One consoles (or between consoles and servers), and the evaluation of the resulting measurements to determine whether the network connection between nodes is good.
 
 The following flow chart illustrates how to implement the initialization of the target session and QoS operations.
 
-![](../../images/multiplayer/Multiplayer_2015_Matchmaking_QoS.png)
+![Matchmaking Quality of Service flowchart](../../images/multiplayer/Multiplayer_2015_Matchmaking_QoS.png)
 
 
 ### Managed Initialization
@@ -723,8 +721,4 @@ Here are the fields to set:
 
 ## See also
 
-[Configuring SmartMatch for your Title]()
-
 [MPSD Session Templates](multiplayer-session-directory.md)
-
-[SmartMatch Runtime Operations]()

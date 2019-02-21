@@ -109,7 +109,7 @@ The most common changes between the Xbox and UWP versions of the appxmanifest.xm
 The Xbox Live SDK needs to know your title ID and SCID, which are no longer included in the appxmanifest.xml for UWP titles.
 Instead, you create a text file named **xboxservices.config** in your project root directory and add the following fields, replacing the values with the info for your title:
 
-```
+```xml
 {
   "TitleId": 123456789,
   "PrimaryServiceConfigId": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee"
@@ -344,15 +344,15 @@ Before, on the Xbox One XDK:
 
 1.  Acquire a user (from gamepad interaction, for example).
 2.  Create an **XboxLiveContext** from that user:
-  ```
+  ```cpp
   ref new Microsoft::Xbox::Services::XboxLiveContext( Windows::Xbox::System::User^ user )
   ```
 1.  Handle a **SignOut** event:
-  ```
+  ```cpp
   Windows::Xbox::System::User::SignOutStarted
   ```
 1.  Handle gamepad/controller pairing using:
-  ```
+  ```cpp
   Windows::Xbox::Input::Controller::ControllerRemoved
   Windows::Xbox::Input::Controller::ControllerPairingChanged
   ```
@@ -361,25 +361,25 @@ Now, for the UWP/Xbox Live SDK:
 
 1.  Create an **XboxLiveUser**:
 
-  ```
+  ```cpp
   auto xblUser = ref new Microsoft::Xbox::Services::System::XboxLiveUser();
   ```
 
 1.  Try to sign them in by using the last Microsoft account they used, without bothering them with UI:
 
-  ```
+  ```cpp
   xblUser->SignInSilentlyAsync();
   ```
 
 1.  If you get **SignInResult::Success** in the result from this async operation, create the **XboxLiveContext**, and then you're finished:
 
-  ```
+  ```cpp
   auto xblContext = ref new Microsoft::Xbox::Services::XboxLiveContext( xblUser );
   ```
 
 1.  If instead you get **SignInResult::UserInteractionRequired**, you need to call the interactive sign-in method that brings up system UI:
 
-  ```
+  ```cpp
   xblUser->SignInAsync();
   ```
 
@@ -387,13 +387,13 @@ Now, for the UWP/Xbox Live SDK:
 
   **Note** When providing menu options, it's a good idea to give them the option to switch to a different Microsoft account:
 
-  ```
+  ```cpp
   xblUser->SwitchAccountAsync( nullptr );
   ```
 
 1.  After you have a signed-in user, you may want to hook up the **XboxLiveUser::SignOutCompleted** event so that you can react to the user signing out:
 
-  ```
+  ```cpp
   xblUser->SignOutCompleted += ref new Windows::Foundation::EventHandler<Microsoft::Xbox::Services::System::SignOutCompletedEventArgs^>( &OnSignOutCompleted );
   ```
 

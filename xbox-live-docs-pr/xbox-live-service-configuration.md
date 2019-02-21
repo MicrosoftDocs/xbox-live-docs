@@ -23,7 +23,7 @@ For this to happen, you need to perform some one-time configuration so that Xbox
 For example, whether the values should be sorted in ascending or descending value, and what piece of data it should be sorting.
 
 This configuration happens on [Partner Center](https://partner.microsoft.com/dashboard) most of the time.
-But certain developers will use [Xbox Developer Portal (XDP)](http://xdp.xboxlive.com).
+But certain developers will use [Xbox Developer Portal (XDP)](https://xdp.xboxlive.com).
 
 If you are a developing your title as part of the Xbox Live Creators Program, you use [Partner Center](https://partner.microsoft.com/dashboard), and you can read [Getting Started With Xbox Live](get-started-with-creators/get-started-with-xbox-live-creators.md) to learn how to get set up.
 
@@ -32,8 +32,9 @@ If you are an ID@Xbox Developer or working with a publisher that is a Microsoft 
 
 ## Choose your development portal
 
-As mentioned above, there are two different portals that can be used to configure Xbox Live Services.
-Partner Center at [https://partner.microsoft.com/dashboard](https://partner.microsoft.com/dashboard) and the Xbox Development Portal (XDP) at [http://xdp.xboxlive.com](http://xdp.xboxlive.com).
+As mentioned above, there are two different portals that can be used to configure Xbox Live Services:
+*  Partner Center at [https://partner.microsoft.com/dashboard](https://partner.microsoft.com/dashboard)
+*  The Xbox Development Portal (XDP) at [https://xdp.xboxlive.com](https://xdp.xboxlive.com)
 
 Partner Center is recommended for all titles going forward, but for certain features, you may still want to use XDP.
 This section will help advise you where to configure your title.
@@ -130,13 +131,13 @@ Sandbox IDs are case sensitive.
 
 If you are configuring your title in Partner Center, you get your Sandbox ID on the "Xbox Live" root configuration page as shown below:
 
-![](images/getting_started/devcenter_sandbox_id.png)
+![Xbox Live title information on Partner Center screenshot. Includes Sandbox ID](images/getting_started/devcenter_sandbox_id.png)
 
 **XDP**
 
 If you are configuring your title on XDP, you get your Sandbox ID on the overview page for your product as shown below:
 
-![](images/getting_started/xdp_sandbox_id.png)
+![Title Overview page on Xbox Developer Portal. Includes Sandbox ID](images/getting_started/xdp_sandbox_id.png)
 
 
 #### Service Configuration ID (SCID)
@@ -153,14 +154,14 @@ To retrieve your SCID in Partner Center, navigate to the Xbox Live Services sect
 
 Your SCID is displayed in the table shown below:
 
-![](images/getting_started/devcenter_scid.png)
+![SCID displayed in Xbox Live Configuration on Partner Center screenshot](images/getting_started/devcenter_scid.png)
 
 
 **XDP**
 
 To retrieve your SCID on XDP, navigate to the "Product Setup" section under your title and you will see both the Title ID and SCID.
 
-![](images/getting_started/xdp_scid.png)
+![Xbox Developer Portal Product Setup page screenshot. Includes SCID.](images/getting_started/xdp_scid.png)
 
 
 #### Title ID

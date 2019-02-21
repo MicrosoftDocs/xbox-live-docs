@@ -23,16 +23,11 @@ This article shows how to set up the Xbox Live plugin in Unity.
 You will need the following before you can use Xbox Live in Unity:
 
 1. An **[Xbox Live account](https://support.xbox.com/browse/my-account/manage-account/Create%20account)**.
-
 2. Enrollment in the **[Partner Center developer program](https://developer.microsoft.com/store/register)**.
-
-3. **[Windows 10 Anniversary Update](https://microsoft.com/windows)** or later.
-
+3. **[Windows 10 Anniversary Update](https://microsoft.com/windows)** or later
 4. **[Unity](https://store.unity.com/)** versions **5.5.4p5** (or newer), **2017.1p5** (or newer), or **2017.2.0f3** (or newer) with **[Microsoft Visual Studio Tools for Unity](https://marketplace.visualstudio.com/items?itemName=SebastienLebreton.VisualStudio2015ToolsforUnity)** and **Windows Store .NET Scripting Backend**.
-
 5. **[Visual Studio 2015](https://www.visualstudio.com/)** or **[Visual Studio 2017 15.3.3](https://www.visualstudio.com/)** (or newer) with the **Universal Windows App Development Tools**.
-
-6. **[Xbox Live Platform Extensions SDK](http://aka.ms/xblextsdk)**.
+6. **[Xbox Live Platform Extensions SDK](https://aka.ms/xblextsdk)**.
 
 
 > [!NOTE]
