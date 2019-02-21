@@ -67,7 +67,7 @@ In this example, the announcement is an interactive ad for an upcoming event. It
 
 ###### UI Example: A tournament ad displayed alongside the main menu
 
-![](../../images/arena/arena-ux-promo.png)
+![Sample In-Game Tournament UI](../../images/arena/arena-ux-promo.png)
 
 > [!TIP]
 > **UX recommendation**  

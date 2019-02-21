@@ -45,9 +45,9 @@ To receive MPSD session change notifications, the title can follow the procedure
 6.  Make calls for each user to the **MultiplayerSession.SetSessionChangeSubscription Method**, passing the session change type for which to be notified.
 7.  Now write the session to MPSD as described in **How to: Update a Multiplayer Session**.
 
-The following flow chart illustrates how to start Multplayer by subscribing to the events described in this procedure.
+The following flow chart illustrates how to start Multiplayer by subscribing to the events described in this procedure.
 
-![](../../images/multiplayer/Multiplayer_2015_Start_Multiplayer.png)
+![Starting multiplayer flow chart](../../images/multiplayer/Multiplayer_2015_Start_Multiplayer.png)
 
 
 ### Parsing duplicate session change notifications
@@ -84,33 +84,37 @@ The title must do the following to create a new session:
 
 ### Example
 
-    void Example_MultiplayerService_CreateSession()
+
+```cpp
+void Example_MultiplayerService_CreateSession()
+{
+    XboxLiveContext^ xboxLiveContext = ref new Microsoft::Xbox::Services::XboxLiveContext(User::Users->GetAt(0));
+
+    // Values found in Xbox Developer Portal(XDP) or Partner Center configuration
+    MultiplayerSessionReference^ multiplayerSessionReference = ref new MultiplayerSessionReference(
+    "c83c597b-7377-4886-99e3-2b5818fa5e4f", // serviceConfigurationId
+    "team-deathmatch", // sessionTemplateName
+    "mySession" // sessionName
+    );
+
+    MultiplayerSession^ multiplayerSession = ref new MultiplayerSession(
+    xboxLiveContext,
+    multiplayerSessionReference
+    );
+
+    auto asyncOp = xboxLiveContext->MultiplayerService->WriteSessionAsync(
+    multiplayerSession,
+    MultiplayerSessionWriteMode::CreateNew
+    );
+
+    create_task(asyncOp)
+    .then([](MultiplayerSession^ newMultiplayerSession)
     {
-      XboxLiveContext^ xboxLiveContext = ref new Microsoft::Xbox::Services::XboxLiveContext(User::Users->GetAt(0));
+    // Throw away stale multiplayerSession, and use newMultiplayerSession from now on
+    });
+}
+```
 
-      // Values found in Xbox Developer Portal(XDP) or Partner Center configuration
-      MultiplayerSessionReference^ multiplayerSessionReference = ref new MultiplayerSessionReference(
-        "c83c597b-7377-4886-99e3-2b5818fa5e4f", // serviceConfigurationId
-        "team-deathmatch", // sessionTemplateName
-        "mySession" // sessionName
-        );
-
-      MultiplayerSession^ multiplayerSession = ref new MultiplayerSession(
-        xboxLiveContext,
-        multiplayerSessionReference
-        );
-
-      auto asyncOp = xboxLiveContext->MultiplayerService->WriteSessionAsync(
-        multiplayerSession,
-        MultiplayerSessionWriteMode::CreateNew
-        );
-
-      create_task(asyncOp)
-      .then([](MultiplayerSession^ newMultiplayerSession)
-      {
-        // Throw away stale multiplayerSession, and use newMultiplayerSession from now on
-      });
-    }
 
 
 ## Set an arbiter for an MPSD session
@@ -162,7 +166,7 @@ The title must perform the following main steps to handle title activation.
 
 The following flow chart illustrates how to handle title activation.
 
-![](../../images/multiplayer/Multiplayer_2015_OnActivation.png)
+![Title Activation of Multiplayer flowchart](../../images/multiplayer/Multiplayer_2015_OnActivation.png)
 
 ## Make the user joinable
 
@@ -178,7 +182,7 @@ To make the user joinable, the title must do the following:
 
 The following flow chart illustrates the steps to take to allow a user to be joined by other players during a game.
 
-![](../../images/multiplayer/Multiplayer_2015_Become_Joinable.png)
+![Allow a user to be joined by players flowchart](../../images/multiplayer/Multiplayer_2015_Become_Joinable.png)
 
 ## Send game invites
 
@@ -198,7 +202,7 @@ To send game invites for a player, the title must do the following:
 
 The following flow chart illustrates how to send invites.
 
-![](../../images/multiplayer/Multiplayer_2015_Send_Invites.png)
+![Invitation send flowchart](../../images/multiplayer/Multiplayer_2015_Send_Invites.png)
 
 ## Join a game session from a lobby session
 
@@ -287,7 +291,7 @@ To allow a user to leave a session, the title must do the following.
 
 The following flow chart illustrates how to leave the session and shut down.
 
-![](../../images/multiplayer/Multiplayer_2015_Shut_Down.png)
+![Exit session and close flowchart](../../images/multiplayer/Multiplayer_2015_Shut_Down.png)
 
 ## Fill open session slots during matchmaking
 
@@ -302,7 +306,7 @@ To fill open slots in a ticket session during matchmaking, the title must follow
 
 The following flow chart illustrates how to fill open session slots during matchmaking.
 
-![](../../images/multiplayer/Multiplayer_2015_Fill_Open_Slots.png)
+![Filling open slots during matchmaking flowchart](../../images/multiplayer/Multiplayer_2015_Fill_Open_Slots.png)
 
 ## Create a match ticket
 

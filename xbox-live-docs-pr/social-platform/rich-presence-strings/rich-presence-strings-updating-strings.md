@@ -14,7 +14,9 @@ To update the Rich Presence string in your title, you can call the Write Title U
 
 The URI looks like this:
 
-          POST /users/xuid({xuid})/devices/current/titles/current
+```uri
+POST /users/xuid({xuid})/devices/current/titles/current
+```
 
 Below are only the fields for setting Rich Presence strings. There are other optional fields related to the writing presence for a title not listed here.
 
@@ -39,8 +41,9 @@ Scid|String|Y|Scid that tells us where the Rich Presence strings are defined.
 
 For example, if I wanted to update the Rich Presence for user whose xuid is 12345, my call would look as follows:
 
-          POST /users/xuid(12345)/devices/current/titles/current
-
+```uri
+POST /users/xuid(12345)/devices/current/titles/current
+```
 
 With the following JSON body:
 
@@ -65,7 +68,9 @@ Then, when someone attempts to read user 12345's Rich Presence, the service will
 
 In this case, let's say that a user wants to read the en-US string. Reading rich presence would work as follows (for more information about this call, see **GET (/users/xuid({xuid}))**
 
-          GET /users/xuid(12345)?level=all
+```uri
+GET /users/xuid(12345)?level=all
+```
 
 The wrapper API for this is **PresenceService.GetPresenceAsync Method**
 

@@ -23,11 +23,11 @@ You do not need to configure stats that are not featured player stats, and are n
 
 First, go to the Player Stats section for your title as shown below.
 
-![](../images/omega/dev_center_player_stats_creators.png)
+![Partner Center Featured Stats and Leaderboards configuration screenshot](../images/omega/dev_center_player_stats_creators.png)
 
 Then click the `Create your first featured stat/leaderboard` button, and then fill out this dialog and click Save.
 
-![](../images/omega/dev_center_player_stats_creators_leaderboard.png)
+![Partner Center new leaderboard dialogue](../images/omega/dev_center_player_stats_creators_leaderboard.png)
 
 The `Display name` field is what users will see in the GameHub.  This string can be localized in the `Localize strings` section.  Click `Show Options` in the `Localize strings` section to see details on how to localize these strings.
 

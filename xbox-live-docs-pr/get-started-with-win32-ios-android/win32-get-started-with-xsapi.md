@@ -1,5 +1,5 @@
 ---
-title: Get started with Xbox Live APIs on Win32
+title: Get started with Xbox Live APIs on Win32 using binaries
 author: KevinAsgari
 description: Learn how to add and compile the Xbox Live APIs source in your Win32 project.
 ms.author: kevinasg

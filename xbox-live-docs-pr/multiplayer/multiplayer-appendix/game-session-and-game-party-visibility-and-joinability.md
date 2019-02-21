@@ -112,5 +112,5 @@ Alternatively, a player can remain connected to the host and join the session wh
 
 Client multiplayer flow
 -----------------------
-![](../../images/whitepapers/gamesessionvisibility_image1.png)
-![](../../images/whitepapers/gamesessionvisibility_image2.png)
+![Client Multiplayer flowchart part 1](../../images/whitepapers/gamesessionvisibility_image1.png)
+![Client Multiplayer flowchart part 2](../../images/whitepapers/gamesessionvisibility_image2.png)

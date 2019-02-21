@@ -91,7 +91,7 @@ Set the member constants at join time for each session member. The JSON object i
 
 Member properties are writable only by a session member. They are set in the /members/{index}/properties/system object and reflect the elements of the **MultiplayerSessionMember Class**. Here is an example:
 
-```
+```JSON
     {
       // These flags control the member status and "activeTitle", and are mutually exclusive (it's an error to set both to true).
       // For each, false is the same as not present. The default status is "inactive", i.e. neither present.
@@ -226,7 +226,7 @@ In comparison, a peer mesh that uses a heartbeat to detect a disconnection is of
 
 ### Large Sessions
 
-A large MPSD session can have up to 1000 members, but it has some session features disabled, such as getting a list of all members. Session largeness is represented by the **MultiplayerSessionCapabilities.Large Property**. This property is set to true to indicate a large session, and the "large" capability is indicated in the /constants/system/capabilities object. For more information, see [Session Capabilities]().
+A large MPSD session can have up to 1000 members, but it has some session features disabled, such as getting a list of all members. Session largeness is represented by the **MultiplayerSessionCapabilities.Large Property**. This property is set to true to indicate a large session, and the "large" capability is indicated in the /constants/system/capabilities object. For more information, see [Session Capabilities](#session-capabilities).
 
 ## Session User States
 

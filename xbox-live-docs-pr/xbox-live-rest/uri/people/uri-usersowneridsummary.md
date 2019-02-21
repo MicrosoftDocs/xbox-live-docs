@@ -41,5 +41,3 @@ Accesses summary data about the owner from the caller's perspective.
 
 
 ##### Parent
-
-[/users/{ownerId}/summary]()

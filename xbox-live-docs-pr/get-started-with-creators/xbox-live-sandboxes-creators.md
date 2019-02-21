@@ -1,5 +1,5 @@
 ---
-title: Xbox Live sandboxes
+title: Xbox Live sandboxes for Creators Program developers
 
 description: Xbox Live sandboxes introduction
 ms.assetid: e7daf845-e6cb-4561-9dfa-7cfba882f494
@@ -24,7 +24,7 @@ By default, Xbox One consoles and Windows 10 PCs are in the RETAIL sandbox. You 
 
 A sandbox is created for you when you create a title. You can find your Sandbox ID by opening your product in **Partner Center** and navigating to **Services** > **Xbox Live**. The **Sandbox ID** will be listed at the top of the page.
 
-![](../images/getting_started/devcenter_sandbox_id.png)
+![Title Information in Partner Center screenshot. Includes Sandbox ID](../images/getting_started/devcenter_sandbox_id.png)
 
 ## Switch your PC's development sandbox
 You can switch your PC into the development sandbox by using Unity, Windows Device Portal (WPD) or via command-line.
@@ -57,7 +57,7 @@ The following needs to be done before you switch your sandbox in Windows Device 
 2. Click on **Xbox Live**.
 3. Enter your development sandbox in the text field and click **change**.
 
-![](../images/getting_started/wdp_switch_sandbox.png)
+![Sandbox configuration screenshot on Windows Devices Portal](../images/getting_started/wdp_switch_sandbox.png)
 
 To switch back to RETAIL, you can enter RETAIL here.
 
@@ -92,7 +92,7 @@ You can use the Xbox Dev Portal to change the sandbox on your console. To do thi
 2. Click on **Xbox Live**.
 3. Enter your development sandbox in the text field and chick **change**.
 
-![](../images/getting_started/xdp_switch_sandbox.png)
+![[Sandbox configuration screenshot on Xbox Developer Portal](../images/getting_started/xdp_switch_sandbox.png)
 
 ### Using Xbox One console UI
 

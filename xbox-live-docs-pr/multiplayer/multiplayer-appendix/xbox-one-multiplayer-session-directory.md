@@ -147,11 +147,11 @@ The match ticket session should be used with a game session template set up with
 
 Figure 2. Sample hopper.
 
-![](../../images/whitepapers/mpsd_image1.png)
+![Hopper edit dialogue screenshot](../../images/whitepapers/mpsd_image1.png)
 
 The code excerpt that follows is an example of a peer-to-peer game session template (title-managed QoS).
 
-```
+```json
 {
     "constants": {
         "system": {
@@ -175,7 +175,7 @@ The code excerpt that follows is an example of a peer-to-peer game session templ
 
 This is an example of a peer-to-server session and RAW template.
 
-```
+```json
 {
     "constants": {
         "system": {
@@ -191,7 +191,7 @@ This is an example of a peer-to-server session and RAW template.
 
 The following code shows an example of a match ticket session template, which is used for Smart Match.
 
-```
+```json
 {
     "constants": {
         "system": {
@@ -217,7 +217,7 @@ The following code shows an example of a match ticket session template, which is
 
 The list of session templates that exist within a SCID, as well as the details of a specific session template, can be retrieved from MPSD:
 
-```
+```uri
 GET /serviceconfigs/{scid}/sessiontemplates
 
 GET /serviceconfigs/{scid}/sessiontemplates/{session-template-name}
@@ -227,7 +227,7 @@ GET /serviceconfigs/{scid}/sessiontemplates/{session-template-name}
 
 Sessions can be queried at the service config and session template levels:
 
-```
+```uri
 GET /serviceconfigs/{scid}/sessions
 
 GET /serviceconfigs/{scid}/sessiontemplates/{session-template-name}/sessions
@@ -253,7 +253,7 @@ Setting either *private* (which returns private sessions) or *reservations* (whi
 
 The following code excerpt shows an example of a query response.
 
-```
+```json
 {
 "results": [ {
 "xuid": "9876",  // If the session was found from a xuid, that xuid.
@@ -343,7 +343,7 @@ Within the body of PUT requests, the system objects are validated and merged jus
 
 **/properties/system**
 
-```
+```json
 {
 // Optional array of case-insensitive strings. Cannot be set if the session's visibility is "private".
 "keywords": [ "hello" ],
@@ -420,7 +420,7 @@ These timeouts override the session’s reservation and ready timeouts for membe
 
 Example:
 
-```
+```json
 "memberInitialization": {
         "joinTimeout": 5000,
         "measurementTimeout": 5000,
@@ -431,7 +431,7 @@ Example:
 ```
 
 
-![](../../images/whitepapers/mpsd_image2.png)
+![Member initialization flowchart](../../images/whitepapers/mpsd_image2.png)
 
 **Figure 3. Member initialization flow.**
 
@@ -468,7 +468,7 @@ Any new members invited or joined while an episode is already running will be ma
 
 Example:
 
-```
+```json
 "initializing": {
     "stage": "measuring",
     "stageStartTime": "2009-06-15T13:45:30.0900000Z",
@@ -482,13 +482,13 @@ The stage goes from joining to measuring to evaluating. If an episode fails, the
 Initialization failures can also be tracked for each member. They are set when transitioning out of the joining or measuring stage if this member doesn't pass.
 
 Example:
-```
+```json
 "initializationFailure": "latency",
 ```
 In order of precedence, the value for this attribute could be set to *timeout, latency, bandwidthdown, bandwidthup, network, group*, or *episode*. The network value means the network configuration and/or conditions (such as conflicting network address translation \[NAT\]) prevented the QoS metrics from being measured. The only possible value at the end of joining is *group*. (On timeout from joining, the reservation is removed.)
 
 If **memberInitialization** is set and the member was added with "initialize": true, this is set to the initialization episode that the member will participate in. A value of 1 is used for the members added to a new session at the time it is created, and it is removed when the initialization episode ends.
-```
+```json
 "initializationEpisode": 1,
 ```
 
@@ -510,7 +510,7 @@ When an MPSD session is being used as a match ticket session, some special sessi
 
 When the Matchmaking service adds users to a session, it provides some context around how and why they were matched into the session, in the **matchmakingResult** field.
 
-```
+```json
 "matchmakingResult": {
 ```
 
@@ -891,7 +891,7 @@ Using certificate authentication: client-sessiondirectory.xboxlive.com
 
 Example:
 
-```
+``` uri
 PUT https://client-sessiondirectory-stress.xboxlive.com/serviceconfigs/8cvda84-2606-4bab-8eda-d12313e65143/sessiontemplates/teamDeathmatch/sessions/3baafc35-816d-49cd-9656-5772506c988a
 ```
 
@@ -899,7 +899,7 @@ Using XToken authentication: sessiondirectory.xboxlive.com
 
 Example:
 
-```
+``` uri
 PUT https://sessiondirectory-stress.xboxlive.com/serviceconfigs/8cvda84-2606-4bab-8eda-d12313e65143/sessiontemplates/teamDeathmatch/sessions/3baafc35-816d-49cd-9656-5772506c988a
 ```
 
@@ -952,15 +952,20 @@ This is usually a permissions or scope issue. Collect Fiddler traces to help get
 
 This will return 412 Precondition Failed if the session already exists:
 
+```http
 > PUT /serviceconfigs/00000000-0000-0000-0000-000000000000/sessiontemplates/quick/sessions/foo HTTP/1.1
 > Content-Type: application/json
 > If-None-Match: \*
+```
+
 
 This will return 412 Precondition Failed if the session etag doesn’t match the If-Match header:
 
+```http
 > PUT /serviceconfigs/00000000-0000-0000-0000-000000000000/sessiontemplates/quick/sessions/foo HTTP/1.1
 > Content-Type: application/json
 > If--Match: 9555A7DE-8B91-40E4-8CFB-0629312C9C7D
+```
 
 ### I am getting errors such as 405, 409, 503, and 400when calling MPSD.
 

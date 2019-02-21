@@ -48,7 +48,7 @@ Alternatively limiting based only on the title would produce an equally unfair r
 
 The pairing of User and Title ensures that no title uses more resources than what is appropriate given the number of active users while also giving each user a consistent slice of the resource pie.
 
-![](../../images/FGRL.png)
+![Rate limiting request and response flowchart](../../images/FGRL.png)
 
 The diagram above shows a high level view of how the request is handled. First the request is generated and then received by the desired service. Upon receiving the request, the system checks to see how many times the user and title together have accessed the service. If the request is under the limit, then it will be processed as normal. If the request is found to be at or above the limit the services will drop it and instead return a 429 response. The response will indicate how long until the period rolls over and the user and title requests can be handled.
 

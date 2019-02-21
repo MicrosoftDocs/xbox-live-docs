@@ -17,7 +17,7 @@ At some point during a complete session, you might need to select a new arbiter 
 
 The following flow chart illustrates how to migrate an arbiter.
 
-![](../../images/multiplayer/Multiplayer_2015_HostMigration.png)
+![Arbiter migration flowchart](../../images/multiplayer/Multiplayer_2015_HostMigration.png)
 
 ## Graceful Arbiter Migration
 
