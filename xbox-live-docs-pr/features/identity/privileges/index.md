@@ -13,6 +13,6 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Overview of Privileges](overview.md) | __ |
-| [Portal configuration of Privileges](portal.md) | __ |
-| [API for Privileges](api.md) | __ |
+| [Overview of Privileges](overview.md) | Overview of Privileges. |
+| [Portal configuration of Privileges](portal.md) | Portal configuration of Privileges. |
+| [API for Privileges](api.md) | API for Privileges. |

@@ -13,6 +13,6 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Overview of user identity](overview.md) | __ |
-| [Portal configuration of user identity](portal.md) | __ |
-| [API for user identity](api.md) | __ |
+| [Overview of user identity](overview.md) | Overview of user identity. |
+| [Portal configuration of user identity](portal.md) | Portal configuration of user identity. |
+| [API for user identity](api.md) | API for user identity. |
