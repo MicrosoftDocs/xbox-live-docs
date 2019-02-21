@@ -113,16 +113,24 @@ In either of these cases, your title code should show the joining user an error 
 
 The following request returns HTTP/412 if the session already exists:
 
-    PUT /serviceconfigs/00000000-0000-0000-0000-000000000000/sessiontemplates/quick/sessions/foo HTTP/1.1
-    Content-Type: application/json
-    If-None-Match: *
+
+```uri
+PUT /serviceconfigs/00000000-0000-0000-0000-000000000000/sessiontemplates/quick/sessions/foo HTTP/1.1
+Content-Type: application/json
+If-None-Match: *
+```
+
 
 
 The following request returns HTTP/412 if the session etag doesn't match the If-Match header:
 
-    PUT /serviceconfigs/00000000-0000-0000-0000-000000000000/sessiontemplates/quick/sessions/foo HTTP/1.1
-    Content-Type: application/json
-    If-Match: 9555A7DE-8B91-40E4-8CFB-0629312C9C7D
+
+```uri
+PUT /serviceconfigs/00000000-0000-0000-0000-000000000000/sessiontemplates/quick/sessions/foo HTTP/1.1
+Content-Type: application/json
+If-Match: 9555A7DE-8B91-40E4-8CFB-0629312C9C7D
+```
+
 
 
 See [Synchronization of Session Updates](multiplayer-session-directory.md) for more information.

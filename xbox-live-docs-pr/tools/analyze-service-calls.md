@@ -51,8 +51,11 @@ Starting and stopping traces using xbtrace relies on protocol activation. Before
 
 The following example shows how to start and stop an Xbox Live Services trace by using xbTrace:
 
-    xbtrace start xboxliveservices
-    xbtrace stop
+
+```cmd
+xbtrace start xboxliveservices
+xbtrace stop
+```
 
 
 Remember that your title must be running and protocol activation must be initialized before you can start and stop tracing with xbtrace. After tracing is stopped, xbtrace copies the trace file to your development PC and places it in a directory whose name includes "xbtrace" and a timestamp. The name of this directory can be overridden using \[etlfile\] option to xbtrace.
@@ -61,14 +64,18 @@ Starting and stopping tracing by using protocol activation
 ----------------------------------------------------------
 Tracing can also be controlled by using the protocol activation features of "xbApp launch". You must know your title's titleid to start and stop tracing via protocol activation. You can find your title id in your title's manifest file. Tracing is controlled through URIs that contain "serviceCallTracking" parameter. The following examples show how to start and stop tracing for a title whose title id is 12345678:
 
-    xbapp launch "ms-xbl-12345678://serviceCallTracking?state=start"
-    xbapp launch "ms-xbl-12345678://serviceCallTracking?state=stop"
+```cmd
+xbapp launch "ms-xbl-12345678://serviceCallTracking?state=start"
+xbapp launch "ms-xbl-12345678://serviceCallTracking?state=stop"
+```
 
 When you use protocol activation, the resulting trace file is stored on the developer scratch drive on the console. You'll need to copy the file back to your PC using either xbcp or the Xbox One Neighborhood. The file is not automatically copied back to the PC as it is when using xbtrace.
 
 Protocol activation allows you to set additional trace parameters, such as a verbosity. Four levels of verbosity are supported: quiet, diagnostic, detailed and minimal. The following example shows how to set a verbosity level:
 
-    xbapp launch "ms-xbl-12345678://serviceCallTracking?verbosity=diagnostic"
+```cmd
+xbapp launch "ms-xbl-12345678://serviceCallTracking?verbosity=diagnostic"
+```
 
 ## Analyze the trace file
 

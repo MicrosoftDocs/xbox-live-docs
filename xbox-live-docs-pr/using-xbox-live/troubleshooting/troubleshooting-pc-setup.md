@@ -14,7 +14,9 @@ On Windows 10 PC, you can ensure your machine is setup correctly with these step
 
 1. Change your machine to point to the XDKS.1 sandbox where samples are designed to run.  Do this by running this script:
 
-        {*SDK source root*}\Tools\SwitchSandbox.cmd XDKS.1
+```cmd
+{*SDK source root*}\Tools\SwitchSandbox.cmd XDKS.1
+```
 
 1. Extract the contents of the zip file "SourcesAndSamples.zip" found inside the SDK.
 1. Open a sample solution:

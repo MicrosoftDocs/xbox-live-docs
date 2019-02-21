@@ -71,22 +71,23 @@ Images, sounds, and custom data use the binary type. Because the data must be tr
 
 Structured data can use the JSON type. JSON objects can be directly used in languages, like JavaScript, that support them. When retrieving data from JSON files, the game can supply a *select* parameter to return specific items within the structure. For example, use a JSON formatted file that contains the following information:
 
+```json
+{
+"difficulty" : 1,
+"level" :
+    [
+        { "number" : "1", "quest" : "swords" },
+        { "number" : "2", "quest" : "iron" },
+        { "number" : "3", "quest" : "gold" },
+        { "number" : "4", "quest" : "queen" }
+        ],
+"weapon" :
     {
-    "difficulty" : 1,
-    "level" :
-        [
-            { "number" : "1", "quest" : "swords" },
-            { "number" : "2", "quest" : "iron" },
-            { "number" : "3", "quest" : "gold" },
-            { "number" : "4", "quest" : "queen" }
-         ],
-    "weapon" :
-        {
-             "name" : "poison",
-             "timeleft" : "2mins"
-        }
+            "name" : "poison",
+            "timeleft" : "2mins"
     }
-
+}
+```
 
 | Note                                                                                                                                              |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -94,33 +95,45 @@ Structured data can use the JSON type. JSON objects can be directly used in lang
 
 Games can select portions of this structure with a query like this:
 
-             GET https://titlestorage.xboxlive.com/users/xuid(1234)/storage/titlestorage/titlegroups/
-             faa29d21-2b49-4908-96bf-b953157ac4fe/data/save1.dat,json?select=weapon.name
-             Content-Type: application/octet-stream
-             x-xbl-contract-version: 1
-             Authorization: XBL3.0 x=<userHash>;<STSTokenString>
-             Connection: Keep-Alive
+```http
+GET https://titlestorage.xboxlive.com/users/xuid(1234)/storage/titlestorage/titlegroups/
+faa29d21-2b49-4908-96bf-b953157ac4fe/data/save1.dat,json?select=weapon.name
+Content-Type: application/octet-stream
+x-xbl-contract-version: 1
+Authorization: XBL3.0 x=<userHash>;<STSTokenString>
+Connection: Keep-Alive
+```
+
 
 The response body for this query is:
 
-    {
-        "name" : "poison"
-    }
+```json
+{
+    "name" : "poison"
+}
+```
 
 The array can be accessed with a query like this:
 
-      GET https://titlestorage.xboxlive.com//users/xuid(1234)/storage/titlestorage/titlegroups/
-      faa29d21-2b49-4908-96bf-b953157ac4fe/data/save1.dat,json?select=levels[3].quest
-      Content-Type: application/octet-stream
-      x-xbl-contract-version: 1
-      Authorization: XBL3.0 x=<userHash>;<STSTokenString>
-      Connection: Keep-Alive
+```http
+GET https://titlestorage.xboxlive.com//users/xuid(1234)/storage/titlestorage/titlegroups/
+faa29d21-2b49-4908-96bf-b953157ac4fe/data/save1.dat,json?select=levels[3].quest
+Content-Type: application/octet-stream
+x-xbl-contract-version: 1
+Authorization: XBL3.0 x=<userHash>;<STSTokenString>
+Connection: Keep-Alive
+```
+
 
 The response body for this query is:
 
-    {
-        "quest" : "queen"
-    }
+
+```json
+{
+    "quest" : "queen"
+}
+```
+
 
 The following length restrictions are enforced for JSON data:
 
@@ -139,66 +152,78 @@ The **{type}** can be **config** to indicate that the data is a configuration bl
 
 Configuration blobs can include virtual nodes that return a setting from a list of possibilities. Virtual nodes are useful for providing settings for specific situations, such as for a title or locale. The virtual node includes several possible settings along with values and conditions for selecting from the values. In the following example, the **defaultCardDesign** setting can have one of the values in the virtual node.
 
+```json
+{
+    "defaultCardDesign":
     {
-      "defaultCardDesign":
-      {
-        "_virtualNode":
-       {
-          "_selectBy":"titleId",
-          "_sourceNodes":
-          [
-            {"_selector":"123456799", "_data":"RobotUnicornCard.png,binary"},
-            {"_selector":"default", "_data":"StandardCard.png,binary"}
-          ]
-        }
-      },
+    "_virtualNode":
+    {
+        "_selectBy":"titleId",
+        "_sourceNodes":
+        [
+        {"_selector":"123456799", "_data":"RobotUnicornCard.png,binary"},
+        {"_selector":"default", "_data":"StandardCard.png,binary"}
+        ]
     }
+    },
+}
+```
+
 
 When a game reads this file, the system selects one of the values from the **\_sourceNodes** array. In this case, the item is selected based on the title ID of the game. Users playing the game **12456799** see:
 
-    {
-      "defaultCardDesign":"RobotUnicornCard.png,binary",
-      "_sourceNodes":["defaultCardDesign:titleID:1234567899"]
-    }
+```json
+{
+    "defaultCardDesign":"RobotUnicornCard.png,binary",
+    "_sourceNodes":["defaultCardDesign:titleID:1234567899"]
+}
+```
 
 The rest of the users see:
 
-    {
-      "defaultCardDesign":"StandardCard.png,binary",
-      "_sourceNodes":["defaultCardDesign:titleID:default"]
-    }
+```json
+{
+    "defaultCardDesign":"StandardCard.png,binary",
+    "_sourceNodes":["defaultCardDesign:titleID:default"]
+}
+```
 
 Games can define custom selectors that match a parameter in the request. For example, in this config blob:
 
+```json
+{
+    "defaultCardDesign":
     {
-        "defaultCardDesign":
+        "_virtualNode":
         {
-            "_virtualNode":
-            {
-                "_selectBy":"custom:gameMode",
-                "_sourceNodes":
-                [
-                    {"_selector":"silly", "_data":"RobotUnicornCard.png,binary"},
-                    {"_selector":"serious", "_data":"SeriousCard.png,binary"},
-                    {"_selector":"default", "_data":"StandardCard.png,binary"}
-                 ]
-            }
-        },
-        "backgroundColor":"green",
-        "dealerHitsOnSoft17":true
-    }
+            "_selectBy":"custom:gameMode",
+            "_sourceNodes":
+            [
+                {"_selector":"silly", "_data":"RobotUnicornCard.png,binary"},
+                {"_selector":"serious", "_data":"SeriousCard.png,binary"},
+                {"_selector":"default", "_data":"StandardCard.png,binary"}
+                ]
+        }
+    },
+    "backgroundColor":"green",
+    "dealerHitsOnSoft17":true
+}
+```
 
 Games pass a string the **customSelector** parameter to select which item to return. For example, to get the second option, a game requests:
 
-      GET https://titlestorage.xboxlive.com/media/titlegroups/faa29d21-2b49-4908-96bf-b953157ac4fe
-      /storage/data/config.json,config?customSelector=gameMode.serious
-      Content-Type: application/octet-stream
-      x-xbl-contract-version: 1
-      Authorization: XBL3.0 x=<userHash>;<STSTokenString>
-      Connection: Keep-Alive
+```http
+GET https://titlestorage.xboxlive.com/media/titlegroups/faa29d21-2b49-4908-96bf-b953157ac4fe
+/storage/data/config.json,config?customSelector=gameMode.serious
+Content-Type: application/octet-stream
+x-xbl-contract-version: 1
+Authorization: XBL3.0 x=<userHash>;<STSTokenString>
+Connection: Keep-Alive
+```
 
 The **\_selectBy** value indicates what type of selection to do and the **\_selector** value indicates the data to use in the selection. The possible values are:
 
+```xml
 <table>
 <thead>
 <tr>
@@ -221,6 +246,7 @@ The **\_selectBy** value indicates what type of selection to do and the **\_sele
 </tr>
 </tbody>
 </table>
+```
 
 <a name="ID4EBEAC"></a>
 
@@ -228,7 +254,9 @@ The **\_selectBy** value indicates what type of selection to do and the **\_sele
 
 Title storage URIs are formatted as follows:
 
-    https://titlestorage.xboxlive.com/{path}
+```uri
+https://titlestorage.xboxlive.com/{path}
+```
 
 The **{path}** portion of the URI is the type of request being made and must be 245 characters or fewer.
 

@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 Install Unity 5.3 or higher and during the Unity install process, check the "Windows Store .NET Scripting backend" component.
 
-![](../images/unity/unity1-install.png)
+![Unity Installation Wizard screnshot](../images/unity/unity1-install.png)
 
 **2) Open a new or existing Unity project**
 
@@ -40,7 +40,7 @@ For example, click on a Unity object such as the "Main Camera", and click "Add C
 
 6.  Click "Build" for Unity to generate the UWP Visual Studio project that wraps your Unity game in a UWP application. When you get prompted for a location, create a new folder to avoid confusion since a lot of new files will be created. It’s recommended you call the folder "Build", and then select that folder
 
-![](../images/unity/unity3-buildsettings.png)
+![Unity build settings screenshot](../images/unity/unity3-buildsettings.png)
 
 
 **6) Open the generated UWP project in Visual Studio**
@@ -129,9 +129,11 @@ To do this, go to File \| Build Settings, click on "Build Settings" on the Windo
 If Unity has that an associated script can not be loaded, then ensure that you did step 3 to drag the WinMD to the Unity project assets panel
 
 **2)**
-If the app crashes immedately at startup or when trying to run this line of code:
+If the app crashes immediately at startup or when trying to run this line of code:
 
-    Microsoft.Xbox.Services.System.XboxLiveUser m_user = new Microsoft.Xbox.Services.System.XboxLiveUser();
+```csharp
+Microsoft.Xbox.Services.System.XboxLiveUser m_user = new Microsoft.Xbox.Services.System.XboxLiveUser();
+```
 
 Ensure you have added a xboxservices.config text file to the project and in its properties, set the "Build Action" to "Content", and "Copy to Output Directory" set to "Copy Always".
 

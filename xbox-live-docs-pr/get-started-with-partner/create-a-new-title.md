@@ -41,7 +41,7 @@ To register go to https://developer.microsoft.com/en-us/store/register and follo
 ### Create a new UWP title
 Next, you need a UWP title defined in Partner Center.  You do that by first going to the Dashboard
 
-![](../images/getting_started/first_xbltitle_dashboard.png)
+![Partner Center screenshot highlighting Dashboard location](../images/getting_started/first_xbltitle_dashboard.png)
 
 <p>
 </p>
@@ -51,11 +51,11 @@ Next, you need a UWP title defined in Partner Center.  You do that by first goin
 
 Then, create a new title.  You'll need to reserve a name.
 
-![](../images/getting_started/first_xbltitle_newapp.png)
+![Partner Center name reservation dialogue box screenshot](../images/getting_started/first_xbltitle_newapp.png)
 
 You'll then be taken to the *App Overview* page for your app.  The primary page where you'll be configuring Xbox Live is under the Services -> Xbox Live menu shown below.
 
-![](../images/getting_started/first_xbltitle_leftnav.png)
+![Xbox Live services configuration location in Partner Center menu left nav screenshot](../images/getting_started/first_xbltitle_leftnav.png)
 
 <div id="createxblaccount"></div>
 
@@ -66,7 +66,7 @@ Otherwise you should open the Xbox App on your PC and sign-in with your Microsof
 
 You can find the Xbox App by going into the *Start Menu* and typing in "Xbox" as shown below.
 
-![](../images/getting_started/first_xbltitle_xboxapp.png)
+![Xbox App in Start Menu screenshot](../images/getting_started/first_xbltitle_xboxapp.png)
 
 ## Next Steps
 Now that you have a new title created, you can now setup an Xbox Live enabled title in your Game Engine, Visual Studio or build environment of choice.

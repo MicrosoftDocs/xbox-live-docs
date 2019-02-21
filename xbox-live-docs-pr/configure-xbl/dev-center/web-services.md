@@ -4,7 +4,7 @@
    description: Learn how to create a Web Service for your app
    ms.assetid: 
    
-   ms.date: 06-04-2018
+   ms.date: 06/04/2018
    ms.topic: article
    ms.prod: windows
    ms.technology: uwp

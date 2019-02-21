@@ -12,11 +12,13 @@ ms.localizationpriority: medium
 
 1.  Send a request using the *GET* method to read the data from title storage. This example uses global title storage.
 
-        GET https://titlestorage.xboxlive.com/global/scids/{scid}/data/surprise.json,json
-        Content-Type: application/octet-stream
-        x-xbl-contract-version: 1
-        Authorization: XBL3.0 x=<userHash>;<STSTokenString>
-        Connection: Keep-Alive
+```http
+GET https://titlestorage.xboxlive.com/global/scids/{scid}/data/surprise.json,json
+Content-Type: application/octet-stream
+x-xbl-contract-version: 1
+Authorization: XBL3.0 x=<userHash>;<STSTokenString>
+Connection: Keep-Alive
+```
 
 -   The user must be in the session to update it.
 

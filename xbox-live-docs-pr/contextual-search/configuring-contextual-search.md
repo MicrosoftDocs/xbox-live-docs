@@ -30,7 +30,7 @@ For example, if you are using stats like SinglePlayerMap and MultiplayerMap to f
 ### Configuring a Stat for Contextual Search
 Configuring your title for Contextual Search is easy once you've set up the Events and Stats that power the tagging.  See other existing XDP or Partner Center documentation on setting up Contextual Search if you're not already familiar.
 
-![](../images/contextual_search/config02.png)
+![Xbox Developer Platform screenshot for Contextual Search configuration](../images/contextual_search/config02.png)
 
 The image above is an example of the main page after you click the Contextual Search tile in the main Service configuration portion of XDP.
 
@@ -43,14 +43,14 @@ Priority - Display Name (Stat Instance Name)
 
 Each of these will be explained in more detail in the next section.
 
-![](../images/contextual_search/config01.png)
+![New Contextual search configuration screenshot from Xbox Developer Portal](../images/contextual_search/config01.png)
 
 The above image is the screen that will appear if you choose to create a new Contextual Search stat or edit and existing one.
 
 To successfully configure a stat for Contextual Search, complete the following steps:
 1. Choose your stat instance.
 
-  ![](../images/contextual_search/config03.png)
+  ![Stat Instance choosing screenshot from Xbox Developer Portal](../images/contextual_search/config03.png)
 
   Please note that only stat instances are supported - stat templates are not accepted.  You should also be aware of the visibility you've set for the stat instance (configured in the Stats portion of XDP or Partner Center).  Only stats that are marked as **Open** will appear in third party experiences.
 

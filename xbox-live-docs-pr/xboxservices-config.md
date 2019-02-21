@@ -51,7 +51,7 @@ xboxlive.signin | Includes the sign in functionality for games that access the f
 
 Currently, the only reason to specify the **Scope** field is if you are making an Xbox Live Creators Program game, and your game does not need to access friends lists or social leaderboards (leaderboards which are scoped to your friends). If this is the case, you can add the following line to your XboxServices.config file:
 
-```
+```config
   "Scope" : "xbl.signin"
 ```
 
@@ -59,7 +59,7 @@ Adding this line prevents the UWP app from requesting permission to access frien
 
 ## Example XboxServices.config file
 
-```
+```config
 {
   "PrimaryServiceConfigId": "00000000-0000-0000-0000-000064382e34",
   "TitleId": 9039138423,

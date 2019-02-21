@@ -1,5 +1,5 @@
 ---
-title: Xbox Live sandboxes
+title: Xbox Live sandboxes introduction
 
 description: Learn about sandboxes for Xbox Live development.
 ms.assetid: a5acb5bf-dc11-4dff-aa94-6d1f01472d2a
@@ -37,16 +37,16 @@ Test accounts can only sign-in to development sandboxes, and will be explained i
 The vast majority of developers need only one sandbox.  Fortunately a sandbox is created for you when you create a title.
 
 1. You find out about your sandbox by going to Partner Center here:
-![](images/getting_started/first_xbltitle_dashboard.png)
+![Partner Center ribbon dashboard location screenshot](images/getting_started/first_xbltitle_dashboard.png)
 
 1. Then click on your title:
-![](images/getting_started/first_xbltitle_dashboard_overview.png)
+![Title location in Partner Center menu screenshot](images/getting_started/first_xbltitle_dashboard_overview.png)
 
 1. Finally click on Services->Xbox Live in the left menu
-![](images/getting_started/first_xbltitle_leftnav.png)
+![Xbox Live services in Partner Center menu screenshot](images/getting_started/first_xbltitle_leftnav.png)
 
 1. You can now see your sandbox listed as follows
-![](images/getting_started/devcenter_sandbox_id.png)
+![Title info in Partner Center screenshot. Includes Sandbox ID.](images/getting_started/devcenter_sandbox_id.png)
 
 ## How your Sandbox impacts your workflow
 
@@ -71,7 +71,7 @@ Once you have done so, open Windows Dev Portal by connecting to it in your web b
 
 Then you click on "Xbox Live" to go the appropriate section as shown below.
 
-![](images/getting_started/wdp_switch_sandbox.png)
+![Sandbox configuration in Windows Device Portal screenshot](images/getting_started/wdp_switch_sandbox.png)
 
 Then you can enter your sandbox which you got via the steps in the *Finding Out Your Sandbox* and click "Change".
 
@@ -97,13 +97,13 @@ Download the Xbox Live Tools Package at [https://aka.ms/xboxliveuwptools](https:
 
 Run this in Administrator mode to switch your sandbox.  The first argument is the sandbox.  For example if you are trying to switch to the XDKS.1 sandbox, you would do:
 
-```
+```cmd
 SwitchSandbox.cmd XDKS.1
 ```
 
 To switch back to RETAIL, you simply provide that as the second argument.
 
-```
+```cmd
 SwitchSandbox.cmd RETAIL
 ```
 

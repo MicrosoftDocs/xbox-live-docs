@@ -16,11 +16,13 @@ ms.localizationpriority: medium
 
 1.  Send a request using the below method to read the data from title storage.
 
-        GET https://titlestorage.xboxlive.com/global/scids/{scid}/data/config.json,config              
-        Content-Type: application/octet-stream
-        x-xbl-contract-version: 1
-        Authorization: XBL3.0 x=<userHash>;<STSTokenString>
-        Connection: Keep-Alive
+```http
+GET https://titlestorage.xboxlive.com/global/scids/{scid}/data/config.json,config              
+Content-Type: application/octet-stream
+x-xbl-contract-version: 1
+Authorization: XBL3.0 x=<userHash>;<STSTokenString>
+Connection: Keep-Alive
+```
 
 
 -   The user must be in the session to update it.
