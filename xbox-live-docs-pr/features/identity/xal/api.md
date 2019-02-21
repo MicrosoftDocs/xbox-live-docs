@@ -1,11 +1,11 @@
 ---
-title: Portal configuration of sign-in
-description: Portal configuration of sign-in.
+title: API for XAL sign-in
+description: API for XAL for sign-in.
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, windows 10, xbox one
 ms.localizationpriority: medium
 ---
-# Portal configuration of sign-in
+# API for XAL sign-in
 
 TBD

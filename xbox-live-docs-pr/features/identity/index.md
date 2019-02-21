@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [User identity](user/index.md) | __ |
-| [Sign-in](sign-in/index.md) | __ |
-| [Privileges](privileges/index.md) | __ |
-| [Privacy](privacy/index.md) | __ |
+| [User identity](user/index.md) | User identity. |
+| [XAL sign-in](xal/index.md) | XAL sign-in. |
+| [Privileges](privileges/index.md) | Privileges. |
+| [Privacy](privacy/index.md) | Privacy. |

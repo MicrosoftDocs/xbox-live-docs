@@ -13,4 +13,4 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Identity](identity/index.md) | __ |
+| [Identity](identity/index.md) | Identity. |
