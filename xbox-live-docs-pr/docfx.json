@@ -42,7 +42,8 @@
       "extendBreadcrumb": true,
       "feedback_system": "None",
       "ms.author": "aablackm",
-      "ms.prod": "xboxlive"
+      "ms.prod": "xboxlive",
+      "titleSuffix": "Xbox Live"
     },
     "fileMetadata": {},
     "template": [],
