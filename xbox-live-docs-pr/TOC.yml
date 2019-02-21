@@ -1,11 +1,11 @@
 - name: Xbox Live
   href: index.md
   items:
+    - name: What is Xbox Live?
+      href: what-is-xbox-live.md
     - name: Get Started
       href: get-started.md
       items: 
-        - name: What is Xbox Live?
-          href: what-is-xbox-live.md
         - name: Xbox Live resources, sites, and downloads
           href: xbox-live-resources.md
         - name: Developer program overview
