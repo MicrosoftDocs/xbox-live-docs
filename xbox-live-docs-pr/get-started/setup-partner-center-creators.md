@@ -39,8 +39,8 @@ Next, at Partner Center, create a new app, as follows.
 
    The page "Create your app by reserving a name" appears.
 
-   <!-- status: make new capture w/o option buttons -->
-   ![](images/pc_createappreservename.png)
+   <!-- status: ok now? -->
+   ![](images/pc_createappreservename_no_opts.png)
 
 3. In the text box, enter the name of your product.
    You can change the name later.
@@ -87,7 +87,7 @@ Next, at Partner Center, create a new app, as follows.
 
    The "Submission #" page reappears, and now includes a "Xbox Live Creators Program" section.
 
-5. Click the "Xbox Live Creators Program" section in the page.
+5. Click the **Xbox Live Creators Program** section in the page.
 
    The "Enable Xbox Live Creators Program" page appears.
 
@@ -200,7 +200,7 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 <!--===========================================================-->
 ## 5. Create a Test Account
 
-1. In Partner Center, click **Products* on the left: click the product you created.
+1. In Partner Center, click **Products** on the left, and then click the product you created.
 
    The "App overview" page appears.
 
