@@ -32,14 +32,14 @@ At Partner Center, create a new app representing your game, as follows.
 
    The Partner Center dashboard appears, showing the "Overview" page, within the "WINDOWS" section.
 
-   <!-- status: ok -->
+   <!-- status: ok but blurry -->
    ![](images/pc_overview_pg.png)
 
 2. Click the **Create a new app** button.
 
    The page "Create your app by reserving a name" appears.
 
-   <!-- status: ok now? -->
+   <!-- status: ok -->
    ![](images/pc_createappreservename_no_opts.png)
 
 3. In the text box, enter the name of your product.
@@ -111,13 +111,13 @@ At Partner Center, create a new app representing your game, as follows.
 
   The "Setup" dialog box appears.
 
-7. In the **Xbox Live game name** text box, enter the name of your game.
-   This can be the same as the name of the app you specified at the beginning, but it doesn't need to be the same.
-
    <!-- status: ok -->
    ![](images/pc_cr_setup_dbx.png)
 
-7. Click the **Confirm** button.
+7. In the **Xbox Live game name** text box, enter the name of your game.
+   This can be the same as the name of the app you specified at the beginning, but it doesn't need to be the same.
+
+8. Click the **Confirm** button.
 
    Below the Confirm button, the message temporarily appears:
    "Your product is being Xbox Live enabled. This may take a few minutes."
