@@ -14,15 +14,15 @@ To add Xbox Live functionality to your game, start by setting up an app in Partn
 
 <!-- greg: Need sep articles for Creators & ID? -->
 
-## Prerequisite: Become a Creator or an ID@Xbox partner
+## Prerequisite: Become a Creator
 
    > [!IMPORTANT]
    > Prerequisite steps for Creators:
-   > * If you aren't already in the Creators Program, join the Creators Program.
-   > To join the Creators Program, right-click the following link and then click **Open in new window**: [Xbox Live Creators Program](https://www.xbox.com/developers/creators-program).
+   > Create a Dev Account (also called a Partner Center account).
+   > To create a Dev Account, right-click the following link and then click **Open in new window**: [Create a Partner Center account](https://docs.microsoft.com/partner-center/mpn-create-a-partner-center-account).
    > Follow the instructions at that site.
 
- 
+
 <!--===========================================================-->
 ## 1. Create a new app
 
@@ -32,79 +32,36 @@ Next, at Partner Center, create a new app, as follows.
 
    The Partner Center dashboard appears, showing the "Overview" page, within the "WINDOWS" section.
 
-   <!-- status: clear the items, keep table header -->
+   <!-- status: ok -->
    ![](images/pc_overview_pg.png)
 
 2. Click the **Create a new app** button.
 
    The page "Create your app by reserving a name" appears.
 
-   <!-- status: ok -->
+   <!-- status: make new capture w/o option buttons -->
    ![](images/pc_createappreservename.png)
 
 3. In the text box, enter the name of your product.
    You can change the name later.
 
-4. Click the check box **Create this product in a sandbox**.
+   Note: If you see option buttons **Create this product in a sandbox** and **Do not create this product in a sandbox**, select **Do not create this product in a sandbox**.
 
-   > [!IMPORTANT]
-   > For ID@Xbox partners, to enable Xbox Live functionality, you **MUST** select the option button **Create this product in a sandbox**, the first time through this process.
-   > You won't be able to select this option button later.
-   > (Do not select the check box "Do not create this product in a sandbox".)
-
-   <!-- status: nuke "02mihof" -->
+   <!-- status: ok -->
    ![](images/pc_createappreservename02.png)
 
-5. Click the **Reserve product name** button.
+4. Click the **Reserve product name** button.
 
    The "App overview" page appears.
 
    <!-- status: ok -->
    ![](images/pc_app_overview01_pg.png)
 
-6. Click the **Start your submission** button.
+5. Click the **Start your submission** button.
 
-   The "Start your submission" dialog box appears.
-
-   <!-- status: ok -->
-   ![](images/pc_startyoursubmission_dbx.png)
-
-7. In the "Select the sandbox..." combo field, click the down-arrow on the right, then click a sandbox; for example, "NKDXTT.0 (shared)".
-
-   Note which sandbox you selected, for later.
-
-8. Click the **Create submission** button.
-
-   After a delay, the submission page appears, showing the name of the sandbox and the submission number; for example, "NKDXTT.0 (Submission 1)".
+   After a delay, the Submission page appears, showing the submission number; for example, "Submission 1".
 
    Your app has now been created at Partner Center and is awaiting being Xbox Live-enabled.
-
-
-<!--===========================================================-->
-## 2. Contact your Microsoft Representative to enable your game
-
-1. In Partner Center, select your game.  
-
-   The "App overview" page appears.
-
-2. Click **App management**: **App identity**.
-
-   The "Identity details" page appears.
-
-   <!-- status: nuke "Greg02" (upper right), blur the CN string below that, PFN line: nuke or blur "Greg02_q", blur Package SID value, URL: blur the 9##### string; Store id: blur the value; Store Protocol link: blur the value starting with 9.  -->
-   ![](images/pc_identitydetails_pg.png)
-
-3. Copy the **Store ID**.
-
-4. Contact your Microsoft representative to ask them to add Xbox Live capability to your title.
-   Include the store ID.
-   For example:
-
-   * **Subject**: Need to enable game for Xbox Live
-
-   * **Body**: "Hi support, I would like to enable my Partner Center product.  The store ID is [your game's store ID]."
-
-   Your Microsoft representative emails you; for example: "You can now enable your product in Partner Center."
 
 
 <!--===========================================================-->
@@ -112,30 +69,78 @@ Next, at Partner Center, create a new app, as follows.
 
 <!-- todo: closing browser will cause to lose their place in this doc. tell how to return here. -->
 
-When you receive the above email from your MS Representative, continue with the following steps.
+1. In the "Submission #" page, click the **Properties** section.
 
-   > [!IMPORTANT]
-   > First, close the browser, including all of the browser's window instances, to clear the session cache.
-   > Then open a new browser.
+   The "Properties" page appears.
 
-1. Go to Partner Center.
-   To do this, you can right-click the following link and then click **Open in new window**: [Partner Center dashboard](https://partner.microsoft.com/dashboard/).
+2. In the **Pick a category** drop-down, select the **Games** category.
+   Do not select a category other than Games, or else the "Xbox Live" options won't appear, below.
 
-2. Click **Products**, and then click your game.
+   Because you selected Games, the "Genre(s) section appear.
 
-   The "App overview" page appears.
+   <!-- status: ok -->
+   ![](images/pc_creators_submission_num_pg_games_cat.png)
 
-   <!-- status: crop to elim the browser frame and url. keep black area.  delete "Greg02" from black area. delete the projects below that in black area. -->
-   ![](images/pc_app_overview_pg.png)
+   <!-- status: update the below -->
+3. In the **Genre(s)** section, select one or more check boxes, such as "Strategy".
 
-3. Under **Services**, click **Xbox Live**.
+   Skip the other fields for now.
+
+4. Scroll down to the bottom of the page, and click the **Save** button.
+
+   The "Submission #" page reappears, and now includes a "Xbox Live Creators Program" section.
+
+5. Click the "Xbox Live Creators Program" section in the page.
+
+   The "Enable Xbox Live Creators Program" page appears.
+
+   <!-- status: ? -->
+   ![](images/pc_creators_enablexbl_pg.png)
+
+6. Click the **Enable** button.
+
+  The "Setup" dialog box appears.
+
+   <!-- status: remove mihof -->
+   ![](images/pc_cr_setup_dbx.png)
+
+7. Click the **Confirm** button.
+
+   Below the Confirm button, the message temporarily appears:
+   "Your product is being Xbox Live enabled. This may take a few minutes."
+
+   Then the "Xbox Live Creators Program" page appears, with the message "Please ensure to publish your changes to Xbox Live before you can upload files to global storage."
+
+   <!-- status: clean up -->
+   ![](images/pc_cr_xbl_creators_pgm_pg)
+
+
+<!-- the above steps worked, including "Enable".  Below are steps we tried for Creators, to make Xbox Live appear under Services:
+
+5. To the left of the "Submission #" page, click **Services** to expand it, and see whether **Xbox Live** appears within the **Services** options.
+
+   ![](images/pc_creators_submission_num_pg.png)
+
+6. If **Xbox Live** doesn't appear yet, try the following:
+
+7. Try reloading the page in the web browser.
+
+8. Try: In the "Submission #" page, click the Properties section.
+   The "Properties" page appears.
+   In the "Support info" section, click the **No** option button, and then at the bottom of the page, click the **Save** button.
+
+   Under "Services", "Xbox Live" now appears.
+
+
+ID STEPS:
+
+9. Under **Services**, click **Xbox Live**.
 
    The "Enable Xbox Live" page appears, this first time only.
 
-   <!-- status: ok -->
    ![](images/pc_enablexboxlive_pg.png)
 
-4. In the "Xbox Live app name" text box, enter the name of your game.
+2. In the "Xbox Live app name" text box, enter the name of your game.
    You can use the same name as shown at the top of the page, but it doesn't need to be the same.
 
 5. Click the **Enable** button.  
@@ -144,9 +149,8 @@ When you receive the above email from your MS Representative, continue with the 
    "Your product is being Xbox Live enabled.  This may take a few minutes."
 
    After some time, the Xbox Live "Gameplay Setting" page automatically appears.
-   
-   <!-- status: cropped, ok now? -->
-   ![](images/pc_gameplay_setting_pg.png)
+
+   ![](images/pc_gameplay_setting_pg.png) -->
 
 You've now completed the initial setup of your game.
 Your game cannot be tested yet; you need to publish the game first.
@@ -157,6 +161,8 @@ To do this, you take the identity information that was generated above, and push
 ## 4. Publish the game
 
 In Partner Center, with your game selected as in the above procedures, do the following.
+
+<!-- no Publish link for Creators -->
 
 1. In the top right, click the **Publish** link.
 
