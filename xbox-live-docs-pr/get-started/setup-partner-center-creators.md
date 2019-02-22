@@ -112,7 +112,7 @@ Next, at Partner Center, create a new app, as follows.
    Then the "Xbox Live Creators Program" page appears, with the message "Please ensure to publish your changes to Xbox Live before you can upload files to global storage."
 
    <!-- status: clean up -->
-   ![](images/pc_cr_xbl_creators_pgm_pg)
+   ![](images/pc_cr_xbl_creators_pgm_pg.png)
 
 
 <!-- the above steps worked, including "Enable".  Below are steps we tried for Creators, to make Xbox Live appear under Services:
