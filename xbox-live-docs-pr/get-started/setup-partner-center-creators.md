@@ -47,9 +47,6 @@ Next, at Partner Center, create a new app, as follows.
 
    Note: If you see option buttons **Create this product in a sandbox** and **Do not create this product in a sandbox**, select **Do not create this product in a sandbox**.
 
-   <!-- status: ok -->
-   ![](images/pc_createappreservename02.png)
-
 4. Click the **Reserve product name** button.
 
    The "App overview" page appears.
