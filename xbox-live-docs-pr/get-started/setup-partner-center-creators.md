@@ -87,6 +87,9 @@ Next, at Partner Center, create a new app, as follows.
 
    The "Submission #" page reappears, and now includes a "Xbox Live Creators Program" section.
 
+   <!-- todo: ok? -->
+   ![](images/pc_cr_submission_pg_access_pol.png)
+
 5. Click the **Xbox Live Creators Program** section in the page.
 
    The "Enable Xbox Live Creators Program" page appears.
