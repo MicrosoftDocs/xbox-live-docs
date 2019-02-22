@@ -68,7 +68,6 @@ You will need to initialize Xbox Authentication Library (XAL) before adding a us
 ```
 
 
-
 <!--========================================================================-->
 ## Initialize XSAPI (Xbox Services API)
 
@@ -83,6 +82,8 @@ You will need to initialize XSAPI before calling other Xbox Service APIs:
 
 <!--========================================================================-->
 ## Integrate Sign-In Silently
+
+See also the "Sign-in silent example" subsection within the article [Sign-in with XAL](../using-xbox-live/auth/xal-sign-in.md#sign-in).
 
 You should first attempt to add the user automatically without showing any UI.
 ```c
@@ -123,6 +124,8 @@ You should first attempt to add the user automatically without showing any UI.
 
 <!--========================================================================-->
 ## Integrate Sign-In with UI
+
+See also the "Sign-in with UI example" subsection within the article [Sign-in with XAL](../using-xbox-live/auth/xal-sign-in.md#sign-in).
 
 If the user could not be added silently - for example if the user needs to give consent to the game for accessing Xbox Live profile, you should call the XalAddUserWithUiAsync API to add the user with UI.
 ```c
@@ -184,9 +187,12 @@ If the user could not be added silently - for example if the user needs to give 
 <!--========================================================================-->
 ## Integrate Sign-Out
 
+See the "Sign-out" subsection within the article [Sign-in with XAL](../using-xbox-live/auth/xal-sign-in.md#sign-out).
+
 
 <!--========================================================================-->
 ## Test Sign-In/Sign-Out
+
 
 
 <!--========================================================================-->

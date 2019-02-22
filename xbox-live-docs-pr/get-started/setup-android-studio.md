@@ -60,6 +60,12 @@ To register go to https://developer.microsoft.com/en-us/store/register and follo
 
 
 <!--===================================================-->
+## Configure Android Studio to use CMake and the NDK
+
+Native Development Kit (NDK)
+
+
+<!--===================================================-->
 ## Configure Android Studio to use the Xbox Live SDK
 
 * Open the make or CMake file that builds your existing game project.

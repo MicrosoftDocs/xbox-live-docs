@@ -26,7 +26,7 @@ To add Xbox Live functionality to your game, start by setting up an app in Partn
 <!--===========================================================-->
 ## 1. Create a new app
 
-Next, at Partner Center, create a new app, as follows.
+At Partner Center, create a new app representing your game, as follows.
 
 1. Right-click the following link and then click **Open in new window**: [Partner Center dashboard](https://partner.microsoft.com/dashboard/).
 
@@ -44,19 +44,26 @@ Next, at Partner Center, create a new app, as follows.
 
 3. In the text box, enter the name of your product.
    You can change the name later.
+   <!-- GetStartCreator01mihof -->
 
-   Note: If you see option buttons **Create this product in a sandbox** and **Do not create this product in a sandbox**, select **Do not create this product in a sandbox**.
+4. If you see option buttons **Create this product in a sandbox** and **Do not create this product in a sandbox**, you must select the option button **Do not create this product in a sandbox**.
 
-4. Click the **Reserve product name** button.
+5. Click the **Reserve product name** button.
 
    The "App overview" page appears.
 
    <!-- status: ok -->
    ![](images/pc_app_overview01_pg.png)
 
-5. Click the **Start your submission** button.
+6. Click the **Start your submission** button.
 
    After a delay, the Submission page appears, showing the submission number; for example, "Submission 1".
+
+   <!-- todo: ok? -->
+   ![](images/pc_cr_initl_submission_pg.png)
+
+   In the "Xbox Live Creators Program" section of the page, the message appears:
+   "To enable Xbox Live Creators Program, the product's category (on the Properties page) must be Games."
 
    Your app has now been created at Partner Center and is awaiting being Xbox Live-enabled.
 
@@ -70,8 +77,11 @@ Next, at Partner Center, create a new app, as follows.
 
    The "Properties" page appears.
 
-2. In the **Pick a category** drop-down, select the **Games** category.
-   Do not select a category other than Games, or else the "Xbox Live" options won't appear, below.
+   <!-- todo: ok? -->
+   ![](images/pc_cr_initl_properties_pg.png)
+
+2. In the **Category and subcategory** section, in the **Pick a category** drop-down, select the **Games** category.
+   Do not select a category other than Games, or else the "Xbox Live" options won't be available.
 
    Because you selected Games, the "Genre(s) section appear.
 
@@ -85,23 +95,26 @@ Next, at Partner Center, create a new app, as follows.
 
 4. Scroll down to the bottom of the page, and click the **Save** button.
 
-   The "Submission #" page reappears, and now includes a "Xbox Live Creators Program" section.
+   The "Submission #" page reappears, and the "Xbox Live Creators Program" section of the page is now available.
 
    <!-- todo: ok? -->
-   ![](images/pc_cr_submission_pg_access_pol.png)
+   ![](images/pc_cr_2nd_submission_pg.png)
 
 5. Click the **Xbox Live Creators Program** section in the page.
 
    The "Enable Xbox Live Creators Program" page appears.
 
-   <!-- status: ? -->
-   ![](images/pc_creators_enablexbl_pg.png)
+   <!-- status: ok? -->
+   ![](images/pc_cr_enablexblcrpgm_pg.png)
 
 6. Click the **Enable** button.
 
   The "Setup" dialog box appears.
 
-   <!-- status: remove mihof -->
+7. In the **Xbox Live game name** text box, enter the name of your game.
+   This can be the same as the name of the app you specified at the beginning, but it doesn't need to be the same.
+
+   <!-- status: ok -->
    ![](images/pc_cr_setup_dbx.png)
 
 7. Click the **Confirm** button.
@@ -109,7 +122,7 @@ Next, at Partner Center, create a new app, as follows.
    Below the Confirm button, the message temporarily appears:
    "Your product is being Xbox Live enabled. This may take a few minutes."
 
-   Then the "Xbox Live Creators Program" page appears, with the message "Please ensure to publish your changes to Xbox Live before you can upload files to global storage."
+   Then the "Xbox Live Creators Program" page appears, with the message at the top "Please ensure to publish your changes to Xbox Live before you can upload files to global storage."
 
    <!-- status: clean up -->
    ![](images/pc_cr_xbl_creators_pgm_pg.png)
@@ -163,6 +176,9 @@ To do this, you take the identity information that was generated above, and push
 In Partner Center, with your game selected as in the above procedures, do the following.
 
 <!-- no Publish link for Creators -->
+
+   <!-- status: take capture showing the Publish link -->
+   ![](images/XX.png)
 
 1. In the top right, click the **Publish** link.
 
