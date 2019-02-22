@@ -68,7 +68,7 @@ At Partner Center, create a new app representing your game, as follows.
 
 
 <!--===========================================================-->
-## 3. Enable Xbox Live for the game
+## 2. Enable Xbox Live for the game
 
 <!-- todo: closing browser will cause to lose their place in this doc. tell how to return here. -->
 
@@ -80,7 +80,9 @@ At Partner Center, create a new app representing your game, as follows.
    ![](images/pc_cr_initl_properties_pg.png)
 
 2. In the **Category and subcategory** section, in the **Pick a category** drop-down, select the **Games** category.
-   Do not select a category other than Games, or else the "Xbox Live" options won't be available.
+
+   > [!IMPORTANT]
+   > Do not select a category other than Games, or else the "Xbox Live" options won't be available.
 
    Because you selected Games, the "Genre(s) section appears.
 
@@ -115,6 +117,9 @@ At Partner Center, create a new app representing your game, as follows.
 
 7. In the **Xbox Live game name** text box, enter the name of your game.
    This can be the same as the name of the app you specified at the beginning, but it doesn't need to be the same.
+
+8. Select the platforms that you would like to enable the Xbox Live Services for.
+   Both **Xbox One** and **Desktop** are selected by default.
 
 8. Click the **Confirm** button.
 
@@ -170,30 +175,55 @@ To do this, you take the identity information that was generated above, and push
 
 
 <!--===========================================================-->
-## 4. Publish the game
+## 3. Publish the game
 
 In Partner Center, with your game selected as in the above procedures, do the following.
 
-<!-- no Publish link for Creators -->
 
-   <!-- status: take capture showing the Publish link -->
-   <!-- ![](images/XX.png) -->
+### Go to the "Xbox Live Creators Program" page
 
+1. On the left, click **Products**, then under Products, click your game.
+
+   The "App overview" page appears.
+
+2. In the **Submissions** section of the page, click an item, such as **Submission 1**.
+
+   The "Submission #" page appears. To the left, "Submissions: Submission #" is highlighted.
+
+3. Click the **Xbox Live Creators Program** section.
+
+   The "Xbox Live Creators Program" page appears.
+
+   <!-- status: blur the Title ID value, the SCID value, the Sandbox ID value -->
+   ![](images/pc_cr_xbl_creators_pgm_pg.png)
+
+
+### Publish using the Test button
+
+4. In the "Xbox Live Creators Program" page, scroll down to the **Test** section, then click the **Test** button.
+
+   Below the Test button, the message "Publishing..." appears, and then "Success" appears.
+   
+<!-- ID:
 1. In the top right, click the **Publish** link.
 
    The "Publish gameplay settings" dialog box appears.
 
-   <!-- status: ok -->
    ![](images/pc_pubgameplaysetgs_dbx.png)
 
 2. Click the **Confirm** button.
 
-   At the bottom of the dialog box, the message appears: "Publishing configuration..." and then "Publishing configuration finished successfully."
-   The game is actually published after a delay of possibly 20 minutes.  IMPORTANT: THOUGH THE UI SAYS THE JOB IS COMPLETE, THE XBOX LIVE SERVERS CAN TAKE AS LONG AS 30 MINUTES TO REPLICATE THE NEW INFO.
+   At the bottom of the dialog box, the message appears: "Publishing configuration..." and then "Publishing configuration finished successfully." -->
 
-3. Click the **Close** button.
+   <!-- true for Creators? -->
 
-   The "Publish gameplay settings" dialog box closes, and the "Gameplay Setting" page remains displayed.
+   > [!IMPORTANT]
+   > Though the UI says "Success", the Xbox Live servers can take as long as 30 minutes to replicate the new info.
+
+<!-- ID:
+ 3. Click the **Close** button.
+
+   The "Publish gameplay settings" dialog box closes, and the "Gameplay Setting" page remains displayed. -->
 
 The SDK can now be used in an application to sign-in.
 
@@ -201,7 +231,7 @@ Next, find the ID of your game, as follows.
 
 
 <!--===========================================================-->
-## 5. Find your Xbox Live game information
+## 4. Find your Xbox Live game information
 
 In Partner Center, with your game selected as in the above procedures, do the following.
 
@@ -216,7 +246,7 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 
 
 <!--===========================================================-->
-## 6. Create a Test Account
+## 5. Create a Test Account
 
 1. In Partner Center, click **Products** on the left, and then click the product you created.
 
@@ -287,7 +317,7 @@ In Partner Center, with your game selected as in the above procedures, do the fo
     <!-- status: ok locally -->
    ![](images/pc_job_history_dbx.png)
 
-12. Click the page outside the dialog box.
+17. Click the page outside the dialog box.
 
     The dialog box closes; the "Manage test accounts" page remains displayed.
 

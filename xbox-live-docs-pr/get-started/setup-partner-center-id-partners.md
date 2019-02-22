@@ -171,7 +171,9 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 2. Click the **Confirm** button.
 
    At the bottom of the dialog box, the message appears: "Publishing configuration..." and then "Publishing configuration finished successfully."
-   The game is actually published after a delay of possibly 20 minutes.  IMPORTANT: THOUGH THE UI SAYS THE JOB IS COMPLETE, THE XBOX LIVE SERVERS CAN TAKE AS LONG AS 30 MINUTES TO REPLICATE THE NEW INFO.
+
+   > [!IMPORTANT]
+   > Though the UI says "finished successfully", the Xbox Live servers can take as long as 30 minutes to replicate the new info.
 
 3. Click the **Close** button.
 
