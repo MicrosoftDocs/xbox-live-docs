@@ -200,7 +200,7 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 <!--===========================================================-->
 ## 6. Create Test Accounts
 
-1. In Partner Center, click **Products* on the left: click the product you created.
+1. In Partner Center, click **Products** on the left, and then click the product you created.
 
    The "App overview" page appears.
 

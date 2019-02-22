@@ -32,7 +32,7 @@ At Partner Center, create a new app representing your game, as follows.
 
    The Partner Center dashboard appears, showing the "Overview" page, within the "WINDOWS" section.
 
-   <!-- status: ok but blurry -->
+   <!-- status: ok -->
    ![](images/pc_overview_pg.png)
 
 2. Click the **Create a new app** button.
@@ -44,7 +44,6 @@ At Partner Center, create a new app representing your game, as follows.
 
 3. In the text box, enter the name of your product.
    You can change the name later.
-   <!-- GetStartCreator01mihof -->
 
 4. If you see option buttons **Create this product in a sandbox** and **Do not create this product in a sandbox**, you must select the option button **Do not create this product in a sandbox**.
 
@@ -59,7 +58,7 @@ At Partner Center, create a new app representing your game, as follows.
 
    After a delay, the Submission page appears, showing the submission number; for example, "Submission 1".
 
-   <!-- todo: ok? -->
+   <!-- todo: ok? not appearing yet. ok locally -->
    ![](images/pc_cr_initl_submission_pg.png)
 
    In the "Xbox Live Creators Program" section of the page, the message appears:
@@ -77,34 +76,34 @@ At Partner Center, create a new app representing your game, as follows.
 
    The "Properties" page appears.
 
-   <!-- todo: ok? -->
+   <!-- todo: ok locally now -->
    ![](images/pc_cr_initl_properties_pg.png)
 
 2. In the **Category and subcategory** section, in the **Pick a category** drop-down, select the **Games** category.
    Do not select a category other than Games, or else the "Xbox Live" options won't be available.
 
-   Because you selected Games, the "Genre(s) section appear.
+   Because you selected Games, the "Genre(s) section appears.
 
-   <!-- status: ok -->
+   <!-- status: ok now? -->
    ![](images/pc_creators_submission_num_pg_games_cat.png)
 
-   <!-- status: update the below -->
 3. In the **Genre(s)** section, select one or more check boxes, such as "Strategy".
 
+   <!-- status: update the below -->
    Skip the other fields for now.
 
 4. Scroll down to the bottom of the page, and click the **Save** button.
 
    The "Submission #" page reappears, and the "Xbox Live Creators Program" section of the page is now available.
 
-   <!-- todo: ok? -->
+   <!-- todo: ok now locally -->
    ![](images/pc_cr_2nd_submission_pg.png)
 
 5. Click the **Xbox Live Creators Program** section in the page.
 
-   The "Enable Xbox Live Creators Program" page appears.
+   The "Enable Xbox Live Creators Program" page appears, this first time through the process.
 
-   <!-- status: ok? -->
+   <!-- status: ok -->
    ![](images/pc_cr_enablexblcrpgm_pg.png)
 
 6. Click the **Enable** button.
@@ -124,7 +123,7 @@ At Partner Center, create a new app representing your game, as follows.
 
    Then the "Xbox Live Creators Program" page appears, with the message at the top "Please ensure to publish your changes to Xbox Live before you can upload files to global storage."
 
-   <!-- status: clean up -->
+   <!-- status: blur the Title ID value, the SCID value, the Sandbox ID value -->
    ![](images/pc_cr_xbl_creators_pgm_pg.png)
 
 
@@ -178,7 +177,7 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 <!-- no Publish link for Creators -->
 
    <!-- status: take capture showing the Publish link -->
-   ![](images/XX.png)
+   <!-- ![](images/XX.png) -->
 
 1. In the top right, click the **Publish** link.
 
@@ -202,7 +201,7 @@ Next, find the ID of your game, as follows.
 
 
 <!--===========================================================-->
-## Find your Xbox Live game information
+## 5. Find your Xbox Live game information
 
 In Partner Center, with your game selected as in the above procedures, do the following.
 
@@ -217,7 +216,7 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 
 
 <!--===========================================================-->
-## 5. Create a Test Account
+## 6. Create a Test Account
 
 1. In Partner Center, click **Products** on the left, and then click the product you created.
 
@@ -285,7 +284,7 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 
     The "Job History" dialog box appears.  
 
-    <!-- status: crop to only show the topmost 2 items -->
+    <!-- status: ok locally -->
    ![](images/pc_job_history_dbx.png)
 
 12. Click the page outside the dialog box.
