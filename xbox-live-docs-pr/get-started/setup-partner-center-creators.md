@@ -200,7 +200,10 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 
 ### Publish using the Test button
 
-4. In the "Xbox Live Creators Program" page, scroll down to the **Test** section, then click the **Test** button.
+1. In the "Xbox Live Creators Program" page, scroll down to the **Test** section, then click the **Test** button.
+
+   <!-- status: ok now? -->
+   ![](images/pc_cr_xblcrpgm_test_secn.png)
 
    Below the Test button, the message "Publishing..." appears, and then "Success" appears.
    
