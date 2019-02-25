@@ -193,6 +193,22 @@ See the "Sign-out" subsection within the article [Sign-in with XAL](../using-xbo
 <!--========================================================================-->
 ## Test Sign-In/Sign-Out
 
+Next, find the ID of your game, as follows.
+
+### Find your Xbox Live game information
+
+In Partner Center, with your game selected as in the above procedures, do the following.
+
+1. Click **Service**: **Xbox Live**: **Xbox Live Setup**.
+
+   <!-- todo: left-nav says "Services", not "Service", and doesn't list "Xbox Live" -->
+
+   The "Xbox Live configuration" page appears.
+
+   <!-- status: todo: this is ID version, create Creators version of capture - if these steps are needed -->
+   ![The "Xbox Live configuration" page](images/pc_xblconfign_pg.png)
+
+2. Copy and save the two Title ID values, for use by the SDK.
 
 
 <!--========================================================================-->
