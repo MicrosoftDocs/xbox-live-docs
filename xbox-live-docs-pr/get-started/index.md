@@ -10,8 +10,8 @@ ms.localizationpriority: medium
 
 To get started adding Xbox Live functionality to your game, do the following steps in order:
 1. Set up a game at Partner Center.
-2. Set up an IDE with the Xbox Live SDK, for your target platforms.
-3. Add Xbox Live sign-in code to your game.
+2. Set up an IDE to use the Xbox Live SDK, for your target platforms.
+3. Add basic Xbox Live sign-in code to your game.
 
 
 ## In this section
@@ -20,7 +20,7 @@ To get started adding Xbox Live functionality to your game, do the following ste
 |---------|-------------|
 | [Setting up a game at Partner Center](setup-partner-center/index.md) | Creating a new app at Partner Center, enabling Xbox Live for the game, and publishing the game. |
 | [Setting up an IDE to use Xbox Live](setup-ide/index.md) | Setting up an IDE to use the Xbox Live SDK, for your target platforms. |
-| [Signing-in to Xbox Live](write-sign-in-code.md) | Writing code for your game to sign-in to Xbox Live. |
+| [Setting up basic sign-in for Xbox Live](write-sign-in-code.md) | Writing code for your game to sign-in to Xbox Live. |
 
 
 ## Next steps
