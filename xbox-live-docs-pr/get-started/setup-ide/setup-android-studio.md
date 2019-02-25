@@ -8,7 +8,8 @@ ms.localizationpriority: medium
 ---
 # Setting up Android Studio for Xbox Live
 
-This article is for ID@Xbox partners; Creators set up Visual Studio instead.
+   > [!WARNING]
+   > The following article is for ID@Xbox partners only.
 
    > [!IMPORTANT]
    > Prerequisite steps: 
@@ -21,12 +22,13 @@ This article is for ID@Xbox partners; Creators set up Visual Studio instead.
 
 <!-- Ask Jason, ask where the SDK will be, for users.  James used one from module from internal, packages, maven, manager.  James didn't incorp into Android Studio.
 
-currently shows 
+The XGD page below currently mentions 1703, and has no link yet to get zip file for SDK for a particular target (UWP, Xbox, Android, iOS). This will be for ID partners. Creators will get a public SDK at a public location.
  -->
 
-Right-click the following link and then click **Open in new window**:
+<!-- Right-click the following link and then click **Open in new window**: -->
 <!-- ["SDK Downloads" page at Xbox Game Dev portal](https://developer.microsoft.com/en-us/games/xbox/partner/live-downloads) -->
 <a href="https://developer.microsoft.com/en-us/games/xbox/partner/live-downloads" target="_blank">"SDK Downloads" page</a> at Xbox Game Dev portal.
+
 
 ### Creators
 
@@ -195,6 +197,8 @@ Maven should handle this for us?
 * Set up the web view call from native.
 
 * Set up the file storage path.
+
+* Initialize XSAPI.  `Game_Integration.h`
 
 
 ### Set up the emulator

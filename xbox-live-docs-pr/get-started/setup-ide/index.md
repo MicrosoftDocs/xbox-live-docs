@@ -12,12 +12,14 @@ ms.localizationpriority: medium
    > Prerequisite step: Set up a game at Partner Center. See [Getting started](index.md).
 
 After you have set up a game at Partner Center, set up one of the following IDEs to use the Xbox Live SDK, for your target platforms:
-*  Visual Studio, targeting UWP, Xbox, or Android.
-*  Android Studio, targeting Android.
-*  Xcode, targeting iOS.
 
-Creators can use Visual Studio, targeting UWP and Xbox.  
-ID@Xbox partners can use all combinations of IDE and target platforms.
+Creators can use:
+*  Visual Studio (targeting UWP or Xbox)
+
+ID@Xbox partners can use:
+*  Visual Studio (targeting UWP, Xbox, or Android)
+*  Android Studio (targeting Android)
+*  Xcode (targeting iOS)
 
 
 ## In this section

@@ -8,8 +8,6 @@ ms.localizationpriority: medium
 ---
 # Setting up Visual Studio for Xbox Live
 
-In Visual Studio, Creators can target UWP and Xbox; ID@Xbox partners can additionally target Android.
-
    > [!IMPORTANT]
    > Prerequisite steps: 
    > *  Set up a game at Partner Center. See [Getting started](index.md).
@@ -65,6 +63,9 @@ In Visual Studio, Creators can target UWP and Xbox; ID@Xbox partners can additio
 
 <!--========================================================================-->
 ## Target Android
+
+   > [!WARNING]
+   > The following section is for ID@Xbox partners only.
 
 
 ### Add Preprocessor Definitions

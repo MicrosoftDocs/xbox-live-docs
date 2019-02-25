@@ -8,7 +8,8 @@ ms.localizationpriority: medium
 ---
 # Setting up Xcode for Xbox Live
 
-This article is for ID@Xbox partners; Creators set up Visual Studio instead.
+   > [!WARNING]
+   > The following article is for ID@Xbox partners only.
 
    > [!IMPORTANT]
    > Prerequisite step: Set up a game at Partner Center. See [Getting started](index.md).
