@@ -10,14 +10,7 @@ ms.localizationpriority: medium
 
 To get started adding Xbox Live functionality to your game, do the following steps in order:
 1. Set up a game at Partner Center.
-2. Set up one of the following IDEs with the Xbox Live SDK, for your target platforms:
-    *  Visual Studio, targeting UWP, Xbox, or Android.
-    *  Android Studio, targeting Android.
-    *  Xcode, targeting iOS.
-
-    Creators can use Visual Studio, targeting UWP and Xbox.  
-    ID@Xbox partners can use all combinations of IDE and target platforms.
-
+2. Set up an IDE with the Xbox Live SDK, for your target platforms.
 3. Add Xbox Live sign-in code to your game.
 
 
@@ -25,11 +18,8 @@ To get started adding Xbox Live functionality to your game, do the following ste
 
 | Article | Description |
 |---------|-------------|
-| [Setting up a game at Partner Center, for Creators](setup-partner-center-creators.md) | Get started adding Xbox Live functionality to your game, by setting up an app at Partner Center. |
-| [Setting up a game at Partner Center, for ID@Xbox Partners](setup-partner-center-id-partners.md) | Get started adding Xbox Live functionality to your game, by setting up an app at Partner Center. |
-| [Setting up Visual Studio for Xbox Live](setup-visual-studio.md) | Setting up Visual Studio to use the Xbox Live SDK, to target UWP, Xbox, or Android. |
-| [Setting up Android Studio for Xbox Live](setup-android-studio.md) | Setting up Android Studio to use the Xbox Live SDK, to target Android. |
-| [Setting up Xcode for Xbox Live](setup-xcode.md) | Setting up Xcode to use the Xbox Live SDK, to target iOS. |
+| [Setting up a game at Partner Center](setup-partner-center/index.md) | Creating a new app at Partner Center, enabling Xbox Live for the game, and publishing the game. |
+| [Setting up an IDE to use Xbox Live](setup-ide/index.md) | Setting up an IDE to use the Xbox Live SDK, for your target platforms. |
 | [Signing-in to Xbox Live](write-sign-in-code.md) | Writing code for your game to sign-in to Xbox Live. |
 
 
