@@ -1,6 +1,6 @@
 ---
 title: Getting started
-description: Initial steps to publish a title and sign-in to Xbox Live.
+description: Initial steps to publish a game at Partner Center and have the game sign-in to Xbox Live.
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, xbox one, sign-in
