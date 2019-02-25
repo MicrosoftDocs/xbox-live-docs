@@ -8,7 +8,7 @@ ms.localizationpriority: medium
 ---
 # Setting up a game at Partner Center
 
-To get started adding Xbox Live functionality to your game, start by setting up a game at Partner Center.
+To add Xbox Live functionality to your game, start by setting up a game at Partner Center.
 
 For the differences between Creators and ID@Xbox partners, see [Developer program overview](../../developer-program-overview.md).
 
