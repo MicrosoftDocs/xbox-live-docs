@@ -11,8 +11,6 @@ ms.localizationpriority: medium
 <!--
 todo:
 Update the status for each image.
-Add [Alt Text] for each image.
-Open external links in new window, if supported.
 -->
 
 To add Xbox Live functionality to your game, start by setting up an app in Partner Center, by following the steps below.
@@ -23,8 +21,10 @@ To add Xbox Live functionality to your game, start by setting up an app in Partn
    > [!IMPORTANT]
    > Prerequisite steps for Creators:
    > Create a Dev Account (also called a Partner Center account).
-   > To create a Dev Account, right-click the following link and then click **Open in new window**: [Create a Partner Center account](https://docs.microsoft.com/partner-center/mpn-create-a-partner-center-account).
+   > To create a Dev Account, see <a href="https://docs.microsoft.com/partner-center/mpn-create-a-partner-center-account" target="_blank">Create a Partner Center account</a> at the Partner Center documentation site.
    > Follow the instructions at that site.
+
+   <!-- > To create a Dev Account, right-click the following link and then click **Open in new window**: [Create a Partner Center account](https://docs.microsoft.com/partner-center/mpn-create-a-partner-center-account). -->
 
 
 <!--===========================================================-->
@@ -32,7 +32,9 @@ To add Xbox Live functionality to your game, start by setting up an app in Partn
 
 At Partner Center, create a new app representing your game, as follows.
 
-1. Right-click the following link and then click **Open in new window**: [Partner Center dashboard](https://partner.microsoft.com/dashboard/).
+1. Go to <a href="https://partner.microsoft.com/dashboard/" target="_blank">Partner Center</a>.
+
+<!-- 1. Right-click the following link and then click **Open in new window**: [Partner Center dashboard](https://partner.microsoft.com/dashboard/). -->
 
    The Partner Center dashboard appears, showing the "Overview" page, within the "WINDOWS" section.
 

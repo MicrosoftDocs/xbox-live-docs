@@ -8,8 +8,6 @@ ms.localizationpriority: medium
 ---
 # Setting up a game at Partner Center, for ID\@Xbox Partners
 
-<!--todo: open external links in new tab-->
-
 To add Xbox Live functionality to your game, start by setting up an app in Partner Center, by following the steps below.
 
 
@@ -22,8 +20,10 @@ To add Xbox Live functionality to your game, start by setting up an app in Partn
    > 2. If you aren't already an ID@Xbox partner, apply to the ID@Xbox program.
    >
    > An ID@Xbox partner is a Managed Partner.
-   > To apply to become an ID@Xbox partner, right-click the following link and then click **Open in new window**: [Welcome to ID@Xbox](https://www.xbox.com/developers/id).
+   > To apply to become an ID@Xbox partner, see <a href="https://www.xbox.com/developers/id" target="_blank">Welcome to ID@Xbox</a> at Xbox.com.
    > Follow the instructions at that site, which will result in a Microsoft Partner Center account being generated for you.
+
+   <!-- orig: > To apply to become an ID@Xbox partner, right-click the following link and then click **Open in new window**: [Welcome to ID@Xbox](https://www.xbox.com/developers/id). -->
 
 
 <!--===========================================================-->
@@ -31,7 +31,9 @@ To add Xbox Live functionality to your game, start by setting up an app in Partn
 
 Next, at Partner Center, create a new app, as follows.
 
-1. Right-click the following link and then click **Open in new window**: [Partner Center dashboard](https://partner.microsoft.com/dashboard/).
+1. Go to <a href="https://partner.microsoft.com/dashboard/" target="_blank">Partner Center</a>.
+
+<!-- 1. Right-click the following link and then click **Open in new window**: [Partner Center dashboard](https://partner.microsoft.com/dashboard/). -->
 
    The Partner Center dashboard appears, showing the "Overview" page, within the "WINDOWS" section.
 
@@ -63,14 +65,14 @@ Next, at Partner Center, create a new app, as follows.
    The "App overview" page appears.
 
    <!-- status: ok -->
-   ![](images/pc_app_overview01_pg.png)
+   ![The "App overview" page](images/pc_app_overview01_pg.png)
 
 6. Click the **Start your submission** button.
 
    The "Start your submission" dialog box appears.
 
    <!-- status: ok -->
-   ![](images/pc_startyoursubmission_dbx.png)
+   ![The "Start your submission" dialog box](images/pc_startyoursubmission_dbx.png)
 
 7. In the "Select the sandbox..." combo field, click the down-arrow on the right, then click a sandbox; for example, "NKDXTT.0 (shared)".
 
@@ -94,8 +96,8 @@ Next, at Partner Center, create a new app, as follows.
 
    The "Identity details" page appears.
 
-   <!-- status: nuke "Greg02" (upper right), blur the CN string below that, PFN line: nuke or blur "Greg02_q", blur Package SID value, URL: blur the 9##### string; Store id: blur the value; Store Protocol link: blur the value starting with 9.  -->
-   ![](images/pc_identitydetails_pg.png)
+   <!-- status: ok -->
+   ![The "Identity details" page](images/pc_identitydetails_pg.png)
 
 3. Copy the **Store ID**.
 
@@ -121,22 +123,24 @@ When you receive the above email from your MS Representative, continue with the 
    > First, close the browser, including all of the browser's window instances, to clear the session cache.
    > Then open a new browser, and return to this section of this page.
 
-1. Go to Partner Center.
-   To do this, you can right-click the following link and then click **Open in new window**: [Partner Center dashboard](https://partner.microsoft.com/dashboard/).
+1. Go to <a href="https://partner.microsoft.com/dashboard/" target="_blank">Partner Center</a>.
+
+<!-- 1. Go to Partner Center.
+   To do this, you can right-click the following link and then click **Open in new window**: [Partner Center dashboard](https://partner.microsoft.com/dashboard/). -->
 
 2. Click **Products**, and then click your game.
 
    The "App overview" page appears.
 
-   <!-- status: crop to elim the browser frame and url. keep black area.  delete "Greg02" from black area. delete the projects below that in black area. -->
-   ![](images/pc_app_overview_pg.png)
+   <!-- status: ok -->
+   ![The "App overview" page](images/pc_app_overview_pg.png)
 
 3. Under **Services**, click **Xbox Live**.
 
    The "Enable Xbox Live" page appears, this first time only.
 
    <!-- status: ok -->
-   ![](images/pc_enablexboxlive_pg.png)
+   ![The "Enable Xbox Live" page](images/pc_enablexboxlive_pg.png)
 
 4. In the "Xbox Live app name" text box, enter the name of your game.
    You can use the same name as shown at the top of the page, but it doesn't need to be the same.
@@ -147,9 +151,9 @@ When you receive the above email from your MS Representative, continue with the 
    "Your product is being Xbox Live enabled.  This may take a few minutes."
 
    After some time, the Xbox Live "Gameplay Setting" page automatically appears.
-   
-   <!-- status: cropped, ok now? -->
-   ![](images/pc_gameplay_setting_pg.png)
+
+   <!-- status: ok -->
+   ![The "Gameplay Setting" page](images/pc_gameplay_setting_pg.png)
 
 You've now completed the initial setup of your game.
 Your game cannot be tested yet; you need to publish the game first.
@@ -166,7 +170,7 @@ In Partner Center, with your game selected as in the above procedures, do the fo
    The "Publish gameplay settings" dialog box appears.
 
    <!-- status: ok -->
-   ![](images/pc_pubgameplaysetgs_dbx.png)
+   ![The "Publish gameplay settings" dialog box](images/pc_pubgameplaysetgs_dbx.png)
 
 2. Click the **Confirm** button.
 
@@ -193,8 +197,8 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 
    The "Xbox Live configuration" page appears.
 
-   <!-- status: crop to exclude window frame and black left nav column. white-out "greg". blur the 3 numeric strings. -->
-   ![](images/pc_xblconfign_pg.png)
+   <!-- status: ok -->
+   ![The "Xbox Live configuration" page](images/pc_xblconfign_pg.png)
 
 2. Copy and save the two Title ID values for later, for use by the SDK.
 
@@ -207,31 +211,31 @@ In Partner Center, with your game selected as in the above procedures, do the fo
    The "App overview" page appears.
 
    <!-- status: ok -->
-   ![](images/pc_app_overview_02_pg.png)
+   ![The "App overview" page](images/pc_app_overview_02_pg.png)
 
 2. Click the **Settings** gear in the upper right, then click **Developer settings**.
 
    The "Account settings" page appears.
 
    <!-- status: ok -->
-   ![](images/pc_account_settings_pg.png)
+   ![The "Account settings" page](images/pc_account_settings_pg.png)
 
 3. In the **Settings** area in the middle, click **Xbox Live**: **Xbox test accounts**.
 
    <!-- status: ok -->
-   ![](images/pc_account_settings_pg_xblmenu.png)
+   ![The "Settings: Xbox Live" menu](images/pc_account_settings_pg_xblmenu.png)
 
    The "Manage test accounts" page appears.
 
-   <!-- status: white-out the existing entries, keep table header -->
-   ![](images/pc_manage_test_accounts_pg.png)
+   <!-- status: ok -->
+   ![The "Manage test accounts" page](images/pc_manage_test_accounts_pg.png)
 
 4. Click the **New test account** button.
 
    The "New test accounts" page appears.
 
-   <!-- status: white-out alternate email address v-mihof@ms... -->
-   ![](images/pc_new_test_accounts_pg.png)
+   <!-- status: ok -->
+   ![The "New test accounts" page](images/pc_new_test_accounts_pg.png)
 
 5. In the **Number of accounts to create** text box, enter a number, such as 5.
 
@@ -261,15 +265,15 @@ In Partner Center, with your game selected as in the above procedures, do the fo
     The "Manage test accounts" page appears, showing your new test accounts.
     You can use these acccount email addresses later to sign in with an app, that can access the sandbox.
 
-   <!-- status: white-out "hoffman", white-out "ignore" 2x, white-out rightmost 50% of digits on Gamertag (2x) -->
-   ![](images/pc_manage_test_accounts_pg_newaccts.png)
+   <!-- status: ok -->
+   ![The "Manage test accounts" page with new test accounts](images/pc_manage_test_accounts_pg_newaccts.png)
 
 16. Under the **New test account** button, click the **View job history** link.  
 
     The "Job History" dialog box appears.  
 
-    <!-- status: crop to only show the topmost 2 items -->
-   ![](images/pc_job_history_dbx.png)
+    <!-- status: ok -->
+   ![The "Job History" dialog box](images/pc_job_history_dbx.png)
 
 17. Click the page outside the dialog box.
 
