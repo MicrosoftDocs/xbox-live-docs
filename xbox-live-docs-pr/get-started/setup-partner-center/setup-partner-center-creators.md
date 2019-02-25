@@ -8,11 +8,15 @@ ms.localizationpriority: medium
 ---
 # Setting up a game at Partner Center, for Creators
 
-<!--todo: open external links in new tab-->
+<!--
+todo:
+Update the status for each image.
+Add [Alt Text] for each image.
+Open external links in new window, if supported.
+-->
 
 To add Xbox Live functionality to your game, start by setting up an app in Partner Center, by following the steps below.
 
-<!-- greg: Need sep articles for Creators & ID? -->
 
 ## Prerequisite: Become a Creator
 
@@ -33,14 +37,14 @@ At Partner Center, create a new app representing your game, as follows.
    The Partner Center dashboard appears, showing the "Overview" page, within the "WINDOWS" section.
 
    <!-- status: ok -->
-   ![](images/pc_overview_pg.png)
+   !["Overview" page at Partner Center](images/pc_overview_pg.png)
 
 2. Click the **Create a new app** button.
 
    The page "Create your app by reserving a name" appears.
 
    <!-- status: ok -->
-   ![](images/pc_createappreservename_no_opts.png)
+   ![The "Create your app by reserving a name" page](images/pc_createappreservename_no_opts.png)
 
 3. In the text box, enter the name of your product.
    You can change the name later.
@@ -52,14 +56,14 @@ At Partner Center, create a new app representing your game, as follows.
    The "App overview" page appears.
 
    <!-- status: ok -->
-   ![](images/pc_app_overview01_pg.png)
+   ![The "App overview" page](images/pc_app_overview01_pg.png)
 
 6. Click the **Start your submission** button.
 
-   After a delay, the Submission page appears, showing the submission number; for example, "Submission 1".
+   After a delay, the "Submission #" page appears, showing the submission number; for example, "Submission 1".
 
-   <!-- todo: ok? not appearing yet. ok locally -->
-   ![](images/pc_cr_initl_submission_pg.png)
+   <!-- todo: ok -->
+   ![The "Submission #" page before setting the Category to "Games"](images/pc_cr_initl_submission_pg.png)
 
    In the "Xbox Live Creators Program" section of the page, the message appears:
    "To enable Xbox Live Creators Program, the product's category (on the Properties page) must be Games."
@@ -77,9 +81,9 @@ At Partner Center, create a new app representing your game, as follows.
    The "Properties" page appears.
 
    <!-- todo: ok locally now -->
-   ![](images/pc_cr_initl_properties_pg.png)
+   ![The "Properties" page before setting the Category to "Games"](images/pc_cr_initl_properties_pg.png)
 
-2. In the **Category and subcategory** section, in the **Pick a category** drop-down, select the **Games** category.
+2. In the **Category and subcategory** section, in the **Pick a category** drop-down list, select the **Games** category.
 
    > [!IMPORTANT]
    > Do not select a category other than Games, or else the "Xbox Live" options won't be available.
@@ -87,33 +91,33 @@ At Partner Center, create a new app representing your game, as follows.
    Because you selected Games, the "Genre(s) section appears.
 
    <!-- status: ok now? -->
-   ![](images/pc_creators_submission_num_pg_games_cat.png)
+   !["Genre(s)" section of "Properties" page](images/pc_creators_submission_num_pg_games_cat.png)
 
-3. In the **Genre(s)** section, select one or more check boxes, such as "Strategy".
+3. In the **Genre(s)** section, select one or more check boxes.
 
-   <!-- status: update the below -->
+   <!-- todo: update the below steps-->
    Skip the other fields for now.
 
 4. Scroll down to the bottom of the page, and click the **Save** button.
 
    The "Submission #" page reappears, and the "Xbox Live Creators Program" section of the page is now available.
 
-   <!-- todo: ok now locally -->
-   ![](images/pc_cr_2nd_submission_pg.png)
+   <!-- status: ok -->
+   !["Xbox Live Creators Program" section of "Submission #" page](images/pc_cr_2nd_submission_pg.png)
 
 5. Click the **Xbox Live Creators Program** section in the page.
 
-   The "Enable Xbox Live Creators Program" page appears, this first time through the process.
+   The "Enable Xbox Live Creators Program" page appears, the first time through this process for a new game.
 
    <!-- status: ok -->
-   ![](images/pc_cr_enablexblcrpgm_pg.png)
+   ![The "Enable Xbox Live Creators Program" page](images/pc_cr_enablexblcrpgm_pg.png)
 
 6. Click the **Enable** button.
 
   The "Setup" dialog box appears.
 
    <!-- status: ok -->
-   ![](images/pc_cr_setup_dbx.png)
+   ![The "Setup" dialog box](images/pc_cr_setup_dbx.png)
 
 7. In the **Xbox Live game name** text box, enter the name of your game.
    This can be the same as the name of the app you specified at the beginning, but it doesn't need to be the same.
@@ -128,15 +132,18 @@ At Partner Center, create a new app representing your game, as follows.
 
    Then the "Xbox Live Creators Program" page appears, with the message at the top "Please ensure to publish your changes to Xbox Live before you can upload files to global storage."
 
-   <!-- status: blur the Title ID value, the SCID value, the Sandbox ID value -->
-   ![](images/pc_cr_xbl_creators_pgm_pg.png)
+   <!-- status: todo: blur the Title ID value, the SCID value, the Sandbox ID value -->
+   ![The "Xbox Live Creators Program" page](images/pc_cr_xbl_creators_pgm_pg.png)
 
 
-<!-- the above steps worked, including "Enable".  Below are steps we tried for Creators, to make Xbox Live appear under Services:
+<!-- 
+todo: delete this comment (2 parts)
+
+the above steps worked, including "Enable".  Below are steps we tried for Creators, to make Xbox Live appear under Services:
 
 5. To the left of the "Submission #" page, click **Services** to expand it, and see whether **Xbox Live** appears within the **Services** options.
 
-   ![](images/pc_creators_submission_num_pg.png)
+   ![The "Submission #" page](images/pc_creators_submission_num_pg.png)
 
 6. If **Xbox Live** doesn't appear yet, try the following:
 
@@ -155,7 +162,7 @@ ID STEPS:
 
    The "Enable Xbox Live" page appears, this first time only.
 
-   ![](images/pc_enablexboxlive_pg.png)
+   ![The "Enable Xbox Live" page](images/pc_enablexboxlive_pg.png)
 
 2. In the "Xbox Live app name" text box, enter the name of your game.
    You can use the same name as shown at the top of the page, but it doesn't need to be the same.
@@ -167,7 +174,7 @@ ID STEPS:
 
    After some time, the Xbox Live "Gameplay Setting" page automatically appears.
 
-   ![](images/pc_gameplay_setting_pg.png) -->
+   ![The "Gameplay Setting" page](images/pc_gameplay_setting_pg.png) -->
 
 You've now completed the initial setup of your game.
 Your game cannot be tested yet; you need to publish the game first.
@@ -177,10 +184,10 @@ To do this, you take the identity information that was generated above, and push
 <!--===========================================================-->
 ## 3. Publish the game
 
-In Partner Center, with your game selected as in the above procedures, do the following.
-
 
 ### Go to the "Xbox Live Creators Program" page
+
+If you are not already at the "Xbox Live Creators Program" page for your game, go there as follows.
 
 1. On the left, click **Products**, then under Products, click your game.
 
@@ -194,16 +201,53 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 
    The "Xbox Live Creators Program" page appears.
 
-   <!-- status: blur the Title ID value, the SCID value, the Sandbox ID value -->
-   ![](images/pc_cr_xbl_creators_pgm_pg.png)
+   <!-- status: todo: blur the Title ID value, the SCID value, the Sandbox ID value (per above for this image file) -->
+   ![The "Xbox Live Creators Program" page](images/pc_cr_xbl_creators_pgm_pg.png)
 
 
 ### Publish using the Test button
 
-1. In the "Xbox Live Creators Program" page, scroll down to the **Test** section, then click the **Test** button.
+1. In the "Xbox Live Creators Program" page, scroll down to the **Test** section.
 
-   <!-- status: ok now? -->
-   ![](images/pc_cr_xblcrpgm_test_secn.png)
+2. Click the **Authorize Xbox Live accounts** (to use your test environment).
+
+   The "Manage Accounts" page appears.
+
+<!-- 
+todo:
+"Xbox Live" appears in left-nav at this point.
+   ![The "Manage test accounts" page for Xbox Live test accounts](images/pc_creators_managetestacccounts_pg_where.png)
+
+Where to place this img if needed?
+-->
+
+   <!-- status: ok -->
+   ![The "Manage Accounts" page](images/pc_creators_manageaccounts_pg.png)
+
+3. Click the **Add account** button.
+
+   The "Please enter an Xbox Live email address" dialog box appears.
+
+   <!-- status: ok -->
+   ![The "Please enter an Xbox Live email address" dialog box](images/pc_creators_enteremail_dbx.png)
+
+4. In the text box, enter your Xbox Live email address to use for testing, such as: DEV-123456789A@xboxtest.com <!--todo, gives message in red: "Sorry, there was an issue adding your email address." -->
+
+5. Click the **Add** button.
+
+   The "Manage Accounts" page reappears, now showing the added email address.  <!--todo: confirm-->
+
+   <!-- todo: cleanup transition -->
+   ... 
+
+<!--
+what to click to get back to the  "Xbox Live Creators Program" page: Test section: Test button? 
+-->
+
+7. Click the **Test** button.
+
+   <!-- status: todo: cleanup sandbox name -->
+   !["Test" section of "Xbox Live Creators Program" page](images/pc_cr_xblcrpgm_test_secn.png)
 
    Below the Test button, the message "Publishing..." appears, and then "Success" appears.
    
@@ -212,7 +256,7 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 
    The "Publish gameplay settings" dialog box appears.
 
-   ![](images/pc_pubgameplaysetgs_dbx.png)
+   ![The "Publish gameplay settings" dialog box](images/pc_pubgameplaysetgs_dbx.png)
 
 2. Click the **Confirm** button.
 
@@ -226,7 +270,8 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 <!-- ID:
  3. Click the **Close** button.
 
-   The "Publish gameplay settings" dialog box closes, and the "Gameplay Setting" page remains displayed. -->
+   The "Publish gameplay settings" dialog box closes, and the "Gameplay Setting" page remains displayed.
+-->
 
 The SDK can now be used in an application to sign-in.
 
@@ -236,14 +281,18 @@ Next, find the ID of your game, as follows.
 <!--===========================================================-->
 ## 4. Find your Xbox Live game information
 
+<!-- todo: eliminate/move this section to later article? these steps aren't needed until after Getting Started -->
+
 In Partner Center, with your game selected as in the above procedures, do the following.
 
 1. Click **Service**: **Xbox Live**: **Xbox Live Setup**.
 
+   <!-- todo: left-nav says "Services", not "Service", and doesn't list "Xbox Live" -->
+
    The "Xbox Live configuration" page appears.
 
-   <!-- status: crop to exclude window frame and black left nav column. white-out "greg". blur the 3 numeric strings. -->
-   ![](images/pc_xblconfign_pg.png)
+   <!-- status: todo: this is ID version, create Creators version of capture - if these steps are needed -->
+   ![The "Xbox Live configuration" page](images/pc_xblconfign_pg.png)
 
 2. Copy and save the two Title ID values for later, for use by the SDK.
 
@@ -251,36 +300,38 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 <!--===========================================================-->
 ## 5. Create a Test Account
 
+<!-- todo: move up to top of Publish section? -->
+
 1. In Partner Center, click **Products** on the left, and then click the product you created.
 
    The "App overview" page appears.
 
    <!-- status: ok -->
-   ![](images/pc_app_overview_02_pg.png)
+   ![The "App overview" page](images/pc_app_overview_02_pg.png)
 
 2. Click the **Settings** gear in the upper right, then click **Developer settings**.
 
    The "Account settings" page appears.
 
    <!-- status: ok -->
-   ![](images/pc_account_settings_pg.png)
+   ![The "Account settings" page](images/pc_account_settings_pg.png)
 
 3. In the **Settings** area in the middle, click **Xbox Live**: **Xbox test accounts**.
 
    <!-- status: ok -->
-   ![](images/pc_account_settings_pg_xblmenu.png)
+   ![Settings: Xbox Live: Xbox test accounts](images/pc_account_settings_pg_xblmenu.png)
 
    The "Manage test accounts" page appears.
 
    <!-- status: white-out the existing entries, keep table header -->
-   ![](images/pc_manage_test_accounts_pg.png)
+   ![The "Manage test accounts" page](images/pc_manage_test_accounts_pg.png)
 
 4. Click the **New test account** button.
 
    The "New test accounts" page appears.
 
    <!-- status: white-out alternate email address v-mihof@ms... -->
-   ![](images/pc_new_test_accounts_pg.png)
+   ![The "New test accounts" page](images/pc_new_test_accounts_pg.png)
 
 5. In the **Number of accounts to create** text box, enter a number, such as 5.
 
@@ -311,14 +362,14 @@ In Partner Center, with your game selected as in the above procedures, do the fo
     You can use these acccount email addresses later to sign in with an app, that can access the sandbox.
 
    <!-- status: white-out "hoffman", white-out "ignore" 2x, white-out rightmost 50% of digits on Gamertag (2x) -->
-   ![](images/pc_manage_test_accounts_pg_newaccts.png)
+   ![The "Manage test accounts" page with new test accounts](images/pc_manage_test_accounts_pg_newaccts.png)
 
 16. Under the **New test account** button, click the **View job history** link.  
 
     The "Job History" dialog box appears.  
 
     <!-- status: ok locally -->
-   ![](images/pc_job_history_dbx.png)
+   ![The "Job History" dialog box](images/pc_job_history_dbx.png)
 
 17. Click the page outside the dialog box.
 

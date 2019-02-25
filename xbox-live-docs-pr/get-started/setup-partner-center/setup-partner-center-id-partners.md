@@ -36,14 +36,14 @@ Next, at Partner Center, create a new app, as follows.
    The Partner Center dashboard appears, showing the "Overview" page, within the "WINDOWS" section.
 
    <!-- status: clear the items, keep table header -->
-   ![](images/pc_overview_pg.png)
+   ![The "Overview" page at Partner Center](images/pc_overview_pg.png)
 
 2. Click the **Create a new app** button.
 
    The page "Create your app by reserving a name" appears.
 
    <!-- status: ok -->
-   ![](images/pc_createappreservename.png)
+   ![The "Create your app by reserving a name" page](images/pc_createappreservename.png)
 
 3. In the text box, enter the name of your product.
    You can change the name later.
@@ -56,7 +56,7 @@ Next, at Partner Center, create a new app, as follows.
    > (Do not select the check box "Do not create this product in a sandbox".)
 
    <!-- status: nuke "02mihof" -->
-   ![](images/pc_createappreservename02.png)
+   ![The "Create this product in a sandbox" option button](images/pc_createappreservename02.png)
 
 5. Click the **Reserve product name** button.
 
