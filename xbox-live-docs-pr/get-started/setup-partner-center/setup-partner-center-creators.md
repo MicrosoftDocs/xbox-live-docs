@@ -26,7 +26,6 @@ To add Xbox Live functionality to your game, start by setting up an app in Partn
    > Prerequisite steps for Creators:
    > Create a Dev Account (also called a Partner Center account).
    > To create a Dev Account, see <a href="https://docs.microsoft.com/partner-center/mpn-create-a-partner-center-account" target="_blank">Create a Partner Center account</a> at the Partner Center documentation site.
-   > Follow the instructions at that site.
 
 
 <!--===========================================================-->
@@ -134,7 +133,7 @@ To do this, you take the identity information that was generated above, and push
 
 
 <!--===========================================================-->
-## 3. Publish the game
+## 3. Authorize Xbox Live accounts to test the game
 
 
 ### Create an Xbox account for testing
@@ -146,7 +145,7 @@ To do this, you take the identity information that was generated above, and push
 
    The "Sign in" dialog box appears.
 
-3. Click the "Create one!" link.
+3. Click the **Create one!** link.
 
    Note the new email address and password.
 
@@ -171,7 +170,7 @@ In Partner Center, if you are not already at the "Xbox Live Creators Program" pa
    ![The "Xbox Live Creators Program" page](images/pc_cr_xbl_creators_pgm_pg.png)
 
 
-### Publish the game using the Test button
+### Authorize Xbox Live accounts for testing the game
 
 1. In the "Xbox Live Creators Program" page, scroll down to the **Test** section.
 
@@ -196,26 +195,31 @@ In Partner Center, if you are not already at the "Xbox Live Creators Program" pa
 
    The "Manage Accounts" page reappears, now showing the added email address.  <!--todo: confirm-->
 
-   Go to the "Xbox Live Creators Program" page: Test section: Test button, as follows.
 
-6. Click the app name in the top of the left-nav bar, or elsewhere in the user interface.
+## 4. Publish the game using the Test button
+
+Return to the "Xbox Live Creators Program" page: "Test" section, as follows.
+
+<!--todo: check where new tab is auto opened, maybe just switch tabs instead of the below steps-->
+
+1. Click the app name in the top of the left-nav bar, or elsewhere in the user interface.
 
    The "App overview" page appears.
 
-7. Click "Submission #".
+2. Click "Submission #".
 
     The "Submission #" page appears.
 
-8. Click the section **Xbox Live Creators Program**.
+3. Click the section **Xbox Live Creators Program**.
 
     The "Xbox Live Creators Program" page appears.
 
-9. Scroll down to the "Test" section.
+4. Scroll down to the "Test" section.
 
    <!-- status: todo: cleanup sandbox name (this is a copy of above) -->
    ![The "Test" section of the "Xbox Live Creators Program" page](images/pc_cr_xblcrpgm_test_secn.png)
 
-10. Click the **Test** button.
+5. Click the **Test** button.
 
    <!-- status: todo: cleanup sandbox name (copy of above img file) -->
    ![The "Test" section of "Xbox Live Creators Program" page](images/pc_cr_xblcrpgm_test_secn.png)

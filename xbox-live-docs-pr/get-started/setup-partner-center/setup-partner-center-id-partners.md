@@ -178,7 +178,7 @@ The SDK can now be used in an application to sign-in.
 
 
 <!--===========================================================-->
-## 6. Create Test Accounts
+## 5. Create Test Accounts
 
 1. In Partner Center, click **Products** on the left, and then click the product you created.
 
