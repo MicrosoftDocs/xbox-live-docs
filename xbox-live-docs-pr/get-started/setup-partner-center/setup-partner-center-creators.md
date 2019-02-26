@@ -111,9 +111,8 @@ At Partner Center, create a new app representing your game, as follows.
    Below the Confirm button, the message temporarily appears:
    "Your product is being Xbox Live enabled. This may take a few minutes."
 
-   Then the "Xbox Live Creators Program" page appears, with the message at the top "Please ensure to publish your changes to Xbox Live before you can upload files to global storage."
+   Then the "Xbox Live Creators Program" page appears.
 
-   <!-- status: todo: blur the Title ID value, the SCID value, the Sandbox ID value -->
    ![The "Xbox Live Creators Program" page](images/pc_cr_xbl_creators_pgm_pg.png)
 
 You've now completed the initial setup of your game.
@@ -155,7 +154,6 @@ In Partner Center, if you are not already at the "Xbox Live Creators Program" pa
 
    The "Xbox Live Creators Program" page appears.
 
-   <!-- status: todo: blur the Title ID value, the SCID value, the Sandbox ID value (per above for this image file) -->
    ![The "Xbox Live Creators Program" page](images/pc_cr_xbl_creators_pgm_pg.png)
 
 
