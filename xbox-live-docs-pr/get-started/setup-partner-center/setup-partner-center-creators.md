@@ -8,15 +8,6 @@ ms.localizationpriority: medium
 ---
 # Setting up a game at Partner Center, for Creators
 
-<!--
-todo:
-o  Open a different browser, go to partner center, create a Creators app, see if after 5 minutes, on the "Submission #" page:
-   o  The "Xbox Live Creators Program" section is available
-   o  The "Submissions": "Submission #":     "Xbox Live Creators Program"    left-nav item is present, a sibling below "Submission options".  After about 18 minutes, this still doesn't appear.  Seems like a "next day" delay?
-   Both of those UI items load the "Xbox Live Creators Program" page.
-o  Misc "todo" questions.
--->
-
 To add Xbox Live functionality to your game, start by setting up an app in Partner Center, by following the steps below.
 
 
@@ -172,7 +163,6 @@ In Partner Center, if you are not already at the "Xbox Live Creators Program" pa
 
 1. In the "Xbox Live Creators Program" page, scroll down to the **Test** section.
 
-   <!-- status: todo: cleanup sandbox name -->
    ![The "Test" section of the "Xbox Live Creators Program" page](images/pc_cr_xblcrpgm_test_secn.png)
 
 2. Click the **Authorize Xbox Live accounts** link.
@@ -191,14 +181,14 @@ In Partner Center, if you are not already at the "Xbox Live Creators Program" pa
 
 5. Click the **Add** button.
 
-   The "Manage Accounts" page reappears, now showing the added email address.  <!--todo: confirm & capture-->
+   <!--todo: confirm & capture-->
+   The "Manage Accounts" page reappears, now showing the added email address.
 
 
 ## 4. Publish the game using the Test button
 
 1. Click the previous browser tab to see the "Xbox Live Creators Program" page: "Test" section.
 
-   <!-- status: todo: cleanup sandbox name (this is a copy of above) -->
    ![The "Test" section of the "Xbox Live Creators Program" page](images/pc_cr_xblcrpgm_test_secn.png)
 
 2. Click the **Test** button.
@@ -216,7 +206,7 @@ The SDK can now be used in an application to sign-in.
 ## Next step
 
 After your game is set up at Partner Center, continue with step 2: set up an IDE with the Xbox Live SDK, for your target platforms.
-See [Getting started](index.md).
+See [Getting started](../index.md).
 
 
 <!--===========================================================-->

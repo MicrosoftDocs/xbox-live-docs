@@ -16,14 +16,7 @@ To add Xbox Live functionality to your game, start by setting up an app in Partn
    > [!IMPORTANT]
    > Prerequisite steps for ID@Xbox partners:
    > 1. Prepare a prototype of your game, such as a demo and screen captures.
-   >
-   > 2. If you aren't already an ID@Xbox partner, apply to the ID@Xbox program.
-   >
-   > An ID@Xbox partner is a Managed Partner.
-   > To apply to become an ID@Xbox partner, see <a href="https://www.xbox.com/developers/id" target="_blank">Welcome to ID@Xbox</a> at Xbox.com.
-   > Follow the instructions at that site, which will result in a Microsoft Partner Center account being generated for you.
-
-   <!-- orig: > To apply to become an ID@Xbox partner, right-click the following link and then click **Open in new window**: [Welcome to ID@Xbox](https://www.xbox.com/developers/id). -->
+   > 2. If you aren't already an ID@Xbox partner, apply to the ID@Xbox program. An ID@Xbox partner is a Managed Partner. To apply to become an ID@Xbox partner, see <a href="https://www.xbox.com/developers/id" target="_blank">Welcome to ID@Xbox</a> at Xbox.com. Follow the instructions at that site, which will result in a Microsoft Partner Center account being generated for you.
 
 
 <!--===========================================================-->
@@ -33,11 +26,8 @@ Next, at Partner Center, create a new app, as follows.
 
 1. Go to <a href="https://partner.microsoft.com/dashboard/" target="_blank">Partner Center</a>.
 
-<!-- 1. Right-click the following link and then click **Open in new window**: [Partner Center dashboard](https://partner.microsoft.com/dashboard/). -->
-
    The Partner Center dashboard appears, showing the "Overview" page, within the "WINDOWS" section.
 
-   <!-- status: clear the items, keep table header -->
    ![The "Overview" page at Partner Center](images/pc_overview_pg.png)
 
 2. Click the **Create a new app** button.
@@ -110,17 +100,18 @@ Next, at Partner Center, create a new app, as follows.
 <!--===========================================================-->
 ## 3. Enable Xbox Live for the game
 
-<!-- todo: closing browser will cause to lose their place in this doc. tell how to return here. -->
-
 When you receive the above email from your MS Representative, continue with the following steps.
 
    > [!IMPORTANT]
-   > First, close the browser, including all of the browser's window instances, to clear the session cache.
-   > Then open a new browser, and return to this section of this page.
+   > 1. Save the URL for this page; for example, add this page to Favorites in the browser.
+   > 2. Close the browser, including all of the browser's window instances, to clear the session cache.
+   > 3. Open a new browser, and return to this section of this page.
 
 1. Go to <a href="https://partner.microsoft.com/dashboard/" target="_blank">Partner Center</a>.
 
-   <!-- todo: insert capture, but it would need to show at least 1 game -->
+   The "Overview" page appears.
+
+   ![The "Overview" page at Partner Center](images/pc_overview_pg.png)
 
 2. Click **Products**, and then click your game.
 
@@ -252,7 +243,7 @@ Your game is now set up at Partner Center.
 ## Next step
 
 After your game is set up at Partner Center, continue with step 2: set up an IDE with the Xbox Live SDK, for your target platforms.
-See [Getting started](index.md).
+See [Getting started](../index.md).
 
 
 <!--===========================================================-->

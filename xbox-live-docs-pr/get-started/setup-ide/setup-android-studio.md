@@ -247,4 +247,4 @@ Maven should handle this for us?
 ## Next step
 
 Now that your IDE is set up to use Xbox Live, continue with step 3: Writing code for your game to sign-in to Xbox Live.
-See [Getting started](index.md).
+See [Getting started](../index.md).
