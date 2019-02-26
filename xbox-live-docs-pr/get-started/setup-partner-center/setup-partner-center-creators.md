@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 todo:
 o  Open a different browser, go to partner center, create a Creators app, see if after 5 minutes, on the "Submission #" page:
    o  The "Xbox Live Creators Program" section is available
-   o  The "Submissions: Submission #: Xbox Live Creators Program" left-nav item is present.
+   o  The "Submissions": "Submission #":     "Xbox Live Creators Program"    left-nav item is present, a sibling below "Submission options".  After about 18 minutes, this still doesn't appear.  Seems like a "next day" delay?
    Both of those UI items load the "Xbox Live Creators Program" page.
 o  Misc "todo" questions.
 -->
@@ -58,7 +58,7 @@ At Partner Center, create a new app representing your game, as follows.
 
 6. Click the **Start your submission** button.
 
-   After a delay, the "Submission #" page appears, showing the submission number; for example, "Submission 1".
+   The "Submission #" page appears, showing the submission number; for example, "Submission 1".
 
    ![The "Submission #" page before setting the Category to "Games"](images/pc_cr_initl_submission_pg.png)
 
@@ -70,8 +70,6 @@ At Partner Center, create a new app representing your game, as follows.
 
 <!--===========================================================-->
 ## 2. Enable Xbox Live for the game
-
-<!-- todo: closing browser will cause to lose their place in this doc. tell how to return here. -->
 
 1. In the "Submission #" page, click the **Properties** section.
 
@@ -90,7 +88,7 @@ At Partner Center, create a new app representing your game, as follows.
 
 3. In the **Genre(s)** section, select one or more check boxes.
 
-   <!-- todo: update the below steps-->
+   <!-- todo: confirm -->
    Skip the other fields for now.
 
 4. Scroll down to the bottom of the page, and click the **Save** button.
@@ -179,7 +177,7 @@ In Partner Center, if you are not already at the "Xbox Live Creators Program" pa
 
 2. Click the **Authorize Xbox Live accounts** link.
 
-   The "Manage Accounts" page appears.
+   The "Manage Accounts" page appears, in a new tab of the browser.
 
    ![The "Manage Accounts" page](images/pc_creators_manageaccounts_pg.png)
 
@@ -189,40 +187,21 @@ In Partner Center, if you are not already at the "Xbox Live Creators Program" pa
 
    ![The "Please enter an Xbox Live email address" dialog box](images/pc_creators_enteremail_dbx.png)
 
-4. In Partner Center, in the "Please enter an Xbox Live email address" dialog box, in the text box, enter your Xbox Live email address to use for testing.
+4. In the text box, enter your Xbox Live email address to use for testing.
 
 5. Click the **Add** button.
 
-   The "Manage Accounts" page reappears, now showing the added email address.  <!--todo: confirm-->
+   The "Manage Accounts" page reappears, now showing the added email address.  <!--todo: confirm & capture-->
 
 
 ## 4. Publish the game using the Test button
 
-Return to the "Xbox Live Creators Program" page: "Test" section, as follows.
-
-<!--todo: check where new tab is auto opened, maybe just switch tabs instead of the below steps-->
-
-1. Click the app name in the top of the left-nav bar, or elsewhere in the user interface.
-
-   The "App overview" page appears.
-
-2. Click "Submission #".
-
-    The "Submission #" page appears.
-
-3. Click the section **Xbox Live Creators Program**.
-
-    The "Xbox Live Creators Program" page appears.
-
-4. Scroll down to the "Test" section.
+1. Click the previous browser tab to see the "Xbox Live Creators Program" page: "Test" section.
 
    <!-- status: todo: cleanup sandbox name (this is a copy of above) -->
    ![The "Test" section of the "Xbox Live Creators Program" page](images/pc_cr_xblcrpgm_test_secn.png)
 
-5. Click the **Test** button.
-
-   <!-- status: todo: cleanup sandbox name (copy of above img file) -->
-   ![The "Test" section of "Xbox Live Creators Program" page](images/pc_cr_xblcrpgm_test_secn.png)
+2. Click the **Test** button.
 
    Below the Test button, the message "Publishing" appears, and then "Success" appears.
 

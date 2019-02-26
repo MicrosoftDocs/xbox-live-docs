@@ -120,8 +120,7 @@ When you receive the above email from your MS Representative, continue with the 
 
 1. Go to <a href="https://partner.microsoft.com/dashboard/" target="_blank">Partner Center</a>.
 
-<!-- 1. Go to Partner Center.
-   To do this, you can right-click the following link and then click **Open in new window**: [Partner Center dashboard](https://partner.microsoft.com/dashboard/). -->
+   <!-- todo: insert capture, but it would need to show at least 1 game -->
 
 2. Click **Products**, and then click your game.
 
