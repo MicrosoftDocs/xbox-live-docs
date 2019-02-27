@@ -99,19 +99,18 @@ The following example assumes you already have your fully gathered set of Xbox U
 ```
 
 This begins the asynchronous process of creating a reservations for the specified Xbox User IDs.
-When the operation completes, XIM will provided a `xim_create_out_of_band_reservation_completed_state_change` that reports success or failure.
+When the operation completes, XIM will provide a `xim_create_out_of_band_reservation_completed_state_change` that reports success or failure.
 
 If successful, a reservation string will be made available for your system to provide to those Xbox User IDs provided to the operation.
-
 Reservation strings created successfully are valid for only a certain amount of time.
 That time is returned within `xim_create_out_of_band_reservation_completed_state_change`.
 
 With a valid reservation string, your "out-of-band" external mechanism used to gather the players outside of XIM can be used to distribute the string to those enumerated.
-For example, if you're using the Multiplayer Session Directory (MPSD) Xbox Live service, you can write this string as a custom property in the session document (note: the reservation string will always contain only a limited set of characters that are safe for use in JSON without any need for escaping or Base64 encoding).
+For example, if you're using the Multiplayer Session Directory (MPSD) Xbox Live service, you can write this string as a custom shared session property in the session document (note: the reservation string will always contain only a limited set of characters that are safe for use in JSON without any need for escaping or Base64 encoding).
 
-Once the other users have their reservation strings, they can then begin moving to the XIM network using it as the parameter to `xim::move_to_network_using_out_of_band_reservation()`.
+Once the other users have retrieved their reservation strings from the shared session document property, they can then begin moving to the XIM network using it as the parameter to `xim::move_to_network_using_out_of_band_reservation()`.
 
-The following example assumes the reservation string has been extracted to a variable named 'reservationString'.
+The following example assumes the reservation string has been extracted to a variable named `reservationString`.
 
 ```cpp
 xim::singleton_instance().move_to_network_using_out_of_band_reservation(reservationString);
