@@ -12,7 +12,7 @@ ms.localizationpriority: medium
    > The following article is for ID@Xbox partners only.
 
    > [!IMPORTANT]
-   > Prerequisite step: Set up a game at Partner Center. See [Getting started](index.md).
+   > Prerequisite step: Set up a game at Partner Center. See [Getting started](../index.md).
 
 
 <!--===================================================-->

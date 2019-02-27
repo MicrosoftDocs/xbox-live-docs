@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
    > [!IMPORTANT]
    > Prerequisite steps: 
-   > *  Set up a game at Partner Center. See [Getting started](index.md).
+   > *  Set up a game at Partner Center. See [Getting started](../index.md).
    > *  Have an existing game that you have created in [Android Studio](https://developer.android.com/studio/). 
 
 
