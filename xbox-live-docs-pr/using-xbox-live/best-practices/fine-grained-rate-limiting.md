@@ -93,6 +93,7 @@ The following services have implemented FGRL limits, with enforcement of these l
 | Stats Read                 | 100                       | 300                        | 3000                       |
 | Profile                    | 10                        | 30                         | 300                        |
 | MPSD                       | 30                        | 300                        | 3000                       |
+| Search Handle (MPSD)       | Read 1, Write 1           | Read 20, Write 20          | Read 20, Write 20          |
 | Presence                   | Read 10, Write 3          | Read 100, Write 30         | Read 1000, Write 300       |
 | Social                     | 10                        | 30                         | 300                        |
 | Leaderboards               | 30                        | 100                        | 1000                       |
