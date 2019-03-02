@@ -6,8 +6,6 @@
     - name: Get Started
       href: get-started.md
       items: 
-        - name: Xbox Live resources, sites, and downloads
-          href: xbox-live-resources.md
         - name: Developer program overview
           href: developer-program-overview.md
         - name: The Creators Program
@@ -208,8 +206,6 @@
           href: using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md
         - name: Using Xbox Live (deprecated article)
           href: using-xbox-live/using-xbox-live.md
-        - name: What's new for Xbox Live
-          href: whats-new/whats-new.md
     - name: Features
       href: features.md
       items:
@@ -864,44 +860,8 @@
                   href: real-time-activity-service/programming-the-real-time-activity-service.md
                 - name: Best Practices for the RTA service
                   href: real-time-activity-service/rta-best-practices.md
-    - name: Tutorials
-      href: tutorials/tutorials.md
-      items: 
-        - name: Real-Time Activity (RTA) tutorial (stub)
-          href: stub.md
-        - name: Multiplayer tutorials
-          href: tutorials/multiplayer/multiplayer-tutorials.md
-          items: 
-            - name: Multiplayer custom sample tutorial (stub)
-              href: tutorials/multiplayer/multiplayer-custom-sample-tutorial.md
-            - name: Xbox Integrated Multiplayer (XIM) tutorial (stub)
-              href: tutorials/multiplayer/multiplayer-xim-tutorial.md
-            - name: Xbox Integrated Multiplayer (XIM) chat-only tutorial (stub)
-              href: tutorials/multiplayer/multiplayer-xim-chat-tutorial.md
-            - name: Multiplayer Manager tutorial (stub)
-              href: tutorials/multiplayer/multiplayer-manager-tutorial.md
-            - name: Multiplayer Manager bring-your-own-match tutorial (stub)
-              href: tutorials/multiplayer/multiplayer-manager-byo-match-tutorial.md
-        - name: Rich Achievements tutorial (stub)
-          href: stub.md
-          items: 
-            - name: Create Event tutorial (stub)
-              href: stub.md
-            - name: Create Stat tutorial (stub)
-              href: stub.md
-            - name: Create Achievement tutorial (stub)
-              href: stub.md
-        - name: In-game Clubs tutorial (stub)
-          href: stub.md
-        - name: Cross-title storage tutorial (stub)
-          href: stub.md
-        - name: Single sign-on tutorial (stub)
-          href: stub.md
-          items: 
-            - name: Relying party tutorial (stub)
-              href: stub.md
-            - name: Single sign-on tutorial (stub)
-              href: stub.md
+        - name: What's new for Xbox Live
+          href: whats-new/whats-new.md
     - name: Releasing a game
       href: releasing/releasing.md
       items:
@@ -930,6 +890,8 @@
               href: using-xbox-live/troubleshooting/troubleshooting-the-xbox-live-services-api.md
             - name: Troubleshooting Xbox Live setup on Windows 10 PC
               href: using-xbox-live/troubleshooting/troubleshooting-pc-setup.md
+        - name: Xbox Live resources, sites, and downloads
+          href: xbox-live-resources.md
     - name: API Reference
       href: api-reference.md
       items:
