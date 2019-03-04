@@ -1,5 +1,5 @@
 ---
-title: Xbox Live service configuration for the Creators Program
+title: Xbox Live service configuration IDs for the Creators Program
 description: Configuring Xbox Live services, for the Creators Program.
 ms.assetid: 22b8f893-abb3-426e-9840-f79de0753702
 ms.date: 10/03/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Xbox Live service configuration for the Creators Program
+# Xbox Live service configuration IDs for the Creators Program
 
 
 ## What is Service Configuration?

@@ -15,6 +15,8 @@
               href: get-started-with-creators/get-started-with-xbox-live-creators.md
             - name: Create a new Creators Program title and publish it to the test environment
               href: get-started-with-creators/create-and-test-a-new-creators-title.md
+            - name: Setting up a game at Partner Center, for Creators
+              href: get-started-with-creators/setup-partner-center-creators.md
             - name: Get started developing a Creators Program title with Visual Studio
               href: get-started-with-creators/develop-creators-title-with-visual-studio.md
             - name: Develop in Unity
@@ -44,7 +46,7 @@
                   href: get-started-with-creators/add-multi-user-support.md
                 - name: Checking user privilege settings in Unity
                   href: get-started-with-creators/check-user-privileges-in-unity.md
-            - name: Xbox Live service configuration for the Creators Program
+            - name: Xbox Live service configuration IDs for the Creators Program
               href: get-started-with-creators/xbox-live-service-configuration-creators.md
             - name: Using Xbox Live sandboxes
               href: get-started-with-creators/xbox-live-sandboxes-creators.md
@@ -102,6 +104,8 @@
                   href: get-started-with-partner/compile-the-xdk-xbox-live-api-source.md
             - name: Get started with cross-play games
               href: get-started-with-partner/get-started-with-cross-play-games.md
+            - name: Xbox Live service configuration IDs for Managed Partners
+              href: xbox-live-service-configuration.md
             - name: Advanced Xbox Live sandboxes
               href: advanced-xbox-live-sandboxes.md
         - name: Setting up platforms for Xbox Live development
@@ -122,8 +126,6 @@
         - name: Configuring Xbox Live services
           href: configuring-xbox-live-services.md
           items: 
-            - name: Xbox Live service configuration
-              href: xbox-live-service-configuration.md
             - name: Partner Center services configuration
               href: configure-xbl/windows-dev-center.md
               items: 

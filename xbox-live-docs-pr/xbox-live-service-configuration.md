@@ -1,5 +1,5 @@
 ---
-title: Xbox Live service configuration
+title: Xbox Live service configuration IDs for Managed Partners
 description: Configuring Xbox Live services for your game.
 ms.assetid: 631c415b-5366-4a84-ba4f-4f513b229c32
 ms.date: 04/04/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, service configurati
 ms.localizationpriority: medium
 ---
 
-# Xbox Live service configuration
+# Xbox Live service configuration IDs for Managed Partners
 
 
 ## What is Service Configuration?
