@@ -59,6 +59,8 @@
               href: get-started-with-partner/get-started-with-xbox-live-partner.md
             - name: Create a new title that uses Xbox Live
               href: get-started-with-partner/create-a-new-title.md
+            - name: Setting up a game at Partner Center, for ID@Xbox Partners
+              href: get-started-with-creators/setup-partner-center-id-partners.md
             - name: Get started with Xbox Live APIs on Win32
               href: get-started-with-win32-ios-android/win32-get-started-with-xsapi.md
             - name: Including XBL API sources in a Win32 project, for debugging
