@@ -210,4 +210,4 @@ See [Getting started](../index.md).
 <!--===========================================================-->
 ## See also
 
-[Partner Center Xbox Live configuration Summary page](../../configure-xbl/dev-center/summary.md)
+[Partner Center Xbox Live configuration Summary page](../configure-xbl/dev-center/summary.md)
