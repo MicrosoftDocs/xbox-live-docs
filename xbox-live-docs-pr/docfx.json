@@ -44,7 +44,13 @@
       "feedback_system": "None",
       "ms.author": "aablackm",
       "ms.prod": "xboxlive",
-      "titleSuffix": "Xbox Live"
+      "titleSuffix": "Xbox Live",
+      "_op_documentIdPathDepotMapping": {
+        "./": {
+          "depot_name": "Win.windows-apps",
+          "folder_relative_path_in_docset": "xbox-live/"
+        }
+      }
     },
     "fileMetadata": {},
     "template": [],
