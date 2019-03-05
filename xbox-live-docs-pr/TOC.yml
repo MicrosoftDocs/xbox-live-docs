@@ -3,7 +3,6 @@
   items:
     - name: What is Xbox Live?
       href: what-is-xbox-live.md
-
     - name: Getting started
       href: get-started/index.md
       items:
@@ -27,29 +26,26 @@
               href: get-started/setup-ide/setup-xcode.md
         - name: Signing-in to Xbox Live
           href: get-started/write-sign-in-code.md
-
     - name: Features
-      href: features.md
+      href: features/index.md
       items:
-
-        - name: Identity (stub)
-          href: stub.md
+        - name: Identity
+          href: features/identity/index.md
           items: 
-            - name: User identity (stub)
-              href: stub.md
-            - name: XAL sign-in (stub)
-              href: stub.md
+            - name: User identity (placeholder)
+              href: features/identity/user/index.md
+            - name: XAL sign-in
+              href: features/identity/xal-signin/index.md
               items: 
                 - name: Troubleshooting Xbox Live sign-in
                   href: using-xbox-live/troubleshooting/troubleshooting-sign-in.md
-            - name: Privileges (stub)
-              href: social-platform/privileges/privileges.md
+            - name: Privileges
+              href: features/identity/privileges/index.md
               items: 
                 - name: Configuring Privileges in Partner Center
                   href: configure-xbl/dev-center/privileges.md
-            - name: Privacy (stub)
-              href: stub.md
-
+            - name: Privacy (placeholder)
+              href: features/identity/privacy/index.md
         - name: Social features
           href: social-platform/social-platform.md
           items: 
@@ -69,26 +65,26 @@
                       href: social-platform/intro-to-social-manager.md
                     - name: Social Manager memory and performance
                       href: social-platform/social-manager-memory-and-performance-overview.md
-            - name: Clubs (stub)
-              href: social-platform/clubs/clubs.md
+            - name: Clubs (placeholder)
+              href: features/social/clubs/index.md
               items: 
-                - name: Official clubs (stub)
-                  href: stub.md
-                - name: Social clubs (stub)
-                  href: stub.md
-                - name: In-game clubs (stub)
-                  href: stub.md
-            - name: TitleHub (stub)
-              href: stub.md
+                - name: Official clubs (placeholder)
+                  href: features/social/clubs/official-clubs.md
+                - name: Social clubs (placeholder)
+                  href: features/social/clubs/social-clubs.md
+                - name: In-game clubs (placeholder)
+                  href: features/social/clubs/in-game-clubs.md
+            - name: TitleHub (placeholder)
+              href: features/social/titlehub/index.md
             - name: Title Presence
               href: social-platform/rich-presence-strings/rich-presence.md
               items: 
                 - name: Overview of Presence strings
                   href: social-platform/rich-presence-strings/rich-presence-strings-overview.md
-                - name: Simple Presence (stub)
-                  href: stub.md
-                - name: Legacy Presence (stub)
-                  href: stub.md
+                - name: Simple Presence (placeholder)
+                  href: features/social/title-presence/simple-presence/index.md
+                - name: Legacy Presence (placeholder)
+                  href: features/social/title-presence/legacy-presence/index.md
                 - name: Configuring Rich Presence strings
                   href: social-platform/rich-presence-strings/rich-presence-strings-configuration.md
                 - name: Updating a Rich Presence string
@@ -101,7 +97,7 @@
                   href: social-platform/rich-presence-strings/rich-presence-strings-appendix.md
                 - name: Programming Rich Presence
                   href: social-platform/rich-presence-strings/programming-rich-presence.md
-            - name: Localized strings (stub)
+            - name: Localized strings (placeholder)
               href: social-platform/localized-strings/localized-strings.md
               items: 
                 - name: Configuring localized strings in Partner Center
@@ -122,7 +118,6 @@
                   href: social-platform/people-system/sending-player-feedback-from-your-title.md
             - name: Programming Social services
               href: social-platform/people-system/programming-social-services.md
-
         - name: Player Data
           href: data-platform/data-platform.md
           items: 
@@ -135,13 +130,13 @@
               items: 
                 - name: Achievements overview
                   href: achievements-2017/achievements-overview.md
-                - name: Simple Achievements (stub)
-                  href: stub.md
+                - name: Simple Achievements (placeholder)
+                  href: features/data/achievements/simple/index.md
                   items: 
                     - name: Achievements 2017
                       href: achievements-2017/simplified-achievements.md
-                - name: Legacy Achievements (stub)
-                  href: stub.md
+                - name: Legacy Achievements (placeholder)
+                  href: features/data/achievements/legacy/index.md
                   items: 
                     - name: Configuring Achievements 2017 in Partner Center
                       href: configure-xbl/dev-center/achievements-in-udc.md
@@ -150,36 +145,35 @@
             - name: Player Stats
               href: leaderboards-and-stats-2017/player-stats.md
               items: 
-                - name: Legacy Player Stats (stub)
-                  href: stub.md
-                - name: Deprecated Simple Player Stats (stub)
-                  href: stub.md
-                - name: Using player Stats
+                - name: Legacy Player Stats (placeholder)
+                  href: features/data/player-stats/legacy/index.md
+                - name: Simple Player Stats (deprecated) (placeholder)
+                  href: features/data/player-stats/simple/index.md
+                - name: Using player stats
                   href: leaderboards-and-stats-2017/using-player-stats.md
                 - name: Stats 2017
                   href: leaderboards-and-stats-2017/stats2017.md
                 - name: Updating player Stats 2017
                   href: leaderboards-and-stats-2017/player-stats-updating.md
-            - name: Leaderboards (stub)
-              href: stub.md
+            - name: Leaderboards (placeholder)
+              href: features/data/leaderboards/index.md
               items: 
                 - name: Overview of leaderboards
                   href: leaderboards-and-stats-2017/leaderboards.md
-                - name: Legacy leaderboards (stub)
-                  href: stub.md
-                - name: Deprecated simple leaderboards (stub)
-                  href: stub.md
-            - name: Featured Stats (stub)
-              href: stub.md
+                - name: Legacy leaderboards (placeholder)
+                  href: features/data/leaderboards/legacy/index.md
+                - name: Simple leaderboards (deprecated) (placeholder)
+                  href: features/data/leaderboards/simple/index.md
+            - name: Featured Stats (placeholder)
+              href: features/data/featured-stats/index.md
               items: 
-                - name: Legacy Featured Stats (stub)
-                  href: stub.md
+                - name: Legacy Featured Stats (placeholder)
+                  href: features/data/featured-stats/legacy/index.md
                   items: 
                     - name: Configuring Featured Stats and Leaderboards 2017 in Partner Center
                       href: configure-xbl/dev-center/featured-stats-and-leaderboards.md
-                - name: Deprecated Simple Featured Stats (stub)
-                  href: stub.md
-
+                - name: Simple Featured Stats (deprecated) (placeholder)
+                  href: features/data/featured-stats/simple/index.md
         - name: Cloud Storage
           href: storage-platform/storage-platform.md
           items: 
@@ -211,12 +205,12 @@
               items: 
                 - name: Overview of Title Storage
                   href: storage-platform/xbox-live-title-storage/xbox-live-title-storage.md
-                - name: Global Title Storage (stub)
-                  href: stub.md
-                - name: Universal Title Storage (stub)
-                  href: stub.md
-                - name: Trusted Title Storage (stub)
-                  href: stub.md
+                - name: Global Title Storage (placeholder)
+                  href: features/storage/title/global/index.md
+                - name: Universal Title Storage (placeholder)
+                  href: features/storage/title/universal/index.md
+                - name: Trusted Title Storage (placeholder)
+                  href: features/storage/title/trusted/index.md
                 - name: Reading a configuration blob from Title Storage
                   href: storage-platform/xbox-live-title-storage/reading-configuration-blobs.md
                 - name: Storing a binary blob in Title Storage
@@ -241,8 +235,8 @@
                   href: multiplayer/common-multiplayer-scenarios.md
                 - name: Multiplayer session browse
                   href: multiplayer/session-browse.md
-            - name: Matchmaking (stub)
-              href: stub.md
+            - name: Matchmaking
+              href: features/multiplayer/matchmaking/index.md
               items: 
                 - name: XIM for Matchmaking
                   href: multiplayer/xbox-integrated-multiplayer.md
@@ -260,7 +254,7 @@
                     - name: XIM release notes
                       href: multiplayer/xbox-integrated-multiplayer/xim-release-notes.md
                 - name: Multiplayer Manager for Matchmaking
-                  href: stub.md
+                  href: features/multiplayer/matchmaking/manager/index.md
                   items: 
                     - name: Overview of Multiplayer Manager for Matchmaking
                       href: multiplayer/multiplayer-manager.md
@@ -291,24 +285,24 @@
                           href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-host-migration.md
                         - name: Shutting down a multiplayer session (flowchart)
                           href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-shut-down.md
-                - name: Custom Matchmaking (stub)
-                  href: stub.md
-            - name: Invites (stub)
-              href: stub.md
+                - name: Custom Matchmaking (placeholder)
+                  href: features/multiplayer/matchmaking/custom/index.md
+            - name: Invites
+              href: features/multiplayer/invites/index.md
               items: 
-                - name: XIM for Invites (stub)
-                  href: stub.md
-                - name: Manager for Invites (stub)
-                  href: stub.md
+                - name: XIM for Invites (placeholder)
+                  href: features/multiplayer/invites/xim/index.md
+                - name: Manager for Invites (placeholder)
+                  href: features/multiplayer/invites/manager/index.md
                     - name: Sending game invites
                       href: multiplayer/multiplayer-manager/send-game-invites.md
-                - name: Custom Invites (stub)
-                  href: stub.md
-            - name: Voice (stub)
-              href: stub.md
+                - name: Custom Invites (placeholder)
+                  href: features/multiplayer/invites/custom/index.md
+            - name: Voice
+              href: features/multiplayer/voice/index.md
               items: 
-                - name: XIM for Voice (stub)
-                  href: stub.md
+                - name: XIM for Voice (placeholder)
+                  href: features/multiplayer/voice/xim/index.md
                   items: 
                     - name: XIM dedicated chat via out-of-band reservations
                       href: multiplayer/xbox-integrated-multiplayer/xim-reservations.md
@@ -325,13 +319,13 @@
                       href: multiplayer/chat/real-time-audio-manipulation.md
                     - name: Migrating from Game Chat 1 to Game Chat 2
                       href: multiplayer/chat/game-chat-2-migration.md
-            - name: Networking (stub)
-              href: stub.md
+            - name: Networking (placeholder)
+              href: features/multiplayer/networking/index.md
               items: 
-                - name: Winsock (stub)
-                  href: stub.md
-                - name: SSL (stub)
-                  href: stub.md
+                - name: Winsock (placeholder)
+                  href: features/multiplayer/networking/winsock/index.md
+                - name: SSL (placeholder)
+                  href: features/multiplayer/networking/ssl/index.md
             - name: Xbox Arena
               href: multiplayer/arena/xbox-arena.md
               items: 
@@ -395,15 +389,14 @@
                   href: multiplayer/multiplayer-appendix/flows-for-multiplayer-game-invites.md
                 - name: Game session visibility and joinability
                   href: multiplayer/multiplayer-appendix/game-session-and-game-party-visibility-and-joinability.md
-
         - name: External Services
           href: external-services/external-services.md
           items: 
-            - name: Web Services (stub)
+            - name: Web Services (placeholder)
               href: external-services/web-services/web-services.md
-            - name: Relying Parties (stub)
+            - name: Relying Parties (placeholder)
               href: external-services/relying-parties/relying-parties.md
-            - name: Single Sign-On (stub)
+            - name: Single Sign-On (placeholder)
               href: external-services/single-sign-on/single-sign-on.md
               items: 
                 - name: Configuring single sign-on in Partner Center
@@ -415,12 +408,10 @@
                   href: external-services/access-policies/access-policies-overview.md
                 - name: Configuring access policies in Partner Center
                   href: configure-xbl/dev-center/access-policies-udc.md
-                - name: API for access policies (stub)
+                - name: API for access policies (placeholder)
                   href: external-services/access-policies/access-policies-sdk-config.md
- 
-        - name: TCUI (stub)
-          href: stub.md
- 
+        - name: TCUI (placeholder)
+          href: features/tcui/index.md
         - name: Development tools and services
           href: tools/tools.md
           items: 
@@ -441,9 +432,8 @@
                   href: real-time-activity-service/programming-the-real-time-activity-service.md
                 - name: Best Practices for the RTA service
                   href: real-time-activity-service/rta-best-practices.md
-
     - name: Xbox Live SDKs
-      href: stub.md
+      href: sdks/index.md
       items: 
         - name: Using Xbox Live APIs
           href: xbox-live-apis.md
@@ -494,7 +484,6 @@
                   href: get-started-with-creators/check-user-privileges-in-unity.md
             - name: Authorize Xbox Live Accounts for Testing in your environment
               href: get-started-with-creators/authorize-xbox-live-accounts.md
-
         - name: ID@Xbox developers and Managed partners
           href: get-started-with-partner/managed-partners-and-id-xbox-developers.md
           items: 
@@ -622,7 +611,6 @@
               href: using-xbox-live/auth/retrieving-windows-system-user-on-UWP.md
         - name: Porting Xbox Live code from XDK to UWP
           href: using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md
-
     - name: Releasing a game
       href: releasing/releasing.md
       items:
@@ -636,41 +624,45 @@
           href: get-started-with-creators/xbox-live-sandboxes-creators.md
         - name: Advanced Xbox Live sandboxes
           href: advanced-xbox-live-sandboxes.md
-        - name: Creators program - Testing and publishing a game (stub)
-          href: stub.md
+        - name: Testing and releasing a game, for Creators (placeholder)
+          href: releasing/creators/index.md
           items: 
-            - name: Private (Testing) (stub)
-              href: stub.md
-            - name: Public (stub)
-              href: stub.md
-        - name: ID@Xbox Program - Testing and publishing a game (stub)
-          href: stub.md
+            - name: Testing a game, for Creators (placeholder)
+              href: releasing/creators/testing/index.md
+            - name: Releasing a game publicly, for Creators (placeholder)
+              href: releasing/creators/public/index.md
+        - name: Testing and releasing a game, for Managed Partners (placeholder)
+          href: releasing/managed/index.md
           items: 
-            - name: Private (Testing) (stub)
-              href: stub.md
-            - name: Public (stub)
-              href: stub.md
+            - name: Testing a game, for Managed Partners (placeholder)
+              href: releasing/managed/testing/index.md
+            - name: Releasing a game publicly, for Managed Partners (placeholder)
+              href: releasing/managed/public/index.md
         - name: Troubleshooting Xbox Live
           href: using-xbox-live/troubleshooting/troubleshooting.md
           items: 
-            - name: Troubleshooting Xbox Live Services APIs
-              href: using-xbox-live/troubleshooting/troubleshooting-the-xbox-live-services-api.md
-            - name: Troubleshooting Xbox Live setup on Windows 10 PC
-              href: using-xbox-live/troubleshooting/troubleshooting-pc-setup.md
+            - name: Tools for troubleshooting Xbox Live
+              href: releasing/troubleshooting/tools/index.md
+            - name: Guides for troubleshooting Xbox Live
+              href: releasing/troubleshooting/guides/index.md
+              items: 
+                - name: Troubleshooting Xbox Live Services APIs
+                  href: using-xbox-live/troubleshooting/troubleshooting-the-xbox-live-services-api.md
+                - name: Troubleshooting Xbox Live setup on Windows 10 PC
+                  href: using-xbox-live/troubleshooting/troubleshooting-pc-setup.md
         - name: Xbox Live resources, sites, and downloads
           href: xbox-live-resources.md
-
     - name: API Reference
       href: api-reference.md
         - name: Xbox Live samples
           href: samples.md
-        - name: XSAPI reference (stub)
-          href: stub.md
+        - name: XSAPI reference (placeholder)
+          href: api-ref/xsapi/index.md
         - name: Xbox Live WinRT SDK API (external)
           href: https://docs.microsoft.com/en-us/dotnet/api/?view=xboxlive-dotnet-2017.11.20171204.01
-        - name: XAL reference (stub)
-          href: stub.md
-        - name: Async reference (stub)
-          href: stub.md
+        - name: XAL reference (placeholder)
+          href: api-ref/xal/index.md
+        - name: Async reference (placeholder)
+          href: api-ref/async/index.md
         - name: Xbox Live RESTful reference
           href: xbox-live-rest/TOC.md
