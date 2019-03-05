@@ -292,8 +292,9 @@
               items: 
                 - name: XIM for Invites (placeholder)
                   href: features/multiplayer/invites/xim/index.md
-                - name: Manager for Invites (placeholder)
+                - name: Manager for Invites
                   href: features/multiplayer/invites/manager/index.md
+                  items: 
                     - name: Sending game invites
                       href: multiplayer/multiplayer-manager/send-game-invites.md
                 - name: Custom Invites (placeholder)
