@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 # Advanced Xbox Live sandboxes
 
 > [!NOTE]
-> This article explain advanced usage of sandboxes and is mainly applicable to large gaming studios which have multiple teams and complex permissions requirements. If you are part of the Xbox Live Creators Program or an ID@Xbox developer, it is recommended to look at the [Xbox Live Sandboxes Intro](xbox-live-sandboxes.md)
+> This article explains advanced usage of sandboxes and is mainly applicable to large gaming studios which have multiple teams and complex permissions requirements. If you are part of the Xbox Live Creators Program or are an ID@Xbox developer, it is recommended to look at the [Xbox Live Sandboxes Intro](xbox-live-sandboxes.md).
 
 The Xbox Live *sandbox* provides an entire private environment for development.
 This document explains what sandboxes are, why they exist, how they apply to publishers, and how they impact internal Xbox teams.
@@ -122,11 +122,11 @@ Xbox Live security services will not provide back a valid token unless the princ
 This validation process is the crux of content isolation.
 When seen at a very high level:
 
--   A principal group can contain Xbox User IDs (XUIDs), device IDs, title IDs or service IDs.
+- A principal group can contain Xbox User IDs (XUIDs), device IDs, title IDs or service IDs.
 
--   A sandbox can contain title IDs, product IDs or service config IDs (SCIDs).
+- A sandbox can contain title IDs, product IDs or service config IDs (SCIDs).
 
--   A principal group is given access to a sandbox.
+- A principal group is given access to a sandbox.
 
 So, for a user or device to access a pre-release title in a sandbox, access must be granted through XDP first.
 
@@ -136,11 +136,11 @@ Figure 3. A model for setting up access through XDP.
 
 The effectiveness of content isolation is based on the fact that your organization owns the following processes:
 
--   Creating your XDP user accounts, the dev accounts that each user will use to log on for run-time access, and the user groups in which each user is granted membership.
+- Creating your XDP user accounts, the dev accounts that each user will use to log on for run-time access, and the user groups in which each user is granted membership.
 
--   Creating device groups of trusted consoles.
+- Creating device groups of trusted consoles.
 
--   Specifying for each of your development sandboxes precisely which user groups and device groups have access to the product instances in it.
+- Specifying for each of your development sandboxes precisely which user groups and device groups have access to the product instances in it.
 
 An example of this setup is illustrated in the figure below.
 
@@ -157,15 +157,15 @@ Dev accounts are used in Xbox Live for development.
 
 A dev account:
 
--   Must be created from XDP or Partner Center.
+- Must be created from XDP or Partner Center.
 
--   Is assigned the external developer role when created by publishers.
+- Is assigned the external developer role when created by publishers.
 
--   Is tied to the XDP account or Partner Center account that created the dev account.
+- Is tied to the XDP account or Partner Center account that created the dev account.
 
--   Can only log in to dev kits. Login is denied to a dev account on retail devices.
+- Can only log in to dev kits. Login is denied to a dev account on retail devices.
 
--   Can purchase Xbox Live Developer Gold subscription or other subscriptions for free in order to test.
+- Can purchase Xbox Live Developer Gold subscription or other subscriptions for free in order to test.
 
 
 ### User group setup
@@ -223,9 +223,9 @@ A sandbox ID (case sensitive) is a string in the following format: &lt;Publisher
 
 An example sandbox ID, XLDP.5, is explained below:
 
--   The *publisher moniker* is unique across all publishers. So, “XLPD” is the publisher moniker for this particular publisher. A publisher moniker is created when a publisher is “activated” in XDP by the developer account manager.
+- The *publisher moniker* is unique across all publishers. So, “XLPD” is the publisher moniker for this particular publisher. A publisher moniker is created when a publisher is “activated” in XDP by the developer account manager.
 
--   The digit *“n”* identifies the number of the sandbox. In this case, “5” is the sixth sandbox created for this publisher.
+- The digit *“n”* identifies the number of the sandbox. In this case, “5” is the sixth sandbox created for this publisher.
 
 When the title data moves through services, Xbox services use the sandbox ID to uniquely identify the “environment” for the data that is generated.
 
@@ -250,9 +250,9 @@ The global override sandbox also implies that only the content ingested in the g
 There are two different categories of sandboxes.
 These categories are defined as follows:
 
--   *Publisher sandboxes*. Publishers have access to their in-development sandboxes. These may look like XLDP.0, XLDP.1, XLDP.2, XLDP.3, etc. This is where publishers would put their title product instances. Access to these sandboxes is gated to the users/devices that the publishers grants access to
+- *Publisher sandboxes*. Publishers have access to their in-development sandboxes. These may look like XLDP.0, XLDP.1, XLDP.2, XLDP.3, etc. This is where publishers would put their title product instances. Access to these sandboxes is gated to the users/devices that the publishers grants access to
 
--   *Microsoft sandboxes*. These are the built-in sandboxes: RETAIL and CERT Only Microsoft is allowed to publish to these protected sandboxes.
+- *Microsoft sandboxes*. These are the built-in sandboxes: RETAIL and CERT Only Microsoft is allowed to publish to these protected sandboxes.
 
 
 ### CERT sandbox
@@ -296,9 +296,9 @@ The examples below only show run-time access management with content isolation.
 
 The basic structure for a publisher could be:
 
--   Two titles that are accessible to all users and devices owned by the publisher for both design time and runtime.
+- Two titles that are accessible to all users and devices owned by the publisher for both design time and runtime.
 
--   One product instance per title.
+- One product instance per title.
 
 In this instance, the publisher just needs a single sandbox for all pre-release content.
 
@@ -313,15 +313,15 @@ Also, this user group has run-time and design-time access to sandbox XLDP.1 and 
 
 In this model, the requirements are:
 
--   One title.
+- One title.
 
--   Dev team works on daily builds.
+- Dev team works on daily builds.
 
--   QA team works on weekly LKGs.
+- QA team works on weekly LKGs.
 
--   Dev team needs to debug weekly LKGs in case of bugs.
+- Dev team needs to debug weekly LKGs in case of bugs.
 
--   The finance team needs access to the price cards and other metadata related to the catalog release of a title.
+- The finance team needs access to the price cards and other metadata related to the catalog release of a title.
 
 The figure below shows that TitleX has two product instances: PI-1 and PI-2.
 A product instance has to be in a sandbox and two product instances of the same title cannot be in the same sandbox.
@@ -342,13 +342,13 @@ Because the finance user group will not typically do any run-time debugging of a
 
 In this example, the requirements change a bit:
 
--   Two titles.
+- Two titles.
 
--   Access to each title should be limited to a certain set of individuals.
+- Access to each title should be limited to a certain set of individuals.
 
--   One product instance per title.
+- One product instance per title.
 
--   An admin user group who needs access to design-time XDP config data for the titles. The individuals in this group are all admins for the publisher and can control all data that is published to the catalog (catalog metadata, finance, marketing, certification submission, etc.)
+- An admin user group who needs access to design-time XDP config data for the titles. The individuals in this group are all admins for the publisher and can control all data that is published to the catalog (catalog metadata, finance, marketing, certification submission, etc.)
 
 In this model, the publisher has chosen to keep both titles completely separated and thus assigned these two titles in two different sandboxes.
 The publisher has also chosen to create a separate admin user group and assigned access to the two products.
@@ -363,25 +363,25 @@ Nothing prevents you from adding other design-time access permissions as well.
 
 In this example, the requirements are:
 
--   Only certain people have access to certain titles inside their publisher.
+- Only certain people have access to certain titles inside their publisher.
 
--   The publisher works with vendors from different companies and these vendors may be short-term.
+- The publisher works with vendors from different companies and these vendors may be short-term.
 
--   The publisher should be able to decommission a title and by doing so, prevent access to any data that the vendors or FTEs had access to.
+- The publisher should be able to decommission a title and by doing so, prevent access to any data that the vendors or FTEs had access to.
 
 In order to model this requirement, a structure such as the one below can be adopted.
 
 The model followed below is:
 
--   TitleX and TitleY have only one product instance each in sandbox XLDP.1.
+- TitleX and TitleY have only one product instance each in sandbox XLDP.1.
 
--   TitleZ has two product instances, one in sandbox XLDP.2 and another in sandbox XLDP.3.
+- TitleZ has two product instances, one in sandbox XLDP.2 and another in sandbox XLDP.3.
 
--   FTE User Group B is given access to product instances in all sandboxes.
+- FTE User Group B is given access to product instances in all sandboxes.
 
--   Vendor User Group A is a vendor-only user group that is given access to sandbox XLDP.1.
+- Vendor User Group A is a vendor-only user group that is given access to sandbox XLDP.1.
 
--   Vendor Device Group C is a vendor-only user group that is given access to sandbox XLDP.3.
+- Vendor Device Group C is a vendor-only user group that is given access to sandbox XLDP.3.
 
 ![Customized Usergroup and Title Access flowchart](images/sandboxes/sandboxes_image9.png)
 

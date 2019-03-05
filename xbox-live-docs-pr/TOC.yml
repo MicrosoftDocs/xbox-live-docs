@@ -431,7 +431,7 @@
                   href: real-time-activity-service/programming-the-real-time-activity-service.md
                 - name: Best Practices for the RTA service
                   href: real-time-activity-service/rta-best-practices.md
-    - name: Xbox Live SDKs
+    - name: SDKs
       href: sdks/index.md
       items: 
         - name: Using Xbox Live APIs
@@ -610,7 +610,7 @@
               href: using-xbox-live/auth/retrieving-windows-system-user-on-UWP.md
         - name: Porting Xbox Live code from XDK to UWP
           href: using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md
-    - name: Releasing a game
+    - name: Releasing
       href: releasing/releasing.md
       items:
         - name: Xbox Live service configuration IDs, for Creators
