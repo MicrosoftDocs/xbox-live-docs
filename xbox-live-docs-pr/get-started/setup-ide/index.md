@@ -11,7 +11,7 @@ ms.localizationpriority: medium
    > [!IMPORTANT]
    > Prerequisite step: Set up a game at Partner Center. See [Getting started](../index.md).
 
-After you have set up a game at Partner Center, set up one of the following IDEs to use the Xbox Live SDK, for your target platforms:
+After you have set up a game at Partner Center, set up one of the following IDEs to use the Xbox Live SDK, for your target platforms.
 
 Creators can use:
 *  Visual Studio (targeting UWP or Xbox)

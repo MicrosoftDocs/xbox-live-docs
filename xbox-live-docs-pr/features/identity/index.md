@@ -8,6 +8,8 @@ ms.localizationpriority: medium
 ---
 # Identity
 
+Identity features of Xbox Live include user identity, XAL sign-in, privileges, and privacy.
+
 
 ## In this section
 
