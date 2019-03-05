@@ -69,11 +69,11 @@
               href: features/social/clubs/index.md
               items: 
                 - name: Official clubs (placeholder)
-                  href: features/social/clubs/official-clubs.md
+                  href: features/social/clubs/official-clubs/official-clubs.md
                 - name: Social clubs (placeholder)
-                  href: features/social/clubs/social-clubs.md
+                  href: features/social/clubs/social-clubs/social-clubs.md
                 - name: In-game clubs (placeholder)
-                  href: features/social/clubs/in-game-clubs.md
+                  href: features/social/clubs/in-game-clubs/in-game-clubs.md
             - name: TitleHub (placeholder)
               href: features/social/titlehub/index.md
             - name: Title Presence
@@ -98,7 +98,7 @@
                 - name: Programming Rich Presence
                   href: social-platform/rich-presence-strings/programming-rich-presence.md
             - name: Localized strings (placeholder)
-              href: social-platform/localized-strings/localized-strings.md
+              href: features/social/localized-strings/localized-strings.md
               items: 
                 - name: Configuring localized strings in Partner Center
                   href: configure-xbl/dev-center/localized-strings.md
@@ -655,6 +655,7 @@
           href: xbox-live-resources.md
     - name: API Reference
       href: api-reference.md
+      items: 
         - name: Xbox Live samples
           href: samples.md
         - name: XSAPI reference (placeholder)

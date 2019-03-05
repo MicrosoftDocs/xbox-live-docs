@@ -1,5 +1,5 @@
 ---
-title: Single sign-on
+title: Single sign-on (placeholder)
 author: mikehoffms
 description: Single sign-on.
 ms.author: v-mihof
@@ -11,11 +11,11 @@ keywords: xbox live
 ms.localizationpriority: medium
 ---
 
-# Single sign-on
+# Single sign-on (placeholder)
 
 Single sign-on.
 
-
+<!-- 
 ## In this section
 
 | Article | Description |
@@ -23,3 +23,4 @@ Single sign-on.
 | [Overview of single sign-on](single-sign-on-overview.md) | __ |
 | [Portal configuration of single sign-on](single-sign-on-portal-config.md) | __ |
 | [SDK configuration of single sign-on](single-sign-on-sdk-config.md) | __ |
+ -->

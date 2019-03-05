@@ -1,5 +1,5 @@
 ---
-title: Localized strings
+title: Localized strings (placeholder)
 author: mikehoffms
 description: Localized strings.
 ms.author: v-mihof
@@ -11,7 +11,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, localized strings
 ms.localizationpriority: medium
 ---
 
-# Localized strings
+# Localized strings (placeholder)
 
 Xbox Live localized strings.
 
@@ -20,6 +20,4 @@ Xbox Live localized strings.
 
 | Article | Description |
 |---------|-------------|
-| [Overview of localized strings](localized-strings-overview.md) | TBD |
-| [Portal configuration of localized strings](localized-strings-portal-config.md) | TBD |
-| [SDK configuration of localized strings](localized-strings-sdk-config.md) | TBD |
+| [Configuring localized strings in Partner Center](../../../configure-xbl/dev-center/localized-strings.md) | TBD |

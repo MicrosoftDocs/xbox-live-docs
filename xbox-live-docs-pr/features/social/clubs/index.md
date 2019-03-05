@@ -20,6 +20,6 @@ Clubs is one of the Xbox Live Social features.
 
 | Article | Description |
 |---------|-------------|
-| [Overview of Clubs](clubs-overview.md) | TBD |
-| [Portal configuration of Clubs](clubs-portal-config.md) | TBD |
-| [SDK configuration of Clubs](clubs-sdk-config.md) | TBD |
+| [Official clubs (placeholder)](official-clubs/official-clubs.md) | TBD |
+| [Social clubs (placeholder)](social-clubs/social-clubs.md) | TBD |
+| [In-game clubs (placeholder)](in-game-clubs/in-game-clubs.md) | TBD |

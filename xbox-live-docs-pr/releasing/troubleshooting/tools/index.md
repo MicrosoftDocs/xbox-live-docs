@@ -10,4 +10,4 @@ ms.localizationpriority: medium
 
 Tools for troubleshooting Xbox Live.
 
-[Using Fiddler to inspect web service calls](using-xbox-live/troubleshooting/how-to-set-up-fiddler-for-debugging.md)
+[Using Fiddler to inspect web service calls](../../../using-xbox-live/troubleshooting/how-to-set-up-fiddler-for-debugging.md)

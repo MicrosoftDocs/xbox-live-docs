@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Configuring Privileges in Partner Center](../../../configure-xbl/dev-center/privileges) | Configuring Privileges in Partner Center. |
+| [Configuring Privileges in Partner Center](../../../configure-xbl/dev-center/privileges.md) | Configuring Privileges in Partner Center. |
 
 ## See also
 
