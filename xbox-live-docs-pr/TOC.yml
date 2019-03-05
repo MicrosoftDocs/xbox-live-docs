@@ -135,7 +135,7 @@
                   items: 
                     - name: Achievements 2017
                       href: achievements-2017/simplified-achievements.md
-                - name: Legacy Achievements (placeholder)
+                - name: Legacy Achievements
                   href: features/data/achievements/legacy/index.md
                   items: 
                     - name: Configuring Achievements 2017 in Partner Center
@@ -391,26 +391,24 @@
                 - name: Game session visibility and joinability
                   href: multiplayer/multiplayer-appendix/game-session-and-game-party-visibility-and-joinability.md
         - name: External Services
-          href: external-services/external-services.md
+          href: features/external-services/external-services.md
           items: 
             - name: Web Services (placeholder)
-              href: external-services/web-services/web-services.md
+              href: features/external-services/web-services/web-services.md
             - name: Relying Parties (placeholder)
-              href: external-services/relying-parties/relying-parties.md
-            - name: Single Sign-On (placeholder)
-              href: external-services/single-sign-on/single-sign-on.md
+              href: features/external-services/relying-parties/relying-parties.md
+            - name: Single Sign-On
+              href: features/external-services/single-sign-on/single-sign-on.md
               items: 
                 - name: Configuring single sign-on in Partner Center
                   href: configure-xbl/dev-center/single-sign-on.md
             - name: Access Policies
-              href: external-services/access-policies/access-policies.md
+              href: features/external-services/access-policies/access-policies.md
               items: 
                 - name: Overview of configuring access policies
-                  href: external-services/access-policies/access-policies-overview.md
+                  href: features/external-services/access-policies/access-policies-overview.md
                 - name: Configuring access policies in Partner Center
                   href: configure-xbl/dev-center/access-policies-udc.md
-                - name: API for access policies (placeholder)
-                  href: external-services/access-policies/access-policies-sdk-config.md
         - name: TCUI (placeholder)
           href: features/tcui/index.md
         - name: Development tools and services
