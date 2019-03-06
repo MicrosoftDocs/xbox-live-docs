@@ -16,6 +16,6 @@ Identity features of Xbox Live include user identity, authentication and XAL sig
 | Article | Description |
 |---------|-------------|
 | [User identity](user/index.md) |  |
-| [Authentication and XAL sign-in](using-xbox-live/auth/authentication.md) | Signing-in an Xbox Live user in your title. |
+| [Authentication and XAL sign-in](../../using-xbox-live/auth/authentication.md) | Signing-in an Xbox Live user in your title. |
 | [Privileges](privileges/index.md) |  |
 | [Privacy](privacy/index.md) |  |
