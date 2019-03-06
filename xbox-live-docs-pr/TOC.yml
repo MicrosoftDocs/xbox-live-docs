@@ -589,6 +589,7 @@
               href: get-started-with-partner/create-a-new-title.md
         - name: Configuring Xbox Live services, for Managed Partners
           href: configuring-xbox-live-services.md
+          items: 
             - name: Partner Center services configuration, for Managed Partners
               href: configure-xbl/windows-dev-center.md
               items: 
