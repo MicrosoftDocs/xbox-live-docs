@@ -19,14 +19,14 @@ Let's configure a fictional game that shows you how Player Data in Xbox Live can
 For this scenario, we'll work with an imaginary racing game called _Races 2020_.
 
 To get the most value out of these experiences, we will follow these recommended planning phases:
-1. Design your XBL experiences
-2. Design the stats needed to power your scenarios
-3. Configure Featured Stats, Achievements, or Leaderboards as needed
+1. Design your XBL experiences.
+2. Design the stats needed to power your scenarios.
+3. Configure Featured Stats, Achievements, or Leaderboards as needed.
 
 
 ## Design your Xbox Live experiences
 
-We want _Race 2020_ to get the most out of Xbox Live in order to keep users engaged both inside and outside of the game.
+We want _Race 2020_ to get the most out of Xbox Live, to keep users engaged both inside and outside of the game.
 
 The first questions to ask are:
 
@@ -45,13 +45,13 @@ As a developer and/or publisher, a GameHub is the perfect place for you to _show
 GameHubs are also designed to show progress and engaging metrics to gamers who already own the title.
 Under the **Achievements** tab, users can find Game Progress & Achievements, Hero Stats, and social Leaderboards.
 
-This section's goal is to capture the most engaging metrics for the game and expose them to provide a unique picture of the players's experience with the game and rank them against their friends in a social leaderboard.
+This section's goal is to capture the most engaging metrics for the game and expose them to provide a unique picture of the player's experience with the game and rank the player against the player's friends in a social leaderboard.
 For example, the Forza 6 **Achievement** tab could look something like this:
 
 ![Gamehub Image](../images/omega/forza_gamehub.png)
 
 Some of the statistics such as Miles Driven and First Place Finishes have gold, silver, or bronze decorations that illustrate where the player ranks against the player's friends.
-Interacting with any of these statistics will show a complete leaderboard like this:
+Interacting with any of these statistics will show a complete leaderboard, like the following:
 
 ![Leaderboard](../images/omega/progress_gamehub_lb.png)
 
@@ -77,9 +77,9 @@ For _Races 2020_, here is a subset of the achievements we want to configure:
 ##  Leaderboards
 
 Leaderboards provide a way for gamers to rate themselves against other gamers for specific actions they can achieve in the game.
-Besides the social leaderboards in the GameHubs, we can configure Global Leaderboards to be used in game.
+Besides the social leaderboards in the GameHubs, you can configure Global Leaderboards to be used in-game.
 
-These are some of the Leaderboards we'll want to rank all of our users on:
+These are some of the Leaderboards to rank all of our users on:
 * Fastest lap time
 * Metadata: track where this happened
 * Metadata: car used

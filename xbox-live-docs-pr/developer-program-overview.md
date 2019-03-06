@@ -1,6 +1,6 @@
 ---
 title: Developer program overview
-description: Xbox Live developer programs include the Creators Program, ID@Xbox, and managed partners.
+description: Xbox Live developer programs include the Creators Program and ID@Xbox Managed Partners.
 ms.assetid: 1166308a-4079-41b4-8550-ce04b82b4f72
 ms.date: 05/30/2018
 ms.topic: article
@@ -10,12 +10,25 @@ ms.localizationpriority: medium
 
 # Developer program overview
 
-If you would like to develop Xbox Live enabled titles, there are several options available to you:
-*  Creators Program (= baseline features)
-*  ID@Xbox Program (= Creators Program + added features)
-*  Managed Partners (= ID@Xbox Program + added support)
+To enable a game with Xbox Live, you join the Creators program, or join the Managed Partners program as an ID@Xbox Partner.
 
-Each option offers varying levels of time investment on your part, features available to you, and support options.
+
+Join the Xbox Live *Creators Program* if both of the following are true:
+
+*  You're interested in using only the Social features of Xbox Live, such as Identity, Presence, Clubs, or Leaderboards.
+
+*  You only plan to ship via Microsoft storefronts on Microsoft devices, such as Xbox, Windows 10 PC, and Hololens.
+
+
+Join the *ID@Xbox Managed Partners Program* if at least one of the following are true:
+
+* You’re interested in using the full suite of Xbox Live services, including multiplayer features and Achievements and Gamerscore on Microsoft devices, such as Xbox, Windows 10 PC, or Hololens.
+
+* You plan to use Xbox Live components in a game which is shipping via a non-Microsoft store or on a non-Microsoft device (such as mobile).
+
+To join the ID@Xbox Program, you must agree to abide by the regulations around Xbox Live.
+
+Each program offers different levels of time investment, features available, and support options.
 
 
 ## Xbox Live Creators Program
@@ -23,7 +36,7 @@ Each option offers varying levels of time investment on your part, features avai
 The Xbox Live Creators Program is a good starting point for Xbox Live if you are looking to familiarize yourself with Xbox Live development.
 No approval process from Microsoft is required to join this program, and there are minimal certification and publishing requirements.
 
-The Xbox Live Creators Program only supports the creation of titles for the [Universal Windows Platform](https://msdn.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide) (UWP).
+The Xbox Live Creators Program only supports the creation of titles (games) for the [Universal Windows Platform](https://msdn.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide) (UWP).
 These titles created as UWP games run on Windows 10 PCs and on Xbox One consoles.
 For more details about running UWP games on Xbox One, see [UWP on Xbox One](https://docs.microsoft.com/en-us/windows/uwp/xbox-apps/index).
 
@@ -32,9 +45,9 @@ This offers a balance between ensuring an open platform where anyone can develop
 On Windows 10, your title will be published among all of the other Xbox Live games in the Microsoft Store.
 
 
-### Publishing and certification
+### Publishing and certification, for Creators
 
-You must be enrolled in the [Partner Center developer program](https://developer.microsoft.com/store/register) to release a game as part of the Xbox Live Creators Program.
+To release a game as part of the Xbox Live Creators Program, you must be enrolled in the [Partner Center developer program](https://developer.microsoft.com/store/register).
 
 There are two sets of requirements that your game must follow:
 
@@ -43,7 +56,7 @@ There are two sets of requirements that your game must follow:
 2. Follow to the standard [Microsoft Store Policies](https://msdn.microsoft.com/en-us/library/windows/apps/dn764944.aspx).
 
 
-### Supported Xbox Live services
+### Supported Xbox Live services, for Creators
 
 Titles enabled under the Xbox Live Creators Program can use Leaderboards, Featured Stats, Title Storage, Connected Storage, and a restricted set of social features.
 Achievements, online multiplayer, and many social features are **not** supported for titles in the Xbox Live Creators Program.
@@ -72,21 +85,33 @@ Adding NuGet packages makes compilation quicker while adding the source makes de
 
 
 ### Support and feedback
-Any questions you might have can be answered on the [MSDN Forums](https://social.msdn.microsoft.com/Forums/en-US/home?forum=xboxlivedev).  You can also ask programming related questions to [Stack Overflow](https://stackoverflow.com/questions/tagged/xbox-live) using the "xbox-live" tag.  The Xbox Live team will be engaged with the community and be continually improving our APIs, tools, and documentation based on the feedback received there.
+
+Your questions can be answered on the [MSDN Forums](https://social.msdn.microsoft.com/Forums/en-US/home?forum=xboxlivedev).
+
+You can also ask programming-related questions at [Stack Overflow](https://stackoverflow.com/questions/tagged/xbox-live), using the "xbox-live" tag.
+
+The Xbox Live team will be engaged with the community and be continually improving our APIs, tools, and documentation based on the feedback received at these forums.
+
+
+
+#### Support for Creators
 
 For developers in the Xbox Live Creators Program, you can [submit a new idea](https://xbox.uservoice.com/forums/363186--new-ideas?category_id=196261) or [vote on an existing idea](https://xbox.uservoice.com/forums/251649?category_id=210838) at our [Xbox User Voice](https://xbox.uservoice.com/forums/363186--new-ideas).
 
+The Xbox Live Creators Program is great for many games and developers.
 
-The Xbox Live Creators Program is great for lots of games and developers. But if you’d like to access the full Xbox Live stack, including online multiplayer, achievements and Gamerscore, or you want to access the full power of the Xbox One family of devices using hardware dev kits, the [ID@Xbox](https://www.xbox.com/en-US/developers/id) program is for you.
 
-Games in the ID@Xbox program must be concept approved and go through full certification on Xbox One and Windows 10, which is a greater time commitment on your part.
-ID@Xbox titles get placement in the primary section of the Store, versus the Creators Collection, which may allow for greater exposure to customers.
+#### Support for ID@Xbox Managed Partners
 
-Developers in the ID@Xbox program also gain access to developer support and promotional assistance from Microsoft, as well as the full complement of private whitepapers and developer technical forums. You can continue to use [MSDN Forums](https://social.msdn.microsoft.com/Forums/en-US/home?forum=xboxlivedev) or ask programming related questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/xbox-live) using the "xbox-live" tag if you like.
+If you’d like to access the full Xbox Live stack, including online multiplayer, achievements and Gamerscore, or you want to access the full power of the Xbox One family of devices using hardware dev kits, the [ID@Xbox](https://www.xbox.com/en-US/developers/id) program is for you.
 
-Managed Partners & ID@Xbox developers have the same, full feature-set support, but Managed Partners have more technical support.
+Games in the ID@Xbox program must be concept-approved and go through full certification on Xbox One and Windows 10, which is a greater time commitment on your part.
+ID@Xbox titles get placement in the primary section of the Store (versus the Creators Collection), which may provide greater exposure to customers.
 
-Developers working with a game publisher that is a Managed Partner have access to the full set of Xbox Live features and dedicated Microsoft representatives to assist in your development, certification, and release process.
+Developers in the ID@Xbox program also gain access to developer support and promotional assistance from Microsoft, as well as the full complement of private whitepapers and developer technical forums. 
+You can continue to use [MSDN Forums](https://social.msdn.microsoft.com/Forums/en-US/home?forum=xboxlivedev) or ask programming related questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/xbox-live) using the "xbox-live" tag.
+
+Developers working with a game publisher that is a Managed Partner (such as the ID@Xbox program) have access to the full set of Xbox Live features and dedicated Microsoft representatives to assist in the development, certification, and release process.
 
 
 ## Feature table
@@ -100,7 +125,7 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 <th>Feature</th>
 <th>Description</th>
 <th>Creators Program</th>
-<th>ID@Xbox &amp; Managed Partners</th>
+<th>ID@Xbox Program</th>
 </tr>
 
 

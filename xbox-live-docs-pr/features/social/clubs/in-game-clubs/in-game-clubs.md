@@ -1,7 +1,7 @@
 ---
 title: In-game clubs
 author: mikehoffms
-description: In-game clubs.
+description: In-Game Clubs are defined by the developer, integrated into the game such as a clan or guild.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
@@ -14,3 +14,21 @@ ms.localizationpriority: medium
 # In-game clubs
 
 Clubs is one of the Xbox Live Social features.
+
+In-Game Clubs are defined by the developer, integrated into the game such as a clan or guild.
+Players can then create and use the type of club defined by the developer.
+
+The developer defines the size of the club and the rules for the club.
+
+
+## Benefits
+
+In-game clubs can help your game in the following ways:
+
+* Integrates groups (such as clans or squads) into your game.
+
+* Makes your existing group more discoverable.
+
+* Provides mobile communication tools for your groups.
+
+* Enables your groups to work cross-platform (PC/Xbox/Mobile).
