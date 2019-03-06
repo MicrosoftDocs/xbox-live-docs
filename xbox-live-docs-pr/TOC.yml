@@ -34,9 +34,30 @@
           items: 
             - name: User identity (placeholder)
               href: features/identity/user/index.md
-            - name: XAL sign-in
-              href: features/identity/xal-signin/index.md
+            - name: Authentication and XAL sign-in
+              href: using-xbox-live/auth/authentication.md
               items: 
+                - name: Xbox Live Authentication Library (XAL)
+                  href: using-xbox-live/auth/xal.md
+                  items: 
+                    - name: Xbox Live Authentication Library (XAL) overview
+                      href: using-xbox-live/auth/xal-overview.md
+                    - name: Single-user and multi-user device sign-in
+                      href: using-xbox-live/auth/xal-sign-in.md
+                    - name: Setting up Visual Studio for XAL login on Win32
+                      href: using-xbox-live/auth/win32-xal.md
+                    - name: Setting up Visual Studio for XAL login on Android
+                      href: using-xbox-live/auth/android-xal.md
+                    - name: Setting up Xcode for sign-in with iOS
+                      href: using-xbox-live/auth/iOS-xal.md
+                - name: Authentication for UWP projects
+                  href: using-xbox-live/auth/authentication-for-UWP-projects.md
+                - name: Authentication for XDK projects
+                  href: using-xbox-live/auth/authentication-for-XDK-projects.md
+                - name: Single Point of Presence (SPOP)
+                  href: using-xbox-live/auth/single-point-of-presence.md
+                - name: Retrieving the Windows user in a UWP title
+                  href: using-xbox-live/auth/retrieving-windows-system-user-on-UWP.md
                 - name: Troubleshooting Xbox Live sign-in
                   href: using-xbox-live/troubleshooting/troubleshooting-sign-in.md
             - name: Privileges
@@ -409,7 +430,7 @@
                   href: features/external-services/access-policies/access-policies-overview.md
                 - name: Configuring access policies in Partner Center
                   href: configure-xbl/dev-center/access-policies-udc.md
-        - name: TCUI (placeholder)
+        - name: Title-callable UI (TCUI)
           href: features/tcui/index.md
         - name: Development tools and services
           href: tools/tools.md
@@ -431,30 +452,17 @@
                   href: real-time-activity-service/programming-the-real-time-activity-service.md
                 - name: Best Practices for the RTA service
                   href: real-time-activity-service/rta-best-practices.md
-    - name: SDKs
+    - name: SDKs and IDEs
       href: sdks/index.md
       items: 
-        - name: Using Xbox Live APIs
-          href: xbox-live-apis.md
-          items: 
-            - name: Introduction to Xbox Live APIs
-              href: introduction-to-xbox-live-apis.md
-            - name: Introduction to the Xbox Live C APIs
-              href: xsapi-flat-c.md
-            - name: Making async calls in the XSAPI C API
-              href: flatc-async-patterns.md
         - name: What's new for Xbox Live
           href: whats-new/whats-new.md
-        - name: The Creators Program
+        - name: IDEs, SDKs, and target platforms, for Creators
           href: get-started-with-creators/creators-program.md
           items:
-            - name: Get started with the Xbox Live Creators Program
-              href: get-started-with-creators/get-started-with-xbox-live-creators.md
-            - name: Create a new Creators Program title and publish it to the test environment
-              href: get-started-with-creators/create-and-test-a-new-creators-title.md
-            - name: Get started developing a Creators Program title with Visual Studio
+            - name: Develop in Visual Studio, for Creators
               href: get-started-with-creators/develop-creators-title-with-visual-studio.md
-            - name: Develop in Unity
+            - name: Develop in Unity, for Creators
               href: get-started-with-creators/develop-creators-unity.md
               items: 
                 - name: Get started developing a Creators Program title with Unity
@@ -481,15 +489,9 @@
                   href: get-started-with-creators/add-multi-user-support.md
                 - name: Checking user privilege settings in Unity
                   href: get-started-with-creators/check-user-privileges-in-unity.md
-            - name: Authorize Xbox Live Accounts for Testing in your environment
-              href: get-started-with-creators/authorize-xbox-live-accounts.md
-        - name: ID@Xbox developers and Managed partners
+        - name: IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners
           href: get-started-with-partner/managed-partners-and-id-xbox-developers.md
           items: 
-            - name: Get started with Xbox Live, for Managed Partners
-              href: get-started-with-partner/get-started-with-xbox-live-partner.md
-            - name: Create a new title that uses Xbox Live
-              href: get-started-with-partner/create-a-new-title.md
             - name: Get started with Xbox Live APIs on Win32
               href: get-started-with-win32-ios-android/win32-get-started-with-xsapi.md
             - name: Including XBL API sources in a Win32 project, for debugging
@@ -535,37 +537,6 @@
                   href: get-started-with-partner/compile-the-xdk-xbox-live-api-source.md
             - name: Get started with cross-play games
               href: get-started-with-partner/get-started-with-cross-play-games.md
-            - name: Configuring Xbox Live services, for Managed Partners
-              href: configuring-xbox-live-services.md
-              items: 
-                - name: Partner Center services configuration, for Managed Partners
-                  href: configure-xbl/windows-dev-center.md
-                  items: 
-                    - name: Summary page for Xbox Live configuration
-                      href: configure-xbl/dev-center/summary.md
-                    - name: Configuring Xbox Live Setup in Partner Center
-                      href: configure-xbl/dev-center/xbox-live-setup.md
-                    - name: Configuring Game DVR in Partner Center
-                      href: configure-xbl/dev-center/game-dvr.md
-                    - name: Configuring Rich Presence strings in Partner Center
-                      href: configure-xbl/dev-center/rich-presence-configuration.md
-                    - name: Configuring Title Storage in Partner Center
-                      href: configure-xbl/dev-center/title-storage.md
-                    - name: Setting up Web Services in UDC
-                      href: configure-xbl/dev-center/web-services.md
-                    - name: Configuring data sharing in Partner Center
-                      href: configure-xbl/dev-center/data-sharing-udc.md
-                    - name: The XboxServices.config file
-                      href: xboxservices-config.md
-        - name: Test accounts
-          href: test-accounts.md
-          items: 
-            - name: Xbox Live test accounts
-              href: xbox-live-test-accounts.md
-            - name: Developer Account Tool to set up test accounts
-              href: tools/xbox-live-account-tool.md
-        - name: Testing on the Xbox One console
-          href: testing-on-console.md
         - name: Best practices for Xbox Live
           href: using-xbox-live/best-practices/best-practices.md
           items: 
@@ -575,6 +546,15 @@
               href: using-xbox-live/best-practices/fine-grained-rate-limiting.md
             - name: Best practices for handling offline play
               href: using-xbox-live/best-practices/best-practices-for-offline.md
+        - name: Using Xbox Live APIs
+          href: xbox-live-apis.md
+          items: 
+            - name: Introduction to Xbox Live APIs
+              href: introduction-to-xbox-live-apis.md
+            - name: Introduction to the Xbox Live C APIs
+              href: xsapi-flat-c.md
+            - name: Making async calls in the XSAPI C API
+              href: flatc-async-patterns.md
         - name: Error handling
           href: using-xbox-live/error-handling/error-handling.md
           items: 
@@ -584,55 +564,82 @@
               href: using-xbox-live/error-handling/error-handling-cpp.md
             - name: WinRT API error handling
               href: using-xbox-live/error-handling/error-handling-winrt.md
-        - name: Authentication
-          href: using-xbox-live/auth/authentication.md
-          items: 
-            - name: Xbox Live Authentication Library (XAL)
-              href: using-xbox-live/auth/xal.md
-              items: 
-                - name: Xbox Live Authentication Library (XAL) overview
-                  href: using-xbox-live/auth/xal-overview.md
-                - name: Single-user and multi-user device sign-in
-                  href: using-xbox-live/auth/xal-sign-in.md
-                - name: Setting up Visual Studio for XAL login on Win32
-                  href: using-xbox-live/auth/win32-xal.md
-                - name: Setting up Visual Studio for XAL login on Android
-                  href: using-xbox-live/auth/android-xal.md
-                - name: Setting up Xcode for sign-in with iOS
-                  href: using-xbox-live/auth/iOS-xal.md
-            - name: Authentication for UWP projects
-              href: using-xbox-live/auth/authentication-for-UWP-projects.md
-            - name: Authentication for XDK projects
-              href: using-xbox-live/auth/authentication-for-XDK-projects.md
-            - name: Single Point of Presence (SPOP)
-              href: using-xbox-live/auth/single-point-of-presence.md
-            - name: Retrieving the Windows user in a UWP title
-              href: using-xbox-live/auth/retrieving-windows-system-user-on-UWP.md
         - name: Porting Xbox Live code from XDK to UWP
           href: using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md
-    - name: Releasing
+    - name: Testing and Releasing
       href: releasing/releasing.md
       items:
-        - name: Xbox Live service configuration IDs, for Creators
-          href: get-started-with-creators/xbox-live-service-configuration-creators.md
-        - name: Xbox Live service configuration IDs, for Managed Partners
-          href: xbox-live-service-configuration.md
-        - name: Xbox Live Sandboxes overview
-          href: xbox-live-sandboxes.md
-        - name: Using Xbox Live sandboxes, for Creators
-          href: get-started-with-creators/xbox-live-sandboxes-creators.md
-        - name: Advanced Xbox Live sandboxes
-          href: advanced-xbox-live-sandboxes.md
-        - name: Testing and releasing a game, for Creators (placeholder)
+        - name: Policies
+          href: releasing/policies.md
+        - name: Getting started with Partner Center, for Creators
+          href: get-started-with-creators/get-start-partner-center-cr.md
+          items:
+            - name: Get started with the Xbox Live Creators Program
+              href: get-started-with-creators/get-started-with-xbox-live-creators.md
+            - name: Create a new Creators Program title and publish it to the test environment
+              href: get-started-with-creators/create-and-test-a-new-creators-title.md
+            - name: Authorize Xbox Live accounts for testing in your environment
+              href: get-started-with-creators/authorize-xbox-live-accounts.md
+        - name: Getting started with Partner Center, for ID@Xbox Managed Partners
+          href: get-started-with-partner/get-start-partner-center-id.md
+          items: 
+            - name: Get started with Xbox Live, for Managed Partners
+              href: get-started-with-partner/get-started-with-xbox-live-partner.md
+            - name: Create a new title that uses Xbox Live
+              href: get-started-with-partner/create-a-new-title.md
+        - name: Configuring Xbox Live services, for Managed Partners
+          href: configuring-xbox-live-services.md
+            - name: Partner Center services configuration, for Managed Partners
+              href: configure-xbl/windows-dev-center.md
+              items: 
+                - name: Summary page for Xbox Live configuration
+                  href: configure-xbl/dev-center/summary.md
+                - name: Configuring Xbox Live Setup in Partner Center
+                  href: configure-xbl/dev-center/xbox-live-setup.md
+                - name: Configuring Game DVR in Partner Center
+                  href: configure-xbl/dev-center/game-dvr.md
+                - name: Configuring Rich Presence strings in Partner Center
+                  href: configure-xbl/dev-center/rich-presence-configuration.md
+                - name: Configuring Title Storage in Partner Center
+                  href: configure-xbl/dev-center/title-storage.md
+                - name: Setting up Web Services in UDC
+                  href: configure-xbl/dev-center/web-services.md
+                - name: Configuring data sharing in Partner Center
+                  href: configure-xbl/dev-center/data-sharing-udc.md
+                - name: The XboxServices.config file
+                  href: xboxservices-config.md
+        - name: Sandboxes
+          href: releasing/sandboxes/sandboxes.md
+          items:
+            - name: Xbox Live Sandboxes overview
+              href: xbox-live-sandboxes.md
+            - name: Using Xbox Live sandboxes, for Creators
+              href: get-started-with-creators/xbox-live-sandboxes-creators.md
+            - name: Advanced Xbox Live sandboxes
+              href: advanced-xbox-live-sandboxes.md
+        - name: Test accounts
+          href: test-accounts.md
+          items: 
+            - name: Xbox Live test accounts
+              href: xbox-live-test-accounts.md
+            - name: Developer Account Tool to set up test accounts
+              href: tools/xbox-live-account-tool.md
+        - name: Testing on the Xbox One console
+          href: testing-on-console.md
+        - name: Testing and releasing a game, for Creators
           href: releasing/creators/index.md
           items: 
+            - name: Xbox Live service configuration IDs, for Creators
+              href: get-started-with-creators/xbox-live-service-configuration-creators.md
             - name: Testing a game, for Creators (placeholder)
               href: releasing/creators/testing/index.md
             - name: Releasing a game publicly, for Creators (placeholder)
               href: releasing/creators/public/index.md
-        - name: Testing and releasing a game, for Managed Partners (placeholder)
+        - name: Testing and releasing a game, for Managed Partners
           href: releasing/managed/index.md
           items: 
+            - name: Xbox Live service configuration IDs, for Managed Partners
+              href: xbox-live-service-configuration.md
             - name: Testing a game, for Managed Partners (placeholder)
               href: releasing/managed/testing/index.md
             - name: Releasing a game publicly, for Managed Partners (placeholder)

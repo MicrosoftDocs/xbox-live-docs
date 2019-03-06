@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 # Clubs
 
->![NOTE] 
+> [!NOTE]
 > This is preliminary documentation.
 
 Clubs is one of the Xbox Live Social features, to easily integrate your game's teams, clans, and communities.
@@ -35,7 +35,7 @@ Higher engagement means more daily logins, more time in games, and more purchase
 | Article | Description |
 |---------|-------------|
 | [Official clubs](official-clubs/official-clubs.md) | Official Clubs are for community managers to engage with the entire gaming community, and for gamers to find other gamers. |
-| [Social clubs (placeholder)](social-clubs/social-clubs.md) | |
+| [Social clubs](social-clubs/social-clubs.md) | |
 | [In-game clubs](in-game-clubs/in-game-clubs.md) | In-Game Clubs are defined by the developer, integrated into the game such as a clan or guild. |
 
 

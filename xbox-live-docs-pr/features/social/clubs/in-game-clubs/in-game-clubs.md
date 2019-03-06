@@ -13,6 +13,9 @@ ms.localizationpriority: medium
 
 # In-game clubs
 
+> [!NOTE]
+> This is preliminary documentation.
+
 Clubs is one of the Xbox Live Social features.
 
 In-Game Clubs are defined by the developer, integrated into the game such as a clan or guild.

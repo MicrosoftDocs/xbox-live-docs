@@ -1,6 +1,6 @@
 ---
 title: Xbox Live sandboxes introduction
-description: Learn about sandboxes for Xbox Live development.
+description: You publish your game to a development sandbox, allowing you to work on changes to your title in an isolated environment.
 ms.assetid: a5acb5bf-dc11-4dff-aa94-6d1f01472d2a
 ms.date: 04/04/2017
 ms.topic: article
@@ -15,16 +15,15 @@ This information includes things like the leaderboards your title wants to displ
 
 When you make changes to your service configuration, these need to be published from Partner Center before the changes are picked up by the rest of Xbox Live and can be seen by your title.
 
-You publish to what is called a development sandbox.
-These allow you to work on changes to your title in an isolated environment.
-These offer several benefits described in the below section.
+You publish to a *development sandbox*.
+Sandboxes allow you to work on changes to your title in an isolated environment.
 
 By default, Xbox One Consoles and Windows 10 PCs are in the RETAIL sandbox.
 
 
 ## Benefits
 
-Development sandboxes offer a few benefits:
+Development sandboxes offer several benefits:
 
 1. You can iterate on changes to an update for your title without affecting the currently available version.
 2. Some tools only work in a development sandbox for security reasons.

@@ -13,4 +13,7 @@ ms.localizationpriority: medium
 
 # Social clubs
 
+> [!NOTE]
+> This is preliminary documentation.
+
 Clubs is one of the Xbox Live Social features.

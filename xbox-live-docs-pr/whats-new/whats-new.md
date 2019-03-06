@@ -1,6 +1,6 @@
 ---
 title: What's new for Xbox Live
-description: What's new for the Xbox Live SDK
+description: What's new for the Xbox Live.
 ms.date: 10/23/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one

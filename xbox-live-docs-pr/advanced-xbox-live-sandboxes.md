@@ -1,6 +1,6 @@
 ---
 title: Advanced Xbox Live sandboxes
-description: Learn how to use sandboxes to isolate content during development by managed partners.
+description: Using sandboxes to isolate content during development.
 ms.assetid: bd8a2c51-2434-4cfe-8601-76b08321a658
 ms.date: 04/04/2017
 ms.topic: article

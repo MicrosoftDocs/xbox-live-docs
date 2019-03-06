@@ -1,6 +1,6 @@
 ---
 layout: LandingPage
-title: Releasing
+title: Testing and Releasing
 author: mikehoffms
 description: Testing, troubleshooting, and publishing a game.
 ms.author: v-mihof
@@ -12,7 +12,7 @@ keywords: windows 10, uwp, games, xbox, xbox live, releasing
 ms.localizationpriority: medium
 ---
 
-<h1>Releasing</h1>
+<h1>Testing and Releasing</h1>
 <p>Releasing a game that is Xbox Live-enabled involves testing the Xbox Live functionality of the game, as well as troubleshooting and publishing the game.</p>
 
 <h2>Get Started</h2>

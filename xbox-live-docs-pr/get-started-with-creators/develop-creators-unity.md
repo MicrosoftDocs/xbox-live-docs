@@ -1,5 +1,5 @@
 ---
-title: Develop in Unity
+title: Develop in Unity, for Creators
 author: mikehoffms
 description: Developing an Xbox Live-enabled game as a Creators Program member, using Unity.
 ms.author: v-mihof
@@ -11,7 +11,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, creators
 ms.localizationpriority: medium
 ---
 
-# Develop in Unity
+# Develop in Unity, for Creators
 
 Developing an Xbox Live-enabled game as a Creators Program member, using Unity.
 

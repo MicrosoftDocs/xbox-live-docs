@@ -13,6 +13,9 @@ ms.localizationpriority: medium
 
 # Official clubs
 
+> [!NOTE]
+> This is preliminary documentation.
+
 Official Clubs are for community managers to engage with the entire gaming community, and for gamers to find other gamers.
 
 Official Clubs will replace Game Hubs.

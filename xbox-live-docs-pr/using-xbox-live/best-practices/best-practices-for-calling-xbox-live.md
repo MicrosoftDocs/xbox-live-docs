@@ -79,28 +79,28 @@ XSAPI now implements this best practice.
 If a failure HTTP status code and "Retry-After" header was returned for any API, additional calls to that same API before the Retry-After time will immediately return with the original error without hitting the service.
 
 When retrying a call, it is best practice to perform exponential back-off with a random jitter to spread out the load to the service.
-XSAPI starts with a default delay of 2 seconds which is controlled using xbox\_live\_context\_settings::set\_http\_retry\_delay().
+XSAPI starts with a default delay of 2 seconds which is controlled using `xbox_live_context_settings::set_http_retry_delay()`.
 This means by default each retry does an exponential back-off of 2, 4, 8, etc seconds and it jitters the delay between the current and next back-off value based on the response time to further spread out load across the set of devices attempting the retry.
 
 Titles should be in control of how long to spend retrying a call.
-Using XSAPI, developers have direct control of this by using the function xbox\_live\_context\_settings::set\_http\_timeout\_window().
+Using XSAPI, developers have direct control of this by using the function `xbox_live_context_settings::set_http_timeout_window()`.
 By default, this is set to 20 seconds.
 Setting this to 0 seconds will effectively turn off retry logic.
 
 
 ### Dynamic adjustment of the internal HTTP timeout
 
-XSAPI dynamically adjusts the internal HTTP timeout, based on how much time remains in the http\_timeout\_window().
+XSAPI dynamically adjusts the internal HTTP timeout, based on how much time remains in the `http_timeout_window()`.
 
 The internal HTTP timeout controls how long the OS spends doing the HTTP network operation before it aborts.
 
-The call will not be retried unless there remains at least 5 seconds left in the http\_timeout\_window(), to give an enough reasonable time for the call to complete.
-This rule doesn't apply to the first call, so setting the http\_timeout\_window() to 0 is acceptable, and will result in a single call.
+The call will not be retried unless there remains at least 5 seconds left in the `http_timeout_window()`, to give an enough reasonable time for the call to complete.
+This rule doesn't apply to the first call, so setting the `http_timeout_window()` to 0 is acceptable, and will result in a single call.
 
-This logic has the effect that http\_timeout\_window() is more deterministic about when the API call will return.
+This logic has the effect that `http_timeout_window()` is more deterministic about when the API call will return.
 
 If a "Retry-After" header was returned, no retries will be made until after the "Retry-After" time has been reached.
-If the "Retry-After" time is after the http\_timeout\_window(), then the call return at the end of the http\_timeout\_window().
+If the "Retry-After" time is after the `http_timeout_window()`, then the call return at the end of the `http_timeout_window()`.
 
 
 ## Error handling
@@ -153,15 +153,16 @@ To know what the information client is interested in, the client must first subs
 This avoids polling the service to detect changes since you will be told exactly when the item changes.
 
 XSAPI exposes the RTA service as a set of subscribe APIs that clients can use.
-Each of these APIs have corresponding \*\_changed\_handler APIs which take in a callback function that will be called when an item changes.
+Each of these APIs have corresponding `*_changed_handler` APIs which take in a callback function that will be called when an item changes.
 
-* presence\_service::subscribe\_to\_device\_presence\_change
+* `presence_service::subscribe_to_device_presence_change`
 <br>
-* presence\_service::subscribe\_to\_title\_presence\_change
+* `presence_service::subscribe_to_title_presence_change`
 <br>
-* user\_statistics\_service::subscribe\_to\_statistic\_change
+* `user_statistics_service::subscribe_to_statistic_change`
 <br>
-* social\_service::subscribe\_to\_social\_relationship\_change<br>
+* `social_service::subscribe_to_social_relationship_change`
+<br>
  
 
 ## Use Xbox Live client-side managers
@@ -219,7 +220,7 @@ For example:
 }
 ```
 
-If you are using XSAPI, APIs will return a http\_status\_429\_too\_many\_requests error, and will set the error message to show detail about how the API was throttled.
+If you are using XSAPI, APIs will return an `http_status_429_too_many_requests` error, and will set the error message to show detail about how the API was throttled.
 
 
 ### Using debug asserts
@@ -228,9 +229,11 @@ When using XSAPI, if the call is throttled while in a developer sandbox and usin
 This is to avoid unintentionally missing 429 throttle error due to incorrectly written code.
 If you wish to disable these asserts to continue working without fixing the offending code, you can call this API:
 
-> xboxLiveContext-&gt;settings()-&gt;disable\_asserts\_for\_xbox\_live\_throttling\_in\_dev\_sandboxes(
-> xbox\_live\_context\_throttle\_setting::this\_code\_needs\_to\_be\_changed\_to\_avoid\_throttling
-> );
+```cpp
+xboxLiveContext->settings()->disable_asserts_for_xbox_live_throttling_in_dev_sandboxes(
+  xbox_live_context_throttle_setting::this_code_needs_to_be_changed_to_avoid_throttling
+);
+```
 
 but note that this API will not prevent your title from being throttled.
 Your title will still be throttled.

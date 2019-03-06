@@ -1,6 +1,6 @@
 ---
 title: Xbox Live sandboxes for Creators Program developers
-description: Xbox Live sandboxes introduction
+description: You publish your game to a development sandbox, allowing you to work on changes to your title in an isolated environment.
 ms.assetid: e7daf845-e6cb-4561-9dfa-7cfba882f494
 ms.date: 10/30/2017
 ms.topic: article
