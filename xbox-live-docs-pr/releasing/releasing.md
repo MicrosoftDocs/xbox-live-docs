@@ -24,12 +24,8 @@ ms.localizationpriority: medium
 </ol>
 
 <h2>Creators Program Releasing</h2>
-<ul class="cardsB panelContent cols cols2">
-    <li>
-        <div class="container intro">
-            <p>Continue through with publishing a title to a private sandbox and/or public on the Xbox Creators Store.</p>
-        </div>
-    </li>
+<p>Continue through with publishing a title to a private sandbox and/or public on the Xbox Creators Store.</p>
+<ul class="cardsY">
     <li>
         <a href="/gaming/xbox-live/get-started-with-creators/create-and-test-a-new-creators-title">
             <div class="cardSize">
@@ -71,12 +67,8 @@ ms.localizationpriority: medium
 </ul>
 
 <h2>ID@Xbox Program Releasing</h2>
-<ul class="cardsB panelContent cols cols2">
-    <li>
-        <div class="container intro">
-            <p>Continue through with publishing a title to a private sandbox and/or public on the Xbox Managed Partners Store.</p>
-        </div>
-    </li>
+<p>Continue through with publishing a title to a private sandbox and/or public on the Xbox Managed Partners Store.</p>
+<ul class="cardsY">
     <li>
         <a href="/gaming/xbox-live/get-started-with-partner/get-started-with-xbox-live-partner">
             <div class="cardSize">
@@ -121,12 +113,9 @@ ms.localizationpriority: medium
 
 <h3>API References</h3>
 
-<ul class="cardsB panelContent cols cols2">
-    <li>
-        <div class="container intro">
-            <p>Lookup materials for API calls, RESTful references, URI and JSON references as well as XSAPI, XAL and Async</p>
-        </div>
-    </li>
+<p>Lookup materials for API calls, RESTful references, URI and JSON references as well as XSAPI, XAL and Async</p>
+
+<ul class="cardsY">
     <li>
         <a href="/gaming/xbox-live/api-reference">
             <div class="cardSize">
@@ -139,25 +128,6 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText">
                             <p>XSAPI, XAL, Async and RESTful reference materials</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="../images/getting_started/.svg" alt="" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3></h3>
-                            <p></p>
                         </div>
                     </div>
                 </div>
