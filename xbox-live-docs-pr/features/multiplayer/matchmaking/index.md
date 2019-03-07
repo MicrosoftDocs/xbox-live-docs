@@ -15,6 +15,6 @@ Matchmaking finds other players to play a game with.
 
 | Article | Description |
 |---------|-------------|
-| [XIM for Matchmaking](multiplayer/xbox-integrated-multiplayer.md) | Xbox Integrated Multiplayer (XIM) is an all-in-one multiplayer/networking/chat solution for Xbox Live games. |
-| [Multiplayer Manager for Matchmaking](features/multiplayer/matchmaking/manager/index.md) | Multiplayer Manager for Matchmaking. |
-| [Custom Matchmaking](features/multiplayer/matchmaking/custom/index.md) | Custom Matchmaking. |
+| [XIM for Matchmaking](../../../multiplayer/xbox-integrated-multiplayer.md) | Xbox Integrated Multiplayer (XIM) is an all-in-one multiplayer/networking/chat solution for Xbox Live games. |
+| [Multiplayer Manager for Matchmaking](manager/index.md) | Multiplayer Manager for Matchmaking. |
+| [Custom Matchmaking](custom/index.md) | Custom Matchmaking. |
