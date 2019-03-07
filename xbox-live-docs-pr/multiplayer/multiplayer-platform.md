@@ -22,7 +22,7 @@ ms.localizationpriority: medium
 <h2>Introduction</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="multiplayer/multiplayer-intro.md">
+        <a href="multiplayer-intro.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -41,7 +41,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="multiplayer/multiplayer-concepts.md">
+        <a href="multiplayer-concepts.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -60,7 +60,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="multiplayer/multiplayer-scenarios.md">
+        <a href="multiplayer-scenarios.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -84,7 +84,7 @@ ms.localizationpriority: medium
 <h2>Multiplayer features</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="features/multiplayer/matchmaking/index.md">
+        <a href="../features/multiplayer/matchmaking/index.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -103,7 +103,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="features/multiplayer/invites/index.md">
+        <a href="../features/multiplayer/invites/index.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -122,7 +122,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="features/multiplayer/voice/index.md">
+        <a href="../features/multiplayer/voice/index.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -141,7 +141,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="features/multiplayer/networking/index.md">
+        <a href="../features/multiplayer/networking/index.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -165,7 +165,7 @@ ms.localizationpriority: medium
 <h2>Additional features and articles</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="multiplayer/arena/xbox-arena.md">
+        <a href="arena/xbox-arena.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -184,7 +184,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="multiplayer/service-configuration/multiplayer-service-configuration.md">
+        <a href="service-configuration/multiplayer-service-configuration.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -203,7 +203,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="multiplayer/multiplayer-appendix/multiplayer-appendix.md">
+        <a href="multiplayer-appendix/multiplayer-appendix.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

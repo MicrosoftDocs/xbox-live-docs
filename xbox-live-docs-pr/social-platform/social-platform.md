@@ -22,13 +22,13 @@ ms.localizationpriority: medium
 <h2>Overview</h2>
 
 <div class="ico48Case halfStack">
-    <div class="ico48Link"><a href="social-platform/xbox-live-social-platform.md"><img src="../images/common/setup_step2_icon.svg"><span>Overview of Social features</span></a></div>
+    <div class="ico48Link"><a href="xbox-live-social-platform.md"><img src="../images/common/setup_step2_icon.svg"><span>Overview of Social features</span></a></div>
 </div>
 
 <h2>Social features</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="social-platform/people-system/people-system.md">
+        <a href="people-system/people-system.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -47,7 +47,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="features/social/clubs/index.md">
+        <a href="../features/social/clubs/index.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -66,7 +66,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="features/social/titlehub/index.md">
+        <a href="../features/social/titlehub/index.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -85,7 +85,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="features/social/title-presence/index.md">
+        <a href="../features/social/title-presence/index.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -104,7 +104,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="features/social/localized-strings/localized-strings.md">
+        <a href="../features/social/localized-strings/localized-strings.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -127,7 +127,7 @@ ms.localizationpriority: medium
 <h2>Additional Social features and articles</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="contextual-search/contextual-search.md">
+        <a href="../contextual-search/contextual-search.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -146,7 +146,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="social-platform/people-system/reputation.md">
+        <a href="people-system/reputation.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -165,7 +165,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="social-platform/people-system/programming-social-services.md">
+        <a href="people-system/programming-social-services.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
