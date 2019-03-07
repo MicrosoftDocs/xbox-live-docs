@@ -1,7 +1,7 @@
 ---
 title: Clubs
 author: mikehoffms
-description: Clubs.
+description: The Clubs feature easily integrates your game's teams, clans, and communities.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 > [!NOTE]
 > This is preliminary documentation.
 
-Clubs is one of the Xbox Live Social features, to easily integrate your game's teams, clans, and communities.
+The Clubs feature easily integrates your game's teams, clans, and communities.
 
 General-purpose clubs in Xbox Live are focused on games and interests.
 Clubs are created and managed by gamers to socialize and play with other like-minded gamers.

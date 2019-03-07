@@ -1,26 +1,100 @@
 ---
+layout: LandingPage
 title: External services
 author: mikehoffms
-description: External services.
+description: Xbox Live External services include Web services, relying parties, single sign-on, and access policies.
 ms.author: v-mihof
-ms.date: 12/6/2018
+ms.date: 12-11-2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp
-keywords: xbox live
+keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-# External services
+<h1>External services</h1>
 
-Xbox Live External services include Web services, relying parties, single sign-on, and access policies.
+<p>
+    Xbox Live External services include Web services, relying parties, single sign-on, and access policies.
+</p>
 
 
-## In this section
-
-| Article | Description |
-|---------|-------------|
-| [Web services](web-services/web-services.md) | __ |
-| [Relying parties](relying-parties/relying-parties.md) | __ |
-| [Single sign-on](single-sign-on/single-sign-on.md) | __ |
-| [Access policies](access-policies/access-policies.md) | __ |
+<h2>External services features</h2>
+<ul class="cardsF panelContent cols cols2">
+    <li>
+        <a href="web-services/web-services.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="../images/common/xbl_socialplatform.svg" alt="Social features" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Web services</h3>
+                        <p>Web services.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="relying-parties/relying-parties.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="../images/common/xbl_socialplatform.svg" alt="Social features" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Relying parties</h3>
+                        <p>Relying parties.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="single-sign-on/single-sign-on.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="../images/common/xbl_socialplatform.svg" alt="Social features" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Single sign-on</h3>
+                        <p>Single sign-on allows a player using your title to sign into your services by using their Xbox Live sign-in.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="access-policies/access-policies.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="../images/common/xbl_socialplatform.svg" alt="Social features" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Access policies</h3>
+                        <p>Configuring access policies to allow other apps, games, and services to access a title's Xbox Live settings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
