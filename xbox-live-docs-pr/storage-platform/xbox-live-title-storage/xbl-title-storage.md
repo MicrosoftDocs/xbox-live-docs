@@ -20,9 +20,12 @@ In Xbox Live, Title Storage is cloud storage for large amounts of per-user or pe
 
 | Article | Description |
 |---------|-------------|
-| [Title Storage overview](xbox-live-title-storage.md) | Using Title Storage to store game information for a title in the cloud, especially for large amounts of per-user or per-title data. |
-| [Read a configuration blob](reading-configuration-blobs.md) | Reading a JSON configuration blob in Title Storage, using GET. |
-| [Store a binary blob](storing-binary-blobs.md) | Storing a binary blob in Title Storage, using PUT. |
-| [Read a binary blob](reading-binary-blobs.md) | Reading a binary blob in Title Storage, using GET. |
-| [Store a JSON blob](storing-jsonblobs.md) | Storing a JSON blob in Title Storage, using PUT. |
-| [Read a JSON blob](reading-jsonblobs.md) | Reading a JSON blob in Title Storage, using GET. |
+| [Overview of Title Storage](xbox-live-title-storage.md) | Using Title Storage to store game information for a title in the cloud, especially for large amounts of per-user or per-title data. |
+| [Global Title Storage](../../features/storage/title/global/index.md) |  |
+| [Universal Title Storage](../../features/storage/title/universal/index.md) |  |
+| [Trusted Title Storage](../../features/storage/title/trusted/index.md) |  |
+| [Reading a configuration blob from Title Storage](reading-configuration-blobs.md) | Reading a JSON configuration blob in Title Storage, using GET. |
+| [Storing a binary blob in Title Storage](storing-binary-blobs.md) | Storing a binary blob in Title Storage, using PUT. |
+| [Reading a binary blob from Title Storage](reading-binary-blobs.md) | Reading a binary blob in Title Storage, using GET. |
+| [Storing a JSON blob in Title Storage](storing-jsonblobs.md) | Storing a JSON blob in Title Storage, using PUT. |
+| [Reading a JSON blob from Title Storage](reading-jsonblobs.md) | Reading a JSON blob in Title Storage, using GET. |

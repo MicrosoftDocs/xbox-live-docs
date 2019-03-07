@@ -15,7 +15,14 @@ ms.localizationpriority: medium
 Featured Stats is part of Xbox Live player data.
 
 
+## In this section
+
+| Article | Description |
+|---------|-------------|
+| [Legacy Featured Stats](legacy/index.md) |  |
+| [Simple Featured Stats (deprecated)](simple/index.md) |  |
+
+
 ## See also
 
-* [Configuring Featured Stats and Leaderboards 2017 in Partner Center](../../../configure-xbl/dev-center/featured-stats-and-leaderboards.md)
 * [Designing Xbox Live Experiences](../../../data-platform/designing-xbox-live-experiences.md)

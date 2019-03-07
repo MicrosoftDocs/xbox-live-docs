@@ -1,6 +1,6 @@
 ---
 title: Configuring Featured Stats and Leaderboards 2017 in Partner Center
-description: Configuring Xbox Live Featured Stats and Leaderboards 2017 on Partner Center.
+description: Configuring Xbox Live Featured Stats and Leaderboards 2017 in Partner Center.
 ms.assetid: e0f307d2-ea02-48ea-bcdf-828272a894d4
 ms.date: 10/30/2017
 ms.topic: article

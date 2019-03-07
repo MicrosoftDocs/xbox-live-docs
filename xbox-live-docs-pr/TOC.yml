@@ -72,10 +72,10 @@
           items: 
             - name: Overview of Social features
               href: social-platform/xbox-live-social-platform.md
-            - name: Friends List
+            - name: Friends List (People System)
               href: social-platform/people-system/people-system.md
               items: 
-                - name: Overview of Friends List
+                - name: Overview of the Friends List (People System)
                   href: social-platform/people-system/xbox-live-people-system.md
                 - name: Displaying people from the People System
                   href: social-platform/people-system/displaying-people-from-the-people-system.md
@@ -98,26 +98,27 @@
             - name: TitleHub
               href: features/social/titlehub/index.md
             - name: Title Presence
-              href: social-platform/rich-presence-strings/rich-presence.md
+              href: features/social/title-presence/index.md
               items: 
-                - name: Overview of Presence strings
-                  href: social-platform/rich-presence-strings/rich-presence-strings-overview.md
                 - name: Simple Presence
                   href: features/social/title-presence/simple-presence/index.md
                 - name: Legacy Presence
                   href: features/social/title-presence/legacy-presence/index.md
-                - name: Configuring Rich Presence strings
-                  href: social-platform/rich-presence-strings/rich-presence-strings-configuration.md
-                - name: Updating a Rich Presence string
-                  href: social-platform/rich-presence-strings/rich-presence-strings-updating-strings.md
-                - name: Best practices for Rich Presence
-                  href: social-platform/rich-presence-strings/rich-presence-strings-best-practices.md
-                - name: Policies and limits for Rich Presence strings
-                  href: social-platform/rich-presence-strings/rich-presence-strings-policies-and-limitations.md
-                - name: Rich Presence appendix
-                  href: social-platform/rich-presence-strings/rich-presence-strings-appendix.md
-                - name: Programming Rich Presence
-                  href: social-platform/rich-presence-strings/programming-rich-presence.md
+                  items: 
+                    - name: Overview of Presence strings
+                      href: social-platform/rich-presence-strings/rich-presence-strings-overview.md
+                    - name: Configuring Rich Presence strings
+                      href: social-platform/rich-presence-strings/rich-presence-strings-configuration.md
+                    - name: Updating a Rich Presence string
+                      href: social-platform/rich-presence-strings/rich-presence-strings-updating-strings.md
+                    - name: Best practices for Rich Presence
+                      href: social-platform/rich-presence-strings/rich-presence-strings-best-practices.md
+                    - name: Policies and limits for Rich Presence strings
+                      href: social-platform/rich-presence-strings/rich-presence-strings-policies-and-limitations.md
+                    - name: Rich Presence appendix
+                      href: social-platform/rich-presence-strings/rich-presence-strings-appendix.md
+                    - name: Programming Rich Presence
+                      href: social-platform/rich-presence-strings/programming-rich-presence.md
             - name: Localized strings
               href: features/social/localized-strings/localized-strings.md
               items: 
@@ -190,11 +191,11 @@
               items: 
                 - name: Legacy Featured Stats
                   href: features/data/featured-stats/legacy/index.md
+                - name: Simple Featured Stats (deprecated)
+                  href: features/data/featured-stats/simple/index.md
                   items: 
                     - name: Configuring Featured Stats and Leaderboards 2017 in Partner Center
                       href: configure-xbl/dev-center/featured-stats-and-leaderboards.md
-                - name: Simple Featured Stats (deprecated)
-                  href: features/data/featured-stats/simple/index.md
         - name: Cloud Storage
           href: storage-platform/storage-platform.md
           items: 
@@ -452,11 +453,11 @@
                   href: real-time-activity-service/programming-the-real-time-activity-service.md
                 - name: Best Practices for the RTA service
                   href: real-time-activity-service/rta-best-practices.md
+        - name: What's new for Xbox Live
+          href: whats-new/whats-new.md
     - name: SDKs and IDEs
       href: sdks/index.md
       items: 
-        - name: What's new for Xbox Live
-          href: whats-new/whats-new.md
         - name: IDEs, SDKs, and target platforms, for Creators
           href: get-started-with-creators/creators-program.md
           items:

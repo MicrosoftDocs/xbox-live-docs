@@ -1,7 +1,7 @@
 ---
 title: Title Presence
 author: mikehoffms
-description: Title Presence.
+description: Title Presence (or Rich Presence) shows what activity a user is currently doing, in which area of which game.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
@@ -13,4 +13,10 @@ ms.localizationpriority: medium
 
 # Title Presence
 
-Title Presence is one of the Xbox Live Social features.
+
+## In this section
+
+| Article | Description |
+|---------|-------------|
+| [Simple Presence](features/social/title-presence/simple-presence/index.md) |  |
+| [Legacy Presence](features/social/title-presence/legacy-presence/index.md) | Legacy Title Presence (or Rich Presence) shows what activity a user is currently doing, in which area of which game. |
