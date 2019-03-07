@@ -52,7 +52,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/.svg" alt="" />
+                                <img src="../images/getting_started/xboxicon1.svg" alt="" />
                             </div>
                         </div>
                         <div class="cardText">
