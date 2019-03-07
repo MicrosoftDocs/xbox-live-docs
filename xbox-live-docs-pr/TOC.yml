@@ -139,7 +139,7 @@
     - name: Authentication
       href: using-xbox-live/auth/authentication.md
       items: 
-        - name: Xbox Authentication Layer (XAL)
+        - name: Xbox Authentication Library (XAL)
           href: using-xbox-live/auth/xal.md
           items: 
             - name: XAL Sign-in scenarios
