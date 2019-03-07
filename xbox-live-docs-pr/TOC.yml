@@ -434,10 +434,10 @@
         - name: Title-callable UI (TCUI)
           href: features/tcui/index.md
         - name: Development tools and services
-          href: tools/tools.md
+          href: tools/development-tools-for-xbox-live.md
           items: 
             - name: Development tools for Xbox Live
-              href: tools/development-tools-for-xbox-live.md
+              href: tools/tools.md
             - name: Trace Analyzer for reviewing service calls
               href: tools/analyze-service-calls.md
             - name: Using Fiddler to inspect web service calls
