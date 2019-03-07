@@ -1,12 +1,16 @@
 ---
-title: Featured Stats (placeholder)
-description: Featured Stats (placeholder).
+title: Featured Stats
+description: Featured Stats.
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, windows 10, xbox one
 ms.localizationpriority: medium
 ---
-# Featured Stats (placeholder)
+
+# Featured Stats
+
+> [!NOTE]
+> This is preliminary documentation.
 
 Featured Stats is part of Xbox Live player data.
 

@@ -6,6 +6,10 @@ ms.topic: article
 keywords: xbox live, xbox, games, windows 10, xbox one
 ms.localizationpriority: medium
 ---
+
 # Overview of Privileges
 
-TBD
+> [!NOTE]
+> This is preliminary documentation.
+
+Overview of Privileges.

@@ -197,8 +197,6 @@ Next, find the ID of your game, as follows.
 
 ### Find your Xbox Live game information (Creators)
 
-TBD
-
 
 ### Find your Xbox Live game information (ID@Xbox partners)
 

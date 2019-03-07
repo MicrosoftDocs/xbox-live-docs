@@ -13,4 +13,7 @@ ms.localizationpriority: medium
 
 # TitleHub
 
+> [!NOTE]
+> This is preliminary documentation.
+
 TitleHub is one of the Xbox Live Social features.

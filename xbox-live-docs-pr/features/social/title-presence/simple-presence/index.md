@@ -13,4 +13,7 @@ ms.localizationpriority: medium
 
 # Simple Presence
 
+> [!NOTE]
+> This is preliminary documentation.
+
 Simple Presence is one of the Xbox Live Social features.

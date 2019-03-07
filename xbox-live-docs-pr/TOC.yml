@@ -32,7 +32,7 @@
         - name: Identity
           href: features/identity/index.md
           items: 
-            - name: User identity (placeholder)
+            - name: User identity
               href: features/identity/user/index.md
             - name: Authentication and XAL sign-in
               href: using-xbox-live/auth/authentication.md
@@ -65,7 +65,7 @@
               items: 
                 - name: Configuring Privileges in Partner Center
                   href: configure-xbl/dev-center/privileges.md
-            - name: Privacy (placeholder)
+            - name: Privacy
               href: features/identity/privacy/index.md
         - name: Social features
           href: social-platform/social-platform.md
@@ -86,25 +86,25 @@
                       href: social-platform/intro-to-social-manager.md
                     - name: Social Manager memory and performance
                       href: social-platform/social-manager-memory-and-performance-overview.md
-            - name: Clubs (placeholder)
+            - name: Clubs
               href: features/social/clubs/index.md
               items: 
-                - name: Official clubs (placeholder)
+                - name: Official clubs
                   href: features/social/clubs/official-clubs/official-clubs.md
-                - name: Social clubs (placeholder)
+                - name: Social clubs
                   href: features/social/clubs/social-clubs/social-clubs.md
-                - name: In-game clubs (placeholder)
+                - name: In-game clubs
                   href: features/social/clubs/in-game-clubs/in-game-clubs.md
-            - name: TitleHub (placeholder)
+            - name: TitleHub
               href: features/social/titlehub/index.md
             - name: Title Presence
               href: social-platform/rich-presence-strings/rich-presence.md
               items: 
                 - name: Overview of Presence strings
                   href: social-platform/rich-presence-strings/rich-presence-strings-overview.md
-                - name: Simple Presence (placeholder)
+                - name: Simple Presence
                   href: features/social/title-presence/simple-presence/index.md
-                - name: Legacy Presence (placeholder)
+                - name: Legacy Presence
                   href: features/social/title-presence/legacy-presence/index.md
                 - name: Configuring Rich Presence strings
                   href: social-platform/rich-presence-strings/rich-presence-strings-configuration.md
@@ -118,7 +118,7 @@
                   href: social-platform/rich-presence-strings/rich-presence-strings-appendix.md
                 - name: Programming Rich Presence
                   href: social-platform/rich-presence-strings/programming-rich-presence.md
-            - name: Localized strings (placeholder)
+            - name: Localized strings
               href: features/social/localized-strings/localized-strings.md
               items: 
                 - name: Configuring localized strings in Partner Center
@@ -142,7 +142,7 @@
         - name: Player Data
           href: data-platform/data-platform.md
           items: 
-            - name: "Player Data: Stats, Leaderboards, and Achievements"
+            - name: Player Data: Stats, Leaderboards, and Achievements
               href: data-platform/data-platform-for-stats-leaderboards-achievements.md
             - name: Designing Xbox Live Experiences
               href: data-platform/designing-xbox-live-experiences.md
@@ -151,7 +151,7 @@
               items: 
                 - name: Achievements overview
                   href: achievements-2017/achievements-overview.md
-                - name: Simple Achievements (placeholder)
+                - name: Simple Achievements
                   href: features/data/achievements/simple/index.md
                   items: 
                     - name: Achievements 2017
@@ -166,9 +166,9 @@
             - name: Player Stats
               href: leaderboards-and-stats-2017/player-stats.md
               items: 
-                - name: Legacy Player Stats (placeholder)
+                - name: Legacy Player Stats
                   href: features/data/player-stats/legacy/index.md
-                - name: Simple Player Stats (deprecated) (placeholder)
+                - name: Simple Player Stats (deprecated)
                   href: features/data/player-stats/simple/index.md
                 - name: Using player stats
                   href: leaderboards-and-stats-2017/using-player-stats.md
@@ -181,19 +181,19 @@
               items: 
                 - name: Overview of leaderboards
                   href: leaderboards-and-stats-2017/leaderboards.md
-                - name: Legacy leaderboards (placeholder)
+                - name: Legacy leaderboards
                   href: features/data/leaderboards/legacy/index.md
-                - name: Simple leaderboards (deprecated) (placeholder)
+                - name: Simple leaderboards (deprecated)
                   href: features/data/leaderboards/simple/index.md
-            - name: Featured Stats (placeholder)
+            - name: Featured Stats
               href: features/data/featured-stats/index.md
               items: 
-                - name: Legacy Featured Stats (placeholder)
+                - name: Legacy Featured Stats
                   href: features/data/featured-stats/legacy/index.md
                   items: 
                     - name: Configuring Featured Stats and Leaderboards 2017 in Partner Center
                       href: configure-xbl/dev-center/featured-stats-and-leaderboards.md
-                - name: Simple Featured Stats (deprecated) (placeholder)
+                - name: Simple Featured Stats (deprecated)
                   href: features/data/featured-stats/simple/index.md
         - name: Cloud Storage
           href: storage-platform/storage-platform.md
@@ -226,11 +226,11 @@
               items: 
                 - name: Overview of Title Storage
                   href: storage-platform/xbox-live-title-storage/xbox-live-title-storage.md
-                - name: Global Title Storage (placeholder)
+                - name: Global Title Storage
                   href: features/storage/title/global/index.md
-                - name: Universal Title Storage (placeholder)
+                - name: Universal Title Storage
                   href: features/storage/title/universal/index.md
-                - name: Trusted Title Storage (placeholder)
+                - name: Trusted Title Storage
                   href: features/storage/title/trusted/index.md
                 - name: Reading a configuration blob from Title Storage
                   href: storage-platform/xbox-live-title-storage/reading-configuration-blobs.md
@@ -306,24 +306,24 @@
                           href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-host-migration.md
                         - name: Shutting down a multiplayer session (flowchart)
                           href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-shut-down.md
-                - name: Custom Matchmaking (placeholder)
+                - name: Custom Matchmaking
                   href: features/multiplayer/matchmaking/custom/index.md
             - name: Invites
               href: features/multiplayer/invites/index.md
               items: 
-                - name: XIM for Invites (placeholder)
+                - name: XIM for Invites
                   href: features/multiplayer/invites/xim/index.md
                 - name: Manager for Invites
                   href: features/multiplayer/invites/manager/index.md
                   items: 
                     - name: Sending game invites
                       href: multiplayer/multiplayer-manager/send-game-invites.md
-                - name: Custom Invites (placeholder)
+                - name: Custom Invites
                   href: features/multiplayer/invites/custom/index.md
             - name: Voice
               href: features/multiplayer/voice/index.md
               items: 
-                - name: XIM for Voice (placeholder)
+                - name: XIM for Voice
                   href: features/multiplayer/voice/xim/index.md
                   items: 
                     - name: XIM dedicated chat via out-of-band reservations
@@ -341,12 +341,12 @@
                       href: multiplayer/chat/real-time-audio-manipulation.md
                     - name: Migrating from Game Chat 1 to Game Chat 2
                       href: multiplayer/chat/game-chat-2-migration.md
-            - name: Networking (placeholder)
+            - name: Networking
               href: features/multiplayer/networking/index.md
               items: 
-                - name: Winsock (placeholder)
+                - name: Winsock
                   href: features/multiplayer/networking/winsock/index.md
-                - name: SSL (placeholder)
+                - name: SSL
                   href: features/multiplayer/networking/ssl/index.md
             - name: Xbox Arena
               href: multiplayer/arena/xbox-arena.md
@@ -414,9 +414,9 @@
         - name: External Services
           href: features/external-services/external-services.md
           items: 
-            - name: Web Services (placeholder)
+            - name: Web Services
               href: features/external-services/web-services/web-services.md
-            - name: Relying Parties (placeholder)
+            - name: Relying Parties
               href: features/external-services/relying-parties/relying-parties.md
             - name: Single Sign-On
               href: features/external-services/single-sign-on/single-sign-on.md
@@ -632,18 +632,18 @@
           items: 
             - name: Xbox Live service configuration IDs, for Creators
               href: get-started-with-creators/xbox-live-service-configuration-creators.md
-            - name: Testing a game, for Creators (placeholder)
+            - name: Testing a game, for Creators
               href: releasing/creators/testing/index.md
-            - name: Releasing a game publicly, for Creators (placeholder)
+            - name: Releasing a game publicly, for Creators
               href: releasing/creators/public/index.md
         - name: Testing and releasing a game, for Managed Partners
           href: releasing/managed/index.md
           items: 
             - name: Xbox Live service configuration IDs, for Managed Partners
               href: xbox-live-service-configuration.md
-            - name: Testing a game, for Managed Partners (placeholder)
+            - name: Testing a game, for Managed Partners
               href: releasing/managed/testing/index.md
-            - name: Releasing a game publicly, for Managed Partners (placeholder)
+            - name: Releasing a game publicly, for Managed Partners
               href: releasing/managed/public/index.md
         - name: Troubleshooting Xbox Live
           href: using-xbox-live/troubleshooting/troubleshooting.md
@@ -664,13 +664,13 @@
       items: 
         - name: Xbox Live samples
           href: samples.md
-        - name: XSAPI reference (placeholder)
+        - name: XSAPI reference
           href: api-ref/xsapi/index.md
         - name: Xbox Live WinRT SDK API (external)
           href: https://docs.microsoft.com/en-us/dotnet/api/?view=xboxlive-dotnet-2017.11.20171204.01
-        - name: XAL reference (placeholder)
+        - name: XAL reference
           href: api-ref/xal/index.md
-        - name: Async reference (placeholder)
+        - name: Async reference
           href: api-ref/async/index.md
         - name: Xbox Live RESTful reference
           href: xbox-live-rest/TOC.md

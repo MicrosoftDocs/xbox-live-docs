@@ -32,8 +32,6 @@ The XGD page below currently mentions 1703, and has no link yet to get zip file 
 
 ### Creators
 
-TBD
-
 
 ### ID@Xbox Partners
 

@@ -1,17 +1,21 @@
 ---
-title: Privacy (placeholder)
+title: Privacy
 description: Privacy.
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, windows 10, xbox one
 ms.localizationpriority: medium
 ---
-# Privacy (placeholder)
 
-Privacy.
+# Privacy
+
+> [!NOTE]
+> This is preliminary documentation.
+
+Privacy is a feature of Identity in Xbox Live.
+
 
 <!--
-
 ## In this section
 
 | Article | Description |

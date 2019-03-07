@@ -1,5 +1,5 @@
 ---
-title: Web services (placeholder)
+title: Web services
 author: mikehoffms
 description: Web services.
 ms.author: v-mihof
@@ -11,7 +11,10 @@ keywords: xbox live
 ms.localizationpriority: medium
 ---
 
-# Web services (placeholder)
+# Web services
+
+> [!NOTE]
+> This is preliminary documentation.
 
 Web services.
 

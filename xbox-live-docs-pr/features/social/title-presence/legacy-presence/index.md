@@ -13,4 +13,7 @@ ms.localizationpriority: medium
 
 # Legacy Presence
 
+> [!NOTE]
+> This is preliminary documentation.
+
 Legacy Presence is one of the Xbox Live Social features.

@@ -13,6 +13,9 @@ ms.localizationpriority: medium
 
 # Relying parties
 
+> [!NOTE]
+> This is preliminary documentation.
+
 Relying parties.
 
 
