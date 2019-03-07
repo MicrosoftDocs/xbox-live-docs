@@ -19,6 +19,6 @@ Invites is a Multiplayer feature in Xbox Live.
 
 | Article | Description |
 |---------|-------------|
-| [XIM for Invites](features/multiplayer/invites/xim/index.md) | XIM for Invites. |
-| [Manager for Invites](features/multiplayer/invites/manager/index.md) | Manager for Invites. |
-| [Custom Invites](features/multiplayer/invites/custom/index.md) | Custom Invites. |
+| [XIM for Invites](xim/index.md) | XIM for Invites. |
+| [Manager for Invites](manager/index.md) | Manager for Invites. |
+| [Custom Invites](custom/index.md) | Custom Invites. |

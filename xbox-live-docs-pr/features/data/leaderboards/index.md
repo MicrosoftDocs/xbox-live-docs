@@ -19,6 +19,6 @@ Leaderboards is part of Xbox Live player data.
 
 | Article | Description |
 |---------|-------------|
-| [Overview of leaderboards](leaderboards-and-stats-2017/leaderboards.md) | Defining leaderboards to compare players by showing selected stats for a game. |
-| [Legacy leaderboards](features/data/leaderboards/legacy/index.md) |  |
-| [Simple leaderboards (deprecated)](features/data/leaderboards/simple/index.md) |  |
+| [Overview of leaderboards](../../../leaderboards-and-stats-2017/leaderboards.md) | Defining leaderboards to compare players by showing selected stats for a game. |
+| [Legacy leaderboards](legacy/index.md) |  |
+| [Simple leaderboards (deprecated)](simple/index.md) |  |

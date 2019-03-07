@@ -19,5 +19,5 @@ Voice is a Multiplayer feature in Xbox Live.
 
 | Article | Description |
 |---------|-------------|
-| [XIM for Voice](features/multiplayer/voice/xim/index.md) | XIM for Voice. |
-| [Game Chat](multiplayer/chat/game-chat-2.md) | Adding voice and text communication to your game by using Xbox Live Game Chat 2. |
+| [XIM for Voice](xim/index.md) | XIM for Voice. |
+| [Game Chat](../../../multiplayer/chat/game-chat-2.md) | Adding voice and text communication to your game by using Xbox Live Game Chat 2. |
