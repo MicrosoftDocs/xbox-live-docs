@@ -142,7 +142,7 @@
         - name: Player Data
           href: data-platform/data-platform.md
           items: 
-            - name: Player Data: Stats, Leaderboards, and Achievements
+            - name: "Player Data: Stats, Leaderboards, and Achievements"
               href: data-platform/data-platform-for-stats-leaderboards-achievements.md
             - name: Designing Xbox Live Experiences
               href: data-platform/designing-xbox-live-experiences.md
