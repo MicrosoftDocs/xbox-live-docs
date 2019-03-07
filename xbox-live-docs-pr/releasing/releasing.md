@@ -13,10 +13,13 @@ ms.localizationpriority: medium
 ---
 
 <h1>Microsoft Xbox Live Releasing</h1>
+
 <p>Xbox Live is a premier gaming network that connects millions of gamers across the world. You can add Xbox Live to your Windows 10 PC or Xbox One game in order to take advantage of the Xbox Live features and services.</p>
 
 <h2>Pre-Requisites</h2>
+
 <p>To publish a title privately or publicly, the following steps must have been already completed:</p>
+
 <ol>
     <li>Join the Creators Program or the ID@Xbox Program</li>
     <li>Complete Getting Started</li>
@@ -24,8 +27,10 @@ ms.localizationpriority: medium
 </ol>
 
 <h2>Creators Program Releasing</h2>
+
 <p>Continue through with publishing a title to a private sandbox and/or public on the Xbox Creators Store.</p>
-<ul class="cardsY">
+
+<ul class="cardsY panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/get-started-with-creators/create-and-test-a-new-creators-title">
             <div class="cardSize">
@@ -67,8 +72,10 @@ ms.localizationpriority: medium
 </ul>
 
 <h2>ID@Xbox Program Releasing</h2>
+
 <p>Continue through with publishing a title to a private sandbox and/or public on the Xbox Managed Partners Store.</p>
-<ul class="cardsY">
+
+<ul class="cardsY panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/get-started-with-partner/get-started-with-xbox-live-partner">
             <div class="cardSize">
@@ -115,7 +122,7 @@ ms.localizationpriority: medium
 
 <p>Lookup materials for API calls, RESTful references, URI and JSON references as well as XSAPI, XAL and Async</p>
 
-<ul class="cardsY">
+<ul class="cardsY panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/api-reference">
             <div class="cardSize">
