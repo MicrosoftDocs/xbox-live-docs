@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 ---
 # Sign-in with XAL
 
-Sign-in scenarios for XAL can be divided into two broad categories depending on the platform XAL is used to authenticate on. There are **single user authentication(SUA)** devices and **multi user authentication(MUA)** devices. On a single user authentication device you may have at most one user signed-in to Xbox Live at a time. SUA devices can also be split into two categories, **soft SUA**, and **hard SUA**. On a soft SUA device you may operate in a state where zero or one users are signed in, hard SUA devices require that one user and only one user be signed-in at all times. MUA devices allow more than one user to be signed-in to Xbox Live at once. You can quickly reference the three common scenarios in the table below
+Sign-in scenarios for XAL can be divided into two broad categories depending on the platform XAL is used to authenticate on. There are **single user application(SUA)** devices and **multi user application(MUA)** devices. On a single user application device you may have at most one user signed-in to Xbox Live at a time. SUA devices can also be split into two categories, **soft SUA**, and **hard SUA**. On a soft SUA device you may operate in a state where zero or one users are signed in, hard SUA devices require that one user and only one user be signed-in at all times. MUA devices allow more than one user to be signed-in to Xbox Live at once. You can quickly reference the three common scenarios in the table below
 
 |Scenario  |Authentication Limits|
 |---------|---------|
@@ -22,12 +22,13 @@ Sign-in scenarios for XAL can be divided into two broad categories depending on 
 
 Each of the three scenarios will require you to vary your approach to sign-in.
 
-If you're not sure what scenario you are using you can use the `XalGetMaxUsers` function to check whether it is a SUA or MUA scenario. If the max users parameter returns as 1 it is a single user authentication scenario. To distinguish between soft and hard SUA you can check for the presence of `XalSignOutUserAsync`.
+If you're not sure what scenario you are using you can use the `XalGetMaxUsers` function to check whether it is a SUA or MUA scenario. If the max users parameter returns as 1 it is a single user application scenario. To distinguish between soft and hard SUA you can check for the presence of `XalSignOutUserAsync` by calling `XalSignOutUserAsyncIsPresent`.
 
 ```cpp
+// Hard SUA example:
 HRESULT res = S_OK;
 uint32_t maxUsers = 0;
-res = XalGetMaxUsers(&maxUsers); //check max number of users
+res = XalGetMaxUsers(&maxUsers); // check max number of users
 assert(maxUsers == 1);
 assert(!XalSignOutUserAsyncIsPresent()); // check for the presence of XalSignOusUserAsync
 ```
@@ -36,73 +37,98 @@ assert(!XalSignOutUserAsyncIsPresent()); // check for the presence of XalSignOus
 
 ### Setting hooks
 
-Before Initializing or running any sign-in sign-up code you must first set all of the event handlers XAL may need to use in order to complete its functions. There are several "SetEventHandle" functions that XAL provides to complete this task. To give a few examples:
+Before Initializing or running any sign-in sign-up code you must first set all of the event handlers XAL may need to use in order to complete its functions. There are several "SetEventHandle" functions that XAL provides to complete this task, some of which are optional some of which are not. To give a few examples:
 
-- `XalPlatformWebSetEventHandler()`
-- `XalPlatformStorageSetEventHandlers()`
-- `XalUserRegisterChangeEventHandler()`
+- `XalPlatformStorageSetEventHandlers()` (required on iOS and Android)
+- `XalUserRegisterChangeEventHandler()` (optional)
+- `XalPlatformSetUserHandleToContextEventHandler()` (optional)
+- `XalPlatformWebSetEventHandler()` (optional)
 
-All of these functions are used to set functions to be called by XAL when it needs to give control over to gain some information. The `XalPlatfromWebSetEventHandler()` will be most commonly used as it allows for UI to be displayed on behalf of XAL.
+All of these functions are used to set functions to be called by XAL when it needs to give control over to gain some information. The `XalPlatformStorageSetEventHandlers()` will be most commonly used as it allows for the client to store data on behalf of XAL on iOS and Android.
 
-### Hooking up UI
+### Hooking up storage
 
-In order to get your very first sign-in on a device you will have to implement some UI. You will need to use a function hook provided by XAL to bring XAL any information that requires UI. You will then write code for you specific platform to implement the necessary UI.
+In order to get your very first sign-in on a device you will have to implement some storage callbacks. You will need to use a function hook provided by XAL to bring XAL any information that requires storage. You will then write code for your specific platform to implement the necessary storage.
 
-To do this, you will set an event handler to be called whenever UI is required. This is done using the `XalPlatformWebSetEventHandler()` function:
+To do this, you will set an event handler to be called whenever storage is required. This is done using the `XalPlatformStorageSetEventHandlers()` function:
 
 ```cpp
-HRESULT XalPlatformWebSetEventHandler(
-    _In_opt_ async_queue_handle_t queue,
-    _In_opt_ void* context,
-    _In_ XalPlatformWebShowUrlEventHandler* handler
-) XAL_NOEXCEPT;
+HRESULT XalPlatformStorageSetEventHandlers(
+    _In_opt_ XTaskQueueHandle queue,
+    _In_ XalPlatformStorageEventHandlers* handlers
+) noexcept;
 ```
 
 |Parameter  |Description |
 |---------|---------|
 |queue    | The async queue the callback should be invoked on.         |
-|context     | Optional pointer to the client provided user specific content.         |
-|handler     | the event handler for the function you want called when UI needs to be shown        |
+|handlers    | The event handlers for the function you want called when storage needs to be done        |
 
 **Call Sample**  
-[!INCLUDE [XalPlatformWebSetEventHandler](../../code/snippets/XalPlatformWebSetEventHandler.md)]
+[!INCLUDE [XalPlatformStorageSetEventHandlers](../../code/snippets/XalPlatformStorageSetEventHandlers.md)]
 
 > [!IMPORTANT]
 > This function must be called before `XalIntialize()`
 
-The function set as the event handler must take some context, the XAL operation being executed, a start url and a final url for the webflow being used. In the **AndroidTestApp** project the function `OnShow()` is used as the event handler to show a web view:
+The functions set as the event handlers must take some context, the XAL operation being executed, information about the data to be read or written. In the code above the functions `Xal_PlatformOnWriteHandler()`, `Xal_PlatformOnReadHandler()`, and `Xal_PlatformOnClearHandler()` are used as the event handlers for storage:
 
 ```cpp
-void OnShow(
+void Xal_PlatformOnWriteHandler(
     _In_opt_ void* context,
-    _In_opt_ void* /*userContext*/,
-    _In_ xal_platform_operation_t operation,
-    _In_z_ char const* startUrl,
-    _In_z_ char const* finalUrl,
-    bool suppressUi
+    _In_opt_ void* userContext,
+    _In_ XalPlatformOperation operation,
+    _In_z_ char const* key,
+    _In_ size_t dataSize,
+    _In_reads_bytes_(dataSize) void const* data
+)
+
+void Xal_PlatformOnReadHandler(
+    _In_opt_ void* context,
+    _In_opt_ void* userContext,
+    _In_ XalPlatformOperation operation,
+    _In_z_ char const* key
+)
+
+void Xal_PlatformOnClearHandler(
+    _In_opt_ void* context,
+    _In_opt_ void* userContext,
+    _In_ XalPlatformOperation operation,
+    _In_z_ char const* key
 )
 ```
 
-Calling `XalPlatformWebSetEventHandler()` will allow you to write your own function that will be called when UI needs to be show for some XAL operation. When the resulting work is done, your code will need to call into `XalPlatformWebShowUrlComplete()` which will return the XAL information for which UI was needed.
+Calling `XalPlatformStorageSetEventHandlers()` will allow you to write your own functions that will be called when storage needs to be done for some XAL operation. When the resulting work is done, your code will need to call into `XalPlatformStorageWriteComplete()`, `XalPlatformStorageReadComplete()`, or `XalPlatformStorageClearComplete()` which will return the results to XAL.
 
 ```cpp
-HRESULT XalPlatformWebShowUrlComplete(
-    _In_ xal_platform_operation_t operation,
+HRESULT XalPlatformStorageWriteComplete(
+    _In_ XalPlatformOperation operation,
+    _In_ XalPlatformOperationResult result
+) noexcept;
+
+HRESULT XalPlatformStorageReadComplete(
+    _In_ XalPlatformOperation operation,
     _In_ XalPlatformOperationResult result,
-    _In_opt_z_ char const* url
-) XAL_NOEXCEPT;
+    _In_ size_t dataSize,
+    _In_reads_bytes_opt_(dataSize) void const* data
+) noexcept;
+
+HRESULT XalPlatformStorageClearComplete(
+    _In_ XalPlatformOperation operation,
+    _In_ XalPlatformOperationResult result
+) noexcept;
 ```
 
 |Parameter  |Description  |
 |---------|---------|
 |operation     | The handle for this operation         |
-|result     | the result of the operation        |
-|url     | the full url for the final redirection. This should contain the information needed for XAL functionality |
+|result     | The result of the operation        |
+|dataSize     | The number of bytes being returned to XAL. |
+|data     | The data that was read. |
 
 **Call Sample**  
-[!INCLUDE [XalPlatformWebShowUrlComplete](../../code/snippets/XalPlatformWebShowUrlComplete.md)]  
+[!INCLUDE [XalPlatformStorageReadComplete](../../code/snippets/XalPlatformStorageReadComplete.md)]  
 
-After event handlers for web views and other necessary processes are set you will want to Initialize XAL so that it can be used for authentication.
+After event handlers for storage and other necessary processes are set you will want to Initialize XAL so that it can be used for authentication.
 
 ### Initialize
 
