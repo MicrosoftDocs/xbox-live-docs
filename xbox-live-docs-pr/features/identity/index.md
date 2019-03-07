@@ -15,11 +15,10 @@ ms.localizationpriority: medium
 <h1>Identity</h1>
 
 <p>
-  Identity features of Xbox Live include user identity, authentication and XAL sign-in, privileges, and privacy.
 </p>
 
 
-<h2>Identity features</h2>
+<h2>Features</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
         <a href="user/index.md">

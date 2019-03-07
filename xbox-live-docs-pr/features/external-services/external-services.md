@@ -19,7 +19,7 @@ ms.localizationpriority: medium
 </p>
 
 
-<h2>External services features</h2>
+<h2>Features</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
         <a href="web-services/web-services.md">

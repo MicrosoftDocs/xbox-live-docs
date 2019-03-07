@@ -15,11 +15,10 @@ ms.localizationpriority: medium
 <h1>Player Data</h1>
 
 <p>
-    Player Data in Xbox Live includes achievements, player stats, and leaderboards.
 </p>
 
 
-<h2>Background</h2>
+<h2>Overview</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
         <a href="data-platform-for-stats-leaderboards-achievements.md">
@@ -61,7 +60,7 @@ ms.localizationpriority: medium
     </li>
 </ul>
 
-<h2>Player Data Features</h2>
+<h2>Features</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
         <a href="../achievements-2017/achievements.md">

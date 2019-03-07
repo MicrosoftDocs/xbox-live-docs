@@ -30,10 +30,10 @@ ms.localizationpriority: medium
 <h2>Overview</h2>
 
 <div class="ico48Case halfStack">
-    <div class="ico48Link"><a href="connected-storage-vs-title-storage.md"><img src="../images/common/setup_step2_icon.svg"><span>Connected Storage vs. Title Storage</span></a></div>
+    <div class="ico48Link"><a href="connected-storage-vs-title-storage.md"><img src="../images/common/xbl_storage_platform.svg"><span>Connected Storage vs. Title Storage</span></a></div>
 </div>
 
-<h2>Features of Cloud Storage</h2>
+<h2>Features</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
         <a href="connected-storage/connected-storage.md">

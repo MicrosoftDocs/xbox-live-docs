@@ -14,9 +14,7 @@ ms.localizationpriority: medium
 
 <h1>Multiplayer features</h1>
 
-<p>
-    Multiplayer features in Xbox Live include Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
-</p>
+<p></p>
 
 
 <h2>Introduction</h2>
@@ -81,7 +79,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>Multiplayer features</h2>
+<h2>Features</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
         <a href="../features/multiplayer/matchmaking/index.md">

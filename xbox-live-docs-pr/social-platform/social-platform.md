@@ -22,10 +22,10 @@ ms.localizationpriority: medium
 <h2>Overview</h2>
 
 <div class="ico48Case halfStack">
-    <div class="ico48Link"><a href="xbox-live-social-platform.md"><img src="../images/common/setup_step2_icon.svg"><span>Overview of Social features</span></a></div>
+    <div class="ico48Link"><a href="xbox-live-social-platform.md"><img src="../images/common/xbl_socialplatform.svg"><span>Overview of Social features</span></a></div>
 </div>
 
-<h2>Social features</h2>
+<h2>Features</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
         <a href="people-system/people-system.md">
@@ -124,7 +124,7 @@ ms.localizationpriority: medium
     </li>
 </ul>
 
-<h2>Additional Social features and articles</h2>
+<h2>Additional features &amp; articles</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
         <a href="../contextual-search/contextual-search.md">
