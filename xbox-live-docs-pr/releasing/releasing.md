@@ -1,8 +1,8 @@
 ---
 layout: LandingPage
-title: Testing and Releasing
+title: Microsoft Xbox Live Releasing
 author: mikehoffms
-description: Testing, troubleshooting, and publishing a game.
+description: Xbox Live is a premier gaming network that connects millions of gamers across the world. You can add Xbox Live to your Windows 10 PC or Xbox One game in order to take advantage of the Xbox Live features and services.
 ms.author: v-mihof
 ms.date: 12-11-2018
 ms.topic: article
@@ -12,115 +12,156 @@ keywords: windows 10, uwp, games, xbox, xbox live, releasing
 ms.localizationpriority: medium
 ---
 
-<h1>Testing and Releasing</h1>
-<p>Releasing a game that is Xbox Live-enabled involves testing the Xbox Live functionality of the game, as well as troubleshooting and publishing the game.</p>
+<h1>Microsoft Xbox Live Releasing</h1>
+<p>Xbox Live is a premier gaming network that connects millions of gamers across the world. You can add Xbox Live to your Windows 10 PC or Xbox One game in order to take advantage of the Xbox Live features and services.</p>
 
-<h2>Get Started</h2>
-<p>Learn how to build your first XBL feature by getting enrolled in a program, setting up a development kit, and calling an API.</p>
-<div class="ico48Case halfStack">
-    <div class="ico48Link"><a href=""><img src="../images/common/enroll_step1_icon.svg"><span>Enroll</span></a></div>
-    <div class="ico48Link"><a href=""><img src="../images/common/setup_step2_icon.svg"><span>Setup</span></a></div>
-</div>
+<h2>Pre-Requisites</h2>
+<p>To publish a title privately or publicly, the following steps must have been already completed:</p>
+<ol>
+    <li>Join the Creators Program or the ID@Xbox Program</li>
+    <li>Complete Getting Started</li>
+    <li>Add a minimum of Xbox Live Features, as outlined in previous articles</li>
+</ol>
 
-<h2>Overview of Testing and Releasing a Game</h2>
-<ul class="cardsF panelContent cols cols2">
+<h2>Creators Program Releasing</h2>
+<ul class="cardsB panelContent cols cols2">
     <li>
-        <a href="">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../images/common/xbl_real_time_activity_placeholder.svg" alt="Identity tutorial" />
+        <div class="container intro">
+            <p>Continue through with publishing a title to a private sandbox and/or public on the Xbox Creators Store.</p>
+        </div>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/get-started-with-creators/create-and-test-a-new-creators-title">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="../images/getting_started/xboxicon1.svg" alt="Creators Program" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Creators program - Testing and publishing a game</h3>
-                        <p>Members of the Xbox Live Creators program have a single sandbox in which to test and publish the Xbox Live functionality of their game.</p>
+                        <div class="cardText">
+                            <h3>Creators Program</h3>
+                            <p>Release a title to a private sandbox</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </a>
     </li>
     <li>
         <a href="">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../images/common/xbl_real_time_activity_placeholder.svg" alt="Multiplayer tutorials" />
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="../images/getting_started/.svg" alt="" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>ID@Xbox program - Testing and publishing a game</h3>
-                        <p>Members of the ID@Xbox program have multiple sandboxes in which to test and publish the Xbox Live functionality of their game.</p>
+                        <div class="cardText">
+                            <h3>Creators Program</h3>
+                            <p>Release a title to the Xbox Creators Store</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../images/common/xbl_real_time_activity_placeholder.svg" alt="Publishing tutorial" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Troubleshooting</h3>
-                        <p>Tools and guides for troubleshooting Xbox Live functionality of your game.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
         </a>
     </li>
 </ul>
 
-<hr>
-<h2>Reference</h2>
-<ul class="panelContent cardsW">
+<h2>ID@Xbox Program Releasing</h2>
+<ul class="cardsB panelContent cols cols2">
     <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>API</h3>
-                        <p><a href="../xbox-live-rest/atoc-xboxlivews-reference.md">Xbox Live RESTful API</a></p>
+        <div class="container intro">
+            <p>Continue through with publishing a title to a private sandbox and/or public on the Xbox Managed Partners Store.</p>
+        </div>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/get-started-with-partner/get-started-with-xbox-live-partner">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="../images/getting_started/ID@XBOXicon.svg" alt="ID@XBOX Program" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>ID@XBOX Program</h3>
+                            <p>Releasing a title to a private sandbox</p>
+                        </div>
                     </div>
                 </div>
             </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/configure-xbl/windows-dev-center">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="../images/getting_started/ID@XBOXicon.svg" alt="ID@XBOX Program" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>ID@XBOX Program</h3>
+                            <p>Release a title to the Xbox Managed Partners Store</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+<h2>Quick Links</h2>
+
+<h3>API References</h3>
+
+<ul class="cardsB panelContent cols cols2">
+    <li>
+        <div class="container intro">
+            <p>Lookup materials for API calls, RESTful references, URI and JSON references as well as XSAPI, XAL and Async</p>
         </div>
     </li>
     <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Tutorials</h3>
-                        <p><a href="../samples.md">Xbox Live Samples and Combination Samples</a></p>
-                     </div>
+        <a href="/gaming/xbox-live/api-reference">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="../images/getting_started/apidesktop.svg" alt="" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <p>XSAPI, XAL, Async and RESTful reference materials</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </a>
     </li>
     <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Forums and Github </h3>
-                        <p><a href="https://forums.xboxlive.com/index.html" data-linktype="absolute-path">XBL Developer Forum</a></p>
-                        <p><a href="https://github.com/Microsoft/xbox-live-api" data-linktype="absolute-path">XBL Github portal</a></p>
-                     </div>
+        <a href="">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="../images/getting_started/.svg" alt="" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </a>
     </li>
 </ul>
