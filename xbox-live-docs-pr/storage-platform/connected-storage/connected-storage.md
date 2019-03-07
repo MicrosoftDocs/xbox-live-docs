@@ -29,4 +29,4 @@ Title data is stored locally and also synced to the cloud.
 | [Working with Connected Storage buffers](connected-storage-using-buffers.md) | Code examples using Connected Storage buffers. |
 | [Managing local Connected Storage](connected-storage-xb-storage.md) | Managing a local cache of the Connected Storage data in a development environment. |
 | [Best practices for Connected Storage](connected-storage-best-practices.md) | Getting the best performance and experience from Connected Storage, such as when to load and save. |
-| [Technical overview of Connected Storage](connected-storage-technical-overview.md) | A deep dive on the inner working of Connected Storage. |
+| [Technical overview of Connected Storage](connected-storage-technical-overview.md) | The inner workings of Connected Storage. |

@@ -18,5 +18,5 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Simple Presence](features/social/title-presence/simple-presence/index.md) |  |
-| [Legacy Presence](features/social/title-presence/legacy-presence/index.md) | Legacy Title Presence (or Rich Presence) shows what activity a user is currently doing, in which area of which game. |
+| [Simple Presence](simple-presence/index.md) |  |
+| [Legacy Presence](legacy-presence/index.md) | Legacy Title Presence (or Rich Presence) shows what activity a user is currently doing, in which area of which game. |
