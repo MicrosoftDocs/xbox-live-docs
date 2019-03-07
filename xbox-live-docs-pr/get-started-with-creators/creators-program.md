@@ -1,7 +1,7 @@
 ---
 title: IDEs, SDKs, and target platforms, for Creators
 author: mikehoffms
-description: High-level steps, from joining the Creators program through releasing your game.
+description: IDEs, SDKs, and target platforms, for Creators, including Visual Studio and Unity.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
@@ -28,4 +28,5 @@ No approval process from Microsoft is required to join this program, and there a
 
 ## See also
 
-[Developer program overview](../developer-program-overview.md)
+* [Developer program overview](../developer-program-overview.md)
+* [Setting up an IDE to use Xbox Live](../get-started/setup-ide/index.md)

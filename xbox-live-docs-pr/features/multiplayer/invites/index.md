@@ -1,6 +1,6 @@
 ---
 title: Invites
-description: Invites.
+description: Invites notifies other potential players to play a game with.
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, windows 10, xbox one
@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 > [!NOTE]
 > This is preliminary documentation.
 
-Invites is a Multiplayer feature in Xbox Live.
+Invites notifies other potential players to play a game with.
 
 
 ## In this section

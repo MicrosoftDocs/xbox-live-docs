@@ -31,7 +31,7 @@ ms.localizationpriority: medium
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>User identity</h3>
+                        <h3>User Identity</h3>
                         <p>User identity.</p>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ ms.localizationpriority: medium
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Authentication and XAL sign-in</h3>
+                        <h3>Authentication and XAL Sign-in</h3>
                         <p>Signing-in an Xbox Live user in your title.</p>
                     </div>
                 </div>

@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 <h1>External services</h1>
 
 <p>
-    Xbox Live External services include Web services, relying parties, single sign-on, and access policies.
 </p>
 
 
@@ -32,7 +31,7 @@ ms.localizationpriority: medium
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Web services</h3>
+                        <h3>Web Services</h3>
                         <p>Web services.</p>
                     </div>
                 </div>
@@ -51,7 +50,7 @@ ms.localizationpriority: medium
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Relying parties</h3>
+                        <h3>Relying Parties</h3>
                         <p>Relying parties.</p>
                     </div>
                 </div>
@@ -70,7 +69,7 @@ ms.localizationpriority: medium
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Single sign-on</h3>
+                        <h3>Single Sign-On</h3>
                         <p>Single sign-on allows a player using your title to sign into your services by using their Xbox Live sign-in.</p>
                     </div>
                 </div>
@@ -89,7 +88,7 @@ ms.localizationpriority: medium
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Access policies</h3>
+                        <h3>Access Policies</h3>
                         <p>Configuring access policies to allow other apps, games, and services to access a title's Xbox Live settings.</p>
                     </div>
                 </div>

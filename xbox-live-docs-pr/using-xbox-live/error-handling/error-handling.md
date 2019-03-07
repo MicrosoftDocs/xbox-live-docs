@@ -1,7 +1,7 @@
 ---
 title: Error handling
 author: mikehoffms
-description: Handling errors when calling an Xbox Live service through XSAPI.
+description: Handling errors when calling an Xbox Live service through XSAPI, C++, or WinRT.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 
 # Error handling
 
-Handling errors when calling an Xbox Live service through XSAPI.
+Handling errors when calling an Xbox Live service through XSAPI, C++, or WinRT.
 
 
 ## In this section

@@ -6,6 +6,10 @@ ms.topic: article
 keywords: xbox live, xbox, games, windows 10, xbox one
 ms.localizationpriority: medium
 ---
+
 # Multiplayer Manager for Matchmaking
+
+> [!NOTE]
+> This is preliminary documentation.
 
 Multiplayer Manager for Matchmaking is a Multiplayer feature in Xbox Live.

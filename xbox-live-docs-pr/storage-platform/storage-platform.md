@@ -2,7 +2,7 @@
 layout: LandingPage
 title: Cloud Storage
 author: mikehoffms
-description: Configuring Xbox Live features including Identity, Social, Data, Storage, Multiplayer, and External Services.
+description: Xbox Live Cloud Storage includes Connected Storage to store game state, and Title Storage to store player statistics and assets.
 ms.author: v-mihof
 ms.date: 12-11-2018
 ms.topic: article

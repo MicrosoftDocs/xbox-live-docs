@@ -2,7 +2,7 @@
 layout: LandingPage
 title: Multiplayer features
 author: mikehoffms
-description: Multiplayer features in Xbox Live include Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
+description: Multiplayer features in Xbox Live include matchmaking, invites, voice chat, and networking.
 ms.author: v-mihof
 ms.date: 12-11-2018
 ms.topic: article
@@ -93,7 +93,7 @@ ms.localizationpriority: medium
                     </div>
                     <div class="cardText">
                         <h3>Matchmaking</h3>
-                        <p>Matchmaking.</p>
+                        <p>Matchmaking finds other players to play a game with.</p>
                     </div>
                 </div>
             </div>
@@ -112,7 +112,7 @@ ms.localizationpriority: medium
                     </div>
                     <div class="cardText">
                         <h3>Invites</h3>
-                        <p>Invites.</p>
+                        <p>Invites notifies other potential players to play a game with.</p>
                     </div>
                 </div>
             </div>
@@ -131,7 +131,7 @@ ms.localizationpriority: medium
                     </div>
                     <div class="cardText">
                         <h3>Voice</h3>
-                        <p>Voice.</p>
+                        <p>Voice communication for multiplayer games can be set up through Xbox Integrated Multiplayer (XIM), an all-in-one multiplayer/networking/chat solution; and through Game Chat.</p>
                     </div>
                 </div>
             </div>
@@ -150,7 +150,7 @@ ms.localizationpriority: medium
                     </div>
                     <div class="cardText">
                         <h3>Networking</h3>
-                        <p>Networking.</p>
+                        <p>Networking for Multiplayer gaming in Xbox Live can use SSL or WinSock.</p>
                     </div>
                 </div>
             </div>

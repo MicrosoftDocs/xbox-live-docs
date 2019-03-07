@@ -2,7 +2,7 @@
 layout: LandingPage
 title: Social features
 author: mikehoffms
-description: Social features in Xbox Live provide a gaming-oriented social network that includes a user's profile, gamerscore, achievements, clubs, and activity feed.
+description: Gaming-oriented social network features of Xbox Live include a user's profile, gamerscore, achievements, clubs, and activity feed.
 ms.author: v-mihof
 ms.date: 12-11-2018
 ms.topic: article
@@ -114,7 +114,7 @@ ms.localizationpriority: medium
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Localized strings</h3>
+                        <h3>Localized Strings</h3>
                         <p>Localized strings.</p>
                     </div>
                 </div>

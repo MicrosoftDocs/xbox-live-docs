@@ -92,7 +92,7 @@ ms.localizationpriority: medium
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Player stats</h3>
+                        <h3>Player Stats</h3>
                         <p>Setting up key pieces of information to track about a player.</p>
                     </div>
                 </div>

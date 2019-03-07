@@ -1,7 +1,7 @@
 ---
 title: IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners
 author: mikehoffms
-description: High-level steps, from joining the ID@Xbox Managed Partner Program, through releasing your game.
+description: IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners, including Visual Studio and Unity.
 ms.author: v-mihof
 ms.date: 12/6/2018
 ms.topic: article
