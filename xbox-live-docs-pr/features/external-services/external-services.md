@@ -28,7 +28,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../../images/common/xbl_socialplatform.svg" alt="Social features" />
+                            <img src="../../images/common/xbl_real_time_activity.svg" alt="Social features" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -47,7 +47,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../../images/common/xbl_socialplatform.svg" alt="Social features" />
+                            <img src="../../images/common/xbl_real_time_activity.svg" alt="Social features" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -66,7 +66,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../../images/common/xbl_socialplatform.svg" alt="Social features" />
+                            <img src="../../images/common/xbl_real_time_activity.svg" alt="Social features" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -85,7 +85,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../../images/common/xbl_socialplatform.svg" alt="Social features" />
+                            <img src="../../images/common/xbl_real_time_activity.svg" alt="Social features" />
                         </div>
                     </div>
                     <div class="cardText">

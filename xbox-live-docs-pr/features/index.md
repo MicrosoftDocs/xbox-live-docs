@@ -129,7 +129,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../real-time-activity-service/real-time-activity-service.md">
+        <a href="external-services/external-services.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -139,27 +139,8 @@ ms.localizationpriority: medium
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Real Time Activity (RTA) service</h3>
-                        <p>Enables an application on any device to subscribe to state data, user statistics, and presence.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="../contextual-search/contextual-search.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../images/common/xbl_contextual_search.svg" alt="Contextual Search" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Contextual Search</h3>
-                        <p>Implement tools to automatically tag broadcasts and game clips from a title with real time stats.</p>
+                        <h3>External services</h3>
+                        <p>Xbox Live External services include Web services, relying parties, single sign-on, and access policies.</p>
                     </div>
                 </div>
             </div>
