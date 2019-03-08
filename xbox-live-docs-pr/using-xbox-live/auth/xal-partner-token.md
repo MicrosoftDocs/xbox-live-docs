@@ -1,5 +1,5 @@
 ---
-title: Xbox Live Authentication Library (XAL)
+title: Using Xbox Live tokens for custom web service authentication
 author: aablackm
 description: An introduction to XAL and how to integrate it into your Xbox Live project
 ms.author: aablackm
@@ -10,14 +10,22 @@ ms.technology: xbox live=
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, authentication, sign-in
 ms.localizationpriority: medium
 ---
-# XAL: The Xbox Live authentication library
 
-In addition to Xbox Live services, Xbox Live tokens can also be used by title-specific, custom web services for authentication and authorization. Custom web services allow you to use user, title, and device claims that are contained in the Xbox Live token.
+# Using Xbox Live tokens for custom web service authentication
+
+Xbox Live tokens can be used by custom, title-specific web services for authentication and authorization.
+
+Custom web services allow you to use user, title, and device claims that are contained in the Xbox Live token.
+
 
 ## Retrieve an Xbox Live partner token for your own service
-To retrieve the Xbox Live partner token for your own service, an endpoint configuration that uses an Xbox Live token is required. The game then requests the Xbox Live partner token for this endpoint by using the XalGetTokenAndSignatureSilently API through the following flow:
 
-1. Create a XalUserGetTokenAndSignatureArgs object
+To retrieve the Xbox Live partner token for your own service, an endpoint configuration that uses an Xbox Live token is required.
+
+The game then requests the Xbox Live partner token for this endpoint by calling `XalUserGetTokenAndSignatureSilentlyAsync` using the following flow:
+
+1. Create a `XalUserGetTokenAndSignatureArgs` object:
+
 ```c
 XalUserGetTokenAndSignatureArgs tokenAndSigArgs = {};
     tokenAndSigArgs.method = "GET";
@@ -30,7 +38,8 @@ XalUserGetTokenAndSignatureArgs tokenAndSigArgs = {};
     tokenAndSigArgs.allUsers = false;
 ```
 
-2. Call the XalUserGetTokenAndSignatureSilentlyAsync API to get the partner token
+2. Call `XalUserGetTokenAndSignatureSilentlyAsync` to get the partner token:
+
 ```c
 HRESULT XalUserGetTokenAndSignatureSilentlyAsync(
     _In_ XalUserHandle user,
