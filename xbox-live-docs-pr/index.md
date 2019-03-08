@@ -136,30 +136,7 @@ ms.localizationpriority: medium
     <li>Examples of implementation and how to call a feature</li>
 </ul>
 
-<h2>Tutorials</h2>
-
-<p>Use our samples to learn concepts about how features can interact and enrich gaming experiences</p>
-
-<ul class="cardsY panelContent cols cols2">
-    <li>
-        <a href="/gaming/xbox-live/features/">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="images/getting_started/xboxfeatures.svg" alt="Core Xbox Live Features" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Core Xbox Live Features</h3>
-                            <p>Identity, Social, Achievements, Cloud Storage, Multiplayer and External Services.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
+<ul class="cardsY panelContent cols">
     <li>
         <a href="">
             <div class="cardSize">
