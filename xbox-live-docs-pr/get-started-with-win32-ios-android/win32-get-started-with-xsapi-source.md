@@ -66,7 +66,7 @@ The main difference between the Xbox Live APIs for Win32 games as opposed to Uni
 
 After signing a player in with XAL, your game should then create an xbox_live_context and pass the XAL user handle as a parameter. After that, the xbox_live_context should look and function the same as it does on UWP.
 
-For more information about signing in a player by using XAL in a Win32 game, see [Xbox Live Authentication Library (Xal)](../using-xbox-live/auth/xal.md).
+For more information about signing in a player by using XAL in a Win32 game, see [Authentication for Mobile Projects Using XAL](../using-xbox-live/auth/xal.md).
 
 
 ### xboxservices.config
