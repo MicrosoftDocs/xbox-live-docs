@@ -24,9 +24,8 @@ ms.localizationpriority: medium
             <li>Android Studio, targeting Android.</li>
             <li>Xcode, targeting iOS.</li>
         </ul>
-        <p>Creators can use Visual Studio, targeting UWP and Xbox.
-         ID@Xbox partners can use all combinations of IDE and target platforms.<br/>
-        </p>
+        <p>Creators can use Visual Studio, targeting UWP and Xbox.</p>
+        <p>ID@Xbox partners can use all combinations of IDE and target platforms.</p>
     </li>
     <li>Add Xbox Live sign-in code to your game.</li>
 </ol>
