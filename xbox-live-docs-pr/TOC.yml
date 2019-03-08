@@ -37,7 +37,7 @@
             - name: Authentication and XAL sign-in
               href: using-xbox-live/auth/authentication.md
               items: 
-                - name: Authentication for Mobile Projects Using XAL
+                - name: Authentication for Mobile Projects
                   href: using-xbox-live/auth/xal.md
                   items: 
                     - name: Xbox Live Authentication Library (XAL) overview

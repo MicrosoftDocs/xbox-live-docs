@@ -17,7 +17,7 @@ Signing-in an Xbox Live user in your title.
 
 | Article | Description |
 |---------|-------------|
-| [Authentication for Mobile Projects Using XAL](xal.md) | An introduction to XAL and how to integrate it into your Xbox Live project. |
+| [Authentication for Mobile Projects](xal.md) | An introduction to XAL and how to integrate it into your Xbox Live project. |
 | [Authentication for UWP projects](authentication-for-UWP-projects.md) | Signing-in Xbox Live users in a Universal Windows Platform (UWP) title. |
 | [Authentication for XDK projects](authentication-for-XDK-projects.md) | Signing-in Xbox Live users in an Xbox Development Kit (XDK) title. |
 | [Single Point of Presence (SPOP)](single-point-of-presence.md) | Using Xbox Live Single Point of Presence (SPOP) to ensure that a title is played on only a single device at a time. |
