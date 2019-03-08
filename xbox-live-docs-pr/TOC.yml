@@ -3,6 +3,8 @@
   items:
     - name: What is Xbox Live?
       href: what-is-xbox-live.md
+    - name: Xbox Live policies
+      href: xboxlive-policies.md
     - name: Getting started
       href: get-started/index.md
       items:
