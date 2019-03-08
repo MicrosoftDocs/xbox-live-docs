@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 
 <p>Xbox Live is a premier gaming network that connects millions of gamers across the world. You can add Xbox Live to your Windows 10 PC or Xbox One game in order to take advantage of the Xbox Live features and services.</p>
 
-<ul class="cardsY panelContent cols">
+<ul class="cardsY panelContent cols cols2">
     <li>
         <a href="https://developer.microsoft.com/en-us/games/news-and-events/gdc2019">
             <div class="cardSize">
