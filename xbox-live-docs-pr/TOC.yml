@@ -569,8 +569,6 @@
       items:
         - name: Xbox Live policies
           href: xboxlive-policies.md
-        - name: Policies
-          href: releasing/policies.md
         - name: Partner Center, for Creators
           href: get-started-with-creators/get-start-partner-center-cr.md
           items:
