@@ -3,8 +3,6 @@
   items:
     - name: What is Xbox Live?
       href: what-is-xbox-live.md
-    - name: Xbox Live policies
-      href: xboxlive-policies.md
     - name: Getting started
       href: get-started/index.md
       items:
@@ -569,21 +567,23 @@
     - name: Testing and Releasing
       href: releasing/releasing.md
       items:
+        - name: Xbox Live policies
+          href: xboxlive-policies.md
         - name: Policies
           href: releasing/policies.md
-        - name: Getting started with Partner Center, for Creators
+        - name: Partner Center, for Creators
           href: get-started-with-creators/get-start-partner-center-cr.md
           items:
-            - name: Get started with the Xbox Live Creators Program
+            - name: The Xbox Live Creators Program
               href: get-started-with-creators/get-started-with-xbox-live-creators.md
             - name: Create a new Creators Program title and publish it to the test environment
               href: get-started-with-creators/create-and-test-a-new-creators-title.md
             - name: Authorize Xbox Live accounts for testing in your environment
               href: get-started-with-creators/authorize-xbox-live-accounts.md
-        - name: Getting started with Partner Center, for ID@Xbox Managed Partners
+        - name: Partner Center, for ID@Xbox Managed Partners
           href: get-started-with-partner/get-start-partner-center-id.md
           items: 
-            - name: Get started with Xbox Live, for Managed Partners
+            - name: Xbox Live, for Managed Partners
               href: get-started-with-partner/get-started-with-xbox-live-partner.md
             - name: Create a new title that uses Xbox Live
               href: get-started-with-partner/create-a-new-title.md
