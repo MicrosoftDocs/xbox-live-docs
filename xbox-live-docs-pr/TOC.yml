@@ -20,12 +20,86 @@
         - name: Setting up an IDE to use Xbox Live
           href: get-started/setup-ide/index.md
           items:
-            - name: Setting up Visual Studio for Xbox Live
-              href: get-started/setup-ide/setup-visual-studio.md
-            - name: Setting up Android Studio for Xbox Live
-              href: get-started/setup-ide/setup-android-studio.md
-            - name: Setting up Xcode for Xbox Live
-              href: get-started/setup-ide/setup-xcode.md
+            - name: IDEs, SDKs, and target platforms, for Creators
+              href: get-started-with-creators/creators-program.md
+              items:
+                - name: Develop in Visual Studio, for Creators
+                  href: get-started-with-creators/develop-creators-title-with-visual-studio.md
+                - name: Develop in Unity, for Creators
+                  href: get-started-with-creators/develop-creators-unity.md
+                  items: 
+                    - name: Get started developing a Creators Program title with Unity
+                      href: get-started-with-creators/develop-creators-title-with-unity.md
+                    - name: Configuring Xbox Live in Unity
+                      href: get-started-with-creators/configure-xbox-live-in-unity.md
+                    - name: Unity Prefabs and scripted sign-in
+                      href: get-started-with-creators/unity-prefabs-and-sign-in.md
+                    - name: Easy sign-in with the PlayerAuthentication prefab
+                      href: get-started-with-creators/playerauthentication-prefab-sign-in.md
+                    - name: Scripting Sign-In with the SignInManager in Unity
+                      href: get-started-with-creators/sign-in-manager.md
+                    - name: Testing a Unity game build in Visual Studio
+                      href: get-started-with-creators/test-visual-studio-build.md
+                    - name: Adding player stats and leaderboards to a Unity project
+                      href: get-started-with-creators/add-stats-and-leaderboards-in-unity.md
+                    - name: Setting up the Leaderboard example scene in Unity
+                      href: get-started-with-creators/setup-leaderboard-example-scene.md
+                    - name: Scripting a leaderboard in Unity
+                      href: get-started-with-creators/unity-leaderboard-from-scratch.md
+                    - name: Add controller support to Xbox Live prefabs
+                      href: get-started-with-creators/add-controller-support-to-xbox-live-prefabs.md
+                    - name: Add multi-user support to a Unity game
+                      href: get-started-with-creators/add-multi-user-support.md
+                    - name: Checking user privilege settings in Unity
+                      href: get-started-with-creators/check-user-privileges-in-unity.md
+            - name: IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners
+              href: get-started-with-partner/managed-partners-and-id-xbox-developers.md
+              items: 
+                - name: Get started with Xbox Live APIs on Win32
+                  href: get-started-with-win32-ios-android/win32-get-started-with-xsapi.md
+                - name: Including XBL API sources in a Win32 project, for debugging
+                  href: get-started-with-win32-ios-android/win32-get-started-with-xsapi-source.md
+                - name: Get started with Xbox Live APIs on Android
+                  href: get-started-with-win32-ios-android/android-get-started-with-xsapi.md
+                - name: Including XBL API sources in a project for Android
+                  href: get-started-with-win32-ios-android/android-get-started-with-xsapi-source.md
+                - name: Get started with Xbox Live APIs on iOS
+                  href: get-started-with-win32-ios-android/ios-get-started-with-xsapi.md
+                - name: Add XBL support in Visual Studio, for UWP games
+                  href: get-started-with-partner/visual-studio-for-uwp-games.md
+                  items: 
+                    - name: Get started using Visual Studio for UWP games
+                      href: get-started-with-partner/get-started-with-visual-studio-and-uwp.md
+                    - name: Add an XSAPI binary package to a UWP project
+                      href: get-started-with-partner/add-xbox-live-apis-binary-to-a-uwp-project.md
+                    - name: Add and compile XSAPI source code into a UWP project
+                      href: get-started-with-partner/add-xbox-live-apis-source-to-a-uwp-project.md
+                - name: Add XBL support in Unity, for UWP games
+                  href: get-started-with-partner/add-xbl-support-to-unity.md
+                  items: 
+                    - name: Add XBL support to Unity for UWP, with .NET scripting
+                      href: get-started-with-partner/partner-add-xbox-live-to-unity-uwp.md
+                    - name: Add XBL support to Unity for UWP, with IL2CPP scripting
+                      href: get-started-with-partner/partner-unity-uwp-il2cpp.md
+                    - name: Add XBL support to Unity for XDK, with IL2CPP scripting
+                      href: get-started-with-partner/partner-unity-xdk-il2cpp.md
+                - name: Add XBL Support in Visual Studio, for XDK games
+                  href: get-started-with-partner/xdk-developers.md
+                  items: 
+                    - name: Getting the XDK
+                      href: get-started-with-partner/where-to-get-xdk.md
+                    - name: Configure an Xbox development console
+                      href: get-started-with-partner/configure-your-development-console.md
+                    - name: Add Xbox Live to an XDK project
+                      href: get-started-with-partner/add-xbox-live-to-an-xdk-project.md
+                    - name: Using Xbox Live APIs built into the XDK
+                      href: get-started-with-partner/using-xbox-live-apis-built-into-the-xdk.md
+                    - name: Use the Xbox Live API NuGet package to develop XDK titles
+                      href: get-started-with-partner/use-xbox-live-nuget-with-xdk.md
+                    - name: Compile the XDK Xbox Live API source
+                      href: get-started-with-partner/compile-the-xdk-xbox-live-api-source.md
+                - name: Get started with cross-play games
+                  href: get-started-with-partner/get-started-with-cross-play-games.md
         - name: Signing-in to Xbox Live
           href: get-started/write-sign-in-code.md
     - name: Features
@@ -36,15 +110,19 @@
           items: 
             - name: User identity
               href: features/identity/user/index.md
-            - name: Authentication and XAL sign-in
+            - name: Single Point of Presence (SPOP)
+              href: using-xbox-live/auth/single-point-of-presence.md
+            - name: Troubleshooting Xbox Live sign-in
+              href: using-xbox-live/troubleshooting/troubleshooting-sign-in.md
+            - name: Authentication and sign-in
               href: using-xbox-live/auth/authentication.md
               items: 
-                - name: Authentication for Mobile Projects
+                - name: Authentication for Mobile Projects using XAL
                   href: using-xbox-live/auth/xal.md
                   items: 
                     - name: Xbox Live Authentication Library (XAL) overview
                       href: using-xbox-live/auth/xal-overview.md
-                    - name: Single-user and multi-user device sign-in
+                    - name: Signing-in using XAL
                       href: using-xbox-live/auth/xal-sign-in.md
                     - name: Setting up Visual Studio for XAL login on Win32
                       href: using-xbox-live/auth/win32-xal.md
@@ -56,19 +134,13 @@
                       href: using-xbox-live/auth/xal-partner-token.md
                 - name: Authentication for UWP projects
                   href: using-xbox-live/auth/authentication-for-UWP-projects.md
+                  items:
+                    - name: Retrieving the Windows user in a UWP title
+                      href: using-xbox-live/auth/retrieving-windows-system-user-on-UWP.md
                 - name: Authentication for XDK projects
                   href: using-xbox-live/auth/authentication-for-XDK-projects.md
-                - name: Single Point of Presence (SPOP)
-                  href: using-xbox-live/auth/single-point-of-presence.md
-                - name: Retrieving the Windows user in a UWP title
-                  href: using-xbox-live/auth/retrieving-windows-system-user-on-UWP.md
-                - name: Troubleshooting Xbox Live sign-in
-                  href: using-xbox-live/troubleshooting/troubleshooting-sign-in.md
-            - name: Privileges
+            - name: User Privileges
               href: features/identity/privileges/index.md
-              items: 
-                - name: Configuring Privileges in Partner Center
-                  href: configure-xbl/dev-center/privileges.md
             - name: Privacy
               href: features/identity/privacy/index.md
         - name: Social features
@@ -462,86 +534,9 @@
     - name: SDKs and IDEs
       href: sdks/index.md
       items: 
-        - name: IDEs, SDKs, and target platforms, for Creators
-          href: get-started-with-creators/creators-program.md
-          items:
-            - name: Develop in Visual Studio, for Creators
-              href: get-started-with-creators/develop-creators-title-with-visual-studio.md
-            - name: Develop in Unity, for Creators
-              href: get-started-with-creators/develop-creators-unity.md
-              items: 
-                - name: Get started developing a Creators Program title with Unity
-                  href: get-started-with-creators/develop-creators-title-with-unity.md
-                - name: Configuring Xbox Live in Unity
-                  href: get-started-with-creators/configure-xbox-live-in-unity.md
-                - name: Unity Prefabs and scripted sign-in
-                  href: get-started-with-creators/unity-prefabs-and-sign-in.md
-                - name: Easy sign-in with the PlayerAuthentication prefab
-                  href: get-started-with-creators/playerauthentication-prefab-sign-in.md
-                - name: Scripting Sign-In with the SignInManager in Unity
-                  href: get-started-with-creators/sign-in-manager.md
-                - name: Testing a Unity game build in Visual Studio
-                  href: get-started-with-creators/test-visual-studio-build.md
-                - name: Adding player stats and leaderboards to a Unity project
-                  href: get-started-with-creators/add-stats-and-leaderboards-in-unity.md
-                - name: Setting up the Leaderboard example scene in Unity
-                  href: get-started-with-creators/setup-leaderboard-example-scene.md
-                - name: Scripting a leaderboard in Unity
-                  href: get-started-with-creators/unity-leaderboard-from-scratch.md
-                - name: Add controller support to Xbox Live prefabs
-                  href: get-started-with-creators/add-controller-support-to-xbox-live-prefabs.md
-                - name: Add multi-user support to a Unity game
-                  href: get-started-with-creators/add-multi-user-support.md
-                - name: Checking user privilege settings in Unity
-                  href: get-started-with-creators/check-user-privileges-in-unity.md
-        - name: IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners
-          href: get-started-with-partner/managed-partners-and-id-xbox-developers.md
-          items: 
-            - name: Get started with Xbox Live APIs on Win32
-              href: get-started-with-win32-ios-android/win32-get-started-with-xsapi.md
-            - name: Including XBL API sources in a Win32 project, for debugging
-              href: get-started-with-win32-ios-android/win32-get-started-with-xsapi-source.md
-            - name: Get started with Xbox Live APIs on Android
-              href: get-started-with-win32-ios-android/android-get-started-with-xsapi.md
-            - name: Including XBL API sources in a project for Android
-              href: get-started-with-win32-ios-android/android-get-started-with-xsapi-source.md
-            - name: Get started with Xbox Live APIs on iOS
-              href: get-started-with-win32-ios-android/ios-get-started-with-xsapi.md
-            - name: Add XBL support in Visual Studio, for UWP games
-              href: get-started-with-partner/visual-studio-for-uwp-games.md
-              items: 
-                - name: Get started using Visual Studio for UWP games
-                  href: get-started-with-partner/get-started-with-visual-studio-and-uwp.md
-                - name: Add an XSAPI binary package to a UWP project
-                  href: get-started-with-partner/add-xbox-live-apis-binary-to-a-uwp-project.md
-                - name: Add and compile XSAPI source code into a UWP project
-                  href: get-started-with-partner/add-xbox-live-apis-source-to-a-uwp-project.md
-            - name: Add XBL support in Unity, for UWP games
-              href: get-started-with-partner/add-xbl-support-to-unity.md
-              items: 
-                - name: Add XBL support to Unity for UWP, with .NET scripting
-                  href: get-started-with-partner/partner-add-xbox-live-to-unity-uwp.md
-                - name: Add XBL support to Unity for UWP, with IL2CPP scripting
-                  href: get-started-with-partner/partner-unity-uwp-il2cpp.md
-                - name: Add XBL support to Unity for XDK, with IL2CPP scripting
-                  href: get-started-with-partner/partner-unity-xdk-il2cpp.md
-            - name: Add XBL Support in Visual Studio, for XDK games
-              href: get-started-with-partner/xdk-developers.md
-              items: 
-                - name: Getting the XDK
-                  href: get-started-with-partner/where-to-get-xdk.md
-                - name: Configure an Xbox development console
-                  href: get-started-with-partner/configure-your-development-console.md
-                - name: Add Xbox Live to an XDK project
-                  href: get-started-with-partner/add-xbox-live-to-an-xdk-project.md
-                - name: Using Xbox Live APIs built into the XDK
-                  href: get-started-with-partner/using-xbox-live-apis-built-into-the-xdk.md
-                - name: Use the Xbox Live API NuGet package to develop XDK titles
-                  href: get-started-with-partner/use-xbox-live-nuget-with-xdk.md
-                - name: Compile the XDK Xbox Live API source
-                  href: get-started-with-partner/compile-the-xdk-xbox-live-api-source.md
-            - name: Get started with cross-play games
-              href: get-started-with-partner/get-started-with-cross-play-games.md
+
+
+
         - name: Best practices for Xbox Live
           href: using-xbox-live/best-practices/best-practices.md
           items: 
@@ -604,6 +599,8 @@
                   href: configure-xbl/dev-center/xbox-live-setup.md
                 - name: Configuring Game DVR in Partner Center
                   href: configure-xbl/dev-center/game-dvr.md
+                - name: Configuring Privileges in Partner Center
+                  href: configure-xbl/dev-center/privileges.md
                 - name: Configuring Rich Presence strings in Partner Center
                   href: configure-xbl/dev-center/rich-presence-configuration.md
                 - name: Configuring Title Storage in Partner Center

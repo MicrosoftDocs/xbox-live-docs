@@ -15,6 +15,7 @@ After you have set up a game at Partner Center, set up one of the following IDEs
 
 Creators can use:
 *  Visual Studio (targeting UWP or Xbox)
+*  Unity (targeting UWP)
 
 ID@Xbox partners can use:
 *  Visual Studio (targeting UWP, Xbox, or Android)
@@ -26,17 +27,11 @@ ID@Xbox partners can use:
 
 | Article | Description |
 |---------|-------------|
-| [Setting up Visual Studio for Xbox Live](setup-visual-studio.md) | Setting up Visual Studio to use the Xbox Live SDK, to target UWP, Xbox, or Android. |
-| [Setting up Android Studio for Xbox Live](setup-android-studio.md) | Setting up Android Studio to use the Xbox Live SDK, to target Android. |
-| [Setting up Xcode for Xbox Live](setup-xcode.md) | Setting up Xcode to use the Xbox Live SDK, to target iOS. |
+| [IDEs, SDKs, and target platforms, for Creators](../../get-started-with-creators/creators-program.md) | IDEs, SDKs, and target platforms, for Creators, including Visual Studio and Unity. |
+| [IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners](../../get-started-with-partner/managed-partners-and-id-xbox-developers.md) | IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners, including Visual Studio and Unity. |
 
 
 ## Next steps
 
 After setting up an IDE to use the Xbox Live SDK, do step 3: Add Xbox Live sign-in code to your game.
 See [Getting started](../index.md).
-
-
-## See also
-
-[SDKs and IDEs](../../sdks/index.md)

@@ -1,5 +1,5 @@
 ---
-title: Authentication and XAL sign-in
+title: Authentication and sign-in
 description: Signing-in an Xbox Live user in your title.
 ms.assetid: 7a9dfb3c-1ccc-4948-a218-37101069c91a
 ms.date: 04/04/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, authentication, sig
 ms.localizationpriority: medium
 ---
 
-# Authentication and XAL sign-in
+# Authentication and sign-in
 
 Signing-in an Xbox Live user in your title.
 
@@ -17,7 +17,7 @@ Signing-in an Xbox Live user in your title.
 
 | Article | Description |
 |---------|-------------|
-| [Authentication for Mobile Projects](xal.md) | An introduction to XAL and how to integrate it into your Xbox Live project. |
+| [Authentication for Mobile Projects using XAL](xal.md) | An introduction to XAL and how to integrate it into your Xbox Live project. |
 | [Authentication for UWP projects](authentication-for-UWP-projects.md) | Signing-in Xbox Live users in a Universal Windows Platform (UWP) title. |
 | [Authentication for XDK projects](authentication-for-XDK-projects.md) | Signing-in Xbox Live users in an Xbox Development Kit (XDK) title. |
 | [Single Point of Presence (SPOP)](single-point-of-presence.md) | Using Xbox Live Single Point of Presence (SPOP) to ensure that a title is played on only a single device at a time. |

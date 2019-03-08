@@ -50,8 +50,8 @@ ms.localizationpriority: medium
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Authentication and XAL Sign-in</h3>
-                        <p>Signing-in an Xbox Live user in your title.</p>
+                        <h3>Authentication and sign-in</h3>
+                        <p>Signing-in an Xbox Live user in your game.</p>
                     </div>
                 </div>
             </div>

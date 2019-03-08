@@ -1,5 +1,5 @@
 ---
-title: Single-user and multi-user device sign-in
+title: Signing-in using XAL
 author: aablackm
 description: Sign-in scenarios for XAL are soft single-user authentication, hard single-user authentication, and multi-user authentication.
 ms.author: aablackm
@@ -11,7 +11,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, authentication, sig
 ms.localizationpriority: medium
 ---
 
-# Single-user and multi-user device sign-in
+# Signing-in using XAL
 
 Sign-in scenarios for the Xbox Live Authentication Library (XAL) can be divided into two broad categories depending on the platform XAL is used to authenticate on.
 There are **single-user authentication (SUA)** devices and **multi-user authentication (MUA)** devices.
