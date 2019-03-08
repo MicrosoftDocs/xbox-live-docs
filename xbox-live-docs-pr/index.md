@@ -24,7 +24,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/mobile-gdc.svg" alt="Mobile and Xbox Live Features" />
+                                <img src="images/getting_started/mobile-gdc.svg" alt="Mobile and Xbox Live Features" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -43,7 +43,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/what-is-xbl.svg" alt="What is Xbox Live?" />
+                                <img src="images/getting_started/what-is-xbl.svg" alt="What is Xbox Live?" />
                             </div>
                         </div>
                         <div class="cardText"> 
@@ -74,7 +74,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/xboxicon1.svg" alt="Creators Program" />
+                                <img src="images/getting_started/xboxicon1.svg" alt="Creators Program" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -93,7 +93,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/ID@XBOXicon.svg" alt="ID@XBOX Program" />
+                                <img src="images/getting_started/ID@XBOXicon.svg" alt="ID@XBOX Program" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -112,7 +112,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/getstart.svg" alt="Get Started" />
+                                <img src="images/getting_started/getstart.svg" alt="Get Started" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -148,7 +148,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/xboxfeatures.svg" alt="Core Xbox Live Features" />
+                                <img src="images/getting_started/xboxfeatures.svg" alt="Core Xbox Live Features" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -167,7 +167,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/.svg" alt="Multiplayer, Achievement, In Game Clubs, Cross Title Storage and Single Sign In tutorials" />
+                                <img src="" alt="Multiplayer, Achievement, In Game Clubs, Cross Title Storage and Single Sign In tutorials" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -192,7 +192,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/releasing.svg" alt="Private releasing and public releasing for Creators and ID@Xbox Programs" />
+                                <img src="images/getting_started/releasing.svg" alt="Private releasing and public releasing for Creators and ID@Xbox Programs" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -217,7 +217,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/apidesktop.svg" alt="XSAPI, XAL, Async and RESTful reference materials" />
+                                <img src="images/getting_started/apidesktop.svg" alt="XSAPI, XAL, Async and RESTful reference materials" />
                             </div>
                         </div>
                         <div class="cardText">
