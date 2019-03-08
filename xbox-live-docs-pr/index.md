@@ -188,7 +188,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsY panelContent cols cols2">
     <li>
-        <a href="s/gaming/xbox-live/api-reference">
+        <a href="/gaming/xbox-live/api-reference">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
