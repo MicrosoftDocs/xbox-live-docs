@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 
 <p>Xbox Live is a premier gaming network that connects millions of gamers across the world. You can add Xbox Live to your Windows 10 PC or Xbox One game in order to take advantage of the Xbox Live features and services.</p>
 
-<ul class="cardsY panelContent cols cols2">
+<ul class="cardsY panelContent cols">
     <li>
         <a href="https://developer.microsoft.com/en-us/games/news-and-events/gdc2019">
             <div class="cardSize">
@@ -135,6 +135,32 @@ ms.localizationpriority: medium
     <li>How to configure the feature in the Partner Center</li>
     <li>Examples of implementation and how to call a feature</li>
 </ul>
+
+<ul class="cardsY panelContent cols">
+    <li>
+        <a href="/gaming/xbox-live/features/">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="images/getting_started/xboxfeatures.svg" alt="Core Xbox Live Features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Core Xbox Live Features</h3>
+                            <p>Identity, Social, Achievements, Cloud Storage, Multiplayer and External Services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+<h2>Tutorials</h2>
+
+<p>Use our samples to learn concepts about how features can interact and enrich gaming experiences</p>
 
 <ul class="cardsY panelContent cols">
     <li>
