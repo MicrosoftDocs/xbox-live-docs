@@ -1,7 +1,7 @@
 ---
-title: XAL on win32
+title: Setting up Visual Studio for XAL login on Win32
 author: aablackm
-description: Sign in to Xbox Live with your Win 32 project
+description: Signing in to Xbox Live with an Win32 project.
 ms.author: aablackm
 ms.date: 08/30/2018
 ms.topic: article
@@ -10,13 +10,16 @@ ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, authentication, sign-in
 ms.localizationpriority: medium
 ---
-# XAL on Win32
 
-Once you have acquired the source code package for XAL, by following the instructions in the [XAL conceptual article](xal.md), this article will help you set up a Visual Studio development environment.
+# Setting up Visual Studio for XAL login on Win32
+
+Before setting up Visual Studio for configuring XAL sign-in that works on Win32, you must get the source code package for XAL per [Xbox Live Authentication Library (XAL) overview](xal-overview.md).
+
 
 ## Requirements
 
-You will need to use Visual Studio 2017 or later in order to use the XAL APIs. Your Visual Studio instance will require the following components to use XAL properly.
+You will need to use Visual Studio 2017 or later in order to use the XAL APIs.
+Your Visual Studio instance will require the following components to use XAL properly.
 
 - Workloads
     - .NET desktop development
@@ -34,6 +37,10 @@ Visual Studio Installer
 Visual Studio Installer workloads page
 ![Visual Studio Installer workloads](../../images/xal/vsinstaller_workloads.JPG)
 
+
 ## Setup and sign-in
 
-The introductory [XAL article](xal.md#integrate-xal-into-visual-studio) already covers how to setup your Visual Studio 2017 project to develop with XAL so you will not need to take any additional steps. Once your environment is setup you will be able to implement the code described in the [XAL best practices article](xal-sign-in.md). Since Win32 is already a C++ environment you will not need to take further steps to implement XAL sign-in.
+[Xbox Live Authentication Library (XAL) overview](xal-overview.md#integrate-xal-into-visual-studio) covers how to setup your Visual Studio 2017 project to develop with XAL, so you will not need to take any additional steps.
+Once your environment is set up, you will be able to implement the code described in the [XAL best practices article](xal-sign-in.md).
+
+Since Win32 is already a C++ environment, you will not need to take further steps to implement XAL sign-in.

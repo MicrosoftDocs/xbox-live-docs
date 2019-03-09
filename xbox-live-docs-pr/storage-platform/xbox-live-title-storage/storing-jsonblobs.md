@@ -1,16 +1,16 @@
 ---
-title: Storing a JSON blob
-
-description: Learn how to store a JSON blob in Xbox Live Title Storage.
+title: Storing a JSON blob in Title Storage
+description: Storing a JSON blob in Title Storage, using PUT.
 ms.assetid: f424aca1-e671-4e31-84c6-098fda4a9558
 ms.date: 04/04/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, title storage
 ms.localizationpriority: medium
 ---
-# Storing a JSON blob in Xbox Live Title Storage
 
-1.  Send a request using the *PUT* method to send the data to title storage.
+# Storing a JSON blob in Title Storage
+
+1.  Send a request using the *PUT* method to send the data to Xbox Live Title Storage.
 
 
 ```http

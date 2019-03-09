@@ -1,28 +1,141 @@
 ---
-title: Xbox Live Data Platform
-
-description: Overview of the Xbox Live Data Platform, which consists of services to manage achievements, player stats, and leaderboards.
-ms.assetid: a8bb7c4f-09fe-4dba-b3ce-1fab60453831
-ms.date: 04/04/2017
+layout: LandingPage
+title: Player Data
+author: mikehoffms
+description: Player Data in Xbox Live includes achievements, player stats, and leaderboards.
+ms.author: v-mihof
+ms.date: 03-07-2019
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, stats, achievements, leaderboards, data platform
+ms.prod: windows
+ms.technology: uwp
+keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
-# Xbox Live Data Platform - Stats, Leaderboards, Achievements
 
-Writing game data to the Xbox Live Data Platform enables your title to run as a service. Additionally, the Xbox Live Data Platform drives user engagement with your title using stats, leaderboards, and achievements, and surfaces featured stats in the console shell and Xbox App.
+<h1>Player Data</h1>
 
-One example of a stat for a racing game might be the total races run in drag strip mode, which can be used to create a leaderboard to compare your score against the community, and can be reflected in your Rich Presence string in real time (for example, "GoTeamEmily is playing Drag Strip Mode: 523 races completed"). Total races in drag strip mode could also be used as a criterion for Matchmaking, assuring players with similar experience are more likely to be matched together.
+<p>
+</p>
 
-Your title can display leaderboards based on player stats. For example, the leaderboard could be a global ranking of races completed. You call these services using the Xbox Live APIs directly, or wrappers in a game engine like Unity.
 
-You can designate certain stats as featured stats. Featured stats are shown in your title's GameHub and compare players against their friends.
+<h2>Overview</h2>
+<ul class="cardsF panelContent cols cols2">
+    <li>
+        <a href="data-platform-for-stats-leaderboards-achievements.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="../images/common/xbl_i_data-mining.svg" alt="Player Data" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Player Data: Stats, Leaderboards, and Achievements</h3>
+                        <p>Player Data in Xbox Live includes achievements, player stats, and leaderboards.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="designing-xbox-live-experiences.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="../images/common/xbl_i_data-mining.svg" alt="Player Data" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Designing XBL Experiences</h3>
+                        <p>Designing experiences for Player Data, including player stats, leaderboards, and achievements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
 
-Achievements are not powered by stats, and your title decides when an achievement is unlocked. For example your title might have an achievement for completing a race in under a minute. Your title keeps track of the parameters needed to unlock the achievement. In this example it would be up to your title to measure how long the race took, and then award the achievement. Typically, Gamerscore is awarded along with the completion of achievements. It is up to you to decided the amount of Gamerscore for each achievement.
-
-## Features ##
-The following topics provide more information about Xbox Live Data Platform features:
-
-* [Player Stats](../leaderboards-and-stats-2017/player-stats.md)
-* [Achievements](../achievements-2017/achievements.md)
-* [Leaderboards](../leaderboards-and-stats-2017/leaderboards.md)
+<h2>Features</h2>
+<ul class="cardsF panelContent cols cols2">
+    <li>
+        <a href="../achievements-2017/achievements.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="../images/common/xbl_i_data-mining.svg" alt="Player Data" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Achievements</h3>
+                        <p>Achievements includes gamerscore and other rewards such as digital artwork, new maps, characters, and stat boosts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="../leaderboards-and-stats-2017/player-stats.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="../images/common/xbl_i_data-mining.svg" alt="Player Data" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Player Stats</h3>
+                        <p>Setting up key pieces of information to track about a player.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="../leaderboards-and-stats-2017/leaderboards.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="../images/common/xbl_i_data-mining.svg" alt="Player Data" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Leaderboards</h3>
+                        <p>Defining leaderboards to compare players by showing selected stats for a game.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="../features/data/featured-stats/index.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="../images/common/xbl_i_data-mining.svg" alt="Player Data" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Featured Stats</h3>
+                        <p>Featured Stats.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>

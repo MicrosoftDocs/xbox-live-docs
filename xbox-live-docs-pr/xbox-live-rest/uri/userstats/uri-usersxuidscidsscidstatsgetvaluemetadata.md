@@ -2,7 +2,6 @@
 title: GET (/users/xuid({xuid})/scids/{scid}/stats?include=valuemetadata)
 assetID: 890e3f93-4fdc-955f-d849-ba9579d5c1eb
 permalink: en-us/docs/xboxlive/rest/uri-usersxuidscidsscidstatsgetvaluemetadata.html
-
 description: ' GET (/users/xuid({xuid})/scids/{scid}/stats?include=valuemetadata)'
 ms.date: 10/12/2017
 ms.topic: article
@@ -59,7 +58,7 @@ To include value metadata in the response, the request call must also set the he
 
 There is authorization logic implemented for content-isolation and access-control scenarios.
 
-   * Both leaderboards and user statistics can be read from clients on any platform, provided that the caller submits a valid XSTS token with the request. Writes are limited to clients supported by the Data Platform.
+   * Both leaderboards and user statistics can be read from clients on any platform, provided that the caller submits a valid XSTS token with the request. Writes are limited to clients supported by the Player Data system.
    * Title developers can mark statistics as open or restricted with XDP or Partner Center. Leaderboards are open statistics. Open statistics can be accessed by Smartglass, as well as iOS, Android, Windows, Windows Phone, and web applications, as long as the user is authorized to the sandbox. User authorization to a sandbox is managed through XDP or Partner Center.
 
 Pseudo-code for the check looks like this:

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="50px" viewBox="0 0 30 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>i_server</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Working-Vers-of-Verticle-Slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="L2---Bucketed-Landing-Template---Feature-Knowledge" transform="translate(-472.000000, -714.000000)">
+            <g id="i_server" transform="translate(473.000000, 715.000000)">
+                <rect id="Rectangle-path" stroke="#556A8A" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="28" height="48"></rect>
+                <g id="Group" transform="translate(0.000000, 0.774194)">
+                    <rect id="Rectangle-path" fill="#E5E5E5" fill-rule="nonzero" x="13.2222222" y="0" width="14" height="46.4516129"></rect>
+                    <rect id="Rectangle-path" fill="#7ED321" fill-rule="nonzero" x="0.777777778" y="11.6129032" width="12.4444444" height="1.5483871"></rect>
+                    <polygon id="Shape" points="19.6233333 3.97935484 0.49 3.97935484 0.49 5.52 19.6233333 5.52 19.6233333 3.97935484"></polygon>
+                    <polyline id="Shape" points="19.6233333 3.97935484 0.49 3.97935484 0.49 5.52 19.6233333 5.52 19.6233333 3.97935484"></polyline>
+                    <rect id="Rectangle-path" fill="#7ED321" fill-rule="nonzero" x="0.777777778" y="7.74193548" width="12.4444444" height="1.5483871"></rect>
+                    <rect id="Rectangle-path" fill="#7ED321" fill-rule="nonzero" x="0.777777778" y="3.87096774" width="12.4444444" height="1.5483871"></rect>
+                    <rect id="Rectangle-path" fill="#417505" fill-rule="nonzero" x="13.2222222" y="11.6129032" width="14" height="1.5483871"></rect>
+                    <rect id="Rectangle-path" fill="#417505" fill-rule="nonzero" x="13.2222222" y="7.74193548" width="14" height="1.5483871"></rect>
+                    <rect id="Rectangle-path" fill="#417505" fill-rule="nonzero" x="13.2222222" y="3.87096774" width="14" height="1.5483871"></rect>
+                </g>
+                <polygon id="Rectangle-path" fill="#417505" fill-rule="nonzero" points="0.777777778 4.64516129 2.33333333 4.64516129 2.33333333 6.19354839 0.777777778 6.19354839"></polygon>
+                <polygon id="Rectangle-path" fill="#417505" fill-rule="nonzero" points="0.777777778 8.51612903 2.33333333 8.51612903 2.33333333 10.0645161 0.777777778 10.0645161"></polygon>
+                <polygon id="Rectangle-path" fill="#417505" fill-rule="nonzero" points="0.777777778 12.3870968 2.33333333 12.3870968 2.33333333 13.9354839 0.777777778 13.9354839"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

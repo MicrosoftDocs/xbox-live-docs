@@ -1,16 +1,16 @@
 ---
-title: Storing a binary blob
-
-description: Learn how to store a binary blob in Xbox Live Title Storage.
+title: Storing a binary blob in Title Storage
+description: Storing a binary blob in Title Storage, using PUT.
 ms.assetid: a0da36ef-5a5a-466d-80a8-e055ba7e4cdc
 ms.date: 04/04/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, title storage
 ms.localizationpriority: medium
 ---
-# Storing a binary blob in Xbox Live Title Storage
 
-1.  Send a request using the below method to send the data to title storage.
+# Storing a binary blob in Title Storage
+
+1.  Send a request using the below method to send the data to Xbox Live Title Storage.
 
 ```http
 PUT https://titlestorage.xboxlive.com/trustedplatform/users/xuid(1245111)/scids/{scid}/data/lastturn.bin,binary              
@@ -21,13 +21,15 @@ Content-Length: 40
 Connection: Keep-Alive
 ```
 
+    - The user must be in the session to update it.
+    
+    - `<STSTokenString>` is a placeholder for brevity, and should be replaced with the token returned by the authentication request.
 
--   The user must be in the session to update it.
-
--   STSTokenString is a placeholder for brevity and should be replaced with the token returned by the authentication request.
-
-2.  Send the binary data. Since the data will be transferred through HTTP, the data must be constrained to the acceptable character set. Information such as image or audio data must be encoded. You may select any encoding method that generates HTTP compatible characters.
-
+2.  Send the binary data.
+    Since the data will be transferred through HTTP, the data must be constrained to the acceptable character set.
+    Information such as image or audio data must be encoded.
+    You may select any encoding method that generates HTTP-compatible characters.
+    
 ```http
   01EAEFBAD05903A4
   1EA2311656677DFF

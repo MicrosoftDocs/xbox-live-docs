@@ -1,32 +1,32 @@
 ---
-title: Programming the Real-Time Activity Service
-
-description: Learn about programming the Xbox Live Real-Time Activity Service with the C++ APIs.
+title: Programming the RTA service via C++ APIs
+description: Programming the Real-Time Activity Service with the C++ APIs.
 ms.assetid: 98cdcb1f-41d8-43db-98fc-6647755d3b17
 ms.date: 04/04/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, real time activity
 ms.localizationpriority: medium
 ---
-# Programming the Real-Time Activity Service using C++ APIs
 
-This article contains the following sections
+# Programming the RTA service via C++ APIs
 
-* Connecting to the Real-Time Activity Service from Xbox Live
-* Disconnected from the Real-Time Activity Service
-* Creating a statistic
-* Subscribing to a statistic from the Real-Time Activity
-* Unsubscribing from a statistic from the Real-Time Activity service
-* Sample
+This article contains the following sections:
+* [Connecting to the Real-Time Activity Service from Xbox Live](#connecting-to-the-real-time-activity-service-from-xbox-live)
+* [Creating a statistic](#creating-a-statistic)
+* [Disconnecting from the Real-Time Activity service](#disconnecting-from-the-real-time-activity-service)
+* [Subscribing to a statistic from the Real-Time Activity service](#subscribing-to-a-statistic-from-the-real-time-activity-service)
+* [Unsubscribing from a statistic from the Real-Time Activity service](#unsubscribing-from-a-statistic-from-the-real-time-activity-service)
+
 
 ## Connecting to the Real-Time Activity Service from Xbox Live
 
-Applications must connect to the Real-Time Activity (RTA) service to get event information from Xbox Live. This topic shows how to make such a connection.
+Applications must connect to the Real-Time Activity (RTA) service to get event information from Xbox Live.
 
 > [!NOTE]
-> The examples used in this topic indicate method calls for one user. However, your title must make these calls for all users to connect to and disconnect from the Real-Time Activity (RTA) service.
+> The examples used in this article indicate method calls for one user. However, your title must make these calls for all users to connect to and disconnect from the Real-Time Activity (RTA) service.
 
-### Connecting to the Real-Time Activity service
+
+### Example
 
 ```cpp
 void Example_RealTimeActivity_ConnectAsync()
@@ -41,22 +41,35 @@ void Example_RealTimeActivity_ConnectAsync()
 }
 ```
 
-### Creating a statistic
 
-You create statistics on XDP if you are an XDK developer or working on a cross-play title.  You create statistics in Partner Center if you are making a pure UWP running on Windows 10.
+## Creating a statistic
 
-#### XDK developers
+You create statistics on XDP if you are an XDK developer or working on a cross-play title.
+You create statistics in Partner Center if you are making a pure UWP running on Windows 10.
 
-For information on how to create a stat on XDP, please see the [XDP Documentation](https://developer.xboxlive.com/en-us/xdphelp/development/xdpdocs/Pages/setting_up_service_configuration_10_27_15_a.aspx#events).  After you have created your stat and defined your events, you will need to run the [XCETool](https://developer.xboxlive.com/en-us/platform/development/documentation/software/Pages/atoc_xce_jun15.aspx) to generate a header used by your application.  This header contains functions you can call to send events that modify stats.
 
-#### UWP developers
+### XDK developers
 
-If you are developing a UWP on Windows 10 that is not a cross-play title, you define your stats in [Partner Center](https://partner.microsoft.com/dashboard). Read the [Partner Center stats configuration article](../leaderboards-and-stats-2017/player-stats-configure-2017.md) to learn how to configure stats on Partner Center.
+To create a stat on XDP, see [XDP Documentation](https://developer.xboxlive.com/en-us/xdphelp/development/xdpdocs/Pages/setting_up_service_configuration_10_27_15_a.aspx#events).
+
+After you have created your stat and defined your events, you will need to run the [XCETool](https://developer.xboxlive.com/en-us/platform/development/documentation/software/Pages/atoc_xce_jun15.aspx) to generate a header used by your application.
+This header contains functions you can call to send events that modify stats.
+
+
+### UWP developers
+
+If you are developing a UWP on Windows 10 that is not a cross-play title, you define your stats in [Partner Center](https://partner.microsoft.com/dashboard).
+
+To configure stats on Partner Center, see [Partner Center stats configuration article](../leaderboards-and-stats-2017/player-stats-configure-2017.md).
 
 > [!NOTE]
 > Stats 2013 developer will need to contact their DAM for information concerning [Stats 2013 configuration](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/windows-configure-stats-2013) in [Partner Center](https://partner.microsoft.com/dashboard).
 
-### Disconnecting from the Real-Time Activity service
+
+## Disconnecting from the Real-Time Activity service
+
+
+### Example
 
 ```cpp
 void Example_RealTimeActivity_Disconnect()
@@ -69,11 +82,12 @@ void Example_RealTimeActivity_Disconnect()
 }
 ```
 
-## Subscribing to a statistic from the Real-Time Activity
+## Subscribing to a statistic from the Real-Time Activity service
 
 Applications subscribe to a Real-Time Activity (RTA) to get updates when the statistics configured in Xbox Developer Portal (XDP) or Partner Center change.
 
-### Subscribing to a statistic from the Real-Time Activity service
+
+### Example
 
 ```cpp
 void Example_RealTimeActivity_SubscribeToStatisticChangeAsync()
@@ -107,11 +121,14 @@ void Example_RealTimeActivity_SubscribeToStatisticChangeAsync()
 }
 ```
 
+
 ## Unsubscribing from a statistic from the Real-Time Activity service
 
-Applications subscribe to a statistic from the Real-Time Activity (RTA) service to get updates when the statistic changes. When these updates are no longer needed, the subscription can be terminated, and the code in this topic shows how to do that.
+Applications subscribe to a statistic from the Real-Time Activity (RTA) service to get updates when the statistic changes.
+When these updates are no longer needed, the subscription can be terminated, as follows.
 
-### Unsubscribing from a real-time services statistic
+
+### Example
 
 ```cpp
 void Example_RealTimeActivity_UnsubscribeFromStatisticChangeAsync()

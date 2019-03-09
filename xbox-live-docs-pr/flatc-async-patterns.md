@@ -1,22 +1,24 @@
 ---
-title: Asynchronous C API calling patterns
-
-description: Learn the asynchronous C API calling patterns for the XSAPI C API
+title: Making async calls in the XSAPI C API
+description: Making asynchronous calls in the XSAPI flat C API.
 ms.date: 06/10/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, developer program,
 ms.localizationpriority: medium
 ---
-# Calling pattern for XSAPI flat C layer async calls
+
+# Making async calls in the XSAPI C API
 
 An **asynchronous API** is an API that returns quickly but starts an **asynchronous task** and the result is returned after the task is finished.
 
-Traditionally games have little control over which thread executes the **asynchronous task** and which thread returns the results when using a **completion callback**.  Some games are designed so that a section of the heap is only touched by a single thread to avoid any need for thread synchronization. If the **completion callback** isn't called from a thread the game controls, updating shared state with the result of an **asynchronous task** will require thread synchronization.
+Traditionally, games have little control over which thread executes the **asynchronous task** and which thread returns the results when using a **completion callback**.
+Some games are designed so that a section of the heap is only touched by a single thread to avoid any need for thread synchronization.
+If the **completion callback** isn't called from a thread the game controls, updating shared state with the result of an **asynchronous task** will require thread synchronization.
 
 The XSAPI C API exposes a new asynchronous C API that gives developers direct thread control when
 making an **asynchronous API** call, such as **XblSocialGetSocialRelationshipsAsync()**, **XblProfileGetUserProfileAsync()** and **XblAchievementsGetAchievementsForTitleIdAsync()**.
 
-Here is a basic example calling the **XblProfileGetUserProfileAsync** API.
+Here is a basic example calling the **XblProfileGetUserProfileAsync** API:
 
 [!INCLUDE [XblProfileGetUserProfileAsync](code/snippets/XblProfileGetUserProfileAsync.md)]
 
@@ -26,9 +28,11 @@ To understand this calling pattern, you will need to understand how to use the *
 
 * The **AsyncQueue** allows you to determine which thread executes the **asynchronous task** and which thread calls the AsyncBlock's **completion callback**.
 
+
 ## The **AsyncBlock**
 
-Let's take a look at the **AsyncBlock** in detail. It is a struct defined as follows:
+Let's take a look at the **AsyncBlock** in detail.
+It is a struct defined as follows:
 
 ```cpp
 typedef struct AsyncBlock
@@ -42,43 +46,56 @@ typedef struct AsyncBlock
 The **AsyncBlock** contains:
 
 * *callback* - an optional callback function that will be called after the asynchronous work has been done.  If you don't specify a callback, you can wait for the **AsyncBlock** to complete with **GetAsyncStatus** and then get the results.
+
 * *context* - allows you to pass data to the callback function.
+
 * *queue* - an async_queue_handle_t which is a handle designating an **AsyncQueue**. If this is not set, a default queue will be used.
 
-You should create a new AsyncBlock on the heap for each async API you call.  The AsyncBlock must live until the AsyncBlock's completion callback is called and then it can be deleted.
+You should create a new AsyncBlock on the heap for each async API you call.
+The AsyncBlock must live until the AsyncBlock's completion callback is called and then it can be deleted.
 
 > [!IMPORTANT]
 > An **AsyncBlock** must remain in memory until the **asynchronous task** completes. If it is dynamically allocated, it can be deleted inside the AsyncBlock's **completion callback**.
+
 
 ### Waiting for an **asynchronous task**
 
 You can tell an **asynchronous task** is complete a number of different ways:
 
-* the AsyncBlock's **completion callback** is called
+* The AsyncBlock's **completion callback** is called.
 * Call **GetAsyncStatus** with true to wait until it completes.
-* Set a waitEvent in the **AsyncBlock** and wait for the event to be signaled
+* Set a waitEvent in the **AsyncBlock** and wait for the event to be signaled.
 
 With **GetAsyncStatus** and waitEvent, the **asynchronous task** is considered complete after the AsyncBlock's **completion callback** executes however the AsyncBlock's **completion callback** is optional.
 
 Once the **asynchronous task** is complete, you can get the results.
 
+
 ### Getting the result of the **asynchronous task**
 
-To get the result, most **asynchronous API** functions have a corresponding \[Name of Function\]Result function to receive the result of the asynchronous call. In our example code, **XblProfileGetUserProfileAsync** has a corresponding **XblProfileGetUserProfileResult** function. You can use this function to return the result of the function and act accordingly.  See the documention of each **asynchronous API** function for full details on retrieving results.
+To get the result, most **asynchronous API** functions have a corresponding \[Name of Function\]Result function to receive the result of the asynchronous call.
+
+In our example code, **XblProfileGetUserProfileAsync** has a corresponding **XblProfileGetUserProfileResult** function.
+You can use this function to return the result of the function and act accordingly.
+
+For full details on retrieving results, see the documentation of each **asynchronous API** function.
+
 
 ## The **AsyncQueue**
 
 The **AsyncQueue** allows you to determine which thread executes the **asynchronous task** and which thread calls the AsyncBlock's **completion callback**.
 
-You can control which thread performs these operation by setting a *dispatch mode*. There are three dispatch modes available:
+You can control which thread performs these operation by setting a *dispatch mode*.
+There are three dispatch modes available:
 
 * *Manual* - The manual queue are not automatically dispatched.  It is up to the developer to dispatch them on any thread they want. This can be used to assign either the work or callback side of an async call to a specific thread.  This is discussed in more detail below.
 
-* *Thread Pool* - Dispatches using a thread pool.  The thread pool invokes the calls in parallel, taking a call to execute from the queue in turn as threadpool threads become available.  This is the easist to use but gives you the least amount of control over which thread is used.
+* *Thread Pool* - Dispatches using a thread pool.  The thread pool invokes the calls in parallel, taking a call to execute from the queue in turn as threadpool threads become available.  This is the easist to use, but gives you the least amount of control over which thread is used.
 
 * *Fixed Thread* - Dispatches using QueueUserAPC on the thread that created the async queue. When a user-mode APC is queued, the thread is not directed to call the APC function unless it is in an alertable state. A thread enters an alertable state by using **SleepEx**, **SignalObjectAndWait**, **WaitForSingleObjectEx**, **WaitForMultipleObjectsEx**, or **MsgWaitForMultipleObjectsEx** to perform an alertable wait operation
 
 To create a new **AsyncQueue** you will need to call **CreateAsyncQueue**.
+For example:
 
 ```cpp
 STDAPI CreateAsyncQueue(
@@ -87,7 +104,8 @@ STDAPI CreateAsyncQueue(
     _Out_ async_queue_handle_t* queue);
 ```
 
-This function takes two AsyncQueueDispatchMode as parameters.  There are three possible values for a AsyncQueueDispatchMode:
+This function takes two `AsyncQueueDispatchMode` parameters.
+There are three possible values for `AsyncQueueDispatchMode`:
 
 ```cpp
 typedef enum AsyncQueueDispatchMode
@@ -138,6 +156,7 @@ STDAPI_(void) CloseAsyncQueue(
 **Call Sample**:  
 [!INCLUDE [CloseAsyncQueue](code/snippets/CloseAsyncQueue.md)]
 
+
 ### Manually dispatching an **AsyncQueue**
 
 If you used the manual queue dispatch mode for an **AsyncQueue** work or completion queue, you will need to manually dispatch.
@@ -178,6 +197,7 @@ typedef enum AsyncQueueCallbackType
 } AsyncQueueCallbackType;
 ```
 
+
 ### When to call **DispatchAsyncQueue**
 
 In order to check when the queue has received a new item you can call **AddAsyncQueueCallbackSubmitted** to set an event handler to let your code know that either work or completions are ready to be dispatched.
@@ -189,6 +209,7 @@ STDAPI AddAsyncQueueCallbackSubmitted(
     _In_ AsyncQueueCallbackSubmitted* callback,
     _Out_ uint32_t* token);
 ```
+
 
 **AddAsyncQueueCallbackSubmitted** takes the following parameters:
 
@@ -218,7 +239,7 @@ void CALLBACK HandleAsyncQueueCallback(
 }
 ```
 
-Then in a background thread you can listen for this semaphore to wake up and call **DispatchAsyncQueue**.
+Then in a background thread, you can listen for this semaphore to wake up and call **DispatchAsyncQueue**.
 
 ```cpp
 DWORD WINAPI BackgroundWorkThreadProc(LPVOID lpParam)
@@ -254,7 +275,8 @@ DWORD WINAPI BackgroundWorkThreadProc(LPVOID lpParam)
 }
 ```
 
-It is best practice to use a Win32 Semaphore object for this implementation.  If instead you implement using a Win32 Event object, then you'll need to ensure you don't miss any events by implementing code like the following:
+It is best practice to use a Win32 Semaphore object for this implementation.
+If you instead implement using a Win32 Event object, ensure that you don't miss any events, by implementing code like the following:
 
 ```cpp
     case WAIT_OBJECT_0: 
@@ -269,4 +291,4 @@ It is best practice to use a Win32 Semaphore object for this implementation.  If
         break;
 ```
 
-You can view an example of the best practices for async integration at [Social C Sample AsyncIntegration.cpp](https://github.com/Microsoft/xbox-live-api/blob/master/InProgressSamples/Social/Xbox/C/AsyncIntegration.cpp)
+For an example of best practices for async integration, see [Social C Sample AsyncIntegration.cpp](https://github.com/Microsoft/xbox-live-api/blob/master/InProgressSamples/Social/Xbox/C/AsyncIntegration.cpp).

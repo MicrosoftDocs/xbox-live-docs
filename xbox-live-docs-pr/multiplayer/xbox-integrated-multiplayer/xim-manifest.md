@@ -1,18 +1,25 @@
 ---
-title: XIM Project Configuration
-
-description: Describes how to configure your UWP app manifests to work with Xbox Integrated Multiplayer (XIM).
+title: XIM project configuration
+description: Configuring your UWP app manifests to work with Xbox Integrated Multiplayer (XIM).
 ms.assetid: 5d0ed7bd-9527-42a3-ae09-8cc9012c1111
 ms.date: 04/04/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, xbox integrated multiplayer, manifest
 ms.localizationpriority: medium
 ---
-# XIM Project Configuration
+
+# XIM project configuration
+
 
 ## Required AppXManifest capability content
 
-An application using XIM inherently requires connecting to and accepting connections from network resources both over the Internet and the local network. It also requires access to microphone devices to support voice chat. As a result, the app should declare the "internetClientServer" and "privateNetworkClientServer" capabilities, and the "microphone" device capability in its AppXManifest. See the platform documentation for more detail on each. The following snippet shows the nodes that should exist under the Package/Capabilities node or else connectivity and chat will be blocked:
+In its AppXManifest, the app should declare the `internetClientServer` and `privateNetworkClientServer` capabilities, because an application using XIM requires connecting to and accepting connections from network resources both over the Internet and the local network.
+
+In its AppXManifest, the app should also declare the `microphone` device capability, because an application using XIM requires access to microphone devices to support voice chat.
+
+For more detail about these capability settings, see the platform documentation.
+
+The following snippet shows the nodes that should exist under the Package/Capabilities node or else connectivity and chat will be blocked:
 
 ```xml
  <?xml version="1.0" encoding="utf-8"?>
@@ -29,7 +36,11 @@ An application using XIM inherently requires connecting to and accepting connect
 
 ## Universal Windows application Xbox Live multiplayer invite protocol activation extension
 
-Xbox Live multiplayer applications are expected to support game invitations. Invites accepted by local users arrive in the form of protocol activation of the app (see the platform documentation for more information regarding protocol activation). Apps that use XIM other than for XIM networks managed through out-of-band reservations invoke the `xim::extract_protocol_activation_information()` method to assist in handling protocol activation at run-time, but Universal Windows Platform (UWP) applications must also statically declare via an AppXManifest "windows.protocol" extension that they support such "ms-xbl-multiplayer" activations by the system. This can be done as seen in the following snippet:
+Xbox Live multiplayer applications are expected to support game invitations.
+Invites accepted by local users arrive in the form of protocol activation of the app (see the platform documentation for more information regarding protocol activation).
+
+Apps that use XIM other than for XIM networks managed through out-of-band reservations invoke the `xim::extract_protocol_activation_information()` method to assist in handling protocol activation at run-time, but Universal Windows Platform (UWP) applications must also statically declare via an AppXManifest "windows.protocol" extension that they support such "ms-xbl-multiplayer" activations by the system.
+This can be done as in the following snippet:
 
 ```xml
  <?xml version="1.0" encoding="utf-8"?>
@@ -47,14 +58,17 @@ Xbox Live multiplayer applications are expected to support game invitations. Inv
  </Package>
 ```
 
-This is only required for universal Windows applications. Xbox One exclusive resource ("XDK") applications do not explicitly declare a protocol activation extension as they are automatically registered by declaring their Xbox Live title ID extension.
+This is only required for universal Windows applications.
+Xbox One exclusive resource ("XDK") applications do not explicitly declare a protocol activation extension as they are automatically registered by declaring their Xbox Live title ID extension.
+
 
 ## Xbox One exclusive resource application network manifest templates
 
-Any Xbox One exclusive resource application that uses XIM must ensure certain socket description and template content is included in its "network manifest" extension of the AppXManifest (see the platform documentation for more detail on network manifests). The app may have other templates as well, but the following snippet must be present or else moving to a XIM network will fail:
+Any Xbox One exclusive resource application that uses XIM must ensure certain socket description and template content is included in its "network manifest" extension of the AppXManifest (see the platform documentation for more detail on network manifests).
+
+The app may have other templates as well, but the following snippet must be present, or else moving to a XIM network will fail:
 
 ```xml
-
  <?xml version="1.0" encoding="utf-8"?>
  <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:mx="http://schemas.microsoft.com/appx/2013/xbox/manifest" IgnorableNamespaces="mx">
    <Applications>
@@ -111,7 +125,9 @@ Any Xbox One exclusive resource application that uses XIM must ensure certain so
 
 ## Universal Windows application (UWP) network manifest templates
 
-Any universal Windows application that uses XIM must ensure certain socket description and template content is included in its "network manifest" file (networkmanifest.xml file in the package root directory, see the platform documentation for more detail on network manifests). The app may have other templates as well, but the following snippet must be present or else moving to a XIM network will fail:
+Any universal Windows application that uses XIM must ensure certain socket description and template content is included in its "network manifest" file (networkmanifest.xml file in the package root directory, see the platform documentation for more detail on network manifests).
+
+The app may have other templates as well, but the following snippet must be present or else moving to a XIM network will fail:
 
 ```xml
  <?xml version="1.0" encoding="utf-8"?>

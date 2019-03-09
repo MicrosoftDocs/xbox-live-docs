@@ -1,34 +1,47 @@
 ---
 title: Multiplayer session browse
-
-description: Learn how to implement multiplayer session browse by using Xbox Live multiplayer.
+description: Multiplayer session browse enables a title to query for a list of open multiplayer game sessions that meet the specified criteria.
 ms.assetid: b4b3ed67-9e2c-4c14-9b27-083b8bccb3ce
 ms.date: 10/16/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
+
 # Multiplayer session browse
 
-Multiplayer session browse is a new feature introduced in November 2016 that enables a title to query for a list of open multiplayer game sessions that meet the specified criteria.
+Multiplayer session browse enables a title to query for a list of open multiplayer game sessions that meet the specified criteria.
+
+Multiplayer session browse was introduced in November 2016.
+
 
 ## What is session browse?
 
-In a session browse scenario, a player in a game is able to retrieve a list of joinable game sessions. Each session entry in this list contains some additional metadata about the game, which a player can use to help them select which session to join.  They can also filter the list of sessions based on the metadata. Once the player sees a game session that appeals to them, they can join the session.
+In a session browse scenario, a player in a game is able to retrieve a list of joinable game sessions.
+Each session entry in this list contains some additional metadata about the game, which a player can use to help them select which session to join.
+
+The player can also filter the list of sessions based on the metadata.
+Once the player sees a game session that appeals to them, they can join the session.
 
 A player can also create a new game session, and use session browse to recruit additional players instead of relying on matchmaking.
 
-Session browse differs from traditional matchmaking scenarios in that the player self-selects which game session they want to join, while in matchmaking, the player typically clicks a "find a game" button that attempts to automatically place the player in an appropriate game session. While session browse is a manual and slower process that may not always select the objectively best game, it provides more control to the player and can be perceived as the subjectively better game pick.
+Session browse differs from traditional matchmaking scenarios in that the player self-selects which game session they want to join, while in matchmaking, the player typically clicks a "find a game" button that attempts to automatically place the player in an appropriate game session.
+While session browse is a manual and slower process that may not always select the objectively best game, it provides more control to the player and can be perceived as the subjectively better game pick.
 
-It is common to include both session browse and matchmaking scenarios in games. Typically matchmaking is used for commonly played game modes, while session browse is used for custom games.
+It is common to include both session browse and matchmaking scenarios in games.
+Typically matchmaking is used for commonly played game modes, while session browse is used for custom games.
 
-**Example:** John may be interested in playing a hero battle arena style multiplayer game, but wants to play a game where all players select their hero randomly. He can retrieve a list of open game sessions and find the ones that include "random heroes" in their description, or if the game UI allows it, he can select the "random hero" game mode and retrieve only the sessions that are tagged to indicate that they are "RandomHero" games.
+**Example:** John may be interested in playing a hero battle arena style multiplayer game, but wants to play a game where all players select their hero randomly.
+He can retrieve a list of open game sessions and find the ones that include "random heroes" in their description, or if the game UI allows it, he can select the "random hero" game mode and retrieve only the sessions that are tagged to indicate that they are "RandomHero" games.
 
-When he finds a game that he likes, he joins the game. When enough people have joined the session, the host of the game session can start the game.
+When he finds a game that he likes, he joins the game.
+When enough people have joined the session, the host of the game session can start the game.
+
 
 ### Roles
 
-A game in session browse may want to recruit players for specific roles. For example, a player may want to create a game session that specifies that the session contains no more than 5 assault classes, but must contain at least 2 healer roles, and at least 1 tank role.
+A game in session browse may want to recruit players for specific roles.
+For example, a player may want to create a game session that specifies that the session contains no more than 5 assault classes, but must contain at least 2 healer roles, and at least 1 tank role.
 
 When another player applies for the session, they can pre-select their role, and the service will not allow them to join the session if there are no open slots for the role they have selected.
 
@@ -37,19 +50,22 @@ Another example would be if a player wants to reserve 2 slots for their friends 
 For more information about roles, see [multiplayer roles](multiplayer-roles.md).
 
 
-
 ## How does session browse work?
 
-Session browse works primarily on the use of search handles. A search handle is a packet of data that contains a reference to the session, as well as additional metadata about the session, namely search attributes.
+Session browse works primarily on the use of search handles.
+A search handle is a packet of data that contains a reference to the session, as well as additional metadata about the session, namely search attributes.
 
-When a title creates a new game session that is eligible for session browse, it creates a search handle for the session. The search handle is stored in the Multiplayer Service Directory (MPSD), which maintains the search handles for the title.
+When a title creates a new game session that is eligible for session browse, it creates a search handle for the session.
+The search handle is stored in the Multiplayer Service Directory (MPSD), which maintains the search handles for the title.
 
-When a title needs to retrieve a list of sessions, the title can send a search query to MPSD, which will return a list of search handles that meet the search criteria. The title can then use the list of sessions to display a list of joinable games to the player.
+When a title needs to retrieve a list of sessions, the title can send a search query to MPSD, which will return a list of search handles that meet the search criteria.
+The title can then use the list of sessions to display a list of joinable games to the player.
 
 When a session is full, or otherwise cannot be joined, a title can remove the search handle from MPSD so that the session will no longer show up in session browse queries.
 
 >[!NOTE]
 > Search handles are intended to be used when displaying a list of sessions to be presented to a user. Using search handles for background matchmaking is not valid, and instead consider using [SmartMatch](multiplayer-manager/play-multiplayer-with-matchmaking.md)
+
 
 ## Set up a session for session browse
 
@@ -68,11 +84,13 @@ You can set these capabilities in the session template when you configure your X
 
 For session browse, you should only create search handles on sessions that will be used for actual gameplay, not for lobby sessions.
 
+
 ## What does it mean to be an owner of a session?
 
-While many game session types, such as SmartMatch or a friends only game, do not require an owner, for session browse sessions you may wish to have an owner. 
+While many game session types, such as SmartMatch or a friends only game, do not require an owner, for session browse sessions you may wish to have an owner.
 
-Having an owner-managed session has some benefits for the owner. Owners can remove other members from the session, or change the ownership status of other members.
+Having an owner-managed session has some benefits for the owner.
+Owners can remove other members from the session, or change the ownership status of other members.
 
 In order to use owners for a session, the session must have the following capabilities set to true:
 
@@ -82,16 +100,20 @@ If an owner of a session has an Xbox Live member blocked, that member cannot joi
 
 When using [multiplayer roles](multiplayer-roles.md), you can set it so only owners can assign roles to users.
 
-If all owners leave a session, then the service takes action on the session based the `ownershipPolicy.migration` policy that is defined for the session. If the policy is "oldest", then the player that has been in the session the longest is set to be the new owner. If the policy is "endsession" (the default if not supplied), then the service ends the session and removes all remaining players from the session.
+If all owners leave a session, then the service takes action on the session based the `ownershipPolicy.migration` policy that is defined for the session.
+If the policy is "oldest", then the player that has been in the session the longest is set to be the new owner.
+If the policy is "endsession" (the default if not supplied), then the service ends the session and removes all remaining players from the session.
 
 
 ## Search handles
 
-A search handle is stored in MSPD as a JSON structure. In addition to containing a reference to the session, search handles also contain additional metadata for searches, known as search attributes.
+A search handle is stored in MSPD as a JSON structure.
+In addition to containing a reference to the session, search handles also contain additional metadata for searches, known as search attributes.
 
 A session can only have one search handle created for it at any time.
 
 To create a search handle for a session in by using the Xbox Live APIs, you first create a `multiplayer::multiplayer_search_handle_request` object, and then pass that object to the `multiplayer::multiplayer_service::set_search_handle()` method.
+
 
 ### Search attributes
 
@@ -119,11 +141,13 @@ When you retrieve a search handle, the results also include additional useful da
 
 In the Xbox Live APIs, these details, along with the search attributes, are included in the `multiplayer_search_handle_details` that are returned after a search query.
 
+
 ### Remove a search handle
 
 When you want to remove a session from session browse, such as when the session is full, or if the session is closed, you can delete the search handle.
 
 In the Xbox Live APIs, you can use the `multiplayer_service::clear_search_handle()` method to remove a search handle.
+
 
 ### Example: Create a search handle with metadata
 
@@ -164,18 +188,21 @@ The search query syntax is an  [OData](https://docs.oasis-open.org/odata/odata/v
  and | logical AND
  or | logical OR (see note below)
 
-You can also use lambda expressions and the `tolower` canonical function. No other OData functions are supported currently.
+You can also use lambda expressions and the `tolower` canonical function.
+No other OData functions are supported currently.
 
 When searching for tags or string values, you must use the 'tolower' function in the search query, as the service only currently supports searching for lower-case strings.
 
-The Xbox Live service only returns the first 100 results that match the search query. Your game should allow players to refine their search query if the results are too broad.
+The Xbox Live service only returns the first 100 results that match the search query.
+Your game should allow players to refine their search query if the results are too broad.
 
 >[!NOTE]
 >  Logical ORs are supported in filter string queries; however only one OR is allowed and it must be at the root of your query. You cannot have multiple ORs in your query, nor can you create a query that would result in OR not being at the top most level of the query structure.
 
+
 ### Search handle query examples
 
-In a restful call, "Filter" is where you would specify an OData Filter language string that will be run in your query against all search handles.  
+In a restful call, "Filter" is where you would specify an OData Filter language string that will be run in your query against all search handles.
 In the multiplayer 2015 APIs, you can specify the search filter string in the *searchFilter* parameter of the `multiplayer_service.get_search_handles()` method.  
 
 Currently, the following filter scenarios are supported:
@@ -212,19 +239,22 @@ Currently, the following filter scenarios are supported:
  All search handles that point to a session that uses a particular template name | "session/templateName eq 'mytemplate1'"
  All search handles that have the tag 'elite' or have a number 'guns' greater than 15 and string 'clan' equal to 'purple' | "tags/any(a:tolower(a) eq 'elite') or number/guns gt 15 and string/clan eq 'purple'"
 
+
 ### Refreshing search results
 
- Your game should avoid automatically refreshing a list of sessions, but instead provide UI that allows a player to manually refresh the list (possibly after refining the search criteria to better filter the results).
+Your game should avoid automatically refreshing a list of sessions, but instead provide UI that allows a player to manually refresh the list (possibly after refining the search criteria to better filter the results).
 
- If a player attempts to join a session, but that session is full or closed, then your game should refresh the search results as well.
+If a player attempts to join a session, but that session is full or closed, then your game should refresh the search results as well.
 
- Too many search refreshes can lead to service throttling, so your title should limit the rate at which the query can be refreshed.
+Too many search refreshes can lead to service throttling, so your title should limit the rate at which the query can be refreshed.
+
 
  To reduce service call volume, search handles include custom session properties which can be used to store and query rapidly changing session attributes. Such attributes should not be stored in search attributes.
 
 ### Example: query for search handles
 
- The following code shows how to query for search handles. The API returns a collection of `multiplayer_search_handle_details` objects that represent all the search handles that match the query.
+The following code shows how to query for search handles.
+The API returns a collection of `multiplayer_search_handle_details` objects that represent all the search handles that match the query.
 
 ```cpp
  auto result = multiplayer_service().get_search_handles(scid, template, orderBy, orderAscending, searchFilter)
@@ -254,6 +284,7 @@ Currently, the following filter scenarios are supported:
  }
  */
 ```
+
 
 ## Join a session by using a search handle
 

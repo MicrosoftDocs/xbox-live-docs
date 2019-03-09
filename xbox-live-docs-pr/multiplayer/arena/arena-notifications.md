@@ -1,15 +1,16 @@
 ---
-title: Arena notifications
-
-description: Describes the Xbox Arena notifications that are sent to players to progress them through the tournament stages.
+title: UX for Arena notifications
+description: List of Xbox Arena notifications that are sent to players to guide them through the tournament stages.
 ms.date: 10/12/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, arena, tournament, ux
 ms.localizationpriority: medium
 ---
-# Arena notifications
 
-Xbox Arena surfaces notifications to participants registered for Arena tournaments, to usher them through the tournament stages. Any additional alerts, promotion, or game-related details must be provided by your title.
+# UX for Arena notifications
+
+Xbox Arena surfaces the following notifications to participants registered for Arena tournaments, to usher them through the tournament stages.
+Any additional alerts, promotion, or game-related details must be provided by your title.
 
 REGISTRATION | TEAM FORMATION | TOURNAMENT STATE
 --- | --- | ---

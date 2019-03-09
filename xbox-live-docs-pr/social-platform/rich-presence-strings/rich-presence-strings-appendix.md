@@ -1,30 +1,34 @@
 ---
 title: Rich Presence appendix
-
-description: Learn about using the Xbox Live Data Platform to enhance Rich Presence strings.
+description: Using stats from the Player Data in Rich Presence strings.
 ms.assetid: 626c1661-3be9-49e4-a5ce-d3f5abd79a9b
 ms.date: 04/04/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
+
 # Rich Presence appendix
 
-## Data Platform
+You can use Player Stats from the Player Data in Rich Presence strings.
 
-The basics of the data platform are part of the Entertainment as a Service initiative. The idea is that everything in a game can be described as events with attributes associated with those events. Developers can configure statistics and state values important to the game's experience in the service.
 
-Some example statistics are:
+## Player Data
 
+The basics of Player Data are part of the "Entertainment as a Service" initiative.
+Everything in a game can be described as events, with attributes associated with those events.
+
+You can configure statistics and state values that are important to the game's experience in the service.
+
+Example statistics:
 -   Number of kills
 -   Number of side quests completed
 -   Number of coins collected
 -   Number of miles driven
 
-Some example state data are:
-
+Example state data:
 -   Current map
 -   Current X, Y, Z coordinates
 -   Current weapon
 
-For more information about stats, see [Player Stats](../../leaderboards-and-stats-2017/player-stats.md).
+For more information, see [Player Stats](../../leaderboards-and-stats-2017/player-stats.md).

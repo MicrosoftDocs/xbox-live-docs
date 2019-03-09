@@ -1,6 +1,5 @@
 ---
 title: Xbox One Multiplayer Session Directory
-
 description: Learn about creating multiplayer sessions by using the Xbox Live Mutliplayer Session Directory (MPSD) service.
 ms.assetid: 70da1be3-5f39-4eed-b62d-9cdd47e413d2
 ms.date: 04/04/2017
@@ -8,21 +7,34 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
+
 # Xbox One Multiplayer Session Directory
 
-This topic provides an overview of multiplayer session creation using the new Xbox One Multiplayer Session Directory (MPSD) service. The paper is directed primarily toward Xbox One title developers who submit their session templates directly to Xbox Development Portal (XDP). The MPSD service can be configured with Partner Center as well, but is not focused on in this article. It is intended to familiarize them with terms and concepts associated with MPSD configuration, usage, and troubleshooting of multiplayer sessions.
+This article provides an overview of multiplayer session creation using the new Xbox One Multiplayer Session Directory (MPSD) service.
+
+This article is directed primarily toward Xbox One title developers who submit their session templates directly to Xbox Development Portal (XDP).
+The MPSD service can be configured with Partner Center as well, but is not focused on in this article.
+
+This article covers MPSD configuration, usage, and troubleshooting of multiplayer sessions.
+
 
 ## Revision summary
 
-The client-side XSAPI (Xbox Services API) libraries currently use contract version 104 when communicating to the MPSD services. This version of the document updates the session template schema to contract version 107, which is the latest contract version supported by the MPSD services. The changes between version 104 and 107 are summarized in the section entitled [Contract schema update](#_Contract_schema_update).
+The client-side XSAPI (Xbox Services API) libraries currently use contract version 104 when communicating to the MPSD services.
+This version of the document updates the session template schema to contract version 107, which is the latest contract version supported by the MPSD services.
+The changes between version 104 and 107 are summarized in the section entitled [Contract schema update](#_Contract_schema_update).
 
-Note that templates that were written for contract version 104 will need to be updated if they are republished as 107. However, the services are backward-compatible so you can continue to use the current libraries, which will be updated in a future XDK release.
+Note that templates that were written for contract version 104 will need to be updated if they are republished as 107.
+However, the services are backward-compatible so you can continue to use the current libraries, which will be updated in a future XDK release.
 
-The previous revision of this document updated information regarding server sessions and added a new section about Xbox Live Service APIs and RESTful service calls. In addition, the table found in the Query for Session State Information section was updated and the Quality of Service (QoS) Templates section was revised.
+The previous revision of this document updated information regarding server sessions and added a new section about Xbox Live Service APIs and RESTful service calls.
+In addition, the table found in the Query for Session State Information section was updated and the Quality of Service (QoS) Templates section was revised.
+
 
 ## Introduction
 
-On Xbox One, a multiplayer session is a secure document that lives in the cloud on the Multiplayer Session Directory (MPSD), and this document represents a group of people playing a game. Specifically, multiplayer sessions have the following qualities:
+On Xbox One, a multiplayer session is a secure document that lives in the cloud on the Multiplayer Session Directory (MPSD), and this document represents a group of people playing a game.
+Specifically, multiplayer sessions have the following qualities:
 
 -   Each session has a unique URI.
 
@@ -32,7 +44,13 @@ On Xbox One, a multiplayer session is a secure document that lives in the cloud 
 
 -   A session enables connectivity between its members.
 
-The Multiplayer Session Directory centralizes game session metadata across all the clients. It provides the basic information needed about a session to help set up the secure device associations between clients. It also provides basic first-boot metadata for a client to connect to the game before it starts passing around more specific game data. With Process Lifetime Management (PLM) and the task-switching nature of applications on Xbox One, the MPSD ensures that clients have the correct information for contacting peers and servers that are identified as part of the active game session, and coordinates with the shell and console operating system to reserve, activate, and manage player lifetime for a game session.
+The Multiplayer Session Directory (MPSD) centralizes game session metadata across all the clients.
+MPSD provides the basic information needed about a session to help set up the secure device associations between clients.
+
+MPSD also provides basic first-boot metadata for a client to connect to the game before it starts passing around more specific game data.
+
+With Process Lifetime Management (PLM) and the task-switching nature of applications on Xbox One, MPSD ensures that clients have the correct information for contacting peers and servers that are identified as part of the active game session, and coordinates with the shell and console operating system to reserve, activate, and manage player lifetime for a game session.
+
 
 ## Terminology used in this document
 
@@ -45,7 +63,10 @@ The Multiplayer Session Directory centralizes game session metadata across all t
 
 ## The Multiplayer Session Directory
 
-The MPSD facilitates and helps titles coordinate session information between online players. There can be different types of sessions created to accomplish different tasks of multiplayer play. The following table lays out the differences in how such tasks were done on Xbox 360 versus how they are accomplished on Xbox One.
+The MPSD facilitates and helps titles coordinate session information between online players.
+There can be different types of sessions created to accomplish different tasks of multiplayer play.
+
+The following table lays out the differences in how such tasks were done on Xbox 360 versus how they are accomplished on Xbox One.
 
 | Function or task                     | Xbox 360                                                                                                        | Xbox One                                                                                                   |
 |--------------------------------------|-----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
@@ -74,6 +95,7 @@ Figure 1 illustrates usages of MPSD sessions, where the blue boxes represent MPS
 
 Figure 1. MPSD session use.
 
+
 ## MPSD sessions
 
 Sessions maintain two lists of related entities:
@@ -90,15 +112,39 @@ Each entity has:
 
 3.  Read-only metadata.
 
+
 ### Xbox Live Service APIs and RESTful service calls
 
-There are two ways to interface with the Xbox One Sessions and Matchmaking services. The first way is to use standard HTTPS calls to the RESTful Xbox Live Services URIs. This allows titles flexibility in calling and interfacing with these services depending on their server and game configurations. A list of these URIs can be found in the [Xbox One Development Kit (XDK) documentation](https://developer.xboxlive.com/en-us/platform/development/documentation/software/Pages/home.aspx) under “Xbox Live Services RESTful Reference.”[1]
+There are two ways to interface with the Xbox One Sessions and Matchmaking services.
 
-The second method is to use the Xbox Live Service APIs, which act as wrappers for the RESTful service URIs. These allow for a more traditional approach to using APIs in code without having to handle HTTPS traffic for each call. The source code for the Xbox Live Service APIs is shipped with the Xbox Development Kit (XDK) and can be modified and incorporated into your title as needed. The samples are written using the Xbox Live Service APIs. More information about the Xbox Live Services APIs can be found in the Xbox One [XDK documentation](https://developer.xboxlive.com/en-us/platform/development/documentation/software/Pages/home.aspx) under “Xbox Live Services Reference.”[2]
+* Standard HTTPs calls
+* Xbox Live Service API wrappers
+
+
+#### Using standard HTTPS calls to the RESTful services
+
+The first way to interface with the Xbox One Sessions and Matchmaking services is to use standard HTTPS calls to the RESTful Xbox Live Services URIs.
+This allows titles flexibility in calling and interfacing with these services depending on their server and game configurations.
+
+A list of these URIs can be found in the [Xbox One Development Kit (XDK) documentation](https://developer.xboxlive.com/en-us/platform/development/documentation/software/Pages/home.aspx) under “Xbox Live Services RESTful Reference.”[1]
+
+
+#### Using the Xbox Live Service API wrappers for RESTful services
+
+The second way to interface with the Xbox One Sessions and Matchmaking services is to use the Xbox Live Service APIs, which act as wrappers for the RESTful service URIs.
+These allow for a more traditional approach to using APIs in code without having to handle HTTPS traffic for each call.
+
+The source code for the Xbox Live Service APIs is shipped with the Xbox Development Kit (XDK) and can be modified and incorporated into your title as needed.
+The samples are written using the Xbox Live Service APIs.
+
+More information about the Xbox Live Services APIs can be found in the Xbox One [XDK documentation](https://developer.xboxlive.com/en-us/platform/development/documentation/software/Pages/home.aspx) under “Xbox Live Services Reference.”[2]
+
 
 ### MPSD sessions and templates
 
-MPSD sessions are created with templates ingested through the Xbox Development Portal (XDP). The templates are JSON documents that define the framework for the session being created. The template provides constants for the new session.
+MPSD sessions are created with templates ingested through the Xbox Development Portal (XDP).
+The templates are JSON documents that define the framework for the session being created.
+The template provides constants for the new session.
 
 The following excerpt from the [Player Rendezvous code sample](https://developer.xboxlive.com/en-us/platform/development/education/Pages/Samples.aspx) is a template config example.
 
@@ -211,7 +257,9 @@ The following code shows an example of a match ticket session template, which is
 
 ```
 
+
 ### Checking which templates are configured for your SCID
+
 
 #### Session templates
 
@@ -223,6 +271,7 @@ GET /serviceconfigs/{scid}/sessiontemplates
 GET /serviceconfigs/{scid}/sessiontemplates/{session-template-name}
 ```
 
+
 #### Query for session state information
 
 Sessions can be queried at the service config and session template levels:
@@ -233,7 +282,8 @@ GET /serviceconfigs/{scid}/sessions
 GET /serviceconfigs/{scid}/sessiontemplates/{session-template-name}/sessions
 ```
 
-By default, this will return up to 100 non-private sessions. The query can be modified using these query-string parameters:
+By default, this will return up to 100 non-private sessions.
+The query can be modified using these query-string parameters:
 
 | Query string             | Effect                                                                                                         | Description                                                                                         |
 |--------------------------|----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
@@ -245,11 +295,13 @@ By default, this will return up to 100 non-private sessions. The query can be mo
 | *visibility*=open        | Only include sessions that are ”open.”                                                                         | If set to ”private,” the ”private=true” directive must also be set.                                 |
 | *take*=5                 | Return up to five sessions.                                                                                    | Must be between 0 and 100.                                                                          |
 
-The result is a JSON array of session references. Some session data is included inline.
+The result is a JSON array of session references.
+Some session data is included inline.
 
 **Note** Every query must include either a keyword filter, a XUID filter, or both.
 
-Setting either *private* (which returns private sessions) or *reservations* (which returns sessions the user hasn't joined) to **true** requires the caller to have server-level access to the session, or for the caller's XUID claim to match the XUID filter in the URI. Otherwise, 403 Forbidden is returned (whether or not any such sessions actually exist).
+Setting either *private* (which returns private sessions) or *reservations* (which returns sessions the user hasn't joined) to **true** requires the caller to have server-level access to the session, or for the caller's XUID claim to match the XUID filter in the URI.
+Otherwise, 403 Forbidden is returned (whether or not any such sessions actually exist).
 
 The following code excerpt shows an example of a query response.
 
@@ -273,13 +325,18 @@ The following code excerpt shows an example of a query response.
 
 ```
 
+
 ## Session template attributes
 
 <div id="_Contract_schema_update"/>
 
+
 ## Contract schema update
 
-As was mentioned in the beginning of this document, the latest session template contract version is 107, which introduces some changes to the schema from the prior version of 104. Templates that were written for contract version 104 will need to be updated if they are republished as 107. The following is a summary of the changes.
+As was mentioned in the beginning of this document, the latest session template contract version is 107, which introduces some changes to the schema from the prior version of 104.
+Templates that were written for contract version 104 will need to be updated if they are republished as 107.
+
+The following is a summary of the changes.
 
 -   **/constants/system/managedInitialization** is renamed to **/constants/system/memberInitialization**.
 
@@ -303,11 +360,13 @@ As was mentioned in the beginning of this document, the latest session template 
 
 -   **/constants/system/capabilities/gameplay** must be specified as **true** on sessions that represent actual gameplay (as opposed to helper sessions such as match and lobby sessions) in order to enable recent players and reputation reporting.
 
+
 ### System objects
 
 Each of the system objects in the session document has a fixed schema that is enforced and interpreted by MPSD.
 
-Within the body of PUT requests, the system objects are validated and merged just like the custom objects. But unlike custom objects, after they are merged the system objects are further validated and acted upon based on these schemas.
+Within the body of PUT requests, the system objects are validated and merged just like the custom objects.
+But unlike custom objects, after they are merged the system objects are further validated and acted upon based on these schemas.
 
 **/constants/system**
 
@@ -379,17 +438,29 @@ If "followed", only local users (as defined above) and users who are followed by
 
 ```
 
+
 ### Timeouts
 
-Sessions can be changed by timers and other external events. The **Timeouts** object in MPSD provides a basic mechanism to manage session lifetime and members.
+Sessions can be changed by timers and other external events.
+The **Timeouts** object in MPSD provides a basic mechanism to manage session lifetime and members.
 
-The **nextTimer** field of the session gives the time of the next timer. Clients can use this information to pick a good interval for the next poll. This value is also returned in the **Expires** HTTP header.
+The **nextTimer** field of the session gives the time of the next timer.
+Clients can use this information to pick a good interval for the next poll.
+This value is also returned in the **Expires** HTTP header.
 
-Timeouts are specified in milliseconds. Zero is allowed and signifies that the timeout should be immediate. If a given timeout isn’t specified, it’s considered infinite. Because the timeouts have defaults, the session template should explicitly specify “null” for an infinite timeout.
+Timeouts are specified in milliseconds.
+Zero is allowed and signifies that the timeout should be immediate.
+
+If a given timeout isn’t specified, it’s considered infinite.
+Because the timeouts have defaults, the session template should explicitly specify “null” for an infinite timeout.
+
 
 #### SessionEmptyTimeout
 
-The **/constants/system/sessionEmptyTimeout** value configures the number of milliseconds after a session becomes empty that it will be deleted. The default is zero, meaning that the session will be deleted immediately. If the value is unspecified, empty sessions will live on indefinitely.
+The **/constants/system/sessionEmptyTimeout** value configures the number of milliseconds after a session becomes empty that it will be deleted.
+The default is zero, meaning that the session will be deleted immediately.
+If the value is unspecified, empty sessions will live on indefinitely.
+
 
 #### Member timeouts
 
@@ -409,12 +480,14 @@ The three other timeouts within **/constants/system** control the amount of time
 
 <div id="_Member_initialization_in"/>
 
+
 ## Member initialization in session documents
+
 
 ### Member initialization
 
-
-The **memberInitialization** object controls the initialization stages following session creation and/or as new members join the session. The timeouts and initialization stages are automatically tracked by the session, including QoS measurements if any metrics are set.
+The **memberInitialization** object controls the initialization stages following session creation and/or as new members join the session.
+The timeouts and initialization stages are automatically tracked by the session, including QoS measurements if any metrics are set.
 
 These timeouts override the session’s reservation and ready timeouts for members that have the **initializationEpisode** property set.
 
@@ -457,12 +530,14 @@ Each of the three stages of member initialization can time out:
 
 -   This is the minimum number of member reservations that need to exist with “initialize”:”true” and pass QoS for automatic evaluation to succeed.
 
+
 ### Initialization episodes
 
+When the **memberInitialization** object is set, MPSD will progress the initialization phases by episode.
+The first episode is started when the session is created and will include all the phases defined in the template.
 
-When the **memberInitialization** object is set, MPSD will progress the initialization phases by episode. The first episode is started when the session is created and will include all the phases defined in the template.
-
-Any new members invited or joined while an episode is already running will be marked for the next episode. The status of an episode or **memberInitialization** in general can be retrieving from the **initializing** object of the session.
+Any new members invited or joined while an episode is already running will be marked for the next episode.
+The status of an episode or **memberInitialization** in general can be retrieving from the **initializing** object of the session.
 
 **Note** Be aware, this object is removed after initialization is complete.
 
@@ -477,20 +552,29 @@ Example:
 
 ```
 
-The stage goes from joining to measuring to evaluating. If an episode fails, then stage is set to *failed* and the session cannot be initialized. Otherwise, when an initialization episode completes, the **initializing** object is removed.
+The stage goes from joining to measuring to evaluating.
+If an episode fails, then stage is set to *failed* and the session cannot be initialized.
+Otherwise, when an initialization episode completes, the **initializing** object is removed.
 
-Initialization failures can also be tracked for each member. They are set when transitioning out of the joining or measuring stage if this member doesn't pass.
+Initialization failures can also be tracked for each member.
+They are set when transitioning out of the joining or measuring stage if this member doesn't pass.
 
 Example:
 ```json
 "initializationFailure": "latency",
 ```
-In order of precedence, the value for this attribute could be set to *timeout, latency, bandwidthdown, bandwidthup, network, group*, or *episode*. The network value means the network configuration and/or conditions (such as conflicting network address translation \[NAT\]) prevented the QoS metrics from being measured. The only possible value at the end of joining is *group*. (On timeout from joining, the reservation is removed.)
+
+In order of precedence, the value for this attribute could be set to *timeout, latency, bandwidthdown, bandwidthup, network, group*, or *episode*.
+The network value means the network configuration and/or conditions (such as conflicting network address translation \[NAT\]) prevented the QoS metrics from being measured.
+
+The only possible value at the end of joining is *group*.
+(On timeout from joining, the reservation is removed.)
 
 If **memberInitialization** is set and the member was added with "initialize": true, this is set to the initialization episode that the member will participate in. A value of 1 is used for the members added to a new session at the time it is created, and it is removed when the initialization episode ends.
 ```json
 "initializationEpisode": 1,
 ```
+
 
 ## Match ticket session
 
@@ -527,9 +611,11 @@ This is a copy of a user’s **serverMeasurements** from the matchmaking session
 
 ```
 
+
 ## Quality of Service (QoS) templates
 
-For game session templates, values can be added that inform MPSD to coordinate with the network layer and console social platform. The purpose of this coordination is to validate the quality of the connection state before a session is created and before a user is informed that the game is ready to join.
+For game session templates, values can be added that inform MPSD to coordinate with the network layer and console Social features.
+The purpose of this coordination is to validate the quality of the connection state before a session is created and before a user is informed that the game is ready to join.
 
 The following code excerpt is an example of a peer-to-host game session template with QoS:
 
@@ -588,6 +674,7 @@ This code excerpt is an example of a peer-to-peer game session template with QoS
 
 ```
 
+
 ### QoS session template attributes
 
 If a **memberInitialization** object is set, the session expects the client system or title to perform initialization following session creation and/or as new members join the session.
@@ -607,7 +694,9 @@ These timeouts override the session’s reservation and ready timeouts for membe
 
 ```
 
-A game session with QoS requires connectivity capability. If no metrics are specified, they default to what would be needed to satisfy the QoS requirements. If they are specified, they must be sufficient to satisfy the QoS requirements.
+A game session with QoS requires connectivity capability.
+If no metrics are specified, they default to what would be needed to satisfy the QoS requirements.
+If they are specified, they must be sufficient to satisfy the QoS requirements.
 
 ```json
 "metrics": {
@@ -657,7 +746,8 @@ The following potential server connection strings should be evaluated (note that
 
 **members/{index}/properties/system**
 
-These flags control the member status and **activeTitle**, and they are mutually exclusive (it’s an error to set both to **true**). For each, **false** is the same as “not present.” The default status is “inactive,” that is, neither is present.
+These flags control the member status and **activeTitle**, and they are mutually exclusive (it’s an error to set both to **true**).
+For each, **false** is the same as “not present.” The default status is “inactive,” that is, neither is present.
 
 ```json
 "ready": true,
@@ -708,9 +798,14 @@ These flags control the member status and **activeTitle**, and they are mutually
 
 ```
 
+
 ## QoS phase and session initialization details
 
-MPSD will track and report QoS results for game creation after the template has completed member initialization. The progress of this operation will be represented by an *initializing* object in the session document as described in the [Member initialization](#_Member_initialization_in) section above. The *initializing* object has a *stage* attribute, which represents the current stage of initialization. The stage progresses from *joining* to *measuring* to *evaluating*.
+MPSD will track and report QoS results for game creation after the template has completed member initialization.
+The progress of this operation will be represented by an *initializing* object in the session document as described in the [Member initialization](#_Member_initialization_in) section above.
+
+The *initializing* object has a *stage* attribute, which represents the current stage of initialization.
+The stage progresses from *joining* to *measuring* to *evaluating*.
 
 -   If initializing episode \#1 fails, then stage is set to *failed* and the session cannot be initialized. Otherwise, when an initialization episode completes, the "initializing" object is removed. If **externalEvaluation** is set to **false**, the evaluating stage is skipped. If neither **metrics** nor **measurementServerAddresses** is set, the measuring stage is skipped.
 
@@ -809,9 +904,11 @@ MPSD will track and report QoS results for game creation after the template has 
 
 ```
 
+
 ## Xbox Cloud Compute session
 
-An Xbox Cloud Compute session contains the ordered list of case-insensitive connection strings that the session could use to connect to a game server. Generally, titles should use the first string on the list, but sophisticated titles could use a custom mechanism (such as Xbox Live Compute) for choosing one of the others (for instance, based on load).
+An Xbox Cloud Compute session contains the ordered list of case-insensitive connection strings that the session could use to connect to a game server.
+Generally, titles should use the first string on the list, but sophisticated titles could use a custom mechanism (such as Xbox Live Compute) for choosing one of the others (for instance, based on load).
 
 ```json
     "serverConnectionStringCandidates": [ "west.thunderhead.azure.com", "east.thunderhead.azure.com" ],
@@ -858,9 +955,12 @@ An Xbox Cloud Compute session contains the ordered list of case-insensitive conn
 
 ```
 
+
 ## Raw session and custom title properties
 
-A session can be used to store custom housekeeping information (metadata) around a multiplayer game. Game data or saved information should be stored in TMS++.
+A session can be used to store custom housekeeping information (metadata) around a multiplayer game.
+Game data or saved information should be stored in TMS++.
+
 
 ### Property bags
 
@@ -879,11 +979,17 @@ The custom objects can contain any JSON.
 
 ```
 
+
 ## Active member decay
 
-Active members are automatically marked inactive when MPSD detects that the user is no longer engaged in the title. This can happen, for example, if the Presence times out the user record. This mechanism is just a backstop; that is,titles are still required to proactively mark members as inactive (or remove them from the session) when the members leave or switch away from the title, sign out, or otherwise become disengaged.
+Active members are automatically marked inactive when MPSD detects that the user is no longer engaged in the title.
+This can happen, for example, if the Presence times out the user record.
+
+This mechanism is just a backstop; that is,titles are still required to proactively mark members as inactive (or remove them from the session) when the members leave or switch away from the title, sign out, or otherwise become disengaged.
+
 
 ## FAQ and troubleshooting
+
 
 ### How do I call MPSD ?
 
@@ -903,9 +1009,12 @@ Example:
 PUT https://sessiondirectory-stress.xboxlive.com/serviceconfigs/8cvda84-2606-4bab-8eda-d12313e65143/sessiontemplates/teamDeathmatch/sessions/3baafc35-816d-49cd-9656-5772506c988a
 ```
 
+
 ### How do I find out what SCID, session template, and sandbox to use?
 
-This information can be found on the XDP site for your title. If you do not yet have access to XDP contact your developer account manager, who can assist in getting the information for you.
+This information can be found on the XDP site for your title.
+If you do not yet have access to XDP contact your developer account manager, who can assist in getting the information for you.
+
 
 ### Is there an example of a request body that I can compare my own to?
 
@@ -926,9 +1035,11 @@ Collect Fiddler traces to help get more information and then do the following:
 
 4.  Search the [Entertainment Developer Forums](https://developer.xboxlive.com/en-us/platform/community/forums/Pages/home.aspx) for the error code or other potential solutions.
 
+
 ### I am getting a 403 error when calling MPSD.
 
-This is usually a permissions or scope issue. Collect Fiddler traces to help get more information and then do the following:
+This is usually a permissions or scope issue.
+Collect Fiddler traces to help get more information and then do the following:
 
 1.  Check messages returned as part of the HttpResponse body for common 403 messages:
 
@@ -947,6 +1058,7 @@ This is usually a permissions or scope issue. Collect Fiddler traces to help get
 -   *The request body can't contain existing member references unless the authentication principal includes a server.*
 
     -   You cannot join another user to a session on behalf of a user. You can only invite. Set the index to “reserve\_&lt;number&gt;” to invite a player.
+
 
 ### I am getting a 412 Precondition Failed error.
 
@@ -967,28 +1079,46 @@ This will return 412 Precondition Failed if the session etag doesn’t match the
 > If--Match: 9555A7DE-8B91-40E4-8CFB-0629312C9C7D
 ```
 
-### I am getting errors such as 405, 409, 503, and 400when calling MPSD.
 
-Collect Fiddler traces to help get more information and then check the messages returned as part of the HttpResponse body. This should give you enough information to identify and fix the error or to search the [Entertainment Developer Forums](https://developer.xboxlive.com/en-us/platform/community/forums/Pages/home.aspx) for possible solutions.
+### I am getting errors such as 405, 409, 503, and 400 when calling MPSD.
+
+Collect Fiddler traces to help get more information and then check the messages returned as part of the HttpResponse body.
+This should give you enough information to identify and fix the error or to search the [Entertainment Developer Forums](https://developer.xboxlive.com/en-us/platform/community/forums/Pages/home.aspx) for possible solutions.
 
 You can also get the response body if you are using the Xbox Live Service APIs by setting the **DiagnosticsTraceLevel** property to Error, which will output the information in the debug output, or you can use the **XboxLiveContextSettings.ServiceCallRouted** event as demonstrated in multiple samples to output to your title UI.
 
+
 ### What can or should I change in the templates for my title?
 
-Session templates are not defaults, but are more of a mold. However, you cannot override the constants already set in the templates, although you can add to them.
+Session templates are not defaults, but are more of a mold.
+However, you cannot override the constants already set in the templates, although you can add to them.
+
 
 ### I’m getting an error that is saying my session isn’t initialized.
 
 When member initialization is present in your template (game, party, and match ticket scenarios, usually), you need to make sure that “initialize=true” is set for enough of the member reservations (members needed to start) to pass QoS to fix this issue.
 
+
 ### My session is not being created and I’m getting an HTTP 204 error.
 
-This indicates that there were no users added to the session when you created it. If there are no users for a session at the time of creation, the session will not be created. Make sure that you add at least one player to a session on creation. For dedicated server scenarios, obtain a player who is trying to create a match, or who needs to create a match, and make that user the initial player in that match. Alternatively you can change or remove the **sessionEmptyTimeout**.
+This indicates that there were no users added to the session when you created it.
+If there are no users for a session at the time of creation, the session will not be created.
+
+Make sure that you add at least one player to a session on creation.
+
+For dedicated server scenarios, obtain a player who is trying to create a match, or who needs to create a match, and make that user the initial player in that match.
+Alternatively you can change or remove the **sessionEmptyTimeout**.
+
 
 ### When should I poll the MPSD?
 
-You should avoid polling MPSD sessions. At a high level, you can do this by designing your code in a way that utilizes the MPSD session only for initial establishment of network connectivity for each client, and for reestablishing network state for a client or clients that have lost connectivity. It’s also important to take advantage of MPSD’s etag-based synchronization primitives to eliminate the need to refresh session state to resolve race conditions.
+You should avoid polling MPSD sessions.
+At a high level, you can do this by designing your code in a way that utilizes the MPSD session only for initial establishment of network connectivity for each client, and for reestablishing network state for a client or clients that have lost connectivity.
 
-A common application of these principles is when you have a set of N clients that all need to connect together and play in a peer-to-peer mesh. Rather than regularly querying the session for new members, each member can join the session, connect to the members already in the session, and assume that any later joiners will do the same. See the Chat and Player Rendezvous samples for examples of how to implement this.
+It’s also important to take advantage of MPSD’s etag-based synchronization primitives to eliminate the need to refresh session state to resolve race conditions.
+
+A common application of these principles is when you have a set of N clients that all need to connect together and play in a peer-to-peer mesh.
+Rather than regularly querying the session for new members, each member can join the session, connect to the members already in the session, and assume that any later joiners will do the same.
+See the Chat and Player Rendezvous samples for examples of how to implement this.
 
 There are some rare cases where polling may be necessary for brief periods; contact your developer account manager if you believe you need to do this.

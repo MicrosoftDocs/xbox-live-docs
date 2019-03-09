@@ -1,15 +1,16 @@
 ---
 title: Multiplayer 2015 FAQ and troubleshooting
-
-description: Frequently asked questions about Xbox Live Multiplayer 2015 and troubleshooting.
+description: FAQs and troubleshooting for Multiplayer 2015.
 ms.assetid: 75823f10-b342-4e20-b885-e5ad4392bc3d
 ms.date: 04/04/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer
 ms.localizationpriority: medium
 ---
+
 # Multiplayer 2015 FAQ and troubleshooting
 
+The following questions are answered below.
 -   I am developing a new title. Which multiplayer API elements should I use?
 -   How can I access the new multiplayer API from a service?
 -   Can my title subscribe to changes for more than one session?
@@ -27,7 +28,7 @@ ms.localizationpriority: medium
 -   When should I poll MPSD?
 -   What happens if a player who was reserved or invited to the session does not join it?
 -   Why would a created session not be found by matchmaking?
--   What is the key difference between the way parties are properly used by 2015 Multiplayer and the way they were used in 2014 Multiplayer?
+-   What is the key difference between the way parties are properly used by Multiplayer 2015 and the way they were used in Multiplayer 2014?
 -   If a game session has open player slots and supports join in progress, why would users not be able to find the session once it has started?
 -   If a game session is open, can a user who has just joined a game simply join the session and start playing without having to wait for the reservation?
 -   When large game sessions are playing in my title, why aren't all session members seeing the game invite toast?
@@ -37,7 +38,7 @@ ms.localizationpriority: medium
 
 ### I am developing a new title. Which multiplayer API elements should I use?
 
-2014 Multiplayer functionality will continue to apply for existing titles, but the associated API elements most likely be deprecated. We strongly recommend the use of 2015 Multiplayer when preparing your clients for release in 2015.
+Multiplayer 2014 functionality will continue to apply for existing titles, but the associated API elements will likely be deprecated.
 
 
 ### How can I access the new multiplayer API from a service?
@@ -183,9 +184,9 @@ If the title is constrained or not running, the shell provides a notification th
 On Xbox One, simply creating a session isn't enough for matchmaking to find the new session. You must create a match ticket to start advertising the session to the matchmaking service. See [SmartMatch Matchmaking](smartmatch-matchmaking.md).
 
 
-### What is the key difference between the way parties are properly used by 2015 Multiplayer and the way they were used in 2014 Multiplayer?
+### What is the key difference between the way parties are properly used by Multiplayer 2015 and the way they were used in Multiplayer 2014?
 
-In 2015 Multiplayer, the multiplayer API defines no system-level game party, only chat parties. Instead of using game parties, the title uses sessions to control joining, invites, and related features. For 2014 Multiplayer, the multiplayer API on Xbox One prominently used the game party concept (**Party** class), which effectively implements a system-level join lobby instead of game invites.
+In Multiplayer 2015, the multiplayer API defines no system-level game party, only chat parties. Instead of using game parties, the title uses sessions to control joining, invites, and related features. For Multiplayer 2014, the multiplayer API on Xbox One prominently used the game party concept (**Party** class), which effectively implements a system-level join lobby instead of game invites.
 
 
 ### If a game session has open player slots and supports join in progress, why would users not be able to find the session once it has started?
@@ -205,7 +206,7 @@ When your title adds a user to the session through joining, the title always set
 
 ### I am seeing inconsistent game behavior and have received protocol activation information referencing game party features.
 
-This indicates that you are mixing 2014 Multiplayer and 2015 Multiplayer functionality. The API for 2015 Multiplayer should never be used with code written for 2014 Multiplayer.
+This indicates that you are mixing Multiplayer 2014 and Multiplayer 2015 functionality. The API for Multiplayer 2015 should never be used with code written for Multiplayer 2014.
 
 
 ### Why am I seeing the syntax for v105 session documents in my traces although I have configured a v107 session template?

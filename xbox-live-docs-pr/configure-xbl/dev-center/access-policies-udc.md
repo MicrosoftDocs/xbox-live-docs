@@ -1,25 +1,25 @@
 ---
-title: Configure access policies in Partner Center
-
-description: Describes how you can configure access policies in Partner Center to allow other apps, games, and services to access the Xbox Live settings.
+title: Configuring access policies in Partner Center, for Managed Partners
+description: Configuring access policies to allow other apps, games, and services to access a title's Xbox Live settings.
 ms.assetid:
 ms.date: 02/21/2018
 ms.topic: article
-
-
 ms.localizationpriority: medium
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, udc, universal developer center
 ---
-# Configure access policies in Partner Center
 
-You can use [Partner Center](https://partner.microsoft.com/dashboard) to allow other services, games, and apps to access your title's Xbox Live settings and data. For example, you may want a web service to display leaderboards on your website, or you may have a companion app that can access the game's title storage to view or modify saved game data.
+# Configuring access policies in Partner Center, for Managed Partners
 
-By default, only the title itself can access the settings and data stored on the Xbox Live service. You can change this by configuring access policies in Partner Center.
+You can use [Partner Center](https://partner.microsoft.com/dashboard) to allow other services, games, and apps to access your title's Xbox Live settings and data.
+For example, you may want a web service to display leaderboards on your website, or you may have a companion app that can access the game's title storage to view or modify saved game data.
+
+By default, only the title itself can access the settings and data stored on the Xbox Live service.
+You can change this by configuring access policies in Partner Center.
 
 > [!NOTE]
-> This topic does not apply to titles in the Xbox Live Creators Program.
+> This article does not apply to titles in the Xbox Live Creators Program.
 
-Add configuration by doing the following:
+## To add configuration:
 
 1. After selecting your title in [Partner Center](https://partner.microsoft.com/dashboard), navigate to **Services** > **Xbox Live**.
 
@@ -31,7 +31,7 @@ Add configuration by doing the following:
 
 5. Select if the app or service can only read the data, or if it has full access to the data.
 
-6. Repeat for each setting, and for each app or service that needs access to those settings. You can click **Delete** to remove an entry.
+6. Repeat for each setting, and for each app or service that needs access to those settings. To remove an entry, click **Delete**.
 
 7. When you are finished, click the **Save** button to save your changes.
 

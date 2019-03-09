@@ -1,20 +1,26 @@
 ---
-title: Develop a Creators title with Unity
-
-description: Get started developing an Xbox Live Creators Program title by using Unity
+title: Get started developing a Creators Program title with Unity
+description: Get started developing an Xbox Live Creators Program title with the Unity game engine.
 ms.assetid: 656d0da1-0c6d-4719-b2f9-5896aaa240f6
 ms.date: 04/04/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, creators
 ms.localizationpriority: medium
 ---
-# Get started developing an Xbox Live Creators Program title with the Unity game engine
 
-This section covers how to integrate Xbox Live into games developed with the Unity game engine. The Xbox Live Unity Plugin is intended to be used for [Xbox Live Creators Program](../developer-program-overview.md#xbox-live-creators-program) Titles. Following along with these articles to start integrating Xbox Live into a Unity project.
+# Get started developing a Creators Program title with Unity
+
+This section covers how to integrate Xbox Live into games developed with the Unity game engine.
+
+The Xbox Live Unity Plugin is intended to be used for [Xbox Live Creators Program](../developer-program-overview.md#xbox-live-creators-program) titles.
+Following along with these articles to start integrating Xbox Live into a Unity project.
+
 
 ## Knowledge
 
-[Create and test publish an Xbox Live Creators Program Title](create-and-test-a-new-creators-title.md)
+<!-- tbd: reconcile with parent's list: -->
+
+[Create and test publish an Xbox Live Creators Program Title](create-and-test-a-new-creators-title.md) - applies to both Visual Studio and Unity
 
 [Configure Xbox Live In Unity](configure-xbox-live-in-unity.md)
 
@@ -32,6 +38,6 @@ This section covers how to integrate Xbox Live into games developed with the Uni
 
 [Scripting a Leaderboard](unity-leaderboard-from-scratch.md)
 
-[Add Multi-User Support to your Unity Project](add-multi-user-support.md)
-
 [Add Controller Support to Xbox Live Prefabs](add-controller-support-to-xbox-live-prefabs.md)
+
+[Add Multi-User Support to your Unity Project](add-multi-user-support.md)

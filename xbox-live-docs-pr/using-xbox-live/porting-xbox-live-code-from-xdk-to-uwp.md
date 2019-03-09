@@ -1,30 +1,33 @@
 ---
 title: Porting Xbox Live code from XDK to UWP
-
-description: Learn how to port Xbox Live code from the Xbox Development Kit (XDK) platform to the Universal Windows Platform (UWP).
+description: Porting Xbox Live code from the Xbox Development Kit (XDK) platform to the Universal Windows Platform (UWP).
 ms.assetid: 69939f95-44ad-4ffd-851f-59b0745907c8
 ms.date: 04/04/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, xdk, porting
 ms.localizationpriority: medium
 ---
-# Porting Xbox Live code from the Xbox Developer Kit (XDK) to Universal Windows Platform (UWP)
 
-## Introduction
+# Porting Xbox Live code from XDK to UWP
 
-This article is intended to help developers who have used the Xbox One XDK to get started migrating their Xbox Live code to the Windows 10 Universal Windows Platform (UWP).
+If you have a title that was developed using the Xbox One Xbox Developer Kit (XDK), you can migrate the title's Xbox Live code to the Windows 10 Universal Windows Platform (UWP).
 
-Part of this migration includes switching from XSAPI 1.0 (Xbox Live Services API, included in the Xbox One XDK through August 2015) to XSAPI 2.0 (included in the Xbox One XDK starting in November 2015, and also available in the Xbox Live SDK. The functionality of these APIs are virtually identical, but there are some important implementation differences.
+Part of this migration includes switching from XSAPI 1.0 (Xbox Live Services API, included in the Xbox One XDK through August 2015) to XSAPI 2.0 (included in the Xbox One XDK starting in November 2015, and also available in the Xbox Live SDK.
+The functionality of these APIs are virtually identical, but there are some important implementation differences.
 
-Other topics to be covered in this article include preparing your Windows development computer and installing other APIs typically needed when using Xbox Live services, such as the Secure Sockets API as well as the Connected Storage API for managing cloud-backed game saves.
+This article also covers:
+* Preparing your Windows development computer.
+* Installing other APIs that are typically needed when using Xbox Live services, such as the Secure Sockets API, as well as the Connected Storage API for managing cloud-backed game saves.
+
 
 <a name="_Setting_up_and"></a>
 
 ## Setting up and configuring your project in Partner Center and XDP
 
-A UWP title that uses Xbox Live services needs to be configured in [Partner Center](https://partner.microsoft.com/dashboard). For the latest information, see [Adding Xbox Live to a new or existing UWP project](../get-started-with-partner/get-started-with-visual-studio-and-uwp.md) in the Xbox Live Programming Guide included with the [Xbox Live SDK](https://developer.xboxlive.com/en-us/live/development/Pages/Downloads.aspx).
+A UWP title that uses Xbox Live services needs to be configured in [Partner Center](https://partner.microsoft.com/dashboard).
 
-Topics on that page include these steps for using Xbox Live services in your title:
+See [Adding Xbox Live to a new or existing UWP project](../get-started-with-partner/get-started-with-visual-studio-and-uwp.md).
+Sections in that article include these steps for using Xbox Live services in your title:
 
 -   Create the UWP app project in Partner Center.
 
@@ -34,7 +37,9 @@ Topics on that page include these steps for using Xbox Live services in your tit
 
 -   Create developer accounts in XDP (required when running your Xbox Live title in your sandbox).
 
-If your titles support multiplayer play, some additional settings may be required in your multiplayer session templates. All Windows 10 titles that use Xbox Live multiplayer and write to an MPSD (multiplayer session document) require this new field in the list of "capabilities" found in your session templates: ```userAuthorizationStyle: true```.
+If your titles support multiplayer play, some additional settings may be required in your multiplayer session templates.
+All Windows 10 titles that use Xbox Live multiplayer and write to an MPSD (multiplayer session document) require this new field in the list of "capabilities" found in your session templates: ```userAuthorizationStyle: true```.
+
 
 ### Enabling cross-play
 
@@ -43,6 +48,7 @@ If you will support "cross-play" (a shared Xbox Live configuration between Xbox 
 For additional information about supporting cross-play and its configuration requirements in XDP, see "Ingesting XDK and UWP Cross-Play Titles in XDP" in the Xbox Live Programming Guide.
 
 Also, for some programmatic considerations, see the later section [Supporting multiplayer cross-play between Xbox One and PC](#_Supporting_multiplayer_cross-play).
+
 
 ## Setting up your Windows development environment
 
@@ -56,7 +62,7 @@ Also, for some programmatic considerations, see the later section [Supporting mu
 
   **Note** To switch back to the retail sandbox, you can either delete the registry key that the script modifies, or you can switch to the sandbox called RETAIL.
 
-1.  Add a developer account to your development computer. A developer account created in XDP is required to interact with Xbox Live services at runtime when you are developing in your assigned sandbox or running samples. To add one or more accounts to Windows:
+5.  Add a developer account to your development computer. A developer account created in XDP is required to interact with Xbox Live services at runtime when you are developing in your assigned sandbox or running samples. To add one or more accounts to Windows:
 
     1.  Open **Settings** (shortcut: Windows key + I).
 
@@ -65,6 +71,7 @@ Also, for some programmatic considerations, see the later section [Supporting mu
     3.  On the **Your Account** tab, click **Add a Microsoft account**.
 
     4.  Enter the developer account email and password.
+
 
 ### AppxManifest changes
 
@@ -94,11 +101,13 @@ The most common changes between the Xbox and UWP versions of the appxmanifest.xm
 
   ```<DeviceCapability Name="microphone">```
 
+
 <a name="_Define_your_title"></a>
 
 ### Define your title and SCID for the Xbox Live SDK in a config file
 
-The Xbox Live SDK needs to know your title ID and SCID, which are no longer included in the appxmanifest.xml for UWP titles. Instead, you create a text file named **xboxservices.config** in your project root directory and add the following fields, replacing the values with the info for your title:
+The Xbox Live SDK needs to know your title ID and SCID, which are no longer included in the appxmanifest.xml for UWP titles.
+Instead, you create a text file named **xboxservices.config** in your project root directory and add the following fields, replacing the values with the info for your title:
 
 ```xml
 {
@@ -119,6 +128,7 @@ Microsoft::Xbox::Services::XboxLiveAppConfiguration^ xblConfig = xblContext->App
 unsigned int titleId = xblConfig->TitleId;
 Platform::String^ scid = xblConfig->ServiceConfigurationId;
 ```
+
 
 ### API namespace mapping
 
@@ -164,6 +174,7 @@ Table 1. Namespace mapping from XDK to UWP.
   </tr>
 </table>
 
+
 ### Multiplayer subscriptions and event handling
 
 One of the breaking changes from XSAPI 1.0 to XSAPI 2.0 that most multiplayer titles will encounter is the move of several methods and events from the **RealTimeActivityService** to the **MultiplayerService**.
@@ -181,6 +192,7 @@ For example:
 -   **MultiplayerSubscriptionsEnabled** property
 
 **Important implementation note** Even though you might not be explicitly using anything else in the **RealTimeActivityService** after moving these events and methods over to the **MultiplayerService**, you must still call **xblContext-&gt;RealTimeActivityService-&gt;Activate()** before calling **EnableMultiplayerSubscriptions()** because the multiplayer subscriptions require the RTA service.
+
 
 ## What's handled differently in UWP
 
@@ -242,9 +254,15 @@ Platform::String^ scid = xblConfig->ServiceConfigurationId;
 
 **Note** In the XDK, you can get these IDs by using either these new properties or the old static properties in **Windows::Xbox::Services::XboxLiveConfiguration**.
 
+
 ### Prelaunch activation
 
-Frequently-used titles in Windows 10 may be prelaunched when the user signs in. To handle this, your title should have code that checks the launch arguments for **PreLaunchActivated**. For example, you probably don't want to load all your resources during this kind of activation. For more information, see the MSDN article [Handle app prelaunch](https://msdn.microsoft.com/library/windows/apps/mt593297.ASPx).
+Frequently-used titles in Windows 10 may be pre-launched when the user signs in.
+To handle this, your title should have code that checks the launch arguments for **PreLaunchActivated**.
+For example, you probably don't want to load all your resources during this kind of activation.
+
+For more information, see the MSDN article [Handle app prelaunch](https://msdn.microsoft.com/library/windows/apps/mt593297.ASPx).
+
 
 ### Suspend/resume PLM handling
 
@@ -256,17 +274,25 @@ Suspend and resume, and PLM in general, work similarly in a Universal Windows ap
 
 -   The timing is different: you have 5 seconds to suspend on a PC instead of the 1 second on the console.
 
-Another important consideration if you use connected storage is the new **ContainersChangedSinceLastSync** property in the UWP version of this API. When handling a resume event, you can check this property to see if any containers changed in the cloud while your title was suspended. This can happen if the player suspended the game on one PC, played elsewhere, and then returned to the first PC. If you had read data from these containers into memory before you had suspended, you probably want to read them again to see what changed and handle the changes accordingly.
+Another important consideration if you use connected storage is the new **ContainersChangedSinceLastSync** property in the UWP version of this API.
+When handling a resume event, you can check this property to see if any containers changed in the cloud while your title was suspended.
+This can happen if the player suspended the game on one PC, played elsewhere, and then returned to the first PC.
+
+If you had read data from these containers into memory before you had suspended, you probably want to read them again to see what changed and handle the changes accordingly.
 
 For more information about handling PLM in a UWP app on Windows 10, see the MSDN article [Launching, resuming, and background tasks](https://msdn.microsoft.com/library/windows/apps/xaml/mt227652.aspx).
 
 You may also find the [PLM for Xbox One](https://developer.xboxlive.com/en-us/platform/development/education/Documents/PLM%20for%20Xbox%20One.aspx) white paper on GDN useful because it was written with games in mind, and most of the concepts for handling the app lifecycle still apply on a PC.
 
+
 <a name="_Extended_execution"></a>
 
 ### Extended execution
 
-Minimizing a UWP app on a PC typically results in it immediately starting to suspend. By using extended execution, you have the opportunity to delay this process. Example implementation:
+Minimizing a UWP app on a PC typically results in it immediately starting to suspend.
+By using extended execution, you have the opportunity to delay this process.
+
+Example implementation:
 
 ```cpp
 using namespace Windows::ApplicationModel::ExtendedExecution;
@@ -297,7 +323,10 @@ RequestExtension();
 
 ```
 
-After the **ExtensionRevokedHandler** has been called, a new extension needs to be requested for future potential suspensions. The **ExtensionRevokedHandler** is called when there is memory pressure in the system, 10 minutes have elapsed, or the user switches back to the game while the game is minimized. So **RequestExtension()** should likely be called at these times:
+After the **ExtensionRevokedHandler** has been called, a new extension needs to be requested for future potential suspensions.
+The **ExtensionRevokedHandler** is called when there is memory pressure in the system, 10 minutes have elapsed, or the user switches back to the game while the game is minimized.
+
+So **RequestExtension()** should likely be called at these times:
 
 -   During startup.
 
@@ -305,9 +334,11 @@ After the **ExtensionRevokedHandler** has been called, a new extension needs to 
 
 -   In the **OnResuming** handler (if the title was suspended due to memory pressure or the 10-minute timer).
 
+
 ### Handling users and controllers
 
-On Windows, you work with one signed-in user at a time. In the Xbox Live SDK, you first create an **XboxLiveUser** object, sign them in to Xbox Live, and then create **XboxLiveContext** objects from this user.
+On Windows, you work with one signed-in user at a time.
+In the Xbox Live SDK, you first create an **XboxLiveUser** object, sign them in to Xbox Live, and then create **XboxLiveContext** objects from this user.
 
 Before, on the Xbox One XDK:
 
@@ -368,31 +399,49 @@ Now, for the UWP/Xbox Live SDK:
 
 1.  There is no controller pairing to handle in Windows 10.
 
-This is a simplified example for C++ / WinRT. For a more detailed example, see "Xbox Live Authentication in Windows 10" in the Xbox Live Programming Guide. You may also find the broader example at "Adding Xbox Live to a new UWP project" helpful.
+This is a simplified example for C++ / WinRT.
+For a more detailed example, see "Xbox Live Authentication in Windows 10" in the Xbox Live Programming Guide.
+You may also find the broader example at "Adding Xbox Live to a new UWP project" helpful.
+
 
 ### Checking multiplayer privileges
 
-The equivalent to **CheckPrivilegeAsync()** is not yet available in the Xbox Live SDK. For now, you will need to search for the privilege you need in the string list returned by the **Privileges** property for an **XboxLiveUser**. For example, to check for multiplayer privileges, look for privilege "254." Using the XDK documentation, you can find a list of all the Xbox Live privileges in the **Windows::Xbox::ApplicationModel::Store::KnownPrivileges** enumeration.
+The equivalent to **CheckPrivilegeAsync()** is not yet available in the Xbox Live SDK.
+For now, you will need to search for the privilege you need in the string list returned by the **Privileges** property for an **XboxLiveUser**.
 
-For a discussion on this topic, see the forum post [xsapi & user privileges](https://forums.xboxlive.com/questions/48513/xsapi-user-privileges.html).
+For example, to check for multiplayer privileges, look for privilege "254."
+Using the XDK documentation, you can find a list of all the Xbox Live privileges in the **Windows::Xbox::ApplicationModel::Store::KnownPrivileges** enumeration.
+
+See the forum post [xsapi & user privileges](https://forums.xboxlive.com/questions/48513/xsapi-user-privileges.html).
+
 
 <a name="_Supporting_multiplayer_cross-play"></a>
 
 ### Supporting multiplayer cross-play between Xbox One and PC UWP
 
-In addition to new session template requirements in XDP (see [Setting up and configuring your project in Partner Center and XDP](#_Setting_up_and)), cross-play comes with new restrictions on session join ability. You can no longer use "None" as a session join restriction. You must use either "Followed" or "Local" (the default restriction is "Local").
+In addition to new session template requirements in XDP (see [Setting up and configuring your project in Partner Center and XDP](#_Setting_up_and)), cross-play comes with new restrictions on session join ability.
+You can no longer use "None" as a session join restriction.
+You must use either "Followed" or "Local" (the default restriction is "Local").
 
 Also, the join and read restrictions default to "Local" because of the required **userAuthorizationStyle** capability for Windows 10 multiplayer.
 
-This forum article, [Is it possible to create a public multiplayer session](https://forums.xboxlive.com/questions/46781/is-it-possible-to-create-public-multiplayer-sessio.html), contains additional insight.
+This forum article contains additional insight: [Is it possible to create a public multiplayer session](https://forums.xboxlive.com/questions/46781/is-it-possible-to-create-public-multiplayer-sessio.html).
 
 Further information and examples can be found in the updated multiplayer developer flowcharts, the cross-play-enabled multiplayer sample NetRumble, or from your Developer Account Manager (DAM).
+
 
 <a name="_Sending_and_receiving"></a>
 
 ### Sending and receiving invites
 
-The API to bring up the UI for sending invites is now **Microsoft::Xbox::Services::System::TitleCallableUI::ShowGameInviteUIAsync()**. You pass in a session-&gt; **SessionReference** object from your activity session (typically your lobby). You can optionally pass in a second parameter that references a custom invite string ID that's been defined in your service configuration in XDP. The string you define there will appear in the toast notification sent to the invited players. Note that what you are passing in as a parameter to this method is the ID number, and it must be formatted properly for the service. For example, string ID "1" must be passed in as "///1".
+The API to bring up the UI for sending invites is now **Microsoft::Xbox::Services::System::TitleCallableUI::ShowGameInviteUIAsync()**.
+You pass in a session-&gt; **SessionReference** object from your activity session (typically your lobby).
+
+You can optionally pass in a second parameter that references a custom invite string ID that's been defined in your service configuration in XDP.
+The string you define there will appear in the toast notification sent to the invited players.
+
+What you are passing in as a parameter to this method is the ID number, and it must be formatted properly for the service.
+For example, string ID "1" must be passed in as "///1".
 
 If you want to send invites directly by using the multiplayer service (that is, without showing any UI), you can still use the other invite method, **Microsoft::Xbox::Services::Multiplayer::MultiplayerService::SendInvitesAsync()** from the user's **XboxLiveContext**.
 
@@ -408,9 +457,11 @@ To allow for invites coming into Windows to protocol-activate your title, you ne
 
 You can then handle the invite as you did before on Xbox One when your **CoreApplication** gets an **Activated** event and the activation Kind is an **ActivationKind::Protocol**.
 
+
 ### Showing the gamer profile card
 
 To pop up the gamer profile card on UWP, use **Microsoft::Xbox::Services::System::TitleCallableUI::ShowProfileCardUIAsync()**, passing in the XUID for the target user.
+
 
 <a name="_Secure_sockets"></a>
 
@@ -422,7 +473,8 @@ See this forum post for API usage: [Setting up SecureDeviceAssociation for cross
 
 **Note** For UWP, the **SocketDescriptions** section has moved out of the appxmanifest and into its own [networkmanifest.xml](https://forums.xboxlive.com/storage/attachments/410-networkmanifestxml.txt). The format inside the &lt;SocketDescriptions&gt; element is virtually identical, just without the **mx:** prefix.
 
-For cross-play between Xbox and Windows 10, be *sure* that everything is defined *identically* between the two different kinds of manifests (Package.appxmanifest for Xbox One and networkmanifest.xml for Windows 10). The socket name, protocol, etc. must match *exactly*.
+For cross-play between Xbox and Windows 10, be *sure* that everything is defined *identically* between the two different kinds of manifests (Package.appxmanifest for Xbox One and networkmanifest.xml for Windows 10).
+The socket name, protocol, etc. must match *exactly*.
 
 Also for cross-play, you will need to define the following four SDA usages inside the ```<AllowedUsages>``` element in *both* the Xbox One Package.appxmanifest and the Windows 10 networkmanifest.xml:
 
@@ -433,9 +485,11 @@ Also for cross-play, you will need to define the following four SDA usages insid
 <SecureDeviceAssociationUsage Type="AcceptOnWindowsDesktop" />
 ```
 
+
 ### Multiplayer QoS measurements
 
-In addition to the namespace change in the Secure Sockets API, some of the object names and values have changed, too. The mapping for the typically-used measurement status is found in the following table.
+In addition to the namespace change in the Secure Sockets API, some of the object names and values have changed, too.
+The mapping for the typically-used measurement status is found in the following table.
 
 Table 2. Typically used measurement status mapping.
 
@@ -446,7 +500,8 @@ Table 2. Typically used measurement status mapping.
 | PartialResults                     | InProgressWithProvisionalResults           |
 | Success                            | Succeeded                                  |
 
-The steps involved in *measuring* QoS (quality of service) and *processing the results* are in principle the same when you compare the XDK and UWP versions of the API. However, due to the name changes and a few design changes, the resulting code looks different in some places.
+The steps involved in *measuring* QoS (quality of service) and *processing the results* are in principle the same when you compare the XDK and UWP versions of the API.
+However, due to the name changes and a few design changes, the resulting code looks different in some places.
 
 To measure the QoS for the **XDK**, you created a collection of secure device addresses and a collection of metrics and passed these into the **MeasureQualityOfServiceAsync()** method.
 
@@ -485,9 +540,11 @@ if (qosMeasurement->DeviceAddresses->Size > 0)
 
 For more examples, see the **MatchmakingSession::MeasureQualityOfService()** and **MatchmakingSession::ProcessQosMeasurements()** functions in the NetRumble sample.
 
+
 ### Writing game events
 
-Sending game events that are configured in your title's Service Configuration has a different API in UWP. The Xbox Live SDK uses the **EventsService** and a property bag model.
+Sending game events that are configured in your title's Service Configuration has a different API in UWP.
+The Xbox Live SDK uses the **EventsService** and a property bag model.
 
 For example:
 
@@ -508,13 +565,24 @@ xblContext->EventsService->WriteInGameEvent("MultiplayerRoundStart", properties,
 
 For more information, see the Xbox Live SDK documentation.
 
-**Tip** You can use the **xcetool.exe** provided with the Xbox Live SDK (located in the Tools directory) to convert the events.man file that you downloaded from XDP into a .h header file. Use the '-x' option to generate this C++ header by using the new v2 property bag schema. This header contains C++ functions that you can call for all of your configured events; for example, **EventWriteMultiplayerRoundStart()**. If you prefer to use a WinRT interface, you can still refer to this header file to see how the properties and measurements are constructed for each of your events.
+
+#### Tip: Derive a .h header file
+
+You can use the **xcetool.exe** provided with the Xbox Live SDK (located in the Tools directory) to convert the `events.man` file that you downloaded from XDP into a .h header file.
+Use the '-x' option to generate this C++ header by using the v2 property bag schema.
+
+This header contains C++ functions that you can call for all of your configured events; for example, **EventWriteMultiplayerRoundStart()**.
+
+If you prefer to use a WinRT interface, you can still refer to this .h header file to see how the properties and measurements are constructed for each of your events.
+
 
 ### Game chat
 
-GameChat in UWP is included with the Xbox Live SDK as a NuGet package binary. See instructions in the Xbox Live Programming Guide for how to add this NuGet package to your project.
+GameChat in UWP is included with the Xbox Live SDK as a NuGet package binary.
+See instructions in the Xbox Live Programming Guide for how to add this NuGet package to your project.
 
-Basic usage is virtually identical between the XDK and the UWP versions. A few differences in the API include:
+Basic usage is virtually identical between the XDK and the UWP versions.
+A few differences in the API include:
 
 1.  The **User::AudioDeviceAdded** event does not need to be hooked up by a UWP title. The underlying chat library handles device adds and removes.
 
@@ -526,11 +594,16 @@ Basic usage is virtually identical between the XDK and the UWP versions. A few d
 
 5.  **RemoveLocalUserFromChatChannelAsync()** requires a **ChatAudio::IChatUser^** instead of an **XboxUser**. You can get an **IChatUser** from a **GameChatUser**-&gt;**User**.
 
+
 ### Connected storage
 
-The Connected Storage API is provided in the separate [Xbox Live Platform Extensions SDK](https://developer.xboxlive.com/en-us/live/development/Pages/Downloads.aspx). Documentation is included in the Xbox Live SDK docs.
+The Connected Storage API is provided in the separate [Xbox Live Platform Extensions SDK](https://developer.xboxlive.com/en-us/live/development/Pages/Downloads.aspx).
+Documentation is included in the Xbox Live SDK docs.
 
-The overall flow is the same as on Xbox One, with the addition of the **ContainersChangedSinceLastSync** property in the UWP version. This property should be checked when your title handles a resume event, after calling **GetForUserAsync()** again, to see what containers changed in the cloud while your title was suspended. If you have data loaded in memory from one of the containers that changed, you probably want to read in the data again to see what changed and handle the changes accordingly.
+The overall flow is the same as on Xbox One, with the addition of the **ContainersChangedSinceLastSync** property in the UWP version.
+This property should be checked when your title handles a resume event, after calling **GetForUserAsync()** again, to see what containers changed in the cloud while your title was suspended.
+
+If you have data loaded in memory from one of the containers that changed, you probably want to read in the data again to see what changed and handle the changes accordingly.
 
 Other notable differences in the UWP version include:
 
@@ -558,11 +631,16 @@ Refer to the GameSave sample or the NetRumble sample for example usage.
 
 **Note** Gamesaveutil.exe is the equivalent to xbstorage.exe (the command-line developer utility included with the XDK). After installing the Xbox Live Platform Extensions SDK, this utility can be found here: C:\\Program Files (x86)\\Windows Kits\\10\\Extension SDKs\\XboxLive\\1.0\\Bin\\x64
 
+
 ## Summary
 
-The API changes and new requirements outlined in this white paper are ones that you are likely to encounter when porting existing game code from the Xbox One XDK to the new UWP. Particular emphasis has been given to application and environment setup, as well as feature areas related to Xbox Live services, such as multiplayer and connected storage. For more information, follow the links provided throughout this article and in the following references, and be sure to visit the “Windows 10” section of the [developer forums](https://forums.xboxlive.com) for more help, answers, and news.
+The API changes and new requirements outlined in this white paper are ones that you are likely to encounter when porting existing game code from the Xbox One XDK to the new UWP.
+Particular emphasis has been given to application and environment setup, as well as feature areas related to Xbox Live services, such as multiplayer and connected storage.
 
-## References
+For more information, follow the links provided throughout this article and in the following references, and be sure to visit the “Windows 10” section of the [developer forums](https://forums.xboxlive.com) for more help, answers, and news.
+
+
+## See also
 
 -   [Porting from Xbox One to Windows 10](https://developer.xboxlive.com/en-us/platform/development/education/Documents/Porting%20from%20Xbox%20One%20to%20Windows%2010.aspx)
 

@@ -1,25 +1,16 @@
 ---
-title: What's new for the Xbox Live
-
-description: What's new for the Xbox Live SDK
+title: What's new for Xbox Live
+description: What's new for the Xbox Live.
 ms.date: 10/23/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
+
 # What's new for Xbox Live
+
 You can also check the [Xbox Live API GitHub commit history](https://github.com/Microsoft/xbox-live-api/commits/master) to see all of the recent code changes to the Xbox Live APIs.
 
-## In this article
-
-* [June 2018](#june-2018)
-* [August 2017](#august-2017)
-* [July 2017](#july-2017)
-* [June 2017](#june-2017)
-* [May 2017](#may-2017)
-* [April 2017](#april-2017)
-* [March 2017](#march-2017)
-* [Archived](#archived)
 
 ## October 2018
 
@@ -31,8 +22,10 @@ SDK is now available as precompiled binaries (libs), and integrated with package
 
 For more information about this release, see [What's new in 1810 Release](1810-whats-new.md) 
 
+
 ## September 2018
 Developers can now use XAL and XSAPI on Android and iOS platforms.
+
 
 ## June 2018
 
@@ -43,6 +36,7 @@ Developers can now use XAL and XSAPI on Android and iOS platforms.
 C APIs are now available for some Xbox Live features. The new API layer provides a number of benefits for the supported features, including custom memory management, manual thread management for asynchronous tasks, and a new HTTP library.
 
 For more information, see [Xbox Live C APIs](../xsapi-flat-c.md).
+
 
 ## August 2017
 
@@ -55,6 +49,7 @@ Developers can now create "in-game clubs". In-game clubs differ from standard Xb
 Xbox live members can access in-game clubs outside of your game across any Xbox experience to stay connected to each other and to your game by using club features like chat, feed, LFG, and Mixer freely on Xbox console, PC, or iOS/Android devices.
 
 APIs are available to create & manage in-game clubs directly from within your game. These APIs exist in the xbox::services::clubs namespace.
+
 
 ## July 2017
 
@@ -70,6 +65,7 @@ These new tournament APIs enable the following scenarios:
 * Query the service to retrieve a list of teams for a tournament.
 * Retrieve details about the teams for a tournament from the service.
 * Track changes to tournaments and teams by using Real Time Activity (RTA) subscriptions.
+
 
 ## June 2017
 
@@ -89,6 +85,7 @@ An updated and improved version of Game Chat is now available. For more informat
 
 * Various bug fixes. Check the [GitHub commit history](https://github.com/Microsoft/xbox-live-api/commits/master) for a full list.
 
+
 ## May 2017
 
 ### Xbox Services APIs
@@ -100,6 +97,7 @@ An updated and improved version of Game Chat is now available. For more informat
 #### Bug fixes
 
 * Fixed "bad json" being returned instead of a valid HTTP error code.
+
 
 ## April 2017
 
@@ -121,11 +119,12 @@ These new tournament APIs enable the following scenarios:
 * Retrieve details about the teams for a tournament from the service.
 * Track changes to tournaments and teams by using Real Time Activity (RTA) subscriptions.
 
+
 ## March 2017
 
 ### Xbox Services API
 
-#### Data Platform 2017
+#### Player Data 2017
 
 We have introduced a simplified Stats API.  Traditionally you had to send events corresponding to stat rules defined on XDP or Partner Center and these would update the stat values in the cloud.  We refer to this model as Stats 2013.
 
@@ -147,10 +146,10 @@ There are the following new articles:
 
 | Article | Description |
 |---------|-------------|
-|[Xbox Live Service Configuration](../xbox-live-service-configuration.md) | Updated information on doing service configuration for your Xbox Live Title
-| [Configure Xbox Live in Unity](../get-started-with-creators/configure-xbox-live-in-unity.md) | New information on Unity setup for Xbox Live Creators Program developers |
-| [Xbox Live Sandboxes](../xbox-live-sandboxes.md) | A simplified guide to Xbox Live sandboxes and content isolation |
-| [Xbox Live Test Accounts](../xbox-live-test-accounts.md) | Information about how test accounts work, and how to create them on Partner Center |
+| [Xbox Live Service Configuration](../xbox-live-service-configuration.md) | Updated information on doing service configuration for your Xbox Live Title. |
+| [Configure Xbox Live in Unity](../get-started-with-creators/configure-xbox-live-in-unity.md) | New information on Unity setup for Xbox Live Creators Program developers. |
+| [Xbox Live Sandboxes](../xbox-live-sandboxes.md) | A simplified guide to Xbox Live sandboxes and content isolation. |
+| [Xbox Live Test Accounts](../xbox-live-test-accounts.md) | Information about how test accounts work, and how to create them on Partner Center. |
 
 ## Archived
 

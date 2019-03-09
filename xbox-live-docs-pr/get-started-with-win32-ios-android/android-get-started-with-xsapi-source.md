@@ -1,7 +1,7 @@
 ---
 title: Get started with Xbox Live APIs on Android with source code
 author: KevinAsgari
-description: Learn how to add and compile the Xbox Live APIs source in your Android project.
+description: Add and compile the Xbox Live APIs source in your Android project.
 ms.author: kevinasg
 ms.date: 09/21/2018
 ms.topic: article
@@ -13,11 +13,11 @@ ms.localizationpriority: medium
 
 # Get started with the Xbox Live API source code on Android
 
-In order to use the Xbox Live APIs with an Android game, you can use the pre-compiled binaries, or include the Xbox Live API source in your project and build it.
 
 ## Requirements
 
-You must use Visual Studio 2017 or later in order to build the Xbox Live APIs. Your Visual Studio instance requires the following components in order to build and deploy Android projects:
+You must use Visual Studio 2017 or later in order to build the Xbox Live APIs.
+Your Visual Studio instance requires the following components in order to build and deploy Android projects:
 
 * Workloads
   * Mobile development with C++
@@ -27,6 +27,7 @@ You must use Visual Studio 2017 or later in order to build the Xbox Live APIs. Y
 * Extensions
   * [Java Language Service for Android and Eclipse Android Project Import](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.JavaLanguageServiceforAndroidandEclipseAndroidProj )
 
+
 ## Add the Xbox Live API projects to your Visual Studio solution
 
 > [!NOTE]
@@ -34,15 +35,18 @@ You must use Visual Studio 2017 or later in order to build the Xbox Live APIs. Y
 
 Since Android apps are typically written in Java, your Visual Studio solution will need two projects that work in conjunction with each other.
 
-Your first project consists of all of the Java code that interactions with the Android application environment, including the entry point to your application that is called from the Android OS when your app starts. This project is typically created by using the **Visual C++ > Cross Platform > Android > Basic Application (Android, Gradle)** project template.
+Your first project consists of all of the Java code that interactions with the Android application environment, including the entry point to your application that is called from the Android OS when your app starts.
+This project is typically created by using the **Visual C++ > Cross Platform > Android > Basic Application (Android, Gradle)** project template.
 
 The second project contains the Java Native Interface (JNI) layer that the Java application references to call the native code for the Xbox Authorization Library (XAL) and Xbox Live APIs.
 
 You can see examples of these projects in the SocialAndroidJNI sample, which you can find under `{Xbox Live API root}\InProgressSamples\ID@XboxSDK\Social`.
 
+
 ### To link your own project with the Xbox Live APIs for Android:
 
-1. If you don’t already have one, you’ll need to add a C++ project that serves as the JNI layer to be able to call the Xbox Live API functions in C++ from Java. In Visual Studio, add a new project to your solution, and use the **Visual C++ > Cross Platform > Android > Dynamic Shared Library (Android)** project template.
+1. If you don’t already have one, you’ll need to add a C++ project that serves as the JNI layer to be able to call the Xbox Live API functions in C++ from Java.
+In Visual Studio, add a new project to your solution, and use the **Visual C++ > Cross Platform > Android > Dynamic Shared Library (Android)** project template.
 
     > [!NOTE]
     > The following instructions assume that your JNI project is called **YourJniProject**, so make sure to use the name of your project instead.
@@ -170,27 +174,33 @@ You can see examples of these projects in the SocialAndroidJNI sample, which you
      <application
    ```
 
+
 ## Samples
 
 Included in the SDK download are Android samples for achievements and social, under `{Xbox Live API root}\InProgressSamples\ID@XboxSDK`.
 
+
 ## Remarks about using the Xbox Live APIs on Android
+
 
 ### Sign-in and authorization
 
 Android games that use the Xbox Live APIs use the Xbox Authentication Library (XAL) in order to associate players with their Xbox Live identity.
 
-After signing a player in with XAL, your game should then create an `xbox_live_context` and pass the XAL user handle as a parameter. After that, the `xbox_live_context` should look and function the same as it does on any other platform.
+After signing a player in with XAL, your game should then create an `xbox_live_context` and pass the XAL user handle as a parameter.
+After that, the `xbox_live_context` should look and function the same as it does on any other platform.
 
 For more information about signing in a player by using XAL in an Android game, see [Xbox Live Authentication Layer (Xal) with Android](../using-xbox-live/auth/android-xal.md).
+
 
 ### xboxservices.config
 
 The Xbox Live APIs rely on [xboxservices.config](../xboxservices-config.md). On Android, you can just add the config file to your project.
 
+
 ### Async library
 
-The async library for Android only supports `AsyncQueueDispatchMode::AsyncQueueDispatchMode_Manual`. This means your title has to create an async queue and pump the work and completion threads.  
+The async library for Android only supports `AsyncQueueDispatchMode::AsyncQueueDispatchMode_Manual`. This means your title has to create an async queue and pump the work and completion threads.
 
 You can find a cross-platform solution at `{Xbox Live API Root}\InProgressSamples\Kits\XboxLiveToolkit\mobile\AsyncIntegration`.  
 `AsyncIntegration` handles pumping the background thread and allows the title to control the completion thread by calling `DrainAsyncCompletionQueueUntilEmpty` when ready.

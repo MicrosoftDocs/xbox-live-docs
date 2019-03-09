@@ -1,25 +1,28 @@
 ---
-title: Use Connected Storage to load data
-
-description: Learn how to use Connected Storage to load data.
+title: Loading data with Connected Storage
+description: Code examples using Connected Storage to read data by calling ReadAsync or GetAsync.
 ms.assetid: c660a456-fe7d-453a-ae7b-9ecaa2ba0a15
 ms.date: 02/27/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, connected storage
 ms.localizationpriority: medium
 ---
-# Use Connected Storage to load data
+
+# Loading data with Connected Storage
 
 Data is asynchronously read using the `ReadAsync` or `GetAsync` connected storage method.
+
 
 ### To load data from Connected Storage
 
 1.  Retrieve a `ConnectedStorageSpace` for the user by calling `GetForUserAsync`.
 
-    In the XDK example the returned `ConnectedStorageSpace` is being added to a map to enable easy management of `ConnectedStorageSpace` objects for multiple users.
+    In the XDK example, the returned `ConnectedStorageSpace` is being added to a map to enable easy management of `ConnectedStorageSpace` objects for multiple users.
 
 2.  Create a `ConnectedStorageContainer` by calling `CreateContainer` on the `ConnectedStorageSpace`.
-3.  Retrieve the data by calling `ReadAsync` or `GetAsync` on the `ConnectedStorageContainer`. `ReadAsync` requires you to pass in a buffer while `GetAsync` allocates new buffers to store the data that is read.
+
+3.  Retrieve the data by calling `ReadAsync` or `GetAsync` on the `ConnectedStorageContainer`. `ReadAsync` requires you to pass in a buffer, while `GetAsync` allocates new buffers to store the data that is read.
+
 
 ## C++ XDK sample
 
@@ -88,21 +91,31 @@ void OnLoadCompleted(IAsyncAction^ action, Windows::Foundation::AsyncStatus stat
         break;
 
     default:
-        //all other possible values of action->status are also failures, alternate fail logic here. 
+        //all other possible values of action->status are also failures, alternate fail logic here.
         break;
     }
 }
 ```
 
-You can find the XDK Connected Storage APIs documented in the XDK .chm file under the path:
-**Xbox ONE XDK >> API Reference >> Platform API Reference >> System API Reference >> Windows.Xbox.Storage**.
+You can find the XDK Connected Storage APIs documented in the XDK .chm file under the path:  
+**Xbox ONE XDK >> API Reference >> Platform API Reference >> System API Reference >> Windows.Xbox.Storage**
+
 The XDK APIs are also documented on the [developer.microsoft.com site](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/storage-xbox-microsoft-n).
 The link to XDK APIs requires that you have a Microsoft Account(MSA) that has been enabled for Xbox Developer Kit(XDK) access.
-Windows.Xbox.Storage is the name of the Connected Storage namespace for Xbox One consoles.
+
+`Windows.Xbox.Storage` is the name of the Connected Storage namespace for Xbox One consoles.
+
 
 ## C# UWP sample
 
-While XDK games and UWP apps may use different APIs, the UWP API is modeled after the XDK API very closely. To load data you will still need to follow the same basic steps while making note of some namespace and class name changes. Instead of using the namespace `Windows::Xbox::Storage` you will use `Windows.Gaming.XboxLive.Storage`. The class `ConnectedStorageSpace`, is equivalent to `GameSaveProvider`. The class `ConnectedStorageContainer` is equivalent to `GameSaveContainer`. These changes are further detailed in the Connected Storage Section of [Porting Xbox Live Code From XDK to UWP](../../using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md).
+While XDK games and UWP apps may use different APIs, the UWP API is modeled after the XDK API very closely.
+
+To load data, you will still need to follow the same basic steps while making note of some namespace and class name changes:
+* Instead of using the namespace `Windows::Xbox::Storage` you will use `Windows.Gaming.XboxLive.Storage`.
+* The class `ConnectedStorageSpace` is equivalent to `GameSaveProvider`.
+* The class `ConnectedStorageContainer` is equivalent to `GameSaveContainer`.
+
+These changes are further detailed in the Connected Storage Section of [Porting Xbox Live Code From XDK to UWP](../../using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md).
 
 ```csharp
 //Namespace Required
@@ -168,5 +181,8 @@ if(result.Status == GameSaveErrorStatus.Ok)
 }
 ```
 
-Connected Storage APIs for UWP apps are documented in the [Xbox Live API reference](https://docs.microsoft.com/en-us/uwp/api/windows.gaming.xboxlive.storage).
-To see another sample that uses Connected Storage check out the [Xbox Live API Samples Game Save project](https://github.com/Microsoft/xbox-live-samples/tree/master/Samples/ID%40XboxSDK/GameSave).
+## See also
+
+Connected Storage APIs for UWP apps: [Windows.Gaming.XboxLive.Storage Namespace](https://docs.microsoft.com/en-us/uwp/api/windows.gaming.xboxlive.storage)
+
+For another sample that uses Connected Storage, see [Xbox Live API Samples Game Save project](https://github.com/Microsoft/xbox-live-samples/tree/master/Samples/ID%40XboxSDK/GameSave).

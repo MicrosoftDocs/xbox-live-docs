@@ -1,21 +1,76 @@
 ---
-title: Xbox Live Storage Platform
-
-description: Learn about the Xbox Live Storage Platform, which includes Connected Storage and Title Storage.
-ms.assetid: 3c92549c-65fd-4d26-a693-3aded8bae498
-ms.date: 04/04/2017
+layout: LandingPage
+title: Cloud Storage
+author: mikehoffms
+description: Xbox Live Cloud Storage includes Connected Storage to store game state, and Title Storage to store player statistics and assets.
+ms.author: v-mihof
+ms.date: 12-11-2018
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
+ms.prod: windows
+ms.technology: uwp
+keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
-# Xbox Live Storage Platform - Connected Storage, Title Storage
 
-Xbox Live enables publishers to store global title data and player specific data in the cloud.
+<h1>Cloud Storage</h1>
 
-## In this section
+<p>
+    Xbox Live Cloud Storage includes:
+</p>
+<ul>
+    <li>
+        Connected Storage to store game state.
+    </li>
+    <li>
+        Title Storage to store player statistics and assets.
+    </li>
+</ul>
 
-[Connected Storage](connected-storage/connected-storage-overview.md)
-Data stored by using the per-user Connected Storage API automatically roams for users across PC and multiple Xbox One consoles, and is also available for use offline. Use this service to allow gameplay to continue smoothly when restarting a title after switching between devices. You should use the Connected Storage service to frequently save progress data like inventory, game state, and current location in game. The Connected Storage service is the more fault tolerant cloud storage service, and is less susceptible to network and power failure.
 
-[Xbox Live Title Storage](xbox-live-title-storage/xbox-live-title-storage.md)
-The Xbox Live Title Storage service provides a way to store and share game data and title assets in the cloud. Games running on all platforms can use this online. This service gives more control over data visibility for the consumer as well as global per title data in addition to per-user data. Title Storage is great for storing player statistics, player rankings and title assets like unlockable artwork, and new maps.
+<h2>Overview</h2>
+
+<div class="ico48Case halfStack">
+    <div class="ico48Link"><a href="connected-storage-vs-title-storage.md"><img src="../images/common/xbl_storage_platform.svg"><span>Connected Storage vs. Title Storage</span></a></div>
+</div>
+
+<h2>Features</h2>
+<ul class="cardsF panelContent cols cols2">
+    <li>
+        <a href="connected-storage/connected-storage.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="../images/common/xbl_storage_platform.svg" alt="Social features" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Connected Storage</h3>
+                        <p>Connected Storage saves and loads gameplay data and other state data across devices. Title data is stored locally and also synced to the cloud.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="xbox-live-title-storage/xbl-title-storage.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="../images/common/xbl_storage_platform.svg" alt="Social features" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Title Storage</h3>
+                        <p>Cloud storage for large amounts of per-user or per-title data, such as player statistics and assets.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>

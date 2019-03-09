@@ -2,13 +2,13 @@
 title: DeviceEndpoint (JSON)
 assetID: bd6c4af8-e491-8885-970e-e53d1d60642b
 permalink: en-us/docs/xboxlive/rest/json-deviceendpoint.html
-
 description: ' DeviceEndpoint (JSON)'
 ms.date: 10/12/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
+
 # DeviceEndpoint (JSON)
  
 <a id="ID4EO"></a>
@@ -18,21 +18,20 @@ ms.localizationpriority: medium
  
 The DeviceEndpoint object has the following specification.
  
-| Member| Type| Description| 
-| --- | --- | --- | 
-| deviceName| string| Optional. A friendly name for the device, if applicable. Currently this value is not used.| 
-| endpointUri| string| Required. The URL that the client platform (Windows or Windows Phone) has obtained from its push notification service (WNS or MPNS).| 
-| locale| string| Required. The desired language of notifications sent to this endpoint. Can be a list of comma-separated values in preference order. Example: "de-DE, en-US, en".| 
-| platform| string| Optional. Currently supported values are "WindowsPhone" and "Windows". If not specified, it is derived from the Device token.| 
-| platformVersion| string| Optional. The format of this string is particular to each platform. Currently this value is not used.| 
-| systemId| GUID| Required. Unique identifier for the "app instance" (device/user combination). Best practice implementation is for an app to generate a random GUID upon install/first-run, and continue to use that value on subsequent runs of the app.| 
-| titleId| 32-bit unsigned integer| Required. The Title ID of the game issuing the call to the service.| 
+| Member| Type| Description|
+| --- | --- | --- |
+| deviceName | string| Optional. A friendly name for the device, if applicable. Currently this value is not used. |
+| endpointUri | string| Required. The URL that the client platform (Windows or Windows Phone) has obtained from its push notification service (WNS or MPNS). |
+| locale | string| Required. The desired language of notifications sent to this endpoint. Can be a list of comma-separated values in preference order. Example: "de-DE, en-US, en". |
+| platform | string| Optional. Currently supported values are "WindowsPhone" and "Windows". If not specified, it is derived from the Device token. |
+| platformVersion | string| Optional. The format of this string is particular to each platform. Currently this value is not used. |
+| systemId | GUID| Required. Unique identifier for the "app instance" (device/user combination). Best practice implementation is for an app to generate a random GUID upon install/first-run, and continue to use that value on subsequent runs of the app. |
+| titleId | 32-bit unsigned integer| Required. The Title ID of the game issuing the call to the service. |
+
   
 <a id="ID4EGD"></a>
-
  
 ## Sample JSON syntax
- 
 
 ```json
 {
@@ -50,12 +49,11 @@ The DeviceEndpoint object has the following specification.
 
   
 <a id="ID4EPD"></a>
-
  
 ## See also
+
  
 <a id="ID4ERD"></a>
-
  
 ##### Parent 
 
@@ -63,6 +61,5 @@ The DeviceEndpoint object has the following specification.
 
   
 <a id="ID4E4D"></a>
-
  
-##### Reference   
+##### Reference

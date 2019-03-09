@@ -1,16 +1,17 @@
 ---
 title: Session template constants
-
-description: Describes the system constants defined in Xbox Live multiplayer session templates.
+description: All system constants that are defined in multiplayer session templates, defining settings for a multiplayer session.
 ms.assetid: d51b2f12-1c56-4261-8692-8f73459dc462
 ms.date: 04/04/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, session template
 ms.localizationpriority: medium
 ---
+
 # Session template constants
 
 The following tables describe the predefined elements of a multiplayer session template, using the session template version 107.
+
 
 ## system
 
@@ -37,7 +38,9 @@ sessionEmptyTimeout | The timeout for an empty session, in milliseconds. A value
 
 
 ## capabilities
-Capabilities are boolean values that are optionally set in the session template. If no capabilities are needed, an empty 'capabilities' object should be in the template in order to prevent capabilities from being specified on session creation, unless the title desires dynamic session capabilities.
+
+Capabilities are boolean values that are optionally set in the session template.
+If no capabilities are needed, an empty 'capabilities' object should be in the template in order to prevent capabilities from being specified on session creation, unless the title desires dynamic session capabilities.
 
 capability |  description | valid values | default value
 -- | -- | -- | -- |
@@ -77,9 +80,13 @@ Example:
 },
 ```
 
+
 ## metrics
-If the `metrics` properties are not specified, they default to the values that are needed to satisfy the quality of service requirements.  
-If they are specified, then the values must be sufficient to satisfy the quality of service requirements.
+
+If the `metrics` properties are not specified, they default to the values that are needed to satisfy the quality of service requirements.
+
+If the `metrics` properties are specified, then the values must be sufficient to satisfy the quality of service requirements.
+
 This element is only valid if the session has the `connectivity` capability set.
 
 metric | Description | valid values | default value
@@ -90,6 +97,7 @@ bandwidthUp | | true, false | see Description
 custom | | true, false | see Description
 
 Example:
+
 ```json
 "metrics": {
     "latency": true,
@@ -99,11 +107,15 @@ Example:
 },
 ```
 
+
 ## memberInitialization
-If a `memberInitialization` object is set, the session expects the client system or title to perform initialization following session creation and/or as new members join the session.  
-The timeouts and initialization stages are automatically tracked by the session, including QoS measurements if any metrics are set.  
-These timeouts override the session's reservation and ready timeouts for members that have 'initializationEpisode' set.  
-Can't be specified on large sessions.
+
+If a `memberInitialization` object is set, the session expects the client system or title to perform initialization following session creation and/or as new members join the session.
+
+The timeouts and initialization stages are automatically tracked by the session, including QoS measurements if any metrics are set.
+These timeouts override the session's reservation and ready timeouts for members that have 'initializationEpisode' set.
+
+memberInitialization can't be specified on large sessions.
 
 element  | Description | valid values | default value
 -- | -- | -- | --
@@ -133,6 +145,7 @@ latencyMaximum | The maximum latency, in milliseconds, between any two clients. 
 bandwidthMinimum | The minimum bandwidth in kilobits per second between any two clients. | 10000
 
 Example:
+
 ```json
 "peerToPeerRequirements": {
     "latencyMaximum": 250,  
@@ -160,15 +173,18 @@ Example:
 },
 ```
 
+
 ## measurementServerAddresses
-The set of potential server connection strings that should be evaluated. The connection strings must be lower case.
-Can't be specified on large sessions.
+
+The set of potential server connection strings that should be evaluated.
+The connection strings must be lowercase.
+measurementServerAddresses can't be specified on large sessions.
 
 The connection strings are defined in the following format:
 
 `"<server name>" : {deviceAddress}`
 
-Where the device address is described as follows:
+where the device address is described as follows:
 
 server connection string | Description
 -- | --
@@ -186,8 +202,11 @@ Example:
 },
 ```
 
+
 ## cloudComputePackage
-Specifies the properties of the cloud compute package to allocate. Requires that the `cloudCompute` capability is set.
+
+Specifies the properties of the cloud compute package to allocate.
+Requires that the `cloudCompute` capability is set.
 
 cloud compute property | Description
 -- | -- | -- | --
@@ -204,8 +223,13 @@ Example:
 },
 ```
 
+
 ## arbitration
-Specifies the timeouts for the arbitration process. Requires that the `arbitration` capability is set. The arbitration start time is defined in a session in the */servers/arbitration/constants/system/startTime* element.
+
+Specifies the timeouts for the arbitration process.
+Requires that the `arbitration` capability is set.
+
+The arbitration start time is defined in a session in the */servers/arbitration/constants/system/startTime* element.
 
 timeout | Description | valid values | default
 -- | -- | -- | --
@@ -220,6 +244,7 @@ Example:
 },
 ```
 
+
 ## broadcastViewerTitleIds
 
 Specifies an array of the title IDs of the titles that should always have read access to the broadcast session.
@@ -229,8 +254,11 @@ Example:
 "broadcastViewerTitleIds" : ["34567", "8910"],
 ```
 
+
 ## ownershipPolicies
-Specifies how to handle a session when the last owner leaves the session. Requires that the `hasOwners` capability is set.
+
+Specifies how to handle a session when the last owner leaves the session.
+Requires that the `hasOwners` capability is set.
 
 ownership policy | Description | valid values | default
 -- | -- | -- | --

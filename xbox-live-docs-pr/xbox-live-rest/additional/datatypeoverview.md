@@ -1,9 +1,8 @@
 ---
 title: Data Type Overview
+description: Data Type Overview.
 assetID: c154a6fa-e7b2-4652-f6fc-f946f74480e9
 permalink: en-us/docs/xboxlive/rest/datatypeoverview.html
-
-description: ' Data Type Overview'
 ms.date: 10/12/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
@@ -11,7 +10,8 @@ ms.localizationpriority: medium
 ---
 # Data Type Overview
  
-Xbox Live Services uses a variety of data types related to identity and authentication. This topic provides an overview of those types.
+Xbox Live Services uses a variety of data types related to identity and authentication.
+These articles provide an overview of those types.
  
 | Type| Description| 
 | --- | --- | 
@@ -22,27 +22,26 @@ Xbox Live Services uses a variety of data types related to identity and authenti
 | UserClaims| A simple JSON object containing the user's XUID and gamertag.| 
 | UserSettings| A JSON object containing a collection of title-specific settings or preferences for the current authenticated user. UserSettings can contain arbitrary data, possibly related to in-game activity.| 
 | XUID| The user's Xbox User ID, a unique unsigned long integer. Not meant to be human-readable.| 
- 
+
+
 <a id="ID4E6D"></a>
 
- 
 ## See also
- 
+
+
 <a id="ID4EBE"></a>
 
- 
 ##### Parent  
 
 [Additional Reference](atoc-xboxlivews-reference-additional.md)
 
-  
+
 <a id="ID4ENE"></a>
 
- 
-##### Reference  [Player (JSON)](../json/json-player.md)
+##### Reference
 
- [UserClaims (JSON)](../json/json-userclaims.md)
+[Player (JSON)](../json/json-player.md)
 
- [UserSettings (JSON)](../json/json-usersettings.md)
+[UserClaims (JSON)](../json/json-userclaims.md)
 
-   
+[UserSettings (JSON)](../json/json-usersettings.md)

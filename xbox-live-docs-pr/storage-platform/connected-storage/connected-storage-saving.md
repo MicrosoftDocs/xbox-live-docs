@@ -1,29 +1,31 @@
 ---
-title: Use Connected Storage to save data
-
-description: Learn how to use Connected Storage to save data.
+title: Saving data with Connected Storage
+description: Code examples using Connected Storage to save gameplay data.
 ms.assetid: ccf7488c-5d55-480e-b3aa-412220d03104
 ms.date: 02/27/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, connected storage
 ms.localizationpriority: medium
 ---
-# Use Connected Storage to save data
 
+# Saving data with Connected Storage
 
-Data is asynchronously saved by creating a `ConnectedStorageContainer` in a `ConnectedStorageSpace` for a user and calling the `SubmitUpdatesAsync` method on the container.
+With Connected Storage, data is asynchronously saved by creating a `ConnectedStorageContainer` in a `ConnectedStorageSpace` for a user and calling the `SubmitUpdatesAsync` method on the container.
 
 > [!IMPORTANT]
 > Data dependencies across connected storage containers are unsafe. For example, uploading of one container to the cloud might complete, while another might remain queued for uploading. If the user moved to another console, the synchronization operation would allow the first container to be synchronized and accessed on the second console, without the first container being present.
+
 
 ## To save data to Connected Storage
 
 1.  Retrieve a `ConnectedStorageSpace` object for the user by calling `GetForUserAsync`.
 
-    In the XDK example the returned `ConnectedStorageSpace` object is being added to a map to enable easy management of `ConnectedStorageSpace` objects for multiple users.
+    In the XDK example, the returned `ConnectedStorageSpace` object is added to a map to enable easy management of `ConnectedStorageSpace` objects for multiple users.
 
 2.  Create a `ConnectedStorageContainer` object by calling `CreateContainer` on the `ConnectedStorageSpace` object.
+
 3.  Call `SubmitUpdatesAsync` on the `ConnectedStorageContainer` with you game save data blob as the `blobsToWrite` parameter.
+
 
 ## C++ XDK sample
 
@@ -117,9 +119,12 @@ void SaveCheckpoint(Windows::Storage::Streams::IBuffer^ buffer, User^ user)
 
 You can find the XDK Connected Storage APIs documented in the XDK .chm file under the path:
 **Xbox ONE XDK >> API Reference >> Platform API Reference >> System API Reference >> Windows.Xbox.Storage**.
+
+Windows.Xbox.Storage is the name of the Connected Storage namespace for Xbox One consoles.
+
 The XDK APIs are also documented on the [developer.microsoft.com site](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/storage-xbox-microsoft-n).
 The link to XDK APIs requires that you have a Microsoft Account(MSA) that has been enabled for Xbox Developer Kit(XDK) access.
-Windows.Xbox.Storage is the name of the Connected Storage namespace for Xbox One consoles.
+
 
 ## C# UWP sample
 
@@ -179,5 +184,6 @@ GameSaveOperationResult gameSaveOperationResult = await gameSaveContainer.Submit
 //string displayName
 ```
 
-Connected Storage APIs for UWP apps are documented in the [Xbox Live API reference](https://docs.microsoft.com/en-us/uwp/api/windows.gaming.xboxlive.storage).
-To see another sample that uses Connected Storage check out the [Xbox Live API Samples Game Save project](https://github.com/Microsoft/xbox-live-samples/tree/master/Samples/ID%40XboxSDK/GameSave).
+For the Connected Storage API Reference for UWP apps, see [Windows.Gaming.XboxLive.Storage Namespace](https://docs.microsoft.com/en-us/uwp/api/windows.gaming.xboxlive.storage).
+
+To see another sample that uses Connected Storage, see [Xbox Live API Samples Game Save project](https://github.com/Microsoft/xbox-live-samples/tree/master/Samples/ID%40XboxSDK/GameSave).

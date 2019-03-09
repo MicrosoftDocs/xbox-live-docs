@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="45px" viewBox="0 0 64 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>i_delivery</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Screen-States-of-Verticle-Slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing---Home" transform="translate(-857.000000, -175.000000)">
+            <g id="i_delivery" transform="translate(857.000000, 164.000000)">
+                <g id="Group" transform="translate(1.000000, 12.000000)">
+                    <rect id="Rectangle-path" fill="#417505" fill-rule="nonzero" x="0" y="0" width="42" height="35"></rect>
+                    <polygon id="Shape" fill="#7ED321" fill-rule="nonzero" points="42 0 42 23 19 0"></polygon>
+                    <rect id="Rectangle-path" stroke="#556A8A" stroke-width="2" x="0" y="0" width="42" height="35"></rect>
+                    <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="62 19.88 62 35 42 35 42 5 53.32 5"></polygon>
+                    <polygon id="Shape" fill="#E5E5E5" fill-rule="nonzero" points="62 19.88 62 20 42 20 42 5 53.32 5"></polygon>
+                    <polygon id="Shape" stroke="#556A8A" stroke-width="2" points="42 5 53.32 5 62 19.88 62 34.91 42 34.91"></polygon>
+                    <circle id="Oval" stroke="#556A8A" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="13.56" cy="34.64" r="7.44"></circle>
+                    <circle id="Oval" stroke="#556A8A" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="41.56" cy="34.64" r="7.44"></circle>
+                    <circle id="Oval" fill="#556A8A" fill-rule="nonzero" cx="13.56" cy="34.64" r="2.48"></circle>
+                    <circle id="Oval" fill="#556A8A" fill-rule="nonzero" cx="41.56" cy="34.64" r="2.48"></circle>
+                </g>
+                <rect id="Rectangle-path" x="0" y="0" width="64" height="64"></rect>
+                <rect id="Rectangle-path" x="0" y="0" width="64" height="64"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

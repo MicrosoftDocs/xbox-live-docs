@@ -1,16 +1,20 @@
 ---
 title: Working with Connected Storage buffers
-
-description: Learn about working with Connected Storage buffers.
+description: Code examples using Connected Storage buffers.
 ms.assetid: 1d9d1b52-4bfe-4cd9-8b80-50ca6c0e9ae1
 ms.date: 04/04/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, connected storage
 ms.localizationpriority: medium
 ---
+
 # Working with Connected Storage buffers
 
-The Connected Storage API uses **Windows::Storage::Streams::Buffer** instances to pass data to and from an application. Because WinRT types cannot expose raw pointers, access to the data of a Buffer instance occurs through **DataReader** and **DataWriter** classes. However, **Buffer** also implements the COM interface **IBufferByteAccess**, which makes it possible to obtain a pointer directly to the buffer data.
+The Connected Storage API uses **Windows::Storage::Streams::Buffer** instances to pass data to and from an application.
+
+Because WinRT types cannot expose raw pointers, access to the data of a Buffer instance occurs through **DataReader** and **DataWriter** classes.
+However, **Buffer** also implements the COM interface **IBufferByteAccess**, which makes it possible to obtain a pointer directly to the buffer data.
+
 
 ### To get a pointer to a Buffer instance's data
 
@@ -36,7 +40,10 @@ The Connected Storage API uses **Windows::Storage::Streams::Buffer** instances t
         bufferByteAccess->Buffer(&bytes);
 ```
 
-For example, the following code sample shows how to create a buffer that holds the current system time. Since buffers have a separate capacity and length value it is necessary to explicitly set both the capacity and length. By default, the length is 0.
+For example, the following code sample shows how to create a buffer that holds the current system time.
+
+Since buffers have a separate capacity and length value, it is necessary to explicitly set both the capacity and length.
+By default, the length is 0.
 
 ```cpp
     inline byte* GetBufferData(Windows::Storage::Streams::IBuffer^ buffer)

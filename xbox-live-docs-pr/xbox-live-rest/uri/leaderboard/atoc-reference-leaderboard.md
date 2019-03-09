@@ -15,26 +15,29 @@ This section provides detail about Universal Resource Identifier (URI) addresses
 
 The domain for these URIs is leaderboards.xboxlive.com.
 
-<a id="ID4EDB"></a>
 
+<a id="ID4EDB"></a>
 
 ## In this section
 
-[/scids/{scid}/leaderboards/{leaderboardname}](uri-scidsscidleaderboardsleaderboardname.md)
+[/scids/{scid}/leaderboards/{leaderboardname}](uri-scidsscidleaderboardsleaderboardname.md) &nbsp;&nbsp; Accesses a predefined global leaderboard.
 
-&nbsp;&nbsp;Accesses a predefined global leaderboard.
+[/users/xuid({xuid})/scids/{scid}/stats/{statname)/people/{all\|favorite}](uri-usersxuidscidstatnamepeople.md) &nbsp;&nbsp; Accesses a social (ranked) leaderboard.
 
-[/users/xuid({xuid})/scids/{scid}/stats/{statname)/people/{all\|favorite}](uri-usersxuidscidstatnamepeople.md)
-
-&nbsp;&nbsp;Accesses a social (ranked) leaderboard.
  
 <a id="ID4EMB"></a>
 
-
 ## See also
 
-<a id="ID4EOB"></a>
+[Overview of Leaderboards](../../../leaderboards-and-stats-2017/leaderboards.md)
+<!--
+present location:
+xbox-live\xbox-live-rest\uri\leaderboard
+destination:
+xbox-live\leaderboards-and-stats-2017 -->
 
+
+<a id="ID4EOB"></a>
 
 ##### Parent
 

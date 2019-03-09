@@ -1,24 +1,26 @@
 ---
-title: Flowchart - Play with friends
-
-description: Xbox Live multiplayer manager flowchart - play a multiplayer/co-op game with friends.
+title: Playing a game with friends (flowchart)
+description: Flowcharts showing how to start a new multiplayer game by adding and inviting friends to the game.
 ms.assetid: ead5b172-6410-4aae-97fc-3c295745d27e
 ms.date: 04/04/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer manager, flowchart
 ms.localizationpriority: medium
 ---
-# Flowchart - Play a multiplayer/co-op game with friends
+
+# Playing a game with friends (flowchart)
 
 The following flowcharts show how to start a new multiplayer game by adding and inviting friends to the game.
 
 You can see multiplayer manager code examples of this process in [Play a multiplayer game with friends](../play-multiplayer-with-friends.md).
+
 
 ## Add and invite friends
 
 The following flowchart applies to the client that is starting the multiplayer game:
 
 ![Multiplayer inviter flow](../../../images/multiplayer/mpm-play-with-friends-inviter.png)
+
 
 ## Accept an invite to a game
 
