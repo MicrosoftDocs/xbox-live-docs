@@ -43,7 +43,7 @@ Visual Studio Installer workloads page
 
 ## Setting up the project
 
-[Xbox Live Authentication Library (XAL) overview](xal-overview.md#integrate-xal-into-visual-studio) gives instructions on how to set up a Visual Studio project for XAL development.
+**TODO** gives instructions on how to set up a Visual Studio project for XAL development.
 The present section carries the specific instructions for setting up a Xal project for Android development.
 
 > [!TIP]
