@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 
 An **asynchronous API** is an API that returns quickly but starts an **asynchronous task** and the result is returned after the task is finished.
 
-Traditionally, games have little control over which thread executes the **asynchronous task** and which thread returns the results when using a **completion callback**.
+Traditionally, games have had little control over which thread executes the **asynchronous task** and which thread returns the results when using a **completion callback**.
 Some games are designed so that a section of the heap is only touched by a single thread to avoid any need for thread synchronization.
 If the **completion callback** isn't called from a thread the game controls, updating shared state with the result of an **asynchronous task** will require thread synchronization.
 
@@ -22,51 +22,66 @@ Here is a basic example calling the **XblProfileGetUserProfileAsync** API:
 
 [!INCLUDE [XblProfileGetUserProfileAsync](code/snippets/XblProfileGetUserProfileAsync.md)]
 
-To understand this calling pattern, you will need to understand how to use the **AsyncBlock** and the **AsyncQueue**.
+To understand this calling pattern, you will need to understand how to use the **XAsyncBlock** and the **XTaskQueueHandle**.
 
-* The **AsyncBlock** carries all of the information pertaining to the **asynchronous task** and **completion callback**.
+* The **XAsyncBlock** carries all of the information pertaining to the **asynchronous task** and **completion callback**.
 
-* The **AsyncQueue** allows you to determine which thread executes the **asynchronous task** and which thread calls the AsyncBlock's **completion callback**.
+* The **XTaskQueueHandle** allows you to determine which thread executes the **asynchronous task** and which thread calls the XAsyncBlock's **completion callback**.
 
 
-## The **AsyncBlock**
+## The **XAsyncBlock**
 
-Let's take a look at the **AsyncBlock** in detail.
+Let's take a look at the **XAsyncBlock** in detail.
 It is a struct defined as follows:
 
 ```cpp
-typedef struct AsyncBlock
+typedef struct XAsyncBlock
 {
-    AsyncCompletionRoutine* callback;
+    /// <summary>
+    /// The queue to queue the call on
+    /// </summary>
+    XTaskQueueHandle queue;
+
+    /// <summary>
+    /// Optional context pointer to pass to the callback
+    /// </summary>
     void* context;
-    async_queue_handle_t queue;
-} AsyncBlock;
+
+    /// <summary>
+    /// Optional callback that will be invoked when the call completes
+    /// </summary>
+    XAsyncCompletionRoutine* callback;
+
+    /// <summary>
+    /// Internal use only
+    /// </summary>
+    unsigned char internal[sizeof(void*) * 4];
+};
 ```
 
-The **AsyncBlock** contains:
+The **XAsyncBlock** contains:
 
-* *callback* - an optional callback function that will be called after the asynchronous work has been done.  If you don't specify a callback, you can wait for the **AsyncBlock** to complete with **GetAsyncStatus** and then get the results.
+* *queue* - an XTaskQueueHandle which is a handle repesenting information about where to run a piece of work. If this is not set, a default queue will be used.
 
 * *context* - allows you to pass data to the callback function.
 
-* *queue* - an async_queue_handle_t which is a handle designating an **AsyncQueue**. If this is not set, a default queue will be used.
+* *callback* - an optional callback function that will be called after the asynchronous work has been done.  If you don't specify a callback, you can wait for the **XAsyncBlock** to complete with **XAsyncGetStatus** and then get the results.
 
-You should create a new AsyncBlock on the heap for each async API you call.
-The AsyncBlock must live until the AsyncBlock's completion callback is called and then it can be deleted.
+You should create a new XAsyncBlock on the heap for each async API you call.
+The XAsyncBlock must live until the XAsyncBlock's completion callback is called and then it can be deleted.
 
 > [!IMPORTANT]
-> An **AsyncBlock** must remain in memory until the **asynchronous task** completes. If it is dynamically allocated, it can be deleted inside the AsyncBlock's **completion callback**.
+> An **XAsyncBlock** must remain in memory until the **asynchronous task** completes. If it is dynamically allocated, it can be deleted inside the XAsyncBlock's **completion callback**.
 
 
 ### Waiting for an **asynchronous task**
 
 You can tell an **asynchronous task** is complete a number of different ways:
 
-* The AsyncBlock's **completion callback** is called.
-* Call **GetAsyncStatus** with true to wait until it completes.
-* Set a waitEvent in the **AsyncBlock** and wait for the event to be signaled.
+* The XAsyncBlock's **completion callback** is called.
+* Call **XAsyncGetStatus** with true to wait until it completes.
 
-With **GetAsyncStatus** and waitEvent, the **asynchronous task** is considered complete after the AsyncBlock's **completion callback** executes however the AsyncBlock's **completion callback** is optional.
+With **XAsyncGetStatus**, the **asynchronous task** is considered complete after the XAsyncBlock's **completion callback** executes however the XAsyncBlock's **completion callback** is optional.
 
 Once the **asynchronous task** is complete, you can get the results.
 
@@ -76,14 +91,14 @@ Once the **asynchronous task** is complete, you can get the results.
 To get the result, most **asynchronous API** functions have a corresponding \[Name of Function\]Result function to receive the result of the asynchronous call.
 
 In our example code, **XblProfileGetUserProfileAsync** has a corresponding **XblProfileGetUserProfileResult** function.
-You can use this function to return the result of the function and act accordingly.
+You can use this function to retrieve the result of the function and act accordingly.
 
 For full details on retrieving results, see the documentation of each **asynchronous API** function.
 
 
-## The **AsyncQueue**
+## The **XTaskQueueHandle**
 
-The **AsyncQueue** allows you to determine which thread executes the **asynchronous task** and which thread calls the AsyncBlock's **completion callback**.
+The **XTaskQueueHandle** allows you to determine which thread executes the **asynchronous task** and which thread calls the XAsyncBlock's **completion callback**.
 
 You can control which thread performs these operation by setting a *dispatch mode*.
 There are three dispatch modes available:
@@ -92,203 +107,190 @@ There are three dispatch modes available:
 
 * *Thread Pool* - Dispatches using a thread pool.  The thread pool invokes the calls in parallel, taking a call to execute from the queue in turn as threadpool threads become available.  This is the easist to use, but gives you the least amount of control over which thread is used.
 
-* *Fixed Thread* - Dispatches using QueueUserAPC on the thread that created the async queue. When a user-mode APC is queued, the thread is not directed to call the APC function unless it is in an alertable state. A thread enters an alertable state by using **SleepEx**, **SignalObjectAndWait**, **WaitForSingleObjectEx**, **WaitForMultipleObjectsEx**, or **MsgWaitForMultipleObjectsEx** to perform an alertable wait operation
+* *Serialized Thread Pool* - Dispatches using a thread pool.  The thread pool invokes the calls in serial, taking a call to execute from the queue in turn as the single threadpool thread becomes available.
 
-To create a new **AsyncQueue** you will need to call **CreateAsyncQueue**.
+* *Immediate* - Immediately dispatches the queued work on the thread from which it was submitted.
+
+To create a new **XTaskQueueHandle** you will need to call **XTaskQueueCreate**.
 For example:
 
 ```cpp
-STDAPI CreateAsyncQueue(
-    _In_ AsyncQueueDispatchMode workDispatchMode,
-    _In_ AsyncQueueDispatchMode completionDispatchMode,
-    _Out_ async_queue_handle_t* queue);
+STDAPI XTaskQueueCreate(
+    _In_ XTaskQueueDispatchMode workDispatchMode,
+    _In_ XTaskQueueDispatchMode completionDispatchMode,
+    _Out_ XTaskQueueHandle* queue
+    ) noexcept;
 ```
 
-This function takes two `AsyncQueueDispatchMode` parameters.
-There are three possible values for `AsyncQueueDispatchMode`:
+This function takes two `XTaskQueueDispatchMode` parameters.
+There are three possible values for `XTaskQueueDispatchMode`:
 
 ```cpp
-typedef enum AsyncQueueDispatchMode
+/// <summary>
+/// Describes how task queue callbacks are processed.
+/// </summary>
+enum class XTaskQueueDispatchMode : uint32_t
 {
     /// <summary>
-    /// Async callbacks are invoked manually by DispatchAsyncQueue
+    /// Callbacks are invoked manually by XTaskQueueDispatch
     /// </summary>
-    AsyncQueueDispatchMode_Manual,
+    Manual,
 
     /// <summary>
-    /// Async callbacks are queued to the thread that created the queue
-    /// and will be processed when the thread is alertable.
+    /// Callbacks are queued to the system thread pool and will
+    /// be processed in order by the thread pool across multiple thread
+    /// pool threads.
     /// </summary>
-    AsyncQueueDispatchMode_FixedThread,
-
+    ThreadPool,
+    
     /// <summary>
-    /// Async callbacks are queued to the system thread pool and will
-    /// be processed in order by the threadpool.
+    /// Callbacks are queued to the system thread pool and
+    /// will be processed one at a time.
     /// </summary>
-    AsyncQueueDispatchMode_ThreadPool
-
-} AsyncQueueDispatchMode;
+    SerializedThreadPool,
+    
+    /// <summary>
+    /// Callbacks are not queued at all but are dispatched
+    /// immediately by the thread that submits them.
+    /// </summary>
+    Immediate
+};
 ```
 
 **workDispatchMode** determines the dispatch mode for the thread which handles the async work, while **completionDispatchMode** determines the dispatch mode for the thread which handles the completion of the async operation.
 
-You can also call **CreateSharedAsyncQueue** to create an **AsyncQueue** with the same queue type by specifying an ID for the queue.
+Once you have created your **XTaskQueueHandle** simply add it to the **XAsyncBlock** to control threading on your work and completion functions.
+When you are finished using the **XTaskQueueHandle**, typically when the game is ending, you can close it with **XTaskQueueCloseHandle**:
 
 ```cpp
-STDAPI CreateSharedAsyncQueue(
-    _In_ uint32_t id,
-    _In_ AsyncQueueDispatchMode workerMode,
-    _In_ AsyncQueueDispatchMode completionMode,
-    _Out_ async_queue_handle_t* aQueue);
-```
-
-> [!NOTE]
-> If there is already a queue with this ID and dispatch  modes, it will be referenced.  Otherwise a new queue will be created.
-
-Once you have created your **AsyncQueue** simply add it to the **AsyncBlock** to control threading on your work and completion functions.
-When you are finished using the **AsyncQueue**, typically when the game is ending, you can close it with **CloseAsyncQueue**:
-
-```cpp
-STDAPI_(void) CloseAsyncQueue(
-    _In_ async_queue_handle_t aQueue);
+STDAPI_(void) XTaskQueueCloseHandle(
+    _In_ XTaskQueueHandle queue
+    ) noexcept;
 ```
 
 **Call Sample**:  
 [!INCLUDE [CloseAsyncQueue](code/snippets/CloseAsyncQueue.md)]
 
 
-### Manually dispatching an **AsyncQueue**
+### Manually dispatching an **XTaskQueueHandle**
 
-If you used the manual queue dispatch mode for an **AsyncQueue** work or completion queue, you will need to manually dispatch.
-Let us say that an **AsyncQueue** was created where both the work queue and the completion queue are set to dispatch manually like so:
+If you used the manual queue dispatch mode for an **XTaskQueueHandle** work or completion queue, you will need to manually dispatch.
+Let us say that an **XTaskQueueHandle** was created where both the work queue and the completion queue are set to dispatch manually like so:
 
 [!INCLUDE [CreateAsyncQueue](code/snippets/CreateAsyncQueue.md)]
 
-In order to dispatch work that has been assigned **AsyncQueueDispatchMode_Manual** you will have to dispatch it with the **DispatchAsyncQueue** function.
+In order to dispatch work that has been assigned **XTaskQueueDispatchMode::Manual** you will have to dispatch it with the **XTaskQueueDispatch** function.
 
 ```cpp
-STDAPI_(bool) DispatchAsyncQueue(
-    _In_ async_queue_handle_t queue,
-    _In_ AsyncQueueCallbackType type,
-    _In_ uint32_t timeoutInMs);
+STDAPI_(bool) XTaskQueueDispatch(
+    _In_ XTaskQueueHandle queue,
+    _In_ XTaskQueuePort port,
+    _In_ uint32_t timeoutInMs
+    ) noexcept;
 ```
 
 **Call Sample**
 [!INCLUDE [DispatchAsyncQueue](code/snippets/DispatchAsyncQueue.md)]
 
-* *queue* - which queue to dispatch work on
-* *type* - an instance of the **AsyncQueueCallbackType** enum
+* *queue* - which queue to dispatch work on.
+* *port* - an instance of the **XTaskQueuePort** enum.
 * *timeoutInMs* - a uint32_t for the timeout in milliseconds.
 
-There are two callback types defined by the **AsyncQueueCallbackType** enum:
+There are two callback types defined by the **XTaskQueuePort** enum:
 
 ```cpp
-typedef enum AsyncQueueCallbackType
+/// <summary>
+/// Declares which port of a task queue to dispatch or submit
+/// callbacks to.
+/// </summary>
+enum class XTaskQueuePort : uint32_t
 {
     /// <summary>
-    /// Async work callbacks
+    /// Work callbacks
     /// </summary>
-    AsyncQueueCallbackType_Work,
+    Work,
 
     /// <summary>
     /// Completion callbacks after work is done
     /// </summary>
-    AsyncQueueCallbackType_Completion
-} AsyncQueueCallbackType;
+    Completion
+};
 ```
 
 
-### When to call **DispatchAsyncQueue**
+### When to call **XTaskQueueDispatch**
 
-In order to check when the queue has received a new item you can call **AddAsyncQueueCallbackSubmitted** to set an event handler to let your code know that either work or completions are ready to be dispatched.
+In order to check when the queue has received a new item you can call **XTaskQueueRegisterMonitor** to set an event handler to let your code know that either work or completions are ready to be dispatched.
 
 ```cpp
-STDAPI AddAsyncQueueCallbackSubmitted(
-    _In_ async_queue_handle_t queue,
-    _In_opt_ void* context,
-    _In_ AsyncQueueCallbackSubmitted* callback,
-    _Out_ uint32_t* token);
+STDAPI XTaskQueueRegisterMonitor(
+    _In_ XTaskQueueHandle queue,
+    _In_opt_ void* callbackContext,
+    _In_ XTaskQueueMonitorCallback* callback,
+    _Out_ XTaskQueueRegistrationToken* token
+    ) noexcept;
 ```
 
 
-**AddAsyncQueueCallbackSubmitted** takes the following parameters:
+**XTaskQueueRegisterMonitor** takes the following parameters:
 
 * *queue* - the async queue you are submitting the callback for.
-* *context* - a pointer to data that should be passed to the submit callback.
+* *callbackContext* - a pointer to data that should be passed to the submit callback.
 * *callback* - the function that will be invoked when a new callback is submitted to the queue.
-* *token* - a token that will be used in a later call to **RemoveAsynceCallbackSubmitted** to remove the callback.
+* *token* - a token that will be used in a later call to **XTaskQueueUnregisterMonitor** to remove the callback.
 
-For example, here is a call to **AddAsyncQueueCallbackSubmitted**:
+For example, here is a call to **XTaskQueueRegisterMonitor**:
 
-`AddAsyncQueueCallbackSubmitted(queue, nullptr, HandleAsyncQueueCallback, &m_callbackToken);`
+`XTaskQueueRegisterMonitor(queue, nullptr, HandleAsyncQueueCallback, &m_callbackToken);`
 
-The corresponding **AsyncQueueCallbackSubmitted** callback might be implemented as follows:
+The corresponding **XTaskQueueMonitorCallback** callback might be implemented as follows:
 
 ```cpp
 void CALLBACK HandleAsyncQueueCallback(
-    _In_ void* context,
-    _In_ async_queue_handle_t queue,
-    _In_ AsyncQueueCallbackType type)
+    _In_opt_ void* context,
+    _In_ XTaskQueueHandle queue,
+    _In_ XTaskQueuePort port)
 {
-    switch (type)
+    switch (port)
     {
-    case AsyncQueueCallbackType::AsyncQueueCallbackType_Work:
-        ReleaseSemaphore(g_workReadyHandle, 1, nullptr);
+    case XTaskQueuePort::Work:
+        {
+            std::lock_guard<std::mutex> lock(g_workReadyMutex);
+            g_workReady = true;
+        }
+
+        g_workReadyConditionVariable.notify_one(); // (std::condition_variable)
         break;
     }
 }
 ```
 
-Then in a background thread, you can listen for this semaphore to wake up and call **DispatchAsyncQueue**.
+Then in a background thread, you can listen for this condition variable to wake up and call **XTaskQueueDispatch**.
 
 ```cpp
-DWORD WINAPI BackgroundWorkThreadProc(LPVOID lpParam)
+void BackgroundWorkThreadProc(XTaskQueueHandle queue)
 {
-    HANDLE hEvents[2] =
+    while (true)
     {
-        g_workReadyHandle.get(),
-        g_stopRequestedHandle.get()
-    };
-
-    async_queue_handle_t queue = static_cast<async_queue_handle_t>(lpParam);
-
-    bool stop = false;
-    while (!stop)
-    {
-        DWORD dwResult = WaitForMultipleObjectsEx(2, hEvents, false, INFINITE, false);
-        switch (dwResult)
         {
-        case WAIT_OBJECT_0: 
-            // Background work is ready to be dispatched
-            DispatchAsyncQueue(queue, AsyncQueueCallbackType_Work, 0);
-            break;
+            std::unique_lock<std::mutex> cvLock(g_workReadyMutex);
+            g_workReadyConditionVariable.wait(cvLock, [] { return g_workReady; });
 
-        case WAIT_OBJECT_0 + 1:
-        default:
-            stop = true;
-            break;
+            if (g_stopBackgroundWork)
+            {
+                break;
+            }
+
+            g_workReady = false;
         }
-    }
 
-    CloseAsyncQueue(queue);
-    return 0;
+        bool workFound = false;
+        do
+        {
+            workFound = XTaskQueueDispatch(queue, XTaskQueuePort::Work, 0);
+        } while (workFound);
+    }
+    
+    XTaskQueueCloseHandle(queue);
 }
 ```
-
-It is best practice to use a Win32 Semaphore object for this implementation.
-If you instead implement using a Win32 Event object, ensure that you don't miss any events, by implementing code like the following:
-
-```cpp
-    case WAIT_OBJECT_0: 
-        // Background work is ready to be dispatched
-        DispatchAsyncQueue(queue, AsyncQueueCallbackType_Work, 0);        
-        
-        if (!IsAsyncQueueEmpty(queue, AsyncQueueCallbackType_Work))
-        {
-            // If there's more pending work, then set the event to process them
-            SetEvent(g_workReadyHandle.get());
-        }
-        break;
-```
-
-For an example of best practices for async integration, see [Social C Sample AsyncIntegration.cpp](https://github.com/Microsoft/xbox-live-api/blob/master/InProgressSamples/Social/Xbox/C/AsyncIntegration.cpp).
