@@ -1,6 +1,6 @@
 ```cpp
     XalPlatformArgs xalPlatformArgs = {};
-	xalPlatformArgs.redirectUri = redirectUri;
+    xalPlatformArgs.redirectUri = redirectUri;
 
     XalInitArgs xalInitArgs = {};
     xalInitArgs.ClientId = clientId;

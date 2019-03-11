@@ -3,7 +3,7 @@
         args->operation,
         result,
         data.size(),
-		data.data()
+        data.data()
         );
     LogRun("XalPlatformStorageReadComplete: hr=0x%08X", hr);
 ```
