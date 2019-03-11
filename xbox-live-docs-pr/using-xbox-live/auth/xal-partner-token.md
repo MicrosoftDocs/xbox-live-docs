@@ -22,14 +22,14 @@ Custom web services allow you to use user, title, and device claims that are con
 
 To retrieve the Xbox Live partner token for your own service, an endpoint configuration that uses an Xbox Live token is required.
 
-The game then requests the Xbox Live partner token for this endpoint by calling `XalUserGetTokenAndSignatureSilentlyAsync` using the following flow:
+The game then requests the Xbox Live partner token for this endpoint by calling `XalUserGetTokenAndSignatureSilentlyAsync()` using the following flow:
 
 1. Create a `XalUserGetTokenAndSignatureArgs` object:
 
 ```c
 XalUserGetTokenAndSignatureArgs tokenAndSigArgs = {};
     tokenAndSigArgs.method = "GET";
-    tokenAndSigArgs.url = "http://service.yourcompany.com"
+    tokenAndSigArgs.url = "https://service.yourcompany.com/yourpath"
     tokenAndSigArgs.headerCount = static_cast<uint32_t>(headers.size());
     tokenAndSigArgs.headers = headers.data();
     tokenAndSigArgs.bodySize = static_cast<uint32_t>(data->Body.size());
@@ -37,6 +37,9 @@ XalUserGetTokenAndSignatureArgs tokenAndSigArgs = {};
     tokenAndSigArgs.forceRefresh = forceRefresh;
     tokenAndSigArgs.allUsers = false;
 ```
+
+> [!IMPORTANT]
+> Only set forceRefresh to true if you previously requested a token and it was rejected from your service.
 
 2. Call `XalUserGetTokenAndSignatureSilentlyAsync` to get the partner token:
 
