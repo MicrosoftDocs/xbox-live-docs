@@ -63,7 +63,6 @@ ms.localizationpriority: medium
 
 <ul>
     <li>Learn about each offering and see how each stack up against the other in terms of support, array of features and investment of time</li>
-    <li>Follow a prebuilt path to success that will lead to being able to integrate and work with any of the Xbox Live features</li>
 </ul>
 
 <ul class="cardsY panelContent cols cols2">
@@ -105,6 +104,20 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
+</ul>
+
+<h2>Ready to Develop - Get an IDE Set Up and Explore Xbox Live Features</h2>
+
+<p>Set up and IDE and Dive into the features that make up Xbox Live - Identity, Social, Achievements, Cloud Storage, Multiplayer and External Services</p>
+
+<ul>
+    <li>Follow a prebuilt path to success that will lead to being able to integrate and work with any of the Xbox Live features</li>
+    <li>Learn about each feature in detail</li>
+    <li>How to configure the feature in the Partner Center</li>
+    <li>Examples of implementation and how to call a feature</li>
+</ul>
+
+<ul class="cardsY panelContent cols">
     <li>
         <a href="/gaming/xbox-live/get-started/">
             <div class="cardSize">
@@ -124,19 +137,6 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
-</ul>
-
-<h2>Ready to Develop - Begin implementing features of Xbox Live</h2>
-
-<p>Dive into the features that make up Xbox Live - Identity, Social, Achievements, Cloud Storage, Multiplayer and External Services.</p>
-
-<ul>
-    <li>Learn about each feature in detail</li>
-    <li>How to configure the feature in the Partner Center</li>
-    <li>Examples of implementation and how to call a feature</li>
-</ul>
-
-<ul class="cardsY panelContent cols">
     <li>
         <a href="/gaming/xbox-live/features/">
             <div class="cardSize">
@@ -150,31 +150,6 @@ ms.localizationpriority: medium
                         <div class="cardText">
                             <h3>Core Xbox Live Features</h3>
                             <p>Identity, Social, Achievements, Cloud Storage, Multiplayer and External Services.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-</ul>
-
-<h2>Tutorials</h2>
-
-<p>Use our samples to learn concepts about how features can interact and enrich gaming experiences</p>
-
-<ul class="cardsY panelContent cols">
-    <li>
-        <a href="">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="" alt="Multiplayer, Achievement, In Game Clubs, Cross Title Storage and Single Sign In tutorials" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <p>Multiplayer, Achievement, In Game Clubs, Cross Title Storage and Single Sign In tutorials</p>
                         </div>
                     </div>
                 </div>
