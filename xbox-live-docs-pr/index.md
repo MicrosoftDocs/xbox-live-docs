@@ -117,7 +117,7 @@ ms.localizationpriority: medium
     <li>Examples of implementation and how to call a feature</li>
 </ul>
 
-<ul class="cardsY panelContent cols">
+<ul class="cardsY panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/get-started/">
             <div class="cardSize">
