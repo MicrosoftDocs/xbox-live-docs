@@ -69,6 +69,5 @@ The sample apps provide sample code and practices for integrating XAL into your 
 Read the following articles to learn how to work with XAL in the general case and for any of its supported platforms.
 
 [XAL Sign-In](xal-sign-in.md)  
-[Get Started with XAL on Win32](win32-xal.md)  
 [Get Started with XAL on iOS](iOS-xal.md)  
 [Get Started with XAL on Android](android-xal.md)

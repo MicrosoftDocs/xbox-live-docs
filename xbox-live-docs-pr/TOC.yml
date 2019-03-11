@@ -122,8 +122,6 @@
                       href: using-xbox-live/auth/xal-overview.md
                     - name: Signing-in using XAL
                       href: using-xbox-live/auth/xal-sign-in.md
-                    - name: Setting up Visual Studio for XAL login on Win32
-                      href: using-xbox-live/auth/win32-xal.md
                     - name: Setting up Visual Studio for XAL login on Android
                       href: using-xbox-live/auth/android-xal.md
                     - name: Setting up Xcode for sign-in with iOS
