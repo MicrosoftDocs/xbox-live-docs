@@ -5,7 +5,7 @@
     asyncBlock->callback = [](XAsyncBlock* asyncBlock)
     {
         xal_user_handle_t newUser = nullptr;
-        HRESULT hr = XalAddUserWithUiResult(asyncBlock, &newUser);
+        HRESULT hr = XalTryAddDefaultUserSilentlyResult(asyncBlock, &newUser);
         if (SUCCEEDED(hr))
         {
             // Store and use newUser
@@ -18,7 +18,7 @@
         delete asyncBlock;
     };
 
-    HRESULT hr = XalAddUserWithUiAsync(nullptr, asyncBlock);
+    HRESULT hr = XalTryAddDefaultUserSilentlyAsync(nullptr, asyncBlock);
     if (FAILED(hr))
     {
         delete asyncBlock;
