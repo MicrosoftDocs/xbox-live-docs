@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, player stats, leade
 ms.localizationpriority: medium
 ---
 
-# Player Stats
+# Player Stats documentation
 
 Setting up key pieces of information to track about a player.
 

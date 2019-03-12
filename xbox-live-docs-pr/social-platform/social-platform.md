@@ -22,7 +22,7 @@ ms.localizationpriority: medium
 <h2>Overview</h2>
 
 <div class="ico48Case halfStack">
-    <div class="ico48Link"><a href="xbox-live-social-platform.md"><img src="../images/common/xbl_socialplatform.svg"><span>Overview of Social features</span></a></div>
+    <div class="ico48Link"><a href="xbox-live-social-platform.md"><img src="../images/common/xbl_socialplatform.svg" alt="social platform gaming icon"><span>Overview of Social features</span></a></div>
 </div>
 
 <h2>Features</h2>
@@ -34,7 +34,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/common/xbl_socialplatform.svg" alt="Social features" />
+                            <img src="../images/common/xbl_socialplatform.svg" alt="social platform gaming icon" alt="Social features" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -53,7 +53,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/common/xbl_socialplatform.svg" alt="Social features" />
+                            <img src="../images/common/xbl_socialplatform.svg" alt="social platform gaming icon" alt="Social features" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -72,7 +72,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/common/xbl_socialplatform.svg" alt="Social features" />
+                            <img src="../images/common/xbl_socialplatform.svg" alt="social platform gaming icon" alt="Social features" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -91,7 +91,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/common/xbl_socialplatform.svg" alt="Social features" />
+                            <img src="../images/common/xbl_socialplatform.svg" alt="social platform gaming icon" alt="Social features" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -110,7 +110,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/common/xbl_socialplatform.svg" alt="Social features" />
+                            <img src="../images/common/xbl_socialplatform.svg" alt="social platform gaming icon" alt="Social features" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -133,7 +133,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/common/xbl_socialplatform.svg" alt="Social features" />
+                            <img src="../images/common/xbl_socialplatform.svg" alt="social platform gaming icon" alt="Social features" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -152,7 +152,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/common/xbl_socialplatform.svg" alt="Social features" />
+                            <img src="../images/common/xbl_socialplatform.svg" alt="social platform gaming icon" alt="Social features" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -171,7 +171,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/common/xbl_socialplatform.svg" alt="Social features" />
+                            <img src="../images/common/xbl_socialplatform.svg" alt="social platform gaming icon" alt="Social features" />
                         </div>
                     </div>
                     <div class="cardText">

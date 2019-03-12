@@ -3,7 +3,7 @@ title: Getting started with Partner Center, for Creators
 author: mikehoffms
 description: High-level steps, from joining the Creators program through releasing your game.
 ms.author: v-mihof
-ms.date: 12/6/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp

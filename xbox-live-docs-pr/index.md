@@ -1,6 +1,6 @@
 ---
 layout: LandingPage
-title: Xbox Live
+title: Xbox Live development
 author: mikehoffms
 description: Xbox Live is a gaming network that connects millions of gamers across the world. You can add Xbox Live features to your Windows 10 or Xbox One game, such as multiplayer, achievements, stats, and matchmaking.
 ms.author: v-mihof
@@ -12,16 +12,16 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h1>Xbox Live</h1>
+<h1>Xbox Live introduction for developers</h1>
 <p>Xbox Live is a gaming network that connects millions of gamers across the world. You can add Xbox Live features to your Windows 10 or Xbox One game, such as multiplayer, achievements, stats, and matchmaking.</p>
 
 <h2>Get Started</h2>
 <p>Learn how to build your first XBL feature by getting enrolled in a program, setting up a development kit, calling an API.</p>
 <div class="ico48Case halfStack">
-    <div class="ico48Link"><a href="https://www.xbox.com/en-US/developers/creators-program/" data-linktype="absolute-path"><img src="images/common/enroll_step1_icon.svg"><span>Enroll as Creator</span></a></div>
-    <div class="ico48Link"><a href="http://www.xbox.com/en-US/developers/id" data-linktype="absolute-path"><img src="images/common/enroll_step1_icon.svg"><span>Enroll in ID@Xbox</span></a></div>
-    <div class="ico48Link"><a href="get-started-with-creators/get-started-with-xbox-live-creators.md"><img src="images/common/setup_step2_icon.svg"><span>Set up as Creator</span></a></div>
-    <div class="ico48Link"><a href="get-started-with-partner/get-started-with-xbox-live-partner.md"><img src="images/common/setup_step2_icon.svg"><span>Set up in ID@Xbox</span></a></div>
+    <div class="ico48Link"><a href="https://www.xbox.com/en-US/developers/creators-program/" data-linktype="absolute-path"><img src="images/common/enroll_step1_icon.svg" alt="Enroll as a Creator icon button"><span>Enroll as Creator</span></a></div>
+    <div class="ico48Link"><a href="https://www.xbox.com/en-US/developers/id" data-linktype="absolute-path"><img src="images/common/enroll_step1_icon.svg" alt="Enroll as an ID at Xbox Developer icon button"><span>Enroll in ID@Xbox</span></a></div>
+    <div class="ico48Link"><a href="get-started-with-creators/get-started-with-xbox-live-creators.md"><img src="images/common/setup_step2_icon.svg" alt="Set Up as Creator icon button"><span>Set up as Creator</span></a></div>
+    <div class="ico48Link"><a href="get-started-with-partner/get-started-with-xbox-live-partner.md"><img src="images/common/setup_step2_icon.svg" alt="Setup as ID at Xbox developer icon button"><span>Set up in ID@Xbox</span></a></div>
 </div>
 
 <h2>Guides</h2>

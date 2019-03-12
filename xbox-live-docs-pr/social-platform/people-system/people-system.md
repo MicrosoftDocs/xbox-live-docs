@@ -3,7 +3,7 @@ title: Friends List (People System)
 author: mikehoffms
 description: The Friends List (formerly the People System) manages relationships between gamers, such as only showing a user's real name to close friends.
 ms.author: v-mihof
-ms.date: 12/6/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp

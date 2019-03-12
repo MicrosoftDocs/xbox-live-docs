@@ -3,7 +3,7 @@ title: Reputation
 author: mikehoffms
 description: The Reputation service encourages positive gameplay.
 ms.author: v-mihof
-ms.date: 12/6/2018
+ms.date: 12/06/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, reputation, social features
 ms.localizationpriority: medium

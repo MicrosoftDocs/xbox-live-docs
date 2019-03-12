@@ -3,7 +3,7 @@ title: Multiplayer scenarios
 author: mikehoffms
 description: Multiplayer scenarios include Comparative (Indirect) Play, Online Play with friends, Skill-Based Matchmaking, and Tournaments.
 ms.author: v-mihof
-ms.date: 12/6/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp

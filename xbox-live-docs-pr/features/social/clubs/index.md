@@ -3,7 +3,7 @@ title: Clubs
 author: mikehoffms
 description: The Clubs feature easily integrates your game's teams, clans, and communities.
 ms.author: v-mihof
-ms.date: 12/6/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp

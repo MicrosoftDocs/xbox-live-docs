@@ -32,10 +32,10 @@ To get started adding Xbox Live functionality to your game, do the following ste
 </ol>
 
 <div class="ico48Case halfStack">
-    <div class="ico48Link"><a href="https://www.xbox.com/en-US/developers/creators-program/" data-linktype="absolute-path"><img src="../images/common/enroll_step1_icon.svg"><span>Enroll as Creator</span></a></div>
-    <div class="ico48Link"><a href="http://www.xbox.com/en-US/developers/id" data-linktype="absolute-path"><img src="../images/common/enroll_step1_icon.svg"><span>Enroll in ID@Xbox</span></a></div>
-    <div class="ico48Link"><a href="../get-started-with-creators/get-started-with-xbox-live-creators.md"><img src="../images/common/setup_step2_icon.svg"><span>Set up as Creator</span></a></div>
-    <div class="ico48Link"><a href="../get-started-with-partner/get-started-with-xbox-live-partner.md"><img src="../images/common/setup_step2_icon.svg"><span>Set up in ID@Xbox</span></a></div>
+    <div class="ico48Link"><a href="https://www.xbox.com/en-US/developers/creators-program/" data-linktype="absolute-path"><img src="../images/common/enroll_step1_icon.svg" alt="enroll in creators icon"><span>Enroll as Creator</span></a></div>
+    <div class="ico48Link"><a href="https://www.xbox.com/en-US/developers/id" data-linktype="absolute-path"><img src="../images/common/enroll_step1_icon.svg" alt="enroll in ID at Xbox icon"><span>Enroll in ID@Xbox</span></a></div>
+    <div class="ico48Link"><a href="../get-started-with-creators/get-started-with-xbox-live-creators.md"><img src="../images/common/setup_step2_icon.svg" alt="Setup for creators icon"><span>Set up as Creator</span></a></div>
+    <div class="ico48Link"><a href="../get-started-with-partner/get-started-with-xbox-live-partner.md"><img src="../images/common/setup_step2_icon.svg" alt="setup for ID at Xbox developers icon"><span>Set up in ID@Xbox</span></a></div>
 </div>
 
 <h2>Guides</h2>

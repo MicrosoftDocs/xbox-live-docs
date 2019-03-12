@@ -3,7 +3,7 @@ title: Error handling
 author: mikehoffms
 description: Handling errors when calling an Xbox Live service through XSAPI, C++, or WinRT.
 ms.author: v-mihof
-ms.date: 12/6/2018
+ms.date: 12/06/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, error, service call
 ms.localizationpriority: medium

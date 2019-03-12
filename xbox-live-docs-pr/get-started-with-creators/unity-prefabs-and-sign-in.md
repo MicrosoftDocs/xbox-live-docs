@@ -1,7 +1,7 @@
 ---
 title: Unity Prefabs and scripted sign-in
 description: Unity prefabs and Scripted Sign-In examples for Social services on Xbox Live.
-ms.date: 1/24/2018
+ms.date: 01/24/2018
 ms.topic: get-started-article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity
 ---

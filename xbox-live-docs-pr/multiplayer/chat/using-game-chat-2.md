@@ -1,7 +1,7 @@
 ---
 title: Using the Game Chat 2 C++ API
 description: Using the C++ API of Game Chat 2 to add voice and text communication to your game.
-ms.date: 3/20/2018
+ms.date: 03/20/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, game chat 2, game chat, voice communication
 ms.localizationpriority: medium

@@ -3,7 +3,7 @@ title: Using Xbox Live APIs
 author: mikehoffms
 description: Xbox Live services can be called through the client-side XSAPI (WinRT, C++11, or C) or through REST endpoints.
 ms.author: v-mihof
-ms.date: 12/6/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp

@@ -517,6 +517,6 @@ The contents of each blob should be a string wrapped in a **CDATA** tag, which i
 
 Conversely, blob data can be converted back by calling **CryptStringToBinary** and providing the formerly encrypted string.
 
-An example of using these two functions is shown in [CryptBinaryToString returns invalid bytes](http://social.msdn.microsoft.com/Forums/vstudio/en-US/9acac904-c226-4ae0-9b7f-261993b9fda2/cryptbinarytostring-returns-invalid-bytes?forum=vcgeneral) in the MSDN forums for Visual Studio.
+An example of using these two functions is shown in [CryptBinaryToString returns invalid bytes](https://social.msdn.microsoft.com/Forums/vstudio/en-US/9acac904-c226-4ae0-9b7f-261993b9fda2/cryptbinarytostring-returns-invalid-bytes?forum=vcgeneral) in the MSDN forums for Visual Studio.
 
 <a id="ID4EWBAE"></a>

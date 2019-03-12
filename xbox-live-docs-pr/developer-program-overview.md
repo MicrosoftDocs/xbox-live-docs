@@ -339,4 +339,4 @@ The below table illustrates the features available to the Xbox Live Creators Pro
 
 ## See also
 
-[Welcome to ID@Xbox (at Xbox.com)](http://www.xbox.com/en-US/developers/id)
+[Welcome to ID@Xbox (at Xbox.com)](https://www.xbox.com/en-US/developers/id)

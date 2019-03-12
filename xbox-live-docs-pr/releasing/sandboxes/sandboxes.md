@@ -3,7 +3,7 @@ title: Sandboxes
 author: mikehoffms
 description: Sandboxes are for testing and publishing in an isolated environment.
 ms.author: v-mihof
-ms.date: 3/6/2019
+ms.date: 03/06/2019
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp

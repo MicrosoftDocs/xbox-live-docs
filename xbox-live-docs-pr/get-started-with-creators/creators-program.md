@@ -3,7 +3,7 @@ title: IDEs, SDKs, and target platforms, for Creators
 author: mikehoffms
 description: IDEs, SDKs, and target platforms, for Creators, including Visual Studio and Unity.
 ms.author: v-mihof
-ms.date: 12/6/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp

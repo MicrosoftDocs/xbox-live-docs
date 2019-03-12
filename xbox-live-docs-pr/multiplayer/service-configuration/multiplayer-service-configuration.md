@@ -3,7 +3,7 @@ title: Multiplayer Service configuration
 author: mikehoffms
 description: Configuring the Multiplayer Service includes session templates, SmartMatch hoppers, and custom invite strings.
 ms.author: v-mihof
-ms.date: 12/6/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp

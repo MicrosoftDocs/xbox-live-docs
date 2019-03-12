@@ -30,7 +30,7 @@ ms.localizationpriority: medium
 <h2>Overview</h2>
 
 <div class="ico48Case halfStack">
-    <div class="ico48Link"><a href="connected-storage-vs-title-storage.md"><img src="../images/common/xbl_storage_platform.svg"><span>Connected Storage vs. Title Storage</span></a></div>
+    <div class="ico48Link"><a href="connected-storage-vs-title-storage.md"><img src="../images/common/xbl_storage_platform.svg" alt="cloud storage gaming icon"><span>Connected Storage vs. Title Storage</span></a></div>
 </div>
 
 <h2>Features</h2>
@@ -42,7 +42,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/common/xbl_storage_platform.svg" alt="Social features" />
+                            <img src="../images/common/xbl_storage_platform.svg" alt="cloud storage gaming icon" alt="Social features" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -61,7 +61,7 @@ ms.localizationpriority: medium
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../images/common/xbl_storage_platform.svg" alt="Social features" />
+                            <img src="../images/common/xbl_storage_platform.svg" alt="cloud storage gaming icon" alt="Social features" />
                         </div>
                     </div>
                     <div class="cardText">

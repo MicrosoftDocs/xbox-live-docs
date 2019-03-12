@@ -3,7 +3,7 @@ title: Single sign-on
 author: mikehoffms
 description: Single sign-on allows a player using your title to sign into your services by using their Xbox Live sign-in.
 ms.author: v-mihof
-ms.date: 12/6/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp

@@ -3,7 +3,7 @@ title: Achievements
 author: mikehoffms
 description: Achievements includes Gamerscore and other rewards such as digital artwork, new maps, characters, and stat boosts.
 ms.author: v-mihof
-ms.date: 12/6/2018
+ms.date: 12/06/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium

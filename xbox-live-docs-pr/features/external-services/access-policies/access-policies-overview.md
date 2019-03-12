@@ -3,7 +3,7 @@ title: Overview of configuring access policies
 author: mikehoffms
 description: Configuring access policies to allow other apps, games, and services to access a title's Xbox Live settings.
 ms.author: v-mihof
-ms.date: 12/6/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp

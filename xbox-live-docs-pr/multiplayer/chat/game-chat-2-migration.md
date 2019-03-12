@@ -1,7 +1,7 @@
 ---
 title: Migrating from Game Chat 1 to Game Chat 2
 description: Migrating existing Game Chat code to use Game Chat 2.
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, game chat 2, game chat, voice communication
 ms.localizationpriority: medium

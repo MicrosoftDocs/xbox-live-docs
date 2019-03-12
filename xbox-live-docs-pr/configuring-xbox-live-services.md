@@ -3,7 +3,7 @@ title: Configuring Xbox Live services
 author: mikehoffms
 description: Configuring Xbox Live services for your game.
 ms.author: v-mihof
-ms.date: 12/6/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp

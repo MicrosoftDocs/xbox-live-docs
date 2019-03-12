@@ -3,7 +3,7 @@ title: Game Chat
 author: mikehoffms
 description: Adding voice and text communication to your game by using Xbox Live Game Chat 2.
 ms.author: v-mihof
-ms.date: 12/6/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp

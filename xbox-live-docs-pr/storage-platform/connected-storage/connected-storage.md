@@ -3,7 +3,7 @@ title: Connected Storage
 author: mikehoffms
 description: Connected Storage saves and loads gameplay data and other state data across devices. Title data is stored locally and also synced to the cloud.
 ms.author: v-mihof
-ms.date: 12/6/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp

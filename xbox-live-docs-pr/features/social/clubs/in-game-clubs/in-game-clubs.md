@@ -3,7 +3,7 @@ title: In-game clubs
 author: mikehoffms
 description: In-Game Clubs are defined by the developer, integrated into the game such as a clan or guild.
 ms.author: v-mihof
-ms.date: 12/6/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp

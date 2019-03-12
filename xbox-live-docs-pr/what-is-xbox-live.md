@@ -29,7 +29,7 @@ With the Xbox Live Creators Program, anyone with a [Partner Center](https://part
 
 For game developers that want to take advantage of the full Xbox Live experience, including multiplayer, achievements, and native Xbox console development, there are additional developer programs which are detailed in the [Developer Program Overview](developer-program-overview.md).
 
-For consumer Xbox Live information, see [Xbox Live](http://www.xbox.com/live/).
+For consumer Xbox Live information, see [Xbox Live](https://www.xbox.com/live/).
 
 
 ## How Xbox Live works

@@ -4,7 +4,7 @@ author: StaceyHaffner
 description: Tools to help develop and test an Xbox Live-enabled title.
 ms.assetid: 380a29bf-41a7-4817-9c57-f48f2b824b52
 ms.author: kevinasg
-ms.date: 6/13/2018
+ms.date: 06/13/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp
@@ -22,7 +22,7 @@ Many of the tools are available on the [Xbox Live Developer Tools GitHub](https:
 To create your own custom tooling, you can use the [Dev Tools library](https://www.nuget.org/packages/Microsoft.Xbox.Services.DevTools).
 
 > [!NOTE]
-> The MatchSim and XboxLiveCompute tools included in the download can only be used by managed partners, or partners enrolled in the [ID@Xbox](http://www.xbox.com/Developers/id) program. To learn more about the available developer programs, please refer to the [developer program overview](https://docs.microsoft.com/windows/uwp/xbox-live/developer-program-overview).
+> The MatchSim and XboxLiveCompute tools included in the download can only be used by managed partners, or partners enrolled in the [ID@Xbox](https://www.xbox.com/Developers/id) program. To learn more about the available developer programs, please refer to the [developer program overview](https://docs.microsoft.com/windows/uwp/xbox-live/developer-program-overview).
 
 
 ## Global Storage
