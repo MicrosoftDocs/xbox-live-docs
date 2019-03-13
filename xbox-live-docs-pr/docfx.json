@@ -47,7 +47,7 @@
       "titleSuffix": "Xbox Live",
       "_op_documentIdPathDepotMapping": {
         "./": {
-          "depot_name": "Win.windows-apps",
+          "depot_name": "MSDN.windows-uwp",
           "folder_relative_path_in_docset": "xbox-live/"
         }
       }
