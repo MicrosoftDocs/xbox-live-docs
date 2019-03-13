@@ -5,8 +5,6 @@ description: Single sign-on allows a player using your title to sign into your s
 ms.author: v-mihof
 ms.date: 12/06/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live
 ms.localizationpriority: medium
 ---

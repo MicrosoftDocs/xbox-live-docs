@@ -5,8 +5,6 @@ description: Learn how to add the Xbox Live SDK to your iOS project.
 ms.author: jeffshi
 ms.date: 03/10/2019
 ms.topic: article
-ms.prod: windows
-ms.technology: xbox live, xbox
 keywords: xbox live, xbox, games, iOS
 ms.localizationpriority: medium
 ---

@@ -5,8 +5,6 @@ description: Learn how to add and compile the Xbox Live APIs source in your iOS 
 ms.author: kevinasg
 ms.date: 09/21/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, iOS
 ms.localizationpriority: medium
 ---

@@ -6,8 +6,6 @@ description: Player Data in Xbox Live includes achievements, player stats, and l
 ms.author: v-mihof
 ms.date: 03/07/2019
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---

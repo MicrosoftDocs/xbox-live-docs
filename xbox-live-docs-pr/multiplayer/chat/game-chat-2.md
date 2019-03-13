@@ -5,8 +5,6 @@ description: Adding voice and text communication to your game by using Xbox Live
 ms.author: v-mihof
 ms.date: 12/06/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, game chat, game chat 2, voice communication
 ms.localizationpriority: medium
 ---

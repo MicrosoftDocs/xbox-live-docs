@@ -5,8 +5,6 @@ description: Sandboxes are for testing and publishing in an isolated environment
 ms.author: v-mihof
 ms.date: 03/06/2019
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live
 ms.localizationpriority: medium
 ---

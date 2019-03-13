@@ -5,8 +5,6 @@ description: Cloud storage for large amounts of per-user or per-title data, such
 ms.author: v-mihof
 ms.date: 12/06/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, title storage
 ms.localizationpriority: medium
 ---

@@ -5,8 +5,6 @@ description: Sign-in scenarios for XAL are soft single-user authentication, hard
 ms.author: aablackm
 ms.date: 08/30/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, authentication, sign-in
 ms.localizationpriority: medium
 ---

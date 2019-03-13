@@ -6,8 +6,6 @@ description: Testing, troubleshooting, and publishing a game.
 ms.author: v-mihof
 ms.date: 12/11/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: windows 10, uwp, games, xbox, xbox live, releasing
 ms.localizationpriority: medium
 ---

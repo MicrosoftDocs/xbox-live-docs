@@ -6,8 +6,6 @@ description: Multiplayer features in Xbox Live include matchmaking, invites, voi
 ms.author: v-mihof
 ms.date: 12/11/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---

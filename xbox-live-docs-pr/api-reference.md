@@ -6,8 +6,6 @@ description: Xbox Live API reference, including XSAPI, XAL, Async, and RESTful A
 ms.author: v-mihof
 ms.date: 12/12/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---

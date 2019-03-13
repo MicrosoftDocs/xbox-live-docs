@@ -4,8 +4,6 @@ description: The Real-Time Activity service enables an application on any device
 ms.assetid: 50de262f-fc55-4301-83b5-0a8a30bc7852
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, real time activity service, rta
 ms.localizationpriority: medium
 ---

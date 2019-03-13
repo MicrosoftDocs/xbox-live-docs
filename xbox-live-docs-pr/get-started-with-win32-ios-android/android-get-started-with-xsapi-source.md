@@ -5,8 +5,6 @@ description: Add and compile the Xbox Live APIs source in your Android project.
 ms.author: kevinasg
 ms.date: 09/21/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, android
 ms.localizationpriority: medium
 ---

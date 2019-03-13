@@ -6,8 +6,6 @@ description: Configuring Xbox Live features including Identity, Social, Data, St
 ms.author: v-mihof
 ms.date: 12/11/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---

@@ -5,8 +5,6 @@ description: Add and compile Xbox Live APIs source in a Win32 project, for debug
 ms.author: kevinasg
 ms.date: 09/21/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, windows, win32
 ms.localizationpriority: medium
 ---

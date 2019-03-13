@@ -3,8 +3,6 @@ title: Setting up Web Services in UDC
 description: Creating a Web service for an Xbox Live-enabled app.
 ms.date: 06/04/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, web services
 ---
 

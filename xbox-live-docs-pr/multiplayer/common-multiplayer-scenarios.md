@@ -4,8 +4,6 @@ description: Multiplayer scenarios include Comparative (Indirect) Play, Online P
 ms.assetid: 470914df-cbb5-4580-b33a-edb353873e32
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer
 ms.localizationpriority: medium
 ---
