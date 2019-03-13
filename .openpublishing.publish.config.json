@@ -49,10 +49,10 @@
       "Pdf"
     ]
   },
-  "need_generate_pdf_url_template": false,
+  "need_generate_pdf_url_template": true,
   "targets": {
     "pdf": {
       "template_folder": "_themes.pdf"
-      }
+    }
   }
 }
