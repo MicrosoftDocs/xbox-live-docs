@@ -4,7 +4,7 @@ title: Xbox Live development
 author: mikehoffms
 description: Xbox Live is a gaming network that connects millions of gamers across the world. You can add Xbox Live features to your Windows 10 or Xbox One game, such as multiplayer, achievements, stats, and matchmaking.
 ms.author: v-mihof
-ms.date: 12-11-2018
+ms.date: 12/11/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp

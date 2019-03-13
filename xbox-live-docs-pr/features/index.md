@@ -4,7 +4,7 @@ title: Features
 author: mikehoffms
 description: Configuring Xbox Live features including Identity, Social, Data, Storage, Multiplayer, and External Services.
 ms.author: v-mihof
-ms.date: 12-11-2018
+ms.date: 12/11/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp

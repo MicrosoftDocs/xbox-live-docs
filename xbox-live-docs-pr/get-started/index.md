@@ -4,7 +4,7 @@ title: Get Started
 author: mikehoffms
 description: Initial steps to publish a game at Partner Center and have the game sign-in to Xbox Live.
 ms.author: v-mihof
-ms.date: 12-11-2018
+ms.date: 12/11/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp

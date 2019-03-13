@@ -4,7 +4,7 @@ title: Identity
 author: mikehoffms
 description: Identity features of Xbox Live include user identity, authentication and XAL sign-in, privileges, and privacy.
 ms.author: v-mihof
-ms.date: 12-11-2018
+ms.date: 12/11/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp

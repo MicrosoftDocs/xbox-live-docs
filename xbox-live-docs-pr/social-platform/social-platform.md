@@ -4,7 +4,7 @@ title: Social features
 author: mikehoffms
 description: Gaming-oriented social network features of Xbox Live include a user's profile, gamerscore, achievements, clubs, and activity feed.
 ms.author: v-mihof
-ms.date: 12-11-2018
+ms.date: 12/11/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp

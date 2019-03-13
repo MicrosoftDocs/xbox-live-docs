@@ -1,7 +1,7 @@
 ---
 title: Xbox Arena Operations Portal
 description: Using the Xbox Arena Operations Portal to manage tournaments for your game.
-ms.date: 06-18-2018
+ms.date: 06/18/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, arena, tournament, operations, portal
 ms.localizationpriority: medium

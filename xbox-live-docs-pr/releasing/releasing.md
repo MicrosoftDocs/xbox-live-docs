@@ -4,7 +4,7 @@ title: Testing and Releasing
 author: mikehoffms
 description: Testing, troubleshooting, and publishing a game.
 ms.author: v-mihof
-ms.date: 12-11-2018
+ms.date: 12/11/2018
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp
@@ -16,16 +16,18 @@ ms.localizationpriority: medium
 <p>Releasing a game that is Xbox Live-enabled involves testing the Xbox Live functionality of the game, as well as troubleshooting and publishing the game.</p>
 
 <h2>Get Started</h2>
-<p>Learn how to build your first XBL feature by getting enrolled in a program, setting up a development kit, and calling an API.</p>
+<p>Learn how to build your first XBL feature by getting enrolled in a program, setting up a development kit, calling an API.</p>
 <div class="ico48Case halfStack">
-    <div class="ico48Link"><a href=""><img src="../images/common/enroll_step1_icon.svg"><span>Enroll</span></a></div>
-    <div class="ico48Link"><a href=""><img src="../images/common/setup_step2_icon.svg"><span>Setup</span></a></div>
+    <div class="ico48Link"><a href="https://www.xbox.com/en-US/developers/creators-program/" data-linktype="absolute-path"><img src="../images/common/enroll_step1_icon.svg" alt="Enroll as a Creator icon button"><span>Enroll as Creator</span></a></div>
+    <div class="ico48Link"><a href="https://www.xbox.com/en-US/developers/id" data-linktype="absolute-path"><img src="../images/common/enroll_step1_icon.svg" alt="Enroll as an ID at Xbox Developer icon button"><span>Enroll in ID@Xbox</span></a></div>
+    <div class="ico48Link"><a href="../get-started-with-creators/get-started-with-xbox-live-creators.md"><img src="../images/common/setup_step2_icon.svg" alt="Set Up as Creator icon button"><span>Set up as Creator</span></a></div>
+    <div class="ico48Link"><a href="../get-started-with-partner/get-started-with-xbox-live-partner.md"><img src="../images/common/setup_step2_icon.svg" alt="Setup as ID at Xbox developer icon button"><span>Set up in ID@Xbox</span></a></div>
 </div>
 
 <h2>Overview of Testing and Releasing a Game</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="">
+        <a href="..\get-started-with-creators\create-and-test-a-new-creators-title.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -63,7 +65,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="">
+        <a href="..\using-xbox-live\troubleshooting\troubleshooting.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

@@ -87,23 +87,19 @@ In the IDE's make file or in a Cmake file:
 
 1.  Add the following libraries, in the order shown:
     
-    ```
-    libMicrosoft_Xbox_Services_Android.a
-    Xal.Android-RelAI32.a
-    CompactCoreCLL.Android-RelAI32.a
-    liblibHttpClient_141_Android_C.a
-    libssl.141.Android.a
-    libcrypto.141.Android.a
-    ```
+    - libMicrosoft_Xbox_Services_Android.a
+    - Xal.Android-RelAI32.a
+    - CompactCoreCLL.Android-RelAI32.a
+    - liblibHttpClient_141_Android_C.a
+    - libssl.141.Android.a
+    - libcrypto.141.Android.a
 
 <!-- below is the non-Maven approach -->
 
 2.  Add the following include directories from your XSAPI folder (your Android Maven `ndk` folder):
 
-    ```
-    include/
-    include/cpprestinclude
-    ```
+    - include/
+    - include/cpprestinclude
 
 
 <!--
@@ -122,7 +118,7 @@ remove section for 1902
 * Add the following to your services config file `xboxservices.config`.
   Use the title id, service config id, and sandbox from your Partner Center account.
 
-```
+```xml
 XBL.Sample.Android/app/main/res/raw/xboxservices.config
 {
     "TitleId" : 12345678,
@@ -143,7 +139,7 @@ XBL.Sample.Android/app/main/res/raw/xboxservices.config
 In your project's CMake file, add the following preprocessor definitions.
 
 <!-- replace by actual cmake call: -->
-```
+```config
 XSAPI_CPP=1
 XSAPI_C=1
 XSAPI_A=1

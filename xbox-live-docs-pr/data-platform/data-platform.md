@@ -4,7 +4,7 @@ title: Player Data
 author: mikehoffms
 description: Player Data in Xbox Live includes achievements, player stats, and leaderboards.
 ms.author: v-mihof
-ms.date: 03-07-2019
+ms.date: 03/07/2019
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp
