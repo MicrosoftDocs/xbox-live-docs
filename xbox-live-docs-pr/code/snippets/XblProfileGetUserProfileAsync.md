@@ -1,8 +1,8 @@
 ```cpp
-    AsyncBlock* asyncBlock = new AsyncBlock();
+    XAsyncBlock* asyncBlock = new XAsyncBlock();
     asyncBlock->queue = GlobalState()->queue;
     asyncBlock->context = nullptr;
-    asyncBlock->callback = [](AsyncBlock* asyncBlock)
+    asyncBlock->callback = [](XAsyncBlock* asyncBlock)
     {
         XblUserProfile profile = { 0 };
         HRESULT hr = XblProfileGetUserProfileResult(asyncBlock, &profile);

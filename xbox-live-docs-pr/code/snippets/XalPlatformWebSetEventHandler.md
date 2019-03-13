@@ -1,7 +1,7 @@
 ```cpp
     HRESULT hr = XalPlatformWebSetEventHandler(
         GlobalState()->queue,
-        apiCommand,
+        context,
         Xal_PlatformWebShowUrlEventHandler
         );
 ```

@@ -1,3 +1,3 @@
 ```cpp
-    HRESULT hr = DispatchAsyncQueue(queue, AsyncQueueCallbackType_Completion, 0);
+    HRESULT hr = XTaskQueueDispatch(queue, XTaskQueuePort::Completion, 0);
 ```

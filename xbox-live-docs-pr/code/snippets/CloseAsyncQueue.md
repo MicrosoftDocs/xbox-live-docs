@@ -1,3 +1,3 @@
 ```cpp
-    CloseAsyncQueue(queue);
+    XTaskQueueCloseHandle(queue);
 ```

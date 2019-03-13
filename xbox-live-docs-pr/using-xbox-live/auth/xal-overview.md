@@ -1,7 +1,7 @@
 ---
 title: Xbox Live Authentication Library (XAL) overview
 author: aablackm
-description: The Xbox Live Authentication Library (XAL) is a cross-platform authentication platform for Win32, Android, and iOS.
+description: The Xbox Live Authentication Library (XAL) is a cross-platform authentication platform for Android, and iOS.
 ms.assetid: e54c98ce-e049-4189-a50d-bb1cb319697c
 ms.author: aablackm
 ms.date: 08/30/2018
@@ -15,53 +15,21 @@ ms.localizationpriority: medium
 # Xbox Live Authentication Library (XAL) overview
 
 The Xbox Live Authentication Library (XAL) is a cross-platform authentication platform for Xbox Live.
-XAL enables you to write code once and deploy it across the Win32, Android, and iOS platforms.
+XAL enables you to write code once and deploy it across previously unsupported Xbox Live platforms Android, and iOS.
 XAL provides a consistent API and user model across all platforms.
-
-XAL is also the authentication solution for previously unsupported Xbox Live platforms such as Android and iOS.
 
 The XAL library provides easy and controlled game integration:
 
 * The library is written in flat C, making it easy to bind to other languages.
 
-* XAL does not spawn threads, access any hard disk, or show UI.
-  It instead allows developers complete control in these areas when XAL requires it.
-  This is done by providing functions that allow you to set event handlers to carry out this task in the manner best suited for your game's performance.
+* XAL allows clients to be in control of threads, hard disk access, and UI handling.
+  It allows developers to optionally control these areas when XAL requires it.
+  This is done by providing functions that allow you to set event handlers to carry out the task in the manner best suited for your game's performance.
 
 The XAL library gives you as much control of your game as possible, so you can fine-tune all aspects of performance.
-XAL allows games to override memory allocation functions and http requests.
+XAL also allows games to override memory allocation functions and http requests.
 
-XAL works on both Single User Authentication (SUA) and Multi User Application (MUA) platforms, and contains functions to allow you to differentiate between the two so that your code works across both.
-
-
-## Integrate XAL into Visual Studio
-
-You can use Visual Studio to build both Win32 and Android applications.
-
-The following are general-use instructions for setting up XAL in the Visual Studio environment.
-These instructions are sufficient for using XAL in a Win32 environment, Android projects however, will require additional setup.
-
-1. Add the following projects from the code source repo to your solution:
-
-    - Source\Xal\Xal.{your platform}.vcxproj
-    - Source\Xal\Xal.Core.vcxitems
-    - Source\Xal\Xal.Platform.Common.vcxitems
-    - External\CompactCoreCll\CompactCoreCll.{your platform}.vcxproj
-    - External\CompactCoreCll\CompactCoreCll.Common.vcxproj
-    - External\LibHttpClient\Build\libHttpClient.{vs toolset}.{your platform}.C\libHttpClient.{vs toolset}.{your platform}.C.vcxproj
-    - External\LibHttpClient\Build\libcrypto.{vs toolset}.{your platform}\libcrypto.{vs toolset}.{your platform}.vcxproj
-    - External\LibHttpClient\Build\libssl.{vs toolset}.{your platform}\libssl.{vs toolset}.{your platform}.vcxproj
-
-2. Add the XAL project as a dependency to your project
-3. Add Source\Xal\Include to your project include path
-4. In your project file set $(HCLibPlatformType) to {your platform}
-5. Import External\LibHttpClient\libHttpClient.props in your project
-
-You can include multiple variations of the XAL and `libHttpClient` projects into your solution to target multiple platforms.
-We suggest that you use Visual Studio 2017 or later for your Win32 and Android projects.
-
-Once you have both acquired and integrated the source, open the `Xal.2017.sln` to see the sample app projects that can be run on each platform, provided that you have the appropriate device or emulator.
-The sample apps provide sample code and practices for integrating XAL into your projects.
+XAL works on both Single User Application (SUA) and Multi User Application (MUA) platforms, and contains functions to allow you to differentiate between the two so that your code works across both.
 
 
 ## Working with XAL
@@ -69,6 +37,5 @@ The sample apps provide sample code and practices for integrating XAL into your 
 Read the following articles to learn how to work with XAL in the general case and for any of its supported platforms.
 
 [XAL Sign-In](xal-sign-in.md)  
-[Get Started with XAL on Win32](win32-xal.md)  
 [Get Started with XAL on iOS](iOS-xal.md)  
 [Get Started with XAL on Android](android-xal.md)
