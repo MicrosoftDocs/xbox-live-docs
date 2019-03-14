@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 Now that you've imported the Xbox Live SDK into your IDE, it is time to setup your project to call Xbox Live's Sign-In API.
 
-### Initialize XSAPI
+## Initialize XSAPI
 
 Initializing Xbox Live requires a set of arguments to be passed in.
 
@@ -33,7 +33,7 @@ HRESULT XsapiInit()
 }
 ```
 
-### Initialize XAL
+## Initialize XAL
 
 After initializing Xbox Live, we must then initialize XAL.
 
@@ -46,8 +46,6 @@ XalPlatormArgs defines arguments needed in order to display the Sign-In window t
 XalInitArgs defines arguments needed in order to link XAL to your specified game from Partner Center.
 
 Your client ID, title ID, sandbox, and redirect Uri can be found at your Partner Center game account.
-
-Lastly, we need to pass in the path to your device's data storage to store our XAL user data.
 
 ```cpp
 HRESULT XalInit()
