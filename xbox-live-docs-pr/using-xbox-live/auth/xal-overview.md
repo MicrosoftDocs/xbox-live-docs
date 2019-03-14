@@ -1,7 +1,7 @@
 ---
 title: Xbox Authentication Library (XAL) overview
 author: aablackm
-description: The Xbox Authentication Library (XAL) is a cross-platform authentication platform for Android, and iOS.
+description: The Xbox Authentication Library (XAL) is a cross-platform authentication platform for Android and iOS.
 ms.assetid: e54c98ce-e049-4189-a50d-bb1cb319697c
 ms.author: aablackm
 ms.date: 08/30/2018
