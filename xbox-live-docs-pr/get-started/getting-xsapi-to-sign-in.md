@@ -280,7 +280,7 @@ Now that everything is implemented, we need to make sure that we clean it up whe
 
 ### XAL Cleanup
 
-XAL doesn't require any cleanup, however, you will need to close your XblContextHandle and XalUserHandle.
+XAL doesn't require any cleanup, however, you will need to close your XalUserHandle and XblContextHandle.
 
 ```cpp
 if (m_xblContext)
