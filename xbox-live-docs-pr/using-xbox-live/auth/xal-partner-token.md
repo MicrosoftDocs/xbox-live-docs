@@ -1,7 +1,7 @@
 ---
 title: Using Xbox Live tokens for custom web service authentication
 author: aablackm
-description: An introduction to XAL and how to integrate it into your Xbox Live project
+description: An introduction to XAL and how to integrate it into your Xbox Live project.
 ms.author: aablackm
 ms.date: 08/30/2018
 ms.topic: article

@@ -74,6 +74,7 @@ The XAsyncBlock must live until the XAsyncBlock's completion callback is called 
 > An **XAsyncBlock** must remain in memory until the **asynchronous task** completes. If it is dynamically allocated, it can be deleted inside the XAsyncBlock's **completion callback**.
 
 
+
 ### Waiting for an **asynchronous task**
 
 You can tell an **asynchronous task** is complete a number of different ways:

@@ -1,12 +1,12 @@
 ---
-title: Setting up Web Services in UDC
+title: Setting up Web Services at Partner Center
 description: Creating a Web service for an Xbox Live-enabled app.
 ms.date: 06/04/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, web services
 ---
 
-# Setting up Web Services in UDC
+# Setting up Web Services at Partner Center
 
 > [!WARNING]
 > The following article is for ID@Xbox and Managed Partner developers only, due to restrictions placed on web service configuration. Web Services configuration is only available to developers with the Relying Parties account level permission granted. If you do not have control of your account level permissions, contact your Development Account Manager (DAM) for assistance.

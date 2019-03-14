@@ -29,7 +29,7 @@ On Windows 10 PC, ensure that your machine is set up correctly, as follows:
 
     * For WinRT API with C++/CX:  {*SDK source root*}\Samples\TitleStorage\UWP\CppCx\TitleStorageUniversal.sln
 
-1. Change the build target platform to either "Win32" or "x64".
+1. Change the build target platform to "x64".
 
 1. Right-click the solution and re-build everything.
 

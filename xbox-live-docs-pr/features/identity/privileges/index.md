@@ -9,13 +9,14 @@ ms.localizationpriority: medium
 
 # User Privileges
 
-> [!NOTE]
-> This is preliminary documentation.
 
-User privileges.
+## In this section
+
+| Article | Description |
+|---------|-------------|
+| [Configuring Privileges in Partner Center](../../../configure-xbl/dev-center/privileges.md) | Configuring privileges in Partner Center. |
 
 
 ## See also
 
 [Checking user privilege settings in Unity](../../../get-started-with-creators/check-user-privileges-in-unity.md)
-[Configuring Privileges in Partner Center](../../../configure-xbl/dev-center/privileges.md)

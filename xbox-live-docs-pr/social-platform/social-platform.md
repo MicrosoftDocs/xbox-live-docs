@@ -10,175 +10,19 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h1>Social features</h1>
+# Social features
 
-<p>
-  Social features in Xbox Live provide a gaming-oriented social network that includes a user's profile, gamerscore, achievements, clubs, and activity feed.
-</p>
+Social features in Xbox Live provide a gaming-oriented social network that includes a user's profile, gamerscore, achievements, clubs, and activity feed.
 
 
-<h2>Overview</h2>
+## In this section
 
-<div class="ico48Case halfStack">
-    <div class="ico48Link"><a href="xbox-live-social-platform.md"><img src="../images/common/xbl_socialplatform.svg" alt="social platform gaming icon"><span>Overview of Social features</span></a></div>
-</div>
-
-<h2>Features</h2>
-<ul class="cardsF panelContent cols cols2">
-    <li>
-        <a href="people-system/people-system.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../images/common/xbl_socialplatform.svg" alt="social platform gaming icon" alt="Social features" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Friends List (People System)</h3>
-                        <p>The Friends List (formerly the People System) manages relationships between gamers, such as only showing a user's real name to close friends.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="../features/social/clubs/index.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../images/common/xbl_socialplatform.svg" alt="social platform gaming icon" alt="Social features" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Clubs</h3>
-                        <p>The Clubs feature easily integrates your game's teams, clans, and communities.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="../features/social/titlehub/index.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../images/common/xbl_socialplatform.svg" alt="social platform gaming icon" alt="Social features" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>TitleHub</h3>
-                        <p>TitleHub.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="../features/social/title-presence/index.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../images/common/xbl_socialplatform.svg" alt="social platform gaming icon" alt="Social features" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Title Presence</h3>
-                        <p>Title Presence (or Rich Presence) shows what activity a user is currently doing, in which area of which game.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="../features/social/localized-strings/localized-strings.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../images/common/xbl_socialplatform.svg" alt="social platform gaming icon" alt="Social features" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Localized Strings</h3>
-                        <p>Localized strings.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
-
-<h2>Additional features &amp; articles</h2>
-<ul class="cardsF panelContent cols cols2">
-    <li>
-        <a href="../contextual-search/contextual-search.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../images/common/xbl_socialplatform.svg" alt="social platform gaming icon" alt="Social features" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Contextual Search</h3>
-                        <p>Contextual search automatically tags broadcasts and game clips with real-time stats such as ranking, current level, weapons, and K/D ratio.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="people-system/reputation.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../images/common/xbl_socialplatform.svg" alt="social platform gaming icon" alt="Social features" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Reputation</h3>
-                        <p>The Reputation service encourages positive gameplay.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="people-system/programming-social-services.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../images/common/xbl_socialplatform.svg" alt="social platform gaming icon" alt="Social features" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Programming Social services</h3>
-                        <p>Code example showing how to use the Social Manager API to retrieve a user's social relationships and their public properties.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+| Article | Description |
+|---------|-------------|
+| [Overview of Social feature](xbox-live-social-platform.md) | Overview of Social features. |
+| [People System (Friends List)](people-system/people-system.md) | The People System includes the Friends List, and manages relationships between gamers, such as only showing a user's real name to close friends. |
+| [Clubs](../features/social/clubs/index.md) | The Clubs feature easily integrates your game's teams, clans, and communities. |
+| [Rich Presence](../features/social/rich-presence/index.md) | Rich Presence shows what activity a user is currently doing, in which area of which game. |
+| [Localized Strings](../features/social/localized-strings/localized-strings.md) | Configuring localized strings in Partner Center. |
+| [Reputation](people-system/reputation.md) | The Reputation service encourages positive gameplay. |
+| [Programming Social services](people-system/programming-social-services.md) | Code example showing how to use the Social Manager API to retrieve a user's social relationships and their public properties.|

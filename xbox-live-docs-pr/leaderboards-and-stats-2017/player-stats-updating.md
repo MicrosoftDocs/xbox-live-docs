@@ -1,5 +1,5 @@
 ---
-title: Updating player Stats 2017
+title: Updating Player Stats 2017
 description: Updating player Stats when using Stats 2017, by sending the latest value to the Xbox Live Service using the StatsManager APIs.
 ms.assetid: 019723e9-4c36-4059-9377-4a191c8b8775
 ms.date: 08/24/2018
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, player stats, stats
 ms.localizationpriority: medium
 ---
 
-# Updating player Stats 2017
+# Updating Player Stats 2017
 
 You update Stats by sending the latest value for the Xbox Live Service using the `StatsManager` APIs which will be discussed below.
 

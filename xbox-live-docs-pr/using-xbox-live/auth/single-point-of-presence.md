@@ -24,4 +24,4 @@ The user will always be notified via UI when they do an action that would initia
 * For XDK titles, the `User::SignOutCompleted` event will trigger when this occurs.
 
 * For UWP titles, they will be notified of the sign out through the `sign_out_complete` handler from the `xbox_live_user` class.
-  See [Authentication for UWP projects](authentication-for-UWP-projects.md) for more detail
+  See [Authentication for UWP projects](authentication-for-UWP-projects.md).

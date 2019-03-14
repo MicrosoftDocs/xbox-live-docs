@@ -10,6 +10,9 @@ ms.localizationpriority: medium
 
 # Configuring Contextual Search
 
+> [!NOTE]
+> Contextual Search is deprecated. Do not use Contextual Search in new code.
+
 
 ## Designing Your Data
 

@@ -19,9 +19,6 @@ In Xbox Live, Title Storage is cloud storage for large amounts of per-user or pe
 | Article | Description |
 |---------|-------------|
 | [Overview of Title Storage](xbox-live-title-storage.md) | Using Title Storage to store game information for a title in the cloud, especially for large amounts of per-user or per-title data. |
-| [Global Title Storage](../../features/storage/title/global/index.md) | Global Title Storage. |
-| [Universal Title Storage](../../features/storage/title/universal/index.md) | Universal Title Storage. |
-| [Trusted Title Storage](../../features/storage/title/trusted/index.md) | Trusted Title Storage. |
 | [Reading a configuration blob from Title Storage](reading-configuration-blobs.md) | Reading a JSON configuration blob in Title Storage, using GET. |
 | [Storing a binary blob in Title Storage](storing-binary-blobs.md) | Storing a binary blob in Title Storage, using PUT. |
 | [Reading a binary blob from Title Storage](reading-binary-blobs.md) | Reading a binary blob in Title Storage, using GET. |

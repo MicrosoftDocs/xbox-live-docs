@@ -11,17 +11,9 @@ ms.localizationpriority: medium
 
 # Web services
 
-> [!NOTE]
-> This is preliminary documentation.
 
-Web services.
-
-<!-- 
 ## In this section
 
 | Article | Description |
 |---------|-------------|
-| [Overview of web services](web-services-overview.md) | __ |
-| [Portal configuration of web services](web-services-portal-config.md) | __ |
-| [SDK configuration of web services](web-services-sdk-config.md) | __ |
- -->
+| [Setting up Web Services at Partner Center](../../../configure-xbl/dev-center/web-services.md) | Creating a Web service for an Xbox Live-enabled app. |

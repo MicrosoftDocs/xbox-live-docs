@@ -10,65 +10,13 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h1>Cloud Storage</h1>
-
-<p>
-    Xbox Live Cloud Storage includes:
-</p>
-<ul>
-    <li>
-        Connected Storage to store game state.
-    </li>
-    <li>
-        Title Storage to store player statistics and assets.
-    </li>
-</ul>
+# Cloud Storage
 
 
-<h2>Overview</h2>
+## In this section
 
-<div class="ico48Case halfStack">
-    <div class="ico48Link"><a href="connected-storage-vs-title-storage.md"><img src="../images/common/xbl_storage_platform.svg" alt="cloud storage gaming icon"><span>Connected Storage vs. Title Storage</span></a></div>
-</div>
-
-<h2>Features</h2>
-<ul class="cardsF panelContent cols cols2">
-    <li>
-        <a href="connected-storage/connected-storage.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../images/common/xbl_storage_platform.svg" alt="cloud storage gaming icon" alt="Social features" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Connected Storage</h3>
-                        <p>Connected Storage saves and loads gameplay data and other state data across devices. Title data is stored locally and also synced to the cloud.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="xbox-live-title-storage/xbl-title-storage.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../images/common/xbl_storage_platform.svg" alt="cloud storage gaming icon" alt="Social features" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Title Storage</h3>
-                        <p>Cloud storage for large amounts of per-user or per-title data, such as player statistics and assets.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+| Article | Description |
+|---------|-------------|
+| [Connected Storage vs. Title Storage](connected-storage-vs-title-storage.md) | Xbox Live Cloud Storage includes Connected Storage to store game state, and Title Storage to store player statistics and assets. |
+| [Connected Storage](connected-storage/connected-storage.md) | Connected Storage saves and loads gameplay data and other state data across devices. Title data is stored locally and also synced to the cloud. |
+| [Title Storage](xbox-live-title-storage/xbl-title-storage.md) | Cloud storage for large amounts of per-user or per-title data, such as player statistics and assets. |

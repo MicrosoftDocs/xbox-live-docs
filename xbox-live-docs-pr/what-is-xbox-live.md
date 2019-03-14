@@ -64,7 +64,7 @@ Once you have a title created and the fundamentals working, this section provide
 | [Troubleshooting the Xbox Live Services API](using-xbox-live/troubleshooting/troubleshooting-the-xbox-live-services-api.md) | Common issues you may encounter and suggestions on how to fix them.
 
 
-## 1. Social features
+## Social features
 
 Xbox Live social features can organically grow your audience, spreading awareness to over 55 million active users.
 This section describes how to get started with the Xbox Live social features.
@@ -74,7 +74,7 @@ This section describes how to get started with the Xbox Live social features.
 | [Xbox Live Social features](social-platform/social-platform.md) | If you can sign-in a user, then you can start using Xbox Live's Social features, such as utilizing a user's social graph, Rich Presence, and others. |
 
 
-## 2. Player Data
+## Player Data
 
 Xbox Live Player Data drives the usage of player stats, achievements, and leaderboards.
 Read this series of articles to learn more about how to use these in your title.
@@ -87,7 +87,7 @@ Read this series of articles to learn more about how to use these in your title.
 | [Leaderboards](leaderboards-and-stats-2017/leaderboards.md) | Bring out your users' competitive sides by intelligently incorporating leaderboards.
 
 
-## 3. Cloud Storage
+## Cloud Storage
 
 Xbox Live Cloud Storage provides both Title Storage and Connected Storage.
 These are two different but complementary services:  
@@ -102,7 +102,7 @@ These are two different but complementary services:
 | [Title Storage](storage-platform/xbox-live-title-storage/xbox-live-title-storage.md) | An overview and programming guide on Title Storage. |
 
 
-## 4. Multiplayer features
+## Multiplayer features
 
 Multiplayer is a great way to extend the lifetime of your title and keep gameplay experiences fresh.
 Xbox Live provides extensive multiplayer and matchmaking features.
