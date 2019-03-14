@@ -28,9 +28,9 @@ To use Xbox Live SDK for iOS in your game:
     1. Right click the **Frameworks** group, select **Add Files to "{Your Project}"**
     1. Navigate to the directory containing the Xbox Live SDK for iOS, and select all 3 frameworks (libHttpClient.framework, Xal.framework, and Xsapi-c.framework)
         - Check "Copy items if needed"
-        - Select "Create foldre references"
+        - Select "Create folder references"
     1. Update Build Settings
     1.   Under the **General** tab => **Embedded Binaries**, add all 4 frameworks
 1. Navigate to the **Keychain Sharing** section of your project's **Capabilities**, then add the following keychain group to the list:
-    ** `com.microsoft.xal`**
+    `com.microsoft.xal`
     ![Image of adding keychain sharing](images/ios-add-keychain-sharing.png)
