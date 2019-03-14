@@ -173,7 +173,7 @@ Just like with sign-in silently, we will create a wrapper to call our async func
 ```cpp
 HRESULT XAL_TrySignInUserWithUI()
 {
-    XAsyncBlock* asyncBlock = new XAsyncBlock();
+    XAsyncBlock* asyncBlock = new XAsyncBlock() {};
     asyncBlock->callback = XAL_TrySignInUserWithUI_Callback;
 
     return XalAddUserWithUiAsync(nullptr, asyncBlock);
@@ -205,7 +205,7 @@ We will use asyncBlock-context to store the handle to the new user to be used la
 ```cpp
 HRESULT XAL_TryResolveUserIssue(_In_ XalUserHandle user)
 {
-    XAsyncBlock* asyncBlock = new XAsyncBlock();
+    XAsyncBlock* asyncBlock = new XAsyncBlock() {};
     asyncBlock->context = user;
     asyncBlock->callback = XAL_TryResolveUserIssue_Callback;
 
