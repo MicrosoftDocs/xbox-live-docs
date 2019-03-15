@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 Identity features of Xbox Live include user identity, authentication and XAL sign-in, privileges, and privacy.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|
