@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Setting up a game at Partner Center
 description: Creating a new app at Partner Center, enabling Xbox Live for the game, and publishing the game.
 ms.date: 02/08/2019
