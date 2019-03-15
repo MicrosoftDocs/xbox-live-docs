@@ -1,5 +1,5 @@
 ---
-title: Get started with the Xbox Live Creators Program
+title: Get started with Xbox Live, for Creators
 description: All the high-level steps, from joining the Creators Program, through releasing your game.
 ms.assetid: 2a744405-7ee4-42b4-8f36-9916e8c3a530
 ms.date: 12/13/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Get started with the Xbox Live Creators Program
+# Get started with Xbox Live, for Creators
  
 The Xbox Live Creators Program allows you to quickly and directly publish your games to Xbox One and Windows 10, with a simplified certification process and no concept approval required.
 If your game integrates Xbox Live and follows our [standard Store policies](https://msdn.microsoft.com/en-us/library/windows/apps/dn764944.aspx), you are ready to publish.
