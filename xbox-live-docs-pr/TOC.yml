@@ -13,23 +13,23 @@
           items:
             - name: Setting up a game at Partner Center, for Creators
               href: get-started/setup-partner-center/setup-partner-center-creators.md
-            - name: Partner Center setup, for Creators
-              href: get-started-with-creators/get-start-partner-center-cr.md
-              items:
-                - name: Get started with the Xbox Live Creators Program
-                  href: get-started-with-creators/get-started-with-xbox-live-creators.md
-                - name: Create a new Creators Program title and publish it to the test environment
-                  href: get-started-with-creators/create-and-test-a-new-creators-title.md
-                - name: Authorize Xbox Live accounts for testing in your environment
-                  href: get-started-with-creators/authorize-xbox-live-accounts.md
             - name: Setting up a game at Partner Center, for Managed Partners
               href: get-started/setup-partner-center/setup-partner-center-id-partners.md
+            - name: Legacy articles about Partner Center setup
+              href: get-started/setup-partner-center/legacy.md
+              items:
+                - name: Get started with Xbox Live, for Creators
+                  href: get-started-with-creators/get-started-with-xbox-live-creators.md
+                - name: Create an app and publish it for testing, for Creators
+                  href: get-started-with-creators/create-and-test-a-new-creators-title.md
+                - name: Authorize test accounts, for Creators
+                  href: get-started-with-creators/authorize-xbox-live-accounts.md
             - name: Partner Center setup, for Managed Partners
               href: get-started-with-partner/get-start-partner-center-id.md
               items: 
                 - name: Get started with Xbox Live, for Managed Partners
                   href: get-started-with-partner/get-started-with-xbox-live-partner.md
-                - name: Create a new title that uses Xbox Live
+                - name: Create an app and publish it for testing, for Managed Partners
                   href: get-started-with-partner/create-a-new-title.md
         - name: Setting up an IDE to use Xbox Live
           href: get-started/setup-ide/index.md
