@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Add XBL support in Unity, for UWP games
 author: mikehoffms
 description: Adding Xbox Live support to Unity for UWP with a scripting backend, for ID@Xbox and managed partners.
