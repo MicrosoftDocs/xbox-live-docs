@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 Signing-in an Xbox Live user in your title.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|
