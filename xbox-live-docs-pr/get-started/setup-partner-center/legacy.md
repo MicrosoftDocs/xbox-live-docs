@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 # Legacy articles about Partner Center setup
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|
