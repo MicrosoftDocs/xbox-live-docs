@@ -35,5 +35,5 @@ XAL works on both Single User Application (SUA) and Multi User Application (MUA)
 Read the following articles to learn how to work with XAL in the general case and for any of its supported platforms.
 
 [XAL Sign-In](xal-sign-in.md)  
-[Get Started with XAL on iOS](iOS-xal.md)  
-[Get Started with XAL on Android](android-xal.md)
+[Get Started with XAL on iOS](../../get-started-with-ios-android/ios-get-started-with-xsapi.md)  
+[Get Started with XAL on Android](../../get-started-with-ios-android/android-get-started-with-xsapi.md)

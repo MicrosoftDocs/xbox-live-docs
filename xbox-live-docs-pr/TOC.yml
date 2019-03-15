@@ -126,10 +126,6 @@
                       href: using-xbox-live/auth/xal-overview.md
                     - name: Signing-in using XAL
                       href: using-xbox-live/auth/xal-sign-in.md
-                    - name: Setting up Visual Studio for XAL login on Android
-                      href: using-xbox-live/auth/android-xal.md
-                    - name: Setting up Xcode for sign-in with iOS
-                      href: using-xbox-live/auth/iOS-xal.md
                     - name: Using Xbox Live tokens for custom web service authentication
                       href: using-xbox-live/auth/xal-partner-token.md
                 - name: Authentication for UWP projects
