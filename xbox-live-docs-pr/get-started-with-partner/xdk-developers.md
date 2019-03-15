@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 Getting started with Xbox Live development in an Xbox Developer Kit (XDK)-based project using Visual Studio.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|
