@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: UWP Authentication and user identity
 description: Authentication and sign-in.
 ms.date: 02/08/2019
