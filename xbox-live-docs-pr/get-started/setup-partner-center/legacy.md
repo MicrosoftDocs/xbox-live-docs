@@ -1,6 +1,8 @@
 ---
+layout: LandingPage
 title: Legacy articles about Partner Center setup
 description: Older articles about Partner Center setup.
+author: mikehoffms
 ms.date: 01/24/2019
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, test account
