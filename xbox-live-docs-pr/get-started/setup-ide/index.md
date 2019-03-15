@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Setting up an IDE to use Xbox Live
 description: Setting up an IDE to use the Xbox Live SDK, for your target platforms.
 ms.date: 02/08/2019
