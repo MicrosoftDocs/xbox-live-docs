@@ -24,7 +24,7 @@ ID@Xbox partners can use:
 *  Xcode (targeting iOS)
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|
@@ -33,7 +33,7 @@ ID@Xbox partners can use:
 | [The XboxServices.config file for UWP games](../../xboxservices-config.md) | The XboxServices.config file associates your UWP game with an Xbox Live configuration. |
 
 
-## Next steps
+### Next steps
 
 After setting up an IDE to use the Xbox Live SDK, do step 3: Add Xbox Live sign-in code to your game.
 See [Getting started](../index.md).
