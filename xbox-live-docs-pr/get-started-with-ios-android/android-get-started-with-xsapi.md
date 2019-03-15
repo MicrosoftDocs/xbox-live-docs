@@ -99,15 +99,3 @@ After signing a player in with XAL, your game should then create an `xbox_live_c
 
 For more information about signing in a player by using XAL in an Android game, see [Xbox Live Authentication Layer (Xal) with Android](../using-xbox-live/auth/android-xal.md).
 
-
-### xboxservices.config
-
-The Xbox Live APIs rely on [xboxservices.config](../xboxservices-config.md). On Android, you can just add the config file to your project.
-
-
-### Async library
-
-The async library for Android only supports `AsyncQueueDispatchMode::AsyncQueueDispatchMode_Manual`. This means your title has to create an async queue and pump the work and completion threads.
-
-You can find a cross-platform solution at `{Xbox Live API Root}\InProgressSamples\Kits\XboxLiveToolkit\mobile\AsyncIntegration`.  
-`AsyncIntegration` handles pumping the background thread and allows the title to control the completion thread by calling `DrainAsyncCompletionQueueUntilEmpty` when ready.
