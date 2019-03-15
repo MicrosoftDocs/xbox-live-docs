@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 # UWP Authentication and user identity
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|
