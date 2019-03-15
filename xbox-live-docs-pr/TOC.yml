@@ -24,9 +24,6 @@
                   href: get-started-with-creators/create-and-test-a-new-creators-title.md
                 - name: Authorize test accounts, for Creators
                   href: get-started-with-creators/authorize-xbox-live-accounts.md
-            - name: Partner Center setup, for Managed Partners
-              href: get-started-with-partner/get-start-partner-center-id.md
-              items: 
                 - name: Get started with Xbox Live, for Managed Partners
                   href: get-started-with-partner/get-started-with-xbox-live-partner.md
                 - name: Create an app and publish it for testing, for Managed Partners
