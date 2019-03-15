@@ -14,7 +14,7 @@ To add Xbox Live functionality to your game, start by setting up a game at Partn
 For the differences between Creators and ID@Xbox partners, see [Developer program overview](../../developer-program-overview.md).
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|
@@ -24,7 +24,7 @@ For the differences between Creators and ID@Xbox partners, see [Developer progra
 | [Partner Center setup, for Managed Partners](../../get-started-with-partner/get-start-partner-center-id.md) | High-level steps, from joining the ID@Xbox Managed Partner Program, through releasing your game. |
 
 
-## Next steps
+### Next steps
 
 After you have set up a game at Partner Center, do step 2: Setting up an IDE to use Xbox Live.
 See [Getting started](../index.md).
