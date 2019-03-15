@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 Setting up a Visual Studio project to enable Xbox Live for a UWP game.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|
