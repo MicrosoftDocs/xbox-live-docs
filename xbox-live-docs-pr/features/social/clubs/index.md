@@ -1,12 +1,10 @@
 ---
-title: Clubs
+title: Clubs on Xbox Live communities for games
 author: mikehoffms
 description: The Clubs feature easily integrates your game's teams, clans, and communities.
 ms.author: v-mihof
 ms.date: 12/06/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, clubs
 ms.localizationpriority: medium
 ---
@@ -22,7 +20,7 @@ General-purpose clubs in Xbox Live are focused on games and interests.
 Clubs are created and managed by gamers to socialize and play with other like-minded gamers.
 
 
-## Benefits
+## Benefits of clubs
 
 Gamers engage more when they find a like-minded community.
 Being in a club corresponds with 40% more engagement on Xbox Live, and more friends every month.
@@ -30,13 +28,40 @@ Being in a club corresponds with 40% more engagement on Xbox Live, and more frie
 Higher engagement means more daily logins, more time in games, and more purchases.
 
 
-## In this section
+## Official clubs
 
-| Article | Description |
-|---------|-------------|
-| [Official clubs](official-clubs/official-clubs.md) | Official Clubs are for community managers to engage with the entire gaming community, and for gamers to find other gamers. |
-| [Social clubs](social-clubs/social-clubs.md) | |
-| [In-game clubs](in-game-clubs/in-game-clubs.md) | In-Game Clubs are defined by the developer, integrated into the game such as a clan or guild. |
+Official Clubs are managed by the publisher, for a specific game.
+Official Clubs are for community managers to engage with the gaming community, and for gamers to find other gamers.
+
+An Official Club is a set of console, mobile, and PC experiences and web tools to help game publishers engage with their customers.
+
+Official Clubs will replace Game Hubs.
+
+
+## Social clubs
+
+Social clubs are managed by a user, and could be for any interest, such as a genre of game or a specific game.
+
+
+## In-game clubs
+
+In-Game Clubs are defined by the developer, integrated into the game such as a clan or guild.
+Players can then create and use the type of club defined by the developer.
+
+The developer defines the size of the club and the rules for the club.
+
+
+### Benefits of in-game clubs
+
+In-game clubs can help your game in the following ways:
+
+* Integrates groups (such as clans or squads) into your game.
+
+* Makes your existing group more discoverable.
+
+* Provides mobile communication tools for your groups.
+
+* Enables your groups to work cross-platform (PC/Xbox/Mobile).
 
 
 ## See also

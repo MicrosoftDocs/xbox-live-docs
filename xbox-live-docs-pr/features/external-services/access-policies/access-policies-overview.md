@@ -5,8 +5,6 @@ description: Configuring access policies to allow other apps, games, and service
 ms.author: v-mihof
 ms.date: 12/06/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, access policies
 ms.localizationpriority: medium
 ---

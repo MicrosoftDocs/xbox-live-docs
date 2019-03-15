@@ -1,27 +1,27 @@
 ---
-title: Player Stats for Stats 2017
-description: Intro to Stats 2017
+title: Player Stats 2017 (deprecated)
+description: Player Stats 2017 (deprecated) allows developers to configure stats for individual players signifying progress and prowess in a game.
 ms.date: 07/02/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, player stats, leaderboards, stats 2017
 ms.localizationpriority: medium
 ---
 
-# Stats 2017
+# Player Stats 2017 (deprecated)
 
 When using Stats 2017, the title keeps track of the stat values, and sends the values to the service.
 
 Stats 2017 allows developers to configure stats for individual players signifying progress and prowess in game.
 These stats are a social tool that will allow players to be more competitive with their friends and the larger title's community, as well as showcasing some of the capabilities and challenges your title has to offer.
 
-If you have a racing game with featured statistics like longest drift and best hang time, you can communicate the type of racing game your players can expect.
+For example, if you have a racing game with featured statistics like longest drift and best hang time, you can communicate the type of racing game your players can expect.
 
 Seeing how players stack against their friends and the community at large will give them more incentive to buy and play your title.
 Players will see featured statistics on the title's GameHub.
 Featured Stats may also periodically appear in pinned content blocks that users may add to their Home view.
 
 
-Stats 2017 operates by accepting stat values as key value pairs from your title for a player and storing that stat value so that it can be displayed at a later time.
+Stats 2017 operates by accepting stat values as key/value pairs from your title for a player and storing that stat value so that it can be displayed at a later time.
 Stats 2017 supports Xbox Live leaderboard scenarios by saving stats about individual players so they can be compared and ranked on a leaderboard later.
 
 Stats 2017 accepts values sent to it with little to no validation, so it is up to your title to handle all of the logic which determines the correct value for a stat.
@@ -29,7 +29,7 @@ Stats 2017 accepts values sent to it with little to no validation, so it is up t
 
 ## Configured stats and featured leaderboards
 
-Stats are configured on the [Windows Development Center dashboard](https://developer.microsoft.com/en-us/dashboard/windows/overview).
+Stats are configured on the [Partner Center dashboard](https://partner.microsoft.com/dashboard/windows/overview).
 In order to configure stats, you must already have a title configured.
 
 If you do not have a title configured, you can learn how to do so by reading [Create and test a new Creator's title](../get-started-with-creators/create-and-test-a-new-creators-title.md).

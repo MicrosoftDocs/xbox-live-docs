@@ -29,6 +29,7 @@ ID@Xbox partners can use:
 |---------|-------------|
 | [IDEs, SDKs, and target platforms, for Creators](../../get-started-with-creators/creators-program.md) | IDEs, SDKs, and target platforms, for Creators, including Visual Studio and Unity. |
 | [IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners](../../get-started-with-partner/managed-partners-and-id-xbox-developers.md) | IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners, including Visual Studio and Unity. |
+| [The XboxServices.config file for UWP games](../../xboxservices-config.md) | The XboxServices.config file associates your UWP game with an Xbox Live configuration. |
 
 
 ## Next steps

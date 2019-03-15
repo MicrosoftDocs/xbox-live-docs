@@ -6,167 +6,44 @@ description: Xbox Live API reference, including XSAPI, XAL, Async, and RESTful A
 ms.author: v-mihof
 ms.date: 12/12/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
 <h1>API Reference</h1>
 
-<p>
-    Xbox Live Services is a set of services for managing games and player information.
-    Xbox Live Services support the Xbox.Services API, which should be used whenever possible.
-    Use the RESTful interface described in this section for newer methods that have not be added to Xbox.Services yet.
+<p>Xbox Live is a premier gaming network that connects millions of gamers across the world. You can add Xbox Live to your Windows 10 PC or Xbox One game in order to take advantage of the Xbox Live features and services.</p>
+
+<h2>XSAPI</h2>
+
+<p>Microsoft Xbox Live Service API (XSAPI) that enables game developers to access Xbox Live Features. To get access to the Xbox Live service, you can join the Xbox Live Creators Program at <a href="https://aka.ms/xblcp">https://aka.ms/xblcp</a>, or apply to the ID@Xbox program at <a href="https://www.xbox.com/en-us/Developers/id">https://www.xbox.com/en-us/Developers/id</a>
 </p>
 
-<h2>Get Started</h2>
-<p>Learn how to build your first XBL feature by getting enrolled in a program, setting up a development kit, calling an API.</p>
-<div class="ico48Case halfStack">
-    <div class="ico48Link"><a href="https://www.xbox.com/en-US/developers/creators-program/" data-linktype="absolute-path"><img src="images/common/enroll_step1_icon.svg" alt="Enroll as a Creator icon button"><span>Enroll as Creator</span></a></div>
-    <div class="ico48Link"><a href="https://www.xbox.com/en-US/developers/id" data-linktype="absolute-path"><img src="images/common/enroll_step1_icon.svg" alt="Enroll as an ID at Xbox Developer icon button"><span>Enroll in ID@Xbox</span></a></div>
-    <div class="ico48Link"><a href="get-started-with-creators/get-started-with-xbox-live-creators.md"><img src="images/common/setup_step2_icon.svg" alt="Set Up as Creator icon button"><span>Set up as Creator</span></a></div>
-    <div class="ico48Link"><a href="get-started-with-partner/get-started-with-xbox-live-partner.md"><img src="images/common/setup_step2_icon.svg" alt="Setup as ID at Xbox developer icon button"><span>Set up in ID@Xbox</span></a></div>
-</div>
-
-
-<h2>Overview of API References</h2>
-<ul class="cardsF panelContent cols cols2">
-    <li>
-        <a href="samples.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Xbox Live samples" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Xbox Live samples</h3>
-                        <p>There are Xbox Live API samples and Xbox Developer Kit samples.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="xbox-live-rest/uri/atoc-xboxlivews-reference-uris.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Universal Resources Identifier (URI) Reference" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Universal Resources Identifier (URI) Reference</h3>
-                        <p>Reference material for the resources and methods that can be used with Xbox Live Services.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="xbox-live-rest/json/atoc-xboxlivews-reference-json.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="JavaScript Object Notation (JSON) Object Reference" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>JavaScript Object Notation (JSON) Object Reference</h3>
-                        <p>Reference material for the JavaScript Object Notation (JSON) objects used with Xbox Live Services.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="xbox-live-rest/enums/atoc-xboxlivews-reference-enums.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Enumerations Used In JavaScript Object Notation (JSON) Objects" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Enumerations Used In JavaScript Object Notation (JSON) Objects</h3>
-                        <p>Reference material for the enumerations used in JavaScript Object Notation (JSON) objects used with Xbox Live Services.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="xbox-live-sandboxes.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="images/common/xbl_real_time_activity_placeholder.svg" alt="Additional Reference" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Additional Reference</h3>
-                        <p>Supplementary reference material for Xbox Live Services, including authorization types, data types, standard HTTP status codes and headers, paging parameters, and Entertainment Discovery Services (EDS).</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
+<ul>
+    <li><a href="/gaming/xbox-live/flatc-async-patterns">Conceptual Documentation on XSAPI</a></li>
+    <li><a href="https://github.com/Microsoft/xbox-live-api">Github hosted Microsoft Xbox Live Service API (XSAPI)</a></li>
 </ul>
 
-<hr>
-<h2>Reference</h2>
-<ul class="panelContent cardsW">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>API</h3>
-                        <p><a href="xbox-live-rest/atoc-xboxlivews-reference.md" data-linktype="relative-path">Xbox Live RESTful API</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Tutorials</h3>
-                        <p><a href="samples.md" data-linktype="relative-path">Xbox Live Samples and Combination Samples</a></p>
-                     </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Forums and Github </h3>
-                        <p><a href="https://forums.xboxlive.com/index.html" data-linktype="absolute-path">XBL Developer Forum</a></p>
-                        <p><a href="https://github.com/Microsoft/xbox-live-api" data-linktype="absolute-path">XBL Github portal</a></p>
-                     </div>
-                </div>
-            </div>
-        </div>
-    </li>
+<h2>XAL</h2>
+
+<p>The Xbox Live Authentication Library (XAL) is a cross platform authentication platform for Xbox Live. XAL enables game developers with a consistent API and user model across all platforms.</p>
+
+<ul>
+    <li><a href="/gaming/xbox-live/using-xbox-live/auth/authentication">Conceptual Documentation on XAL</a></li>
+</ul>
+
+<h2>Async</h2>
+
+<p>An asynchronous API is an API that returns quickly but starts an asynchronous task and the result is returned after the task is finished.</p>
+
+<ul>
+    <li><a href="/gaming/xbox-live/flatc-async-patterns">Conceptual Documentation on Async</a></li>
+</ul>
+
+<h2>REST</h2>
+
+<p>Xbox Live Services is a set of services for managing games and player information. These services support the <strong>Xbox.Services API</strong> which should be used whenever possible.</p>
+
+<ul>
+    <li><a href="/gaming/xbox-live/xbox-live-rest/atoc-xboxlivews-reference">Conceptual Documentation on REST</a></li>
 </ul>

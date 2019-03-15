@@ -11,17 +11,21 @@ ms.localizationpriority: medium
 
 # Xbox Integrated Multiplayer (XIM)
 
-Xbox Integrated Multiplayer (XIM) is an all-in-one multiplayer/networking/chat solution for Xbox Live games.
-
 
 ## In this section
 
 | Article | Description |
 |---------|-------------|
-| [Intro to Xbox Integrated Multiplayer (XIM)](intro-to-xbox-integrated-multiplayer.md) | Xbox Integrated Multiplayer (XIM) is an all-in-one multiplayer/networking/chat solution for Xbox Live games. |
-| [Use XIM (C++)](xbox-integrated-multiplayer/using-xim.md) | Using Xbox Integrated Multiplayer (XIM) with C++. |
-| [Use XIM (C#)](xbox-integrated-multiplayer/using-xim-cs.md) | Using Xbox Integrated Multiplayer (XIM) with C#. |
-| [Use XIM (Unity with IL2CPP)](xbox-integrated-multiplayer/xim-unity-uwp-il2cpp.md) | Using Xbox Integrated Multiplayer with Unity for UWP with the IL2CPP scripting backend. |
+| [Overview of Xbox Integrated Multiplayer (XIM)](intro-to-xbox-integrated-multiplayer.md) | Xbox Integrated Multiplayer (XIM) is an all-in-one multiplayer/networking/chat solution for Xbox Live games. |
+| [Using XIM via C++](xbox-integrated-multiplayer/using-xim.md) | Using Xbox Integrated Multiplayer (XIM) with C++. |
+| [Using XIM via C#](xbox-integrated-multiplayer/using-xim-cs.md) | Using Xbox Integrated Multiplayer (XIM) with C#. |
+| [Using XIM via Unity with IL2CPP](xbox-integrated-multiplayer/xim-unity-uwp-il2cpp.md) | Using Xbox Integrated Multiplayer with Unity for UWP with the IL2CPP scripting backend. |
+| [XIM project configuration](xbox-integrated-multiplayer/xim-manifest.md) | Configuring your UWP app manifests to work with Xbox Integrated Multiplayer (XIM). |
+| [XIM release notes](xbox-integrated-multiplayer/xim-release-notes.md) | Release notes about Xbox Integrated Multiplayer. |
+
+
+## See also
+
+| Article | Description |
+|---------|-------------|
 | [XIM as a dedicated chat solution](xbox-integrated-multiplayer/xim-reservations.md) | Using Xbox Integrated Multiplayer (XIM) as a dedicated chat solution via out-of-band reservations. |
-| [XIM Project Configuration](xbox-integrated-multiplayer/xim-manifest.md) | Configuring your UWP app manifests to work with Xbox Integrated Multiplayer (XIM). |
-| [XIM Release Notes](xbox-integrated-multiplayer/xim-release-notes.md) | Release notes about Xbox Integrated Multiplayer. |

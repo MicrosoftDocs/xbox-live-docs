@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="24px" viewBox="0 0 42 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>desktop</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Working-Vers-of-Verticle-Slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="L1---Rebuilt-Landing-Page-v4---End-Goal" transform="translate(-471.000000, -1352.000000)">
+            <g id="desktop" transform="translate(472.000000, 1352.000000)">
+                <polygon id="Path" fill="#4A98C5" points="20 4 28 4 28 18 20 18"></polygon>
+                <polygon id="Path" fill="#5DBBD3" points="20 4 25 4 25 18 20 18"></polygon>
+                <polygon id="Path" fill="#F19850" points="15 1 20 1 20 20 15 20"></polygon>
+                <polygon id="Path" fill="#F5B465" points="16 1 18 1 18 20 16 20"></polygon>
+                <polygon id="Path" fill="#5DA351" points="10 3 15 3 15 18 10 18"></polygon>
+                <polygon id="Path" fill="#74C865" points="10 3 12 3 12 18 10 18"></polygon>
+                <path d="M15.3,19 L9.7,19 C9.31376958,19 9,18.7069185 9,18.3461538 L9,2.65384615 C9,2.29308147 9.31376958,2 9.7,2 L15.3,2 C15.6862304,2 16,2.29308147 16,2.65384615 L16,18.3461538 C16,18.7069185 15.6862304,19 15.3,19 Z M10.4,17.6923077 L14.6,17.6923077 L14.6,3.30769231 L10.4,3.30769231 L10.4,17.6923077 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M21.3,20 L15.7,20 C15.3137696,20 15,19.7011718 15,19.3333333 L15,0.666666667 C15,0.298828167 15.3137696,0 15.7,0 L21.3,0 C21.6862304,0 22,0.298828167 22,0.666666667 L22,19.3333333 C22,19.7011718 21.6862304,20 21.3,20 Z M16.4,18.6666667 L20.6,18.6666667 L20.6,1.33333333 L16.4,1.33333333 L16.4,18.6666667 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M28.3571429,19 L20.6428571,19 C20.2881557,19 20,18.7198486 20,18.375 L20,4.625 C20,4.28015141 20.2881557,4 20.6428571,4 L28.3571429,4 C28.7118443,4 29,4.28015141 29,4.625 L29,18.375 C29,18.7198486 28.7118443,19 28.3571429,19 Z M21.2857143,17.75 L27.7142857,17.75 L27.7142857,5.25 L21.2857143,5.25 L21.2857143,17.75 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                <polygon id="Path" fill="#000000" points="17 3 18 3 18 4 17 4"></polygon>
+                <polygon id="Path" fill="#000000" points="17 5 18 5 18 6 17 6"></polygon>
+                <polygon id="Path" fill="#000000" points="17 7 18 7 18 8 17 8"></polygon>
+                <polygon id="Path" fill="#000000" points="17 11 18 11 18 12 17 12"></polygon>
+                <polygon id="Path" fill="#000000" points="10 16 29 16 29 17 10 17"></polygon>
+                <polygon id="Path" fill="#000000" points="17 13 18 13 18 14 17 14"></polygon>
+                <polygon id="Path" fill="#000000" points="26 4 27 4 27 16 26 16"></polygon>
+                <g id="books" transform="translate(0.000000, 17.000000)">
+                    <path d="M-0.5,4.625 L-0.5,2.125 C-0.5,1.158467 0.283467,0.375 1.25,0.375 L38.75,0.375 C39.716533,0.375 40.5,1.158467 40.5,2.125 L40.5,4.625 C40.5,5.591533 39.716533,6.375 38.75,6.375 L1.25,6.375 C0.283467,6.375 -0.5,5.591533 -0.5,4.625 Z" id="Path" stroke="#000000" fill="#AF6328"></path>
+                    <path d="M38.5,3.125 L38.5,3.75 C38.5,4.09515625 38.2201563,4.375 37.875,4.375 L2.25,4.375 C1.55960937,4.375 1,4.93460938 1,5.625 L1,5.625 L19.125,5.625 L30.375,5.625 L38.5,5.625 C39.1903906,5.625 39.75,5.06539062 39.75,4.375 L39.75,1.875 L39.75,1.875 C39.0596094,1.875 38.5,2.43460938 38.5,3.125 Z" id="Path" fill="#A25425"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

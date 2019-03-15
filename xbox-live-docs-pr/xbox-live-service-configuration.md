@@ -1,6 +1,6 @@
 ---
 title: Xbox Live service configuration IDs for Managed Partners
-description: Configuring Xbox Live services for your game.
+description: Setting up Xbox Live service configuration for your game, for Managed Partners.
 ms.assetid: 631c415b-5366-4a84-ba4f-4f513b229c32
 ms.date: 04/04/2017
 ms.topic: article

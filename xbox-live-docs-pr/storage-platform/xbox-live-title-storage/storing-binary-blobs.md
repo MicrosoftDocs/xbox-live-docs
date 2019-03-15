@@ -26,10 +26,11 @@ Connection: Keep-Alive
 - `<STSTokenString>` is a placeholder for brevity, and should be replaced with the token returned by the authentication request.
 
 2.  Send the binary data.
-    Since the data will be transferred through HTTP, the data must be constrained to the acceptable character set.
-    Information such as image or audio data must be encoded.
-    You may select any encoding method that generates HTTP-compatible characters.
 
+Since the data will be transferred through HTTP, the data must be constrained to the acceptable character set.
+Information such as image or audio data must be encoded.
+You may select any encoding method that generates HTTP-compatible characters.
+    
 ```http
   01EAEFBAD05903A4
   1EA2311656677DFF

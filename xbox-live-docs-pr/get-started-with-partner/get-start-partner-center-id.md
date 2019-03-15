@@ -1,17 +1,15 @@
 ---
-title: Getting started with Partner Center, for ID@Xbox Managed Partners
+title: Partner Center setup, for Managed Partners
 author: mikehoffms
 description: High-level steps, from joining the ID@Xbox Managed Partner Program, through releasing your game.
 ms.author: v-mihof
 ms.date: 12/06/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, partner, ID@Xbox
 ms.localizationpriority: medium
 ---
 
-# Getting started with Partner Center, for ID\@Xbox Managed Partners
+# Partner Center setup, for Managed Partners
 
 High-level steps, all the way from joining the ID@Xbox Managed Partners program, through releasing your game.
 

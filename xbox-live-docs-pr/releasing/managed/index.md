@@ -12,4 +12,9 @@ ms.localizationpriority: medium
 > [!NOTE]
 > This is preliminary documentation.
 
-Testing and releasing a game, for Managed Partners.
+
+## In this section
+
+| Article | Description |
+|---------|-------------|
+| [Xbox Live service configuration IDs, for Managed Partners](../../xbox-live-service-configuration.md) | Setting up Xbox Live service configuration IDs for your game, for Managed Partners. |

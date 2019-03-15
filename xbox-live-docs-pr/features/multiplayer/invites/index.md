@@ -9,16 +9,9 @@ ms.localizationpriority: medium
 
 # Invites
 
-> [!NOTE]
-> This is preliminary documentation.
-
-Invites notifies other potential players to play a game with.
-
 
 ## In this section
 
 | Article | Description |
 |---------|-------------|
-| [XIM for Invites](xim/index.md) | XIM for Invites. |
-| [Manager for Invites](manager/index.md) | Manager for Invites. |
-| [Custom Invites](custom/index.md) | Custom Invites. |
+| [Sending game invites](../../../multiplayer/multiplayer-manager/send-game-invites.md) | Using Multiplayer Manager to enable a player to send game invites to other players to join the game. |

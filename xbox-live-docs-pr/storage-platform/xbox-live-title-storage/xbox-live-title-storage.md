@@ -4,8 +4,6 @@ description: Using Title Storage to store game information for a title in the cl
 ms.assetid: a4182bc8-d232-4e77-93ae-97fe17ac71b1
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, title storage
 ms.localizationpriority: medium
 ---

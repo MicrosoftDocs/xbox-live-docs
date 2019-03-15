@@ -5,8 +5,6 @@ description: Setting up Visual Studio to sign-in to Xbox Live with an Android pr
 ms.author: aablackm
 ms.date: 08/30/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, authentication, sign-in
 ms.localizationpriority: medium
 ---
@@ -15,7 +13,7 @@ ms.localizationpriority: medium
 
 This article helps you set up a Visual Studio development environment for your Android project, to enable signing in to Xbox Live.
 
-You must first acquire the source code package for XAL; see [Xbox Live Authentication Library (XAL) overview](xal-overview.md).
+You must first acquire the source code package for XAL; see [Xbox Authentication Library (XAL) overview](xal-overview.md).
 
 
 ## Requirements
@@ -43,7 +41,7 @@ Visual Studio Installer workloads page
 
 ## Setting up the project
 
-**TODO** gives instructions on how to set up a Visual Studio project for XAL development.
+[Xbox Authentication Library (XAL) overview](xal-overview.md) gives instructions on how to set up a Visual Studio project for XAL development.
 The present section carries the specific instructions for setting up a Xal project for Android development.
 
 > [!TIP]
