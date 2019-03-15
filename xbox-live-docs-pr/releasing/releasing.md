@@ -36,7 +36,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/xboxicon1.svg" alt="Creators Program" />
+                                <img src="../images/getting_started/xboxicon1.svg" alt="Xbox Icon" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -55,7 +55,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/xboxicon1.svg" alt="" />
+                                <img src="../images/getting_started/xboxicon1.svg" alt="Xbox Icon" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -128,7 +128,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/apidesktop.svg" alt="" />
+                                <img src="../images/getting_started/apidesktop.svg" alt="API Icon" />
                             </div>
                         </div>
                         <div class="cardText">

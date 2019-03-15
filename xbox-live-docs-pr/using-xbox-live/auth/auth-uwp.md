@@ -1,5 +1,5 @@
 ---
-title: Authentication for UWP projects
+title: UWP Authentication and user identity
 description: Authentication and sign-in.
 ms.date: 02/08/2019
 ms.topic: article
@@ -7,7 +7,7 @@ keywords: xbox live, xbox, games, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Authentication for UWP projects
+# UWP Authentication and user identity
 
 
 ## In this section

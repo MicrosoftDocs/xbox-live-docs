@@ -1,5 +1,5 @@
 ---
-title: Clubs
+title: Clubs on Xbox Live communities for games
 author: mikehoffms
 description: The Clubs feature easily integrates your game's teams, clans, and communities.
 ms.author: v-mihof

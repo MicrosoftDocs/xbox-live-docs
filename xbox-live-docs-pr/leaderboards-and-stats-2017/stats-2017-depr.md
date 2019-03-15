@@ -1,5 +1,5 @@
 ---
-title: Player Stats 2017 (deprecated)
+title: Player Stats 2017 articles and overviews (deprecated)
 description: Player Stats 2017 (deprecated).
 ms.date: 02/08/2019
 ms.topic: article
@@ -7,7 +7,7 @@ keywords: xbox live, xbox, games, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Player Stats 2017 (deprecated)
+# Player Stats 2017 articles and overviews (deprecated)
 
 
 ## In this section

@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 
 <h2>XSAPI</h2>
 
-<p>Microsoft Xbox Live Service API (XSAPI) that enables game developers to access Xbox Live Features. To get access to the Xbox Live service, you can join the Xbox Live Creators Program at <a href="https://aka.ms/xblcp">https://aka.ms/xblcp</a>, or apply to the ID@Xbox program at <a href="http://www.xbox.com/en-us/Developers/id">http://www.xbox.com/en-us/Developers/id</a>
+<p>Microsoft Xbox Live Service API (XSAPI) that enables game developers to access Xbox Live Features. To get access to the Xbox Live service, you can join the Xbox Live Creators Program at <a href="https://aka.ms/xblcp">https://aka.ms/xblcp</a>, or apply to the ID@Xbox program at <a href="https://www.xbox.com/en-us/Developers/id">https://www.xbox.com/en-us/Developers/id</a>
 </p>
 
 <ul>
