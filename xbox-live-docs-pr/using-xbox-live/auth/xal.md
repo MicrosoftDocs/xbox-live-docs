@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 The Xbox Authentication Library (XAL) is a cross-platform authentication platform for Xbox Live.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|
