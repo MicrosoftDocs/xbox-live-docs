@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Game Chat
 author: mikehoffms
 description: Adding voice and text communication to your game by using Xbox Live Game Chat 2.
@@ -12,7 +13,7 @@ ms.localizationpriority: medium
 # Game Chat
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|
