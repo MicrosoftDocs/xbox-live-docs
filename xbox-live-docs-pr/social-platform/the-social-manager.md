@@ -12,8 +12,6 @@ ms.localizationpriority: medium
 
 # Social Manager
 
-The Xbox Live Social Manager API simplifies keeping track of online friends and their gaming activity.
-
 
 ### In this section
 
