@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Player Stats
 description: Learn how to set up player stats in Xbox Live.
 ms.assetid: 5ec7cec6-4296-483d-960d-2f025af6896e
@@ -11,7 +12,7 @@ ms.localizationpriority: medium
 # Player Stats
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|
