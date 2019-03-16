@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Rich Presence
 author: mikehoffms
 description: Rich Presence shows what activity a user is currently doing, in which area of the game.
@@ -17,7 +18,7 @@ By default, you get *Basic Presence*, indicating to other users which game a use
 If you write code to use *Rich Presence*, the Rich Presence string also indicates what activity a user is doing, in which area of the game.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|
