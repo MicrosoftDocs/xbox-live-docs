@@ -1,240 +1,319 @@
 ---
-title: Setting up Android Studio for Xbox Live
-description: Setting up Android Studio to use the Xbox Live SDK, to target Android.
-ms.date: 02/08/2019
+structure--
+title: Adding Xbox Live to your Android Studio Project
+author: KevinAsgari
+description: Learn how to add XBL to your android Studio project
+ms.author: kevinasg
+ms.date: 03/13/2019
 ms.topic: article
-keywords: xbox live, xbox, games, xbox one
+ms.prod: windows
+ms.technology: uwp
+keywords: xbox live, xbox, games, android, android studio
 ms.localizationpriority: medium
 ---
-# Setting up Android Studio for Xbox Live
 
-   > [!WARNING]
-   > The following article is for ID@Xbox partners only.
+# Adding Xbox Live to your Android Studio Project
 
-   > [!IMPORTANT]
-   > Prerequisite steps: 
-   > *  Set up a game at Partner Center. See [Getting started](../index.md).
-   > *  Have an existing game that you have created in [Android Studio](https://developer.android.com/studio/). 
+To incorporate Xbox Live functionality in your android studio project you will need to complete the steps below
 
+## Prerequisite: Have Android Studio setup with permission to use the Xbox Live SDK
 
-<!--===================================================-->
-## Get the Xbox Live SDK
+Prerequisite steps for ID@Xbox partners:
 
-<!-- Ask Jason, ask where the SDK will be, for users.  James used one from module from internal, packages, maven, manager.  James didn't incorp into Android Studio.
+* Ensure you have an Android Studio project already created that targets Android API 26 that is a native C++ project.
+* Ensure that your Android SDK is setup with Android 8.0 (API 26) and includes NDK and CMake
+* Ensure you have a virtual device that is capable of running Android API 26
 
-The XGD page below currently mentions 1703, and has no link yet to get zip file for SDK for a particular target (UWP, Xbox, Android, iOS). This will be for ID partners. Creators will get a public SDK at a public location.
- -->
+## Download XSAPI & XAL
 
-<!-- Right-click the following link and then click **Open in new window**: -->
-<!-- ["SDK Downloads" page at Xbox Game Dev portal](https://developer.microsoft.com/en-us/games/xbox/partner/live-downloads) -->
-<a href="https://developer.microsoft.com/en-us/games/xbox/partner/live-downloads" target="_blank">"SDK Downloads" page</a> at Xbox Game Dev portal.
+1. <a href="https://github.com/Microsoft/xbox-live-api" target="_blank"> Download  the various packages </a>  and extract them to your project folder
 
+## Setup your Project to compile for x86 and include dependencies for XSAPI and XAL
+1. In your project, open **your_project > gradle.properties (Project)** and ensure the following two variables are defined
 
-### Creators
+   ```json
+   PROP_APP_ABI=x86
+   ```
+    This property will be used later to ensure we are only building for x86
 
+2. In **your_app > build.gradle(project)** you will need to add the following dependency:
 
-### ID@Xbox Partners
+  ```json
+    classpath 'com.google.gms:google-services:4.1.0'
+    ```
 
-<!-- 
-Greg/Jason Sandlin: 
-What will the planned URL be to get the public ID@Xbox XSAPI SDK?    eg at the secure site, per link below.
-Hopefully the zip file is the 1902 build, which includes the .a lib files for Android.
+3. You must set your complier to target api 26. To do this navigate to ** file > Project Structure > your_app > Properties tab ** change the "Compile SDK Version" to "API:26: Android 8.0 (OREO)"" then click okay
 
-The following page first bullet item has no links, but has old, 2017 info:
-Xbox Live SDK
-  Xbox Live SDK has moved!
-    Starting with the 1703 release, the Xbox Live SDK is on GitHub, open source, and available to the public. To reference the Xbox Live Services API (XSAPI) in your project, use NuGet packages from NuGet.org.
- -->
-1. Right-click the following link and then click **Open in new window**: [Xbox Live SDK](https://developer.microsoft.com/en-us/games/xbox/partner/live-downloads).
+Image
 
-
-<!-- GREG question, review:  if extra account creation is needed to get SDK, beyond what's already set up before PC, where put this? above PC steps?
-   > [!IMPORTANT]
-   > Prerequisite steps for ID@Xbox partners:
-   > For the above SDK link to work, you must have a __ account and must be registerd __.
-
- https://review.docs.microsoft.com/en-us/gaming/xbox-live/get-started-with-partner/create-a-new-title?branch=master
-
-Create a Microsoft account
-If you don't have a Microsoft Account (also known as an MSA), you will need to first create one at https://go.microsoft.com/fwlink/p/?LinkID=254486. If you have an Office 365 account, use Outlook.com, or have an Xbox Live account - you probably already have an MSA.
-
-Register as an App Developer
-You will need to register as an App Developer before you are allowed to create a new title in Partner Center.
-To register go to https://developer.microsoft.com/en-us/store/register and follow the sign-up process. -->
+4. In **your_project > app > gradle.build (app)** update the externalNativeBuild to include the required cmake arguments and ndk filters
+```json
+externalNativeBuild {
+           cmake {
+               arguments "-DANDROID_STL=c++_static", "-DANDROID_TOOLCHAIN=clang"
+               cppFlags "-frtti -fexceptions -fsigned-char"
+           }
+       }
+       ndk {
+           abiFilters = []
+           abiFilters.addAll(PROP_APP_ABI.split(':').collect{it as String})
+       }
+   }
+   ```
+The ExternalNativeBuild flags will tell your compiler to be static as well as use clang for a toolchain. The ndk filters ensures you are only targeting x86 builds
 
 
-2. In that page, click **Download SDK**.
+5. In addition to the ndk and nativeBuild flags above you will also need to include the following dependencies at the bottom of your gradle.build (app) file
 
 
-<!--===================================================-->
-## Configure Android Studio to use CMake and the NDK
-
-Native Development Kit (NDK)
-
-
-<!--===================================================-->
-## Configure Android Studio to use the Xbox Live SDK
-
-* Open the make or CMake file that builds your existing game project.
-
-<!-- optional capture: Android Studio IDE capture showing minimum requirements 
-if you make a Java project, IDE might create a make file.-->
-
-
-### For ID@Xbox Partners, add libs and includes to project
-
-In the IDE's make file or in a Cmake file:
-
-1.  Add the following libraries, in the order shown:
-    
-    - libMicrosoft_Xbox_Services_Android.a
-    - Xal.Android-RelAI32.a
-    - CompactCoreCLL.Android-RelAI32.a
-    - liblibHttpClient_141_Android_C.a
-    - libssl.141.Android.a
-    - libcrypto.141.Android.a
-
-<!-- below is the non-Maven approach -->
-
-2.  Add the following include directories from your XSAPI folder (your Android Maven `ndk` folder):
-
-    - include/
-    - include/cpprestinclude
-
-
-<!--
-### CMAKE option
-If you want to use CMAKE, __.
-
-CMakeLists.txt, contains cocos content:
-# Add Additional Include Directories
--->
-
-
-<!--===================================================
-remove section for 1902
-## Set up the Services.config file
-
-* Add the following to your services config file `xboxservices.config`.
-  Use the title id, service config id, and sandbox from your Partner Center account.
-
-```xml
-XBL.Sample.Android/app/main/res/raw/xboxservices.config
-{
-    "TitleId" : 12345678,
-    "PrimaryServiceConfiId" : "abc123-abc123-abc123-abc123-abc123",
-    "ClientId" : "000000123456A",
-    "Sandbox" : "ABCDE.1"
+  ```json
+implementation 'com.google.firebase:firebase-messaging:17.3.4'
+implementation 'com.google.firebase:firebase-core:16.0.7'
+implementation 'com.madgag.spongycastle:core:1.58.0.0'
+implementation 'com.madgag.spongycastle:prov:1.58.0.0'
+implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+implementation 'com.android.support:customtabs:26.1.0'
+implementation 'com.google.code.gson:gson:2.8.5'
+implementation('org.simpleframework:simple-xml:2.7.+') {
+    exclude module: 'stax'
+    exclude module: 'stax-api'
+    exclude module: 'xpp3'
 }
 ```
--->
+6. After entering the dependencies you will want to apply the google plugins referenceed above.
+```json
+//This should be after dependencies
+apply plugin: 'com.google.gms.google-services'
+  ```
+
+## Including XSAPI and XAL to your project build
+
+1. In Android Studio click **File > Project Structure** which presents the Project Structure modal. Within this modal click the + button which presents you with the New Module dialog select "Import .JAR/.AAR Package" Navigate to your C:XboxLIVESDK and select XSAPIAndroid's .aar file
+
+Insert Image<br>
+**Repeat this step with the androidXAL .aar and libHttpClientAndroid**
+
+2. You now need to add these included modules as dependencies you can do this by again navigating to **File > Project Structure** then the dependencies tab. Within this tab you will want to click the "+" on the right side of the screen and select
+"Module dependency" option. This should present you with a small screen list all the modules we added above. select all the modlues and add click ok
+
+Image or better yet a gif <br>
+
+3. Now that the libraries are included in the project we are going to update our Cmakefile.txt so that we can reference them in our native code. Open **your_app > src > main > cpp > CMakeLists.txt** and add the following just after the cmake_minimum_required element:
+[!NOTE] the path to the NDK must be from your app root folder to the source of the maven ndk downloaded as part the XboxLiveSDK
+
+   ```json
+   set(ANDROID_MAVEN_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../../../../../Maven/ndk)
+   set(ANDROID_MAVEN_LIBS_PATH ${ANDROID_MAVEN_PATH}/libs/x86)
+   ```
+4. In the same CMakeLists.txt we also need to define some compilar flags for XSAPI and XAL copy the following and insert it just after the add_library element
+
+```json
+# Add pre-processor definitions to the project
+target_compile_definitions(native-lib PUBLIC
+        XSAPI_CPP=1
+        XSAPI_C=1
+        _NO_ASYNCRTIMP
+        _NO_PPLXIMP
+        _NO_XSAPIIMP
+        XBL_API_EXPORT
+        XSAPI_A=1
+        XSAPI_U=1
+        __STDC_WANT_LIB_EXT1__=1
+        ASIO_STANDALONE
+        )
+# Link Additional Dependencies. Note: Order matters here!
+target_link_libraries(native-lib
+        ${ANDROID_MAVEN_LIBS_PATH}/libMicrosoft_Xbox_Services_Android.a
+        ${ANDROID_MAVEN_LIBS_PATH}/Xal.Android-RelAI32.a
+        ${ANDROID_MAVEN_LIBS_PATH}/CompactCoreCLL.Android-RelAI32.a
+        ${ANDROID_MAVEN_LIBS_PATH}/liblibHttpClient_141_Android_C.a
+        ${ANDROID_MAVEN_LIBS_PATH}/libssl.141.Android.a
+        ${ANDROID_MAVEN_LIBS_PATH}/libcrypto.141.Android.a
+        )
+# Add Additional Include Directories
+ target_include_directories(native-lib
+         PUBLIC ${ANDROID_MAVEN_PATH}/include
+         PUBLIC ${ANDROID_MAVEN_PATH}/include/cpprestinclude
+          )
+
+```
+Upon completion of this step you should run a gradle sync followed by project build which will complete with the new included XSAPI and XAL libraries
 
 
-<!--====================================================-->
-## Targeting Android
+## Preparing your Java files for XSAPI and XAL
+1. First we are going to update the Android Manifest to include the permission XAL and XSAPI require to run. Open **your_app > src > main > AndroidManifest.xml ** and add the following two lines just after the header:
+```xml
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+```
+
+2. In your application settings of the AndoroidMainfest you will need to set the **android:allowBackup="false"**
+
+3. In the same file AndroidManifest file you will also need to add a new activity just after the main launcher element.
+```xml
+<activity android:name="com.microsoft.xal.browser.WebView" android:launchMode="singleTask">
+    <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <data android:scheme="ms-xal-000000004824156c" android:host="auth" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE"/>
+    </intent-filter>
+</activity>
+<service
+    android:name="com.microsoft.xboxlive.NotificationListenerService"
+    android:exported="false" >
+    <intent-filter>
+        <action android:name="com.google.firebase.MESSAGING_EVENT" />
+    </intent-filter>
+</service>
+```
+We will be creating the NotificationListenerService java class in just a bit.
+
+4. We are now going to update our MainActivity java class to utalize native C++ binding. To do this begin by Opening up ** your_app > src > main > java > your_package > MainActivity.Java**
+
+```java
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.TextView;
+import android.content.Context;
+
+public class MainActivity extends AppCompatActivity {
+
+    // Used to load the 'native-lib' library on application startup.
+    static {
+        System.loadLibrary("native-lib");
+    }
+
+    private native void InitializeGame(Context context);
+    private native void CleanupGame();
 
 
-### Add preprocessor definitions
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        InitializeGame(getApplicationContext());
+    }
+    @Override
+    protected void onDestroy(){
+        CleanupGame();
+        //now adding in new clean up the thread spawned above
+        super.onDestroy();
+    }
 
-In your project's CMake file, add the following preprocessor definitions.
+}
+```
 
-<!-- replace by actual cmake call: -->
-```config
-XSAPI_CPP=1
-XSAPI_C=1
-XSAPI_A=1
-XSAPI_U=1
-_NO_ASYNCRTIMP
-_NO_PPLXIMP
-_NO_XSAPIIMP
-XBL_API_EXPORT
-__STDC_WANT_LIB_EXT1__=1
-ASIO_STANDALONE
+5. With MainActivity updated with our new methods we will now create the NotificationListenerService class we had mentiond above. Click **your_app > src > main ** and create a new class entitled com.microsoft.xboxlive.NotificationListenerService. Once created populate the file with the following:
+
+```java
+import com.google.firebase.messaging.FirebaseMessagingService;
+import com.google.firebase.messaging.RemoteMessage;
+import android.util.Log;
+import com.microsoft.xbox.service.notification.*;
+
+
+public class NotificationListenerService extends FirebaseMessagingService
+{
+    private static final String TAG = "AchievementSample";
+
+    @Override
+    public void onMessageReceived(RemoteMessage remoteMessage)
+    {
+        Log.d(TAG, "FCM message From: " + remoteMessage.getFrom());
+
+        if (remoteMessage.getData().size() > 0)
+        {
+            Log.d(TAG, "FCM Message data payload: " + remoteMessage.getData());
+        }
+
+        if (remoteMessage.getNotification() != null)
+        {
+            Log.d(TAG, "FCM Message Notification Body: " + remoteMessage.getNotification().getBody());
+        }
+
+        //TODO(developer): Add notification handler based on result.notificationType
+    }
+}
+```
+
+## Binding your Java files to your Native C files
+
+ 1. We are going to update the our native C code to make use of XSAPI, XAL, and ASYNC. To do this we open up **your_app > src > main > cpp > native-lib.cpp file and add the following includes and global definitions:
+
+```c++
+#include <jni.h>
+#include <cstdlib>
+#include <cerrno>
+#include <memory>
+#include <cassert>
+#include <ctime>
+#include <unistd.h>
+#include <string>
+#include <thread>
+#include <mutex>
+#include <chrono>
+#include <iostream>
+#include <fstream>
+
+#define UNREFERENCED_PARAMETER(P) (P)
+#define ASSERT_MESSAGE(check_bool, failed_message) assert(check_bool && failed_message)
+
+#include <xsapi-c/services_c.h>
+#include <Xal/xal.h>
+#include <Xal/xal_platform.h>
+#include <XAsync.h>
+
+typedef std::string string_t;
+typedef std::stringstream stringstream_t;
+
+
+JavaVM* g_javaVm = nullptr;
+jobject g_appContext = nullptr;
+
+JNIEnv* getJniEnv()
+{
+    ASSERT_MESSAGE(g_javaVm != nullptr, "JavaVM is NULL! Must init JavaVM before grabbing JniEnv!");
+
+    JNIEnv* jniEnv = nullptr;
+    jint j_result = g_javaVm->GetEnv(reinterpret_cast<void**>(&jniEnv), JNI_VERSION_1_6);
+    ASSERT_MESSAGE(j_result == JNI_OK, "Failed to retrieve the JNIEnv from the JavaVM!");
+    ASSERT_MESSAGE(jniEnv != nullptr, "JniEnv is NULL!");
+
+    return jniEnv;
+}
+```
+5. In the same file we also will update our EXTERN "C" method which via JNI maps our native code to our java code to make use of XSAPI, XAL, and ASYNC.
+
+```c++
+extern "C"
+{
+JNIEXPORT void JNICALL Java_com_example_{your_app}_MainActivity_InitializeGame(
+        JNIEnv* env,
+        jobject instance,
+        jobject appContext)
+{
+    jint j_result = env->GetJavaVM(&g_javaVm);
+    ASSERT_MESSAGE(j_result == JNI_OK, "Failed to retrieve the JavaVM from provided Environment!");
+    ASSERT_MESSAGE(g_javaVm != nullptr, "JavaVM is NULL!");
+
+    g_appContext = env->NewGlobalRef(appContext);
+    //TODO: Put XSAPI initialize here
+
+}
+
+JNIEXPORT void JNICALL Java_com_example_{your_app}_MainActivity_CleanupGame(
+        JNIEnv* env,
+        jobject instance)
+{
+//TODO: Put XSAPI clean up here
+}
+
+}
 ```
 
 
-<!-- section probably goes away for 1902 -->
-### Add native modules and Java files
+Congratulations at this point you should have your project up and running with Xbox Live now you just need to get sign in working!
 
-<!-- 
-question: aar modules are internal, not public, needed by xsapi lib for android device usage. 
-Will ms wrap .aar's, (and java files for notif & webview) into xsapi 1902 libs?
-
-Maven should handle this for us?
- -->
-
-1. Add the following native files:
-
-    * The module file `com.microsoft.xboxlive.aar`
-
-    * The module file `libHttpClient.aar`
-
-    * The module file `XalAndroidJava.aar`
-
-    * The file `NotificationListenerService.java`, for notification listener services (required by async).
-      This file needs to be in or under the source directory: `com.microsoft.xboxlive`
-
-    * The file `XblWebView.java`, for Xbox Live web view (required by XAL).
-      This file needs to be in or under the source directory: `com.microsoft.xboxlive`
-      <!-- move those java files into native setup integration with xsapi? -->
-
-
-### Set up native integration with XSAPI
-
-* Basic understanding of JNI, to link your code between Java and C++.
-  In the `MainActivity.java` file...  
-  This is how you implement a function call to a native C++, and how to retrieve that function in the native CPP.
-
-* Set up the functions to initialize your native environment.
-  This is needed to store the JavaVM and enact the Java environment, which are utilized later by the XSAPI integration files.
-
-* Set up the web view call from native.
-
-* Set up the file storage path.
-
-* Initialize XSAPI.  `Game_Integration.h`
-
-
-### Set up the emulator
-
-<!-- todo: screen captures -->
-
-1. In Android Studio, click the **Tools** menu, and then click **AVD Manager**.
-
-   The "Android Virtual Device Manager" window appears.
-
-2. Click the **Create Virtual Device** button.
-
-   The "Virtual Device Configuration" window appears, showing the "Select Hardware" page.
-
-3. Select your category of device.  
-
-4. Select your device name.  
-
-5. Click the **Next** button.
-
-   The "System Image" page appears.  
-
-6. Click a row to select your device's system image to download.
-
-7. Click the **Next** button.
-
-   The "Verify Configuration" page appears.  
-
-8. Click the **Finish** button.
-
-   The config runs, and sets up your virtual device to be used by Android Studio.
-
-
-### Using the emulator
-
-1. In Android Studio, click the **Tools** menu, and then click **AVD Manager**.
-
-   The "Android Virtual Device Manager" window appears, showing the "Your Virtual Devices" page.
-
-2. Double-click the virtual device you want to open; or, under the **Actions** heading, click the **Run** icon, which is a triangle pointing right.
-
-   The AVD Manager starts your virtual device, and the emulator window appears.
 
 
 <!--===================================================-->
