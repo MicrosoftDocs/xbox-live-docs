@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Multiplayer manager flowcharts
 description: Flowcharts of code for implementing specific Multiplayer Manager scenarios.
 ms.assetid: 0e81ab13-9285-4b72-a6ce-f15add559128
@@ -13,7 +14,7 @@ ms.localizationpriority: medium
 These flowchart diagrams depict implementing specific Multiplayer Manager scenarios.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|
