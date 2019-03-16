@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Access policies
 author: mikehoffms
 description: Access policies.
@@ -12,7 +13,7 @@ ms.localizationpriority: medium
 # Access policies
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|
