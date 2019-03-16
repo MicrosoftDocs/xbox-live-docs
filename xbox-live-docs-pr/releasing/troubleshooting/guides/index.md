@@ -9,8 +9,6 @@ ms.localizationpriority: medium
 ---
 # Guides for troubleshooting Xbox Live
 
-Guides for troubleshooting Xbox Live.
-
 
 ### In this section
 
