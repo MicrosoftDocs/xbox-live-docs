@@ -12,10 +12,6 @@ ms.localizationpriority: medium
 
 # Reputation
 
-The Reputation service encourages positive gameplay.
-
-Reputation is one of the Xbox Live Social features.
-
 
 ### In this section
 
