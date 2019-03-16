@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Configuring Xbox Live services
 author: mikehoffms
 description: Configuring Xbox Live services for your game.
@@ -14,7 +15,7 @@ ms.localizationpriority: medium
 Configuring Xbox Live services for your game.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|
