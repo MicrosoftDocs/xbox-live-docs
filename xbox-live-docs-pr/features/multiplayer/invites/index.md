@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Invites
 description: Invites notifies other potential players to play a game with.
 ms.date: 02/08/2019
@@ -10,7 +11,7 @@ ms.localizationpriority: medium
 # Invites
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|
