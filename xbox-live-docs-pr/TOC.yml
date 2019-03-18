@@ -79,6 +79,8 @@
                       href: get-started-with-partner/add-xbox-live-apis-binary-to-a-uwp-project.md
                     - name: Add and compile XSAPI source code into a UWP project
                       href: get-started-with-partner/add-xbox-live-apis-source-to-a-uwp-project.md
+                    - name: The XboxServices.config file for UWP games
+                      href: xboxservices-config.md
                 - name: Add XBL support in Unity, for UWP games
                   href: get-started-with-partner/add-xbl-support-to-unity.md
                   items: 
@@ -105,8 +107,6 @@
                       href: get-started-with-partner/compile-the-xdk-xbox-live-api-source.md
                 - name: Get started with cross-play games
                   href: get-started-with-partner/get-started-with-cross-play-games.md
-            - name: The XboxServices.config file for UWP games
-              href: xboxservices-config.md
     - name: Features
       href: features/index.md
       items:
