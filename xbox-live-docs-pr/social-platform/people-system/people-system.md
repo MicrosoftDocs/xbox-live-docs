@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: People System (Friends List)
 author: mikehoffms
 description: The People System includes the Friends List, and manages relationships between gamers, such as only showing a user's real name to close friends.
@@ -12,7 +13,7 @@ ms.localizationpriority: medium
 # People System (Friends List)
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

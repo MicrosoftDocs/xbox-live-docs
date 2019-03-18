@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Using Xbox Live APIs
 author: mikehoffms
 description: Xbox Live services can be called through the client-side XSAPI (WinRT, C++11, or C) or through REST endpoints.
@@ -14,7 +15,7 @@ ms.localizationpriority: medium
 Xbox Live services can be called through the client-side XSAPI (WinRT, C++11, or C) or through REST endpoints.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

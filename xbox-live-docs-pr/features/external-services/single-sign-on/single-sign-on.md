@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Single sign-on
 author: mikehoffms
 description: Single sign-on allows a player using your title to sign into your services by using their Xbox Live sign-in.
@@ -15,7 +16,7 @@ Single sign-on allows a player using your title to sign into your services by us
 This lets a player that is signed into Xbox Live run an app or game for your service without having to log in a second time using a different account credential specific to your service.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

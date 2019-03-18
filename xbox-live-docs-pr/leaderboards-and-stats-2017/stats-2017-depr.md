@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Player Stats 2017 articles and overviews (deprecated)
 description: Player Stats 2017 (deprecated).
 ms.date: 02/08/2019
@@ -10,7 +11,7 @@ ms.localizationpriority: medium
 # Player Stats 2017 articles and overviews (deprecated)
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

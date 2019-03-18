@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Matchmaking
 description: Matchmaking finds other players to play a game with.
 ms.date: 02/08/2019
@@ -11,7 +12,7 @@ ms.localizationpriority: medium
 Matchmaking finds other players to play a game with.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

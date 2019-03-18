@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Localized strings
 author: mikehoffms
 description: Localized strings.
@@ -14,7 +15,7 @@ ms.localizationpriority: medium
 Xbox Live localized strings.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

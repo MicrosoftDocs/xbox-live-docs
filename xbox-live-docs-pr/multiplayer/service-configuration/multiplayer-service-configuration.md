@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Multiplayer Service configuration
 author: mikehoffms
 description: Configuring the Multiplayer Service includes session templates, SmartMatch hoppers, and custom invite strings.
@@ -14,7 +15,7 @@ ms.localizationpriority: medium
 Configuring the Multiplayer Service includes session templates, SmartMatch hoppers, and custom invite strings.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

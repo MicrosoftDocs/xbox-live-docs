@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Test accounts
 description: Creating accounts for testing your Xbox Live-enabled game during development.
 ms.date: 01/24/2019
@@ -12,7 +13,7 @@ ms.localizationpriority: medium
 Creating accounts for testing your Xbox Live-enabled game during development.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

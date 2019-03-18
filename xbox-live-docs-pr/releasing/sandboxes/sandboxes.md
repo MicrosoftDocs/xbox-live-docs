@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Sandboxes
 author: mikehoffms
 description: Sandboxes are for testing and publishing in an isolated environment.
@@ -12,7 +13,7 @@ ms.localizationpriority: medium
 # Sandboxes
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

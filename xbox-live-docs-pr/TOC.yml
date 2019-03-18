@@ -13,23 +13,20 @@
           items:
             - name: Setting up a game at Partner Center, for Creators
               href: get-started/setup-partner-center/setup-partner-center-creators.md
-            - name: Partner Center setup, for Creators
-              href: get-started-with-creators/get-start-partner-center-cr.md
-              items:
-                - name: Get started with the Xbox Live Creators Program
-                  href: get-started-with-creators/get-started-with-xbox-live-creators.md
-                - name: Create a new Creators Program title and publish it to the test environment
-                  href: get-started-with-creators/create-and-test-a-new-creators-title.md
-                - name: Authorize Xbox Live accounts for testing in your environment
-                  href: get-started-with-creators/authorize-xbox-live-accounts.md
             - name: Setting up a game at Partner Center, for Managed Partners
               href: get-started/setup-partner-center/setup-partner-center-id-partners.md
-            - name: Partner Center setup, for Managed Partners
-              href: get-started-with-partner/get-start-partner-center-id.md
-              items: 
+            - name: Legacy articles about Partner Center setup
+              href: get-started/setup-partner-center/legacy.md
+              items:
+                - name: Get started with Xbox Live, for Creators
+                  href: get-started-with-creators/get-started-with-xbox-live-creators.md
+                - name: Create an app and publish it for testing, for Creators
+                  href: get-started-with-creators/create-and-test-a-new-creators-title.md
+                - name: Authorize test accounts, for Creators
+                  href: get-started-with-creators/authorize-xbox-live-accounts.md
                 - name: Get started with Xbox Live, for Managed Partners
                   href: get-started-with-partner/get-started-with-xbox-live-partner.md
-                - name: Create a new title that uses Xbox Live
+                - name: Create an app and publish it for testing, for Managed Partners
                   href: get-started-with-partner/create-a-new-title.md
         - name: Setting up an IDE to use Xbox Live
           href: get-started/setup-ide/index.md
@@ -82,6 +79,8 @@
                       href: get-started-with-partner/add-xbox-live-apis-binary-to-a-uwp-project.md
                     - name: Add and compile XSAPI source code into a UWP project
                       href: get-started-with-partner/add-xbox-live-apis-source-to-a-uwp-project.md
+                    - name: The XboxServices.config file for UWP games
+                      href: xboxservices-config.md
                 - name: Add XBL support in Unity, for UWP games
                   href: get-started-with-partner/add-xbl-support-to-unity.md
                   items: 
@@ -108,8 +107,6 @@
                       href: get-started-with-partner/compile-the-xdk-xbox-live-api-source.md
                 - name: Get started with cross-play games
                   href: get-started-with-partner/get-started-with-cross-play-games.md
-            - name: The XboxServices.config file for UWP games
-              href: xboxservices-config.md
     - name: Features
       href: features/index.md
       items:

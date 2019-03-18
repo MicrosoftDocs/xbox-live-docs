@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Best practices for Xbox Live
 author: mikehoffms
 description: Best practices for calling Xbox Live APIs, such as proper calling patterns and retry logic.
@@ -14,7 +15,7 @@ ms.localizationpriority: medium
 Best practices for calling Xbox Live APIs, such as proper calling patterns and retry logic.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

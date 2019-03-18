@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Achievements
 author: mikehoffms
 description: Achievements includes Gamerscore and other rewards such as digital artwork, new maps, characters, and stat boosts.
@@ -12,7 +13,7 @@ ms.localizationpriority: medium
 # Achievements
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: IDEs, SDKs, and target platforms, for Creators
 author: mikehoffms
 description: IDEs, SDKs, and target platforms, for Creators, including Visual Studio and Unity.
@@ -16,7 +17,7 @@ The Xbox Live Creators Program is a good starting point for Xbox Live if you are
 No approval process from Microsoft is required to join this program, and there are minimal certification and publishing requirements.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|
@@ -24,7 +25,7 @@ No approval process from Microsoft is required to join this program, and there a
 | [Develop in Unity, for Creators](develop-creators-unity.md) | Developing an Xbox Live-enable game as a Creators program member, using Unity. |
 
 
-## See also
+### See also
 
 * [Developer program overview](../developer-program-overview.md)
 * [Setting up an IDE to use Xbox Live](../get-started/setup-ide/index.md)

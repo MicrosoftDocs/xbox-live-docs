@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Multiplayer Manager for Matchmaking
 description: Multiplayer Manager for Matchmaking.
 ms.date: 02/08/2019
@@ -12,7 +13,7 @@ ms.localizationpriority: medium
 Multiplayer Manager for Matchmaking is a Multiplayer feature in Xbox Live.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

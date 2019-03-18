@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Testing and releasing a game, for Managed Partners
 description: Testing and releasing a game, for Managed Partners.
 ms.date: 02/08/2019
@@ -13,7 +14,7 @@ ms.localizationpriority: medium
 > This is preliminary documentation.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|
