@@ -83,11 +83,6 @@ You must use Visual Studio 2017 or later in order to build the Xbox Live APIs. Y
    ```
 
 
-## Samples
-
-Included in the SDK download are Android samples for achievements and social, under `{Xbox Live API root}\InProgressSamples\ID@XboxSDK`.
-
-
 ## Remarks about using the Xbox Live APIs on Android
 
 
