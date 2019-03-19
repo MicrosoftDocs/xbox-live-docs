@@ -23,8 +23,8 @@ You can find your scid from your Partner Center account that you had set up for 
 HRESULT XsapiInit()
 {
     XblInitArgs args = {};
-    args.scid = "00000000-0000-0000-0000-000000000000";
-#if XSAPI_A // Android
+    args.scid = ; // TODO: Add your SCID here. You can find your SCID at your Partner Center account.
+#if ANDROID
     args.javaVM = getJavaVM();
     args.applicationContext = getAppContext();
 #end
@@ -54,23 +54,24 @@ HRESULT XalInit()
     HCSettingsSetTraceLevel(HCTraceLevel::Verbose);
     HCTraceSetTraceToDebugger(true);
     
-    std::string clientId = "0000000000000000";
+    std::string clientId = ; // TODO: Add your Client ID here. You can find your Client ID at your Partner Center account.
     
-    std::string redirUri = "xal-";
+    // TODO: Make sure Client ID is all lower case!
+    std::string redirUri = "ms-xal-";
     redirUri += clientId;
     redirUri += "://auth";
     
     XalPlatformArgs xalPlatformArgs = {};
     xalPlatformArgs.redirectUri = redirUri.c_str();
-#if XSAPI_A // Android
+#if ANDROID
     xalPlatformArgs.javaVM      = getJavaVM();
     xalPlatformArgs.appContext  = getAppContext();
 #endif
 
     XalInitArgs xalInitArgs = {};
     xalInitArgs.clientId     = clientId.c_str();
-    xalInitArgs.titleId      = 0000;
-    xalInitArgs.sandbox      = "XXXX.X";
+    xalInitArgs.titleId      = ; // TODO: Add your Title ID here. You can find your Title ID at your Partner Center account.
+    xalInitArgs.sandbox      = ; // TODO: Add your Sandbox here. You can find your Sandbox at your Partner Center account.
     xalInitArgs.platformArgs = &xalPlatformArgs;
 
     return XalInitialize(xalInitArgs, nullptr);
@@ -248,7 +249,7 @@ HRESULT XAL_TrySignOutUser(_In_ XalUserHandle user)
 }
 ```
 
-The callback function will then grab the XAsyncGetStatus result to be passed onto gameplay.
+The callback function will then grab the XAsyncGetStatus result.
 
 ```cpp
 void CALLBACK XAL_TrySignOutUser_Callback(_In_ XAsyncBlock* asyncBlock)
@@ -257,20 +258,14 @@ void CALLBACK XAL_TrySignOutUser_Callback(_In_ XAsyncBlock* asyncBlock)
 
     HRESULT hr = XAsyncGetStatus(asyncBlock, false);
 
-    if (SUCCEEDED(hr)) { Gameplay_SignOutUser(); }
+    if (SUCCEEDED(hr))
+    {
+        // TODO: Close the previous XalUserHandle
+
+        // TODO: Close the previous XblContextHandle
+    }
 
     delete asyncBlock;
-}
-```
-
-If the callback succeeded, then the gameplay function should grab the existing XblContext and close it.
-
-```cpp
-void Gameplay_SignOutUser()
-{
-    // TODO: Close the previous XalUserHandle
-
-    // TODO: Close the previous XblContextHandle
 }
 ```
 
