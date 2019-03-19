@@ -182,7 +182,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## Binding your Native C++ files to your Java Environment
 
-1. We are going to update the our Native C++ code to make use of XSAPI, XAL, and ASYNC. To do this we open up **your_app > src > main > cpp > native-lib.cpp file and add the following includes and global definitions:
+1. We are going to update the our Native C++ code to include XSAPI and XAL. To do this we open up **your_app > src > main > cpp > native-lib.cpp file and add the following includes and global definitions:
 
 ```cpp
 #include <jni.h>
