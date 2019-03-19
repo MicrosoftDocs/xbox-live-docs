@@ -83,7 +83,8 @@ apply plugin: 'com.google.gms.google-services'
 
 3. Now that the libraries are included in the project, we are going to update our Cmakefile.txt so that we can reference them in our native code. Open **your_app > src > main > cpp > CMakeLists.txt** and add the following just after the cmake_minimum_required element:
 
-[!NOTE] The path to the NDK must be from your app root folder to the source of the maven ndk downloaded as part the XboxLiveSDK
+> [!NOTE]
+> The path to Maven must be from your project's CMake folder to the Maven folder inside of your local XboxLiveSDK.
 
 ```json
 #TODO: Replace path to direct to your local XboxLiveSDK Maven folder
