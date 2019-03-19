@@ -17,7 +17,7 @@ ms.localizationpriority: medium
 
 ## Download Xbox Live SDK
 
-1. <a href="https://github.com/Microsoft/xbox-live-api" target="_blank"> Download </a> the various packages and extract them to your project folder.
+1. <a href="https://github.com/Microsoft/xbox-live-api" target="_blank"> Download </a> the packages and extract them to your project folder.
 
 ## Setup your Project to include dependencies
 1. In your project, open **your_project > gradle.properties(Project)** and ensure the following variable is defined
@@ -88,7 +88,8 @@ apply plugin: 'com.google.gms.google-services'
 [!NOTE] The path to the NDK must be from your app root folder to the source of the maven ndk downloaded as part the XboxLiveSDK
 
 ```json
-set(ANDROID_MAVEN_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../../../../../Maven) //TODO: Replace path to direct to your local XboxLiveSDK Maven folder
+#TODO: Replace path to direct to your local XboxLiveSDK Maven folder
+set(ANDROID_MAVEN_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../../../../../Maven)
 ```
 
 4. In the same CMakeLists.txt we also need to define some compilar flags for XSAPI and XAL copy the following and insert it just after the add_library element
@@ -143,7 +144,8 @@ Upon completion of this step you should run a gradle sync followed by project bu
 <activity android:name="com.microsoft.xal.browser.WebView" android:launchMode="singleTask">
     <intent-filter>
         <action android:name="android.intent.action.VIEW" />
-        <data android:scheme="ms-xal-0000000012345678" android:host="auth" /> // TODO: Replace the last part of scheme (after ms-xal-) with your client ID
+        <!-- TODO: Replace the last part of scheme (after ms-xal-) with your client ID -->
+        <data android:scheme="ms-xal-0000000012345678" android:host="auth" />
         <category android:name="android.intent.category.DEFAULT" />
         <category android:name="android.intent.category.BROWSABLE"/>
     </intent-filter>
@@ -176,7 +178,6 @@ public class MainActivity extends AppCompatActivity {
         CleanupGame();
         super.onDestroy();
     }
-
 }
 ```
 
@@ -256,4 +257,4 @@ Congratulations at this point you should have your project up and running with o
 ## Next step
 
 Now that your IDE is set up to use Xbox Live, continue with step 3: Using Xbox Live SDK to Sign-In for Mobile.
-See [Getting started](../index.md).
+See [Getting started](../get-started/index.md).
