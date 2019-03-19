@@ -17,13 +17,11 @@ Now that you've imported the Xbox Live SDK into your IDE, it is time to setup yo
 
 Initializing Xbox Live requires a set of arguments to be passed in.
 
-You can find your scid from your Partner Center account that you had set up for your game.
-
 ```cpp
 HRESULT XsapiInit()
 {
     XblInitArgs args = {};
-    args.scid = ; // TODO: Add your SCID here. You can find your SCID at your Partner Center account.
+    args.scid = ; // TODO: Add your SCID here.
 #if ANDROID
     args.javaVM = getJavaVM();
     args.applicationContext = getAppContext();
@@ -32,6 +30,8 @@ HRESULT XsapiInit()
     return XblInitialize(&args);
 }
 ```
+> [!NOTE]
+> You can find your SCID at your Partner Center account.
 
 ## Initialize XAL
 
@@ -45,8 +45,6 @@ XalPlatormArgs defines arguments needed in order to display the Sign-In window t
 
 XalInitArgs defines arguments needed in order to link XAL to your specified game from Partner Center.
 
-Your client ID, title ID, sandbox, and redirect Uri can be found at your Partner Center game account.
-
 ```cpp
 HRESULT XalInit()
 {
@@ -54,7 +52,7 @@ HRESULT XalInit()
     HCSettingsSetTraceLevel(HCTraceLevel::Verbose);
     HCTraceSetTraceToDebugger(true);
     
-    std::string clientId = ; // TODO: Add your Client ID here. You can find your Client ID at your Partner Center account.
+    std::string clientId = ; // TODO: Add your Client ID here.
     
     // TODO: Make sure Client ID is all lower case!
     std::string redirUri = "ms-xal-";
@@ -70,13 +68,15 @@ HRESULT XalInit()
 
     XalInitArgs xalInitArgs = {};
     xalInitArgs.clientId     = clientId.c_str();
-    xalInitArgs.titleId      = ; // TODO: Add your Title ID here. You can find your Title ID at your Partner Center account.
-    xalInitArgs.sandbox      = ; // TODO: Add your Sandbox here. You can find your Sandbox at your Partner Center account.
+    xalInitArgs.titleId      = ; // TODO: Add your Title ID here.
+    xalInitArgs.sandbox      = ; // TODO: Add your Sandbox here.
     xalInitArgs.platformArgs = &xalPlatformArgs;
 
     return XalInitialize(xalInitArgs, nullptr);
 }
 ```
+> [!NOTE]
+> You can find your Client ID, Title ID, and Sandbox at your Partner Center account.
 
 ## Basic Sign-In/Sign-Out
 
@@ -86,7 +86,7 @@ Now that Xbox Live is initialized, it's time for us to setup our Sign-In and Sig
 
 To start off with, we will add in Sign-In Silently.
 
-This function should be called when your app/game starts up to sign-in the previously logged in user.
+This function should be called when your app/game starts up to auto sign-in the previously logged in user.
 
 The function below wraps the async call XalTryAddDefaultUserSilentlyAsync.
 
