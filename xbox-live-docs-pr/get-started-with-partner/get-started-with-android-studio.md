@@ -250,7 +250,7 @@ extern "C"
 }
 ```
 
-Congratulations at this point you should have your project up and running with our XboxLiveSDK!
+Congratulations at this point your project is setup to start utilizing our XboxLive API!
 
 <!--===================================================-->
 ## Next step
