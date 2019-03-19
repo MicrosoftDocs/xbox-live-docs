@@ -35,8 +35,6 @@ HRESULT XsapiInit()
 
 ## Initialize XAL
 
-After initializing Xbox Live, we must then initialize XAL.
-
 XAL has two sets of arguments to pass in.
 
 First is XalPlatformArgs and second is XalInitArgs.
@@ -181,7 +179,7 @@ HRESULT XAL_TrySignInUserWithUI()
 }
 ```
 
-The callback function will grab the result from the server and then we will pass it to gameplay.
+The callback function will grab the result from the server to pass on to gameplay.
 
 ```cpp
 void CALLBACK XAL_TrySignInUserWithUI_Callback(_In_ XAsyncBlock* asyncBlock)
@@ -201,6 +199,8 @@ void CALLBACK XAL_TrySignInUserWithUI_Callback(_In_ XAsyncBlock* asyncBlock)
 
 Next, we must create the XAL_TryResolveUserIssue function.
 
+This function will be called if there happens to be any issues with the user signing it to your game.
+
 We will use asyncBlock-context to store the handle to the new user to be used later in the callback.
 
 ```cpp
@@ -214,9 +214,9 @@ HRESULT XAL_TryResolveUserIssue(_In_ XalUserHandle user)
 }
 ```
 
-The callback function will then grab the XAsyncGetStatus result to be passed onto gameplay.
+The callback function will then grab the XAsyncGetStatus result to be used by gameplay.
 
-We will also make sure to grab the XalUserHandle, from asyncBlock->context, to be passed onto gameplay.        
+We will also make sure to grab the XalUserHandle, from asyncBlock->context.        
 
 ```cpp
 void CALLBACK XAL_TryResolveUserIssue_Callback(_In_ XAsyncBlock* asyncBlock)
