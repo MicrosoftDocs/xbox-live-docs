@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 # Multiplayer features
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

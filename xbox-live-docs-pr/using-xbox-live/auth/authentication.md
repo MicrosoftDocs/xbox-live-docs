@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Authentication and sign-in
 description: Signing-in an Xbox Live user in your title.
 ms.assetid: 7a9dfb3c-1ccc-4948-a218-37101069c91a
@@ -13,7 +14,7 @@ ms.localizationpriority: medium
 Signing-in an Xbox Live user in your title.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Voice and text chat
 description: Voice communication for multiplayer games can be set up through Xbox Integrated Multiplayer (XIM), an all-in-one multiplayer/networking/chat solution; and through Game Chat.
 ms.date: 02/08/2019
@@ -12,7 +13,7 @@ ms.localizationpriority: medium
 Voice communication for multiplayer games can be set up through Game Chat, or by using only the voice and text chat part of Xbox Integrated Multiplayer (XIM), an all-in-one multiplayer/networking/chat solution.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

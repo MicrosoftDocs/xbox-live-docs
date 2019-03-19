@@ -1,6 +1,6 @@
 ---
 layout: LandingPage
-title: Xbox Live
+title: Xbox Live documentation
 author: mikehoffms
 description: Xbox Live is a premier gaming network that connects millions of gamers across the world.
 ms.author: v-mihof
@@ -12,7 +12,7 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h1>Xbox Live an introduction for new developers</h1>
+<h1>Xbox Live documentation</h1>
 
 <p>Xbox Live is a premier gaming network that connects millions of gamers across the world. You can add Xbox Live to your Windows 10 PC, Xbox One, or mobile game in order to take advantage of the Xbox Live features and services.</p>
 

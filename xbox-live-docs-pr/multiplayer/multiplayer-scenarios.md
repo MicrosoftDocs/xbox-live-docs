@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Multiplayer scenarios
 author: mikehoffms
 description: Multiplayer scenarios include Comparative (Indirect) Play, Online Play with friends, Skill-Based Matchmaking, and Tournaments.
@@ -14,7 +15,7 @@ ms.localizationpriority: medium
 Multiplayer scenarios include Comparative (Indirect) Play, Online Play with friends, Skill-Based Matchmaking, and Tournaments.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

@@ -1,6 +1,6 @@
 ---
 title: Get started with Xbox Live, for Managed Partners
-description: Getting started with Xbox Live development, for ID@Xbox Partners or other Managed Partners.
+description: All the high-level steps for Xbox Live-enabling your game, from joining the ID@Xbox Program, through releasing your game.
 ms.assetid: 69ab75d1-c0e7-4bad-bf8f-5df5cfce13d5
 ms.date: 06/07/2017
 ms.topic: article

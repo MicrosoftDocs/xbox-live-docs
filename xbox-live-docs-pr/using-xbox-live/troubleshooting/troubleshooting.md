@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Troubleshooting Xbox Live
 description: Troubleshoot Xbox Live development, such as by logging responses, checking the dev PC setup, checking the sign-in sandbox, and logging calls.
 ms.assetid: 5e96199b-9177-4789-9c80-79f6b83a2db4
@@ -13,7 +14,7 @@ ms.localizationpriority: medium
 Troubleshoot Xbox Live development, such as by logging responses, checking the dev PC setup, checking the sign-in sandbox, and logging calls.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

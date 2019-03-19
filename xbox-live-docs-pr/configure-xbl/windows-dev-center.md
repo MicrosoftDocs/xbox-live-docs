@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Partner Center services configuration  
 description: Configuring Xbox Live services at Partner Center.
 ms.date: 07/30/2018
@@ -19,7 +20,7 @@ Your game must be enabled for full Xbox Live access in order to access the confi
 To access the Xbox Live configuration pages, after selecting your title in [Partner Center](https://partner.microsoft.com/dashboard), navigate to **Services** > **Xbox Live**.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

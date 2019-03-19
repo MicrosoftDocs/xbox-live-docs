@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Error handling
 author: mikehoffms
 description: Handling errors when calling an Xbox Live service through XSAPI, C++, or WinRT.
@@ -14,7 +15,7 @@ ms.localizationpriority: medium
 Handling errors when calling an Xbox Live service through XSAPI, C++, or WinRT.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

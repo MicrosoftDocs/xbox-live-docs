@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 # Cloud Storage
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

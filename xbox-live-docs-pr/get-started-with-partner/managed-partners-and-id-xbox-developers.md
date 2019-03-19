@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners
 author: mikehoffms
 description: IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners, including Visual Studio and Unity.
@@ -12,7 +13,7 @@ ms.localizationpriority: medium
 # IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

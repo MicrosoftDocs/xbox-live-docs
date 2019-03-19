@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: UWP Authentication and user identity
 description: Authentication and sign-in.
 ms.date: 02/08/2019
@@ -10,7 +11,7 @@ ms.localizationpriority: medium
 # UWP Authentication and user identity
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

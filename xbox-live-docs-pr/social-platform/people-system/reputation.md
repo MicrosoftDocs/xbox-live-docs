@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Reputation
 author: mikehoffms
 description: The Reputation service encourages positive gameplay.
@@ -11,12 +12,8 @@ ms.localizationpriority: medium
 
 # Reputation
 
-The Reputation service encourages positive gameplay.
 
-Reputation is one of the Xbox Live Social features.
-
-
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|
