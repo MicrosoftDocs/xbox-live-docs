@@ -10,32 +10,36 @@ ms.localizationpriority: medium
 
 > [!IMPORTANT]
 > Prerequisite steps:
-> * Ensure you have a Native C++ project created in Android Studio
-> * Ensure you are targeting Android API 26+
-> * Ensure that your Android SDK includes NDK and CMake
-> * Ensure you have a virtual device that is capable of running Android API 26+
+> * Ensure you have a Native C++ project created in Android Studio.
+> * Ensure you are targeting Android API 26+.
+> * Ensure that your Android SDK includes NDK and CMake.
+> * Ensure you have a virtual device that is capable of running Android API 26+.
 
-## Download Xbox Live SDK
 
-1. <a href="https://github.com/Microsoft/xbox-live-api" target="_blank"> Download </a> the packages and extract them to your project folder.
+## Download the Xbox Live SDK
 
-## Setup your Project to include dependencies
-1. In your project, open **your_project > gradle.properties(Project)** and ensure the following variable is defined
+1. <a href="https://github.com/Microsoft/xbox-live-api" target="_blank">Download</a> the packages and extract them to your project folder.
+
+
+## Set up your Project to include dependencies
+
+1. In your project, open **your_project > gradle.properties(Project)** and make sure the following variable is defined:
 
 ```json
 PROP_APP_ABI=armeabi-v7a:x86
 ```
-This property will be used later to ensure your project builds only for arm and x86.
+This property will be used later to ensure that your project builds only for ARM and x86.
 
-2. In **your_project > build.gradle(Project)** you will need to add the following dependency:
+2. In **your_project > build.gradle(Project)**, add the following dependency:
 
 ```json
 classpath 'com.google.gms:google-services:4.1.0'
 ```
 
-3. You must set your complier SDK version to API 26+. To do this navigate to ** file > Project Structure > your_app > Properties tab ** change the "Compile SDK Version" to "API:26: Android 8.0 (OREO)" then click okay.
+3. You must set your complier SDK version to API 26+.
+   To do this, navigate to **file > Project Structure > your_app > Properties tab**, change the "Compile SDK Version" to "API:26: Android 8.0 (OREO)", and then click **OK**.
 
-4. In **your_project > app > gradle.build(App)** update the externalNativeBuild, inside of 'defaultConfig', to include the required cmake arguments and filters:
+4. In **your_project > app > gradle.build(App)**, inside of `defaultConfig`, update the `externalNativeBuild` to include the required cmake arguments and filters:
 
 ```json
 externalNativeBuild {
@@ -50,9 +54,9 @@ externalNativeBuild {
        }
    }
 ```
-The ndk filters uses your gradle.properties variable that you had set earlier.
+The ndk filters uses your `gradle.properties` variable that you had set earlier.
 
-5. In addition to the externalNativeBuild above, you will also need to include the following dependencies at the bottom of your gradle.build(App) file
+5. Include the following dependencies at the bottom of your `gradle.build(App)` file:
 
 ```json
 implementation 'com.madgag.spongycastle:core:1.58.0.0'
@@ -61,7 +65,7 @@ implementation 'com.squareup.okhttp3:okhttp:3.10.0'
 implementation 'com.android.support:customtabs:26.1.0'
 ```
 
-6. After entering the dependencies you will want to apply the google plugins referenceed above.
+6. Apply the Google plugins that are referenced above:
 
 ```json
 dependencies {
@@ -71,17 +75,41 @@ dependencies {
 apply plugin: 'com.google.gms.google-services'
 ```
 
-## Including Xbox Live SDK to your project build
+## Including the Xbox Live SDK in your project build
 
-1. In Android Studio click **File > Project Structure** which presents the Project Structure model. Within this model click the "+" button (top left) which presents you with the New Module dialog and select "Import .JAR/.AAR Package". Navigate to where you installed your Xbox Live SDK and add the following .aar's:
+1. In Android Studio, click **File > Project Structure**.
 
-* Android\Maven\XsapiAndroid\com.microsoft.xboxlive\0.0.0\com.microsoft.xboxlive-0.0.0.aar
-* Android\Maven\androidxal\XalAndroidJava\0.0.0\XalAndroidJava-0.0.0.aar
-* Android\Maven\libHttpClientAndroid\libHttpClient\0.0.0\libHttpClient-0.0.0.aar
+   The Project Structure model appears.
 
-2. Next, you will need to make sure that you add these .aar modules to your project as dependencies. You can do this by navigating to **File > Project Structure** then the dependencies tab. Within this tab you will want to click the "+" button (top right) and select "Module dependency" option. This should present you with a small screen list of all the modules we added above. Select the modlues and click ok.
+2. Within th Project Structure model, click the **+** button (in the top left).
 
-3. Now that the libraries are included in the project, we are going to update our Cmakefile.txt so that we can reference them in our native code. Open **your_app > src > main > cpp > CMakeLists.txt** and add the following just after the cmake_minimum_required element:
+   The **New Module** dialog box appears.
+
+3. Select **Import .JAR/.AAR Package**.
+
+4. Navigate to where you installed the Xbox Live SDK, and then add the following `.aar` files:
+
+    * Android\Maven\XsapiAndroid\com.microsoft.xboxlive\0.0.0\com.microsoft.xboxlive-0.0.0.aar
+    * Android\Maven\androidxal\XalAndroidJava\0.0.0\XalAndroidJava-0.0.0.aar
+    * Android\Maven\libHttpClientAndroid\libHttpClient\0.0.0\libHttpClient-0.0.0.aar
+
+5. Add the above `.aar` modules to your project as dependencies.
+   To do this, you can navigate to **File > Project Structure**, then click the **Dependencies** tab.
+
+6. In the **Dependencies** tab, click the **+** button (in the top right), and then select the **Module dependency** option.
+
+   A list appears of all the modules you added above.
+
+7. Select all the modules that you added above, and then click **OK**.
+
+   The libraries are now included in the project.
+
+
+
+8. Next, update the `Cmakefile.txt` file so that you can reference the libraries in your native code, as follows.
+   Open **your_app > src > main > cpp > CMakeLists.txt**.
+
+9. Add the following just after the `cmake_minimum_required` element:
 
 > [!NOTE]
 > The path to Maven must be from your project's CMake folder to the Maven folder inside of your local XboxLiveSDK.
@@ -91,7 +119,8 @@ apply plugin: 'com.google.gms.google-services'
 set(ANDROID_MAVEN_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../../../../../Maven)
 ```
 
-4. In the same CMakeLists.txt we also need to define some compilar flags for XSAPI and XAL copy the following and insert it just after the add_library element
+10. In the same `CMakeLists.txt` file, define the following compiler flags for XSAPI and XAL.
+    Copy the following code and insert it just after the `add_library` element:
 
 ```json
 # Add pre-processor definitions to the project
@@ -124,20 +153,23 @@ target_include_directories(${APP_NAME}
                            PUBLIC ${ANDROID_MAVEN_PATH}/ndk/include/
                            )
 ```
-Upon completion of this step you should run a gradle sync followed by project build to ensure that the project links properly with your XboxLiveSDK.
+
+Upon completion of this step you should run a gradle sync, followed by doing a project build, to ensure that the project links properly with the Xbox Live SDK.
+
 
 ## Adjusting your Android Manifest to handle XboxLiveSDK
 
-1. First we are going to update the Android Manifest to include the permissions XboxLive requires to run. Open **your_app > src > main > AndroidManifest.xml ** and add the following two lines just after the header:
+1. First, update the Android Manifest to include the permissions which XboxLive requires to run, as follows.
+   Open the file **your_app > src > main > AndroidManifest.xml** and add the following two lines just after the header:
 
 ```xml
 <uses-permission android:name="android.permission.INTERNET"/>
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 ```
 
-2. In your application settings of the AndoroidMainfest you will need to set the **android:allowBackup="false"**
+2. In your application settings of the AndroidManifest, you will need to set **android:allowBackup="false"**.
 
-3. In the same file AndroidManifest file you will also need to add a new activity just after the main launcher element.
+3. In the same AndroidManifest file, you will also need to add a new activity just after the main launcher element, as follows:
 
 ```xml
 <activity android:name="com.microsoft.xal.browser.WebView" android:launchMode="singleTask">
@@ -152,9 +184,14 @@ Upon completion of this step you should run a gradle sync followed by project bu
 ```
 This will make sure that the application can grab the WebView to display the log-in screen when needed.
 
+
 ## Preparing your Java files to handle XboxLiveSDK
 
-We are now going to update our MainActivity java class to utalize native C++ binding. To do this begin by Opening up ** your_app > src > main > java > your_package > MainActivity.Java**
+Next, update your `MainActivity` Java class to utilize native C++ binding, as follows.
+
+1. Open the file **your_app > src > main > java > your_package > MainActivity.Java**.
+
+2. Add the following calls to `InitializeGame` and `CleanupGame`.
 
 ```java
 import android.support.v7.app.AppCompatActivity;
@@ -180,9 +217,14 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
+
 ## Binding your Native C++ files to your Java Environment
 
-1. We are going to update the our Native C++ code to include XSAPI and XAL. To do this we open up **your_app > src > main > cpp > native-lib.cpp file and add the following includes and global definitions:
+Next, update the our Native C++ code to include XSAPI and XAL, as follows.
+
+1. Open the file **your_app > src > main > cpp > native-lib.cpp**.
+
+2. Add the following includes and global definitions:
 
 ```cpp
 #include <jni.h>
@@ -222,7 +264,7 @@ JNIEnv* getJniEnv()
 }
 ```
 
-2. In the same file we also will update our 'extern "C"' method which, via JNI, maps our native code to our java code to make use of our XboxLiveSDK.
+2. In the same file, update the `extern "C"` method, as follows.
 
 ```cpp
 extern "C"
@@ -250,10 +292,13 @@ extern "C"
 }
 ```
 
-Congratulations at this point your project is setup to start utilizing our XboxLive API!
+   The `extern "C"` method, via JNI, maps your native code to your Java code, to make use of the XboxLiveSDK.
+
+Congratulations! At this point, your project is set up to start utilizing the XboxLive API.
+
 
 <!--===================================================-->
 ## Next step
 
-Now that your IDE is set up to use Xbox Live, continue with step 3: Using Xbox Live SDK to Sign-In for Mobile.
+Now that your IDE is set up to use Xbox Live, continue with step 3: Using the Xbox Live SDK to Sign-In for Mobile.
 See [Getting started](../get-started/index.md).

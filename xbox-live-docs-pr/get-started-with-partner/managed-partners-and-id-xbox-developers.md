@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Get Started with Android Studio](../get-started-with-partner/get-started-with-android-studio.md ) | Learn how to setup XAL and XSAPI with your Android Studio project |
+| [Adding Xbox Live to your Android Studio Project](../get-started-with-partner/get-started-with-android-studio.md ) | Learn how to setup XAL and XSAPI with your Android Studio project |
 | [Get started with the Xbox Live APIs on Android](../get-started-with-ios-android/android-get-started-with-xsapi.md) | Learn how to add and compile the Xbox Live APIs source in your Android project. |
 | [Get started with the Xbox Live APIs on iOS](../get-started-with-ios-android/ios-get-started-with-xsapi.md) | Learn how to add and compile the Xbox Live APIs source in your iOS project. |
 | [Add XBL support in Visual Studio, for UWP games](visual-studio-for-uwp-games.md) | Setting up a Visual Studio project to enable Xbox Live for a UWP game. |

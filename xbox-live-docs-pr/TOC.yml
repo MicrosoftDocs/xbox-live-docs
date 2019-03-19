@@ -66,6 +66,8 @@
             - name: IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners
               href: get-started-with-partner/managed-partners-and-id-xbox-developers.md
               items: 
+                - name: Adding Xbox Live to your Android Studio Project
+                  href: get-started-with-partner/get-started-with-android-studio.md
                 - name: Get started with the Xbox Live APIs on Android
                   href: get-started-with-ios-android/android-get-started-with-xsapi.md
                 - name: Get started with the Xbox Live APIs on iOS
