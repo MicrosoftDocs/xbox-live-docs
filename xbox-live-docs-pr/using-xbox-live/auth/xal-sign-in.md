@@ -63,105 +63,6 @@ There are several "SetEventHandle" functions that XAL provides to complete this 
 All of these functions are used to set functions to be called by XAL when it needs to give control over to gain some information.
 
 
-## Hooking up storage
-
-To give an example of how to set up event handlers, here is how a client might (optionally) set up storage handlers.
-
-You will need to use a function hook provided by XAL to tell XAL what to call to perform storage related tasks.
-You will then write code for your specific platform to implement the storage operations.
-
-To do this, set an event handler to be called whenever storage is required, using `XalPlatformStorageSetEventHandlers()`:
-
-```cpp
-HRESULT XalPlatformStorageSetEventHandlers(
-    _In_opt_ XTaskQueueHandle queue,
-    _In_ XalPlatformStorageEventHandlers* handlers
-) noexcept;
-```
-
-|Parameter  |Description |
-|---------|---------|
-|queue    | The async queue the callback should be invoked on.         |
-|handlers | The event handlers for the function you want called when storage needs to be done.        |
-
-**Call Sample**  
-[!INCLUDE [XalPlatformStorageSetEventHandlers](../../code/snippets/XalPlatformStorageSetEventHandlers.md)]
-
-> [!IMPORTANT]
-> This function must be called before `XalIntialize()`
-
-The function set as the event handler must take some context, a handle representing the XAL operation being executed, a key describing the data being accessed, and (in the case of a write) an array of data to be written.
-
-```cpp
-void Xal_PlatformOnWriteHandler(
-    _In_opt_ void* context,
-    _In_opt_ void* userContext,
-    _In_ XalPlatformOperation operation,
-    _In_z_ char const* key,
-    _In_ size_t dataSize,
-    _In_reads_bytes_(dataSize) void const* data
-)
-
-void Xal_PlatformOnReadHandler(
-    _In_opt_ void* userContext,
-    _In_ XalPlatformOperation operation,
-    _In_z_ char const* key
-)
-
-void Xal_PlatformOnClearHandler(
-    _In_opt_ void* context,
-    _In_opt_ void* userContext,
-    _In_ XalPlatformOperation operation,
-    _In_z_ char const* key
-)
-```
-
-|Parameter  |Description  |
-|---------|---------|
-|context     | The context pointer that was passed in inside the handlers struct when XalPlatformStorageEventHandlers() was called.         |
-|userContext     | The context pointer that was passed to XAL that is associated with the user being operated on.         |
-|operation     | The handle for this operation.         |
-|key     | The key associated with the data to be accessed.        |
-|dataSize     | The number of bytes to be written. |
-|data     | The data to be written. |
-
-> [!IMPORTANT]
-> The `XalPlatformStorageWriteEventHandler` method must save data in a way that does not get migrated to new devices.
-
-When the resulting work is done, your code will need to call into `XalPlatformStorageWriteComplete()`, `XalPlatformStorageReadComplete()`, or `XalPlatformStorageClearComplete()` which will return the XAL information which was needed:
-
-```cpp
-HRESULT XalPlatformStorageWriteComplete(
-    _In_ XalPlatformOperation operation,
-    _In_ XalPlatformOperationResult result
-) noexcept;
-
-HRESULT XalPlatformStorageReadComplete(
-    _In_ XalPlatformOperation operation,
-    _In_ XalPlatformOperationResult result,
-    _In_ size_t dataSize,
-    _In_reads_bytes_opt_(dataSize) void const* data
-) noexcept;
-
-HRESULT XalPlatformStorageClearComplete(
-    _In_ XalPlatformOperation operation,
-    _In_ XalPlatformOperationResult result
-) noexcept;
-```
-
-|Parameter  |Description  |
-|---------|---------|
-|operation     | The handle for this operation         |
-|result     | The result of the operation        |
-|dataSize     | The number of bytes being returned to XAL. |
-|data     | The data that was read. |
-
-**Call Sample**  
-[!INCLUDE [XalPlatformStorageReadComplete](../../code/snippets/XalPlatformStorageReadComplete.md)]  
-
-After all desired event handlers are set, initialize XAL so that it can be used for authentication.
-
-
 ## Initialize
 
 In each scenario you will need to initialize XAL before signing in a user:
@@ -214,5 +115,5 @@ Before using the sign-out function make sure that you verify its presence with `
 
 ## See also
 
-* [XAL sign-in for iOS](iOS-xal.md)
-* [XAL sign-in for android](android-xal.md)
+* [XAL sign-in for iOS](../../get-started-with-ios-android/ios-get-started-with-xsapi.md)
+* [XAL sign-in for android](../../get-started-with-ios-android/android-get-started-with-xsapi.md)

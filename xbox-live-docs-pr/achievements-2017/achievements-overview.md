@@ -1,5 +1,5 @@
 ---
-title: Achievements overview
+title: Overview of Achievements
 author: KevinAsgari
 description: Achievements includes Gamerscore and other rewards such as digital artwork, new maps, characters, and stat boosts.
 ms.assetid: 35e055c2-3c84-4d73-bb86-fc776327d901
@@ -10,7 +10,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Achievements overview
+# Overview of Achievements
 
 *Achievements* includes Gamerscore and other rewards such as digital artwork, new maps, characters, and stat boosts.
 

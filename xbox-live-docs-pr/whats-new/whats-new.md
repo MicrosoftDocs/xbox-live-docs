@@ -16,9 +16,9 @@ You can also check the [Xbox Live API GitHub commit history](https://github.com/
 
 ### Xbox Live Features
 
-SDK is now available as precompiled binaries (libs), and integrated with package managers for Win32 and Android, for more details, please refer to the 'Getting started documents for the corresponding platform:
-- For Win32, please refer to this [Get started with Xbox Live APIs on Win32](../get-started-with-win32-ios-android/android-get-started-with-xsapi.md)
-- For Android, please refer to this [Get started with Xbox Live APIs on Android](../get-started-with-win32-ios-android/win32-get-started-with-xsapi.md)
+
+SDK is now available as precompiled binaries (libs), and integrated with a package manager for Android.
+See [Get started with Xbox Live APIs on Android](../get-started-with-ios-android/android-get-started-with-xsapi.md).
 
 For more information about this release, see [What's new in 1810 Release](1810-whats-new.md) 
 

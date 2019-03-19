@@ -1,6 +1,6 @@
 ---
-title: Create a new title that uses Xbox Live
-description: Creating a new title for Xbox Live, in Partner Center.
+title: Create an app and publish it for testing, for Managed Partners
+description: Creating a new Managed Partners app in Partner Center, and publishing it to the test environment.
 ms.assetid: b8bd69e6-887a-4b1f-a42d-8affdbec0234
 ms.date: 04/04/2017
 ms.topic: article
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Create a new title that uses Xbox Live
+# Create an app and publish it for testing, for Managed Partners
 
 
 ## Introduction

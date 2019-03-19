@@ -7,9 +7,9 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<!--xbox-live.md is not in toc, is redundant with what-is-xbox-live.md - delete this file-->
+<!--this file, xbox-live.md, is not in toc, is redundant with what-is-xbox-live.md - delete this file-->
 
-# Xbox Live services
+# Xbox Live
 
 Xbox Live is a premier gaming network that connects millions of gamers across the world.
 You can add Xbox Live to your Windows 10 or Xbox One game in order to take advantage of the Xbox Live features and services.

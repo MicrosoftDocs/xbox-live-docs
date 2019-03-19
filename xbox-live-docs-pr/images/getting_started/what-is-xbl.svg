@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>cardImage</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Working-Vers-of-Verticle-Slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="L1---Rebuilt-Landing-Page-v4---End-Goal" transform="translate(-467.000000, -500.000000)">
+            <g id="Group" transform="translate(454.000000, 480.000000)">
+                <g id="cardImage" transform="translate(13.000000, 20.000000)">
+                    <g id="ICONS-64x">
+                        <path d="M18,35.150625 C11.0604388,35.1562702 4.80183349,30.9780986 2.14615817,24.5667859 C-0.509517152,18.1554733 0.961527095,10.7755487 5.8725,5.8725 C10.2052384,1.53976156 16.5203423,-0.152365422 22.4389731,1.43352692 C28.3576039,3.01941925 32.9805807,7.64239614 34.5664731,13.5610269 C36.1523654,19.4796577 34.4602384,25.7947616 30.1275,30.1275 C26.9181226,33.3543969 22.5511327,35.1631733 18,35.150625 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        <path d="M5.821875,5.585625 C10.1204499,1.28705008 16.3857594,-0.391734526 22.2577219,1.18165309 C28.1296844,2.75504072 32.7162093,7.34156555 34.2895969,13.2135281 C35.8629845,19.0854906 34.1841999,25.3508001 29.885625,29.649375 L5.821875,5.585625 Z" id="Shape" fill="#E5E5E5" fill-rule="nonzero"></path>
+                        <path d="M18,1.6875 C24.5956598,1.69027221 30.5406383,5.66465215 33.064313,11.7584032 C35.5879877,17.8521543 34.1937002,24.8660282 29.53125,29.53125 C25.4466,33.8201325 19.358181,35.5580784 13.62498,34.0717124 C7.89177889,32.5853464 3.41465361,28.1082211 1.92828759,22.37502 C0.441921569,16.641819 2.17986751,10.5534 6.46875,6.46875 C9.51947017,3.39859543 13.6718792,1.67686485 18,1.6875 L18,1.6875 L18,1.6875 Z M18,0.5625 C9.68047913,0.559649289 2.51765263,6.43441466 0.892468596,14.5936556 C-0.732715439,22.7528965 3.63244072,30.9238428 11.318108,34.1089573 C19.0037752,37.2940718 27.8690982,34.6061355 32.491843,27.6891517 C37.1145878,20.7721678 36.2070812,11.5528737 30.324375,5.67 C27.0595244,2.39541205 22.6240835,0.557264904 18,0.5625 Z" id="Shape" fill="#556A8A" fill-rule="nonzero"></path>
+                        <polygon id="Shape" fill="#55D2F6" fill-rule="nonzero" points="7.66125 7.66125 14.81625 21.18375 28.33875 28.33875 19.6875 15.75"></polygon>
+                        <polygon id="Shape" fill="#2BC7F4" fill-rule="nonzero" points="7.66125 7.66125 28.33875 28.33875 21.18375 14.81625"></polygon>
+                        <rect id="Rectangle-path" x="0" y="0" width="36" height="36"></rect>
+                        <path d="M18,3.375 L18,7.3125" id="Shape" stroke="#556A8A" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        <path d="M18,28.6875 L18,32.625" id="Shape" stroke="#556A8A" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        <path d="M3.375,17.4375 L7.3125,17.4375" id="Shape" stroke="#556A8A" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        <path d="M28.6875,17.4375 L32.625,17.4375" id="Shape" stroke="#556A8A" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="18" cy="18" r="1.6875"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

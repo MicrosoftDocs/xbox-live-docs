@@ -11,6 +11,9 @@ ms.localizationpriority: medium
 
 # Contextual Search
 
+> [!NOTE]
+> Contextual Search is deprecated. Do not use Contextual Search in new code.
+
 Contextual Search automatically tags broadcasts and game clips with real-time stats such as ranking, current level, weapons, and K/D ratio.
 
 

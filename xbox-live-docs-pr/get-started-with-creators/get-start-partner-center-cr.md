@@ -1,5 +1,5 @@
 ---
-title: Getting started with Partner Center, for Creators
+title: Partner Center setup, for Creators
 author: mikehoffms
 description: High-level steps, from joining the Creators program through releasing your game.
 ms.author: v-mihof
@@ -9,7 +9,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Getting started with Partner Center, for Creators
+# Partner Center setup, for Creators
 
 The Xbox Live Creators Program is a good starting point for Xbox Live if you are looking to familiarize yourself with Xbox Live development.
 

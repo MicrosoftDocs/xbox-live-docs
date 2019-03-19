@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Real-Time Activity (RTA) service
 author: mikehoffms
 description: The Real-Time Activity service enables an application on any device to subscribe to state data, user statistics, and presence.
@@ -14,7 +15,7 @@ ms.localizationpriority: medium
 The Real-Time Activity service enables an application on any device to subscribe to state data, user statistics, and presence.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

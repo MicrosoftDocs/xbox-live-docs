@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Guides for troubleshooting Xbox Live
 description: Guides for troubleshooting Xbox Live.
 ms.date: 02/08/2019
@@ -8,10 +9,8 @@ ms.localizationpriority: medium
 ---
 # Guides for troubleshooting Xbox Live
 
-Guides for troubleshooting Xbox Live.
 
-
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

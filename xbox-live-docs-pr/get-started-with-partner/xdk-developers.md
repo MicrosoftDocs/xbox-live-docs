@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Add XBL Support in Visual Studio, for XDK games
 description: Getting started with Xbox Live development in an Xbox Developer Kit (XDK)-based project using Visual Studio.
 ms.assetid: 3430cf97-0136-4c69-bcec-9cc3edf5fc95
@@ -13,7 +14,7 @@ ms.localizationpriority: medium
 Getting started with Xbox Live development in an Xbox Developer Kit (XDK)-based project using Visual Studio.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

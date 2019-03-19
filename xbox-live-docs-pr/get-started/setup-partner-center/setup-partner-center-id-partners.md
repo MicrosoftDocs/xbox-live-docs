@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 To add Xbox Live functionality to your game, start by setting up an app in Partner Center, by following the steps below.
 
 
-## Prerequisite: Become a Creator or an ID@Xbox partner
+## Prerequisite: Become an ID@Xbox partner
 
    > [!IMPORTANT]
    > Prerequisite steps for ID@Xbox partners:

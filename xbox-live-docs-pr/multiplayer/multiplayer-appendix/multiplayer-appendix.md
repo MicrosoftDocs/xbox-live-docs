@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Multiplayer 2015 appendix
 description: The Multiplayer 2015 service is a more complex way than the Multiplayer Manager API, to enable game play and assembling game players into groups.
 ms.assetid: 412ae5f4-6975-4a8b-9cc2-9747e093ec4d
@@ -17,12 +18,13 @@ The Multiplayer 2015 service, described in this article, is for advanced API usa
 The previous version of the multiplayer system is Multiplayer 2014. This version is based on the concept of the *game party* and participation in games through *parties*. This version is now deprecated, although source code for it is still provided with the XDK. The Multiplayer 2014 documentation is no longer included with the XDK. If you need this documentation, use a 2014 release of the XDK.
 
 
-The Multiplayer 2015 system in Xbox One enables game play and the assembly of game players into groups. The system is secure and flexible, allowing you not only to build simple features quickly, but also to build more complex features and plug in your own services.
+The Multiplayer 2015 system in Xbox One enables game play and the assembly of game players into groups.
+The system is secure and flexible, allowing you not only to build simple features quickly, but also to build more complex features and plug in your own services.
 
 The Multiplayer 2015 service abstracts-away the Multiplayer 2014 "game party" concept and instead uses the multiplayer session directory (MPSD) to control game sessions.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

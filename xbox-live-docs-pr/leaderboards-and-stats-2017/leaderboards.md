@@ -1,5 +1,5 @@
 ---
-title: Overview of Leaderboards
+title: Leaderboards
 description: Defining leaderboards to compare players by showing selected stats for a game.
 ms.assetid: 132604f9-6107-4479-9246-f8f497978db7
 ms.date: 09/28/2018
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Overview of Leaderboards
+# Leaderboards
 
 
 ## Introduction
@@ -56,6 +56,9 @@ You should request the leaderboard data from the service, slightly ahead of when
 
 
 ## Leaderboards 2013 APIs
+
+Leaderboards 2013 is the preferred approach.
+Leaderboards 2017 is deprecated; not recommended for new code.
 
 You can see the `leaderboard_service` namespace for all Stats 2013 Leaderboard API.
 
@@ -289,7 +292,10 @@ if (boardResult != null)
 ```
 
 
-## Leaderboard 2017
+## Leaderboards 2017
+
+Leaderboards 2013 is the preferred approach.
+Leaderboards 2017 is deprecated; not recommended for new code.
 
 To make calls to the Stats 2017 Leaderboard service, you will use the `StatisticManager` leaderboard APIs, instead of the `LeaderboardService` leaderboard APIs.
 

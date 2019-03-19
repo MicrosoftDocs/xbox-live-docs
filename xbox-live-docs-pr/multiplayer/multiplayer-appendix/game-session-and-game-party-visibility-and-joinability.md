@@ -28,11 +28,11 @@ Session visibility is typically defined in the session template and determines w
 
 The values for the visibility setting are:
 
--   *Open—*All users can read and write to the session.
+-   *Open* — All users can read and write to the session.
 
--   *Visible—*All users can read, but only joined and reserved players can write to, the session.
+-   *Visible* — All users can read, but only joined and reserved players can write to, the session.
 
--   *Private—*Only joined and reserved players can read or write to the session.
+-   *Private* — Only joined and reserved players can read or write to the session.
 
 > **Note:** Setting visibility to private can require retries on the **join()** call by the invited player. If an invite is sent through the platform UI, it can be received by another player before that player has been reserved in the session. This race condition can cause a **join()** call for an invited player to fail because private or visible sessions require a reservation for the joining player.
 >
@@ -46,11 +46,11 @@ Joinability can be set dynamically during the session lifetime and determines wh
 
 The values for session joinability are:
 
--   *None* (default value)—There are no restrictions on who can join the session.
+-   *None* (default value) — There are no restrictions on who can join the session.
 
--   *Local*—Only local users can join the session.
+-   *Local* — Only local users can join the session.
 
--   *Followed—*Only local users and users who are followed by other session members can join the session without a reservation.
+-   *Followed* — Only local users and users who are followed by other session members can join the session without a reservation.
 
 A session host or arbiter can create a private session through the joinability setting: making joinability either local or followed will restrict access to a game session and make it private.
 
@@ -70,9 +70,9 @@ The state of the joinability of a game party is reflected in the Party invite UI
 
 The joinability state can be set to:
 
--   *Invite-only—*This setting requires an invite to join the game party.
+-   *Invite-only* — This setting requires an invite to join the game party.
 
--   *Joinable by Friends* (default value)*—*This setting requires a friend relationship for a player to join the game party (to join a party, a party member has to follow the joining player).
+-   *Joinable by Friends* (default value) — This setting requires a friend relationship for a player to join the game party (to join a party, a party member has to follow the joining player).
 
 Joinability can be used to create an invite-only game party.
 To restrict access to a party and require that players have received an invite to join, joinability should be set to “invite only”.
@@ -113,9 +113,9 @@ Game party joinability is dependent on the type of session that a title is tryin
 
 The two scenarios are:
 
--   Open game—For an open game, the game party joinability should be left at the default value: Joinable by Friends. This allows friends to join the game party (and by extension the game session) without an invite.
+-   Open game — For an open game, the game party joinability should be left at the default value: Joinable by Friends. This allows friends to join the game party (and by extension the game session) without an invite.
 
--   Private game—For a private or closed game, the game party joinability should be set to Invite Only. This restricts other players from joining the party (and by extension the game session) without an invite.
+-   Private game — For a private or closed game, the game party joinability should be set to Invite Only. This restricts other players from joining the party (and by extension the game session) without an invite.
 
 **Note**: Players can manually change the joinability of a game session through the Party App.
 
@@ -154,7 +154,6 @@ When a player connects to the host and the game session is full, the player is a
 
 The queued player does not join the game session, but remains in the game party.
 To minimize network traffic, the waiting player disconnects from the host at this point.
-
 
 1. When a slot in the game session opens for the waiting player, the arbiter or host adds a reservation for the player by calling the **AddMemberReservation** method.
 

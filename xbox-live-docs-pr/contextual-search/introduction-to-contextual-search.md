@@ -10,7 +10,10 @@ ms.localizationpriority: medium
 
 # Contextual Search overview
 
-Contextual Search is a new Xbox Live Service that enables truly next gen scenarios for gaming media content.
+> [!NOTE]
+> Contextual Search is deprecated. Do not use Contextual Search in new code.
+
+Contextual Search is an Xbox Live Service that enables next-gen scenarios for gaming media content.
 With Contextual Search, Xbox Live automatically tags broadcasts and game clips from your game with real time stats of your choosing.
 For example, you could choose to tag a game clip with the level the user is on, the weapon they are carrying, or perhaps their current K/D ratio.
 

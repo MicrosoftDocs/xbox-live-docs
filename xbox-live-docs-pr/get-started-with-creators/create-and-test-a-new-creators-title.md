@@ -1,6 +1,6 @@
 ---
-title: Create a new Creators Program title and publish it to the test environment
-description: Creating a new Xbox Live Creators Program title, and publishing it to the test environment.
+title: Create an app and publish it for testing, for Creators
+description: Creating a new Creators app in Partner Center, and publishing it to the test environment.
 ms.assetid: ced4d708-e8c0-4b69-aad0-e953bfdacbbf
 ms.date: 04/04/2017
 ms.topic: article
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, creators, test
 ms.localizationpriority: medium
 ---
 
-# Create a new Creators Program title and publish it to the test environment
+# Create an app and publish it for testing, for Creators
 
 
 ## Introduction

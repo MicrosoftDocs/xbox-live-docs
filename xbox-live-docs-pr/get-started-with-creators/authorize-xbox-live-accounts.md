@@ -1,5 +1,5 @@
 ---
-title: Authorize Xbox Live accounts for testing in your environment
+title: Authorize test accounts, for Creators
 description: Authorizing a public Xbox Live account for testing in your development environment.
 ms.assetid: 9772b8f1-81db-4c57-a54d-4e9ca9142111
 ms.date: 04/04/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, accounts, test acco
 ms.localizationpriority: medium
 ---
 
-# Authorize Xbox Live accounts for testing in your environment
+# Authorize test accounts, for Creators
 
 This article shows the process of setting up an Xbox Live account with your publisher's test environment.
 

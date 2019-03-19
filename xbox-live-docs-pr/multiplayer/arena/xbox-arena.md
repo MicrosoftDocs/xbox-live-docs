@@ -1,4 +1,5 @@
 ---
+layout: LandingPage
 title: Xbox Arena
 author: mikehoffms
 description: Xbox Arena runs tournaments for your game.
@@ -14,7 +15,7 @@ ms.localizationpriority: medium
 Xbox Arena runs tournaments for your game.
 
 
-## In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|

@@ -6,18 +6,18 @@ ms.assetid:
 ms.author: kevinasg
 ms.date: 11/08/2018
 ms.topic: article
-
-
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, what's new, october 2018
 ms.localizationpriority: medium
 ---
 
 # What's new for the Xbox Live APIs - October 2018
 
+
 ## New Features
-- SDK is now available as precompiled binaries (libs), and integrated with package managers for Win32 and Android. For more details, please refer to the 'Getting started documents for the corresponding platform:
-    - For Win32, please refer to this [Get started with Xbox Live APIs on Win32](../get-started-with-win32-ios-android/win32-get-started-with-xsapi.md)
-    - For Android, please refer to this [Get started with Xbox Live APIs on Android](../get-started-with-win32-ios-android/android-get-started-with-xsapi.md)
+
+- SDK is now available as precompiled binaries (libs), and integrated with a package manager for Android.
+  See [Get started with Xbox Live APIs on Android](../get-started-with-ios-android/android-get-started-with-xsapi.md).
+
 
 ## Fixes
 
@@ -53,5 +53,3 @@ Xal has taken on the following API layer breaking changes based on API review fe
 - The non-implemented XalUserCheckPrivilegesWithUiAsync() stub has been removed and replaced with a non-implemented XalUserResolveUserPrivilegeWithUiAsync() stub.
 - XalUserUnregisterChangeEventHandler() now returns void.
 - The queue handles passed into Xal's event handlers and initialize method are no longer optional.
-#### Win32
-- We now require the app to register storage callbacks via XalPlatformStorageSetEventHandlers() prior to calling XalInitialize(). Stock storage implementations have been added to …/Source/XalExtra/ to help with this. To access them, add …/Source/XalExtra/Include/ to your header search path, add an include to <XalExtra/Win32/file_storage.h>, and add a call XalExtra::Win32::FileStorage::Init(). The reason behind this change is to ensure Xal can operate better in odd time-skew situations that are hard to test for.

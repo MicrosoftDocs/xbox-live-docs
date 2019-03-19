@@ -1,6 +1,6 @@
 ---
 title: Multiplayer roles
-description: Learn about using roles to define player roles in Xbox Live multiplayer.
+description: Defining player roles in Xbox Live multiplayer.
 ms.date: 06/29/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, roles

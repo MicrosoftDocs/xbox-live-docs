@@ -1,5 +1,5 @@
 ---
-title: The XboxServices.config file
+title: The XboxServices.config file for UWP games
 description: The XboxServices.config file associates your UWP game with an Xbox Live configuration.
 ms.date: 03/29/2018
 ms.topic: article
@@ -7,9 +7,9 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, service configurati
 ms.localizationpriority: medium
 ---
 
-# The XboxServices.config file
+# The XboxServices.config file for UWP games
 
-When you develop an Xbox Live enabled UWP game, your project must include an `XboxServices.config` file.
+When you develop an Xbox Live-enabled UWP game, your project must include an `XboxServices.config` file.
 The `XboxServices.config` file enables the Xbox Live SDK to associate your game with your Partner Center app and your Xbox Live services configuration.
 
 This file contains a JSON object that details information such as the service configuration ID and the title ID.

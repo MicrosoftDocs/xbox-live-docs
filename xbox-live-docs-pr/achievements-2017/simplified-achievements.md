@@ -20,19 +20,26 @@ With Xbox One, we introduced a new Cloud-Powered Achievements system that empowe
 
 In the years following the Xbox One launch, we have listened closely to game developer feedback, and developers have consistently shared the following:
 
-1.  **Desire to unlock achievements via a direct calling pattern.** Many developers build games for various platforms, including previous versions of Xbox, and the achievement-like systems on those platforms use a direct calling method. Supporting direct unlock calls on Xbox One and other current-gen Xbox platforms would ease their cross-platform game development needs and development time costs.
+1.  **Desire to unlock achievements via a direct calling pattern.**
+    Many developers build games for various platforms, including previous versions of Xbox, and the achievement-like systems on those platforms use a direct calling method.
+    Supporting direct unlock calls on Xbox One and other current-gen Xbox platforms would ease their cross-platform game development needs and development time costs.
 
-2.  **Minimize configuration complexity.** With the Cloud-Powered Achievements system, an achievement’s unlock logic must be configured in Xbox Live so that the services know how to interpret the title’s stats data and when to unlock the achievement for a user. This was done via a new Achievement Rules section of an achievement’s configuration that did not previously exist. While having unlock logic in the cloud can be quite powerful, this additional configuration requirement adds complexity into the design & creation of a title’s achievements.
+2.  **Minimize configuration complexity.**
+    With the Cloud-Powered Achievements system, an achievement’s unlock logic must be configured in Xbox Live so that the services know how to interpret the title’s stats data and when to unlock the achievement for a user. 
+    This was done via a new, "Achievement Rules" section of an achievement’s configuration that did not previously exist.
+    While having unlock logic in the cloud can be quite powerful, this additional configuration requirement adds complexity into the design & creation of a title’s achievements.
 
-3.  **Difficult to troubleshoot.** While the Cloud-Powered Achievements system introduces a variety of helpful capabilities, it can also be more difficult for game developers to validate and troubleshoot issues with their achievements since achievement unlocks are triggered indirectly by rules that live on the service rather than directly controlled by the game itself.
+3.  **Difficult to troubleshoot.**
+    While the Cloud-Powered Achievements system introduces a variety of helpful capabilities, it can also be more difficult for game developers to validate and troubleshoot issues with their achievements since achievement unlocks are triggered indirectly by rules that live on the service rather than directly controlled by the game itself.
 
 Game developers have also repeatedly shared feedback that they appreciate and value certain features that were introduced along with the Cloud-Powered Achievements system:
 
 1.  New user experience features such as achievement progression, real-time updates, concept art rewards, and posting unlocks into activity feed.
 
-2.  Configuration improvements such as a service config instead of a local config that must be included in the game package (i.e. gameconfig, XLAST, SPA, etc.) and the ability to easily edit achievement strings & images after the game has shipped.
+2.  Configuration improvements such as a service config instead of a local config that must be included in the game package (such as gameconfig, XLAST, and SPA) and the ability to easily edit achievement strings and images after the game has shipped.
 
-With Achievements 2017, we are building a replacement of the existing Cloud-Powered Achievements system for future titles to use that makes it even easier for Xbox game developers to configure achievements, integrate achievement unlocks & updates into the game code, and validate that the achievements are working as expected.
+Achievements 2017 is a replacement of the existing Cloud-Powered Achievements system for future titles to use that makes it even easier for Xbox game developers to configure achievements, integrate achievement unlocks and updates into the game code, and validate that the achievements are working as expected.
+
 
 
 ## What’s different with Achievements 2017
@@ -140,7 +147,10 @@ Absolutely! All new titles are welcomed and encouraged to make use of the Achiev
 
 ### Why aren't Challenges supported in the Achievements 2017 system?
 
-Usage data across Xbox games has shown that the current implementation and presentation of challenges does not fulfill a need for most game developers. We will continue gathering developer input and feedback in this space and endeavor to deliver future features that are more on point with developer needs. The newly released Xbox Arena is an example of a feature that introduces new competitive capabilities for Xbox games a new, but similar, direction.
+Usage data across Xbox games has shown that the current implementation and presentation of challenges does not fulfill a need for most game developers.
+We will continue gathering developer input and feedback in this space and endeavor to deliver future features that are more on point with developer needs.
+Xbox Arena is an example of a feature that introduces competitive capabilities for Xbox games in a new, but similar, direction.
+
 
 
 ### Can I still add new achievements every calendar quarter if my title is using the Achievements 2017 system?
@@ -158,7 +168,9 @@ Attempting to convert a live game that is already using the Cloud-Powered Achiev
 
 ### If my title was released using the Cloud-Powered Achievements system, can any future DLC for the title switch to Achievements 2017?
 
-All achievements for a title must use the same Achievements system. Whichever Achievements system is used by the base game’s achievements is the system that must be used for all future achievements for the title.
+All achievements for a title must use the same Achievements system.
+Whichever Achievements system is used by the base game’s achievements is the system that must be used for all future achievements for the title.
+
 
 
 ### While testing achievements in my dev sandbox, can I mix-and-match between using the Achievements 2017 system and the Cloud-Powered Achievements system?
