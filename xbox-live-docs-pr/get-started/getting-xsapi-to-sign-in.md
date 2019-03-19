@@ -35,12 +35,8 @@ HRESULT XsapiInit()
 
 ## Initialize XAL
 
-XAL has two sets of arguments to pass in.
-
-First is XalPlatformArgs and second is XalInitArgs.
-
+XAL has two sets of arguments to pass in. First is XalPlatformArgs and second is XalInitArgs.
 XalPlatormArgs defines arguments needed in order to display the Sign-In window to your app.
-
 XalInitArgs defines arguments needed in order to link XAL to your specified game from Partner Center.
 
 ```cpp
@@ -83,9 +79,7 @@ Now that Xbox Live is initialized, it's time for us to setup our Sign-In and Sig
 ### Sign-In Silently
 
 To start off with, we will add in Sign-In Silently.
-
 This function should be called when your app/game starts up to auto sign-in the previously logged in user.
-
 The function below wraps the async call XalTryAddDefaultUserSilentlyAsync.
 
 ```cpp
@@ -99,9 +93,7 @@ HRESULT XAL_TrySignInUserSilently()
 ```
 
 When our XAsyncBlock returns from calling the server, it will run our callback function.
-
 The callback function will require that we grab the result from the server.
-
 After grabbing the result, we will pass it to gameplay.
 
 ```cpp
@@ -121,7 +113,6 @@ void CALLBACK XAL_TrySignInUserSilently_Callback(_In_ XAsyncBlock* asyncBlock)
 ```
 
 In gameplay, we will handle if an XblContext should be created from our XalUser.
-
 If an XblContext is created, then the user has properly signed in.
 
 ```cpp
@@ -166,7 +157,6 @@ void Gameplay_SignInUser(_In_ XalUserHandle newUser, _In_ bool resolveIssuesWith
 ### Sign-In with UI
 
 If sign-in silently fails, then the user will need to sign-in using XAL's web view UI.
-
 Just like with sign-in silently, we will create a wrapper to call our async function XalAddUserWithUiAsync.
 
 ```cpp
@@ -198,9 +188,7 @@ void CALLBACK XAL_TrySignInUserWithUI_Callback(_In_ XAsyncBlock* asyncBlock)
 ```
 
 Next, we must create the XAL_TryResolveUserIssue function.
-
 This function will be called if there happens to be any issues with the user signing it to your game.
-
 We will use asyncBlock-context to store the handle to the new user to be used later in the callback.
 
 ```cpp
@@ -215,7 +203,6 @@ HRESULT XAL_TryResolveUserIssue(_In_ XalUserHandle user)
 ```
 
 The callback function will then grab the XAsyncGetStatus result to be used by gameplay.
-
 We will also make sure to grab the XalUserHandle, from asyncBlock->context.        
 
 ```cpp
