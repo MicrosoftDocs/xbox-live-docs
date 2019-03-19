@@ -17,48 +17,102 @@ ms.localizationpriority: medium
 
 ## Download Xbox Live SDK
 
-1. <a href="https://github.com/Microsoft/xbox-live-api" target="_blank"> Download </a> the packages and extract them to your project folder.
+<a href="https://github.com/Microsoft/xbox-live-api" target="_blank"> Download </a> the packages and extract them to your project folder.
 
-## Setup your Project to include dependencies
-1. In your project, open **your_project > gradle.properties(Project)** and ensure the following variable is defined
+## Add Maven to your Project
+
+Add Maven support to project by going to **your_project > build.gradle(Project)** and adding the following:
+
+```json
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+        maven {
+            url 'file:///C:/XboxLiveSDK/Android/Maven'
+        }
+    }
+}
+```
+> [!NOTE]
+> Make sure to update the url to your project's Maven folder inside of your local XboxLiveSDK.
+
+## Setup your Project's Gradle to include dependencies
+
+1. In **your_project > build.gradle(Project)** you will need to add the following dependency:
+
+```json
+buildscript {
+    ...
+    
+    dependencies {
+        ...
+        
+        classpath 'com.google.gms:google-services:4.1.0'
+    }
+}
+```
+
+2. In **your_project > gradle.properties(Project)**, ensure the following variable is defined:
 
 ```json
 PROP_APP_ABI=armeabi-v7a:x86
 ```
 This property will be used later to ensure your project builds only for arm and x86.
 
-2. In **your_project > build.gradle(Project)** you will need to add the following dependency:
-
-```json
-classpath 'com.google.gms:google-services:4.1.0'
-```
-
 3. You must set your complier SDK version to API 26+. To do this navigate to ** file > Project Structure > your_app > Properties tab ** change the "Compile SDK Version" to "API:26: Android 8.0 (OREO)" then click okay.
 
 4. In **your_project > app > gradle.build(App)** update the externalNativeBuild, inside of 'defaultConfig', to include the required cmake arguments and filters:
 
 ```json
-externalNativeBuild {
+android {
+    ...
+     
+    defaultConfig {
+        ...
+        
+        externalNativeBuild {
            cmake {
                arguments "-DANDROID_STL=c++_shared", "-DANDROID_TOOLCHAIN=clang"
                cppFlags "-frtti -fexceptions -fsigned-char"
            }
-       }
-       ndk {
+        }
+        ndk {
            abiFilters = []
            abiFilters.addAll(PROP_APP_ABI.split(':').collect{it as String})
-       }
-   }
+        }
+    }
+}
 ```
 The ndk filters uses your gradle.properties variable that you had set earlier.
 
 5. In addition to the externalNativeBuild above, you will also need to include the following dependencies at the bottom of your gradle.build(App) file
 
 ```json
-implementation 'com.madgag.spongycastle:core:1.58.0.0'
-implementation 'com.madgag.spongycastle:prov:1.58.0.0'
-implementation 'com.squareup.okhttp3:okhttp:3.10.0'
-implementation 'com.android.support:customtabs:26.1.0'
+dependencies {
+    ...
+    
+    implementation 'com.madgag.spongycastle:core:1.58.0.0'
+    implementation 'com.madgag.spongycastle:prov:1.58.0.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.android.support:customtabs:26.1.0'
+    implementation (group: 'XsapiAndroid', name: 'com.microsoft.xboxlive', version: '0.0.0')
+    implementation (group: 'androidxal', name: 'XalAndroidJava', version: '0.0.0')
+    implementation (group: 'libHttpClientAndroid', name: 'libHttpClient', version: '0.0.0')
+}
 ```
 
 6. After entering the dependencies you will want to apply the google plugins referenceed above.
@@ -67,31 +121,22 @@ implementation 'com.android.support:customtabs:26.1.0'
 dependencies {
   ...
 }
-// Add after dependencies
+
 apply plugin: 'com.google.gms.google-services'
 ```
 
-## Including Xbox Live SDK to your project build
+## Including Xbox Live SDK to your project
 
-1. In Android Studio click **File > Project Structure** which presents the Project Structure model. Within this model click the "+" button (top left) which presents you with the New Module dialog and select "Import .JAR/.AAR Package". Navigate to where you installed your Xbox Live SDK and add the following .aar's:
-
-* Android\Maven\XsapiAndroid\com.microsoft.xboxlive\0.0.0\com.microsoft.xboxlive-0.0.0.aar
-* Android\Maven\androidxal\XalAndroidJava\0.0.0\XalAndroidJava-0.0.0.aar
-* Android\Maven\libHttpClientAndroid\libHttpClient\0.0.0\libHttpClient-0.0.0.aar
-
-2. Next, you will need to make sure that you add these .aar modules to your project as dependencies. You can do this by navigating to **File > Project Structure** then the dependencies tab. Within this tab you will want to click the "+" button (top right) and select "Module dependency" option. This should present you with a small screen list of all the modules we added above. Select the modlues and click ok.
-
-3. Now that the libraries are included in the project, we are going to update our Cmakefile.txt so that we can reference them in our native code. Open **your_app > src > main > cpp > CMakeLists.txt** and add the following just after the cmake_minimum_required element:
-
-> [!NOTE]
-> The path to Maven must be from your project's CMake folder to the Maven folder inside of your local XboxLiveSDK.
+1. Now that gradle is setup for your project, we are going to update our Cmakefile.txt so that we can include the XboxLiveSDK libraries. Open **your_app > src > main > cpp > CMakeLists.txt** and add the following just after the cmake_minimum_required element:
 
 ```json
 #TODO: Replace path to direct to your local XboxLiveSDK Maven folder
 set(ANDROID_MAVEN_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../../../../../Maven)
 ```
+> [!NOTE]
+> The path to Maven must be from your project's CMake folder to the Maven folder inside of your local XboxLiveSDK.
 
-4. In the same CMakeLists.txt we also need to define some compilar flags for XSAPI and XAL copy the following and insert it just after the add_library element
+2. In the same CMakeLists.txt we also need to define some compilar flags for our XboxLiveSDL. Copy in the following:
 
 ```json
 # Add pre-processor definitions to the project
@@ -124,7 +169,7 @@ target_include_directories(${APP_NAME}
                            PUBLIC ${ANDROID_MAVEN_PATH}/ndk/include/
                            )
 ```
-Upon completion of this step you should run a gradle sync followed by project build to ensure that the project links properly with your XboxLiveSDK.
+Upon completion of this step you should run a gradle sync followed by project build to ensure that the project links properly with your XboxLiveSDK libraries.
 
 ## Adjusting your Android Manifest to handle XboxLiveSDK
 
@@ -135,7 +180,7 @@ Upon completion of this step you should run a gradle sync followed by project bu
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 ```
 
-2. In your application settings of the AndoroidMainfest you will need to set the **android:allowBackup="false"**
+2. In your application settings of the AndroidManifest, you will need to set the **android:allowBackup="false"**
 
 3. In the same file AndroidManifest file you will also need to add a new activity just after the main launcher element.
 
@@ -154,7 +199,8 @@ This will make sure that the application can grab the WebView to display the log
 
 ## Preparing your Java files to handle XboxLiveSDK
 
-We are now going to update our MainActivity java class to utalize native C++ binding. To do this begin by Opening up ** your_app > src > main > java > your_package > MainActivity.Java**
+We are now going to update our MainActivity java class to utalize native C++ binding. To do this begin by Opening up ** your_app > src > main > java > your_package > MainActivity.Java**.
+Inside your MainActivity, you'll add in the InitializeGame, and CleanupGame functions below:
 
 ```java
 import android.support.v7.app.AppCompatActivity;
