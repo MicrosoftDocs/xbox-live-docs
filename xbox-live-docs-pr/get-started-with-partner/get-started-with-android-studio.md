@@ -33,9 +33,7 @@ This property will be used later to ensure your project builds only for arm and 
 classpath 'com.google.gms:google-services:4.1.0'
 ```
 
-3. You must set your complier SDK version to API 26+. To do this navigate to ** file > Project Structure > your_app > Properties tab ** change the "Compile SDK Version" to "API:26: Android 8.0 (OREO)"" then click okay
-
-Image
+3. You must set your complier SDK version to API 26+. To do this navigate to ** file > Project Structure > your_app > Properties tab ** change the "Compile SDK Version" to "API:26: Android 8.0 (OREO)" then click okay.
 
 4. In **your_project > app > gradle.build(App)** update the externalNativeBuild, inside of 'defaultConfig', to include the required cmake arguments and filters:
 
