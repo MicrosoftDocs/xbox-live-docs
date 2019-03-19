@@ -3,13 +3,13 @@ title: Using Xbox Live SDK to Sign-In for Mobile
 description: Writing code for your game to sign-in to Xbox Live on Mobile.
 ms.date: 03/14/2019
 ms.topic: article
-keywords: xbox live, xbox, games, xbox one, sign-in
+keywords: xbox live, xbox, games, mobile, sign-in
 ms.localizationpriority: medium
 ---
 # Using Xbox Live SDK to Sign-In for Mobile
 
-   > [!IMPORTANT]
-   > Prerequisite step: Set up an IDE with the Xbox Live SDK, for your target platforms. See [Getting started](index.md).
+> [!IMPORTANT]
+> Prerequisite step: Set up an IDE with the Xbox Live SDK, for your target platforms. See [Getting started](index.md).
 
 Now that you've imported the Xbox Live SDK into your IDE, it is time to setup your project to call Xbox Live's Sign-In API.
 
