@@ -8,7 +8,7 @@
       items:
         - name: Developer program overview
           href: developer-program-overview.md
-        - name: Setting up a game at Partner Center
+        - name: Setting up a game app at Partner Center
           href: get-started/setup-partner-center/index.md
           items:
             - name: Setting up a game at Partner Center, for Creators
@@ -109,6 +109,8 @@
                       href: get-started-with-partner/compile-the-xdk-xbox-live-api-source.md
                 - name: Get started with cross-play games
                   href: get-started-with-partner/get-started-with-cross-play-games.md
+        - name: Using the Xbox Live SDK to sign-in for mobile
+          href: get-started/getting-xsapi-to-sign-in.md
     - name: Features
       href: features/index.md
       items:
@@ -118,7 +120,7 @@
             - name: Authentication and sign-in
               href: using-xbox-live/auth/authentication.md
               items: 
-                - name: Authentication for Mobile Projects using XAL
+                - name: Authentication for mobile projects using XAL
                   href: using-xbox-live/auth/xal.md
                   items: 
                     - name: Xbox Authentication Library (XAL) overview

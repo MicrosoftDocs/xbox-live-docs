@@ -1,17 +1,18 @@
 ---
-title: Using Xbox Live SDK to Sign-In for Mobile
+title: Adding basic sign-in code for mobile
 description: Writing code for your game to sign-in to Xbox Live on Mobile.
 ms.date: 03/14/2019
 ms.topic: article
 keywords: xbox live, xbox, games, mobile, sign-in
 ms.localizationpriority: medium
 ---
-# Using Xbox Live SDK to Sign-In for Mobile
+# Adding basic sign-in code for mobile
 
 > [!IMPORTANT]
 > Prerequisite step: Set up an IDE with the Xbox Live SDK, for your target platforms. See [Getting started](index.md).
 
 Now that you've imported the Xbox Live SDK into your IDE, it is time to setup your project to call Xbox Live's Sign-In API.
+
 
 ## Initialize XSAPI
 
@@ -32,6 +33,7 @@ HRESULT XsapiInit()
 ```
 > [!NOTE]
 > You can find your SCID at your Partner Center account.
+
 
 ## Initialize XAL
 
@@ -72,9 +74,11 @@ HRESULT XalInit()
 > [!NOTE]
 > You can find your Client ID, Title ID, and Sandbox at your Partner Center account.
 
+
 ## Basic Sign-In/Sign-Out
 
 Now that Xbox Live is initialized, it's time for us to setup our Sign-In and Sign-Out functionality.
+
 
 ### Sign-In Silently
 
@@ -154,6 +158,7 @@ void Gameplay_SignInUser(_In_ XalUserHandle newUser, _In_ bool resolveIssuesWith
 }
 ```
 
+
 ### Sign-In with UI
 
 If sign-in silently fails, then the user will need to sign-in using XAL's web view UI.
@@ -222,6 +227,7 @@ void CALLBACK XAL_TryResolveUserIssue_Callback(_In_ XAsyncBlock* asyncBlock)
 }
 ```
 
+
 ### Sign-Out
 
 Now that sign-in is taken care of, it's time to implement sign-out.
@@ -256,9 +262,11 @@ void CALLBACK XAL_TrySignOutUser_Callback(_In_ XAsyncBlock* asyncBlock)
 }
 ```
 
+
 ## Cleanup
 
 Now that everything is implemented, we need to make sure that we clean it up when your game closes.
+
 
 ### XAL Cleanup
 
@@ -276,6 +284,7 @@ if (m_xblContext)
 }
 ```
 
+
 ### Xbl Cleanup
 
 When your game closes, make sure to cleanup Xbox Live.
@@ -283,9 +292,16 @@ When your game closes, make sure to cleanup Xbox Live.
 ```cpp
 XblCleanup();
 ```
+
+
+## Initial sign-in and testing the basic sign-in code
+
+TBD.
+
+Your game now enables the user to do basic sign-in to Xbox Live on the device.
+
         
-<!--===========================================================-->
 ## Next step
 
-After your game is set up with Sign-In, you are now ready to implement any of the features provided by XSAPI.
+Now that your game enables the user to do basic sign-in to Xbox Live on the device, you are ready to implement any of the Xbox Live features, which are provided through the Xbox Services API (XSAPI).
 See [Features](../features/index.md).
