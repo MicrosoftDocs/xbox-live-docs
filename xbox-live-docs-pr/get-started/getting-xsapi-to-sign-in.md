@@ -104,11 +104,8 @@ HRESULT XalInit()
     HCSettingsSetTraceLevel(HCTraceLevel::Verbose);
     HCTraceSetTraceToDebugger(true);
     
-    std::string clientId = ; // TODO: Add your Client ID here.
-                             // TODO: Make sure Client ID is all lowercase!
-    std::string redirUri = "ms-xal-";
-    redirUri += clientId;
-    redirUri += "://auth";
+    std::string clientId = ; // TODO: Add your Client ID here. Make sure Client ID is all lowercase!
+    std::string redirUri = "ms-xal-" + clientId + "://auth";
     
     XalPlatformArgs xalPlatformArgs = {};
     xalPlatformArgs.redirectUri = redirUri.c_str();
@@ -148,8 +145,7 @@ HRESULT XAL_TrySignInUserSilently()
     return XalTryAddDefaultUserSilentlyAsync(nullptr, asyncBlock);
 }
 ```
-
-   When the `XAsyncBlock` returns from calling the server, it will run the callback function.
+When the `XAsyncBlock` returns from calling the server, it will run the callback function.
 
 2. Add the following `XAL_TrySignInUserSilently_Callback` callback function, which grabs the result from the server.
 After grabbing the result, pass the result to gameplay.
@@ -157,8 +153,6 @@ After grabbing the result, pass the result to gameplay.
 ```cpp
 void CALLBACK XAL_TrySignInUserSilently_Callback(_In_ XAsyncBlock* asyncBlock)
 {
-    if (asyncBlock == nullptr) { return; }
-
     XblUserHandle newUser = nullptr;
     HRESULT hr = XalTryAddDefaultUserSilentlyResult(asyncBlock, &newUser);
 
@@ -218,7 +212,7 @@ void Gameplay_SignInUser(_In_ XalUserHandle newUser, _In_ bool resolveIssuesWith
 
 If sign-in silently fails, then the user will need to sign-in using XAL's web view UI.
 
-1. Just like with "sign-in silently", create a `XAL_TrySignInUserWithUI` wrapper function that calls the async function `XalAddUserWithUiAsync`:
+1. Just like with "Sign-In Silently", create a `XAL_TrySignInUserWithUI` wrapper function that calls the async function `XalAddUserWithUiAsync`:
 
 ```cpp
 HRESULT XAL_TrySignInUserWithUI()
@@ -235,8 +229,6 @@ HRESULT XAL_TrySignInUserWithUI()
 ```cpp
 void CALLBACK XAL_TrySignInUserWithUI_Callback(_In_ XAsyncBlock* asyncBlock)
 {
-    if (asyncBlock == nullptr) { return; }
-
     XblUserHandle newUser = nullptr;
     HRESULT hr = XalAddUserWithUiResult(asyncBlock, &newUser);
 
@@ -269,8 +261,6 @@ HRESULT XAL_TryResolveUserIssue(_In_ XalUserHandle user)
 ```cpp
 void CALLBACK XAL_TryResolveUserIssue_Callback(_In_ XAsyncBlock* asyncBlock)
 {
-    if (asyncBlock == nullptr) { return; }
-
     HRESULT hr = XAsyncGetStatus(asyncBlock, false);
     XalUserHandle user = reinterpret_cast<XblUserHandle>(asyncBlock->context);
 
@@ -288,7 +278,7 @@ void CALLBACK XAL_TryResolveUserIssue_Callback(_In_ XAsyncBlock* asyncBlock)
 
 Now that sign-in is taken care of, implement sign-out.
 
-1. Add the following `XAL_TrySignOutUser` function.
+1. Add the following `XAL_TrySignOutUser` function, which wraps the async function `XalSignOutUserAsync`:
 
 ```cpp
 HRESULT XAL_TrySignOutUser(_In_ XalUserHandle user)
@@ -305,8 +295,6 @@ HRESULT XAL_TrySignOutUser(_In_ XalUserHandle user)
 ```cpp
 void CALLBACK XAL_TrySignOutUser_Callback(_In_ XAsyncBlock* asyncBlock)
 {
-    if (asyncBlock == nullptr) { return; }
-
     HRESULT hr = XAsyncGetStatus(asyncBlock, false);
 
     if (SUCCEEDED(hr))
