@@ -131,7 +131,7 @@ ms.localizationpriority: medium
 
 <h2>3. Complete Basic Sign-In</h2>
 
-<p>Add basic sign-in code and configure sign-in settings.</p>
+<p>Add basic sign-in code.</p>
 
 <ul class="cardsY panelContent cols cols2">
     <li>
@@ -145,7 +145,7 @@ ms.localizationpriority: medium
                             </div>
                         </div>
                         <div class="cardText">
-                            <p>Using the Xbox Live SDK to sign-in for mobile</p>
+                            <p>Adding code to your mobile game to enable basic sign-in to Xbox Live.</p>
                         </div>
                     </div>
                 </div>

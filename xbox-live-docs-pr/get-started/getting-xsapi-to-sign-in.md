@@ -1,6 +1,6 @@
 ---
 title: Adding basic sign-in code for mobile
-description: Writing code for your game to sign-in to Xbox Live on Mobile.
+description: Adding code to your mobile game to enable basic sign-in to Xbox Live.
 ms.date: 03/14/2019
 ms.topic: article
 keywords: xbox live, xbox, games, mobile, sign-in
@@ -11,12 +11,63 @@ ms.localizationpriority: medium
 > [!IMPORTANT]
 > Prerequisite step: Set up an IDE with the Xbox Live SDK, for your target platforms. See [Getting started](index.md).
 
-Now that you've imported the Xbox Live SDK into your IDE, it is time to setup your project to call Xbox Live's Sign-In API.
+Now that you've imported the Xbox Live SDK into your IDE, set up your project to call Xbox Live's Sign-In API.
+Adding this code to your game enables the user to do basic sign-in to Xbox Live on the user's mobile device.
+
+
+## Find the game's IDs at Partner Center, for Creators
+
+1. Go to <a href="https://partner.microsoft.com/en-us/dashboard/" target="_blank">.
+
+2. On the left, click **Products**, then click your game app.
+
+   The "App overview" page appears.
+
+3. In the **Submissions** section of the page, click **Submission <#>**.
+
+   The "Submission <#>" page appears.
+
+4. Click the **Xbox Live Creators Program** section of the page.
+
+   The "Xbox Live Creators Program" page appears.
+
+5. In the top of the page, copy and save the **Title ID**, **SCID**, and the **Sandbox ID** such as "ABCDEF.12"
+
+   <!-- todo: where to get the Client ID -->
+
+
+## Find the game's IDs at Partner Center, for Managed Partners
+
+1. Go to <a href="https://partner.microsoft.com/en-us/dashboard/" target="_blank">.
+
+2. On the left, click **Products**, then click your game app.
+
+   The "App overview" page appears.
+
+3. In the **Submissions** section of the page, click **&lt;sandbox&gt; (Submission <#>)**.
+
+   The "&lt;sandbox&gt; Submission <#>" page appears.
+
+4. Copy and save the sandbox name, such as "ABCDEF.1".
+
+5. Click the **Xbox Live Config** section of the page.
+
+   The "Gameplay Setting" page appears.
+
+6. In the middle navigation column, click **Services**, and then click **Xbox Live Setup**.
+
+   The "Xbox Live configuration" page appears.
+
+7. In the **Xbox Live product identities** section of the page, copy and save the **Title ID (decimal)**, **MsaAppId** (this is the Client ID),  and **SCID**.
+
+   <!-- todo: confirm this is the Client ID -->
 
 
 ## Initialize XSAPI
 
 Initializing Xbox Live requires a set of arguments to be passed in.
+
+1. Add the following `XsapiInit` function.
 
 ```cpp
 HRESULT XsapiInit()
@@ -31,15 +82,15 @@ HRESULT XsapiInit()
     return XblInitialize(&args);
 }
 ```
-> [!NOTE]
-> You can find your SCID at your Partner Center account.
 
 
 ## Initialize XAL
 
-XAL has two sets of arguments to pass in. First is XalPlatformArgs and second is XalInitArgs.
-XalPlatormArgs defines arguments needed in order to display the Sign-In window to your app.
-XalInitArgs defines arguments needed in order to link XAL to your specified game from Partner Center.
+XAL has two sets of arguments to pass in:
+* `XalPlatformArgs` defines arguments that are needed in order to display the Sign-In window to your game.
+* `XalInitArgs` defines arguments that are needed in order to link XAL to your specified game from Partner Center.
+
+1. Add the following `XalInit` function.
 
 ```cpp
 HRESULT XalInit()
@@ -71,20 +122,18 @@ HRESULT XalInit()
     return XalInitialize(xalInitArgs, nullptr);
 }
 ```
-> [!NOTE]
-> You can find your Client ID, Title ID, and Sandbox at your Partner Center account.
-
 
 ## Basic Sign-In/Sign-Out
 
-Now that Xbox Live is initialized, it's time for us to setup our Sign-In and Sign-Out functionality.
+Now that Xbox Live is initialized, set up the Sign-In and Sign-Out functionality, as follows.
 
 
 ### Sign-In Silently
 
-To start off with, we will add in Sign-In Silently.
-This function should be called when your app/game starts up to auto sign-in the previously logged in user.
-The function below wraps the async call XalTryAddDefaultUserSilentlyAsync.
+To begin, add "Sign-In Silently" code.
+
+1. Add the following `XAL_TrySignInUserSilently` function, which should be called when your game starts up, to auto sign-in the previously logged-in user.
+   This function wraps the async call `XalTryAddDefaultUserSilentlyAsync`.
 
 ```cpp
 HRESULT XAL_TrySignInUserSilently()
@@ -96,9 +145,10 @@ HRESULT XAL_TrySignInUserSilently()
 }
 ```
 
-When our XAsyncBlock returns from calling the server, it will run our callback function.
-The callback function will require that we grab the result from the server.
-After grabbing the result, we will pass it to gameplay.
+   When the `XAsyncBlock` returns from calling the server, it will run the callback function.
+
+2. Add the following `XAL_TrySignInUserSilently_Callback` callback function, which grabs the result from the server.
+After grabbing the result, pass the result to gameplay.
 
 ```cpp
 void CALLBACK XAL_TrySignInUserSilently_Callback(_In_ XAsyncBlock* asyncBlock)
@@ -116,8 +166,9 @@ void CALLBACK XAL_TrySignInUserSilently_Callback(_In_ XAsyncBlock* asyncBlock)
 }
 ```
 
-In gameplay, we will handle if an XblContext should be created from our XalUser.
-If an XblContext is created, then the user has properly signed in.
+3. Add the following `Gameplay_SignInUser` function.
+   In gameplay, handle whether an `XblContext` should be created from the `XalUser`.
+   If an `XblContext` is created, the user has properly signed in.
 
 ```cpp
 void Gameplay_SignInUser(_In_ XalUserHandle newUser, _In_ bool resolveIssuesWithUI)
@@ -162,7 +213,8 @@ void Gameplay_SignInUser(_In_ XalUserHandle newUser, _In_ bool resolveIssuesWith
 ### Sign-In with UI
 
 If sign-in silently fails, then the user will need to sign-in using XAL's web view UI.
-Just like with sign-in silently, we will create a wrapper to call our async function XalAddUserWithUiAsync.
+
+1. Just like with "sign-in silently", create a `XAL_TrySignInUserWithUI` wrapper function that calls the async function `XalAddUserWithUiAsync`:
 
 ```cpp
 HRESULT XAL_TrySignInUserWithUI()
@@ -174,7 +226,7 @@ HRESULT XAL_TrySignInUserWithUI()
 }
 ```
 
-The callback function will grab the result from the server to pass on to gameplay.
+2. Add the callback function, to grab the result from the server to pass on to gameplay.
 
 ```cpp
 void CALLBACK XAL_TrySignInUserWithUI_Callback(_In_ XAsyncBlock* asyncBlock)
@@ -192,9 +244,9 @@ void CALLBACK XAL_TrySignInUserWithUI_Callback(_In_ XAsyncBlock* asyncBlock)
 }
 ```
 
-Next, we must create the XAL_TryResolveUserIssue function.
-This function will be called if there happens to be any issues with the user signing it to your game.
-We will use asyncBlock-context to store the handle to the new user to be used later in the callback.
+3. Create the following `XAL_TryResolveUserIssue` function.
+   This function will be called if there are issues with the user signing in to your game.
+   Use `asyncBlock-context` to store the handle to the new user to be used later in the callback:
 
 ```cpp
 HRESULT XAL_TryResolveUserIssue(_In_ XalUserHandle user)
@@ -207,8 +259,8 @@ HRESULT XAL_TryResolveUserIssue(_In_ XalUserHandle user)
 }
 ```
 
-The callback function will then grab the XAsyncGetStatus result to be used by gameplay.
-We will also make sure to grab the XalUserHandle, from asyncBlock->context.        
+4. Add the following `XAL_TryResolveUserIssue_Callback` function, which will grab the `XAsyncGetStatus` result to be used by gameplay.
+   This callback also grabs the `XalUserHandle`, from `asyncBlock->context`.
 
 ```cpp
 void CALLBACK XAL_TryResolveUserIssue_Callback(_In_ XAsyncBlock* asyncBlock)
@@ -219,9 +271,9 @@ void CALLBACK XAL_TryResolveUserIssue_Callback(_In_ XAsyncBlock* asyncBlock)
     XalUserHandle user = reinterpret_cast<XblUserHandle>(asyncBlock->context);
 
     // TODO: If XAsyncGetStatus fails, tell user to sign in again
-    
+
     // Close the Reference if one was created during XalUserDuplicateHandle
-    if (user) { XalUserCloseHandle(user); }   
+    if (user) { XalUserCloseHandle(user); }
 
     delete asyncBlock;
 }
@@ -230,7 +282,9 @@ void CALLBACK XAL_TryResolveUserIssue_Callback(_In_ XAsyncBlock* asyncBlock)
 
 ### Sign-Out
 
-Now that sign-in is taken care of, it's time to implement sign-out.
+Now that sign-in is taken care of, implement sign-out.
+
+1. Add the following `XAL_TrySignOutUser` function.
 
 ```cpp
 HRESULT XAL_TrySignOutUser(_In_ XalUserHandle user)
@@ -242,7 +296,7 @@ HRESULT XAL_TrySignOutUser(_In_ XalUserHandle user)
 }
 ```
 
-The callback function will then grab the XAsyncGetStatus result.
+2. Add the following `XAL_TrySignOutUser_Callback` callback function, which grabs the `XAsyncGetStatus` result:
 
 ```cpp
 void CALLBACK XAL_TrySignOutUser_Callback(_In_ XAsyncBlock* asyncBlock)
@@ -265,12 +319,9 @@ void CALLBACK XAL_TrySignOutUser_Callback(_In_ XAsyncBlock* asyncBlock)
 
 ## Cleanup
 
-Now that everything is implemented, we need to make sure that we clean it up when your game closes.
+Now that everything is implemented, clean it up when your game closes, as follows.
 
-
-### XAL Cleanup
-
-XAL doesn't require any cleanup, however, you will need to close your XalUserHandle and XblContextHandle.
+1. XAL doesn't require any cleanup, however, you will need to close your `XalUserHandle` and `XblContextHandle`; add the following:
 
 ```cpp
 if (m_xblContext)
@@ -284,21 +335,49 @@ if (m_xblContext)
 }
 ```
 
-
-### Xbl Cleanup
-
-When your game closes, make sure to cleanup Xbox Live.
+2. When your game closes, cleanup Xbox Live, by adding the following:
 
 ```cpp
 XblCleanup();
 ```
 
+You have finished adding the basic sign-in code.
 
-## Initial sign-in and testing the basic sign-in code
 
-TBD.
+## Testing basic sign-in
 
-Your game now enables the user to do basic sign-in to Xbox Live on the device.
+Test that the basic sign-in code works properly, as follows.
+
+1. When your game starts for the first time, make sure that you're calling your "Sign-In Silently" code.
+
+   This code fails with the result "E_XAL_UIREQUIRED", since there hasn't been a user signed-in before.
+
+2. Call "Sign-In with UI".
+
+   A webview window appears, displaying the Xbox Live Sign-In portal.
+
+   ![Xbox Live Sign-In portal](images/xboxlive-signin-window.png)
+
+3. Sign-in by using the Xbox Live Sign-In portal.
+
+   `XalAddUserWithUiResult` returns "S_OK".
+
+4. Create an `XblContext`.
+
+5. Run the game.
+
+6. Close your game without signing-out, and then re-open your game.
+
+   This time, your "Sign-In Silently" code succeeds, and automatically sign-ins the user.
+
+7. Call your Sign-Out code.
+   Make sure you're closing your `XalUserHandle` and `XblContextHandle`.
+
+   If cleared properly, you should be able to run your game and get the "E_XAL_UIREQUIRED" result from your "Sign-In Silently" code.
+
+Repeat the above steps as needed.
+
+Your game now enables the user to do basic sign-in to Xbox Live.
 
         
 ## Next step
