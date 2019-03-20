@@ -15,7 +15,12 @@ Now that you've imported the Xbox Live SDK into your IDE, set up your project to
 Adding this code to your game enables the user to do basic sign-in to Xbox Live on the user's mobile device.
 
 
-## Find the game's IDs at Partner Center, for Creators
+## Find the game's IDs at Partner Center
+
+At Partner Center, find the Title ID, SCID, Sandbox ID, and Client ID of your game, to insert into the sign-in code.
+
+
+### Find the game's IDs at Partner Center, for Creators
 
 1. Go to <a href="https://partner.microsoft.com/en-us/dashboard/" target="_blank">Partner Center</a>.
 
@@ -36,7 +41,7 @@ Adding this code to your game enables the user to do basic sign-in to Xbox Live 
    <!-- todo: where to get the Client ID -->
 
 
-## Find the game's IDs at Partner Center, for Managed Partners
+### Find the game's IDs at Partner Center, for Managed Partners
 
 1. Go to <a href="https://partner.microsoft.com/en-us/dashboard/" target="_blank">Partner Center</a>.
 
@@ -48,7 +53,7 @@ Adding this code to your game enables the user to do basic sign-in to Xbox Live 
 
    The "&lt;sandbox&gt; Submission <#>" page appears.
 
-4. Copy and save the sandbox name, such as "ABCDEF.1".
+4. Copy and save the sandbox name for the sandbox which you want to use, such as "ABCDEF.1".
 
 5. Click the **Xbox Live Config** section of the page.
 
@@ -100,8 +105,7 @@ HRESULT XalInit()
     HCTraceSetTraceToDebugger(true);
     
     std::string clientId = ; // TODO: Add your Client ID here.
-    
-    // TODO: Make sure Client ID is all lower case!
+                             // TODO: Make sure Client ID is all lowercase!
     std::string redirUri = "ms-xal-";
     redirUri += clientId;
     redirUri += "://auth";
