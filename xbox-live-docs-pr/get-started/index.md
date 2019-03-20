@@ -35,6 +35,25 @@ ms.localizationpriority: medium
 
 <ul class="cardsY panelContent cols cols2">
     <li>
+        <a href="__">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="../images/getting_started/xboxicon1.svg" alt="Creators Program" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>__</h3>
+                            <p>__</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
         <a href="https://www.xbox.com/en-US/developers/creators-program?xr=footnav" target="_blank">
             <div class="cardSize">
                 <div class="cardPadding">
@@ -141,10 +160,11 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/signin.svg" alt="Using the Xbox Live SDK to sign-in for mobile" />
+                                <img src="../images/getting_started/signin.svg" alt="Adding basic sign-in code for mobile" />
                             </div>
                         </div>
                         <div class="cardText">
+                            <h3>Adding basic sign-in code for mobile</h3>
                             <p>Adding code to your mobile game to enable basic sign-in to Xbox Live.</p>
                         </div>
                     </div>

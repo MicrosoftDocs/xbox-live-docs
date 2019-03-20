@@ -365,16 +365,13 @@ Test that the basic sign-in code works properly, as follows.
 3. Sign-in by using the Xbox Live Sign-In portal.
 
    `XalAddUserWithUiResult` returns "S_OK".
+   Thus your sign-in code will create an `XblContext`, which confirms that your user has properly signed in to your game on Xbox Live.
 
-4. Create an `XblContext`.
+4. Close your game without signing-out, and then re-open your game.
 
-5. Run the game.
+   This time, your "Sign-In Silently" code succeeds, and automatically signs-in the user.
 
-6. Close your game without signing-out, and then re-open your game.
-
-   This time, your "Sign-In Silently" code succeeds, and automatically sign-ins the user.
-
-7. Call your Sign-Out code.
+5. Call your Sign-Out code.
    Make sure you're closing your `XalUserHandle` and `XblContextHandle`.
 
    If cleared properly, you should be able to run your game and get the "E_XAL_UIREQUIRED" result from your "Sign-In Silently" code.
