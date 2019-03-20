@@ -333,7 +333,7 @@ extern "C"
     }
 }
 ```
-This section will map your native code to your Java code via the JNI library.
+This section will map your native code to your Java code, via the JNI library.
 
 Your project is now set up to use the XboxLive API.
 
