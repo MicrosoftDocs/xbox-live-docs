@@ -333,8 +333,7 @@ extern "C"
     }
 }
 ```
-
-   The `extern "C"` method, via JNI, maps your native code to your Java code, to make use of the XboxLiveSDK.
+This section will map your native code to your Java code via the JNI library.
 
 Your project is now set up to use the XboxLive API.
 
