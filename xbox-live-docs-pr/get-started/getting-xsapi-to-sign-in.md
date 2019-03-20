@@ -36,7 +36,7 @@ HRESULT XsapiInit()
 ## Initialize XAL
 
 XAL has two sets of arguments to pass in. First is XalPlatformArgs and second is XalInitArgs.
-XalPlatormArgs defines arguments needed in order to display the Sign-In window to your app.
+XalPlatormArgs defines arguments needed in order to display the Sign-In window to your game.
 XalInitArgs defines arguments needed in order to link XAL to your specified game from Partner Center.
 
 ```cpp
@@ -79,7 +79,7 @@ Now that Xbox Live is initialized, it's time for us to setup our Sign-In and Sig
 ### Sign-In Silently
 
 To start off with, we will add in Sign-In Silently.
-This function should be called when your app/game starts up to auto sign-in the previously logged in user.
+This function should be called when your game starts up to auto sign-in the previously logged in user.
 The function below wraps the async call XalTryAddDefaultUserSilentlyAsync.
 
 ```cpp
@@ -283,6 +283,28 @@ When your game closes, make sure to cleanup Xbox Live.
 ```cpp
 XblCleanup();
 ```
+
+## Testing
+
+Now that basic sign-in/sign-out is added, it is time to test that it works properly.
+
+1. When your game starts for the first time, you'll want to make sure that you're calling your Sign-In Silently code.
+This should fail with the result "E_XAL_UIREQUIRED", since there hasn't been a user signed in before.
+
+2. Next, make sure to call Sign-In with UI. This should bring up a webview window displaying the Xbox Live Sign-In portal.
+
+   ![Xbox Live Sign-In portal](images/XboxLiveSignInWindow.png)
+
+3. After finishing sign-in with the Xbox Live Sign-In portal, you should recieve an "S_OK" result from XalAddUserWithUiResult.
+You should now be able to create an XblContext and run your game.
+
+4. Next, close your game without signing-out, and then re-open your game.
+This time, your Sign-In Silently code should pass and automatically sign-in the user.
+
+5. Lastly, call your Sign-Out code. Make sure you're closing your XalUserHandle and XblContextHandle.
+If cleared properly, you should be able to run your game and get the "E_XAL_UIREQUIRED" result from your Sign-In Silently code.
+
+6. Repeat steps 2-5 as needed.
         
 <!--===========================================================-->
 ## Next step
