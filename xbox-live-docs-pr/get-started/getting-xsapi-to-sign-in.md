@@ -17,7 +17,7 @@ Adding this code to your game enables the user to do basic sign-in to Xbox Live 
 
 ## Find the game's IDs at Partner Center, for Creators
 
-1. Go to <a href="https://partner.microsoft.com/en-us/dashboard/" target="_blank">.
+1. Go to <a href="https://partner.microsoft.com/en-us/dashboard/" target="_blank">Partner Center</a>.
 
 2. On the left, click **Products**, then click your game app.
 
@@ -38,7 +38,7 @@ Adding this code to your game enables the user to do basic sign-in to Xbox Live 
 
 ## Find the game's IDs at Partner Center, for Managed Partners
 
-1. Go to <a href="https://partner.microsoft.com/en-us/dashboard/" target="_blank">.
+1. Go to <a href="https://partner.microsoft.com/en-us/dashboard/" target="_blank">Partner Center</a>.
 
 2. On the left, click **Products**, then click your game app.
 

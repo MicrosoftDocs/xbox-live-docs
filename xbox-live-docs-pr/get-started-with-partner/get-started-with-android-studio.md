@@ -78,7 +78,8 @@ buildscript {
 PROP_APP_ABI=armeabi-v7a:x86
 ```
 
-> [!NOTE] The above property will be used later to ensure your project builds only for ARM and x86.
+> [!NOTE]
+> The above property will be used later to ensure your project builds only for ARM and x86.
 
 3. Set your complier SDK version to API 26+.
    To do this, navigate to **file > Project Structure > your_app > Properties tab**, change the "Compile SDK Version" to "API:26: Android 8.0 (OREO)", and then click **OK**.
