@@ -230,7 +230,7 @@ HRESULT XAL_TrySignInUserWithUI()
 }
 ```
 
-2. Add the callback function, to grab the result from the server to pass on to gameplay.
+2. Add the following `XAL_TrySignInUserWithUI_Callback` callback function, to grab the result from the server to pass on to gameplay:
 
 ```cpp
 void CALLBACK XAL_TrySignInUserWithUI_Callback(_In_ XAsyncBlock* asyncBlock)
