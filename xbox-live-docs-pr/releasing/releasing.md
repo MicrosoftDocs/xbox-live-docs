@@ -12,36 +12,31 @@ ms.localizationpriority: medium
 
 <h1>Testing and Releasing</h1>
 
-<p>Xbox Live is a premier gaming network that connects millions of gamers across the world. You can add Xbox Live to your Windows 10 PC, Xbox One, or mobile game in order to take advantage of the Xbox Live features and services.</p>
+<p>
+  To publish a game for testing or public release, first complete the <a href="../get-started/index.md">Getting Started</a> steps so that your game can do basic sign-in to Xbox Live.
+</p>
 
-<h2>Pre-Requisites</h2>
 
-<p>To publish a title privately or publicly, the following steps must have been already completed:</p>
+<h2>Creators Program</h2>
 
-<ol>
-    <li>Join the <a href="https://www.xbox.com/en-US/developers/creators-program?xr=footnav">Creators Program</a> or the <a href="https://www.xbox.com/en-US/developers/id">ID@Xbox Program</a></li>
-    <li>Complete Getting Started</li>
-    <li>Add a minimum of Xbox Live Features, as outlined in previous articles</li>
-</ol>
-
-<h2>Creators Program Releasing</h2>
-
-<p>Continue through with publishing a title to a private sandbox and/or public on the Xbox Creators Store.</p>
+<p>
+  You can publish a game privately in a sandbox for testing, or publicly on the Xbox Creators Store.
+</p>
 
 <ul class="cardsY panelContent cols cols2">
     <li>
-        <a href="/gaming/xbox-live/get-started-with-creators/create-and-test-a-new-creators-title">
+        <a href="../get-started/setup-partner-center/setup-partner-center-creators.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/xboxicon1.svg" alt="Xbox Icon" />
+                                <img src="../images/getting_started/xboxicon1.svg" alt="Setting up a game at Partner Center, for Creators"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Creators Program</h3>
-                            <p>Release a title to a private sandbox</p>
+                            <h3>Setting up a game at Partner Center, for Creators</h3>
+                            <p>Creating test accounts and publishing the game to a sandbox.</p>
                         </div>
                     </div>
                 </div>
@@ -55,12 +50,31 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/xboxicon1.svg" alt="Xbox Icon" />
+                                <img src="../images/getting_started/xboxicon1.svg" alt="Microsoft Store Policies"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Creators Program</h3>
-                            <p>Release a title to the Xbox Creators Store</p>
+                            <h3>Microsoft Store Policies</h3>
+                            <p>Includes Gaming and Xbox Policies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/windows/uwp/publish/">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="../images/getting_started/xboxicon1.svg" alt="Publish Windows apps and games"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Publish Windows apps and games</h3>
+                            <p>Submitting a game for certification and listing it in the Microsoft Store (in the UWP documentation).</p>
                         </div>
                     </div>
                 </div>
@@ -69,24 +83,27 @@ ms.localizationpriority: medium
     </li>
 </ul>
 
-<h2>ID@Xbox Program Releasing</h2>
 
-<p>Continue through with publishing a title to a private sandbox and/or public on the Xbox Managed Partners Store.</p>
+<h2>ID@Xbox Managed Partners Program</h2>
+
+<p>
+  You can publish a game to a private sandbox for testing, or to the public on the Xbox Managed Partners Store.
+</p>
 
 <ul class="cardsY panelContent cols cols2">
     <li>
-        <a href="/gaming/xbox-live/get-started-with-partner/get-started-with-xbox-live-partner">
+        <a href="../get-started/setup-partner-center/setup-partner-center-id-partners.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/ID@XBOXicon.svg" alt="ID@XBOX Program" />
+                                <img src="../images/getting_started/ID@XBOXicon.svg" alt="Setting up a game at Partner Center, for Managed Partners"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>ID@XBOX Program</h3>
-                            <p>Releasing a title to a private sandbox</p>
+                            <h3>Setting up a game at Partner Center, for Managed Partners</h3>
+                            <p>Publishing the game to a sandbox and creating test accounts.</p>
                         </div>
                     </div>
                 </div>
@@ -100,39 +117,12 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/ID@XBOXicon.svg" alt="ID@XBOX Program" />
+                                <img src="../images/getting_started/ID@XBOXicon.svg" alt="Publish Windows apps and games"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>ID@XBOX Program</h3>
-                            <p>Release a title to the Xbox Managed Partners Store</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-</ul>
-
-<h2>Quick Links</h2>
-
-<h3>API References</h3>
-
-<p>Lookup materials for API calls, RESTful references, URI and JSON references as well as XSAPI, XAL and Async</p>
-
-<ul class="cardsY panelContent cols cols2">
-    <li>
-        <a href="/gaming/xbox-live/api-reference">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="../images/getting_started/apidesktop.svg" alt="API Icon" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <p>XSAPI, XAL, Async and RESTful reference materials</p>
+                            <h3>Publish Windows apps and games</h3>
+                            <p>Submitting a game for certification and listing it in the Microsoft Store (in the UWP documentation).</p>
                         </div>
                     </div>
                 </div>

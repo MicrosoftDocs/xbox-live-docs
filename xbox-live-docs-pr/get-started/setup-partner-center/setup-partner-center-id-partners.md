@@ -1,6 +1,6 @@
 ---
 title: Setting up a game at Partner Center, for Managed Partners
-description: Get started adding Xbox Live functionality to your game, by setting up an app at Partner Center.
+description: Creating a new game app at Partner Center, enabling the game for Xbox Live, publishing the game to a sandbox, and creating test accounts.
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, xbox one, sign-in
@@ -10,13 +10,10 @@ ms.localizationpriority: medium
 
 To add Xbox Live functionality to your game, start by setting up an app in Partner Center, by following the steps below.
 
-
-## Prerequisite: Become an ID@Xbox partner
-
-   > [!IMPORTANT]
-   > Prerequisite steps for ID@Xbox partners:
-   > 1. Prepare a prototype of your game, such as a demo and screen captures.
-   > 2. If you aren't already an ID@Xbox partner, apply to the ID@Xbox program. An ID@Xbox partner is a Managed Partner. To apply to become an ID@Xbox partner, see <a href="https://www.xbox.com/developers/id" target="_blank">Welcome to ID@Xbox</a> at Xbox.com. Follow the instructions at that site, which will result in a Microsoft Partner Center account being generated for you.
+> [!IMPORTANT]
+> Prerequisites for ID@Xbox Partners:
+> * Have a prototype of your game, such as a demo and screen captures.
+> * Apply to the ID@Xbox Managed Partners Program; see the section [ID@Xbox Managed Partners Program](../../developer-program-overview.md#id-managed-partners-program) in "Joining a developer program".
 
 
 <!--===========================================================-->
@@ -242,11 +239,5 @@ Your game is now set up at Partner Center.
 <!--===========================================================-->
 ## Next step
 
-After your game is set up at Partner Center, continue with step 2: set up an IDE with the Xbox Live SDK, for your target platforms.
-See [Getting started](../index.md).
-
-
-<!--===========================================================-->
-## See also
-
-[Partner Center Xbox Live configuration Summary page](../../configure-xbl/dev-center/summary.md)
+After your game is set up at Partner Center, continue with step 3: Setting up an IDE to use Xbox Live, for your target platforms.
+See [Getting Started](../index.md).
