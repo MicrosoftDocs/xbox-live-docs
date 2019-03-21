@@ -2,7 +2,7 @@
 layout: LandingPage
 title: Getting Started 
 author: mikehoffms
-description: Initial steps to publish a game at Partner Center and have the game sign-in to Xbox Live.
+description: Join a developer program, create a game app at Partner Center, add the Xbox Live SDK to your IDE, and write basic sign-in code.
 ms.author: v-mihof
 ms.date: 12/11/2018
 ms.topic: article

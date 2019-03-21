@@ -16,7 +16,8 @@ ms.localizationpriority: medium
 <h2>XSAPI</h2>
 
 <p>
-  The main API in the Xbox Live SDK is the Xbox Service API (XSAPI), which enables game developers to access Xbox Live features.
+  The main API in the Xbox Live SDK is the Xbox Service API (XSAPI).
+  XSAPI enables accessing Xbox Live features.
 </p>
 <ul class="cardsY panelContent cols cols2">
     <li>
@@ -70,7 +71,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText">
                             <h3>Xbox Live WinRT SDK API Reference</h3>
-                            <p>API reference that appears in the .NET API Browser</p>
+                            <p>API reference that appears in the .NET API Browser.</p>
                         </div>
                     </div>
                 </div>
@@ -83,8 +84,8 @@ ms.localizationpriority: medium
 <h2>XAL</h2>
 
 <p>
-  The Xbox Live Authentication Library (XAL) is a cross platform authentication platform for Xbox Live.
-  XAL enables game developers with a consistent API and user model across all platforms.
+  The Xbox Live Authentication Library (XAL) is a cross-platform authentication platform for Xbox Live.
+  XAL provides a consistent API and user model across all platforms.
 </p>
 <ul class="cardsY panelContent cols cols2">
     <li>
@@ -112,7 +113,7 @@ ms.localizationpriority: medium
 <h2>Async</h2>
 
 <p>
-  An asynchronous API is an API that returns quickly but starts an asynchronous task and the result is returned after the task is finished.
+  An asynchronous API returns immediately but returns a result some time later.
 </p>
 <ul class="cardsY panelContent cols cols2">
     <li>
@@ -138,10 +139,7 @@ ms.localizationpriority: medium
 
 
 <h2>REST</h2>
-<p>
-  Xbox Live Services is a set of services for managing games and player information.
-  These services support the <strong>Xbox.Services API</strong> which should be used whenever possible.
-</p>
+
 <ul class="cardsY panelContent cols cols2">
     <li>
         <!-- child 3: -->
@@ -179,9 +177,9 @@ ms.localizationpriority: medium
 
 <p>
 <a href="https://aka.ms/xboxliveuwpdocs">Download XboxLiveAPIs.chm</a>. Contains:
+  <ul>
+    <li>Xbox Live reference for Universal Windows Platform (UWP)</li>
+    <li>Xbox Live reference for Xbox Development Kit (XDK)</li>
+    <li>Xbox Live Services RESTful reference</li>
+  </ul>
 </p>
-<ul>
-  <li>Xbox Live reference for Universal Windows Platform (UWP)</li>
-  <li>Xbox Live reference for Xbox Development Kit (XDK)</li>
-  <li>Xbox Live Services RESTful Reference</li>
-</ul>

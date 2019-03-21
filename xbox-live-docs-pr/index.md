@@ -14,7 +14,9 @@ ms.localizationpriority: medium
 
 <h1>Xbox Live documentation</h1>
 
-<p>Xbox Live is a premier gaming network that connects millions of gamers across the world. You can add Xbox Live to your Windows 10 PC, Xbox One, or mobile game in order to take advantage of the Xbox Live features and services.</p>
+<p>
+  Xbox Live is a premier gaming network that connects millions of gamers across the world. You can add Xbox Live to your Windows 10 PC, Xbox One, or mobile game in order to take advantage of the Xbox Live features and services.
+</p>
 
 <ul class="cardsY panelContent cols cols2">
     <li>
@@ -48,7 +50,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText"> 
                             <h3>What is Xbox Live?</h3>
-                            <p>Read about what Xbox Live does and how it works</p>
+                            <p>What Xbox Live does and how it works.</p>
                         </div>
                     </div>
                 </div>
@@ -57,47 +59,23 @@ ms.localizationpriority: medium
     </li>
 </ul>
 
-<h2>Get Started - Learn more about which program to join</h2>
 
-<p>Explore the current programs offered</p>
-
-<ul>
-    <li>Learn about each offering and see how each stack up against the other in terms of support, array of features and investment of time</li>
-</ul>
+<h2>Get Started</h2>
 
 <ul class="cardsY panelContent cols cols2">
     <li>
-        <a href="https://www.xbox.com/en-US/developers/creators-program?xr=footnav" target="_blank">
+        <a href="">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Creators Program" />
+                                <img src="images/getting_started/xboxicon1.svg" alt="Getting Started" />
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Creators Program</h3>
-                            <p>Learn more and enroll in a program</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://www.xbox.com/en-US/developers/id" target="_blank">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="images/getting_started/ID@XBOXicon.svg" alt="ID@XBOX Program" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>ID@XBOX Program</h3>
-                            <p>Learn more and enroll in a program</p>
+                            <h3>Getting Started</h3>
+                            <p>Join a developer program, create a game app at Partner Center, add the Xbox Live SDK to your IDE, and write basic sign-in code.</p>
                         </div>
                     </div>
                 </div>
@@ -106,37 +84,19 @@ ms.localizationpriority: medium
     </li>
 </ul>
 
-<h2>Ready to Develop - Get an IDE Set Up and Explore Xbox Live Features</h2>
 
-<p>Set up an IDE and dive into the features that make up Xbox Live - Identity, Social, Achievements, Cloud Storage, Multiplayer and External Services</p>
+<h2>Add Xbox Live Features</h2>
+
+<!-- <p>Set up an IDE and dive into the features that make up Xbox Live - Identity, Social, Achievements, Cloud Storage, Multiplayer and External Services</p>
 
 <ul>
     <li>Follow a prebuilt path to success that will lead to being able to integrate and work with any of the Xbox Live features</li>
     <li>Learn about each feature in detail</li>
     <li>How to configure the feature in the Partner Center</li>
     <li>Examples of implementation and how to call a feature</li>
-</ul>
+</ul> -->
 
 <ul class="cardsY panelContent cols cols2">
-    <li>
-        <a href="get-started/index.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="images/getting_started/getstart.svg" alt="Get Started" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Get Started</h3>
-                            <p>Setting Up and IDE for either the Creators Program or the ID@Xbox Program</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
     <li>
         <a href="features/index.md">
             <div class="cardSize">
@@ -149,7 +109,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText">
                             <h3>Xbox Live Features</h3>
-                            <p>Identity, Social, Achievements, Cloud Storage, Multiplayer and External Services.</p>
+                            <p>Adding Xbox Live features to your game, such as Identity, Social features, Achievements, Cloud Storage, Multiplayer features, and External Services.</p>
                         </div>
                     </div>
                 </div>
@@ -158,9 +118,8 @@ ms.localizationpriority: medium
     </li>
 </ul>
 
-<h2>Ready to Publish - Releasing</h2>
 
-<p>All the support to publish and support a title post-publish</p>
+<h2>Publishing a Game for Testing or Release</h2>
 
 <ul class="cardsY panelContent cols cols2">
     <li>
@@ -174,8 +133,8 @@ ms.localizationpriority: medium
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Private releasing and public releasing for Creators and ID@Xbox Programs</h3>
-                            <p>Publish your game privately or publicly to the Microsoft, iOS and Android storefronts</p>
+                            <h3>Testing and Releasing</h3>
+                            <p>Testing, troubleshooting, and publishing a game.</p>
                         </div>
                     </div>
                 </div>
@@ -184,9 +143,8 @@ ms.localizationpriority: medium
     </li>
 </ul>
 
-<h2>Quick Links - API References</h2>
 
-<p>Lookup materials for API calls, RESTful references, URI and JSON references as well as XSAPI, XAL and Async</p>
+<h2>API Reference</h2>
 
 <ul class="cardsY panelContent cols cols2">
     <li>
@@ -200,7 +158,8 @@ ms.localizationpriority: medium
                             </div>
                         </div>
                         <div class="cardText">
-                            <p>XSAPI, XAL, Async and RESTful reference materials</p>
+                            <h3>API Reference</h3>
+                             <p>Xbox Live API reference, including XSAPI, XAL, Async, and RESTful APIs.</p>
                         </div>
                     </div>
                 </div>
