@@ -25,7 +25,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsY panelContent cols cols2">
     <li>
-        <a href="developer-program-overview.md">
+        <a href="../developer-program-overview.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

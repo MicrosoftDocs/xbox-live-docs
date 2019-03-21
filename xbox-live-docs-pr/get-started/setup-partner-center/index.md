@@ -26,5 +26,5 @@ For the differences between Creators and ID@Xbox partners, see [Developer progra
 
 ### Next steps
 
-After you have set up a game at Partner Center, do step 2: Setting up an IDE to use Xbox Live.
+After you have set up a game at Partner Center, do step 3: Setting up an IDE to use Xbox Live.
 See [Getting started](../index.md).

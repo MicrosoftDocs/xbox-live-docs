@@ -14,16 +14,8 @@ ms.localizationpriority: medium
 
 <p>The stack of Xbox Live features are powerful tools to attract, engage and retain players. Learn more about each feature category below.</p>
 
-<h2>Pre-Requisites</h2>
+<p>Prerequisite: To begin adding Xbox Live Features to your game, first complete the <a href="../get-started/index.md">Getting Started</a> steps.</p>
 
-<p>To begin adding Xbox Live Features to your game, complete the Getting Started steps:</p>
-
-<ol>
-    <li>Join the <a href="https://www.xbox.com/en-US/developers/creators-program?xr=footnav">Creators Program</a> or the <a href="https://www.xbox.com/en-US/developers/id">ID@Xbox Program</a></li>
-    <li>Set up a game at Partner Center.</li>
-    <li>Set up one of the following IDEs with the Xbox Live SDK, for your target platforms:</li>
-    <li>Add Xbox Live sign-in code to your game.</li>
-</ol>
 
 <h2>Feature Areas</h2>
 
