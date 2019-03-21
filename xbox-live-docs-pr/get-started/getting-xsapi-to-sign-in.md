@@ -131,7 +131,7 @@ Now that Xbox Live is initialized, set up the Sign-In and Sign-Out functionality
 
 ### Sign-In Silently
 
-To begin, add "Sign-In Silently" code.
+To begin, let's start with adding in functionality for signing-in silently.
 
 1. Add the following `XAL_TrySignInUserSilently` function, which should be called when your game starts up, to auto sign-in the previously logged-in user.
    This function wraps the async call `XalTryAddDefaultUserSilentlyAsync`.
