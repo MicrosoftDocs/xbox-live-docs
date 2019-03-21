@@ -50,7 +50,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText"> 
                             <h3>What is Xbox Live?</h3>
-                            <p>What Xbox Live does and how it works.</p>
+                            <p>Xbox Live provides the greatest player community for your game on the most advanced cross-platform multiplayer network.</p>
                         </div>
                     </div>
                 </div>

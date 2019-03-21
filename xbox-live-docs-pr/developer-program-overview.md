@@ -98,7 +98,7 @@ There are two sets of requirements that your game must follow:
 Titles enabled under the Xbox Live Creators Program can use Leaderboards, Featured Stats, Title Storage, Connected Storage, and a restricted set of social features.
 Achievements, online multiplayer, and many social features are **not** supported for titles in the Xbox Live Creators Program.
 
-For a full list of supported services, see the [Feature Table](#feature-table).
+For a full list of supported services, see the Feature Table below.
 
 
 ### Supported third party game development engines
