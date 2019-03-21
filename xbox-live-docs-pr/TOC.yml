@@ -6,7 +6,7 @@
     - name: Getting Started
       href: get-started/index.md
       items:
-        - name: Developer program overview
+        - name: Joining a developer program
           href: developer-program-overview.md
         - name: Setting up a game app at Partner Center
           href: get-started/setup-partner-center/index.md

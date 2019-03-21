@@ -1,13 +1,13 @@
 ---
 layout: LandingPage
-title: Setting up a game at Partner Center
-description: Creating a new app at Partner Center, enabling Xbox Live for the game, and publishing the game.
+title: Setting up a game app at Partner Center
+description: Creating a new game app at Partner Center, enabling Xbox Live for the game, and publishing the game to a development sandbox.
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, xbox one, sign-in
 ms.localizationpriority: medium
 ---
-# Setting up a game at Partner Center
+# Setting up a game app at Partner Center
 
 To add Xbox Live functionality to your game, start by setting up a game at Partner Center.
 

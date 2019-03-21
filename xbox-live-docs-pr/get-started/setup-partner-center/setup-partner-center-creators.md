@@ -10,13 +10,9 @@ ms.localizationpriority: medium
 
 To add Xbox Live functionality to your game, start by setting up an app in Partner Center, by following the steps below.
 
-
-## Prerequisite: Become a Creator
-
-   > [!IMPORTANT]
-   > Prerequisite steps for Creators:
-   > Create a Dev Account (also called a Partner Center account).
-   > To create a Dev Account, see <a href="https://docs.microsoft.com/partner-center/mpn-create-a-partner-center-account" target="_blank">Create a Partner Center account</a> at the Partner Center documentation site.
+> [!IMPORTANT]
+> Prerequisite for Creators:
+> * Apply to the Creators Program; see the section [Creators Program](../../developer-program-overview.md#creators-program) in "Joining a developer program".
 
 
 <!--===========================================================-->
@@ -203,11 +199,5 @@ The SDK can now be used in an application to sign-in.
 <!--===========================================================-->
 ## Next step
 
-After your game is set up at Partner Center, continue with step 2: set up an IDE with the Xbox Live SDK, for your target platforms.
+After your game is set up at Partner Center, continue with step 3: Setting up an IDE to use Xbox Live, for your target platforms.
 See [Getting started](../index.md).
-
-
-<!--===========================================================-->
-## See also
-
-[Partner Center Xbox Live configuration Summary page](../../configure-xbl/dev-center/summary.md)
