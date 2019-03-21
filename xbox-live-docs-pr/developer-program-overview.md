@@ -90,7 +90,7 @@ There are two sets of requirements that your game must follow:
 
 1. Integrate Xbox Live Sign-In and display the user identity (Gamertag, Gamerpic, etc.). All other Xbox Live services are optional.
 
-2. Follow the standard <a href="Microsoft Store Policies" target="_blank">https://msdn.microsoft.com/library/windows/apps/dn764944.aspx &#11008;</a>.
+2. Follow the standard <a href="https://msdn.microsoft.com/library/windows/apps/dn764944.aspx" target="_blank">Microsoft Store Policies &#11008;</a>.
 
 
 ### Supported Xbox Live services, for Creators
