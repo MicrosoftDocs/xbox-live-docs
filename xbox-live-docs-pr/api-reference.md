@@ -40,7 +40,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="https://github.com/Microsoft/xbox-live-api">
+        <a href="https://github.com/Microsoft/xbox-live-api" target="_blank">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -50,7 +50,7 @@ ms.localizationpriority: medium
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>C++ and WinRT XSAPI</h3>
+                            <h3>C++ and WinRT XSAPI &#11008;</h3>
                             <p>C++ and WinRT version of the Xbox Services API (XSAPI) that enables game developers to access Xbox Live.  Hosted at GitHub.</p>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ ms.localizationpriority: medium
     </li>
     <li>
         <!-- child 2: jumps straight to external url -->
-        <a href="https://docs.microsoft.com/en-us/dotnet/api/?view=xboxlive-dotnet-2017.11.20171204.01">
+        <a href="https://docs.microsoft.com/en-us/dotnet/api/?view=xboxlive-dotnet-2017.11.20171204.01" target="_blank">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -70,7 +70,7 @@ ms.localizationpriority: medium
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Xbox Live WinRT SDK API Reference</h3>
+                            <h3>Xbox Live WinRT SDK API Reference &#11008;</h3>
                             <p>API reference that appears in the .NET API Browser.</p>
                         </div>
                     </div>
