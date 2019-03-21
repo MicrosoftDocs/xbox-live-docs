@@ -13,10 +13,6 @@ ms.localizationpriority: medium
 <h1>Testing and Releasing</h1>
 
 <p>
-  Xbox Live is a premier gaming network that connects millions of gamers across the world.
-  You can add Xbox Live to your Windows 10 PC, Xbox One, or mobile game in order to take advantage of the Xbox Live features and services.
-</p>
-<p>
   To publish a game privately for testing or publicly for release, first complete the <a href="../get-started/index.md">Getting Started</a> steps so that your game can do basic sign-in to Xbox Live.
 </p>
 
