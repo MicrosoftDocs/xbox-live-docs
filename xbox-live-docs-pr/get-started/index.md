@@ -117,5 +117,8 @@ ms.localizationpriority: medium
 <h2>Next Steps</h2>
 
 <p>
-  After your game is able to sign-in to Xbox Live, add <a href="../features/index.md">Xbox Live features</li></a>.
+  After your game is able to do basic sign-in to Xbox Live, add Xbox Live <a href="../features/index.md">Features</li></a>.
+</p>
+<p>
+  Then your game will be ready for <a href="../releasing/releasing.md">Testing and Releasing</li></a>.
 </p>

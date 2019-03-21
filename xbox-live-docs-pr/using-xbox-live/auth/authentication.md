@@ -1,7 +1,7 @@
 ---
 layout: LandingPage
 title: Authentication and sign-in
-description: Signing-in an Xbox Live user in your title.
+description: Signing-in an Xbox Live user in your game.
 ms.assetid: 7a9dfb3c-1ccc-4948-a218-37101069c91a
 ms.date: 04/04/2017
 ms.topic: article
@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 
 # Authentication and sign-in
 
-Signing-in an Xbox Live user in your title.
+Signing-in an Xbox Live user in your game.
 
 
 ### In this section

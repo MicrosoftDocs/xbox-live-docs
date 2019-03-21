@@ -18,19 +18,94 @@ ms.localizationpriority: medium
 <p>
   The main API in the Xbox Live SDK is the Xbox Service API (XSAPI), which enables game developers to access Xbox Live features.
 </p>
-<ul>
-  <li><a href="/gaming/xbox-live/flatc-async-patterns">Conceptual Documentation on XSAPI</a></li>
-  <li><a href="https://github.com/Microsoft/xbox-live-api">Github hosted Microsoft Xbox Live Service API (XSAPI)</a></li>
+<ul class="cardsY panelContent cols cols2">
+    <li>
+        <a href="flatc-async-patterns.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="images/getting_started/xboxicon1.svg" alt="Making async calls in the XSAPI C API" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Making async calls in the XSAPI C API</h3>
+                            <p>Making asynchronous calls in the XSAPI flat C API.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://github.com/Microsoft/xbox-live-api">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="images/getting_started/xboxicon1.svg" alt="C++ and WinRT XSAPI" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>C++ and WinRT XSAPI</h3>
+                            <p>C++ and WinRT version of the Xbox Services API (XSAPI) that enables game developers to access Xbox Live.  Hosted at GitHub.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <!-- child 2: jumps straight to external url -->
+        <a href="https://docs.microsoft.com/en-us/dotnet/api/?view=xboxlive-dotnet-2017.11.20171204.01">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="images/getting_started/xboxicon1.svg" alt="Xbox Live WinRT SDK API Reference" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Xbox Live WinRT SDK API Reference</h3>
+                            <p>API reference that appears in the .NET API Browser</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
 </ul>
 
 
 <h2>XAL</h2>
 
 <p>
-  The Xbox Live Authentication Library (XAL) is a cross platform authentication platform for Xbox Live. XAL enables game developers with a consistent API and user model across all platforms.
+  The Xbox Live Authentication Library (XAL) is a cross platform authentication platform for Xbox Live.
+  XAL enables game developers with a consistent API and user model across all platforms.
 </p>
-<ul>
-  <li><a href="/gaming/xbox-live/using-xbox-live/auth/authentication">Conceptual Documentation on XAL</a></li>
+<ul class="cardsY panelContent cols cols2">
+    <li>
+        <a href="using-xbox-live/auth/authentication.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="images/getting_started/xboxicon1.svg" alt="Authentication and sign-in"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Authentication and sign-in</h3>
+                            <p>Signing-in an Xbox Live user in your game.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
 </ul>
 
 
@@ -39,17 +114,74 @@ ms.localizationpriority: medium
 <p>
   An asynchronous API is an API that returns quickly but starts an asynchronous task and the result is returned after the task is finished.
 </p>
-<ul>
-  <li><a href="/gaming/xbox-live/flatc-async-patterns">Conceptual Documentation on Async</a></li>
+<ul class="cardsY panelContent cols cols2">
+    <li>
+        <a href="flatc-async-patterns.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="images/getting_started/xboxicon1.svg" alt="Making async calls in the XSAPI C API" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Making async calls in the XSAPI C API</h3>
+                            <p>Making asynchronous calls in the XSAPI flat C API.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
 </ul>
 
 
 <h2>REST</h2>
-
 <p>
   Xbox Live Services is a set of services for managing games and player information.
   These services support the <strong>Xbox.Services API</strong> which should be used whenever possible.
 </p>
+<ul class="cardsY panelContent cols cols2">
+    <li>
+        <!-- child 3: -->
+        <a href="xbox-live-rest/atoc-xboxlivews-reference.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="images/getting_started/xboxicon1.svg" alt="Xbox Live Services RESTful Reference" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Xbox Live Services RESTful Reference</h3>
+                            <p>Xbox Live Services is a set of services for managing games and player information.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>See also</h2>
+
+<p>
+  <a href="xbox-live-apis.md">Using Xbox Live APIs</a>
+</p>
+
+<p>
+  <!-- child 1: -->
+  <a href="samples.md">Xbox Live samples</a> - Xbox Live API samples and Xbox Developer Kit samples.
+</p>
+
+<p>
+<a href="https://aka.ms/xboxliveuwpdocs">Download XboxLiveAPIs.chm</a>. Contains:
+</p>
 <ul>
-  <li><a href="/gaming/xbox-live/xbox-live-rest/atoc-xboxlivews-reference">Conceptual Documentation on REST</a></li>
+  <li>Xbox Live reference for Universal Windows Platform (UWP)</li>
+  <li>Xbox Live reference for Xbox Development Kit (XDK)</li>
+  <li>Xbox Live Services RESTful Reference</li>
 </ul>
