@@ -44,7 +44,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/legal/windows/agreements/store-policies">
+        <a href="https://docs.microsoft.com/legal/windows/agreements/store-policies" target="_blank">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -54,7 +54,7 @@ ms.localizationpriority: medium
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Microsoft Store Policies</h3>
+                            <h3>Microsoft Store Policies &#11008;</h3>
                             <p>Includes Gaming and Xbox Policies.</p>
                         </div>
                     </div>
@@ -63,7 +63,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/windows/uwp/publish/">
+        <a href="https://docs.microsoft.com/windows/uwp/publish/" target="_blank">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -73,8 +73,8 @@ ms.localizationpriority: medium
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Publish Windows apps and games</h3>
-                            <p>Submitting a game for certification and listing it in the Microsoft Store (in the UWP documentation).</p>
+                            <h3>Publish Windows apps and games &#11008;</h3>
+                            <p>Submitting a game for certification and listing it in the Microsoft Store.</p>
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/windows/uwp/publish/">
+        <a href="https://docs.microsoft.com/windows/uwp/publish/" target="_blank">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -121,8 +121,8 @@ ms.localizationpriority: medium
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Publish Windows apps and games</h3>
-                            <p>Submitting a game for certification and listing it in the Microsoft Store (in the UWP documentation).</p>
+                            <h3>Publish Windows apps and games &#11008;</h3>
+                            <p>Submitting a game for certification and listing it in the Microsoft Store.</p>
                         </div>
                     </div>
                 </div>

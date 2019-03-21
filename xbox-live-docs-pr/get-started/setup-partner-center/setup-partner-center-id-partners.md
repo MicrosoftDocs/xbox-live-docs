@@ -239,5 +239,4 @@ Your game is now set up at Partner Center.
 <!--===========================================================-->
 ## Next step
 
-After your game is set up at Partner Center, continue with step 3: Setting up an IDE to use Xbox Live, for your target platforms.
-See [Getting Started](../index.md).
+After your game app is set up at Partner Center, set up your IDE to use the Xbox Live SDK; see [Getting Started](../index.md).
