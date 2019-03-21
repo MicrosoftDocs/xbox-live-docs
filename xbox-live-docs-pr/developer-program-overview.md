@@ -17,6 +17,7 @@ To enable a game with Xbox Live, you join the Creators program, or join the Mana
 
 Each program offers different levels of time investment, features available, and support options.
 
+
 ### Creators Program
 
 Join the Xbox Live *Creators Program* if both of the following are true:
@@ -25,9 +26,6 @@ Join the Xbox Live *Creators Program* if both of the following are true:
 
 *  You only plan to ship via Microsoft storefronts on Microsoft devices, such as Xbox, Windows 10 PC, and Hololens.
 
-To join the Xbox Live Creators Program:
-
-* Create a Partner Center account; see <a href="https://docs.microsoft.com/partner-center/mpn-create-a-partner-center-account" target="_blank">Create a Partner Center account</a> at the Partner Center documentation site.
             
 
 ### ID@Xbox Managed Partners Program
@@ -40,6 +38,21 @@ Join the *ID@Xbox Managed Partners Program* if at least one of the following are
 
 * You must agree to abide by the regulations around Xbox Live.
 
+
+## Applying to a developer program
+
+
+### Creators Program
+
+To join the Xbox Live Creators Program:
+
+* Create a Partner Center account; see <a href="https://docs.microsoft.com/partner-center/mpn-create-a-partner-center-account" target="_blank">Create a Partner Center account</a> at the Partner Center documentation site.
+
+Then you can set up a game app at Partner Center; see [Getting Started](get-started/index.md).
+
+
+### ID@Xbox Managed Partners Program
+
 To apply to become an ID@Xbox partner:
 
 1. Go to <a href="https://www.xbox.com/developers/id" target="_blank">Welcome to ID@Xbox</a> at Xbox.com.
@@ -48,9 +61,11 @@ To apply to become an ID@Xbox partner:
 
    The "Apply to ID@Xbox now" form appears.
 
-3. Fill-in the form and submit it.
+3. Fill-in the form and then click the **Submit Application** button.
 
-   This will result in a Microsoft Partner Center account being generated for you.
+   Microsoft emails you additional forms and helps you create a Microsoft Partner Center account.
+
+Then you can set up a game app at Partner Center; see [Getting Started](get-started/index.md).
 
 
 ## Xbox Live Creators Program
@@ -106,7 +121,7 @@ To use the Xbox Live API from your project, you can either add references to the
 Adding NuGet packages makes compilation quicker while adding the source makes debugging easier.
 
 
-### Support and feedback
+## Support and feedback
 
 Your questions can be answered on the [MSDN Forums](https://social.msdn.microsoft.com/Forums/home?forum=xboxlivedev).
 
@@ -115,15 +130,14 @@ You can also ask programming-related questions at [Stack Overflow](https://stack
 The Xbox Live team will be engaged with the community and be continually improving our APIs, tools, and documentation based on the feedback received at these forums.
 
 
-
-#### Support for Creators
+### Support for Creators
 
 For developers in the Xbox Live Creators Program, you can [submit a new idea](https://xbox.uservoice.com/forums/363186--new-ideas?category_id=196261) or [vote on an existing idea](https://xbox.uservoice.com/forums/251649?category_id=210838) at our [Xbox User Voice](https://xbox.uservoice.com/forums/363186--new-ideas).
 
 The Xbox Live Creators Program is great for many games and developers.
 
 
-#### Support for ID@Xbox Managed Partners
+### Support for ID@Xbox Managed Partners
 
 If you’d like to access the full Xbox Live stack, including online multiplayer, achievements and Gamerscore, or you want to access the full power of the Xbox One family of devices using hardware dev kits, the [ID@Xbox](https://www.xbox.com/developers/id) program is for you.
 
@@ -136,12 +150,9 @@ You can continue to use [MSDN Forums](https://social.msdn.microsoft.com/Forums/h
 Developers working with a game publisher that is a Managed Partner (such as the ID@Xbox program) have access to the full set of Xbox Live features and dedicated Microsoft representatives to assist in the development, certification, and release process.
 
 
-## Feature table
-
-The below table illustrates the features available to the Xbox Live Creators Program, and [ID@Xbox](https://www.xbox.com/developers/id) programs.  
+## Features available to Creators and ID@Xbox Partners
 
 <table>
-
 <tr>
 <th>Feature Area</th>
 <th>Feature</th>

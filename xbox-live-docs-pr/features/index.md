@@ -12,9 +12,12 @@ ms.localizationpriority: medium
 
 <h1>Features</h1>
 
-<p>The stack of Xbox Live features are powerful tools to attract, engage and retain players. Learn more about each feature category below.</p>
-
-<p>Prerequisite: To begin adding Xbox Live Features to your game, first complete the <a href="../get-started/index.md">Getting Started</a> steps.</p>
+<p>
+  The stack of Xbox Live features are powerful tools to attract, engage and retain players. Learn more about each feature category below.
+</p>
+<p>
+  To begin adding Xbox Live Features to your game, first complete the <a href="../get-started/index.md">Getting Started</a> steps so that your game can do basic sign-in to Xbox Live.
+</p>
 
 
 <h2>Feature Areas</h2>
