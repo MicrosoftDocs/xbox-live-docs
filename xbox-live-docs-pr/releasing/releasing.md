@@ -25,7 +25,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsY panelContent cols cols2">
     <li>
-        <a href="/gaming/xbox-live/get-started-with-creators/create-and-test-a-new-creators-title">
+        <a href="../get-started-with-creators/create-and-test-a-new-creators-title.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -36,7 +36,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText">
                             <h3>Create an app and publish it for testing, for Creators</h3>
-                            <p>Creating a new Creators app in Partner Center, and publishing it to the test environment.</p>
+                            <p>Creating test accounts and publishing the game to a sandbox.</p>
                         </div>
                     </div>
                 </div>
@@ -73,18 +73,18 @@ ms.localizationpriority: medium
 
 <ul class="cardsY panelContent cols cols2">
     <li>
-        <a href="/gaming/xbox-live/get-started-with-partner/get-started-with-xbox-live-partner">
+        <a href="../get-started/setup-partner-center/setup-partner-center-id-partners.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/ID@XBOXicon.svg" alt="Get started with Xbox Live, for Managed Partners"/>
+                                <img src="../images/getting_started/ID@XBOXicon.svg" alt="Setting up a game at Partner Center, for Managed Partners"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Get started with Xbox Live, for Managed Partners</h3>
-                            <p>All the high-level steps for Xbox Live-enabling your game, from joining the ID@Xbox Program, through releasing your game.</p>
+                            <h3>Setting up a game at Partner Center, for Managed Partners</h3>
+                            <p>Publishing the game to a sandbox and creating test accounts.</p>
                         </div>
                     </div>
                 </div>

@@ -64,7 +64,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsY panelContent cols cols2">
     <li>
-        <a href="">
+        <a href="get-started/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
