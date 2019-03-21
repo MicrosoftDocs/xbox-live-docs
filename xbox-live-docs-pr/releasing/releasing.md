@@ -25,17 +25,17 @@ ms.localizationpriority: medium
 
 <ul class="cardsY panelContent cols cols2">
     <li>
-        <a href="../get-started-with-creators/create-and-test-a-new-creators-title.md">
+        <a href="../get-started/setup-partner-center/setup-partner-center-creators.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/xboxicon1.svg" alt="Create an app and publish it for testing, for Creators"/>
+                                <img src="../images/getting_started/xboxicon1.svg" alt="Setting up a game at Partner Center, for Creators"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Create an app and publish it for testing, for Creators</h3>
+                            <h3>Setting up a game at Partner Center, for Creators</h3>
                             <p>Creating test accounts and publishing the game to a sandbox.</p>
                         </div>
                     </div>
@@ -55,7 +55,26 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText">
                             <h3>Microsoft Store Policies</h3>
-                            <p>Products on the Store must meet certification standards and offer a useful and engaging experience.</p>
+                            <p>Includes Gaming and Xbox Policies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/windows/uwp/publish/">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="../images/getting_started/xboxicon1.svg" alt="Publish Windows apps and games"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Publish Windows apps and games</h3>
+                            <p>Submitting a game for certification and listing it in the Microsoft Store (in the UWP documentation).</p>
                         </div>
                     </div>
                 </div>
