@@ -2,7 +2,7 @@
 layout: LandingPage
 title: API Reference
 author: mikehoffms
-description: Xbox Live API reference, including XSAPI, XAL, Async, and RESTful APIs.
+description: Xbox Live API reference, including XSAPI, WinRT, XAL, Async, and RESTful APIs.
 ms.author: v-mihof
 ms.date: 12/12/2018
 ms.topic: article

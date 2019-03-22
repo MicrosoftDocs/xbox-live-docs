@@ -108,7 +108,7 @@ ms.localizationpriority: medium
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Xbox Live Features</h3>
+                            <h3>Features</h3>
                             <p>Adding Xbox Live features to your game, such as Identity, Social features, Achievements, Cloud Storage, Multiplayer features, and External Services.</p>
                         </div>
                     </div>
@@ -119,7 +119,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>Publishing a Game for Testing or Release</h2>
+<h2>Publish a Game for Testing or Release</h2>
 
 <ul class="cardsY panelContent cols cols2">
     <li>
@@ -159,7 +159,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText">
                             <h3>API Reference</h3>
-                             <p>Xbox Live API reference, including XSAPI, XAL, Async, and RESTful APIs.</p>
+                             <p>Xbox Live API reference, including XSAPI, WinRT, XAL, Async, and RESTful APIs.</p>
                         </div>
                     </div>
                 </div>
