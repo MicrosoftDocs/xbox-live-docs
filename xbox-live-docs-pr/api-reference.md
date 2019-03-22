@@ -27,7 +27,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Making async calls in the XSAPI C API" />
+                                <img src="images/icons/xsapi_icon.svg" alt="Making async calls in the XSAPI C API" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -46,7 +46,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="C++ and WinRT XSAPI" />
+                                <img src="images/icons/xsapi_icon.svg" alt="C++ and WinRT XSAPI" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -66,7 +66,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Xbox Live WinRT SDK API Reference" />
+                                <img src="images/icons/winrt_icon.svg" alt="Xbox Live WinRT SDK API Reference" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -95,7 +95,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Authentication and sign-in"/>
+                                <img src="images/icons/xal_icon.svg" alt="Authentication and sign-in"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -123,7 +123,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Making async calls in the XSAPI C API" />
+                                <img src="images/icons/xsapi_icon.svg" alt="Making async calls in the XSAPI C API" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -149,7 +149,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Xbox Live Services RESTful Reference" />
+                                <img src="images/icons/rest_icon.svg" alt="Xbox Live Services RESTful Reference" />
                             </div>
                         </div>
                         <div class="cardText">
