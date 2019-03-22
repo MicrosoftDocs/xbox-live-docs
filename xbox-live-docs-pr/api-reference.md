@@ -123,7 +123,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/icons/xsapi_icon.svg" alt="Making async calls in the XSAPI C API" />
+                                <img src="images/icons/async_icon.svg" alt="Making async calls in the XSAPI C API" />
                             </div>
                         </div>
                         <div class="cardText">
