@@ -22,7 +22,9 @@ The following policies apply when Xbox Live is integrated into a mobile, PC or c
 Adherence to these integration policies will ensure successful deployment of Xbox Live in your game and consistent implementation across the gaming ecosystem. Failure to adhere to these policies may result in revocation of access to the Xbox Live service by your title.
 
 ## Store policies
-Games which using Xbox Live are still subject to the store polices for the application platforms which they  submit their game to. For Microsoft Store, the store policies are located [here](https://docs.microsoft.com/en-us/legal/windows/agreements/store-policies). For developers not in the Xbox Live Creators program, the policies on this page supercede store policies 10.13.5, 10.13.6, 10.13.7, 10.13.8, 10.13.9, and 10.13.11.
+Games which use Xbox Live are still subject to the store polices for the application platforms which they  submit their game to. For Microsoft Store, the store policies are located [here](https://docs.microsoft.com/en-us/legal/windows/agreements/store-policies). For developers not in the Xbox Live Creators program, the policies on this page supercede store policies 10.13.5, 10.13.6, 10.13.7, 10.13.8, 10.13.9, and 10.13.11.
+
+For PC games submitted to the Microsoft Store which have Xbox Live, there will be pre release testing to ensure that the Xbox Live implementation functions correctly and that parental controls are respected prior to release.  This testing will occur in parallel to normal store testing, adding no additional delays to your publishing timeline on the Microsoft Store.  
 
 ## Policy enforcement process
 
@@ -31,7 +33,7 @@ You are free to release and update your Xbox Live integrated game on any store o
 2. Spot-check review of select games, including the most popular titles.
 3. Alerts and/or warnings we find in our back-end services.
 
-If your game is found to not adhere to these policies, we will inform you and provide a reasonable timeline to fix based on severity, as determined by Microsoft. Other than in exceptional circumstances,if the issue is not resolved within the requested timeframe we may revoke the game’s ability to sign into Xbox Live services until the issue is resolved.
+If your game is found to not adhere to these policies, we will inform you and provide a reasonable timeline to fix based on severity, as determined by Microsoft. Other than in exceptional circumstances, if the issue is not resolved within the requested timeframe we may revoke the game’s ability to sign into Xbox Live services until the issue is resolved.
 
 ## Xbox Live Implementation Policies, March 2019
 
