@@ -223,7 +223,7 @@ Titles which exceed [title and user based limits ](https://docs.microsoft.com/en
 >* View in-game Friends List (including a friend with presence blocked) and move between pages rapidly
 >* Earn and view a Hero Stat
 >* Match-make into all online modes, including being unable to find an available session (if possible) and generate voice traffic
-> * Create, save and share a game clip
+>* Create, save and share a game clip
 >* Access the in-game store (if applicable)
 >2. Once test has concluded, stop the fiddler trace.
 >3. In the XDK command prompt, run _xboxlivetraceanalyzer -data filepath -outputdir filepath_
@@ -233,7 +233,7 @@ Titles which exceed [title and user based limits ](https://docs.microsoft.com/en
 Games must not display any serious warnings in their Live Trace Analyzer output results. Titles must ensure they keep their service calls to Xbox Live endpoints below the specified burst and sustain limits.
 
 **Pass Examples**  
-> 1. The title does not exceed the sustain limit when calling Xbox Live services.  
+>1. The title does not exceed the sustain limit when calling Xbox Live services.  
 
 **Fail Examples**  
 >1. The title exceeds the sustain limit (limit at which rate limiting takes effect) by 10x. For example, if the sustained limit at which Fine Grain Rate Limiting takes effect is set to 300 calls in 300 seconds, titles at or above 3000 calls in 300 seconds will fail.
@@ -275,10 +275,10 @@ If account linking is enabled within the title, the following rules apply:
 >14. Verify the user is able to unlink their Xbox profile from the non-Xbox account.  
 
 **Expected Result**  
->The user should only have to provide his or her credentials once and allows the user to view the terms of use, or informs the user how to view the terms of use, prior to completing the account linking process. Users are provided with a mechanism to unlink their Xbox profile from their non-Xbox account.  
+The user should only have to provide his or her credentials once and allows the user to view the terms of use, or informs the user how to view the terms of use, prior to completing the account linking process. Users are provided with a mechanism to unlink their Xbox profile from their non-Xbox account.  
 
 **Pass Examples**  
-> 1. The title never asks the user to reenter his or her non-Xbox account or login credentials at any point after he or she has initially entered them and the title provides a notification of the terms of use both during the linking process and for as long as the accounts are linked.  
+>1. The title never asks the user to reenter his or her non-Xbox account or login credentials at any point after he or she has initially entered them and the title provides a notification of the terms of use both during the linking process and for as long as the accounts are linked.  
 
 **Fail Examples**  
 >1. The title requires the user to enter his or her non-Xbox account or login credentials every time the title is launched.
