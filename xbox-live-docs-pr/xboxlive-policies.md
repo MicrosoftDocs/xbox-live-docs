@@ -35,6 +35,8 @@ You are free to release and update your Xbox Live integrated game on any store o
 
 If your game is found to not adhere to these policies, we will inform you and provide a reasonable timeline to fix based on severity, as determined by Microsoft. Other than in exceptional circumstances, if the issue is not resolved within the requested timeframe we may revoke the game’s ability to sign into Xbox Live services until the issue is resolved.
 
+For information on how to test your title's adherence to these policies, visit [Xbox Live Integration Test Cases For PC and Mobile Devices](xboxlive-policy-tests.md)
+
 ## Xbox Live Implementation Policies, March 2019
 
 ### Player Data and Privacy
