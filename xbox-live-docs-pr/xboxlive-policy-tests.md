@@ -7,7 +7,7 @@ layout: LandingPage
 keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
 ---
-# Xbox Live Test Cases For PC and Mobile Devices that Integrate Xbox Live
+# Xbox Live Integration Test Cases For PC and Mobile Devices 
 
 Version 1.0, 3/26/2019
 
