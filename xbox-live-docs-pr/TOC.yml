@@ -515,6 +515,9 @@
           href: xbox-live-resources.md
         - name: Xbox Live policies
           href: xboxlive-policies.md
+          items:
+            - name: Xbox Live terminology
+              href: xboxlive-terminology.md
         - name: Configuring Xbox Live services, for Managed Partners
           href: configuring-xbox-live-services.md
           items: 
