@@ -15,7 +15,7 @@ Version 1.0, 3/26/2019
 
 Click [here](xboxlive-policies.md) to view the Xbox Live Integration Policies for PC and Mobile Devices.
 
-The following test cases are the suggested way to validate a title when Xbox Live is integrated into a mobile, PC or console device other than Xbox One.  
+The following test cases are the recommended way to validate a title when Xbox Live is integrated into a mobile, PC or console device other than Xbox One.  
 
 ### Official Naming Standards (XR-022)
 
