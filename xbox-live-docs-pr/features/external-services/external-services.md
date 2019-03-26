@@ -2,7 +2,7 @@
 layout: LandingPage
 title: External Services
 author: mikehoffms
-description: Xbox Live External Services include Web services, relying parties, single sign-on, and access policies.
+description: Web services, relying parties, single sign-on, and access policies.
 ms.author: v-mihof
 ms.date: 12/11/2018
 ms.topic: article

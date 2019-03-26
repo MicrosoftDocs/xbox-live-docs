@@ -2,7 +2,7 @@
 layout: LandingPage
 title: Features
 author: mikehoffms
-description: The stack of Xbox Live features are powerful tools to attract, engage and retain players.
+description: Adding Xbox Live features to your game, such as Identity, Social features, Achievements, Cloud Storage, Multiplayer features, and External Services.
 ms.author: v-mihof
 ms.date: 12/11/2018
 ms.topic: article
@@ -12,18 +12,14 @@ ms.localizationpriority: medium
 
 <h1>Features</h1>
 
-<p>The stack of Xbox Live features are powerful tools to attract, engage and retain players. Learn more about each feature category below.</p>
+<p>
+  The stack of Xbox Live features are powerful tools to attract, engage and retain players.
+  Learn more about each feature category below.
+</p>
+<p>
+  To begin adding Xbox Live Features to your game, first complete the <a href="../get-started/index.md">Getting Started</a> steps so that your game can do basic sign-in to Xbox Live.
+</p>
 
-<h2>Pre-Requisites</h2>
-
-<p>To begin adding Xbox Live Features to your game, complete the Getting Started steps:</p>
-
-<ol>
-    <li>Join the <a href="https://www.xbox.com/en-US/developers/creators-program?xr=footnav">Creators Program</a> or the <a href="https://www.xbox.com/en-US/developers/id">ID@Xbox Program</a></li>
-    <li>Set up a game at Partner Center.</li>
-    <li>Set up one of the following IDEs with the Xbox Live SDK, for your target platforms:</li>
-    <li>Add Xbox Live sign-in code to your game.</li>
-</ol>
 
 <h2>Feature Areas</h2>
 
@@ -40,7 +36,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText">
                             <h3>Identity features</h3>
-                            <p>Allow players to sign-in to Xbox Live within your title, utilize Gamertag, Gamerpic, and configure privacy settings.</p>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
                         </div>
                     </div>
                 </div>
@@ -59,7 +55,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText">
                             <h3>Social features</h3>
-                            <p>Configure Friends List, in-game clubs, and presence displays strings.</p>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
                         </div>
                     </div>
                 </div>
@@ -78,7 +74,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText">
                             <h3>Player Data</h3>
-                            <p>Configure Achievements, Stats, and Leaderboards.</p>
+                            <p>Achievements, player stats, leaderboards, and featured stats.</p>
                         </div>
                     </div>
                 </div>
@@ -97,7 +93,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText">
                             <h3>Cloud Storage</h3>
-                            <p>Build in connected storage and title storage options.</p>
+                            <p>Connected Storage and Title Storage.</p>
                         </div>
                     </div>
                 </div>
@@ -116,7 +112,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText">
                             <h3>Multiplayer features</h3>
-                            <p>Enable matchmaking, invites, voice chat and networking options.</p>
+                            <p>Matchmaking, invites, voice and text chat, and networking.</p>
                         </div>
                     </div>
                 </div>
@@ -135,7 +131,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText">
                             <h3>External Services</h3>
-                            <p>Customize how titles interact with Xbox Live services. Utilize Web Services as publisher-level configuration.</p>
+                            <p>Web services, relying parties, single sign-on, and access policies.</p>
                         </div>
                     </div>
                 </div>

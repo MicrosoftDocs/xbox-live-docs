@@ -2,7 +2,7 @@
 layout: LandingPage
 title: Multiplayer features
 author: mikehoffms
-description: Multiplayer features in Xbox Live include matchmaking, invites, voice chat, and networking.
+description: Matchmaking, invites, voice and text chat, and networking.
 ms.author: v-mihof
 ms.date: 12/11/2018
 ms.topic: article

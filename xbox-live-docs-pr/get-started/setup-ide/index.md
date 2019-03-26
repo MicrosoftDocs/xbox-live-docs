@@ -34,5 +34,4 @@ ID@Xbox partners can use:
 
 ### Next steps
 
-After setting up an IDE to use the Xbox Live SDK, do step 3: Add Xbox Live sign-in code to your game.
-See [Getting started](../index.md).
+After setting up your IDE to use the Xbox Live SDK, add basic sign-in code to your game; see [Getting Started](../index.md).

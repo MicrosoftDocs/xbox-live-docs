@@ -1,6 +1,6 @@
 ---
 title: What is Xbox Live?
-description: Use Xbox Live services to connect your game to the Xbox Live gaming network.
+description: Xbox Live provides the greatest player community for your game on the most advanced cross-platform multiplayer network.
 ms.assetid: 5a402113-b485-46f3-a30e-73f4b71492b6
 ms.date: 04/04/2017
 ms.topic: article
@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 # What is Xbox Live?
 
 Xbox Live is a premier gaming network that connects millions of gamers across the world.
-You can add Xbox Live to your Windows 10 or Xbox One game in order to take advantage of the Xbox Live features and services.
+You can add Xbox Live to your game on mobile platforms, Windows 10 PC, and Xbox One console to take advantage of the Xbox Live features and services.
 
 Here are some reasons to add Xbox Live to your game:
 

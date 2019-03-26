@@ -6,9 +6,9 @@
     - name: Getting Started
       href: get-started/index.md
       items:
-        - name: Developer program overview
+        - name: Joining a developer program
           href: developer-program-overview.md
-        - name: Setting up a game at Partner Center
+        - name: Setting up a game app at Partner Center
           href: get-started/setup-partner-center/index.md
           items:
             - name: Setting up a game at Partner Center, for Creators
@@ -66,6 +66,8 @@
             - name: IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners
               href: get-started-with-partner/managed-partners-and-id-xbox-developers.md
               items: 
+                - name: Adding Xbox Live to your Android Studio Project
+                  href: get-started-with-partner/get-started-with-android-studio.md
                 - name: Get started with the Xbox Live APIs on Android
                   href: get-started-with-ios-android/android-get-started-with-xsapi.md
                 - name: Get started with the Xbox Live APIs on iOS
@@ -107,6 +109,8 @@
                       href: get-started-with-partner/compile-the-xdk-xbox-live-api-source.md
                 - name: Get started with cross-play games
                   href: get-started-with-partner/get-started-with-cross-play-games.md
+        - name: Adding basic sign-in code for mobile
+          href: get-started/getting-xsapi-to-sign-in.md
     - name: Features
       href: features/index.md
       items:
@@ -116,7 +120,7 @@
             - name: Authentication and sign-in
               href: using-xbox-live/auth/authentication.md
               items: 
-                - name: Authentication for Mobile Projects using XAL
+                - name: Authentication for mobile projects using XAL
                   href: using-xbox-live/auth/xal.md
                   items: 
                     - name: Xbox Authentication Library (XAL) overview
@@ -511,6 +515,9 @@
           href: xbox-live-resources.md
         - name: Xbox Live policies
           href: xboxlive-policies.md
+          items:
+            - name: Xbox Live terminology
+              href: xboxlive-terminology.md
         - name: Configuring Xbox Live services, for Managed Partners
           href: configuring-xbox-live-services.md
           items: 

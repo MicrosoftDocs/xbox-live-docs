@@ -2,7 +2,7 @@
 layout: LandingPage
 title: Identity features
 author: mikehoffms
-description: Identity features of Xbox Live include user identity, authentication and XAL sign-in, privileges, and privacy.
+description: User profile, authentication and sign-in, privileges, and privacy settings.
 ms.author: v-mihof
 ms.date: 12/11/2018
 ms.topic: article
@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 
 # Identity features
 
-Identity features of Xbox Live include user identity, authentication and XAL sign-in, privileges, and privacy.
+Identity features of Xbox Live include user profile, authentication and XAL sign-in, privileges, and privacy settings.
 
 
 ### In this section
