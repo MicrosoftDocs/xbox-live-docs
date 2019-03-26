@@ -61,20 +61,20 @@ On non console platforms, while not required, we recommend you use the Xbox Live
 
 If titles show the user's gamerpic, the corresponding GameDisplayPic function must be used. These items are returned by the get_user_profile or GetUserProfileAsync Xbox Live APIs. When the gamertag is displayed, all 15 characters of any gamertag must be displayed correctly. Gamertags can include only ASCII characters a--z, A--Z, 0--9, comma (,), and space (ASCII character 0x20).
 
-### Profile Settings Usage (XR-048)
+### [Profile Settings Usage (XR-048)](XR048.md)
 The Xbox Live service is the source for Xbox Live user profile information. Games must not store user information sourced from Xbox Live, such as profile data, preferences, or display names, beyond a locally stored cache used to support loss of network connectivity. Any such caches must be updated on the next available connection to the service. 
 
 ## Service Connectivity
 
-### Loss of Connectivity to Xbox and Partner Services (XR-074)
+### [Loss of Connectivity to Xbox and Partner Services (XR-074)](XR074.md)
 Titles must resolve errors with Xbox Live and partner services connectivity. Titles must honor the retry policies set by Xbox Live when attempting to retry a request to the Xbox service after a failure has occurred.  Titles must appropriately manage messaging the user when services are unavailable. For example, if a partner service other than Xbox Live is not available, the game should not indicate that there is an issue with Xbox Live.
  
-### Service Access Limitations (XR-132) 
+### [Service Access Limitations (XR-132)](XR132.md) 
 Titles which exceed [title and user based limits ](https://docs.microsoft.com/en-us/windows/uwp/xbox-live/using-xbox-live/best-practices/fine-grained-rate-limiting)when calling Xbox Live services or do not adhere to Xbox Live service retry policies may be subjected to rate limiting, which may result in service interruption or deprecation. Failure to adhere to the specified limits may block a title from release, and in-production issues with released titles may result in Xbox Live services suspension up to and including title removal.
 
 ## Online Safety and Privacy
  
-### Linking Microsoft Accounts with Publisher Accounts (XR13)
+### [Linking Microsoft Accounts with Publisher Accounts (XR-013)](XR013.md)
 On Xbox One, titles that use partner-hosted services or accounts that require credentials must link that account with the user’s Microsoft account.  
 
 Outside of Xbox One, titles can choose to allow account linking to support their game experience.  
@@ -86,7 +86,7 @@ If account linking is enabled within the title, the following rules apply:
 * Users must be provided all applicable terms of use, privacy and other policies within the title (or a notice with a link to such information) both during the linking process and for as long as the accounts are linked.
 * Users must have the ability to de-link accounts. 
 
-### Xbox Live and Account Privileges (XR-045)
+### [Xbox Live and Account Privileges (XR-045)](XR045.md)
 Xbox Live provides users with an expected level of privacy and online safety for themselves and their children. In order to deliver on that promise, titles must check the Xbox Live service for privileges to complete certain actions on the Xbox Live service or in a title experience.
 
 
@@ -99,7 +99,7 @@ Xbox Live provides users with an expected level of privacy and online safety for
 |User-generated content (UGC)|247|XPRIVILEGE_USER_CREATED_CONTENT|Allows a user to see other users’ UGC online, download other users’ UGC, or share their own UGC online. This does not restrict usage of previously downloaded UGC. |
 |Sharing to a social network|220|XPRIVILEGE_SOCIAL_NETWORK_SHARING|Xbox One Only: Allows a user to share information, including game progress, Kinect-generated content, game clips, and so on outside of Xbox Live.|
 
-### Privacy and Permissions (XR-015)
+### [Privacy and Permissions (XR-015)](XR015.md)
 Titles must not transmit user data or allow communication over Xbox Live when the user's privacy & online safety settings do not allow it.
 
 Titles meet this XR by retrieving data from Xbox Live services. If the title uses its own services, it must check the user's privacy permissions at the beginning of a session or when a new user joins the session. For user-initiated scenarios outside of sessions, titles meet this requirement by checking privacy prior to displaying the user's data and before performing the action. The following list of privacy settings is available for titles to check:
@@ -139,7 +139,7 @@ Achievements must not be shared across titles. When a single title is supported 
 After an achievement has been published to users, it cannot be removed, nor can its unlock rules or rewards be changed. Achievement text strings (name, description) or art (icons/background) can be modified.
  
  
-### Achievement Names and Descriptions (XR-062)
+### [Achievement Names and Descriptions (XR-062)](XR062.md)
 Achievement names and descriptions may contain only content that would merit a rating of PEGI 12, ESRB EVERYONE 10+, or lower.
 
 Achievement names and descriptions may not contain what is commonly considered profanity in a clear text or redacted form.
