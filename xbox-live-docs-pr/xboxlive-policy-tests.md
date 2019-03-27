@@ -481,7 +481,7 @@ All achievements can be gained without being required to purchase additional in-
 > 1. The user is required to purchase additional in-title content to unlock an achievement defined by the base title.
 
 <br />
- 
+
 ### Achievements Across Multiple Titles or Platforms (XR-058)
 Achievements must not be shared across titles. When a single title is supported across different platforms by using the same title ID, a title must share the same set of achievements and can, at their discretion, have platform-specific achievements.
   
