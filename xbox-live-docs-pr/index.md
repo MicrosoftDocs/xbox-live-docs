@@ -20,7 +20,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsY panelContent cols cols2">
     <li>
-        <a href="https://developer.microsoft.com/en-us/games/news-and-events/gdc2019" target="_blank">
+        <a href="https://developer.microsoft.com/games/news-and-events/gdc2019" target="_blank">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -30,7 +30,7 @@ ms.localizationpriority: medium
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>GDC Announcements</h3>
+                            <h3>GDC Announcements &#11008;</h3>
                             <p>Visit us at GDC to find out the best ways to host your game in the cloud, operate your live titles, or reach the most passionate and engaged gamers on the planet.</p>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText"> 
                             <h3>What is Xbox Live?</h3>
-                            <p>What Xbox Live does and how it works.</p>
+                            <p>Xbox Live provides the greatest player community for your game on the most advanced cross-platform multiplayer network.</p>
                         </div>
                     </div>
                 </div>
@@ -108,7 +108,7 @@ ms.localizationpriority: medium
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Xbox Live Features</h3>
+                            <h3>Features</h3>
                             <p>Adding Xbox Live features to your game, such as Identity, Social features, Achievements, Cloud Storage, Multiplayer features, and External Services.</p>
                         </div>
                     </div>
@@ -119,7 +119,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>Publishing a Game for Testing or Release</h2>
+<h2>Publish a Game for Testing or Release</h2>
 
 <ul class="cardsY panelContent cols cols2">
     <li>
@@ -159,7 +159,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText">
                             <h3>API Reference</h3>
-                             <p>Xbox Live API reference, including XSAPI, XAL, Async, and RESTful APIs.</p>
+                             <p>Xbox Live API reference, including XSAPI, WinRT, XAL, Async, and RESTful APIs.</p>
                         </div>
                     </div>
                 </div>

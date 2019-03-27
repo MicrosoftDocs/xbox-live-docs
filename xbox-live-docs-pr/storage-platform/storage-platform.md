@@ -2,7 +2,7 @@
 layout: LandingPage
 title: Cloud Storage
 author: mikehoffms
-description: Xbox Live Cloud Storage includes Connected Storage to store game state, and Title Storage to store player statistics and assets.
+description: Connected Storage and Title Storage.
 ms.author: v-mihof
 ms.date: 12/11/2018
 ms.topic: article

@@ -13,15 +13,14 @@ ms.localizationpriority: medium
 <h1>Testing and Releasing</h1>
 
 <p>
+  You can publish a game to a private sandbox for testing, or to the public on the Xbox Managed Partners Store.
+</p>
+<p>
   To publish a game for testing or public release, first complete the <a href="../get-started/index.md">Getting Started</a> steps so that your game can do basic sign-in to Xbox Live.
 </p>
 
 
-<h2>Creators Program</h2>
-
-<p>
-  You can publish a game privately in a sandbox for testing, or publicly on the Xbox Creators Store.
-</p>
+<h2>Publishing to a sandbox, for Creators</h2>
 
 <ul class="cardsY panelContent cols cols2">
     <li>
@@ -43,52 +42,10 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
-    <li>
-        <a href="https://docs.microsoft.com/en-us/legal/windows/agreements/store-policies">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="../images/getting_started/xboxicon1.svg" alt="Microsoft Store Policies"/>
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Microsoft Store Policies</h3>
-                            <p>Includes Gaming and Xbox Policies.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/windows/uwp/publish/">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="../images/getting_started/xboxicon1.svg" alt="Publish Windows apps and games"/>
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Publish Windows apps and games</h3>
-                            <p>Submitting a game for certification and listing it in the Microsoft Store (in the UWP documentation).</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
 </ul>
 
 
-<h2>ID@Xbox Managed Partners Program</h2>
-
-<p>
-  You can publish a game to a private sandbox for testing, or to the public on the Xbox Managed Partners Store.
-</p>
+<h2>Publishing to a sandbox, for Managed Partners</h2>
 
 <ul class="cardsY panelContent cols cols2">
     <li>
@@ -110,8 +67,14 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
+</ul>
+
+
+<h2>Publishing to the store</h2>
+
+<ul class="cardsY panelContent cols cols2">
     <li>
-        <a href="https://docs.microsoft.com/en-us/windows/uwp/publish/">
+        <a href="https://docs.microsoft.com/windows/uwp/publish/" target="_blank">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -121,8 +84,27 @@ ms.localizationpriority: medium
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Publish Windows apps and games</h3>
-                            <p>Submitting a game for certification and listing it in the Microsoft Store (in the UWP documentation).</p>
+                            <h3>Publish Windows apps and games &#11008;</h3>
+                            <p>Submitting a game for certification and listing it in the Microsoft Store.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/legal/windows/agreements/store-policies" target="_blank">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="../images/getting_started/xboxicon1.svg" alt="Microsoft Store Policies"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Microsoft Store Policies &#11008;</h3>
+                            <p>Includes Gaming and Xbox Policies.</p>
                         </div>
                     </div>
                 </div>

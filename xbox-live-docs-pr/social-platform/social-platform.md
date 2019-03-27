@@ -12,8 +12,6 @@ ms.localizationpriority: medium
 
 # Social features
 
-Social features in Xbox Live provide a gaming-oriented social network that includes a user's profile, gamerscore, achievements, clubs, and activity feed.
-
 
 ### In this section
 
