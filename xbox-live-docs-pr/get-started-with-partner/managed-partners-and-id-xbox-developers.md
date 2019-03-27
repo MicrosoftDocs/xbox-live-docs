@@ -1,6 +1,6 @@
 ---
 layout: LandingPage
-title: IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners
+title: Setting up an IDE to use Xbox Live, for ID@Xbox Managed Partners
 author: mikehoffms
 description: IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners, including Visual Studio and Unity.
 ms.author: v-mihof
@@ -9,8 +9,8 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, partner, ID@Xbox
 ms.localizationpriority: medium
 ---
+# Setting up an IDE to use Xbox Live, for ID@Xbox Managed Partners
 
-# IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners
 
 ## In this section
 

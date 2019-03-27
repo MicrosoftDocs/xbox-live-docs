@@ -1,16 +1,15 @@
 ---
 layout: LandingPage
-title: IDEs, SDKs, and target platforms, for Creators
-author: mikehoffms
+title: Setting up an IDE to use Xbox Live, for Creators
 description: IDEs, SDKs, and target platforms, for Creators, including Visual Studio and Unity.
+author: mikehoffms
 ms.author: v-mihof
 ms.date: 12/06/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
-
-# IDEs, SDKs, and target platforms, for Creators
+# Setting up an IDE to use Xbox Live, for Creators
 
 The Xbox Live Creators Program is a good starting point for Xbox Live if you are looking to familiarize yourself with Xbox Live development.
 
