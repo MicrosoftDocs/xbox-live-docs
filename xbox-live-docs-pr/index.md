@@ -57,12 +57,6 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
-</ul>
-
-
-<h2>Get Started</h2>
-
-<ul class="cardsY panelContent cols cols2">
     <li>
         <a href="get-started/index.md">
             <div class="cardSize">
@@ -82,21 +76,6 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
-</ul>
-
-
-<h2>Add Xbox Live Features</h2>
-
-<!-- <p>Set up an IDE and dive into the features that make up Xbox Live - Identity, Social, Achievements, Cloud Storage, Multiplayer and External Services</p>
-
-<ul>
-    <li>Follow a prebuilt path to success that will lead to being able to integrate and work with any of the Xbox Live features</li>
-    <li>Learn about each feature in detail</li>
-    <li>How to configure the feature in the Partner Center</li>
-    <li>Examples of implementation and how to call a feature</li>
-</ul> -->
-
-<ul class="cardsY panelContent cols cols2">
     <li>
         <a href="features/index.md">
             <div class="cardSize">
@@ -116,12 +95,6 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
-</ul>
-
-
-<h2>Publish a Game for Testing or Release</h2>
-
-<ul class="cardsY panelContent cols cols2">
     <li>
         <a href="releasing/releasing.md">
             <div class="cardSize">
@@ -141,12 +114,6 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
-</ul>
-
-
-<h2>API Reference</h2>
-
-<ul class="cardsY panelContent cols cols2">
     <li>
         <a href="api-reference.md">
             <div class="cardSize">

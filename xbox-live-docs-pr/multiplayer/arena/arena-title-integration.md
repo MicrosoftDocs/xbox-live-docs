@@ -217,6 +217,7 @@ This diagram shows the arbitration timeline.
 
 
 <!-- #### Subheading TBD -->
+#### ___________________
 
 At least one player must be active in the session before the forfeit time, which is the start time (`multiplayer_session_arbitration_server::arbitration_start_time()`) plus the forfeit time-out.
 The forfeit time-out is in the session as a number of milliseconds at `/constants/system/arbitration/forfeitTimeout` (`multiplayer_session_constants::forfeit_timeout()`).
@@ -230,6 +231,7 @@ Set it to allow as much time as your title needs for the match to be completed.
 
 
 <!-- #### Subheading TBD -->
+#### ___________________
 
 Your title can report results at any time between the start time and the arbitration time.
 Arbitration occurs at any time between the forfeit time and the arbitration time, after every active member of the session has submitted results.
@@ -240,6 +242,7 @@ If no results are submitted when arbitration time is reached, all participants i
 
 
 <!-- #### Subheading TBD -->
+#### ___________________
 
 It’s also possible for a game server to force arbitration at any time by simply writing an arbitrated result.
 
@@ -277,6 +280,7 @@ If **outcome** is anything other than “rank,” the ranking is omitted for tha
 
 
 <!-- #### Subheading TBD -->
+#### ___________________
 
 Individual users write the match results to `/members/{index}/properties/system/arbitration` (`multiplayer_session::set_current_user_member_arbitration_results()`).
 
@@ -317,6 +321,7 @@ multiplayer_session_write_mode::update_existing)
 ```
 
 <!-- #### Subheading TBD -->
+#### ___________________
 
 After arbitration occurs, MPSD places the final results in `/servers/arbitration/properties/system` (`multiplayer_session::arbitration_server()`), along with a few other properties as shown here.
 
