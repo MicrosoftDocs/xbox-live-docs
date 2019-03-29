@@ -20,7 +20,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Overview of Multiplayer features" />
+                                <img src="../images/features/multiplayerfeature.svg" alt="Overview of Multiplayer features" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -39,7 +39,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Multiplayer concepts for Xbox Live" />
+                                <img src="../images/features/multiplayerfeature.svg" alt="Multiplayer concepts for Xbox Live" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -58,7 +58,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Multiplayer scenarios" />
+                                <img src="../images/features/multiplayerfeature.svg" alt="Multiplayer scenarios" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -77,7 +77,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Matchmaking" />
+                                <img src="../images/features/multiplayerfeature.svg" alt="Matchmaking" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -96,7 +96,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Invites" />
+                                <img src="../images/features/multiplayerfeature.svg" alt="Invites" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -115,7 +115,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Voice and text chat" />
+                                <img src="../images/features/multiplayerfeature.svg" alt="Voice and text chat" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -134,7 +134,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Xbox Integrated Multiplayer (XIM)" />
+                                <img src="../images/features/multiplayerfeature.svg" alt="Xbox Integrated Multiplayer (XIM)" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -153,7 +153,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Multiplayer roles" />
+                                <img src="../images/features/multiplayerfeature.svg" alt="Multiplayer roles" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -172,7 +172,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Xbox Arena" />
+                                <img src="../images/features/multiplayerfeature.svg" alt="Xbox Arena" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -191,7 +191,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Multiplayer Service configuration" />
+                                <img src="../images/features/multiplayerfeature.svg" alt="Multiplayer Service configuration" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -210,7 +210,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Multiplayer 2015 appendix" />
+                                <img src="../images/features/multiplayerfeature.svg" alt="Multiplayer 2015 appendix" />
                             </div>
                         </div>
                         <div class="cardText">

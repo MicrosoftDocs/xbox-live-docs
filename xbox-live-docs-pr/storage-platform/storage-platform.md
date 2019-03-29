@@ -20,7 +20,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Connected Storage vs. Title Storage" />
+                                <img src="../images/features/cloudfeatures.svg" alt="Connected Storage vs. Title Storage" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -39,7 +39,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Connected Storage" />
+                                <img src="../images/features/cloudfeatures.svg" alt="Connected Storage" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -58,7 +58,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Title Storage" />
+                                <img src="../images/features/cloudfeatures.svg" alt="Title Storage" />
                             </div>
                         </div>
                         <div class="cardText">

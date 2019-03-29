@@ -12,13 +12,6 @@ ms.localizationpriority: medium
 
 <h1>Identity features</h1>
 
-<p>
-  Identity features of Xbox Live include user profile, authentication and XAL sign-in, privileges, and privacy settings.
-</p>
-<p>
-  To begin adding Xbox Live Features to your game, first complete the <a href="../get-started/index.md">Getting Started</a> steps so that your game can do basic sign-in to Xbox Live.
-</p>
-
 <ul class="cardsY panelContent cols cols2">
     <li>
         <a href="../../using-xbox-live/auth/authentication.md">
@@ -27,7 +20,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Authentication and sign-in" />
+                                <img src="../../images/features/identityfeature.svg" alt="Authentication and sign-in" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -46,7 +39,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Single Point of Presence (SPOP)" />
+                                <img src="../../images/features/identityfeature.svg" alt="Single Point of Presence (SPOP)" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -65,7 +58,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="User Privileges" />
+                                <img src="../../images/features/identityfeature.svg" alt="User Privileges" />
                             </div>
                         </div>
                         <div class="cardText">
