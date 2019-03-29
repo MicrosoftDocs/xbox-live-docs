@@ -26,7 +26,7 @@ ms.localizationpriority: medium
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Joining a developer program</h3>
+                            <h3>1. Joining a developer program</h3>
                             <p>Choosing and joining either the Creators Program or the ID@Xbox Managed Partners Program.</p>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ ms.localizationpriority: medium
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Setting up a game app at Partner Center</h3>
+                            <h3>2. Setting up a game app at Partner Center</h3>
                             <p>Creating a new game app at Partner Center, enabling Xbox Live for the game, and publishing the game to a development sandbox.</p>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ ms.localizationpriority: medium
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Setting up an IDE to use Xbox Live</h3>
+                            <h3>3. Setting up an IDE to use Xbox Live</h3>
                             <p>Setting up an IDE to use the Xbox Live SDK, for your target platforms.</p>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ ms.localizationpriority: medium
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Adding basic sign-in code for mobile</h3>
+                            <h3>4. Adding basic sign-in code for mobile</h3>
                             <p>Adding code to your mobile game to enable basic sign-in to Xbox Live.</p>
                         </div>
                     </div>
@@ -93,11 +93,8 @@ ms.localizationpriority: medium
     </li>
 </ul>
 
-<h2>Next Steps</h2>
 
-<p>
-  After you have done the above steps so that your game is able to do basic sign-in to Xbox Live, you are ready to add Xbox Live Features and then test and release your Xbox Live-enabled game.
-</p>
+<h3>Next Steps</h3>
 
 <ul class="cardsY panelContent cols cols2">
     <li>
