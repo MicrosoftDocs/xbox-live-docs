@@ -20,7 +20,7 @@ ms.localizationpriority: medium
 </p>
 
 
-<h2>Publishing to a sandbox, for Creators</h2>
+<h2>Publishing to a sandbox</h2>
 
 <ul class="cardsY panelContent cols cols2">
     <li>
@@ -42,12 +42,6 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
-</ul>
-
-
-<h2>Publishing to a sandbox, for Managed Partners</h2>
-
-<ul class="cardsY panelContent cols cols2">
     <li>
         <a href="../get-started/setup-partner-center/setup-partner-center-id-partners.md">
             <div class="cardSize">
