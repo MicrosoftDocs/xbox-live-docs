@@ -14,9 +14,6 @@ ms.localizationpriority: medium
 
 <p>To get started adding Xbox Live functionality to your game, do the following steps in order.</p>
 
-
-<h2>1. Join a developer program</h2>
-
 <ul class="cardsY panelContent cols cols2">
     <li>
         <a href="../developer-program-overview.md">
@@ -37,12 +34,6 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
-</ul>
-
-
-<h2>2. Set up a game app at Partner Center</h2>
-
-<ul class="cardsY panelContent cols cols2">
     <li>
         <a href="setup-partner-center/index.md">
             <div class="cardSize">
@@ -62,12 +53,6 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
-</ul>
-
-
-<h2>3. Set up an IDE to use the Xbox Live SDK</h2>
-
-<ul class="cardsY panelContent cols cols2">
     <li>
         <a href="setup-ide/index.md">
             <div class="cardSize">
@@ -87,12 +72,6 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
-</ul>
-
-
-<h2>4. Add basic sign-in code to your game</h2>
-
-<ul class="cardsY panelContent cols cols2">
     <li>
         <a href="getting-xsapi-to-sign-in.md">
             <div class="cardSize">
@@ -117,8 +96,46 @@ ms.localizationpriority: medium
 <h2>Next Steps</h2>
 
 <p>
-  After your game is able to do basic sign-in to Xbox Live, add Xbox Live <a href="../features/index.md">Features</li></a>.
+  After you have done the above steps so that your game is able to do basic sign-in to Xbox Live, you are ready to add Xbox Live Features and then test and release your Xbox Live-enabled game.
 </p>
-<p>
-  Then your game will be ready for <a href="../releasing/releasing.md">Testing and Releasing</li></a>.
-</p>
+
+<ul class="cardsY panelContent cols cols2">
+    <li>
+        <a href="../features/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="../images/getting_started/xboxicon1.svg" alt="Features"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Features</h3>
+                            <p>Adding Xbox Live features to your game, such as Identity, Social features, Achievements, Cloud Storage, Multiplayer features, and External Services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="../releasing/releasing.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="../images/getting_started/xboxicon1.svg" alt="Testing and Releasing"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Testing and Releasing</h3>
+                            <p>Testing, troubleshooting, and publishing a game.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
