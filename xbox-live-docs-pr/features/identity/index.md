@@ -39,7 +39,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../../images/features/identityfeature.svg" alt="Single Point of Presence (SPOP)" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Single Point of Presence (SPOP)" />
                             </div>
                         </div>
                         <div class="cardText">
