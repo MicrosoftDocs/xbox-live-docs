@@ -20,8 +20,8 @@ ms.localizationpriority: medium
 </p>
 
 
-<h2>cardsB icons - 8 (1 col)</h2>
-<ul class="cardsB panelContent cols cols2">
+<h2>cardsF icons - 10</h2>
+<ul class="cardsF panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
             <div class="cardSize">
@@ -63,8 +63,8 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsF icons - 10</h2>
-<ul class="cardsF panelContent cols cols2">
+<h2>cardsY icons - 9</h2>
+<ul class="cardsY panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
             <div class="cardSize">
@@ -149,49 +149,6 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsJ icons - 5 (1 col)</h2>
-<ul class="cardsJ panelContent cols cols2">
-    <li>
-        <a href="/gaming/xbox-live/features/identity">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Identity features</h3>
-                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="/gaming/xbox-live/social-platform/social-platform">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Social features" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Social features</h3>
-                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-</ul>
-
-
 <h2>cardsM icons - 7</h2>
 <ul class="cardsM panelContent cols cols2">
     <li>
@@ -235,8 +192,51 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsY icons - 9</h2>
-<ul class="cardsY panelContent cols cols2">
+<h2>cardsB icons - 8 (1 col)</h2>
+<ul class="cardsB panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsJ icons - 5 (1 col)</h2>
+<ul class="cardsJ panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
             <div class="cardSize">
