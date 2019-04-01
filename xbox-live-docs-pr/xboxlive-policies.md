@@ -13,11 +13,11 @@ Version 1.0, 3/18/2019
 
 ## Introduction 
 
-The following policies apply when Xbox Live is integrated into a mobile, PC or console device other than Xbox One.
+The following policies apply when Xbox Live is integrated into a mobile, PC, or console device other than Xbox One.
 
 >If your game is targeting Xbox One, please visit [Xbox Requirements](https://developer.microsoft.com/en-us/games/xbox/partner/certification-requirements) for the Xbox Live and Xbox Policies which apply on that platform. If you have trouble accessing that page, please contact your Microsoft representative. Interested in bringing your PC/Mobile game to Xbox One? Visit the [ID@Xbox program](https://www.xbox.com/en-us/Developers/id) for more information on how to apply.
 >
->For creators in the Xbox Live Creators Program, visit the[ Microsoft Store Policies](https://docs.microsoft.com/en-us/legal/windows/agreements/store-policies) for all policies relating to the submission of your game to the Store across all Microsoft Devices (PC, Xbox One, Hololens, etc). Note that there are additional requirements for apps that are primarily gaming experiences or target Xbox One, detailed in the section titled Gaming and Xbox. Xbox Live on devices not supported by the Microsoft Store is not available to the Creators Program at this time. Visit the [Xbox Live Creators Program](https://www.xbox.com/en-US/developers/creators-program/) for information on getting started.
+>For developers in the Xbox Live Creators Program, visit the[ Microsoft Store Policies](https://docs.microsoft.com/en-us/legal/windows/agreements/store-policies) for all policies relating to the submission of your game to the Store across all Microsoft Devices (PC, Xbox One, Hololens, etc). Note that there are additional requirements for apps that are primarily gaming experiences or target Xbox One, detailed in the section titled Gaming and Xbox. Xbox Live on devices not supported by the Microsoft Store is not available to the Creators Program at this time. Visit the [Xbox Live Creators Program](https://www.xbox.com/en-US/developers/creators-program/) for information on getting started.
 >
 Adherence to these integration policies will ensure successful deployment of Xbox Live in your game and consistent implementation across the gaming ecosystem. Failure to adhere to these policies may result in revocation of access to the Xbox Live service by your title.
 
@@ -45,8 +45,9 @@ Xbox Live Services will provide you with limited user data in order for you to d
 
 You are an independent controller of such data and must have a privacy statement (or policy) in place with end users governing your use of personal data, as required by the [Application Developer Agreement](https://docs.microsoft.com/en-us/legal/windows/agreements/app-developer-agreement). We recommend you include a link to your privacy statement from within your game, on your website, and from the detail page of any store in which you make your game available for download.    
 
-Notwithstanding the foregoing, the following rules apply to personal data provide through the Xbox Live Services.  
-* Such data may only be used to deliver your game to players.  
+The following rules apply to personal data provide through the Xbox Live Services.  
+
+* User data may only be used to deliver your game to players.  
 * You may not sell, license, or share the data with any third party.  Social graph data (e.g., friends’ lists) may not be stored, except for the account identifiers of those friends who have linked their own Xbox Live accounts with your game. Delete all account identifiers, when you remove your game from our service, or when a user delinks their Xbox Live account from your game.  
 * Do not share services or user data (even if anonymous, aggregate, or derived data) to any ad network, data broker or other advertising or monetization-related service.
 * When Microsoft receives requests from end users to delete their personal data, we will communicate the requests to you by providing a list of end user identifiers. You must check the list at least every 30 days to ensure you receive all delete requests and must use the information provided on the list only to satisfy the delete requests of end users. You can find details about this process at[ Deleted Account List Tools](https://aka.ms/xbox-deleted).
@@ -89,7 +90,7 @@ If account linking is enabled within the title, the following rules apply:
 * Users must have the ability to de-link accounts. 
 
 ### [Xbox Live and Account Privileges (XR-045)](policies/XR045.md)
-Xbox Live provides users with an expected level of privacy and online safety for themselves and their children. In order to deliver on that promise, titles must check the Xbox Live service for privileges to complete certain actions on the Xbox Live service or in a title experience.
+Xbox Live promises users a certain level of privacy and online safety for themselves and their children. In order to deliver on that promise, titles must check whether the active user has certain privileges before completing certain actions on the Xbox Live service or in a title experience.
 
 
 | **Activity**|**ID**|**Privilege Name**|**Notes**|
@@ -119,7 +120,7 @@ Titles that use communication services must ensure that users do not hear or see
 The following requirements apply to titles that offer achievements, and awards on Xbox Live.  All games targeting Xbox One are required to have Achievements and meet the following requirements. Demos are not allowed to have achievements; however, they have the option of supporting Hero Stats.
 
 ### Achievements and Gamerscore (XR-055)
-Titles that offer Xbox Live achievements must provide the required number (minimum and maximum) of achievements and their associated gamerscore at launch. Titles are permitted to add achievements or gamerscore at any time after launch, with or without corresponding new content, but they cannot exceed title-based or calendar-based limits.
+Titles that offer Xbox Live achievements must provide the required number of achievements and their associated gamerscore at launch. Titles are permitted to add achievements or gamerscore at any time after launch, with or without corresponding new content, but they cannot exceed title-based or calendar-based limits.
 
 A single achievement cannot exceed 200 gamerscore and all achievements in the title must be achievable.
 

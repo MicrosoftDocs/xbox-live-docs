@@ -1,5 +1,5 @@
 ---
-title: Xbox Live test cases for Mobile and PC
+title: Xbox Live test cases for PC and Mobile
 description: Describes the test cases for adding Xbox Live to a PC or mobile game.
 ms.date: 03/26/2019
 ms.topic: article
@@ -129,7 +129,7 @@ In the event that the device is unable to reach Xbox services, the title should 
 
 **Pass Examples**  
 >1.	Title displays error message indicating loss of network connection to Xbox services.
->2.	Title does not display an error message while playing a local game mode that does not require Xbox.
+>2.	Title does not display an error message while playing a local game mode that does not require Xbox services.
 
 **Fail Examples**  
 >1. User is unable to complete a non-online Xbox game session.
@@ -291,7 +291,7 @@ The user should only have to provide his or her credentials once and allows the 
 <br />
 
 ### [Xbox Live and Account Privileges (XR-045)](policies/XR045.md)
-Xbox Live provides users with an expected level of privacy and online safety for themselves and their children. In order to deliver on that promise, titles must check the Xbox Live service for privileges to complete certain actions on the Xbox Live service or in a title experience.
+Xbox Live promises users a certain level of privacy and online safety for themselves and their children. In order to deliver on that promise, titles must check whether the active user has certain privileges before completing certain actions on the Xbox Live service or in a title experience.
 
 
 | **Activity**|**ID**|**Privilege Name**|**Notes**|
@@ -348,7 +348,7 @@ Titles meet this XR by retrieving data from Xbox Live services. If the title use
 
 **015-01 User Communication**   
   
-**Configuration:**   Create a set of profiles with a combination of different settings for the communication permissions outlined in the table located in the Remarks section of this XR.  
+**Configuration:**   Create a set of profiles with a combination of different settings for the communication permissions outlined in the permissions table above.  
 
 **Test Steps**  
 >1. On Device 1, sign in to a profile that has been configured with a specific set of permissions per the Configuration.
@@ -419,7 +419,7 @@ User A must not be able to hear or see communication from user B. User A must no
 The following requirements apply to titles that offer achievements, and awards on Xbox Live.  All games targeting Xbox One are required to have Achievements and meet the following requirements. Demos are not allowed to have achievements; however, they have the option of supporting Hero Stats.
 
 ### Achievements and Gamerscore (XR-055)
-Titles that offer Xbox Live achievements must provide the required number (minimum and maximum) of achievements and their associated gamerscore at launch. Titles are permitted to add achievements or gamerscore at any time after launch, with or without corresponding new content, but they cannot exceed title-based or calendar-based limits.
+Titles that offer Xbox Live achievements must provide the required number of achievements and their associated gamerscore at launch. Titles are permitted to add achievements or gamerscore at any time after launch, with or without corresponding new content, but they cannot exceed title-based or calendar-based limits.
 
 A single achievement cannot exceed 200 gamerscore and all achievements in the title must be achievable.
 
