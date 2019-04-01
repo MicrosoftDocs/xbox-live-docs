@@ -137,8 +137,8 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsH icons</h2>
-<ul class="cardsH panelContent cols cols2">
+<h2>cardsA icons</h2>
+<ul class="cardsA panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
             <div class="cardSize">
@@ -180,8 +180,8 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsH illustrations</h2>
-<ul class="cardsH panelContent cols cols2">
+<h2>cardsA illustrations</h2>
+<ul class="cardsA panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
             <div class="cardSize">
@@ -737,3 +737,1639 @@ ms.localizationpriority: medium
         </a>
     </li>
 </ul>
+
+
+<h2>cardsH icons</h2>
+<ul class="cardsH panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsH illustrations</h2>
+<ul class="cardsH panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsI icons</h2>
+<ul class="cardsI panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsI illustrations</h2>
+<ul class="cardsI panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsJ icons</h2>
+<ul class="cardsJ panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsJ illustrations</h2>
+<ul class="cardsJ panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsK icons</h2>
+<ul class="cardsK panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsK illustrations</h2>
+<ul class="cardsK panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsL icons</h2>
+<ul class="cardsL panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsL illustrations</h2>
+<ul class="cardsL panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsM icons</h2>
+<ul class="cardsM panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsM illustrations</h2>
+<ul class="cardsM panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsN icons</h2>
+<ul class="cardsN panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsN illustrations</h2>
+<ul class="cardsN panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsO icons</h2>
+<ul class="cardsO panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsO illustrations</h2>
+<ul class="cardsO panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsP icons</h2>
+<ul class="cardsP panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsP illustrations</h2>
+<ul class="cardsP panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsQ icons</h2>
+<ul class="cardsQ panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsQ illustrations</h2>
+<ul class="cardsQ panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsR icons</h2>
+<ul class="cardsR panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsR illustrations</h2>
+<ul class="cardsR panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsS icons</h2>
+<ul class="cardsS panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsS illustrations</h2>
+<ul class="cardsS panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsT icons</h2>
+<ul class="cardsT panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsT illustrations</h2>
+<ul class="cardsT panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsU icons</h2>
+<ul class="cardsU panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsU illustrations</h2>
+<ul class="cardsU panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsV icons</h2>
+<ul class="cardsV panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsV illustrations</h2>
+<ul class="cardsV panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsW icons</h2>
+<ul class="cardsW panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsW illustrations</h2>
+<ul class="cardsW panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsX icons</h2>
+<ul class="cardsX panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsX illustrations</h2>
+<ul class="cardsX panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsY icons</h2>
+<ul class="cardsY panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsY illustrations</h2>
+<ul class="cardsY panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsZ icons</h2>
+<ul class="cardsZ panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsZ illustrations</h2>
+<ul class="cardsZ panelContent cols cols2">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
