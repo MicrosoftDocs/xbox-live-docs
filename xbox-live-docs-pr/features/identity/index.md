@@ -20,7 +20,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../../images/features/identityfeature.svg" alt="Authentication and sign-in" />
+                                <img src="/media/common/i_identity-protection.svg" alt="Authentication and sign-in" />
                             </div>
                         </div>
                         <div class="cardText">
