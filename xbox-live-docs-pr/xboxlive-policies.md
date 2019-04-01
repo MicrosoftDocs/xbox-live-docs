@@ -45,9 +45,9 @@ Xbox Live Services will provide you with limited user data in order for you to d
 
 You are an independent controller of such data and must have a privacy statement (or policy) in place with end users governing your use of personal data, as required by the [Application Developer Agreement](https://docs.microsoft.com/en-us/legal/windows/agreements/app-developer-agreement). We recommend you include a link to your privacy statement from within your game, on your website, and from the detail page of any store in which you make your game available for download.    
 
-The following rules apply to personal data provide through the Xbox Live Services.  
+Notwithstanding the foregoing, the following rules apply to personal data provide through the Xbox Live Services.  
 
-* User data may only be used to deliver your game to players.  
+* Such data may only be used to deliver your game to players.  
 * You may not sell, license, or share the data with any third party.  Social graph data (e.g., friends’ lists) may not be stored, except for the account identifiers of those friends who have linked their own Xbox Live accounts with your game. Delete all account identifiers, when you remove your game from our service, or when a user delinks their Xbox Live account from your game.  
 * Do not share services or user data (even if anonymous, aggregate, or derived data) to any ad network, data broker or other advertising or monetization-related service.
 * When Microsoft receives requests from end users to delete their personal data, we will communicate the requests to you by providing a list of end user identifiers. You must check the list at least every 30 days to ensure you receive all delete requests and must use the information provided on the list only to satisfy the delete requests of end users. You can find details about this process at[ Deleted Account List Tools](https://aka.ms/xbox-deleted).
