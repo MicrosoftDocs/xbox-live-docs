@@ -20,7 +20,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/features/datafeature.svg" alt="Player Data: Stats, Leaderboards, and Achievements" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Player Data: Stats, Leaderboards, and Achievements" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -39,7 +39,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/features/datafeature.svg" alt="Designing Xbox Live Experiences" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Designing Xbox Live Experiences" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -58,7 +58,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/features/datafeature.svg" alt="Achievements" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Achievements" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -77,7 +77,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/features/datafeature.svg" alt="Player Stats" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Player Stats" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -96,7 +96,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/features/datafeature.svg" alt="Leaderboards" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Leaderboards" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -115,7 +115,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/features/datafeature.svg" alt="Featured Stats" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Featured Stats" />
                             </div>
                         </div>
                         <div class="cardText">

@@ -20,7 +20,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/features/socialfeature.svg" alt="Overview of Social features" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Overview of Social features" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -39,7 +39,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/features/socialfeature.svg" alt="People System (Friends List)" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="People System (Friends List)" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -58,7 +58,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/features/socialfeature.svg" alt="Clubs" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Clubs" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -77,7 +77,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/features/socialfeature.svg" alt="Rich Presence" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Rich Presence" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -96,7 +96,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/features/socialfeature.svg" alt="Localized Strings" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Localized Strings" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -115,7 +115,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/features/socialfeature.svg" alt="Reputation" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Reputation" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -134,7 +134,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/features/socialfeature.svg" alt="Programming Social services" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Programming Social services" />
                             </div>
                         </div>
                         <div class="cardText">

@@ -20,7 +20,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="/media/common/i_identity-protection.svg" alt="Authentication and sign-in" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Authentication and sign-in" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -58,7 +58,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../../images/features/identityfeature.svg" alt="User Privileges" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="User Privileges" />
                             </div>
                         </div>
                         <div class="cardText">

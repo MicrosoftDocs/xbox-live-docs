@@ -20,7 +20,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../../images/features/externalservicesfeature.svg" alt="Web Services" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Web Services" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -39,7 +39,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../../images/features/externalservicesfeature.svg" alt="Single Sign-On" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Single Sign-On" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -58,7 +58,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../../images/features/externalservicesfeature.svg" alt="Access Policies" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Access Policies" />
                             </div>
                         </div>
                         <div class="cardText">

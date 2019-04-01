@@ -20,7 +20,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/features/cloudfeatures.svg" alt="Connected Storage vs. Title Storage" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Connected Storage vs. Title Storage" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -39,7 +39,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/features/cloudfeatures.svg" alt="Connected Storage" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Connected Storage" />
                             </div>
                         </div>
                         <div class="cardText">
