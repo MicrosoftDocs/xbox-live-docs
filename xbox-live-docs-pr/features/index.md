@@ -46,7 +46,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_configure-team.svg" alt="Social features" />
+                                <img src="https://docs.microsoft.com/media/common/i_configure-teams.svg" alt="Social features" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -144,7 +144,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -163,7 +163,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_configure-team.svg" alt="Social features" />
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -177,14 +177,14 @@ ms.localizationpriority: medium
     </li>
 </ul>
 
-<ul class="cardsA panelContent cols cols2">
+<ul class="cardsB panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                                <img src="/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
                             </div>
                         <div class="cardText">
                             <h3>Identity features</h3>
@@ -201,7 +201,7 @@ ms.localizationpriority: medium
                 <div class="cardPadding">
                     <div class="card">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_configure-team.svg" alt="Social features" />
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
                             </div>
                         <div class="cardText">
                             <h3>Social features</h3>
