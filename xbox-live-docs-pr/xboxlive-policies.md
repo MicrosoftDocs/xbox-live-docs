@@ -8,7 +8,7 @@ ms.localizationpriority: medium
 ---
 # Xbox Live Integration Policies For PC and Mobile Devices
 
-Version 1.0, 3/18/2019
+Version 1.0
 
 ## Introduction 
 
