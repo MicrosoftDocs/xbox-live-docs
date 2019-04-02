@@ -13,9 +13,10 @@ ms.localizationpriority: medium
 ---
 
 <!-- <content> -->
-<ul id="playfab" class="cardsK">
+<!-- <ul id="playfab" class="cardsK"> -->
+<ul class="cardsK panelContent cols cols2">
     <li class="fullSpan">
-        <h2>Azure PlayFab documentation</h2>
+        <h2>Xbox Live documentation</h2>
     </li>
     <li>
         <a href="/en-us/gaming/playfab/personas/developer" data-linktype="absolute-path">
