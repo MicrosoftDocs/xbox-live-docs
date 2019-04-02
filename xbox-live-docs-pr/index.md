@@ -68,7 +68,7 @@ ms.localizationpriority: medium
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bdgAccent1">
+                            <div class="cardImage bgdAccent1">
                                 <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Getting Started" />
                             </div>
                         </div>
@@ -87,7 +87,7 @@ ms.localizationpriority: medium
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bdgAccent1">
+                            <div class="cardImage bgdAccent1">
                                 <img src="https://docs.microsoft.com/media/illustrations/sql-database-develop.svg" alt="Core Xbox Live Features" />
                             </div>
                         </div>
