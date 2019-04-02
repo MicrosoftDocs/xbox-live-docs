@@ -10,7 +10,7 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h1>Features</h1>
+<h2>Features</h2>
 
 <p>
   The stack of Xbox Live features are powerful tools to attract, engage and retain players.

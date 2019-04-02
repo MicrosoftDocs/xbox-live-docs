@@ -10,9 +10,9 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h1>Cloud Storage</h1>
+<h2>Cloud Storage</h2>
 
-<ul class="cardsY panelContent cols cols2">
+<ul class="cardsF panelContent cols cols2">
     <li>
         <a href="connected-storage-vs-title-storage.md">
             <div class="cardSize">
@@ -20,7 +20,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Connected Storage vs. Title Storage" />
+                                <img src="https://docs.microsoft.com/media/common/i_overview.svg" alt="Connected Storage vs. Title Storage" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -39,12 +39,15 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Connected Storage" />
+                                <img src="https://docs.microsoft.com/media/common/i_responsive.svg" alt="Connected Storage" />
                             </div>
                         </div>
                         <div class="cardText">
                             <h3>Connected Storage</h3>
-                            <p>Connected Storage saves and loads gameplay data and other state data across devices. Title data is stored locally and also synced to the cloud.</p>
+                            <p>
+                              Connected Storage saves and loads gameplay data and other state data across devices.
+                              Title data is stored locally and also synced to the cloud.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -58,12 +61,12 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/features/cloudfeatures.svg" alt="Title Storage" />
+                                <img src="https://docs.microsoft.com/media/common/i_common-data-service.svg" alt="Title Storage" />
                             </div>
                         </div>
                         <div class="cardText">
                             <h3>Title Storage</h3>
-                            <p>Cloud storage for large amounts of per-user or per-title data, such as player statistics and assets.</p>
+                            <p>Cloud storage for large amounts of per-user or per-game data, such as player statistics and assets.</p>
                         </div>
                     </div>
                 </div>

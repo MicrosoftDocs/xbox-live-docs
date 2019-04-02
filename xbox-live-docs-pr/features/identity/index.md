@@ -10,9 +10,9 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h1>Identity features</h1>
+<h2>Identity features</h2>
 
-<ul class="cardsY panelContent cols cols2">
+<ul class="cardsF panelContent cols cols2">
     <li>
         <a href="../../using-xbox-live/auth/authentication.md">
             <div class="cardSize">
@@ -39,7 +39,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Single Point of Presence (SPOP)" />
+                                <img src="https://docs.microsoft.com/media/common/i_responsive.svg" alt="Single Point of Presence (SPOP)" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -58,7 +58,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="User Privileges" />
+                                <img src="https://docs.microsoft.com/media/common/i_threat-protection.svg" alt="User Privileges" />
                             </div>
                         </div>
                         <div class="cardText">

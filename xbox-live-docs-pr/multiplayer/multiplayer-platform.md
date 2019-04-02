@@ -10,9 +10,9 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h1>Multiplayer features</h1>
+<h2>Multiplayer features</h2>
 
-<ul class="cardsY panelContent cols cols2">
+<ul class="cardsF panelContent cols cols2">
     <li>
         <a href="multiplayer-intro.md">
             <div class="cardSize">
@@ -20,7 +20,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Overview of Multiplayer features" />
+                                <img src="https://docs.microsoft.com/media/common/i_overview.svg" alt="Overview of Multiplayer features" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -39,7 +39,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Multiplayer concepts for Xbox Live" />
+                                <img src="https://docs.microsoft.com/media/common/i_reference.svg" alt="Multiplayer concepts for Xbox Live" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -58,7 +58,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Multiplayer scenarios" />
+                                <img src="https://docs.microsoft.com/media/common/i_road-map.svg" alt="Multiplayer scenarios" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -77,7 +77,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Matchmaking" />
+                                <img src="https://docs.microsoft.com/media/common/i_pull-request.svg" alt="Matchmaking" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -96,7 +96,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Invites" />
+                                <img src="https://docs.microsoft.com/media/common/i_mail.svg" alt="Invites" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -115,7 +115,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Voice and text chat" />
+                                <img src="https://docs.microsoft.com/media/common/i_blog.svg" alt="Voice and text chat" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -134,7 +134,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Xbox Integrated Multiplayer (XIM)" />
+                                <img src="https://docs.microsoft.com/media/common/i_agent.svg" alt="Xbox Integrated Multiplayer (XIM)" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -153,7 +153,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Multiplayer roles" />
+                                <img src="https://docs.microsoft.com/media/common/i_account-management.svg" alt="Multiplayer roles" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -172,7 +172,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Xbox Arena" />
+                                <img src="https://docs.microsoft.com/media/common/i_generic-database.svg" alt="Xbox Arena" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -191,7 +191,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Multiplayer Service configuration" />
+                                <img src="https://docs.microsoft.com/media/common/i_drivers.svg" alt="Multiplayer Service configuration" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -210,7 +210,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Multiplayer 2015 appendix" />
+                                <img src="https://docs.microsoft.com/media/common/i_library.svg" alt="Multiplayer 2015 appendix" />
                             </div>
                         </div>
                         <div class="cardText">

@@ -10,9 +10,9 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h1>Social features</h1>
+<h2>Social features</h2>
 
-<ul class="cardsY panelContent cols cols2">
+<ul class="cardsF panelContent cols cols2">
     <li>
         <a href="xbox-live-social-platform.md">
             <div class="cardSize">
@@ -20,7 +20,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Overview of Social features" />
+                                <img src="https://docs.microsoft.com/media/common/i_overview.svg" alt="Overview of Social features" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -39,7 +39,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="People System (Friends List)" />
+                                <img src="https://docs.microsoft.com/media/common/i_configure-teams.svg" alt="People System (Friends List)" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -58,7 +58,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Clubs" />
+                                <img src="https://docs.microsoft.com/media/common/i_share.svg" alt="Clubs" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -77,7 +77,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Rich Presence" />
+                                <img src="https://docs.microsoft.com/media/common/i_preview.svg" alt="Rich Presence" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -96,7 +96,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Localized Strings" />
+                                <img src="https://docs.microsoft.com/media/common/i_web-color.svg" alt="Localized Strings" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -115,7 +115,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Reputation" />
+                                <img src="https://docs.microsoft.com/media/common/i_feedback.svg" alt="Reputation" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -134,7 +134,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Programming Social services" />
+                                <img src="https://docs.microsoft.com/media/common/i_code-blocks.svg" alt="Programming Social services" />
                             </div>
                         </div>
                         <div class="cardText">

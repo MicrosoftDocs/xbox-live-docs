@@ -10,10 +10,10 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h1>API Reference</h1>
+<h2>API Reference</h2>
 
 
-<h2>Xbox Services API (XSAPI)</h2>
+<h3>Xbox Services API (XSAPI)</h3>
 
 <!-- Add card: 
 XSAPI C Reference
@@ -24,7 +24,7 @@ reference/xsapi-flat-c/xsapi-flat-c?branch=flat-c-test -->
   The main API in the Xbox Live SDK is the Xbox Service API (XSAPI).
   XSAPI enables accessing Xbox Live features.
 </p>
-<ul class="cardsY panelContent cols cols2">
+<ul class="cardsF panelContent cols cols2">
     <!-- <li>
         <a href="reference/xsapi-flat-c/xsapi-flat-c.md">
             <div class="cardSize">
@@ -106,7 +106,7 @@ reference/xsapi-flat-c/xsapi-flat-c?branch=flat-c-test -->
 </ul>
 
 
-<h2>XAL</h2>
+<h3>XAL</h3>
 
 <p>
   The Xbox Authentication Library (XAL) is a cross-platform authentication platform for Xbox Live.
@@ -135,7 +135,7 @@ reference/xsapi-flat-c/xsapi-flat-c?branch=flat-c-test -->
 </ul>
 
 
-<h2>XAsync</h2>
+<h3>XAsync</h3>
 
 <p>
   An asynchronous API returns immediately but returns a result some time later.
@@ -164,7 +164,7 @@ reference/xsapi-flat-c/xsapi-flat-c?branch=flat-c-test -->
 </ul>
 
 
-<h2>REST</h2>
+<h3>REST</h3>
 
 <ul class="cardsY panelContent cols cols2">
     <li>
@@ -190,7 +190,7 @@ reference/xsapi-flat-c/xsapi-flat-c?branch=flat-c-test -->
 </ul>
 
 
-<h2>See also</h2>
+<h3>See also</h3>
 
 <p>
   <a href="xbox-live-apis.md">Using Xbox Live APIs</a>
