@@ -10,7 +10,7 @@ keywords: windows 10, uwp, games, xbox, xbox live, releasing
 ms.localizationpriority: medium
 ---
 
-<h2>Testing and Releasing</h2>
+<h1>Testing and Releasing</h1>
 
 <p>
   You can publish a game to a private sandbox for testing, or to the public on the Xbox Managed Partners Store.
@@ -93,7 +93,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_extend.svg" alt="Microsoft Store Policies"/>
+                                <img src="https://docs.microsoft.com/media/common/i_policy.svg" alt="Microsoft Store Policies"/>
                             </div>
                         </div>
                         <div class="cardText">

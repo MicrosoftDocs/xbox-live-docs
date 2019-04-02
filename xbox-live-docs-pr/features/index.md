@@ -10,10 +10,10 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h2>Features</h2>
+<h1>Features</h1>
 
 <p>
-  The stack of Xbox Live features are powerful tools to attract, engage and retain players.
+  Xbox Live features are powerful tools to attract, engage and retain players.
 </p>
 <p>
   To begin adding Xbox Live Features to your game, first complete the <a href="../get-started/index.md">Getting Started</a> steps so that your game can do basic sign-in to Xbox Live.

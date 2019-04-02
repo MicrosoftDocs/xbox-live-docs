@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 <p>To get started adding Xbox Live functionality to your game, do the following steps in order.</p>
 
-<ul class="cardsY panelContent cols cols2">
+<ul class="cardsF panelContent cols cols2">
     <li>
         <a href="../developer-program-overview.md">
             <div class="cardSize">
@@ -78,8 +78,8 @@ ms.localizationpriority: medium
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage">
                                 <img src="../images/getting_started/signin.svg" alt="Adding basic sign-in code for mobile" />
+                            <div class="cardImage">
                             </div>
                         </div>
                         <div class="cardText">
@@ -94,9 +94,9 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h3>Next Steps</h3>
+<h2>Next Steps</h2>
 
-<ul class="cardsY panelContent cols cols2">
+<ul class="cardsF panelContent cols cols2">
     <li>
         <a href="../features/index.md">
             <div class="cardSize">

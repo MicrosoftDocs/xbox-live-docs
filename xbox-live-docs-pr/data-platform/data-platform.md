@@ -10,7 +10,7 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h2>Player Data</h2>
+<h1>Player Data</h1>
 
 <ul class="cardsF panelContent cols cols2">
     <li>
