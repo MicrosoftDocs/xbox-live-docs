@@ -78,8 +78,8 @@ ms.localizationpriority: medium
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                                <img src="https://docs.microsoft.com/media/common/i_account-management.svg" alt="Adding basic sign-in code for mobile" />
                             <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_account-management.svg" alt="Adding basic sign-in code for mobile" />
                             </div>
                         </div>
                         <div class="cardText">
