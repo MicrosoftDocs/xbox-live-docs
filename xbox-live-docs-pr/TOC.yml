@@ -518,6 +518,8 @@
           items:
             - name: Xbox Live terminology
               href: xboxlive-terminology.md
+            - name: Recommended Policy Tests
+              href: xboxlive-policy-tests.md
         - name: Configuring Xbox Live services, for Managed Partners
           href: configuring-xbox-live-services.md
           items: 
