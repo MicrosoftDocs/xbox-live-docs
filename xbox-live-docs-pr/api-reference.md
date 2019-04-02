@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 <h1>API Reference</h1>
 
 
-<h3>Xbox Services API (XSAPI)</h3>
+<h2>Xbox Services API (XSAPI)</h2>
 
 <!-- Add card: 
 XSAPI C Reference
@@ -105,7 +105,7 @@ reference/xsapi-flat-c/xsapi-flat-c?branch=flat-c-test -->
 </ul>
 
 
-<h3>XAL</h3>
+<h2>XAL</h2>
 
 <p>
   The Xbox Authentication Library (XAL) is a cross-platform authentication platform for Xbox Live.
@@ -134,7 +134,7 @@ reference/xsapi-flat-c/xsapi-flat-c?branch=flat-c-test -->
 </ul>
 
 
-<h3>XAsync</h3>
+<h2>XAsync</h2>
 
 <p>
   An asynchronous API returns immediately but returns a result some time later.
@@ -163,7 +163,7 @@ reference/xsapi-flat-c/xsapi-flat-c?branch=flat-c-test -->
 </ul>
 
 
-<h3>REST</h3>
+<h2>REST</h2>
 
 <ul class="cardsF panelContent cols cols2">
     <li>
