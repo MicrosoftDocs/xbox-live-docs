@@ -22,7 +22,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/xboxicon1.svg" alt="Creators Program" />
+                                <img src="https://docs.microsoft.com/media/common/i_subscription.svg" alt="Joining a developer program" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -41,7 +41,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/getstart.svg" alt="Setting up a game app at Partner Center" />
+                                <img src="https://docs.microsoft.com/media/common/i_form.svg" alt="Setting up a game app at Partner Center" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -60,7 +60,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/signin.svg" alt="Setting up an IDE to use Xbox Live" />
+                                <img src="https://docs.microsoft.com/media/common/i_download-install.svg" alt="Setting up an IDE to use Xbox Live" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -78,7 +78,7 @@ ms.localizationpriority: medium
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                                <img src="../images/getting_started/signin.svg" alt="Adding basic sign-in code for mobile" />
+                                <img src="https://docs.microsoft.com/media/common/i_account-management.svg" alt="Adding basic sign-in code for mobile" />
                             <div class="cardImage">
                             </div>
                         </div>
@@ -104,7 +104,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/xboxicon1.svg" alt="Features"/>
+                                <img src="https://docs.microsoft.com/media/common/i_drivers.svg" alt="Features"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -123,7 +123,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/xboxicon1.svg" alt="Testing and Releasing"/>
+                                <img src="https://docs.microsoft.com/media/common/i_test.svg" alt="Testing and Releasing"/>
                             </div>
                         </div>
                         <div class="cardText">

@@ -66,7 +66,7 @@ ms.localizationpriority: medium
 
 <h2>Publishing to the store</h2>
 
-<ul class="cardsY panelContent cols cols2">
+<ul class="cardsF panelContent cols cols2">
     <li>
         <a href="https://docs.microsoft.com/windows/uwp/publish/" target="_blank">
             <div class="cardSize">

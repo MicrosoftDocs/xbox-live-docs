@@ -68,7 +68,7 @@ ms.localizationpriority: medium
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1">
+                            <div class="cardImage">
                                 <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="Getting Started" />
                             </div>
                         </div>
@@ -87,7 +87,7 @@ ms.localizationpriority: medium
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1">
+                            <div class="cardImage">
                                 <img src="https://docs.microsoft.com/media/common/i_drivers.svg" alt="Features" />
                             </div>
                         </div>
@@ -106,7 +106,7 @@ ms.localizationpriority: medium
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1">
+                            <div class="cardImage">
                                 <img src="https://docs.microsoft.com/media/common/i_test.svg" alt="Testing and Releasing" />
                             </div>
                         </div>
@@ -125,88 +125,7 @@ ms.localizationpriority: medium
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1">
-                                <img src="https://docs.microsoft.com/media/common/i_reference.svg" alt="API Reference" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>API Reference</h3>
-                             <p>Xbox Live API reference, including Xbox Services API (XSAPI), WinRT, Xbox Authentication Library (XAL), XAsync, and RESTful APIs.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-</ul>
-
-
-
-<ul class="cardsF panelContent cols cols2">
-    <li>
-        <a href="get-started/index.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1">
-                                <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="Getting Started" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Getting Started</h3>
-                            <p>Join a developer program, create a game app at Partner Center, add the Xbox Live SDK to your IDE, and write basic sign-in code.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="features/index.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1">
-                                <img src="https://docs.microsoft.com/media/common/i_drivers.svg" alt="Features" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Features</h3>
-                            <p>Add Xbox Live features to your game, such as Identity, Social features, Achievements, Cloud Storage, Multiplayer features, and External Services.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="releasing/releasing.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1">
-                                <img src="https://docs.microsoft.com/media/common/i_test.svg" alt="Testing and Releasing" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Testing and Releasing</h3>
-                            <p>Test, troubleshoot, and publish a game.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="api-reference.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1">
+                            <div class="cardImage">
                                 <img src="https://docs.microsoft.com/media/common/i_reference.svg" alt="API Reference" />
                             </div>
                         </div>
