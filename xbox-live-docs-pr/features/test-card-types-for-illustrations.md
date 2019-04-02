@@ -101,7 +101,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsW illustrations - big text, no border, 1" top padding</h2>
+<h2>cardsW illustrations - no border, big text, 1" top padding</h2>
 <ul class="cardsW panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
