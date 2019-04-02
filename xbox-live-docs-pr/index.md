@@ -60,6 +60,89 @@ ms.localizationpriority: medium
     </li>
 </ul>
 
+<h2></h2>
+
+<ul class="cardsK panelContent cols cols2" style="display: flex; margin-top: 0px;">
+    <li>
+        <a href="get-started/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage bgdAccent1">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Getting Started" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Getting Started</h3>
+                            <p>Join a developer program, create a game app at Partner Center, add the Xbox Live SDK to your IDE, and write basic sign-in code.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="features/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage bgdAccent1">
+                                <img src="https://docs.microsoft.com/media/illustrations/sql-database-develop.svg" alt="Core Xbox Live Features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Features</h3>
+                            <p>Adding Xbox Live features to your game, such as Identity, Social features, Achievements, Cloud Storage, Multiplayer features, and External Services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="releasing/releasing.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage bgdAccent1">
+                                <img src="https://docs.microsoft.com/media/illustrations/team-services-dev-ops-test.svg" alt="Private releasing and public releasing for Creators and ID@Xbox Programs" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Testing and Releasing</h3>
+                            <p>Testing, troubleshooting, and publishing a game.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="api-reference.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage bgdAccent1">
+                                <img src="https://docs.microsoft.com/media/illustrations/nuget-tools-reference_2.svg" alt="XSAPI, XAL, Async and RESTful reference materials" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>API Reference</h3>
+                             <p>Xbox Live API reference, including XSAPI, WinRT, XAL, Async, and RESTful APIs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2></h2>
 
 <ul class="cardsK panelContent cols cols2" style="display: flex; margin-top: -94px;">
     <li>
@@ -106,7 +189,7 @@ ms.localizationpriority: medium
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage">
+                            <div class="cardImage bgdAccent1">
                                 <img src="https://docs.microsoft.com/media/illustrations/team-services-dev-ops-test.svg" alt="Private releasing and public releasing for Creators and ID@Xbox Programs" />
                             </div>
                         </div>
@@ -125,7 +208,7 @@ ms.localizationpriority: medium
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage">
+                            <div class="cardImage bgdAccent1">
                                 <img src="https://docs.microsoft.com/media/illustrations/nuget-tools-reference_2.svg" alt="XSAPI, XAL, Async and RESTful reference materials" />
                             </div>
                         </div>
