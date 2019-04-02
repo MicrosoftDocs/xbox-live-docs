@@ -15,7 +15,8 @@ ms.localizationpriority: medium
 <h1>Xbox Live documentation</h1>
 
 <p>
-  Xbox Live is a premier gaming network that connects millions of gamers across the world. You can add Xbox Live to your Windows 10 PC, Xbox One, or mobile game in order to take advantage of the Xbox Live features and services.
+  Xbox Live is a premier gaming network that connects millions of gamers across the world.
+  You can add Xbox Live to your Windows 10 PC, Xbox One, or mobile game in order to take advantage of the Xbox Live features and services.
 </p>
 
 <ul class="cardsY panelContent cols cols2">
@@ -57,14 +58,18 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
+</ul>
+
+
+<ul class="cardsK panelContent cols cols2" style="display: flex; margin-top: -94px;">
     <li>
         <a href="get-started/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Getting Started" />
+                            <div class="cardImage bdgAccent1">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Getting Started" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -82,8 +87,8 @@ ms.localizationpriority: medium
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="images/getting_started/xboxfeatures.svg" alt="Core Xbox Live Features" />
+                            <div class="cardImage bdgAccent1">
+                                <img src="https://docs.microsoft.com/media/illustrations/sql-database-develop.svg" alt="Core Xbox Live Features" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -102,7 +107,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/releasing.svg" alt="Private releasing and public releasing for Creators and ID@Xbox Programs" />
+                                <img src="https://docs.microsoft.com/media/illustrations/team-services-dev-ops-test.svg" alt="Private releasing and public releasing for Creators and ID@Xbox Programs" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -121,7 +126,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/apidesktop.svg" alt="XSAPI, XAL, Async and RESTful reference materials" />
+                                <img src="https://docs.microsoft.com/media/illustrations/nuget-tools-reference_2.svg" alt="XSAPI, XAL, Async and RESTful reference materials" />
                             </div>
                         </div>
                         <div class="cardText">
