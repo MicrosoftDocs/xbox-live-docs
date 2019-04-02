@@ -20,7 +20,89 @@ ms.localizationpriority: medium
 </p>
 
 
-<h2>cardsK illustrations - no border, normal text size</h2>
+<h2>cardsK+style - no border, normal text size</h2>
+<!-- <ul class="cardsK panelContent cols cols2"> -->
+<ul class="cardsK panelContent cols cols2" style="display: flex; margin-top: 0px;">
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/features/identity">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Identity features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Identity features</h3>
+                            <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="/gaming/xbox-live/social-platform/social-platform">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" alt="Social features" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h2>cardsK - no border, normal text size</h2>
 <ul class="cardsK panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
@@ -101,7 +183,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsW illustrations - no border, big text, 1" top padding</h2>
+<h2>cardsW - no border, big text, 1" top padding</h2>
 <ul class="cardsW panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
@@ -182,7 +264,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsN illustrations</h2>
+<h2>cardsN - border</h2>
 <ul class="cardsN panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
@@ -911,7 +993,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsC illustrations - large bottom padding</h2>
+<h2>cardsC - large bottom padding</h2>
 <ul class="cardsC panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
