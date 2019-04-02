@@ -27,7 +27,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/mobile-gdc.svg" alt="Mobile and Xbox Live Features" />
+                                <img src="images/getting_started/mobile-gdc.svg" alt="GDC Announcements" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -88,12 +88,12 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage bgdAccent1">
-                                <img src="https://docs.microsoft.com/media/illustrations/sql-database-develop.svg" alt="Core Xbox Live Features" />
+                                <img src="https://docs.microsoft.com/media/illustrations/sql-database-develop.svg" alt="Features" />
                             </div>
                         </div>
                         <div class="cardText">
                             <h3>Features</h3>
-                            <p>Adding Xbox Live features to your game, such as Identity, Social features, Achievements, Cloud Storage, Multiplayer features, and External Services.</p>
+                            <p>Add Xbox Live features to your game, such as Identity, Social features, Achievements, Cloud Storage, Multiplayer features, and External Services.</p>
                         </div>
                     </div>
                 </div>
@@ -107,12 +107,12 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage bgdAccent1">
-                                <img src="https://docs.microsoft.com/media/illustrations/team-services-dev-ops-test.svg" alt="Private releasing and public releasing for Creators and ID@Xbox Programs" />
+                                <img src="https://docs.microsoft.com/media/illustrations/team-services-dev-ops-test.svg" alt="Testing and Releasing" />
                             </div>
                         </div>
                         <div class="cardText">
                             <h3>Testing and Releasing</h3>
-                            <p>Testing, troubleshooting, and publishing a game.</p>
+                            <p>Test, troubleshoot, and publish a game.</p>
                         </div>
                     </div>
                 </div>
@@ -126,12 +126,12 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage bgdAccent1">
-                                <img src="https://docs.microsoft.com/media/illustrations/nuget-tools-reference_2.svg" alt="XSAPI, XAL, Async and RESTful reference materials" />
+                                <img src="https://docs.microsoft.com/media/illustrations/nuget-tools-reference_2.svg" alt="API Reference" />
                             </div>
                         </div>
                         <div class="cardText">
                             <h3>API Reference</h3>
-                             <p>Xbox Live API reference, including XSAPI, WinRT, XAL, Async, and RESTful APIs.</p>
+                             <p>Xbox Live API reference, including Xbox Services API (XSAPI), WinRT, Xbox Authentication Library (XAL), XAsync, and RESTful APIs.</p>
                         </div>
                     </div>
                 </div>

@@ -2,7 +2,7 @@
 layout: LandingPage
 title: API Reference
 author: mikehoffms
-description: Xbox Live API reference, including XSAPI, WinRT, XAL, Async, and RESTful APIs.
+description: Xbox Live API reference, including Xbox Services API (XSAPI), WinRT, Xbox Authentication Library (XAL), XAsync, and RESTful APIs.
 ms.author: v-mihof
 ms.date: 12/12/2018
 ms.topic: article
@@ -109,7 +109,7 @@ reference/xsapi-flat-c/xsapi-flat-c?branch=flat-c-test -->
 <h2>XAL</h2>
 
 <p>
-  The Xbox Live Authentication Library (XAL) is a cross-platform authentication platform for Xbox Live.
+  The Xbox Authentication Library (XAL) is a cross-platform authentication platform for Xbox Live.
   XAL provides a consistent API and user model across all platforms.
 </p>
 <ul class="cardsY panelContent cols cols2">
@@ -135,7 +135,7 @@ reference/xsapi-flat-c/xsapi-flat-c?branch=flat-c-test -->
 </ul>
 
 
-<h2>Async</h2>
+<h2>XAsync</h2>
 
 <p>
   An asynchronous API returns immediately but returns a result some time later.

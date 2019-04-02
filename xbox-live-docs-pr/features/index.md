@@ -19,7 +19,7 @@ ms.localizationpriority: medium
   To begin adding Xbox Live Features to your game, first complete the <a href="../get-started/index.md">Getting Started</a> steps so that your game can do basic sign-in to Xbox Live.
 </p>
 
-<ul class="cardsY panelContent cols cols2">
+<ul class="cardsF panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
             <div class="cardSize">
@@ -27,7 +27,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Identity features" />
+                                <img src="https://docs.microsoft.com/media/common/i_account-management.svg" alt="Identity features" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -103,7 +103,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Multiplayer features" />
+                                <img src="https://docs.microsoft.com/media/common/i_share.svg" alt="Multiplayer features" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -122,7 +122,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="External Services" />
+                                <img src="https://docs.microsoft.com/media/common/i_service-hooks.svg" alt="External Services" />
                             </div>
                         </div>
                         <div class="cardText">
