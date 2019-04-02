@@ -20,7 +20,7 @@ ms.localizationpriority: medium
 </p>
 
 
-<h2>cardsW illustrations - 8</h2>
+<h2>cardsW illustrations</h2>
 <ul class="cardsW panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
@@ -101,7 +101,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsN illustrations - 8</h2>
+<h2>cardsN illustrations</h2>
 <ul class="cardsN panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
@@ -182,7 +182,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsO illustrations - 8</h2>
+<h2>cardsO illustrations</h2>
 <ul class="cardsO panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
@@ -263,7 +263,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsP illustrations - 8</h2>
+<h2>cardsP illustrations</h2>
 <ul class="cardsP panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
@@ -344,7 +344,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsQ illustrations - 8</h2>
+<h2>cardsQ illustrations</h2>
 <ul class="cardsQ panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
@@ -425,7 +425,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsR illustrations - 8</h2>
+<h2>cardsR illustrations</h2>
 <ul class="cardsR panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
@@ -506,7 +506,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsS illustrations - 8</h2>
+<h2>cardsS illustrations</h2>
 <ul class="cardsS panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
@@ -587,7 +587,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsT illustrations - 8</h2>
+<h2>cardsT illustrations</h2>
 <ul class="cardsT panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
@@ -668,7 +668,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsU illustrations - 8</h2>
+<h2>cardsU illustrations</h2>
 <ul class="cardsU panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
@@ -749,7 +749,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsV illustrations - 8</h2>
+<h2>cardsV illustrations</h2>
 <ul class="cardsV panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
@@ -830,7 +830,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsK illustrations - 9</h2>
+<h2>cardsK illustrations</h2>
 <ul class="cardsK panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
@@ -911,7 +911,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsC illustrations - 7</h2>
+<h2>cardsC illustrations</h2>
 <ul class="cardsC panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">

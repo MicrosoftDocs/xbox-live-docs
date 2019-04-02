@@ -20,7 +20,7 @@ ms.localizationpriority: medium
 </p>
 
 
-<h2>cardsF icons - 10</h2>
+<h2>cardsF icons</h2>
 <ul class="cardsF panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
@@ -101,7 +101,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsY icons - 9</h2>
+<h2>cardsY icons</h2>
 <ul class="cardsY panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
@@ -182,7 +182,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsI icons - 8</h2>
+<h2>cardsI icons</h2>
 <ul class="cardsI panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
@@ -263,7 +263,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsM icons - 7</h2>
+<h2>cardsM icons - used by VS IDE home page</h2>
 <ul class="cardsM panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
@@ -344,7 +344,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsB icons - 8 (1 col)</h2>
+<h2>cardsB icons</h2>
 <ul class="cardsB panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
@@ -425,7 +425,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>cardsJ icons - 5 (1 col)</h2>
+<h2>cardsJ icons</h2>
 <ul class="cardsJ panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
