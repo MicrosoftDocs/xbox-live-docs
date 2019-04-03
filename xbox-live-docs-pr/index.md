@@ -15,7 +15,8 @@ ms.localizationpriority: medium
 <h1>Xbox Live documentation</h1>
 
 <p>
-  Xbox Live is a premier gaming network that connects millions of gamers across the world. You can add Xbox Live to your Windows 10 PC, Xbox One, or mobile game in order to take advantage of the Xbox Live features and services.
+  Xbox Live is a premier gaming network that connects millions of gamers across the world.
+  You can add Xbox Live to your Windows 10 PC, Xbox One, or mobile game in order to take advantage of the Xbox Live features and services.
 </p>
 
 <ul class="cardsY panelContent cols cols2">
@@ -26,7 +27,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/mobile-gdc.svg" alt="Mobile and Xbox Live Features" />
+                                <img src="images/getting_started/mobile-gdc.svg" alt="GDC Announcements" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -60,9 +61,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>Get Started</h2>
-
-<ul class="cardsY panelContent cols cols2">
+<ul class="cardsF panelContent cols cols2" style="display: flex; margin-top: 0px;">
     <li>
         <a href="get-started/index.md">
             <div class="cardSize">
@@ -70,7 +69,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxicon1.svg" alt="Getting Started" />
+                                <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="Getting Started" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -82,21 +81,6 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
-</ul>
-
-
-<h2>Add Xbox Live Features</h2>
-
-<!-- <p>Set up an IDE and dive into the features that make up Xbox Live - Identity, Social, Achievements, Cloud Storage, Multiplayer and External Services</p>
-
-<ul>
-    <li>Follow a prebuilt path to success that will lead to being able to integrate and work with any of the Xbox Live features</li>
-    <li>Learn about each feature in detail</li>
-    <li>How to configure the feature in the Partner Center</li>
-    <li>Examples of implementation and how to call a feature</li>
-</ul> -->
-
-<ul class="cardsY panelContent cols cols2">
     <li>
         <a href="features/index.md">
             <div class="cardSize">
@@ -104,24 +88,18 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/xboxfeatures.svg" alt="Core Xbox Live Features" />
+                                <img src="https://docs.microsoft.com/media/common/i_drivers.svg" alt="Features" />
                             </div>
                         </div>
                         <div class="cardText">
                             <h3>Features</h3>
-                            <p>Adding Xbox Live features to your game, such as Identity, Social features, Achievements, Cloud Storage, Multiplayer features, and External Services.</p>
+                            <p>Add Xbox Live features to your game, such as Identity, Social features, Achievements, Cloud Storage, Multiplayer features, and External Services.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </a>
     </li>
-</ul>
-
-
-<h2>Publish a Game for Testing or Release</h2>
-
-<ul class="cardsY panelContent cols cols2">
     <li>
         <a href="releasing/releasing.md">
             <div class="cardSize">
@@ -129,24 +107,18 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/releasing.svg" alt="Private releasing and public releasing for Creators and ID@Xbox Programs" />
+                                <img src="https://docs.microsoft.com/media/common/i_test.svg" alt="Testing and Releasing" />
                             </div>
                         </div>
                         <div class="cardText">
                             <h3>Testing and Releasing</h3>
-                            <p>Testing, troubleshooting, and publishing a game.</p>
+                            <p>Test, troubleshoot, and publish a game.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </a>
     </li>
-</ul>
-
-
-<h2>API Reference</h2>
-
-<ul class="cardsY panelContent cols cols2">
     <li>
         <a href="api-reference.md">
             <div class="cardSize">
@@ -154,12 +126,12 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="images/getting_started/apidesktop.svg" alt="XSAPI, XAL, Async and RESTful reference materials" />
+                                <img src="https://docs.microsoft.com/media/common/i_reference.svg" alt="API Reference" />
                             </div>
                         </div>
                         <div class="cardText">
                             <h3>API Reference</h3>
-                             <p>Xbox Live API reference, including XSAPI, WinRT, XAL, Async, and RESTful APIs.</p>
+                             <p>Xbox Live API reference, including Xbox Services API (XSAPI), WinRT, Xbox Authentication Library (XAL), XAsync, and RESTful APIs.</p>
                         </div>
                     </div>
                 </div>

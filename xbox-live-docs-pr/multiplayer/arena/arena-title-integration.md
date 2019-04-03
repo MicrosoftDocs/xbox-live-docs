@@ -216,7 +216,7 @@ This diagram shows the arbitration timeline.
 ![Tournament arbitration timeline chart](../../images/arena/arbitration-timeline.png)
 
 
-<!-- #### Subheading TBD -->
+#### Time limits
 
 At least one player must be active in the session before the forfeit time, which is the start time (`multiplayer_session_arbitration_server::arbitration_start_time()`) plus the forfeit time-out.
 The forfeit time-out is in the session as a number of milliseconds at `/constants/system/arbitration/forfeitTimeout` (`multiplayer_session_constants::forfeit_timeout()`).
@@ -229,7 +229,7 @@ This value is set in the session template or game mode by the publisher.
 Set it to allow as much time as your title needs for the match to be completed.
 
 
-<!-- #### Subheading TBD -->
+#### When to report results
 
 Your title can report results at any time between the start time and the arbitration time.
 Arbitration occurs at any time between the forfeit time and the arbitration time, after every active member of the session has submitted results.
@@ -239,7 +239,7 @@ No matter how many results are available at arbitration time, arbitration will o
 If no results are submitted when arbitration time is reached, all participants in the match are given a loss.
 
 
-<!-- #### Subheading TBD -->
+#### Forcing arbitration
 
 It’s also possible for a game server to force arbitration at any time by simply writing an arbitrated result.
 
@@ -276,7 +276,7 @@ Other possible values for **outcome** are:
 If **outcome** is anything other than “rank,” the ranking is omitted for that team.
 
 
-<!-- #### Subheading TBD -->
+#### Constructing and submitting results
 
 Individual users write the match results to `/members/{index}/properties/system/arbitration` (`multiplayer_session::set_current_user_member_arbitration_results()`).
 
@@ -316,7 +316,7 @@ multiplayer_session_write_mode::update_existing)
 }
 ```
 
-<!-- #### Subheading TBD -->
+#### Where MPSD places the results
 
 After arbitration occurs, MPSD places the final results in `/servers/arbitration/properties/system` (`multiplayer_session::arbitration_server()`), along with a few other properties as shown here.
 

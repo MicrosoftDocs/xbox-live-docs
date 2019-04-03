@@ -31,7 +31,7 @@
         - name: Setting up an IDE to use Xbox Live
           href: get-started/setup-ide/index.md
           items:
-            - name: IDEs, SDKs, and target platforms, for Creators
+            - name: Setting up an IDE to use Xbox Live, for Creators
               href: get-started-with-creators/creators-program.md
               items:
                 - name: Develop in Visual Studio, for Creators
@@ -63,7 +63,7 @@
                       href: get-started-with-creators/add-multi-user-support.md
                     - name: Checking user privilege settings in Unity
                       href: get-started-with-creators/check-user-privileges-in-unity.md
-            - name: IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners
+            - name: Setting up an IDE to use Xbox Live, for ID@Xbox Managed Partners
               href: get-started-with-partner/managed-partners-and-id-xbox-developers.md
               items: 
                 - name: Adding Xbox Live to your Android Studio Project

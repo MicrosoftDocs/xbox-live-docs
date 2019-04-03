@@ -2,7 +2,7 @@
 layout: LandingPage
 title: API Reference
 author: mikehoffms
-description: Xbox Live API reference, including XSAPI, WinRT, XAL, Async, and RESTful APIs.
+description: Xbox Live API reference, including Xbox Services API (XSAPI), WinRT, Xbox Authentication Library (XAL), XAsync, and RESTful APIs.
 ms.author: v-mihof
 ms.date: 12/12/2018
 ms.topic: article
@@ -13,13 +13,37 @@ ms.localizationpriority: medium
 <h1>API Reference</h1>
 
 
-<h2>XSAPI</h2>
+<h2>Xbox Services API (XSAPI)</h2>
+
+<!-- Add card: 
+XSAPI C Reference
+reference/xsapi-flat-c/xsapi-flat-c?branch=flat-c-test -->
 
 <p>
   The main API in the Xbox Live SDK is the Xbox Service API (XSAPI).
   XSAPI enables accessing Xbox Live features.
 </p>
-<ul class="cardsY panelContent cols cols2">
+<ul class="cardsF panelContent cols cols2">
+    <!-- <li>
+        <a href="reference/xsapi-flat-c/xsapi-flat-c.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="images/getting_started/xboxicon1.svg" alt="XSAPI C Reference" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>XSAPI C Reference</h3>
+                            <p>Xbox Services API (XSAPI) C Reference.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li> -->
+    <!-- not API Ref.  Move to See Also, after link to "XSAPI C Reference" when that's available -->
     <li>
         <a href="flatc-async-patterns.md">
             <div class="cardSize">
@@ -32,7 +56,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText">
                             <h3>Making async calls in the XSAPI C API</h3>
-                            <p>Making asynchronous calls in the XSAPI flat C API.</p>
+                            <p>Article: Making asynchronous calls in the XSAPI C API.</p>
                         </div>
                     </div>
                 </div>
@@ -84,10 +108,10 @@ ms.localizationpriority: medium
 <h2>XAL</h2>
 
 <p>
-  The Xbox Live Authentication Library (XAL) is a cross-platform authentication platform for Xbox Live.
+  The Xbox Authentication Library (XAL) is a cross-platform authentication platform for Xbox Live.
   XAL provides a consistent API and user model across all platforms.
 </p>
-<ul class="cardsY panelContent cols cols2">
+<ul class="cardsF panelContent cols cols2">
     <li>
         <a href="using-xbox-live/auth/authentication.md">
             <div class="cardSize">
@@ -110,12 +134,13 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>Async</h2>
+<h2>XAsync</h2>
 
 <p>
   An asynchronous API returns immediately but returns a result some time later.
 </p>
-<ul class="cardsY panelContent cols cols2">
+<ul class="cardsF panelContent cols cols2">
+    <!-- not API Ref.  Move to See Also? -->
     <li>
         <a href="flatc-async-patterns.md">
             <div class="cardSize">
@@ -128,7 +153,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText">
                             <h3>Making async calls in the XSAPI C API</h3>
-                            <p>Making asynchronous calls in the XSAPI flat C API.</p>
+                            <p>Article: Making asynchronous calls in the XSAPI C API.</p>
                         </div>
                     </div>
                 </div>
@@ -140,7 +165,7 @@ ms.localizationpriority: medium
 
 <h2>REST</h2>
 
-<ul class="cardsY panelContent cols cols2">
+<ul class="cardsF panelContent cols cols2">
     <li>
         <!-- child 3: -->
         <a href="xbox-live-rest/atoc-xboxlivews-reference.md">
@@ -164,7 +189,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>See also</h2>
+<h3>See also</h3>
 
 <p>
   <a href="xbox-live-apis.md">Using Xbox Live APIs</a>

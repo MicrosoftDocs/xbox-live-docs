@@ -20,9 +20,9 @@ ms.localizationpriority: medium
 </p>
 
 
-<h2>Publishing to a sandbox, for Creators</h2>
+<h2>Publishing to a sandbox</h2>
 
-<ul class="cardsY panelContent cols cols2">
+<ul class="cardsF panelContent cols cols2">
     <li>
         <a href="../get-started/setup-partner-center/setup-partner-center-creators.md">
             <div class="cardSize">
@@ -30,7 +30,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/xboxicon1.svg" alt="Setting up a game at Partner Center, for Creators"/>
+                                <img src="https://docs.microsoft.com/media/common/i_form.svg" alt="Setting up a game at Partner Center, for Creators"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -42,12 +42,6 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
-</ul>
-
-
-<h2>Publishing to a sandbox, for Managed Partners</h2>
-
-<ul class="cardsY panelContent cols cols2">
     <li>
         <a href="../get-started/setup-partner-center/setup-partner-center-id-partners.md">
             <div class="cardSize">
@@ -55,7 +49,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/ID@XBOXicon.svg" alt="Setting up a game at Partner Center, for Managed Partners"/>
+                                <img src="https://docs.microsoft.com/media/common/i_form.svg" alt="Setting up a game at Partner Center, for Managed Partners"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -72,7 +66,7 @@ ms.localizationpriority: medium
 
 <h2>Publishing to the store</h2>
 
-<ul class="cardsY panelContent cols cols2">
+<ul class="cardsF panelContent cols cols2">
     <li>
         <a href="https://docs.microsoft.com/windows/uwp/publish/" target="_blank">
             <div class="cardSize">
@@ -80,7 +74,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/ID@XBOXicon.svg" alt="Publish Windows apps and games"/>
+                                <img src="https://docs.microsoft.com/media/common/i_extend.svg" alt="Publish Windows apps and games"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -99,7 +93,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/xboxicon1.svg" alt="Microsoft Store Policies"/>
+                                <img src="https://docs.microsoft.com/media/common/i_policy.svg" alt="Microsoft Store Policies"/>
                             </div>
                         </div>
                         <div class="cardText">
