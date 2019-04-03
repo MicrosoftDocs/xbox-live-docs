@@ -24,10 +24,10 @@ ms.localizationpriority: medium
 
 |Xbox Requirement | Description|
 |-----------------|------------|
-| [XR-013:](xr013.md) | Linking Microsoft Accounts with Publisher Accounts |
-| [XR-015:](xr015.md) | Privacy and Permissions |
-| [XR-045:](xr045.md) | Xbox Live and Account Privileges &diams; |
-| [XR-048:](xr048.md) | Profile Settings Usage &diams; |
-| [XR-062:](xr062.md) | Achievement Names and Descriptions |
-| [XR-074:](xr074.md) | Loss of Connectivity to Xbox and Partner Services &diams; |
-| [XR-132:](xr132.md) | Service Access Limitations |
+| [XR-013:](xr013.md) | Linking Microsoft accounts with publisher accounts |
+| [XR-015:](xr015.md) | Privacy and permissions |
+| [XR-045:](xr045.md) | Xbox Live and account privileges &diams; |
+| [XR-048:](xr048.md) | Profile settings usage &diams; |
+| [XR-062:](xr062.md) | Achievement names and descriptions |
+| [XR-074:](xr074.md) | Loss of connectivity to Xbox and partner services &diams; |
+| [XR-132:](xr132.md) | Service access limitations |
