@@ -23,6 +23,7 @@ ms.localizationpriority: medium
 ### Xbox Requirements for PC and mobile
 
 |Xbox Requirement | Description|
+|-----------------|------------|
 | [XR-013:](xr013.md) | Linking Microsoft Accounts with Publisher Accounts |
 | [XR-015:](xr015.md) | Privacy and Permissions |
 | [XR-045:](xr045.md) | Xbox Live and Account Privileges &diams; |
