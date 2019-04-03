@@ -6,7 +6,7 @@ ms.topic: article
 keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
 ---
-# Xbox Live Integration Test Cases For PC and Mobile Devices
+# Xbox Live Integration Test Cases for PC and Mobile Devices
 
 Version 1.0
 
