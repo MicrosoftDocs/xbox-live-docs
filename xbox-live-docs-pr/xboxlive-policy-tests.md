@@ -1,25 +1,27 @@
 ---
-title: Xbox Live test cases for PC and Mobile
-description: Describes the test cases for adding Xbox Live to a PC or mobile game.
+title: Xbox Live Integration Test Cases For PC and Mobile Devices
+description: Test cases for adding Xbox Live to a PC or mobile game.
 ms.date: 03/26/2019
 ms.topic: article
-layout: LandingPage
 keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
 ---
-# Xbox Live Integration Test Cases For PC and Mobile Devices 
+# Xbox Live Integration Test Cases For PC and Mobile Devices
 
-Version 1.0, 3/26/2019
+Version 1.0
 
-## Introduction 
 
-Click [here](xboxlive-policies.md) to view the Xbox Live Integration Policies for PC and Mobile Devices.
+## Introduction
 
 The following test cases are the recommended steps to validate a title when Xbox Live is integrated into a mobile, PC or console device other than Xbox One.  
+
+See also [Xbox Live Integration Policies For PC and Mobile Devices](xboxlive-policies.md).
+
 
 ### Official Naming Standards (XR-022)
 
 Titles must use the naming standards defined in the latest release of the [terminology list](xboxlive-terminology.md) for Xbox Live features. On Xbox One, titles must not refer to components of the console system or components of peripherals using terms that are not specifically included in the terminology list.
+
 
 ### Test Cases
 
