@@ -40,9 +40,9 @@ If your game is found to not adhere to these policies, we will inform you and pr
 
 For information on how to test your title's adherence to these policies, visit [Xbox Live Integration Test Cases For PC and Mobile Devices](xboxlive-policy-tests.md)
 
+## Xbox Live Implementation Policies
 
-## Xbox Live Implementation Policies, March 2019
-
+In order to keep Xbox Live running as a high quality service that respects the privacy and protects the security of its users we enforce a number of Xbox Live implementation policies. These policies are referred to as Xbox Requirements or XRs. Failure to comply with XRs will result in your title being denied the ability to publish to the Microsoft store. Titles which are already published may find themselves removed if they do not maintain compliance with XRs. The rest of this article will outline the XRs required to keep a PC or mobile title in good standing.
 
 ### Player Data and Privacy
 
