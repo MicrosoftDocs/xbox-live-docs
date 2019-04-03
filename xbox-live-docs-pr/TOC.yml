@@ -514,7 +514,7 @@
         - name: Xbox Live resources, sites, and downloads
           href: xbox-live-resources.md
         - name: Policies
-          href: /policies/policies.md
+          href: policies/policies.md
           items:
             - name: Xbox Live policies
               href: xboxlive-policies.md
@@ -526,13 +526,13 @@
               href: policies/xr013.md
             - name: "XR-015: Privacy and Permissions"
               href: policies/xr015.md
-            - name: "XR-045: Xbox Live and Account Privileges &diams;"
+            - name: "XR-045: Xbox Live and Account Privileges"
               href: policies/xr045.md
-            - name: "XR-048: Profile Settings Usage &diams;"
+            - name: "XR-048: Profile Settings Usage"
               href: policies/xr048.md
             - name: "XR-062: Achievement Names and Descriptions"
               href: policies/xr062.md
-            - name: "XR-074: Loss of Connectivity to Xbox and Partner Services &diams;"
+            - name: "XR-074: Loss of Connectivity to Xbox and Partner Services"
               href: policies/xr074.md
             - name: "XR-132: Service Access Limitations"
               href: policies/xr132.md
