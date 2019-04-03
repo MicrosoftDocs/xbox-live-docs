@@ -17,8 +17,8 @@ ms.localizationpriority: medium
 | Article | Description |
 |---------|-------------|
 | [Xbox Live policies](../xboxlive-policies.md) | Policies for adding Xbox Live to a PC or mobile game. |
-| [Xbox Live terminology](../xboxlive-terminology.md) | Terminology required when using Xbox Live in a PC or mobile game. |
-| [Recommended Policy Tests](../xboxlive-policy-tests.md) | Test cases for adding Xbox Live to a PC or mobile game. |
+| [Xbox Live terminology](xboxlive-terminology.md) | Terminology required when using Xbox Live in a PC or mobile game. |
+| [Recommended Policy Tests](xboxlive-policy-tests.md) | Test cases for adding Xbox Live to a PC or mobile game. |
 
 ### Xbox Requirements for PC and mobile
 

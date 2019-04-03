@@ -519,9 +519,9 @@
             - name: Xbox Live policies
               href: xboxlive-policies.md
             - name: Xbox Live terminology
-              href: xboxlive-terminology.md
+              href: policies/xboxlive-terminology.md
             - name: Recommended Policy Tests
-              href: xboxlive-policy-tests.md
+              href: policies/xboxlive-policy-tests.md
             - name: "XR-013: Linking Microsoft Accounts with Publisher Accounts"
               href: policies/xr013.md
             - name: "XR-015: Privacy and Permissions"
