@@ -1,6 +1,6 @@
 ---
 title: Xbox Live test cases for PC and Mobile
-description: Describes the test cases for adding Xbox Live to a PC or mobile game.
+description: Test cases for adding Xbox Live to a PC or mobile game.
 ms.date: 03/26/2019
 ms.topic: article
 layout: LandingPage

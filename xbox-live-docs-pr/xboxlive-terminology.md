@@ -1,6 +1,6 @@
 ---
 title: Xbox Live terminology
-description: Describes the terminology required when using Xbox Live in a PC or mobile game.
+description: Terminology required when using Xbox Live in a PC or mobile game.
 ms.date: 03/18/2019
 ms.topic: article
 layout: LandingPage
@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 
 Version 1.0, 3/18/2019
 
-## Introduction 
+## Introduction
 
 The Xbox One Required Terminology List provides developers and publishers with the official terminology required of their games when using Xbox Live in their mobile or PC game.
 

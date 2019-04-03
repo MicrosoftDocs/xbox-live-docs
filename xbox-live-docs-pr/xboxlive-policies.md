@@ -1,6 +1,6 @@
 ---
 title: Xbox Live policies
-description: Describes the policies for adding Xbox Live to a PC or mobile game.
+description: Policies for adding Xbox Live to a PC or mobile game.
 ms.date: 03/18/2019
 ms.topic: article
 keywords: windows 10, uwp, games, xbox, xbox live, policies
