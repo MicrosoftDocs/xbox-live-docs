@@ -1,13 +1,13 @@
 ---
-title: Player Stats 2017 (deprecated)
-description: Player Stats 2017 (deprecated) allows developers to configure stats for individual players signifying progress and prowess in a game.
+title: Player Stats 2017 
+description: Player Stats 2017 allows developers to configure stats for individual players signifying progress and prowess in a game.
 ms.date: 07/02/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, player stats, leaderboards, stats 2017
 ms.localizationpriority: medium
 ---
 
-# Player Stats 2017 (deprecated)
+# Player Stats 2017 
 
 When using Stats 2017, the title keeps track of the stat values, and sends the values to the service.
 
@@ -26,6 +26,8 @@ Stats 2017 supports Xbox Live leaderboard scenarios by saving stats about indivi
 
 Stats 2017 accepts values sent to it with little to no validation, so it is up to your title to handle all of the logic which determines the correct value for a stat.
 
+> [!IMPORTANT]
+> We have no planned feature investments, but we will continue to support existing functionality and titles moving forward.
 
 ## Configured stats and featured leaderboards
 
