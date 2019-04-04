@@ -28,8 +28,8 @@ ID@Xbox partners can use:
 
 | Article | Description |
 |---------|-------------|
-| [IDEs, SDKs, and target platforms, for Creators](../../get-started-with-creators/creators-program.md) | IDEs, SDKs, and target platforms, for Creators, including Visual Studio and Unity. |
-| [IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners](../../get-started-with-partner/managed-partners-and-id-xbox-developers.md) | IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners, including Visual Studio and Unity. |
+| [Setting up an IDE to use Xbox Live, for Creators](../../get-started-with-creators/creators-program.md) | IDEs, SDKs, and target platforms, for Creators, including Visual Studio and Unity. |
+| [Setting up an IDE to use Xbox Live, for ID@Xbox Managed Partners](../../get-started-with-partner/managed-partners-and-id-xbox-developers.md) | IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners, including Visual Studio and Unity. |
 
 
 ### Next steps

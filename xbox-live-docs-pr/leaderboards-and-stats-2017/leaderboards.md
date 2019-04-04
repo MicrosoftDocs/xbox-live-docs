@@ -58,7 +58,7 @@ You should request the leaderboard data from the service, slightly ahead of when
 ## Leaderboards 2013 APIs
 
 Leaderboards 2013 is the preferred approach.
-Leaderboards 2017 is deprecated; not recommended for new code.
+Leaderboards 2017 is not recommended for new code.
 
 You can see the `leaderboard_service` namespace for all Stats 2013 Leaderboard API.
 
@@ -295,7 +295,7 @@ if (boardResult != null)
 ## Leaderboards 2017
 
 Leaderboards 2013 is the preferred approach.
-Leaderboards 2017 is deprecated; not recommended for new code.
+Leaderboards 2017 is not recommended for new code.
 
 To make calls to the Stats 2017 Leaderboard service, you will use the `StatisticManager` leaderboard APIs, instead of the `LeaderboardService` leaderboard APIs.
 

@@ -1,13 +1,13 @@
 ---
-title: Player Stats 2017 (deprecated)
-description: Player Stats 2017 (deprecated) allows developers to configure stats for individual players signifying progress and prowess in a game.
+title: Player Stats 2017 
+description: Player Stats 2017 tracks a player's progress and prowess in a game. With Player Stats 2017, your game owns and maintains the stats, and sends the stat values to the server for display upon request.
 ms.date: 07/02/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, player stats, leaderboards, stats 2017
 ms.localizationpriority: medium
 ---
 
-# Player Stats 2017 (deprecated)
+# Player Stats 2017
 
 When using Stats 2017, the title keeps track of the stat values, and sends the values to the service.
 
@@ -20,11 +20,13 @@ Seeing how players stack against their friends and the community at large will g
 Players will see featured statistics on the title's GameHub.
 Featured Stats may also periodically appear in pinned content blocks that users may add to their Home view.
 
-
 Stats 2017 operates by accepting stat values as key/value pairs from your title for a player and storing that stat value so that it can be displayed at a later time.
 Stats 2017 supports Xbox Live leaderboard scenarios by saving stats about individual players so they can be compared and ranked on a leaderboard later.
 
 Stats 2017 accepts values sent to it with little to no validation, so it is up to your title to handle all of the logic which determines the correct value for a stat.
+
+> [!NOTE]
+> We have no planned new functionality for Player Stats 2017, but we will continue to support existing functionality.
 
 
 ## Configured stats and featured leaderboards
