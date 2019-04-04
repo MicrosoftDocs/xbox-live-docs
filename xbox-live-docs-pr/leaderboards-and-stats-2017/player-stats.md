@@ -18,4 +18,4 @@ ms.localizationpriority: medium
 |---------|-------------|
 | [Player Stats 2013](player-stats-2013.md) | Player stats are key pieces of information to track about a player, such as Head Shots or Fastest Lap Time. |
 | [Using player stats](using-player-stats.md) | Setting up key pieces of information to track about a player. |
-| [Player Stats 2017](stats-2017-depr.md) | Player Stats 2017. |
+| [Player Stats 2017](stats-2017.md) | Player Stats 2017. |
