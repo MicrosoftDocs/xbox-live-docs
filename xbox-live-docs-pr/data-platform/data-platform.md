@@ -77,12 +77,12 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Player Stats" />
+                                <img src="https://docs.microsoft.com/media/common/i_data-collection.svg" alt="Player Stats" />
                             </div>
                         </div>
                         <div class="cardText">
                             <h3>Player Stats</h3>
-                            <p>Setting up key pieces of information to track about a player.</p>
+                            <p>Player stats are key pieces of information to track about a player, such as Head Shots or Fastest Lap Time.</p>
                         </div>
                     </div>
                 </div>

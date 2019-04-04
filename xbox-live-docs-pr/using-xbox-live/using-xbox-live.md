@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 # Using Xbox Live (deprecated article)
 
 Developing an Xbox Live-enabled game.
-<!--page not needed, but has been published, so keep in toc, don't cause 404. todo: should set up as a redirect and remove this page. -->
+<!--page not needed, but has been published, so keep the file, don't cause 404 -->
 
 ## In this section
 
