@@ -1,6 +1,6 @@
 ---
 title: Player Stats 2017 
-description: Player Stats 2017 allows developers to configure stats for individual players signifying progress and prowess in a game.
+description: Player Stats 2017 tracks a player's progress and prowess in a game. With Player Stats 2017, your game owns and maintains the stats, and sends the stat values to the server for display upon request.
 ms.date: 07/02/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, player stats, leaderboards, stats 2017
