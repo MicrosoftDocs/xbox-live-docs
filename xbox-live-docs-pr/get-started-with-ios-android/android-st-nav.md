@@ -17,6 +17,6 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Adding Xbox Live to an Android Studio Project](get-started-with-partner/get-started-with-android-studio.md) | Adding Xbox Live to an Android Studio project. |
-| [Get started with the Xbox Live APIs on Android](get-started-with-ios-android/android-get-started-with-xsapi.md) | Adding and compiling the Xbox Live APIs source in an Android project. |
-| [Setting up Visual Studio for XAL login on Android](using-xbox-live/auth/android-xal.md) | Setting up Visual Studio to sign-in to Xbox Live with an Android project. |
+| [Adding Xbox Live to an Android Studio Project](../get-started-with-partner/get-started-with-android-studio.md) | Adding Xbox Live to an Android Studio project. |
+| [Get started with the Xbox Live APIs on Android](android-get-started-with-xsapi.md) | Adding and compiling the Xbox Live APIs source in an Android project. |
+| [Setting up Visual Studio for XAL login on Android](../using-xbox-live/auth/android-xal.md) | Setting up Visual Studio to sign-in to Xbox Live with an Android project. |
