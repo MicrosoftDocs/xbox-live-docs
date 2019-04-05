@@ -1,12 +1,12 @@
 ---
-title: Unity Prefabs and scripted sign-in
+title: Sign-in in Unity through prefabs or scripting (2017)
 description: Unity prefabs and Scripted Sign-In examples for Social services on Xbox Live.
 ms.date: 01/24/2018
 ms.topic: get-started-article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity
 ---
 
-# Unity Prefabs and scripted sign-in
+# Sign-in in Unity through prefabs or scripting (2017)
 
 This article guides you through adding Xbox Live sign-in to your Unity projects.
 
@@ -19,7 +19,9 @@ There are two ways you can achieve sign-in, if you have downloaded the [Xbox Liv
 If you installed the Xbox Live Plugin after that time, or have not yet downloaded it, you may have a newer version which has significant differences for how sign-in is performed.
 
 In addition, the screenshots in this plugin do not match those of the most recent release.
-Instead, see [article for the updated sign-in prefab](playerauthentication-prefab-sign-in.md), as well as [the article detailing the updated methods for scripting sign-in](sign-in-manager.md).
+For more up-to-date screenshots, see the two newer articles:
+* [Easy sign-in with the PlayerAuthentication prefab (2018)](playerauthentication-prefab-sign-in.md)
+* [Scripting Sign-In with the SignInManager in Unity (2018)](sign-in-manager.md)
 
 
 ## Before you begin
@@ -35,7 +37,7 @@ Before you start adding Xbox Live social services to your Unity game, there are 
 Once your Unity project is set up properly, it's time to learn about the tools you can use in your Xbox Live enabled title, as well as the two main ways you can implement Xbox Live in Unity: prefabs and scripts.
 
 
-## Prefabs
+## The Prefabs approach to sign-in
 
 Unity has a prefab asset type that allows you to store a GameObject complete with components and properties.
 The prefab acts as a template from which you can create new object instances in your Unity scene.
@@ -122,7 +124,7 @@ The following is an example of a failed sign-in due to a bad Xbox Live app confi
 ![failed userprofile play](../images/unity/flawed-user-profile-play.gif)
 
 
-## Scripting sign-in
+## The scripting approach to sign-in
 
 Now that you know how to use the **UserProfile** prefab, it would be best to look at the underlying script that governs the functionality of the prefab.
 If you look at the **UserProfile** in the **Inspector**, you will see that it has a **UserProfile.cs** script attached to it.

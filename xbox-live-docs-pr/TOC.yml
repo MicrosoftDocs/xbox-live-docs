@@ -43,20 +43,17 @@
                       href: get-started-with-creators/develop-creators-title-with-unity.md
                     - name: Configuring Xbox Live in Unity
                       href: get-started-with-creators/configure-xbox-live-in-unity.md
-                    - name: Unity Prefabs and scripted sign-in
-                      href: get-started-with-creators/unity-prefabs-and-sign-in.md
-                    - name: Easy sign-in with the PlayerAuthentication prefab
-                      href: get-started-with-creators/playerauthentication-prefab-sign-in.md
-                    - name: Scripting Sign-In with the SignInManager in Unity
-                      href: get-started-with-creators/sign-in-manager.md
+                    - name: Signing into Xbox Live in Unity
+                      href: get-started-with-creators/unity-signin-nav.md
+                      items: 
+                        - name: Sign-in in Unity through prefabs or scripting (2017)
+                          href: get-started-with-creators/unity-prefabs-and-sign-in.md
+                        - name: Easy sign-in with the PlayerAuthentication prefab (2018)
+                          href: get-started-with-creators/playerauthentication-prefab-sign-in.md
+                        - name: Scripting Sign-In with the SignInManager in Unity (2018)
+                          href: get-started-with-creators/sign-in-manager.md
                     - name: Testing a Unity game build in Visual Studio
                       href: get-started-with-creators/test-visual-studio-build.md
-                    - name: Adding player stats and leaderboards to a Unity project
-                      href: get-started-with-creators/add-stats-and-leaderboards-in-unity.md
-                    - name: Setting up the Leaderboard example scene in Unity
-                      href: get-started-with-creators/setup-leaderboard-example-scene.md
-                    - name: Scripting a leaderboard in Unity
-                      href: get-started-with-creators/unity-leaderboard-from-scratch.md
                     - name: Add controller support to Xbox Live prefabs
                       href: get-started-with-creators/add-controller-support-to-xbox-live-prefabs.md
                     - name: Add multi-user support to a Unity game
@@ -70,7 +67,7 @@
                   href: get-started-with-partner/get-started-with-android-studio.md
                 - name: Get started with the Xbox Live APIs on Android
                   href: get-started-with-ios-android/android-get-started-with-xsapi.md
-                - name: Get started with the Xbox Live APIs on iOS
+                - name: Get started with the Xbox Live SDK for iOS
                   href: get-started-with-ios-android/ios-get-started-with-xsapi.md
                 - name: Add XBL support in Visual Studio, for UWP games
                   href: get-started-with-partner/visual-studio-for-uwp-games.md
@@ -234,7 +231,16 @@
                     - name: Updating Player Stats 2017
                       href: leaderboards-and-stats-2017/player-stats-updating.md
             - name: Leaderboards
-              href: leaderboards-and-stats-2017/leaderboards.md
+              href: leaderboards-and-stats-2017/leaderboards-nav.md
+              items: 
+                - name: Overview of leaderboards
+                  href: leaderboards-and-stats-2017/leaderboards.md
+                - name: Adding player stats and leaderboards to a Unity project
+                  href: get-started-with-creators/add-stats-and-leaderboards-in-unity.md
+                - name: Setting up the Leaderboard example scene in Unity
+                  href: get-started-with-creators/setup-leaderboard-example-scene.md
+                - name: Scripting a leaderboard in Unity
+                  href: get-started-with-creators/unity-leaderboard-from-scratch.md
             - name: Featured Stats
               href: features/data/featured-stats/index.md
               items: 

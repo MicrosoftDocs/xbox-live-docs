@@ -1,12 +1,12 @@
 ---
-title: Scripting Sign-In with the SignInManager in Unity
+title: Scripting Sign-In with the SignInManager in Unity (2018)
 description: Overview of the Unity Plugin Sign-In Manager.
 ms.date: 05/08/2018
 ms.topic: get-started-article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity
 ---
 
-# Scripting Sign-In with the SignInManager in Unity
+# Scripting Sign-In with the SignInManager in Unity (2018)
 
 To add sign-in to your own custom game objects, you script it into a GameObject.
 

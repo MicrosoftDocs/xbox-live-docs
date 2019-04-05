@@ -15,33 +15,10 @@ Now that you've imported the Xbox Live SDK into your IDE, set up your project to
 Adding this code to your game enables the user to do basic sign-in to Xbox Live on the user's mobile device.
 
 
-## Find the game's IDs at Partner Center
+## Find the game's IDs at Partner Center, for Managed Partners
 
-At Partner Center, find the Title ID, SCID, Sandbox ID, and Client ID of your game, to insert into the sign-in code.
-
-
-### Find the game's IDs at Partner Center, for Creators
-
-1. Go to <a href="https://partner.microsoft.com/en-us/dashboard/" target="_blank">Partner Center</a>.
-
-2. On the left, click **Products**, then click your game app.
-
-   The "App overview" page appears.
-
-3. In the **Submissions** section of the page, click **Submission <#>**.
-
-   The "Submission <#>" page appears.
-
-4. Click the **Xbox Live Creators Program** section of the page.
-
-   The "Xbox Live Creators Program" page appears.
-
-5. In the top of the page, copy and save the **Title ID**, **SCID**, and the **Sandbox ID** such as "ABCDEF.12"
-
-   <!-- todo: where to get the Client ID -->
-
-
-### Find the game's IDs at Partner Center, for Managed Partners
+At Partner Center, find the Title ID, SCID, Sandbox ID, and Client ID of your game, as follows.
+These IDs are needed, to insert into the sign-in code.
 
 1. Go to <a href="https://partner.microsoft.com/en-us/dashboard/" target="_blank">Partner Center</a>.
 
@@ -66,6 +43,27 @@ At Partner Center, find the Title ID, SCID, Sandbox ID, and Client ID of your ga
 7. In the **Xbox Live product identities** section of the page, copy and save the **Title ID (decimal)**, **MsaAppId** (this is the Client ID),  and **SCID**.
 
    <!-- todo: confirm this is the Client ID -->
+
+
+<!-- ### Find the game's IDs at Partner Center, for Creators
+
+1. Go to <a href="https://partner.microsoft.com/en-us/dashboard/" target="_blank">Partner Center</a>.
+
+2. On the left, click **Products**, then click your game app.
+
+   The "App overview" page appears.
+
+3. In the **Submissions** section of the page, click **Submission <#>**.
+
+   The "Submission <#>" page appears.
+
+4. Click the **Xbox Live Creators Program** section of the page.
+
+   The "Xbox Live Creators Program" page appears.
+
+5. In the top of the page, copy and save the **Title ID**, **SCID**, and the **Sandbox ID** such as "ABCDEF.12" -->
+
+   <!-- todo: where to get the Client ID -->
 
 
 ## Initialize XSAPI
