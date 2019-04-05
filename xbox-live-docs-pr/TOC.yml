@@ -61,10 +61,15 @@
             - name: Setting up an IDE to use Xbox Live, for ID@Xbox Managed Partners
               href: get-started-with-partner/managed-partners-and-id-xbox-developers.md
               items: 
-                - name: Adding Xbox Live to your Android Studio Project
-                  href: get-started-with-partner/get-started-with-android-studio.md
-                - name: Get started with the Xbox Live APIs on Android
-                  href: get-started-with-ios-android/android-get-started-with-xsapi.md
+                - name: Setting up Android Studio to use Xbox Live
+                  href: get-started-with-ios-android/android-st-nav.md
+                  items: 
+                    - name: Adding Xbox Live to an Android Studio Project
+                      href: get-started-with-partner/get-started-with-android-studio.md
+                    - name: Get started with the Xbox Live APIs on Android
+                      href: get-started-with-ios-android/android-get-started-with-xsapi.md
+                    - name: Setting up Visual Studio for XAL login on Android
+                      href: using-xbox-live/auth/android-xal.md
                 - name: Get started with the Xbox Live SDK for iOS
                   href: get-started-with-ios-android/ios-get-started-with-xsapi.md
                 - name: Add XBL support in Visual Studio, for UWP games

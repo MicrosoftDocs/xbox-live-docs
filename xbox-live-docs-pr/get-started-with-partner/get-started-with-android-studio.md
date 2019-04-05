@@ -1,6 +1,6 @@
 ---
 title: Adding Xbox Live to your Android Studio Project
-description: Learn how to add XBL to your Android Studio project
+description: Adding Xbox Live to your Android Studio project.
 ms.date: 03/14/2019
 ms.topic: article
 keywords: xbox live, xbox, games, android, android studio
