@@ -9,6 +9,7 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
+
 # Setting up an IDE to use Xbox Live, for Creators
 
 
@@ -16,9 +17,8 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Develop in Visual Studio, for Creators](develop-creators-title-with-visual-studio.md) | Developing an Xbox Live-enable game as a Creators program member, using Visual Studio. |
-| [Setting up Unity to use Xbox Live, for Creators](develop-creators-unity.md) | Developing an Xbox Live-enable game as a Creators program member, using Unity. |
-
+| [Setting up Visual Studio to use Xbox Live, for Creators](develop-creators-title-with-visual-studio.md) | Developing an Xbox Live-enable game as a Creators program member, using Visual Studio. |
+| [Setting up Unity to use Xbox Live, for Creators](develop-creators-title-with-unity.md) | Adding Xbox Live to a game developed with the Unity game engine. |
 
 ### See also
 
