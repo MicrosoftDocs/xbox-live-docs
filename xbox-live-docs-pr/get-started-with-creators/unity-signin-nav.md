@@ -14,6 +14,6 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity
 
 | Article | Description |
 |---------|-------------|
-| [Sign-in in Unity through prefabs or scripting (2017)](unity-prefabs-and-sign-in.md) | Unity prefabs and Scripted Sign-In examples for Social services on Xbox Live. |
-| [Easy sign-in with the PlayerAuthentication prefab (2018)](playerauthentication-prefab-sign-in.md) | Overview of the Unity Plugin PlayerAuthentication Prefab. |
-| [Scripting Sign-In with the SignInManager in Unity (2018)](sign-in-manager.md) | Overview of the Unity Plugin Sign-In Manager. |
+| [Easy sign-in with the PlayerAuthentication prefab](playerauthentication-prefab-sign-in.md) | Overview of the Unity Plugin PlayerAuthentication Prefab. |
+| [Scripting Sign-In with the SignInManager in Unity](sign-in-manager.md) | Overview of the Unity Plugin Sign-In Manager. |
+| [Sign-in in Unity through prefabs or scripting (pre-1804)](unity-prefabs-and-sign-in.md) | Unity prefabs and Scripted Sign-In examples for Social services on Xbox Live. |

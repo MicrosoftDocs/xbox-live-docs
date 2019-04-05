@@ -34,24 +34,22 @@
             - name: Setting up an IDE to use Xbox Live, for Creators
               href: get-started-with-creators/creators-program.md
               items:
-                - name: Develop in Visual Studio, for Creators
+                - name: Setting up Visual Studio to use Xbox Live, for Creators
                   href: get-started-with-creators/develop-creators-title-with-visual-studio.md
-                - name: Develop in Unity, for Creators
-                  href: get-started-with-creators/develop-creators-unity.md
+                - name: Setting up Unity to use Xbox Live, for Creators
+                  href: get-started-with-creators/develop-creators-title-with-unity.md
                   items: 
-                    - name: Get started developing a Creators Program title with Unity
-                      href: get-started-with-creators/develop-creators-title-with-unity.md
                     - name: Configuring Xbox Live in Unity
                       href: get-started-with-creators/configure-xbox-live-in-unity.md
                     - name: Signing into Xbox Live in Unity
                       href: get-started-with-creators/unity-signin-nav.md
                       items: 
-                        - name: Sign-in in Unity through prefabs or scripting (2017)
-                          href: get-started-with-creators/unity-prefabs-and-sign-in.md
-                        - name: Easy sign-in with the PlayerAuthentication prefab (2018)
+                        - name: Easy sign-in with the PlayerAuthentication prefab
                           href: get-started-with-creators/playerauthentication-prefab-sign-in.md
-                        - name: Scripting Sign-In with the SignInManager in Unity (2018)
+                        - name: Scripting Sign-In with the SignInManager in Unity
                           href: get-started-with-creators/sign-in-manager.md
+                        - name: Sign-in in Unity through prefabs or scripting (pre-1804)
+                          href: get-started-with-creators/unity-prefabs-and-sign-in.md
                     - name: Testing a Unity game build in Visual Studio
                       href: get-started-with-creators/test-visual-studio-build.md
                     - name: Add controller support to Xbox Live prefabs

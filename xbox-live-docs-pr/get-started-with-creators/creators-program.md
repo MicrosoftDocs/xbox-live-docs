@@ -11,17 +11,13 @@ ms.localizationpriority: medium
 ---
 # Setting up an IDE to use Xbox Live, for Creators
 
-The Xbox Live Creators Program is a good starting point for Xbox Live if you are looking to familiarize yourself with Xbox Live development.
-
-No approval process from Microsoft is required to join this program, and there are minimal certification and publishing requirements.
-
 
 ### In this section
 
 | Article | Description |
 |---------|-------------|
 | [Develop in Visual Studio, for Creators](develop-creators-title-with-visual-studio.md) | Developing an Xbox Live-enable game as a Creators program member, using Visual Studio. |
-| [Develop in Unity, for Creators](develop-creators-unity.md) | Developing an Xbox Live-enable game as a Creators program member, using Unity. |
+| [Setting up Unity to use Xbox Live, for Creators](develop-creators-unity.md) | Developing an Xbox Live-enable game as a Creators program member, using Unity. |
 
 
 ### See also

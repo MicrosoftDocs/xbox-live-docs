@@ -1,12 +1,12 @@
 ---
-title: Easy sign-in with the PlayerAuthentication prefab (2018)
+title: Easy sign-in with the PlayerAuthentication prefab
 description: Overview of the Unity Plugin PlayerAuthentication Prefab.
 ms.date: 05/08/2018
 ms.topic: get-started-article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity
 ---
 
-# Easy sign-in with the PlayerAuthentication prefab (2018)
+# Easy sign-in with the PlayerAuthentication prefab
 
 The PlayerAuthentication prefab is the easiest way to add Xbox Live Authentication to your title.
 It only takes three easy steps to go from a new scene to a sign-in page.
