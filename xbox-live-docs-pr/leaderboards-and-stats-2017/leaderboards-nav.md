@@ -16,6 +16,6 @@ ms.localizationpriority: medium
 | Article | Description |
 |---------|-------------|
 | [Overview of leaderboards](leaderboards.md) | Defining leaderboards to compare players by showing selected stats for a game. |
-| [Adding player stats and leaderboards to a Unity project](get-started-with-creators/add-stats-and-leaderboards-in-unity.md) | Use the Xbox Live Unity plugin to add player stats and leaderboards to your Unity project. |
-| [Setting up the Leaderboard example scene in Unity](get-started-with-creators/setup-leaderboard-example-scene.md) | Setting up the Leaderboard example scene in Unity. |
-| [Scripting a leaderboard in Unity](get-started-with-creators/unity-leaderboard-from-scratch.md) | Building your own Leaderboard UI in Unity. |
+| [Adding player stats and leaderboards to a Unity project](../get-started-with-creators/add-stats-and-leaderboards-in-unity.md) | Use the Xbox Live Unity plugin to add player stats and leaderboards to your Unity project. |
+| [Setting up the Leaderboard example scene in Unity](../get-started-with-creators/setup-leaderboard-example-scene.md) | Setting up the Leaderboard example scene in Unity. |
+| [Scripting a leaderboard in Unity](../get-started-with-creators/unity-leaderboard-from-scratch.md) | Building your own Leaderboard UI in Unity. |
