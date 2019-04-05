@@ -34,9 +34,9 @@
             - name: Setting up an IDE to use Xbox Live, for Creators
               href: get-started-with-creators/creators-program.md
               items:
-                - name: Setting up Visual Studio to use Xbox Live, for Creators
+                - name: Setting up Visual Studio to use Xbox Live
                   href: get-started-with-creators/develop-creators-title-with-visual-studio.md
-                - name: Setting up Unity to use Xbox Live, for Creators
+                - name: Setting up Unity to use Xbox Live
                   href: get-started-with-creators/develop-creators-title-with-unity.md
                   items: 
                     - name: Configuring Xbox Live in Unity
@@ -70,9 +70,18 @@
                       href: get-started-with-ios-android/android-get-started-with-xsapi.md
                     - name: Setting up Visual Studio for XAL login on Android
                       href: using-xbox-live/auth/android-xal.md
-                - name: Get started with the Xbox Live SDK for iOS
+                - name: Setting up Xcode to use Xbox Live
                   href: get-started-with-ios-android/ios-get-started-with-xsapi.md
-                - name: Add XBL support in Visual Studio, for UWP games
+                - name: Setting up Unity to use Xbox Live
+                  href: get-started-with-partner/add-xbl-support-to-unity.md
+                  items: 
+                    - name: Add XBL support to Unity for UWP, with .NET scripting
+                      href: get-started-with-partner/partner-add-xbox-live-to-unity-uwp.md
+                    - name: Add XBL support to Unity for UWP, with IL2CPP scripting
+                      href: get-started-with-partner/partner-unity-uwp-il2cpp.md
+                    - name: Add XBL support to Unity for XDK, with IL2CPP scripting
+                      href: get-started-with-partner/partner-unity-xdk-il2cpp.md
+                - name: Setting up Visual Studio to use Xbox Live, for UWP games
                   href: get-started-with-partner/visual-studio-for-uwp-games.md
                   items: 
                     - name: Get started using Visual Studio for UWP games
@@ -83,16 +92,7 @@
                       href: get-started-with-partner/add-xbox-live-apis-source-to-a-uwp-project.md
                     - name: The XboxServices.config file for UWP games
                       href: xboxservices-config.md
-                - name: Add XBL support in Unity, for UWP games
-                  href: get-started-with-partner/add-xbl-support-to-unity.md
-                  items: 
-                    - name: Add XBL support to Unity for UWP, with .NET scripting
-                      href: get-started-with-partner/partner-add-xbox-live-to-unity-uwp.md
-                    - name: Add XBL support to Unity for UWP, with IL2CPP scripting
-                      href: get-started-with-partner/partner-unity-uwp-il2cpp.md
-                    - name: Add XBL support to Unity for XDK, with IL2CPP scripting
-                      href: get-started-with-partner/partner-unity-xdk-il2cpp.md
-                - name: Add XBL Support in Visual Studio, for XDK games
+                - name: Setting up Visual Studio to use Xbox Live, for XDK games
                   href: get-started-with-partner/xdk-developers.md
                   items: 
                     - name: Getting the XDK
