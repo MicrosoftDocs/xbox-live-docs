@@ -34,9 +34,9 @@
             - name: Setting up an IDE to use Xbox Live, for Creators
               href: get-started-with-creators/creators-program.md
               items:
-                - name: Setting up Visual Studio to use Xbox Live
+                - name: 1. Setting up Visual Studio to use Xbox Live
                   href: get-started-with-creators/develop-creators-title-with-visual-studio.md
-                - name: Setting up Unity to use Xbox Live
+                - name: 2. Setting up Unity to use Xbox Live
                   href: get-started-with-creators/develop-creators-title-with-unity.md
                   items: 
                     - name: Configuring Xbox Live in Unity
@@ -58,10 +58,10 @@
                       href: get-started-with-creators/add-multi-user-support.md
                     - name: Checking user privilege settings in Unity
                       href: get-started-with-creators/check-user-privileges-in-unity.md
-            - name: Setting up an IDE to use Xbox Live, for ID@Xbox Managed Partners
+            - name: Setting up an IDE to use Xbox Live, for Managed Partners
               href: get-started-with-partner/managed-partners-and-id-xbox-developers.md
               items: 
-                - name: Setting up Android Studio to use Xbox Live
+                - name: 3. Setting up Android Studio to use Xbox Live
                   href: get-started-with-ios-android/android-st-nav.md
                   items: 
                     - name: Adding Xbox Live to an Android Studio Project
@@ -70,9 +70,9 @@
                       href: get-started-with-ios-android/android-get-started-with-xsapi.md
                     - name: Setting up Visual Studio for XAL login on Android
                       href: using-xbox-live/auth/android-xal.md
-                - name: Setting up Xcode to use Xbox Live
+                - name: 4. Setting up Xcode to use Xbox Live
                   href: get-started-with-ios-android/ios-get-started-with-xsapi.md
-                - name: Setting up Unity to use Xbox Live
+                - name: 5. Setting up Unity to use Xbox Live
                   href: get-started-with-partner/add-xbl-support-to-unity.md
                   items: 
                     - name: Add XBL support to Unity for UWP, with .NET scripting
@@ -81,7 +81,7 @@
                       href: get-started-with-partner/partner-unity-uwp-il2cpp.md
                     - name: Add XBL support to Unity for XDK, with IL2CPP scripting
                       href: get-started-with-partner/partner-unity-xdk-il2cpp.md
-                - name: Setting up Visual Studio to use Xbox Live, for UWP games
+                - name: 6. Setting up Visual Studio to use Xbox Live, for UWP games
                   href: get-started-with-partner/visual-studio-for-uwp-games.md
                   items: 
                     - name: Get started using Visual Studio for UWP games
@@ -92,7 +92,7 @@
                       href: get-started-with-partner/add-xbox-live-apis-source-to-a-uwp-project.md
                     - name: The XboxServices.config file for UWP games
                       href: xboxservices-config.md
-                - name: Setting up Visual Studio to use Xbox Live, for XDK games
+                - name: 7. Setting up Visual Studio to use Xbox Live, for XDK games
                   href: get-started-with-partner/xdk-developers.md
                   items: 
                     - name: Getting the XDK
