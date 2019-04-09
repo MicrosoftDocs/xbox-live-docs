@@ -1,8 +1,8 @@
 ---
-layout: LandingPage
 title: Add XBL support in Visual Studio, for UWP games
-author: mikehoffms
 description: Setting up a Visual Studio project to enable Xbox Live for a UWP game.
+layout: LandingPage
+author: mikehoffms
 ms.author: v-mihof
 ms.date: 12/06/2018
 ms.topic: article

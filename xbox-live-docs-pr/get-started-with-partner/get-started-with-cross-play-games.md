@@ -17,13 +17,13 @@ To enable cross-play, these games will share a single Title ID and Xbox Live ser
 
 Ingesting an XDK+UWP game requires 4 major steps:
 
-1.  Create your UWP product in Partner Center.
+1. Create your UWP product in Partner Center.
 
-2.  Create your XDK game in XDP, selecting the platforms you want to share XBL configuration across.
+2. Create your XDK game in XDP, selecting the platforms you want to share XBL configuration across.
 
-3.  Bind your UWP product information to your XDK product in XDP.
+3. Bind your UWP product information to your XDK product in XDP.
 
-4.  Configure and publish Xbox Live through XDP.
+4. Configure and publish Xbox Live through XDP.
 
 This article details these four steps, to make it as easy as possible to ingest XDK+UWP cross-platform games.
 
@@ -31,29 +31,29 @@ This article details these four steps, to make it as easy as possible to ingest 
 ## Terminology
 
 
-### Scenario Terms
+### Scenario terminology
 
-1.  Cross-Play: A game that is releasing on more than one platform, but shares a single Xbox title ID and service configuration. The end result is that both versions of the game share the same Xbox Live configuration - achievements, leaderboards, game saves, multiplayer, and more.
+_Cross-Play_: A game that is releasing on more than one platform, but shares a single Xbox title ID and service configuration. The end result is that both versions of the game share the same Xbox Live configuration - achievements, leaderboards, game saves, multiplayer, and more.
 
-2.  Partner Center: The [portal](https://partner.microsoft.com/dashboard) where you can reserve app identities for use in UWP development and set up Xbox Live configuration for UWP.
+_Partner Center_: The [portal](https://partner.microsoft.com/dashboard) where you can reserve app identities for use in UWP development and set up Xbox Live configuration for UWP.
 
-3.  XDP: The Xbox Developer Portal, which exists to ingest, configure, and publish Xbox One XDK and SRA games, and will see added use to ingest, configure, and publish XDK+UWP Cross-Play games.
+_Xbox Developer Portal_: The site to ingest, configure, and publish Xbox One XDK and SRA games, and will see added use to ingest, configure, and publish XDK+UWP Cross-Play games.
 
 
-### Identity Terminology
+### Identity terminology
 
-*Title ID*: This is the Xbox Title ID, used to identify each game to Xbox Live.
+_Title ID_: This is the Xbox Title ID, used to identify each game to Xbox Live.
 A Title ID maps to a single product, which may span multiple platforms.
 
-*Service Configuration ID (SCID)*: Each Xbox title (identified by a Title ID) has a corresponding Service Configuration ID (aka SCID).
+_Service Configuration ID (SCID)_: Each Xbox title (identified by a Title ID) has a corresponding Service Configuration ID (aka SCID).
 This ID allows Xbox Live to uniquely identify the rules / configuration to use when interacting with your title.
 
-*Package Family Name (PFN)*: This is an identity assigned to each product created in Partner Center.
+_Package Family Name (PFN)_: This is an identity assigned to each product created in Partner Center.
 Once you bind your UWP to the identity of this Partner Center product, it will take on this PFN.
 PFNs are unique product identifiers, which may span multiple platforms.
 PFNs are 1:1 with Xbox Title IDs.
 
-*MSA App ID*: Also known as MSA Client ID, this is another app identity assigned by MSA at product creation time in Partner Center.
+_MSA App ID_: Also known as MSA Client ID, this is another app identity assigned by MSA at product creation time in Partner Center.
 This identity helps Microsoft services identify your app.
 MSA App IDs are 1:1 with PFNs (and accordingly with Xbox Title IDs).
 

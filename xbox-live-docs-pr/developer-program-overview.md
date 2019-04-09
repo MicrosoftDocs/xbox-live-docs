@@ -1,6 +1,6 @@
 ---
 title: Joining a developer program
-description: Choosing and joining either the Creators Program or the ID@Xbox Managed Partners Program.
+description: Choosing the Creators Program or the ID@Xbox Managed Partners Program.
 ms.assetid: 1166308a-4079-41b4-8550-ce04b82b4f72
 ms.date: 05/30/2018
 ms.topic: article
