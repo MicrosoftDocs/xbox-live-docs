@@ -22,7 +22,7 @@ ms.localizationpriority: medium
     </ul>
     <section id="tabpanel_tab1" role="tabpanel" data-tab="tab1">
       <p>HTML content 1.</p>
-```cpp
+      <code>
 void CALLBACK XAL_TryResolveUserIssue_Callback(_In_ XAsyncBlock* asyncBlock)
 {
     HRESULT hr = XAsyncGetStatus(asyncBlock, false);
@@ -35,25 +35,19 @@ void CALLBACK XAL_TryResolveUserIssue_Callback(_In_ XAsyncBlock* asyncBlock)
 
     delete asyncBlock;
 }
-```
+      </code>
     </section>
     <section id="tabpanel_tab2" role="tabpanel" data-tab="tab2" aria-hidden="true" hidden="hidden">
       <p>HTML content 2.</p>
-<code>
-```cpp
-void CALLBACK XAL_TryResolveUserIssue_Callback(_In_ XAsyncBlock* asyncBlock)
+      <code>
+HRESULT XAL_TryResolveUserIssue(_In_ XalUserHandle user)
 {
-    HRESULT hr = XAsyncGetStatus(asyncBlock, false);
-    XalUserHandle user = reinterpret_cast<XblUserHandle>(asyncBlock->context);
+    XAsyncBlock* asyncBlock = new XAsyncBlock() {};
+    asyncBlock->context = user;
+    asyncBlock->callback = XAL_TryResolveUserIssue_Callback;
 
-    // TODO: If XAsyncGetStatus fails, tell user to sign in again
-
-    // Close the Reference if one was created during XalUserDuplicateHandle
-    if (user) { XalUserCloseHandle(user); }
-
-    delete asyncBlock;
+    return XalUserResolveIssueWithUiAsync(user, "https://www.xboxlive.com", asyncBlock);
 }
-```
-</code>
+      </code>
     </section>
   </div>
