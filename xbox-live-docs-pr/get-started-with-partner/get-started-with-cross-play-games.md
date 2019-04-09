@@ -1,6 +1,6 @@
 ---
-title: Getting started with cross-play games
-description: Developing cross-play games, which run on both Xbox One (as an XDK game) and Windows 10 (as a UWP game).
+title: Cross-play games
+description: Sharing a single Xbox Live services configuration across an XDK-based Xbox One version and a UWP-based Windows 10 version of the game.
 ms.assetid: 6c8e9d08-a3d2-4bfc-90ee-03c8fde3e66d
 ms.date: 04/04/2017
 ms.topic: article
@@ -10,16 +10,13 @@ ms.localizationpriority: medium
 
 # Getting started with cross-play games
 
-With the launch of Windows 10, game developers will be able to release single products both on Xbox One (as an XDK game) and Windows 10 (as a UWP game).
-
-In some cases, developers will want to enable cross-play for these games, where the Xbox One and Windows 10 versions of their game are unified across Xbox Live services like Multiplayer, Game Save, Achievements, and more.
-To enable cross-play, these games will share a single Title ID and Xbox Live service configuration across both the XDK and UWP versions of the game.
+A _cross-play game_ is a game that is released as an XDK-based Xbox One version and a UWP-based Windows 10 version, where both versions of the game share a single Title ID and a single Xbox Live services configuration such as multiplayer, game saves, achievements, and leaderboards.
 
 Ingesting an XDK+UWP game requires 4 major steps:
 
 1. Create your UWP product in Partner Center.
 
-2. Create your XDK game in XDP, selecting the platforms you want to share XBL configuration across.
+2. Create your XDK game in Xbox Developer Portal (XDP), selecting the platforms you want to share XBL configuration across.
 
 3. Bind your UWP product information to your XDK product in XDP.
 
@@ -30,17 +27,11 @@ This article details these four steps, to make it as easy as possible to ingest 
 
 ## Terminology
 
-
-### Scenario terminology
-
-_Cross-Play_: A game that is releasing on more than one platform, but shares a single Xbox title ID and service configuration. The end result is that both versions of the game share the same Xbox Live configuration - achievements, leaderboards, game saves, multiplayer, and more.
+<!-- _ingesting_ -->
 
 _Partner Center_: The [portal](https://partner.microsoft.com/dashboard) where you can reserve app identities for use in UWP development and set up Xbox Live configuration for UWP.
 
-_Xbox Developer Portal_: The site to ingest, configure, and publish Xbox One XDK and SRA games, and will see added use to ingest, configure, and publish XDK+UWP Cross-Play games.
-
-
-### Identity terminology
+_Xbox Developer Portal (XDP)_: The site to ingest, configure, and publish Xbox One XDK and SRA games, and will see added use to ingest, configure, and publish XDK+UWP Cross-Play games.
 
 _Title ID_: This is the Xbox Title ID, used to identify each game to Xbox Live.
 A Title ID maps to a single product, which may span multiple platforms.
@@ -99,7 +90,7 @@ Until Xbox One supports UWP games, Cross-Play games require an XDK (for Xbox One
 
 Any XDK + UWP Cross-Play game comes with some important restrictions:
 
-1.  **XDK titles must be ingested in XDP**. Both from a service configuration and mainline publishing experience, Partner Center is not equipped to support XDK based titles.
+1.  **XDK titles must be ingested in Xbox Developer Portal (XDP)**. Both from a service configuration and mainline publishing experience, Partner Center is not equipped to support XDK-based titles.
 
 2.  **A single service configuration created in XDP can be used both by the XDK and UWP version of a game**. We’ve added new features to XDP to allow a game to share a single service configuration between its XDK and UWP versions. The UWP version will still need to be published in Partner Center for packages / catalog, but all service configuration publishing can be done in XDP.
 
@@ -113,7 +104,7 @@ Create a UWP product in Partner Center by following the guide: [Adding Xbox Live
 
 ## Setup your XDK product in XDP
 
-Now that your UWP is created, you are ready to setup your XDK product in XDP.
+Now that your UWP is created, you are ready to setup your XDK product in Xbox Developer Portal (XDP).
 If you do not already have an XDK title, you must create one.
 
 
