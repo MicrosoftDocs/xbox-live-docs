@@ -27,7 +27,7 @@ After you have set up a game at Partner Center, set up one of the following IDEs
 | [5a. Managed Partners: Visual Studio: UWP](../../get-started-with-partner/visual-studio-for-uwp-games.md) | Setting up a Visual Studio project to enable Xbox Live for a UWP game. |
 | [5b. Managed Partners: Visual Studio: XDK](../../get-started-with-partner/xdk-developers.md) | Getting started with Xbox Live development in an Xbox Developer Kit (XDK)-based project using Visual Studio. |
 | [6. Managed Partners: Unity: UWP, XDK](../../get-started-with-partner/add-xbl-support-to-unity.md) | Adding Xbox Live support to Unity for UWP with a scripting backend, for ID@Xbox and managed partners. |
-| [Get started with cross-play games](../../get-started-with-partner/get-started-with-cross-play-games.md) | Developing cross-play games, which run on both Xbox One (as an XDK game) and Windows 10 (as a UWP game). |
+| [Getting started with cross-play games](../../get-started-with-partner/get-started-with-cross-play-games.md) | Developing cross-play games, which run on both Xbox One (as an XDK game) and Windows 10 (as a UWP game). |
 
 
 ### Next steps

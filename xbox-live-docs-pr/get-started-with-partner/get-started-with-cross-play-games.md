@@ -1,5 +1,5 @@
 ---
-title: Get started with cross-play games
+title: Getting started with cross-play games
 description: Developing cross-play games, which run on both Xbox One (as an XDK game) and Windows 10 (as a UWP game).
 ms.assetid: 6c8e9d08-a3d2-4bfc-90ee-03c8fde3e66d
 ms.date: 04/04/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, cross-play, play an
 ms.localizationpriority: medium
 ---
 
-# Get started with cross-play games
+# Getting started with cross-play games
 
 With the launch of Windows 10, game developers will be able to release single products both on Xbox One (as an XDK game) and Windows 10 (as a UWP game).
 
