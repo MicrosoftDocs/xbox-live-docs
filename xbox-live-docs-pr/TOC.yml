@@ -110,8 +110,11 @@
                   href: get-started-with-partner/partner-unity-xdk-il2cpp.md
             - name: Get started with cross-play games
               href: get-started-with-partner/get-started-with-cross-play-games.md
-        - name: Adding basic sign-in code for mobile
-          href: get-started/getting-xsapi-to-sign-in.md
+        - name: Adding basic sign-in code
+          href: get-started/add-signin-code/index.md
+          items:
+            - name: Adding basic sign-in code for mobile
+              href: get-started/getting-xsapi-to-sign-in.md
     - name: Features
       href: features/index.md
       items:

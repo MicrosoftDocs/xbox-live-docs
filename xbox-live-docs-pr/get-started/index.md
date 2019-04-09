@@ -1,8 +1,8 @@
 ---
-layout: LandingPage
 title: Getting Started 
-author: mikehoffms
 description: Join a developer program, create a game app at Partner Center, add the Xbox Live SDK to your IDE, and write basic sign-in code.
+layout: LandingPage
+author: mikehoffms
 ms.author: v-mihof
 ms.date: 12/11/2018
 ms.topic: article
@@ -22,7 +22,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_subscription.svg" alt="Joining a developer program" />
+                                <img src="https://docs.microsoft.com/media/common/i_subscription.svg" alt="Joining a developer program"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -41,7 +41,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_form.svg" alt="Setting up a game app at Partner Center" />
+                                <img src="https://docs.microsoft.com/media/common/i_form.svg" alt="Setting up a game app at Partner Center"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -60,7 +60,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_download-install.svg" alt="Setting up an IDE to use Xbox Live" />
+                                <img src="https://docs.microsoft.com/media/common/i_download-install.svg" alt="Setting up an IDE to use Xbox Live"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -73,18 +73,18 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="getting-xsapi-to-sign-in.md">
+        <a href="add-signin-code/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_account-management.svg" alt="Adding basic sign-in code for mobile" />
+                                <img src="https://docs.microsoft.com/media/common/i_account-management.svg" alt="Adding basic sign-in code"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>4. Adding basic sign-in code for mobile</h3>
-                            <p>Adding code to your mobile game to enable basic sign-in to Xbox Live.</p>
+                            <h3>4. Adding basic sign-in code</h3>
+                            <p>Adding code to your game to enable basic sign-in to Xbox Live.</p>
                         </div>
                     </div>
                 </div>

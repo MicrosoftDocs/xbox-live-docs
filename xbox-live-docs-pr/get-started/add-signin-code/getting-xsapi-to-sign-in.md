@@ -1,6 +1,6 @@
 ---
 title: Adding basic sign-in code for mobile, for Managed Partners
-description: Adding code to your mobile game to enable basic sign-in to Xbox Live.
+description: Adding code to a mobile game to enable basic sign-in to Xbox Live.
 ms.date: 03/14/2019
 ms.topic: article
 keywords: xbox live, xbox, games, mobile, sign-in
