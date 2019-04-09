@@ -14,16 +14,16 @@ ms.localizationpriority: medium
   <div class="tabGroup" id="tabgroup_CeZOj-G++Q">
     <ul role="tablist">
       <li role="presentation">
-        <a href="#tabpanel_CeZOj-G++Q_vswin" role="tab" aria-controls="tabpanel_CeZOj-G++Q_vswin" data-tab="vswin" tabindex="0" aria-selected="true" data-linktype="self-bookmark">Tab 1</a>
+        <a href="#tabpanel_tab1" role="tab" aria-controls="tabpanel_tab1" data-tab="tab1" tabindex="0" aria-selected="true" data-linktype="self-bookmark">Tab 1</a>
       </li>
       <li role="presentation">
-        <a href="#tabpanel_CeZOj-G++Q_vsmac" role="tab" aria-controls="tabpanel_CeZOj-G++Q_vsmac" data-tab="vsmac" tabindex="-1" data-linktype="self-bookmark">Tab 2</a>
+        <a href="#tabpanel_tab2" role="tab" aria-controls="tabpanel_tab2" data-tab="tab2" tabindex="-1" data-linktype="self-bookmark">Tab 2</a>
       </li>
     </ul>
-    <section id="tabpanel_CeZOj-G++Q_vswin" role="tabpanel" data-tab="vswin">
+    <section id="tabpanel_tab1" role="tabpanel" data-tab="tab1">
       <p>HTML content 1.</p>
     </section>
-    <section id="tabpanel_CeZOj-G++Q_vsmac" role="tabpanel" data-tab="vsmac" aria-hidden="true" hidden="hidden">
+    <section id="tabpanel_tab2" role="tabpanel" data-tab="tab2" aria-hidden="true" hidden="hidden">
       <p>HTML content 2.</p>
     </section>
   </div>
