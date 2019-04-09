@@ -23,6 +23,7 @@ ms.localizationpriority: medium
     <section id="tabpanel_tab1" role="tabpanel" data-tab="tab1">
       <p>HTML content 1.</p>
       <code>
+// my code
 
 void CALLBACK XAL_TryResolveUserIssue_Callback(_In_ XAsyncBlock* asyncBlock)
 {
@@ -54,6 +55,7 @@ void CALLBACK XAL_TryResolveUserIssue_Callback(_In_ XAsyncBlock* asyncBlock)
     <section id="tabpanel_tab2" role="tabpanel" data-tab="tab2" aria-hidden="true" hidden="hidden">
       <p>HTML content 2.</p>
       <code>
+// my code
 
 HRESULT XAL_TryResolveUserIssue(_In_ XalUserHandle user)
 {
