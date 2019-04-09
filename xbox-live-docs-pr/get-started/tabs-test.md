@@ -26,7 +26,7 @@ ms.localizationpriority: medium
 void CALLBACK XAL_TryResolveUserIssue_Callback(_In_ XAsyncBlock* asyncBlock)
 {
     HRESULT hr = XAsyncGetStatus(asyncBlock, false);
-    XalUserHandle user = reinterpret_cast<XblUserHandle>(asyncBlock->context);
+    XalUserHandle user = reinterpret_cast&lt;XblUserHandle>(asyncBlock->context);
 
     // TODO: If XAsyncGetStatus fails, tell user to sign in again
 
@@ -34,6 +34,19 @@ void CALLBACK XAL_TryResolveUserIssue_Callback(_In_ XAsyncBlock* asyncBlock)
     if (user) { XalUserCloseHandle(user); }
 
     delete asyncBlock;
+
+    void CALLBACK XAL_TryResolveUserIssue_Callback(_In_ XAsyncBlock* asyncBlock)
+    {
+        HRESULT hr = XAsyncGetStatus(asyncBlock, false);
+        XalUserHandle user = reinterpret_cast&lt;XblUserHandle>(asyncBlock->context);
+    
+        // TODO: If XAsyncGetStatus fails, tell user to sign in again
+    
+        // Close the Reference if one was created during XalUserDuplicateHandle
+        if (user) { XalUserCloseHandle(user); }
+    
+        delete asyncBlock;
+    }
 }
       </code>
     </section>
