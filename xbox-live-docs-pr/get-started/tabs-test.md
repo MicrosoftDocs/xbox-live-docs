@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 
 # Tabs test
 
-  <div class="tabGroup" id="tabgroup_CeZOj-G++Q">
+  <div class="tabGroup" id="tabgroup_1">
     <ul role="tablist">
       <li role="presentation">
         <a href="#tabpanel_tab1" role="tab" aria-controls="tabpanel_tab1" data-tab="tab1" tabindex="0" aria-selected="true" data-linktype="self-bookmark">Tab 1</a>
