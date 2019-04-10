@@ -12,29 +12,6 @@ ms.localizationpriority: medium
 
 Multiplayer Manager for Matchmaking is a Multiplayer feature in Xbox Live.
 
-<ul class="cardsB panelContent cols2">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../../../../images/getting_started/what-is-xbl.svg" alt="What is Xbox Live?" />
-                        </div>
-                    </div>
-                    <div class="cardText"> 
-                        <h3>Business Justification</h3>
-                        <p>
-                            Benefits of implementing Multiplayer Manager:
-                            Increased participation by more users, due to the draw of more ways to communicate availability of the game and receiving alerts about a game session.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
-
 
 ### In this section
 
