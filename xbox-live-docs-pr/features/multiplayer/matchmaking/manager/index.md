@@ -12,14 +12,7 @@ ms.localizationpriority: medium
 
 Multiplayer Manager for Matchmaking is a Multiplayer feature in Xbox Live.
 
-<h1>Xbox Live documentation</h1>
-
-<p>
-  Xbox Live is a premier gaming network that connects millions of gamers across the world.
-  You can add Xbox Live to your Windows 10 PC, Xbox One, or mobile game in order to take advantage of the Xbox Live features and services.
-</p>
-
-<ul class="cardsY panelContent">
+<ul class="cardsY panelContent cols1">
     <li>
         <a href="../../../../what-is-xbox-live.md">
             <div class="cardSize">
@@ -31,8 +24,16 @@ Multiplayer Manager for Matchmaking is a Multiplayer feature in Xbox Live.
                             </div>
                         </div>
                         <div class="cardText"> 
-                            <h3>What is Xbox Live?</h3>
-                            <p>Xbox Live provides the greatest player community for your game on the most advanced cross-platform multiplayer network.</p>
+                            <h3>Business Justification</h3>
+                            <p>
+                                Benefits of implementing Multiplayer Manager: 
+                                Increased participation by more users, due to the draw of more ways to communicate availability of the game and receiving alerts about a game session.
+                            </p>
+                            <ul>
+                                <li>Increased participation.</li>
+                                <li>Increased participation.</li>
+                                <li>Increased participation.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
