@@ -1,7 +1,7 @@
 ---
-layout: LandingPage
 title: Multiplayer Manager for Matchmaking
 description: Multiplayer Manager for Matchmaking.
+layout: LandingPage
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, windows 10, xbox one
@@ -11,6 +11,55 @@ ms.localizationpriority: medium
 # Multiplayer Manager for Matchmaking
 
 Multiplayer Manager for Matchmaking is a Multiplayer feature in Xbox Live.
+
+<h1>Xbox Live documentation</h1>
+
+<p>
+  Xbox Live is a premier gaming network that connects millions of gamers across the world.
+  You can add Xbox Live to your Windows 10 PC, Xbox One, or mobile game in order to take advantage of the Xbox Live features and services.
+</p>
+
+<ul class="cardsY panelContent cols">
+    <li>
+        <a href="https://developer.microsoft.com/games/news-and-events/gdc2019" target="_blank">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="../../../../images/getting_started/mobile-gdc.svg" alt="GDC Announcements" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>GDC Announcements &#11008;</h3>
+                            <p>Visit us at GDC to find out the best ways to host your game in the cloud, operate your live titles, or reach the most passionate and engaged gamers on the planet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="../../../../what-is-xbox-live.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="../../../../images/getting_started/what-is-xbl.svg" alt="What is Xbox Live?" />
+                            </div>
+                        </div>
+                        <div class="cardText"> 
+                            <h3>What is Xbox Live?</h3>
+                            <p>Xbox Live provides the greatest player community for your game on the most advanced cross-platform multiplayer network.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
 
 
 ### In this section
