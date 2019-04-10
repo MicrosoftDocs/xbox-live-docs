@@ -21,25 +21,6 @@ Multiplayer Manager for Matchmaking is a Multiplayer feature in Xbox Live.
 
 <ul class="cardsY panelContent cols">
     <li>
-        <a href="https://developer.microsoft.com/games/news-and-events/gdc2019" target="_blank">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="../../../../images/getting_started/mobile-gdc.svg" alt="GDC Announcements" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>GDC Announcements &#11008;</h3>
-                            <p>Visit us at GDC to find out the best ways to host your game in the cloud, operate your live titles, or reach the most passionate and engaged gamers on the planet.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
         <a href="../../../../what-is-xbox-live.md">
             <div class="cardSize">
                 <div class="cardPadding">
