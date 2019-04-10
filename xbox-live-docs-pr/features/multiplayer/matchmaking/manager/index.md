@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 
 Multiplayer Manager for Matchmaking is a Multiplayer feature in Xbox Live.
 
-<ul class="cardsY panelContent cols1">
+<ul class="cardsY panelContent cols2">
     <li>
         <a href="../../../../what-is-xbox-live.md">
             <div class="cardSize">
