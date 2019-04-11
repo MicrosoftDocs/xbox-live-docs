@@ -11,4 +11,8 @@ ms.localizationpriority: medium
 
 # Joining the Creators Program
 
-TBD
+To join the Xbox Live Creators Program:
+
+* Create a Dev account; see <a href="https://www.xbox.com/en-US/developers/creators-program" target="_blank">Xbox Live Creators Program &#11008;</a>.
+
+Then you can set up a game app at Partner Center; see [Getting Started](../get-started/index.md).
