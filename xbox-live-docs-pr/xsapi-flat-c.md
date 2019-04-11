@@ -1,6 +1,6 @@
 ---
 title: Introduction to the Xbox Live C APIs
-description: XSAPI's flat C API for the Xbox Live service.
+description: XSAPI's C API for the Xbox Live service.
 ms.date: 06/05/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, c, xsapi
@@ -9,7 +9,7 @@ ms.localizationpriority: medium
 
 # Introduction to the Xbox Live C APIs
 
-In June 2018, a new, flat C API layer was added to XSAPI.
+In June 2018, a new, C API layer was added to XSAPI.
 This new API layer solves some issues that occurred with the C++ and WinRT API layers.
 
 The C API does not yet cover all XSAPI features, but additional features are being worked on.
@@ -59,7 +59,7 @@ To manually specify your memory routines, you can do the following:
 ### Managing asynchronous threads
 
 The C API introduces a new asynchronous thread calling pattern that allows developers full control over the threading model.
-For more information, see [Calling pattern for XSAPI flat C layer async calls](flatc-async-patterns.md).
+For more information, see [Calling pattern for XSAPI C layer async calls](flatc-async-patterns.md).
 
 
 ## Migrating code to use C XSAPI
