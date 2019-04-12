@@ -1,5 +1,5 @@
 ---
-title: Cross-play games
+title: Setting up cross-play games targeting Xbox One and Windows 10
 description: Sharing a single Xbox Live services configuration across an XDK-based Xbox One version and a UWP-based Windows 10 version of the game.
 ms.assetid: 6c8e9d08-a3d2-4bfc-90ee-03c8fde3e66d
 ms.date: 04/04/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, cross-play, play an
 ms.localizationpriority: medium
 ---
 
-# Getting started with cross-play games
+# Setting up cross-play games targeting Xbox One and Windows 10
 
 A _cross-play game_ is a game that is released as an XDK-based Xbox One version and a UWP-based Windows 10 version, where both versions of the game share a single Title ID and a single Xbox Live services configuration such as multiplayer, game saves, achievements, and leaderboards.
 

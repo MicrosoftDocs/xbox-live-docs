@@ -24,3 +24,4 @@ To apply to become an ID@Xbox Managed Partner:
    Microsoft emails you additional forms and helps you create a Microsoft Partner Center account.
 
 Then you can set up a game app at Partner Center; see [Getting Started](get-started/index.md).
+

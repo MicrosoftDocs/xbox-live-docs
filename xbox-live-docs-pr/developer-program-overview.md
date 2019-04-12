@@ -49,7 +49,7 @@ For more details about running UWP games on Xbox One, see <a href="https://docs.
 
 On Xbox One, which offers gamers a curated store experience, games published through the Xbox Live Creators Program will be sold in the new Creators Collection section of the Microsoft Store on Xbox.
 This offers a balance between ensuring an open platform where anyone can develop and ship a game, and a curated store experience console gamers have come to know and expect.
-On Windows 10, your title will be published among all of the other Xbox Live games in the Microsoft Store.
+On Windows 10, your title will be published among all of the other Xbox Live games in the Microsoft Store. 
 
 
 ### Publishing and certification, for Creators
