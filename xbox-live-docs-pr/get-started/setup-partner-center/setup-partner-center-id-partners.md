@@ -6,14 +6,17 @@ ms.topic: article
 keywords: xbox live, xbox, games, xbox one, sign-in
 ms.localizationpriority: medium
 ---
+
 # Setting up a game at Partner Center, for Managed Partners
 
 To add Xbox Live functionality to your game, start by setting up an app in Partner Center, by following the steps below.
 
-> [!IMPORTANT]
-> Prerequisites for ID@Xbox Partners:
-> * Have a prototype of your game, such as a demo and screen captures.
-> * Apply to the ID@Xbox Managed Partners Program; see the section [ID@Xbox Managed Partners Program](../../developer-program-overview.md#id-managed-partners-program) in "Joining a developer program".
+
+## Prerequisites
+
+* Have a prototype of your game, such as a demo and screen captures.
+
+* [Joining the Managed Partners Program](../join-dev-program/join-mp-program.md).
 
 
 <!--===========================================================-->
@@ -239,4 +242,11 @@ Your game is now set up at Partner Center.
 <!--===========================================================-->
 ## Next step
 
-After your game app is set up at Partner Center, set up your IDE to use the Xbox Live SDK; see [Getting Started](../index.md).
+[Setting up an IDE, for Managed Partners](../setup-ide/managed-partners/index.md)
+
+
+## See also
+
+[Getting Started](../index.md)
+
+<!-- link to onboarding flow diagram -->

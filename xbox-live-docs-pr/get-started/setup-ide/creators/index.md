@@ -10,7 +10,12 @@ ms.localizationpriority: medium
 
 # Setting up an IDE, for Creators
 
-After you have done [Setting up a game app at Partner Center](../../setup-partner-center/index.md), set up one of the following IDEs to use the Xbox Live SDK, for your target platforms.
+
+### Prerequisites
+
+* [Setting up a game app at Partner Center](../../setup-partner-center/index.md)
+
+After you have set up a game app at Partner Center, set up one of the following IDEs to use the Xbox Live SDK, for your target platforms.
 
 
 ### In this section
@@ -23,4 +28,9 @@ After you have done [Setting up a game app at Partner Center](../../setup-partne
 
 ### Next steps
 
-* [Adding basic sign-in code](../../add-signin-code/index.md)
+[Adding basic sign-in code](../../add-signin-code/index.md)
+
+
+### See also
+
+[Getting Started](../../index.md)
