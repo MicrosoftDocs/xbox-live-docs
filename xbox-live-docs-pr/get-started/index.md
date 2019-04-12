@@ -12,7 +12,12 @@ ms.localizationpriority: medium
 
 <h1>Getting Started</h1>
 
-<p>To get started adding Xbox Live functionality to your game, do the following steps in order.</p>
+<p>
+    To get started adding Xbox Live functionality to your game, do the following steps in order.
+</p>
+<p>
+    <a href="get-started/onboarding-flow-diagram.md">Onboarding flow diagram</a>
+</p>
 
 <ul class="cardsF panelContent cols cols2">
     <li>

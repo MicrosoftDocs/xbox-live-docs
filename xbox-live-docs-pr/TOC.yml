@@ -6,6 +6,8 @@
     - name: Getting Started
       href: get-started/index.md
       items:
+        - name: Onboarding flow diagram
+          href: get-started/onboarding-flow-diagram.md
         - name: Joining a developer program
           href: get-started/join-dev-program/index.md
           items:
@@ -116,8 +118,6 @@
                       href: get-started-with-partner/partner-unity-uwp-il2cpp.md
                     - name: Add XBL support to Unity for XDK, with IL2CPP scripting
                       href: get-started-with-partner/partner-unity-xdk-il2cpp.md
-                - name: Setting up cross-play games targeting Xbox One and Windows 10
-                  href: get-started-with-partner/get-started-with-cross-play-games.md
         - name: Adding basic sign-in code
           href: get-started/add-signin-code/index.md
           items:
@@ -555,6 +555,8 @@
                   href: configure-xbl/dev-center/game-dvr.md
                 - name: Configuring data sharing in Partner Center
                   href: configure-xbl/dev-center/data-sharing-udc.md
+                - name: Setting up a cross-play game targeting Xbox One and Windows 10
+                  href: get-started-with-partner/get-started-with-cross-play-games.md
         - name: Sandboxes
           href: releasing/sandboxes/sandboxes.md
           items:

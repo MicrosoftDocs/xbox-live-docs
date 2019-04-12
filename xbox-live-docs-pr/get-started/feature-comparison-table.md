@@ -1,14 +1,13 @@
 ---
 title: Features supported for Creators vs. ID@Xbox Managed Partners
 description: Table of Xbox Live features supported for the Creators Program vs. the ID@Xbox Managed Partners Program.
-ms.assetid: 1166308a-4079-41b4-8550-ce04b82b4f72
 ms.date: 04/11/2019
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, developer program
 ms.localizationpriority: medium
 ---
 
-## Features supported for Creators vs. ID\@Xbox Managed Partners
+# Features supported for Creators vs. ID\@Xbox Managed Partners
 
 The following Xbox Live features are supported for the Creators Program vs. the ID@Xbox Managed Partners Program.
 

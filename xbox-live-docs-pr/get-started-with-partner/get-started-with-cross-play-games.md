@@ -1,5 +1,5 @@
 ---
-title: Setting up cross-play games targeting Xbox One and Windows 10
+title: Setting up a cross-play game targeting XDK (Xbox One) and UWP (Windows 10)
 description: Sharing a single Xbox Live services configuration across an XDK-based Xbox One version and a UWP-based Windows 10 version of the game.
 ms.assetid: 6c8e9d08-a3d2-4bfc-90ee-03c8fde3e66d
 ms.date: 04/04/2017

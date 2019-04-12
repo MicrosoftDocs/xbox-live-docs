@@ -11,7 +11,15 @@ ms.localizationpriority: medium
 
 # Joining the Creators Program
 
-To join the Xbox Live Creators Program, create a Dev account; see <a href="https://www.xbox.com/en-US/developers/creators-program" target="_blank">Xbox Live Creators Program &#11008;</a>.
+To join the Xbox Live Creators Program:
+
+1. Go to <a href="https://www.xbox.com/en-US/developers/creators-program" target="_blank">Xbox Live Creators Program &#11008;</a>.
+
+2. Click the **CREATE A DEV ACCOUNT** button.
+
+   The "Get registered" page appears.
+
+3. Click the **SIGN UP** button.
 
 
 ## Next steps
