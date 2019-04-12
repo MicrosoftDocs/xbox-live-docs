@@ -15,7 +15,7 @@
               href: get-started/feature-comparison-table.md
             - name: Joining the Creators Program
               href: get-started/join-dev-program/join-creators-program.md
-            - name: Joining the Managed Partners Program
+            - name: Joining the ID@Xbox Managed Partners Program
               href: get-started/join-dev-program/join-mp-program.md
         - name: Setting up a game app at Partner Center
           href: get-started/setup-partner-center/index.md
@@ -43,9 +43,9 @@
             - name: Setting up an IDE, for Creators
               href: get-started/setup-ide/creators/index.md
               items:
-                - name: Setting up Visual Studio to target UWP and Xbox
+                - name: Setting up Visual Studio targeting UWP and Xbox
                   href: get-started-with-creators/develop-creators-title-with-visual-studio.md
-                - name: Setting up Unity to target UWP and Xbox
+                - name: Setting up Unity targeting UWP and Xbox
                   href: get-started-with-creators/develop-creators-title-with-unity.md
                   items: 
                     - name: Configuring Xbox Live in Unity
@@ -70,7 +70,7 @@
             - name: Setting up an IDE, for Managed Partners
               href: get-started/setup-ide/managed-partners/index.md
               items:
-                - name: Setting up Android Studio to target Android
+                - name: Setting up Android Studio targeting Android
                   href: get-started-with-ios-android/android-st-nav.md
                   items: 
                     - name: Adding Xbox Live to an Android Studio Project
@@ -79,9 +79,9 @@
                       href: get-started-with-ios-android/android-get-started-with-xsapi.md
                     - name: Setting up Visual Studio for XAL login on Android
                       href: using-xbox-live/auth/android-xal.md
-                - name: Setting up Xcode to target iOS
+                - name: Setting up Xcode targeting iOS
                   href: get-started-with-ios-android/ios-get-started-with-xsapi.md
-                - name: Setting up Visual Studio to target UWP
+                - name: Setting up Visual Studio targeting UWP
                   href: get-started-with-partner/visual-studio-for-uwp-games.md
                   items: 
                     - name: Get started using Visual Studio for UWP games
@@ -92,7 +92,7 @@
                       href: get-started-with-partner/add-xbox-live-apis-source-to-a-uwp-project.md
                     - name: The XboxServices.config file for UWP games
                       href: xboxservices-config.md
-                - name: Setting up Visual Studio to target XDK
+                - name: Setting up Visual Studio targeting XDK
                   href: get-started-with-partner/xdk-developers.md
                   items: 
                     - name: Getting the XDK
@@ -107,7 +107,7 @@
                       href: get-started-with-partner/use-xbox-live-nuget-with-xdk.md
                     - name: Compile the XDK Xbox Live API source
                       href: get-started-with-partner/compile-the-xdk-xbox-live-api-source.md
-                - name: Setting up Unity to target UWP and XDK
+                - name: Setting up Unity targeting UWP and XDK
                   href: get-started-with-partner/add-xbl-support-to-unity.md
                   items: 
                     - name: Add XBL support to Unity for UWP, with .NET scripting

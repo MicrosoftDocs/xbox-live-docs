@@ -17,7 +17,7 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Comparison of the developer programs](../../developer-program-overview.md) | Choosing the Creators Program or the ID@Xbox Managed Partners Program. |
-| [Features supported for Creators vs. Managed Partners](../feature-comparison-table.md) | Table of Xbox Live features supported for Creators vs. Managed Partners. |
+| [Overview of the developer programs](../../developer-program-overview.md) | Choosing the Creators Program or the ID@Xbox Managed Partners Program. |
+| [Features supported for Creators vs. ID@Xbox Managed Partners](../feature-comparison-table.md) | Table of Xbox Live features supported for Creators vs. Managed Partners. |
 | [Joining the Creators Program](join-creators-program.md) | Joining the Creators Program. |
 | [Joining the Managed Partners Program](join-mp-program.md) | Joining the Managed Partners Program. |

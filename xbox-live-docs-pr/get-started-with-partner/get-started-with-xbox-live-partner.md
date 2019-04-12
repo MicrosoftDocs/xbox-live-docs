@@ -10,10 +10,10 @@ ms.localizationpriority: medium
 
 # Get started with Xbox Live, for Managed Partners
 
-This section covers getting started with Xbox Live development as a managed partner or as an ID@Xbox developer.
-Partners and ID developers can access the full range of Xbox Live features, including achievements, multiplayer, and more.
+This section covers getting started with Xbox Live development as an ID@Xbox Managed Partner.
+Managed Partners can access the full range of Xbox Live features, including achievements, multiplayer, and more.
 
-Managed partners and ID@Xbox developers can develop Xbox Live titles for both the Universal Windows Platform (UWP) or the Xbox Developer Kit (XDK) platform.
+Managed Partners can develop Xbox Live titles for both the Universal Windows Platform (UWP) or the Xbox Developer Kit (XDK) platform.
 
 In addition to the content available here, there is also additional documentation that is available to partners with an authorized Partner Center account.
 You can access that content here: [Xbox Live partner content](https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/partner-content).
@@ -78,6 +78,6 @@ Add Xbox Live features to your game:
 
 ## 6. Release Your Title
 
-ID@Xbox and managed partners must go through a certification process before releasing their titles.
+Managed Partners must go through a certification process before releasing their titles.
 This is because the titles have access to additional features such as online multiplayer, achievements, and rich presence.
 Once you are ready to release your title, contact your Microsoft representative for more details on the submission and release process.

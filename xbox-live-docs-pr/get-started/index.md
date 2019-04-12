@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="../developer-program-overview.md">
+        <a href="join-dev-program/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -27,7 +27,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText">
                             <h3>1. Joining a developer program</h3>
-                            <p>Choosing and joining either the Creators Program or the ID@Xbox Managed Partners Program.</p>
+                            <p>Joining the Creators Program or the ID@Xbox Managed Partners Program.</p>
                         </div>
                     </div>
                 </div>

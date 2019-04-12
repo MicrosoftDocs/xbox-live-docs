@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, developer program, 
 ms.localizationpriority: medium
 ---
 
-# Joining a developer program
+# Overview of the developer programs
 
 To enable a game with Xbox Live, you join the Creators program, or join the Managed Partners program as an ID@Xbox Partner.
 

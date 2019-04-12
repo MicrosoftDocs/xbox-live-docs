@@ -22,8 +22,8 @@ After you have set up a game app at Partner Center, set up one of the following 
 
 | Article | Description |
 |---------|-------------|
-| [Setting up Visual Studio to target UWP and Xbox](../../../get-started-with-creators/develop-creators-title-with-visual-studio.md) | Setting up Visual Studio to use the Xbox Live SDK, for Creators. |
-| [Setting up Unity to target UWP and Xbox](../../../get-started-with-creators/develop-creators-title-with-unity.md) | Adding Xbox Live to a game developed with the Unity game engine, for Creators. |
+| [Setting up Visual Studio targeting UWP and Xbox](../../../get-started-with-creators/develop-creators-title-with-visual-studio.md) | Setting up Visual Studio to use the Xbox Live SDK, for Creators. |
+| [Setting up Unity targeting UWP and Xbox](../../../get-started-with-creators/develop-creators-title-with-unity.md) | Adding Xbox Live to a game developed with the Unity game engine, for Creators. |
 
 
 ### Next steps

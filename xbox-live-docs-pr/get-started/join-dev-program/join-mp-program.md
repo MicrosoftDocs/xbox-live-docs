@@ -9,7 +9,7 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-# Joining the ID@Xbox Managed Partners Program
+# Joining the ID\@Xbox Managed Partners Program
 
 To apply to become an ID@Xbox Managed Partner:
 
