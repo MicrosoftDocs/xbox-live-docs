@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 ### Prerequisites
 
-[Setting up a game app at Partner Center](get-started/setup-partner-center/index.md)
+[Setting up a game app at Partner Center](../setup-partner-center/index.md)
 
 After you have set up a game at Partner Center, set up one of the following IDEs to use the Xbox Live SDK, for your target platforms.
 

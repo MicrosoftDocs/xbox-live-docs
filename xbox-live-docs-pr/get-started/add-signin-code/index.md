@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 
 ### Prerequisites
 
-[Setting up an IDE to use Xbox Live](get-started/setup-ide/index.md)
+[Setting up an IDE to use Xbox Live](../setup-ide/index.md)
 
 
 ### In this section
