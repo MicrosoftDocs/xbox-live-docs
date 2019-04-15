@@ -77,5 +77,5 @@ However, only the C APIs can take advantage of the custom memory and thread mana
 
 <!-- todo: link to the XSAPI C API Reference -->
 - The XSAPI C header files (included in the Xbox Live SDK)
-- <a href="https://github.com/Microsoft/xbox-live-samples" target="_blank">Sample code using the new C APIs</a>
-- <a href="https://github.com/Microsoft/libHttpClient" target="_blank">libHttpClient</a>
+- <a href="https://github.com/Microsoft/xbox-live-samples" target="_blank">Sample code using the new C APIs &#11008;</a>
+- <a href="https://github.com/Microsoft/libHttpClient" target="_blank">libHttpClient &#11008;</a>
