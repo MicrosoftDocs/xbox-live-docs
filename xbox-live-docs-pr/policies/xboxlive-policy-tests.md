@@ -1,25 +1,27 @@
 ---
-title: Xbox Live test cases for Mobile and PC
-description: Describes the test cases for adding Xbox Live to a PC or mobile game.
+title: Xbox Live Integration Test Cases For PC and Mobile Devices
+description: Test cases for adding Xbox Live to a PC or mobile game.
 ms.date: 03/26/2019
 ms.topic: article
-layout: LandingPage
 keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
 ---
-# Xbox Live Integration Test Cases For PC and Mobile Devices 
+# Xbox Live Integration Test Cases for PC and Mobile Devices
 
-Version 1.0, 3/26/2019
+Version 1.0
 
-## Introduction 
 
-Click [here](xboxlive-policies.md) to view the Xbox Live Integration Policies for PC and Mobile Devices.
+## Introduction
 
 The following test cases are the recommended steps to validate a title when Xbox Live is integrated into a mobile, PC or console device other than Xbox One.  
+
+See also [Xbox Live Integration Policies For PC and Mobile Devices](../xboxlive-policies.md).
+
 
 ### Official Naming Standards (XR-022)
 
 Titles must use the naming standards defined in the latest release of the [terminology list](xboxlive-terminology.md) for Xbox Live features. On Xbox One, titles must not refer to components of the console system or components of peripherals using terms that are not specifically included in the terminology list.
+
 
 ### Test Cases
 
@@ -75,7 +77,7 @@ If titles show the user's gamerpic, the corresponding GameDisplayPic function mu
 
 <br />
 
-### [Profile Settings Usage (XR-048)](policies/XR048.md)
+### [Profile Settings Usage (XR-048)](XR048.md)
 The Xbox Live service is the source for Xbox Live user profile information. Games must not store user information sourced from Xbox Live, such as profile data, preferences, or display names, beyond a locally stored cache used to support loss of network connectivity. Any such caches must be updated on the next available connection to the service. 
 
 ### Test Cases
@@ -105,7 +107,7 @@ Note: This applies to both new and previously created posts.
 
 ## Service Connectivity
 
-### [Loss of Connectivity to Xbox and Partner Services (XR-074)](policies/XR074.md)
+### [Loss of Connectivity to Xbox and Partner Services (XR-074)](XR074.md)
 Titles must resolve errors with Xbox Live and partner services connectivity. Titles must honor the retry policies set by Xbox Live when attempting to retry a request to the Xbox service after a failure has occurred.  Titles must appropriately manage messaging the user when services are unavailable. For example, if a partner service other than Xbox Live is not available, the game should not indicate that there is an issue with Xbox Live.
 
 ### Test Cases
@@ -129,7 +131,7 @@ In the event that the device is unable to reach Xbox services, the title should 
 
 **Pass Examples**  
 >1.	Title displays error message indicating loss of network connection to Xbox services.
->2.	Title does not display an error message while playing a local game mode that does not require Xbox.
+>2.	Title does not display an error message while playing a local game mode that does not require Xbox services.
 
 **Fail Examples**  
 >1. User is unable to complete a non-online Xbox game session.
@@ -204,7 +206,7 @@ Titles should provide a user-friendly error message indicating that there is a p
 
 <br />
 
-### [Service Access Limitations (XR-132)](policies/XR132.md)
+### [Service Access Limitations (XR-132)](XR132.md)
 Titles which exceed [title and user based limits ](https://docs.microsoft.com/en-us/windows/uwp/xbox-live/using-xbox-live/best-practices/fine-grained-rate-limiting)when calling Xbox Live services or do not adhere to Xbox Live service retry policies may be subjected to rate limiting, which may result in service interruption or deprecation. Failure to adhere to the specified limits may block a title from release, and in-production issues with released titles may result in Xbox Live services suspension up to and including title removal.
 
 ### Test Cases
@@ -243,7 +245,7 @@ Games must not display any serious warnings in their Live Trace Analyzer output 
 
 ## Online Safety and Privacy
  
-### [Linking Microsoft Accounts with Publisher Accounts (XR-013)](policies/XR013.md)
+### [Linking Microsoft Accounts with Publisher Accounts (XR-013)](XR013.md)
 On Xbox One, titles that use partner-hosted services or accounts that require credentials must link that account with the user’s Microsoft account.  
 
 Outside of Xbox One, titles can choose to allow account linking to support their game experience.  
@@ -290,8 +292,8 @@ The user should only have to provide his or her credentials once and allows the 
 
 <br />
 
-### [Xbox Live and Account Privileges (XR-045)](policies/XR045.md)
-Xbox Live provides users with an expected level of privacy and online safety for themselves and their children. In order to deliver on that promise, titles must check the Xbox Live service for privileges to complete certain actions on the Xbox Live service or in a title experience.
+### [Xbox Live and Account Privileges (XR-045)](XR045.md)
+Xbox Live promises users a certain level of privacy and online safety for themselves and their children. In order to deliver on that promise, titles must check whether the active user has certain privileges before completing certain actions on the Xbox Live service or in a title experience.
 
 
 | **Activity**|**ID**|**Privilege Name**|**Notes**|
@@ -333,7 +335,7 @@ Titles must honor the user’s privilege settings.
 
 <br />
 
-### [Privacy and Permissions (XR-015)](policies/XR015.md)
+### [Privacy and Permissions (XR-015)](XR015.md)
 Titles must not transmit user data or allow communication over Xbox Live when the user's privacy & online safety settings do not allow it.
 
 Titles meet this XR by retrieving data from Xbox Live services. If the title uses its own services, it must check the user's privacy permissions at the beginning of a session or when a new user joins the session. For user-initiated scenarios outside of sessions, titles meet this requirement by checking privacy prior to displaying the user's data and before performing the action. The following list of privacy settings is available for titles to check:
@@ -348,7 +350,7 @@ Titles meet this XR by retrieving data from Xbox Live services. If the title use
 
 **015-01 User Communication**   
   
-**Configuration:**   Create a set of profiles with a combination of different settings for the communication permissions outlined in the table located in the Remarks section of this XR.  
+**Configuration:**   Create a set of profiles with a combination of different settings for the communication permissions outlined in the permissions table above.  
 
 **Test Steps**  
 >1. On Device 1, sign in to a profile that has been configured with a specific set of permissions per the Configuration.
@@ -419,7 +421,7 @@ User A must not be able to hear or see communication from user B. User A must no
 The following requirements apply to titles that offer achievements, and awards on Xbox Live.  All games targeting Xbox One are required to have Achievements and meet the following requirements. Demos are not allowed to have achievements; however, they have the option of supporting Hero Stats.
 
 ### Achievements and Gamerscore (XR-055)
-Titles that offer Xbox Live achievements must provide the required number (minimum and maximum) of achievements and their associated gamerscore at launch. Titles are permitted to add achievements or gamerscore at any time after launch, with or without corresponding new content, but they cannot exceed title-based or calendar-based limits.
+Titles that offer Xbox Live achievements must provide the required number of achievements and their associated gamerscore at launch. Titles are permitted to add achievements or gamerscore at any time after launch, with or without corresponding new content, but they cannot exceed title-based or calendar-based limits.
 
 A single achievement cannot exceed 200 gamerscore and all achievements in the title must be achievable.
 
@@ -489,7 +491,7 @@ Achievements must not be shared across titles. When a single title is supported 
 After an achievement has been published to users, it cannot be removed, nor can its unlock rules or rewards be changed. Achievement text strings (name, description) or art (icons/background) can be modified.
  
  
-### [Achievement Names and Descriptions (XR-062)](policies/XR062.md)
+### [Achievement Names and Descriptions (XR-062)](XR062.md)
 Achievement names and descriptions may contain only content that would merit a rating of PEGI 12, ESRB EVERYONE 10+, or lower.
 
 Achievement names and descriptions may not contain what is commonly considered profanity in a clear text or redacted form.
