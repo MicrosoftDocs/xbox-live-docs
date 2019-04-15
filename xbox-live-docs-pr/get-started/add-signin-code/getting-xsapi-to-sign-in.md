@@ -8,14 +8,16 @@ ms.localizationpriority: medium
 ---
 # Adding basic sign-in code for mobile, for Managed Partners
 
-> [!IMPORTANT]
-> Prerequisite step: Set up an IDE with the Xbox Live SDK, for your target platforms. See [Getting started](../index.md).
 
-Now that you've imported the Xbox Live SDK into your IDE, set up your project to call Xbox Live's Sign-In API.
+## Prerequisites
+
+Before adding code to your game to do basic sign-in into the Xbox Live services, you must first add the Xbox Live SDK to your IDE; see [Setting up an IDE to use Xbox Live](../setup-ide/index.md).
+
+Now that you've imported the Xbox Live SDK into your IDE, set up your project to call Xbox Live's Sign-In API, as described below.
 Adding this code to your game enables the user to do basic sign-in to Xbox Live on the user's mobile device.
 
 
-## Find the game's IDs at Partner Center, for Managed Partners
+## Find the game's IDs at Partner Center
 
 At Partner Center, find the Title ID, SCID, Sandbox ID, and Client ID of your game, as follows.
 These IDs are needed, to insert into the sign-in code.
@@ -366,7 +368,7 @@ Repeat the above steps as needed.
 
 Your game now enables the user to do basic sign-in to Xbox Live.
 
-        
+
 ## Next step
 
 Now that your game enables the user to do basic sign-in to Xbox Live on the device, you are ready to implement any of the Xbox Live features, which are provided through the Xbox Services API (XSAPI).
