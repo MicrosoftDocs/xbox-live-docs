@@ -20,7 +20,7 @@ Xbox Live SDK for iOS contains 3 components as "frameworks" that you can referen
 - Xal.framework
 - Xsapi-c.framework
 
-To use Xbox Live SDK for iOS in your game:
+**To use Xbox Live SDK for iOS in your game:**
 
 1. Download the Xbox Live SDK for iOS to your development machine.
 1. Add all 3 frameworks to your Xcode workspace.
@@ -33,9 +33,9 @@ To use Xbox Live SDK for iOS in your game:
         - Under the **General** tab => **Embedded Binaries**, add all 3 frameworks.
 1. Select your project, navigate to **Capabilities**.
     1. Enable **Keychain Sharing**.
-    1. Under **Keychain Sharing**, add the following keychain group to the list: **com.microsoft.xal**.
+    1. Under **Keychain Sharing**, add the following keychain group to the list: **com.microsoft.xal**
 
-1. Select your project, navigate to **Build Settings**, and add **XSAPI_C** to **Preprocessor Marcos**.
+1. Select your project, navigate to **Build Settings**, and add **XSAPI_C** to **Preprocessor Macros**.
 
 1. Add the following setting to the **Info.plist** file of your project:
 
