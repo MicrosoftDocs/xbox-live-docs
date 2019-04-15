@@ -11,4 +11,4 @@ ms.localizationpriority: medium
 
    ![Onboarding flow diagram 1](onboarding-img/onboardingflowdiagram.jpg)
 
-   ![Onboarding flow diagram 2](onboarding-img/onboardingflowdiagram.jpg)
+   ![Onboarding flow diagram 2](onboarding-img/onboardingflowdiagram2.jpg)
