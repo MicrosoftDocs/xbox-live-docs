@@ -1,6 +1,6 @@
 ---
 title: Onboarding flow diagrams
-description: Onboarding flow diagrams depicting the top-level steps to achieve basic sign-in, and all of the onboarding flow paths representing which developer program, IDE, and target platform you choose.
+description: Flowchart of the top-level steps to achieve basic sign-in, and onboarding flow paths showing developer programs, IDEs, and target platforms.
 ms.date: 04/11/2019
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, developer program

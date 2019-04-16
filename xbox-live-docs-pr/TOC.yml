@@ -109,13 +109,18 @@
                       href: get-started-with-partner/use-xbox-live-nuget-with-xdk.md
                     - name: Compile the XDK Xbox Live API source
                       href: get-started-with-partner/compile-the-xdk-xbox-live-api-source.md
-                - name: Setting up Unity targeting UWP and XDK
+                - name: Setting up Visual Studio targeting Android
+                  href: get-started/visualstudio-android.md
+                - name: Setting up Unity targeting UWP
                   href: get-started-with-partner/add-xbl-support-to-unity.md
                   items: 
                     - name: Add XBL support to Unity for UWP, with .NET scripting
                       href: get-started-with-partner/partner-add-xbox-live-to-unity-uwp.md
                     - name: Add XBL support to Unity for UWP, with IL2CPP scripting
                       href: get-started-with-partner/partner-unity-uwp-il2cpp.md
+                - name: Setting up Unity targeting XDK
+                  href: get-started-with-partner/add-xbl-support-to-unity.md
+                  items: 
                     - name: Add XBL support to Unity for XDK, with IL2CPP scripting
                       href: get-started-with-partner/partner-unity-xdk-il2cpp.md
         - name: Adding basic sign-in code
