@@ -47,7 +47,9 @@
               items:
                 - name: Setting up Visual Studio targeting UWP
                   href: get-started-with-creators/develop-creators-title-with-visual-studio.md
-                - name: Setting up Unity targeting UWP and Xbox
+                - name: Setting up Visual Studio targeting Xbox
+                  href: get-started/setup-ide/creators/visualstudio-xbox.md
+                - name: Setting up Unity targeting UWP
                   href: get-started-with-creators/develop-creators-title-with-unity.md
                   items: 
                     - name: Configuring Xbox Live in Unity
@@ -69,6 +71,8 @@
                       href: get-started-with-creators/add-multi-user-support.md
                     - name: Checking user privilege settings in Unity
                       href: get-started-with-creators/check-user-privileges-in-unity.md
+                - name: Setting up Unity targeting Xbox
+                  href: get-started/setup-ide/creators/unity-xbox.md
             - name: Setting up an IDE, for Managed Partners
               href: get-started/setup-ide/managed-partners/index.md
               items:
