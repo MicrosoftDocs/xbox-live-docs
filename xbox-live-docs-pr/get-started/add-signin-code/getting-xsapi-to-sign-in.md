@@ -1,74 +1,31 @@
 ---
-title: Adding basic sign-in code for mobile, for Managed Partners
+title: Adding basic sign-in code for mobile
 description: Adding code to a mobile game to enable basic sign-in to Xbox Live.
 ms.date: 03/14/2019
 ms.topic: article
 keywords: xbox live, xbox, games, mobile, sign-in
 ms.localizationpriority: medium
 ---
-# Adding basic sign-in code for mobile, for Managed Partners
+
+# Adding basic sign-in code for mobile
+
+Adding basic sign-in code to your game enables the user to do basic sign-in to Xbox Live on the user's device.
+
+This article is for Managed Partners.
 
 
 ## Prerequisites
 
-Before adding code to your game to do basic sign-in into the Xbox Live services, you must first add the Xbox Live SDK to your IDE; see [Setting up an IDE to use Xbox Live](../setup-ide/index.md).
+Before adding code to your game to do basic sign-in into the Xbox Live services, you must do the following:
 
-Now that you've imported the Xbox Live SDK into your IDE, set up your project to call Xbox Live's Sign-In API, as described below.
-Adding this code to your game enables the user to do basic sign-in to Xbox Live on the user's mobile device.
+1. Create a new game app at Partner Center and note the game app's Title ID, SCID, Sandbox ID, and Client ID; see [Setting up a game app at Partner Center](../setup-partner-center/index.md).
 
-
-## Find the game's IDs at Partner Center
-
-At Partner Center, find the Title ID, SCID, Sandbox ID, and Client ID of your game, as follows.
-These IDs are needed, to insert into the sign-in code.
-
-1. Go to <a href="https://partner.microsoft.com/en-us/dashboard/" target="_blank">Partner Center</a>.
-
-2. On the left, click **Products**, then click your game app.
-
-   The "App overview" page appears.
-
-3. In the **Submissions** section of the page, click **&lt;sandbox&gt; (Submission <#>)**.
-
-   The "&lt;sandbox&gt; Submission <#>" page appears.
-
-4. Copy and save the sandbox name for the sandbox which you want to use, such as "ABCDEF.1".
-
-5. Click the **Xbox Live Config** section of the page.
-
-   The "Gameplay Setting" page appears.
-
-6. In the middle navigation column, click **Services**, and then click **Xbox Live Setup**.
-
-   The "Xbox Live configuration" page appears.
-
-7. In the **Xbox Live product identities** section of the page, copy and save the **Title ID (decimal)**, **MsaAppId** (this is the Client ID),  and **SCID**.
-
-   <!-- todo: confirm this is the Client ID -->
-
-
-<!-- ### Find the game's IDs at Partner Center, for Creators
-
-1. Go to <a href="https://partner.microsoft.com/en-us/dashboard/" target="_blank">Partner Center</a>.
-
-2. On the left, click **Products**, then click your game app.
-
-   The "App overview" page appears.
-
-3. In the **Submissions** section of the page, click **Submission <#>**.
-
-   The "Submission <#>" page appears.
-
-4. Click the **Xbox Live Creators Program** section of the page.
-
-   The "Xbox Live Creators Program" page appears.
-
-5. In the top of the page, copy and save the **Title ID**, **SCID**, and the **Sandbox ID** such as "ABCDEF.12" -->
-
-   <!-- todo: where to get the Client ID -->
+2. Add the Xbox Live SDK to an IDE that targets Android or iOS; see [Setting up an IDE to use Xbox Live](../setup-ide/index.md).
 
 
 ## Initialize XSAPI
+
+Set up your project to call the Xbox Live sign-in API, as described below.
 
 Initializing Xbox Live requires a set of arguments to be passed in.
 

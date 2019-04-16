@@ -1,5 +1,5 @@
 ---
-title: Overview of the developer programs
+title: Choosing which Xbox Live developer program to join
 description: Comparison of the Creators Program and the Managed Partners Program, including ID@Xbox Managed Partners.
 ms.assetid: 1166308a-4079-41b4-8550-ce04b82b4f72
 ms.date: 05/30/2018
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, developer program, 
 ms.localizationpriority: medium
 ---
 
-# Overview of the developer programs
+# Choosing which Xbox Live developer program to join
 
 To enable a game with Xbox Live, you join the Creators program, or join the Managed Partners program as an ID@Xbox Partner.
 
@@ -37,6 +37,8 @@ Join the *ID@Xbox Managed Partners Program* if at least one of the following are
 
 * You must agree to abide by the regulations around Xbox Live.
 
+See [Features supported for Creators vs. Managed Partners](get-started/feature-comparison-table.md).
+
 
 ## The Xbox Live Creators Program
 
@@ -49,7 +51,7 @@ For more details about running UWP games on Xbox One, see <a href="https://docs.
 
 On Xbox One, which offers gamers a curated store experience, games published through the Xbox Live Creators Program will be sold in the new Creators Collection section of the Microsoft Store on Xbox.
 This offers a balance between ensuring an open platform where anyone can develop and ship a game, and a curated store experience console gamers have come to know and expect.
-On Windows 10, your title will be published among all of the other Xbox Live games in the Microsoft Store. 
+On Windows 10, your title will be published among all of the other Xbox Live games in the Microsoft Store.
 
 
 ### Publishing and certification, for Creators

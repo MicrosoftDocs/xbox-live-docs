@@ -179,6 +179,7 @@ In Partner Center, if you are not already at the "Xbox Live Creators Program" pa
    The "Manage Accounts" page reappears, now showing the added email address.
 
 
+<!--===========================================================-->
 ## 4. Publish the game using the Test button
 
 1. Click the previous browser tab to see the "Xbox Live Creators Program" page: "Test" section.
@@ -194,6 +195,31 @@ In Partner Center, if you are not already at the "Xbox Live Creators Program" pa
 
 Your game is now set up at Partner Center.
 The SDK can now be used in an application to sign-in.
+
+
+<!--===========================================================-->
+## 5. Find the game's IDs at Partner Center
+
+At Partner Center, find the Title ID, SCID, Sandbox ID, and Client ID of your game, as follows.
+When you add basic sign-in code to your game, you will insert these IDs.
+
+1. Go to <a href="https://partner.microsoft.com/en-us/dashboard/" target="_blank">Partner Center</a>.
+
+2. On the left, click **Products**, then click your game app.
+
+   The "App overview" page appears.
+
+3. In the **Submissions** section of the page, click **Submission <#>**.
+
+   The "Submission <#>" page appears.
+
+4. Click the **Xbox Live Creators Program** section of the page.
+
+   The "Xbox Live Creators Program" page appears.
+
+5. In the top of the page, copy and save the **Title ID**, **SCID**, and the **Sandbox ID** such as "ABCDEF.12"
+
+   <!-- todo: where to get the Client ID -->
 
 
 <!--===========================================================-->

@@ -45,7 +45,7 @@
             - name: Setting up an IDE, for Creators
               href: get-started/setup-ide/creators/index.md
               items:
-                - name: Setting up Visual Studio targeting UWP and Xbox
+                - name: Setting up Visual Studio targeting UWP
                   href: get-started-with-creators/develop-creators-title-with-visual-studio.md
                 - name: Setting up Unity targeting UWP and Xbox
                   href: get-started-with-creators/develop-creators-title-with-unity.md
@@ -123,6 +123,10 @@
           items:
             - name: Adding basic sign-in code for mobile
               href: get-started/add-signin-code/getting-xsapi-to-sign-in.md
+            - name: Adding basic sign-in code for UWP
+              href: get-started/add-signin-code/basic-signin-uwp.md
+            - name: Adding basic sign-in code for XDK
+              href: get-started/add-signin-code/basic-signin-xdk.md
     - name: Features
       href: features/index.md
       items:

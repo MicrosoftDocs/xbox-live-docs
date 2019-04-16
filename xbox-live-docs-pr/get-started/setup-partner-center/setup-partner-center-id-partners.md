@@ -42,7 +42,7 @@ Next, at Partner Center, create a new app, as follows.
 4. Click the check box **Create this product in a sandbox**.
 
    > [!IMPORTANT]
-   > For ID@Xbox partners, to enable Xbox Live functionality, you **MUST** select the option button **Create this product in a sandbox**, the first time through this process.
+   > To enable Xbox Live functionality, you **MUST** select the option button **Create this product in a sandbox**, the first time through this process.
    > You won't be able to select this option button later.
    > (Do not select the check box "Do not create this product in a sandbox".)
 
@@ -237,6 +237,37 @@ The SDK can now be used in an application to sign-in.
     The dialog box closes; the "Manage test accounts" page remains displayed.
 
 Your game is now set up at Partner Center.
+
+
+<!--===========================================================-->
+## 6. Find the game's IDs at Partner Center
+
+At Partner Center, find the Title ID, SCID, Sandbox ID, and Client ID of your game, as follows.
+When you add basic sign-in code to your game, you will insert these IDs.
+
+1. Go to <a href="https://partner.microsoft.com/en-us/dashboard/" target="_blank">Partner Center</a>.
+
+2. On the left, click **Products**, then click your game app.
+
+   The "App overview" page appears.
+
+3. In the **Submissions** section of the page, click **&lt;sandbox&gt; (Submission <#>)**.
+
+   The "&lt;sandbox&gt; Submission <#>" page appears.
+
+4. Copy and save the sandbox name for the sandbox which you want to use, such as "ABCDEF.1".
+
+5. Click the **Xbox Live Config** section of the page.
+
+   The "Gameplay Setting" page appears.
+
+6. In the middle navigation column, click **Services**, and then click **Xbox Live Setup**.
+
+   The "Xbox Live configuration" page appears.
+
+7. In the **Xbox Live product identities** section of the page, copy and save the **Title ID (decimal)**, **MsaAppId** (this is the Client ID),  and **SCID**.
+
+   <!-- todo: confirm this is the Client ID -->
 
 
 <!--===========================================================-->
