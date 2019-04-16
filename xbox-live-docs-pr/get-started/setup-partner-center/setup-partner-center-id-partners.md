@@ -1,5 +1,5 @@
 ---
-title: Setting up a game at Partner Center, for Managed Partners
+title: Setting up a game app at Partner Center, for Managed Partners
 description: Creating a new game app at Partner Center, enabling the game for Xbox Live, publishing the game to a sandbox, and creating test accounts.
 ms.date: 02/08/2019
 ms.topic: article
@@ -7,7 +7,7 @@ keywords: xbox live, xbox, games, xbox one, sign-in
 ms.localizationpriority: medium
 ---
 
-# Setting up a game at Partner Center, for Managed Partners
+# Setting up a game app at Partner Center, for Managed Partners
 
 To add Xbox Live functionality to your game, start by setting up an app in Partner Center, by following the steps below.
 

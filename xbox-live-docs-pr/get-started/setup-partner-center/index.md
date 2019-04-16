@@ -18,8 +18,8 @@ For the differences between Creators and ID@Xbox partners, see [Developer progra
 
 | Article | Description |
 |---------|-------------|
-| [Setting up a game at Partner Center, for Creators](setup-partner-center-creators.md) | Get started adding Xbox Live functionality to your game, by setting up an app at Partner Center. |
-| [Setting up a game at Partner Center, for ID@Xbox Partners](setup-partner-center-id-partners.md) | Get started adding Xbox Live functionality to your game, by setting up an app at Partner Center. |
+| [Setting up a game app at Partner Center, for Creators](setup-partner-center-creators.md) | Get started adding Xbox Live functionality to your game, by setting up an app at Partner Center. |
+| [Setting up a game app at Partner Center, for ID@Xbox Partners](setup-partner-center-id-partners.md) | Get started adding Xbox Live functionality to your game, by setting up an app at Partner Center. |
 | [Legacy articles about Partner Center setup](legacy.md) | Older articles about Partner Center setup. |
 
 

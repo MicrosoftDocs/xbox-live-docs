@@ -13,7 +13,7 @@
           items:
             - name: Choosing an Xbox Live developer program
               href: developer-program-overview.md
-            - name: Features supported for Creators and Managed Partners
+            - name: Features supported for each developer program
               href: get-started/feature-comparison-table.md
             - name: Joining the Creators Program
               href: get-started/join-dev-program/join-creators-program.md
@@ -22,9 +22,9 @@
         - name: Setting up a game app at Partner Center
           href: get-started/setup-partner-center/index.md
           items:
-            - name: Setting up a game at Partner Center, for Creators
+            - name: Setting up a game app at Partner Center, for Creators
               href: get-started/setup-partner-center/setup-partner-center-creators.md
-            - name: Setting up a game at Partner Center, for Managed Partners
+            - name: Setting up a game app at Partner Center, for Managed Partners
               href: get-started/setup-partner-center/setup-partner-center-id-partners.md
             - name: Legacy articles about Partner Center setup
               href: get-started/setup-partner-center/legacy.md

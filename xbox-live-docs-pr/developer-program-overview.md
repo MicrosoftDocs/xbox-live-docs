@@ -37,7 +37,7 @@ Join the *ID@Xbox Managed Partners Program* if at least one of the following are
 
 * You must agree to abide by the regulations around Xbox Live.
 
-See [Features supported for Creators and Managed Partners](get-started/feature-comparison-table.md).
+See [Features supported for each developer program](get-started/feature-comparison-table.md).
 
 
 ## The Xbox Live Creators Program
@@ -127,4 +127,4 @@ Developers working with a game publisher that is a Managed Partner (such as the 
 
 ## Feature comparison table
 
-See [Features supported for Creators and Managed Partners](get-started/feature-comparison-table.md).
+See [Features supported for each developer program](get-started/feature-comparison-table.md).

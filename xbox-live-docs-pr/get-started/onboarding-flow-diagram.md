@@ -28,12 +28,12 @@ To start adding Xbox Live to your game, you follow a series of 5 onboarding arti
    There are 2 versions of this article: one for Creators, and one for ID@Xbox Managed Partners.
 
 4. One article about setting up an IDE to use the Xbox Live SDK.
-   There is a version of this article for each combination of IDE and target platform.
+   There is a version of this article for each combination of IDE and target platform, for each developer program.
 
 5. One article about adding basic sign-in code, for the game to sign-in to Xbox Live services.
    There are 3 versions of this article, based on which platform you target: Mobile (Android and iOS), UWP, and XDK.
 
-The end result of following this Xbox Live onboarding flow is that you have one IDE set up to call the Xbox Services API from one target platform, and your game running on that platform has done basic sign-in to Xbox Live.
+The end result of following this Xbox Live onboarding flow is that you have a single IDE set up to call the Xbox Services API from a single target platform, and your game running on that platform has done basic sign-in to Xbox Live.
 
 
 ## Branching paths
