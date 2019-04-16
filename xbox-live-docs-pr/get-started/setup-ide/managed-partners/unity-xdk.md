@@ -19,4 +19,4 @@ Adding Xbox Live support to Unity for XDK with a scripting backend, for ID@Xbox 
 
 | Article | Description |
 |---------|-------------|
-| [Unity for XDK with IL2CPP backend](partner-unity-xdk-il2cpp.md) | Add Xbox Live support to Unity for XDK with IL2CPP scripting backend. |
+| [Unity for XDK with IL2CPP backend](../../../get-started-with-partner/partner-unity-xdk-il2cpp.md) | Add Xbox Live support to Unity for XDK with IL2CPP scripting backend. |
