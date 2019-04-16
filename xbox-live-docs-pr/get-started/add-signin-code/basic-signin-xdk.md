@@ -18,7 +18,7 @@ Before adding code to your game to do basic sign-in into the Xbox Live services,
 
 1. Create a new game app at Partner Center and note the game app's Title ID, SCID, Sandbox ID, and Client ID; see [Setting up a game app at Partner Center](../setup-partner-center/index.md).
 
-2. Add the Xbox Live SDK to an IDE that targets UWP; see [Setting up an IDE to use Xbox Live](../setup-ide/index.md).
+2. Add the Xbox Live SDK to an IDE that targets the XDK; see [Setting up an IDE to use Xbox Live](../setup-ide/index.md).
 
 
 

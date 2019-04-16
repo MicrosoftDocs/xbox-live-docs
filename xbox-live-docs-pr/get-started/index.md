@@ -15,9 +15,6 @@ ms.localizationpriority: medium
 <p>
     To get started adding Xbox Live functionality to your game, do the following steps in order.
 </p>
-<p>
-    <a href="onboarding-flow-diagram.md">Onboarding flow diagram</a>
-</p>
 
 <ul class="cardsF panelContent cols cols2">
     <li>
@@ -99,7 +96,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>Next Steps</h2>
+<h3>Next Steps</h3>
 
 <ul class="cardsF panelContent cols cols2">
     <li>
@@ -134,6 +131,31 @@ ms.localizationpriority: medium
                         <div class="cardText">
                             <h3>Testing and Releasing</h3>
                             <p>Testing, troubleshooting, and publishing a game.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+<h3>See also</h3>
+
+<ul class="cardsF panelContent cols cols2">
+    <li>
+        <a href="join-dev-program/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_subscription.svg" alt="Joining a developer program"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Onboarding flow diagrams</h3>
+                            <p>Onboarding flow diagrams depicting the top-level steps to achieve basic sign-in, and all of the onboarding flow paths representing which developer program, IDE, and target platform you choose.</p>
                         </div>
                     </div>
                 </div>

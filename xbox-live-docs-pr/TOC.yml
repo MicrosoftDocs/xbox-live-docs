@@ -6,7 +6,7 @@
     - name: Getting Started
       href: get-started/index.md
       items:
-        - name: Onboarding flow diagram
+        - name: Onboarding flow diagrams
           href: get-started/onboarding-flow-diagram.md
         - name: Joining a developer program
           href: get-started/join-dev-program/index.md
