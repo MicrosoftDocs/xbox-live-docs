@@ -13,7 +13,7 @@
           items:
             - name: Overview of the developer programs
               href: developer-program-overview.md
-            - name: Features supported for Creators vs. ID@Xbox Managed Partners
+            - name: Features supported for Creators and Managed Partners
               href: get-started/feature-comparison-table.md
             - name: Joining the Creators Program
               href: get-started/join-dev-program/join-creators-program.md
