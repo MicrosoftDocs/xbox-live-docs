@@ -1,5 +1,5 @@
 ---
-title: Choosing which Xbox Live developer program to join
+title: Choosing an Xbox Live developer program
 description: Comparison of the Creators Program and the Managed Partners Program, including ID@Xbox Managed Partners.
 ms.assetid: 1166308a-4079-41b4-8550-ce04b82b4f72
 ms.date: 05/30/2018
@@ -8,9 +8,9 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, developer program, 
 ms.localizationpriority: medium
 ---
 
-# Choosing which Xbox Live developer program to join
+# Choosing an Xbox Live developer program
 
-To enable a game with Xbox Live, you join the Creators program, or join the Managed Partners program as an ID@Xbox Partner.
+To enable a game with Xbox Live, you join the Xbox Live Creators Program, or join the Xbox Live Managed Partners Program as an ID@Xbox Managed Partner.
 
 
 ## Summary of the programs
