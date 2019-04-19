@@ -11,6 +11,8 @@ ms.localizationpriority: medium
 
 # Setting up Unity to use Xbox Live, for Creators
 
+This page is no longer used.  See [Unity targeting UWP](../get-started/setup-ide/creators/unity-uwp/index.md).
+
 
 ### In this section
 

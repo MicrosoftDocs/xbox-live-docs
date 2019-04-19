@@ -10,12 +10,8 @@ ms.localizationpriority: medium
 
 # Setting up an IDE, for Managed Partners
 
+Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-center/index.md).
 
-### Prerequisites
-
-* [Setting up a game app at Partner Center](../../setup-partner-center/index.md)
-
-After you have set up a game app at Partner Center, set up one of the following IDEs to use the Xbox Live SDK.
 
 <ul class="cardsF panelContent cols cols2">
     <li>
@@ -161,9 +157,9 @@ After you have set up a game app at Partner Center, set up one of the following 
 </ul>
 
 
-### Next steps
+<!-- ### Next steps
 
-[Adding basic sign-in code](../../add-signin-code/index.md)
+[Adding basic sign-in code](../../add-signin-code/index.md) -->
 
 
 ### See also

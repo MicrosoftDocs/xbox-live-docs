@@ -68,28 +68,25 @@
                     - name: Other articles about Unity targeting UWP
                       href: get-started/setup-ide/creators/unity-uwp/other/index.md
                       items:
-                        - name: Setting up Unity targeting UWP (older article)
-                          href: get-started-with-creators/develop-creators-title-with-unity.md
+                        - name: Configuring Xbox Live in Unity
+                          href: get-started-with-creators/configure-xbox-live-in-unity.md
+                        - name: Signing into Xbox Live in Unity
+                          href: get-started-with-creators/unity-signin-nav.md
                           items: 
-                            - name: Configuring Xbox Live in Unity
-                              href: get-started-with-creators/configure-xbox-live-in-unity.md
-                            - name: Signing into Xbox Live in Unity
-                              href: get-started-with-creators/unity-signin-nav.md
-                              items: 
-                                - name: Easy sign-in with the PlayerAuthentication prefab
-                                  href: get-started-with-creators/playerauthentication-prefab-sign-in.md
-                                - name: Scripting Sign-In with the SignInManager in Unity
-                                  href: get-started-with-creators/sign-in-manager.md
-                                - name: Sign-in in Unity through prefabs or scripting (pre-1804)
-                                  href: get-started-with-creators/unity-prefabs-and-sign-in.md
-                            - name: Testing a Unity game build in Visual Studio
-                              href: get-started-with-creators/test-visual-studio-build.md
-                            - name: Add controller support to Xbox Live prefabs
-                              href: get-started-with-creators/add-controller-support-to-xbox-live-prefabs.md
-                            - name: Add multi-user support to a Unity game
-                              href: get-started-with-creators/add-multi-user-support.md
-                            - name: Checking user privilege settings in Unity
-                              href: get-started-with-creators/check-user-privileges-in-unity.md
+                            - name: Easy sign-in with the PlayerAuthentication prefab
+                              href: get-started-with-creators/playerauthentication-prefab-sign-in.md
+                            - name: Scripting Sign-In with the SignInManager in Unity
+                              href: get-started-with-creators/sign-in-manager.md
+                            - name: Sign-in in Unity through prefabs or scripting (pre-1804)
+                              href: get-started-with-creators/unity-prefabs-and-sign-in.md
+                        - name: Testing a Unity game build in Visual Studio
+                          href: get-started-with-creators/test-visual-studio-build.md
+                        - name: Add controller support to Xbox Live prefabs
+                          href: get-started-with-creators/add-controller-support-to-xbox-live-prefabs.md
+                        - name: Add multi-user support to a Unity game
+                          href: get-started-with-creators/add-multi-user-support.md
+                        - name: Checking user privilege settings in Unity
+                          href: get-started-with-creators/check-user-privileges-in-unity.md
                 - name: Unity targeting Xbox
                   href: get-started/setup-ide/creators/unity-xbox/index.md
                   items:

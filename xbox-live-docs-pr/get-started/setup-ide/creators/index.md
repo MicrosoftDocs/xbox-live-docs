@@ -22,10 +22,10 @@ After you have set up a game app at Partner Center, set up one of the following 
 
 | Article | Description |
 |---------|-------------|
-| [Visual Studio targeting UWP](vs-uwp.md/index.md) | Setting up Visual Studio targeting UWP to use the Xbox Live SDK, for Creators. |
-| [Visual Studio targeting Xbox](vs-xbox.md/index.md) | Setting up Visual Studio targeting Xbox to use the Xbox Live SDK, for Creators. |
-| [Unity targeting UWP](unity-uwp.md/index.md) | Setting up Unity targeting UWP to use the Xbox Live SDK, for Creators. |
-| [Unity targeting Xbox](unity-xbox.md/index.md) | Setting up Unity targeting Xbox to use the Xbox Live SDK, for Creators. |
+| [Visual Studio targeting UWP](vs-uwp/index.md) | Setting up Visual Studio targeting UWP to use the Xbox Live SDK, for Creators. |
+| [Visual Studio targeting Xbox](vs-xbox/index.md) | Setting up Visual Studio targeting Xbox to use the Xbox Live SDK, for Creators. |
+| [Unity targeting UWP](unity-uwp/index.md) | Setting up Unity targeting UWP to use the Xbox Live SDK, for Creators. |
+| [Unity targeting Xbox](unity-xbox/index.md) | Setting up Unity targeting Xbox to use the Xbox Live SDK, for Creators. |
 
 
 ### Next steps
