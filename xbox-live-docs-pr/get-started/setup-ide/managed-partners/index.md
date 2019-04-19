@@ -17,18 +17,148 @@ ms.localizationpriority: medium
 
 After you have set up a game app at Partner Center, set up one of the following IDEs to use the Xbox Live SDK.
 
-
-### In this section
-
-| Article | Description |
-|---------|-------------|
-| [Android Studio targeting Android](as-android.md/index.md) | Setting up Android Studio targeting Android to use the Xbox Live SDK, for Managed Partners. |
-| [Xcode targeting iOS](xcode-ios.md/index.md) | Setting up Xcode targeting iOS to use the Xbox Live SDK, for Managed Partners. |
-| [Visual Studio targeting UWP](vs-uwp.md/index.md) | Setting up Visual Studio targeting UWP to use the Xbox Live SDK, for Managed Partners. |
-| [Visual Studio targeting Xbox](vs-xdk.md/index.md) | Setting up Visual Studio targeting Xbox to use the Xbox Live SDK, for Managed Partners. |
-| [Visual Studio targeting Android](vs-android.md/index.md) | Setting up Visual Studio targeting Android to use the Xbox Live SDK, for Managed Partners. |
-| [Unity targeting UWP](unity-uwp.md/index.md) | Setting up Unity targeting UWP to use the Xbox Live SDK, for Managed Partners. |
-| [Unity targeting Xbox](unity-xbox.md/index.md) | Setting up Unity targeting Xbox to use the Xbox Live SDK, for Managed Partners. |
+<ul class="cardsF panelContent cols cols2">
+    <li>
+        <a href="as-android.md/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_android-studio-na.svg" alt="Android Studio targeting Android"/> -->
+                                <img src="https://docs.microsoft.com/media/logos/logo_android.svg" alt="Android Studio targeting Android"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Android Studio targeting Android</h3>
+                            <p>Setting up Android Studio targeting Android to use the Xbox Live SDK, for Managed Partners.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="xcode-ios.md/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_ios.svg" alt="Xcode targeting iOS"/> -->
+                                <img src="https://docs.microsoft.com/media/logos/logo_xcode.svg" alt="Xcode targeting iOS"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Xcode targeting iOS</h3>
+                            <p>Setting up Xcode targeting iOS to use the Xbox Live SDK, for Managed Partners.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="vs-uwp.md/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="Visual Studio targeting UWP"/> -->
+                                <img src="https://docs.microsoft.com/media/logos/logo_Windows.svg" alt="Visual Studio targeting UWP"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Visual Studio targeting UWP</h3>
+                            <p>Setting up Visual Studio targeting UWP to use the Xbox Live SDK, for Managed Partners.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="vs-xdk.md/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="Visual Studio targeting Xbox"/>
+                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_xbox.svg" alt="Visual Studio targeting Xbox"/> -->
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Visual Studio targeting Xbox</h3>
+                            <p>Setting up Visual Studio targeting Xbox to use the Xbox Live SDK, for Managed Partners.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="vs-android.md/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="Visual Studio targeting Android"/> -->
+                                <img src="https://docs.microsoft.com/media/logos/logo_android.svg" alt="Visual Studio targeting Android"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Visual Studio targeting Android</h3>
+                            <p>Setting up Visual Studio targeting Android to use the Xbox Live SDK, for Managed Partners.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="unity-uwp.md/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_unity.svg" alt="Unity targeting UWP"/> -->
+                                <img src="https://docs.microsoft.com/media/logos/logo_Windows.svg" alt="Unity targeting UWP"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Unity targeting UWP</h3>
+                            <p>Setting up Unity targeting UWP to use the Xbox Live SDK, for Managed Partners.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="unity-xbox.md/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/logos/logo_unity.svg" alt="Unity targeting Xbox"/>
+                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_xbox.svg" alt="Unity targeting Xbox"/> -->
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Unity targeting Xbox</h3>
+                            <p>Setting up Unity targeting Xbox to use the Xbox Live SDK, for Managed Partners.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
 
 
 ### Next steps

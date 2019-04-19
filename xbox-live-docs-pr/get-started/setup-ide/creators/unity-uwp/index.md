@@ -18,4 +18,4 @@ Setting up Unity targeting UWP to use the Xbox Live SDK, for Creators.
 | Article | Description |
 |---------|-------------|
 | [Setting up Unity targeting UWP](unity-uwp-cr.md) | Setting up Unity targeting UWP to use the Xbox Live SDK, for Creators. |
-| [Other articles about Unity targeting UWP](other/other.md) | Articles about Unity targeting UWP, for Creators, other than initial IDE setup. |
+| [Other articles about Unity targeting UWP](other/index.md) | Articles about Unity targeting UWP, for Creators, other than initial IDE setup. |
