@@ -81,8 +81,8 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="Visual Studio targeting Xbox"/>
-                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_xbox.svg" alt="Visual Studio targeting Xbox"/> -->
+                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="Visual Studio targeting Xbox"/> -->
+                                <img src="xbox-logo-880x660.png" alt="Visual Studio targeting Xbox"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -141,8 +141,8 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/logos/logo_unity.svg" alt="Unity targeting Xbox"/>
-                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_xbox.svg" alt="Unity targeting Xbox"/> -->
+                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_unity.svg" alt="Unity targeting Xbox"/> -->
+                                <img src="xbox-logo-880x660.png" alt="Unity targeting Xbox"/>
                             </div>
                         </div>
                         <div class="cardText">
