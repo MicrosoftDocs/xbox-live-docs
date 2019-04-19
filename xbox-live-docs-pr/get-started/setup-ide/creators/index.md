@@ -10,27 +10,87 @@ ms.localizationpriority: medium
 
 # Setting up an IDE, for Creators
 
-
-### Prerequisites
-
-* [Setting up a game app at Partner Center](../../setup-partner-center/index.md)
-
-After you have set up a game app at Partner Center, set up one of the following IDEs to use the Xbox Live SDK.
+Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-center/index.md).
 
 
-### In this section
-
-| Article | Description |
-|---------|-------------|
-| [Visual Studio targeting UWP](vs-uwp/index.md) | Setting up Visual Studio targeting UWP to use the Xbox Live SDK, for Creators. |
-| [Visual Studio targeting Xbox](vs-xbox/index.md) | Setting up Visual Studio targeting Xbox to use the Xbox Live SDK, for Creators. |
-| [Unity targeting UWP](unity-uwp/index.md) | Setting up Unity targeting UWP to use the Xbox Live SDK, for Creators. |
-| [Unity targeting Xbox](unity-xbox/index.md) | Setting up Unity targeting Xbox to use the Xbox Live SDK, for Creators. |
-
-
-### Next steps
-
-[Adding basic sign-in code](../../add-signin-code/index.md)
+<ul class="cardsF panelContent cols cols2">
+    <li>
+        <a href="vs-uwp/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/logos/logo_Windows.svg" alt="Visual Studio targeting UWP"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Visual Studio targeting UWP</h3>
+                            <p>Setting up Visual Studio targeting UWP to use the Xbox Live SDK, for Creators.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="vs-xbox/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="xbox-logo.png" alt="Visual Studio targeting Xbox"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Visual Studio targeting Xbox</h3>
+                            <p>Setting up Visual Studio targeting Xbox to use the Xbox Live SDK, for Creators.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="unity-uwp/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/logos/logo_Windows.svg" alt="Unity targeting UWP"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Unity targeting UWP</h3>
+                            <p>Setting up Unity targeting UWP to use the Xbox Live SDK, for Creators.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="unity-xbox/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="xbox-logo.png" alt="Unity targeting Xbox"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Unity targeting Xbox</h3>
+                            <p>Setting up Unity targeting Xbox to use the Xbox Live SDK, for Creators.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
 
 
 ### See also
