@@ -18,4 +18,4 @@ Setting up Visual Studio targeting UWP to use the Xbox Live SDK, for Creators.
 | Article | Description |
 |---------|-------------|
 | [Setting up Visual Studio targeting UWP](vs-uwp-cr.md) | Setting up Visual Studio targeting UWP to use the Xbox Live SDK, for Creators. |
-| [Other articles about Visual Studio targeting UWP](other/other.md) | Articles about Visual Studio targeting UWP, for Creators, other than initial IDE setup. |
+| [Other articles about Visual Studio targeting UWP](other/index.md) | Articles about Visual Studio targeting UWP, for Creators, other than initial IDE setup. |

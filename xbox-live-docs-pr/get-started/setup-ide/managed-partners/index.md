@@ -157,9 +157,7 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
 </ul>
 
 
-<!-- ### Next steps
-
-[Adding basic sign-in code](../../add-signin-code/index.md) -->
+Next step: [Adding basic sign-in code](../../add-signin-code/index.md).
 
 
 ### See also
