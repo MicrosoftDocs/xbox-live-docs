@@ -12,12 +12,5 @@ ms.localizationpriority: medium
 
 # Setting up Unity targeting UWP
 
-Adding Xbox Live support to Unity for UWP with a scripting backend, for ID@Xbox and managed partners.
-
-
-### In this section
-
-| Article | Description |
-|---------|-------------|
-| [Add XBL support to Unity for UWP for partners](partner-add-xbox-live-to-unity-uwp.md) | Add Xbox Live support to Unity for UWP with .NET scripting backend. |
-| [Unity for UWP with IL2CPP backend](partner-unity-uwp-il2cpp.md) | Add Xbox Live support to Unity for UWP with IL2CPP scripting backend. |
+This page is no longer used.
+See [Unity targeting UWP](../get-started/setup-ide/managed-partners/unity-uwp/index.md).

@@ -4,7 +4,7 @@ description: Setting up an IDE to use the Xbox Live SDK, for your target platfor
 layout: LandingPage
 ms.date: 02/08/2019
 ms.topic: article
-keywords: xbox live, xbox, games, xbox one, sign-in
+keywords: xbox live, games
 ms.localizationpriority: medium
 ---
 

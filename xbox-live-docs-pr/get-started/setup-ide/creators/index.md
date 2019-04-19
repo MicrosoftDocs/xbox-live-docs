@@ -4,7 +4,7 @@ description: Setting up an IDE to use the Xbox Live SDK, for Creators.
 layout: LandingPage
 ms.date: 04/11/2019
 ms.topic: article
-keywords: xbox live, xbox, games, xbox one
+keywords: xbox live, games
 ms.localizationpriority: medium
 ---
 
@@ -15,17 +15,17 @@ ms.localizationpriority: medium
 
 * [Setting up a game app at Partner Center](../../setup-partner-center/index.md)
 
-After you have set up a game app at Partner Center, set up one of the following IDEs to use the Xbox Live SDK, for your target platforms.
+After you have set up a game app at Partner Center, set up one of the following IDEs to use the Xbox Live SDK.
 
 
 ### In this section
 
 | Article | Description |
 |---------|-------------|
-| [Setting up Visual Studio targeting UWP](../../../get-started-with-creators/develop-creators-title-with-visual-studio.md) | Setting up Visual Studio to use the Xbox Live SDK, for Creators. |
-| [Setting up Visual Studio targeting Xbox](visualstudio-xbox.md) | Setting up Visual Studio to use the Xbox Live SDK, targeting Xbox, for Creators. |
-| [Setting up Unity targeting UWP](../../../get-started-with-creators/develop-creators-title-with-unity.md) | Adding Xbox Live to a game developed with the Unity game engine, for Creators. |
-| [Setting up Unity targeting Xbox](unity-xbox.md) | Setting up Unity to use the Xbox Live SDK, targeting Xbox, for Creators. |
+| [Visual Studio targeting UWP](vs-uwp.md/index.md) | Setting up Visual Studio targeting UWP to use the Xbox Live SDK, for Creators. |
+| [Visual Studio targeting Xbox](vs-xbox.md/index.md) | Setting up Visual Studio targeting Xbox to use the Xbox Live SDK, for Creators. |
+| [Unity targeting UWP](unity-uwp.md/index.md) | Setting up Unity targeting UWP to use the Xbox Live SDK, for Creators. |
+| [Unity targeting Xbox](unity-xbox.md/index.md) | Setting up Unity targeting Xbox to use the Xbox Live SDK, for Creators. |
 
 
 ### Next steps
