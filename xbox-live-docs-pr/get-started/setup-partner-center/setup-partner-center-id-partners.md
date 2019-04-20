@@ -238,12 +238,13 @@ Your game is now set up at Partner Center.
 
 <!--===========================================================-->
 ## Update MSA (Microsoft Account) configuration for your game (for mobile games only)
-> [!IMPORTANT] The following steps are only needed if your game targets mobile platforms (Android, iOS)
+> [!IMPORTANT] 
+> The following steps are only needed if your game targets mobile platforms (Android, iOS)
 1. Log into your app's registration page via MSA's app portal (https://apps.dev.microsoft.com)
-1.	Identify your app's MSA App ID (also known as your Client ID inside Xal.) and navigate to the app details page by clicking the app name.
-1.	Under platforms, if there is not a section for "Native Application", click the **Add Platforms" button, and choose **Native Applications**
+1. Identify your app's MSA App ID (also known as your Client ID inside Xal.) and navigate to the app details page by clicking the app name.
+1. Under platforms, if there is not a section for "Native Application", click the **Add Platforms" button, and choose **Native Applications**
 1. In the "Native Application" section, add a Custom Redirect URI of "ms-xal-<lowercase app id>://auth". e.g. "ms-xal-00000000abcdef12://auth"
-1.	Save your app's configuration.
+1. Save your app's configuration.
 
 ## Next step
 After your game app is set up at Partner Center, set up your IDE to use the Xbox Live SDK; see [Getting Started](../index.md).
