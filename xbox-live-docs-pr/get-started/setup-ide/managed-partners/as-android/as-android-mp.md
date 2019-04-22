@@ -28,7 +28,7 @@ Setting up Android Studio targeting Android to use the Xbox Live SDK, for Manage
 
 Add Maven support to your project, as follows.
 
-1. In Android Studio, in the **Project** directory, go to **your_project > build.gradle(Project)**.
+1. In Android Studio, in the **Project** directory, open **your_project > build.gradle(Project)**.
 
 2. Add the following code:
 
@@ -58,7 +58,6 @@ allprojects {
 ```
 
 3. Inside of your local XboxLiveSDK, update the url to your project's Maven folder.
-
 
 
 ## Add dependencies to project
@@ -145,7 +144,7 @@ apply plugin: 'com.google.gms.google-services'
    Gradle is now set up for your project.
 
 
-## Add libs to project
+## Add Xbox Live libraries to project
 
 Next, update the file `Cmakefile.txt` to include the XboxLiveSDK libraries, as follows.
 
@@ -199,7 +198,8 @@ target_include_directories(${APP_NAME}
 
 5. Do a project build.
 
-   The last two steps ensure that the project links properly with your Xbox Live SDK libraries.
+The last two steps ensure that the project links properly with your Xbox Live SDK libraries.
+<!-- no indent above, else remaining ## headings are treated as plain text -->
 
 
 ## Modify build settings
@@ -340,6 +340,7 @@ extern "C"
     }
 }
 ```
+
 This section will map your native code to your Java code, via the JNI library.
 
 Your project is now set up to use the XboxLive API.
