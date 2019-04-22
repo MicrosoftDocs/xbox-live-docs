@@ -173,13 +173,13 @@ The SDK can now be used in an application to sign-in.
 
    ![The "App overview" page](images/pc_app_overview_02_pg.png)
 
-2. Click the **Settings** gear in the upper right, then click **Developer settings**.
+1. Click the **Settings** gear in the upper right, then click **Developer settings**.
 
    The "Account settings" page appears.
 
    ![The "Account settings" page](images/pc_account_settings_pg.png)
 
-3. In the **Settings** area in the middle, click **Xbox Live**: **Xbox test accounts**.
+1. In the **Settings** area in the middle, click **Xbox Live**: **Xbox test accounts**.
 
    ![The "Settings: Xbox Live" menu](images/pc_account_settings_pg_xblmenu.png)
 
@@ -187,49 +187,49 @@ The SDK can now be used in an application to sign-in.
 
    ![The "Manage test accounts" page](images/pc_manage_test_accounts_pg.png)
 
-4. Click the **New test account** button.
+1. Click the **New test account** button.
 
    The "New test accounts" page appears.
 
    ![The "New test accounts" page](images/pc_new_test_accounts_pg.png)
 
-5. In the **Number of accounts to create** text box, enter a number, such as 5.
+1. In the **Number of accounts to create** text box, enter a number, such as 5.
 
-6. Fill in the **First name** and **Last name** text boxes.
+1. Fill in the **First name** and **Last name** text boxes.
    You can keep the default values "Test" and "Account".
 
-7. In the **Email template** combo box to the left of the hyphen, is shown the sandbox prefix.
+1. In the **Email template** combo box to the left of the hyphen, is shown the sandbox prefix.
    You can keep the value shown.
 
-8. In the email text box to the right of the hyphen, enter the name of your game, without spaces.
+1. In the email text box to the right of the hyphen, enter the name of your game, without spaces.
 
-9. In the **Password** text box, enter a password.
+1. In the **Password** text box, enter a password.
 
-10. In the **Secret question** drop-down list, select a question.
+1. In the **Secret question** drop-down list, select a question.
 
-11. In the **Secret answer** text box, enter an answer for the selected question.
+1. In the **Secret answer** text box, enter an answer for the selected question.
 
-12. In the **Alternate email address** text box, enter an alternate email address.
+1. In the **Alternate email address** text box, enter an alternate email address.
 
-13. In the **Keywords** text box, you can put your name.
+1. In the **Keywords** text box, you can put your name.
 
-14. Under **These accounts can access:**, there is a check box for each sandbox.
+1. Under **These accounts can access:**, there is a check box for each sandbox.
     Select the sandbox which you selected during the **Submission** step above.
 
-15. Click the **Save** button.
+1. Click the **Save** button.
 
     The "Manage test accounts" page appears, showing your new test accounts.
     You can use these acccount email addresses later to sign in with an app, that can access the sandbox.
 
    ![The "Manage test accounts" page with new test accounts](images/pc_manage_test_accounts_pg_newaccts.png)
 
-16. Under the **New test account** button, click the **View job history** link.  
+1. Under the **New test account** button, click the **View job history** link.  
 
     The "Job History" dialog box appears.  
 
    ![The "Job History" dialog box](images/pc_job_history_dbx.png)
 
-17. Click the page outside the dialog box.
+1. Click the page outside the dialog box.
 
     The dialog box closes; the "Manage test accounts" page remains displayed.
 
@@ -237,6 +237,14 @@ Your game is now set up at Partner Center.
 
 
 <!--===========================================================-->
-## Next step
+## Update Microsoft Account (MSA) configuration for your mobile game
+> [!IMPORTANT] 
+> The following steps are only needed if your game targets mobile platforms (Android, iOS)
+1. Log into your app's registration page via MSA's app portal (https://apps.dev.microsoft.com)
+1. Identify your app's MSA App ID (also known as your Client ID inside Xal.) and navigate to the app details page by clicking the app name.
+1. Under platforms, if there is not a section for "Native Application", click the **Add Platforms" button, and choose **Native Applications**
+1. In the "Native Application" section, add a Custom Redirect URI of "ms-xal-<lowercase app id>://auth". e.g. "ms-xal-00000000abcdef12://auth"
+1. Save your app's configuration.
 
+## Next step
 After your game app is set up at Partner Center, set up your IDE to use the Xbox Live SDK; see [Getting Started](../index.md).
