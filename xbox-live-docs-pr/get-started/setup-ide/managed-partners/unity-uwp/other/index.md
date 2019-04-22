@@ -1,3 +1,4 @@
+
 ---
 title: Other articles about Unity targeting UWP
 description: Articles about Unity targeting UWP, for Managed Partners, other than initial IDE setup.
@@ -17,6 +18,6 @@ Articles about Unity targeting UWP, for Managed Partners, other than initial IDE
 
 | Article | Description |
 |---------|-------------|
-| [__](__) |  |
-| [__](__) |  |
-| [__](__) |  |
+| [Setting up Unity targeting UWP (not used)](../../../../../get-started-with-partner/add-xbl-support-to-unity.md) |  |
+| [Add XBL support to Unity for UWP, with .NET scripting](../../../../../get-started-with-partner/partner-add-xbox-live-to-unity-uwp.md) |  |
+| [Add XBL support to Unity for UWP, with IL2CPP scripting](../../../../../get-started-with-partner/partner-unity-uwp-il2cpp.md) |  |

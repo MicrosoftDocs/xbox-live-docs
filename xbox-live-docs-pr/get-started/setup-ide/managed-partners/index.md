@@ -75,7 +75,7 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
         </a>
     </li>
     <li>
-        <a href="vs-xdk/index.md">
+        <a href="vs-xbox/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

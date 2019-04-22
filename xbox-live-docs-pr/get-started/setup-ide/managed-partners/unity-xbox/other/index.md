@@ -17,6 +17,4 @@ Articles about Unity targeting Xbox, for Managed Partners, other than initial ID
 
 | Article | Description |
 |---------|-------------|
-| [__](__) |  |
-| [__](__) |  |
-| [__](__) |  |
+| [Add XBL support to Unity for XDK, with IL2CPP scripting](../../../../../get-started-with-partner/partner-unity-xdk-il2cpp.md) | Add Xbox Live support to Unity for XDK with IL2CPP scripting backend, for ID@Xbox and managed partners. |

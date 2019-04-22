@@ -143,7 +143,7 @@
                     - name: Other articles about Visual Studio targeting Xbox
                       href: get-started/setup-ide/managed-partners/vs-xbox/other/index.md
                       items:
-                        - name: Setting up Visual Studio targeting Xbox (page not used)
+                        - name: Setting up Visual Studio targeting Xbox
                           href: get-started-with-partner/xdk-developers.md
                         - name: Getting the XDK
                           href: get-started-with-partner/where-to-get-xdk.md

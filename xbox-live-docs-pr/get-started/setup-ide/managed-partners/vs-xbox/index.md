@@ -18,4 +18,4 @@ Setting up Visual Studio targeting Xbox to use the Xbox Live SDK, for Managed Pa
 | Article | Description |
 |---------|-------------|
 | [Setting up Visual Studio targeting Xbox](vs-xbox-mp.md) | Setting up Visual Studio targeting Xbox to use the Xbox Live SDK, for Managed Partners. |
-| [Other articles about Visual Studio targeting Xbox](other/other.md) | Articles about Visual Studio targeting Xbox, for Managed Partners, other than initial IDE setup. |
+| [Other articles about Visual Studio targeting Xbox](other/index.md) | Articles about Visual Studio targeting Xbox, for Managed Partners, other than initial IDE setup. |

@@ -12,11 +12,11 @@ ms.localizationpriority: medium
 
 Articles about Visual Studio targeting Android, for Managed Partners, other than initial IDE setup.
 
+(This page is not used.)
+
 
 ### In this section
 
 | Article | Description |
 |---------|-------------|
-| [__](__) |  |
-| [__](__) |  |
-| [__](__) |  |
+<!-- | [__](__) |  | -->

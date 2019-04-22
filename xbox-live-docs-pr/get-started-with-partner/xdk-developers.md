@@ -12,4 +12,5 @@ ms.localizationpriority: medium
 # Add XBL Support in Visual Studio, for XDK games
 
 This page is no longer used.
+
 See [Visual Studio targeting Xbox](../get-started/setup-ide/managed-partners/vs-xbox/index.md).
