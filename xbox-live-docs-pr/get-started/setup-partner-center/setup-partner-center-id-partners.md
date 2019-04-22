@@ -237,7 +237,7 @@ Your game is now set up at Partner Center.
 
 
 <!--===========================================================-->
-## Update MSA (Microsoft Account) configuration for your game (for mobile games only)
+## Update Microsoft Account (MSA) configuration for your mobile game
 > [!IMPORTANT] 
 > The following steps are only needed if your game targets mobile platforms (Android, iOS)
 1. Log into your app's registration page via MSA's app portal (https://apps.dev.microsoft.com)
