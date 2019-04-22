@@ -17,6 +17,4 @@ Articles about Visual Studio targeting UWP, for Creators, other than initial IDE
 
 | Article | Description |
 |---------|-------------|
-| [__](__) |  |
-| [__](__) |  |
-| [__](__) |  |
+| [Setting up Visual Studio targeting UWP](../get-started-with-creators/develop-creators-title-with-visual-studio.md) | Setting up Visual Studio to use the Xbox Live SDK. |

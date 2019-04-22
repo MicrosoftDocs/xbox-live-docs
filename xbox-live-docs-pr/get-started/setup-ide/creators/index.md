@@ -21,7 +21,7 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/logos/logo_Windows.svg" alt="Visual Studio targeting UWP"/>
+                                <img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="Visual Studio targeting UWP"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -40,7 +40,7 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="xbox-logo.png" alt="Visual Studio targeting Xbox"/>
+                                <img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="Visual Studio targeting Xbox"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -59,7 +59,7 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/logos/logo_Windows.svg" alt="Unity targeting UWP"/>
+                                <img src="https://docs.microsoft.com/media/logos/logo_unity.svg" alt="Unity targeting UWP"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -78,7 +78,7 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="xbox-logo.png" alt="Unity targeting Xbox"/>
+                                <img src="https://docs.microsoft.com/media/logos/logo_unity.svg" alt="Unity targeting Xbox"/>
                             </div>
                         </div>
                         <div class="cardText">

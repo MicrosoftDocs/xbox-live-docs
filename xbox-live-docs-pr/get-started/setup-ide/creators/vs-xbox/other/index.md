@@ -12,11 +12,13 @@ ms.localizationpriority: medium
 
 Articles about Visual Studio targeting Xbox, for Creators, other than initial IDE setup.
 
+(this article is not presently used)
+
 
 ### In this section
 
 | Article | Description |
 |---------|-------------|
+<!-- | [__](__) |  |
 | [__](__) |  |
-| [__](__) |  |
-| [__](__) |  |
+| [__](__) |  | -->

@@ -18,4 +18,4 @@ Setting up Unity targeting UWP to use the Xbox Live SDK, for Managed Partners.
 | Article | Description |
 |---------|-------------|
 | [Setting up Unity targeting UWP](unity-uwp-mp.md) | Setting up Unity targeting UWP to use the Xbox Live SDK, for Managed Partners. |
-| [Other articles about Unity targeting UWP](other/other.md) | Articles about Unity targeting UWP, for Managed Partners, other than initial IDE setup. |
+| [Other articles about Unity targeting UWP](other/index.md) | Articles about Unity targeting UWP, for Managed Partners, other than initial IDE setup. |

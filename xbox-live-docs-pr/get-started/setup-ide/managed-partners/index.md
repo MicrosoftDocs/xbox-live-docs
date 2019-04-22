@@ -15,14 +15,14 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="as-android.md/index.md">
+        <a href="as-android/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_android-studio-na.svg" alt="Android Studio targeting Android"/> -->
-                                <img src="https://docs.microsoft.com/media/logos/logo_android.svg" alt="Android Studio targeting Android"/>
+                                <img src="https://docs.microsoft.com/media/logos/logo_android-studio-na.svg" alt="Android Studio targeting Android"/>
+                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_android.svg" alt="Android Studio targeting Android"/> -->
                             </div>
                         </div>
                         <div class="cardText">
@@ -35,14 +35,14 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
         </a>
     </li>
     <li>
-        <a href="xcode-ios.md/index.md">
+        <a href="xcode-ios/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_ios.svg" alt="Xcode targeting iOS"/> -->
                                 <img src="https://docs.microsoft.com/media/logos/logo_xcode.svg" alt="Xcode targeting iOS"/>
+                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_ios.svg" alt="Xcode targeting iOS"/> -->
                             </div>
                         </div>
                         <div class="cardText">
@@ -55,14 +55,14 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
         </a>
     </li>
     <li>
-        <a href="vs-uwp.md/index.md">
+        <a href="vs-uwp/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="Visual Studio targeting UWP"/> -->
-                                <img src="https://docs.microsoft.com/media/logos/logo_Windows.svg" alt="Visual Studio targeting UWP"/>
+                                <img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="Visual Studio targeting UWP"/>
+                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_Windows.svg" alt="Visual Studio targeting UWP"/> -->
                             </div>
                         </div>
                         <div class="cardText">
@@ -75,14 +75,14 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
         </a>
     </li>
     <li>
-        <a href="vs-xdk.md/index.md">
+        <a href="vs-xdk/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="Visual Studio targeting Xbox"/> -->
-                                <img src="xbox-logo.png" alt="Visual Studio targeting Xbox"/>
+                                <img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="Visual Studio targeting Xbox"/>
+                                <!-- <img src="xbox-logo.png" alt="Visual Studio targeting Xbox"/> -->
                             </div>
                         </div>
                         <div class="cardText">
@@ -95,14 +95,14 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
         </a>
     </li>
     <li>
-        <a href="vs-android.md/index.md">
+        <a href="vs-android/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="Visual Studio targeting Android"/> -->
-                                <img src="https://docs.microsoft.com/media/logos/logo_android.svg" alt="Visual Studio targeting Android"/>
+                                <img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="Visual Studio targeting Android"/>
+                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_android.svg" alt="Visual Studio targeting Android"/> -->
                             </div>
                         </div>
                         <div class="cardText">
@@ -115,14 +115,14 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
         </a>
     </li>
     <li>
-        <a href="unity-uwp.md/index.md">
+        <a href="unity-uwp/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_unity.svg" alt="Unity targeting UWP"/> -->
-                                <img src="https://docs.microsoft.com/media/logos/logo_Windows.svg" alt="Unity targeting UWP"/>
+                                <img src="https://docs.microsoft.com/media/logos/logo_unity.svg" alt="Unity targeting UWP"/>
+                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_Windows.svg" alt="Unity targeting UWP"/> -->
                             </div>
                         </div>
                         <div class="cardText">
@@ -135,14 +135,14 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
         </a>
     </li>
     <li>
-        <a href="unity-xbox.md/index.md">
+        <a href="unity-xbox/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_unity.svg" alt="Unity targeting Xbox"/> -->
-                                <img src="xbox-logo.png" alt="Unity targeting Xbox"/>
+                                <img src="https://docs.microsoft.com/media/logos/logo_unity.svg" alt="Unity targeting Xbox"/>
+                                <!-- <img src="xbox-logo.png" alt="Unity targeting Xbox"/> -->
                             </div>
                         </div>
                         <div class="cardText">
