@@ -146,23 +146,23 @@ apply plugin: 'com.google.gms.google-services'
 
 ## Add Xbox Live libraries to project
 
-Next, update the file `Cmakefile.txt` to include the XboxLiveSDK libraries, as follows.
+<!-- Next, update the file `Cmakefile.txt` to include the XboxLiveSDK libraries, as follows. -->
 
-1. Open the file **your_app > src > main > cpp > CMakeLists.txt**.
+<!-- 1. Open the file **your_app > src > main > cpp > CMakeLists.txt**. -->
 
-2. Just after the `cmake_minimum_required` element, add the following:
+<!-- 2. Just after the `cmake_minimum_required` element, add the following: -->
 
-```cmake
+<!-- ```cmake
 #TODO: Replace path to direct to your local XboxLiveSDK Maven folder
 set(ANDROID_MAVEN_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../../../../../Maven)
-```
+``` -->
 
-> [!NOTE]
-> The path to Maven must be from your project's CMake folder to the Maven folder inside of your local Xbox Live SDK.
+<!-- > [!NOTE]
+> The path to Maven must be from your project's CMake folder to the Maven folder inside of your local Xbox Live SDK. -->
 
-3. Define the following compiler flags for the Xbox Live SDK:
+<!-- 3. Define the following compiler flags for the Xbox Live SDK: -->
 
-```cmake
+<!-- ```cmake
 # Add pre-processor definitions to the project
 target_compile_definitions(${APP_NAME} PUBLIC
                            XSAPI_C=1
@@ -192,14 +192,13 @@ target_link_libraries(${APP_NAME}
 target_include_directories(${APP_NAME}
                            PUBLIC ${ANDROID_MAVEN_PATH}/ndk/include/
                            )
-```
+``` -->
 
-4. Run a gradle sync.
+<!-- 4. Run a gradle sync. -->
 
-5. Do a project build.
+<!-- 5. Do a project build. -->
 
-The last two steps ensure that the project links properly with your Xbox Live SDK libraries.
-<!-- no indent above, else remaining ## headings are treated as plain text -->
+   The last two steps ensure that the project links properly with your Xbox Live SDK libraries.
 
 
 ## Modify build settings
