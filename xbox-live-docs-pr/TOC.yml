@@ -45,28 +45,28 @@
             - name: Setting up an IDE, for Creators
               href: get-started/setup-ide/creators/index.md
               items:
-                - name: Visual Studio targeting UWP
-                  href: get-started/setup-ide/creators/vs-uwp/index.md
+                - name: Visual Studio targeting Windows 10
+                  href: get-started/setup-ide/creators/vs-win10/index.md
                   items:
-                    - name: Setting up Visual Studio targeting UWP
-                      href: get-started/setup-ide/creators/vs-uwp/vs-uwp-cr.md
-                    - name: Other articles about Visual Studio targeting UWP
-                      href: get-started/setup-ide/creators/vs-uwp/other/index.md
+                    - name: Setting up Visual Studio targeting Windows 10
+                      href: get-started/setup-ide/creators/vs-win10/vs-win10-cr.md
+                    - name: Other articles about Visual Studio targeting Windows 10
+                      href: get-started/setup-ide/creators/vs-win10/other/index.md
                       items:
-                        - name: Setting up Visual Studio targeting UWP
+                        - name: Setting up Visual Studio targeting Windows 10
                           href: get-started-with-creators/develop-creators-title-with-visual-studio.md
                 - name: Visual Studio targeting Xbox
                   href: get-started/setup-ide/creators/vs-xbox/index.md
                   items:
                     - name: Setting up Visual Studio targeting Xbox
                       href: get-started/setup-ide/creators/vs-xbox/vs-xbox-cr.md
-                - name: Unity targeting UWP
-                  href: get-started/setup-ide/creators/unity-uwp/index.md
+                - name: Unity targeting Windows 10
+                  href: get-started/setup-ide/creators/unity-win10/index.md
                   items:
-                    - name: Setting up Unity targeting UWP
-                      href: get-started/setup-ide/creators/unity-uwp/unity-uwp-cr.md
-                    - name: Other articles about Unity targeting UWP
-                      href: get-started/setup-ide/creators/unity-uwp/other/index.md
+                    - name: Setting up Unity targeting Windows 10
+                      href: get-started/setup-ide/creators/unity-win10/unity-win10-cr.md
+                    - name: Other articles about Unity targeting Windows 10
+                      href: get-started/setup-ide/creators/unity-win10/other/index.md
                       items:
                         - name: Configuring Xbox Live in Unity
                           href: get-started-with-creators/configure-xbox-live-in-unity.md
@@ -119,13 +119,13 @@
                       items:
                         - name: Setting up Xcode targeting iOS
                           href: get-started-with-ios-android/ios-get-started-with-xsapi.md
-                - name: Visual Studio targeting UWP
-                  href: get-started/setup-ide/managed-partners/vs-uwp/index.md
+                - name: Visual Studio targeting Windows 10
+                  href: get-started/setup-ide/managed-partners/vs-win10/index.md
                   items:
-                    - name: Setting up Visual Studio targeting UWP
-                      href: get-started/setup-ide/managed-partners/vs-uwp/vs-uwp-mp.md
-                    - name: Other articles about Visual Studio targeting UWP
-                      href: get-started/setup-ide/managed-partners/vs-uwp/other/index.md
+                    - name: Setting up Visual Studio targeting Windows 10
+                      href: get-started/setup-ide/managed-partners/vs-win10/vs-win10-mp.md
+                    - name: Other articles about Visual Studio targeting Windows 10
+                      href: get-started/setup-ide/managed-partners/vs-win10/other/index.md
                       items:
                         - name: Get started using Visual Studio for UWP games
                           href: get-started-with-partner/get-started-with-visual-studio-and-uwp.md
@@ -162,15 +162,15 @@
                   items:
                     - name: Setting up Visual Studio targeting Android
                       href: get-started/setup-ide/managed-partners/vs-android/vs-android-mp.md
-                - name: Unity targeting UWP
-                  href: get-started/setup-ide/managed-partners/unity-uwp/index.md
+                - name: Unity targeting Windows 10
+                  href: get-started/setup-ide/managed-partners/unity-win10/index.md
                   items:
-                    - name: Setting up Unity targeting UWP
-                      href: get-started/setup-ide/managed-partners/unity-uwp/unity-uwp-mp.md
-                    - name: Other articles about Unity targeting UWP
-                      href: get-started/setup-ide/managed-partners/unity-uwp/other/index.md
+                    - name: Setting up Unity targeting Windows 10
+                      href: get-started/setup-ide/managed-partners/unity-win10/unity-win10-mp.md
+                    - name: Other articles about Unity targeting Windows 10
+                      href: get-started/setup-ide/managed-partners/unity-win10/other/index.md
                       items:
-                        - name: Setting up Unity targeting UWP (not used)
+                        - name: Setting up Unity targeting Windows 10 (not used)
                           href: get-started-with-partner/add-xbl-support-to-unity.md
                         - name: Add XBL support to Unity for UWP, with .NET scripting
                           href: get-started-with-partner/partner-add-xbox-live-to-unity-uwp.md

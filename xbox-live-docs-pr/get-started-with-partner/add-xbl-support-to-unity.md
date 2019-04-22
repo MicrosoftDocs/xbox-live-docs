@@ -1,6 +1,6 @@
 ---
-title: Setting up Unity targeting UWP
-description: Adding Xbox Live support to Unity for UWP with a scripting backend, for ID@Xbox and managed partners.
+title: Setting up Unity targeting Windows 10
+description: Adding Xbox Live support to Unity for Windows 10 with a scripting backend, for ID@Xbox and managed partners.
 layout: LandingPage
 author: mikehoffms
 ms.author: v-mihof
@@ -10,7 +10,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, Unity
 ms.localizationpriority: medium
 ---
 
-# Setting up Unity targeting UWP
+# Setting up Unity targeting Windows 10
 
 This page is no longer used.
-See [Unity targeting UWP](../get-started/setup-ide/managed-partners/unity-uwp/index.md).
+See [Unity targeting Windows 10](../get-started/setup-ide/managed-partners/unity-win10/index.md).
