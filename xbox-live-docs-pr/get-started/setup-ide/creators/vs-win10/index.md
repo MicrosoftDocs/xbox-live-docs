@@ -1,0 +1,21 @@
+---
+title: Visual Studio targeting Windows 10
+description: Setting up Visual Studio targeting Windows 10 to use the Xbox Live SDK, for Creators.
+layout: LandingPage
+ms.date: 04/19/2019
+ms.topic: article
+keywords: xbox live, games
+ms.localizationpriority: medium
+---
+
+# Visual Studio targeting Windows 10
+
+Setting up Visual Studio targeting Windows 10 to use the Xbox Live SDK, for Creators.
+
+
+### In this section
+
+| Article | Description |
+|---------|-------------|
+| [Setting up Visual Studio targeting Windows 10](vs-win10-cr.md) | Setting up Visual Studio targeting Windows 10 to use the Xbox Live SDK, for Creators. |
+| [Other articles about Visual Studio targeting Windows 10](other/index.md) | Articles about Visual Studio targeting Windows 10, for Creators, other than initial IDE setup. |

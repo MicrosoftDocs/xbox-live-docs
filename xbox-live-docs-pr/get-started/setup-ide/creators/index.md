@@ -15,18 +15,18 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="vs-uwp/index.md">
+        <a href="vs-win10/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="Visual Studio targeting UWP"/>
+                                <img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="Visual Studio targeting Windows 10"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Visual Studio targeting UWP</h3>
-                            <p>Setting up Visual Studio targeting UWP to use the Xbox Live SDK, for Creators.</p>
+                            <h3>Visual Studio targeting Windows 10</h3>
+                            <p>Setting up Visual Studio targeting Windows 10 to use the Xbox Live SDK, for Creators.</p>
                         </div>
                     </div>
                 </div>
@@ -53,18 +53,18 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
         </a>
     </li>
     <li>
-        <a href="unity-uwp/index.md">
+        <a href="unity-win10/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/logos/logo_unity.svg" alt="Unity targeting UWP"/>
+                                <img src="https://docs.microsoft.com/media/logos/logo_unity.svg" alt="Unity targeting Windows 10"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Unity targeting UWP</h3>
-                            <p>Setting up Unity targeting UWP to use the Xbox Live SDK, for Creators.</p>
+                            <h3>Unity targeting Windows 10</h3>
+                            <p>Setting up Unity targeting Windows 10 to use the Xbox Live SDK, for Creators.</p>
                         </div>
                     </div>
                 </div>

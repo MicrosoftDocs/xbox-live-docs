@@ -1,6 +1,6 @@
 ---
-title: Other articles about Unity targeting UWP
-description: Articles about Unity targeting UWP, for Creators, other than initial IDE setup.
+title: Other articles about Unity targeting Windows 10
+description: Articles about Unity targeting Windows 10, for Creators, other than initial IDE setup.
 layout: LandingPage
 ms.date: 04/19/2019
 ms.topic: article
@@ -8,9 +8,9 @@ keywords: xbox live, games
 ms.localizationpriority: medium
 ---
 
-# Other articles about Unity targeting UWP
+# Other articles about Unity targeting Windows 10
 
-Articles about Unity targeting UWP, for Creators, other than initial IDE setup.
+Articles about Unity targeting Windows 10, for Creators, other than initial IDE setup.
 
 
 ### In this section
