@@ -19,12 +19,12 @@ Setting up Android Studio targeting Android to use the Xbox Live SDK, for Manage
 * Ensure you have a virtual device that is capable of running Android API 26+.
 
 
-## Download Xbox Live SDK
+## Download the Xbox Live SDK
 
 <a href="https://github.com/Microsoft/xbox-live-api" target="_blank">Download</a> the packages and extract them to your project folder.
 
 
-## Add extensions to project
+## Add extensions to the project
 
 Add Maven support to your project, as follows.
 
@@ -60,7 +60,7 @@ allprojects {
 3. Inside of your local XboxLiveSDK, update the url to your project's Maven folder.
 
 
-## Add dependencies to project
+## Add dependencies to the project
 
 Set up your Project's Gradle to include dependencies, as follows.
 
@@ -144,25 +144,25 @@ apply plugin: 'com.google.gms.google-services'
    Gradle is now set up for your project.
 
 
-## Add Xbox Live libraries to project
+## Add Xbox Live libraries to the project
 
-<!-- Next, update the file `Cmakefile.txt` to include the XboxLiveSDK libraries, as follows. -->
+Next, update the file `Cmakefile.txt` to include the XboxLiveSDK libraries, as follows.
 
-<!-- 1. Open the file **your_app > src > main > cpp > CMakeLists.txt**. -->
+1. Open the file **your_app > src > main > cpp > CMakeLists.txt**.
 
-<!-- 2. Just after the `cmake_minimum_required` element, add the following: -->
+2. Just after the `cmake_minimum_required` element, add the following:
 
-<!-- ```cmake
+```cmake
 #TODO: Replace path to direct to your local XboxLiveSDK Maven folder
 set(ANDROID_MAVEN_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../../../../../Maven)
-``` -->
+```
 
-<!-- > [!NOTE]
-> The path to Maven must be from your project's CMake folder to the Maven folder inside of your local Xbox Live SDK. -->
+> [!NOTE]
+> The path to Maven must be from your project's CMake folder to the Maven folder inside of your local Xbox Live SDK.
 
-<!-- 3. Define the following compiler flags for the Xbox Live SDK: -->
+3. Define the following compiler flags for the Xbox Live SDK:
 
-<!-- ```cmake
+```cmake
 # Add pre-processor definitions to the project
 target_compile_definitions(${APP_NAME} PUBLIC
                            XSAPI_C=1
@@ -192,16 +192,16 @@ target_link_libraries(${APP_NAME}
 target_include_directories(${APP_NAME}
                            PUBLIC ${ANDROID_MAVEN_PATH}/ndk/include/
                            )
-``` -->
+```
 
-<!-- 4. Run a gradle sync. -->
+4. Run a gradle sync.
 
-<!-- 5. Do a project build. -->
+5. Do a project build.
 
    The last two steps ensure that the project links properly with your Xbox Live SDK libraries.
 
 
-## Modify build settings
+## Modify the build settings
 
 Update the Android Manifest to include the permissions which Xbox Live requires to run, as follows.
 
@@ -233,7 +233,7 @@ Update the Android Manifest to include the permissions which Xbox Live requires 
 This will make sure that the application can grab the WebView to display the log-in screen when needed.
 
 
-## Prepare native files to handle initialize and cleanup of Xbox Live
+## Prepare native files to handle initialize and cleanup of Xbox Live
 
 Next, update your `MainActivity` Java class to utilize native C++ binding, as follows.
 
@@ -266,7 +266,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 
-## Bind C++ to native environment
+## Bind C++ to the native environment
 
 Next, update your Native C++ code to include XSAPI and XAL, as follows.
 

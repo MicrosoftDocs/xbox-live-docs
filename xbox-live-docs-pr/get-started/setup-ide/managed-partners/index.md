@@ -21,7 +21,7 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/logos/logo_android-studio-na.svg" alt="Android Studio targeting Android"/>
+                                <img src="as-android/android-studio-logo.png" alt="Android Studio targeting Android"/>
                                 <!-- <img src="https://docs.microsoft.com/media/logos/logo_android.svg" alt="Android Studio targeting Android"/> -->
                             </div>
                         </div>
