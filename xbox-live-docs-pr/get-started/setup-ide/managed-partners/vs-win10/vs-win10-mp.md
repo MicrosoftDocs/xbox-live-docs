@@ -11,6 +11,8 @@ ms.localizationpriority: medium
 
 Setting up Visual Studio targeting Windows 10 to use the Xbox Live SDK, for Managed Partners.
 
+_This is an article template. The content is TBD._
+
 
 ## Prerequisite steps
 

@@ -11,6 +11,8 @@ ms.localizationpriority: medium
 
 Setting up Unity targeting Xbox to use the Xbox Live SDK, for Creators.
 
+_This is an article template. The content is TBD._
+
 
 ## Prerequisite steps
 
