@@ -11,3 +11,33 @@ ms.localizationpriority: medium
 
 Setting up Unity targeting Xbox to use the Xbox Live SDK, for Managed Partners.
 
+
+## Prerequisite steps
+
+* Have Unity installed.
+
+
+## Download the Xbox Live SDK
+
+
+## Download the Xbox Live XDK
+
+
+## Add extensions to the project
+
+
+## Add dependencies to the project
+
+
+## Add Xbox Live libraries to the project
+
+
+## Modify the build settings
+
+
+## Prepare files to initialize and cleanup Xbox Live
+
+
+## See also
+
+[Getting Started](../../../index.md)

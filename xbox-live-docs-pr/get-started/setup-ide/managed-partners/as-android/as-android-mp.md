@@ -233,7 +233,7 @@ Update the Android Manifest to include the permissions which Xbox Live requires 
 This will make sure that the application can grab the WebView to display the log-in screen when needed.
 
 
-## Prepare native files to handle initialize and cleanup of Xbox Live
+## Prepare native files to initialize and cleanup Xbox Live
 
 Next, update your `MainActivity` Java class to utilize native C++ binding, as follows.
 
