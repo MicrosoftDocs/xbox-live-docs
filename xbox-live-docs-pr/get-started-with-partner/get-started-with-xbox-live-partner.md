@@ -50,9 +50,7 @@ Every Xbox Live title must be defined in Partner Center or the Xbox Developer Po
 
 You can follow the appropriate Getting Started guide for your platform and engine and learn the basics of Xbox Live as you go along.
 
-* [Getting started using Visual Studio for UWP games](get-started-with-visual-studio-and-uwp.md) shows how to link your Visual Studio project with your Xbox Live configuration in Partner Center.
-* [Getting started using Unity for UWP games](partner-add-xbox-live-to-unity-uwp.md) shows how to create a new Xbox Live enabled Unity title, add features such as Leaderboards to your title, and generate a native Visual Studio project.
-* [Getting started using Visual Studio for XDK based games](xdk-developers.md) shows how to get your Visual Studio project setup if you are making an Xbox One title using the XDK.
+* [Setting up an IDE](../get-started/setup-ide/index.md)
 * [Getting started making a cross-play game](get-started-with-cross-play-games.md) shows how to make a product that is an XDK-based game for Xbox One and a UWP-based game for Windows 10 PC.
 
 
