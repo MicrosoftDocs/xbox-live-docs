@@ -17,4 +17,9 @@ Setting up Visual Studio targeting Android to use the Xbox Live SDK, for Managed
 
 | Article | Description |
 |---------|-------------|
-<!-- | [Setting up Visual Studio targeting Android](vs-android-mp.md) | Setting up Visual Studio targeting Android to use the Xbox Live SDK, for Managed Partners. | -->
+
+
+<!-- 
+standard template to fill-in to create the new official article:
+| [Setting up Visual Studio targeting Android](vs-android-mp.md) | Setting up Visual Studio targeting Android to use the Xbox Live SDK, for Managed Partners. |
+-->

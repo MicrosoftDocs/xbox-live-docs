@@ -17,5 +17,9 @@ Setting up Unity targeting Xbox to use the Xbox Live SDK, for Managed Partners.
 
 | Article | Description |
 |---------|-------------|
-<!-- | [Setting up Unity targeting Xbox](unity-xbox-mp.md) | Setting up Unity targeting Xbox to use the Xbox Live SDK, for Managed Partners. | -->
 | [Add XBL support to Unity for XDK, with IL2CPP scripting](../../../../get-started-with-partner/partner-unity-xdk-il2cpp.md) | Add Xbox Live support to Unity for XDK with IL2CPP scripting backend, for ID@Xbox and managed partners. |
+
+<!-- 
+standard template to fill-in to create the new official article: 
+| [Setting up Unity targeting Xbox](unity-xbox-mp.md) | Setting up Unity targeting Xbox to use the Xbox Live SDK, for Managed Partners. |
+-->
