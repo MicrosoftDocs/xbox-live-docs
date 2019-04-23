@@ -83,8 +83,6 @@
                     - name: Other articles about Android Studio targeting Android
                       href: get-started/setup-ide/managed-partners/as-android/other/index.md
                       items:
-                        - name: Adding Xbox Live to an Android Studio Project
-                          href: get-started-with-partner/get-started-with-android-studio.md
                         - name: Get started with the Xbox Live APIs on Android
                           href: get-started-with-ios-android/android-get-started-with-xsapi.md
                         - name: Setting up Visual Studio for XAL login on Android
@@ -113,8 +111,6 @@
                 - name: Visual Studio targeting Xbox
                   href: get-started/setup-ide/managed-partners/vs-xbox/index.md
                   items:
-                    - name: Setting up Visual Studio targeting Xbox
-                      href: get-started-with-partner/xdk-developers.md
                     - name: Getting the XDK
                       href: get-started-with-partner/where-to-get-xdk.md
                     - name: Configure an Xbox development console
