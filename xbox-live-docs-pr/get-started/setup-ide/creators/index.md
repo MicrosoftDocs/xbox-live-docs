@@ -33,7 +33,7 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
             </div>
         </a>
     </li>
-    <li>
+    <!-- <li>
         <a href="vs-xbox/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
@@ -51,7 +51,7 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
                 </div>
             </div>
         </a>
-    </li>
+    </li> -->
     <li>
         <a href="unity-win10/index.md">
             <div class="cardSize">
@@ -71,7 +71,7 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
             </div>
         </a>
     </li>
-    <li>
+    <!-- <li>
         <a href="unity-xbox/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
@@ -89,7 +89,7 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
                 </div>
             </div>
         </a>
-    </li>
+    </li> -->
 </ul>
 
 

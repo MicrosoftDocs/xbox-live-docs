@@ -18,4 +18,3 @@ Setting up Visual Studio targeting Xbox to use the Xbox Live SDK, for Creators.
 | Article | Description |
 |---------|-------------|
 | [Setting up Visual Studio targeting Xbox](vs-xbox-cr.md) | Setting up Visual Studio targeting Xbox to use the Xbox Live SDK, for Creators. |
-| [Other articles about Visual Studio targeting Xbox](other/index.md) | Articles about Visual Studio targeting Xbox, for Creators, other than initial IDE setup. |

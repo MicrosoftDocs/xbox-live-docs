@@ -18,4 +18,3 @@ Setting up Unity targeting Xbox to use the Xbox Live SDK, for Creators.
 | Article | Description |
 |---------|-------------|
 | [Setting up Unity targeting Xbox](unity-xbox-cr.md) | Setting up Unity targeting Xbox to use the Xbox Live SDK, for Creators. |
-| [Other articles about Unity targeting Xbox](other/index.md) | Articles about Unity targeting Xbox, for Creators, other than initial IDE setup. |

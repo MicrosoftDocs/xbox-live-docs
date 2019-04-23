@@ -94,7 +94,7 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
             </div>
         </a>
     </li>
-    <li>
+    <!-- <li>
         <a href="vs-android/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
@@ -102,7 +102,6 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
                         <div class="cardImageOuter">
                             <div class="cardImage">
                                 <img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="Visual Studio targeting Android"/>
-                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_android.svg" alt="Visual Studio targeting Android"/> -->
                             </div>
                         </div>
                         <div class="cardText">
@@ -113,7 +112,7 @@ Prerequisite: [Setting up a game app at Partner Center](../../setup-partner-cent
                 </div>
             </div>
         </a>
-    </li>
+    </li> -->
     <li>
         <a href="unity-win10/index.md">
             <div class="cardSize">

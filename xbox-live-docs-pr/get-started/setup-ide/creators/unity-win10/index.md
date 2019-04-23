@@ -17,5 +17,10 @@ Setting up Unity targeting Windows 10 to use the Xbox Live SDK, for Creators.
 
 | Article | Description |
 |---------|-------------|
-| [Setting up Unity targeting Windows 10](unity-win10-cr.md) | Setting up Unity targeting Windows 10 to use the Xbox Live SDK, for Creators. |
-| [Other articles about Unity targeting Windows 10](other/index.md) | Articles about Unity targeting Windows 10, for Creators, other than initial IDE setup. |
+<!-- | [Setting up Unity targeting Windows 10](unity-win10-cr.md) | Setting up Unity targeting Windows 10 to use the Xbox Live SDK, for Creators. | -->
+| [Configuring Xbox Live in Unity](../../../../get-started-with-creators/configure-xbox-live-in-unity.md) | Use the Xbox Live Unity plugin to configure Xbox Live in your Unity game. |
+| [Signing into Xbox Live in Unity](../../../../get-started-with-creators/unity-signin-nav.md) | Signing into Xbox Live in Unity. |
+| [Testing a Unity game build in Visual Studio](../../../../get-started-with-creators/test-visual-studio-build.md) |Checklist for testing Unity builds in Visual Studio.  |
+| [Add controller support to Xbox Live prefabs](../../../../get-started-with-creators/add-controller-support-to-xbox-live-prefabs.md) | Adding controller support to Xbox Live prefabs using the Xbox Live Unity plug-in. |
+| [Add multi-user support to a Unity game](../../../../get-started-with-creators/add-multi-user-support.md) | Adding multi-user support to your Unity game using the Xbox Live Unity plug-in. |
+| [Checking user privilege settings in Unity](../../../../get-started-with-creators/check-user-privileges-in-unity.md) | Checking user privilege settings in Unity for a signed-in Xbox Live account. |
