@@ -9,7 +9,9 @@ ms.localizationpriority: medium
 
 # Setting up Xcode targeting iOS
 
-Setting up Xcode targeting iOS to use the Xbox Live SDK, for Managed Partners.
+Follow the steps in this article, in the order shown, to set up Xcode targeting iOS to use the Xbox Live SDK, for Managed Partners.
+Afterwards, you'll be ready to follow the article about adding basic sign-in code for Xbox Live services.
+Then you'll be able to call other Xbox Services API (XSAPI) functions.
 
 
 ## Prerequisite steps
@@ -24,12 +26,6 @@ Download the Xbox Live SDK for iOS to your local computer.
 
 <!-- todo: need URL for iOS SDK -->
 
-The iOS Xbox Live SDK consists of 3 libraries (known in Xcode as frameworks):
-- HttpClient.framework
-- Xal.framework
-- Xsapi-c.framework
-These come in two flavors: Debug and Release.
-
 
 <!-- ## Add extensions to the project -->
 
@@ -41,34 +37,59 @@ These come in two flavors: Debug and Release.
 
 Add the 3 XBL iOS frameworks to your project, as follows.
 
-1. Under **Project Settings**, select the "General" tab, and scroll down to "Embedded Binaries".
-   Click the "+" button, and in the dialog that appears, click the "Add Other..." button.
-   Navigate to the Xbox Live SDK directory, select the three frameworks (either the Debug or Release versions), and then click **Open**.
+1. Under **Project Settings**, select the **General** tab, scroll down to **Embedded Binaries**, and then click the **+** button.
 
-2. On the next dialog, select "Copy items if needed" and "Create folder references".
-   Click "Finish".
+   <!-- The __ dialog box|page|screen|window appears. -->
 
-   A copy of the frameworks will be added to your project, and embedded in the project build setup.
+   A dialog box appears.
+
+2. Click the **Add Other...** button.
+
+   <!-- The __ dialog box|page|screen|window appears. -->
+
+3. Navigate to the **Xbox Live SDK** directory, select the Debug (or Release) version of the following libraries, which comprise the iOS Xbox Live SDK:
+    - HttpClient.framework
+    - Xal.framework
+    - Xsapi-c.framework
+
+4. Click the **Open** button.
+
+   <!-- The __ dialog box|page|screen|window appears. -->
+
+5. Select the **Copy items if needed** check box and the **Create folder references** check box, and then click the **Finish** button.
+
+   A copy of the frameworks is added to the project, and the frameworks are embedded in the project build setup.
 
 
 ## Modify the build settings
 
-1. Under project settings, select the **Capabilities** tab.
-	a. Enable **Keychain Sharing**.
-	b. Under **Keychain Sharing**, add "com.microsoft.xal" to **Keychain Groups**.
+1. Under **Project Settings**, <!--where? describe the UI controls more explicitly - where are we: what app? what menu? what pane?--> click the **Capabilities** tab.
 
-2. Under project settings, select the **Info** tab.
-	a. Under **URL Types**, click the **+** button to add an entry.
-	b. In **Identifier**, add the bundle identifier of your app.
-		- (found at the top of the **General** tab... your app's bundle ID)
-	c. In "URL Schemes", add "ms-xal-" and your Microsoft Partner Client ID.
-		- for example, for the sample app, this is "ms-xal-000000004824156C".
+   <!-- The __ dialog box|page|screen|window appears. -->
 
-3. Under project settings, select the **Build Settings** tab.
-	a. Search for "Preprocessor Macros", and add "XSAPI_C=1" and "XSAPI_I=1" to each build configuration. If you are using cross-platform code, you can check for the "XSAPI_I" macro to wall-off iOS-specific code.
+2. Enable **Keychain Sharing**. <!-- Click the **Keychain Sharing** check box so that a checkmark appears.-->
 
-4. Find the `Info.plist` file for your project, and open it in a text editor.
-	a. Add the following settings in the root dictionary:
+3. Under **Keychain Sharing**, <!--Below the Keychain Sharing checkbox,?  In the Keychain Sharing section,?--> in the **Keychain Groups** section, add `com.microsoft.xal`.
+
+4. Under **Project Settings**, <!--where? describe the UI controls more explicitly - where are we: what app? what menu? what pane?--> click the **Info** tab.
+
+5. Under **URL Types**, <!--Below the URL Types check box,? In the URL Types section,?--> click the **+** button to add an entry.
+
+6. Click the **General** tab, and then note your app's bundle ID.
+
+7. Click the **Identifier** UI control<!--what kind of UI control is that?-->, and then add the bundle ID of your app.
+
+8. In the **URL Schemes** box, add `ms-xal-` followed by Microsoft Partner Client ID.
+   For example, for the sample app, <!--which sample app? what's the name or distinguishing description of this app?--> the Microsoft Partner Client ID is "ms-xal-000000004824156C".
+
+9. Under **Project Settings**, <!--where? describe the UI controls more explicitly - where are we: what app? what menu? what pane?--> click the **Build Settings** tab.
+
+10. Search <!--clarify: do what action on which UI controls?--> for "Preprocessor Macros", and add "XSAPI_C=1" and "XSAPI_I=1" to each build configuration.
+    If you are using cross-platform code, you can check for the "XSAPI_I" macro, to wall-off iOS-specific code.
+
+11. Find <!--where? in which UI controls?--> the `Info.plist` file for your project, and open it in a text editor. <!--since we specify Xcode in next step, shouldn't we tell them to do this in Xcode's text editor?-->
+
+12. In the root dictionary, add the following settings:
 
 ```xml
 <key>NSAppTransportSecurity</key>
@@ -88,32 +109,38 @@ Add the 3 XBL iOS frameworks to your project, as follows.
 </dict>
 ```
 
-	b. If you open `Info.plist` from Xcode, the section should look like the following:
+13. In Xcode, open the `Info.plist` file. <!--isn't the file already open, in whatever text editor above? If they used Notepad, do we recommend that they specifically use Xcode for this step?-->
 
-   ![App transport security settings](xblsdk-info-ats.png)
-
-
+    The <!--which?--> section should look like the following:
+    
+    ![App transport security settings](xblsdk-info-ats.png)
+    
 
 <!-- ## Prepare native files to initialize and cleanup Xbox Live -->
 
 
 ## Bind C++ to the native environment
 
-The Xbox Live SDK uses Microsoft's SAL annotation language in their code, but Xcode doesn't understand these annotations.
-Go to <a href="https://github.com/nemequ/salieri" target="_blank">https://github.com/nemequ/salieri</a> and download a copy of `salieri.h`.
+The code in the Xbox Live SDK uses Microsoft's SAL annotation language.
+Tell Xcode how to understand these SAL annotations, as follows.
 
-	a. Add this header to your Xcode project.
-	b. Find your Prefix Header file:
-		- Under project settings, select the **Build Settings** tab.
-		- Search for "Prefix Header".
-		- If empty, create a new C header file in your project, called `pch.h`, and point the build setting to it.
-		- If not empty, open the listed file.
-	c. Add the following to the Prefix Header file:
+1. Go to <a href="https://github.com/nemequ/salieri" target="_blank">https://github.com/nemequ/salieri</a> and download a copy of `salieri.h`, then continue here.
+
+2. Add a <!--what kind or purpose or name?  pch.h?--> header to your Xcode project, as follows.
+   First, find your Prefix Header file: Under **Project Settings**, click the **Build Settings** tab.
+
+   <!-- The __ dialog box|page|screen|window|section|pane appears. -->
+
+3. Search for "Prefix Header". <!--clarify the UI here, and clarify 'search'; eg: Locate the **Prefix Header** setting|row.-->
+
+4. If <!--what?  If the Foo file|row is--> empty, create a new C header file in your project, called `pch.h`, and point the build setting to it.
+
+   If <!--what?  If the Foo file|row is-->  not empty, open the listed file, and then add the following code into the Prefix Header file:
 
 ```cpp
 #ifdef __cplusplus
 // Defines the Microsoft Visual Studio SAL annotations used in the C++ code.
-// This workaround for non-VS cross-platform support for SAL comes from here: https://github.com/nemequ/salieri
+// This workaround for non-VS cross-platform support for SAL comes from: https://github.com/nemequ/salieri
 #import "salieri.h"
 #define _Post_invalid_  // This annotation was added for SAL 2... not handled by the salieri.h workaround.
 
@@ -141,13 +168,16 @@ Go to <a href="https://github.com/nemequ/salieri" target="_blank">https://github
 #endif
 ```
 
-Notes about using the Xbox Live SDK in Xcode iOS projects:
-	a. All access to the Xbox Live SDK needs to be through C++. You cannot directly call the SDK from Objective-C or Swift.
-	b. You will need to make use of Xcode's Objective-C++ files (*.mm). These allow you to mix Objective-C and C++ code:
-	   	- You can import header files for both languages.
-	   	- You can run C++ code in Obj-C functions.
-	   	- You can run Obj-C code in C++ methods.
+## Using the Xbox Live SDK in Xcode iOS projects
 
+* All access to the Xbox Live SDK needs to be through C++.
+  You cannot directly call the Xbox Live SDK from Objective-C or Swift.
+
+* You need to use Xcode's _Objective-C++_ files (`*.mm`), which enable you to mix Objective-C and C++ code.
+    - You can import header files for both languages.
+    - You can run C++ code in Obj-C functions.
+    - You can run Obj-C code in C++ methods.
+    
 
 ## See also
 
