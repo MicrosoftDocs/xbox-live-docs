@@ -197,10 +197,14 @@ In Xcode, this C++ is usually within Objective-C++ files.
 You cannot directly call the Xbox Live SDK from Objective-C or Swift.
 
 To call the Xbox Live SDK, you need to use Xcode's Objective-C++ files, which have an `*.mm` extension.
+
 Objective-C++ files enable you to mix Objective-C and C++ code:
-    - You can import header files for both languages.
-    - You can run C++ code in Obj-C functions.
-    - You can run Obj-C code in C++ methods.
+
+* You can import header files for both languages.
+
+* You can run C++ code in Obj-C functions.
+
+* You can run Obj-C code in C++ methods.
 
 
 ## Next step
