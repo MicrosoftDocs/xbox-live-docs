@@ -150,11 +150,11 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_subscription.svg" alt="Onboarding flow diagrams"/>
+                                <img src="https://docs.microsoft.com/media/common/i_subscription.svg" alt="Onboarding flow diagram"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Onboarding flow diagrams</h3>
+                            <h3>Onboarding flow diagram</h3>
                             <p>Flowchart of the top-level steps to achieve basic sign-in, and onboarding flow paths showing developer programs, IDEs, and target platforms.</p>
                         </div>
                     </div>

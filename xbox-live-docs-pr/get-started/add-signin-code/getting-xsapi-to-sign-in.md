@@ -23,7 +23,7 @@ Before adding code to your game to do basic sign-in into the Xbox Live services,
 2. Add the Xbox Live SDK to an IDE that targets Android or iOS; see [Setting up an IDE to use Xbox Live](../setup-ide/index.md).
 
 
-## Initialize XSAPI
+## Initialize Xbox Services API (XSAPI)
 
 Set up your project to call the Xbox Live sign-in API, as described below.
 
@@ -46,7 +46,7 @@ HRESULT XsapiInit()
 ```
 
 
-## Initialize XAL
+## Initialize Xbox Authentication Library (XAL)
 
 XAL has two sets of arguments to pass in:
 * `XalPlatformArgs` defines arguments that are needed in order to display the Sign-In window to your game.
@@ -81,14 +81,12 @@ HRESULT XalInit()
 }
 ```
 
-## Basic Sign-In/Sign-Out
+
+## Sign-in silently
 
 Now that Xbox Live is initialized, set up the Sign-In and Sign-Out functionality, as follows.
 
-
-### Sign-In Silently
-
-To begin, let's start with adding in functionality for signing-in silently.
+Start by adding in functionality for signing-in silently.
 
 1. Add the following `XAL_TrySignInUserSilently` function, which should be called when your game starts up, to auto sign-in the previously logged-in user.
    This function wraps the async call `XalTryAddDefaultUserSilentlyAsync`.
@@ -165,7 +163,7 @@ void Gameplay_SignInUser(_In_ XalUserHandle newUser, _In_ bool resolveIssuesWith
 ```
 
 
-### Sign-In with UI
+## Sign-in with UI
 
 If sign-in silently fails, then the user will need to sign-in using XAL's web view UI.
 
@@ -231,7 +229,7 @@ void CALLBACK XAL_TryResolveUserIssue_Callback(_In_ XAsyncBlock* asyncBlock)
 ```
 
 
-### Sign-Out
+## Sign-out
 
 Now that sign-in is taken care of, implement sign-out.
 
@@ -293,7 +291,7 @@ XblCleanup();
 You have finished adding the basic sign-in code.
 
 
-## Testing basic sign-in
+## Test basic sign-in
 
 Test that the basic sign-in code works properly, as follows.
 

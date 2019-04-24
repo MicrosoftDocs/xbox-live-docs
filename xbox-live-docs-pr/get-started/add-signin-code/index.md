@@ -24,6 +24,11 @@ ms.localizationpriority: medium
 |---------|-------------|
 | [Adding basic sign-in code for mobile](getting-xsapi-to-sign-in.md) | Adding code to a mobile game to enable basic sign-in to Xbox Live. |
 
+<!-- 
+| [Adding basic sign-in code for UWP](basic-signin-uwp.md) | Adding code to a UWP-based game to enable basic sign-in to Xbox Live. |
+| [Adding basic sign-in code for XDK](basic-signin-xdk.md) | Adding code to an XDK-based game to enable basic sign-in to Xbox Live. |
+-->
+
 
 ### Next steps
 
