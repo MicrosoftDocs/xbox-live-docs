@@ -140,10 +140,6 @@
           items:
             - name: Adding basic sign-in code for mobile
               href: get-started/add-signin-code/getting-xsapi-to-sign-in.md
-            - name: Adding basic sign-in code for UWP
-              href: get-started/add-signin-code/basic-signin-uwp.md
-            - name: Adding basic sign-in code for XDK
-              href: get-started/add-signin-code/basic-signin-xdk.md
     - name: Features
       href: features/index.md
       items:
