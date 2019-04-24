@@ -144,13 +144,13 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="join-dev-program/index.md">
+        <a href="onboarding-flow-diagram.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_subscription.svg" alt="Joining a developer program"/>
+                                <img src="https://docs.microsoft.com/media/common/i_subscription.svg" alt="Onboarding flow diagrams"/>
                             </div>
                         </div>
                         <div class="cardText">

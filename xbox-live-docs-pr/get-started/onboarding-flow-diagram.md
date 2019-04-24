@@ -17,6 +17,7 @@ The following are the top-level steps to start adding Xbox Live functionality to
    ![High-level steps 1](onboarding-img/hilevsteps1.png)
    ![High-level steps 2](onboarding-img/hilevsteps2.png)
 
+
 ### Text to move into the above diagram
 
 1. Joining a Dev Program
@@ -34,13 +35,12 @@ The following are the top-level steps to start adding Xbox Live functionality to
     6. Note the game's IDs.
 
 3. Set up IDE (such as Android Studio here) to use Xbox Live SDK
-    1. Download Xbox Live SDK.
-    2. Add Maven to project.
-    3. Set up project's Gradle to include dependencies.
-    4. Include Xbox Live SDK in CMake file.
-    5. Adjust Android Manifest to handle XboxLiveSDK.
-    6. Prepare Java files to handle XboxLiveSDK.
-    7. Bind Native C++ files to Java environment.
+    1. Download the Xbox Live SDK.
+    2. Add extensions or plugins to the project.
+    3. Add dependencies to the project.
+    4. Add Xbox Live libraries to the project.
+    5. Modify the build settings.
+    6. Prepare files to initialize and cleanup Xbox Live.
 
 4. Add basic sign-in code
     1. Initialize XSAPI.
@@ -50,26 +50,18 @@ The following are the top-level steps to start adding Xbox Live functionality to
     5. Test basic sign-in.
 
 
-## The series of four articles to follow
+## The series of articles to follow
 
-To start adding Xbox Live to your game, you follow a series of about 4 onboarding articles:
+To start adding Xbox Live to your game, you follow a series of onboarding articles:
 
 1. The article about choosing which Xbox Live developer program to join, and one of the articles about actually joining an Xbox Live developer program (to join either the Creators or ID@Xbox Managed Partners Program).
 
-3. One of the articles about creating a new game app in Partner Center and noting its IDs - either as a Creator or as an ID@Xbox Managed Partner.
+2. One of the articles about creating a new game app in Partner Center and noting its IDs - either as a Creator or as an ID@Xbox Managed Partner.
 
-4. One of the articles about setting up an IDE to use the Xbox Live SDK.
-   There is a version of this article for each combination of IDE and target platform, for each developer program.
+3. An article about setting up an IDE to use the Xbox Live SDK.
+   <!-- There is a version of this article for each combination of IDE and target platform, for each developer program. -->
 
-5. One of the articles about adding basic sign-in code, for the game to sign-in to Xbox Live services.
-   There are 3 versions of this article, based on which platform you target: Mobile (Android and iOS), UWP, and XDK.
+4. An article about adding basic sign-in code, for the game to sign-in to Xbox Live services.
+   <!-- There are several versions of this article, based on which platform you target: Mobile (Android or iOS), Windows 10, and Xbox. -->
 
 The end result of following this Xbox Live onboarding flow is that you have a single IDE set up to call the Xbox Services API from a single target platform, and your game running on that platform has done basic sign-in to Xbox Live.
-
-
-## All of the onboarding paths
-
-The following are all of the possible onboarding flow paths to start adding Xbox Live functionality to your game, reflecting which Xbox Live developer program you join, which IDE you set up, and which platform you target.
-
-   ![Flow paths 1](onboarding-img/flowpaths1.png)
-   ![Flow paths 2](onboarding-img/flowpaths2.png)
