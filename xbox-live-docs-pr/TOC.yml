@@ -95,7 +95,9 @@
                     - name: Other articles about Xcode targeting iOS
                       href: get-started/setup-ide/managed-partners/xcode-ios/other/index.md
                       items:
-                        - name: Setting up Xcode targeting iOS
+                        - name: Using the Xbox Live SDK in Xcode projects targeting iOS
+                          href: get-started/setup-ide/managed-partners/xcode-ios/other/using-xcode-ios.md
+                        - name: Get started with the Xbox Live SDK for iOS
                           href: get-started-with-ios-android/ios-get-started-with-xsapi.md
                 - name: Visual Studio targeting Windows 10
                   href: get-started/setup-ide/managed-partners/vs-win10/index.md

@@ -3,7 +3,7 @@ title: Setting up Xcode targeting iOS
 description: Setting up Xcode targeting iOS to use the Xbox Live SDK, for Managed Partners.
 ms.date: 04/19/2019
 ms.topic: article
-keywords: xbox live, games
+keywords: xbox live, games, xcode, ios
 ms.localizationpriority: medium
 ---
 
@@ -77,6 +77,12 @@ Add the 3 XBL iOS frameworks to your project, as follows.
 
 6. Click the **General** tab, and then note your app's bundle ID.
 
+<!-- 
+Not bundlename+.xalAuth?
+From get-started-with-ios-android/ios-get-started-with-xsapi.md : 
+1. For the **Identifier** field, enter: &lt;Your app's bundle name&gt;`.xalAuth`
+-->
+
 7. Click the **Identifier** UI control<!--what kind of UI control is that?-->, and then add the bundle ID of your app.
 
 8. In the **URL Schemes** box, add `ms-xal-` followed by Microsoft Partner Client ID.
@@ -87,7 +93,7 @@ Add the 3 XBL iOS frameworks to your project, as follows.
 10. Search <!--clarify: do what action on which UI controls?--> for "Preprocessor Macros", and add "XSAPI_C=1" and "XSAPI_I=1" to each build configuration.
     If you are using cross-platform code, you can check for the "XSAPI_I" macro, to wall-off iOS-specific code.
 
-11. Find <!--where? in which UI controls?--> the `Info.plist` file for your project, and open it in a text editor. <!--since we specify Xcode in next step, shouldn't we tell them to do this in Xcode's text editor?-->
+11. Find <!--where? in which UI controls?--> the `Info.plist` file for your project, and open it in a text editor.
 
 12. In the root dictionary, add the following settings:
 
@@ -109,9 +115,9 @@ Add the 3 XBL iOS frameworks to your project, as follows.
 </dict>
 ```
 
-13. In Xcode, open the `Info.plist` file. <!--isn't the file already open, in whatever text editor above? If they used Notepad, do we recommend that they specifically use Xcode for this step?-->
+13. In Xcode, open the `Info.plist` file. <!--what kind of view is this? what kind of UI controls - a pane|section, where?-->
 
-    The <!--which?--> section should look like the following:
+    The <!--**App Transport Security Settings**? what is the context in the UI display?--> section should look like the following:
     
     ![App transport security settings](xblsdk-info-ats.png)
     
@@ -136,6 +142,8 @@ Tell Xcode how to understand these SAL annotations, as follows.
 4. If <!--what?  If the Foo file|row is--> empty, create a new C header file in your project, called `pch.h`, and point the build setting to it.
 
    If <!--what?  If the Foo file|row is-->  not empty, open the listed file, and then add the following code into the Prefix Header file:
+
+<!--get rid of ... to the right of SAL 2 below-->
 
 ```cpp
 #ifdef __cplusplus
@@ -168,16 +176,10 @@ Tell Xcode how to understand these SAL annotations, as follows.
 #endif
 ```
 
-## Using the Xbox Live SDK in Xcode iOS projects
+You have finished setting up Xcode targeting iOS to use the Xbox Live SDK.
+You are now ready to follow the article about adding basic sign-in code for Xbox Live services.
+Then you'll be able to call other Xbox Services API (XSAPI) functions.
 
-* All access to the Xbox Live SDK needs to be through C++.
-  You cannot directly call the Xbox Live SDK from Objective-C or Swift.
-
-* You need to use Xcode's _Objective-C++_ files (`*.mm`), which enable you to mix Objective-C and C++ code.
-    - You can import header files for both languages.
-    - You can run C++ code in Obj-C functions.
-    - You can run Obj-C code in C++ methods.
-    
 
 ## See also
 
