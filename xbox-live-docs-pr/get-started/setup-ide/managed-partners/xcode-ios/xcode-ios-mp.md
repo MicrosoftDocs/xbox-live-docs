@@ -35,7 +35,7 @@ Download the Xbox Live SDK for iOS to your local computer.
 
 ## Add Xbox Live libraries to the project
 
-Add the 3 XBL iOS frameworks to your project, as follows.
+Add the Xbox Live iOS frameworks (that is, libraries) to your project, as follows.
 
 1. Under **Project Settings**, select the **General** tab, scroll down to **Embedded Binaries**, and then click the **+** button.
 
@@ -64,9 +64,9 @@ Add the 3 XBL iOS frameworks to your project, as follows.
 
 ### Capabilities tab
 
-1. In Xcode, under **Project Settings**, click the **Capabilities** tab.
+1. In Xcode, under **Project Settings**, at the top of the window, click the **Capabilities** tab.
 
-   The **Capabilities** screen appears.
+   The "Capabilities" screen appears.
 
 2. Scroll down to **Keychain Sharing** section and click it, so that it's set to **ON**.
 
@@ -75,14 +75,16 @@ Add the 3 XBL iOS frameworks to your project, as follows.
 
 ### Info tab
 
-1. Click the **General** tab, and then in the **Bundle Identifier** field, select and copy your app's bundle ID.
+1. Under **Project Settings**, at the top of the window, click the **General** tab, and then in the **Bundle Identifier** field, select and copy your app's bundle ID.
 
-2. Under **Project Settings**, click the **Info** tab.
+2. Under **Project Settings**, at the top of the window, click the **Info** tab.
+
+   The "Info" screen appears.
  
 <!-- 
 Not bundlename+.xalAuth?
 From get-started-with-ios-android/ios-get-started-with-xsapi.md : 
-1. For the **Identifier** field, enter: &lt;Your app's bundle name&gt;`.xalAuth`
+   For the **Identifier** field, enter: &lt;Your app's bundle name&gt;`.xalAuth`
 -->
 
 3. Scroll down to the **URL Types** section, click **+**, and then in the **Identifier** field, paste the bundle ID of your app.
@@ -95,7 +97,9 @@ From get-started-with-ios-android/ios-get-started-with-xsapi.md :
 
 1. Under **Project Settings**, click the **Build Settings** tab.
 
-2. In the Search field in the upper right, search for "Preprocessor Macros".
+   The "Build Settings" screen appears.
+
+2. In the **Search** field in the upper right, search for "Preprocessor Macros".
 
     For each build configuration under Preprocessor Macros, add both "XSAPI_C=1" and "XSAPI_I=1".
 
@@ -125,6 +129,7 @@ From get-started-with-ios-android/ios-get-started-with-xsapi.md :
 
 5. In Xcode, open the `Info.plist` file.
 
+    The file is displayed as nested rows.
     The **App Transport Security Settings** section should look like the following:
 
     ![App transport security settings](xblsdk-info-ats.png)
@@ -143,11 +148,11 @@ Tell Xcode how to understand these SAL annotations, as follows.
 2. Add a prefix header to your Xcode project, as follows.
    First, find your Prefix Header file: Under **Project Settings**, click the **Build Settings** tab.
 
-3. In the Search field in the upper right, search for "Prefix Header".
+3. In the **Search** field in the upper right, search for "Prefix Header".
 
-4. If the Prefix Header row is empty, create a new C header file in your project, called `pch.h`, and point the build setting to it.
+4. If the **Prefix Header** row found by the search is empty, create a new C header file in your project, called `pch.h`, and point the build setting to it.
 
-   If the Prefix Header row is not empty, open the listed file, and then add the following code into the Prefix Header file:
+   If the **Prefix Header** row found by the search is not empty, open the listed file, and then add the following code into the Prefix Header file:
 
 ```cpp
 #ifdef __cplusplus
@@ -181,7 +186,7 @@ Tell Xcode how to understand these SAL annotations, as follows.
 ```
 
 You have finished setting up Xcode targeting iOS to use the Xbox Live SDK.
-You are now ready to follow the article about adding basic sign-in code for Xbox Live services, as C++ in Objective-C++ files.
+You are now ready to follow the article about adding basic sign-in code for Xbox Live services, as C++ code in Objective-C++ files.
 Then you'll be able to call other Xbox Services API (XSAPI) functions.
 
 
@@ -196,6 +201,11 @@ Objective-C++ files enable you to mix Objective-C and C++ code:
     - You can import header files for both languages.
     - You can run C++ code in Obj-C functions.
     - You can run Obj-C code in C++ methods.
+
+
+## Next step
+
+[Adding basic sign-in code](../../../add-signin-code/index.md)
 
 
 ## See also
