@@ -155,7 +155,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText">
                             <h3>Onboarding flowchart</h3>
-                            <p>Flowchart of the top-level steps to achieve basic sign-in.</p>
+                            <p>Flowchart of the top-level steps to achieve basic sign-in to Xbox Live services.</p>
                         </div>
                     </div>
                 </div>
