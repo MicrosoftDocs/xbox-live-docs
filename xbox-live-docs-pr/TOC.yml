@@ -164,6 +164,8 @@
                   items: 
                     - name: Overview of Social Manager
                       href: social-platform/intro-to-social-manager.md
+                    - name: Privilege Codes
+                      href: features/social/friends-list/social-manager/privilege-codes.md
                     - name: Social Manager memory and performance
                       href: social-platform/social-manager-memory-and-performance-overview.md
             - name: Clubs
