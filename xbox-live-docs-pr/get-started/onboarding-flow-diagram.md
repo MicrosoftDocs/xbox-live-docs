@@ -1,58 +1,17 @@
 ---
-title: Onboarding flow diagram
-description: Flowchart of the top-level steps to achieve basic sign-in, and onboarding flow paths showing developer programs, IDEs, and target platforms.
+title: Onboarding flowchart
+description: Flowchart of the top-level steps to achieve basic sign-in.
 ms.date: 04/11/2019
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, developer program
 ms.localizationpriority: medium
 ---
 
-# Onboarding flow diagram
+# Onboarding flowchart
 
 The following are the top-level steps to start adding Xbox Live functionality to your game, regardless of which Xbox Live developer program you join, which IDE you set up, and which platforms you target.
 
    ![Steps to set up Xbox Live](onboarding-flow.png)
-
-
-<!-- ## Text for diagram
-
-### Join an Xbox Live dev program
-
-Choose a dev program
-Go to page for joining the dev program
-Click the large colored button
-Fill-in online form
-(ID@Xbox) Fill-in forms from Microsoft
-
-
-### Set up game at Partner Center
-
-Create new game at Partner Center
-(ID@Xbox) Contact Microsoft Rep to enable game
-Enable Xbox Live for the game
-Create & authorize test accounts
-Publish game to sandbox
-Note the game's IDs
-
-
-### Set up IDE to use Xbox Live SDK
-
-Download Xbox Live SDK
-Add extensions or plugins to project
-Add dependencies to project
-Add Xbox Live libraries to project
-Modify build settings
-Prep files to initialize & clean up Xbox Live
-
-
-### Add basic sign-in code
-
-Initialize Xbox Services API
-Sign-in silently
-Sign-in with UI
-Sign-out
-Cleanup
-Test basic sign-in -->
 
 
 ## The series of articles to follow

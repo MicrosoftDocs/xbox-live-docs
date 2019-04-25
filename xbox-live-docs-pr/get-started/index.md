@@ -154,8 +154,8 @@ ms.localizationpriority: medium
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Onboarding flow diagram</h3>
-                            <p>Flowchart of the top-level steps to achieve basic sign-in, and onboarding flow paths showing developer programs, IDEs, and target platforms.</p>
+                            <h3>Onboarding flowchart</h3>
+                            <p>Flowchart of the top-level steps to achieve basic sign-in.</p>
                         </div>
                     </div>
                 </div>
