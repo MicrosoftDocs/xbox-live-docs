@@ -91,6 +91,42 @@ You will also need to have set up an `XTaskQueueHandle` to handle the asynchrono
 [!INCLUDE [XalAddUserWithUIAsync](../../code/snippets/XalAddUserWithUiAsync.md)]
 
 
+### Resolving issues with sign-in
+
+1. Create the following `XAL_TryResolveUserIssue` function.
+   This function will be called if there are issues with the user signing in to your game.
+   Use `asyncBlock-context` to store the handle to the new user to be used later in the callback:
+
+```cpp
+HRESULT XAL_TryResolveUserIssue(_In_ XalUserHandle user)
+{
+    XAsyncBlock* asyncBlock = new XAsyncBlock() {};
+    asyncBlock->context = user;
+    asyncBlock->callback = XAL_TryResolveUserIssue_Callback;
+
+    return XalUserResolveIssueWithUiAsync(user, "https://www.xboxlive.com", asyncBlock);
+}
+```
+
+2. Add the following `XAL_TryResolveUserIssue_Callback` function, which will grab the `XAsyncGetStatus` result to be used by gameplay.
+   This callback also grabs the `XalUserHandle`, from `asyncBlock->context`.
+
+```cpp
+void CALLBACK XAL_TryResolveUserIssue_Callback(_In_ XAsyncBlock* asyncBlock)
+{
+    HRESULT hr = XAsyncGetStatus(asyncBlock, false);
+    XalUserHandle user = reinterpret_cast<XblUserHandle>(asyncBlock->context);
+
+    // TODO: If XAsyncGetStatus fails, tell user to sign in again
+
+    // Close the Reference if one was created during XalUserDuplicateHandle
+    if (user) { XalUserCloseHandle(user); }
+
+    delete asyncBlock;
+}
+```
+
+
 ## Soft SUA and MUA
 
 In a **hard** single-user authentication (SUA) scenario, you are not allowed to sign-out a user so the sign-out user function is not available.

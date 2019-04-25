@@ -1,6 +1,6 @@
 ---
 title: Onboarding flowchart
-description: Flowchart of the top-level steps to achieve basic sign-in to Xbox Live services.
+description: Flowchart of the steps to achieve basic sign-in to Xbox Live services.
 ms.date: 04/11/2019
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, developer program
