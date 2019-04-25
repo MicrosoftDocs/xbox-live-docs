@@ -63,6 +63,6 @@ if (XboxLiveUser.User.Privileges.Contains("247"))
 }
 ```
 
-## Privilege Codes
+## Privilege codes
 
-See [Privilege Codes](../features/social/friends-list/social-manager/privilege-codes.md).
+See [Privilege codes for Social Manager](../features/social/friends-list/social-manager/privilege-codes.md).

@@ -1,6 +1,6 @@
 ---
-title: Privilege Codes
-description: Privilege Codes for Social Manager.
+title: Privilege codes for Social Manager
+description: Privilege codes for Social Manager.
 author: mikehoffms
 ms.author: v-mihof
 ms.date: 04/25/2019
@@ -9,9 +9,7 @@ keywords: games, xbox live, social manager
 ms.localizationpriority: medium
 ---
 
-# Privilege Codes
-
-The following privilege codes may be returned.
+# Privilege codes for Social Manager
 
 | Code  | Privilege  | Description   |
 |------ |-----------------------------  |-------------------    |
