@@ -61,7 +61,7 @@ Priority - Display Name (Stat Instance Name)
 
 Each of these will be explained in more detail in the next section.
 
-![New Contextual search configuration screenshot from Xbox Developer Portal](../images/contextual_search/config01.png)
+![New Contextual search configuration screenshot from Partner Center](../images/contextual_search/config01.png)
 
 The above image is the screen that will appear if you choose to create a new Contextual Search stat or edit and existing one.
 
@@ -69,7 +69,7 @@ The above image is the screen that will appear if you choose to create a new Con
 
 1. Choose your stat instance.
 
-  ![Stat Instance choosing screenshot from Xbox Developer Portal](../images/contextual_search/config03.png)
+  ![Stat Instance choosing screenshot from Partner Center](../images/contextual_search/config03.png)
 
   Only stat instances are supported - stat templates are not accepted. You should be aware of the visibility you've set for the stat instance (configured in the Stats portion of Partner Center). Only stats that are marked as **Open** will appear in third party experiences.
 
