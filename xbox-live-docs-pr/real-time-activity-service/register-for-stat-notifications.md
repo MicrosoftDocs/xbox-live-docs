@@ -14,6 +14,4 @@ Real-Time Activity (RTA) is enabled for statistics via the Xbox Live Service Con
 
 If you have configured your service configuration in the Microsoft Developer dashboard, you can register for stat change notifications under **Services > Xbox Live > Player stats > Stat change notifications**.
 
-If you have configured your service configuration in the Xbox Developer Portal (XDP), consult the XDP documentation.
-
 Presence data and achievements data are automatically enabled for RTA.

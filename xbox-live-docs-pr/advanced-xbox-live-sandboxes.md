@@ -18,7 +18,7 @@ This document explains what sandboxes are, why they exist, how they apply to pub
 The audience for this document is publishers who build Xbox One content and use sandboxes.
 
 Xbox Live development provides tremendous opportunity to publishers to test in production with production-quality services and production MSA developer accounts.
-The increase in functionality and flexibility requires new configuration steps in XDP to create title data and manage access to the titles while in development and in general availability.
+The increase in functionality and flexibility requires configuration steps in Partner Center to create title data and manage access to the titles while in development and in general availability.
 
 Sandboxes are a way to partition data in production.
 Because there is a single production environment for all content, sandboxes act as “virtual environments” where data generated in one environment does not cross over to the other.
@@ -61,17 +61,14 @@ All data in Xbox Live will be primarily partitioned by the sandbox ID throughout
 
 ## Initial setup for a title
 
-A title is born in the Xbox Developer Portal (XDP) or Partner Center.
-This document covers titles born in XDP.
+A title is born in the Partner Center.
 Titles are assigned a title ID, product ID and a service configuration ID (SCID).
 
-In this new world, a title or product on its own doesn’t mean anything to Xbox Live.
-Because we must support simultaneous retail and development use of a single title, we must support *instancing* of titles in order to make and maintain the necessary distinctions.
+A title or product on its own doesn’t mean anything to Xbox Live.
+To support simultaneous retail and development use of a single title, Partner Center supports *instancing* of titles in order to make and maintain the necessary distinctions.
 An instance of a title resides in a sandbox and this is where sandboxes come in.
 
-In order to create a title on XDP, a publisher creates a product group, specifies the genre for the product group, and then creates individual products within it.
-(For more details, refer to the XDP documentation.)
-The following diagram illustrates the relationships between a product group, a product, a product instance, and a sandbox.
+In order to create a title at Partner Center, a publisher creates a product group, specifies the genre for the product group, and then creates individual products within it.
 
 Figure 2. The relationships between a product group, a product, a product instance, and a sandbox.
 
@@ -107,12 +104,12 @@ This data is described in the following three areas: service configuration, cata
 
 There are two distinct types of access to your content in Xbox One:
 
-*Design-time access*—access from a PC via the XDP tool—allows people working on your products to upload, organize, and work with content, configuration, and metadata, but does not allow them to run or play instances of your products.
+*Design-time access*—access from a PC via Partner Center - Allows people working on your products to upload, organize, and work with content, configuration, and metadata, but does not allow them to run or play instances of your products.
 
-*Run-time access*—access from an Xbox console—allows your developers, testers, reviewers, and eventually your customers to run and play product instances.
+*Run-time access*—access from an Xbox console - Allows your developers, testers, reviewers, and eventually your customers to run and play product instances.
 
 > [!NOTE]
-> In order to be available for run-time access, a product instance must be placed in a sandbox. Once a build is placed in a sandbox, XDP users or devkit devices that have been granted access to that sandbox can run the instance. To do this, they log on to Xbox One via an Xbox console, using one of their dev accounts—special accounts that function as virtual users for run-time access.
+> In order to be available for run-time access, a product instance must be placed in a sandbox. Once a build is placed in a sandbox, Partner Center users or devkit devices that have been granted access to that sandbox can run the instance. To do this, they log on to Xbox One via an Xbox console, using one of their dev accounts—special accounts that function as virtual users for run-time access.
 
 When we are talking about sandboxes, we are typically talking about run-time access to content that runs on Xbox Live.
 In order to access a service in Xbox Live, a title ID is required.
@@ -128,15 +125,15 @@ When seen at a very high level:
 
 - A principal group is given access to a sandbox.
 
-So, for a user or device to access a pre-release title in a sandbox, access must be granted through XDP first.
+So, for a user or device to access a pre-release title in a sandbox, access must be granted through Partner Center first.
 
-Figure 3. A model for setting up access through XDP.
+Figure 3. A model for setting up access through Partner Center
 
 ![Sandbox resource access diagram](images/sandboxes/sandboxes_image3.png)
 
 The effectiveness of content isolation is based on the fact that your organization owns the following processes:
 
-- Creating your XDP user accounts, the dev accounts that each user will use to log on for run-time access, and the user groups in which each user is granted membership.
+- Creating your Partner Center user accounts, the dev accounts that each user will use to log on for run-time access, and the user groups in which each user is granted membership.
 
 - Creating device groups of trusted consoles.
 
@@ -144,8 +141,8 @@ The effectiveness of content isolation is based on the fact that your organizati
 
 An example of this setup is illustrated in the figure below.
 
-Figure 4. An unauthorized user's credentials fail to gain access to the sandbox, as do the ordinary credentials of an authorized XDP user account.
-Only the credentials of the dev account owned by the authorized XDP user account succeed in gaining run-time access to the sandbox, and to all of the product instances currently in it.
+Figure 4. An unauthorized user's credentials fail to gain access to the sandbox, as do the ordinary credentials of an authorized Partner Center user account.
+Only the credentials of the dev account owned by the authorized Partner Center user account succeed in gaining run-time access to the sandbox, and to all of the product instances currently in it.
 
 ![Sandbox access example diagram](images/sandboxes/sandboxes_image4.png)
 
@@ -157,11 +154,11 @@ Dev accounts are used in Xbox Live for development.
 
 A dev account:
 
-- Must be created from XDP or Partner Center.
+- Must be created at Partner Center.
 
 - Is assigned the external developer role when created by publishers.
 
-- Is tied to the XDP account or Partner Center account that created the dev account.
+- Is tied to the Partner Center account that created the dev account.
 
 - Can only log in to dev kits. Login is denied to a dev account on retail devices.
 
@@ -170,13 +167,13 @@ A dev account:
 
 ### User group setup
 
-A user group, the first kind of principal group, is a collection of XDP users.
-When XDP users are added to user groups, their dev accounts flow with these XDP users.
+A user group, the first kind of principal group, is a collection of Partner Center users.
+When Partner Center users are added to user groups, their dev accounts flow with these Partner Center users.
 
-So when a user group is assigned to a sandbox, the dev accounts associated with the XDP users in that user group get added to appropriate principal groups and the principal groups get a policy setup with the primary resource set backing the sandbox.
+So when a user group is assigned to a sandbox, the dev accounts associated with the Partner Center users in that user group get added to appropriate principal groups and the principal groups get a policy setup with the primary resource set backing the sandbox.
 
 > [!NOTE]
-> The user groups that are created to access sandboxes are the same user groups that are used to prevent access to configuration data in XDP for product groups and products.
+> The user groups that are created to access sandboxes are the same user groups that are used to prevent access to configuration data in Partner Center for product groups and products.
 
 
 ### Device setup
@@ -223,7 +220,7 @@ A sandbox ID (case sensitive) is a string in the following format: &lt;Publisher
 
 An example sandbox ID, XLDP.5, is explained below:
 
-- The *publisher moniker* is unique across all publishers. So, “XLPD” is the publisher moniker for this particular publisher. A publisher moniker is created when a publisher is “activated” in XDP by the developer account manager.
+- The *publisher moniker* is unique across all publishers. So, “XLPD” is the publisher moniker for this particular publisher. A publisher moniker is created when a publisher is “activated” in Partner Center by the developer account manager.
 
 - The digit *“n”* identifies the number of the sandbox. In this case, “5” is the sixth sandbox created for this publisher.
 
@@ -261,7 +258,7 @@ When a title is ready for general availability, it needs to go through certifica
 The CERT sandbox is a Microsoft-controlled sandbox that only individuals in certification have access to.
 Publishers can see what content they own is going through certification.
 
-Any product instances that fail while in certification can be brought back to a development sandbox to be debugged and fixed by the publishers using XDP or Partner Center.
+Any product instances that fail while in certification can be brought back to a development sandbox to be debugged and fixed by the publishers using Partner Center.
 
 
 ### RETAIL sandbox
@@ -333,7 +330,7 @@ Also, the finance user (Group C) has design-time access to TitleX.
 Because the finance user group will not typically do any run-time debugging of a title, they are separated out.
 
 > [!NOTE]
-> Irrespective of the organization, an XDP user can belong in more than one user group.
+> Irrespective of the organization, a Partner Center user can belong in more than one user group.
 
 ![One Title with multiple User Groups flowchart](images/sandboxes/sandboxes_image7.png)
 
@@ -348,7 +345,7 @@ In this example, the requirements change a bit:
 
 - One product instance per title.
 
-- An admin user group who needs access to design-time XDP config data for the titles. The individuals in this group are all admins for the publisher and can control all data that is published to the catalog (catalog metadata, finance, marketing, certification submission, etc.)
+- An admin user group who needs access to design-time Partner Center config data for the titles. The individuals in this group are all admins for the publisher and can control all data that is published to the catalog (catalog metadata, finance, marketing, certification submission, etc.)
 
 In this model, the publisher has chosen to keep both titles completely separated and thus assigned these two titles in two different sandboxes.
 The publisher has also chosen to create a separate admin user group and assigned access to the two products.

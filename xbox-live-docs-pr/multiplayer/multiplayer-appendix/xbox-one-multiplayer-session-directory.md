@@ -12,8 +12,7 @@ ms.localizationpriority: medium
 
 This article provides an overview of multiplayer session creation using the new Xbox One Multiplayer Session Directory (MPSD) service.
 
-This article is directed primarily toward Xbox One title developers who submit their session templates directly to Xbox Development Portal (XDP).
-The MPSD service can be configured with Partner Center as well, but is not focused on in this article.
+This article is for Xbox One title developers who submit their session templates directly to Partner Center.
 
 This article covers MPSD configuration, usage, and troubleshooting of multiplayer sessions.
 
@@ -142,7 +141,7 @@ More information about the Xbox Live Services APIs can be found in the Xbox One 
 
 ### MPSD sessions and templates
 
-MPSD sessions are created with templates ingested through the Xbox Development Portal (XDP).
+MPSD sessions are created with templates ingested through Partner Center.
 The templates are JSON documents that define the framework for the session being created.
 The template provides constants for the new session.
 
@@ -1012,8 +1011,8 @@ PUT https://sessiondirectory-stress.xboxlive.com/serviceconfigs/8cvda84-2606-4ba
 
 ### How do I find out what SCID, session template, and sandbox to use?
 
-This information can be found on the XDP site for your title.
-If you do not yet have access to XDP contact your developer account manager, who can assist in getting the information for you.
+This information can be found on Partner Center for your title.
+If you do not yet have access to Partner Center, contact your developer account manager, who can assist in getting the information for you.
 
 
 ### Is there an example of a request body that I can compare my own to?

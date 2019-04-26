@@ -67,7 +67,7 @@ The following are the requirements of any title that will use the Achievements 2
 
 ## Update_Achievement API
 
-Once your achievements are configured via XDP or [UDC](../configure-xbl/dev-center/achievements-in-udc.md) and published to your dev sandbox, your title can unlock them by calling the Update_Achievement API.
+Once your achievements are configured via [UDC](../configure-xbl/dev-center/achievements-in-udc.md) and published to your dev sandbox, your title can unlock them by calling the Update_Achievement API.
 
 The API is available in both the XDK and the Xbox Live SDK.
 
@@ -85,7 +85,7 @@ The API signature is as follows:
     /// <param name="xboxUserId">The Xbox User ID of the player.</param>
     /// <param name="titleId">The title ID.</param>
     /// <param name="serviceConfigurationId">The service configuration ID (SCID) for the title.</param>
-    /// <param name="achievementId">The achievement ID as defined by XDP or Partner Center.</param>
+    /// <param name="achievementId">The achievement ID as defined by Partner Center.</param>
     /// <param name="percentComplete">The completion percentage of the achievement to indicate progress.
     /// Valid values are from 1 to 100. Set to 100 to unlock the achievement.  
     /// Progress will be set by the server to the highest value sent</param>
@@ -184,7 +184,7 @@ If the title unlocks an achievement while the device is offline, the Update_Achi
 Achievements unlocks will not occur while the user is offline.
 
 
-### I see a new "AchievementUpdate" event in XDP. If my title uses that event, does that mean it has Achievements 2017?
+### I see a new "AchievementUpdate" event in Partner Center. If my title uses that event, does that mean it has Achievements 2017?
 
 The *AchievementUpdate* base event is required by Xbox Live for backend purposes.
 You can safely ignore this base event.

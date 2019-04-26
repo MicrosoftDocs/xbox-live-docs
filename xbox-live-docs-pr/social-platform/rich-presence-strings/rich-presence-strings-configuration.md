@@ -10,8 +10,8 @@ ms.localizationpriority: medium
 
 # Configuring Rich Presence strings
 
-There will be a portion of the Xbox Developer Portal (XDP) dedicated to configuring Rich Presence strings.
-Until that is available in XDP, manual configuration must be used.
+Partner Center will enable configuring Rich Presence strings.
+Until that is available at Partner Center, manual configuration must be used.
 
 Manual configuration means defining the strings in a spreadsheet template provided to you by your Developer Account Manager, and sending it to your Developer Account Manager for ingestion into the environment.
 

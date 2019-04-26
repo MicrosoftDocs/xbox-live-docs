@@ -22,7 +22,7 @@ This article also covers:
 
 <a name="_Setting_up_and"></a>
 
-## Setting up and configuring your project in Partner Center and XDP
+## Setting up and configuring your project in Partner Center
 
 A UWP title that uses Xbox Live services needs to be configured in [Partner Center](https://partner.microsoft.com/dashboard).
 
@@ -31,11 +31,9 @@ Sections in that article include these steps for using Xbox Live services in you
 
 -   Create the UWP app project in Partner Center.
 
--   Use XDP to set up your project for Xbox Live usage.
+-   Use Partner Center to set up your project for Xbox Live usage.
 
--   Link your Partner Center product to your XDP product.
-
--   Create developer accounts in XDP (required when running your Xbox Live title in your sandbox).
+-   Create developer accounts in Partner Center (required when running your Xbox Live title in your sandbox).
 
 If your titles support multiplayer play, some additional settings may be required in your multiplayer session templates.
 All Windows 10 titles that use Xbox Live multiplayer and write to an MPSD (multiplayer session document) require this new field in the list of "capabilities" found in your session templates: ```userAuthorizationStyle: true```.
@@ -45,7 +43,7 @@ All Windows 10 titles that use Xbox Live multiplayer and write to an MPSD (multi
 
 If you will support "cross-play" (a shared Xbox Live configuration between Xbox One and PC games, allowing cross-device multiplayer gaming), you will also need to add this capability to your session templates: **crossPlay: true**.
 
-For additional information about supporting cross-play and its configuration requirements in XDP, see "Ingesting XDK and UWP Cross-Play Titles in XDP" in the Xbox Live Programming Guide.
+For additional information about supporting cross-play and its configuration requirements, see the Xbox Live Programming Guide.
 
 Also, for some programmatic considerations, see the later section [Supporting multiplayer cross-play between Xbox One and PC](#_Supporting_multiplayer_cross-play).
 
@@ -62,7 +60,7 @@ Also, for some programmatic considerations, see the later section [Supporting mu
 
   **Note** To switch back to the retail sandbox, you can either delete the registry key that the script modifies, or you can switch to the sandbox called RETAIL.
 
-5.  Add a developer account to your development computer. A developer account created in XDP is required to interact with Xbox Live services at runtime when you are developing in your assigned sandbox or running samples. To add one or more accounts to Windows:
+5.  Add a developer account to your development computer. A developer account created in Partner Center is required to interact with Xbox Live services at runtime when you are developing in your assigned sandbox or running samples. To add one or more accounts to Windows:
 
     1.  Open **Settings** (shortcut: Windows key + I).
 
@@ -419,7 +417,7 @@ See the forum post [xsapi & user privileges](https://forums.xboxlive.com/questio
 
 ### Supporting multiplayer cross-play between Xbox One and PC UWP
 
-In addition to new session template requirements in XDP (see [Setting up and configuring your project in Partner Center and XDP](#_Setting_up_and)), cross-play comes with new restrictions on session join ability.
+In addition to new session template requirements in Partner Center (see [Setting up and configuring your project in Partner Center](#_Setting_up_and)), cross-play comes with new restrictions on session join ability.
 You can no longer use "None" as a session join restriction.
 You must use either "Followed" or "Local" (the default restriction is "Local").
 
@@ -437,7 +435,7 @@ Further information and examples can be found in the updated multiplayer develop
 The API to bring up the UI for sending invites is now **Microsoft::Xbox::Services::System::TitleCallableUI::ShowGameInviteUIAsync()**.
 You pass in a session-&gt; **SessionReference** object from your activity session (typically your lobby).
 
-You can optionally pass in a second parameter that references a custom invite string ID that's been defined in your service configuration in XDP.
+You can optionally pass in a second parameter that references a custom invite string ID that's been defined in your service configuration in Partner Center.
 The string you define there will appear in the toast notification sent to the invited players.
 
 What you are passing in as a parameter to this method is the ID number, and it must be formatted properly for the service.
@@ -568,7 +566,7 @@ For more information, see the Xbox Live SDK documentation.
 
 #### Tip: Derive a .h header file
 
-You can use the **xcetool.exe** provided with the Xbox Live SDK (located in the Tools directory) to convert the `events.man` file that you downloaded from XDP into a .h header file.
+You can use the **xcetool.exe** provided with the Xbox Live SDK (located in the Tools directory) to convert the `events.man` file that you downloaded from Partner Center into a .h header file.
 Use the '-x' option to generate this C++ header by using the v2 property bag schema.
 
 This header contains C++ functions that you can call for all of your configured events; for example, **EventWriteMultiplayerRoundStart()**.

@@ -44,26 +44,19 @@ void Example_RealTimeActivity_ConnectAsync()
 
 ## Creating a statistic
 
-You create statistics on XDP if you are an XDK developer or working on a cross-play title.
-You create statistics in Partner Center if you are making a pure UWP running on Windows 10.
+You create statistics in Partner Center, for the various scenarios:
+* If you are an XDK developer.
+* If you are working on a cross-play title (a single game defined at Partner Center that is used for both Windows 10 and Xbox versions of a given game).
+* If you are making a pure UWP game running on Windows 10.
 
-
-### XDK developers
-
-To create a stat on XDP, see [XDP Documentation](https://developer.xboxlive.com/en-us/xdphelp/development/xdpdocs/Pages/setting_up_service_configuration_10_27_15_a.aspx#events).
-
-After you have created your stat and defined your events, you will need to run the [XCETool](https://developer.xboxlive.com/en-us/platform/development/documentation/software/Pages/atoc_xce_jun15.aspx) to generate a header used by your application.
-This header contains functions you can call to send events that modify stats.
-
-
-### UWP developers
-
-If you are developing a UWP on Windows 10 that is not a cross-play title, you define your stats in [Partner Center](https://partner.microsoft.com/dashboard).
-
-To configure stats on Partner Center, see [Partner Center stats configuration article](../leaderboards-and-stats-2017/player-stats-configure-2017.md).
+You define your stats in [Partner Center](https://partner.microsoft.com/dashboard).
+See [Configuring Featured Stats or Leaderboards in Partner Center with Player Data 2017](../leaderboards-and-stats-2017/player-stats-configure-2017.md).
 
 > [!NOTE]
 > Stats 2013 developer will need to contact their DAM for information concerning [Stats 2013 configuration](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/windows-configure-stats-2013) in [Partner Center](https://partner.microsoft.com/dashboard).
+
+For XDK-based games, after you have created your stat and defined your events, you will need to run the [XCETool](https://developer.xboxlive.com/en-us/platform/development/documentation/software/Pages/atoc_xce_jun15.aspx) to generate a header used by your application.
+This header contains functions you can call to send events that modify stats.
 
 
 ## Disconnecting from the Real-Time Activity service
@@ -84,7 +77,7 @@ void Example_RealTimeActivity_Disconnect()
 
 ## Subscribing to a statistic from the Real-Time Activity service
 
-Applications subscribe to a Real-Time Activity (RTA) to get updates when the statistics configured in Xbox Developer Portal (XDP) or Partner Center change.
+Applications subscribe to a Real-Time Activity (RTA) to get updates when the statistics configured in Partner Center change.
 
 
 ### Example
@@ -104,7 +97,7 @@ void Example_RealTimeActivity_SubscribeToStatisticChangeAsync()
     // Call to subscribe to an individual statistic.  Once the subscription is complete, the handler will be called with the initial value of the statistic.
     auto statisticResults = xboxLiveContext->user_statistics_service().subscribe_to_statistic_change(
         User::Users->GetAt(0)->XboxUserId->Data(),
-        L"xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxxx",    // Get SCID from "Product Details" page in XDP or the Xbox Live Setup page in Partner Center
+        L"xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxxx",    // Get SCID from the Xbox Live Setup page in Partner Center
          L"YourStat"
         );
 

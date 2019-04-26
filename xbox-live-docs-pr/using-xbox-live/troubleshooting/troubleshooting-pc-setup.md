@@ -35,7 +35,7 @@ On Windows 10 PC, ensure that your machine is set up correctly, as follows:
 
 1. Launch the app in the debugger.
 
-1. Sign-in with the development account that you created on the [Xbox Developer Portal](https://xdp.xboxlive.com), or with a retail developer account authorized in [Partner Center](https://partner.microsoft.com/dashboard).
+1. Sign-in with a retail developer account authorized in [Partner Center](https://partner.microsoft.com/dashboard).
 
 1. Grant the app permission to access your Xbox Live information.
 

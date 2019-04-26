@@ -89,7 +89,7 @@ void Example_MultiplayerService_CreateSession()
 {
     XboxLiveContext^ xboxLiveContext = ref new Microsoft::Xbox::Services::XboxLiveContext(User::Users->GetAt(0));
 
-    // Values found in Xbox Developer Portal(XDP) or Partner Center configuration
+    // Values found in Partner Center configuration
     MultiplayerSessionReference^ multiplayerSessionReference = ref new MultiplayerSessionReference(
     "c83c597b-7377-4886-99e3-2b5818fa5e4f", // serviceConfigurationId
     "team-deathmatch", // sessionTemplateName
