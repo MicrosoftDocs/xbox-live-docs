@@ -504,8 +504,8 @@ To enable Arena, in Partner Center, go to the **Tournament** menu under the Xbox
 ![Arena Menu in Partner Center](../../images/arena/Arena_On_WDC.JPG)
 
 You must publish the service configuration for your changes to take effect.
-Self-service Arena configuration is currently not supported through UDC.
-If you’re using UDC for service configuration, work with your Development Account Manager to onboard with Arena.
+Self-service Arena configuration is currently not supported through Partner Center.
+If you’re using Partner Center for service configuration, work with your Development Account Manager to onboard with Arena.
 
 
 ### Setting up game modes
@@ -570,7 +570,7 @@ This value is localizable.
 The **custom** section for the game mode is a property bag where developers can insert any title-specific configuration settings for the tournament match.
 Values defined as part of the custom section are written to the match MPSD session under `/properties/custom/`.
 
-Currently, game mode setup is not supported through UDC.
+Currently, game mode setup is not supported through Partner Center.
 To create game modes for your title, contact your Developer Account Manager.
 
 
