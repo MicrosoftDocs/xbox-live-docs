@@ -67,9 +67,11 @@ The following are the requirements of any title that will use the Achievements 2
 
 ## Update_Achievement API
 
-Once your achievements are configured via [UDC](../configure-xbl/dev-center/achievements-in-udc.md) and published to your dev sandbox, your title can unlock them by calling the Update_Achievement API.
+Once your achievements are configured via Partner Center and published to your dev sandbox, your title can unlock them by calling `Update_Achievement`.
 
-The API is available in both the XDK and the Xbox Live SDK.
+The `Update_Achievement` API is available in both the XDK and the Xbox Live SDK.
+
+See [Configuring Achievements 2017 in Partner Center](../configure-xbl/dev-center/achievements-in-udc.md).
 
 
 ### API signature
