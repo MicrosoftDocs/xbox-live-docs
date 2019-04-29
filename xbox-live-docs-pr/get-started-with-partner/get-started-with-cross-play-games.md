@@ -23,7 +23,7 @@ Ingesting an XDK+UWP game requires 4 major steps:
 
 2. Create your XDK game in Partner Center, selecting the platforms you want to share XBL configuration across.
 
-3. Bind your UWP product information to your XDK product at Partner Center.
+3. Bind your UWP product information to your XDK product in Partner Center.
 
 4. Configure and publish Xbox Live through Partner Center.
 
@@ -140,7 +140,7 @@ To do this, once on the product, navigate to Product Setup &gt; Platform Type.
 ![Xbox Developer Portal update platforms dialogue screenshot](../images/ingesting_crossplay_games_xdp/image10.png)
 
 On this page, select the platforms you want to support (options are Xbox One, Threshold PC, and Windows Mobile).
-Then click the **Submit Platforms** button.
+Then select the **Submit Platforms** button.
 
 This change will immediately be made live (no need for a service configuration, catalog, or binary publish for this to take affect).
 This configuration spans sandboxes – you cannot have different platform types per sandbox for your game.
@@ -152,7 +152,7 @@ Once the product is created at Partner Center, go to the Product Setup page for 
 
 ![Xbox Developer Portal product setup location screenshot](../images/ingesting_crossplay_games_xdp/image11.png)
 
-Once you make it to the Product Setup page, click the “Application ID Setup” section.
+Once you make it to the Product Setup page, select the “Application ID Setup” section.
 In this area, you can enter the MSA App ID you retrieved and place it in the “Application ID” field, as shown below.
 
 ![Application ID setup screenshot on Xbox Developer Portal](../images/ingesting_crossplay_games_xdp/image12.png)
