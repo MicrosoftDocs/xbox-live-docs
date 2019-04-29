@@ -1,13 +1,13 @@
 ---
-title: Setting up a game app at Partner Center, for Creators
-description: Creating a new game app at Partner Center, enabling the game for Xbox Live, creating test accounts, and publishing the game to a sandbox.
+title: Setting up a game at Partner Center, for Creators
+description: Creating a new game at Partner Center, enabling the game for Xbox Live, creating test accounts, and publishing the game to a sandbox.
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, xbox one, sign-in
 ms.localizationpriority: medium
 ---
 
-# Setting up a game app at Partner Center, for Creators
+# Setting up a game at Partner Center, for Creators
 
 
 ## Prerequisites
@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 
 
 <!--===========================================================-->
-## 1. Create a new app
+## 1. Create a new game
 
 At Partner Center, create a new app representing your game, as follows.
 
@@ -52,7 +52,7 @@ At Partner Center, create a new app representing your game, as follows.
    In the "Xbox Live Creators Program" section of the page, the message appears:
    "To enable Xbox Live Creators Program, the product's category (on the Properties page) must be Games."
 
-   Your app has now been created at Partner Center and is awaiting being Xbox Live-enabled.
+   Your game has now been created at Partner Center and is awaiting being Xbox Live-enabled.
 
 
 <!--===========================================================-->
@@ -97,7 +97,7 @@ At Partner Center, create a new app representing your game, as follows.
    ![The "Setup" dialog box](images/pc_cr_setup_dbx.png)
 
 7. In the **Xbox Live game name** text box, enter the name of your game.
-   This can be the same as the name of the app you specified at the beginning, but it doesn't need to be the same.
+   This can be the same as the name of the game you specified at the beginning, but it doesn't need to be the same.
 
 8. Select the platforms that you would like to enable the Xbox Live Services for.
    Both **Xbox One** and **Desktop** are selected by default.
@@ -205,7 +205,7 @@ When you add basic sign-in code to your game, you will insert these IDs.
 
 1. Go to <a href="https://partner.microsoft.com/en-us/dashboard/" target="_blank">Partner Center</a>.
 
-2. On the left, click **Products**, then click your game app.
+2. On the left, click **Products**, then click your game.
 
    The "App overview" page appears.
 
@@ -231,5 +231,3 @@ When you add basic sign-in code to your game, you will insert these IDs.
 ## See also
 
 [Getting Started](../index.md)
-
-<!-- link to onboarding flow diagram -->

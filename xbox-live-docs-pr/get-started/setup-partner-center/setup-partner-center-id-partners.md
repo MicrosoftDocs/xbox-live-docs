@@ -1,15 +1,15 @@
 ---
-title: Setting up a game app at Partner Center, for Managed Partners
-description: Creating a new game app at Partner Center, enabling the game for Xbox Live, publishing the game to a sandbox, and creating test accounts.
+title: Setting up a game at Partner Center, for Managed Partners
+description: Creating a new game at Partner Center, enabling the game for Xbox Live, publishing the game to a sandbox, and creating test accounts.
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, xbox one, sign-in
 ms.localizationpriority: medium
 ---
 
-# Setting up a game app at Partner Center, for Managed Partners
+# Setting up a game at Partner Center, for Managed Partners
 
-To add Xbox Live functionality to your game, start by setting up an app in Partner Center, by following the steps below.
+To add Xbox Live functionality to your game, start by setting up a game in Partner Center, by following the steps below.
 
 
 ## Prerequisites
@@ -20,9 +20,9 @@ To add Xbox Live functionality to your game, start by setting up an app in Partn
 
 
 <!--===========================================================-->
-## 1. Create a new app
+## 1. Create a new game
 
-Next, at Partner Center, create a new app, as follows.
+Next, at Partner Center, create a new game, as follows.
 
 1. Go to <a href="https://partner.microsoft.com/dashboard/" target="_blank">Partner Center</a>.
 
@@ -30,7 +30,7 @@ Next, at Partner Center, create a new app, as follows.
 
    ![The "Overview" page at Partner Center](images/pc_overview_pg.png)
 
-2. Click the **Create a new app** button.
+2. Click the **Create a new...** button.
 
    The page "Create your app by reserving a name" appears.
 
@@ -303,5 +303,3 @@ The app's MSA App ID is known as the _Client ID_, inside XAL.
 ## See also
 
 [Getting Started](../index.md)
-
-<!-- link to onboarding flow diagram -->

@@ -1,6 +1,6 @@
 ---
 title: Adding basic sign-in code
-description: Adding basic sign-in code to sign-in the user and app into Xbox Live services.
+description: Adding basic sign-in code to sign-in the user and game into Xbox Live services.
 layout: LandingPage
 author: mikehoffms
 ms.author: v-mihof

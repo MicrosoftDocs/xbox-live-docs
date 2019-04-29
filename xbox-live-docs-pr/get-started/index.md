@@ -1,6 +1,6 @@
 ---
 title: Getting Started 
-description: Join a developer program, create a game app at Partner Center, add the Xbox Live SDK to your IDE, and write basic sign-in code.
+description: Join a developer program, create a game at Partner Center, add the Xbox Live SDK to your IDE, and write basic sign-in code.
 layout: LandingPage
 author: mikehoffms
 ms.author: v-mihof
@@ -43,12 +43,12 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_form.svg" alt="Setting up a game app at Partner Center"/>
+                                <img src="https://docs.microsoft.com/media/common/i_form.svg" alt="Setting up a game at Partner Center"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>2. Setting up a game app at Partner Center</h3>
-                            <p>Creating a new game app at Partner Center, enabling Xbox Live for the game, and publishing the game to a development sandbox.</p>
+                            <h3>2. Setting up a game at Partner Center</h3>
+                            <p>Creating a new game at Partner Center, enabling Xbox Live for the game, and publishing the game to a development sandbox.</p>
                         </div>
                     </div>
                 </div>
@@ -131,31 +131,6 @@ ms.localizationpriority: medium
                         <div class="cardText">
                             <h3>Testing and Releasing</h3>
                             <p>Testing, troubleshooting, and publishing a game.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-</ul>
-
-
-<h3>See also</h3>
-
-<ul class="cardsF panelContent cols cols2">
-    <li>
-        <a href="onboarding-flow-diagram.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_subscription.svg" alt="Onboarding flow diagram"/>
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Onboarding flowchart</h3>
-                            <p>Flowchart of the steps to achieve basic sign-in to Xbox Live services.</p>
                         </div>
                     </div>
                 </div>

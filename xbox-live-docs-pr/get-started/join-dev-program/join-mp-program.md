@@ -26,11 +26,9 @@ To apply to become an ID@Xbox Managed Partner:
 
 ## Next steps
 
-[Setting up a game app at Partner Center](../setup-partner-center/index.md)
+[Setting up a game at Partner Center](../setup-partner-center/index.md)
 
 
 ## See also
-
-<!-- link to onboarding flow diagram -->
 
 [Getting Started](../index.md)
