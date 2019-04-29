@@ -1,6 +1,6 @@
 ---
-title: Configuring Featured Stats or Leaderboards in Partner Center with Player Data 2017
-description: Configuring Xbox Live Featured Stats and Leaderboards in Partner Center with Player Data 2017.
+title: Configuring Featured Stats and Leaderboards 2017 in Partner Center
+description: Configuring Featured Stats and Leaderboards 2017 in Partner Center.
 ms.assetid: e0f307d2-ea02-48ea-bcdf-828272a894d4
 ms.date: 04/04/2017
 ms.topic: article
@@ -8,9 +8,9 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Configuring Featured Stats or Leaderboards in Partner Center with Player Data 2017
+# Configuring Featured Stats and Leaderboards 2017 in Partner Center
 
-With Player Data 2017, you only need to configure a stat in two cases:
+With player data, you only need to configure a stat in two cases:
 * The stat is used as a basis for a global leaderboard, or
 * The stat is a featured player stat that will be displayed on the game hub page.
 
