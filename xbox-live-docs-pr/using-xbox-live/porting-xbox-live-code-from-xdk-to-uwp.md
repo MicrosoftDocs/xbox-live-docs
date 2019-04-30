@@ -29,11 +29,11 @@ A UWP title that uses Xbox Live services needs to be configured in [Partner Cent
 See [Adding Xbox Live to a new or existing UWP project](../get-started-with-partner/get-started-with-visual-studio-and-uwp.md).
 Sections in that article include these steps for using Xbox Live services in your title:
 
--   Create the UWP app project in Partner Center.
+- Create the UWP app project in Partner Center.
 
--   Use Partner Center to set up your project for Xbox Live usage.
+- Use Partner Center to set up your project for Xbox Live usage.
 
--   Create developer accounts in Partner Center (required when running your Xbox Live title in your sandbox).
+- Create developer accounts in Partner Center (required when running your Xbox Live title in your sandbox).
 
 If your titles support multiplayer play, some additional settings may be required in your multiplayer session templates.
 All Windows 10 titles that use Xbox Live multiplayer and write to an MPSD (multiplayer session document) require this new field in the list of "capabilities" found in your session templates: ```userAuthorizationStyle: true```.
@@ -43,7 +43,7 @@ All Windows 10 titles that use Xbox Live multiplayer and write to an MPSD (multi
 
 If you will support "cross-play" (a shared Xbox Live configuration between Xbox One and PC games, allowing cross-device multiplayer gaming), you will also need to add this capability to your session templates: **crossPlay: true**.
 
-For additional information about supporting cross-play and its configuration requirements, see the Xbox Live Programming Guide.
+For additional information about supporting cross-play and its configuration requirements, see the Xbox Live Programming Guide (a .chm file containing conceptual content).
 
 Also, for some programmatic considerations, see the later section [Supporting multiplayer cross-play between Xbox One and PC](#_Supporting_multiplayer_cross-play).
 

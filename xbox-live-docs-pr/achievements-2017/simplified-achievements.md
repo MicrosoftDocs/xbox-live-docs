@@ -58,7 +58,7 @@ Achievements 2017 is a replacement of the existing Cloud-Powered Achievements sy
 
 The following are the requirements of any title that will use the Achievements 2017 system.
 
-1.  **Must be a new (unreleased) title.** Titles that have already been released and are using the Cloud-Powered Achievements system are ineligible. For more, see [Why can’t existing titles “migrate” onto the new Achievements 2017 system?](#_Why_can’t_existing)
+1.  **Must be a new (unreleased) title.** Titles that have already been released and are using the Cloud-Powered Achievements system are ineligible. For more, see [Why can’t existing titles “migrate” onto the new Achievements 2017 system?](#_Why_cant_existing)
 
 2.  **Must use August 2016 XDK or newer.** The Update_Achievement API was released in the August 2016 XDK.
 
@@ -160,7 +160,7 @@ Xbox Arena is an example of a feature that introduces competitive capabilities f
 Yes. The Achievements policy is unchanged.
 
 
-### <span id="_Why_can’t_existing" class="anchor"></span>Why can’t existing titles “migrate” onto the new Achievements 2017 system?
+### <span id="_Why_cant_existing" class="anchor"></span>Why can’t existing titles “migrate” onto the new Achievements 2017 system?
 
 For the vast majority of existing titles, a ‘migration’ to the Achievements 2017 system would not be limited to simply updating their service configurations and swapping out event writes for achievement unlock calls – although these changes alone would be very costly and would carry significant risk of error and unintended behavior that could result in the achievements being irreparably broken.
 Rather, most existing titles also have users with existing data.

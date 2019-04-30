@@ -1012,7 +1012,6 @@ PUT https://sessiondirectory-stress.xboxlive.com/serviceconfigs/8cvda84-2606-4ba
 ### How do I find out what SCID, session template, and sandbox to use?
 
 This information can be found on Partner Center for your title.
-If you do not yet have access to Partner Center, contact your developer account manager, who can assist in getting the information for you.
 
 
 ### Is there an example of a request body that I can compare my own to?
