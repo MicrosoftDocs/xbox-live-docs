@@ -135,9 +135,6 @@ It is used throughout the services to enable your users to access your title's L
 
 Title IDs can be case-sensitive, depending on how and where they are used.
 
-
-**Partner Center**
-
 Your Title ID is found in Partner Center in the same table as the SCID in the *Xbox Live Setup* page.
 
 <a name="xbox_live_portals"></a>
