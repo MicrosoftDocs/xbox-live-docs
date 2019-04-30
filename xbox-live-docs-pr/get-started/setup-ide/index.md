@@ -17,7 +17,7 @@ Setting up an IDE to use the Xbox Live SDK, for your target platforms.
 
 | Article | Description |
 |---------|-------------|
-| [Setting up an IDE, for Creators](creators/index.md) | Setting up an IDE to use the Xbox Live SDK, for Creators. |
+| [Setting up an IDE, for Creators](creators/index.md) | Setting up an IDE to use the Xbox Live SDK, for Creators.  |
 | [Setting up an IDE, for Managed Partners](managed-partners/index.md) | Setting up an IDE to use the Xbox Live SDK, for Managed Partners. |
 
 
