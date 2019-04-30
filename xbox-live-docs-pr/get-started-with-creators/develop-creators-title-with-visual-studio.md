@@ -1,5 +1,5 @@
 ---
-title: Setting up Visual Studio to use Xbox Live, for Creators
+title: Setting up Visual Studio targeting Windows 10
 description: Setting up Visual Studio to use the Xbox Live SDK.
 ms.assetid: 6952dac0-66ff-4717-b3c7-8b3792e834e3
 ms.date: 11/28/2017
@@ -8,7 +8,9 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, xbox live creators,
 ms.localizationpriority: medium
 ---
 
-# Setting up Visual Studio to use Xbox Live, for Creators
+# Setting up Visual Studio targeting Windows 10
+
+This article is for the Creators program.
 
 > [!NOTE]
 > There is a plugin available for games that are being developed with Unity. See [Develop a Creators title with Unity](develop-creators-title-with-unity.md).
