@@ -174,7 +174,7 @@ If the app launches, but fails to sign in, check the following:
 
 * Make sure you are signing in with an Xbox Live account that has access to the developer sandbox.
   Normal retail Xbox Live accounts don't have access.
-  You can use XDP or Partner Center to create test accounts.
+  You can use Partner Center to create test accounts.
 
 * Make sure your `package.appxmanfiest` in your UWP app is set to the correct Identity.
   You can edit this manually, but the easiest way to fix this is to right-click on the Project in Visual Studio and then click **Store** \| **Associate App with the Store**.

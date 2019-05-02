@@ -34,11 +34,11 @@ Some things to watch out for with regards to sandboxes are discussed below.
 To sign-in to a title that is in development, a test account (also known as a *development account*) or an authorized developer account must be used.
 Make sure you are attempting to sign-in with one or the other.
 
-Test accounts are created on XDP at [https://xdp.xboxlive.com/User/Contact/MyAccess?selectedMenu=devaccounts](https://xdp.xboxlive.com/User/Contact/MyAccess?selectedMenu=devaccounts).
-You can authorize an xbox live associated developer account on Partner Center at [https://partner.microsoft.com/en-us/xboxconfig/TestAccounts/Creator](https://partner.microsoft.com/en-us/xboxconfig/TestAccounts/Creator)
+Test accounts are created at Partner Center.
+You can authorize an Xbox Live-associated developer account on Partner Center at [https://partner.microsoft.com/en-us/xboxconfig/TestAccounts/Creator](https://partner.microsoft.com/en-us/xboxconfig/TestAccounts/Creator).
 
 Ensure that the account has access to the sandbox your title is published to.
-The test accounts you create in XDP inherit the permissions of the XDP account that created them.
+The test accounts you create in Partner Center inherit the permissions of the Partner Center account that created them.
 
 
 #### Your device is not on the correct sandbox
@@ -54,8 +54,7 @@ For Windows 10 Desktop, you can use the `SwitchSandbox.cmd` script that's locate
 Ensure your title's service configuration is published in a development sandbox.
 You cannot sign-in to Xbox Live in a given development sandbox for a title, unless that title is published to the same sandbox.
 
-To publish the title to the same sandbox, see the XDP documentation at Game Developer Network:
-[Set up Service Configuration for a Title (end to end)](https://developer.xboxlive.com/en-us/xdphelp/development/xdpdocs/Pages/setting_up_service_configuration_03_31_16.aspx#PublishServiceConfig).
+To publish the title to the same sandbox, see [Partner Center Documentation](../../xbox-live-service-configuration.md#sandbox-ids).
 
 To publish your Partner Center configuration, see Partner Center Documentation: [Xbox Live service configuration for the Creators Program: Publish your Xbox Live service configuration](../../get-started-with-creators/xbox-live-service-configuration-creators.md#publish-your-xbox-live-service-configuration).
 
@@ -66,15 +65,17 @@ There are several pieces of ID required to configure your game.
 You can see more information in [Get started with Visual Studio for UWP games](../../get-started-with-partner/get-started-with-visual-studio-and-uwp.md) or [Getting started with cross-play games](../../get-started-with-partner/get-started-with-cross-play-games.md), depending on what type of title you are creating.
 
 Some things to watch out for are:
-* Ensure your App ID is entered into XDP or Partner Center correctly.
-* Ensure your PFN is entered into XDP or Partner Center correctly.
+* Ensure your App ID is entered into Partner Center correctly.
+* Ensure your PFN is entered into Partner Center correctly.
 * Double-check you have created an xboxservices.config in the same directory as your Visual Studio project as described in the [Adding Xbox Live to a new or existing UWP project](../../get-started-with-partner/get-started-with-visual-studio-and-uwp.md) guide.
 * Ensure that the "Package Identity" in your appxmanifest is correct. This is shown in Partner Center as "Package/Identity/Name" in the App Identity section.
 
 
 ### Title ID or SCID not configured correctly
 
-For UWP titles, your title ID and SCID must be set to the correct value in your xboxservices.config file. Also ensure that this file is properly formatted as UTF8. You can see more information in [Get started with Visual Studio for UWP games](../../get-started-with-partner/get-started-with-visual-studio-and-uwp.md). The xboxservices.config file is case sensitive.
+For UWP titles, your title ID and SCID must be set to the correct value in your xboxservices.config file.
+Also ensure that this file is properly formatted as UTF8. You can see more information in [Get started with Visual Studio for UWP games](../../get-started-with-partner/get-started-with-visual-studio-and-uwp.md).
+The xboxservices.config file is case-sensitive.
 
 For XDK titles, these values are set in your `package.appxmanifest`.
 
@@ -84,7 +85,7 @@ You can see examples for both UWP and XDK title configuration in the `Samples` d
 ## Test using the Xbox App
 
 If you are developing a UWP application, you can debug some issues using the Xbox App:
-1. Set your device's sandbox to a development sandbox using the SwitchSandbox.cmd script
+1. Set your device's sandbox to a development sandbox using the `SwitchSandbox.cmd` script.
 2. Open the Xbox App, and attempt to sign-in using a test account with access to the same sandbox.
 
 If you are able to successfully sign-in, this confirms that your development sandbox has been set correctly on your device, and your test account has access to it.
@@ -123,20 +124,20 @@ The error codes appear as follows:
 This error means that either the device or user doesn't have access to the specified title.
 
 1. This could mean you're not using a test account to attempt sign-in, or your test account doesn't have access to the same sandbox you're signed in as.
-   Please double-check the instructions on creating test accounts in the [XDP documentation](https://developer.xboxlive.com/en-us/xdphelp/development/xdpdocs/Pages/creating_development_accounts_03_31_16.aspx) and [Partner Center documentation.](../../xbox-live-test-accounts.md) If necessary create a new test account with access to the appropriate sandbox.
+   Please double-check the instructions on creating test accounts in the [Partner Center documentation.](../../xbox-live-test-accounts.md).
+   If necessary, create a new test account with access to the appropriate sandbox.
 
-    You may need to remove your old account from Windows 10, you can do that by going to Settings from the Start Menu, and then going to Accounts
+   You may need to remove your old account from Windows 10, you can do that by going to Settings from the Start Menu, and then going to Accounts.
 
 2. Double-check that your title is published to the sandbox that you are trying to use.
-   See the [XDP documentation](https://developer.xboxlive.com/en-us/xdphelp/development/xdpdocs/Pages/setting_up_service_configuration_03_31_16.aspx#PublishServiceConfig) or [Partner Center Documentation](../../xbox-live-service-configuration.md#sandbox-ids) for information on how to do this.
+   See [Partner Center Documentation](../../xbox-live-service-configuration.md#sandbox-ids).
 
 
 ### 0x87DD0005 Unexpected or unknown title
 
-Double-check the Application ID Setup and Partner Center Binding in XDP.
+Double-check the Application ID Setup and Partner Center Binding in Partner Center.
 
-<!--tbd fix the hot text-->
-You can view the instructions in [Adding Xbox Live Support to a new or existing Visual Studio UWP](https://docs.microsoft.com/en-us/windows-hardware/drivers/devapps/step-1--create-a-uwp-device-app#associate-your-app-with-the-microsoft-store).
+You can view the instructions in the section [Associate your app with the Microsoft Store](https://docs.microsoft.com/en-us/windows-hardware/drivers/devapps/step-1--create-a-uwp-device-app#associate-your-app-with-the-microsoft-store) in the article "Adding Xbox Live Support to a new or existing Visual Studio UWP".
 
 
 ### 0x87DD000E Title not authorized
