@@ -42,13 +42,11 @@ For string-based stats, an empty string is great (make sure not to include that 
 ## Configuring a Stat for Contextual Search
 
 Configuring your title for Contextual Search is easy once you've set up the Events and Stats that power the tagging.
-See other existing Partner Center documentation on setting up Contextual Search if you're not already familiar.
+See other existing XDP or Partner Center documentation on setting up Contextual Search if you're not already familiar.
 
 ![Xbox Developer Platform screenshot for Contextual Search configuration](../images/contextual_search/config02.png)
 
-<!-- todo: update XDP captures to show Partner Center capture -->
-
-The image above is an example of the main page after you click the Contextual Search tile in the main Service configuration portion of Partner Center.
+The image above is an example of the main page after you click the Contextual Search tile in the main Service configuration portion of XDP.
 
 Even if this is the first time you've visited this page, it's possible that you will see stats already configured for Contextual Search.
 This is because all your Hero Stats are automatically set up for Contextual Search.
@@ -61,7 +59,7 @@ Priority - Display Name (Stat Instance Name)
 
 Each of these will be explained in more detail in the next section.
 
-![New Contextual search configuration screenshot from Partner Center](../images/contextual_search/config01.png)
+![New Contextual search configuration screenshot from Xbox Developer Portal](../images/contextual_search/config01.png)
 
 The above image is the screen that will appear if you choose to create a new Contextual Search stat or edit and existing one.
 
@@ -69,9 +67,9 @@ The above image is the screen that will appear if you choose to create a new Con
 
 1. Choose your stat instance.
 
-  ![Stat Instance choosing screenshot from Partner Center](../images/contextual_search/config03.png)
+  ![Stat Instance choosing screenshot from Xbox Developer Portal](../images/contextual_search/config03.png)
 
-  Only stat instances are supported - stat templates are not accepted. You should be aware of the visibility you've set for the stat instance (configured in the Stats portion of Partner Center). Only stats that are marked as **Open** will appear in third party experiences.
+  Only stat instances are supported - stat templates are not accepted.  You should be aware of the visibility you've set for the stat instance (configured in the Stats portion of XDP or Partner Center).  Only stats that are marked as **Open** will appear in third party experiences.
 
 2. Choose your stat Priority. This is a way to delineate the importance of this stat relative to others for search experiences/algorithms.  Valid values are 1-10 (1 is the highest).  For this to be ignored, leave as 0 or blank.
 
