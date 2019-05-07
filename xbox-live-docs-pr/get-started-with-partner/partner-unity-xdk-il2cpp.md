@@ -1,6 +1,6 @@
 ---
 title: Add XBL support to Unity for XDK, with IL2CPP scripting
-description: Add Xbox Live support to Unity for XDK with IL2CPP scripting backend, for ID@Xbox and managed partners.
+description: Add Xbox Live support to Unity for XDK with IL2CPP scripting backend, for Managed Partners.
 ms.assetid: 790a49ad-eff4-4916-8578-968ca8483211
 ms.date: 04/04/2017
 ms.topic: article
@@ -8,7 +8,9 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, Unity
 ms.localizationpriority: medium
 ---
 
-# Add XBL support to Unity for XDK, with IL2CPP scripting backend, for ID@Xbox and managed partners
+# Add XBL support to Unity for XDK, with IL2CPP scripting
+
+This article is for Managed Partners.
 
 With the release of Unity 5.6f3, the engine includes a feature that enables developers to use Windows Runtime (WinRT) components directly in script by including them in the game project directly.
 Until 5.6, developers have needed a plugin, or dll to support any platform feature (including Xbox Live SDK) from game script.

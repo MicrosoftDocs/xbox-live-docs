@@ -1,6 +1,6 @@
 ---
-title: Get started with cross-play games
-description: Developing cross-play games, which run on both Xbox One (as an XDK game) and Windows 10 (as a UWP game).
+title: Setting up a cross-play game targeting XDK (Xbox One) and UWP (Windows 10)
+description: Sharing a single Xbox Live services configuration across an XDK-based Xbox One version and a UWP-based Windows 10 version of the game.
 ms.assetid: 6c8e9d08-a3d2-4bfc-90ee-03c8fde3e66d
 ms.date: 04/04/2017
 ms.topic: article
@@ -8,7 +8,9 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, cross-play, play an
 ms.localizationpriority: medium
 ---
 
-# Get started with cross-play games
+# Setting up cross-play games targeting Xbox One and Windows 10
+
+A _cross-play game_ is a game that is released as an XDK-based Xbox One version and a UWP-based Windows 10 version, where both versions of the game share a single Title ID and a single Xbox Live services configuration such as multiplayer, game saves, achievements, and leaderboards.
 
 <!-- todo: replace XDP captures by Partner Center captures -->
 
@@ -32,33 +34,31 @@ This article details these four steps, to make it as easy as possible to ingest 
 
 ## Terminology
 
+<!--
+terms to add:
+ingesting
+-->
 
-### Scenario Terms
+_Cross-Play_: A game that is releasing on more than one platform, but shares a single Xbox title ID and service configuration. The end result is that both versions of the game share the same Xbox Live configuration - achievements, leaderboards, game saves, multiplayer, and more.
 
-1. Cross-Play: A game that is releasing on more than one platform, but shares a single Xbox title ID and service configuration. The end result is that both versions of the game share the same Xbox Live configuration - achievements, leaderboards, game saves, multiplayer, and more.
-
-2. Partner Center: The [portal](https://partner.microsoft.com/dashboard) where you can do the following: 
-
+_Partner Center_: The [portal](https://partner.microsoft.com/dashboard) where you can do the following:
     * Reserve app identities for use in UWP development.
     * Set up Xbox Live configuration for UWP.
     * Ingest, configure, and publish Xbox One XDK and SRA games.
     * Ingest, configure, and publish XDK+UWP Cross-Play games.
 
-
-### Identity Terminology
-
-*Title ID*: This is the Xbox Title ID, used to identify each game to Xbox Live.
+_Title ID_: This is the Xbox Title ID, used to identify each game to Xbox Live.
 A Title ID maps to a single product, which may span multiple platforms.
 
-*Service Configuration ID (SCID)*: Each Xbox title (identified by a Title ID) has a corresponding Service Configuration ID (aka SCID).
+_Service Configuration ID (SCID)_: Each Xbox title (identified by a Title ID) has a corresponding Service Configuration ID (aka SCID).
 This ID allows Xbox Live to uniquely identify the rules / configuration to use when interacting with your title.
 
-*Package Family Name (PFN)*: This is an identity assigned to each product created in Partner Center.
+_Package Family Name (PFN)_: This is an identity assigned to each product created in Partner Center.
 Once you bind your UWP to the identity of this Partner Center product, it will take on this PFN.
 PFNs are unique product identifiers, which may span multiple platforms.
 PFNs are 1:1 with Xbox Title IDs.
 
-*MSA App ID*: Also known as MSA Client ID, this is another app identity assigned by MSA at product creation time in Partner Center.
+_MSA App ID_: Also known as MSA Client ID, this is another app identity assigned by MSA at product creation time in Partner Center.
 This identity helps Microsoft services identify your app.
 MSA App IDs are 1:1 with PFNs (and accordingly with Xbox Title IDs).
 
@@ -98,15 +98,15 @@ In general, Cross-Play adds the most value to:
 **NOTE**: Cross-Play is available both to new games that are releasing the XDK and UWP versions of their game simultaneously, as well as games that have already shipped an XDK, but are adding a UWP version.
 
 
-### What are the restrictions of Cross-Play?
+### Two versions of the game are required
 
-Until Xbox One supports UWP games, Cross-Play games require an XDK (for Xbox One console) and UWP (for Windows 10 PC) version of the game.
+A Cross-Play game requires two versions of the game:
+*  A XDK version of the game, for the Xbox One console
+*  A UWP version of the game, for Windows 10 PC
 
-Any XDK + UWP Cross-Play game comes with some important restrictions:
+**XDK titles must be ingested in Partner Center**. Both for service configuration and mainline publishing, Partner Center supports XDK-based titles.
 
-1.  **XDK titles must be ingested in Partner Center**. Both for service configuration and mainline publishing, Partner Center supports XDK-based titles.
-
-2.  **A single service configuration created in Partner Center can be used both by the XDK and UWP version of a game**. Features in Partner Center allow a game to share a single service configuration between its XDK and UWP versions. The UWP version is published in Partner Center for packages / catalog, and all service configuration publishing is done in Partner Center.
+**A single service configuration created in Partner Center can be used both by the XDK and UWP version of a game**. Features in Partner Center allow a game to share a single service configuration between its XDK and UWP versions. The UWP version is published in Partner Center for packages / catalog, and all service configuration publishing is done in Partner Center.
 
 
 ## Create your UWP product in Partner Center
@@ -114,10 +114,11 @@ Any XDK + UWP Cross-Play game comes with some important restrictions:
 Create a UWP product in Partner Center by following the guide: [Adding Xbox Live to a new or existing UWP project](get-started-with-visual-studio-and-uwp.md)
 
 
-## Setup your XDK product at Partner Center
+## Set up your XDK product at Partner Center
 
 Now that your UWP is created, you are ready to set up your XDK product at Partner Center.
-If you do not already have an XDK title, you must create one.
+
+If you do not already have an XDK title, you must create one, as follows.
 
 
 ### Create a new product at Partner Center

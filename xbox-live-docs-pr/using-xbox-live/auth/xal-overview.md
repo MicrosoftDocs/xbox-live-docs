@@ -18,7 +18,7 @@ XAL provides a consistent API and user model across all platforms.
 
 The XAL library provides easy and controlled game integration:
 
-* The library is written in flat C, making it easy to bind to other languages.
+* The library is written in C, making it easy to bind to other languages.
 
 * XAL allows clients to be in control of threads, hard disk access, and UI handling.
   It allows developers to optionally control these areas when XAL requires it.
@@ -33,7 +33,6 @@ XAL works on both Single User Application (SUA) and Multi User Application (MUA)
 ## Working with XAL
 
 Read the following articles to learn how to work with XAL in the general case and for any of its supported platforms.
-
-[XAL Sign-In](xal-sign-in.md)  
-[Get Started with XAL on iOS](../../get-started-with-ios-android/ios-get-started-with-xsapi.md)  
-[Get Started with XAL on Android](../../get-started-with-ios-android/android-get-started-with-xsapi.md)
+* [XAL Sign-In](xal-sign-in.md)
+* [Get Started with XAL on iOS](../../get-started-with-ios-android/ios-get-started-with-xsapi.md)
+* [Get Started with XAL on Android](../../get-started-with-ios-android/android-get-started-with-xsapi.md)

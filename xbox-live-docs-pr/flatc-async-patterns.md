@@ -1,6 +1,6 @@
 ---
 title: Making async calls in the XSAPI C API
-description: Making asynchronous calls in the XSAPI flat C API.
+description: Making asynchronous calls in the XSAPI C API.
 ms.date: 06/10/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, developer program,
