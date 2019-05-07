@@ -1,6 +1,6 @@
 ---
 title: Joining a developer program
-description: Joining the Creators Program or the Managed Partners Program.
+description: Joining the Creators Program or the ID@Xbox Program.
 layout: LandingPage
 author: mikehoffms
 ms.author: v-mihof
@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 
 # Joining a developer program
 
-To add Xbox Live functionality to your game, start by joining one of the Xbox Live developer programs: either the Xbox Live Creators program or the Xbox Live ID@Xbox Managed Partners program.
+To add Xbox Live functionality to your game, start by joining one of the Xbox Live developer programs: either the Xbox Live Creators program or the ID@Xbox Program.
 
 See the "Choosing" and "Features" articles below, and then do the steps in one of the "Joining" articles.
 
@@ -21,7 +21,7 @@ See the "Choosing" and "Features" articles below, and then do the steps in one o
 
 | Article | Description |
 |---------|-------------|
-| [Choosing an Xbox Live developer program](../../developer-program-overview.md) | Choosing the Creators Program or the ID@Xbox Managed Partners Program. |
-| [Features supported for each developer program](../feature-comparison-table.md) | Table of Xbox Live features supported for Creators vs. ID@Xbox Managed Partners. |
+| [Choosing an Xbox Live developer program](../../developer-program-overview.md) | Choosing the Creators Program or the ID@Xbox Program. |
+| [Features supported for each developer program](../feature-comparison-table.md) | Table of Xbox Live features supported for Creators vs. ID@Xbox Partners. |
 | [Joining the Creators Program](join-creators-program.md) | Joining the Creators Program. |
-| [Joining the ID@Xbox Managed Partners Program](join-mp-program.md) | Joining the Managed Partners Program as an ID@Xbox Managed Partner. |
+| [Joining the ID@Xbox Program](join-mp-program.md) | Joining the ID@Xbox Program. |

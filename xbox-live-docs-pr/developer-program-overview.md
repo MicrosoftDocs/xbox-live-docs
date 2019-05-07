@@ -1,6 +1,6 @@
 ---
 title: Choosing an Xbox Live developer program
-description: Comparison of the Creators Program and the Managed Partners Program, including ID@Xbox Managed Partners.
+description: Comparison of the Creators Program and the ID@Xbox Program.
 ms.assetid: 1166308a-4079-41b4-8550-ce04b82b4f72
 ms.date: 05/30/2018
 ms.topic: article
@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 
 # Choosing an Xbox Live developer program
 
-To enable a game with Xbox Live, you join the Xbox Live Creators Program, or join the Xbox Live Managed Partners Program as an ID@Xbox Managed Partner.
+To enable a game with Xbox Live, you join the Xbox Live Creators Program or the ID@Xbox Program.
 
 
 ## Summary of the programs
@@ -27,9 +27,9 @@ Join the Xbox Live *Creators Program* if both of the following are true:
 *  You only plan to ship via Microsoft storefronts on Microsoft devices, such as Xbox, Windows 10 PC, and Hololens.
 
 
-### The ID@Xbox Managed Partners Program
+### The ID@Xbox Partners Program
 
-Join the *ID@Xbox Managed Partners Program* if at least one of the following are true:
+Join the *ID@Xbox Partners Program* if at least one of the following are true:
 
 * You’re interested in using the full suite of Xbox Live services, including multiplayer features and Achievements and Gamerscore on Microsoft devices, such as Xbox, Windows 10 PC, or Hololens.
 
@@ -112,7 +112,7 @@ For developers in the Xbox Live Creators Program, you can <a href="https://xbox.
 The Xbox Live Creators Program is great for many games and developers.
 
 
-### Support for ID@Xbox Managed Partners
+### Support for ID@Xbox Partners
 
 If you’d like to access the full Xbox Live stack, including online multiplayer, achievements and Gamerscore, or you want to access the full power of the Xbox One family of devices using hardware dev kits, the ID@Xbox program is for you.
 

@@ -1,6 +1,6 @@
 ---
-title: Joining the ID@Xbox Managed Partners Program
-description: Joining the Managed Partners Program, including ID@Xbox Managed Partners.
+title: Joining the ID@Xbox Program
+description: Joining the ID@Xbox Program.
 author: mikehoffms
 ms.author: v-mihof
 ms.date: 04/08/2019
@@ -9,9 +9,9 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-# Joining the ID\@Xbox Managed Partners Program
+# Joining the ID\@Xbox Program
 
-To apply to become an ID@Xbox Managed Partner:
+To apply to become an ID@Xbox Partner:
 
 1. Go to <a href="https://www.xbox.com/developers/id" target="_blank">Welcome to ID@Xbox &#11008;</a>.
 

@@ -29,7 +29,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText">
                             <h3>1. Joining a developer program</h3>
-                            <p>Joining the Creators Program or the ID@Xbox Managed Partners Program.</p>
+                            <p>Joining the Creators Program or the ID@Xbox Partners Program.</p>
                         </div>
                     </div>
                 </div>

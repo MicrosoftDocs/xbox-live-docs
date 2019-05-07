@@ -1,5 +1,5 @@
 ---
-title: Setting up a game at Partner Center, for Managed Partners
+title: Setting up a game at Partner Center, for ID@Xbox Partners
 description: Creating a new game at Partner Center, enabling the game for Xbox Live, publishing the game to a sandbox, and creating test accounts.
 ms.date: 02/08/2019
 ms.topic: article
@@ -7,7 +7,7 @@ keywords: xbox live, xbox, games, xbox one, sign-in
 ms.localizationpriority: medium
 ---
 
-# Setting up a game at Partner Center, for Managed Partners
+# Setting up a game at Partner Center, for ID\@Xbox Partners
 
 To add Xbox Live functionality to your game, start by setting up a game in Partner Center, by following the steps below.
 
@@ -16,7 +16,7 @@ To add Xbox Live functionality to your game, start by setting up a game in Partn
 
 * Have a prototype of your game, such as a demo and screen captures.
 
-* [Joining the Managed Partners Program](../join-dev-program/join-mp-program.md).
+* [Joining the ID@Xbox Program](../join-dev-program/join-mp-program.md).
 
 
 <!--===========================================================-->
@@ -297,7 +297,7 @@ The app's MSA App ID is known as the _Client ID_, inside XAL.
 <!--===========================================================-->
 ## Next step
 
-[Setting up an IDE, for Managed Partners](../setup-ide/managed-partners/index.md)
+[Setting up an IDE, for ID@Xbox Partners](../setup-ide/managed-partners/index.md)
 
 
 ## See also
