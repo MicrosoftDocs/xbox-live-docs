@@ -47,4 +47,4 @@ To do this, you can use the "Xbox One Manager" that's installed on your PC by th
 
 ## Sign in with a development account
 
-You can create development accounts used to sign-in on [Xbox Developer Portal (XDP)](https://xdp.xboxlive.com/User/Contact/MyAccess?selectedMenu=devaccounts) or [Partner Center](https://partner.microsoft.com/dashboard).
+You can create development accounts used to sign-in on [Partner Center](https://partner.microsoft.com/dashboard).

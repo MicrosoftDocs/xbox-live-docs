@@ -22,8 +22,8 @@ The domain for these URIs is `userstats.xboxlive.com`.
   * [HTTP status codes](#ID4ESG)
   * [Response body](#ID4EJCAC)
 
-<a id="ID4EV"></a>
 
+<a id="ID4EV"></a>
 
 ## Remarks
 
@@ -31,8 +31,8 @@ The ?include=valuemetadata query parameter allows the response to include any me
 
 To include value metadata in the response, the request call must also set the header value X-Xbl-Contract-Version to 3.
 
-<a id="ID4EAB"></a>
 
+<a id="ID4EAB"></a>
 
 ## URI parameters
 
@@ -41,8 +41,8 @@ To include value metadata in the response, the request call must also set the he
 | xuid| GUID| Xbox User ID (XUID) of the user on whose behalf to access the service configuration.|
 | scid| GUID| Identifier of the service configuration that contains the resource being accessed.|
 
-<a id="ID4ELB"></a>
 
+<a id="ID4ELB"></a>
 
 ## Query string parameters
 
@@ -51,18 +51,17 @@ To include value metadata in the response, the request call must also set the he
 | statNames| string| A comma delimited list of user statistic names.For example, the following URI informs the service that four statistics are requested on behalf of the user id specified in the URI.{::nomakrdown}<br/><br/>`https://userstats.xboxlive.com/users/xuid({xuid})/scids/{scid}/stats/wins,kills,kdratio,headshots?include=valuemetadata`| 
 | include=valuemetadata| string| Indicates that the response includes any value metadata associated with the uset stat values.|
 
-<a id="ID4EWC"></a>
 
+<a id="ID4EWC"></a>
 
 ## Authorization
 
 There is authorization logic implemented for content-isolation and access-control scenarios.
 
    * Both leaderboards and user statistics can be read from clients on any platform, provided that the caller submits a valid XSTS token with the request. Writes are limited to clients supported by the Player Data system.
-   * Title developers can mark statistics as open or restricted with XDP or Partner Center. Leaderboards are open statistics. Open statistics can be accessed by Smartglass, as well as iOS, Android, Windows, Windows Phone, and web applications, as long as the user is authorized to the sandbox. User authorization to a sandbox is managed through XDP or Partner Center.
+   * Title developers can mark statistics as open or restricted with Partner Center. Leaderboards are open statistics. Open statistics can be accessed by Smartglass, as well as iOS, Android, Windows, Windows Phone, and web applications, as long as the user is authorized to the sandbox. User authorization to a sandbox is managed through Partner Center.
 
 Pseudo-code for the check looks like this:
-
 
 ```cpp
 If (!checkAccess(serviceConfigId, resource, CLAIM[userid, deviceid, titleid]))
@@ -77,7 +76,6 @@ If (!checkAccess(serviceConfigId, resource, CLAIM[userid, deviceid, titleid]))
 
 <a id="ID4ERD"></a>
 
-
 ## Required Request Headers
 
 | Header| Type| Description|
@@ -85,8 +83,8 @@ If (!checkAccess(serviceConfigId, resource, CLAIM[userid, deviceid, titleid]))
 | Authorization| string| Authentication credentials for HTTP authentication. Example value: "XBL3.0 x=&lt;userhash>;&lt;token>".|
 | X-Xbl-Contract-Version| string| Indicates which version of the API to use. This value must be set to "3" in order to include value metadata in the response.|
 
-<a id="ID4EDF"></a>
 
+<a id="ID4EDF"></a>
 
 ## Optional Request Headers
 
@@ -94,15 +92,15 @@ If (!checkAccess(serviceConfigId, resource, CLAIM[userid, deviceid, titleid]))
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | X-RequestedServiceVersion|  | Build name/number of the service to which this request should be directed. The request will only be routed to that service after verifying the validity of the header, the claims in the authentication token, and so on. Default value: 1.|
 
-<a id="ID4EHG"></a>
 
+<a id="ID4EHG"></a>
 
 ## Request body
 
 No objects are sent in the body of this request.
 
-<a id="ID4ESG"></a>
 
+<a id="ID4ESG"></a>
 
 ## HTTP status codes
 
@@ -119,16 +117,15 @@ The service returns one of the status codes in this section in response to a req
 | 406| Not Acceptable| Resource version is not supported.|
 | 408| Request Timeout| Resource version is not supported; should be rejected by the MVC layer.|
 
-<a id="ID4EJCAC"></a>
 
+<a id="ID4EJCAC"></a>
 
 ## Response body
 
+
 <a id="ID4EPCAC"></a>
 
-
 ### Sample response
-
 
 ```cpp
 {
@@ -169,11 +166,10 @@ The service returns one of the status codes in this section in response to a req
 
 <a id="ID4EZCAC"></a>
 
-
 ## See also
 
-<a id="ID4E2CAC"></a>
 
+<a id="ID4E2CAC"></a>
 
 ##### Parent
 

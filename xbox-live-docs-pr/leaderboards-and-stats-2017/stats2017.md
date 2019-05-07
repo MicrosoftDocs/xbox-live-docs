@@ -25,9 +25,6 @@ Stats 2017 supports Xbox Live leaderboard scenarios by saving stats about indivi
 
 Stats 2017 accepts values sent to it with little to no validation, so it is up to your title to handle all of the logic which determines the correct value for a stat.
 
-> [!NOTE]
-> We have no planned new functionality for Player Stats 2017, but we will continue to support existing functionality.
-
 
 ## Configured stats and featured leaderboards
 

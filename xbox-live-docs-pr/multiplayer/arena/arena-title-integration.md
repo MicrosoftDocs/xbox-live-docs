@@ -494,29 +494,18 @@ Using these APIs, you have the ability to:
 
 ## Configuring a title for Arena
 
-To enable a title for Arena, some additional steps are required when you configure it in the Xbox Developer Portal (XDP) or [Partner Center](https://partner.microsoft.com/dashboard).
+To enable a title for Arena, some additional steps are required when you configure it in [Partner Center](https://partner.microsoft.com/dashboard).
 
 
 ### Enabling Arena for your title
 
-To enable Arena, go to the service configuration page for your title in XDP and select ‘Arena’.
-
-![Arena configuration on Xbox Developer Platform screenshot](../../images/arena/arena-configure-xdp.png)
-
-Here, you’ll have several options:
-
-* **Arena Enabled** – Select this check box to enable Arena for this sandbox.
-* **Arena Features** – This section includes check boxes to enable user-generated tournaments in the sandbox, and to enable cross play, which allows users on multiple platforms to participate in the same tournaments.
-* **Arena Platforms** – Lets you select the platforms on which tournaments can be played for your title.
-* **Tournament Assets** – (Formerly in the ‘Multiplayer and Matchmaking’ section.) These are the tournament images for your title.
-
-Arena can also be enabled in Partner Center in the **Tournament** menu under the Xbox Live service.
+To enable Arena, in Partner Center, go to the **Tournament** menu under the Xbox Live service.
 
 ![Arena Menu in Partner Center](../../images/arena/Arena_On_WDC.JPG)
 
 You must publish the service configuration for your changes to take effect.
-Self-service Arena configuration is currently not supported through UDC.
-If you’re using UDC for service configuration, work with your Development Account Manager to onboard with Arena.
+Self-service Arena configuration is currently not supported through Partner Center.
+If you’re using Partner Center for service configuration, work with your Development Account Manager to onboard with Arena.
 
 
 ### Setting up game modes
@@ -581,7 +570,7 @@ This value is localizable.
 The **custom** section for the game mode is a property bag where developers can insert any title-specific configuration settings for the tournament match.
 Values defined as part of the custom section are written to the match MPSD session under `/properties/custom/`.
 
-Currently, game mode setup is not supported through XDP or UDC.
+Currently, game mode setup is not supported through Partner Center.
 To create game modes for your title, contact your Developer Account Manager.
 
 

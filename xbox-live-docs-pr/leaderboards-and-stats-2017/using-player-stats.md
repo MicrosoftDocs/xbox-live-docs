@@ -77,7 +77,7 @@ In Stats 2013, your title would send an *event* that contains information about 
 In this event, the action will be slaying an orc while the player had a sword equipped.
 Some of the information contained in this event might be that a slay action was taken, the thing slayed was an orc, the combat type was melee, and the weapon used was a sword.
 
-Stats 2013 will run this information through a number of rules configured by you, the developer, on the [Xbox Developer Portal (XDP)](https://xdp.xboxlive.com/User/Contact/MyAccess?selectedMenu=devaccounts) or the [Partner Center](https://partner.microsoft.com/dashboard), and update stats, also configured by you, based on the event.
+Stats 2013 will run this information through a number of rules configured by you, the developer, at [Partner Center](https://partner.microsoft.com/dashboard), and update stats, also configured by you, based on the event.
 
 In Stats 2013, the service will keep track of what the value for your slaying statistics should be.
 The "slay orc with sword" event could update multiple statistics such as, number of kills, number of orcs slain, and number of sword kills.

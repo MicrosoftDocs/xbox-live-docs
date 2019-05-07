@@ -1,15 +1,15 @@
 ---
 title: GET (/users/xuid({xuid})/scids/{scid}/stats/{statname)/people/{all|favorite})
+description: ' GET (/users/xuid({xuid})/scids/{scid}/stats/{statname)/people/{all|favorite})'
 assetID: 942cf0d7-f988-0495-cf28-cdac608b8109
 permalink: en-us/docs/xboxlive/rest/uri-usersxuidscidstatnamepeopleget.html
-
-description: ' GET (/users/xuid({xuid})/scids/{scid}/stats/{statname)/people/{all|favorite})'
 ms.date: 10/12/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 # GET (/users/xuid({xuid})/scids/{scid}/stats/{statname)/people/{all|favorite})
+
 Returns a social leaderboard by ranking the stat values (scores) for either all known contacts of the current user or only those contacts designated as favorite people by that user.
 The domain for these URIs is `leaderboards.xboxlive.com`.
 
@@ -25,8 +25,8 @@ The domain for these URIs is `leaderboards.xboxlive.com`.
   * [Optional Response Headers](#ID4EDJAC)
   * [Response body](#ID4EDKAC)
 
-<a id="ID4EV"></a>
 
+<a id="ID4EV"></a>
 
 ## Remarks
 
@@ -34,8 +34,8 @@ Leaderboard APIs are all read-only and therefore only support the GET verb (over
 
 GET operations won't modify any resources so this will produce the same results if executed once or multiple times.
 
-<a id="ID4EAB"></a>
 
+<a id="ID4EAB"></a>
 
 ## URI parameters
 
@@ -46,8 +46,8 @@ GET operations won't modify any resources so this will produce the same results 
 | statname| string| Unique identifier of the user stat resource being accessed.|
 | all|favorite| enumeration| Whether to rank the stat values (scores) for all known contacts of the current user or only those contacts designated as favorite people by that user.|
 
-<a id="ID4ELB"></a>
 
+<a id="ID4ELB"></a>
 
 ## Query string parameters
 
@@ -59,8 +59,8 @@ GET operations won't modify any resources so this will produce the same results 
 | continuationToken| string| If a previous call returned a <b>continuationToken</b>, then the caller can pass back that token "as is" in a query string to get the next page of results. |
 | sort| string| Specify whether to rank the list of players from low-to-high value order ("ascending") or high-to-low value order ("descending"). This is an optional parameter; the default is descending order.|
 
-<a id="ID4EQD"></a>
 
+<a id="ID4EQD"></a>
 
 ## Authorization
 
@@ -70,10 +70,10 @@ Authorization logic is implemented for the purposes of content isolation and acc
 
 Both leaderboards and user stats can be read from clients on any platform, provided that the caller submits a valid XSTS token with their request. Writes are (obviously) limited to clients supported by the Player Data system.
 
-Title developers can mark statistics as open or restricted with XDP or Partner Center. Leaderboards are open statistics. Open statistics can be accessed by Smartglass, as well as iOS, Android, Windows, Windows Phone, and web applications, as long as the user is authorized to the sandbox. User authorization to a sandbox is managed through XDP or Partner Center.
+Title developers can mark statistics as open or restricted with Partner Center. Leaderboards are open statistics. Open statistics can be accessed by Smartglass, as well as iOS, Android, Windows, Windows Phone, and web applications, as long as the user is authorized to the sandbox. User authorization to a sandbox is managed through Partner Center.
+
 
 <a id="ID4EGE"></a>
-
 
 ## Required Request Headers
 
@@ -84,8 +84,8 @@ Title developers can mark statistics as open or restricted with XDP or Partner C
 | X-RequestedServiceVersion| Build name/number of the Xbox LIVE service to which this request should be directed. The request will only be routed to that service after verifying the validity of the header, the claims in the auth token, and so on. Default value: 1.|
 | Accept| String. Acceptable Content-Type values. Example value: "application/json".|
 
-<a id="ID4EXF"></a>
 
+<a id="ID4EXF"></a>
 
 ## Optional Request Headers
 
@@ -93,15 +93,15 @@ Title developers can mark statistics as open or restricted with XDP or Partner C
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | If-None-Match| String. Entity tag - used if client supports caching. Example value: "686897696a7c876b7e".|
 
-<a id="ID4ETG"></a>
 
+<a id="ID4ETG"></a>
 
 ## Request body
 
 To maximize the ability of any caller to understand the data it's getting back for proper display, each stat value for each user will be returned as a string in the format in which it should be displayed, and formatted to match the locale specified in the accept-language header in the request. A localized "display name" will also be returned for statname for that leaderboard.
 
-<a id="ID4E2G"></a>
 
+<a id="ID4E2G"></a>
 
 ### Required members
 
@@ -124,8 +124,8 @@ To maximize the ability of any caller to understand the data it's getting back f
 | rank| string| Required. Corresponds to the user in the leaderboard entry.|
 | values| array| Required. Each comma-separated value corresponds to a column in the leaderboard.|
 
-<a id="ID4ECEAC"></a>
 
+<a id="ID4ECEAC"></a>
 
 ## HTTP status codes
 
@@ -142,8 +142,8 @@ The service returns one of the status codes in this section in response to a req
 | 406| Not Acceptable| Resource version is not supported; should be rejected by the MVC layer.|
 | 408| Request Timeout| Service could not understand malformed request. Typically an invalid parameter.|
 
-<a id="ID4E1HAC"></a>
 
+<a id="ID4E1HAC"></a>
 
 ## Required Response Headers
 
@@ -152,8 +152,8 @@ The service returns one of the status codes in this section in response to a req
 | Content-Type| string| The mime type of the body of the response. Example values: "application/json".|
 | Content-Length| string| The number of bytes being sent in the response. Example value: "232".|
 
-<a id="ID4EDJAC"></a>
 
+<a id="ID4EDJAC"></a>
 
 ## Optional Response Headers
 
@@ -161,8 +161,8 @@ The service returns one of the status codes in this section in response to a req
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ETag| string| Used for cache optimization. Example value: "686897696a7c876b7e".|
 
-<a id="ID4EDKAC"></a>
 
+<a id="ID4EDKAC"></a>
 
 ## Response body
 
@@ -170,11 +170,10 @@ Request for social leaderboard, no paging:
 
 https://leaderboards.xboxlive.com/users/xuid(2533274916402282)/scids/c1ba92a9-0000-0000-0000-000000000000/stats/EnemyDefeats/people/all?sort=descending
 
+
 <a id="ID4ENKAC"></a>
 
-
 ### Sample response
-
 
 ```cpp
 {
@@ -226,11 +225,10 @@ https://leaderboards.xboxlive.com/users/xuid(2533274916402282)/scids/c1ba92a9-00
 
 <a id="ID4EXKAC"></a>
 
-
 ## See also
 
-<a id="ID4EZKAC"></a>
 
+<a id="ID4EZKAC"></a>
 
 ##### Parent
 
