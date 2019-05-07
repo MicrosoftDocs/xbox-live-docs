@@ -497,55 +497,17 @@
                   href: features/external-services/access-policies/access-policies-overview.md
                 - name: Configuring access policies in Partner Center
                   href: configure-xbl/dev-center/access-policies-udc.md
-        - name: Services, tools, and APIs
-          href: tools/development-tools-for-xbox-live.md
+        - name: Real-Time Activity (RTA) service
+          href: real-time-activity-service/real-time-activity-service.md
           items: 
-            - name: Development tools for Xbox Live
-              href: tools/tools.md
-            - name: Trace Analyzer for reviewing service calls
-              href: tools/analyze-service-calls.md
-            - name: Using Fiddler to inspect web service calls
-              href: using-xbox-live/troubleshooting/how-to-set-up-fiddler-for-debugging.md
-            - name: Real-Time Activity (RTA) service
-              href: real-time-activity-service/real-time-activity-service.md
-              items: 
-                - name: Overview of Real-Time Activity service
-                  href: real-time-activity-service/real-time-activity-service-overview.md
-                - name: Registering for player Stat change notifications
-                  href: real-time-activity-service/register-for-stat-notifications.md
-                - name: Programming the RTA service via C++ APIs
-                  href: real-time-activity-service/programming-the-real-time-activity-service.md
-                - name: Best Practices for the RTA service
-                  href: real-time-activity-service/rta-best-practices.md
-            - name: Best practices for Xbox Live
-              href: using-xbox-live/best-practices/best-practices.md
-              items: 
-                - name: Best practices for calling Xbox Live
-                  href: using-xbox-live/best-practices/best-practices-for-calling-xbox-live.md
-                - name: Fine-Grained Rate Limiting
-                  href: using-xbox-live/best-practices/fine-grained-rate-limiting.md
-                - name: Best practices for handling offline play
-                  href: using-xbox-live/best-practices/best-practices-for-offline.md
-            - name: Using Xbox Live APIs
-              href: xbox-live-apis.md
-              items: 
-                - name: Introduction to Xbox Live APIs
-                  href: introduction-to-xbox-live-apis.md
-                - name: Introduction to the Xbox Live C APIs
-                  href: xsapi-flat-c.md
-                - name: Making async calls in the XSAPI C API
-                  href: flatc-async-patterns.md
-            - name: Error handling
-              href: using-xbox-live/error-handling/error-handling.md
-              items: 
-                - name: Types of error handling
-                  href: using-xbox-live/error-handling/types-of-error-handling.md
-                - name: C++ API error handling
-                  href: using-xbox-live/error-handling/error-handling-cpp.md
-                - name: WinRT API error handling
-                  href: using-xbox-live/error-handling/error-handling-winrt.md
-            - name: Porting Xbox Live code from XDK to UWP
-              href: using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md
+            - name: Overview of Real-Time Activity service
+              href: real-time-activity-service/real-time-activity-service-overview.md
+            - name: Registering for player Stat change notifications
+              href: real-time-activity-service/register-for-stat-notifications.md
+            - name: Programming the RTA service via C++ APIs
+              href: real-time-activity-service/programming-the-real-time-activity-service.md
+            - name: Best Practices for the RTA service
+              href: real-time-activity-service/rta-best-practices.md
     - name: Testing and Releasing
       href: releasing/releasing.md
       items:
@@ -630,9 +592,47 @@
                   href: using-xbox-live/troubleshooting/troubleshooting-the-xbox-live-services-api.md
                 - name: Troubleshooting Xbox Live setup on Windows 10 PC
                   href: using-xbox-live/troubleshooting/troubleshooting-pc-setup.md
+        - name: Services and tools
+          href: tools/development-tools-for-xbox-live.md
+          items: 
+            - name: Development tools for Xbox Live
+              href: tools/tools.md
+            - name: Trace Analyzer for reviewing service calls
+              href: tools/analyze-service-calls.md
+            - name: Using Fiddler to inspect web service calls
+              href: using-xbox-live/troubleshooting/how-to-set-up-fiddler-for-debugging.md
+            - name: Best practices for Xbox Live
+              href: using-xbox-live/best-practices/best-practices.md
+              items: 
+                - name: Best practices for calling Xbox Live
+                  href: using-xbox-live/best-practices/best-practices-for-calling-xbox-live.md
+                - name: Fine-Grained Rate Limiting
+                  href: using-xbox-live/best-practices/fine-grained-rate-limiting.md
+                - name: Best practices for handling offline play
+                  href: using-xbox-live/best-practices/best-practices-for-offline.md
+            - name: Error handling
+              href: using-xbox-live/error-handling/error-handling.md
+              items: 
+                - name: Types of error handling
+                  href: using-xbox-live/error-handling/types-of-error-handling.md
+                - name: C++ API error handling
+                  href: using-xbox-live/error-handling/error-handling-cpp.md
+                - name: WinRT API error handling
+                  href: using-xbox-live/error-handling/error-handling-winrt.md
+            - name: Porting Xbox Live code from XDK to UWP
+              href: using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md
     - name: API Reference
       href: api-reference.md
       items: 
+        - name: Using Xbox Live APIs
+          href: xbox-live-apis.md
+          items: 
+            - name: Introduction to Xbox Live APIs
+              href: introduction-to-xbox-live-apis.md
+            - name: Introduction to the Xbox Live C APIs
+              href: xsapi-flat-c.md
+            - name: Making async calls in the XSAPI C API
+              href: flatc-async-patterns.md
         - name: Xbox Live samples
           href: samples.md
         - name: Xbox Live WinRT SDK API

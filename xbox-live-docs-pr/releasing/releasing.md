@@ -105,4 +105,23 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
+    <li>
+        <a href="../tools/development-tools-for-xbox-live.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_tools.svg" alt="Services and tools" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Services and tools</h3>
+                            <p>Tools to help develop and test an Xbox Live-enabled title.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
 </ul>

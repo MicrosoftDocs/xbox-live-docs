@@ -172,6 +172,25 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
+    <li>
+        <a href="../real-time-activity-service/real-time-activity-service.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_push-notification.svg" alt="Real-Time Activity (RTA) service" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Real-Time Activity (RTA) service</h3>
+                            <p>Enables an application on any device to subscribe to state data, user statistics, and presence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
 </ul>
 
 

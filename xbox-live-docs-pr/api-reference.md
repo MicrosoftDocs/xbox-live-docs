@@ -12,6 +12,28 @@ ms.localizationpriority: medium
 
 <h1>API Reference</h1>
 
+<ul class="cardsF panelContent cols cols2">
+    <li>
+        <a href="xbox-live-apis.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_reference.svg" alt="Using Xbox Live APIs" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Using Xbox Live APIs</h3>
+                            <p>Xbox Live services can be called through the client-side XSAPI (WinRT, C++11, or C) or through REST endpoints.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
 
 <h2>Xbox Services API (XSAPI)</h2>
 
