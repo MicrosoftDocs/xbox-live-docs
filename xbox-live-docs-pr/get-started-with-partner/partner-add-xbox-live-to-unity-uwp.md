@@ -1,6 +1,6 @@
 ---
 title: Add XBL support to Unity for UWP, with .NET scripting
-description: Add Xbox Live support to Unity for UWP with .NET scripting backend, for ID@Xbox and managed partners.
+description: Add Xbox Live support to Unity for UWP with .NET scripting backend, for Managed Partners.
 ms.assetid: 790a49ad-eff4-4916-8578-968ca8483211
 ms.date: 04/04/2017
 ms.topic: article
@@ -10,7 +10,9 @@ ms.localizationpriority: medium
 
 # Add XBL support to Unity for UWP, with .NET scripting
 
-You can add Xbox Live support to Unity for UWP with .NET scripting backend for ID@Xbox and managed partners.
+This article is for Managed Partners.
+
+You can add Xbox Live support to Unity for UWP with .NET scripting backend.
 
 
 **1) Install Unity**

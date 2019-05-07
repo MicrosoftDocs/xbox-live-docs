@@ -1,37 +1,26 @@
 ---
-layout: LandingPage
-title: Setting up an IDE to use Xbox Live
+title: Setting up an IDE
 description: Setting up an IDE to use the Xbox Live SDK, for your target platforms.
+layout: LandingPage
 ms.date: 02/08/2019
 ms.topic: article
-keywords: xbox live, xbox, games, xbox one, sign-in
+keywords: xbox live, games
 ms.localizationpriority: medium
 ---
-# Setting up an IDE to use Xbox Live
 
-   > [!IMPORTANT]
-   > Prerequisite step: Set up a game at Partner Center. See [Getting started](../index.md).
+# Setting up an IDE
 
-After you have set up a game at Partner Center, set up one of the following IDEs to use the Xbox Live SDK, for your target platforms.
-
-Creators can use:
-*  Visual Studio (targeting UWP or Xbox)
-*  Unity (targeting UWP)
-
-ID@Xbox partners can use:
-*  Visual Studio (targeting UWP, Xbox, or Android)
-*  Android Studio (targeting Android)
-*  Xcode (targeting iOS)
+Setting up an IDE to use the Xbox Live SDK, for your target platforms.
 
 
 ### In this section
 
 | Article | Description |
 |---------|-------------|
-| [Setting up an IDE to use Xbox Live, for Creators](../../get-started-with-creators/creators-program.md) | IDEs, SDKs, and target platforms, for Creators, including Visual Studio and Unity. |
-| [Setting up an IDE to use Xbox Live, for ID@Xbox Managed Partners](../../get-started-with-partner/managed-partners-and-id-xbox-developers.md) | IDEs, SDKs, and target platforms, for ID@Xbox Managed Partners, including Visual Studio and Unity. |
+| [Setting up an IDE, for Creators](creators/index.md) | Setting up an IDE to use the Xbox Live SDK, for Creators.  |
+| [Setting up an IDE, for Managed Partners](managed-partners/index.md) | Setting up an IDE to use the Xbox Live SDK, for Managed Partners.  |
 
 
-### Next steps
+### See also
 
-After setting up your IDE to use the Xbox Live SDK, add basic sign-in code to your game; see [Getting Started](../index.md).
+[Getting Started](../index.md)

@@ -1,7 +1,7 @@
 ---
 title: Setting up Visual Studio for XAL login on Android
-author: aablackm
 description: Setting up Visual Studio to sign-in to Xbox Live with an Android project.
+author: aablackm
 ms.author: aablackm
 ms.date: 08/30/2018
 ms.topic: article
@@ -206,6 +206,7 @@ In the **AndroidTestAppJni**, `AndroidTestApp` is a singleton class which handle
 
 These classes contain all of the components necessary for making the async XAL calls.
 The `AndroidTestApp` class contains the `AsyncQueue`, and the `AsyncBlock` is handled by the `command` class.
-If you are not familiar with `AsyncBlock` and `AsyncQueue`, you will need to familiarize yourself with the [flat C async api calling pattern](../../flatc-async-patterns.md) used for making XAL async calls.
+
+If you are not familiar with `AsyncBlock` and `AsyncQueue`, you will need to familiarize yourself with the C async API calling pattern used for making XAL async calls; see [Making async calls in the XSAPI C API](../../flatc-async-patterns.md).
 
 You may make your XAL calls in this manner, or by the approach described in [XAL common scenarios](xal-sign-in.md).

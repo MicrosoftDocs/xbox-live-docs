@@ -1,7 +1,7 @@
 ---
 title: Get started with the Xbox Live APIs on Android
 author: KevinAsgari
-description: Learn how to add and compile the Xbox Live APIs source in your Android project.
+description: Adding and compiling the Xbox Live APIs source in an Android project.
 ms.author: kevinasg
 ms.date: 09/21/2018
 ms.topic: article

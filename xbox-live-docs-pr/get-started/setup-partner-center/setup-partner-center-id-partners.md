@@ -1,25 +1,28 @@
 ---
-title: Setting up a game at Partner Center, for Managed Partners
-description: Creating a new game app at Partner Center, enabling the game for Xbox Live, publishing the game to a sandbox, and creating test accounts.
+title: Setting up a game at Partner Center, for ID@Xbox Partners
+description: Creating a new game at Partner Center, enabling the game for Xbox Live, publishing the game to a sandbox, and creating test accounts.
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, xbox one, sign-in
 ms.localizationpriority: medium
 ---
-# Setting up a game at Partner Center, for Managed Partners
 
-To add Xbox Live functionality to your game, start by setting up an app in Partner Center, by following the steps below.
+# Setting up a game at Partner Center, for ID\@Xbox Partners
 
-> [!IMPORTANT]
-> Prerequisites for ID@Xbox Partners:
-> * Have a prototype of your game, such as a demo and screen captures.
-> * Apply to the ID@Xbox Managed Partners Program; see the section [ID@Xbox Managed Partners Program](../../developer-program-overview.md#id-managed-partners-program) in "Joining a developer program".
+To add Xbox Live functionality to your game, start by setting up a game in Partner Center, by following the steps below.
+
+
+## Prerequisites
+
+* Have a prototype of your game, such as a demo and screen captures.
+
+* [Joining the ID@Xbox Program](../join-dev-program/join-mp-program.md).
 
 
 <!--===========================================================-->
-## 1. Create a new app
+## 1. Create a new game
 
-Next, at Partner Center, create a new app, as follows.
+Next, at Partner Center, create a new game, as follows.
 
 1. Go to <a href="https://partner.microsoft.com/dashboard/" target="_blank">Partner Center</a>.
 
@@ -27,7 +30,7 @@ Next, at Partner Center, create a new app, as follows.
 
    ![The "Overview" page at Partner Center](images/pc_overview_pg.png)
 
-2. Click the **Create a new app** button.
+2. Click the **Create a new...** button.
 
    The page "Create your app by reserving a name" appears.
 
@@ -39,7 +42,7 @@ Next, at Partner Center, create a new app, as follows.
 4. Click the check box **Create this product in a sandbox**.
 
    > [!IMPORTANT]
-   > For ID@Xbox partners, to enable Xbox Live functionality, you **MUST** select the option button **Create this product in a sandbox**, the first time through this process.
+   > To enable Xbox Live functionality, you **MUST** select the **Create this product in a sandbox** option, the first time through this process.
    > You won't be able to select this option button later.
    > (Do not select the check box "Do not create this product in a sandbox".)
 
@@ -237,14 +240,66 @@ Your game is now set up at Partner Center.
 
 
 <!--===========================================================-->
-## Update Microsoft Account (MSA) configuration for your mobile game
-> [!IMPORTANT] 
-> The following steps are only needed if your game targets mobile platforms (Android, iOS)
-1. Log into your app's registration page via MSA's app portal (https://apps.dev.microsoft.com)
-1. Identify your app's MSA App ID (also known as your Client ID inside Xal.) and navigate to the app details page by clicking the app name.
-1. Under platforms, if there is not a section for "Native Application", click the **Add Platforms" button, and choose **Native Applications**
-1. In the "Native Application" section, add a Custom Redirect URI of "ms-xal-<lowercase app id>://auth". e.g. "ms-xal-00000000abcdef12://auth"
-1. Save your app's configuration.
+## 6. Find the game's IDs at Partner Center
 
+At Partner Center, find the Title ID, SCID, Sandbox ID, and Client ID of your game, as follows.
+When you add basic sign-in code to your game, you will insert these IDs.
+
+1. Go to <a href="https://partner.microsoft.com/en-us/dashboard/" target="_blank">Partner Center</a>.
+
+2. On the left, click **Products**, then click your game app.
+
+   The "App overview" page appears.
+
+3. In the **Submissions** section of the page, click **&lt;sandbox&gt; (Submission <#>)**.
+
+   The "&lt;sandbox&gt; Submission <#>" page appears.
+
+4. Copy and save the sandbox name for the sandbox which you want to use, such as "ABCDEF.1".
+
+5. Click the **Xbox Live Config** section of the page.
+
+   The "Gameplay Setting" page appears.
+
+6. In the middle navigation column, click **Services**, and then click **Xbox Live Setup**.
+
+   The "Xbox Live configuration" page appears.
+
+7. In the **Xbox Live product identities** section of the page, copy and save the **Title ID (decimal)**, **MsaAppId** (this is the Client ID),  and **SCID**.
+
+The app's MSA App ID is known as the _Client ID_, inside XAL.
+
+
+## Update Microsoft Account (MSA) configuration for your mobile game
+
+> [!IMPORTANT]
+> The following steps are only needed if your game targets mobile platforms (that is, Android or iOS).
+
+1. Log into your app's registration page via <a href="https://apps.dev.microsoft.com" target="_blank">MSA's app portal &#11008;</a>.
+
+2. Identify your app's MSA App ID (known as the Client ID, within XAL), and then click the app name.
+
+   The **App Details** page appears.
+
+3. Under **Platforms**, if there isn't a **Native Application** section, click the **Add Platforms** button, and then click **Native Applications**.
+
+4. In the "Native Application" section, add a Custom Redirect URI, as follows:
+
+   `ms-xal-`&lt;_MSA App ID as lowercase_&gt;`://auth`
+
+   For example:
+
+   `ms-xal-00000000abcdef12://auth`
+
+5. Save your app's configuration.
+
+
+<!--===========================================================-->
 ## Next step
-After your game app is set up at Partner Center, set up your IDE to use the Xbox Live SDK; see [Getting Started](../index.md).
+
+[Setting up an IDE, for ID@Xbox Partners](../setup-ide/managed-partners/index.md)
+
+
+## See also
+
+[Getting Started](../index.md)

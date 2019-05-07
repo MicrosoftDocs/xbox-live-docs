@@ -10,10 +10,10 @@ ms.localizationpriority: medium
 
 # Get started with Xbox Live, for Managed Partners
 
-This section covers getting started with Xbox Live development as a managed partner or as an ID@Xbox developer.
-Partners and ID developers can access the full range of Xbox Live features, including achievements, multiplayer, and more.
+This section covers getting started with Xbox Live development as an ID@Xbox Partner.
+Managed Partners can access the full range of Xbox Live features, including achievements, multiplayer, and more.
 
-Managed partners and ID@Xbox developers can develop Xbox Live titles for both the Universal Windows Platform (UWP) or the Xbox Developer Kit (XDK) platform.
+Managed Partners can develop Xbox Live titles for both the Universal Windows Platform (UWP) or the Xbox Developer Kit (XDK) platform.
 
 In addition to the content available here, there is also additional documentation that is available to partners with an authorized Partner Center account.
 You can access that content here: [Xbox Live partner content](https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/partner-content).
@@ -50,9 +50,7 @@ See [Setting up a game at Partner Center, for Managed Partners](../get-started/s
 
 You can follow the appropriate Getting Started guide for your platform and engine and learn the basics of Xbox Live as you go along.
 
-* [Getting started using Visual Studio for UWP games](get-started-with-visual-studio-and-uwp.md) shows how to link your Visual Studio project with your Xbox Live configuration in Partner Center.
-* [Getting started using Unity for UWP games](partner-add-xbox-live-to-unity-uwp.md) shows how to create a new Xbox Live enabled Unity title, add features such as Leaderboards to your title, and generate a native Visual Studio project.
-* [Getting started using Visual Studio for XDK based games](xdk-developers.md) shows how to get your Visual Studio project setup if you are making an Xbox One title using the XDK.
+* [Setting up an IDE](../get-started/setup-ide/index.md)
 * [Getting started making a cross-play game](get-started-with-cross-play-games.md) shows how to make a product that is an XDK-based game for Xbox One and a UWP-based game for Windows 10 PC.
 
 
@@ -78,6 +76,6 @@ Add Xbox Live features to your game:
 
 ## 6. Release Your Title
 
-ID@Xbox and managed partners must go through a certification process before releasing their titles.
+Managed Partners must go through a certification process before releasing their titles.
 This is because the titles have access to additional features such as online multiplayer, achievements, and rich presence.
 Once you are ready to release your title, contact your Microsoft representative for more details on the submission and release process.
