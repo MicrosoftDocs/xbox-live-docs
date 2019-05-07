@@ -1,12 +1,12 @@
 ---
-title: Sign-in in Unity through prefabs or scripting (pre-1804)
+title: Sign-in in Unity through prefabs or scripting (pre-1804 release)
 description: Unity prefabs and Scripted Sign-In examples for Social services on Xbox Live.
 ms.date: 01/24/2018
 ms.topic: get-started-article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity
 ---
 
-# Sign-in in Unity through prefabs or scripting (pre-1804)
+# Sign-in in Unity through prefabs or scripting (pre-1804 release)
 
 This article guides you through adding Xbox Live sign-in to your Unity projects.
 

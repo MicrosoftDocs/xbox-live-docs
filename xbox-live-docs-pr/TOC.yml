@@ -60,7 +60,7 @@
                           href: get-started-with-creators/playerauthentication-prefab-sign-in.md
                         - name: Scripting Sign-In with the SignInManager in Unity
                           href: get-started-with-creators/sign-in-manager.md
-                        - name: Sign-in in Unity through prefabs or scripting (pre-1804)
+                        - name: Sign-in in Unity through prefabs or scripting (pre-1804 release)
                           href: get-started-with-creators/unity-prefabs-and-sign-in.md
                     - name: Testing a Unity game build in Visual Studio
                       href: get-started-with-creators/test-visual-studio-build.md
