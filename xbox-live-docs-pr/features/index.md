@@ -21,6 +21,44 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
+        <a href="../whats-new/whats-new.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_whats-new.svg" alt="What's new" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>What's new</h3>
+                            <p>What's new for Xbox Live.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="tcui/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_form.svg" alt="Title-callable UI (TCUI)" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Title-callable UI (TCUI)</h3>
+                            <p>Title-callable UI (TCUI) enables your game code to call pre-defined user interface displays.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
         <a href="/gaming/xbox-live/features/identity">
             <div class="cardSize">
                 <div class="cardPadding">

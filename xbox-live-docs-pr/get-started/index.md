@@ -12,6 +12,28 @@ ms.localizationpriority: medium
 
 <h1>Getting Started</h1>
 
+<ul class="cardsF panelContent cols cols2">
+    <li>
+        <a href="what-is-xbox-live.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="images/getting_started/what-is-xbl.svg" alt="What is Xbox Live?" />
+                            </div>
+                        </div>
+                        <div class="cardText"> 
+                            <h3>What is Xbox Live?</h3>
+                            <p>Xbox Live provides the greatest player community for your game on the most advanced cross-platform multiplayer network.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
 <p>To get started adding Xbox Live functionality to your game, do the following steps in order.</p>
 
 <ul class="cardsF panelContent cols cols2">

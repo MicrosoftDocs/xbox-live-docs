@@ -1,11 +1,11 @@
 - name: Xbox Live
   href: index.md
   items:
-    - name: What is Xbox Live?
-      href: what-is-xbox-live.md
     - name: Getting Started
       href: get-started/index.md
       items:
+        - name: What is Xbox Live?
+          href: what-is-xbox-live.md
         - name: Joining a developer program
           href: developer-program-overview.md
         - name: Setting up a game app at Partner Center
@@ -114,6 +114,10 @@
     - name: Features
       href: features/index.md
       items:
+        - name: What's new for Xbox Live
+          href: whats-new/whats-new.md
+        - name: Title-callable UI (TCUI)
+          href: features/tcui/index.md
         - name: Identity features
           href: features/identity/index.md
           items: 
@@ -457,8 +461,6 @@
                   href: features/external-services/access-policies/access-policies-overview.md
                 - name: Configuring access policies in Partner Center
                   href: configure-xbl/dev-center/access-policies-udc.md
-        - name: Title-callable UI (TCUI)
-          href: features/tcui/index.md
         - name: Services, tools, and APIs
           href: tools/development-tools-for-xbox-live.md
           items: 
@@ -508,8 +510,6 @@
                   href: using-xbox-live/error-handling/error-handling-winrt.md
             - name: Porting Xbox Live code from XDK to UWP
               href: using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md
-        - name: What's new for Xbox Live
-          href: whats-new/whats-new.md
     - name: Testing and Releasing
       href: releasing/releasing.md
       items:
