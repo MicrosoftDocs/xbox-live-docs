@@ -27,9 +27,9 @@ Join the Xbox Live *Creators Program* if both of the following are true:
 *  You only plan to ship via Microsoft storefronts on Microsoft devices, such as Xbox, Windows 10 PC, and Hololens.
 
 
-### The ID@Xbox Partners Program
+### The ID@Xbox Program
 
-Join the *ID@Xbox Partners Program* if at least one of the following are true:
+Join the *ID@Xbox Program* if at least one of the following are true:
 
 * You’re interested in using the full suite of Xbox Live services, including multiplayer features and Achievements and Gamerscore on Microsoft devices, such as Xbox, Windows 10 PC, or Hololens.
 
