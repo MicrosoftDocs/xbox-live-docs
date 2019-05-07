@@ -22,8 +22,7 @@ But unlike an arcade machine, which only shows the top scores from the players w
 For this to happen, you need to perform some one-time configuration so that Xbox Live knows about your leaderboard.
 For example, whether the values should be sorted in ascending or descending value, and what piece of data it should be sorting.
 
-This configuration happens on [Partner Center](https://partner.microsoft.com/dashboard) most of the time.
-But certain developers will use [Xbox Developer Portal (XDP)](https://xdp.xboxlive.com).
+This configuration happens on [Partner Center](https://partner.microsoft.com/dashboard).
 
 If you are a developing your title as part of the Xbox Live Creators Program, you use [Partner Center](https://partner.microsoft.com/dashboard), and you can read [Getting Started With Xbox Live](get-started-with-creators/get-started-with-xbox-live-creators.md) to learn how to get set up.
 
@@ -32,43 +31,29 @@ If you are an ID@Xbox Developer or working with a publisher that is a Microsoft 
 
 ## Choose your development portal
 
-As mentioned above, there are two different portals that can be used to configure Xbox Live Services:
+Partner Center is used to configure Xbox Live Services.
 *  Partner Center at [https://partner.microsoft.com/dashboard](https://partner.microsoft.com/dashboard)
-*  The Xbox Development Portal (XDP) at [https://xdp.xboxlive.com](https://xdp.xboxlive.com)
 
-Partner Center is recommended for all titles going forward, but for certain features, you may still want to use XDP.
-This section will help advise you where to configure your title.
-
-You can find information about specific service configuration pages depending on your chosen portal:
+You can find information about specific service configuration pages:
 * [Partner Center configuration](configure-xbl/windows-dev-center.md)
-* [Xbox Development Portal configuration](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/atoc-service-configuration) - To access this link, you must have a Microsoft Account (MSA) that has been enabled for full Xbox Live access.
 
-If you already have a title configured, you can scroll down to [Get your IDs](#get_ids) to learn how to get the various identifiers required to setup your title.
+If you already have a title configured, you can scroll down to [Get your IDs](#get_ids) to learn how to get the various identifiers required to set up your title.
 
 
 ### PC/Mobile UWP game only
 
-Partner Center is recommended for configuring and managing UWP games that run only on Windows 10 PCs and/or Windows 10 mobile devices.
+Partner Center is used for configuring and managing UWP games, including games that run on Windows 10 PCs and/or Windows 10 mobile devices.
 
 
-#### Using XDP to configure UWP titles
+#### Using Partner Center to configure UWP titles
 
-You may want to use XDP to configure UWP titles if you have one of the following requirements:
+You use Partner Center to configure UWP titles for all kinds of requirements, including:
 1. You are using Arena.
-2. You have existing users, groups, and permissions setup on XDP that you want to keep using.
-3. You are using tools which only work on XDP such as the Tournaments Tool or Multiplayer Session Directory session history viewer.
+2. You have existing users, groups, and permissions set up on Partner Center.
+3. You are using tools on Partner Center such as the Tournaments Tool or Multiplayer Session Directory session history viewer.
 4. You are developing a title that will have cross-platform play between an Xbox One XDK based game and UWP PC/mobile version of the same game.
 
-If you don't fall into one of those categories, then you should use Partner Center.
-Otherwise see below for how to use XDP to configure a UWP title.
-
-Using XDP to configure Xbox Live Services for UWP applications has a few important caveats:
-
-* **Once a game's Xbox Live service configuration is published to CERT/RETAIL in XDP, there is no going back!** The Xbox Live service configuration for that game needs to remain in XDP for the life of the game title.
-
-* **There is no migration path from XDP to Partner Center.** If you start your Xbox Live configuration in XDP, you must manually recreate it in Partner Center if you want to move it.
-
-Given these two considerations, we recommended using Partner Center for PC/Mobile games, unless you fall into one of the categories described above.
+See below for how to use Partner Center to configure a UWP title.
 
 
 ### Cross-play between Xbox One and PC/Mobile games ###
@@ -80,13 +65,11 @@ This scenario also covers the case where you have an existing Xbox One XDK game,
 
 In order to implement cross-play, do the following:
 
-* **Use XDP to configure and publish your XDK game.** Partner Center does not support Xbox One XDK games at this time.
+* **Use Partner Center to configure and publish your XDK game.** Partner Center supports Xbox One XDK games.
 
-* **Use a single Xbox Live service configuration that you created in XDP for both the XDK and the UWP versions of a game.** XDP now has new features that allow a game to share a single Xbox Live service configuration between the XDK version and the UWP version of a game.
+* **Use a single Xbox Live service configuration that you created in Partner Center for both the XDK and the UWP versions of a game.** Partner Center allows a game to share a single Xbox Live service configuration between the XDK version and the UWP version of a game.
 
-* **Use Partner Center to ingest and publish your UWP game.** However, do not use Partner Center to configure Xbox Live services, as your game will use the service configuration that you created in XDP.
-
-* **Do not split Xbox Live service configuration between XDP and Partner Center.** XDP and Partner Center are not aware of each other, and publishing a service configuration from one source overwrites the configuration published from the other source. This could cause user data to be lost (missing achievements, erased game saves, etc.) which can create a bad user experience. For this reason, **we require that 100% of Xbox Live service configuration is done in XDP for cross-play XDK + UWP games.**
+* **Use Partner Center to ingest and publish your UWP game.** Use Partner Center to configure Xbox Live services. Your game will use the service configuration that you created in Partner Center.
 
 For more detail on this process, including items which are *not* self-service, see [Getting started with cross-play games](get-started-with-partner/get-started-with-cross-play-games.md).
 
@@ -96,7 +79,7 @@ For more detail on this process, including items which are *not* self-service, s
 You may decide to keep your Xbox One version of a game separate from the PC/Mobile version of the same game.
 In this case, you create two separate products, and follow the guidance for Xbox One XDK only and PC/Mobile UWP game only respectively.
 
-You cannot use the same service configuration for both versions in this case, and you must manually create the service configuration for each separate version of your game, either in XDP or in Partner Center appropriately.
+You cannot use the same service configuration for both versions in this case, and you must manually create the service configuration for each separate version of your game, in Partner Center.
 
 
 <a name="get_ids"></a>
@@ -106,7 +89,7 @@ You cannot use the same service configuration for both versions in this case, an
 To enable Xbox Live services, you will need to obtain several IDs to configure your development kit and your title.
 These can be obtained by doing Xbox Live service configuration.
 
-If you do not currently have a title in XDP or Partner Center, see the above section [Xbox Live Service Configuration portals](#xbox_live_portals) for guidance.
+If you do not currently have a title at Partner Center, see the above section [Xbox Live Service Configuration portals](#xbox_live_portals) for guidance.
 
 
 ### Critical IDs
@@ -124,20 +107,11 @@ The sandbox provides content isolation for your development kit during developme
 The Sandbox ID identifies your sandbox.
 A console may only access one sandbox at any one time, though one sandbox may be accessed by multiple consoles.
 
-Sandbox IDs are case sensitive.
+Sandbox IDs are case-sensitive.
 
-
-**Partner Center**
-
-If you are configuring your title in Partner Center, you get your Sandbox ID on the "Xbox Live" root configuration page as shown below:
+When configuring your title in Partner Center, you get your Sandbox ID on the "Xbox Live" root configuration page as shown below:
 
 ![Xbox Live title information on Partner Center screenshot. Includes Sandbox ID](images/getting_started/devcenter_sandbox_id.png)
-
-**XDP**
-
-If you are configuring your title on XDP, you get your Sandbox ID on the overview page for your product as shown below:
-
-![Title Overview page on Xbox Developer Portal. Includes Sandbox ID](images/getting_started/xdp_sandbox_id.png)
 
 
 #### Service Configuration ID (SCID)
@@ -147,21 +121,11 @@ These are all part of your service configuration, and require the SCID for acces
 
 SCIDs are case sensitive.
 
-
-**Partner Center**
-
-To retrieve your SCID in Partner Center, navigate to the Xbox Live Services section and go to *Xbox Live Setup*.
+To retrieve your SCID, in Partner Center, navigate to the Xbox Live Services section and go to *Xbox Live Setup*.
 
 Your SCID is displayed in the table shown below:
 
 ![SCID displayed in Xbox Live Configuration on Partner Center screenshot](images/getting_started/devcenter_scid.png)
-
-
-**XDP**
-
-To retrieve your SCID on XDP, navigate to the "Product Setup" section under your title and you will see both the Title ID and SCID.
-
-![Xbox Developer Portal Product Setup page screenshot. Includes SCID.](images/getting_started/xdp_scid.png)
 
 
 #### Title ID
@@ -171,14 +135,6 @@ It is used throughout the services to enable your users to access your title's L
 
 Title IDs can be case-sensitive, depending on how and where they are used.
 
-
-**Partner Center**
-
-Your Title ID in Partner Center is found in the same table as the SCID in the *Xbox Live Setup* page.
-
-
-**XDP**
-
-Your Title ID on XDP is obtained from the same location as the SCID.
+Your Title ID is found in Partner Center in the same table as the SCID in the *Xbox Live Setup* page.
 
 <a name="xbox_live_portals"></a>

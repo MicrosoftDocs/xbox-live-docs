@@ -129,6 +129,8 @@ You can use the Xbox Dev Portal to change the sandbox on your console:
 
 ![[Sandbox configuration screenshot on Xbox Developer Portal](../images/getting_started/xdp_switch_sandbox.png)
 
+<!-- todo: replace XDP captures by Partner Center captures -->
+
 
 ### Using Xbox One console UI
 

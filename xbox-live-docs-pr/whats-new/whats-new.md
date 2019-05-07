@@ -126,7 +126,7 @@ These new tournament APIs enable the following scenarios:
 
 #### Player Data 2017
 
-We have introduced a simplified Stats API.  Traditionally you had to send events corresponding to stat rules defined on XDP or Partner Center and these would update the stat values in the cloud.  We refer to this model as Stats 2013.
+We have introduced a simplified Stats API.  Traditionally you had to send events corresponding to stat rules defined at Partner Center and these would update the stat values in the cloud.  We refer to this model as Stats 2013.
 
 With Stats 2017, your title is now in control of your stat values.  You simply call an API with the most recent stat value, and that gets sent to the service directly without the need for events.  This uses the new `StatsManager` API and you can read more in [Player Stats](../leaderboards-and-stats-2017/player-stats.md)
 

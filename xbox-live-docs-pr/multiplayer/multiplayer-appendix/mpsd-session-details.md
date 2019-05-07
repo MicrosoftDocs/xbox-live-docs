@@ -17,10 +17,10 @@ A *session* in Multiplayer Session Directory (MPSD) has a session name and is id
 A *session template* is a JSON document that provides default settings for the session.
 
 The session template is part of a service configuration with a service configuration identifier (SCID), which is a GUID.
-The session template can be found on [Xbox Developer Portal (XDP)](https://xdp.xboxlive.com) and the [Partner Center](https://partner.microsoft.com/dashboard/windows/overview).
+The session template can be found at [Partner Center](https://partner.microsoft.com/dashboard/windows/overview).
 
 *Service configurations* are the developer-facing resources used for ingestion, management, and security policy.
-When a session is accessed through MPSD, principal authorization is performed against the service configuration according to the access policies set by the developer through XDP or Partner Center.
+When a session is accessed through MPSD, principal authorization is performed against the service configuration according to the access policies set by the developer through Partner Center.
 Secondary access checks, such as session membership validation, are performed at the session level when the session is loaded, after access to the service configuration is authorized.
 
 | Important                                                                                                                                                                                                                                                      |
@@ -191,7 +191,7 @@ These objects are writable only by servers.
 
 There are two ways to control the configuration of sessions:
 
--   Use session templates ingested through XDP or Partner Center.
+-   Use session templates ingested through Partner Center.
 -   Use calls to the multiplayer and matchmaking WinRT APIs or REST APIs. You must still use a template but the template does not have to contain the values you want to configure. Note that your title cannot override the constants already set in the template.
 
 A separate JSON document is provided to define the session itself.
@@ -216,7 +216,7 @@ For more information, see [MPSD Session Templates](../service-configuration/sess
 ## Session Capabilities
 
 *Capabilities* are constants in the MPSD session that configure behavior that the MPSD should apply to that session.
-You most commonly use XDP and Partner Center to set capabilities in the session template.
+You most commonly use Partner Center to set capabilities in the session template.
 
 Capabilities are set in the `/constants/system/capabilities` object.
 If no capabilities are needed, use an empty capabilities object.

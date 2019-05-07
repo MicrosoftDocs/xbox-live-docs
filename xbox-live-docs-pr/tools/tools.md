@@ -29,7 +29,7 @@ Global title storage is used to store data that everyone can read, such as roste
 Global title storage is a type of [Title Storage](../storage-platform/xbox-live-title-storage/xbox-live-title-storage.md).
 
 The Global Storage tool is used to manage global title storage in test sandboxes.
-Data must still be published to RETAIL via Partner Center or Xbox Developer Portal (XDP).
+Data must still be published to RETAIL via Partner Center.
 
 The tool is available via command-line as part of the [Development Tools](https://aka.ms/xboxliveuwptools) zip.
 

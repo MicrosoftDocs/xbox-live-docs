@@ -40,10 +40,10 @@ Decide between making an Xbox Development Kit (XDK), Universal Windows Platform 
 - Cross-play games are typically games that target Xbox One and Windows PC using both the XDK and UWP paths.
 
 
-## 2. Ensure that you have a title created in Partner Center or XDP
+## 2. Ensure that you have a title created in Partner Center
 
-Every Xbox Live title must be defined in Partner Center or the Xbox Developer Portal (XDP) before you will be able to sign-in and make Xbox Live Service calls.
-[Creating A New Title](create-a-new-title.md) shows how to do this.
+Every Xbox Live title must be defined in Partner Center before you will be able to sign-in and make Xbox Live Service calls.
+See [Setting up a game at Partner Center, for Managed Partners](../get-started/setup-partner-center/setup-partner-center-id-partners.md).
 
 
 ## 3. Follow the appropriate guide to setup your IDE or game engine
