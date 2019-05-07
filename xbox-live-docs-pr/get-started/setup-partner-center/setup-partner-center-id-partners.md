@@ -42,7 +42,7 @@ Next, at Partner Center, create a new game, as follows.
 4. Click the check box **Create this product in a sandbox**.
 
    > [!IMPORTANT]
-   > To enable Xbox Live functionality, you **MUST** select the option button **Create this product in a sandbox**, the first time through this process.
+   > To enable Xbox Live functionality, you **MUST** select the **Create this product in a sandbox** option, the first time through this process.
    > You won't be able to select this option button later.
    > (Do not select the check box "Do not create this product in a sandbox".)
 
