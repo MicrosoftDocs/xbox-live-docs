@@ -16,7 +16,6 @@ Setting up Android Studio targeting Android to use the Xbox Live SDK, for Manage
 
 * Ensure you have a Native C++ project created in Android Studio.
 * Ensure that your Android SDK includes NDK and CMake.
-* Ensure you have a virtual device that is capable of running Android API 26+.
 
 
 ## Download the Xbox Live SDK
@@ -87,10 +86,7 @@ PROP_APP_ABI=armeabi-v7a:x86
 > [!NOTE]
 > The above property will be used later to ensure your project builds only for ARM and x86.
 
-3. Set your complier SDK version to API 26+.
-   To do this, navigate to **file > Project Structure > your_app > Properties tab**, change the "Compile SDK Version" to "API:26: Android 8.0 (OREO)", and then click **OK**.
-
-4. In **your_project > app > gradle.build(App)**, inside of `defaultConfig`, update the `externalNativeBuild` to include the required `cmake` arguments and `ndk` filters:
+3. In **your_project > app > gradle.build(App)**, inside of `defaultConfig`, update the `externalNativeBuild` to include the required `cmake` arguments and `ndk` filters:
 
 ```json
 android {
@@ -113,9 +109,9 @@ android {
 }
 ```
 
-The `ndk` filter uses your `gradle.properties` variable that you set earlier.
+The `ndk` filter uses the PROP_APP_ABI variable defined in the project's `gradle.properties` that was set earlier.
 
-5. At the bottom of your `gradle.build(App)` file, add the following dependencies:
+4. At the bottom of your `gradle.build(App)` file, add the following dependencies:
 
 ```json
 dependencies {
@@ -131,7 +127,7 @@ dependencies {
 }
 ```
 
-6. Apply the Google plugins that are referenced above:
+5. Apply the Google plugins that are referenced above:
 
 ```json
 dependencies {
