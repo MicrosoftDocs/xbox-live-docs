@@ -89,7 +89,7 @@ Differentiate sentences for the two Policies cards
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_continuous-testing.svg" alt="Sandboxes"/>
+                                <img src="https://docs.microsoft.com/media/common/i_dashboard.svg" alt="Sandboxes"/>
                             </div>
                         </div>
                         <div class="cardText">
