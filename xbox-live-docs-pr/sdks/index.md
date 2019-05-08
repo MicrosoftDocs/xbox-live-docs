@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 | Article | Description |
 |---------|-------------|
 | [Best practices for Xbox Live](../using-xbox-live/best-practices/best-practices.md) | Best practices for calling Xbox Live APIs, such as proper calling patterns and retry logic. |
-| [Using Xbox Live APIs](../xbox-live-apis.md) | Xbox Live services can be called through the client-side XSAPI (WinRT, C++11, or C) or through REST endpoints. |
 | [Error handling](../using-xbox-live/error-handling/error-handling.md) | Handling errors when calling an Xbox Live service through XSAPI, C++, or WinRT. |
 | [Porting Xbox Live code from XDK to UWP](../using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md) | Porting Xbox Live code from the Xbox Development Kit (XDK) platform to the Universal Windows Platform (UWP). |
 
@@ -23,3 +22,4 @@ ms.localizationpriority: medium
 ## See also
 
 * [Setting up an IDE to use Xbox Live](../get-started/setup-ide/index.md)
+* [API Reference](../api-reference.md)
