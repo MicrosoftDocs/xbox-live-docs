@@ -156,34 +156,43 @@ set(ANDROID_MAVEN_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../../../../../Maven)
 
 ```cmake
 # Add pre-processor definitions to the project
-target_compile_definitions(${APP_NAME} PUBLIC
-                           XSAPI_C=1
-                           XSAPI_A=1
-                           )
+target_compile_definitions(${LIB_NAME} PUBLIC
+        XSAPI_C=1
+        XSAPI_A=1
+        )
 
 # Handle Android ABI flavors
 if (${ANDROID_ABI} STREQUAL "x86")
     set(XBLSDK_ABI "x86")
-    set(XALSUFFIX "AI32")
+    set(BUILD_ID "AI32")
 elseif (${ANDROID_ABI} STREQUAL "armeabi-v7a")
     set(XBLSDK_ABI "arm")
-    set(XALSUFFIX "AA32")
+    set(BUILD_ID "AA32")
+endif()
+
+# Handle Build Types
+if (${CMAKE_BUILD_TYPE} STREQUAL "Debug")
+    set(BUILD_PREFIX "Dbg")
+    set(BUILD_SUFFIX "D")
+elseif(${CMAKE_BUILD_TYPE} STREQUAL "Release")
+    set(BUILD_PREFIX "Rel")
+    set(BUILD_SUFFIX "")
 endif()
 
 # Link Additional Dependencies. Note: Order matters here!
-target_link_libraries(${APP_NAME}
-                      ${ANDROID_MAVEN_PATH}/ndk/libs/${XBLSDK_ABI}/libMicrosoft_Xbox_Services_Android.a
-                      ${ANDROID_MAVEN_PATH}/ndk/libs/${XBLSDK_ABI}/Xal.Android-Rel${XALSUFFIX}.a
-                      ${ANDROID_MAVEN_PATH}/ndk/libs/${XBLSDK_ABI}/CompactCoreCLL.Android-Rel${XALSUFFIX}.a
-                      ${ANDROID_MAVEN_PATH}/ndk/libs/${XBLSDK_ABI}/liblibHttpClient_141_Android_C.a
-                      ${ANDROID_MAVEN_PATH}/ndk/libs/${XBLSDK_ABI}/libssl.141.Android.a
-                      ${ANDROID_MAVEN_PATH}/ndk/libs/${XBLSDK_ABI}/libcrypto.141.Android.a
-                      )
+target_link_libraries(${LIB_NAME}
+        ${ANDROID_MAVEN_PATH}/ndk/libs/${CMAKE_BUILD_TYPE}/${XBLSDK_ABI}/libMicrosoft_Xbox_Services_Android.a
+        ${ANDROID_MAVEN_PATH}/ndk/libs/${CMAKE_BUILD_TYPE}/${XBLSDK_ABI}/Xal.Android-${BUILD_PREFIX}${BUILD_ID}${BUILD_SUFFIX}.a
+        ${ANDROID_MAVEN_PATH}/ndk/libs/${CMAKE_BUILD_TYPE}/${XBLSDK_ABI}/CompactCoreCLL.Android-${BUILD_PREFIX}${BUILD_ID}${BUILD_SUFFIX}.a
+        ${ANDROID_MAVEN_PATH}/ndk/libs/${CMAKE_BUILD_TYPE}/${XBLSDK_ABI}/liblibHttpClient_141_Android_C.a
+        ${ANDROID_MAVEN_PATH}/ndk/libs/${CMAKE_BUILD_TYPE}/${XBLSDK_ABI}/libssl.141.Android.a
+        ${ANDROID_MAVEN_PATH}/ndk/libs/${CMAKE_BUILD_TYPE}/${XBLSDK_ABI}/libcrypto.141.Android.a
+        )
 
 # Add Additional Include Directories
-target_include_directories(${APP_NAME}
-                           PUBLIC ${ANDROID_MAVEN_PATH}/ndk/include/
-                           )
+target_include_directories(${LIB_NAME}
+        PUBLIC ${ANDROID_MAVEN_PATH}/ndk/include/
+        )
 ```
 
 4. Run a gradle sync.
