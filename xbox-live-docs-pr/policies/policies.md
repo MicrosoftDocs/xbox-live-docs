@@ -1,6 +1,6 @@
 ---
 title: Policies
-description: Policies for adding Xbox Live to a PC or mobile game.
+description: Xbox Requirements for adding Xbox Live to a PC or mobile game.
 layout: LandingPage
 ms.date: 03/18/2019
 ms.topic: article

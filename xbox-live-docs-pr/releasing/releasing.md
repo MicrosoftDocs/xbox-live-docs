@@ -12,6 +12,7 @@ ms.localizationpriority: medium
 
 <!-- todo: 
 Add icon name
+Differentiate sentences for the two Policies cards
  -->
 
 <h1>Testing and Releasing</h1>
@@ -50,12 +51,12 @@ Add icon name
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_.svg" alt="Policies"/>
+                                <img src="https://docs.microsoft.com/media/common/i_policy.svg" alt="Policies"/>
                             </div>
                         </div>
                         <div class="cardText">
                             <h3>Policies</h3>
-                            <p>Policies for adding Xbox Live to a PC or mobile game.</p>
+                            <p>Xbox Requirements for adding Xbox Live to a PC or mobile game.</p>
                         </div>
                     </div>
                 </div>
@@ -69,7 +70,7 @@ Add icon name
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_.svg" alt="Configuring Xbox Live services, for Managed Partners"/>
+                                <img src="https://docs.microsoft.com/media/common/i_config-tools.svg" alt="Configuring Xbox Live services, for Managed Partners"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -88,7 +89,7 @@ Add icon name
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_.svg" alt="Sandboxes"/>
+                                <img src="https://docs.microsoft.com/media/common/i_continuous-testing.svg" alt="Sandboxes"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -107,7 +108,7 @@ Add icon name
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_.svg" alt="Test accounts"/>
+                                <img src="https://docs.microsoft.com/media/common/i_continuous-testing.svg" alt="Test accounts"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -126,7 +127,7 @@ Add icon name
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_.svg" alt="Testing on the Xbox One console"/>
+                                <img src="https://docs.microsoft.com/media/common/i_continuous-testing.svg" alt="Testing on the Xbox One console"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -145,7 +146,7 @@ Add icon name
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_.svg" alt="Testing and releasing a game, for Creators"/>
+                                <img src="https://docs.microsoft.com/media/common/i_config-tools.svg" alt="Testing and releasing a game, for Creators"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -164,7 +165,7 @@ Add icon name
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_.svg" alt="Testing and releasing a game, for Managed Partners"/>
+                                <img src="https://docs.microsoft.com/media/common/i_config-tools.svg" alt="Testing and releasing a game, for Managed Partners"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -183,7 +184,7 @@ Add icon name
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_.svg" alt="Troubleshooting Xbox Live"/>
+                                <img src="https://docs.microsoft.com/media/common/i_bug.svg" alt="Troubleshooting Xbox Live"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -202,7 +203,7 @@ Add icon name
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_.svg" alt="Services and tools"/>
+                                <img src="https://docs.microsoft.com/media/common/i_tools.svg" alt="Services and tools"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -251,7 +252,7 @@ Add icon name
                         </div>
                         <div class="cardText">
                             <h3>Microsoft Store Policies &#11008;</h3>
-                            <p>Includes Gaming and Xbox Policies.</p>
+                            <p>Includes Gaming Policies and Xbox Policies.</p>
                         </div>
                     </div>
                 </div>

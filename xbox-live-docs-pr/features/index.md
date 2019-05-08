@@ -39,25 +39,6 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
-    <li>
-        <a href="tcui/index.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_form.svg" alt="Title-callable UI (TCUI)" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Title-callable UI (TCUI)</h3>
-                            <p>Enables your game code to call pre-defined user interface displays.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
 </ul>
 
 
@@ -181,9 +162,28 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>Additional features</h2>
+<h2>Services that span multiple features</h2>
 
 <ul class="cardsF panelContent cols cols2">
+    <li>
+        <a href="tcui/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_form.svg" alt="Title-callable UI (TCUI)" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Title-callable UI (TCUI)</h3>
+                            <p>Enables your game code to call pre-defined user interface displays.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
     <li>
         <a href="../real-time-activity-service/real-time-activity-service.md">
             <div class="cardSize">
