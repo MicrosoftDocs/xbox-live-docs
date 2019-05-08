@@ -117,13 +117,9 @@ The `ndk` filter uses the PROP_APP_ABI variable defined in the project's `gradle
 dependencies {
     ...
     
-    implementation 'com.madgag.spongycastle:core:1.58.0.0'
-    implementation 'com.madgag.spongycastle:prov:1.58.0.0'
-    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
-    implementation 'com.android.support:customtabs:26.1.0'
-    implementation (group: 'XsapiAndroid', name: 'com.microsoft.xboxlive', version: '0.0.0')
-    implementation (group: 'androidxal', name: 'XalAndroidJava', version: '0.0.0')
-    implementation (group: 'libHttpClientAndroid', name: 'libHttpClient', version: '0.0.0')
+    implementation 'XsapiAndroid:com.microsoft.xboxlive:0.0.0'
+    implementation 'androidxal:XalAndroidJava:0.0.0'
+    implementation 'libHttpClientAndroid:libHttpClient:0.0.0'
 }
 ```
 
