@@ -1,6 +1,6 @@
 ---
 title: Setting up a game at Partner Center, for ID@Xbox Partners
-description: Creating a new game at Partner Center, enabling the game for Xbox Live, publishing the game to a sandbox, and creating test accounts.
+description: Creating a new game at Partner Center as an ID@Xbox Partner, enabling Xbox Live for the game, creating test accounts, and publishing the game to a development sandbox.
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, xbox one, sign-in

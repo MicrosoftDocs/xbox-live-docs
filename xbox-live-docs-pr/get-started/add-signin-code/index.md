@@ -13,11 +13,6 @@ ms.localizationpriority: medium
 # Adding basic sign-in code
 
 
-### Prerequisites
-
-[Setting up an IDE to use Xbox Live](../setup-ide/index.md)
-
-
 ### In this section
 
 | Article | Description |
@@ -28,11 +23,6 @@ ms.localizationpriority: medium
 | [Adding basic sign-in code for UWP](basic-signin-uwp.md) | Adding code to a UWP-based game to enable basic sign-in to Xbox Live. |
 | [Adding basic sign-in code for XDK](basic-signin-xdk.md) | Adding code to an XDK-based game to enable basic sign-in to Xbox Live. |
 -->
-
-
-### Next steps
-
-Add Xbox Live features; see [Features](../../features/index.md).
 
 
 ### See also

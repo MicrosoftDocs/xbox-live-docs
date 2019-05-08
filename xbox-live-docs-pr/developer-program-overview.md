@@ -119,10 +119,16 @@ If you’d like to access the full Xbox Live stack, including online multiplayer
 Games in the ID@Xbox program must be concept-approved and go through full certification on Xbox One and Windows 10, which is a greater time commitment on your part.
 ID@Xbox titles get placement in the primary section of the Store (versus the Creators Collection), which may provide greater exposure to customers.
 
-Developers in the ID@Xbox program also gain access to developer support and promotional assistance from Microsoft, as well as the full complement of private whitepapers and developer technical forums.
-You can continue to use <a href="https://social.msdn.microsoft.com/Forums/home?forum=xboxlivedev" target="_blank">MSDN Forums &#11008;</a> or ask programming-related questions on <a href="https://stackoverflow.com/questions/tagged/xbox-live" target="_blank">Stack Overflow &#11008;</a> using the "xbox-live" tag.
+Any documentation in the present documentation-set that is indicated as "for Managed Partners" also applies to ID@Xbox partners.
 
-Developers working with a game publisher that is a Managed Partner (such as the ID@Xbox program) have access to the full set of Xbox Live features and dedicated Microsoft representatives to assist in the development, certification, and release process.
+
+### Support for Managed Partners
+
+Managed Partners have access to the following:
+* The full set of Xbox Live features.
+* The full complement of private whitepapers and developer technical forums.
+* Developer support and promotional assistance from Microsoft.
+* Access to dedicated Microsoft representatives to assist in the development, certification, and release process.
 
 
 ## Feature comparison table

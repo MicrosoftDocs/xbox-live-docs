@@ -31,8 +31,8 @@ ms.localizationpriority: medium
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>What's new</h3>
-                            <p>What's new for Xbox Live.</p>
+                            <h3>What's new for Xbox Live</h3>
+                            <p>New features and functionality in each release of Xbox Live.</p>
                         </div>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText">
                             <h3>Title-callable UI (TCUI)</h3>
-                            <p>Title-callable UI (TCUI) enables your game code to call pre-defined user interface displays.</p>
+                            <p>Enables your game code to call pre-defined user interface displays.</p>
                         </div>
                     </div>
                 </div>
