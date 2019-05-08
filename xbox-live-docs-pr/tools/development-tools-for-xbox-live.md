@@ -1,8 +1,8 @@
 ---
-layout: LandingPage
 title: Services, tools, and APIs
-author: mikehoffms
 description: Tools to help develop and test an Xbox Live-enabled title.
+layout: LandingPage
+author: mikehoffms
 ms.author: v-mihof
 ms.date: 06/13/2018
 ms.topic: article

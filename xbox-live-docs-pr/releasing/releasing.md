@@ -10,6 +10,10 @@ keywords: windows 10, uwp, games, xbox, xbox live, releasing
 ms.localizationpriority: medium
 ---
 
+<!-- todo: 
+Add icon name
+ -->
+
 <h1>Testing and Releasing</h1>
 
 <p>
@@ -19,23 +23,20 @@ ms.localizationpriority: medium
   To publish a game for testing or public release, first complete the <a href="../get-started/index.md">Getting Started</a> steps so that your game can do basic sign-in to Xbox Live.
 </p>
 
-
-<h2>Publishing to a sandbox</h2>
-
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="../get-started/setup-partner-center/setup-partner-center-creators.md">
+        <a href="../xbox-live-resources.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_form.svg" alt="Setting up a game at Partner Center, for Creators"/>
+                                <img src="https://docs.microsoft.com/media/common/i_http.svg" alt="Xbox Live resources, sites, and downloads"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Setting up a game at Partner Center, for Creators</h3>
-                            <p>Creating test accounts and publishing the game to a sandbox.</p>
+                            <h3>Xbox Live resources, sites, and downloads</h3>
+                            <p>Download resources for Xbox Live development, such as tools and API Reference.</p>
                         </div>
                     </div>
                 </div>
@@ -43,18 +44,170 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../get-started/setup-partner-center/setup-partner-center-id-partners.md">
+        <a href="../policies/policies.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_form.svg" alt="Setting up a game at Partner Center, for Managed Partners"/>
+                                <img src="https://docs.microsoft.com/media/common/i_.svg" alt="Policies"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Setting up a game at Partner Center, for Managed Partners</h3>
-                            <p>Publishing the game to a sandbox and creating test accounts.</p>
+                            <h3>Policies</h3>
+                            <p>Policies for adding Xbox Live to a PC or mobile game.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="../configuring-xbox-live-services.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_.svg" alt="Configuring Xbox Live services, for Managed Partners"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Configuring Xbox Live services, for Managed Partners</h3>
+                            <p>Configuring Xbox Live services to support various features for your game.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="sandboxes/sandboxes.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_.svg" alt="Sandboxes"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Sandboxes</h3>
+                            <p>Sandboxes are for testing and publishing in an isolated environment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="../test-accounts.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_.svg" alt="Test accounts"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Test accounts</h3>
+                            <p>Creating accounts for testing your Xbox Live-enabled game during development.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="../testing-on-console.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_.svg" alt="Testing on the Xbox One console"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Testing on the Xbox One console</h3>
+                            <p>Testing Xbox Live services on the Xbox One console.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="creators/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_.svg" alt="Testing and releasing a game, for Creators"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Testing and releasing a game, for Creators</h3>
+                            <p>Testing and releasing a game, for Creators.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="managed/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_.svg" alt="Testing and releasing a game, for Managed Partners"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Testing and releasing a game, for Managed Partners</h3>
+                            <p>Testing and releasing a game, for Managed Partners.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="../using-xbox-live/troubleshooting/troubleshooting.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_.svg" alt="Troubleshooting Xbox Live"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Troubleshooting Xbox Live</h3>
+                            <p>Testing and releasing a game, for Managed Partners.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="../tools/development-tools-for-xbox-live.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_.svg" alt="Services and tools"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Services and tools</h3>
+                            <p>Tools to help develop and test an Xbox Live-enabled title.</p>
                         </div>
                     </div>
                 </div>
@@ -64,7 +217,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>Publishing to the store</h2>
+<h2>See also</h2>
 
 <ul class="cardsF panelContent cols cols2">
     <li>
@@ -99,25 +252,6 @@ ms.localizationpriority: medium
                         <div class="cardText">
                             <h3>Microsoft Store Policies &#11008;</h3>
                             <p>Includes Gaming and Xbox Policies.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="../tools/development-tools-for-xbox-live.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_tools.svg" alt="Services and tools" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Services and tools</h3>
-                            <p>Tools to help develop and test an Xbox Live-enabled title.</p>
                         </div>
                     </div>
                 </div>

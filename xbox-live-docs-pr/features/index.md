@@ -58,6 +58,12 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
+</ul>
+
+
+<h2>Feature categories</h2>
+
+<ul class="cardsF panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
             <div class="cardSize">
@@ -172,6 +178,12 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
+</ul>
+
+
+<h2>Additional features</h2>
+
+<ul class="cardsF panelContent cols cols2">
     <li>
         <a href="../real-time-activity-service/real-time-activity-service.md">
             <div class="cardSize">
@@ -179,7 +191,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_push-notification.svg" alt="Real-Time Activity (RTA) service" />
+                                <img src="https://docs.microsoft.com/media/common/i_alert.svg" alt="Real-Time Activity (RTA) service" />
                             </div>
                         </div>
                         <div class="cardText">
