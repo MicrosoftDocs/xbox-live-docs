@@ -137,7 +137,7 @@ ms.localizationpriority: medium
 </ul>
 
 
-<h2>Services that span multiple features</h2>
+<h3>Services that span multiple features</h3>
 
 <ul class="cardsF panelContent cols cols2">
     <li>
@@ -200,6 +200,6 @@ ms.localizationpriority: medium
 </ul>
 
 
-## See also
+### See also
 
 [Features supported for each developer program](../get-started/feature-comparison-table.md)
