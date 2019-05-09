@@ -218,7 +218,7 @@ Differentiate sentences for the two Policies cards
 </ul>
 
 
-<h2>See also</h2>
+<h3>See also</h3>
 
 <ul class="cardsF panelContent cols cols2">
     <li>
