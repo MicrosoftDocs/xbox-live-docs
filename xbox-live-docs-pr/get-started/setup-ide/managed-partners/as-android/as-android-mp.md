@@ -50,13 +50,13 @@ allprojects {
             name 'Google'
         }
         maven {
-            url 'file:///C:/XboxLiveSDK/Android/Maven'
+            url 'file:///C:/{Path to XboxLiveSDK}/XboxLiveSDK/Android/Maven'
         }
     }
 }
 ```
 
-3. Inside of your local XboxLiveSDK, update the url to your project's Maven folder.
+3. Make sure to update the project's Maven url to your project's local Maven folder.
 
 
 ## Add dependencies to the project
