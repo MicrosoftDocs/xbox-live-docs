@@ -76,7 +76,7 @@ XAL has two sign-in functions:
 * `XalTryAddDefaultUserSilentlyAsync()` - Attempts to add a user without showing any UI.
 * `XalAddUserWithUiAsync()` - Attempts to add a user and will always show UI.
 
-Both of these functions follow the [Flat-C api calling pattern](../../flatc-async-patterns.md), which you should familiarize yourself with.
+Both of these functions follow the C API calling pattern, which you should familiarize yourself with; see [Making async calls in the XSAPI C API](../../flatc-async-patterns.md).
 
 You will need to set up an `XAsyncBlock` which calls the appropriate result function, `XalTryAddDefaultUserSilentlyResult()` or `XalAddUserWithUiResult()`, in its return function before calling the sign-in function.
 You will also need to have set up an `XTaskQueueHandle` to handle the asynchronous work, or pass null if you do not wish to control the threading model.
@@ -91,6 +91,42 @@ You will also need to have set up an `XTaskQueueHandle` to handle the asynchrono
 [!INCLUDE [XalAddUserWithUIAsync](../../code/snippets/XalAddUserWithUiAsync.md)]
 
 
+### Resolving issues with sign-in
+
+1. Create the following `XAL_TryResolveUserIssue` function.
+   This function will be called if there are issues with the user signing in to your game.
+   Use `asyncBlock-context` to store the handle to the new user to be used later in the callback:
+
+```cpp
+HRESULT XAL_TryResolveUserIssue(_In_ XalUserHandle user)
+{
+    XAsyncBlock* asyncBlock = new XAsyncBlock() {};
+    asyncBlock->context = user;
+    asyncBlock->callback = XAL_TryResolveUserIssue_Callback;
+
+    return XalUserResolveIssueWithUiAsync(user, "https://www.xboxlive.com", asyncBlock);
+}
+```
+
+2. Add the following `XAL_TryResolveUserIssue_Callback` function, which will grab the `XAsyncGetStatus` result to be used by gameplay.
+   This callback also grabs the `XalUserHandle`, from `asyncBlock->context`.
+
+```cpp
+void CALLBACK XAL_TryResolveUserIssue_Callback(_In_ XAsyncBlock* asyncBlock)
+{
+    HRESULT hr = XAsyncGetStatus(asyncBlock, false);
+    XalUserHandle user = reinterpret_cast<XblUserHandle>(asyncBlock->context);
+
+    // TODO: If XAsyncGetStatus fails, tell user to sign in again
+
+    // Close the Reference if one was created during XalUserDuplicateHandle
+    if (user) { XalUserCloseHandle(user); }
+
+    delete asyncBlock;
+}
+```
+
+
 ## Soft SUA and MUA
 
 In a **hard** single-user authentication (SUA) scenario, you are not allowed to sign-out a user so the sign-out user function is not available.
@@ -101,7 +137,7 @@ So if you are developing on a platform that uses these scenarios, you will want 
 
 ### Sign-out
 
-The XAL sign-out function is `XalSignOutUserAsync()` and follows the same flat C async calling pattern as the sign-in functions previously covered.
+The XAL sign-out function is `XalSignOutUserAsync()` and follows the same C async calling pattern as the sign-in functions previously covered.
 Before using the sign-out function make sure that you verify its presence with `XalSignOutUserAsyncIsPresent()`.
 
 

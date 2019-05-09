@@ -20,5 +20,5 @@ Xbox Live services can be called through the client-side XSAPI (WinRT, C++11, or
 | Article | Description |
 |---------|-------------|
 | [Introduction to Xbox Live APIs](introduction-to-xbox-live-apis.md) | Xbox Live services can be called through the client-side XSAPI (WinRT, C++11, or C) or through REST endpoints. |
-| [Xbox Live C API](xsapi-flat-c.md) | XSAPI added a flat C API model, to interact with the Xbox Live service. |
-| [Async C API](flatc-async-patterns.md) | Making asynchronous calls in the XSAPI flat C API. |
+| [Xbox Live C API](xsapi-flat-c.md) | XSAPI added a C API model, to interact with the Xbox Live service. |
+| [Async C API](flatc-async-patterns.md) | Making asynchronous calls in the XSAPI C API. |

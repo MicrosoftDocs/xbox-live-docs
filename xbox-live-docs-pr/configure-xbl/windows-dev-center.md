@@ -35,3 +35,4 @@ To access the Xbox Live configuration pages, after selecting your title in [Part
 | [Web Services](dev-center/web-services.md) | Creating a Web service for an Xbox Live-enabled app. |
 | [Data sharing](dev-center/data-sharing-udc.md) | Configuring data sharing in Partner Center to allow other apps, games, and services to access the Xbox Live settings. |
 | [Single sign-on](dev-center/single-sign-on.md) | Configuring single sign-on in Partner Center to allow a title to sign a user into your services by using their Xbox Live ID. |
+| [Setting up cross-play games targeting Xbox One and Windows 10](../get-started-with-partner/get-started-with-cross-play-games.md) | Developing cross-play games, which run on both Xbox One (as an XDK game) and Windows 10 (as a UWP game). |

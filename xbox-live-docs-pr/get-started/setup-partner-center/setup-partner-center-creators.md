@@ -1,22 +1,22 @@
 ---
 title: Setting up a game at Partner Center, for Creators
-description: Creating a new game app at Partner Center, enabling the game for Xbox Live, creating test accounts, and publishing the game to a sandbox.
+description: Creating a new game at Partner Center, enabling the game for Xbox Live, creating test accounts, and publishing the game to a sandbox.
 ms.date: 02/08/2019
 ms.topic: article
 keywords: xbox live, xbox, games, xbox one, sign-in
 ms.localizationpriority: medium
 ---
+
 # Setting up a game at Partner Center, for Creators
 
-To add Xbox Live functionality to your game, start by setting up an app in Partner Center, by following the steps below.
 
-> [!IMPORTANT]
-> Prerequisite for Creators:
-> * Apply to the Creators Program; see the section [Creators Program](../../developer-program-overview.md#creators-program) in "Joining a developer program".
+## Prerequisites
+
+* [Joining the Creators Program](../join-dev-program/join-creators-program.md).
 
 
 <!--===========================================================-->
-## 1. Create a new app
+## 1. Create a new game
 
 At Partner Center, create a new app representing your game, as follows.
 
@@ -52,7 +52,7 @@ At Partner Center, create a new app representing your game, as follows.
    In the "Xbox Live Creators Program" section of the page, the message appears:
    "To enable Xbox Live Creators Program, the product's category (on the Properties page) must be Games."
 
-   Your app has now been created at Partner Center and is awaiting being Xbox Live-enabled.
+   Your game has now been created at Partner Center and is awaiting being Xbox Live-enabled.
 
 
 <!--===========================================================-->
@@ -97,7 +97,7 @@ At Partner Center, create a new app representing your game, as follows.
    ![The "Setup" dialog box](images/pc_cr_setup_dbx.png)
 
 7. In the **Xbox Live game name** text box, enter the name of your game.
-   This can be the same as the name of the app you specified at the beginning, but it doesn't need to be the same.
+   This can be the same as the name of the game you specified at the beginning, but it doesn't need to be the same.
 
 8. Select the platforms that you would like to enable the Xbox Live Services for.
    Both **Xbox One** and **Desktop** are selected by default.
@@ -179,6 +179,7 @@ In Partner Center, if you are not already at the "Xbox Live Creators Program" pa
    The "Manage Accounts" page reappears, now showing the added email address.
 
 
+<!--===========================================================-->
 ## 4. Publish the game using the Test button
 
 1. Click the previous browser tab to see the "Xbox Live Creators Program" page: "Test" section.
@@ -197,6 +198,36 @@ The SDK can now be used in an application to sign-in.
 
 
 <!--===========================================================-->
+## 5. Find the game's IDs at Partner Center
+
+At Partner Center, find the Title ID, SCID, Sandbox ID, and Client ID of your game, as follows.
+When you add basic sign-in code to your game, you will insert these IDs.
+
+1. Go to <a href="https://partner.microsoft.com/en-us/dashboard/" target="_blank">Partner Center</a>.
+
+2. On the left, click **Products**, then click your game.
+
+   The "App overview" page appears.
+
+3. In the **Submissions** section of the page, click **Submission <#>**.
+
+   The "Submission <#>" page appears.
+
+4. Click the **Xbox Live Creators Program** section of the page.
+
+   The "Xbox Live Creators Program" page appears.
+
+5. In the top of the page, copy and save the **Title ID**, **SCID**, and the **Sandbox ID** such as "ABCDEF.12"
+
+   <!-- todo: where to get the Client ID -->
+
+
+<!--===========================================================-->
 ## Next step
 
-After your game app is set up at Partner Center, set up your IDE to use the Xbox Live SDK; see [Getting Started](../index.md).
+[Setting up an IDE, for Creators](../setup-ide/creators/index.md)
+
+
+## See also
+
+[Getting Started](../index.md)
