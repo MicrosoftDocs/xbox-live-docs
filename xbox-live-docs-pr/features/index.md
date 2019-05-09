@@ -141,6 +141,25 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
+        <a href="../whats-new/whats-new.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_whats-new.svg" alt="What's new" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>What's new for Xbox Live</h3>
+                            <p>New features and functionality in each release of Xbox Live.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
         <a href="tcui/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
@@ -172,25 +191,6 @@ ms.localizationpriority: medium
                         <div class="cardText">
                             <h3>Real-Time Activity (RTA) service</h3>
                             <p>Enables an application on any device to subscribe to state data, user statistics, and presence.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="../whats-new/whats-new.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_whats-new.svg" alt="What's new" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>What's new for Xbox Live</h3>
-                            <p>New features and functionality in each release of Xbox Live.</p>
                         </div>
                     </div>
                 </div>

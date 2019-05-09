@@ -141,8 +141,6 @@
     - name: Features
       href: features/index.md
       items:
-        - name: What's new for Xbox Live
-          href: whats-new/whats-new.md
         - name: Identity features
           href: features/identity/index.md
           items: 
@@ -495,6 +493,8 @@
                   href: features/external-services/access-policies/access-policies-overview.md
                 - name: Configuring access policies in Partner Center
                   href: configure-xbl/dev-center/access-policies-udc.md
+        - name: What's new for Xbox Live
+          href: whats-new/whats-new.md
         - name: Title-callable UI (TCUI)
           href: features/tcui/index.md
         - name: Real-Time Activity (RTA) service
