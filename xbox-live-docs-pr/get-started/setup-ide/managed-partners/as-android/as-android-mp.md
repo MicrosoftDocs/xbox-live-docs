@@ -16,7 +16,6 @@ Setting up Android Studio targeting Android to use the Xbox Live SDK, for Manage
 
 * Ensure you have a Native C++ project created in Android Studio.
 * Ensure that your Android SDK includes NDK and CMake.
-* Ensure you have a virtual device that is capable of running Android API 26+.
 
 
 ## Download the Xbox Live SDK
@@ -51,13 +50,13 @@ allprojects {
             name 'Google'
         }
         maven {
-            url 'file:///C:/XboxLiveSDK/Android/Maven'
+            url 'file:///C:/{Path to XboxLiveSDK}/XboxLiveSDK/Android/Maven'
         }
     }
 }
 ```
 
-3. Inside of your local XboxLiveSDK, update the url to your project's Maven folder.
+3. Make sure to update the project's Maven url to your project's local Maven folder.
 
 
 ## Add dependencies to the project
@@ -87,10 +86,7 @@ PROP_APP_ABI=armeabi-v7a:x86
 > [!NOTE]
 > The above property will be used later to ensure your project builds only for ARM and x86.
 
-3. Set your complier SDK version to API 26+.
-   To do this, navigate to **file > Project Structure > your_app > Properties tab**, change the "Compile SDK Version" to "API:26: Android 8.0 (OREO)", and then click **OK**.
-
-4. In **your_project > app > gradle.build(App)**, inside of `defaultConfig`, update the `externalNativeBuild` to include the required `cmake` arguments and `ndk` filters:
+3. In **your_project > app > gradle.build(App)**, inside of `defaultConfig`, update the `externalNativeBuild` to include the required `cmake` arguments and `ndk` filters:
 
 ```json
 android {
@@ -113,25 +109,21 @@ android {
 }
 ```
 
-The `ndk` filter uses your `gradle.properties` variable that you set earlier.
+The `ndk` filter uses the PROP_APP_ABI variable defined in the project's `gradle.properties` that was set earlier.
 
-5. At the bottom of your `gradle.build(App)` file, add the following dependencies:
+4. At the bottom of your `gradle.build(App)` file, add the following dependencies:
 
 ```json
 dependencies {
     ...
     
-    implementation 'com.madgag.spongycastle:core:1.58.0.0'
-    implementation 'com.madgag.spongycastle:prov:1.58.0.0'
-    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
-    implementation 'com.android.support:customtabs:26.1.0'
-    implementation (group: 'XsapiAndroid', name: 'com.microsoft.xboxlive', version: '0.0.0')
-    implementation (group: 'androidxal', name: 'XalAndroidJava', version: '0.0.0')
-    implementation (group: 'libHttpClientAndroid', name: 'libHttpClient', version: '0.0.0')
+    implementation 'XsapiAndroid:com.microsoft.xboxlive:0.0.0'
+    implementation 'androidxal:XalAndroidJava:0.0.0'
+    implementation 'libHttpClientAndroid:libHttpClient:0.0.0'
 }
 ```
 
-6. Apply the Google plugins that are referenced above:
+5. Apply the Google plugins that are referenced above:
 
 ```json
 dependencies {
@@ -164,34 +156,43 @@ set(ANDROID_MAVEN_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../../../../../Maven)
 
 ```cmake
 # Add pre-processor definitions to the project
-target_compile_definitions(${APP_NAME} PUBLIC
-                           XSAPI_C=1
-                           XSAPI_A=1
-                           )
+target_compile_definitions(${LIB_NAME} PUBLIC
+        XSAPI_C=1
+        XSAPI_A=1
+        )
 
 # Handle Android ABI flavors
 if (${ANDROID_ABI} STREQUAL "x86")
     set(XBLSDK_ABI "x86")
-    set(XALSUFFIX "AI32")
+    set(BUILD_ID "AI32")
 elseif (${ANDROID_ABI} STREQUAL "armeabi-v7a")
     set(XBLSDK_ABI "arm")
-    set(XALSUFFIX "AA32")
+    set(BUILD_ID "AA32")
+endif()
+
+# Handle Build Types
+if (${CMAKE_BUILD_TYPE} STREQUAL "Debug")
+    set(BUILD_PREFIX "Dbg")
+    set(BUILD_SUFFIX "D")
+elseif(${CMAKE_BUILD_TYPE} STREQUAL "Release")
+    set(BUILD_PREFIX "Rel")
+    set(BUILD_SUFFIX "")
 endif()
 
 # Link Additional Dependencies. Note: Order matters here!
-target_link_libraries(${APP_NAME}
-                      ${ANDROID_MAVEN_PATH}/ndk/libs/${XBLSDK_ABI}/libMicrosoft_Xbox_Services_Android.a
-                      ${ANDROID_MAVEN_PATH}/ndk/libs/${XBLSDK_ABI}/Xal.Android-Rel${XALSUFFIX}.a
-                      ${ANDROID_MAVEN_PATH}/ndk/libs/${XBLSDK_ABI}/CompactCoreCLL.Android-Rel${XALSUFFIX}.a
-                      ${ANDROID_MAVEN_PATH}/ndk/libs/${XBLSDK_ABI}/liblibHttpClient_141_Android_C.a
-                      ${ANDROID_MAVEN_PATH}/ndk/libs/${XBLSDK_ABI}/libssl.141.Android.a
-                      ${ANDROID_MAVEN_PATH}/ndk/libs/${XBLSDK_ABI}/libcrypto.141.Android.a
-                      )
+target_link_libraries(${LIB_NAME}
+        ${ANDROID_MAVEN_PATH}/ndk/libs/${CMAKE_BUILD_TYPE}/${XBLSDK_ABI}/libMicrosoft_Xbox_Services_Android.a
+        ${ANDROID_MAVEN_PATH}/ndk/libs/${CMAKE_BUILD_TYPE}/${XBLSDK_ABI}/Xal.Android-${BUILD_PREFIX}${BUILD_ID}${BUILD_SUFFIX}.a
+        ${ANDROID_MAVEN_PATH}/ndk/libs/${CMAKE_BUILD_TYPE}/${XBLSDK_ABI}/CompactCoreCLL.Android-${BUILD_PREFIX}${BUILD_ID}${BUILD_SUFFIX}.a
+        ${ANDROID_MAVEN_PATH}/ndk/libs/${CMAKE_BUILD_TYPE}/${XBLSDK_ABI}/liblibHttpClient_141_Android_C.a
+        ${ANDROID_MAVEN_PATH}/ndk/libs/${CMAKE_BUILD_TYPE}/${XBLSDK_ABI}/libssl.141.Android.a
+        ${ANDROID_MAVEN_PATH}/ndk/libs/${CMAKE_BUILD_TYPE}/${XBLSDK_ABI}/libcrypto.141.Android.a
+        )
 
 # Add Additional Include Directories
-target_include_directories(${APP_NAME}
-                           PUBLIC ${ANDROID_MAVEN_PATH}/ndk/include/
-                           )
+target_include_directories(${LIB_NAME}
+        PUBLIC ${ANDROID_MAVEN_PATH}/ndk/include/
+        )
 ```
 
 4. Run a gradle sync.
