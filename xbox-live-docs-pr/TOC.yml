@@ -625,7 +625,7 @@
       href: api-reference.md
       items: 
         - name: XSAPI Reference
-          href: stub.md
+          href: api-ref/xsapi/index.md
           items: 
             - name: Introduction to XSAPI APIs
               href: introduction-to-xbox-live-apis.md
@@ -633,31 +633,14 @@
               href: samples.md
             - name: Introduction to the XSAPI C API
               href: xsapi-flat-c.md
-            - name: Making async calls in the XSAPI C API
-              href: flatc-async-patterns.md
-            - name: XSAPI C Reference
-              href: stub.md
-            - name: XSAPI C++ Reference
-              href: stub.md
             - name: XSAPI WinRT Reference
               href: https://docs.microsoft.com/en-us/dotnet/api/?view=xboxlive-dotnet-2017.11.20171204.01
             - name: XSAPI REST Reference
               href: xbox-live-rest/TOC.md
         - name: XAL Reference
-          href: stub.md
-          items: 
-            - name: Introduction to the XAL API
-              href: stub.md
-            - name: XAL C Reference
-              href: stub.md
-            - name: XAL C++ Reference
-              href: stub.md
+          href: api-ref/xal/index.md
         - name: XAsync Reference
-          href: stub.md
+          href: api-ref/xasync/index.md
           items: 
-            - name: Introduction to the XAsync API
-              href: stub.md
-            - name: XAsync C Reference
-              href: stub.md
-            - name: XAsync C++ Reference
-              href: stub.md
+            - name: Making async calls in the XSAPI C API
+              href: flatc-async-patterns.md
