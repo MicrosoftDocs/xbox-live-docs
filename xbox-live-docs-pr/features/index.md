@@ -12,13 +12,6 @@ ms.localizationpriority: medium
 
 <h1>Features</h1>
 
-<p>
-  Xbox Live features are powerful tools to attract, engage and retain players.
-</p>
-<p>
-  To begin adding Xbox Live Features to your game, first complete the <a href="../get-started/index.md">Getting Started</a> steps so that your game can do basic sign-in to Xbox Live.
-</p>
-
 <ul class="cardsF panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
