@@ -28,5 +28,5 @@ XAL provides a consistent API and user model across all platforms.
 
 ### See also
 
-[Authentication and sign-in](using-xbox-live/auth/authentication.md) -
+[Authentication and sign-in](../../using-xbox-live/auth/authentication.md) -
 Signing-in an Xbox Live user in your game.
