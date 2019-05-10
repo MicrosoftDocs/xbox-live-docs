@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="../what-is-xbox-live.md">
+        <a href="what-is-xbox-live.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

@@ -5,7 +5,7 @@
       href: get-started/index.md
       items:
         - name: What is Xbox Live?
-          href: what-is-xbox-live.md
+          href: get-started/what-is-xbox-live.md
         - name: Joining a developer program
           href: get-started/join-dev-program/index.md
           items:
