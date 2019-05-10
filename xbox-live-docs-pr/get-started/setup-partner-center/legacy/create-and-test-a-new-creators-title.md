@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ## Introduction
 
 Before writing any Xbox Live code, you must set up a new title on your service configuration portal.
-See also [Xbox Live Service Configuration](../xbox-live-service-configuration.md).
+See also [Xbox Live Service Configuration](../../../xbox-live-service-configuration.md).
 
 This article will walk through everything required to configure a title in Partner Center, create a new project, and prepare Xbox Live for testing.
 
@@ -52,11 +52,11 @@ You will need a UWP title defined in Partner Center. You do that by first going 
 
 Next, create a new title. You'll need to reserve a name.
 
-![name reservation dialogue box screenshot](../images/getting_started/first_xbltitle_newapp.png)
+![name reservation dialogue box screenshot](../../../images/getting_started/first_xbltitle_newapp.png)
 
 The screenshot shows the primary page where you'll be configuring Xbox Live, located under the **Services** > **Xbox Live** menu.
 
-![Xbox Live configuration in Partner Center menu screenshot](../images/creators_udc/creators_udc_xboxlive_page.png)
+![Xbox Live configuration in Partner Center menu screenshot](../../../images/creators_udc/creators_udc_xboxlive_page.png)
 
 
 ## Enable Xbox Live services
@@ -64,7 +64,7 @@ The screenshot shows the primary page where you'll be configuring Xbox Live, loc
 When you click the **Xbox Live** link under **Services** for the first time for a product, you will be taken to the Enable Xbox Live Creators Program page.  
 Next, click the **Enable** button to bring up the Xbox Live setup dialog.
 
-![Partner Center screenshot with enable button location](../images/creators_udc/creators_udc_xboxlive_enable.png)
+![Partner Center screenshot with enable button location](../../../images/creators_udc/creators_udc_xboxlive_enable.png)
 
 On the setup dialog, select the platforms that you would like to enable the Xbox Live Services for (both Xbox One and Windows 10 PC are selected by default).
 Click the **Confirm** button to enable Xbox Live Creators Program for your game.
@@ -72,7 +72,7 @@ Click the **Confirm** button to enable Xbox Live Creators Program for your game.
 > [!IMPORTANT]
 > Xbox Live is only supported for games. In order to successfully publish your game with Xbox Live, you must set your product type to "Game" in the properties section of the submission.
 
-![Enabled game name selection dialogue box screenshot](../images/creators_udc/creators_udc_xboxlive_enable_dialog.png)
+![Enabled game name selection dialogue box screenshot](../../../images/creators_udc/creators_udc_xboxlive_enable_dialog.png)
 
 
 ## Test Xbox Live service configuration in your game
@@ -93,7 +93,7 @@ Whenever you enable Xbox Live services and make changes to Xbox Live service con
 
 On the Xbox Live configuration page, click the **Test** button to publish the current Xbox Live configuration to your development sandbox.
 
-![Partner center screenshot with test publish button](../images/creators_udc/creators_udc_xboxlive_config_test.png)
+![Partner center screenshot with test publish button](../../../images/creators_udc/creators_udc_xboxlive_config_test.png)
 
 
 ### Authorize devices and users for the development sandbox

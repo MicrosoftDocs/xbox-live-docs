@@ -43,35 +43,35 @@ Decide between making an Xbox Development Kit (XDK), Universal Windows Platform 
 ## 2. Ensure that you have a title created in Partner Center
 
 Every Xbox Live title must be defined in Partner Center before you will be able to sign-in and make Xbox Live Service calls.
-See [Setting up a game at Partner Center, for Managed Partners](../get-started/setup-partner-center/setup-partner-center-id-partners.md).
+See [Setting up a game at Partner Center, for Managed Partners](../setup-partner-center-id-partners.md).
 
 
 ## 3. Follow the appropriate guide to setup your IDE or game engine
 
 You can follow the appropriate Getting Started guide for your platform and engine and learn the basics of Xbox Live as you go along.
 
-* [Setting up an IDE](../get-started/setup-ide/index.md)
-* [Getting started making a cross-play game](get-started-with-cross-play-games.md) shows how to make a product that is an XDK-based game for Xbox One and a UWP-based game for Windows 10 PC.
+* [Setting up an IDE](../setup-ide/index.md)
+* [Getting started making a cross-play game](../../../get-started-with-partner/get-started-with-cross-play-games.md) shows how to make a product that is an XDK-based game for Xbox One and a UWP-based game for Windows 10 PC.
 
 
 ## 4. Xbox Live Concepts
 
 Once you have a title created, you should learn about the Xbox Live concepts that will affect your experience developing titles:
 
-- [Xbox Live sandboxes](../xbox-live-sandboxes.md)
-- [Xbox Live test accounts](../xbox-live-test-accounts.md)
-- [Introduction to Xbox Live APIs](../introduction-to-xbox-live-apis.md)
+- [Xbox Live sandboxes](../../../xbox-live-sandboxes.md)
+- [Xbox Live test accounts](../../../xbox-live-test-accounts.md)
+- [Introduction to Xbox Live APIs](../../../introduction-to-xbox-live-apis.md)
 
 
 ## 5. Add Xbox Live Features
 
 Add Xbox Live features to your game:
 
-- [Xbox Live Social features - Profile, Friends, Presence](../social-platform/social-platform.md)
-- [Xbox Live Player Data - Stats, Leaderboards, Achievements](../data-platform/data-platform.md)
-- [Xbox Live Multiplayer features - Invite, Matchmaking, Tournaments](../multiplayer/multiplayer-intro.md)
-- [Xbox Live Cloud Storage - Connected Storage, Title Storage](../storage-platform/storage-platform.md)
-- [Contextual Search](../contextual-search/introduction-to-contextual-search.md)
+- [Xbox Live Social features - Profile, Friends, Presence](../../../social-platform/social-platform.md)
+- [Xbox Live Player Data - Stats, Leaderboards, Achievements](../../../data-platform/data-platform.md)
+- [Xbox Live Multiplayer features - Invite, Matchmaking, Tournaments](../../../multiplayer/multiplayer-intro.md)
+- [Xbox Live Cloud Storage - Connected Storage, Title Storage](../../../storage-platform/storage-platform.md)
+- [Contextual Search](../../../contextual-search/introduction-to-contextual-search.md)
 
 
 ## 6. Release Your Title
