@@ -192,7 +192,7 @@ If you enabled **script debugging** when you built the UWP solution from Unity, 
 You can now start using Xbox Live in your Unity project.
 Try opening scenes in the **Xbox Live/Examples** folder to see the plugin in action, and for examples of how to use the functionality yourself.
 
-Running the examples in the editor will give you fake data - to sign in with your gamertag, build the project in Visual Studio and [associate your Xbox Live account with the sandbox](authorize-xbox-live-accounts.md).
+Running the examples in the editor will give you fake data - to sign in with your gamertag, build the project in Visual Studio and [associate your Xbox Live account with the sandbox](../get-started/setup-partner-center/legacy/authorize-xbox-live-accounts.md).
 
 * Try the **SignInAndProfile** scene for signing into your Microsoft Account.
 * Try the **Leaderboard** scene for creating a leaderboard.
@@ -202,4 +202,4 @@ Running the examples in the editor will give you fake data - to sign in with you
 ## See also
 
 * [Sign in to Xbox Live in Unity](unity-prefabs-and-sign-in.md)
-* [Authorize Xbox Live accounts](authorize-xbox-live-accounts.md)
+* [Authorize Xbox Live accounts](../get-started/setup-partner-center/legacy/authorize-xbox-live-accounts.md)

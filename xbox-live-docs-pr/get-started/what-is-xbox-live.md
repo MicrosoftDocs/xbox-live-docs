@@ -49,8 +49,8 @@ There are also guides for getting setup with game engines.
 | Article | Description |
 |---------|-------------|
 | [Developer Program Overview](join-dev-program/developer-program-overview.md) | The various developer programs that enable Xbox Live development. |
-| [Get started with Xbox Live Creators Program](../get-started-with-creators/get-started-with-xbox-live-creators.md) | How to get started with Xbox Live in the Xbox Live Creators Program. |
-| [Get started with Xbox Live as an ID@Xbox or managed  developer](../get-started-with-partner/get-started-with-xbox-live-partner.md) | How to get started with Xbox Live as a developer in the ID@Xbox Program. |
+| [Get started with Xbox Live Creators Program](setup-partner-center/legacy/get-started-with-xbox-live-creators.md) | How to get started with Xbox Live in the Xbox Live Creators Program. |
+| [Get started with Xbox Live as an ID@Xbox or managed  developer](setup-partner-center/legacy/get-started-with-xbox-live-partner.md) | How to get started with Xbox Live as a developer in the ID@Xbox Program. |
 
 
 ## Using Xbox Live

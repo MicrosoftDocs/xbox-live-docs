@@ -30,7 +30,7 @@ This article is for the Creators program.
 ## Create a new product in Partner Center
 
 Every Xbox Live title must have a product created in [Partner Center](https://partner.microsoft.com/dashboard) before you will be able to sign-in and make Xbox Live Service calls.
-See [Creating a new Creators title](create-and-test-a-new-creators-title.md).
+See [Creating a new Creators title](../get-started/setup-partner-center/legacy/create-and-test-a-new-creators-title.md).
 
 
 ## Configuring your development device
@@ -54,7 +54,7 @@ See [Using Xbox Live sandboxes](xbox-live-sandboxes-creators.md).
 To sign-in to your development sandbox, you must provision a regular Microsoft Account (MSA) for access to your sandbox.
 This provides improved security for your titles in development, as well as some other benefits.
 
-To learn more about test accounts and how to create one, see [Authorize Xbox Live Accounts for Testing in your environment](authorize-xbox-live-accounts.md).
+To learn more about test accounts and how to create one, see [Authorize Xbox Live Accounts for Testing in your environment](../get-started/setup-partner-center/legacy/authorize-xbox-live-accounts.md).
 
 
 ## Visual Studio Project Setup

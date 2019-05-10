@@ -25,7 +25,7 @@ ms.localizationpriority: medium
 ## Create a new product in Partner Center
 
 Every Xbox Live title must have a product created in [Partner Center](https://partner.microsoft.com/dashboard) before you will be able to sign-in and make Xbox Live Service calls.
-See [Create a title on UDC](create-a-new-title.md).
+See [Create a title on UDC](../get-started/setup-partner-center/legacy/create-a-new-title.md).
 
 
 ## Configuring your development device

@@ -53,7 +53,7 @@ Please see the [What's New - August 2016](1608-whats-new.md) article for what wa
 
 ## Documentation
 * There is new documentation on the [Multiplayer Manager](../multiplayer/multiplayer-manager.md), [XIM](../multiplayer/xbox-integrated-multiplayer.md), and [multiplayer concepts](../multiplayer/multiplayer-concepts.md) for Xbox Live.
-* The [Xbox Live introduction](../get-started-with-partner/get-started-with-xbox-live-partner.md) sections have been rewritten.  If you are creating a new Xbox Live enabled title, or are curious about incorporating other Xbox Live functionality into your game, you can see the new docs [here](../get-started-with-partner/get-started-with-xbox-live-partner.md).
+* The [Xbox Live introduction](../get-started/setup-partner-center/legacy/get-started-with-xbox-live-partner.md) sections have been rewritten.  If you are creating a new Xbox Live enabled title, or are curious about incorporating other Xbox Live functionality into your game, you can see the new docs [here](../get-started/setup-partner-center/legacy/get-started-with-xbox-live-partner.md).
 
 ## Tools
 * The Xbox Live Trace Analyzer which you can find at [https://aka.ms/XboxLiveTools](https://aka.ms/XboxLiveTools) now has a CERT mode.  

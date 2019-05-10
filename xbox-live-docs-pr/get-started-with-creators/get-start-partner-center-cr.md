@@ -20,9 +20,9 @@ No approval process from Microsoft is required to join this program, and there a
 
 | Article | Description |
 |---------|-------------|
-| [Get started with the Creators program](get-started-with-xbox-live-creators.md) | All the high-level steps, from joining the Creators program, through releasing your game. |
-| [Create a title and publish to test environment](create-and-test-a-new-creators-title.md) | Creating a new Creators program title, and publishing it to the test environment. |
-| [Authorize Xbox Live accounts for testing in your environment](authorize-xbox-live-accounts.md) | Authorizing a public Xbox Live account for testing in your development environment. |
+| [Get started with the Creators program](../get-started/setup-partner-center/legacy/get-started-with-xbox-live-creators.md) | All the high-level steps, from joining the Creators program, through releasing your game. |
+| [Create a title and publish to test environment](../get-started/setup-partner-center/legacy/create-and-test-a-new-creators-title.md) | Creating a new Creators program title, and publishing it to the test environment. |
+| [Authorize Xbox Live accounts for testing in your environment](../get-started/setup-partner-center/legacy/authorize-xbox-live-accounts.md) | Authorizing a public Xbox Live account for testing in your development environment. |
 
 
 ## See also

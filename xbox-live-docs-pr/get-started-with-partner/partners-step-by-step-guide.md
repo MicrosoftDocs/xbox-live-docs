@@ -9,4 +9,4 @@ ms.localizationpriority: medium
 ---
 # Step by step guide to integrate Xbox Live for managed partners and ID@Xbox members
 
-See [Get started with Xbox Live, as an ID@Xbox developer or managed partner](get-started-with-xbox-live-partner.md).
+See [Get started with Xbox Live, as an ID@Xbox developer or managed partner](../get-started/setup-partner-center/legacy/get-started-with-xbox-live-partner.md).

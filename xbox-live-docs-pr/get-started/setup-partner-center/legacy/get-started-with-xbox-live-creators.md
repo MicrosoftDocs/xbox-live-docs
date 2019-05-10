@@ -53,7 +53,7 @@ It's also important to test your game on all of the platforms that it will suppo
 
 - [Xbox Live service configuration for the Creators Program](../../../get-started-with-creators/xbox-live-service-configuration-creators.md)
 - [Xbox Live test environment](../../../xbox-live-sandboxes.md)
-- [Authorize Xbox Live accounts](../../../get-started-with-creators/authorize-xbox-live-accounts.md)
+- [Authorize Xbox Live accounts](authorize-xbox-live-accounts.md)
 
 
 ## 4. Enable Xbox Live sign-in

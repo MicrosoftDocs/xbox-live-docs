@@ -18,5 +18,5 @@ High-level steps, all the way from joining the ID@Xbox Program, through releasin
 
 | Article | Description |
 |---------|-------------|
-| [Get started as a Managed Partner or ID@Xbox Partner](get-started-with-xbox-live-partner.md) | Getting started with Xbox Live development as a managed partner or ID@Xbox Partner. |
-| [Create a title](create-a-new-title.md) | Creating a new title for Xbox Live by using Partner Center. |
+| [Get started as a Managed Partner or ID@Xbox Partner](../get-started/setup-partner-center/legacy/get-started-with-xbox-live-partner.md) | Getting started with Xbox Live development as a managed partner or ID@Xbox Partner. |
+| [Create a title](../get-started/setup-partner-center/legacy/create-a-new-title.md) | Creating a new title for Xbox Live by using Partner Center. |

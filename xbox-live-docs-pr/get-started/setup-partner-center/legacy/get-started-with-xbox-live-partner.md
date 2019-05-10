@@ -50,7 +50,7 @@ See [Setting up a game at Partner Center, for Managed Partners](../setup-partner
 
 You can follow the appropriate Getting Started guide for your platform and engine and learn the basics of Xbox Live as you go along.
 
-* [Setting up an IDE](../setup-ide/index.md)
+* [Setting up an IDE](../../setup-ide/index.md)
 * [Getting started making a cross-play game](../../../get-started-with-partner/get-started-with-cross-play-games.md) shows how to make a product that is an XDK-based game for Xbox One and a UWP-based game for Windows 10 PC.
 
 
