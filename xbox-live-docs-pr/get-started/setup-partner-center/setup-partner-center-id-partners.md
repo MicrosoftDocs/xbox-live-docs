@@ -28,13 +28,13 @@ Next, at Partner Center, create a new game, as follows.
 
    The Partner Center dashboard appears, showing the "Overview" page, within the "WINDOWS" section.
 
-   ![The "Overview" page at Partner Center](images/pc_overview_pg.png)
+   ![The "Overview" page at Partner Center](setup-partner-center-id-partners_images/pc_overview_pg.png)
 
 2. Click the **Create a new...** button.
 
    The page "Create your app by reserving a name" appears.
 
-   ![The "Create your app by reserving a name" page](images/pc_createappreservename.png)
+   ![The "Create your app by reserving a name" page](setup-partner-center-id-partners_images/pc_createappreservename.png)
 
 3. In the text box, enter the name of your product.
    You can change the name later.
@@ -46,19 +46,19 @@ Next, at Partner Center, create a new game, as follows.
    > You won't be able to select this option button later.
    > (Do not select the check box "Do not create this product in a sandbox".)
 
-   ![The "Create this product in a sandbox" option button](images/pc_createappreservename02.png)
+   ![The "Create this product in a sandbox" option button](setup-partner-center-id-partners_images/pc_createappreservename02.png)
 
 5. Click the **Reserve product name** button.
 
    The "App overview" page appears.
 
-   ![The "App overview" page](images/pc_app_overview01_pg.png)
+   ![The "App overview" page](setup-partner-center-id-partners_images/pc_app_overview01_pg.png)
 
 6. Click the **Start your submission** button.
 
    The "Start your submission" dialog box appears.
 
-   ![The "Start your submission" dialog box](images/pc_startyoursubmission_dbx.png)
+   ![The "Start your submission" dialog box](setup-partner-center-id-partners_images/pc_startyoursubmission_dbx.png)
 
 7. In the "Select the sandbox..." combo field, click the down-arrow on the right, then click a sandbox; for example, "NKDXTT.0 (shared)".
 
@@ -82,7 +82,7 @@ Next, at Partner Center, create a new game, as follows.
 
    The "Identity details" page appears.
 
-   ![The "Identity details" page](images/pc_identitydetails_pg.png)
+   ![The "Identity details" page](setup-partner-center-id-partners_images/pc_identitydetails_pg.png)
 
 3. Copy the **Store ID**.
 
@@ -111,19 +111,19 @@ When you receive the above email from your MS Representative, continue with the 
 
    The "Overview" page appears.
 
-   ![The "Overview" page at Partner Center](images/pc_overview_pg.png)
+   ![The "Overview" page at Partner Center](setup-partner-center-id-partners_images/pc_overview_pg.png)
 
 2. Click **Products**, and then click your game.
 
    The "App overview" page appears.
 
-   ![The "App overview" page](images/pc_app_overview_pg.png)
+   ![The "App overview" page](setup-partner-center-id-partners_images/pc_app_overview_pg.png)
 
 3. Under **Services**, click **Xbox Live**.
 
    The "Enable Xbox Live" page appears, this first time only.
 
-   ![The "Enable Xbox Live" page](images/pc_enablexboxlive_pg.png)
+   ![The "Enable Xbox Live" page](setup-partner-center-id-partners_images/pc_enablexboxlive_pg.png)
 
 4. In the "Xbox Live app name" text box, enter the name of your game.
    You can use the same name as shown at the top of the page, but it doesn't need to be the same.
@@ -135,7 +135,7 @@ When you receive the above email from your MS Representative, continue with the 
 
    After some time, the Xbox Live "Gameplay Setting" page automatically appears.
 
-   ![The "Gameplay Setting" page](images/pc_gameplay_setting_pg.png)
+   ![The "Gameplay Setting" page](setup-partner-center-id-partners_images/pc_gameplay_setting_pg.png)
 
 You've now completed the initial setup of your game.
 Your game cannot be tested yet; you need to publish the game first.
@@ -151,7 +151,7 @@ In Partner Center, with your game selected as in the above procedures, do the fo
 
    The "Publish gameplay settings" dialog box appears.
 
-   ![The "Publish gameplay settings" dialog box](images/pc_pubgameplaysetgs_dbx.png)
+   ![The "Publish gameplay settings" dialog box](setup-partner-center-id-partners_images/pc_pubgameplaysetgs_dbx.png)
 
 2. Click the **Confirm** button.
 
@@ -174,27 +174,27 @@ The SDK can now be used in an application to sign-in.
 
    The "App overview" page appears.
 
-   ![The "App overview" page](images/pc_app_overview_02_pg.png)
+   ![The "App overview" page](setup-partner-center-id-partners_images/pc_app_overview_02_pg.png)
 
 1. Click the **Settings** gear in the upper right, then click **Developer settings**.
 
    The "Account settings" page appears.
 
-   ![The "Account settings" page](images/pc_account_settings_pg.png)
+   ![The "Account settings" page](setup-partner-center-id-partners_images/pc_account_settings_pg.png)
 
 1. In the **Settings** area in the middle, click **Xbox Live**: **Xbox test accounts**.
 
-   ![The "Settings: Xbox Live" menu](images/pc_account_settings_pg_xblmenu.png)
+   ![The "Settings: Xbox Live" menu](setup-partner-center-id-partners_images/pc_account_settings_pg_xblmenu.png)
 
    The "Manage test accounts" page appears.
 
-   ![The "Manage test accounts" page](images/pc_manage_test_accounts_pg.png)
+   ![The "Manage test accounts" page](setup-partner-center-id-partners_images/pc_manage_test_accounts_pg.png)
 
 1. Click the **New test account** button.
 
    The "New test accounts" page appears.
 
-   ![The "New test accounts" page](images/pc_new_test_accounts_pg.png)
+   ![The "New test accounts" page](setup-partner-center-id-partners_images/pc_new_test_accounts_pg.png)
 
 1. In the **Number of accounts to create** text box, enter a number, such as 5.
 
@@ -224,13 +224,13 @@ The SDK can now be used in an application to sign-in.
     The "Manage test accounts" page appears, showing your new test accounts.
     You can use these acccount email addresses later to sign in with an app, that can access the sandbox.
 
-   ![The "Manage test accounts" page with new test accounts](images/pc_manage_test_accounts_pg_newaccts.png)
+   ![The "Manage test accounts" page with new test accounts](setup-partner-center-id-partners_images/pc_manage_test_accounts_pg_newaccts.png)
 
 1. Under the **New test account** button, click the **View job history** link.  
 
     The "Job History" dialog box appears.  
 
-   ![The "Job History" dialog box](images/pc_job_history_dbx.png)
+   ![The "Job History" dialog box](setup-partner-center-id-partners_images/pc_job_history_dbx.png)
 
 1. Click the page outside the dialog box.
 
