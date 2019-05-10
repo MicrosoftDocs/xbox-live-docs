@@ -25,18 +25,18 @@
             - name: Setting up a game app at Partner Center, for ID@Xbox Partners
               href: get-started/setup-partner-center/setup-partner-center-id-partners.md
             - name: Legacy articles about Partner Center setup
-              href: get-started/setup-partner-center/legacy.md
+              href: get-started/setup-partner-center/legacy/legacy-nav.md
               items:
                 - name: Get started with Xbox Live, for Creators
-                  href: get-started-with-creators/get-started-with-xbox-live-creators.md
+                  href: get-started/setup-partner-center/legacy/get-started-with-xbox-live-creators.md
                 - name: Create an app and publish it for testing, for Creators
-                  href: get-started-with-creators/create-and-test-a-new-creators-title.md
+                  href: get-started/setup-partner-center/legacy/create-and-test-a-new-creators-title.md
                 - name: Authorize test accounts, for Creators
-                  href: get-started-with-creators/authorize-xbox-live-accounts.md
+                  href: get-started/setup-partner-center/legacy/authorize-xbox-live-accounts.md
                 - name: Get started with Xbox Live, for ID@Xbox Partners
-                  href: get-started-with-partner/get-started-with-xbox-live-partner.md
+                  href: get-started/setup-partner-center/legacy/get-started-with-xbox-live-partner.md
                 - name: Create an app and publish it for testing, for ID@Xbox Partners
-                  href: get-started-with-partner/create-a-new-title.md
+                  href: get-started/setup-partner-center/legacy/create-a-new-title.md
         - name: Setting up an IDE
           href: get-started/setup-ide/index.md
           items:
