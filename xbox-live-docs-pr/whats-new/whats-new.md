@@ -138,7 +138,7 @@ Xbox Live API (XSAPI) is now available on GitHub at [https://github.com/Microsof
 
 The Xbox Live Creators Program is a developer program offering a subset of Xbox Live functionality to a broader developer audience.  If you are already in the ID@Xbox program, this will not have any impact on you.
 
-You can read more about the program in [Developer Program Overview](../developer-program-overview.md).
+You can read more about the program in [Developer Program Overview](../get-started/join-dev-program/developer-program-overview.md).
 
 ### Documentation
 

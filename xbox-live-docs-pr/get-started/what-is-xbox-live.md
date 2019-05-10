@@ -27,7 +27,7 @@ Here are some reasons to add Xbox Live to your game:
 
 With the Xbox Live Creators Program, anyone with a [Partner Center](https://partner.microsoft.com/dashboard) account can build an Xbox Live enabled Universal Windows Platform (UWP) game that can run on both Windows 10 PCs and Xbox One consoles.
 
-For game developers that want to take advantage of the full Xbox Live experience, including multiplayer, achievements, and native Xbox console development, there are additional developer programs which are detailed in the [Developer Program Overview](../developer-program-overview.md).
+For game developers that want to take advantage of the full Xbox Live experience, including multiplayer, achievements, and native Xbox console development, there are additional developer programs which are detailed in the [Developer Program Overview](join-dev-program/developer-program-overview.md).
 
 For consumer Xbox Live information, see [Xbox Live](https://www.xbox.com/live/).
 
@@ -48,7 +48,7 @@ There are also guides for getting setup with game engines.
 
 | Article | Description |
 |---------|-------------|
-| [Developer Program Overview](../developer-program-overview.md) | The various developer programs that enable Xbox Live development. |
+| [Developer Program Overview](join-dev-program/developer-program-overview.md) | The various developer programs that enable Xbox Live development. |
 | [Get started with Xbox Live Creators Program](../get-started-with-creators/get-started-with-xbox-live-creators.md) | How to get started with Xbox Live in the Xbox Live Creators Program. |
 | [Get started with Xbox Live as an ID@Xbox or managed  developer](../get-started-with-partner/get-started-with-xbox-live-partner.md) | How to get started with Xbox Live as a developer in the ID@Xbox Program. |
 

@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 # Adding player stats and leaderboards to a Unity project
 
 > [!IMPORTANT]
-> The Xbox Live Unity plugin does not support achievements or online multiplayer and is only recommended for [Xbox Live Creators Program](../developer-program-overview.md) members.
+> The Xbox Live Unity plugin does not support achievements or online multiplayer and is only recommended for [Xbox Live Creators Program](../get-started/join-dev-program/developer-program-overview.md) members.
 
 Once you have added [Xbox Live sign in](unity-prefabs-and-sign-in.md) to your Unity project, the next step is to add player stats and leaderboards based on those player stats.
 

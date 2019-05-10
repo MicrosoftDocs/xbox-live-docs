@@ -11,7 +11,7 @@ localizationpriority: medium
 # Configuring Xbox Live in Unity
 
 > [!NOTE]
-> The Xbox Live Unity plugin is only recommended for [Xbox Live Creators Program](../developer-program-overview.md) members, since currently there is no support for achievements or multiplayer.
+> The Xbox Live Unity plugin is only recommended for [Xbox Live Creators Program](../get-started/join-dev-program/developer-program-overview.md) members, since currently there is no support for achievements or multiplayer.
 
 With the [Xbox Live Unity Plugin](https://github.com/Microsoft/xbox-live-unity-plugin), adding Xbox Live support to a Unity game is easy, giving you more time to focus on using Xbox Live in ways that best suit your title.
 

@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 # Add controller support to Xbox Live prefabs
 
 > [!IMPORTANT]
-> The Xbox Live Unity plugin does not support achievements or online multiplayer and is only recommended for [Xbox Live Creators Program](../developer-program-overview.md) members.
+> The Xbox Live Unity plugin does not support achievements or online multiplayer and is only recommended for [Xbox Live Creators Program](../get-started/join-dev-program/developer-program-overview.md) members.
 
 All of the Xbox Live Unity Plugin Prefabs support specifying controller input in the inspector.
 
