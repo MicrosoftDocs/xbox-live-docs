@@ -10,13 +10,13 @@
           href: get-started/join-dev-program/index.md
           items:
             - name: Choosing an Xbox Live developer program
-              href: developer-program-overview.md
+              href: get-started/join-dev-program/developer-program-overview.md
             - name: Features supported for each developer program
-              href: get-started/feature-comparison-table.md
+              href: get-started/join-dev-program/feature-comparison-table.md
             - name: Joining the Creators Program
               href: get-started/join-dev-program/join-creators-program.md
             - name: Joining the ID@Xbox Program
-              href: get-started/join-dev-program/join-mp-program.md
+              href: get-started/join-dev-program/join-id-program.md
         - name: Setting up a game app at Partner Center
           href: get-started/setup-partner-center/index.md
           items:
