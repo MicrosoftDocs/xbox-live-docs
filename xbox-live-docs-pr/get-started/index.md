@@ -20,7 +20,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../images/getting_started/what-is-xbl.svg" alt="What is Xbox Live?" />
+                                <img src="https://docs.microsoft.com/media/common/i_overview.svg" alt="What is Xbox Live?" />
                             </div>
                         </div>
                         <div class="cardText"> 

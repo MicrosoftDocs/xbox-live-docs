@@ -47,29 +47,29 @@
                   href: get-started/setup-ide/creators/vs-win10/index.md
                   items:
                     - name: Setting up Visual Studio targeting Windows 10
-                      href: get-started-with-creators/develop-creators-title-with-visual-studio.md
+                      href: get-started/setup-ide/creators/vs-win10/develop-creators-title-with-visual-studio.md
                 - name: Unity targeting Windows 10
                   href: get-started/setup-ide/creators/unity-win10/index.md
                   items:
                     - name: Configuring Xbox Live in Unity
-                      href: get-started-with-creators/configure-xbox-live-in-unity.md
+                      href: get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md
                     - name: Signing into Xbox Live in Unity
-                      href: get-started-with-creators/unity-signin-nav.md
+                      href: get-started/setup-ide/creators/unity-win10/signin/unity-signin-nav.md
                       items: 
                         - name: Easy sign-in with the PlayerAuthentication prefab
-                          href: get-started-with-creators/playerauthentication-prefab-sign-in.md
+                          href: get-started/setup-ide/creators/unity-win10/signin/playerauthentication-prefab-sign-in.md
                         - name: Scripting Sign-In with the SignInManager in Unity
-                          href: get-started-with-creators/sign-in-manager.md
+                          href: get-started/setup-ide/creators/unity-win10/signin/sign-in-manager.md
                         - name: Sign-in in Unity through prefabs or scripting (pre-1804 release)
-                          href: get-started-with-creators/unity-prefabs-and-sign-in.md
+                          href: get-started/setup-ide/creators/unity-win10/signin/unity-prefabs-and-sign-in.md
                     - name: Testing a Unity game build in Visual Studio
-                      href: get-started-with-creators/test-visual-studio-build.md
+                      href: get-started/setup-ide/creators/unity-win10/test-visual-studio-build.md
                     - name: Add controller support to Xbox Live prefabs
-                      href: get-started-with-creators/add-controller-support-to-xbox-live-prefabs.md
+                      href: get-started/setup-ide/creators/unity-win10/add-controller-support-to-xbox-live-prefabs.md
                     - name: Add multi-user support to a Unity game
-                      href: get-started-with-creators/add-multi-user-support.md
+                      href: get-started/setup-ide/creators/unity-win10/add-multi-user-support.md
                     - name: Checking user privilege settings in Unity
-                      href: get-started-with-creators/check-user-privileges-in-unity.md
+                      href: get-started/setup-ide/creators/unity-win10/check-user-privileges-in-unity.md
             - name: Setting up an IDE, for ID@Xbox Partners
               href: get-started/setup-ide/managed-partners/index.md
               items:
