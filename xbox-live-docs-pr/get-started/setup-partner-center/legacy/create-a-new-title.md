@@ -51,17 +51,17 @@ To register, go to [https://developer.microsoft.com/en-us/store/register](https:
 Next, you need a UWP title defined in Partner Center.
 You do that by first going to the Partner Center Dashboard:
 
-![Partner Center screenshot highlighting Dashboard location](../../../images/getting_started/first_xbltitle_dashboard.png)
+![Partner Center screenshot highlighting Dashboard location](create-a-new-title_images/first_xbltitle_dashboard.png)
 
 Then, create a new title.
 You'll need to reserve a name.
 
-![Partner Center name reservation dialogue box screenshot](../../../images/getting_started/first_xbltitle_newapp.png)
+![Partner Center name reservation dialogue box screenshot](create-a-new-title_images/first_xbltitle_newapp.png)
 
 You'll then be taken to the *App Overview* page for your app.
 The primary page where you'll be configuring Xbox Live is under the **Services -> Xbox Live** menu shown below.
 
-![Xbox Live services configuration location in Partner Center menu left nav screenshot](../../../images/getting_started/first_xbltitle_leftnav.png)
+![Xbox Live services configuration location in Partner Center menu left nav screenshot](create-a-new-title_images/first_xbltitle_leftnav.png)
 
 <div id="createxblaccount"></div>
 
@@ -76,7 +76,7 @@ It will then be enabled for use with Xbox Live.
 
 You can find the Xbox App by going into the *Start Menu* and typing in "Xbox" as shown below.
 
-![Xbox App in Start Menu screenshot](../../../images/getting_started/first_xbltitle_xboxapp.png)
+![Xbox App in Start Menu screenshot](create-a-new-title_images/first_xbltitle_xboxapp.png)
 
 
 ## Next Steps

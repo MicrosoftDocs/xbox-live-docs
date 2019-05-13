@@ -132,7 +132,7 @@ From get-started-with-ios-android/ios-get-started-with-xsapi.md :
     The file is displayed as nested rows.
     The **App Transport Security Settings** section should look like the following:
 
-    ![App transport security settings](xblsdk-info-ats.png)
+    ![App transport security settings](xcode-ios-mp_images/xblsdk-info-ats.png)
 
 
 <!-- ## Prepare native files to initialize and cleanup Xbox Live -->

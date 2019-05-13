@@ -43,17 +43,17 @@ To authorize a new account:
 
 1. In the Xbox test accounts page, all currently authorized accounts are listed. Click the **Add account** button.
 
-![Adding Xbox Live Accounts](../../../images/creators_udc/add_test_account.png)
+![Adding Xbox Live Accounts](authorize-xbox-live-accounts_images/add_test_account.png)
 
    A modal dialog box appears, with one text box where you can enter the desired account’s email address:
 
-![Adding Xbox Live Accounts Modal](../../../images/creators_udc/add_test_account_modal.png)
+![Adding Xbox Live Accounts Modal](authorize-xbox-live-accounts_images/add_test_account_modal.png)
 
 2. Click the **Add** button to validate that the email address exists and has an associated Xbox Live Account.
 
    If the checks pass, the modal dialog box will disappear and you will see the new account in the table indicting it is now successfully authorized for your test environment:
 
-![Adding Xbox Live Accounts Success](../../../images/creators_udc/add_test_account_success.png)
+![Adding Xbox Live Accounts Success](authorize-xbox-live-accounts_images/add_test_account_success.png)
 
 
 ## Troubleshooting
