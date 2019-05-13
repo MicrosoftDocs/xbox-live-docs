@@ -27,7 +27,7 @@ In order to determine user privilege settings, you must have configured your gam
 
 The following articles outline the steps that you can take:
 
-* [Sign in to Xbox Live in Unity (build and test sign-in)](unity-prefabs-and-sign-in.md#build-and-test-sign-in)
+* [Sign in to Xbox Live in Unity (build and test sign-in)](signin/unity-prefabs-and-sign-in.md#build-and-test-sign-in)
 * [Test your Unity game build in Visual Studio](test-visual-studio-build.md)
 
 
@@ -65,4 +65,4 @@ if (XboxLiveUser.User.Privileges.Contains("247"))
 
 ## Privilege codes
 
-See [Privilege codes for Social Manager](../features/social/friends-list/social-manager/privilege-codes.md).
+See [Privilege codes for Social Manager](../../../../features/social/friends-list/social-manager/privilege-codes.md).

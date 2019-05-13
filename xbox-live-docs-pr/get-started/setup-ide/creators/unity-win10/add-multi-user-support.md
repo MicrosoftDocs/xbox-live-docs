@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 # Add multi-user support to a Unity game
 
 > [!IMPORTANT]
-> The Xbox Live Unity plugin does not support achievements or online multiplayer and is only recommended for [Xbox Live Creators Program](../get-started/join-dev-program/developer-program-overview.md) members.
+> The Xbox Live Unity plugin does not support achievements or online multiplayer and is only recommended for [Xbox Live Creators Program](../../../join-dev-program/developer-program-overview.md) members.
 
 Multi-user support is supported by the Xbox Live Unity Plugin for scenarios that involve multiple local players.
 Each player can use their own Xbox Live account for stats and sign-in.
