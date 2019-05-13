@@ -11,7 +11,7 @@ localizationpriority: medium
 # Configuring Xbox Live in Unity
 
 > [!NOTE]
-> The Xbox Live Unity plugin is only recommended for [Xbox Live Creators Program](../get-started/join-dev-program/developer-program-overview.md) members, since currently there is no support for achievements or multiplayer.
+> The Xbox Live Unity plugin is only recommended for [Xbox Live Creators Program](../../../join-dev-program/developer-program-overview.md) members, since currently there is no support for achievements or multiplayer.
 
 With the [Xbox Live Unity Plugin](https://github.com/Microsoft/xbox-live-unity-plugin), adding Xbox Live support to a Unity game is easy, giving you more time to focus on using Xbox Live in ways that best suit your title.
 
@@ -42,7 +42,7 @@ To import the plugin into your new or existing Unity project, follow these steps
 2. Download **XboxLive.unitypackage**.
 3. In Unity, click **Assets** > **Import Package** > **Custom Package** and navigate to **XboxLive.unitypackage**.
 
-![successful import](../images/unity/get-started-with-creators/importXBL_Small.gif)
+![successful import](configure-xbox-live-in-unity_images/importXBL_Small.gif)
 
 
 ### (Optional) Configure the plugin to work in the Unity Editor (.NET 4.6 or IL2CPP only)
@@ -77,7 +77,7 @@ If your project is using the scripting runtime version of .NET 4.6, you will nee
 
 4. In the Inspector window, uncheck **Editor** under **Include Platforms**.
 
-![change scripting runtime](../images/unity/get-started-with-creators/changeScriptingRuntime.gif)
+![change scripting runtime](configure-xbox-live-in-unity_images/changeScriptingRuntime.gif)
 
 > [!IMPORTANT]
 > These steps will need to be reversed if you change the scripting runtime version in your project back to 3.5.
@@ -88,7 +88,7 @@ If your project is using the scripting runtime version of .NET 4.6, you will nee
 Visual Studio is required to build a [Universal Windows Platform (UWP)](https://docs.microsoft.com/windows/uwp/get-started/whats-a-uwp) game.
 You can set your IDE in Unity to Visual Studio by going into **Edit** > **Preferences** > **External Tools** and setting the **External Script Editor** to Visual Studio.
 
-![set VS External Tool](../images/unity/get-started-with-creators/setVSExternalTool_Small.gif)
+![set VS External Tool](configure-xbox-live-in-unity_images/setVSExternalTool_Small.gif)
 
 
 ## Unity plugin file structure
@@ -130,15 +130,15 @@ You can verify both by looking at the **Xbox Live Configuration** window in Unit
 
 2. **Title Configuration** > **Sandbox** should have the same ID as **Developer Mode Configuration** > **Developer Mode**.
 
-![XBL Enabled](../images/unity/unity-xbl-enabled.png)
+![XBL Enabled](configure-xbox-live-in-unity_images/unity-xbl-enabled.png)
 
-See [Xbox Live sandboxes](../xbox-live-sandboxes.md) for information about sandboxes.
+See [Xbox Live sandboxes](../../../../xbox-live-sandboxes.md) for information about sandboxes.
 
 
 ## Build and test the project
 
 When running your title in the editor, you will see fake data when you try to use Xbox Live functionality.
-For example, if you [add sign in capabilities](unity-prefabs-and-sign-in.md) to your scene and try to sign in, you will see **Fake User** appear as your profile name, with a placeholder icon.
+For example, if you [add sign in capabilities](signin/unity-prefabs-and-sign-in.md) to your scene and try to sign in, you will see **Fake User** appear as your profile name, with a placeholder icon.
 To sign in with a real profile and test out Xbox Live functionality in your title, you'll need to build a UWP solution and run it in Visual Studio.
 
 You can build the UWP project in Unity, as follows:
@@ -156,7 +156,7 @@ You can build the UWP project in Unity, as follows:
 
 6. Click **Build** and specify the location of the project.
 
-![build settings](../images/unity/build_settings.JPG)
+![build settings](configure-xbox-live-in-unity_images/build_settings.JPG)
 
 Once the build has finished, Unity will have generated a new UWP solution file which you will need to run in Visual Studio:
 
@@ -166,7 +166,7 @@ Once the build has finished, Unity will have generated a new UWP solution file w
 
 If you enabled **script debugging** when you built the UWP solution from Unity, then your scripts will be located under the **Assembly-CSharp (Universal Windows)** project.
 
-![Fake User: 123456789](../images/unity/get-started-with-creators/visualStudio.PNG)
+![Fake User: 123456789](configure-xbox-live-in-unity_images/visualStudio.PNG)
 
 > [!NOTE]
 > Before using your Visual Studio build to test your game with real data, follow [this checklist](test-visual-studio-build.md) to help ensure your title will be able to access the Xbox Live service.
@@ -192,7 +192,7 @@ If you enabled **script debugging** when you built the UWP solution from Unity, 
 You can now start using Xbox Live in your Unity project.
 Try opening scenes in the **Xbox Live/Examples** folder to see the plugin in action, and for examples of how to use the functionality yourself.
 
-Running the examples in the editor will give you fake data - to sign in with your gamertag, build the project in Visual Studio and [associate your Xbox Live account with the sandbox](../get-started/setup-partner-center/legacy/authorize-xbox-live-accounts.md).
+Running the examples in the editor will give you fake data - to sign in with your gamertag, build the project in Visual Studio and [associate your Xbox Live account with the sandbox](../../../setup-partner-center/legacy/authorize-xbox-live-accounts.md).
 
 * Try the **SignInAndProfile** scene for signing into your Microsoft Account.
 * Try the **Leaderboard** scene for creating a leaderboard.
@@ -201,5 +201,5 @@ Running the examples in the editor will give you fake data - to sign in with you
 
 ## See also
 
-* [Sign in to Xbox Live in Unity](unity-prefabs-and-sign-in.md)
-* [Authorize Xbox Live accounts](../get-started/setup-partner-center/legacy/authorize-xbox-live-accounts.md)
+* [Sign in to Xbox Live in Unity](signin/unity-prefabs-and-sign-in.md)
+* [Authorize Xbox Live accounts](../../../setup-partner-center/legacy/authorize-xbox-live-accounts.md)

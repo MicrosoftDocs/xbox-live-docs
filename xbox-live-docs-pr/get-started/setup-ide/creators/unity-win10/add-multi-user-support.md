@@ -44,13 +44,13 @@ You will need to have followed the [Getting Started](configure-xbox-live-in-unit
 
    * Since these prefabs use the Unity Eventsystem, make sure that you have an instance of the `EventSystem` on the scene.
 
-    ![Hierarchy of Multi-User Support in Xbox Live Unity Plugin Tutorial Project](../images/unity/MUA-Tutorial-Hierarchy.png)
+    ![Hierarchy of Multi-User Support in Xbox Live Unity Plugin Tutorial Project](add-multi-user-support_images/MUA-Tutorial-Hierarchy.png)
 
-    ![Game Scene of Multi-User Support in Xbox Live Unity Plugin Tutorial Project](../images/unity/MUA-Tutorial-GameScene.png)
+    ![Game Scene of Multi-User Support in Xbox Live Unity Plugin Tutorial Project](add-multi-user-support_images/MUA-Tutorial-GameScene.png)
 
 3. Assign one instance of the **XboxLiveUser** prefabs you have on the scene to each of the **UserProfile** objects.
 
-    ![UserProfile prefab for multi-user support](../images/unity/user-profile-for-mua.png)
+    ![UserProfile prefab for multi-user support](add-multi-user-support_images/user-profile-for-mua.png)
 
 4. Since Multi-User applications are only supported on Xbox One devices, adding controller support to the **UserProfile** objects is required.
    On each **UserProfile** object, there is a field called `InputControllerButton` where you can specify the joystick and button numbers each **UserProfile** should listen to.
@@ -63,7 +63,7 @@ You will need to have followed the [Getting Started](configure-xbox-live-in-unit
 
 5. Run the scene in the editor and hit run on each of the buttons to make sure everything is configured correctly.
 
-   ![Testing Multi-User Support in Unity Editor](../images/unity/run-example-mua.png)
+   ![Testing Multi-User Support in Unity Editor](add-multi-user-support_images/run-example-mua.png)
 
 
 ## Building and Testing the UWP
