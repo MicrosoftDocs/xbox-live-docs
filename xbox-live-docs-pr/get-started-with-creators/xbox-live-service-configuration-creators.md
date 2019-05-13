@@ -86,4 +86,4 @@ By default, Xbox One Consoles and Windows 10 PCs are in the RETAIL sandbox.
 
 On the Xbox Live configuration page, click the **Test** button to publish the current Xbox Live configuration to your development sandbox.
 
-![Partner center screenshot with test publish button](../images/creators_udc/creators_udc_xboxlive_config_test.png)
+![Partner center screenshot with test publish button](xbox-live-service-configuration-creators_images/creators_udc_xboxlive_config_test.png)

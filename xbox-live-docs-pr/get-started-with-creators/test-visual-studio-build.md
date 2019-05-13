@@ -33,7 +33,7 @@ The following articles serve as a checklist of items to help ensure successful t
     When you make changes to your title, those changes must be published to your sand box before they can be used.
     Make sure you push the **Test** button to publish your changes to your configuration.
 
-    ![Publish for test image](../images/creators_udc/creators_udc_xboxlive_config_test.png)
+    ![Publish for test image](test-visual-studio-build_images/creators_udc_xboxlive_config_test.png)
 
     The **Test** button is found in [Partner Center](https://partner.microsoft.com/dashboard) under your title's Xbox Live service settings.
     If you made any changes to your configuration such as adding a new authorized test account, you will want to push the **Test** button to publish the new configuration settings to the Xbox Live service.
