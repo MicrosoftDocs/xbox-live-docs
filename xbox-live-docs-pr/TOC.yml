@@ -82,9 +82,9 @@
                       href: get-started/setup-ide/managed-partners/as-android/other/index.md
                       items:
                         - name: Get started with the Xbox Live APIs on Android
-                          href: get-started-with-ios-android/android-get-started-with-xsapi.md
+                          href: get-started/setup-ide/managed-partners/as-android/other/android-get-started-with-xsapi.md
                         - name: Setting up Visual Studio for XAL login on Android
-                          href: using-xbox-live/auth/android-xal.md
+                          href: get-started/setup-ide/managed-partners/as-android/other/android-xal.md
                 - name: Xcode targeting iOS
                   href: get-started/setup-ide/managed-partners/xcode-ios/index.md
                   items:
@@ -94,45 +94,45 @@
                       href: get-started/setup-ide/managed-partners/xcode-ios/other/index.md
                       items:
                         - name: Get started with the Xbox Live SDK for iOS
-                          href: get-started-with-ios-android/ios-get-started-with-xsapi.md
+                          href: get-started/setup-ide/managed-partners/xcode-ios/other/ios-get-started-with-xsapi.md
                 - name: Visual Studio targeting Windows 10
                   href: get-started/setup-ide/managed-partners/vs-win10/index.md
                   items:
                     - name: Get started using Visual Studio for UWP games
-                      href: get-started-with-partner/get-started-with-visual-studio-and-uwp.md
+                      href: get-started/setup-ide/managed-partners/vs-win10/get-started-with-visual-studio-and-uwp.md
                     - name: Add an XSAPI binary package to a UWP project
-                      href: get-started-with-partner/add-xbox-live-apis-binary-to-a-uwp-project.md
+                      href: get-started/setup-ide/managed-partners/vs-win10/add-xbox-live-apis-binary-to-a-uwp-project.md
                     - name: Add and compile XSAPI source code into a UWP project
-                      href: get-started-with-partner/add-xbox-live-apis-source-to-a-uwp-project.md
+                      href: get-started/setup-ide/managed-partners/vs-win10/add-xbox-live-apis-source-to-a-uwp-project.md
                     - name: The XboxServices.config file for UWP games
-                      href: xboxservices-config.md
+                      href: get-started/setup-ide/managed-partners/vs-win10/xboxservices-config.md
                 - name: Visual Studio targeting Xbox
                   href: get-started/setup-ide/managed-partners/vs-xbox/index.md
                   items:
                     - name: Getting the XDK
-                      href: get-started-with-partner/where-to-get-xdk.md
+                      href: get-started/setup-ide/managed-partners/vs-xbox/where-to-get-xdk.md
                     - name: Configure an Xbox development console
-                      href: get-started-with-partner/configure-your-development-console.md
+                      href: get-started/setup-ide/managed-partners/vs-xbox/configure-your-development-console.md
                     - name: Add Xbox Live to an XDK project
-                      href: get-started-with-partner/add-xbox-live-to-an-xdk-project.md
+                      href: get-started/setup-ide/managed-partners/vs-xbox/add-xbox-live-to-an-xdk-project.md
                     - name: Using Xbox Live APIs built into the XDK
-                      href: get-started-with-partner/using-xbox-live-apis-built-into-the-xdk.md
+                      href: get-started/setup-ide/managed-partners/vs-xbox/using-xbox-live-apis-built-into-the-xdk.md
                     - name: Use the Xbox Live API NuGet package to develop XDK titles
-                      href: get-started-with-partner/use-xbox-live-nuget-with-xdk.md
+                      href: get-started/setup-ide/managed-partners/vs-xbox/use-xbox-live-nuget-with-xdk.md
                     - name: Compile the XDK Xbox Live API source
-                      href: get-started-with-partner/compile-the-xdk-xbox-live-api-source.md
+                      href: get-started/setup-ide/managed-partners/vs-xbox/compile-the-xdk-xbox-live-api-source.md
                 - name: Unity targeting Windows 10
                   href: get-started/setup-ide/managed-partners/unity-win10/index.md
                   items:
                     - name: Add XBL support to Unity for UWP, with .NET scripting
-                      href: get-started-with-partner/partner-add-xbox-live-to-unity-uwp.md
+                      href: get-started/setup-ide/managed-partners/unity-win10/partner-add-xbox-live-to-unity-uwp.md
                     - name: Add XBL support to Unity for UWP, with IL2CPP scripting
-                      href: get-started-with-partner/partner-unity-uwp-il2cpp.md
+                      href: get-started/setup-ide/managed-partners/unity-win10/partner-unity-uwp-il2cpp.md
                 - name: Unity targeting Xbox
                   href: get-started/setup-ide/managed-partners/unity-xbox/index.md
                   items:
                     - name: Add XBL support to Unity for XDK, with IL2CPP scripting
-                      href: get-started-with-partner/partner-unity-xdk-il2cpp.md
+                      href: get-started/setup-ide/managed-partners/unity-xbox/partner-unity-xdk-il2cpp.md
         - name: Adding basic sign-in code
           href: get-started/add-signin-code/index.md
           items:
