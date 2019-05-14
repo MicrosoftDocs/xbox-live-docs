@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 > [!IMPORTANT]
 > The Xbox Live Unity plugin does not support achievements or online multiplayer and is only recommended for [Xbox Live Creators Program](../get-started/join-dev-program/developer-program-overview.md) members.
 
-Once you have added [Xbox Live sign in](unity-prefabs-and-sign-in.md) to your Unity project, the next step is to add player stats and leaderboards based on those player stats.
+Once you have added [Xbox Live sign in](../get-started/setup-ide/creators/unity-win10/signin/unity-prefabs-and-sign-in.md) to your Unity project, the next step is to add player stats and leaderboards based on those player stats.
 
 With the [Xbox Live Unity plugin](https://github.com/Microsoft/xbox-live-unity-plugin), you can easily add player stats and leaderboards in your Unity project.
 Similar to the sign-in steps, you can either use the included prefabs, or attach the included scripts to your own custom game objects.
@@ -21,8 +21,8 @@ Similar to the sign-in steps, you can either use the included prefabs, or attach
 
 ## Prerequisites
 
-1. [Configure Xbox Live in Unity](configure-xbox-live-in-unity.md)
-2. [Sign in to Xbox Live in Unity](unity-prefabs-and-sign-in.md)
+1. [Configure Xbox Live in Unity](../get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md)
+2. [Sign in to Xbox Live in Unity](../get-started/setup-ide/creators/unity-win10/signin/unity-prefabs-and-sign-in.md)
 
 
 ## Player stats
@@ -146,12 +146,12 @@ In the Unity Inspector, you can set the following attributes:
 
 In the Unity editor, the **Leaderboard** prefab will always display the same mock data regardless of the inspector settings.
 You must build and export your project to Visual Studio and sign in with an authorized user to see real data values.
-For more information, see [Configure Xbox Live in Unity](configure-xbox-live-in-unity.md).
+For more information, see [Configure Xbox Live in Unity](../get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md).
 
 
 ## See also
 
-* [Sign into Xbox Live in Unity](unity-prefabs-and-sign-in.md)
-* [Configure Xbox Live in Unity](configure-xbox-live-in-unity.md)
+* [Sign into Xbox Live in Unity](../get-started/setup-ide/creators/unity-win10/signin/unity-prefabs-and-sign-in.md)
+* [Configure Xbox Live in Unity](../get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md)
 * [The Leaderboard Example Scene](setup-leaderboard-example-scene.md)
 * [Get Leaderboard Data](unity-leaderboard-from-scratch.md)

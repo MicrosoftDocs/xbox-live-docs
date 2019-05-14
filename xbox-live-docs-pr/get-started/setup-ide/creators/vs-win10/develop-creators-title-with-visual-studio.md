@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 This article is for the Creators program.
 
 > [!NOTE]
-> There is a plugin available for games that are being developed with Unity. See [Develop a Creators title with Unity](develop-creators-title-with-unity.md).
+> There is a plugin available for games that are being developed with Unity. See [Unity targeting Windows 10](../unity-win10/index.md).
 
 
 ## Requirements
@@ -30,7 +30,7 @@ This article is for the Creators program.
 ## Create a new product in Partner Center
 
 Every Xbox Live title must have a product created in [Partner Center](https://partner.microsoft.com/dashboard) before you will be able to sign-in and make Xbox Live Service calls.
-See [Creating a new Creators title](../get-started/setup-partner-center/legacy/create-and-test-a-new-creators-title.md).
+See [Creating a new Creators title](../../../get-started/setup-partner-center/legacy/create-and-test-a-new-creators-title.md).
 
 
 ## Configuring your development device
@@ -40,13 +40,13 @@ The following preliminary setup steps are required on your device, so that you c
 
 ### Set your sandbox
 
-Sandboxes offer a way to keep your [Xbox Live Service Configuration](xbox-live-service-configuration-creators.md) isolated from retail until you are ready to release your title.
+Sandboxes offer a way to keep your [Xbox Live Service Configuration](../../../../get-started-with-creators/xbox-live-service-configuration-creators.md) isolated from retail until you are ready to release your title.
 Some data that you accumulate is specific to a sandbox.
 
 For example, suppose your title defines a stat called *Headshots*, and you accumulate some number of Headshots in a user account while testing your title.
 This value would be specific to your title's development sandbox, and if you switched to playing the retail version of your title, the headshots would not carry over.
 
-See [Using Xbox Live sandboxes](xbox-live-sandboxes-creators.md).
+See [Using Xbox Live sandboxes](../../../../get-started-with-creators/xbox-live-sandboxes-creators.md).
 
 
 ### Sign-in with an Xbox Live account that has been authorized for testing
@@ -54,7 +54,7 @@ See [Using Xbox Live sandboxes](xbox-live-sandboxes-creators.md).
 To sign-in to your development sandbox, you must provision a regular Microsoft Account (MSA) for access to your sandbox.
 This provides improved security for your titles in development, as well as some other benefits.
 
-To learn more about test accounts and how to create one, see [Authorize Xbox Live Accounts for Testing in your environment](../get-started/setup-partner-center/legacy/authorize-xbox-live-accounts.md).
+To learn more about test accounts and how to create one, see [Authorize Xbox Live Accounts for Testing in your environment](../../../get-started/setup-partner-center/legacy/authorize-xbox-live-accounts.md).
 
 
 ## Visual Studio Project Setup
@@ -72,7 +72,7 @@ If you do not already have an existing UWP project, you can create one by doing 
 
 4. Specify the Target Version and Minimum Version of the Windows 10 SDK. See [Choose a UWP version](https://docs.microsoft.com/windows/uwp/updates-and-versions/choose-a-uwp-version) for more information.
 
-![create project in VS](../images/getting_started/vs-create-project.gif)
+![create project in VS](develop-creators-title-with-visual-studio_images/vs-create-project.gif)
 
 > [!NOTE]
 > > Xbox Live API (XSAPI) requires a minimum version 10.0.10586.0 or higher.
@@ -90,7 +90,7 @@ C++ is the recommended API to use for C++ game engines.
 To use the Xbox Live API from your project, you can either add references to the binaries by using NuGet packages or adding the API source.
 Adding NuGet packages makes compilation quicker while adding the source makes debugging easier.
 This article will walk through using NuGet packages.
-If you want to use source, then please see [Compiling the Xbox Live APIs Source In Your UWP Project](../get-started-with-partner/add-xbox-live-apis-source-to-a-uwp-project.md).
+If you want to use source, then please see [Compiling the Xbox Live APIs Source In Your UWP Project](../../../../get-started-with-partner/add-xbox-live-apis-source-to-a-uwp-project.md).
 
 You can add the Xbox Live SDK NuGet package by:
 
@@ -102,7 +102,7 @@ You can add the Xbox Live SDK NuGet package by:
 
 4. On the right side of the window, check the box next to your project and click **Install**.
 
-![add XBL via NuGet](../images/getting_started/vs-add-nuget-xbl.gif)
+![add XBL via NuGet](develop-creators-title-with-visual-studio_images/vs-add-nuget-xbl.gif)
 
 
 #### Optionally include XSAPI header in your project
@@ -120,7 +120,7 @@ For example:
 
 ### 3. (Optional) Using Connected Storage
 
-If you want to use the [Connected Storage](../storage-platform/connected-storage/connected-storage-technical-overview.md) service, you will need to access the `Windows.Gaming.XboxLive.Storage` namespace.
+If you want to use the [Connected Storage](../../../../storage-platform/connected-storage/connected-storage-technical-overview.md) service, you will need to access the `Windows.Gaming.XboxLive.Storage` namespace.
 Depending on the version of the Windows SDK that you are using, you may need to install additional content or manually add references to your project to use it.
 
 If you've targeted Windows 10 SDK 10.0.16299 or higher, then you will be able to access the Connected Storage namespace without doing any additional work.
@@ -138,7 +138,7 @@ After you have installed the Xbox Live Platform Extensions SDK, you will need to
 3. In the list that appears, search for **Windows Desktop Extensions for UWP** and select the checkbox next to the version that matches your Windows 10 SDK.
 4. Click **OK**.
 
-![add new reference in VS](../images/getting_started/get-started-vs-add-ref.png)
+![add new reference in VS](develop-creators-title-with-visual-studio_images/get-started-vs-add-ref.png)
 
 
 ### 4. Associate your Visual Studio project with your UWP app
@@ -164,7 +164,7 @@ You can set these properties as follows:
 1. Double-click the **package.appxmanifest** file in Visual Studio to open the **Manifest Designer**.
 2. Click on the **Capabilities** tab and check **Internet (Client)**.
 
-![add new reference in VS](../images/getting_started/get-started-vs-add-capability.png)
+![add new reference in VS](develop-creators-title-with-visual-studio_images/get-started-vs-add-capability.png)
 
 
 ### 6. Associate your Visual Studio project with your Xbox Live enabled title
@@ -200,7 +200,7 @@ For example:
 ```
 
 > [!TIP]
-> All values inside xboxservices.config are case sensitive. See [Service Configuration](../xbox-live-service-configuration.md) for more information on obtaining the TitleID and PrimaryServiceConfigId.
+> All values inside xboxservices.config are case sensitive. See [Service Configuration](../../../../xbox-live-service-configuration.md) for more information on obtaining the TitleID and PrimaryServiceConfigId.
 
 
 ## Learn More
