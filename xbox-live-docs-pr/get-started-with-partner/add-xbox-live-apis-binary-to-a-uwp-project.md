@@ -45,7 +45,7 @@ You can add the Xbox Live SDK NuGet package, as follows:
 > [!NOTE]
 > Xbox Live Creators Program developers must use one of the UWP versions of the Xbox Live SDK, as XDK is not supported.
 
-![add XBL via NuGet](../images/getting_started/vs-add-nuget-xbl.gif)
+![add XBL via NuGet](add-xbox-live-apis-binary-to-a-uwp-project_images/vs-add-nuget-xbl.gif)
 
 > [!IMPORTANT]
 > For `Microsoft.Xbox.Live.SDK.Cpp.*` based projects, make sure to include the header `#include <xsapi\services.h>` in your project's source.

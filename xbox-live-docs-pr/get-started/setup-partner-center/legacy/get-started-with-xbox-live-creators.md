@@ -32,7 +32,7 @@ See [Creating a new Creators title](create-and-test-a-new-creators-title.md).
 You can follow the appropriate "getting started guide" for your platform and engine and learn the basics of Xbox Live as you go along:
 
 * [Develop a Creators title with Visual Studio](../../setup-ide/creators/vs-win10/develop-creators-title-with-visual-studio.md) will show you how to link your Visual Studio project with your Xbox Live configuration in Partner Center.
-* [Develop a Creators title with Unity](../../../get-started-with-creators/develop-creators-title-with-unity.md) will show you how to create a new Xbox Live enabled Unity game, handle single user and multi-user sign in, add features such as leaderboards and stats, and generate a native Visual Studio project.
+* [Unity targeting Windows 10](../../setup-ide/creators/unity-win10/index.md) will show you how to create a new Xbox Live enabled Unity game, handle single user and multi-user sign in, add features such as leaderboards and stats, and generate a native Visual Studio project.
 
 While Unity is the only third party game engine for which we provide documentation, The game engines [Construct (2 & 3)](https://www.scirra.com/construct2) and [Game Maker Studio](https://www.yoyogames.com/gamemaker) also have documentation to help you integrate Xbox Live into your Construct or Game Maker Studio game respectively.
 

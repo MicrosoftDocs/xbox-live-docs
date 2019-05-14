@@ -64,7 +64,7 @@ If you do not already have an existing UWP project, you can create one by doing 
 3. In the lower portion of the dialog, give the project a name and specify the location of the project.
 4. Specify the Target Version and Minimum Version of the Windows 10 SDK. See [Choose a UWP version](https://docs.microsoft.com/windows/uwp/updates-and-versions/choose-a-uwp-version) for more information.
 
-![create project in VS](../images/getting_started/vs-create-project.gif)
+![create project in VS](get-started-with-visual-studio-and-uwp_images/vs-create-project.gif)
 
 > [!NOTE]
 > Xbox Live API (XSAPI) requires a minimum version 10.0.10586.0 or higher.
@@ -94,7 +94,7 @@ To add the Xbox Live SDK NuGet package:
 3. Select the version of the Xbox Live SDK that you want to use from the list on the left. In this case, we will use the Microsoft.Xbox.Live.SDK.WinRT.UWP package.
 3. On the right side of the window, check the box next to your project and click **Install**.
 
-![add XBL via NuGet](../images/getting_started/vs-add-nuget-xbl.gif)
+![add XBL via NuGet](get-started-with-visual-studio-and-uwp_images/vs-add-nuget-xbl.gif)
 
 
 > [!IMPORTANT]
@@ -120,7 +120,7 @@ To access Secure Sockets, you need to add a reference to **Windows Desktop Exten
 3. In the list that appears, search for **Windows Desktop Extensions for UWP** and select the checkbox next to the version that matches your Windows 10 SDK.
 4. Click **OK**.
 
-![add new reference in VS](../images/getting_started/get-started-vs-add-ref.png)
+![add new reference in VS](get-started-with-visual-studio-and-uwp_images/get-started-vs-add-ref.png)
 
 
 #### Windows 10 SDK version 10.0.15063 or lower
@@ -159,7 +159,7 @@ To set these properties:
 1. Double-click the **package.appxmanifest** file in Visual Studio to open the **Manifest Designer**.
 2. Click the **Capabilities** tab and check **Internet (Client)**.
 
-![add new reference in VS](../images/getting_started/get-started-vs-add-capability.png)
+![add new reference in VS](get-started-with-visual-studio-and-uwp_images/get-started-vs-add-capability.png)
 
 
 ### 6. Associate your Visual Studio project with your Xbox Live enabled title

@@ -24,7 +24,7 @@ If your title has been configured in Partner Center, and you have authorized a M
 
 The PlayerAuthentication prefab's script has a few settings that you can manipulate from its view in the inspector:
 
-![PlayerAuthentication inspector screenshot](../images/unity/playerauthentication_prefab_inspector.JPG)
+![PlayerAuthentication inspector screenshot](playerauthentication-prefab-sign-in_images/playerauthentication_prefab_inspector.JPG)
 
 | Setting | Description |
 |---------|-------------|

@@ -54,7 +54,7 @@ See [Using Xbox Live sandboxes](../../../../get-started-with-creators/xbox-live-
 To sign-in to your development sandbox, you must provision a regular Microsoft Account (MSA) for access to your sandbox.
 This provides improved security for your titles in development, as well as some other benefits.
 
-To learn more about test accounts and how to create one, see [Authorize Xbox Live Accounts for Testing in your environment](../../../get-started/setup-partner-center/legacy/authorize-xbox-live-accounts.md).
+To learn more about test accounts and how to create one, see [Authorize Xbox Live Accounts for Testing in your environment](../../../setup-partner-center/legacy/authorize-xbox-live-accounts.md).
 
 
 ## Visual Studio Project Setup

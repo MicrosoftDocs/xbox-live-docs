@@ -17,7 +17,7 @@ The following articles serve as a checklist of items to help ensure successful t
     If you enabled Xbox Live through the Xbox Live Association Wizard, you will want to familiarize yourself with [Partner Center](https://partner.microsoft.com/dashboard).
     Partner Center allows you to configure the Xbox Live settings for your title and must be set up properly in order for your title to communicate with Xbox Live.
 
-    The article [Create a new Xbox Live Creators Program title and publish to the test environment](../../../get-started/setup-partner-center/legacy/create-and-test-a-new-creators-title.md) takes you through the Partner Center setup process.
+    The article [Create a new Xbox Live Creators Program title and publish to the test environment](../../../setup-partner-center/legacy/create-and-test-a-new-creators-title.md) takes you through the Partner Center setup process.
     
     If you have already set up your game through the **Xbox Configuration Wizard** in Unity, you can skip to the section [Test Xbox Live service configuration in your game](../../../setup-partner-center/legacy/create-and-test-a-new-creators-title.md#test-xbox-live-service-configuration-in-your-game).
     While in Partner Center, make sure to check to see that the information in your Xbox Live configuration for your Unity game matches the Partner Center configuration for your game.
@@ -43,7 +43,7 @@ The following articles serve as a checklist of items to help ensure successful t
     When your title is published for testing, it is published to a specific environment called a *sandbox*.
     If your development PC is not set to use that sandbox, you will not be able to test Xbox Live features.
 
-    Learn to check and change your PC's sandbox with the [Xbox Live sandboxes introduction](../../../../xbox-live-sandboxes-creators.md).
+    Learn to check and change your PC's sandbox with the [Xbox Live sandboxes introduction](../../../../get-started-with-creators/xbox-live-sandboxes-creators.md).
 
 5. **Make sure that you build your project as an x64 build targeting the local machine to build on your PC.**
 

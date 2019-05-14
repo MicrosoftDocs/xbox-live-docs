@@ -30,7 +30,7 @@ Before you start adding Xbox Live social services to your Unity game, there are 
 
 1. First, make sure that you have downloaded and integrated the [Xbox Live Unity plugin](https://github.com/Microsoft/xbox-live-unity-plugin).
 
-2. Second, you'll want to have your title reserved and published through the [Microsoft Development Center](https://developer.microsoft.com/en-us/games/uwp). Read [Create a new Xbox Live Creators Program title](../../../setup-partner-center/legacy/create-and-test-a-new-creators-title.md) for instructions on publishing your title.
+2. Second, you'll want to have your title reserved and published through the [Microsoft Development Center](https://developer.microsoft.com/en-us/games/uwp). Read [Create a new Xbox Live Creators Program title](../../../../setup-partner-center/legacy/create-and-test-a-new-creators-title.md) for instructions on publishing your title.
 
 3. Finally, read [Configure Xbox Live in Unity](../configure-xbox-live-in-unity.md) to set up your Unity environment properly and configure your title to use Xbox Live services.
 
