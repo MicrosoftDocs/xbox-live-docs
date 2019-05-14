@@ -30,7 +30,7 @@ This article is for the Creators program.
 ## Create a new product in Partner Center
 
 Every Xbox Live title must have a product created in [Partner Center](https://partner.microsoft.com/dashboard) before you will be able to sign-in and make Xbox Live Service calls.
-See [Creating a new Creators title](../../../get-started/setup-partner-center/legacy/create-and-test-a-new-creators-title.md).
+See [Creating a new Creators title](../../../setup-partner-center/legacy/create-and-test-a-new-creators-title.md).
 
 
 ## Configuring your development device
