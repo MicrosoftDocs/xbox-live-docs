@@ -90,7 +90,7 @@ C++ is the recommended API to use for C++ game engines.
 To use the Xbox Live API from your project, you can either add references to the binaries by using NuGet packages or adding the API source.
 Adding NuGet packages makes compilation quicker while adding the source makes debugging easier.
 This article will walk through using NuGet packages.
-If you want to use source, then please see [Compiling the Xbox Live APIs Source In Your UWP Project](../../../../get-started-with-partner/add-xbox-live-apis-source-to-a-uwp-project.md).
+If you want to use source, then please see [Compiling the Xbox Live APIs Source In Your UWP Project](../../managed-partners/vs-win10/add-xbox-live-apis-source-to-a-uwp-project.md).
 
 You can add the Xbox Live SDK NuGet package by:
 

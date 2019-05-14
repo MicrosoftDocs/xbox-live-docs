@@ -19,7 +19,7 @@ You can add Xbox Live support to Unity for UWP with .NET scripting backend.
 
 Install Unity 5.3 or higher and during the Unity install process, check the "Windows Store .NET Scripting backend" component.
 
-![Unity Installation Wizard screnshot](../images/unity/unity1-install.png)
+![Unity Installation Wizard screnshot](partner-add-xbox-live-to-unity-uwp_images/unity1-install.png)
 
 
 **2) Open a new or existing Unity project**
@@ -51,7 +51,7 @@ Any game object will do.
 
 6.  Click **Build** for Unity to generate the UWP Visual Studio project that wraps your Unity game in a UWP application. When you are prompted for a location, create a new folder to avoid confusion, since many new files will be created. It’s recommended you call the folder **Build**, and then select that folder.
 
-![Unity build settings screenshot](../images/unity/unity3-buildsettings.png)
+![Unity build settings screenshot](partner-add-xbox-live-to-unity-uwp_images/unity3-buildsettings.png)
 
 
 **6) Open the generated UWP project in Visual Studio**
@@ -71,7 +71,7 @@ You'll see 3 projects in this solution.
 
 **7) Add Xbox Live configuration to the UWP app**
 
-Follow the doc page called [Adding Xbox Live to a new or existing UWP project](get-started-with-visual-studio-and-uwp.md)
+Follow the steps in [Adding Xbox Live to a new or existing UWP project](get-started/setup-ide/managed-partners/vs-win10/get-started-with-visual-studio-and-uwp.md).
 
 
 **8) Add Xbox Live code to your script**

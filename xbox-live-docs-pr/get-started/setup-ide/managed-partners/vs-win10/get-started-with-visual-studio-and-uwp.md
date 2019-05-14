@@ -25,7 +25,7 @@ ms.localizationpriority: medium
 ## Create a new product in Partner Center
 
 Every Xbox Live title must have a product created in [Partner Center](https://partner.microsoft.com/dashboard) before you will be able to sign-in and make Xbox Live Service calls.
-See [Create a title on UDC](../get-started/setup-partner-center/legacy/create-a-new-title.md).
+See [Create a title on UDC](../../../setup-partner-center/legacy/create-a-new-title.md).
 
 
 ## Configuring your development device
@@ -35,13 +35,13 @@ The following preliminary setup steps are required on your device, so that you c
 
 ### Set your sandbox
 
-Sandboxes offer a way to keep your [Xbox Live Service Configuration](../xbox-live-service-configuration.md) isolated from retail until you are ready to release your title.
+Sandboxes offer a way to keep your [Xbox Live Service Configuration](../../../../xbox-live-service-configuration.md) isolated from retail until you are ready to release your title.
 Some data that you accumulate is specific to a sandbox.
 
 For example, suppose your title defines a stat called *Headshots*, and you accumulate some number of Headshots in a user account while testing your title.
 This value would be specific to your title's development sandbox, and if you switched to playing the retail version of your title, the headshots would not carry over.
 
-To learn more and see how to set your sandbox, see [Xbox Live Sandboxes](../xbox-live-sandboxes.md).
+To learn more and see how to set your sandbox, see [Xbox Live Sandboxes](../../../../xbox-live-sandboxes.md).
 
 
 ### Sign-in with a test account
@@ -49,7 +49,7 @@ To learn more and see how to set your sandbox, see [Xbox Live Sandboxes](../xbox
 To sign-in to your development sandbox, you must either create a test account, or provision a regular Microsoft Account (MSA) for access to your sandbox.
 This provides improved security for your titles in development, as well as some other benefits.
 
-To learn more about test accounts and how to create one, see [Xbox Live Test Accounts](../xbox-live-test-accounts.md)
+To learn more about test accounts and how to create one, see [Xbox Live Test Accounts](../../../../xbox-live-test-accounts.md)
 
 
 ## Visual Studio Project Setup
@@ -103,7 +103,7 @@ To add the Xbox Live SDK NuGet package:
 
 ### 3. (Optional) Using Connected Storage and/or Secure Sockets
 
-Depending on the version of the Windows SDK that you are using, you may need to install additional content or manually add references to your project in order to use Xbox Live [Connected Storage](../storage-platform/connected-storage/connected-storage-technical-overview.md) or Secure Sockets.
+Depending on the version of the Windows SDK that you are using, you may need to install additional content or manually add references to your project in order to use Xbox Live [Connected Storage](../../../../storage-platform/connected-storage/connected-storage-technical-overview.md) or Secure Sockets.
 
 If you want to use the Connected Storage feature, you will need to access the `Windows.Gaming.XboxLive.Storage` namespace.
 
@@ -190,13 +190,13 @@ For example:
 ```
 
 > [!TIP]
-> All values inside xboxservices.config are case sensitive. See [Service Configuration](../xbox-live-service-configuration.md) for more information on obtaining the TitleID and PrimaryServiceConfigId.
+> All values inside xboxservices.config are case sensitive. See [Service Configuration](../../../../xbox-live-service-configuration.md) for more information on obtaining the TitleID and PrimaryServiceConfigId.
 
 
 ### 7. (Optional) Add multiplayer capabilities
 
 If you plan to add Multiplayer support to your title, and want to implement the ability for players to invite other users for a multiplayer game, then you need to add another field to your AppXManifest file.
-For more information, see [Configure your AppXManifest For Multiplayer](../multiplayer/service-configuration/configure-your-appxmanifest-for-multiplayer.md).
+For more information, see [Configure your AppXManifest For Multiplayer](../../../../multiplayer/service-configuration/configure-your-appxmanifest-for-multiplayer.md).
 
 
 ## Learn More

@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 This article helps you set up a Visual Studio development environment for your Android project, to enable signing in to Xbox Live.
 
-You must first acquire the source code package for XAL; see [Xbox Authentication Library (XAL) overview](xal-overview.md).
+You must first acquire the source code package for XAL; see [Xbox Authentication Library (XAL) overview](../../../../../using-xbox-live/auth/xal-overview.md).
 
 
 ## Requirements
@@ -33,15 +33,15 @@ You can verify that your Visual Studio instance has all the necessary components
 The Java Language extension can be verified separately.
 
 Visual Studio Installer
-![Visual Studio Installer](../../images/xal/vsinstaller.JPG)
+![Visual Studio Installer](android-xal_images/vsinstaller.JPG)
 
 Visual Studio Installer workloads page
-![Visual Studio Installer workloads](../../images/xal/vsinstaller_workloads.JPG)
+![Visual Studio Installer workloads](android-xal_images/vsinstaller_workloads.JPG)
 
 
 ## Setting up the project
 
-[Xbox Authentication Library (XAL) overview](xal-overview.md) gives instructions on how to set up a Visual Studio project for XAL development.
+[Xbox Authentication Library (XAL) overview](../../../../../using-xbox-live/auth/xal-overview.md) gives instructions on how to set up a Visual Studio project for XAL development.
 The present section carries the specific instructions for setting up a Xal project for Android development.
 
 > [!TIP]
@@ -207,6 +207,6 @@ In the **AndroidTestAppJni**, `AndroidTestApp` is a singleton class which handle
 These classes contain all of the components necessary for making the async XAL calls.
 The `AndroidTestApp` class contains the `AsyncQueue`, and the `AsyncBlock` is handled by the `command` class.
 
-If you are not familiar with `AsyncBlock` and `AsyncQueue`, you will need to familiarize yourself with the C async API calling pattern used for making XAL async calls; see [Making async calls in the XSAPI C API](../../flatc-async-patterns.md).
+If you are not familiar with `AsyncBlock` and `AsyncQueue`, you will need to familiarize yourself with the C async API calling pattern used for making XAL async calls; see [Making async calls in the XSAPI C API](../../../../../flatc-async-patterns.md).
 
-You may make your XAL calls in this manner, or by the approach described in [XAL common scenarios](xal-sign-in.md).
+You may make your XAL calls in this manner, or by the approach described in [XAL common scenarios](../../../../../using-xbox-live/auth/xal-sign-in.md).
