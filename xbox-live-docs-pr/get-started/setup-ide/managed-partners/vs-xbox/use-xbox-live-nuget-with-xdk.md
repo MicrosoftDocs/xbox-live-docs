@@ -17,7 +17,7 @@ ms.localizationpriority: medium
 	- On the menu bar, select Tools-> Extensions and Updates.
 	- Under the Installed tab,  look for `NuGet Package Manager`
 
-![Nuget Package Manager for Visual Studio screenshot under Extensions and Updates in Visual Studio](../images/nuget/nuget_uwp_install_1.png)
+![Nuget Package Manager for Visual Studio screenshot under Extensions and Updates in Visual Studio](use-xbox-live-nuget-with-xdk_images/nuget_uwp_install_1.png)
 
 2.	To update your current version:
 	- On the menu bar, select Tools-> Extensions and Updates.
