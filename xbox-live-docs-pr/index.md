@@ -39,25 +39,6 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
-    <li>
-        <a href="what-is-xbox-live.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="images/getting_started/what-is-xbl.svg" alt="What is Xbox Live?" />
-                            </div>
-                        </div>
-                        <div class="cardText"> 
-                            <h3>What is Xbox Live?</h3>
-                            <p>Xbox Live provides the greatest player community for your game on the most advanced cross-platform multiplayer network.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
 </ul>
 
 

@@ -10,8 +10,6 @@ ms.localizationpriority: medium
 
 # Setting up an IDE
 
-Setting up an IDE to use the Xbox Live SDK, for your target platforms.
-
 
 ### In this section
 

@@ -9,20 +9,16 @@ ms.localizationpriority: medium
 ---
 # Setting up a game at Partner Center
 
-To add Xbox Live functionality to your game, start by setting up a game at Partner Center.
-
-For the differences between Creators and ID@Xbox partners, see [Developer program overview](../../developer-program-overview.md).
-
 
 ### In this section
 
 | Article | Description |
 |---------|-------------|
-| [Setting up a game at Partner Center, for Creators](setup-partner-center-creators.md) | Get started adding Xbox Live functionality to your game, by setting up a game at Partner Center. |
-| [Setting up a game at Partner Center, for ID@Xbox Partners](setup-partner-center-id-partners.md) | Get started adding Xbox Live functionality to your game, by setting up a game at Partner Center. |
+| [Setting up a game at Partner Center, for Creators](setup-partner-center-creators.md) | Creating a new game at Partner Center as a Creator, enabling Xbox Live for the game, creating test accounts, and publishing the game to a development sandbox. |
+| [Setting up a game at Partner Center, for ID@Xbox Partners](setup-partner-center-id-partners.md) | Creating a new game at Partner Center as an ID@Xbox Partner, enabling Xbox Live for the game, creating test accounts, and publishing the game to a development sandbox. |
 | [Legacy articles about Partner Center setup](legacy.md) | Older articles about Partner Center setup. |
 
 
-### Next steps
+### See also
 
-After your game is set up at Partner Center, set up your IDE to use the Xbox Live SDK; see [Getting Started](../index.md).
+[Getting Started](../index.md)
