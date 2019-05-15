@@ -23,11 +23,11 @@ In order to use the Xbox Live APIs with an iOS game, you must link the Xbox Live
     * `External\xal\External\CompactCoreCLL\CompactCoreCLL.xcodeproj`
     * `External\xal\External\libHttpClient\Build\libHttpClient.Apple.C\libHttpClient.xcodeproj`
 
-    ![Image of adding the xcode projects](images/ios-add-xcode-projects.png)
+    ![Image of adding the xcode projects](ios-get-started-with-xsapi-source_images/ios-add-xcode-projects.png)
 
 2. Link to the project binaries by navigating to your project's build phases, then clicking the add button under **Link Binary With Libraries**.
 
-    ![Image of linking to project binaries](images/ios-link-to-project-binaries.png)
+    ![Image of linking to project binaries](ios-get-started-with-xsapi-source_images/ios-link-to-project-binaries.png)
 
 3. Add the following header paths by navigating to your project's build settings, then selecting the **Header Search Paths** field:
 
@@ -36,7 +36,7 @@ In order to use the Xbox Live APIs with an iOS game, you must link the Xbox Live
     * `{xbox live api path}/External/xal/Source/Xal/Include`
     * `{xbox live api path}/External/xal/External/libHttpClient/Include`
 
-    ![Image of adding the header paths to your project](images/ios-add-header-paths.png)
+    ![Image of adding the header paths to your project](ios-get-started-with-xsapi-source_images/ios-add-header-paths.png)
 
 4. Add the following preprocessor macros by navigating to your project's build settings, then selecting the **Preprocessor Macros** field:
 
@@ -45,13 +45,13 @@ In order to use the Xbox Live APIs with an iOS game, you must link the Xbox Live
     * `XSAPI_CPP=1`
     * `XSAPI_XAL_AUTH=1`
 
-    ![Image of adding preprocessor macros](images/ios-add-preprocessor-macros.png)
+    ![Image of adding preprocessor macros](ios-get-started-with-xsapi-source_images/ios-add-preprocessor-macros.png)
 
 5. Navigate to the **Keychain Sharing** section of your project's **Capabilities**, then add the following keychain group to the list:
 
     * `com.microsoft.xal`
 
-    ![Image of adding keychain sharing](images/ios-add-keychain-sharing.png)
+    ![Image of adding keychain sharing](ios-get-started-with-xsapi-source_images/ios-add-keychain-sharing.png)
 
 
 ## Samples
