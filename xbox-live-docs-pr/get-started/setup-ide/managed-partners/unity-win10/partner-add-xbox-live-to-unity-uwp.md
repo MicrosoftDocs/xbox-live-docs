@@ -71,7 +71,7 @@ You'll see 3 projects in this solution.
 
 **7) Add Xbox Live configuration to the UWP app**
 
-Follow the steps in [Adding Xbox Live to a new or existing UWP project](../../../../vs-win10/get-started-with-visual-studio-and-uwp.md).
+Follow the steps in [Adding Xbox Live to a new or existing UWP project](../vs-win10/get-started-with-visual-studio-and-uwp.md).
 
 
 **8) Add Xbox Live code to your script**
