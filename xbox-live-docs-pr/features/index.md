@@ -12,13 +12,6 @@ ms.localizationpriority: medium
 
 <h1>Features</h1>
 
-<p>
-  Xbox Live features are powerful tools to attract, engage and retain players.
-</p>
-<p>
-  To begin adding Xbox Live Features to your game, first complete the <a href="../get-started/index.md">Getting Started</a> steps so that your game can do basic sign-in to Xbox Live.
-</p>
-
 <ul class="cardsF panelContent cols cols2">
     <li>
         <a href="/gaming/xbox-live/features/identity">
@@ -137,6 +130,69 @@ ms.localizationpriority: medium
 </ul>
 
 
-## See also
+<h3>Services that span multiple features</h3>
+
+<ul class="cardsF panelContent cols cols2">
+    <li>
+        <a href="../whats-new/whats-new.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_whats-new.svg" alt="What's new" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>What's new for Xbox Live</h3>
+                            <p>New features and functionality in each release of Xbox Live.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="tcui/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_form.svg" alt="Title-callable UI (TCUI)" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Title-callable UI (TCUI)</h3>
+                            <p>Enables your game code to call pre-defined user interface displays.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="../real-time-activity-service/real-time-activity-service.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_alert.svg" alt="Real-Time Activity (RTA) service" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Real-Time Activity (RTA) service</h3>
+                            <p>Enables an application on any device to subscribe to state data, user statistics, and presence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+
+### See also
 
 [Features supported for each developer program](../get-started/feature-comparison-table.md)

@@ -18,9 +18,11 @@ This article is for Managed Partners.
 
 Before adding code to your game to do basic sign-in into the Xbox Live services, you must do the following:
 
-1. Create a new game at Partner Center and note the game's Title ID, SCID, Sandbox ID, and Client ID; see [Setting up a game at Partner Center](../setup-partner-center/index.md).
+1. Create a new game at Partner Center and note the game's Title ID, SCID, Sandbox ID, and Client ID.
 
-2. Add the Xbox Live SDK to an IDE that targets Android or iOS; see [Setting up an IDE to use Xbox Live](../setup-ide/index.md).
+2. Add the Xbox Live SDK to an IDE that targets Android or iOS.
+
+See [Getting Started](../index.md).
 
 
 ## Initialize Xbox Services API (XSAPI)
