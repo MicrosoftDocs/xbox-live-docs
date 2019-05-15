@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 # Get started with the Xbox Live SDK for iOS
 
 This is an older and less comprehensive setup article.
-Instead, start with the newer article [Setting up Xcode targeting iOS](../get-started/setup-ide/managed-partners/xcode-ios/xcode-ios-mp.md), and if needed, check the present article for additional tips.
+Instead, start with the newer article [Setting up Xcode targeting iOS](../xcode-ios-mp.md), and if needed, check the present article for additional tips.
 
 Use Xbox Live to connect all games across devices to play together.
 

@@ -17,4 +17,4 @@ Articles about Xcode targeting iOS, for Managed Partners, other than initial IDE
 
 | Article | Description |
 |---------|-------------|
-| [Get started with the Xbox Live SDK for iOS](../../../../../get-started-with-ios-android/ios-get-started-with-xsapi.md) | Adding the Xbox Live SDK to an iOS project (older article). |
+| [Get started with the Xbox Live SDK for iOS](ios-get-started-with-xsapi.md) | Adding the Xbox Live SDK to an iOS project (older article). |
