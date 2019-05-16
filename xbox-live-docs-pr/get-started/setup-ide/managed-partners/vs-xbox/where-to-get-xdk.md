@@ -19,7 +19,7 @@ If you do not have access to the site, you will not be able to download or use t
 If you do no not have access, contact your account manager.
 
 In order to qualify for XDK access, you can [apply to become an ID@Xbox developer](https://www.xbox.com/en-us/Developers/id).
-To learn more about the ID@Xbox program and other developer tiers, see [Developer program overview](../get-started/join-dev-program/developer-program-overview.md).
+To learn more about the ID@Xbox program and other developer tiers, see [Developer program overview](../../../join-dev-program/developer-program-overview.md).
 
 
 ## Software Requirements

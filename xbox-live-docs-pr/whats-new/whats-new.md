@@ -18,7 +18,7 @@ You can also check the [Xbox Live API GitHub commit history](https://github.com/
 
 
 SDK is now available as precompiled binaries (libs), and integrated with a package manager for Android.
-See [Get started with Xbox Live APIs on Android](../get-started-with-ios-android/android-get-started-with-xsapi.md).
+See [Get started with Xbox Live APIs on Android](../get-started/setup-ide/managed-partners/as-android/other/android-get-started-with-xsapi.md).
 
 For more information about this release, see [What's new in 1810 Release](1810-whats-new.md) 
 
