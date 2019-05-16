@@ -74,9 +74,8 @@ For more information about signing in a player by using XAL in an iOS game, see 
 
 ### xboxservices.config
 
-The Xbox Live APIs for iOS rely on [xboxservices.config](../../../../../xboxservices-config.md).
+The Xbox Live APIs for iOS rely on [xboxservices.config](../../vs-win10/xboxservices-config.md).
 On iOS, you can just add the config file to your project.
-
 
 ### Async library
 
