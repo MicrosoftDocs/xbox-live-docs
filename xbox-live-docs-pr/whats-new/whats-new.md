@@ -18,7 +18,7 @@ You can also check the [Xbox Live API GitHub commit history](https://github.com/
 
 
 SDK is now available as precompiled binaries (libs), and integrated with a package manager for Android.
-See [Get started with Xbox Live APIs on Android](../get-started-with-ios-android/android-get-started-with-xsapi.md).
+See [Get started with Xbox Live APIs on Android](../get-started/setup-ide/managed-partners/as-android/other/android-get-started-with-xsapi.md).
 
 For more information about this release, see [What's new in 1810 Release](1810-whats-new.md) 
 
@@ -138,7 +138,7 @@ Xbox Live API (XSAPI) is now available on GitHub at [https://github.com/Microsof
 
 The Xbox Live Creators Program is a developer program offering a subset of Xbox Live functionality to a broader developer audience.  If you are already in the ID@Xbox program, this will not have any impact on you.
 
-You can read more about the program in [Developer Program Overview](../developer-program-overview.md).
+You can read more about the program in [Developer Program Overview](../get-started/join-dev-program/developer-program-overview.md).
 
 ### Documentation
 
@@ -147,7 +147,7 @@ There are the following new articles:
 | Article | Description |
 |---------|-------------|
 | [Xbox Live Service Configuration](../xbox-live-service-configuration.md) | Updated information on doing service configuration for your Xbox Live Title. |
-| [Configure Xbox Live in Unity](../get-started-with-creators/configure-xbox-live-in-unity.md) | New information on Unity setup for Xbox Live Creators Program developers. |
+| [Configure Xbox Live in Unity](../get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md) | New information on Unity setup for Xbox Live Creators Program developers. |
 | [Xbox Live Sandboxes](../xbox-live-sandboxes.md) | A simplified guide to Xbox Live sandboxes and content isolation. |
 | [Xbox Live Test Accounts](../xbox-live-test-accounts.md) | Information about how test accounts work, and how to create them on Partner Center. |
 

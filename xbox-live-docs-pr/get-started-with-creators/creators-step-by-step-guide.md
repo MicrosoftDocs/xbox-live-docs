@@ -9,4 +9,4 @@ ms.localizationpriority: medium
 ---
 # Step by step guide to integrate Xbox Live Creators Program
 
-See [Get started with the Xbox Live Creators Program](get-started-with-xbox-live-creators.md).
+See [Get started with the Xbox Live Creators Program](../get-started/setup-partner-center/legacy/get-started-with-xbox-live-creators.md).

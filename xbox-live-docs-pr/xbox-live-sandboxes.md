@@ -42,13 +42,13 @@ The vast majority of developers need only one sandbox.
 Fortunately a sandbox is created for you when you create a title.
 
 1. You find out about your sandbox by going to Partner Center here:
-![Partner Center ribbon dashboard location screenshot](images/getting_started/first_xbltitle_dashboard.png)
+![Partner Center ribbon dashboard location screenshot](xbox-live-sandboxes_images/first_xbltitle_dashboard.png)
 
 1. Then click on your title:
 ![Title location in Partner Center menu screenshot](images/getting_started/first_xbltitle_dashboard_overview.png)
 
 1. Finally, in the left menu, click **Services** -> **Xbox Live**:
-![Xbox Live services in Partner Center menu](images/getting_started/first_xbltitle_leftnav.png)
+![Xbox Live services in Partner Center menu](xbox-live-sandboxes_images/first_xbltitle_leftnav.png)
 
 1. You can now see your sandbox listed, as follows:
 ![Title info in Partner Center. Includes Sandbox ID.](images/getting_started/devcenter_sandbox_id.png)

@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 # Troubleshooting Xbox Live sign-in
 
 There are several issues that can cause difficulty signing-in.
-To minimize the chance of unexpected errors, do the steps in [Get started with Visual Studio for UWP games](../../get-started-with-partner/get-started-with-visual-studio-and-uwp.md).
+To minimize the chance of unexpected errors, do the steps in [Get started with Visual Studio for UWP games](../../get-started/setup-ide/managed-partners/vs-win10/get-started-with-visual-studio-and-uwp.md).
 
 
 ## Common Issues
@@ -62,19 +62,19 @@ To publish your Partner Center configuration, see Partner Center Documentation: 
 ### IDs configured incorrectly
 
 There are several pieces of ID required to configure your game.
-You can see more information in [Get started with Visual Studio for UWP games](../../get-started-with-partner/get-started-with-visual-studio-and-uwp.md) or [Getting started with cross-play games](../../get-started-with-partner/get-started-with-cross-play-games.md), depending on what type of title you are creating.
+You can see more information in [Get started with Visual Studio for UWP games](../../get-started/setup-ide/managed-partners/vs-win10/get-started-with-visual-studio-and-uwp.md) or [Getting started with cross-play games](../../get-started-with-partner/get-started-with-cross-play-games.md), depending on what type of title you are creating.
 
 Some things to watch out for are:
 * Ensure your App ID is entered into Partner Center correctly.
 * Ensure your PFN is entered into Partner Center correctly.
-* Double-check you have created an xboxservices.config in the same directory as your Visual Studio project as described in the [Adding Xbox Live to a new or existing UWP project](../../get-started-with-partner/get-started-with-visual-studio-and-uwp.md) guide.
+* Double-check you have created an xboxservices.config in the same directory as your Visual Studio project as described in the [Adding Xbox Live to a new or existing UWP project](../../get-started/setup-ide/managed-partners/vs-win10/get-started-with-visual-studio-and-uwp.md) guide.
 * Ensure that the "Package Identity" in your appxmanifest is correct. This is shown in Partner Center as "Package/Identity/Name" in the App Identity section.
 
 
 ### Title ID or SCID not configured correctly
 
 For UWP titles, your title ID and SCID must be set to the correct value in your xboxservices.config file.
-Also ensure that this file is properly formatted as UTF8. You can see more information in [Get started with Visual Studio for UWP games](../../get-started-with-partner/get-started-with-visual-studio-and-uwp.md).
+Also ensure that this file is properly formatted as UTF8. You can see more information in [Get started with Visual Studio for UWP games](../../get-started/setup-ide/managed-partners/vs-win10/get-started-with-visual-studio-and-uwp.md).
 The xboxservices.config file is case-sensitive.
 
 For XDK titles, these values are set in your `package.appxmanifest`.
@@ -114,7 +114,7 @@ The error codes appear as follows:
 
 2. Double-check that your `package.appxmanifest` is set to the same application identity as your title in Partner Center.
    You can either right-click on your project and choose **Store** -> **Associate App With Store...**, as shown in the below screenshot; or, manually edit your `package.appxmanifest`.
-   For more information, see [Get started with Visual Studio for UWP games](../../get-started-with-partner/get-started-with-visual-studio-and-uwp.md).
+   For more information, see [Get started with Visual Studio for UWP games](../../get-started/setup-ide/managed-partners/vs-win10/get-started-with-visual-studio-and-uwp.md).
 
    ![Associate with store](../../images/troubleshooting/appxmanifest_binding.png)
 

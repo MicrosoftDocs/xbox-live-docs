@@ -111,7 +111,7 @@ A Cross-Play game requires two versions of the game:
 
 ## Create your UWP product in Partner Center
 
-Create a UWP product in Partner Center by following the guide: [Adding Xbox Live to a new or existing UWP project](get-started-with-visual-studio-and-uwp.md)
+Create a UWP product in Partner Center by following the guide: [Adding Xbox Live to a new or existing UWP project](../get-started/setup-ide/managed-partners/vs-win10/get-started-with-visual-studio-and-uwp.md).
 
 
 ## Set up your XDK product at Partner Center

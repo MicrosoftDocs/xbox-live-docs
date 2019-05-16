@@ -24,7 +24,7 @@ But unlike an arcade machine, which only shows the top scores from the players w
 But for this to happen, you need to perform some one-time configuration so that Xbox Live knows about your leaderboard.
 For example, whether the values should be sorted in ascending or descending value, and what piece of data it should be sorting.
 
-This configuration happens in [Partner Center](https://partner.microsoft.com/dashboard) for Xbox Live Creators Program, and you can read [Getting Started With Xbox Live](get-started-with-xbox-live-creators.md) to learn how to get set up.
+This configuration happens in [Partner Center](https://partner.microsoft.com/dashboard) for Xbox Live Creators Program, and you can read [Getting Started With Xbox Live](../get-started/setup-partner-center/legacy/get-started-with-xbox-live-creators.md) to learn how to get set up.
 
 
 ## Get your IDs
@@ -32,7 +32,7 @@ This configuration happens in [Partner Center](https://partner.microsoft.com/das
 To enable Xbox Live services, you will need to obtain several IDs to configure your development environment and title.
 These can be obtained by updating your Xbox Live service configuration.
 
-If you do not currently have a title in Partner Center, see [Create and test a new Creators title](create-and-test-a-new-creators-title.md) for guidance.
+If you do not currently have a title in Partner Center, see [Create and test a new Creators title](../get-started/setup-partner-center/legacy/create-and-test-a-new-creators-title.md) for guidance.
 
 
 ### Critical IDs
@@ -86,4 +86,4 @@ By default, Xbox One Consoles and Windows 10 PCs are in the RETAIL sandbox.
 
 On the Xbox Live configuration page, click the **Test** button to publish the current Xbox Live configuration to your development sandbox.
 
-![Partner center screenshot with test publish button](../images/creators_udc/creators_udc_xboxlive_config_test.png)
+![Partner center screenshot with test publish button](xbox-live-service-configuration-creators_images/creators_udc_xboxlive_config_test.png)

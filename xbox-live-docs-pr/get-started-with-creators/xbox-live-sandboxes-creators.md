@@ -47,7 +47,7 @@ You can switch your PC into the development sandbox by using Unity, Windows Devi
 
 The following needs to be done before you can switch in and out of the development sandbox in Unity:
 
-* [Configure Xbox Live in Unity](configure-xbox-live-in-unity.md)
+* [Configure Xbox Live in Unity](../get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md)
 
 
 #### Switch Sandboxes

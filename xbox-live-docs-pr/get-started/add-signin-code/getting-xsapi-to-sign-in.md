@@ -272,7 +272,7 @@ Test that the basic sign-in code works properly, as follows.
 
    A webview window appears, displaying the Xbox Live Sign-In portal.
 
-   ![Xbox Live Sign-In portal](images/xboxlive-signin-window.png)
+   ![Xbox Live Sign-In portal](getting-xsapi-to-sign-in_images/xboxlive-signin-window.png)
 
 3. Sign-in by using the Xbox Live Sign-In portal.
 
