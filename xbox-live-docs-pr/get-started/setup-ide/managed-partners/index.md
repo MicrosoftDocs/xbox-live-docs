@@ -22,8 +22,7 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="as-android/android-studio-logo.png" alt="Android Studio targeting Android"/>
-                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_android.svg" alt="Android Studio targeting Android"/> -->
+                                <img src="index_images/android-studio-logo.png" alt="Android Studio targeting Android"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -43,7 +42,6 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
                         <div class="cardImageOuter">
                             <div class="cardImage">
                                 <img src="https://docs.microsoft.com/media/logos/logo_xcode.svg" alt="Xcode targeting iOS"/>
-                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_ios.svg" alt="Xcode targeting iOS"/> -->
                             </div>
                         </div>
                         <div class="cardText">
@@ -63,7 +61,6 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
                         <div class="cardImageOuter">
                             <div class="cardImage">
                                 <img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="Visual Studio targeting Windows 10"/>
-                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_Windows.svg" alt="Visual Studio targeting Windows 10"/> -->
                             </div>
                         </div>
                         <div class="cardText">
@@ -83,7 +80,6 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
                         <div class="cardImageOuter">
                             <div class="cardImage">
                                 <img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="Visual Studio targeting Xbox"/>
-                                <!-- <img src="xbox-logo.png" alt="Visual Studio targeting Xbox"/> -->
                             </div>
                         </div>
                         <div class="cardText">
@@ -122,7 +118,6 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
                         <div class="cardImageOuter">
                             <div class="cardImage">
                                 <img src="https://docs.microsoft.com/media/logos/logo_unity.svg" alt="Unity targeting Windows 10"/>
-                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_Windows.svg" alt="Unity targeting Windows 10"/> -->
                             </div>
                         </div>
                         <div class="cardText">
@@ -142,7 +137,6 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
                         <div class="cardImageOuter">
                             <div class="cardImage">
                                 <img src="https://docs.microsoft.com/media/logos/logo_unity.svg" alt="Unity targeting Xbox"/>
-                                <!-- <img src="xbox-logo.png" alt="Unity targeting Xbox"/> -->
                             </div>
                         </div>
                         <div class="cardText">

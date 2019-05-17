@@ -37,7 +37,7 @@ Join the *ID@Xbox Program* if at least one of the following are true:
 
 * You must agree to abide by the regulations around Xbox Live.
 
-See [ID@Xbox is a type of Managed Partner](#mp).
+See [ID@Xbox is a type of Managed Partner](#mp), below.
 
 See [Features supported for each developer program](feature-comparison-table.md).
 
