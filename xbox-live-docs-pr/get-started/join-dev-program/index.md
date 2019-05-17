@@ -22,7 +22,7 @@ See the "Choosing" and "Features" articles below, and then do the steps in one o
 | Article | Description |
 |---------|-------------|
 | [Choosing an Xbox Live developer program](developer-program-overview.md) | Choosing the Creators Program or the ID@Xbox Program. |
-| [Features supported for each developer program](feature-comparison-table.md) | Table of Xbox Live features supported for Creators and for ID@Xbox and Managed Partners. |
+| [Features supported for each developer program](feature-comparison-table.md) | Table of Xbox Live features supported for Creators and for ID@Xbox Partners. |
 | [Joining the Creators Program](join-creators-program.md) | Joining the Creators Program. |
 | [Joining the ID@Xbox Program](join-id-program.md) | Joining the ID@Xbox Program. |
 

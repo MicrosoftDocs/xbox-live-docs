@@ -37,6 +37,8 @@ Join the *ID@Xbox Program* if at least one of the following are true:
 
 * You must agree to abide by the regulations around Xbox Live.
 
+See [ID@Xbox is a type of Managed Partner](#mp).
+
 See [Features supported for each developer program](feature-comparison-table.md).
 
 
@@ -120,12 +122,29 @@ If you’d like to access the full Xbox Live stack, including online multiplayer
 Games in the ID@Xbox program must be concept-approved and go through full certification on Xbox One and Windows 10, which is a greater time commitment on your part.
 ID@Xbox titles get placement in the primary section of the Store (versus the Creators Collection), which may provide greater exposure to customers.
 
-Any documentation in the present documentation-set that is indicated as "for Managed Partners" also applies to ID@Xbox partners.
+
+<a name="mp"></a>
+
+### ID@Xbox is a type of Managed Partner
+
+There are 3 kinds of Managed Partners:
+
+* _ID@Xbox Partners_; they are members of the ID@Xbox Program.
+
+* _AA Managed Partners_.
+  These have generally the same feature support as ID@Xbox, but additional tech support.
+
+* _AAA Managed Partners_.
+  These have generally the same feature support as ID@Xbox, but additional tech support.
+  These are the largest game shops.
+
+Usually, documentation for Managed Partners applies to ID@Xbox Partners.
+In a few places, the documentation makes a distinction between ID@Xbox Partners versus other Managed Partners (AA or AAA Managed Partners).
 
 
-### Support for Managed Partners
+### Support for Managed Partners other than ID@Xbox Partners
 
-Managed Partners have access to the following:
+AA and AAA Managed Partners have access to the following:
 * The full set of Xbox Live features.
 * The full complement of private whitepapers and developer technical forums.
 * Developer support and promotional assistance from Microsoft.
