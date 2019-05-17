@@ -157,9 +157,6 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
 </ul>
 
 
-Next step: [Adding basic sign-in code](../../add-signin-code/index.md).
+### Next steps
 
-
-### See also
-
-[Getting Started](../../index.md)
+Add basic sign-in code; see [Getting Started](../../index.md).

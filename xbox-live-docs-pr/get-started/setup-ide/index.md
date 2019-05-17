@@ -19,6 +19,6 @@ ms.localizationpriority: medium
 | [Setting up an IDE, for Managed Partners](managed-partners/index.md) | Setting up an IDE to use the Xbox Live SDK, for Managed Partners, including ID@Xbox Partners. |
 
 
-### See also
+### Next steps
 
-[Getting Started](../index.md)
+Add basic sign-in code; see [Getting Started](../index.md).
