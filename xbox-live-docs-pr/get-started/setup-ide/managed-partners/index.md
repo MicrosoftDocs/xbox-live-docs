@@ -1,6 +1,6 @@
 ---
 title: Setting up an IDE, for Managed Partners
-description: Setting up an IDE to use the Xbox Live SDK, for Managed Partners.
+description: Setting up an IDE to use the Xbox Live SDK, for Managed Partners, including ID@Xbox Partners.
 layout: LandingPage
 ms.date: 02/08/2019
 ms.topic: article
@@ -10,6 +10,7 @@ ms.localizationpriority: medium
 
 # Setting up an IDE, for Managed Partners
 
+Managed Partners includes ID@Xbox Partners.
 Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/index.md).
 
 
