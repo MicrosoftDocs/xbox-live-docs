@@ -297,9 +297,4 @@ The app's MSA App ID is known as the _Client ID_, inside XAL.
 <!--===========================================================-->
 ## Next step
 
-[Setting up an IDE, for ID@Xbox Partners](../setup-ide/managed-partners/index.md)
-
-
-## See also
-
-[Getting Started](../index.md)
+Next, set up an IDE to use the Xbox Live SDK; see [Getting Started](../index.md).

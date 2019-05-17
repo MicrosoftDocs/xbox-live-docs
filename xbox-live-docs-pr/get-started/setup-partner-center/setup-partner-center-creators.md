@@ -225,9 +225,4 @@ When you add basic sign-in code to your game, you will insert these IDs.
 <!--===========================================================-->
 ## Next step
 
-[Setting up an IDE, for Creators](../setup-ide/creators/index.md)
-
-
-## See also
-
-[Getting Started](../index.md)
+Next, set up an IDE to use the Xbox Live SDK; see [Getting Started](../index.md).

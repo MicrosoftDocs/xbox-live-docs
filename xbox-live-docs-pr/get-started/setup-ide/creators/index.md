@@ -10,8 +10,7 @@ ms.localizationpriority: medium
 
 # Setting up an IDE, for Creators
 
-Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/index.md).
-
+Prerequisite: Set up a game at Partner Center; see [Getting Started](../../index.md).
 
 <ul class="cardsF panelContent cols cols2">
     <li>
@@ -93,6 +92,6 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
 </ul>
 
 
-### See also
+### Next steps
 
-[Getting Started](../../index.md)
+Add basic sign-in code; see [Getting Started](../../index.md).

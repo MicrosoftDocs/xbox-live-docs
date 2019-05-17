@@ -1,6 +1,6 @@
 ---
 title: Visual Studio targeting Windows 10
-description: Setting up Visual Studio targeting Windows 10 to use the Xbox Live SDK, for Managed Partners.
+description: Setting up Visual Studio targeting Windows 10 to use the Xbox Live SDK, for ID@Xbox Partners.
 layout: LandingPage
 ms.date: 02/08/2019
 ms.topic: article
@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 
 # Visual Studio targeting Windows 10
 
-Setting up Visual Studio targeting Windows 10 to use the Xbox Live SDK, for Managed Partners.
+Setting up Visual Studio targeting Windows 10 to use the Xbox Live SDK, for ID@Xbox Partners and other Managed Partners.
 
 
 ### In this section

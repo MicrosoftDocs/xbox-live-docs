@@ -1,6 +1,6 @@
 ---
-title: Setting up an IDE, for Managed Partners
-description: Setting up an IDE to use the Xbox Live SDK, for Managed Partners, including ID@Xbox Partners.
+title: Setting up an IDE, for ID@Xbox Partners
+description: Setting up an IDE to use the Xbox Live SDK, for ID@Xbox Partners and other Managed Partners.
 layout: LandingPage
 ms.date: 02/08/2019
 ms.topic: article
@@ -8,11 +8,11 @@ keywords: xbox live, games
 ms.localizationpriority: medium
 ---
 
-# Setting up an IDE, for Managed Partners
+# Setting up an IDE, for ID@Xbox Partners
 
-Managed Partners includes ID@Xbox Partners.
-Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/index.md).
+Prerequisite: Set up a game at Partner Center; see [Getting Started](../../index.md).
 
+These IDE setup articles apply to ID@Xbox Partners and other Managed Partners.
 
 <ul class="cardsF panelContent cols cols2">
     <li>
@@ -27,7 +27,7 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
                         </div>
                         <div class="cardText">
                             <h3>Android Studio targeting Android</h3>
-                            <p>Setting up Android Studio targeting Android to use the Xbox Live SDK, for Managed Partners.</p>
+                            <p>Setting up Android Studio targeting Android to use the Xbox Live SDK, for ID@Xbox Partners.</p>
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
                         </div>
                         <div class="cardText">
                             <h3>Xcode targeting iOS</h3>
-                            <p>Setting up Xcode targeting iOS to use the Xbox Live SDK, for Managed Partners.</p>
+                            <p>Setting up Xcode targeting iOS to use the Xbox Live SDK, for ID@Xbox Partners.</p>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
                         </div>
                         <div class="cardText">
                             <h3>Visual Studio targeting Windows 10</h3>
-                            <p>Setting up Visual Studio targeting Windows 10 to use the Xbox Live SDK, for Managed Partners.</p>
+                            <p>Setting up Visual Studio targeting Windows 10 to use the Xbox Live SDK, for ID@Xbox Partners.</p>
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
                         </div>
                         <div class="cardText">
                             <h3>Visual Studio targeting Xbox</h3>
-                            <p>Setting up Visual Studio targeting Xbox to use the Xbox Live SDK, for Managed Partners.</p>
+                            <p>Setting up Visual Studio targeting Xbox to use the Xbox Live SDK, for ID@Xbox Partners.</p>
                         </div>
                     </div>
                 </div>
@@ -103,7 +103,7 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
                         </div>
                         <div class="cardText">
                             <h3>Visual Studio targeting Android</h3>
-                            <p>Setting up Visual Studio targeting Android to use the Xbox Live SDK, for Managed Partners.</p>
+                            <p>Setting up Visual Studio targeting Android to use the Xbox Live SDK, for ID@Xbox Partners.</p>
                         </div>
                     </div>
                 </div>
@@ -122,7 +122,7 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
                         </div>
                         <div class="cardText">
                             <h3>Unity targeting Windows 10</h3>
-                            <p>Setting up Unity targeting Windows 10 to use the Xbox Live SDK, for Managed Partners.</p>
+                            <p>Setting up Unity targeting Windows 10 to use the Xbox Live SDK, for ID@Xbox Partners.</p>
                         </div>
                     </div>
                 </div>
@@ -141,7 +141,7 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
                         </div>
                         <div class="cardText">
                             <h3>Unity targeting Xbox</h3>
-                            <p>Setting up Unity targeting Xbox to use the Xbox Live SDK, for Managed Partners.</p>
+                            <p>Setting up Unity targeting Xbox to use the Xbox Live SDK, for ID@Xbox Partners.</p>
                         </div>
                     </div>
                 </div>

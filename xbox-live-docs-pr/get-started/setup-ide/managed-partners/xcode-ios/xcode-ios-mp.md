@@ -1,6 +1,6 @@
 ---
 title: Setting up Xcode targeting iOS
-description: Setting up Xcode targeting iOS to use the Xbox Live SDK, for Managed Partners.
+description: Setting up Xcode targeting iOS to use the Xbox Live SDK, for ID@Xbox Partners.
 ms.date: 04/19/2019
 ms.topic: article
 keywords: xbox live, games, xcode, ios
@@ -9,12 +9,14 @@ ms.localizationpriority: medium
 
 # Setting up Xcode targeting iOS
 
-Follow the steps in this article, in the order shown, to set up Xcode targeting iOS to use the Xbox Live SDK, for Managed Partners.
+Follow the steps in this article, in the order shown, to set up Xcode targeting iOS to use the Xbox Live SDK, for ID@Xbox Partners and other Managed Partners.
 Afterwards, you'll be ready to follow the article about adding basic sign-in code for Xbox Live services.
 Then you'll be able to call other Xbox Services API (XSAPI) functions.
 
 
 ## Prerequisite steps
+
+* Set up a game in Partner Center; see [Getting Started](../../../index.md).
 
 * Ensure you have a iOS project created in Xcode, set up to handle Objective-C.
   If your project is written in pure Swift, you will need to set up Objective-C interoperability.
@@ -209,9 +211,4 @@ Objective-C++ files enable you to mix Objective-C and C++ code:
 
 ## Next step
 
-[Adding basic sign-in code](../../../add-signin-code/index.md)
-
-
-## See also
-
-[Getting Started](../../../index.md)
+Add basic sign-in code; see [Getting Started](../../../index.md).

@@ -1,6 +1,6 @@
 ---
 title: Add XBL support to Unity for UWP, with IL2CPP scripting
-description: Add Xbox Live support to Unity for UWP with IL2CPP scripting backend, for Managed Partners.
+description: Add Xbox Live support to Unity for UWP with IL2CPP scripting backend, for ID@Xbox Partners.
 ms.assetid: 790a49ad-eff4-4916-8578-968ca8483211
 ms.date: 04/04/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 
 # Add XBL support to Unity for UWP, with IL2CPP scripting
 
-This article is for Managed Partners.
+This article is for ID@Xbox Partners and other Managed Partners.
 
 With the release of Unity 5.6f3 the engine includes a feature that enables developers to use Windows Runtime (WinRT) components directly in script by including them in the game project directly.
 Until 5.6 developers have needed a plugin, or dll to support any platform feature (including Xbox Live SDK) from game script in UWP.
@@ -201,6 +201,12 @@ If the app launches, but fails to sign-in, check the following:
 * Make sure your `package.appxmanfiest` in your UWP app is set to the correct Identity.
   You can edit this manually, but the easiest way to fix this is to right-click the Project in Visual Studio, and then click **Store** \| **Associate App with the Store**.
 
+
 **4)**
 
-The stock .pfx file provided by Unity won't have the correct identity so either delete it from the disk and remove the line in the .csproj that references it, or right click on the Project in Visual Studio and choose "Store" \| "Associate App with the Store" which will place down a proper .pfx file.  Be sure then to go back to Unity, click on "Build Settings" on the **Universal Windows Platform** player and click the PFX button to replace the .pfx file with the one you got from Visual Studio's "Associate App with the Store" action.
+The stock .pfx file provided by Unity won't have the correct identity, so do either of the following:
+
+*  Delete the stock .pfx file from the disk and remove the line in the .csproj that references it. Or:
+
+*  Right-click on the Project in Visual Studio and choose "Store" \| "Associate App with the Store", which will place down a proper .pfx file.
+   Be sure then to go back to Unity, click **Build Settings** on the **Universal Windows Platform** player and click the **PFX** button to replace the .pfx file with the one you got from Visual Studio's "Associate App with the Store" action.
