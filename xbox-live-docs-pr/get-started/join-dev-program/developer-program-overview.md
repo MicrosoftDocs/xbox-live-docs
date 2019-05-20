@@ -31,7 +31,7 @@ Join the Xbox Live *Creators Program* if both of the following are true:
 
 Join the *ID@Xbox Program* if at least one of the following are true:
 
-* You’re interested in using the full suite of Xbox Live services, including multiplayer features and Achievements and Gamerscore on Microsoft devices, such as Xbox, Windows 10 PC, or Hololens.
+* You’re interested in using the full suite of Xbox Live services, including multiplayer features, Achievements, and Gamerscore on Microsoft devices such as Xbox, Windows 10 PC, or Hololens.
 
 * You plan to use Xbox Live components in a game which is shipping via a non-Microsoft store or on a non-Microsoft device (such as mobile).
 
@@ -115,19 +115,10 @@ The Xbox Live Creators Program is great for many games and developers.
 
 ### Support for Managed Partners
 
-If you’d like to access the full Xbox Live stack, including online multiplayer, achievements and Gamerscore, or you want to access the full power of the Xbox One family of devices using hardware dev kits, the ID@Xbox Program is for you.
+If you’d like to access the full Xbox Live stack, including online multiplayer, achievements, and Gamerscore, or you want to access the full power of the Xbox One family of devices using hardware dev kits, the ID@Xbox Program is for you.
 
 The ID@Xbox Program is part of the Managed Partners program.
 Documentation for Managed Partners applies to ID@Xbox Partners.
-
-Games in the Managed Partners Program must be concept-approved and go through full certification on Xbox One and Windows 10, which is a greater time commitment on your part.
-Managed Partners titles get placement in the primary section of the Store (versus the Creators Collection), which may provide greater exposure to customers.
-
-Managed Partners have access to the following:
-* The full set of Xbox Live features.
-* The full complement of private whitepapers and developer technical forums.
-* Developer support and promotional assistance from Microsoft.
-* Access to dedicated Microsoft representatives to assist in the development, certification, and release process.
 
 
 ## Feature comparison table
