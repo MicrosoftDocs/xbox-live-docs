@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 # Advanced Xbox Live sandboxes
 
 > [!NOTE]
-> This article explains advanced usage of sandboxes and is mainly applicable to large gaming studios which have multiple teams and complex permissions requirements. If you are part of the Xbox Live Creators Program or the ID@Xbox Program, see [Xbox Live Sandboxes Intro](xbox-live-sandboxes.md).
+> This article explains advanced usage of sandboxes and is mainly applicable to large gaming studios which have multiple teams and complex permissions requirements. If you are instead part of the Xbox Live Creators Program or the ID@Xbox Program, see [Xbox Live Sandboxes Intro](xbox-live-sandboxes.md).
 
 The Xbox Live *sandbox* provides an entire private environment for development.
 This article explains what sandboxes are, why they exist, how they apply to publishers, and how they impact internal Xbox teams.

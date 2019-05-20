@@ -8,7 +8,7 @@ keywords: xbox live, games
 ms.localizationpriority: medium
 ---
 
-# Setting up an IDE, for ID\@Xbox Partners
+# Setting up an IDE, for Managed Partners
 
 Prerequisite: Set up a game at Partner Center; see [Getting Started](../../index.md).
 

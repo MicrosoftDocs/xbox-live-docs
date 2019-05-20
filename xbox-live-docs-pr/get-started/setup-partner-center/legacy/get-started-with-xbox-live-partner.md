@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, partner
 ms.localizationpriority: medium
 ---
 
-# Get started with Xbox Live, for ID\@Xbox Partners
+# Get started with Xbox Live, for Managed Partners
 
 This section covers getting started with Xbox Live development, for Managed Partners.
 

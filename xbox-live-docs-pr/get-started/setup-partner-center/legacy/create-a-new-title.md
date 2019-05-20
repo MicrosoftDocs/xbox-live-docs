@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Create an app and publish it for testing, for ID\@Xbox Partners
+# Create an app and publish it for testing, for Managed Partners
 
 
 ## Introduction
