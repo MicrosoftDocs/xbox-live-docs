@@ -1,6 +1,6 @@
 ---
 title: Other articles about Android Studio targeting Android
-description: Articles about Android Studio targeting Android, for Managed Partners, other than initial IDE setup.
+description: Articles about Android Studio targeting Android, other than initial IDE setup, for Managed Partners.
 layout: LandingPage
 ms.date: 04/19/2019
 ms.topic: article
@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 
 # Other articles about Android Studio targeting Android
 
-Articles about Android Studio targeting Android, for Managed Partners, other than initial IDE setup.
+Articles about Android Studio targeting Android, other than initial IDE setup, for Managed Partners.
 
 
 ### In this section

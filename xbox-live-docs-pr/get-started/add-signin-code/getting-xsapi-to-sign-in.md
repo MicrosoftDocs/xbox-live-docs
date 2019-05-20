@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 
 Adding basic sign-in code to your game enables the user to do basic sign-in to Xbox Live on the user's device.
 
-This article is for ID@Xbox Partners and other Managed Partners.
+This article is for Managed Partners, rather than the Creators Program.
 
 
 ## Prerequisites

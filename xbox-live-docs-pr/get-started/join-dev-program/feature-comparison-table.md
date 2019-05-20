@@ -1,6 +1,6 @@
 ---
 title: Features supported for each developer program
-description: Table of Xbox Live features supported for Creators and for ID@Xbox Partners.
+description: Table of Xbox Live features supported for Creators and for Managed Partners.
 ms.date: 04/11/2019
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, developer program
@@ -9,7 +9,7 @@ ms.localizationpriority: medium
 
 # Features supported for each developer program
 
-The following Xbox Live features are supported for the Creators Program or for the ID@Xbox Program.
+The following Xbox Live features are supported for Creators or for Managed Partners including ID@Xbox Partners.
 
 
 ## Feature comparison table
@@ -20,7 +20,7 @@ The following Xbox Live features are supported for the Creators Program or for t
 <th>Feature</th>
 <th>Description</th>
 <th>Creators</th>
-<th>ID@Xbox Partners (&amp; other Managed Partners)</th>
+<th>Managed Partners</th>
 </tr>
 
 
