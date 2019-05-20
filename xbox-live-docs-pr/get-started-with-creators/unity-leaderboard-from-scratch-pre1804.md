@@ -22,7 +22,7 @@ Once you understand how to pull down leaderboard data, you will be able to apply
 To request leaderboard data from the Xbox Live service, you must call:
 `void GetLeaderboard(XboxLiveUser user, LeaderboardQuery query)`
 
-To successfully make this call, you will need to acquire an `XboxLiveUser` from [sign-in](unity-prefabs-and-sign-in.md), have a [configured stat](add-stats-and-leaderboards-in-unity.md) with value for at least one player, and form a `LeaderboardQuery`.
+To successfully make this call, you will need to acquire an `XboxLiveUser` from [sign-in](../get-started/setup-ide/creators/unity-win10/signin/unity-prefabs-and-sign-in.md), have a [configured stat](add-stats-and-leaderboards-in-unity.md) with value for at least one player, and form a `LeaderboardQuery`.
 You can read the linked articles if you do not already know how to sign-in a user or need to initialize a statistic for your leaderboard.
 
 Once you have a initialized a statistic, the easiest way to associate it with your leaderboard script is to include one of the statistic prefabs: `IntegerStat`, `DoubleStat`, or `StringStat` as a public variable.

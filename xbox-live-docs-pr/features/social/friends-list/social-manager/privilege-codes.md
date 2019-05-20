@@ -35,4 +35,4 @@ ms.localizationpriority: medium
 | 254   | multiplayer_sessions  | Can join a multiplayer sessions for a game.   |
 | 255   | add_friend    | Can follow other Xbox Live users and add Xbox Live friends.   |
 
-See also [Checking user privilege settings in Unity](../../../../get-started-with-creators/check-user-privileges-in-unity.md).
+See also [Checking user privilege settings in Unity](../../../../get-started/setup-ide/creators/unity-win10//check-user-privileges-in-unity.md).

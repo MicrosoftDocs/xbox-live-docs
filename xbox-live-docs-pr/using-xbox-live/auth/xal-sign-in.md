@@ -151,5 +151,5 @@ Before using the sign-out function make sure that you verify its presence with `
 
 ## See also
 
-* [XAL sign-in for iOS](../../get-started-with-ios-android/ios-get-started-with-xsapi.md)
-* [XAL sign-in for android](../../get-started-with-ios-android/android-get-started-with-xsapi.md)
+* [XAL sign-in for iOS](../../get-started/setup-ide/managed-partners/xcode-ios/other/ios-get-started-with-xsapi.md)
+* [XAL sign-in for android](../../get-started/setup-ide/managed-partners/as-android/other/android-get-started-with-xsapi.md)

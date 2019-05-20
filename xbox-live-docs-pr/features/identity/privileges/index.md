@@ -20,4 +20,5 @@ ms.localizationpriority: medium
 
 ### See also
 
-[Checking user privilege settings in Unity](../../../get-started-with-creators/check-user-privileges-in-unity.md)
+
+[Checking user privilege settings in Unity](../../../get-started/setup-ide/creators/unity-win10/check-user-privileges-in-unity.md)

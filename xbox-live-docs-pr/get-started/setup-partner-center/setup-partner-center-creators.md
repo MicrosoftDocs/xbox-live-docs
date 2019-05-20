@@ -24,13 +24,13 @@ At Partner Center, create a new app representing your game, as follows.
 
    The Partner Center dashboard appears, showing the "Overview" page, within the "WINDOWS" section.
 
-   !["Overview" page at Partner Center](images/pc_overview_pg.png)
+   !["Overview" page at Partner Center](setup-partner-center-creators_images/pc_overview_pg.png)
 
 2. Click the **Create a new app** button.
 
    The page "Create your app by reserving a name" appears.
 
-   ![The "Create your app by reserving a name" page](images/pc_createappreservename_no_opts.png)
+   ![The "Create your app by reserving a name" page](setup-partner-center-creators_images/pc_createappreservename_no_opts.png)
 
 3. In the text box, enter the name of your product.
    You can change the name later.
@@ -41,13 +41,13 @@ At Partner Center, create a new app representing your game, as follows.
 
    The "App overview" page appears.
 
-   ![The "App overview" page](images/pc_app_overview01_pg.png)
+   ![The "App overview" page](setup-partner-center-creators_images/pc_app_overview01_pg.png)
 
 6. Click the **Start your submission** button.
 
    The "Submission #" page appears, showing the submission number; for example, "Submission 1".
 
-   ![The "Submission #" page before setting the Category to "Games"](images/pc_cr_initl_submission_pg.png)
+   ![The "Submission #" page before setting the Category to "Games"](setup-partner-center-creators_images/pc_cr_initl_submission_pg.png)
 
    In the "Xbox Live Creators Program" section of the page, the message appears:
    "To enable Xbox Live Creators Program, the product's category (on the Properties page) must be Games."
@@ -62,7 +62,7 @@ At Partner Center, create a new app representing your game, as follows.
 
    The "Properties" page appears.
 
-   ![The "Properties" page before setting the Category to "Games"](images/pc_cr_initl_properties_pg.png)
+   ![The "Properties" page before setting the Category to "Games"](setup-partner-center-creators_images/pc_cr_initl_properties_pg.png)
 
 2. In the **Category and subcategory** section, in the **Pick a category** drop-down list, select the **Games** category.
 
@@ -71,7 +71,7 @@ At Partner Center, create a new app representing your game, as follows.
 
    Because you selected Games, the "Genre(s) section appears.
 
-   !["Genre(s)" section of "Properties" page](images/pc_creators_submission_num_pg_games_cat.png)
+   !["Genre(s)" section of "Properties" page](setup-partner-center-creators_images/pc_creators_submission_num_pg_games_cat.png)
 
 3. In the **Genre(s)** section, select one or more check boxes.
 
@@ -82,19 +82,19 @@ At Partner Center, create a new app representing your game, as follows.
 
    The "Submission #" page reappears, and the "Xbox Live Creators Program" section of the page is now available.
 
-   !["Xbox Live Creators Program" section of "Submission #" page](images/pc_cr_2nd_submission_pg.png)
+   !["Xbox Live Creators Program" section of "Submission #" page](setup-partner-center-creators_images/pc_cr_2nd_submission_pg.png)
 
 5. Click the **Xbox Live Creators Program** section in the page.
 
    The "Enable Xbox Live Creators Program" page appears, the first time through this process for a new game.
 
-   ![The "Enable Xbox Live Creators Program" page](images/pc_cr_enablexblcrpgm_pg.png)
+   ![The "Enable Xbox Live Creators Program" page](setup-partner-center-creators_images/pc_cr_enablexblcrpgm_pg.png)
 
 6. Click the **Enable** button.
 
    The "Setup" dialog box appears.
 
-   ![The "Setup" dialog box](images/pc_cr_setup_dbx.png)
+   ![The "Setup" dialog box](setup-partner-center-creators_images/pc_cr_setup_dbx.png)
 
 7. In the **Xbox Live game name** text box, enter the name of your game.
    This can be the same as the name of the game you specified at the beginning, but it doesn't need to be the same.
@@ -109,7 +109,7 @@ At Partner Center, create a new app representing your game, as follows.
 
    Then the "Xbox Live Creators Program" page appears.
 
-   ![The "Xbox Live Creators Program" page](images/pc_cr_xbl_creators_pgm_pg.png)
+   ![The "Xbox Live Creators Program" page](setup-partner-center-creators_images/pc_cr_xbl_creators_pgm_pg.png)
 
 You've now completed the initial setup of your game.
 Your game cannot be tested yet; you need to publish the game first.
@@ -150,26 +150,26 @@ In Partner Center, if you are not already at the "Xbox Live Creators Program" pa
 
    The "Xbox Live Creators Program" page appears.
 
-   ![The "Xbox Live Creators Program" page](images/pc_cr_xbl_creators_pgm_pg.png)
+   ![The "Xbox Live Creators Program" page](setup-partner-center-creators_images/pc_cr_xbl_creators_pgm_pg.png)
 
 
 ### Authorize Xbox Live accounts for testing the game
 
 1. In the "Xbox Live Creators Program" page, scroll down to the **Test** section.
 
-   ![The "Test" section of the "Xbox Live Creators Program" page](images/pc_cr_xblcrpgm_test_secn.png)
+   ![The "Test" section of the "Xbox Live Creators Program" page](setup-partner-center-creators_images/pc_cr_xblcrpgm_test_secn.png)
 
 2. Click the **Authorize Xbox Live accounts** link.
 
    The "Manage Accounts" page appears, in a new tab of the browser.
 
-   ![The "Manage Accounts" page](images/pc_creators_manageaccounts_pg.png)
+   ![The "Manage Accounts" page](setup-partner-center-creators_images/pc_creators_manageaccounts_pg.png)
 
 3. Click the **Add account** button.
 
    The "Please enter an Xbox Live email address" dialog box appears.
 
-   ![The "Please enter an Xbox Live email address" dialog box](images/pc_creators_enteremail_dbx.png)
+   ![The "Please enter an Xbox Live email address" dialog box](setup-partner-center-creators_images/pc_creators_enteremail_dbx.png)
 
 4. In the text box, enter your Xbox Live email address to use for testing.
 
@@ -184,7 +184,7 @@ In Partner Center, if you are not already at the "Xbox Live Creators Program" pa
 
 1. Click the previous browser tab to see the "Xbox Live Creators Program" page: "Test" section.
 
-   ![The "Test" section of the "Xbox Live Creators Program" page](images/pc_cr_xblcrpgm_test_secn.png)
+   ![The "Test" section of the "Xbox Live Creators Program" page](setup-partner-center-creators_images/pc_cr_xblcrpgm_test_secn.png)
 
 2. Click the **Test** button.
 
