@@ -1,6 +1,6 @@
 ---
 title: Visual Studio targeting Xbox
-description: Setting up Visual Studio targeting Xbox to use the Xbox Live SDK, for ID@Xbox Partners.
+description: Setting up Visual Studio targeting Xbox to use the Xbox Live SDK, for Managed Partners.
 layout: LandingPage
 ms.date: 02/08/2019
 ms.topic: article
@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 
 # Visual Studio targeting Xbox
 
-Setting up Visual Studio targeting Xbox to use the Xbox Live SDK, for ID@Xbox Partners and other Managed Partners.
+Setting up Visual Studio targeting Xbox to use the Xbox Live SDK, for Managed Partners.
 
 
 ### In this section

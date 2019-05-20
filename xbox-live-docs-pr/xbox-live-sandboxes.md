@@ -175,7 +175,7 @@ So for example, if a user follows another user, that relationship is sandbox-agn
 
 The below examples show some of the benefits of using multiple sandboxes.
 
-> **Note**: If you are in the Xbox Creators Program, you may only have one sandbox. If you have need to create multiple sandboxes, please apply to the ID@Xbox program.
+> **Note**: If you are in the Xbox Creators Program, you can only have one sandbox. To create multiple sandboxes, you must be in the Managed Partners Program; see 
 
 
 #### Service config isolation

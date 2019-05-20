@@ -22,7 +22,7 @@
           items:
             - name: Setting up a game app at Partner Center, for Creators
               href: get-started/setup-partner-center/setup-partner-center-creators.md
-            - name: Setting up a game app at Partner Center, for ID@Xbox Partners
+            - name: Setting up a game app at Partner Center, for Managed Partners
               href: get-started/setup-partner-center/setup-partner-center-id-partners.md
             - name: Legacy articles about Partner Center setup
               href: get-started/setup-partner-center/legacy/legacy-nav.md
@@ -33,9 +33,9 @@
                   href: get-started/setup-partner-center/legacy/create-and-test-a-new-creators-title.md
                 - name: Authorize test accounts, for Creators
                   href: get-started/setup-partner-center/legacy/authorize-xbox-live-accounts.md
-                - name: Get started with Xbox Live, for ID@Xbox Partners
+                - name: Get started with Xbox Live, for Managed Partners
                   href: get-started/setup-partner-center/legacy/get-started-with-xbox-live-partner.md
-                - name: Create an app and publish it for testing, for ID@Xbox Partners
+                - name: Create an app and publish it for testing, for Managed Partners
                   href: get-started/setup-partner-center/legacy/create-a-new-title.md
         - name: Setting up an IDE
           href: get-started/setup-ide/index.md
@@ -70,7 +70,7 @@
                       href: get-started/setup-ide/creators/unity-win10/add-multi-user-support.md
                     - name: Checking user privilege settings in Unity
                       href: get-started/setup-ide/creators/unity-win10/check-user-privileges-in-unity.md
-            - name: Setting up an IDE, for ID@Xbox Partners
+            - name: Setting up an IDE, for Managed Partners
               href: get-started/setup-ide/managed-partners/index.md
               items:
                 - name: Android Studio targeting Android

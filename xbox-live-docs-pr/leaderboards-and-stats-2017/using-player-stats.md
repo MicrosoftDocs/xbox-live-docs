@@ -27,12 +27,13 @@ Featured Stats are one of several possible items displayed in pinned Content Blo
 ## Stats 2013 and 2017
 
 Currently there are two implementations for stats for Xbox Live, Stats 2013 and Stats 2017.
-Both are available to ID@Xbox and managed partner developers.
-Xbox Live Creators Program developers may only use Stats 2017 and so can ignore Stats 2013.
 
-Xbox Live Creators Program developers can skip ahead to the [Stats 2017 document](stats2017.md).
+* Managed Partners can use Stats 2013 or Stats 2017.
 
-These two implementations operate on fundamentally different principles, as follows.
+* Xbox Live Creators Program developers can only use Stats 2017, and so can ignore Stats 2013.
+  Creators Program developers can skip ahead to [Player Stats 2017](stats2017.md).
+
+Stats 2013 and Stats 2017 operate on fundamentally different principles, as follows.
 
 
 ### Stats 2013
@@ -98,7 +99,7 @@ How the two flavors of Stats operate:
 
 ## Notes
 
-For ID@Xbox and managed partner developers, there are a few more differences you should be aware of when deciding between Stats 2013 and Stats 2017 for your title.
+For Managed Partners, there are a few more differences you should be aware of when deciding between Stats 2013 and Stats 2017 for your title.
 
 Stats 2013 allows for more leaderboard views.
 Stats 2013 allows you to more easily drill down on the meta data of your statistics.

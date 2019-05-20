@@ -29,9 +29,12 @@ If you instead want to use source, see [Compiling the Xbox Live APIs Source In Y
 The Xbox Services API comes in flavors for both UWP and XDK, and for C++ and WinRT and have their namespace structured as **Microsoft.Xbox.Live.SDK.*.UWP** and **Microsoft.Xbox.Live.SDK.*.XboxOneXDK**.
 
 * **UWP** is for developers who are building a UWP game, which can run on either PC, the Xbox One, or Windows Phone.
-* **XboxOneXDK** is for ID@Xbox and managed developers who are using the Xbox One XDK.
+
+* **XboxOneXDK** is for Managed Partners who are using the Xbox One XDK.
+
 * The C++ SDK can be used for C++ game engines, where as the  WinRT SDK is for game engines written with C++, C#, or JavaScript.
-* When using WinRT with a C++ engine, you should use C++/CX, which uses carets, or hats (^). C++ is the recommended API to use for C++ game engines.
+
+* When using WinRT with a C++ engine, you should use C++/CX, which uses carets (^). C++ is the recommended API to use for C++ game engines.
 
 > [!TIP]
 > You can read more about running UWP on Xbox One at [Getting started with UWP app development on Xbox One](https://docs.microsoft.com/windows/uwp/xbox-apps/getting-started).

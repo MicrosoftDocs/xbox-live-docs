@@ -20,7 +20,7 @@ Many of the tools are available on the [Xbox Live Developer Tools GitHub](https:
 To create your own custom tooling, you can use the [Dev Tools library](https://www.nuget.org/packages/Microsoft.Xbox.Services.DevTools).
 
 > [!NOTE]
-> The MatchSim and XboxLiveCompute tools included in the download can only be used by managed partners, or partners enrolled in the [ID@Xbox](https://www.xbox.com/Developers/id) program. To learn more about the available developer programs, please refer to the [developer program overview](https://docs.microsoft.com/windows/uwp/xbox-live/developer-program-overview).
+> The MatchSim and XboxLiveCompute tools included in the download can only be used by Managed Partners, not by Creators Program developers.
 
 
 ## Global Storage

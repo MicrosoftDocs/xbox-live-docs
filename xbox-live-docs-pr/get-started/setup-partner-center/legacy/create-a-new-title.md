@@ -83,4 +83,4 @@ You can find the Xbox App by going into the *Start Menu* and typing in "Xbox" as
 
 Now that you have a new title created, you can set up an Xbox Live enabled title in your Game Engine, Visual Studio or build environment of choice.
 
-See [Get started with Xbox Live, as an ID@Xbox developer or managed partner](get-started-with-xbox-live-partner.md).
+See [Get started with Xbox Live, as a Managed Partner](get-started-with-xbox-live-partner.md).

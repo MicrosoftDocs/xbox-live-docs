@@ -1,6 +1,6 @@
 ---
 title: Other articles about Xcode targeting iOS
-description: Articles about Xcode targeting iOS, other than initial IDE setup, for ID@Xbox Partners.
+description: Articles about Xcode targeting iOS, other than initial IDE setup, for Managed Partners.
 layout: LandingPage
 ms.date: 04/19/2019
 ms.topic: article
@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 
 # Other articles about Xcode targeting iOS
 
-Articles about Xcode targeting iOS, other than initial IDE setup, for ID@Xbox Partners and other Managed Partners.
+Articles about Xcode targeting iOS, other than initial IDE setup, for Managed Partners.
 
 
 ### In this section

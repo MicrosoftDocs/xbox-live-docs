@@ -16,7 +16,7 @@ There are Xbox Live API samples and Xbox Developer Kit samples.
 ## Xbox Live API samples
 
 These samples showcase usage for the Xbox Live API.
-These samples are for both Xbox Live Creators Program and ID@Xbox.
+These samples are for both the Creators Program and Managed Partners.
 These samples are in the [Xbox Live Samples GitHub repo](https://github.com/Microsoft/xbox-live-samples).
 
 | Sample Name             | Platforms | Languages                     | Description                                                                                                                                                                                                           |

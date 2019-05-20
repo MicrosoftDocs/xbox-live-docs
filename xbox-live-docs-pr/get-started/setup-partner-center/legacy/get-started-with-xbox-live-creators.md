@@ -73,7 +73,7 @@ Xbox Live Creators Program offers an array of features designed to help promote 
 - [Xbox Live Cloud Storage: Connected Storage, Title Storage](../../../storage-platform/storage-platform.md) offers free save game roaming between devices so gamers can easily continue game progress between Xbox One and Windows PC.
 - [Xbox Live Social features - Profile, Friends, Presence](../../../social-platform/social-platform.md) lets gamers connect with friends and talk about your game.
 
-The online multiplayer, achievements, and gamerscore features are supported for ID@Xbox and for Managed Partners, but not for the Creators Program.
+The online multiplayer, achievements, and gamerscore features are supported for Managed Partners, but not for the Creators Program.
 
 
 ## 6. Release your game
