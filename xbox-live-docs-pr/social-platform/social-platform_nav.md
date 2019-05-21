@@ -33,7 +33,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="people-system/people-system.md">
+        <a href="people-system/people-system_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -52,7 +52,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../features/social/clubs/index.md">
+        <a href="../features/social/clubs/clubs_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -71,7 +71,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../features/social/rich-presence/index.md">
+        <a href="../features/social/rich-presence/rich-presence_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -90,7 +90,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../features/social/localized-strings/localized-strings.md">
+        <a href="../features/social/localized-strings/localized-strings_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -109,7 +109,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="people-system/reputation.md">
+        <a href="people-system/reputation_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

@@ -21,7 +21,7 @@ Differentiate sentences for the two Policies cards
   You can publish a game to a private sandbox for testing, or to the public on the Xbox Managed Partners Store.
 </p>
 <p>
-  To publish a game for testing or public release, first complete the <a href="../get-started/index.md">Getting Started</a> steps so that your game can do basic sign-in to Xbox Live.
+  To publish a game for testing or public release, first complete the <a href="../get-started/get-started_nav.md">Getting Started</a> steps so that your game can do basic sign-in to Xbox Live.
 </p>
 
 <ul class="cardsF panelContent cols cols2">
@@ -45,7 +45,7 @@ Differentiate sentences for the two Policies cards
         </a>
     </li>
     <li>
-        <a href="../policies/policies.md">
+        <a href="../policies/policies_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -64,7 +64,7 @@ Differentiate sentences for the two Policies cards
         </a>
     </li>
     <li>
-        <a href="../configuring-xbox-live-services.md">
+        <a href="../configuring-xbox-live-services_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -83,7 +83,7 @@ Differentiate sentences for the two Policies cards
         </a>
     </li>
     <li>
-        <a href="sandboxes/sandboxes.md">
+        <a href="sandboxes/sandboxes_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -102,7 +102,7 @@ Differentiate sentences for the two Policies cards
         </a>
     </li>
     <li>
-        <a href="../test-accounts.md">
+        <a href="../test-accounts_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -140,7 +140,7 @@ Differentiate sentences for the two Policies cards
         </a>
     </li>
     <li>
-        <a href="creators/index.md">
+        <a href="creators/cr-testing_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -159,7 +159,7 @@ Differentiate sentences for the two Policies cards
         </a>
     </li>
     <li>
-        <a href="managed/index.md">
+        <a href="managed/mp-testing_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -178,7 +178,7 @@ Differentiate sentences for the two Policies cards
         </a>
     </li>
     <li>
-        <a href="../using-xbox-live/troubleshooting/troubleshooting.md">
+        <a href="../using-xbox-live/troubleshooting/troubleshooting_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -197,7 +197,7 @@ Differentiate sentences for the two Policies cards
         </a>
     </li>
     <li>
-        <a href="../tools/development-tools-for-xbox-live.md">
+        <a href="../tools/development-tools_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
