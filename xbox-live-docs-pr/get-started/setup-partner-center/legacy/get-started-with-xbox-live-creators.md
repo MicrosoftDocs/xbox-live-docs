@@ -32,7 +32,7 @@ See [Creating a new Creators title](create-and-test-a-new-creators-title.md).
 You can follow the appropriate "getting started guide" for your platform and engine and learn the basics of Xbox Live as you go along:
 
 * [Develop a Creators title with Visual Studio](../../setup-ide/creators/vs-win10/develop-creators-title-with-visual-studio.md) will show you how to link your Visual Studio project with your Xbox Live configuration in Partner Center.
-* [Unity targeting Windows 10](../../setup-ide/creators/unity-win10/index.md) will show you how to create a new Xbox Live enabled Unity game, handle single user and multi-user sign in, add features such as leaderboards and stats, and generate a native Visual Studio project.
+* [Unity targeting Windows 10](../../setup-ide/creators/unity-win10/cr-unity-win10_nav.md) will show you how to create a new Xbox Live enabled Unity game, handle single user and multi-user sign in, add features such as leaderboards and stats, and generate a native Visual Studio project.
 
 While Unity is the only third party game engine for which we provide documentation, The game engines [Construct (2 & 3)](https://www.scirra.com/construct2) and [Game Maker Studio](https://www.yoyogames.com/gamemaker) also have documentation to help you integrate Xbox Live into your Construct or Game Maker Studio game respectively.
 
@@ -62,16 +62,16 @@ All Xbox Live Creators Program games must integrate Xbox Live sign-in and displa
 You can choose to automatically sign in the user or have them push a button to initiate it.
 The Gamertag must be displayed once signed in so that the player can validate that they are using the right profile.
 
-- [Xbox Live Social features - Profile, Friends, Presence](../../../social-platform/social-platform.md)
+- [Xbox Live Social features - Profile, Friends, Presence](../../../social-platform/social-platform_nav.md)
 
 
 ## 5. Add optional Xbox Live features
 
 Xbox Live Creators Program offers an array of features designed to help promote your game and keep gamers engaged:
 
-- [Xbox Live Player Data: Stats, Leaderboards, and Achievements](../../../data-platform/data-platform.md) help drive engagement of your game by letting gamers compete to beat their friends and move up the ranks.
-- [Xbox Live Cloud Storage: Connected Storage, Title Storage](../../../storage-platform/storage-platform.md) offers free save game roaming between devices so gamers can easily continue game progress between Xbox One and Windows PC.
-- [Xbox Live Social features - Profile, Friends, Presence](../../../social-platform/social-platform.md) lets gamers connect with friends and talk about your game.
+- [Xbox Live Player Data: Stats, Leaderboards, and Achievements](../../../data-platform/player-data_nav.md) help drive engagement of your game by letting gamers compete to beat their friends and move up the ranks.
+- [Xbox Live Cloud Storage: Connected Storage, Title Storage](../../../storage-platform/cloud-storage_nav.md) offers free save game roaming between devices so gamers can easily continue game progress between Xbox One and Windows PC.
+- [Xbox Live Social features - Profile, Friends, Presence](../../../social-platform/social-platform_nav.md) lets gamers connect with friends and talk about your game.
 
 The online multiplayer, achievements, and gamerscore features are supported for Managed Partners, but not for the Creators Program.
 

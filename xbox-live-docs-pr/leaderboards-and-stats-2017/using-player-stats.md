@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 
 # Using player stats
 
-As described in [Player Data Overview](../data-platform/data-platform.md), stats are key pieces of information you want to track about a player, such as *Head Shots* or *Fastest Lap Time*.
+As described in [Player Data Overview](../data-platform/player-data_nav.md), stats are key pieces of information you want to track about a player, such as *Head Shots* or *Fastest Lap Time*.
 Stats are used to generate leaderboards in a number of scenarios that will allow players to compare their effort and skills with their friends and every other player in a title's community.
 
 *Configured stats* show up in a title's [Game Hub](../data-platform/designing-xbox-live-experiences.md) leaderboard, where a player will see how they rank against their friends who have also played the title.
@@ -49,7 +49,7 @@ In Stats 2013, the service keeps track of and updates all of your stats values, 
 When using Stats 2017, you send up the actual stat value itself for the server to use.
 
 In Stats 2017, the server does little to no validation on the value sent to it, and so it is up to your title to keep track of the correct stat values; your title is the source of truth for statistic values.
-When using Stats 2017, we recommend that you track and store your stats in the cloud with the [Xbox Live Cloud Storage](../storage-platform/storage-platform.md).
+When using Stats 2017, we recommend that you track and store your stats in the cloud with the [Xbox Live Cloud Storage](../storage-platform/cloud-storage_nav.md).
 
 Stats 2017 is like a reporting service: you send the correct stat for your game to the server, your stat then sits on the server and waits to be displayed on request or updated.
 

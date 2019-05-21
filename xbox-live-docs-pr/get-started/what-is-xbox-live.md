@@ -71,7 +71,7 @@ This section describes how to get started with the Xbox Live social features.
 
 | Article | Description |
 |---------|-------------|
-| [Xbox Live Social features](../social-platform/social-platform.md) | If you can sign-in a user, then you can start using Xbox Live's Social features, such as utilizing a user's social graph, Rich Presence, and others. |
+| [Xbox Live Social features](../social-platform/social-platform_nav.md) | If you can sign-in a user, then you can start using Xbox Live's Social features, such as utilizing a user's social graph, Rich Presence, and others. |
 
 
 ## Player Data
@@ -81,9 +81,9 @@ Read this series of articles to learn more about how to use these in your title.
 
 | Article | Description |
 |---------|-------------|
-| [Xbox Live Player Data](../data-platform/data-platform.md) | A brief overview of the Player Data system, as well as guidance on how to best incorporate stats, leaderboards, and achievements into your title.
-| [Achievements](../achievements-2017/achievements.md) | Achievements are one of the most well known features in Xbox Live, and a great driver of player engagement. Learn how to use them in your title.
-| [Player Stats](../leaderboards-and-stats-2017/player-stats.md) | Stats are the foundation of leaderboards.  Learn how to define and use them here.
+| [Xbox Live Player Data](../data-platform/player-data_nav.md) | A brief overview of the Player Data system, as well as guidance on how to best incorporate stats, leaderboards, and achievements into your title.
+| [Achievements](../achievements-2017/achievements_nav.md) | Achievements are one of the most well known features in Xbox Live, and a great driver of player engagement. Learn how to use them in your title.
+| [Player Stats](../leaderboards-and-stats-2017/player-stats_nav.md) | Stats are the foundation of leaderboards.  Learn how to define and use them here.
 | [Leaderboards](../leaderboards-and-stats-2017/leaderboards.md) | Bring out your users' competitive sides by intelligently incorporating leaderboards.
 
 
@@ -97,7 +97,7 @@ These are two different but complementary services:
 
 | Article | Description |
 |---------|-------------|
-| [Xbox Live Cloud Storage](../storage-platform/storage-platform.md) | Use the Xbox Live storage services for storing game saves, instant replays, user preferences, and other data in the cloud. |
+| [Xbox Live Cloud Storage](../storage-platform/cloud-storage_nav.md) | Use the Xbox Live storage services for storing game saves, instant replays, user preferences, and other data in the cloud. |
 | [Connected Storage](../storage-platform/connected-storage/connected-storage-technical-overview.md) | An overview and programming guide on Connected Storage. |
 | [Title Storage](../storage-platform/xbox-live-title-storage/xbox-live-title-storage.md) | An overview and programming guide on Title Storage. |
 
@@ -111,6 +111,6 @@ You also have several options of API that provide varying levels of simplicity v
 | Article | Description |
 |---------|-------------|
 | [Xbox Live Multiplayer features](../multiplayer/multiplayer-intro.md) | If you are new to Xbox Live multiplayer development, or are unfamiliar with new APIs such as Multiplayer Manager and Xbox Integrated Multiplayer (XIM), then start here. |
-| [Multiplayer scenarios](../multiplayer/multiplayer-scenarios.md) | Suggestions and guidance on how you might incorporate multiplayer into your title. |
-| [Xbox Integrated Multiplayer](../multiplayer/xbox-integrated-multiplayer.md) | Xbox Integrated Multiplayer (XIM) is an easy self-contained interface for adding multiplayer, real-time networking, and chat to your title. |
+| [Multiplayer scenarios](../multiplayer/multiplayer-scenarios_nav.md) | Suggestions and guidance on how you might incorporate multiplayer into your title. |
+| [Xbox Integrated Multiplayer](../multiplayer/xbox-integrated-multiplayer_nav.md) | Xbox Integrated Multiplayer (XIM) is an easy self-contained interface for adding multiplayer, real-time networking, and chat to your title. |
 | [Multiplayer Manager](../multiplayer/multiplayer-manager.md) | Multiplayer Manager provides an API focused on common multiplayer scenarios. |

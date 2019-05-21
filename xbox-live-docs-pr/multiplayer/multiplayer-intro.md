@@ -27,7 +27,7 @@ The major sub-systems in the API suite are:
 -	**Peer to peer and client-server networking APIs** provide secure real-time communication leveraging modern Internet standards and actively monitored by Xbox Live. Standardization and integration with the Xbox Live network troubleshooting experiences allow users to quickly remediate connectivity issues.  
 -	**Integrated voice and text chat solutions** that facilitate safe in-game communication leveraging the Xbox Live social graph, media services, and specialized encoding hardware on Xbox One devices.
 
-For an overview of some of the most common multiplayer scenarios, and which Xbox Live functionality can help implement those scenarios, see [Multiplayer Levels](multiplayer-scenarios.md).
+For an overview of some of the most common multiplayer scenarios, and which Xbox Live functionality can help implement those scenarios, see [Multiplayer Levels](multiplayer-scenarios_nav.md).
 
 
 ## How can I implement Xbox Live Multiplayer in my game?
@@ -47,7 +47,7 @@ XIM provides the following functionality:
 - Aides for detecting and managing network congestion, as well as for migrating game state.
 
 XIM is the simplest multiplayer solution available through the Xbox Live Multiplayer features, but also the least customizable and is only suited for P2P games.
-For more information about XIM, see [Xbox Integrated Multiplayer](xbox-integrated-multiplayer.md).
+For more information about XIM, see [Xbox Integrated Multiplayer](xbox-integrated-multiplayer_nav.md).
 
 
 ### Xbox Multiplayer Manager

@@ -44,7 +44,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2" style="display: flex; margin-top: 0px;">
     <li>
-        <a href="get-started/index.md">
+        <a href="get-started/get-started_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -63,7 +63,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="features/index.md">
+        <a href="features/features_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -82,7 +82,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="releasing/releasing.md">
+        <a href="releasing/releasing_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -101,7 +101,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="api-reference.md">
+        <a href="api-reference_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
