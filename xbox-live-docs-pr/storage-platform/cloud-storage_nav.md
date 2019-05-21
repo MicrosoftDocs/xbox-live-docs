@@ -33,7 +33,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="connected-storage/connected-storage.md">
+        <a href="connected-storage/connected-storage_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -55,7 +55,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="xbox-live-title-storage/xbl-title-storage.md">
+        <a href="xbox-live-title-storage/xbl-title-storage_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
