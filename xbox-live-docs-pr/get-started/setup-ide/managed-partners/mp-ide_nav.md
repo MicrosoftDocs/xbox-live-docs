@@ -20,7 +20,7 @@ Prerequisite: Set up a game at Partner Center; see [Getting Started](../../index
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="index_images/android-studio-logo.png" alt="Android Studio targeting Android"/>
+                                <img src="mp-ide_nav_images/android-studio-logo.png" alt="Android Studio targeting Android"/>
                             </div>
                         </div>
                         <div class="cardText">
