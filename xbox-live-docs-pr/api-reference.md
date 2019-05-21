@@ -83,3 +83,5 @@ ms.localizationpriority: medium
     <li>Xbox Live Services RESTful reference</li>
   </ul>
 </p>
+
+[Home](index.md)
