@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="../../using-xbox-live/auth/authentication.md">
+        <a href="../../using-xbox-live/auth/authentication_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -52,7 +52,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="privileges/index.md">
+        <a href="privileges/privileges_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

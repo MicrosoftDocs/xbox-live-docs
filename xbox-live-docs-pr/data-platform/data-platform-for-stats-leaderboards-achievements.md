@@ -45,4 +45,4 @@ In this example, it would be up to your title to measure how long the race took,
 Typically, Gamerscore is awarded along with the completion of achievements.
 It is up to you to decide the amount of Gamerscore for each achievement.
 
-See [Achievements](../achievements-2017/achievements.md).
+See [Achievements](../achievements-2017/achievements_nav.md).

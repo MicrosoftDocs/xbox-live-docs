@@ -38,7 +38,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="join-dev-program/index.md">
+        <a href="join-dev-program/join-dev-program_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -57,7 +57,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="setup-partner-center/index.md">
+        <a href="setup-partner-center/setup-partner-center_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -76,7 +76,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="setup-ide/index.md">
+        <a href="setup-ide/setup-ide_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -95,7 +95,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="add-signin-code/index.md">
+        <a href="add-signin-code/add-signin-code_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -120,7 +120,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="../features/index.md">
+        <a href="../features/features_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -139,7 +139,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../releasing/releasing.md">
+        <a href="../releasing/releasing_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

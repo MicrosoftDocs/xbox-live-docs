@@ -52,7 +52,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../achievements-2017/achievements.md">
+        <a href="../achievements-2017/achievements_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -71,7 +71,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../leaderboards-and-stats-2017/player-stats.md">
+        <a href="../leaderboards-and-stats-2017/player-stats_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

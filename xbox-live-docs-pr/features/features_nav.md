@@ -153,7 +153,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="tcui/index.md">
+        <a href="tcui/tcui_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -172,7 +172,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../real-time-activity-service/real-time-activity-service.md">
+        <a href="../real-time-activity-service/real-time-activity-service_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
