@@ -109,7 +109,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../features/data/featured-stats/index.md">
+        <a href="../features/data/featured-stats/featured-stats_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

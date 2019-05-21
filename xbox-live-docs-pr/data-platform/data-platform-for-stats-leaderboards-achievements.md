@@ -26,7 +26,7 @@ Your title can display leaderboards based on player stats.
 For example, the leaderboard could be a global ranking of races completed.
 You call these services using the Xbox Live APIs directly, or wrappers in a game engine such as Unity.
 
-See [Player Stats](../leaderboards-and-stats-2017/player-stats.md) and [Leaderboards](../leaderboards-and-stats-2017/leaderboards.md).
+See [Player Stats](../leaderboards-and-stats-2017/player-stats_nav.md) and [Leaderboards](../leaderboards-and-stats-2017/leaderboards.md).
 
 
 ## Featured stats
