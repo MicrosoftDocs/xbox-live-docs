@@ -139,7 +139,7 @@ Title services should use these patterns to perform operations on multiple users
 Session members are added and modified by using one of the above patterns. Generally, the minimum operation to add a player is by setting a property or constant, typically the member’s active status property.
 
 > [!NOTE]
-> Members that are not set to active will be removed automatically by the service dependent on the InactiveTimeout value for the MPSD session.
+> Members that are not set to active will be removed automatically by the service dependent on the `InactiveTimeout` value for the MPSD session.
 
 Other required properties and constants for the player should be set through the same call as needed.
 
@@ -406,13 +406,13 @@ The following pattern is used for flagging session members as part of a group:
 The list of groups is replaced with every write operation. To remove a member from a group, remove the group from the `groups` property list. A write operations with an empty list removes all group memberships.
 
 > [!NOTE]
-> The groups property is persistent and will be visible in responses for a member.
+> The `groups` property is persistent and will be visible in responses for a member.
 
 ### Activity Session management
 
 The activity handle of a user determines which session is used for Platform invites and Join-in-Progress. This handle cannot be set through S2S calls and is currently only available through client APIs. A title server can share the session name with a client to enable activity handle creation for a S2S session.
 
-For more information on handles see [Session Handle topic].
+For more information on handles see [Multiplayer 2015 Appendix](multiplayer-appendix/multiplayer-appendix.md).
 
 ## Best practices
 
