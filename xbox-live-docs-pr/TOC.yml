@@ -196,7 +196,7 @@
                     - name: Social Manager memory and performance
                       href: social-platform/social-manager-memory-and-performance-overview.md
             - name: Clubs
-              href: features/social/clubs/clubs_nav.md
+              href: features/social/clubs/clubs.md
             - name: Rich Presence
               href: features/social/rich-presence/rich-presence_nav.md
               items: 
