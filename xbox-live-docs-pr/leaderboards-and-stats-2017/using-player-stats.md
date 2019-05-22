@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 
 # Using player stats
 
-As described in [Player Data Overview](../data-platform/data-platform.md), stats are key pieces of information you want to track about a player, such as *Head Shots* or *Fastest Lap Time*.
+As described in [Player Data Overview](../data-platform/player-data_nav.md), stats are key pieces of information you want to track about a player, such as *Head Shots* or *Fastest Lap Time*.
 Stats are used to generate leaderboards in a number of scenarios that will allow players to compare their effort and skills with their friends and every other player in a title's community.
 
 *Configured stats* show up in a title's [Game Hub](../data-platform/designing-xbox-live-experiences.md) leaderboard, where a player will see how they rank against their friends who have also played the title.
@@ -27,12 +27,13 @@ Featured Stats are one of several possible items displayed in pinned Content Blo
 ## Stats 2013 and 2017
 
 Currently there are two implementations for stats for Xbox Live, Stats 2013 and Stats 2017.
-Both are available to ID@Xbox and managed partner developers.
-Xbox Live Creators Program developers may only use Stats 2017 and so can ignore Stats 2013.
 
-Xbox Live Creators Program developers can skip ahead to the [Stats 2017 document](stats2017.md).
+* Managed Partners can use Stats 2013 or Stats 2017.
 
-These two implementations operate on fundamentally different principles, as follows.
+* Xbox Live Creators Program developers can only use Stats 2017, and so can ignore Stats 2013.
+  Creators Program developers can skip ahead to [Player Stats 2017](stats2017.md).
+
+Stats 2013 and Stats 2017 operate on fundamentally different principles, as follows.
 
 
 ### Stats 2013
@@ -48,7 +49,7 @@ In Stats 2013, the service keeps track of and updates all of your stats values, 
 When using Stats 2017, you send up the actual stat value itself for the server to use.
 
 In Stats 2017, the server does little to no validation on the value sent to it, and so it is up to your title to keep track of the correct stat values; your title is the source of truth for statistic values.
-When using Stats 2017, we recommend that you track and store your stats in the cloud with the [Xbox Live Cloud Storage](../storage-platform/storage-platform.md).
+When using Stats 2017, we recommend that you track and store your stats in the cloud with the [Xbox Live Cloud Storage](../storage-platform/cloud-storage_nav.md).
 
 Stats 2017 is like a reporting service: you send the correct stat for your game to the server, your stat then sits on the server and waits to be displayed on request or updated.
 
@@ -98,7 +99,7 @@ How the two flavors of Stats operate:
 
 ## Notes
 
-For ID@Xbox and managed partner developers, there are a few more differences you should be aware of when deciding between Stats 2013 and Stats 2017 for your title.
+For Managed Partners, there are a few more differences you should be aware of when deciding between Stats 2013 and Stats 2017 for your title.
 
 Stats 2013 allows for more leaderboard views.
 Stats 2013 allows you to more easily drill down on the meta data of your statistics.

@@ -20,11 +20,11 @@ Please see the [What's New - November 2016](1611-whats-new.md) article for what 
 
 ### Multiplayer
 
-* [XIM (Xbox Integrated Multiplayer)](../multiplayer/xbox-integrated-multiplayer.md) is now production ready, and is available for XDK and UWP (PC) development.  XIM is a self-contained interface for easily adding multiplayer real-time networking and chat communication to your game through the power of Xbox Live services.
+* [XIM (Xbox Integrated Multiplayer)](../multiplayer/xbox-integrated-multiplayer_nav.md) is now production-ready, and is available for XDK and UWP (PC) development.  XIM is a self-contained interface for easily adding multiplayer real-time networking and chat communication to your game through the power of Xbox Live services.
 
 ## Documentation
-* There is updated documentation for [XIM](../multiplayer/xbox-integrated-multiplayer.md).
-* Documentation has been added for GameChat
+* There is updated documentation for [XIM](../multiplayer/xbox-integrated-multiplayer_nav.md).
+* Documentation has been added for GameChat.
 
 > [!IMPORTANT]
 > GameChat has been replaced with GameChat 2! Please refer to the [GameChat 2 Documentation](../multiplayer/chat/game-chat-2-overview.md) as GameChat 1 is no longer supported.

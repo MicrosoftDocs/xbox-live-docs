@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 ## What is Service Configuration?
 
-Xbox Live features to configure include [Achievements](achievements-2017/achievements.md), [Leaderboards](leaderboards-and-stats-2017/leaderboards.md) and [Matchmaking](multiplayer/multiplayer-concepts.md#smartmatch-matchmaking).
+Xbox Live features to configure include [Achievements](achievements-2017/achievements_nav.md), [Leaderboards](leaderboards-and-stats-2017/leaderboards.md) and [Matchmaking](multiplayer/multiplayer-concepts.md#smartmatch-matchmaking).
 
 For example, Leaderboards allow players to see a value representing an accomplishment, in comparison to other players.
 Such values include high scores in an arcade game, lap times in a racing game, and headshots in a first-person shooter.
@@ -26,7 +26,7 @@ This configuration happens on [Partner Center](https://partner.microsoft.com/das
 
 If you are a developing your title as part of the Xbox Live Creators Program, you use [Partner Center](https://partner.microsoft.com/dashboard), and you can read [Getting Started With Xbox Live](get-started/setup-partner-center/legacy/get-started-with-xbox-live-creators.md) to learn how to get set up.
 
-If you are an ID@Xbox Developer or working with a publisher that is a Microsoft Partner, read on.
+If you are in the Managed Partners Program, read on.
 
 
 ## Choose your development portal
@@ -35,7 +35,7 @@ Partner Center is used to configure Xbox Live Services.
 *  Partner Center at [https://partner.microsoft.com/dashboard](https://partner.microsoft.com/dashboard)
 
 You can find information about specific service configuration pages:
-* [Partner Center configuration](configure-xbl/windows-dev-center.md)
+* [Partner Center configuration](configure-xbl/windows-dev-center_nav.md)
 
 If you already have a title configured, you can scroll down to [Get your IDs](#get_ids) to learn how to get the various identifiers required to set up your title.
 

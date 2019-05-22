@@ -28,9 +28,9 @@ Some of the high-level features of Xbox Live title storage include, but are not 
 
 ## Types of storage
 
-For managed partners and ID@Xbox members:
+For Managed Partners:
 
-| Storage Type       | Quota (Managed Partners/ID@Xbox) | Quota (Xbox Live Creators Program) |  Purpose                                                                                                                                                      | Platforms                                                                                           | Users                                       |
+| Storage Type       | Quota (Managed Partners) | Quota (Creators Program) |  Purpose                                                                                                                                                      | Platforms                                                                                           | Users                                       |
 |--------------------|--------------------|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------|
 | Trusted Platform   | 256 MB per user | 64 MB per user    | Per-user data such as saved games or game state for play/pause/resume. More secure, but with platform restrictions. | Any platform may read, but only Xbox One, Xbox 360, or Windows Phone may write.  | Configurable to public or owner only.       |
 | Universal Platform | 64 MB per user | 64 MB per user    | Per-user data such as saved games or game state for play/pause/resume. | Any platform may write, but only platforms other than Xbox One, Xbox 360 or Windows Phone may read. | Configurable to public or owner only.       |

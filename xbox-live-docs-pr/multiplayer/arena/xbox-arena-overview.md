@@ -27,7 +27,7 @@ We provide robust APIs that enable titles to promote tournaments in-game and to 
 The Xbox Arena Hub supports tournament-management tasks like registration, notifications, brackets and seeding, and reporting results.
 
 > [!IMPORTANT]  
-> Xbox Arena is only available to managed partners and ID@Xbox developers. It is not available to the Xbox Live Creators Program.
+> Xbox Arena is only available to Managed Partners. It is not available to the Xbox Live Creators Program.
 
 
 ## A title's baseline tournament experience

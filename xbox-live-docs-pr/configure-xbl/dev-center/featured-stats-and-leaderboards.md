@@ -60,8 +60,8 @@ There are the following requirements when configuring a featured stat and leader
 
 | Developer Type | Requirement | Limit |
 |----------------|-------------|-------|
-| Xbox Live Creators Program | There is no requirement to designate any stats as Featured Stats | 20 |
-| ID@Xbox and Microsoft Partners | You must designate at least 3 Featured Stats | 20 |
+| Creators Program | There is no requirement to designate any stats as Featured Stats | 20 |
+| Managed Partners | You must designate at least 3 Featured Stats | 20 |
 
 
 ## Next steps

@@ -15,7 +15,7 @@ Official tournaments are run by the title and allow the developer a greater degr
 This portal gives you the opportunity to build and run tournament experiences that are tailored for your title.
 
 > [!IMPORTANT]  
-> Xbox Arena Operations Portal is only available to managed partners and ID@Xbox members. It is not available to the Xbox Live Creators Program.
+> Xbox Arena Operations Portal is only available to Managed Partners. It is not available to the Xbox Live Creators Program.
 
 
 ## Features

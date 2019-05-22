@@ -92,4 +92,4 @@ These are some of the Leaderboards to rank all of our users on:
 
 After you design Stats, Leaderboards and Achievements, you can implement them in your title, starting with configuration in Partner Center.
 
-The next few sections describe the end-to-end process: see [Player Stats](../leaderboards-and-stats-2017/player-stats.md).
+The next few sections describe the end-to-end process: see [Player Stats](../leaderboards-and-stats-2017/player-stats_nav.md).

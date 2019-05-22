@@ -26,7 +26,7 @@ In the following screenshot you can see **Lucha Uno's** full Rich Presence strin
 ![Profile Example](../../images/rich_presence/RichPresence_Config_ProfileScreen.jpg)
 
 > [!IMPORTANT]
-> Rich Presence strings are not available to Xbox Live Creators Program titles and therefore are not configurable for those titles. The content in this article is for ID@Xbox and Managed Partner titles.
+> Rich Presence strings are not available to Xbox Live Creators Program titles and therefore are not configurable for those titles. The content in this article is for Managed Partners.
 
 
 ## Requirements
@@ -34,7 +34,7 @@ In the following screenshot you can see **Lucha Uno's** full Rich Presence strin
 Before configuring Rich Presence strings you and your title must meet the following criteria:
 
 - You must have a Windows development account.
-- Your development account must be registered in the ID@Xbox program or as a managed partner developer account.
+- Your development account must be registered as a Managed Partner account, rather than a Creators Program account.
 - Your title must be registered in Partner Center and be Xbox Live enabled.
 
 Before you can use Rich Presence strings you must configure them in Partner Center.

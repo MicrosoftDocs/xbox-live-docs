@@ -81,7 +81,7 @@ For details about Xbox secure sockets, see **Networking Overviews**.
 #### Xbox Live Real-time Activity Service
 
 2015 Multiplayer uses the **real-time activity service** to allow titles to subscribe to MPSD session changes, and enable automatic detection of client disconnects.
-More information is provided in [Real-Time Activity (RTA) Service](../../real-time-activity-service/real-time-activity-service.md).
+More information is provided in [Real-Time Activity (RTA) Service](../../real-time-activity-service/real-time-activity-service_nav.md).
 
 
 #### Xbox Live Matchmaking Service
@@ -94,7 +94,7 @@ For details of Multiplayer use of this service, see [SmartMatch Matchmaking](sma
 
 The *reputation service* manages user statistics about reputation and during reputation-filtered matchmaking.
 It is used by 2015 Multiplayer through SmartMatch matchmaking.
-For more information, see [Reputation](../../social-platform/people-system/reputation.md).
+For more information, see [Reputation](../../social-platform/people-system/reputation_nav.md).
 
 
 #### Xbox Live Compute
@@ -269,7 +269,7 @@ The clients are notified of the match and perform quality of service (QoS) to va
 
 The Xbox Live Compute service on Xbox One enables developers to harness the elastic compute power of the cloud, and enables larger multiplayer scenarios than were possible in a peer-to-peer network.
 
-See [Xbox Live Compute](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/xbox-live-compute) in the XDK docs (requires ID@Xbox or Managed Partner access).
+See [Xbox Live Compute](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/xbox-live-compute) in the XDK docs (requires Managed Partner access).
 
 
 ## See also
@@ -278,8 +278,8 @@ See [Xbox Live Compute](https://developer.microsoft.com/en-us/games/xbox/docs/xd
 
 [SmartMatch Matchmaking](smartmatch-matchmaking.md)
 
-[Real-Time Activity (RTA) Service](../../real-time-activity-service/real-time-activity-service.md)
+[Real-Time Activity (RTA) Service](../../real-time-activity-service/real-time-activity-service_nav.md)
 
-[Reputation](../../social-platform/people-system/reputation.md)
+[Reputation](../../social-platform/people-system/reputation_nav.md)
 
 [Using Xbox Live Compute in Multiplayer (requires managed partner access)](https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/xbox-live-compute/using-xbox-live-compute-in-multiplayer)

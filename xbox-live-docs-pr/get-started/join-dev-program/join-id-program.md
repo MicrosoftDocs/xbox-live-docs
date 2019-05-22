@@ -11,6 +11,8 @@ ms.localizationpriority: medium
 
 # Joining the ID\@Xbox Program
 
+The ID@Xbox Program is part of the Managed Partners Program.
+
 To apply to become an ID@Xbox Partner:
 
 1. Go to <a href="https://www.xbox.com/developers/id" target="_blank">Welcome to ID@Xbox &#11008;</a>.
@@ -26,9 +28,7 @@ To apply to become an ID@Xbox Partner:
 
 ## Next steps
 
-[Setting up a game at Partner Center](../setup-partner-center/index.md)
+ID@Xbox Partners are part of the Managed Partners program.
+Documentation that is for Managed Partners applies to ID@Xbox Partners.
 
-
-## See also
-
-[Getting Started](../index.md)
+Next, set up a game at Partner Center; see [Getting Started](../get-started_nav.md).

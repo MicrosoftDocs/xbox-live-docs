@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 This article is for the Creators program.
 
 > [!NOTE]
-> There is a plugin available for games that are being developed with Unity. See [Unity targeting Windows 10](../unity-win10/index.md).
+> There is a plugin available for games that are being developed with Unity. See [Unity targeting Windows 10](../unity-win10/cr-unity-win10_nav.md).
 
 
 ## Requirements

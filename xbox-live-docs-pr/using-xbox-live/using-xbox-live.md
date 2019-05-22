@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 # Using Xbox Live (deprecated article)
 
 Developing an Xbox Live-enabled game.
-<!--page not needed, but has been published, so keep the file, don't cause 404 -->
+<!--page not needed, but has been published.  overly broad bucket-->
 
 
 ## In this section
@@ -19,6 +19,6 @@ Developing an Xbox Live-enabled game.
 | Article | Description |
 |---------|-------------|
 | [Best practices for calling Xbox Live](best-practices/best-practices-for-calling-xbox-live.md) | Best practices for calling Xbox Live APIs, such as proper calling patterns and retry logic. |
-| [Error handling](error-handling/error-handling.md) | Handling errors when calling an Xbox Live service through XSAPI. |
-| [Troubleshooting Xbox Live](troubleshooting/troubleshooting.md) | Troubleshoot Xbox Live development, such as by logging responses, checking the dev PC setup, checking the sign-in sandbox, and logging calls. |
-| [Authentication](auth/authentication.md) | Signing-in an Xbox Live user in your title. |
+| [Error handling](error-handling/error-handling_nav.md) | Handling errors when calling an Xbox Live service through XSAPI. |
+| [Troubleshooting Xbox Live](troubleshooting/troubleshooting_nav.md) | Troubleshoot Xbox Live development, such as by logging responses, checking the dev PC setup, checking the sign-in sandbox, and logging calls. |
+| [Authentication](auth/authentication_nav.md) | Signing-in an Xbox Live user in your title. |

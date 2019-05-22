@@ -57,8 +57,8 @@ Note the following requirements:
 
 | Developer Type | Requirement |
 |----------------|-------------|
-| Xbox Live Creators Program | There is no requirement to designate any Stats as Featured Stats. You are limited to a maximum of 10 Featured Stats.|
-| ID@Xbox and Microsoft Partners | You must designate between 3 and 10 Featured Stats |
+| Creators Program | There is no requirement to designate any Stats as Featured Stats. You are limited to a maximum of 10 Featured Stats.|
+| Managed Partners | You must designate between 3 and 10 Featured Stats. |
 
 
 ## Next Steps

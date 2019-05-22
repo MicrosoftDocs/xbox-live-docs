@@ -201,6 +201,12 @@ If the app launches, but fails to sign-in, check the following:
 * Make sure your `package.appxmanfiest` in your UWP app is set to the correct Identity.
   You can edit this manually, but the easiest way to fix this is to right-click the Project in Visual Studio, and then click **Store** \| **Associate App with the Store**.
 
+
 **4)**
 
-The stock .pfx file provided by Unity won't have the correct identity so either delete it from the disk and remove the line in the .csproj that references it, or right click on the Project in Visual Studio and choose "Store" \| "Associate App with the Store" which will place down a proper .pfx file.  Be sure then to go back to Unity, click on "Build Settings" on the **Universal Windows Platform** player and click the PFX button to replace the .pfx file with the one you got from Visual Studio's "Associate App with the Store" action.
+The stock .pfx file provided by Unity won't have the correct identity, so do either of the following:
+
+*  Delete the stock .pfx file from the disk and remove the line in the .csproj that references it. Or:
+
+*  Right-click on the Project in Visual Studio and choose "Store" \| "Associate App with the Store", which will place down a proper .pfx file.
+   Be sure then to go back to Unity, click **Build Settings** on the **Universal Windows Platform** player and click the **PFX** button to replace the .pfx file with the one you got from Visual Studio's "Associate App with the Store" action.
