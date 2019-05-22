@@ -78,7 +78,7 @@ For a full list of supported services, see the Feature Table below.
 Xbox Live Creators Program titles are UWP games which can be built with a number of popular game engines.
 Microsoft provides documentation for integrating Xbox Live services into UWP games built with the <a href="https://unity.com" target="_blank">Unity game engine &#11008;</a>.
  
-For details on Xbox Live integration with Unity games, see [Unity targeting Windows 10](../setup-ide/creators/unity-win10/index.md).
+For details on Xbox Live integration with Unity games, see [Unity targeting Windows 10](../setup-ide/creators/unity-win10/cr-unity-win10_nav.md).
 
 Download and learn about the Microsoft-built <a href="https://github.com/Microsoft/xbox-live-unity-plugin" target="_blank">Xbox Live Unity plugin &#11008;</a>.
 

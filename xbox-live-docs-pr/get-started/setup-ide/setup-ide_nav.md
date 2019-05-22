@@ -15,10 +15,10 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Setting up an IDE, for Creators](creators/index.md) | Setting up an IDE to use the Xbox Live SDK, for Creators.  |
-| [Setting up an IDE, for Managed Partners](managed-partners/index.md) | Setting up an IDE to use the Xbox Live SDK, for Managed Partners. |
+| [Setting up an IDE, for Creators](creators/creators-ide_nav.md) | Setting up an IDE to use the Xbox Live SDK, for Creators.  |
+| [Setting up an IDE, for Managed Partners](managed-partners/mp-ide_nav.md) | Setting up an IDE to use the Xbox Live SDK, for Managed Partners. |
 
 
 ### Next steps
 
-Add basic sign-in code; see [Getting Started](../index.md).
+Add basic sign-in code; see [Getting Started](../get-started_nav.md).

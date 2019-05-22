@@ -20,4 +20,4 @@ Configuring Xbox Live services for your game.
 | Article | Description |
 |---------|-------------|
 | [Xbox Live service configuration](xbox-live-service-configuration.md) | Configuring Xbox Live services for your game. |
-| [Partner Center](configure-xbl/windows-dev-center.md) | Configuring Xbox Live services at Partner Center. |
+| [Partner Center](configure-xbl/windows-dev-center_nav.md) | Configuring Xbox Live services at Partner Center. |

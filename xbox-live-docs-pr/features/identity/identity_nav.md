@@ -1,8 +1,8 @@
 ---
 layout: LandingPage
-title: Cloud Storage
+title: Identity features
 author: mikehoffms
-description: Connected Storage and Title Storage.
+description: User profile, authentication and sign-in, privileges, and privacy settings.
 ms.author: v-mihof
 ms.date: 12/11/2018
 ms.topic: article
@@ -10,22 +10,22 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h1>Cloud Storage</h1>
+<h1>Identity features</h1>
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="connected-storage-vs-title-storage.md">
+        <a href="../../using-xbox-live/auth/authentication_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_overview.svg" alt="Connected Storage vs. Title Storage" />
+                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Authentication and sign-in" />
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Connected Storage vs. Title Storage</h3>
-                            <p>Xbox Live Cloud Storage includes Connected Storage to store game state, and Title Storage to store player statistics and assets.</p>
+                            <h3>Authentication and sign-in</h3>
+                            <p>Signing-in an Xbox Live user in your game.</p>
                         </div>
                     </div>
                 </div>
@@ -33,21 +33,18 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="connected-storage/connected-storage.md">
+        <a href="../../using-xbox-live/auth/single-point-of-presence.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_responsive.svg" alt="Connected Storage" />
+                                <img src="https://docs.microsoft.com/media/common/i_responsive.svg" alt="Single Point of Presence (SPOP)" />
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Connected Storage</h3>
-                            <p>
-                              Connected Storage saves and loads gameplay data and other state data across devices.
-                              Title data is stored locally and also synced to the cloud.
-                            </p>
+                            <h3>Single Point of Presence (SPOP)</h3>
+                            <p>Using Xbox Live Single Point of Presence (SPOP) to ensure that a title is played on only a single device at a time.</p>
                         </div>
                     </div>
                 </div>
@@ -55,18 +52,18 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="xbox-live-title-storage/xbl-title-storage.md">
+        <a href="privileges/privileges_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_common-data-service.svg" alt="Title Storage" />
+                                <img src="https://docs.microsoft.com/media/common/i_threat-protection.svg" alt="User Privileges" />
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Title Storage</h3>
-                            <p>Cloud storage for large amounts of per-user or per-game data, such as player statistics and assets.</p>
+                            <h3>User Privileges</h3>
+                            <p>Best practices for handling privileges.</p>
                         </div>
                     </div>
                 </div>

@@ -123,7 +123,7 @@ XSAPI has two types of error handling patterns:
 * One pattern when using the WinRT APIs from C++/CX, C\#, or Javascript
 * Another pattern when using the C++ APIs.
 
-For details on best practices of error handling, see [Error handling](../error-handling/error-handling.md).
+For details on best practices of error handling, see [Error handling](../error-handling/error-handling_nav.md).
 
 For a video that covers this, see the talk in [*Xfest 2015 Videos*](https://developer.xboxlive.com/en-us/platform/documentlibrary/events/Pages/Xfest2015.aspx) called *XSAPI: C++, No Exceptions!*
 
@@ -178,7 +178,7 @@ The Social Manager keeps your friends list, their profiles, and their presence d
 The Social Manager exposes a synchronous API that is very game-engine friendly.
 Games can call the Social Manager APIs frequently, because Social Manager maintains an in-memory cache of the latest information from the service.
 
-See [The Social Manager](../../social-platform/the-social-manager.md).
+See [The Social Manager](../../social-platform/social-manager_nav.md).
 
 
 ### Multiplayer Manager

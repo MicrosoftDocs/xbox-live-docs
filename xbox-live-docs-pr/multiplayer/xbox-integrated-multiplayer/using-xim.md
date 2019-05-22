@@ -58,7 +58,7 @@ Before you get started coding with XIM, there are two prerequisites.
 Compiling XIM requires including the primary `XboxIntegratedMultiplayer.h` header.
 In order to link properly, your project must also include `XboxIntegratedMultiplayerImpl.h` in at least one compilation unit (a common precompiled header is recommended since these stub function implementations are small and easy for the compiler to generate as "inline").
 
-As mentioned in the [XIM Overview](../xbox-integrated-multiplayer.md), the XIM interface does not require a project to choose between compiling with C++/CX versus traditional C++; it can be used with either.
+As mentioned in the [XIM Overview](../xbox-integrated-multiplayer_nav.md), the XIM interface does not require a project to choose between compiling with C++/CX versus traditional C++; it can be used with either.
 The implementation also doesn't throw exceptions as a means of non-fatal error reporting so you can consume it easily from exception-free projects, if preferred.
 
 

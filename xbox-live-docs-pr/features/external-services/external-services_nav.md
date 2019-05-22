@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="web-services/web-services.md">
+        <a href="web-services/web-services_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -33,7 +33,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="single-sign-on/single-sign-on.md">
+        <a href="single-sign-on/single-sign-on_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -52,7 +52,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="access-policies/access-policies.md">
+        <a href="access-policies/access-policies_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

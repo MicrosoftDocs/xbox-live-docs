@@ -18,4 +18,4 @@ Setting up Android Studio targeting Android to use the Xbox Live SDK, for Manage
 | Article | Description |
 |---------|-------------|
 | [Setting up Android Studio targeting Android](as-android-mp.md) | Setting up Android Studio targeting Android to use the Xbox Live SDK, for Managed Partners. |
-| [Other articles about Android Studio targeting Android](other/index.md) | Articles about Android Studio targeting Android, other than initial IDE setup, for Managed Partners. |
+| [Other articles about Android Studio targeting Android](other/mp-as-android-other_nav.md) | Articles about Android Studio targeting Android, other than initial IDE setup, for Managed Partners. |

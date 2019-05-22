@@ -52,7 +52,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="multiplayer-scenarios.md">
+        <a href="multiplayer-scenarios_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -71,7 +71,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../features/multiplayer/matchmaking/index.md">
+        <a href="../features/multiplayer/matchmaking/matchmaking_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -90,7 +90,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../features/multiplayer/invites/index.md">
+        <a href="../features/multiplayer/invites/invites_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -109,7 +109,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../features/multiplayer/voice/index.md">
+        <a href="../features/multiplayer/voice/voice-chat_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -128,7 +128,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="xbox-integrated-multiplayer.md">
+        <a href="xbox-integrated-multiplayer_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -166,7 +166,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="arena/xbox-arena.md">
+        <a href="arena/xbox-arena_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -185,7 +185,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="service-configuration/multiplayer-service-configuration.md">
+        <a href="service-configuration/multiplayer-service-configuration_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -204,7 +204,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="multiplayer-appendix/multiplayer-appendix.md">
+        <a href="multiplayer-appendix/multiplayer-appendix_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

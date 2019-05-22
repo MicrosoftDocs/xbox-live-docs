@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="/gaming/xbox-live/features/identity">
+        <a href="identity/identity_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -33,7 +33,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="/gaming/xbox-live/social-platform/social-platform">
+        <a href="../social-platform/social-platform_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -52,7 +52,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="/gaming/xbox-live/data-platform/data-platform">
+        <a href="../data-platform/player-data_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -71,7 +71,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="/gaming/xbox-live/storage-platform/storage-platform">
+        <a href="../storage-platform/cloud-storage_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -90,7 +90,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="/gaming/xbox-live/multiplayer/multiplayer-platform">
+        <a href="../multiplayer/multiplayer-features_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -109,7 +109,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="/gaming/xbox-live/features/external-services/external-services">
+        <a href="external-services/external-services_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -153,7 +153,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="tcui/index.md">
+        <a href="tcui/tcui_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -172,7 +172,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../real-time-activity-service/real-time-activity-service.md">
+        <a href="../real-time-activity-service/real-time-activity-service_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

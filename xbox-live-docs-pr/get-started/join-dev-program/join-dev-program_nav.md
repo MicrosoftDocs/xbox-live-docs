@@ -29,4 +29,4 @@ See the "Choosing" and "Features" articles below, and then do the steps in one o
 
 ### See also
 
-[Getting Started](../index.md)
+[Getting Started](../get-started_nav.md)

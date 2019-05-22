@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 
 The Xbox Development Kit (XDK) is not publicly available.
 Managed Partners have access to the XDK and associated development resources such as documentation and middleware tools.
-See [Joining a developer program](../../../join-dev-program/index.md).
+See [Joining a developer program](../../../join-dev-program/join-dev-program_nav.md).
 
 The XDK can be downloaded from the [software downloads page](https://developer.microsoft.com/en-us/games/xbox/partner/resources-softwaredownloads) on the developer.microsoft.com site.
 

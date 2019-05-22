@@ -10,17 +10,17 @@ ms.localizationpriority: medium
 
 # Setting up an IDE, for Managed Partners
 
-Prerequisite: Set up a game at Partner Center; see [Getting Started](../../index.md).
+Prerequisite: Set up a game at Partner Center; see [Getting Started](../../get-started_nav.md).
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="as-android/index.md">
+        <a href="as-android/mp-as-android_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="index_images/android-studio-logo.png" alt="Android Studio targeting Android"/>
+                                <img src="mp-ide_nav_images/android-studio-logo.png" alt="Android Studio targeting Android"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -33,7 +33,7 @@ Prerequisite: Set up a game at Partner Center; see [Getting Started](../../index
         </a>
     </li>
     <li>
-        <a href="xcode-ios/index.md">
+        <a href="xcode-ios/mp-xcode-ios_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -52,7 +52,7 @@ Prerequisite: Set up a game at Partner Center; see [Getting Started](../../index
         </a>
     </li>
     <li>
-        <a href="vs-win10/index.md">
+        <a href="vs-win10/mp-vs-win10_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -71,7 +71,7 @@ Prerequisite: Set up a game at Partner Center; see [Getting Started](../../index
         </a>
     </li>
     <li>
-        <a href="vs-xbox/index.md">
+        <a href="vs-xbox/mp-vs-xbox_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -90,7 +90,7 @@ Prerequisite: Set up a game at Partner Center; see [Getting Started](../../index
         </a>
     </li>
     <!-- <li>
-        <a href="vs-android/index.md">
+        <a href="vs-android/mp-vs-android_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -109,7 +109,7 @@ Prerequisite: Set up a game at Partner Center; see [Getting Started](../../index
         </a>
     </li> -->
     <li>
-        <a href="unity-win10/index.md">
+        <a href="unity-win10/mp-unity-win10_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -128,7 +128,7 @@ Prerequisite: Set up a game at Partner Center; see [Getting Started](../../index
         </a>
     </li>
     <li>
-        <a href="unity-xbox/index.md">
+        <a href="unity-xbox/mp-unity-xbox_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -151,4 +151,4 @@ Prerequisite: Set up a game at Partner Center; see [Getting Started](../../index
 
 ### Next steps
 
-Add basic sign-in code; see [Getting Started](../../index.md).
+Add basic sign-in code; see [Getting Started](../../get-started_nav.md).

@@ -16,4 +16,4 @@ Matchmaking finds other players to play a game with.
 
 | Article | Description |
 |---------|-------------|
-| [Multiplayer Manager for Matchmaking](manager/index.md) | Multiplayer Manager for Matchmaking. |
+| [Multiplayer Manager for Matchmaking](manager/multiplayer-manager_nav.md) | Multiplayer Manager for Matchmaking. |

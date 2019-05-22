@@ -31,4 +31,4 @@ To apply to become an ID@Xbox Partner:
 ID@Xbox Partners are part of the Managed Partners program.
 Documentation that is for Managed Partners applies to ID@Xbox Partners.
 
-Next, set up a game at Partner Center; see [Getting Started](../index.md).
+Next, set up a game at Partner Center; see [Getting Started](../get-started_nav.md).

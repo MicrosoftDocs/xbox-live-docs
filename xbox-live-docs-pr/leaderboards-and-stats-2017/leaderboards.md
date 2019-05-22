@@ -21,7 +21,7 @@ You can also use your configured Featured Stats to create Leaderboards inside of
 
 ## Choosing Good Leaderboards
 
-As discussed in [Player Stats](player-stats.md), a leaderboard corresponds to a stat that you have defined.
+As discussed in [Player Stats](player-stats_nav.md), a leaderboard corresponds to a stat that you have defined.
 You should choose leaderboards that correspond to an accomplishment that a player can work towards improving.
 
 For example, Best Lap Time in a racing game is a good leaderboard, because players will want to work towards improving their Best Lap Time.

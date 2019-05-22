@@ -350,4 +350,4 @@ The Android Studio IDE is now set up to use the Xbox Live SDK, targeting Android
 
 ## See also
 
-[Getting Started](../../../index.md)
+[Getting Started](../../../get-started_nav.md)

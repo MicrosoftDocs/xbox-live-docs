@@ -2,12 +2,12 @@
   href: index.md
   items:
     - name: Getting Started
-      href: get-started/index.md
+      href: get-started/get-started_nav.md
       items:
         - name: What is Xbox Live?
           href: get-started/what-is-xbox-live.md
         - name: Joining a developer program
-          href: get-started/join-dev-program/index.md
+          href: get-started/join-dev-program/join-dev-program_nav.md
           items:
             - name: Choosing an Xbox Live developer program
               href: get-started/join-dev-program/developer-program-overview.md
@@ -18,14 +18,14 @@
             - name: Joining the ID@Xbox Program
               href: get-started/join-dev-program/join-id-program.md
         - name: Setting up a game app at Partner Center
-          href: get-started/setup-partner-center/index.md
+          href: get-started/setup-partner-center/setup-partner-center_nav.md
           items:
             - name: Setting up a game app at Partner Center, for Creators
               href: get-started/setup-partner-center/setup-partner-center-creators.md
             - name: Setting up a game app at Partner Center, for Managed Partners
               href: get-started/setup-partner-center/setup-partner-center-id-partners.md
             - name: Legacy articles about Partner Center setup
-              href: get-started/setup-partner-center/legacy/legacy-nav.md
+              href: get-started/setup-partner-center/legacy/legacy_nav.md
               items:
                 - name: Get started with Xbox Live, for Creators
                   href: get-started/setup-partner-center/legacy/get-started-with-xbox-live-creators.md
@@ -38,23 +38,23 @@
                 - name: Create an app and publish it for testing, for Managed Partners
                   href: get-started/setup-partner-center/legacy/create-a-new-title.md
         - name: Setting up an IDE
-          href: get-started/setup-ide/index.md
+          href: get-started/setup-ide/setup-ide_nav.md
           items:
             - name: Setting up an IDE, for Creators
-              href: get-started/setup-ide/creators/index.md
+              href: get-started/setup-ide/creators/creators-ide_nav.md
               items:
                 - name: Visual Studio targeting Windows 10
-                  href: get-started/setup-ide/creators/vs-win10/index.md
+                  href: get-started/setup-ide/creators/vs-win10/cr-vs-win10_nav.md
                   items:
                     - name: Setting up Visual Studio targeting Windows 10
                       href: get-started/setup-ide/creators/vs-win10/develop-creators-title-with-visual-studio.md
                 - name: Unity targeting Windows 10
-                  href: get-started/setup-ide/creators/unity-win10/index.md
+                  href: get-started/setup-ide/creators/unity-win10/cr-unity-win10_nav.md
                   items:
                     - name: Configuring Xbox Live in Unity
                       href: get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md
                     - name: Signing into Xbox Live in Unity
-                      href: get-started/setup-ide/creators/unity-win10/signin/unity-signin-nav.md
+                      href: get-started/setup-ide/creators/unity-win10/signin/unity-signin_nav.md
                       items: 
                         - name: Easy sign-in with the PlayerAuthentication prefab
                           href: get-started/setup-ide/creators/unity-win10/signin/playerauthentication-prefab-sign-in.md
@@ -71,32 +71,32 @@
                     - name: Checking user privilege settings in Unity
                       href: get-started/setup-ide/creators/unity-win10/check-user-privileges-in-unity.md
             - name: Setting up an IDE, for Managed Partners
-              href: get-started/setup-ide/managed-partners/index.md
+              href: get-started/setup-ide/managed-partners/mp-ide_nav.md
               items:
                 - name: Android Studio targeting Android
-                  href: get-started/setup-ide/managed-partners/as-android/index.md
+                  href: get-started/setup-ide/managed-partners/as-android/mp-as-android_nav.md
                   items:
                     - name: Setting up Android Studio targeting Android
                       href: get-started/setup-ide/managed-partners/as-android/as-android-mp.md
                     - name: Other articles about Android Studio targeting Android
-                      href: get-started/setup-ide/managed-partners/as-android/other/index.md
+                      href: get-started/setup-ide/managed-partners/as-android/other/mp-as-android-other_nav.md
                       items:
                         - name: Get started with the Xbox Live APIs on Android
                           href: get-started/setup-ide/managed-partners/as-android/other/android-get-started-with-xsapi.md
                         - name: Setting up Visual Studio for XAL login on Android
                           href: get-started/setup-ide/managed-partners/as-android/other/android-xal.md
                 - name: Xcode targeting iOS
-                  href: get-started/setup-ide/managed-partners/xcode-ios/index.md
+                  href: get-started/setup-ide/managed-partners/xcode-ios/mp-xcode-ios_nav.md
                   items:
                     - name: Setting up Xcode targeting iOS
                       href: get-started/setup-ide/managed-partners/xcode-ios/xcode-ios-mp.md
                     - name: Other articles about Xcode targeting iOS
-                      href: get-started/setup-ide/managed-partners/xcode-ios/other/index.md
+                      href: get-started/setup-ide/managed-partners/xcode-ios/other/mp-xcode-ios-other_nav.md
                       items:
                         - name: Get started with the Xbox Live SDK for iOS
                           href: get-started/setup-ide/managed-partners/xcode-ios/other/ios-get-started-with-xsapi.md
                 - name: Visual Studio targeting Windows 10
-                  href: get-started/setup-ide/managed-partners/vs-win10/index.md
+                  href: get-started/setup-ide/managed-partners/vs-win10/mp-vs-win10_nav.md
                   items:
                     - name: Get started using Visual Studio for UWP games
                       href: get-started/setup-ide/managed-partners/vs-win10/get-started-with-visual-studio-and-uwp.md
@@ -107,7 +107,7 @@
                     - name: The XboxServices.config file for UWP games
                       href: get-started/setup-ide/managed-partners/vs-win10/xboxservices-config.md
                 - name: Visual Studio targeting Xbox
-                  href: get-started/setup-ide/managed-partners/vs-xbox/index.md
+                  href: get-started/setup-ide/managed-partners/vs-xbox/mp-vs-xbox_nav.md
                   items:
                     - name: Getting the XDK
                       href: get-started/setup-ide/managed-partners/vs-xbox/where-to-get-xdk.md
@@ -122,33 +122,33 @@
                     - name: Compile the XDK Xbox Live API source
                       href: get-started/setup-ide/managed-partners/vs-xbox/compile-the-xdk-xbox-live-api-source.md
                 - name: Unity targeting Windows 10
-                  href: get-started/setup-ide/managed-partners/unity-win10/index.md
+                  href: get-started/setup-ide/managed-partners/unity-win10/mp-unity-win10_nav.md
                   items:
                     - name: Add XBL support to Unity for UWP, with .NET scripting
                       href: get-started/setup-ide/managed-partners/unity-win10/partner-add-xbox-live-to-unity-uwp.md
                     - name: Add XBL support to Unity for UWP, with IL2CPP scripting
                       href: get-started/setup-ide/managed-partners/unity-win10/partner-unity-uwp-il2cpp.md
                 - name: Unity targeting Xbox
-                  href: get-started/setup-ide/managed-partners/unity-xbox/index.md
+                  href: get-started/setup-ide/managed-partners/unity-xbox/mp-unity-xbox_nav.md
                   items:
                     - name: Add XBL support to Unity for XDK, with IL2CPP scripting
                       href: get-started/setup-ide/managed-partners/unity-xbox/partner-unity-xdk-il2cpp.md
         - name: Adding basic sign-in code
-          href: get-started/add-signin-code/index.md
+          href: get-started/add-signin-code/add-signin-code_nav.md
           items:
             - name: Adding basic sign-in code for mobile
               href: get-started/add-signin-code/getting-xsapi-to-sign-in.md
     - name: Features
-      href: features/index.md
+      href: features/features_nav.md
       items:
         - name: Identity features
-          href: features/identity/index.md
+          href: features/identity/identity_nav.md
           items: 
             - name: Authentication and sign-in
-              href: using-xbox-live/auth/authentication.md
+              href: using-xbox-live/auth/authentication_nav.md
               items: 
                 - name: Authentication for mobile projects using XAL
-                  href: using-xbox-live/auth/xal.md
+                  href: using-xbox-live/auth/xal_nav.md
                   items: 
                     - name: Xbox Authentication Library (XAL) overview
                       href: using-xbox-live/auth/xal-overview.md
@@ -157,7 +157,7 @@
                     - name: Using Xbox Live tokens for custom web service authentication
                       href: using-xbox-live/auth/xal-partner-token.md
                 - name: Authentication for UWP projects
-                  href: using-xbox-live/auth/auth-uwp.md
+                  href: using-xbox-live/auth/auth-uwp_nav.md
                   items:
                     - name: Authentication for UWP projects
                       href: using-xbox-live/auth/authentication-for-UWP-projects.md
@@ -170,24 +170,24 @@
             - name: Single Point of Presence (SPOP)
               href: using-xbox-live/auth/single-point-of-presence.md
             - name: User Privileges
-              href: features/identity/privileges/index.md
+              href: features/identity/privileges/privileges_nav.md
               items: 
                 - name: Configuring Privileges in Partner Center
                   href: configure-xbl/dev-center/privileges.md
         - name: Social features
-          href: social-platform/social-platform.md
+          href: social-platform/social-platform_nav.md
           items: 
             - name: Overview of Social features
               href: social-platform/xbox-live-social-platform.md
             - name: People System (Friends List)
-              href: social-platform/people-system/people-system.md
+              href: social-platform/people-system/people-system_nav.md
               items: 
                 - name: Overview of the People System
                   href: social-platform/people-system/xbox-live-people-system.md
                 - name: Displaying people from the People System
                   href: social-platform/people-system/displaying-people-from-the-people-system.md
                 - name: Social Manager
-                  href: social-platform/the-social-manager.md
+                  href: social-platform/social-manager_nav.md
                   items: 
                     - name: Overview of Social Manager
                       href: social-platform/intro-to-social-manager.md
@@ -196,9 +196,9 @@
                     - name: Social Manager memory and performance
                       href: social-platform/social-manager-memory-and-performance-overview.md
             - name: Clubs
-              href: features/social/clubs/index.md
+              href: features/social/clubs/clubs.md
             - name: Rich Presence
-              href: features/social/rich-presence/index.md
+              href: features/social/rich-presence/rich-presence_nav.md
               items: 
                 - name: Overview of Presence strings
                   href: social-platform/rich-presence-strings/rich-presence-strings-overview.md
@@ -217,12 +217,12 @@
                 - name: Programming Rich Presence
                   href: social-platform/rich-presence-strings/programming-rich-presence.md
             - name: Localized strings
-              href: features/social/localized-strings/localized-strings.md
+              href: features/social/localized-strings/localized-strings_nav.md
               items: 
                 - name: Configuring localized strings in Partner Center
                   href: configure-xbl/dev-center/localized-strings.md
             - name: Reputation
-              href: social-platform/people-system/reputation.md
+              href: social-platform/people-system/reputation_nav.md
               items: 
                 - name: Overview of the Reputation service
                   href: social-platform/people-system/the-reputation-service.md
@@ -231,14 +231,14 @@
             - name: Programming Social services
               href: social-platform/people-system/programming-social-services.md
         - name: Player Data
-          href: data-platform/data-platform.md
+          href: data-platform/player-data_nav.md
           items: 
             - name: "Player Data: Stats, Leaderboards, and Achievements"
               href: data-platform/data-platform-for-stats-leaderboards-achievements.md
             - name: Designing Xbox Live Experiences
               href: data-platform/designing-xbox-live-experiences.md
             - name: Achievements
-              href: achievements-2017/achievements.md
+              href: achievements-2017/achievements_nav.md
               items: 
                 - name: Overview of Achievements
                   href: achievements-2017/achievements-overview.md
@@ -249,21 +249,21 @@
                 - name: Achievement Rewards
                   href: achievements-2017/achievement-rewards.md
             - name: Player Stats
-              href: leaderboards-and-stats-2017/player-stats.md
+              href: leaderboards-and-stats-2017/player-stats_nav.md
               items: 
                 - name: Player Stats 2013
                   href: leaderboards-and-stats-2017/player-stats-2013.md
                 - name: Using player stats
                   href: leaderboards-and-stats-2017/using-player-stats.md
                 - name: Player Stats 2017
-                  href: leaderboards-and-stats-2017/stats-2017.md
+                  href: leaderboards-and-stats-2017/stats-2017_nav.md
                   items: 
                     - name: Player Stats 2017
                       href: leaderboards-and-stats-2017/stats2017.md
                     - name: Updating Player Stats 2017
                       href: leaderboards-and-stats-2017/player-stats-updating.md
             - name: Leaderboards
-              href: leaderboards-and-stats-2017/leaderboards-nav.md
+              href: leaderboards-and-stats-2017/leaderboards_nav.md
               items: 
                 - name: Overview of leaderboards
                   href: leaderboards-and-stats-2017/leaderboards.md
@@ -274,17 +274,17 @@
                 - name: Scripting a leaderboard in Unity
                   href: get-started-with-creators/unity-leaderboard-from-scratch.md
             - name: Featured Stats
-              href: features/data/featured-stats/index.md
+              href: features/data/featured-stats/featured-stats_nav.md
               items: 
                 - name: Configuring Featured Stats and Leaderboards 2017 in Partner Center
                   href: configure-xbl/dev-center/featured-stats-and-leaderboards.md
         - name: Cloud Storage
-          href: storage-platform/storage-platform.md
+          href: storage-platform/cloud-storage_nav.md
           items: 
             - name: Connected Storage vs. Title Storage
               href: storage-platform/connected-storage-vs-title-storage.md
             - name: Connected Storage
-              href: storage-platform/connected-storage/connected-storage.md
+              href: storage-platform/connected-storage/connected-storage_nav.md
               items: 
                 - name: Overview of Connected Storage
                   href: storage-platform/connected-storage/connected-storage-overview.md
@@ -305,7 +305,7 @@
                 - name: Technical overview of Connected Storage
                   href: storage-platform/connected-storage/connected-storage-technical-overview.md
             - name: Title Storage
-              href: storage-platform/xbox-live-title-storage/xbl-title-storage.md
+              href: storage-platform/xbox-live-title-storage/xbl-title-storage_nav.md
               items: 
                 - name: Overview of Title Storage
                   href: storage-platform/xbox-live-title-storage/xbox-live-title-storage.md
@@ -322,24 +322,24 @@
                 - name: Reading a JSON blob from Title Storage
                   href: storage-platform/xbox-live-title-storage/reading-jsonblobs.md
         - name: Multiplayer features
-          href: multiplayer/multiplayer-platform.md
+          href: multiplayer/multiplayer-features_nav.md
           items: 
             - name: Overview of Multiplayer features
               href: multiplayer/multiplayer-intro.md
             - name: Multiplayer concepts for Xbox Live
               href: multiplayer/multiplayer-concepts.md
             - name: Multiplayer scenarios
-              href: multiplayer/multiplayer-scenarios.md
+              href: multiplayer/multiplayer-scenarios_nav.md
               items: 
                 - name: Common multiplayer scenarios
                   href: multiplayer/common-multiplayer-scenarios.md
                 - name: Multiplayer session browse
                   href: multiplayer/session-browse.md
             - name: Matchmaking
-              href: features/multiplayer/matchmaking/index.md
+              href: features/multiplayer/matchmaking/matchmaking_nav.md
               items: 
                 - name: Multiplayer Manager for Matchmaking
-                  href: features/multiplayer/matchmaking/manager/index.md
+                  href: features/multiplayer/matchmaking/manager/multiplayer-manager_nav.md
                   items: 
                     - name: Overview of Multiplayer Manager for Matchmaking
                       href: multiplayer/multiplayer-manager.md
@@ -352,7 +352,7 @@
                     - name: Handle protocol activation
                       href: multiplayer/multiplayer-manager/handle-protocol-activation.md
                     - name: Multiplayer manager flowcharts
-                      href: multiplayer/multiplayer-manager/mpm-flowcharts.md
+                      href: multiplayer/multiplayer-manager/mpm-flowcharts_nav.md
                       items: 
                         - name: Playing a game with friends (flowchart)
                           href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-play-with-friends.md
@@ -371,15 +371,15 @@
                         - name: Shutting down a multiplayer session (flowchart)
                           href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-shut-down.md
             - name: Invites
-              href: features/multiplayer/invites/index.md
+              href: features/multiplayer/invites/invites_nav.md
               items: 
                     - name: Sending game invites
                       href: multiplayer/multiplayer-manager/send-game-invites.md
             - name: Voice and text chat
-              href: features/multiplayer/voice/index.md
+              href: features/multiplayer/voice/voice-chat_nav.md
               items: 
                 - name: Game Chat
-                  href: multiplayer/chat/game-chat-2.md
+                  href: multiplayer/chat/game-chat-2_nav.md
                   items: 
                     - name: Overview of Game Chat
                       href: multiplayer/chat/game-chat-2-overview.md
@@ -394,7 +394,7 @@
                 - name: XIM dedicated chat via out-of-band reservations
                   href: multiplayer/xbox-integrated-multiplayer/xim-reservations.md
             - name: Xbox Integrated Multiplayer (XIM)
-              href: multiplayer/xbox-integrated-multiplayer.md
+              href: multiplayer/xbox-integrated-multiplayer_nav.md
               items: 
                 - name: Overview of Xbox Integrated Multiplayer (XIM)
                   href: multiplayer/intro-to-xbox-integrated-multiplayer.md
@@ -411,7 +411,7 @@
             - name: Multiplayer roles
               href: multiplayer/multiplayer-roles.md
             - name: Xbox Arena
-              href: multiplayer/arena/xbox-arena.md
+              href: multiplayer/arena/xbox-arena_nav.md
               items: 
                 - name: Xbox Arena overview
                   href: multiplayer/arena/xbox-arena-overview.md
@@ -432,7 +432,7 @@
                 - name: UX for Arena participant user scenarios
                   href: multiplayer/arena/arena-user-scenarios.md
             - name: Multiplayer Service configuration
-              href: multiplayer/service-configuration/multiplayer-service-configuration.md
+              href: multiplayer/service-configuration/multiplayer-service-configuration_nav.md
               items: 
                 - name: Configuring the Multiplayer service
                   href: multiplayer/service-configuration/configure-the-multiplayer-service.md
@@ -445,7 +445,7 @@
                 - name: Using large sessions for Multiplayer
                   href: multiplayer/service-configuration/large-sessions.md
             - name: Multiplayer 2015 appendix
-              href: multiplayer/multiplayer-appendix/multiplayer-appendix.md
+              href: multiplayer/multiplayer-appendix/multiplayer-appendix_nav.md
               items: 
                 - name: Introduction to the Multiplayer system
                   href: multiplayer/multiplayer-appendix/introduction-to-the-multiplayer-system.md
@@ -474,20 +474,20 @@
                 - name: Game session visibility and joinability
                   href: multiplayer/multiplayer-appendix/game-session-and-game-party-visibility-and-joinability.md
         - name: External Services
-          href: features/external-services/external-services.md
+          href: features/external-services/external-services_nav.md
           items: 
             - name: Web Services
-              href: features/external-services/web-services/web-services.md
+              href: features/external-services/web-services/web-services_nav.md
               items: 
                 - name: Setting up Web Services at Partner Center
                   href: configure-xbl/dev-center/web-services.md
             - name: Single Sign-On
-              href: features/external-services/single-sign-on/single-sign-on.md
+              href: features/external-services/single-sign-on/single-sign-on_nav.md
               items: 
                 - name: Configuring single sign-on in Partner Center
                   href: configure-xbl/dev-center/single-sign-on.md
             - name: Access Policies
-              href: features/external-services/access-policies/access-policies.md
+              href: features/external-services/access-policies/access-policies_nav.md
               items: 
                 - name: Overview of configuring access policies
                   href: features/external-services/access-policies/access-policies-overview.md
@@ -496,9 +496,9 @@
         - name: What's new for Xbox Live
           href: whats-new/whats-new.md
         - name: Title-callable UI (TCUI)
-          href: features/tcui/index.md
+          href: features/tcui/tcui_nav.md
         - name: Real-Time Activity (RTA) service
-          href: real-time-activity-service/real-time-activity-service.md
+          href: real-time-activity-service/real-time-activity-service_nav.md
           items: 
             - name: Overview of Real-Time Activity service
               href: real-time-activity-service/real-time-activity-service-overview.md
@@ -509,12 +509,12 @@
             - name: Best Practices for the RTA service
               href: real-time-activity-service/rta-best-practices.md
     - name: Testing and Releasing
-      href: releasing/releasing.md
+      href: releasing/releasing_nav.md
       items:
         - name: Xbox Live resources, sites, and downloads
           href: xbox-live-resources.md
         - name: Policies
-          href: policies/policies.md
+          href: policies/policies_nav.md
           items:
             - name: Xbox Live policies
               href: xboxlive-policies.md
@@ -537,10 +537,10 @@
             - name: "XR-132: Service Access Limitations"
               href: policies/xr132.md
         - name: Configuring Xbox Live services, for Managed Partners
-          href: configuring-xbox-live-services.md
+          href: configuring-xbox-live-services_nav.md
           items: 
             - name: Partner Center services configuration, for Managed Partners
-              href: configure-xbl/windows-dev-center.md
+              href: configure-xbl/windows-dev-center_nav.md
               items: 
                 - name: Summary page for Xbox Live configuration
                   href: configure-xbl/dev-center/summary.md
@@ -553,7 +553,7 @@
                 - name: Setting up a cross-play game targeting Xbox One and Windows 10
                   href: get-started-with-partner/get-started-with-cross-play-games.md
         - name: Sandboxes
-          href: releasing/sandboxes/sandboxes.md
+          href: releasing/sandboxes/sandboxes_nav.md
           items:
             - name: Xbox Live Sandboxes overview
               href: xbox-live-sandboxes.md
@@ -562,7 +562,7 @@
             - name: Advanced Xbox Live sandboxes
               href: advanced-xbox-live-sandboxes.md
         - name: Test accounts
-          href: test-accounts.md
+          href: test-accounts_nav.md
           items: 
             - name: Xbox Live test accounts
               href: xbox-live-test-accounts.md
@@ -571,29 +571,29 @@
         - name: Testing on the Xbox One console
           href: testing-on-console.md
         - name: Testing and releasing a game, for Creators
-          href: releasing/creators/index.md
+          href: releasing/creators/cr-testing_nav.md
           items: 
             - name: Xbox Live service configuration IDs, for Creators
               href: get-started-with-creators/xbox-live-service-configuration-creators.md
         - name: Testing and releasing a game, for Managed Partners
-          href: releasing/managed/index.md
+          href: releasing/managed/mp-testing_nav.md
           items: 
             - name: Xbox Live service configuration IDs, for Managed Partners
               href: xbox-live-service-configuration.md
         - name: Troubleshooting Xbox Live
-          href: using-xbox-live/troubleshooting/troubleshooting.md
+          href: using-xbox-live/troubleshooting/troubleshooting_nav.md
           items: 
             - name: Tools for troubleshooting Xbox Live
-              href: releasing/troubleshooting/tools/index.md
+              href: releasing/troubleshooting/tools/tr-tools_nav.md
             - name: Guides for troubleshooting Xbox Live
-              href: releasing/troubleshooting/guides/index.md
+              href: releasing/troubleshooting/guides/tr-guides_nav.md
               items: 
                 - name: Troubleshooting Xbox Live Services APIs
                   href: using-xbox-live/troubleshooting/troubleshooting-the-xbox-live-services-api.md
                 - name: Troubleshooting Xbox Live setup on Windows 10 PC
                   href: using-xbox-live/troubleshooting/troubleshooting-pc-setup.md
         - name: Services and tools
-          href: tools/development-tools-for-xbox-live.md
+          href: tools/development-tools_nav.md
           items: 
             - name: Development tools for Xbox Live
               href: tools/tools.md
@@ -602,7 +602,7 @@
             - name: Using Fiddler to inspect web service calls
               href: using-xbox-live/troubleshooting/how-to-set-up-fiddler-for-debugging.md
             - name: Best practices for Xbox Live
-              href: using-xbox-live/best-practices/best-practices.md
+              href: using-xbox-live/best-practices/best-practices_nav.md
               items: 
                 - name: Best practices for calling Xbox Live
                   href: using-xbox-live/best-practices/best-practices-for-calling-xbox-live.md
@@ -611,7 +611,7 @@
                 - name: Best practices for handling offline play
                   href: using-xbox-live/best-practices/best-practices-for-offline.md
             - name: Error handling
-              href: using-xbox-live/error-handling/error-handling.md
+              href: using-xbox-live/error-handling/error-handling_nav.md
               items: 
                 - name: Types of error handling
                   href: using-xbox-live/error-handling/types-of-error-handling.md
@@ -622,10 +622,10 @@
             - name: Porting Xbox Live code from XDK to UWP
               href: using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md
     - name: API Reference
-      href: api-reference.md
+      href: api-reference_nav.md
       items: 
         - name: XSAPI Reference
-          href: api-ref/xsapi/index.md
+          href: api-ref/xsapi/xsapi_nav.md
           items: 
             - name: Introduction to XSAPI APIs
               href: introduction-to-xbox-live-apis.md
@@ -638,9 +638,9 @@
             - name: XSAPI REST Reference
               href: xbox-live-rest/TOC.md
         - name: XAL Reference
-          href: api-ref/xal/index.md
+          href: api-ref/xal/xal_nav.md
         - name: XAsync Reference
-          href: api-ref/xasync/index.md
+          href: api-ref/xasync/xasync_nav.md
           items: 
             - name: Making async calls in the XSAPI C API
               href: flatc-async-patterns.md
