@@ -269,7 +269,7 @@ The clients are notified of the match and perform quality of service (QoS) to va
 
 The Xbox Live Compute service on Xbox One enables developers to harness the elastic compute power of the cloud, and enables larger multiplayer scenarios than were possible in a peer-to-peer network.
 
-See [Xbox Live Compute](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/xbox-live-compute) in the XDK docs (requires ID@Xbox or Managed Partner access).
+See [Xbox Live Compute](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/xbox-live-compute) in the XDK docs (requires Managed Partner access).
 
 
 ## See also

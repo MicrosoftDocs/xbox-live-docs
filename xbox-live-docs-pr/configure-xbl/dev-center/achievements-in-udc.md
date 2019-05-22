@@ -11,7 +11,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, udc, universal deve
 # Configuring Achievements 2017 in Partner Center
 
 > [!IMPORTANT]
-> Achievements are only applicable to ID@Xbox or Managed Partners. Games participating in the Xbox Live Creators Program are not supported.
+> Achievements are only applicable to Managed Partners; games participating in the Xbox Live Creators Program are not supported.
 
 You can use [Partner Center](https://partner.microsoft.com/dashboard) to configure the [Achievements 2017](../../achievements-2017/simplified-achievements.md) that are associated with your game.
 

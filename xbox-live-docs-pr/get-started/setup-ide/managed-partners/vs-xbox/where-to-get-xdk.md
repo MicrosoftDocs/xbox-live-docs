@@ -11,15 +11,13 @@ ms.localizationpriority: medium
 # Getting the XDK
 
 The Xbox Development Kit (XDK) is not publicly available.
-There are two groups, managed partners and ID@Xbox developers, who are allowed access to the XDK and associated development resources like documentation and middleware tools.
+Managed Partners have access to the XDK and associated development resources such as documentation and middleware tools.
+See [Joining a developer program](../../../join-dev-program/index.md).
 
 The XDK can be downloaded from the [software downloads page](https://developer.microsoft.com/en-us/games/xbox/partner/resources-softwaredownloads) on the developer.microsoft.com site.
 
 If you do not have access to the site, you will not be able to download or use the XDK.
 If you do no not have access, contact your account manager.
-
-In order to qualify for XDK access, you can [apply to become an ID@Xbox developer](https://www.xbox.com/en-us/Developers/id).
-To learn more about the ID@Xbox program and other developer tiers, see [Developer program overview](../../../join-dev-program/developer-program-overview.md).
 
 
 ## Software Requirements
@@ -39,7 +37,7 @@ To learn more about the ID@Xbox program and other developer tiers, see [Develope
 ## Use
 
 Access to the XDK will also grant you access to resources which will guide you through its use.
-Like the XDK, these resources are not public and are only available to ID@Xbox and managed partner developers.
+Like the XDK, these resources are not public and are only available to Managed Partners.
 
 - Read about using the Xbox Live Development Kit in the [XDK Docs](https://developer.microsoft.com/en-us/games/xbox/partner/development-documentation).
 - For additional help, consult the [developer forums](https://forums.xboxlive.com/index.html) for community assistance, or contact your account manager.

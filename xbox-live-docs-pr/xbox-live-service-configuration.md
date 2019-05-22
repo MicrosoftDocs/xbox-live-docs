@@ -26,7 +26,7 @@ This configuration happens on [Partner Center](https://partner.microsoft.com/das
 
 If you are a developing your title as part of the Xbox Live Creators Program, you use [Partner Center](https://partner.microsoft.com/dashboard), and you can read [Getting Started With Xbox Live](get-started/setup-partner-center/legacy/get-started-with-xbox-live-creators.md) to learn how to get set up.
 
-If you are an ID@Xbox Developer or working with a publisher that is a Microsoft Partner, read on.
+If you are in the Managed Partners Program, read on.
 
 
 ## Choose your development portal

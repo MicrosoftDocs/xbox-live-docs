@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 | Article | Description |
 |---------|-------------|
 | [Setting up a game at Partner Center, for Creators](setup-partner-center-creators.md) | Creating a new game at Partner Center as a Creator, enabling Xbox Live for the game, creating test accounts, and publishing the game to a development sandbox. |
-| [Setting up a game at Partner Center, for ID@Xbox Partners](setup-partner-center-id-partners.md) | Creating a new game at Partner Center as an ID@Xbox Partner, enabling Xbox Live for the game, creating test accounts, and publishing the game to a development sandbox. |
+| [Setting up a game at Partner Center, for Managed Partners](setup-partner-center-id-partners.md) | Creating a new game at Partner Center as a Managed Partner, enabling Xbox Live for the game, creating test accounts, and publishing the game to a development sandbox. |
 | [Legacy articles about Partner Center setup](legacy/legacy-nav.md) | Older articles about Partner Center setup. |
 
 

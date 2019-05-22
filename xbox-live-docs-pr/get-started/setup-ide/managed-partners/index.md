@@ -10,8 +10,7 @@ ms.localizationpriority: medium
 
 # Setting up an IDE, for Managed Partners
 
-Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/index.md).
-
+Prerequisite: Set up a game at Partner Center; see [Getting Started](../../index.md).
 
 <ul class="cardsF panelContent cols cols2">
     <li>
@@ -21,8 +20,7 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="as-android/android-studio-logo.png" alt="Android Studio targeting Android"/>
-                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_android.svg" alt="Android Studio targeting Android"/> -->
+                                <img src="index_images/android-studio-logo.png" alt="Android Studio targeting Android"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -42,7 +40,6 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
                         <div class="cardImageOuter">
                             <div class="cardImage">
                                 <img src="https://docs.microsoft.com/media/logos/logo_xcode.svg" alt="Xcode targeting iOS"/>
-                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_ios.svg" alt="Xcode targeting iOS"/> -->
                             </div>
                         </div>
                         <div class="cardText">
@@ -62,7 +59,6 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
                         <div class="cardImageOuter">
                             <div class="cardImage">
                                 <img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="Visual Studio targeting Windows 10"/>
-                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_Windows.svg" alt="Visual Studio targeting Windows 10"/> -->
                             </div>
                         </div>
                         <div class="cardText">
@@ -82,7 +78,6 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
                         <div class="cardImageOuter">
                             <div class="cardImage">
                                 <img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="Visual Studio targeting Xbox"/>
-                                <!-- <img src="xbox-logo.png" alt="Visual Studio targeting Xbox"/> -->
                             </div>
                         </div>
                         <div class="cardText">
@@ -121,7 +116,6 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
                         <div class="cardImageOuter">
                             <div class="cardImage">
                                 <img src="https://docs.microsoft.com/media/logos/logo_unity.svg" alt="Unity targeting Windows 10"/>
-                                <!-- <img src="https://docs.microsoft.com/media/logos/logo_Windows.svg" alt="Unity targeting Windows 10"/> -->
                             </div>
                         </div>
                         <div class="cardText">
@@ -141,7 +135,6 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
                         <div class="cardImageOuter">
                             <div class="cardImage">
                                 <img src="https://docs.microsoft.com/media/logos/logo_unity.svg" alt="Unity targeting Xbox"/>
-                                <!-- <img src="xbox-logo.png" alt="Unity targeting Xbox"/> -->
                             </div>
                         </div>
                         <div class="cardText">
@@ -156,9 +149,6 @@ Prerequisite: [Setting up a game at Partner Center](../../setup-partner-center/i
 </ul>
 
 
-Next step: [Adding basic sign-in code](../../add-signin-code/index.md).
+### Next steps
 
-
-### See also
-
-[Getting Started](../../index.md)
+Add basic sign-in code; see [Getting Started](../../index.md).

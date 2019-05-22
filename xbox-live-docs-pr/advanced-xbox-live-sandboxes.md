@@ -11,11 +11,11 @@ ms.localizationpriority: medium
 # Advanced Xbox Live sandboxes
 
 > [!NOTE]
-> This article explains advanced usage of sandboxes and is mainly applicable to large gaming studios which have multiple teams and complex permissions requirements. If you are part of the Xbox Live Creators Program or are an ID@Xbox developer, it is recommended to look at the [Xbox Live Sandboxes Intro](xbox-live-sandboxes.md).
+> This article explains advanced usage of sandboxes and is mainly applicable to large gaming studios which have multiple teams and complex permissions requirements. If you are instead part of the Xbox Live Creators Program or the ID@Xbox Program, see [Xbox Live Sandboxes Intro](xbox-live-sandboxes.md).
 
 The Xbox Live *sandbox* provides an entire private environment for development.
-This document explains what sandboxes are, why they exist, how they apply to publishers, and how they impact internal Xbox teams.
-The audience for this document is publishers who build Xbox One content and use sandboxes.
+This article explains what sandboxes are, why they exist, how they apply to publishers, and how they impact internal Xbox teams.
+The audience for this article is publishers who build Xbox One content and use sandboxes.
 
 Xbox Live development provides tremendous opportunity to publishers to test in production with production-quality services and production MSA developer accounts.
 The increase in functionality and flexibility requires configuration steps in Partner Center to create title data and manage access to the titles while in development and in general availability.
@@ -62,7 +62,7 @@ All data in Xbox Live will be primarily partitioned by the sandbox ID throughout
 ## Initial setup for a title
 
 A title is born in the Partner Center.
-Titles are assigned a title ID, product ID and a service configuration ID (SCID).
+A title is assigned a title ID, product ID, and service configuration ID (SCID).
 
 A title or product on its own doesn’t mean anything to Xbox Live.
 To support simultaneous retail and development use of a single title, Partner Center supports *instancing* of titles in order to make and maintain the necessary distinctions.
@@ -83,17 +83,17 @@ This data is described in the following three areas: service configuration, cata
 
 ### Service configuration
 
-> Service configuration definitions (events, stats, achievements, etc.). The service configuration is defined at the product instance level.
+Service configuration definitions (events, stats, achievements, etc.). The service configuration is defined at the product instance level.
 
 
 ### Catalog metadata
 
-> The metadata which lives in the Catalog, including sell text, art assets, availability/offer information, licensing data, and more.
+The metadata which lives in the Catalog, including sell text, art assets, availability/offer information, licensing data, and more.
 
 
 ### Binaries
 
-> A binary can be represented in either of two ways:
+A binary can be represented in either of two ways:
 
 1. Metadata only to enable sideloading. This includes content ID, version info, and licensing info.
 
@@ -353,7 +353,7 @@ The publisher has also chosen to create a separate admin user group and assigned
 ![One Admin Two User Group and Two Title flowchart](images/sandboxes/sandboxes_image8.png)
 
 
-### Scenario 4: Anyway you like it
+### Scenario 4: Any way you like it
 
 Due to the number of connections and to keep the verbiage short, we have chosen to show only the sandbox run-time connections.
 Nothing prevents you from adding other design-time access permissions as well.

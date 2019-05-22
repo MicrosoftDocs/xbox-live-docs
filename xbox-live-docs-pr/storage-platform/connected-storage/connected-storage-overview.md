@@ -24,9 +24,9 @@ Connected Storage allows you to progress in a game at home, then pick up your ga
 The Connected Storage API provides the following features:
 
 - Apps can quickly save up to 16 MB of data at a time into a memory buffer, which is then cached locally on the HDD by the system and uploaded to the cloud.
-- For managed partners and ID@Xbox developers:
+- For Managed Partners:
     - 256 MB per user/app of cloud storage.
-- For Xbox Live Creators Program developers:
+- For Creators Program developers:
     - 64 MB per user/app of cloud storage.
 - Robust response to power failures—apps don't have to deal with partial data being saved.
 - Data is automatically uploaded to the cloud, even when the app isn't running.

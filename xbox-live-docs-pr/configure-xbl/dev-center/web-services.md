@@ -9,7 +9,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, web services
 # Setting up Web Services at Partner Center
 
 > [!WARNING]
-> The following article is for ID@Xbox and Managed Partner developers only, due to restrictions placed on web service configuration. Web Services configuration is only available to developers with the Relying Parties account level permission granted. If you do not have control of your account level permissions, contact your Development Account Manager (DAM) for assistance.
+> The following article is for Managed Partners only, not for the Creators Program, due to restrictions placed on web service configuration. Web Services configuration is only available to developers with the Relying Parties account level permission granted. If you do not have control of your account level permissions, contact your Development Account Manager (DAM) for assistance.
 
 Publishers can create web services if they want to customize the way their apps/titles interact with Xbox Live services.
 Web services are publisher-level configurations and can be called by any title within a sandbox owned by the publisher by configuring single sign-on.

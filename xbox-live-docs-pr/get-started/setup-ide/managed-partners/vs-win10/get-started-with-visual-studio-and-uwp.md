@@ -74,10 +74,13 @@ If you do not already have an existing UWP project, you can create one by doing 
 
 The Xbox Services API comes in flavors for both UWP and XDK, and for C++ and WinRT and have their namespace structured as **Microsoft.Xbox.Live.SDK.*.UWP** and **Microsoft.Xbox.Live.SDK.*.XboxOneXDK**.
 
-1. **UWP** is for developers who are building a UWP game, which can run on either PC, the Xbox One, or Windows Phone.
-2. **XboxOneXDK** is for ID@Xbox and managed developers who are using the Xbox One XDK.
-3. The C++ SDK can be used for C++ game engines, where as the  WinRT SDK is for game engines written with C++, C#, or JavaScript.
-4. When using WinRT with a C++ engine, you should use C++/CX which uses hats (^). C++ is the recommended API to use for C++ game engines.  
+* **UWP** is for developers who are building a UWP game, which can run on either PC, the Xbox One, or Windows Phone.
+
+* **XboxOneXDK** is for Managed Partners who are using the Xbox One XDK.
+
+* The C++ SDK can be used for C++ game engines, where as the  WinRT SDK is for game engines written with C++, C#, or JavaScript.
+
+* When using WinRT with a C++ engine, you should use C++/CX which uses hats (^). C++ is the recommended API to use for C++ game engines.  
 
 > [!TIP]
 > You can read more about running UWP on Xbox One at [Getting started with UWP app development on Xbox One](https://docs.microsoft.com/windows/uwp/xbox-apps/getting-started).
@@ -201,5 +204,5 @@ For more information, see [Configure your AppXManifest For Multiplayer](../../..
 
 ## Learn More
 
-The [Xbox Live SDK samples](https://github.com/Microsoft/xbox-live-samples) are a good way to see how Xbox Live APIs are used and showcase the APIs available to developers in the ID@Xbox program.
+The [Xbox Live SDK samples](https://github.com/Microsoft/xbox-live-samples) are a good way to see how Xbox Live APIs are used and showcase the APIs available to Managed Partners.
 To use the samples, you need to change your sandbox to XDKS.1.
