@@ -22,7 +22,6 @@ These steps are detailed below.
 ## Get your Partner Center IDs
 
 To enable sandboxes and Xbox Live services, you will need to obtain several IDs to configure your development kit and your title.
-These can be done with the same process.
 See the section "Get your IDs" in [Xbox Live service configuration](../../../../xbox-live-service-configuration.md#get_ids).
 
 
