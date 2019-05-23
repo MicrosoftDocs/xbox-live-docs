@@ -25,6 +25,7 @@ Before adding code to your game to do basic sign-in into the Xbox Live services,
 See [Getting Started](../get-started_nav.md).
 
 Do the following steps in the order shown.
+For example, you must initialize XAL before initializing XSAPI.
 
 
 ## Initialize Xbox Authentication Library (XAL)
