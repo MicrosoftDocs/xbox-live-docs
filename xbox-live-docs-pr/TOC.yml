@@ -335,7 +335,7 @@
                   href: multiplayer/common-multiplayer-scenarios.md
                 - name: Multiplayer session browse
                   href: multiplayer/session-browse.md
-                - name: Service-to-service session management
+                - name: Service-to-service multiplayer session management
                   href: multiplayer/service-to-service.md
             - name: Matchmaking
               href: features/multiplayer/matchmaking/matchmaking_nav.md
