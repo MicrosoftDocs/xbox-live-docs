@@ -111,7 +111,7 @@
                   items:
                     - name: Getting the XDK
                       href: get-started/setup-ide/managed-partners/vs-xbox/where-to-get-xdk.md
-                    - name: Configure an Xbox development console
+                    - name: Configuring a dev kit to connect to a sandbox
                       href: get-started/setup-ide/managed-partners/vs-xbox/configure-your-development-console.md
                     - name: Add Xbox Live to an XDK project
                       href: get-started/setup-ide/managed-partners/vs-xbox/add-xbox-live-to-an-xdk-project.md

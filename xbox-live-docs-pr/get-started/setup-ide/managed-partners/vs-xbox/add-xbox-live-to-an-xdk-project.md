@@ -37,7 +37,7 @@ You will obtain your IDs by doing the process of [Xbox Live service configuratio
 
 ## Configure your development console
 
-Once you have your IDs, follow the [Configure your development console](configure-your-development-console.md) guide to setup your development console.
+Once you have your IDs, set up your development console; see [Configuring a dev kit to connect to a sandbox](configure-your-development-console.md).
 
 
 ## Add the TitleID and SCID to your binary
