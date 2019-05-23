@@ -1,5 +1,5 @@
 ---
-title: Configuring a dev kit to connect to a sandbox
+title: Configuring an Xbox development console
 description: Configuring your Xbox development console to support Xbox Live development.
 ms.assetid: f8fd1caa-b1e9-4882-a01f-8f17820dfb55
 ms.date: 04/04/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Configuring a dev kit to connect to a sandbox
+# Configuring an Xbox development console
 
 To configure your development console:
 1. Get your Partner Center IDs.
@@ -23,8 +23,7 @@ These steps are detailed below.
 
 To enable sandboxes and Xbox Live services, you will need to obtain several IDs to configure your development kit and your title.
 These can be done with the same process.
-
-Follow [Xbox Live service configuration](../../../../xbox-live-service-configuration.md#get_ids) to get your IDs.
+See the section "Get your IDs" in [Xbox Live service configuration](../../../../xbox-live-service-configuration.md#get_ids).
 
 
 ## Activate the console as a dev kit
