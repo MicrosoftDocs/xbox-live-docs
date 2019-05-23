@@ -29,7 +29,9 @@ Follow [Xbox Live service configuration](../../../../xbox-live-service-configura
 
 ## Activate the console as a dev kit
 
-Activate the Xbox One console as a development kit; see <a href="https://docs.microsoft.com/en-us/windows/uwp/xbox-apps/devkit-activation" target="_blank">Xbox One Developer Mode activation &#11008;</a>.
+Activate Dev Mode on the retail Xbox One console.
+To do this, download the Dev Mode Activation app from the Xbox One store.
+See <a href="https://docs.microsoft.com/en-us/windows/uwp/xbox-apps/devkit-activation" target="_blank">Xbox One Developer Mode activation &#11008;</a>.
 
 
 ## Set your sandbox on your development kit
