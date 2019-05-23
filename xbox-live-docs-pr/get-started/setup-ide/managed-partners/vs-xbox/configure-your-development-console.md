@@ -24,7 +24,7 @@ These steps are detailed below.
 To enable sandboxes and Xbox Live services, you will need to obtain several IDs to configure your development kit and your title.
 These can be done with the same process.
 
-Follow [Xbox Live service configuration](../../../../xbox-live-service-configuration.md) to get your IDs.
+Follow [Xbox Live service configuration](../../../../xbox-live-service-configuration.md#get_ids) to get your IDs.
 
 
 ## Activate the console as a dev kit
