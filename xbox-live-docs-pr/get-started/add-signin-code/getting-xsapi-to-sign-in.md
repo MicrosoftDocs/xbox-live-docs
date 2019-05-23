@@ -24,28 +24,8 @@ Before adding code to your game to do basic sign-in into the Xbox Live services,
 
 See [Getting Started](../get-started_nav.md).
 
-
-## Initialize Xbox Services API (XSAPI)
-
-Set up your project to call the Xbox Live sign-in API, as described below.
-
-Initializing Xbox Live requires a set of arguments to be passed in.
-
-1. Add the following `XsapiInit` function.
-
-```cpp
-HRESULT XsapiInit()
-{
-    XblInitArgs args = {};
-    args.scid = ; // TODO: Add your SCID here.
-#if ANDROID
-    args.javaVM = getJavaVM();
-    args.applicationContext = getAppContext();
-#end
-
-    return XblInitialize(&args);
-}
-```
+Do the following steps in the order shown.
+For example, you must initialize XAL before initializing XSAPI.
 
 
 ## Initialize Xbox Authentication Library (XAL)
@@ -80,6 +60,29 @@ HRESULT XalInit()
     xalInitArgs.platformArgs = &xalPlatformArgs;
 
     return XalInitialize(xalInitArgs, nullptr);
+}
+```
+
+
+## Initialize Xbox Services API (XSAPI)
+
+Set up your project to call the Xbox Live sign-in API, as described below.
+
+Initializing Xbox Live requires a set of arguments to be passed in.
+
+1. Add the following `XsapiInit` function.
+
+```cpp
+HRESULT XsapiInit()
+{
+    XblInitArgs args = {};
+    args.scid = ; // TODO: Add your SCID here.
+#if ANDROID
+    args.javaVM = getJavaVM();
+    args.applicationContext = getAppContext();
+#end
+
+    return XblInitialize(&args);
 }
 ```
 
