@@ -111,7 +111,7 @@
                   items:
                     - name: Getting the XDK
                       href: get-started/setup-ide/managed-partners/vs-xbox/where-to-get-xdk.md
-                    - name: Configure an Xbox development console
+                    - name: Configuring an Xbox development console
                       href: get-started/setup-ide/managed-partners/vs-xbox/configure-your-development-console.md
                     - name: Add Xbox Live to an XDK project
                       href: get-started/setup-ide/managed-partners/vs-xbox/add-xbox-live-to-an-xdk-project.md
@@ -335,7 +335,7 @@
                   href: multiplayer/common-multiplayer-scenarios.md
                 - name: Multiplayer session browse
                   href: multiplayer/session-browse.md
-                - name: Service-to-service session management
+                - name: Service-to-service multiplayer session management
                   href: multiplayer/service-to-service.md
             - name: Matchmaking
               href: features/multiplayer/matchmaking/matchmaking_nav.md

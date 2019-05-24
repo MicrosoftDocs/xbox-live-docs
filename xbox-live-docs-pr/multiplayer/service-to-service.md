@@ -1,6 +1,6 @@
 ---
-title: Service to service multiplayer session management
-description: LEarn how MPSD supports service to service calling patterns.
+title: Service-to-service multiplayer session management
+description: Using service-to-service calling patterns with MPSD.
 ms.date: 05/21/2019
 ms.topic: article
 keywords: xbox live, xbox, games, multiplayer, service-to-service, s2s
@@ -412,7 +412,7 @@ The list of groups is replaced with every write operation. To remove a member fr
 
 The activity handle of a user determines which session is used for Platform invites and Join-in-Progress. This handle cannot be set through S2S calls and is currently only available through client APIs. A title server can share the session name with a client to enable activity handle creation for a S2S session.
 
-For more information on handles see [Multiplayer 2015 Appendix](multiplayer-appendix/multiplayer-appendix.md).
+For more information on handles see [Multiplayer 2015 Appendix](multiplayer-appendix/multiplayer-appendix_nav.md).
 
 ## Best practices
 
