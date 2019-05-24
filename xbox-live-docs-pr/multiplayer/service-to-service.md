@@ -1,6 +1,6 @@
 ---
-title: Service to service multiplayer session management
-description: LEarn how MPSD supports service to service calling patterns.
+title: Service-to-service multiplayer session management
+description: Using service-to-service calling patterns with MPSD.
 ms.date: 05/21/2019
 ms.topic: article
 keywords: xbox live, xbox, games, multiplayer, service-to-service, s2s
