@@ -24,7 +24,7 @@ Once the ticket session has been created and populated with players, the title s
 This method creates a match ticket that represents the ticket session, and updates the /servers/matchmaking/properties/system/status field in the ticket session to "searching".
 For more information, see 
 <!-- [How to: Create a Match Ticket](../multiplayer-session/mpsd-how-tos.md). -->
-[How to: Create a Match Ticket](../multiplayer-appendix/multiplayer-how-tos).
+[How to: Create a Match Ticket](../multiplayer-appendix/multiplayer-how-tos.md).
 
 The response from the match ticket creation method is a **CreateMatchTicketResponse Class** object.
 The response contains the match ticket ID, a GUID that can be used can be used to cancel matchmaking by deleting the ticket.
