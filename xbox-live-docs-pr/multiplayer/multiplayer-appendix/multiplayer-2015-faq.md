@@ -157,7 +157,7 @@ Example response error:
 
 The session can't be created because not enough session member reservations with the "initialize" field set to true are included in the request. Your code can set this field for a member using the *initializeRequested* parameter for the **MultiplayerSession.AddMemberReservation** method or the **MultiplayerSession.Join** method.
 
-When initialization is specified in your session template, make sure that "initialize":"true" is set for enough of the member reservations to pass matchmaking QoS. For more information, see [Target Session Initialization and QoS](smartmatch-matchmaking.md).
+When initialization is specified in your session template, make sure that "initialize":"true" is set for enough of the member reservations to pass matchmaking QoS. For more information, see [Target Session Initialization and QoS](../matchmaking/matchmaking-targetsession.md).
 
 
 ### My session is not being created and I'm getting an HTTP/204 code.
@@ -181,7 +181,7 @@ If the title is constrained or not running, the shell provides a notification th
 
 ### Why would a created session not be found by matchmaking?
 
-On Xbox One, simply creating a session isn't enough for matchmaking to find the new session. You must create a match ticket to start advertising the session to the matchmaking service. See [SmartMatch Matchmaking](smartmatch-matchmaking.md).
+On Xbox One, simply creating a session isn't enough for matchmaking to find the new session. You must create a match ticket to start advertising the session to the matchmaking service. See [Matchmaking](../matchmaking/matchmaking.md).
 
 
 ### What is the key difference between the way parties are properly used by Multiplayer 2015 and the way they were used in Multiplayer 2014?
@@ -191,7 +191,7 @@ In Multiplayer 2015, the multiplayer API defines no system-level game party, onl
 
 ### If a game session has open player slots and supports join in progress, why would users not be able to find the session once it has started?
 
-When a game session starts, it is no longer advertised on the matchmaking service. If player slots become available within the session and the arbiter (host) wants to attract new players, the arbiter must create a new match ticket for the in-progress session with the **MatchmakingService.CreateMatchTicketAsync** method. The ticket advertises the session again and finds more players. See [SmartMatch Matchmaking](smartmatch-matchmaking.md).
+When a game session starts, it is no longer advertised on the matchmaking service. If player slots become available within the session and the arbiter (host) wants to attract new players, the arbiter must create a new match ticket for the in-progress session with the **MatchmakingService.CreateMatchTicketAsync** method. The ticket advertises the session again and finds more players. See [Matchmaking](../matchmaking/matchmaking.md).
 
 
 ### If a game session is open, can a user who has just joined a game simply join the session and start playing without having to wait for the reservation?

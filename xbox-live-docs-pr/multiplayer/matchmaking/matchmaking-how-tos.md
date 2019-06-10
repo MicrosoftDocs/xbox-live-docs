@@ -1,6 +1,6 @@
 ---
 title: Using SmartMatch matchmaking
-description: Using SmartMatch to match players in a multiplayer game.
+description: How to use SmartMatch to match players in a multiplayer game.
 ms.assetid: 10b6413e-51d9-4fec-9110-5e258d291040
 ms.date: 04/04/2017
 ms.topic: article
@@ -22,7 +22,9 @@ All users in this group join the session using the **MultiplayerSession.Join Met
 
 Once the ticket session has been created and populated with players, the title submits the session to the matchmaking service using the **MatchmakingService.CreateMatchTicketAsync Method**.
 This method creates a match ticket that represents the ticket session, and updates the /servers/matchmaking/properties/system/status field in the ticket session to "searching".
-For more information, see [How to: Create a Match Ticket](multiplayer-how-tos.md).
+For more information, see
+[How to: Create a Match Ticket](../multiplayer-appendix/multiplayer-how-tos.md).
+<!-- [How to: Create a Match Ticket](../multiplayer-session/mpsd-how-tos.md). -->
 
 The response from the match ticket creation method is a **CreateMatchTicketResponse Class** object.
 The response contains the match ticket ID, a GUID that can be used can be used to cancel matchmaking by deleting the ticket.
@@ -48,7 +50,7 @@ These are set by calling the **MultiplayerSession.SetCurrentUserMemberCustomProp
 This call places the attributes in the /members/{index}/properties/custom/matchAttrs field on each player within the ticket session.
 
 The matchmaking process "flattens" per-member each into a single ticket-level attribute, based on the flatten method specified for that attribute in the Xbox Live configuration for the hopper.
-This is configured on [Partner Center](https://partner.microsoft.com/dashboard).
+This is configured using [Partner Center](https://partner.microsoft.com/dashboard).
 
 
 ## Making the Match
@@ -59,7 +61,7 @@ MPSD notifies the title of this change to the ticket session.
 
 Now the title must then take steps to initialize the target session in order to confirm that enough players have shown up, and perform quality of service (QoS) checks to ensure that they can connect to one another successfully.
 If initialization and/or QoS fails, the title marks the ticket session for resubmission to matchmaking so that another group can be found.
-For more information on the processes, see [Target Session Initialization and QoS](smartmatch-matchmaking.md).
+For more information on the processes, see [Target Session Initialization and QoS](matchmaking-overview.md).
 
 During match activity, the following changes are made to the JSON objects for the session:
 
@@ -136,9 +138,9 @@ Instead, the matchmaking service copies the /properties/system/matchmaking/serve
 
 ## See also
 
-[SmartMatch Runtime Operations](smartmatch-matchmaking.md)
+[SmartMatch Runtime Operations](matchmaking-overview.md)
 
-[SmartMatch Matchmaking](smartmatch-matchmaking.md)
+[SmartMatch Matchmaking](matchmaking-overview.md)
 
 **Microsoft.Xbox.Services.Matchmaking Namespace**
 
