@@ -61,7 +61,10 @@ Two types of configuration settings can be made:
 - Settings that configure the managed initialization process as a whole.
 - Settings that configure QoS requirements.
 
-See [MPSD Session Templates](../multiplayer-session/mpsd-overview.md) for examples of session templates for common title scenarios.
+See
+<!-- [MPSD Session Templates](../multiplayer-session/mpsd-overview.md) -->
+[MPSD Session Templates](../multiplayer-appendix/multiplayer-session-directory.md)
+for examples of session templates for common title scenarios.
 
 | Note                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -116,5 +119,5 @@ Here are the fields to set:
 
 
 ## See also
-
-[MPSD Session Templates](../multiplayer-session/mpsd-overview.md)
+<!-- [MPSD Session Templates](../multiplayer-session/mpsd-overview.md) -->
+[MPSD Session Templates](../multiplayer-appendix/multiplayer-session-directory.md)

@@ -346,4 +346,5 @@ The Must rule prevents ticket splitting in all generations, and provides the pre
 The Should rule is identical until the last generation--once there, tickets may be split, although the prefer-even-teams sorting will still be active.
 
 ## See also
-[MPSD Session Templates](../multiplayer-session/mpsd-overview.md)
+<!-- [MPSD Session Templates](../multiplayer-session/mpsd-overview.md) -->
+[MPSD Session Templates](../multiplayer-appendix/multiplayer-session-directory.md)

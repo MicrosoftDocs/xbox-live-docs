@@ -372,11 +372,11 @@
             - name: Matchmaking
               href: multiplayer/matchmaking/matchmaking.md
               items: 
-                  - name: Matckmaking Overview
+                  - name: Matchmaking Overview
                     href: multiplayer/matchmaking/matchmaking-overview.md
-                  - name: Matckmaking Configuration
+                  - name: Matchmaking Configuration
                     href: multiplayer/matchmaking/matchmaking-config.md
-                  - name: Matckmaking Target Session
+                  - name: Matchmaking Target Session
                     href: multiplayer/matchmaking/matchmaking-targetsession.md
                   - name: Matchmaking Examples
                     href: multiplayer/matchmaking/matchmaking-how-tos.md
