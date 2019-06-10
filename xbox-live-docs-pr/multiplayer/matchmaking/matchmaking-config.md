@@ -32,7 +32,7 @@ Alternatively, you can reuse a template for a lobby session or other session not
 For a target session, you must use a template that is intended for matchmade game play.
 It should have settings that enable QoS checks between peers prior to the start of game play, and must be marked with the "gameplay" capability.
 
-With the config UI for XDP or Partner Center, you can map each session to one or more hoppers, each containing rules that determine how sessions are matched together in that hopper.
+With the config UI for Partner Center, you can map each session to one or more hoppers, each containing rules that determine how sessions are matched together in that hopper.
 For more information, see Basic Hopper Configuration for Matchmaking.
 
 
@@ -301,7 +301,7 @@ The title prefers avoiding a game with the player most recently played.
 ## Defining team rules during SmartMatch configuration
 
 ### Configuring Team Rules
-To set up the Team Rule, begin by creating one in on your chosen configuration platform (XDP or Partner Center).
+To set up the Team Rule, begin by creating one in Partner Center.
 Fill out the team sizes your game expects to create from the tickets matched in this hopper.
 
 For instance, if your game expects 4v4, you should create two entries, expecting a maximum size of 4 each, and a different name.
