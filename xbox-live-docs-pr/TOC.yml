@@ -370,11 +370,16 @@
                     - name: Shutting down a multiplayer session (flowchart)
                       href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-shut-down.md
             - name: Matchmaking
-              href: features/multiplayer/matchmaking/matchmaking_nav.md
+              href: multiplayer/matchmaking/matchmaking.md
               items: 
-
-
-
+                  - name: Matckmaking Overview
+                    href: multiplayer/matchmaking/matchmaking-overview.md
+                  - name: Matckmaking Configuration
+                    href: multiplayer/matchmaking/matchmaking-config.md
+                  - name: Matckmaking Target Session
+                    href: multiplayer/matchmaking/matchmaking-targetsession.md
+                  - name: Matchmaking Examples
+                    href: multiplayer/matchmaking/matchmaking-how-tos.md
             - name: Invites
               href: features/multiplayer/invites/invites_nav.md
               items: 

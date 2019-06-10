@@ -90,7 +90,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../features/multiplayer/matchmaking/matchmaking_nav.md">
+        <a href="matchmaking/matchmaking.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
