@@ -95,7 +95,7 @@ The WinRT wrapper associated with this object is the **MultiplayerSessionPropert
 Session properties are writable by session members at any time.
 
 Examples of session properties in JSON format are: joinRestriction, initializationSucceeded, and the matchmaking object.
-For an example of the use of this element group, see [Target Session Initialization and QoS](smartmatch-matchmaking.md).
+For an example of the use of this element group, see [Target Session Initialization and QoS](../matchmaking/matchmaking-targetsession.md).
 
 
 #### Member Constants

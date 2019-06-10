@@ -32,9 +32,7 @@ The Multiplayer 2015 service abstracts-away the Multiplayer 2014 "game party" co
 | [Multiplayer Session Directory (mpsd)](multiplayer-session-directory.md) | Multiplayer Session Directory centralizes a game's multiplayer API metadata across all the titles and manages game sessions. |
 | [MPSD Session Details](mpsd-session-details.md) | Details about multiplayer sessions. |
 | [Common Issues When Adapting Your Titles for Multiplayer 2015](common-issues-when-adapting-multiplayer.md) | Changing a title from Multiplayer 2014 to Multiplayer 2015. |
-| [SmartMatch Matchmaking](smartmatch-matchmaking.md) | The SmartMatch matchmaking service selects compatible players in a multiplayer game. |
 | [Migrating an Arbiter](migrating-an-arbiter.md) | Selecting a new arbiter for Multiplayer 2015 by using either graceful or failover migration. |
-| [Using SmartMatch Matchmaking](using-smartmatch-matchmaking.md) | Using SmartMatch to match players in a multiplayer game. |
 | [Multiplayer how-to's](multiplayer-how-tos.md) | Implementing common tasks in Multiplayer 2015. |
 | [Multiplayer session status codes](multiplayer-session-status-codes.md) | Status codes returned from the Xbox Live service when requesting a multiplayer session. |
 | [Multiplayer 2015 FAQs and Troubleshooting](multiplayer-2015-faq.md) | FAQs and troubleshooting for Multiplayer 2015. |
