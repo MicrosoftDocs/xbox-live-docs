@@ -71,6 +71,25 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
+        <a href="../features/multiplayer/matchmaking/manager/multiplayer-manager_nav.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_agent.svg" alt="Multiplayer Manager"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Multiplayer Manager</h3>
+                            <p>High-level APIs to add multiplayer functionality to your game by managing sessions and matchmaking, and by providing a state- and event-based programming model.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
         <a href="../features/multiplayer/matchmaking/matchmaking_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">

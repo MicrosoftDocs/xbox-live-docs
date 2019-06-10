@@ -337,41 +337,44 @@
                   href: multiplayer/session-browse.md
                 - name: Service-to-service multiplayer session management
                   href: multiplayer/service-to-service.md
+            - name: Multiplayer Manager
+              href: features/multiplayer/matchmaking/manager/multiplayer-manager_nav.md
+              items: 
+                - name: Overview of Multiplayer Manager
+                  href: multiplayer/multiplayer-manager.md
+                - name: Multiplayer Manager API overview
+                  href: multiplayer/multiplayer-manager/multiplayer-manager-api-overview.md
+                - name: Enable playing a multiplayer game with friends
+                  href: multiplayer/multiplayer-manager/play-multiplayer-with-friends.md
+                - name: Finding a multiplayer game by using SmartMatch
+                  href: multiplayer/multiplayer-manager/play-multiplayer-with-matchmaking.md
+                - name: Handle protocol activation
+                  href: multiplayer/multiplayer-manager/handle-protocol-activation.md
+                - name: Multiplayer manager flowcharts
+                  href: multiplayer/multiplayer-manager/mpm-flowcharts_nav.md
+                  items: 
+                    - name: Playing a game with friends (flowchart)
+                      href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-play-with-friends.md
+                    - name: Playing a game by using SmartMatch matchmaking (flowchart)
+                      href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-play-with-smartmatch-matchmaking.md
+                    - name: Checking Quality of Service for matchmaking (flowchart)
+                      href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-use-matchmaking-and-qos.md
+                    - name: Sending invites to another player (flowchart)
+                      href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-send-invites.md
+                    - name: Handling protocol activation (flowchart)
+                      href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-on-protocol-activation.md
+                    - name: Filling open slots in a multiplayer game (flowchart)
+                      href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-fill-open-slots.md
+                    - name: Handling host migration (flowchart)
+                      href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-host-migration.md
+                    - name: Shutting down a multiplayer session (flowchart)
+                      href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-shut-down.md
             - name: Matchmaking
               href: features/multiplayer/matchmaking/matchmaking_nav.md
               items: 
-                - name: Multiplayer Manager for Matchmaking
-                  href: features/multiplayer/matchmaking/manager/multiplayer-manager_nav.md
-                  items: 
-                    - name: Overview of Multiplayer Manager for Matchmaking
-                      href: multiplayer/multiplayer-manager.md
-                    - name: Multiplayer Manager API overview
-                      href: multiplayer/multiplayer-manager/multiplayer-manager-api-overview.md
-                    - name: Enable playing a multiplayer game with friends
-                      href: multiplayer/multiplayer-manager/play-multiplayer-with-friends.md
-                    - name: Finding a multiplayer game by using SmartMatch
-                      href: multiplayer/multiplayer-manager/play-multiplayer-with-matchmaking.md
-                    - name: Handle protocol activation
-                      href: multiplayer/multiplayer-manager/handle-protocol-activation.md
-                    - name: Multiplayer manager flowcharts
-                      href: multiplayer/multiplayer-manager/mpm-flowcharts_nav.md
-                      items: 
-                        - name: Playing a game with friends (flowchart)
-                          href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-play-with-friends.md
-                        - name: Playing a game by using SmartMatch matchmaking (flowchart)
-                          href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-play-with-smartmatch-matchmaking.md
-                        - name: Checking Quality of Service for matchmaking (flowchart)
-                          href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-use-matchmaking-and-qos.md
-                        - name: Sending invites to another player (flowchart)
-                          href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-send-invites.md
-                        - name: Handling protocol activation (flowchart)
-                          href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-on-protocol-activation.md
-                        - name: Filling open slots in a multiplayer game (flowchart)
-                          href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-fill-open-slots.md
-                        - name: Handling host migration (flowchart)
-                          href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-host-migration.md
-                        - name: Shutting down a multiplayer session (flowchart)
-                          href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-shut-down.md
+
+
+
             - name: Invites
               href: features/multiplayer/invites/invites_nav.md
               items: 
