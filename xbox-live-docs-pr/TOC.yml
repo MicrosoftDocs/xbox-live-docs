@@ -465,12 +465,8 @@
                   href: multiplayer/multiplayer-appendix/mpsd-session-details.md
                 - name: Changing a game from 2014 to 2015 Multiplayer
                   href: multiplayer/multiplayer-appendix/common-issues-when-adapting-multiplayer.md
-                - name: SmartMatch matchmaking
-                  href: multiplayer/multiplayer-appendix/smartmatch-matchmaking.md
                 - name: Migrating an arbiter
                   href: multiplayer/multiplayer-appendix/migrating-an-arbiter.md
-                - name: Using SmartMatch matchmaking
-                  href: multiplayer/multiplayer-appendix/using-smartmatch-matchmaking.md
                 - name: Multiplayer tasks
                   href: multiplayer/multiplayer-appendix/multiplayer-how-tos.md
                 - name: Multiplayer session status codes
