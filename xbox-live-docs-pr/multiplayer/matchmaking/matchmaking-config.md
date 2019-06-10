@@ -1,6 +1,6 @@
 ---
 title: Matchmaking Configuration
-description: The SmartMatch matchmaking service selects compatible players in a multiplayer game.
+description: Configuring Matchmaking at Partner Center.
 ms.assetid: ba0c1ecb-e928-4e86-9162-8cb456b697ff
 ms.date: 04/04/2017
 ms.topic: article
@@ -346,5 +346,5 @@ The Must rule prevents ticket splitting in all generations, and provides the pre
 The Should rule is identical until the last generation--once there, tickets may be split, although the prefer-even-teams sorting will still be active.
 
 ## See also
-<!-- [MPSD Session Templates](../multiplayer-session/mpsd-overview.md) -->
 [MPSD Session Templates](../multiplayer-appendix/multiplayer-session-directory.md)
+<!-- [MPSD Session Templates](../multiplayer-session/mpsd-overview.md) -->

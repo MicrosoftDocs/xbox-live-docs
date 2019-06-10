@@ -18,6 +18,6 @@ ms.localizationpriority: medium
 | Article | Description |
 |---------|-------------|
 | [Matchmaking Overview](matchmaking-overview.md) | The SmartMatch matchmaking service selects compatible players in a multiplayer game. |
-| [Matchmaking Overview](matchmaking-config.md) | Matchmaking Configuration. |
-| [Matchmaking Overview](matchmaking-targetsession.md) | Matchmaking Target Session. |
-| [Matchmaking Examples](matchmaking-how-tos.md) | Matchmaking Examples. |
+| [Matchmaking Configuration](matchmaking-config.md) | Configuring Matchmaking at Partner Center. |
+| [Target Session Initialization and QoS](matchmaking-targetsession.md) | How to confirm that enough players have joined that they can successfully connect to each other. |
+| [Using SmartMatch matchmaking](matchmaking-how-tos.md) | How to use SmartMatch to match players in a multiplayer game. |

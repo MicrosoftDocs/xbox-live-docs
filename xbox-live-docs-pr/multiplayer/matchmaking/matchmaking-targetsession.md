@@ -1,6 +1,6 @@
 ---
 title: Target Session Initialization and QoS
-description: The SmartMatch matchmaking service selects compatible players in a multiplayer game.
+description: How to confirm that enough players have joined that they can successfully connect to each other.
 ms.assetid: ba0c1ecb-e928-4e86-9162-8cb456b697ff
 ms.date: 04/04/2017
 ms.topic: article
@@ -62,9 +62,9 @@ Two types of configuration settings can be made:
 - Settings that configure QoS requirements.
 
 See
-<!-- [MPSD Session Templates](../multiplayer-session/mpsd-overview.md) -->
 [MPSD Session Templates](../multiplayer-appendix/multiplayer-session-directory.md)
 for examples of session templates for common title scenarios.
+<!-- [MPSD Session Templates](../multiplayer-session/mpsd-overview.md) -->
 
 | Note                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -119,5 +119,5 @@ Here are the fields to set:
 
 
 ## See also
-<!-- [MPSD Session Templates](../multiplayer-session/mpsd-overview.md) -->
 [MPSD Session Templates](../multiplayer-appendix/multiplayer-session-directory.md)
+<!-- [MPSD Session Templates](../multiplayer-session/mpsd-overview.md) -->
