@@ -275,7 +275,12 @@ Leaderboards 2017 is not recommended for new code.
 
 To make calls to the Stats 2017 Leaderboard service, you will use the `StatisticManager` leaderboard APIs, instead of the `LeaderboardService` leaderboard APIs.
 
-`xbox::services::stats:manager::stats_manager::get_leaderboard`  
+
+### get_leaderboard C++ method
+
+Namespace path:
+
+`xbox::services::stats:manager::stats_manager::get_leaderboard`
 
 ```cpp
 xbox_live_result< void >  get_leaderboard (
@@ -285,7 +290,12 @@ xbox_live_result< void >  get_leaderboard (
      ) 
 ```  
 
-`xbox::services::stats:manager::stats_manager::get_leaderboard`  
+
+### get_social_leaderboard C++ method
+
+Namespace path:
+
+`xbox::services::stats:manager::stats_manager::get_social_leaderboard`
 
 ```cpp
 xbox_live_result< void >  get_social_leaderboard (_In_ const xbox_live_user_t &user,
@@ -295,7 +305,12 @@ xbox_live_result< void >  get_social_leaderboard (_In_ const xbox_live_user_t &u
 )
 ```  
 
-`Microsoft.Xbox.Services.Statistics.Manager.StatisticManager.GetLeaderboard`  
+
+### GetLeaderboard WinRT C# method
+
+Namespace path:
+
+`Microsoft.Xbox.Services.Statistics.Manager.StatisticManager.GetLeaderboard`
 
 ```csharp
 public void GetLeaderboard(
@@ -305,7 +320,12 @@ public void GetLeaderboard(
     )
 ```  
 
-`Microsoft.Xbox.Services.Statistics.Manager.StatisticManager.GetSocialLeaderboard`  
+
+### GetSocialLeaderboard WinRT C# method
+
+Namespace path:
+
+`Microsoft.Xbox.Services.Statistics.Manager.StatisticManager.GetSocialLeaderboard`
 
 ```csharp
 public void GetSocialLeaderboard(
