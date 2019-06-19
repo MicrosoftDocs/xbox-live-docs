@@ -70,6 +70,25 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
+    <li>
+        <a href="xbox-live-rest/atoc-xboxlivews-reference.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_reference.svg" alt="REST Reference" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>REST Reference</h3>
+                            <p>Services for managing games and player information.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
 </ul>
 
 
