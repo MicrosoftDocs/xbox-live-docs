@@ -648,5 +648,5 @@
           items: 
             - name: Making async calls in the XSAPI C API
               href: flatc-async-patterns.md
-        - name: XSAPI REST Reference
+        - name: REST Reference
           href: xbox-live-rest/TOC.md
