@@ -194,3 +194,46 @@ You can safely ignore this base event.
 If your title configures an event using this base event type, those event writes will be ignored by Xbox Live.
 Titles that are built on the Cloud-Powered Achievements system should continue to configure their events by using the other base event types.
 Titles that are built on the Achievements 2017 system need not configure *any* events for achievement purposes.
+
+
+## Example snippets
+
+
+### Achievements_GetAchievement
+
+[!INCLUDE [Achievements_GetAchievement](simplified-achievements-snippets/achievements_getachievement.md)]
+
+
+### Achievements_GetAchievement_Callback
+
+[!INCLUDE [Achievements_GetAchievement_Callback](simplified-achievements-snippets/achievements_getachievement_callback.md)]
+
+
+### Achievements_GetAchievementsForTitle
+
+[!INCLUDE [Achievements_GetAchievementsForTitle](simplified-achievements-snippets/achievements_getachievementsfortitle.md)]
+
+
+### Achievements_GetAchievementsForTitle_Callback
+
+[!INCLUDE [Achievements_GetAchievementsForTitle_Callback](simplified-achievements-snippets/achievements_getachievementsfortitle_callback.md)]
+
+
+### Achievements_GetNextResultsPage
+
+[!INCLUDE [Achievements_GetNextResultsPage](simplified-achievements-snippets/achievements_getnextresultspage.md)]
+
+
+### Achievements_GetNextResultsPage_Callback
+
+[!INCLUDE [Achievements_GetNextResultsPage_Callback](simplified-achievements-snippets/achievements_getnextresultspage_callback.md)]
+
+
+### Achievements_UpdateAchievement
+
+[!INCLUDE [Achievements_UpdateAchievement](simplified-achievements-snippets/achievements_updateachievement.md)]
+
+
+### Achievements_UpdateAchievement_Callback
+
+[!INCLUDE [Achievements_UpdateAchievement_Callback](simplified-achievements-snippets/achievements_updateachievement_callback.md)]
