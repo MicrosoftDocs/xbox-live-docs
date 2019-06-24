@@ -96,40 +96,14 @@ Start by adding in functionality for signing-in silently.
 1. Add the following `XAL_TrySignInUserSilently` function, which should be called when your game starts up, to auto sign-in the previously logged-in user.
    This function wraps the async call `XalTryAddDefaultUserSilentlyAsync`.
 
-```cpp
-HRESULT XAL_TrySignInUserSilently()
-{
-    XAsyncBlock* asyncBlock = new XAsyncBlock() {};
-    asyncBlock->callback = XAL_TrySignInUserSilently_Callback;
-
-    return XalTryAddDefaultUserSilentlyAsync(nullptr, asyncBlock);
-}
-```
-
 [!INCLUDE [Identity_TrySignInUserSilently](../../code/snippets/Identity_TrySignInUserSilently.md)]
-
 
 When the `XAsyncBlock` returns from calling the server, it will run the callback function.
 
 2. Add the following `XAL_TrySignInUserSilently_Callback` callback function, which grabs the result from the server.
 After grabbing the result, pass the result to gameplay.
 
-```cpp
-void CALLBACK XAL_TrySignInUserSilently_Callback(_In_ XAsyncBlock* asyncBlock)
-{
-    XblUserHandle newUser = nullptr;
-    HRESULT hr = XalTryAddDefaultUserSilentlyResult(asyncBlock, &newUser);
-
-    if (SUCCEEDED(hr)) { Gameplay_SignInUser(newUser, false); }
-
-    if (newUser) { XalUserCloseHandle(newUser); }
-
-    delete asyncBlock;
-}
-```
-
 [!INCLUDE [Identity_TrySignInUserSilently_Callback](../../code/snippets/Identity_TrySignInUserSilently_Callback.md)]
-
 
 3. Add the following `Gameplay_SignInUser` function.
    In gameplay, handle whether an `XblContext` should be created from the `XalUser`.
@@ -181,34 +155,9 @@ If sign-in silently fails, then the user will need to sign-in using XAL's web vi
 
 1. Just like with "Sign-In Silently", create a `XAL_TrySignInUserWithUI` wrapper function that calls the async function `XalAddUserWithUiAsync`:
 
-```cpp
-HRESULT XAL_TrySignInUserWithUI()
-{
-    XAsyncBlock* asyncBlock = new XAsyncBlock() {};
-    asyncBlock->callback = XAL_TrySignInUserWithUI_Callback;
-
-    return XalAddUserWithUiAsync(nullptr, asyncBlock);
-}
-```
-
 [!INCLUDE [Identity_TrySignInUserWithUI](../../code/snippets/Identity_TrySignInUserWithUI.md)]
 
-
 2. Add the following `XAL_TrySignInUserWithUI_Callback` callback function, to grab the result from the server to pass on to gameplay:
-
-```cpp
-void CALLBACK XAL_TrySignInUserWithUI_Callback(_In_ XAsyncBlock* asyncBlock)
-{
-    XblUserHandle newUser = nullptr;
-    HRESULT hr = XalAddUserWithUiResult(asyncBlock, &newUser);
-
-    if (SUCCEEDED(hr)) { Gameplay_SignInUser(newUser, true); }
-
-    if (newUser) { XalUserCloseHandle(newUser); }
-
-    delete asyncBlock;
-}
-```
 
 [!INCLUDE [Identity_TrySignInUserWithUI_Callback](../../code/snippets/Identity_TrySignInUserWithUI_Callback.md)]
 
@@ -219,36 +168,9 @@ Now that sign-in is taken care of, implement sign-out.
 
 1. Add the following `XAL_TrySignOutUser` function, which wraps the async function `XalSignOutUserAsync`:
 
-```cpp
-HRESULT XAL_TrySignOutUser(_In_ XalUserHandle user)
-{
-    XAsyncBlock* asyncBlock = new XAsyncBlock() {};
-    asyncBlock->callback = XAL_TrySignOutUser_Callback;
-
-    return XalSignOutUserAsync(user, asyncBlock);
-}
-```
-
 [!INCLUDE [Identity_TrySignOutUser](../../code/snippets/Identity_TrySignOutUser.md)]
 
-
 2. Add the following `XAL_TrySignOutUser_Callback` callback function, which grabs the `XAsyncGetStatus` result:
-
-```cpp
-void CALLBACK XAL_TrySignOutUser_Callback(_In_ XAsyncBlock* asyncBlock)
-{
-    HRESULT hr = XAsyncGetStatus(asyncBlock, false);
-
-    if (SUCCEEDED(hr))
-    {
-        // TODO: Close the previous XalUserHandle
-
-        // TODO: Close the previous XblContextHandle
-    }
-
-    delete asyncBlock;
-}
-```
 
 [!INCLUDE [Identity_TrySignOutUser_Callback](../../code/snippets/Identity_TrySignOutUser_Callback.md)]
 
