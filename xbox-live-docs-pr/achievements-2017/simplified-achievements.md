@@ -201,7 +201,7 @@ Titles that are built on the Achievements 2017 system need not configure *any* e
 
 ### Achievements_GetAchievement
 
-[!INCLUDE [Achievements_GetAchievement](simplified-achievements-snippets/Achievements_GetAchievement.md)]
+[!INCLUDE [Achievements_GetAchievement](../code/snippets/Achievements_GetAchievement.md)]
 
 <!-- 
 ### Achievements_GetAchievement_Callback
