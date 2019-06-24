@@ -203,7 +203,7 @@ Titles that are built on the Achievements 2017 system need not configure *any* e
 
 [!INCLUDE [Achievements_GetAchievement](../code/snippets/Achievements_GetAchievement.md)]
 
-<!-- 
+
 ### Achievements_GetAchievement_Callback
 
 [!INCLUDE [Achievements_GetAchievement_Callback](simplified-achievements-snippets/Achievements_GetAchievement_Callback.md)]
@@ -237,4 +237,3 @@ Titles that are built on the Achievements 2017 system need not configure *any* e
 ### Achievements_UpdateAchievement_Callback
 
 [!INCLUDE [Achievements_UpdateAchievement_Callback](simplified-achievements-snippets/Achievements_UpdateAchievement_Callback.md)]
- -->
