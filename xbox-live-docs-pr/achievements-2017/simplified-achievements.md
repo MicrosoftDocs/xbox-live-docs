@@ -206,34 +206,34 @@ Titles that are built on the Achievements 2017 system need not configure *any* e
 
 ### Achievements_GetAchievement_Callback
 
-[!INCLUDE [Achievements_GetAchievement_Callback](simplified-achievements-snippets/Achievements_GetAchievement_Callback.md)]
+[!INCLUDE [Achievements_GetAchievement_Callback](../code/snippets/Achievements_GetAchievement_Callback.md)]
 
 
 ### Achievements_GetAchievementsForTitle
 
-[!INCLUDE [Achievements_GetAchievementsForTitle](simplified-achievements-snippets/Achievements_GetAchievementsForTitle.md)]
+[!INCLUDE [Achievements_GetAchievementsForTitle](../code/snippets/Achievements_GetAchievementsForTitle.md)]
 
 
 ### Achievements_GetAchievementsForTitle_Callback
 
-[!INCLUDE [Achievements_GetAchievementsForTitle_Callback](simplified-achievements-snippets/Achievements_GetAchievementsForTitle_Callback.md)]
+[!INCLUDE [Achievements_GetAchievementsForTitle_Callback](../code/snippets/Achievements_GetAchievementsForTitle_Callback.md)]
 
 
 ### Achievements_GetNextResultsPage
 
-[!INCLUDE [Achievements_GetNextResultsPage](simplified-achievements-snippets/Achievements_GetNextResultsPage.md)]
+[!INCLUDE [Achievements_GetNextResultsPage](../code/snippets/Achievements_GetNextResultsPage.md)]
 
 
 ### Achievements_GetNextResultsPage_Callback
 
-[!INCLUDE [Achievements_GetNextResultsPage_Callback](simplified-achievements-snippets/Achievements_GetNextResultsPage_Callback.md)]
+[!INCLUDE [Achievements_GetNextResultsPage_Callback](../code/snippets/Achievements_GetNextResultsPage_Callback.md)]
 
 
 ### Achievements_UpdateAchievement
 
-[!INCLUDE [Achievements_UpdateAchievement](simplified-achievements-snippets/Achievements_UpdateAchievement.md)]
+[!INCLUDE [Achievements_UpdateAchievement](../code/snippets/Achievements_UpdateAchievement.md)]
 
 
 ### Achievements_UpdateAchievement_Callback
 
-[!INCLUDE [Achievements_UpdateAchievement_Callback](simplified-achievements-snippets/Achievements_UpdateAchievement_Callback.md)]
+[!INCLUDE [Achievements_UpdateAchievement_Callback](../code/snippets/Achievements_UpdateAchievement_Callback.md)]
