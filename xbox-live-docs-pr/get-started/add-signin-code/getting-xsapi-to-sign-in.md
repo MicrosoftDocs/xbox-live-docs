@@ -106,7 +106,7 @@ HRESULT XAL_TrySignInUserSilently()
 }
 ```
 
-[!INCLUDE [Identity_TrySignInUserSilently](../code/snippets/Identity_TrySignInUserSilently.md)]
+[!INCLUDE [Identity_TrySignInUserSilently](../../code/snippets/Identity_TrySignInUserSilently.md)]
 
 
 When the `XAsyncBlock` returns from calling the server, it will run the callback function.
@@ -128,7 +128,7 @@ void CALLBACK XAL_TrySignInUserSilently_Callback(_In_ XAsyncBlock* asyncBlock)
 }
 ```
 
-[!INCLUDE [Identity_TrySignInUserSilently_Callback](../code/snippets/Identity_TrySignInUserSilently_Callback.md)]
+[!INCLUDE [Identity_TrySignInUserSilently_Callback](../../code/snippets/Identity_TrySignInUserSilently_Callback.md)]
 
 
 3. Add the following `Gameplay_SignInUser` function.
@@ -191,7 +191,7 @@ HRESULT XAL_TrySignInUserWithUI()
 }
 ```
 
-[!INCLUDE [Identity_TrySignInUserWithUI](../code/snippets/Identity_TrySignInUserWithUI.md)]
+[!INCLUDE [Identity_TrySignInUserWithUI](../../code/snippets/Identity_TrySignInUserWithUI.md)]
 
 
 2. Add the following `XAL_TrySignInUserWithUI_Callback` callback function, to grab the result from the server to pass on to gameplay:
@@ -210,7 +210,7 @@ void CALLBACK XAL_TrySignInUserWithUI_Callback(_In_ XAsyncBlock* asyncBlock)
 }
 ```
 
-[!INCLUDE [Identity_TrySignInUserWithUI_Callback](../code/snippets/Identity_TrySignInUserWithUI_Callback.md)]
+[!INCLUDE [Identity_TrySignInUserWithUI_Callback](../../code/snippets/Identity_TrySignInUserWithUI_Callback.md)]
 
 
 ## Sign-out
@@ -229,7 +229,7 @@ HRESULT XAL_TrySignOutUser(_In_ XalUserHandle user)
 }
 ```
 
-[!INCLUDE [Identity_TrySignOutUser](../code/snippets/Identity_TrySignOutUser.md)]
+[!INCLUDE [Identity_TrySignOutUser](../../code/snippets/Identity_TrySignOutUser.md)]
 
 
 2. Add the following `XAL_TrySignOutUser_Callback` callback function, which grabs the `XAsyncGetStatus` result:
@@ -250,7 +250,7 @@ void CALLBACK XAL_TrySignOutUser_Callback(_In_ XAsyncBlock* asyncBlock)
 }
 ```
 
-[!INCLUDE [Identity_TrySignOutUser_Callback](../code/snippets/Identity_TrySignOutUser_Callback.md)]
+[!INCLUDE [Identity_TrySignOutUser_Callback](../../code/snippets/Identity_TrySignOutUser_Callback.md)]
 
 
 ## Cleanup
