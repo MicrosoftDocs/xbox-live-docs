@@ -167,7 +167,7 @@ To get a single Achievement, call **XblAchievementsGetAchievementAsync**, as fol
 
 ## Unlocking an achievement
 
-To unlock an achievement, set the *percentComplete* argument of **XblAchievementsUpdateAchievementAsync**, shown below, to 100.
+To unlock an achievement, set the *percentComplete* argument of **XblAchievementsUpdateAchievementAsync** or **update_achievement**, shown below, to 100.
 
 If the user is online, the request will be immediately sent to the Xbox Live Achievements service and will trigger the following user experiences:
 
@@ -184,7 +184,7 @@ If the user is offline, the unlock request will be queued locally on the user’
 
 ## Updating completion progress for an Achievement
 
-To update a user’s progress toward unlocking an achievement, set the *percentComplete* argument of **XblAchievementsUpdateAchievementAsync**, shown below, to the appropriate whole number between 1-100.
+To update a user’s progress toward unlocking an achievement, set the *percentComplete* argument of **XblAchievementsUpdateAchievementAsync** or **update_achievement**, shown below, to the appropriate whole number between 1-100.
 
 An achievement’s progress can only increase. If *percentComplete* is set to a number less than the achievement’s last *percentComplete* value, the update will be ignored. For example, if the achievement’s *percentComplete* had previously been set to 75, sending an update with a value of 25 will be ignored and the achievement will still be displayed as 75% complete.
 
@@ -203,7 +203,7 @@ If *percentComplete* is set to a number greater than 100, the API will behave as
 [!INCLUDE [Achievements_UpdateAchievement_Callback](../code/snippets/Achievements_UpdateAchievement_Callback.md)]
 
 
-## Calling update_achievement
+### Calling update_achievement
 
 An alternative to **XblAchievementsUpdateAchievementAsync** is **update_achievement**.
 
@@ -212,7 +212,6 @@ Once your achievements are configured via Partner Center and published to your d
 The **update_achievement** API is available in both the XDK and the Xbox Live SDK.
 
 See [Configuring Achievements 2017 in Partner Center](../configure-xbl/dev-center/achievements-in-udc.md).
-
 
 The API signature is as follows:
 
