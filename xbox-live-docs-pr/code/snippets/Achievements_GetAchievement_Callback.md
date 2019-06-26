@@ -10,22 +10,13 @@ void CALLBACK Achievements_GetAchievement_Callback(_In_ XAsyncBlock* asyncBlock)
     if (SUCCEEDED(hr))
     {
         hr = XblAchievementsResultGetAchievements(resultHandle, &achievements, &achievementsCount);
-
-        if (SUCCEEDED(hr))
-        {
-            // Check if achievements has a next page
-        }
-        else
-        {
-            // Failed to get achievement
-        }
     }
     else
     {
-        // Failed to get achievements result handle
+        // TODO: Handle failure to get achievements result handle
     }
 
-    // Pass info to be handled by gameplay
+    // TODO: Handle achievement gameplay
     Achievements_Gameplay_GetAchievement(hr, achievements, achievementsCount);
 
     delete asyncBlock;

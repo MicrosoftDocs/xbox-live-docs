@@ -11,29 +11,17 @@ HRESULT Achievements_GetAchievement(
     XalUserHandle user = nullptr;
     HRESULT hr = XblContextGetUser(xblContext, &user);
 
-    if (FAILED(hr))
-    {
-        // Handle HRESULT
-        return hr;
-    }
+    // TODO: Handle HRESULT hr
 
     uint64_t xuid = 0;
     hr = XalUserGetId(user, &xuid);
 
-    if (FAILED(hr))
-    {
-        // Handle HRESULT
-        return hr;
-    }
+    // TODO: Handle HRESULT hr
 
     XblGuid scid = {0};
     hr = XblGetScid(&scid);
 
-    if (FAILED(hr))
-    {
-        // Handle HRESULT
-        return hr;
-    }
+    // TODO: Handle HRESULT hr
 
     // Request to get achievement
     return XblAchievementsGetAchievementAsync(

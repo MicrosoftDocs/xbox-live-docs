@@ -16,7 +16,7 @@ The Achievements 2017 system enables game developers to use a direct-calling mod
 
 ## Introduction
 
-With Xbox One, we introduced a new Cloud-Powered Achievements system that empowers game developers to drive the data for their Xbox Live capabilities, such as user stats, achievements, rich presence, and multiplayer, by simply sending in-game telemetry events. This has opened up a multitude of new benefits – a single event can update data for multiple Xbox Live features; Xbox Live configuration lives on the server instead of in the client; and much more.
+Xbox One originally used a Cloud-Powered Achievements system that empowers game developers to drive the data for their Xbox Live capabilities, such as user stats, achievements, rich presence, and multiplayer, by simply sending in-game telemetry events. This opened up a multitude of benefits – a single event can update data for multiple Xbox Live features; Xbox Live configuration lives on the server instead of in the client; and much more.
 
 In the years following the Xbox One launch, we have listened closely to game developer feedback, and developers have consistently shared the following:
 
@@ -34,12 +34,11 @@ In the years following the Xbox One launch, we have listened closely to game dev
 
 Game developers have also repeatedly shared feedback that they appreciate and value certain features that were introduced along with the Cloud-Powered Achievements system:
 
-1.  New user experience features such as achievement progression, real-time updates, concept art rewards, and posting unlocks into activity feed.
+1.  User experience features such as achievement progression, real-time updates, concept art rewards, and posting unlocks into activity feed.
 
 2.  Configuration improvements such as a service config instead of a local config that must be included in the game package (such as gameconfig, XLAST, and SPA) and the ability to easily edit achievement strings and images after the game has shipped.
 
 Achievements 2017 is a replacement of the existing Cloud-Powered Achievements system for future titles to use that makes it even easier for Xbox game developers to configure achievements, integrate achievement unlocks and updates into the game code, and validate that the achievements are working as expected.
-
 
 
 ## What’s different with Achievements 2017
@@ -60,83 +59,9 @@ The following are the requirements of any title that will use the Achievements 2
 
 1.  **Must be a new (unreleased) title.** Titles that have already been released and are using the Cloud-Powered Achievements system are ineligible. For more, see [Why can’t existing titles “migrate” onto the new Achievements 2017 system?](#_Why_cant_existing)
 
-2.  **Must use August 2016 XDK or newer.** The Update_Achievement API was released in the August 2016 XDK.
+2.  **Must use August 2016 XDK or newer.** The **update_achievement** API was released in the August 2016 XDK.
 
 3.  **Must be an XDK or UWP title.** The Achievements 2017 system is not available for legacy platforms, including Xbox 360, Windows 8.x or older, nor Windows Phone 8 or older.
-
-
-## Update_Achievement API
-
-Once your achievements are configured via Partner Center and published to your dev sandbox, your title can unlock them by calling `Update_Achievement`.
-
-The `Update_Achievement` API is available in both the XDK and the Xbox Live SDK.
-
-See [Configuring Achievements 2017 in Partner Center](../configure-xbl/dev-center/achievements-in-udc.md).
-
-
-### API signature
-
-The API signature is as follows:
-
-```c++
-/// <summary>
-    /// Allow achievement progress to be updated and achievements to be unlocked.  
-    /// This API will work even when offline. On PC and Xbox One, updates will be posted by the system 
-    /// when connection is re-established, even if the title isn't running.
-    /// </summary>
-    /// <param name="xboxUserId">The Xbox User ID of the player.</param>
-    /// <param name="titleId">The title ID.</param>
-    /// <param name="serviceConfigurationId">The service configuration ID (SCID) for the title.</param>
-    /// <param name="achievementId">The achievement ID as defined by Partner Center.</param>
-    /// <param name="percentComplete">The completion percentage of the achievement to indicate progress.
-    /// Valid values are from 1 to 100. Set to 100 to unlock the achievement.  
-    /// Progress will be set by the server to the highest value sent</param>
-    /// <remarks>
-    /// Returns a task<T> object that represents the state of the asynchronous operation.
-    ///
-    /// This method calls V2 GET /users/xuid({xuid})/achievements/{scid}/update
-    /// </remarks>
-    _XSAPIIMP pplx::task<xbox::services::xbox_live_result<void>> update_achievement(
-        _In_ const string_t& xboxUserId,
-        _In_ uint32_t titleId,
-        _In_ const string_t& serviceConfigurationId,
-        _In_ const string_t& achievementId,
-        _In_ uint32_t percentComplete
-        );
-```
-
-`xbox::services::xbox_live_result<T>` is the return call for all C++ Xbox Live Services API calls.
-
-For more information, check out the Xfest 2015 talk, “XSAPI: C++, No Exceptions!”<br>
-[video](https://go.microsoft.com/?linkid=9888207) |  [slides](https://developer.xboxlive.com/en-us/platform/documentlibrary/events/Documents/Xfest_2015/Xbox_Live_Track/XSAPI_Cpp_No_Exceptions.pptx)
-
-
-### Unlocking via Update_Achievement API
-
-To unlock an achievement, set the *percentComplete* to 100.
-
-If the user is online, the request will be immediately sent to the Xbox Live Achievements service and will trigger the following user experiences:
-
--   The user will receive an Achievement Unlocked notification;
-
--   The specified achievement will appear as Unlocked in the user’s achievement list for the title;
-
--   The unlocked achievement will be added to the user’s activity feed.
-
-> *Note: There will be no visible difference in user experiences for achievements that use the Achievements 2017 system and the Cloud-Powered Achievements.*
-
-If the user is offline, the unlock request will be queued locally on the user’s device. When the user’s device has reestablished network connectivity, the request will automatically be sent to the Achievements service – note: no action is required from the game to trigger this – and the above user experiences will occur as described.
-
-
-### Updating completion progress via Update_Achievement API
-
-To update a user’s progress toward unlocking an achievement, set the *percentComplete* to the appropriate whole number between 1-100.
-
-An achievement’s progress can only increase. If *percentComplete* is set to a number less than the achievement’s last *percentComplete* value, the update will be ignored. For example, if the achievement’s *percentComplete* had previously been set to 75, sending an update with a value of 25 will be ignored and the achievement will still be displayed as 75% complete.
-
-If *percentComplete* is set to 100, the achievement will unlock.
-
-If *percentComplete* is set to a number greater than 100, the API will behave as if you set it to exactly 100.
 
 
 ## Frequently asked questions
@@ -174,7 +99,6 @@ All achievements for a title must use the same Achievements system.
 Whichever Achievements system is used by the base game’s achievements is the system that must be used for all future achievements for the title.
 
 
-
 ### While testing achievements in my dev sandbox, can I mix-and-match between using the Achievements 2017 system and the Cloud-Powered Achievements system?
 
 No. All achievements for a title must use the same Achievements system.
@@ -182,7 +106,7 @@ No. All achievements for a title must use the same Achievements system.
 
 ### Does Achievements 2017 also include offline unlocks?
 
-If the title unlocks an achievement while the device is offline, the Update_Achievement API will automatically queue the offline unlock requests, and will auto-sync to Xbox Live when the device has reestablished network connectivity,similar to the current Cloud-Powered Achievements system’s offline experience.
+If the title unlocks an achievement while the device is offline, the **update_achievement** API will automatically queue the offline unlock requests, and will auto-sync to Xbox Live when the device has reestablished network connectivity,similar to the current Cloud-Powered Achievements system’s offline experience.
 Achievements unlocks will not occur while the user is offline.
 
 
@@ -196,44 +120,130 @@ Titles that are built on the Cloud-Powered Achievements system should continue t
 Titles that are built on the Achievements 2017 system need not configure *any* events for achievement purposes.
 
 
-## Example snippets
+## Getting the Achievements List
+
+To get the achievements for the running title, call **XblAchievementsGetAchievementsForTitleIdAsync**, as follows.
 
 
-### Achievements_GetAchievement
-
-[!INCLUDE [Achievements_GetAchievement](../code/snippets/Achievements_GetAchievement.md)]
-
-
-### Achievements_GetAchievement_Callback
-
-[!INCLUDE [Achievements_GetAchievement_Callback](../code/snippets/Achievements_GetAchievement_Callback.md)]
-
-
-### Achievements_GetAchievementsForTitle
+### Calling XblAchievementsGetAchievementsForTitleIdAsync
 
 [!INCLUDE [Achievements_GetAchievementsForTitle](../code/snippets/Achievements_GetAchievementsForTitle.md)]
 
 
-### Achievements_GetAchievementsForTitle_Callback
+### Callback for XblAchievementsGetAchievementsForTitleIdAsync
 
 [!INCLUDE [Achievements_GetAchievementsForTitle_Callback](../code/snippets/Achievements_GetAchievementsForTitle_Callback.md)]
 
 
-### Achievements_GetNextResultsPage
+## Getting the next page of Achievements results
+
+To get the next page of Achievements, call **XblAchievementsResultGetNextAsync**, as follows.
+
+### Calling XblAchievementsResultGetNextAsync
 
 [!INCLUDE [Achievements_GetNextResultsPage](../code/snippets/Achievements_GetNextResultsPage.md)]
 
 
-### Achievements_GetNextResultsPage_Callback
+### Callback for XblAchievementsResultGetNextAsync
 
 [!INCLUDE [Achievements_GetNextResultsPage_Callback](../code/snippets/Achievements_GetNextResultsPage_Callback.md)]
 
 
-### Achievements_UpdateAchievement
+
+## Getting a single Achievement
+
+To get a single Achievement, call **XblAchievementsGetAchievementAsync**, as follows.
+
+
+### Calling XblAchievementsGetAchievementAsync
+
+[!INCLUDE [Achievements_GetAchievement](../code/snippets/Achievements_GetAchievement.md)]
+
+
+### Callback for XblAchievementsGetAchievementAsync
+
+[!INCLUDE [Achievements_GetAchievement_Callback](../code/snippets/Achievements_GetAchievement_Callback.md)]
+
+
+## Unlocking an achievement
+
+To unlock an achievement, set the *percentComplete* argument of **XblAchievementsUpdateAchievementAsync**, shown below, to 100.
+
+If the user is online, the request will be immediately sent to the Xbox Live Achievements service and will trigger the following user experiences:
+
+-   The user will receive an Achievement Unlocked notification;
+
+-   The specified achievement will appear as Unlocked in the user’s achievement list for the title;
+
+-   The unlocked achievement will be added to the user’s activity feed.
+
+> *Note: There will be no visible difference in user experiences for achievements that use the Achievements 2017 system and the Cloud-Powered Achievements.*
+
+If the user is offline, the unlock request will be queued locally on the user’s device. When the user’s device has reestablished network connectivity, the request will automatically be sent to the Achievements service – note: no action is required from the game to trigger this – and the above user experiences will occur as described.
+
+
+## Updating completion progress for an Achievement
+
+To update a user’s progress toward unlocking an achievement, set the *percentComplete* argument of **XblAchievementsUpdateAchievementAsync**, shown below, to the appropriate whole number between 1-100.
+
+An achievement’s progress can only increase. If *percentComplete* is set to a number less than the achievement’s last *percentComplete* value, the update will be ignored. For example, if the achievement’s *percentComplete* had previously been set to 75, sending an update with a value of 25 will be ignored and the achievement will still be displayed as 75% complete.
+
+If *percentComplete* is set to 100, the achievement will unlock.
+
+If *percentComplete* is set to a number greater than 100, the API will behave as if you set it to exactly 100.
+
+
+### Calling XblAchievementsUpdateAchievementAsync
 
 [!INCLUDE [Achievements_UpdateAchievement](../code/snippets/Achievements_UpdateAchievement.md)]
 
 
-### Achievements_UpdateAchievement_Callback
+### Callback for XblAchievementsUpdateAchievementAsync
 
 [!INCLUDE [Achievements_UpdateAchievement_Callback](../code/snippets/Achievements_UpdateAchievement_Callback.md)]
+
+
+## Calling update_achievement
+
+An alternative to **XblAchievementsUpdateAchievementAsync** is **update_achievement**.
+
+Once your achievements are configured via Partner Center and published to your dev sandbox, your title can unlock them by calling **update_achievement**.
+
+The **update_achievement** API is available in both the XDK and the Xbox Live SDK.
+
+See [Configuring Achievements 2017 in Partner Center](../configure-xbl/dev-center/achievements-in-udc.md).
+
+
+The API signature is as follows:
+
+```c++
+/// <summary>
+    /// Allow achievement progress to be updated and achievements to be unlocked.  
+    /// This API will work even when offline. On PC and Xbox One, updates will be posted by the system 
+    /// when connection is re-established, even if the title isn't running.
+    /// </summary>
+    /// <param name="xboxUserId">The Xbox User ID of the player.</param>
+    /// <param name="titleId">The title ID.</param>
+    /// <param name="serviceConfigurationId">The service configuration ID (SCID) for the title.</param>
+    /// <param name="achievementId">The achievement ID as defined by Partner Center.</param>
+    /// <param name="percentComplete">The completion percentage of the achievement to indicate progress.
+    /// Valid values are from 1 to 100. Set to 100 to unlock the achievement.  
+    /// Progress will be set by the server to the highest value sent</param>
+    /// <remarks>
+    /// Returns a task<T> object that represents the state of the asynchronous operation.
+    ///
+    /// This method calls V2 GET /users/xuid({xuid})/achievements/{scid}/update
+    /// </remarks>
+    _XSAPIIMP pplx::task<xbox::services::xbox_live_result<void>> update_achievement(
+        _In_ const string_t& xboxUserId,
+        _In_ uint32_t titleId,
+        _In_ const string_t& serviceConfigurationId,
+        _In_ const string_t& achievementId,
+        _In_ uint32_t percentComplete
+        );
+```
+
+`xbox::services::xbox_live_result<T>` is the return call for all C++ Xbox Live Services API calls.
+
+For more information, check out the Xfest 2015 talk, “XSAPI: C++, No Exceptions!”<br>
+[video](https://go.microsoft.com/?linkid=9888207) |  [slides](https://developer.xboxlive.com/en-us/platform/documentlibrary/events/Documents/Xfest_2015/Xbox_Live_Track/XSAPI_Cpp_No_Exceptions.pptx)

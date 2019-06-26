@@ -1,8 +1,8 @@
 ```cpp
 void CALLBACK Achievements_GetNextResultsPage_Callback(_In_ XAsyncBlock* asyncBlock)
 {
-    XblAchievementsResultHandle achievementsResultHandle = nullptr;
-    HRESULT hr = XblAchievementsResultGetNextResult(asyncBlock, &achievementsResultHandle);
+    XblAchievementsResultHandle resultHandle = nullptr;
+    HRESULT hr = XblAchievementsResultGetNextResult(asyncBlock, &resultHandle);
 
     XblAchievement* achievements = nullptr;
     uint32_t achievementsCount = 0;
@@ -10,25 +10,21 @@ void CALLBACK Achievements_GetNextResultsPage_Callback(_In_ XAsyncBlock* asyncBl
 
     if (SUCCEEDED(hr))
     {
-        hr = XblAchievementsResultGetAchievements(achievementsResultHandle, &achievements, &achievementsCount);
+        hr = XblAchievementsResultGetAchievements(resultHandle, &achievements, &achievementsCount);
 
         if (SUCCEEDED(hr))
         {
             // Check if achievements has a next page
-            XblAchievementsResultHasNext(achievementsResultHandle, &hasNextPage);
-        }
-        else
-        {
-            // Failed to get achievements
+            XblAchievementsResultHasNext(resultHandle, &hasNextPage);
         }
     }
     else
     {
-        // Failed to get next achievements restult handle
+        // TODO: Handle failure to get achievements result handle
     }
 
-    // Pass info to be handled by gameplay
-    Achievements_Gameplay_GetNextResultsPage(hr, achievementsResultHandle, achievements, achievementsCount, hasNextPage);
+    // TODO: Handle achievements next page gameplay
+    Achievements_Gameplay_GetNextResultsPage(hr, resultHandle, achievements, achievementsCount, hasNextPage);
 
     delete asyncBlock;
 }
