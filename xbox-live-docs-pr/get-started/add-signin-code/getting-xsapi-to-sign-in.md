@@ -105,11 +105,11 @@ After grabbing the result, pass the result to gameplay.
 
 [!INCLUDE [Identity_TrySignInUserSilently_Callback](../../code/snippets/Identity_TrySignInUserSilently_Callback.md)]
 
-3. Add the following `Gameplay_SignInUser` function.
-   In gameplay, handle whether an `XblContext` should be created from the `XalUser`.
+3. Add the following code to handle sign-in gameplay.
+   This code will try to create an `XblContext` from the `XalUser`.
    If an `XblContext` is created, the user has properly signed in.
 
-[!INCLUDE [Identity_Gamplay_SignInUser](../../code/snippets/Identity_Gamplay_SignInUser.md)]
+[!INCLUDE [Identity_Gameplay_SignInUser](../../code/snippets/Identity_Gameplay_SignInUser.md)]
 
 
 ## Sign-in with UI
@@ -124,6 +124,12 @@ If sign-in silently fails, then the user will need to sign-in using XAL's web vi
 
 [!INCLUDE [Identity_TrySignInUserWithUI_Callback](../../code/snippets/Identity_TrySignInUserWithUI_Callback.md)]
 
+3. Add the following code to handle sign-in gameplay.
+   This code will try to create an `XblContext` from the `XalUser`.
+   If an `XblContext` is created, the user has properly signed in.
+
+[!INCLUDE [Identity_Gameplay_SignInUser](../../code/snippets/Identity_Gameplay_SignInUser.md)]
+
 
 ## Sign-out
 
@@ -137,6 +143,10 @@ Now that sign-in is taken care of, implement sign-out.
 
 [!INCLUDE [Identity_TrySignOutUser_Callback](../../code/snippets/Identity_TrySignOutUser_Callback.md)]
 
+3. Add the following code to handle sign-out gameplay.
+
+[!INCLUDE [Identity_Gameplay_SignOutUser](../../code/snippets/Identity_Gameplay_SignOutUser.md)]
+
 
 ## Cleanup
 
@@ -144,7 +154,6 @@ Now that everything is implemented, clean it up when your game closes, as follow
 
 1. XAL doesn't require any cleanup, however, you will need to close your `XalUserHandle` and `XblContextHandle`; add the following:
 
-<!-- delete?
 ```cpp
 if (m_xblContext)
 {
@@ -155,9 +164,7 @@ if (m_xblContext)
 
     XblContextCloseHandle(m_xblContext);
 }
-``` -->
-
-[!INCLUDE [Identity_Gamplay_SignOutUser](../../code/snippets/Identity_Gamplay_SignOutUser.md)]
+```
 
 2. When your game closes, cleanup Xbox Live, by adding the following:
 
