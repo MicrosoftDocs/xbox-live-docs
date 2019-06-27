@@ -5,7 +5,7 @@ void CALLBACK Identity_TrySignInUserSilently_Callback(_In_ XAsyncBlock* asyncBlo
     XalUserHandle newUser = nullptr;
     HRESULT hr = XalTryAddDefaultUserSilentlyResult(asyncBlock, &newUser);
 
-    // Pass info to be handled by gameplay
+    // TODO: Handle sign-in silently gameplay
     Identity_Gameplay_TrySignInUserSilently(newUser, hr);
 
     // Close the Reference if one was created during XalTryAddDefaultUserSilentlyResult

@@ -5,7 +5,7 @@ void CALLBACK Identity_TrySignInUserWithUI_Callback(_In_ XAsyncBlock* asyncBlock
     XalUserHandle newUser = nullptr;
     HRESULT hr = XalAddUserWithUiResult(asyncBlock, &newUser);
 
-    // Pass info to be handled by gameplay
+    // TODO: Handle sign-in with UI gameplay
     Identity_Gameplay_TrySignInUserWithUI(newUser, hr);
 
     // Close the Reference if one was created during XalTryAddDefaultUserSilentlyResult

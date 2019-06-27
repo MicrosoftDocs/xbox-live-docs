@@ -109,44 +109,7 @@ After grabbing the result, pass the result to gameplay.
    In gameplay, handle whether an `XblContext` should be created from the `XalUser`.
    If an `XblContext` is created, the user has properly signed in.
 
-```cpp
-void Gameplay_SignInUser(_In_ XalUserHandle newUser, _In_ bool resolveIssuesWithUI)
-{
-    // Call XalUserGetId here to ensure all vetos (gametag banned, etc) have passed
-    uint64_t xuid = 0;
-    HRESULT hr = XalUserGetId(newUser, &xuid);
-
-    if (SUCCEEDED(hr))
-    {
-        XblContextHandle newXblContext = nullptr;
-        hr = XblContextCreateHandle(newUser, &newXblContext);
-
-        if (SUCCEEDED(hr))
-        {
-            // TODO: Close the previous XblContextHandle, if one existed
-
-            // TODO: Store the new XblContextHandle
-        }
-    }
-    else
-    {
-        if (resolveIssuesWithUI)
-        {
-            // Duplicate the handle to prolong the user to be handled later by resolve
-            XblUserHandle dupUser = nullptr;
-            XalUserDuplicateHandle(newUser, &dupUser);
-            // Note: Creates a Ref for XblUserHandle, will be closed inside Gameplay_ResolveUserIssue
-
-            HRESULT asyncResult = XAL_TryResolveUserIssue(dupUser);
-
-            if (FAILED(asyncResult))
-            {
-                if (dupUser) { XalUserCloseHandle(dupUser); }
-            }
-        }
-    }
-}
-```
+[!INCLUDE [Identity_Gamplay_SignInUser](../../code/snippets/Identity_Gamplay_SignInUser.md)]
 
 
 ## Sign-in with UI
@@ -181,6 +144,7 @@ Now that everything is implemented, clean it up when your game closes, as follow
 
 1. XAL doesn't require any cleanup, however, you will need to close your `XalUserHandle` and `XblContextHandle`; add the following:
 
+<!-- delete?
 ```cpp
 if (m_xblContext)
 {
@@ -191,7 +155,9 @@ if (m_xblContext)
 
     XblContextCloseHandle(m_xblContext);
 }
-```
+``` -->
+
+[!INCLUDE [Identity_Gamplay_SignOutUser](../../code/snippets/Identity_Gamplay_SignOutUser.md)]
 
 2. When your game closes, cleanup Xbox Live, by adding the following:
 
