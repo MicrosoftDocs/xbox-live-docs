@@ -154,11 +154,13 @@ Titles that offer Xbox Live achievements must provide the required number of ach
 
 A single achievement cannot exceed 200 gamerscore and all achievements in the title must be achievable.
 
-Item | Launch |Quarterly additions| Lifetime limit
+Item | Launch |Semi-annual additions| Lifetime limit
 -----|----|-----|-----
 Minimum achievements | 10 | 0 | 10
-Maximum achievements | 100 | 50 | 500
-Gamerscore | 1000 | 500 | 5000
+Maximum achievements | 100 | 100 | 500
+Gamerscore | 1000 | 1000 | 5000
+
+Note: “Semi-annual” means January–June, July–December.
 
 
 ### No Additional Purchases Required for Base Achievements (XR-057)
