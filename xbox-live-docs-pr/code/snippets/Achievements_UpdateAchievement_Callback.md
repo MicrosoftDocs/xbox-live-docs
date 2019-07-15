@@ -3,8 +3,18 @@ void CALLBACK Achievements_UpdateAchievement_Callback(_In_ XAsyncBlock* asyncBlo
 {
     HRESULT hr = XAsyncGetStatus(asyncBlock, false);
 
-    // TODO: Handle update achievement gameplay
-    Achievements_Gameplay_UpdateAchievement(hr);
+    if (SUCCEEDED(hr))
+    {
+        // LOG: Achievement updated successfully
+    }
+    else if (hr == HTTP_E_STATUS_NOT_MODIFIED)
+    {
+        // LOG: Achievement not modifiable
+    }
+    else
+    {
+        // LOG: Failed to update achievement
+    }
 
     delete asyncBlock;
 }
