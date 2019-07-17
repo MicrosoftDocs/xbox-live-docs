@@ -6,8 +6,7 @@ description: Xbox Live is a premier gaming network that connects millions of gam
 ms.author: v-mihof
 ms.date: 12/11/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
+ms.prod: xboxlive
 keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
