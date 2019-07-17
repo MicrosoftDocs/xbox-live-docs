@@ -11,16 +11,15 @@
         if (SUCCEEDED(hr))
         {
             // TODO: Close the previous XblContext, if one existed
-
             // TODO: Set the current XblContext to be the newXblContext
         }
         else
         {
-            // TODO: Handle failure to create XblContextHandle
+            // LOG: Failed to create XblContextHandle
         }
     }
     else
     {
-        // TODO: Handle failure to get user Id
+        // LOG: Failed to get user id
     }
 ```

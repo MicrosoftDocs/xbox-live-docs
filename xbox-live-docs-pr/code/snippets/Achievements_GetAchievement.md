@@ -4,31 +4,54 @@ HRESULT Achievements_GetAchievement(
     _In_ XblContextHandle xblContext,
     _In_z_ const std::string& achievementId)
 {
-    XAsyncBlock* asyncBlock = new XAsyncBlock();
-    asyncBlock->queue = asyncQueue;
-    asyncBlock->callback = Achievements_GetAchievement_Callback;
-
     XalUserHandle user = nullptr;
     HRESULT hr = XblContextGetUser(xblContext, &user);
 
-    // TODO: Handle HRESULT hr
+    if (SUCCEEDED(hr))
+    {
+        uint64_t xuid = 0;
+        hr = XalUserGetId(user, &xuid);
 
-    uint64_t xuid = 0;
-    hr = XalUserGetId(user, &xuid);
+        if (SUCCEEDED(hr))
+        {
+            XblGuid scid = {0};
+            hr = XblGetScid(&scid);
 
-    // TODO: Handle HRESULT hr
+            if (SUCCEEDED(hr))
+            {
+                XAsyncBlock* asyncBlock = new XAsyncBlock();
+                asyncBlock->queue = asyncQueue;
+                asyncBlock->callback = Achievements_GetAchievement_Callback;
 
-    XblGuid scid = {0};
-    hr = XblGetScid(&scid);
+                // Request to get achievement
+                hr =  XblAchievementsGetAchievementAsync(
+                        xblContext,
+                        xuid,
+                        scid.value,
+                        achievementId.c_str(),
+                        asyncBlock);
 
-    // TODO: Handle HRESULT hr
+                if (FAILED(hr))
+                {
+                    // LOG: Failed to request achievement
+                    delete asyncBlock;
+                }
+            }
+            else
+            {
+                // LOG: Failed to get scid
+            }
+        }
+        else
+        {
+            // LOG: Failed to get xuid
+        }
+    }
+    else
+    {
+        // LOG: Failed to get user handle
+    }
 
-    // Request to get achievement
-    return XblAchievementsGetAchievementAsync(
-        xblContext,
-        xuid,
-        scid.value,
-        achievementId.c_str(),
-        asyncBlock);
+    return hr;
 }
 ```

@@ -3,8 +3,14 @@ void CALLBACK Identity_TrySignOutUser_Callback(_In_ XAsyncBlock* asyncBlock)
 {
     HRESULT hr = XAsyncGetStatus(asyncBlock, false);
 
-    // TODO: Handle sign-out gameplay
-    Identity_Gameplay_TrySignOutUser(hr);
+    if (SUCCEEDED(hr))
+    {
+        // TODO: Close XBL Context
+    }
+    else
+    {
+        // LOG: Failed to sign-out user
+    }
 
     delete asyncBlock;
 }
