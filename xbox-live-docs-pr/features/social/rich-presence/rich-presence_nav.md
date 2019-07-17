@@ -6,8 +6,7 @@ description: Rich Presence shows what activity a user is currently doing, in whi
 ms.author: v-mihof
 ms.date: 12/06/2018
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
+ms.prod: xboxlive
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, clubs
 ms.localizationpriority: medium
 ---
