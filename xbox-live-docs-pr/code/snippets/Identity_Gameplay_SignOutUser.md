@@ -7,15 +7,16 @@
     if (SUCCEEDED(hr))
     {
         // TODO: Handle sign-out gameplay
+
+        XalUserCloseHandle(user);
+    }
+    else
+    {
+        // LOG: Failed to get user handle
     }
 
     if (xblContext)
     {
-        if (user)
-        {
-            XalUserCloseHandle(user);
-        }
-
         XblContextCloseHandle(xblContext);
     }
 ```

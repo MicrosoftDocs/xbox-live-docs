@@ -5,26 +5,44 @@ HRESULT Achievements_UpdateAchievement(
     _In_z_ const std::string& achievementId,
     _In_ uint32_t percentComplete)
 {
-    XAsyncBlock* asyncBlock = new XAsyncBlock();
-    asyncBlock->queue = asyncQueue;
-    asyncBlock->callback = Achievements_UpdateAchievement_Callback;
-
     XalUserHandle user = nullptr;
     HRESULT hr = XblContextGetUser(xblContext, &user);
 
-    // TODO: Handle HRESULT hr
+    if (SUCCEEDED(hr))
+    {
+        uint64_t xuid = 0;
+        hr = XalUserGetId(user, &xuid);
 
-    uint64_t xuid = 0;
-    hr = XalUserGetId(user, &xuid);
+        if (SUCCEEDED(hr))
+        {
+            XAsyncBlock* asyncBlock = new XAsyncBlock();
+            asyncBlock->queue = asyncQueue;
+            asyncBlock->callback = Achievements_UpdateAchievement_Callback;
 
-    // TODO: Handle HRESULT hr
+            // Request to update achievement
+            hr =  XblAchievementsUpdateAchievementAsync(
+                    xblContext,
+                    xuid,
+                    achievementId.c_str(),
+                    percentComplete,
+                    asyncBlock);
 
-    // Request to update achievement
-    return XblAchievementsUpdateAchievementAsync(
-        xblContext,
-        xuid,
-        achievementId.c_str(),
-        percentComplete,
-        asyncBlock);
+            if (FAILED(hr))
+            {
+                // LOG: Failed to request achievement update
+                delete asyncBlock;
+            }
+        }
+        else
+        {
+            // LOG: Failed to get xuid
+        }
+    }
+    else
+    {
+        // LOG: Failed to get user handle
+    }
+
+    return hr;
 }
 ```

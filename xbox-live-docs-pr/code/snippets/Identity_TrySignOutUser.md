@@ -6,6 +6,14 @@ HRESULT Identity_TrySignOutUser(_In_ XTaskQueueHandle asyncQueue, _In_ XalUserHa
     asyncBlock->callback = Identity_TrySignOutUser_Callback;
 
     // Request to sign-out user
-    return XalSignOutUserAsync(user, asyncBlock);
+    HRESULT hr = XalSignOutUserAsync(user, asyncBlock);
+
+    if (FAILED(hr))
+    {
+        // LOG: Failed to request sign-out user
+        delete asyncBlock;
+    }
+
+    return hr;
 }
 ```
