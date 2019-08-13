@@ -78,6 +78,42 @@ Once you click **OK**, the embargo date will be set.
 
 ![Image of setting the embargo date in Partner Center](../../images/dev-center/xbox-live-setup/xbox-live-setup-5.png)
 
+<!-- Explanation of Embargo from XDP UI.  -->
+
+> [!NOTE]
+> There is no direct concept of a "Catalog" Publish in Partner Center:
+
+What is RETAIL embargo?
+
+RETAIL Embargo provides additional protections to help limit the product's social data exposure in RETAIL via service calls or in the Xbox UI. Only the product or its custom access policies will be able to make calls to get the embargoed data. Users playing a product during the embargo period (via pre-paid token or other means) won't show any of the below content related to the product until the specified embargo date and time is reached:
+
+* Achievements & Challenges
+* Broadcasting*
+* Game DVR (local capture allowed but upload prevented)
+* Game Invites
+* Game Progress
+* Hero Stats
+* Leaderboards
+* Presence
+* Real Time Activity
+* Screenshots*
+* Social Sharing*
+* Stats
+
+*embargoed regardless of capability set in XDP
+
+>[!IMPORTANT]
+In order for ALL aspects of Embargo to be functional, both a Service Configuration and Catalog publish are required. If the Embargo date is updated after publish to RETAIL, the Service Configuration and Catalog must be republished.
+
+Content Updates to products in RETAIL should opt-out.
+
+Embargo does not apply to:
+
+* Custom Access Policies
+* Game Hub
+* Marketplace Availabilities
+* Static Files (Trailers, Artwork, etc)
+* Title Callable UI (TCUI)
 
 ## Advanced settings
 
