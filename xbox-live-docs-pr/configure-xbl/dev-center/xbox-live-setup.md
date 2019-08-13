@@ -80,7 +80,8 @@ Once you click **OK**, the embargo date will be set.
 
 <!-- Explanation of Embargo from XDP UI.  -->
 
-> [!NOTE] There is no direct concept of a "Catalog" Publish in Partner Center:
+> [!NOTE]
+> There is no direct concept of a "Catalog" Publish in Partner Center:
 
 What is RETAIL embargo?
 
