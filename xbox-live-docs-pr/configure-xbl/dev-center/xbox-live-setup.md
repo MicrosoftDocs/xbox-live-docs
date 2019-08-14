@@ -81,7 +81,7 @@ Once you click **OK**, the embargo date will be set.
 <!-- Explanation of Embargo from XDP UI.  -->
 
 > [!NOTE]
-> There is no direct concept of a "Catalog" Publish in Partner Center:
+> There is no direct concept of a "Catalog" Publish in Partner Center.
 
 What is RETAIL embargo?
 
@@ -103,7 +103,7 @@ RETAIL Embargo provides additional protections to help limit the product's socia
 *embargoed regardless of capability set in XDP
 
 >[!IMPORTANT]
-In order for ALL aspects of Embargo to be functional, both a Service Configuration and Catalog publish are required. If the Embargo date is updated after publish to RETAIL, the Service Configuration and Catalog must be republished.
+>In order for ALL aspects of Embargo to be functional, both a Service Configuration and Catalog publish are required. If the Embargo date is updated after publish to RETAIL, the Service Configuration and Catalog must be republished.
 
 Content Updates to products in RETAIL should opt-out.
 
