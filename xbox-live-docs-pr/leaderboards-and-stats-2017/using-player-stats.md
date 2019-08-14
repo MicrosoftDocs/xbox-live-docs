@@ -118,7 +118,7 @@ The developer can flush statistics manually, but will still be throttled to a mi
 
 Stats 2013 can support other Xbox Live Services.
 With Stats 2013, you can use stats to unlock achievements and make matchmaking decisions.
-Stats 2017 is only used to produce leaderboards.
+Stats 2017 is only used to produce Featured Stats and leaderboards.
 
 
 ## Further reading
