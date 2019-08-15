@@ -14,9 +14,9 @@ You can use [Partner Center](https://developer.microsoft.com/dashboard) to confi
 
 Add configuration by doing the following:
 
-1. Navigate to the **Xbox Live Setup** section for your title, located under **Services** > **Xbox Live** > **Xbox Live Setup**.
+1. Navigate to the **Xbox Live** section for your title, located under **Xbox Live Settings**.
 
-2. On this page, you can set the title names, default locale, product type, device families and the embargo date. Once you are done setting your configuration, click the **Save** button to submit the changes.
+2. On this page, you can set the title names, default locale, device families and the embargo date. Once you are done setting your configuration, click the **Save** button to submit the changes.
 
 
 ## Title names
@@ -41,21 +41,6 @@ By default, the default locale is set to English (en-US).
 > Additionally, all strings can be localized in the Localized strings page.
 
 ![Image of the select drop-down to choose your default locale in Partner Center](../../images/dev-center/xbox-live-setup/xbox-live-setup-2.png)
-
-
-## Product type
-
-The drop-down menu allows you change the type of the product.
-It defaults to the type **Game**.
-The choice you make will impact the Xbox Live features available to you.
-
-There are three options to choose from:
-1. App
-2. Game
-3. Game demo
-
-![Image of the select drop-down to choose your product type in Partner Center](../../images/dev-center/xbox-live-setup/xbox-live-setup-3.png)
-
 
 ## Device families
 
@@ -100,7 +85,7 @@ RETAIL Embargo provides additional protections to help limit the product's socia
 * Social Sharing*
 * Stats
 
-*embargoed regardless of capability set in XDP
+*embargoed is not completely covered for Broadcasting, Screenshots, or Social Sharing. You will need to make the necessary changes (check or uncheck the box) that fit your need under Product --> Properties --> Product declarations.
 
 >[!IMPORTANT]
 >In order for ALL aspects of Embargo to be functional, both a Service Configuration and Catalog publish are required. If the Embargo date is updated after publish to RETAIL, the Service Configuration and Catalog must be republished.
