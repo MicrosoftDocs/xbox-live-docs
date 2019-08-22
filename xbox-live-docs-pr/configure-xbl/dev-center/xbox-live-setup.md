@@ -65,9 +65,6 @@ Once you click **OK**, the embargo date will be set.
 
 <!-- Explanation of Embargo from XDP UI.  -->
 
-> [!NOTE]
-> There is no direct concept of a "Catalog" Publish in Partner Center.
-
 What is RETAIL embargo?
 
 RETAIL Embargo provides additional protections to help limit the product's social data exposure in RETAIL via service calls or in the Xbox UI. Only the product or its custom access policies will be able to make calls to get the embargoed data. Users playing a product during the embargo period (via pre-paid token or other means) won't show any of the below content related to the product until the specified embargo date and time is reached:
