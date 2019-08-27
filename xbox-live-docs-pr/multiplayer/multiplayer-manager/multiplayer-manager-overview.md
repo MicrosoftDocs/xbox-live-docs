@@ -1,7 +1,7 @@
 ---
 title: Overview of Multiplayer Manager
 author: KevinAsgari
-description: High-level APIs to add multiplayer functionality to your game by managing sessions and matchmaking, and by providing a state- and event-based programming model.
+description: Multiplayer Manager is a high-level API for adding multiplayer functionality to your game by managing sessions and matchmaking, and by providing a state- and event-based programming model.
 ms.assetid: f3a6c8bc-4f73-4b99-ac51-aadee73c8cfa
 ms.author: kevinasg
 ms.date: 04/04/2017
@@ -139,12 +139,12 @@ for (auto& event : eventQueue)
 This section covers common scenarios, and the APIs you would call in each scenario.
 Some information on what Multiplayer Manager is doing behind the scenes is also provided.
 
-* [Play with friends](multiplayer-manager/play-multiplayer-with-friends.md)
-* [Find a match](multiplayer-manager/play-multiplayer-with-matchmaking.md)
-* [Send game invites](multiplayer-manager/send-game-invites.md)
-* [Handle protocol activation](multiplayer-manager/handle-protocol-activation.md)
+* [Play with friends](play-multiplayer-with-friends.md)
+* [Find a match](play-multiplayer-with-matchmaking.md)
+* [Send game invites](send-game-invites.md)
+* [Handle protocol activation](handle-protocol-activation.md)
 
-A high level overview of the API can be found at [Multiplayer Manager API overview](multiplayer-manager/multiplayer-manager-api-overview.md).
+A high level overview of the API can be found at [Multiplayer Manager API overview](multiplayer-manager-api-overview.md).
 
 
 ## What Multiplayer Manager does not do

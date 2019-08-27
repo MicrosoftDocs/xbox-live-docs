@@ -1,6 +1,6 @@
 ---
-title: Target Session Initialization and QoS
-description: How to confirm that enough players have joined that they can successfully connect to each other.
+title: SmartMatch matchmaking
+description: The SmartMatch matchmaking service selects compatible players in a multiplayer game.
 ms.assetid: ba0c1ecb-e928-4e86-9162-8cb456b697ff
 ms.date: 04/04/2017
 ms.topic: article
@@ -8,7 +8,8 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, matchm
 ms.localizationpriority: medium
 ---
 
-# Target Session Initialization and QoS
+
+## Target Session Initialization and QoS
 
 A group of players is matched into a target session by SmartMatch matchmaking. The title must take steps to confirm that enough players have joined that they can successfully connect to one another if they need to. This process is known as target session initialization.
 
@@ -20,7 +21,7 @@ The following flow chart illustrates how to implement the initialization of the 
 ![Matchmaking Quality of Service flowchart](../../images/multiplayer/Multiplayer_2015_Matchmaking_QoS.png)
 
 
-## Managed Initialization
+### Managed Initialization
 
 MPSD supports a feature called "managed initialization" through which it coordinates the target session initialization process across the clients involved in a session.
 MPSD automatically tracks the initialization stages and the associated timeouts for the session, and evaluates the connectivity among clients if needed.
@@ -31,7 +32,7 @@ Managed initialization is represented by the **MultiplayerManagedInitialization 
 | It is highly recommended for your title using SmartMatch matchmaking to take advantage of the MPSD managed initialization feature. |
 
 
-### Managed Initialization Episodes and Stages
+#### Managed Initialization Episodes and Stages
 
 A target session undergoes managed initialization any time matchmaking adds new players to the session.
 SmartMatch adds session members as user state Reserved, meaning that each member takes up a slot but has not yet joined the session.
@@ -52,7 +53,7 @@ The title code operates on the session to advance each user (and therefore the s
 The title then can either start play or go back to matchmaking after the evaluation stage has succeeded or failed.
 
 
-## Configuring the Target Session for Initialization
+### Configuring the Target Session for Initialization
 
 The title can configure the managed initialization process using constants in the target session being initialized.
 These constants are set under /constants/system in the session template with version 107, the recommended template version.
@@ -61,17 +62,14 @@ Two types of configuration settings can be made:
 - Settings that configure the managed initialization process as a whole.
 - Settings that configure QoS requirements.
 
-See
-[MPSD Session Templates](../multiplayer-appendix/multiplayer-session-directory.md)
-for examples of session templates for common title scenarios.
-<!-- [MPSD Session Templates](../multiplayer-session/mpsd-overview.md) -->
+See [MPSD Session Templates](../multiplayer-session/mpsd-overview.md) for examples of session templates for common title scenarios.
 
 | Note                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------|
 | If QoS requirements are not defined in the target session initialization configuration the measurement stage during initialization is skipped. |
 
 
-### Configuring Managed Initialization as a Whole
+#### Configuring Managed Initialization as a Whole
 
 Below are the fields to set to control managed initialization overall.
 
@@ -85,13 +83,13 @@ The fields to set to control managed initialization are part of the `/constants/
 | If this threshold is not met, all members fail initialization. |
 
 
-## Configuring QoS Requirements
+#### Configuring QoS Requirements
 
 QoS is only needed during initialization if the title uses a peer-to-peer or peer-to-host topology.
 Each topology maps to a topology-specific constant under /constants/system/.
 
 
-### Configuring QoS Requirements for Peer-to-peer Topology
+###### Configuring QoS Requirements for Peer-to-peer Topology
 
 | Note                                                                                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -105,7 +103,7 @@ The object has the following pertinent fields:
 -   bandwidthMinimum. Specifies the minimum bandwidth between any two clients.
 
 
-### Configuring QoS Requirements for Peer-to-host Topology
+###### Configuring QoS Requirements for Peer-to-host Topology
 
 Peer-to-host topology QOS requirements are set in the peerToHostRequirements object.
 Every client must be able to connect to a single common host.
@@ -119,5 +117,5 @@ Here are the fields to set:
 
 
 ## See also
-[MPSD Session Templates](../multiplayer-appendix/multiplayer-session-directory.md)
-<!-- [MPSD Session Templates](../multiplayer-session/mpsd-overview.md) -->
+
+[MPSD Session Templates](../multiplayer-session/mpsd-overview.md)

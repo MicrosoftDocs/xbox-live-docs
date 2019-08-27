@@ -17,10 +17,10 @@ A *session* in Multiplayer Session Directory (MPSD) has a session name and is id
 A *session template* is a JSON document that provides default settings for the session.
 
 The session template is part of a service configuration with a service configuration identifier (SCID), which is a GUID.
-The session template can be found at [Partner Center](https://partner.microsoft.com/dashboard/windows/overview).
+The session template can be found on [Xbox Developer Portal (XDP)](https://xdp.xboxlive.com) and the [Partner Center](https://partner.microsoft.com/dashboard/windows/overview).
 
 *Service configurations* are the developer-facing resources used for ingestion, management, and security policy.
-When a session is accessed through MPSD, principal authorization is performed against the service configuration according to the access policies set by the developer through Partner Center.
+When a session is accessed through MPSD, principal authorization is performed against the service configuration according to the access policies set by the developer through XDP or Partner Center.
 Secondary access checks, such as session membership validation, are performed at the session level when the session is loaded, after access to the service configuration is authorized.
 
 | Important                                                                                                                                                                                                                                                      |
@@ -33,7 +33,7 @@ Secondary access checks, such as session membership validation, are performed at
 This article assumes that your template uses contract version 107, which is the version used by the current MPSD for Xbox One.
 
 If you have defined templates based on contract version 105 (identical to 104), you must change these to support version 107.
-For instructions, see [Common Multiplayer 2015 migration issues](common-issues-when-adapting-multiplayer.md).
+For instructions, see [Common Multiplayer 2015 migration issues](../multiplayer-appendix/common-issues-when-adapting-multiplayer.md).
 
 
 ### Session Reference
@@ -95,7 +95,7 @@ The WinRT wrapper associated with this object is the **MultiplayerSessionPropert
 Session properties are writable by session members at any time.
 
 Examples of session properties in JSON format are: joinRestriction, initializationSucceeded, and the matchmaking object.
-For an example of the use of this element group, see [Target Session Initialization and QoS](../matchmaking/matchmaking-targetsession.md).
+For an example of the use of this element group, see [Target Session Initialization and QoS](../matchmaking/matchmaking-overview.md).
 
 
 #### Member Constants
@@ -191,7 +191,7 @@ These objects are writable only by servers.
 
 There are two ways to control the configuration of sessions:
 
--   Use session templates ingested through Partner Center.
+-   Use session templates ingested through XDP or Partner Center.
 -   Use calls to the multiplayer and matchmaking WinRT APIs or REST APIs. You must still use a template but the template does not have to contain the values you want to configure. Note that your title cannot override the constants already set in the template.
 
 A separate JSON document is provided to define the session itself.
@@ -216,7 +216,7 @@ For more information, see [MPSD Session Templates](../service-configuration/sess
 ## Session Capabilities
 
 *Capabilities* are constants in the MPSD session that configure behavior that the MPSD should apply to that session.
-You most commonly use Partner Center to set capabilities in the session template.
+You most commonly use XDP and Partner Center to set capabilities in the session template.
 
 Capabilities are set in the `/constants/system/capabilities` object.
 If no capabilities are needed, use an empty capabilities object.
@@ -262,7 +262,7 @@ If the required size is over 100, the session is called a "large" session and is
 
 Setting a maximum size for a session can cause an open slot to appear as full during certain disconnect scenarios.
 For example, if a player becomes disconnected as a result of a network or power failure, the delay is not immediately reflected in the session.
-The member is set to inactive using the disconnect detection feature described in [MPSD Change Notification Handling and Disconnect Detection](multiplayer-session-directory.md).
+The member is set to inactive using the disconnect detection feature described in [MPSD Change Notification Handling and Disconnect Detection](mpsd-overview.md).
 
 In comparison, a peer mesh that uses a heartbeat to detect a disconnection is often aware of a disconnect within two to three seconds and can open up the player slot immediately.
 However, the arbiter cannot remove other members.
@@ -322,7 +322,7 @@ Example scenarios in which a user is put into the Inactive state include:
 
 -   The title has been in constrained mode for more than two minutes, or for a period defined by the title. This constrained mode timeout period is the expected amount of time for which a user might be away from the title using a related app or other experience related to the title.
 
--   The user has been disconnected ungracefully from the session. See [MPSD Change Notification Handling and Disconnect Detection](multiplayer-session-directory.md).
+-   The user has been disconnected ungracefully from the session. See [MPSD Change Notification Handling and Disconnect Detection](mpsd-overview.md).
 
 If the title starts and the user state for a particular session member is set to Inactive, the title has been suspended or the user has been inactive for too long in the session.
 Because the title is launching again, the indication is that the user wants to continue with the game session to which he or she belongs.
@@ -559,7 +559,7 @@ Session-wide metadata, such as current map, is stored in the global custom prope
 
 Game state is stored in title-managed storage (TMS), using the **title storage service**.
 Storage using this location allows a title to migrate the arbiter without permission concerns.
-See [Migrating an Arbiter](migrating-an-arbiter.md).
+See [Migrating an Arbiter](../multiplayer-appendix/migrating-an-arbiter.md).
 
 | Note                                                                                                               |
 |---------------------------------------------------------------------------------------------------------------------------------|
@@ -569,7 +569,7 @@ See [Migrating an Arbiter](migrating-an-arbiter.md).
 ## Cleanup of Inactive Sessions
 
 If the sessionEmptyTimeout is set to 0, an MPSD session is automatically deleted when the last player leaves the session.
-To learn how to prevent an unused sessions from containing players after crash or disconnection, see [MPSD Change Notification Handling and Disconnect Detection.](multiplayer-session-directory.md).
+To learn how to prevent an unused sessions from containing players after crash or disconnection, see [MPSD Change Notification Handling and Disconnect Detection.](mpsd-overview.md).
 Improper handling of unused sessions after crash or disconnect can cause issues when a title is querying sessions for a player.
 
 The recommended way to clean up inactive sessions is to have the title query all sessions for a particular user by calling the **MultiplayerService.GetSessionsAsync Method** and then evaluating the sessions.
@@ -587,14 +587,14 @@ If at least one session member is in a game, the session should have an arbiter 
 ### Setting the Arbiter
 
 When it creates a session, the client designates one console as the arbiter.
-See [How to: Set an Arbiter for an MPSD Session](multiplayer-how-tos.md).
+See [How to: Set an Arbiter for an MPSD Session](mpsd-how-tos.md).
 
 
 ### Saving Session State
 
 As discussed in **Process Lifecycle Management**, the arbiter should save session state periodically.
 A new arbiter must be able to restore session state in the case of arbiter migration by the title.
-For more information, see [Migrating an Arbiter](multiplayer-how-tos.md).
+For more information, see [Migrating an Arbiter](mpsd-how-tos.md).
 
 
 ### Managing Game Session Members and Joins in Progress
@@ -613,10 +613,10 @@ The arbiter must listen for new players who want to join the game session with t
 The arbiter finds players to fill empty game session slots by one of these operations:   If your title uses a lobby session or another mechanism to allow delayed joins, find new session members using that mechanism.
 -   Create another match ticket session.
 
-See also [How to: Fill Open Session Slots During Matchmaking](multiplayer-how-tos.md).
+See also [How to: Fill Open Session Slots During Matchmaking](mpsd-how-tos.md).
 
 
 #### Handling Invited Session Members
 
 The arbiter must monitor invited session members and apply a minimum interval between invites to a single user.
-See also [How to: Send Game Invites](multiplayer-how-tos.md).
+See also [How to: Send Game Invites](mpsd-how-tos.md).

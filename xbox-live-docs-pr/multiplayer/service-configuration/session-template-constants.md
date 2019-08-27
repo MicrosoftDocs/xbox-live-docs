@@ -108,8 +108,6 @@ Example:
 ```
 
 
-<a name="memberInitialization"></a>
-
 ## memberInitialization
 
 If a `memberInitialization` object is set, the session expects the client system or title to perform initialization following session creation and/or as new members join the session.
@@ -139,7 +137,6 @@ Example:
 ```
 
 
-<a name="peerToPeerRequirements"></a>
 ## peerToPeerRequirements
 
 peer to peer network requirements | Description | default value
@@ -156,8 +153,6 @@ Example:
 },
 ```
 
-
-<a name="peerToHostRequirements"></a>
 
 ## peerToHostRequirements
 
@@ -208,8 +203,6 @@ Example:
 ```
 
 
-<a name="cloudComputePackage"></a>
-
 ## cloudComputePackage
 
 Specifies the properties of the cloud compute package to allocate.
@@ -252,8 +245,6 @@ Example:
 ```
 
 
-<a name="broadcastViewerTitleIds"></a>
-
 ## broadcastViewerTitleIds
 
 Specifies an array of the title IDs of the titles that should always have read access to the broadcast session.
@@ -263,8 +254,6 @@ Example:
 "broadcastViewerTitleIds" : ["34567", "8910"],
 ```
 
-
-<a name="ownershipPolicies"></a>
 
 ## ownershipPolicies
 

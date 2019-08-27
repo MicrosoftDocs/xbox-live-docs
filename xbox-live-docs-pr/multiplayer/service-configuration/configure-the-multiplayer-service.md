@@ -85,7 +85,7 @@ For more information about configuring the multiplayer service, see the followin
 
 **Article** | **Description**
 --- | ---
-[Configure your AppXManifest for Multiplayer](configure-your-appxmanifest-for-multiplayer.md) | Describes how to configure a UWP  AppXManifest file to work with the Xbox Live multiplayer service.
+[Configure your AppXManifest for Multiplayer](../invite/multiplayer-invite-uwp.md) | Describes how to configure a UWP  AppXManifest file to work with the Xbox Live multiplayer service.
 [Multiplayer session templates](session-templates.md) | Gives a brief overview of multiplayer session templates and provides several examples of templates that you can copy and modify for your multiplayer sessions.
 [Session template constants](session-template-constants.md) | Describes the predefined elements of a multiplayer session template.
 [Large sessions](large-sessions.md) | Describes when and how to use large sessions.

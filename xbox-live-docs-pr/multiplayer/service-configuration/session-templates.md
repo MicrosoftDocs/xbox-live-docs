@@ -18,7 +18,7 @@ All sessions must be created based on a predefined template.
 A template defines constants that will be the same for any session that is created from the template.
 Once a game creates a session from a template, the game can add and modify additional data to the session, but cannot modify the constants that were defined in the template.
 
-For more information, see [Session Overview](../multiplayer-appendix/mpsd-session-details.md).
+For more information, see [Session Overview](../multiplayer-session/mpsd-details.md).
 
 The list of session templates that apply to a service configuration identifier (SCID), as well as the contents of specific session templates, can be retrieved from Multiplayer Session Directory (MPSD).
 

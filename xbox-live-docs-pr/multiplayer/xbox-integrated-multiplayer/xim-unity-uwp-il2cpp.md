@@ -43,7 +43,7 @@ For Visual Studio 2017, the component can be added inside the Visual Studio 2017
 
 ### 5. Enable IL2CPP scripting backend in the Unity player settings, and set API compatibility to .NET 4.6
 
-![The Configuration section of the Unity Player Settings menu with the "Api Compatibility" setting set to ".NET 4.6"](xim-unity-uwp-il2cpp_images/unity-il2cpp-1.png)
+![The Configuration section of the Unity Player Settings menu with the "Api Compatibility" setting set to ".NET 4.6"](../../images/unity/unity-il2cpp-1.png)
 
 
 ### 6. Import the latest version of the Xbox Integrated Multiplayer WinRT Unity asset package

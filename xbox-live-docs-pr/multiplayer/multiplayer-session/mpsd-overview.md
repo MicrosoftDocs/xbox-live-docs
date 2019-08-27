@@ -36,8 +36,8 @@ Every session contains players' Xbox user identifiers (XUIDs) and secure device 
 
 Session variations include:
 -   Game session, used as the pattern for game play. A game session can be peer-to-peer, peer-to-host, peer-to-server, or a hybrid of these types.
--   Ticket session, a helper session used to track the state of a match during matchmaking. It is often also a lobby session, and can sometimes be a game session. See [Matchmaking](../matchmaking/matchmaking.md).
--   Target session, a helper session created during matchmaking to represent the matched game play. It is almost always also a game session. See [Matchmaking](../matchmaking/matchmaking.md).
+-   Ticket session, a helper session used to track the state of a match during matchmaking. It is often also a lobby session, and can sometimes be a game session. See [SmartMatch Matchmaking](../matchmaking/matchmaking-overview.md).
+-   Target session, a helper session created during matchmaking to represent the matched game play. It is almost always also a game session. See [SmartMatch Matchmaking](../matchmaking/matchmaking-overview.md).
 -   Lobby session, a helper session used to accommodate invited players who are waiting to join a game session. Many titles create both a lobby session and a game session. For more information, see **Managing players in your title**.
 
 
@@ -74,7 +74,7 @@ MPSD uses a "shoulder tap" as a lightweight notification that something of inter
 The title should retrieve the modified resource to determine the exact nature of the change.
 With subscriptions enabled, the title can subscribe for shoulder taps on session changes with a call to the **MultiplayerSession.SetSessionChangeSubscription Method**.
 
-See [How to: Subscribe for MPSD Session Change Notifications](multiplayer-how-tos.md).
+See [How to: Subscribe for MPSD Session Change Notifications](mpsd-how-tos.md).
 
 
 ### Handling Shoulder Taps
@@ -251,7 +251,7 @@ The title, or its service, can use standard HTTP calls to the multiplayer REST A
 When using REST functionality directly, the caller issues DELETE, PUT, POST, and GET calls against the session directory URIs for most actions.
 On a PUT request, the request body is merged into the existing session.
 
-If there is no existing session, the request body is used to create a new session, along with the session template stored on [Partner Center](https://partner.microsoft.com/dashboard).
+If there is no existing session, the request body is used to create a new session, along with the session template stored on [Xbox Developer Portal (XDP)](https://xdp.xboxlive.com) or [Partner Center](https://partner.microsoft.com/dashboard).
 
 All fields are optional, and only deltas must be specified.
 Therefore, {} is a valid PUT request with zero deltas.
@@ -312,7 +312,7 @@ To access Multiplayer Session Explorer, open Internet Explorer on your Xbox One,
 
 | Note                                                                                                                                                                                |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| You will receive an HTTP/404 status code if you attempt to access the tool in the RETAIL sandbox. For more about this code, see [Multiplayer Session Status Codes](multiplayer-session-status-codes.md). |
+| You will receive an HTTP/404 status code if you attempt to access the tool in the RETAIL sandbox. For more about this code, see [Multiplayer Session Status Codes](mpsd-status-codes.md). |
 
 
 ### Using Multiplayer Session Explorer
@@ -329,7 +329,7 @@ To access Multiplayer Session Explorer, open Internet Explorer on your Xbox One,
 
 1.  Click on an SCID in the tool to display a list of sessions in that SCID of which the signed-in user is a member.
 
-2.  On this same page, you can click on the SCID and display the session templates and localization strings in the service configuration for the SCID. These items are ingested through [Partner Center](https://partner.microsoft.com/dashboard).
+2.  On this same page, you can click on the SCID and display the session templates and localization strings in the service configuration for the SCID. These items are ingested through [XDP](https://xdp.xboxlive.com) or [Partner Center](https://partner.microsoft.com/dashboard).
 
 
 #### Display the Full Contents of a Session
@@ -347,14 +347,14 @@ The session as shown by MPSD might differ from the response to a standard GET me
 
 ## See also
 
-[Session Overview](mpsd-session-details.md)
+[Session Overview](mpsd-details.md)
 
-[Multiplayer Session Status Codes](multiplayer-session-status-codes.md)
+[Multiplayer Session Status Codes](mpsd-status-codes.md)
 
-[How to: Update a Multiplayer Session](multiplayer-how-tos.md)
+[How to: Update a Multiplayer Session](mpsd-how-tos.md)
 
-[How to: Join an MPSD Session from a Title Activation](multiplayer-how-tos.md)
+[How to: Join an MPSD Session from a Title Activation](mpsd-how-tos.md)
 
-[How to: Subscribe for MPSD Session Change Notifications](multiplayer-how-tos.md)
+[How to: Subscribe for MPSD Session Change Notifications](mpsd-how-tos.md)
 
-[Matchmaking](../matchmaking/matchmaking.md)
+[SmartMatch Matchmaking](../matchmaking/matchmaking-overview.md)
