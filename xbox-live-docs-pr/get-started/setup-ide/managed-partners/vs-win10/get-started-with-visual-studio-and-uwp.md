@@ -199,7 +199,7 @@ For example:
 ### 7. (Optional) Add multiplayer capabilities
 
 If you plan to add Multiplayer support to your title, and want to implement the ability for players to invite other users for a multiplayer game, then you need to add another field to your AppXManifest file.
-For more information, see [Configure your AppXManifest For Multiplayer](../../../../multiplayer/service-configuration/configure-your-appxmanifest-for-multiplayer.md).
+For more information, see [Configure your AppXManifest For Multiplayer](../../../../multiplayer/invite/multiplayer-invite-uwp.md).
 
 
 ## Learn More
