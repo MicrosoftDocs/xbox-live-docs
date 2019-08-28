@@ -494,12 +494,12 @@ Using these APIs, you have the ability to:
 
 ## Configuring a title for Arena
 
-To enable a title for Arena, some additional steps are required when you configure it in the Xbox Developer Portal (XDP) or [Partner Center](https://partner.microsoft.com/dashboard).
+To enable a title for Arena, some additional steps are required when you configure it in [Partner Center](https://partner.microsoft.com/dashboard).
 
 
 ### Enabling Arena for your title
 
-To enable Arena, go to the service configuration page for your title in XDP and select ‘Arena’.
+To enable Arena, go to the service configuration page for your title in Partner Center and select ‘Arena’.
 
 ![Arena configuration on Xbox Developer Platform screenshot](../../images/arena/arena-configure-xdp.png)
 
@@ -581,8 +581,8 @@ This value is localizable.
 The **custom** section for the game mode is a property bag where developers can insert any title-specific configuration settings for the tournament match.
 Values defined as part of the custom section are written to the match MPSD session under `/properties/custom/`.
 
-Currently, game mode setup is not supported through XDP or UDC.
-To create game modes for your title, contact your Developer Account Manager.
+<!-- Currently, game mode setup is not supported through XDP or UDC.
+To create game modes for your title, contact your Developer Account Manager. -->
 
 
 ### Requirements for the session template

@@ -48,7 +48,7 @@ These are set by calling the **MultiplayerSession.SetCurrentUserMemberCustomProp
 This call places the attributes in the /members/{index}/properties/custom/matchAttrs field on each player within the ticket session.
 
 The matchmaking process "flattens" per-member each into a single ticket-level attribute, based on the flatten method specified for that attribute in the Xbox Live configuration for the hopper.
-This can be configured on [XDP](https://xdp.xboxlive.com) or [Partner Center](https://partner.microsoft.com/dashboard).
+This is configured on [Partner Center](https://partner.microsoft.com/dashboard).
 
 
 ## Making the Match

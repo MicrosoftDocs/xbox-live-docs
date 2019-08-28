@@ -251,7 +251,7 @@ The title, or its service, can use standard HTTP calls to the multiplayer REST A
 When using REST functionality directly, the caller issues DELETE, PUT, POST, and GET calls against the session directory URIs for most actions.
 On a PUT request, the request body is merged into the existing session.
 
-If there is no existing session, the request body is used to create a new session, along with the session template stored on [Xbox Developer Portal (XDP)](https://xdp.xboxlive.com) or [Partner Center](https://partner.microsoft.com/dashboard).
+If there is no existing session, the request body is used to create a new session, along with the session template stored on [Partner Center](https://partner.microsoft.com/dashboard).
 
 All fields are optional, and only deltas must be specified.
 Therefore, {} is a valid PUT request with zero deltas.
@@ -329,7 +329,7 @@ To access Multiplayer Session Explorer, open Internet Explorer on your Xbox One,
 
 1.  Click on an SCID in the tool to display a list of sessions in that SCID of which the signed-in user is a member.
 
-2.  On this same page, you can click on the SCID and display the session templates and localization strings in the service configuration for the SCID. These items are ingested through [XDP](https://xdp.xboxlive.com) or [Partner Center](https://partner.microsoft.com/dashboard).
+2.  On this same page, you can click on the SCID and display the session templates and localization strings in the service configuration for the SCID. These items are ingested through [Partner Center](https://partner.microsoft.com/dashboard).
 
 
 #### Display the Full Contents of a Session
