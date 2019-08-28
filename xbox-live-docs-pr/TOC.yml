@@ -335,6 +335,8 @@
                   href: multiplayer/common-multiplayer-scenarios.md
                 - name: Multiplayer session browse
                   href: multiplayer/session-browse.md
+                - name: Service-to-service session management
+                  href: multiplayer/service-to-service.md
             - name: Multiplayer Service configuration
               href: multiplayer/service-configuration/multiplayer-service-configuration.md
               items: 
