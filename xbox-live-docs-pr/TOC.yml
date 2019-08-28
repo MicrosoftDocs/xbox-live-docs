@@ -408,7 +408,7 @@
                   - name: Game invite for UWP Games
                     href: multiplayer/invite/multiplayer-invite-uwp.md
             - name: Voice and text chat
-              href: features/multiplayer/voice/index.md
+              href: features/multiplayer/voice/voice-chat_nav.md
               items: 
                 - name: Game Chat
                   href: multiplayer/chat/game-chat-2.md

@@ -81,7 +81,7 @@ For details about Xbox secure sockets, see **Networking Overviews**.
 #### Xbox Live Real-time Activity Service
 
 2015 Multiplayer uses the **real-time activity service** to allow titles to subscribe to MPSD session changes, and enable automatic detection of client disconnects.
-More information is provided in [Real-Time Activity (RTA) Service](../../real-time-activity-service/real-time-activity-service.md).
+More information is provided in [Real-Time Activity (RTA) Service](../../real-time-activity-service/real-time-activity-service_nav.md).
 
 
 #### Xbox Live Matchmaking Service
@@ -94,7 +94,7 @@ For details of Multiplayer use of this service, see [SmartMatch Matchmaking](../
 
 The *reputation service* manages user statistics about reputation and during reputation-filtered matchmaking.
 It is used by 2015 Multiplayer through SmartMatch matchmaking.
-For more information, see [Reputation](../../social-platform/people-system/reputation.md).
+For more information, see [Reputation](../../social-platform/people-system/reputation_nav.md).
 
 
 #### Xbox Live Compute
@@ -278,8 +278,8 @@ See [Xbox Live Compute](https://developer.microsoft.com/en-us/games/xbox/docs/xd
 
 [SmartMatch Matchmaking](../matchmaking/matchmaking-overview.md)
 
-[Real-Time Activity (RTA) Service](../../real-time-activity-service/real-time-activity-service.md)
+[Real-Time Activity (RTA) Service](../../real-time-activity-service/real-time-activity-service_nav.md)
 
-[Reputation](../../social-platform/people-system/reputation.md)
+[Reputation](../../social-platform/people-system/reputation_nav.md)
 
 [Using Xbox Live Compute in Multiplayer (requires managed partner access)](https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/xbox-live-compute/using-xbox-live-compute-in-multiplayer)

@@ -27,14 +27,14 @@ readyRemovalTimeout | The timeout for a member to be considered ready, in millis
 sessionEmptyTimeout | The timeout for an empty session, in milliseconds. A value of 0 indicates an immediate timeout. If the timeout is null, it is considered infinite. | 0 - n, null | 0
 [**capabilities**](#capabilities) | Specifies the capabilities of the session. See the capabilities section below. | n/a | n/a
 [**metrics**](#metrics) | Specifies a set of title defined quality of service requirements, such as latency and bandwidth speed, that members in the session must satisfy.  | n/a | n/a
-[**memberInitialization**](#memberInitialization) | Specifies the timeouts and initialization requirements that are enforced when new members join the session. See member initialization section below. | n/a | n/a
-[**peerToPeerRequirements**](#peerToPeerRequirements) | Specifies the network quality of service requirements for peer to peer mesh connections. See the peer to peer requirements section below. |n/a | n/a
-[**peerToHostRequirements**](#peerToHostRequirements) | Specifies the network quality of service requirements for peer to host connections. See the peer to host requirements section below. | n/a | n/a
+[**memberInitialization**](#memberinitialization) | Specifies the timeouts and initialization requirements that are enforced when new members join the session. See member initialization section below. | n/a | n/a
+[**peerToPeerRequirements**](#peertopeerrequirements) | Specifies the network quality of service requirements for peer to peer mesh connections. See the peer to peer requirements section below. |n/a | n/a
+[**peerToHostRequirements**](#peertohostrequirements) | Specifies the network quality of service requirements for peer to host connections. See the peer to host requirements section below. | n/a | n/a
 [**measurementServerAddresses**](#measurementserveraddresses) | Specifies a collection of potential datacenters that are used to determine QoS measurements. See the measurementServerAddresses section below. | n/a | n/a
-[**cloudComputePackage**](#cloudComputePackage) | ? | n/a | n/a
+[**cloudComputePackage**](#cloudcomputepackage) | ? | n/a | n/a
 [**arbitration**](#arbitration) | Specifies the timeouts for members to submit arbitration results in tournaments. See the cloudComputePackage section below. | n/a | n/a
-[**broadcastViewerTitleIds**](#broadcastViewerTitleIds) | Specifies a list of title IDs that should always have read access to the session. See the broadcastViewerTitleIds section below. | n/a | n/a
-[**ownershipPolicies**](#ownershipPolicies) | Specifies the policies relating to session ownership. See the OwnershipPolicies section below. | n/a | n/a
+[**broadcastViewerTitleIds**](#broadcastviewertitleids) | Specifies a list of title IDs that should always have read access to the session. See the broadcastViewerTitleIds section below. | n/a | n/a
+[**ownershipPolicies**](#ownershippolicies) | Specifies the policies relating to session ownership. See the OwnershipPolicies section below. | n/a | n/a
 
 
 ## capabilities

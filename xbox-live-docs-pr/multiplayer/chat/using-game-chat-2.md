@@ -316,7 +316,7 @@ Platform communication restrictions apply to both voice and text chat; there wil
 It returns the communication relationship enforced by Game Chat 2 in the form of `game_chat_communication_relationship_flags` and the reason the relationship may not be equal to the configured relationship in the form of `game_chat_communication_relationship_adjuster`.
 
 For example, if the lookup operations are still in progress, the `game_chat_communication_relationship_adjuster` will be `game_chat_communication_relationship_adjuster::intializing`.
-This method is expected to be used in development and debugging scenarios; it should not be used to influence UI (see [UI](#UI)).
+This method is expected to be used in development and debugging scenarios; it should not be used to influence UI (see [UI](#ui)).
 
 
 ## Cleanup
