@@ -166,7 +166,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../features/multiplayer/voice/voice-chat_nav.md">
+        <a href="chat/voice-chat_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
