@@ -359,6 +359,8 @@
                   href: multiplayer/multiplayer-manager/play-multiplayer-with-friends.md
                 - name: Finding a multiplayer game by using SmartMatch
                   href: multiplayer/multiplayer-manager/play-multiplayer-with-matchmaking.md
+                - name: Sending game invites
+                  href: multiplayer/multiplayer-manager/send-game-invites.md
                 - name: Handle protocol activation
                   href: multiplayer/multiplayer-manager/handle-protocol-activation.md
                 - name: Multiplayer manager flowcharts
