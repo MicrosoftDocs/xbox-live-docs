@@ -1,6 +1,6 @@
 ---
-title: SmartMatch matchmaking
-description: The SmartMatch matchmaking service selects compatible players in a multiplayer game.
+title: Matchmaking Configuration
+description: Configuring the portal to select compatible players.
 ms.assetid: ba0c1ecb-e928-4e86-9162-8cb456b697ff
 ms.date: 04/04/2017
 ms.topic: article
@@ -10,9 +10,11 @@ ms.localizationpriority: medium
 
 # Matchmaking Configuration
 
+
 ## Configuration of SmartMatch Matchmaking Runtime Operations
 
 All configuration of SmartMatch matchmaking occurs through the [Partner Center](https://partner.microsoft.com/dashboard).
+
 
 #### Matchmaking Session Template Configuration
 

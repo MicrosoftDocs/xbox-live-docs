@@ -1,6 +1,6 @@
 ---
-title: Multiplayer Invite
-description: Multiplayer Invite
+title: Multiplayer Session Directory
+description: Multiplayer Session Directory.
 ms.date: 04/04/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, protocol activation, multiplayer

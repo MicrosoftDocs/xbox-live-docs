@@ -1,6 +1,6 @@
 ---
-title: Multiplayer Invite
-description: Multiplayer Invite
+title: Matchmaking
+description: Matchmaking
 ms.date: 04/04/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, protocol activation, multiplayer
@@ -8,6 +8,7 @@ ms.localizationpriority: medium
 ---
 
 # Matchmaking
+
 This section has the following articles:
 * Introduction to SmartMatch
 * SmartMatch Runtime Operations
