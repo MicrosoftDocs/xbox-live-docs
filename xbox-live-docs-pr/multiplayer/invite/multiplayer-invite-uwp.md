@@ -1,6 +1,6 @@
 ---
-title: Configuring an AppXManifest for Multiplayer
-description: Configuring your UWP AppXManifest file to enable multiplayer invites.
+title: Multiplayer Invite for UWP Games
+description: Multiplayer Invite for UWP Games
 ms.assetid: 72f179e7-4705-4161-9b8a-4d6a1a05b8f7
 ms.date: 04/04/2017
 ms.topic: article

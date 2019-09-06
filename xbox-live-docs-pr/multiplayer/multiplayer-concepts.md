@@ -1,5 +1,5 @@
 ---
-title: Multiplayer concepts for Xbox Live
+title: Multiplayer concepts
 description: Concepts used by Multiplayer systems, including multiplayer session, multiplayer service session directory, SmartMatch matchmaking, and quality of service (QoS).
 ms.assetid: 1e765f19-1530-4464-b5cf-b00259807fd3
 ms.date: 08/25/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer
 ms.localizationpriority: medium
 ---
 
-# Multiplayer concepts for Xbox Live
+# Multiplayer concepts
 
 This article discusses a number of important multiplayer terms and concepts that are used frequently in the Xbox Live documentation.
 Having a good grasp of these concepts will help you understand how Xbox Live multiplayer works.
@@ -32,7 +32,7 @@ Titles can choose to use multiple sessions, but a typical multiplayer implementa
 
 * Game session - this is a session that represents the people that are playing in a specific session instance of a game, such as a round, match, level, etc. This session can include members from multiple lobby sessions that have joined the session instance together, typically through a matchmaking service.
 
-For detailed information about multiplayer sessions, see [MPSD session details](multiplayer-appendix/mpsd-session-details.md).
+For detailed information about multiplayer sessions, see [MPSD session details](multiplayer-session/mpsd-details.md).
 
 
 ### Example scenario
@@ -40,16 +40,11 @@ For detailed information about multiplayer sessions, see [MPSD session details](
 In this example scenario, Sally wants to play a multiplayer game with her friends, John and Lisa.
 
 1. Sally starts up a game, and invites John and Lisa into her game.
-
-2. After they join, Sally, John, and Lisa are all in a lobby session.
-
-3. In this session, they decide to play in an online match with other people.
-
-   The game creates a game session, and uses the Xbox Live matchmaking service to fill the remaining player slots with other Xbox Live players.
-
-   Suppose Bob and Joe are matched up with them, and the five of them play the round together.
-
-4. After the round ends, Sally, John, and Lisa leave the game session, but are still together in the lobby session (without Bob and Joe), and can choose to play another round, or switch to different game mode.
+1. After they join, Sally, John, and Lisa are all in a lobby session.
+1. In this session, they decide to play in an online match with other people.
+   1. The game creates a game session, and uses the Xbox Live matchmaking service to fill the remaining player slots with other Xbox Live players.
+   1. Suppose Bob and Joe are matched up with them, and the five of them play the round together.
+1. After the round ends, Sally, John, and Lisa leave the game session, but are still together in the lobby session (without Bob and Joe), and can choose to play another round, or switch to different game mode.
 
 
 ### Session member
@@ -72,7 +67,7 @@ The session host is the console or device that runs the game play simulation for
 This console or device is typically the same as the arbiter, but it does not have to be the same.
 
 
-## Multiplayer service session directory
+## Multiplayer Session Directory (MPSD)
 
 The Xbox Live Multiplayer service operates in the Xbox Live cloud, and centralizes a game's multiplayer system metadata across multiple clients.
 The system that tracks this metadata is known as the Multiplayer Session Directory, or MPSD for short.
@@ -100,37 +95,16 @@ Session handles enable Xbox Live members to join existing sessions.
 Each session handle includes a guid that uniquely identifies the handle, which allows titles to reference the session by using a single guid.
 
 There are several types of session handles:
-
-* invite handle
-* search handle
-* activity handle
-* correlation handle
-* transfer handle
-
-
 #### Invite handle
-
 An invite handle is passed to a member when they are invited to join a game.
 The invite handle contains information that lets the invited member's game join the correct session.
-
-
 #### Search handle
-
 A search handle includes additional metadata about the session, and allows titles to search for sessions that meet the selected criteria.
-
-
 #### Activity handle
-
 An activity handle lets members see what other members on their social network are playing, and can be used join a friend's game.
-
-
 #### Correlation handle
-
 A correlation handle effectively works as an alias for a session, allowing a game to refer to a session by only using the id of the correlation handle.
-
-
-### Transfer handle
-
+#### Transfer handle
 A transfer handle is used to move players from one session to another session.
 
 

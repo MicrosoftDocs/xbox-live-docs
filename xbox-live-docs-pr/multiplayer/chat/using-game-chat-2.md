@@ -102,7 +102,6 @@ chat_manager::singleton_instance().remove_user(chatUserD);
 
 Calling `chat_manager::remove_user()` may invalidate the user object. If you are using [real-time audio manipulation](real-time-audio-manipulation.md), please refer to the [Chat user lifetimes](real-time-audio-manipulation.md#chat-user-lifetimes) documentation for further information. Otherwise, the user object is invalidated immediately when `chat_manager::remove_user()` is called. A subtle restriction on when users can be removed is detailed in [Processing state changes](#processing-state-changes).
 
-
 ## Processing data frames
 
 Game Chat 2 does not have its own transport layer; this must be provided by the app.
@@ -246,8 +245,6 @@ Therefore, the primary performance cost of speech-to-text is network usage.
 Most of the network traffic is the upload of encoded audio.
 The websocket uploads audio that has already been encoded by Game Chat 2 in the “normal” voice chat path; the app has control over the bitrate via `chat_manager::set_audio_encoding_type_and_bitrate`.
 
-
-<a name="ui"></a>
 
 ## UI
 

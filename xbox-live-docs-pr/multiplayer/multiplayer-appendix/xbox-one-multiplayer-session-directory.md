@@ -1,6 +1,6 @@
 ---
 title: Xbox One Multiplayer Session Directory
-description: Learn about creating multiplayer sessions by using the Xbox Live Mutliplayer Session Directory (MPSD) service.
+description: Creating multiplayer sessions by using the Xbox Live Multiplayer Session Directory (MPSD) service.
 ms.assetid: 70da1be3-5f39-4eed-b62d-9cdd47e413d2
 ms.date: 04/04/2017
 ms.topic: article
@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 
 This article provides an overview of multiplayer session creation using the new Xbox One Multiplayer Session Directory (MPSD) service.
 
-This article is for Xbox One title developers who submit their session templates directly to Partner Center.
+This article is directed primarily toward Xbox One title developers who submit their session templates directly to Partner Center.
 
 This article covers MPSD configuration, usage, and troubleshooting of multiplayer sessions.
 
@@ -1012,6 +1012,7 @@ PUT https://sessiondirectory-stress.xboxlive.com/serviceconfigs/8cvda84-2606-4ba
 ### How do I find out what SCID, session template, and sandbox to use?
 
 This information can be found on Partner Center for your title.
+If you do not yet have access to Partner Center, contact your developer account manager, who can assist in getting the information for you.
 
 
 ### Is there an example of a request body that I can compare my own to?

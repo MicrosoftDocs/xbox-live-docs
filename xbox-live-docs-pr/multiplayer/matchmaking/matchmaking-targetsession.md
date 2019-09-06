@@ -1,6 +1,6 @@
 ---
 title: Target Session Initialization and QoS
-description: How to confirm that enough players have joined that they can successfully connect to each other.
+description: After players are matched into a target session, the title confirms enough players have joined and can connect.
 ms.assetid: ba0c1ecb-e928-4e86-9162-8cb456b697ff
 ms.date: 04/04/2017
 ms.topic: article
@@ -61,10 +61,7 @@ Two types of configuration settings can be made:
 - Settings that configure the managed initialization process as a whole.
 - Settings that configure QoS requirements.
 
-See
-[MPSD Session Templates](../multiplayer-appendix/multiplayer-session-directory.md)
-for examples of session templates for common title scenarios.
-<!-- [MPSD Session Templates](../multiplayer-session/mpsd-overview.md) -->
+See [MPSD Session Templates](../multiplayer-session/mpsd-overview.md) for examples of session templates for common title scenarios.
 
 | Note                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -85,13 +82,13 @@ The fields to set to control managed initialization are part of the `/constants/
 | If this threshold is not met, all members fail initialization. |
 
 
-## Configuring QoS Requirements
+### Configuring QoS Requirements
 
 QoS is only needed during initialization if the title uses a peer-to-peer or peer-to-host topology.
 Each topology maps to a topology-specific constant under /constants/system/.
 
 
-### Configuring QoS Requirements for Peer-to-peer Topology
+##### Configuring QoS Requirements for Peer-to-peer Topology
 
 | Note                                                                                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -105,7 +102,7 @@ The object has the following pertinent fields:
 -   bandwidthMinimum. Specifies the minimum bandwidth between any two clients.
 
 
-### Configuring QoS Requirements for Peer-to-host Topology
+##### Configuring QoS Requirements for Peer-to-host Topology
 
 Peer-to-host topology QOS requirements are set in the peerToHostRequirements object.
 Every client must be able to connect to a single common host.
@@ -119,5 +116,5 @@ Here are the fields to set:
 
 
 ## See also
-[MPSD Session Templates](../multiplayer-appendix/multiplayer-session-directory.md)
-<!-- [MPSD Session Templates](../multiplayer-session/mpsd-overview.md) -->
+
+[MPSD Session Templates](../multiplayer-session/mpsd-overview.md)

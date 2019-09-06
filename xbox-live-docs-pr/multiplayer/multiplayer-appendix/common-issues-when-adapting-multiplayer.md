@@ -16,7 +16,7 @@ This article describes issues that you must consider when adapting a 2014 Multip
 ## Configuration Changes to Make for 2015 Multiplayer
 
 This section describes changes to be aware of when configuring your sessions and templates for 2015 Multiplayer.
-For examples of the specific items discussed, see [MPSD Session Templates](multiplayer-session-directory.md).
+For examples of the specific items discussed, see [MPSD Session Templates](../multiplayer-session/mpsd-overview.md).
 
 
 ### Add a Capability for Active Member Connection
@@ -45,7 +45,7 @@ The latest session template contract version is 107, with some changes to the sc
 Templates that you have written for session template contract version 104/105 must be updated if they are republished to use version 107.
 
 This section summarizes the changes to make in migrating your templates to the latest version.
-The templates themselves are described in [MPSD Session Templates](multiplayer-session-directory.md).
+The templates themselves are described in [MPSD Session Templates](../multiplayer-session/mpsd-overview.md).
 
 | Important                                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ Here are the changes to make to the name/value pairs for this object:
 - The ready timeout becomes readyRemovalTimeout.
 - The sessionEmpty timeout becomes sessionEmptyTimeout.
 
-Details of the timeouts are presented in [Session Timeouts](mpsd-session-details.md).
+Details of the timeouts are presented in [Session Timeouts](../multiplayer-session/mpsd-details.md).
 
 
 ### Change to the Game Play Capability
@@ -84,4 +84,4 @@ You must now specify the /constants/system/capabilities/gameplay field as true o
 
 ## See also
 
-[MPSD Session Templates](mpsd-session-details.md)
+[MPSD Session Templates](../multiplayer-session/mpsd-details.md)
