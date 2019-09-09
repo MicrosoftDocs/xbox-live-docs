@@ -41,7 +41,7 @@ When this happens, a WebSocket event is raised to let the client know.
 In general, it is best practice to be able to handle disconnects from the service.
 
 > [!WARNING]
-> If a client uses RTA for multiplayer sessions, and is disconnected for thirty seconds, the [Multiplayer Session Directory(MPSD)](../multiplayer/multiplayer-appendix/multiplayer-session-directory.md) detects that the RTA session is closed, and kicks the user out of the session. It's up to the RTA client to detect when the connection is closed and initiate a reconnect and resubscribe before the MPSD ends the session.
+> If a client uses RTA for multiplayer sessions, and is disconnected for thirty seconds, the [Multiplayer Session Directory(MPSD)](../multiplayer/multiplayer-appendix/xbox-one-multiplayer-session-directory.md) detects that the RTA session is closed, and kicks the user out of the session. It's up to the RTA client to detect when the connection is closed and initiate a reconnect and resubscribe before the MPSD ends the session.
 
 
 ## Managing Subscriptions

@@ -90,7 +90,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../multiplayer/multiplayer-features_nav.md">
+        <a href="../multiplayer/multiplayer-platform.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

@@ -322,36 +322,49 @@
                 - name: Reading a JSON blob from Title Storage
                   href: storage-platform/xbox-live-title-storage/reading-jsonblobs.md
         - name: Multiplayer features
-          href: multiplayer/multiplayer-features_nav.md
+          href: multiplayer/multiplayer-platform.md
           items: 
             - name: Overview of Multiplayer features
               href: multiplayer/multiplayer-intro.md
             - name: Multiplayer concepts for Xbox Live
               href: multiplayer/multiplayer-concepts.md
             - name: Multiplayer scenarios
-              href: multiplayer/multiplayer-scenarios_nav.md
+              href: multiplayer/multiplayer-scenarios.md
               items: 
                 - name: Common multiplayer scenarios
                   href: multiplayer/common-multiplayer-scenarios.md
                 - name: Multiplayer session browse
                   href: multiplayer/session-browse.md
-                - name: Service-to-service multiplayer session management
+                - name: Service-to-service session management
                   href: multiplayer/service-to-service.md
+            - name: Multiplayer Service configuration
+              href: multiplayer/service-configuration/multiplayer-service-configuration.md
+              items: 
+                - name: Configuring the Multiplayer service
+                  href: multiplayer/service-configuration/configure-the-multiplayer-service.md
+                - name: Multiplayer session templates
+                  href: multiplayer/service-configuration/session-templates.md
+                - name: Session template constants
+                  href: multiplayer/service-configuration/session-template-constants.md
+                - name: Using large sessions for Multiplayer
+                  href: multiplayer/service-configuration/large-sessions.md
             - name: Multiplayer Manager
-              href: features/multiplayer/matchmaking/manager/multiplayer-manager_nav.md
+              href: multiplayer/multiplayer-manager/multiplayer-manager.md
               items: 
                 - name: Overview of Multiplayer Manager
-                  href: multiplayer/multiplayer-manager.md
+                  href: multiplayer/multiplayer-manager/multiplayer-manager-overview.md
                 - name: Multiplayer Manager API overview
                   href: multiplayer/multiplayer-manager/multiplayer-manager-api-overview.md
                 - name: Enable playing a multiplayer game with friends
                   href: multiplayer/multiplayer-manager/play-multiplayer-with-friends.md
                 - name: Finding a multiplayer game by using SmartMatch
                   href: multiplayer/multiplayer-manager/play-multiplayer-with-matchmaking.md
+                - name: Sending game invites
+                  href: multiplayer/multiplayer-manager/send-game-invites.md
                 - name: Handle protocol activation
                   href: multiplayer/multiplayer-manager/handle-protocol-activation.md
                 - name: Multiplayer manager flowcharts
-                  href: multiplayer/multiplayer-manager/mpm-flowcharts_nav.md
+                  href: multiplayer/multiplayer-manager/mpm-flowcharts.md
                   items: 
                     - name: Playing a game with friends (flowchart)
                       href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-play-with-friends.md
@@ -372,24 +385,37 @@
             - name: Matchmaking
               href: multiplayer/matchmaking/matchmaking.md
               items: 
-                  - name: Matchmaking Overview
+                  - name: Matckmaking Overview
                     href: multiplayer/matchmaking/matchmaking-overview.md
-                  - name: Matchmaking Configuration
+                  - name: Matckmaking Configuration
                     href: multiplayer/matchmaking/matchmaking-config.md
-                  - name: Matchmaking Target Session
+                  - name: Matckmaking Target Session
                     href: multiplayer/matchmaking/matchmaking-targetsession.md
                   - name: Matchmaking Examples
                     href: multiplayer/matchmaking/matchmaking-how-tos.md
-            - name: Invites
-              href: features/multiplayer/invites/invites_nav.md
+            - name: Multiplayer Session Directory
+              href: multiplayer/multiplayer-session/mpsd.md
+              items:
+                  - name: Multiplayer Session Directory Overview
+                    href: multiplayer/multiplayer-session/mpsd-overview.md
+                  - name: Multiplayer Session Directory Examples
+                    href: multiplayer/multiplayer-session/mpsd-how-tos.md
+                  - name: Multiplayer Session Directory Status Codes
+                    href: multiplayer/multiplayer-session/mpsd-status-codes.md
+                  - name: Multiplayer Session Advanced Topics
+                    href: multiplayer/multiplayer-session/mpsd-details.md
+            - name: Game Invite
+              href: multiplayer/invite/multiplayer-invite.md
               items: 
-                    - name: Sending game invites
-                      href: multiplayer/multiplayer-manager/send-game-invites.md
+                  - name: Game invite flows
+                    href: multiplayer/invite/multiplayer-invite-flows.md
+                  - name: Game invite for UWP Games
+                    href: multiplayer/invite/multiplayer-invite-uwp.md
             - name: Voice and text chat
-              href: features/multiplayer/voice/voice-chat_nav.md
+              href: multiplayer/chat/voice-chat_nav.md
               items: 
                 - name: Game Chat
-                  href: multiplayer/chat/game-chat-2_nav.md
+                  href: multiplayer/chat/game-chat-2.md
                   items: 
                     - name: Overview of Game Chat
                       href: multiplayer/chat/game-chat-2-overview.md
@@ -404,10 +430,10 @@
                 - name: XIM dedicated chat via out-of-band reservations
                   href: multiplayer/xbox-integrated-multiplayer/xim-reservations.md
             - name: Xbox Integrated Multiplayer (XIM)
-              href: multiplayer/xbox-integrated-multiplayer_nav.md
+              href: multiplayer/xbox-integrated-multiplayer/xbox-integrated-multiplayer.md
               items: 
                 - name: Overview of Xbox Integrated Multiplayer (XIM)
-                  href: multiplayer/intro-to-xbox-integrated-multiplayer.md
+                  href: multiplayer/xbox-integrated-multiplayer/intro-to-xbox-integrated-multiplayer.md
                 - name: Using XIM via C++
                   href: multiplayer/xbox-integrated-multiplayer/using-xim.md
                 - name: Using XIM via C#
@@ -421,7 +447,7 @@
             - name: Multiplayer roles
               href: multiplayer/multiplayer-roles.md
             - name: Xbox Arena
-              href: multiplayer/arena/xbox-arena_nav.md
+              href: multiplayer/arena/xbox-arena.md
               items: 
                 - name: Xbox Arena overview
                   href: multiplayer/arena/xbox-arena-overview.md
@@ -441,42 +467,19 @@
                   href: multiplayer/arena/arena-notifications.md
                 - name: UX for Arena participant user scenarios
                   href: multiplayer/arena/arena-user-scenarios.md
-            - name: Multiplayer Service configuration
-              href: multiplayer/service-configuration/multiplayer-service-configuration_nav.md
-              items: 
-                - name: Configuring the Multiplayer service
-                  href: multiplayer/service-configuration/configure-the-multiplayer-service.md
-                - name: Configuring an AppXManifest for Multiplayer
-                  href: multiplayer/service-configuration/configure-your-appxmanifest-for-multiplayer.md
-                - name: Multiplayer session templates
-                  href: multiplayer/service-configuration/session-templates.md
-                - name: Session template constants
-                  href: multiplayer/service-configuration/session-template-constants.md
-                - name: Using large sessions for Multiplayer
-                  href: multiplayer/service-configuration/large-sessions.md
             - name: Multiplayer 2015 appendix
-              href: multiplayer/multiplayer-appendix/multiplayer-appendix_nav.md
+              href: multiplayer/multiplayer-appendix/multiplayer-appendix.md
               items: 
                 - name: Introduction to the Multiplayer system
                   href: multiplayer/multiplayer-appendix/introduction-to-the-multiplayer-system.md
-                - name: Multiplayer Session Directory (MPSD)
-                  href: multiplayer/multiplayer-appendix/multiplayer-session-directory.md
-                - name: Multiplayer sessions in MPSD
-                  href: multiplayer/multiplayer-appendix/mpsd-session-details.md
                 - name: Changing a game from 2014 to 2015 Multiplayer
                   href: multiplayer/multiplayer-appendix/common-issues-when-adapting-multiplayer.md
                 - name: Migrating an arbiter
                   href: multiplayer/multiplayer-appendix/migrating-an-arbiter.md
-                - name: Multiplayer tasks
-                  href: multiplayer/multiplayer-appendix/multiplayer-how-tos.md
-                - name: Multiplayer session status codes
-                  href: multiplayer/multiplayer-appendix/multiplayer-session-status-codes.md
                 - name: Multiplayer 2015 FAQ and troubleshooting
                   href: multiplayer/multiplayer-appendix/multiplayer-2015-faq.md
                 - name: Xbox One Multiplayer Session Directory
                   href: multiplayer/multiplayer-appendix/xbox-one-multiplayer-session-directory.md
-                - name: Flows for multiplayer game invites
-                  href: multiplayer/multiplayer-appendix/flows-for-multiplayer-game-invites.md
                 - name: Game session visibility and joinability
                   href: multiplayer/multiplayer-appendix/game-session-and-game-party-visibility-and-joinability.md
         - name: External Services

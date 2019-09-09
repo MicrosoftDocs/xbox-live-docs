@@ -11,10 +11,7 @@ ms.localizationpriority: medium
 # Matchmaking Overview
 
 ## Introduction to SmartMatch
-Xbox Live provides a matchmaking service, called SmartMatch, that is wrapped by the
-[Multiplayer Manager API](../multiplayer-manager.md).
-<!-- [Multiplayer Manager API](../multiplayer-manager/multiplayer-manager-overview.md). -->
-
+Xbox Live provides a matchmaking service, called SmartMatch, that is wrapped by the [Multiplayer Manager API](../multiplayer-manager/multiplayer-manager-overview.md).
 For advanced API usage, you can refer to the **MatchmakingService Class**, but if you find you have a matchmaking scenario not possible to implement using the Multiplayer Manager, please provide feedback to us via your Microsoft Representative.
 Regardless of which API you use, the conceptual information in this article applies.
 
@@ -74,5 +71,4 @@ Once a matched group has been found, the service creates a match target session 
 [Target Session Initialization and QoS](matchmaking-targetsession.md)
 
 ## See also
-[MPSD Session Templates](../multiplayer-appendix/multiplayer-session-directory.md)
-<!-- [MPSD Session Templates](../multiplayer-session/mpsd-overview.md) -->
+[MPSD Session Templates](../multiplayer-session/mpsd-overview.md)

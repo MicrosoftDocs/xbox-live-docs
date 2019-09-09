@@ -455,7 +455,6 @@ else
 ```
 
 
-<a name="ui"></a>
 ### UI for Game Chat 2
 
 Game Chat 2 has a coalesced `game_chat_user_chat_indicator` used to represent the current, instantaneous status of chat for a player.

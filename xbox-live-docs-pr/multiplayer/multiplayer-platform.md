@@ -52,7 +52,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="multiplayer-scenarios_nav.md">
+        <a href="multiplayer-scenarios.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -71,18 +71,56 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../features/multiplayer/matchmaking/manager/multiplayer-manager_nav.md">
+        <a href="service-configuration/multiplayer-service-configuration.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_agent.svg" alt="Multiplayer Manager"/>
+                                <img src="https://docs.microsoft.com/media/common/i_drivers.svg" alt="Multiplayer Service configuration" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Multiplayer Service configuration</h3>
+                            <p>Configuring the Multiplayer Service includes session templates, SmartMatch hoppers, and custom invite strings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="multiplayer-manager/multiplayer-manager.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_agent.svg" alt="Multiplayer Manager" />
                             </div>
                         </div>
                         <div class="cardText">
                             <h3>Multiplayer Manager</h3>
-                            <p>High-level APIs to add multiplayer functionality to your game by managing sessions and matchmaking, and by providing a state- and event-based programming model.</p>
+                            <p>Multiplayer Manager makes it easy to add multiplayer functionality to your game by managing sessions and matchmaking, and by providing a state and event based programming model.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="xbox-integrated-multiplayer/xbox-integrated-multiplayer.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_agent.svg" alt="Xbox Integrated Multiplayer (XIM)" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Xbox Integrated Multiplayer (XIM)</h3>
+                            <p>Xbox Integrated Multiplayer (XIM) is an all-in-one multiplayer/networking/chat solution for Xbox Live games.</p>
                         </div>
                     </div>
                 </div>
@@ -109,7 +147,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../features/multiplayer/invites/invites_nav.md">
+        <a href="invite/multiplayer-invite.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -128,7 +166,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../features/multiplayer/voice/voice-chat_nav.md">
+        <a href="chat/voice-chat_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -140,25 +178,6 @@ ms.localizationpriority: medium
                         <div class="cardText">
                             <h3>Voice and text chat</h3>
                             <p>Voice communication for multiplayer games can be set up through Xbox Integrated Multiplayer (XIM), an all-in-one multiplayer/networking/chat solution; and through Game Chat.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="xbox-integrated-multiplayer_nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_agent.svg" alt="Xbox Integrated Multiplayer (XIM)" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Xbox Integrated Multiplayer (XIM)</h3>
-                            <p>Xbox Integrated Multiplayer (XIM) is an all-in-one multiplayer/networking/chat solution for Xbox Live games.</p>
                         </div>
                     </div>
                 </div>
@@ -185,7 +204,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="arena/xbox-arena_nav.md">
+        <a href="arena/xbox-arena.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -204,37 +223,18 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="service-configuration/multiplayer-service-configuration_nav.md">
+        <a href="multiplayer-appendix/multiplayer-appendix.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_drivers.svg" alt="Multiplayer Service configuration" />
+                                <img src="https://docs.microsoft.com/media/common/i_library.svg" alt="Multiplayer Appendix" />
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Multiplayer Service configuration</h3>
-                            <p>Configuring the Multiplayer Service includes session templates, SmartMatch hoppers, and custom invite strings.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="multiplayer-appendix/multiplayer-appendix_nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_library.svg" alt="Multiplayer 2015 appendix" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Multiplayer 2015 appendix</h3>
-                            <p>The Multiplayer 2015 service is a more complex way than the Multiplayer Manager API, to enable game play and assembling game players into groups.</p>
+                            <h3>Multiplayer Appendix</h3>
+                            <p>The Multiplayer service is a more complex way than the Multiplayer Manager API, to enable game play and assembling game players into groups.</p>
                         </div>
                     </div>
                 </div>

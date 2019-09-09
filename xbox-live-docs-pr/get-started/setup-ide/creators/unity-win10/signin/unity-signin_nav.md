@@ -3,7 +3,7 @@ title: Signing into Xbox Live in Unity
 description: Signing into Xbox Live in Unity.
 layout: LandingPage
 ms.date: 04/05/2019
-ms.topic: get-started-article
+ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity
 ---
 
