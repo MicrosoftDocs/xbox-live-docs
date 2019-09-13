@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, protocol activation
 ms.localizationpriority: medium
 ---
 
-# Configuring an AppXManifest for Multiplayer
+# Multiplayer Invite for UWP Games
 
 You need to make some updates to the `Package.appxmanifest` file in your Visual Studio project if the following conditions are true:
 - You are developing a UWP
