@@ -404,12 +404,12 @@
                     href: multiplayer/multiplayer-session/mpsd-status-codes.md
                   - name: Multiplayer Session Advanced Topics
                     href: multiplayer/multiplayer-session/mpsd-details.md
-            - name: Game Invite
+            - name: Invites
               href: multiplayer/invite/multiplayer-invite.md
               items: 
-                  - name: Game invite flows
+                  - name: Flows for multiplayer game invites
                     href: multiplayer/invite/multiplayer-invite-flows.md
-                  - name: Game invite for UWP Games
+                  - name: Multiplayer invites for UWP games
                     href: multiplayer/invite/multiplayer-invite-uwp.md
             - name: Voice and text chat
               href: multiplayer/chat/voice-chat_nav.md
