@@ -35,8 +35,8 @@ The <b style="background-color: #FFFF00">highlighted text</b> shows the adjustme
 <table>
   <tr>
     <th>Step</th>
-    <th>David's Action</th>
-    <th>Laura's Action</th>
+    <th>David's Device</th>
+    <th>Laura's Device</th>
   </tr>
 
   <tr>
@@ -140,8 +140,8 @@ The <b style="background-color: #FFFF00">highlighted text</b> shows the adjustme
 <table>
   <tr>
     <th>Step</th>
-    <th>David's Action</th>
-    <th>Laura's Action</th>
+    <th>David's Device</th>
+    <th>Laura's Device</th>
   </tr>
 
   <tr>
@@ -225,8 +225,8 @@ The <b style="background-color: #FFFF00">highlighted text</b> shows the adjustme
 <table>
   <tr>
     <th>Step</th>
-    <th>David's Action</th>
-    <th>Laura's Action</th>
+    <th>David's Device</th>
+    <th>Laura's Device</th>
   </tr>
 
   <tr>
