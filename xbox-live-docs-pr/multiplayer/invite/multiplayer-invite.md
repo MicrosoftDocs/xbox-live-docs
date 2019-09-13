@@ -17,5 +17,5 @@ ms.localizationpriority: medium
 
 ## See also
 
-* Multiplayer Manager: [Sending game invites](multiplayer/multiplayer-manager/send-game-invites.md)
-* Multiplayer Manager: [Sending invites to another player (flowchart)](multiplayer/multiplayer-manager/mpm-flowcharts/mpm-send-invites.md)
+* Multiplayer Manager: [Sending game invites](../multiplayer-manager/send-game-invites.md)
+* Multiplayer Manager: [Sending invites to another player (flowchart)](../multiplayer-manager/mpm-flowcharts/mpm-send-invites.md)
