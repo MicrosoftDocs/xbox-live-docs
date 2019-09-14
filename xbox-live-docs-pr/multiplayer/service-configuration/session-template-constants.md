@@ -273,11 +273,13 @@ Requires that the `hasOwners` capability is set.
 
 ownership policy | Description | valid values | default
 -- | -- | -- | --
-Migration | Indicates the behavior that occurs when the last owner leaves the session. If the migration policy is set to "endsession", expire the session. If the migration policy is set to "oldest", select the member with the oldest join time to become the new owner of the session. | "oldest", "endsession" | "endsession"
+migration | Indicates the behavior that occurs when the last owner leaves the session. If the migration policy is set to "endsession", expire the session. If the migration policy is set to "oldest", select the member with the oldest join time to become the new owner of the session. | "oldest", "endsession" | "endsession"
+allowNonOwnerInviteHandles | Indicates invite behavior for session members that are not the owner. By default, non-owners cannot send invites for a session. | true, false | false 
 
 Example:
 ```json
 "ownershipPolicies": {
-     "migration": "oldest"
+     "migration": "oldest",
+     "allowNonOwnerInviteHandles": true
 }
 ```
