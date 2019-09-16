@@ -24,7 +24,7 @@ The following flow chart illustrates how to migrate an arbiter.
 ## Graceful Arbiter Migration
 
 In graceful arbiter migration, the outgoing arbiter can assist with the migration task and determine a new arbiter.
-This type of migration uses the setting of an arbiter as described in the section [Set an arbiter for an MPSD session](../multiplayer-session/live-mpsd-how-tos.md#set-an-arbiter-for-an-mpsd-session) in the article "Multiplayer tasks".
+This type of migration uses the setting of an arbiter as described in the section [Set an arbiter for an MPSD session](../multiplayer-session/mpsd-how-tos.md#set-an-arbiter-for-an-mpsd-session) in the article "Multiplayer tasks".
 
 
 ## Failover Arbiter Migration
