@@ -1,6 +1,6 @@
 ---
-title: Multiplayer Session Directory (MPSD)
-description: Multiplayer Session Directory (MPSD) enables a title to share the information needed to connect a group of users, to create a multiplayer session.
+title: Overview of Multiplayer Session Directory (MPSD)
+description: Enables a title to share the information needed to connect a group of users, to create a multiplayer session.
 ms.assetid: a9b029ea-4cc1-485a-8253-e1c74184f35e
 ms.date: 04/04/2017
 ms.topic: article
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, mpsd, multiplayer s
 ms.localizationpriority: medium
 ---
 
-# Multiplayer Session Directory (MPSD)
+# Overview of Multiplayer Session Directory (MPSD)
 
 Multiplayer Session Directory (MPSD) enables titles to share the basic information needed to connect a group of users.
 MPSD coordinates with the shell and console operating system in sending/accepting invites and in being joined via the gamer card.

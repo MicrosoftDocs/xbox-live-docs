@@ -385,24 +385,24 @@
             - name: Matchmaking
               href: multiplayer/matchmaking/matchmaking.md
               items: 
-                  - name: Matckmaking Overview
+                  - name: Matchmaking Overview
                     href: multiplayer/matchmaking/matchmaking-overview.md
-                  - name: Matckmaking Configuration
+                  - name: Matchmaking Configuration
                     href: multiplayer/matchmaking/matchmaking-config.md
-                  - name: Matckmaking Target Session
+                  - name: Target Session Initialization and QoS
                     href: multiplayer/matchmaking/matchmaking-targetsession.md
-                  - name: Matchmaking Examples
+                  - name: Using SmartMatch matchmaking
                     href: multiplayer/matchmaking/matchmaking-how-tos.md
             - name: Multiplayer Session Directory
               href: multiplayer/multiplayer-session/mpsd.md
               items:
-                  - name: Multiplayer Session Directory Overview
+                  - name: Overview of Multiplayer Session Directory (MPSD)
                     href: multiplayer/multiplayer-session/mpsd-overview.md
-                  - name: Multiplayer Session Directory Examples
+                  - name: Multiplayer tasks
                     href: multiplayer/multiplayer-session/mpsd-how-tos.md
-                  - name: Multiplayer Session Directory Status Codes
+                  - name: Multiplayer session status codes
                     href: multiplayer/multiplayer-session/mpsd-status-codes.md
-                  - name: Multiplayer Session Advanced Topics
+                  - name: Multiplayer Session advanced topics
                     href: multiplayer/multiplayer-session/mpsd-details.md
             - name: Invites
               href: multiplayer/invite/multiplayer-invite.md

@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 
 # Xbox One Multiplayer Session Directory
 
-This article provides an overview of multiplayer session creation using the new Xbox One Multiplayer Session Directory (MPSD) service.
+This article provides an overview of multiplayer session creation using the Xbox One Multiplayer Session Directory (MPSD) service.
 
 This article is directed primarily toward Xbox One title developers who submit their session templates directly to Partner Center.
 
@@ -21,7 +21,7 @@ This article covers MPSD configuration, usage, and troubleshooting of multiplaye
 
 The client-side XSAPI (Xbox Services API) libraries currently use contract version 104 when communicating to the MPSD services.
 This version of the document updates the session template schema to contract version 107, which is the latest contract version supported by the MPSD services.
-The changes between version 104 and 107 are summarized in the section entitled [Contract schema update](#_Contract_schema_update).
+The changes between version 104 and 107 are summarized in the section [Contract schema update](#_Contract_schema_update) below.
 
 Note that templates that were written for contract version 104 will need to be updated if they are republished as 107.
 However, the services are backward-compatible so you can continue to use the current libraries, which will be updated in a future XDK release.
