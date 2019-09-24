@@ -369,54 +369,6 @@ Titles must check the Xbox Live service for a user’s permissions regarding pri
 
 <br />
 
-### Blocking and Muting Support (XR-73)
-Titles that use communication services must ensure that users do not hear or see inbound communications (text/voice messages, invites, in game groups, etc) from any users whom they have explicitly blocked or muted on Xbox Live. Titles which offer communication between Xbox Live and non-Xbox Live network players must offer the ability to mute any non-Xbox Live players for the duration of the session.
-
-### Test Cases
-
-**073-01 Muting Support**   
-
-**Test Steps**  
->1. As user A, mute user B.
->2. Have both users join an Xbox Live multiplayer session.
->3. Attempt to send voice communication from user B to user A.
->4. Ensure that user A is unable to receive any voice communication from user B.
->5. If the title offers communication between Xbox Live and non-Xbox Live network players, repeat Steps 1-4 where user B is a non-Xbox Live player.
-
-**Expected Result**  
-User A must not be able to hear user B. 
-
-**Pass Examples**  
->1. Voice communication from the muted user cannot be heard by the user who initiated the mute.  
-
-**Fail Examples**  
->1. Voice communication from the muted user can be heard by the user who initiated the mute. 
-
-<br />
-
-**073-02 Blocked Users**   
-
-**Test Steps**  
->1. As user A, block user B.
->2. Have both users join an Xbox Live multiplayer session.
->3. Attempt to send voice and written communication from user B to user A.
->4. Attempt to send a game invite from user B to to user A.
->5. Ensure that user A is unable to receive any communication or invites from user B.
->6. If the title offers communication between Xbox Live and non-Xbox Live network players, repeat Steps 1-4 where user B is a non-Xbox Live player.
-
-**Expected Result**  
-User A must not be able to hear or see communication from user B. User A must not be able to receive game invitations from User B.
-
-**Pass Examples**  
->1. Communication from the blocked user cannot be seen or heard by the user who initiated the block.
->2. Game invitations from the blocked user are not received by the user who initiated the block.
-
-**Fail Examples**  
->1. Communication from the blocked user can be seen or heard by the user who initiated the block.
->2. Game invitations from the blocked user are received by the user who initiated the block.
-
-<br />
-
 ## Achievements and awards
 The following requirements apply to titles that offer achievements, and awards on Xbox Live.  All games targeting Xbox One are required to have Achievements and meet the following requirements. Demos are not allowed to have achievements; however, they have the option of supporting Hero Stats.
 

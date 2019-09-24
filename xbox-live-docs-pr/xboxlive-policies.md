@@ -138,11 +138,6 @@ Titles meet this XR by retrieving data from Xbox Live services. If the title use
 
 During the gameplay session, titles which offer communication between Xbox Live and non-Xbox Live network players must offer the ability to mute any non-Xbox Live players for the duration of the session.
 
-### Blocking and Muting Support (XR-73)
-
-Titles that use communication services must ensure that users do not hear or see inbound communications (text/voice messages, invites, in game groups, etc) from any users whom they have explicitly blocked or muted on Xbox Live. Titles which offer communication between Xbox Live and non-Xbox Live network players must offer the ability to mute any non-Xbox Live players for the duration of the session.
-
-
 ## Achievements and awards
 
 The following requirements apply to titles that offer achievements, and awards on Xbox Live.  All games targeting Xbox One are required to have Achievements and meet the following requirements. Demos are not allowed to have achievements; however, they have the option of supporting Hero Stats.
