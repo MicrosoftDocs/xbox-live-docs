@@ -125,18 +125,18 @@ Xbox Live promises users a certain level of privacy and online safety for themse
 |Sharing to a social network|220|XPRIVILEGE_SOCIAL_NETWORK_SHARING|Xbox One Only: Allows a user to share information, including game progress, Kinect-generated content, game clips, and so on outside of Xbox Live.|
 
 
-### [Privacy and Permissions (XR-015)](policies/XR015.md)
+### [Managing Player Communication (XR-015)](policies/XR015.md)
 
-Titles must not transmit user data or allow communication over Xbox Live when the user's privacy & online safety settings do not allow it.
+TTitles must not transmit user data or allow communication over Xbox Live when the user's privacy & online safety settings do not allow it.
 
 Titles meet this XR by retrieving data from Xbox Live services. If the title uses its own services, it must check the user's privacy permissions at the beginning of a session or when a new user joins the session. For user-initiated scenarios outside of sessions, titles meet this requirement by checking privacy prior to displaying the user's data and before performing the action. The following list of privacy settings is available for titles to check:
 
 | Permission name |Description |
-|-------------------|-|---------------|
+|-----------------|------------|
 |CommunicateUsingText | Check whether or not the user can send a message with text content to the target user. |
-| CommunicateUsingVideo |Check whether or not the user can communicate using video with the target user. | |
-|CommunicateUsingVoice |Check whether or not the user can communicate using voice with the target user. | |
+|CommunicateUsingVoice |Check whether or not the user can communicate using voice with the target user. |
 
+During the gameplay session, titles which offer communication between Xbox Live and non-Xbox Live network players must offer the ability to mute any non-Xbox Live players for the duration of the session.
 
 ### Blocking and Muting Support (XR-73)
 
