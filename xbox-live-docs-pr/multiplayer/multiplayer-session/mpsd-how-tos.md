@@ -12,6 +12,22 @@ ms.localizationpriority: medium
 
 This article shows how to implement specific tasks related to using Multiplayer 2015.
 
+**Contents**
+* Subscribe for MPSD session change notifications
+* Create an MPSD session
+* Set an arbiter for an MPSD session
+* Manage title activation
+* Make the user joinable
+* Send game invites
+* Join a game session from a lobby session
+* Join an MPSD session from a title activation
+* Set the user's current activity
+* Update an MPSD session
+* Leave an MPSD session
+* Fill open session slots during matchmaking
+* Create a match ticket
+* Get match ticket status
+
 
 ## Subscribe for MPSD session change notifications
 
@@ -115,6 +131,7 @@ void Example_MultiplayerService_CreateSession()
 ```
 
 
+<a id="set-an-arbiter-for-an-mpsd-session"/>
 
 ## Set an arbiter for an MPSD session
 
@@ -287,6 +304,8 @@ To set a session as the user's current activity, the title calls the **Multiplay
 
 To set the user's current activity through title activation, see **How to: Join an MPSD Session from a Title Activation**.
 
+
+<a id="update-an-mpsd-session"/>
 
 ## Update an MPSD session
 

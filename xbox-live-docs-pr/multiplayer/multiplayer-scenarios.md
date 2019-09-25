@@ -12,13 +12,11 @@ ms.localizationpriority: medium
 
 # Multiplayer scenarios
 
-Multiplayer scenarios include Comparative (Indirect) Play, Online Play with friends, Skill-Based Matchmaking, and Tournaments.
-
 
 ### In this section
 
 | Article | Description |
 |---------|-------------|
-| [Common multiplayer scenarios](common-multiplayer-scenarios.md) | Multiplayer scenarios include Comparative (Indirect) Play, Online Play with friends, Skill-Based Matchmaking, and Tournaments. |
+| [Common multiplayer scenarios](common-multiplayer-scenarios.md) | Which Xbox Live functionality supports various multiplayer scenarios, including Comparative (Indirect) Play, Online Play with friends, Skill-Based Matchmaking, and Tournaments. |
 | [Session browse](session-browse.md) | Multiplayer session browse enables a title to query for a list of open multiplayer game sessions that meet the specified criteria. |
 | [Service-to-service session management](service-to-service.md) | Using service-to-service calling patterns with MPSD. |
