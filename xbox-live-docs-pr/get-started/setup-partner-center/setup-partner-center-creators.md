@@ -20,7 +20,7 @@ ms.localizationpriority: medium
 
 At Partner Center, create a new app representing your game, as follows.
 
-1. Go to <a href="https://partner.microsoft.com/dashboard/" target="_blank">Partner Center</a>.
+1. Go to <a href="https://partner.microsoft.com/dashboard/" target="_blank">Partner Center &#11008;</a>.
 
    The Partner Center dashboard appears, showing the "Overview" page, within the "WINDOWS" section.
 
