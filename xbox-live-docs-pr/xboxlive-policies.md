@@ -1,14 +1,14 @@
 ---
 title: Xbox Live policies
 description: Policies for adding Xbox Live to a PC or mobile game.
-ms.date: 03/18/2019
+ms.date: 10/01/2019
 ms.topic: article
 keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
 ---
 # Xbox Live Integration Policies for PC and Mobile Devices
 
-Version 1.0
+Version 2.0
 
 
 ## Introduction
