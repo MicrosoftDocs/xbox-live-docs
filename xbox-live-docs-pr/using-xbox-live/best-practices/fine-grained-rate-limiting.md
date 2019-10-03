@@ -141,21 +141,24 @@ These limits are the same across all sandboxes and titles.
 
 **Any title that was published via Xbox Developer Platform or Partner Center and shipped prior to May 2016 will be considered Legacy and therefore exempted.**
 
-| **Name** | **Burst Limit** (15 seconds per user per title) | **Sustain Limit** (300 seconds per user per title) | **Certification Limit** (10x Sustained, 300 seconds per user per title) |
-|----------------------------|---------------------------|----------------------------|----------------------------|
-| Stats Read                 | 100                       | 300                        | 3000                       |
-| Profile                    | 10                        | 30                         | 300                        |
-| MPSD                       | 30                        | 300                        | 3000                       |
-| Search Handle (MPSD)       | Read 1, Write 1           | Read 20, Write 20          | Read 20, Write 20          |
-| Presence                   | Read 10, Write 3          | Read 100, Write 30         | Read 1000, Write 300       |
-| Social                     | 10                        | 30                         | 300                        |
-| Leaderboards               | 30                        | 100                        | 1000                       |
-| Achievements               | 100                       | 300                        | 3000                       |
-| Smart Match                | 10                        | 100                        | 1000                       |
-| User Posts                 | 100                       | 300                        | 3000                       |
-| Stats Write                | 100                       | 300                        | 3000                       |
-| Privacy                    | 10                        | 30                         | 300                        |
-| Clubs                      | 10                        | 30                         | 300                        |
+| **Name** | **Burst Limit** (15 seconds per user per title) | **Sustain Limit** (300 seconds per user per title) | **Sustain Limit** (300 seconds per user per publisher) | **Certification Limit** (10x Sustained, 300 seconds per user per title) |
+|-------------------------|------------------------|-------------------------|-------------------------|-------------------------|
+| Stats Read              | 100                    | 300                     | N/A                     | 3000
+| Profile                 | 10                     | 30                      | N/A                     | 300
+| MPSD                    | 30                     | 300                     | N/A                     | 3000
+| Search Handle (MPSD)    | Read 1, Write 1        | Read 20, Write 20       | N/A                     | Read 20, Write 20
+| Presence                | Read 10, Write 3       | Read 100, Write 30      | N/A                     | Read 1000, Write 300
+| Social                  | 10                     | 30                      | N/A                     | 300
+| Leaderboards            | 30                     | 100                     | N/A                     | 1000
+| Achievements            | 100                    | 300                     | N/A                     | 3000
+| Smart Match             | 10                     | 100                     | N/A                     | 1000
+| User Posts              | 100                    | 300                     | N/A                     | 3000
+| Stats Write             | 100                    | 300                     | N/A                     | 3000
+| Privacy                 | 10                     | 30                      | N/A                     | 300
+| Clubs                   | 10                     | 30                      | N/A                     | 300
+| Collections             | N/A                    | 100                     | 200                     | N/A
+| Inventory               | N/A                    | 100                     | 200                     | N/A
+
 
 The table above represents the current list of services that were selected for FGRL.
 This list is not final, as new services and existing services can be added.
@@ -184,6 +187,9 @@ For example, if the sustained limit at which FGRL takes effect is set to 300 cal
 | Stats Write | statswrite.xboxlive.com | Achievements or Leaderboards entries not updated.
 | Privacy | privacy.xboxlive.com | Privacy failures may result in blocked access for all callers.
 | Clubs | Clubhub.xboxlive.com | Player may not be able to see their in-game clubs.
+| Collections | collections.md.mp.microsoft.com / collections.mp.microsoft.com | Player's owned games list might not be correct.
+| Inventory | inventory.xboxlive.com | Players's owned games list might not be correct.
+
 
 **NOTE:** The latest API mapping is regularly updated and can be found under [Live Trace Analyzer API Mapping](https://github.com/Microsoft/xbox-live-trace-analyzer/blob/master/Source/XboxLiveTraceAnalyzer.APIMap.csv).
 
