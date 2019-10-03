@@ -19,7 +19,7 @@ You can add Xbox Live support to Unity for UWP with .NET scripting backend.
 
 Install Unity 5.3 or higher and during the Unity install process, check the "Windows Store .NET Scripting backend" component.
 
-![Unity Installation Wizard screnshot](partner-add-xbox-live-to-unity-uwp_images/unity1-install.png)
+![Unity Installation Wizard screenshot](partner-add-xbox-live-to-unity-uwp_images/unity1-install.png)
 
 
 **2) Open a new or existing Unity project**
