@@ -131,7 +131,7 @@ The actual response will contain the following fields:
 | currentRequests | Integer    | `"currentRequests":13` | Total number of requests sent    |
 | maxRequests     | Integer    | `"maxRequests":10`     | Total number of requests allowed |
 | periodInSeconds | Integer    | `“periodInSeconds”:15` | Time window                      |
-| Type            | String     | `“type”:”burst”`       | Throttle limit type              |
+| LimitType       | String     | `“limittype”:”burst”`  | Throttle limit type              |
 
 
 ## Implemented limits
