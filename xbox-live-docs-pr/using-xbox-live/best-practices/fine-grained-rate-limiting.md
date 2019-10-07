@@ -131,7 +131,7 @@ The actual response will contain the following fields:
 | currentRequests | Integer    | `"currentRequests":13` | Total number of requests sent    |
 | maxRequests     | Integer    | `"maxRequests":10`     | Total number of requests allowed |
 | periodInSeconds | Integer    | `“periodInSeconds”:15` | Time window                      |
-| Type            | String     | `“type”:”burst”`       | Throttle limit type              |
+| LimitType       | String     | `“limittype”:”burst”`  | Throttle limit type              |
 
 
 ## Implemented limits
@@ -141,7 +141,7 @@ These limits are the same across all sandboxes and titles.
 
 **Any title that was published via Xbox Developer Platform or Partner Center and shipped prior to May 2016 will be considered Legacy and therefore exempted.**
 
-| **Name** | **Burst Limit** (15 seconds per user per title) | **Sustain Limit** (300 seconds per user per title) | **Sustain Limit** (300 seconds per user per publisher) | **Certification Limit** (10x Sustained, 300 seconds per user per title) |
+| **Name** | **Burst Limit** (15 seconds per user per title) | **Sustain Limit** (300 seconds per user per title) | **Sustain Limit** (300 seconds per user per publisher) | **Certification Limit** (300 seconds per user per title) |
 |-------------------------|------------------------|-------------------------|-------------------------|-------------------------|
 | Stats Read              | 100                    | 300                     | N/A                     | 3000
 | Profile                 | 10                     | 30                      | N/A                     | 300
@@ -156,8 +156,8 @@ These limits are the same across all sandboxes and titles.
 | Stats Write             | 100                    | 300                     | N/A                     | 3000
 | Privacy                 | 10                     | 30                      | N/A                     | 300
 | Clubs                   | 10                     | 30                      | N/A                     | 300
-| Collections             | N/A                    | 100                     | 200                     | N/A
-| Inventory               | N/A                    | 100                     | 200                     | N/A
+| Collections             | 100                    | 100                     | 200                     | 300
+| Inventory               | 100                    | 100                     | 200                     | 300
 
 
 The table above represents the current list of services that were selected for FGRL.
