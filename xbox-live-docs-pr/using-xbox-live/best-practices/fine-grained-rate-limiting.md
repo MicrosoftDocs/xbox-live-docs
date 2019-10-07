@@ -125,13 +125,13 @@ Developers that use XSAPI will not have to worry, as XSAPI honors and handles th
 
 The actual response will contain the following fields:
 
-| Field Name      | Value Type | Example                | Definition                       |
-|-----------------|------------|------------------------|----------------------------------|
-| Version         | Integer    | `"version":1`          |                                  |
-| currentRequests | Integer    | `"currentRequests":13` | Total number of requests sent    |
-| maxRequests     | Integer    | `"maxRequests":10`     | Total number of requests allowed |
-| periodInSeconds | Integer    | `“periodInSeconds”:15` | Time window                      |
-| LimitType       | String     | `“limittype”:”burst”`  | Throttle limit type              |
+| Field Name      | Value Type | Example                | Definition                               |
+|-----------------|------------|------------------------|------------------------------------------|
+| Version         | Integer    | `"version":1`          |                                          |
+| currentRequests | Integer    | `"currentRequests":13` | Total number of requests sent            |
+| maxRequests     | Integer    | `"maxRequests":10`     | Total number of requests allowed         |
+| periodInSeconds | Integer    | `“periodInSeconds”:15` | Time window                              |
+| LimitType       | String     | `“limitType”:”rate”`   | Throttle limit type (rate or concurrency)|
 
 
 ## Implemented limits
