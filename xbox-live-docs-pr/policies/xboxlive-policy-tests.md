@@ -1,14 +1,14 @@
 ---
 title: Xbox Live Integration Test Cases For PC and Mobile Devices
 description: Test cases for adding Xbox Live to a PC or mobile game.
-ms.date: 03/26/2019
+ms.date: 10/01/2019
 ms.topic: article
 keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
 ---
 # Xbox Live Integration Test Cases for PC and Mobile Devices
 
-Version 1.0
+Version 2.0
 
 
 ## Introduction
@@ -336,15 +336,17 @@ Titles must honor the user’s privilege settings.
 <br />
 
 ### [Privacy and Permissions (XR-015)](XR015.md)
-Titles must not transmit user data or allow communication over Xbox Live when the user's privacy & online safety settings do not allow it.
+Titles must not transmit user data or allow communication over Xbox Live when the user's privacy settings do not allow it.
 
 Titles meet this XR by retrieving data from Xbox Live services. If the title uses its own services, it must check the user's privacy permissions at the beginning of a session or when a new user joins the session. For user-initiated scenarios outside of sessions, titles meet this requirement by checking privacy prior to displaying the user's data and before performing the action. The following list of privacy settings is available for titles to check:
 
+
 | Permission name |Description |
 |-------------------|-|---------------|
-|CommunicateUsingText | Check whether or not the user can send a message with text content to the target user. |
-| CommunicateUsingVideo |Check whether or not the user can communicate using video with the target user. | |
+|CommunicateUsingText | Check whether or not the usercan send a message with text content to the target user. |
 |CommunicateUsingVoice |Check whether or not the user can communicate using voice with the target user. | |
+
+During the gameplay session, titles which offer communication between Xbox Live and non-Xbox Live network players must offer the ability to mute any non-Xbox Live players for the duration of the session.
 
 ### Test Cases
 
@@ -367,6 +369,51 @@ Titles must check the Xbox Live service for a user’s permissions regarding pri
 **Fail Examples**  
 >1. The user is able to communicate over Xbox Live when that specific method of communication is configured to be blocked.  
 
+<br />
+
+**015-02 Muting Support**   
+
+**Test Steps**  
+>1. As user A, mute user B.
+>2. Have both users join an Xbox Live multiplayer session.
+>3. Attempt to send voice communication from user B to user A.
+>4. Ensure that user A is unable to receive any voice communication from user B.
+>5. Attempt to send text communication from user B to user A.
+>6. Ensure that user A is unable to receive any text communication from user B. 
+
+**Expected Result**  
+User A must not be able to hear or see text communication from user B.  
+
+**Pass Examples**  
+>1. Voice communication from the muted user cannot be heard by the user who initiated the mute.
+>2. Text communication from the muted user cannot be seen by the user who initiated the mute.  
+
+**Fail Examples**  
+>1. Voice communication from the muted user can be heard by the user who initiated the mute.
+>2. Text communication from the muted user can be seen by the user who initiated the mute.  
+<br />
+
+**015-03 Blocked Users**   
+
+**Test Steps**  
+>1. As user A, block user B.
+>2. Have both users join an Xbox Live multiplayer session.
+>3. Attempt to send voice and written communication from user B to user A.
+>4. Locate any title-provided invitation mechanisms (any invitation mechanism that does not utilize the Xbox Shell).
+>5. Using each of the mechanisms located in step [4], attempt to send a game invite from user B to user A.
+>6. Ensure that user A is unable to receive any communication or invites from user B.
+
+**Expected Result**  
+User A must not be able to hear or see communication from user B. User A must not be able to receive game invitations from User B.  
+
+**Pass Examples**  
+> 1. Communication from the blocked user cannot be seen or heard by the user who initiated the block.  
+> 2. Game invitations from the blocked user are not received by the user who initiated the block.
+
+**Fail Examples**  
+> 1. Communication from the blocked user can be seen or heard by the user who initiated the block.
+> 2. Game invitations from the blocked user are received by the user who initiated the block. 
+>
 <br />
 
 ## Achievements and awards
