@@ -26,3 +26,8 @@ ms.localizationpriority: medium
 | [Managing local Connected Storage](connected-storage-xb-storage.md) | Managing a local cache of the Connected Storage data in a development environment. |
 | [Best practices for Connected Storage](connected-storage-best-practices.md) | Getting the best performance and experience from Connected Storage, such as when to load and save. |
 | [Technical overview of Connected Storage](connected-storage-technical-overview.md) | The inner workings of Connected Storage. |
+
+
+### See also
+
+* [Xbox Live Samples](../../samples.md)

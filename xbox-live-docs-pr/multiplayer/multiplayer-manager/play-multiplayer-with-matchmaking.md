@@ -255,3 +255,8 @@ if (result.err())
 * Resubmit (if needed)
 * Joins target Game session
 * Advertise Game via Lobby Session
+
+
+## See also
+
+* [Xbox Live Samples](../../samples.md)

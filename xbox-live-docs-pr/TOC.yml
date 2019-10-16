@@ -638,8 +638,6 @@
           items:
             - name: Introduction to XSAPI APIs
               href: introduction-to-xbox-live-apis.md
-            - name: XSAPI Samples
-              href: samples.md
             - name: Introduction to the XSAPI C API
               href: xsapi-flat-c.md
             - name: XSAPI WinRT Reference
@@ -653,3 +651,5 @@
               href: flatc-async-patterns.md
         - name: REST Reference
           href: xbox-live-rest/TOC.md
+        - name: Xbox Live Samples
+          href: samples.md

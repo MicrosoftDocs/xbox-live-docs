@@ -20,7 +20,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_overview.svg" alt="What is Xbox Live?" />
+                                <img src="https://docs.microsoft.com/media/common/i_overview.svg" alt="What is Xbox Live?"/>
                             </div>
                         </div>
                         <div class="cardText"> 
@@ -151,6 +151,25 @@ ms.localizationpriority: medium
                         <div class="cardText">
                             <h3>Testing and Releasing</h3>
                             <p>Testing, troubleshooting, and publishing a game.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="../samples.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_download-generic.svg" alt="Xbox Live Samples"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Xbox Live Samples</h3>
+                            <p>Xbox Live API samples and Xbox Developer Kit samples.</p>
                         </div>
                     </div>
                 </div>

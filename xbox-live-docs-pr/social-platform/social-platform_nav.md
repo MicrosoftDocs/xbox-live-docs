@@ -147,3 +147,28 @@ ms.localizationpriority: medium
         </a>
     </li>
 </ul>
+
+
+### See also
+
+<ul class="cardsF panelContent cols cols2">
+    <li>
+        <a href="../samples.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_download-generic.svg" alt="Xbox Live Samples"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Xbox Live Samples</h3>
+                            <p>Xbox Live API samples and Xbox Developer Kit samples.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
