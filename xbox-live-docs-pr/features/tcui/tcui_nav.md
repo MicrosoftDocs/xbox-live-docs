@@ -38,3 +38,8 @@ TCUI provides the following functions.
 | `ShowCustomizeUserProfileForUserAsync` | Navigates to an area where the user can customize their profile (full screen profile). |
 | `ShowUserSettingsForUserAsync` | Navigates to an area where the user can change their settings. |
 | `ShowStorageUIAsync` | Shows storage progress / prompts for syncing disambiguation. |
+
+
+### See also
+
+* [Xbox Live Samples](../../samples.md)
