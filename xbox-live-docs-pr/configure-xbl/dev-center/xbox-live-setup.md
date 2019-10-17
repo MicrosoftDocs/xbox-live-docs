@@ -115,8 +115,8 @@ The following Xbox Live features are embargoed. They use the Service Configurati
 <!-- todo: check this intro sentence:-->
 The following table indicates whether the Xbox Live feature is embargoed.
 
-|Feature |XBL Embargoed? |Configuration |
-| --- | :---: | --- |
+| Feature | XBL Embargoed? | Configuration |
+| :--- | :---: | :--- |
 | Achievements & Challenges | Y | Service Configuration |
 | Stats | Y | Service Configuration |
 | Real Time Activity | Y | Service Configuration |
