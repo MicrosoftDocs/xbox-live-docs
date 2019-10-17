@@ -95,7 +95,7 @@ Note: Calls in title will not be blocked. This could include features such as se
 |Broadcasting* |Y  |Service Configuration  |
 |Social Sharing* | Y |Service Configuration  |
 
-![Embargo settings in Partner Center](xbox-live-setup-images/embargosettings.png)
+![Embargo settings in Partner Center](xbox-live-setup-images/embargo3resize.png)
 
 The retail embargo feature is intended for titles that have not released their base game. Content Updates to products in RETAIL should opt-out.
 
