@@ -60,11 +60,10 @@ The date that you select determines when your Xbox Live configuration goes live 
 * If you select a date in the future, the changes will become available to the public on that date.
 * If you select a date in the past, the changes will become available to the public as soon as you publish your changes to RETAIL.
 * If the Embargo date is updated/changed after you publish to RETAIL, the Service Configuration must be republished; simply clicking **OK** and **Save** will not apply the change.
+* The retail embargo feature is intended for titles that have not released their base game. Content Updates to products in RETAIL should opt-out.
 
 XBL Embargo only impacts Xbox Live-related features, and does not impact pricing and availability.
-<!-- todo: link
-For more information on pricing, see [Top-of-page title that results from going to this URL](URL).
--->
+For more information on pricing, see [Pricing and Offers](https://docs.microsoft.com/en-us/partner-center/pricing-and-offers)
 
 
 **To set the embargo date:**
@@ -79,9 +78,9 @@ For more information on pricing, see [Top-of-page title that results from going 
 
 5. Click the **OK** button, and then at the bottom of the page, click the **Save** button.
 
-The embargo date is set, but will not take effect until you have published.
-
-Note: The UI converts the local browser time zone for the XBL Embargo date.
+Note: 
+* The embargo date is set, but will not take effect until you have published.
+* The UI converts to the local browser time zone for the XBL Embargo date.
 
 
 <!-- This explanation of Embargo was copied from the Partner Center page UI: -->
@@ -129,22 +128,27 @@ The following table indicates whether the Xbox Live feature is embargoed.
 | Screenshots | Y\* | Service Configuration |
 | Broadcasting | Y\* | Service Configuration |
 | Social Sharing | Y\* | Service Configuration |
+|Game Hub | N| N/A|
+|Marketplace Availabilities|N |N/A |
+|Static Files, such as trailers or artwork|N |N/A |
+|Title-Callable UI (TCUI)|N |N/A |
 
 Notes for features marked \*:
 
 ![Embargo settings in Partner Center](xbox-live-setup-images/embargo3resize.png)
 
-<!-- todo: move the following paragraph up? -->
+<!-- todo: move the following paragraph up? 
 The retail embargo feature is intended for titles that have not released their base game.
 Content Updates to products in RETAIL should opt-out.
+-->
 
-<!-- todo: shouldn't these be added to bottom of the above table, with N in the middle column? maybe 3rd col empty or "n/a"? -->
+<!-- todo: shouldn't these be added to bottom of the above table, with N in the middle column? maybe 3rd col empty or "n/a"? 
 Embargo does not apply to the following:
 * Game Hub
 * Marketplace Availabilities
 * Static Files, such as trailers or artwork
 * Title-Callable UI (TCUI)
-
+-->
 
 ## Advanced settings
 
