@@ -53,13 +53,14 @@ You can check the devices to enable them.
 
 ## XBL Embargo date
 
-The date you select will determine when your Xbox Live configuration goes live to the public.
-It is important to note that even if you published your changes to RETAIL they will not go live unless the embargo date has been met.
+The date you select will determine when your Xbox Live configuration goes live to the public. It is important to note that even if you published your changes to RETAIL they will not go live unless the embargo date has been met.
 * If you select a date in the future, the changes will become available to the public on that date.
 * If you select a date in the past, the changes will become available to the public as soon as you publish your changes to RETAIL.
+* If the Embargo date is updated/changed after publish to RETAIL, the Service Configuration must be republished. Simply clicking ok/save will not apply the change.
 
-Click on the date-time picker and it will expand to allow you to select the precise date and time.
-Once you click **OK**, the embargo date will be set.
+XBL Embargo only impacts Xbox Live related features and does not impact pricing and availability. For more information on pricing please go here. 
+
+Go to ‘Xbox Live’ and then ‘Xbox Live Settings’. Select ‘Set embargo date’ check box and a date box will appear to allow you to select the precise date and time. 
 
 ![Image of setting the embargo date in Partner Center](../../images/dev-center/xbox-live-setup/xbox-live-setup-5.png)
 
