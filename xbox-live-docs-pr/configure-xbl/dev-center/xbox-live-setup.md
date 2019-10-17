@@ -71,41 +71,8 @@ The date that you select determines when your Xbox Live configuration goes live 
 XBL Embargo only impacts Xbox Live-related features, and does not impact pricing and availability.
 For more information on pricing, see [Pricing and Offers.](https://docs.microsoft.com/en-us/partner-center/pricing-and-offers)
 
-**To set the embargo date:**
-
-1. In Partner Center, select your title, click **Xbox Live**, and then click **Xbox Live Settings**. The "Xbox Live configuration" page appears.
-
-2. In the **Embargo date** section, select the **Set embargo date** check box.  A date box appears: ![Setting the embargo date in Partner Center](xbox-live-setup-images/embargo1.png)
-
-3. Click the date box to expand the date: ![Setting the embargo date in Partner Center](xbox-live-setup-images/embargo2.png)
-
-4. Select the date and time.
-
-5. Click the **OK** button, and then at the bottom of the page, click the **Save** button.
-
-Note: 
-* The embargo date is set, but will not take effect until you have published.
-* The UI converts to the local browser time zone for the XBL Embargo date.
-
 **Xbox Live features that are embargoed:**
 
-<!-- todo: change table to bullet list, since column 2 & 3 have same value on every row? Or instead, add rows for the "not embargoed" list that's currently below the table.
-The following Xbox Live features are embargoed. They use the Service Configuration.
-* Achievements & Challenges
-* Stats
-* Real Time Activity
-* Game Invites
-* Game Progress
-* Hero Stats
-* Leaderboards
-* Presence
-* Game DVR*
-* Screenshots*
-* Broadcasting*
-* Social Sharing*
- -->
-
-<!-- todo: check this intro sentence:-->
 The following table indicates whether the Xbox Live feature is embargoed.
 
 | Feature | XBL Embargoed? | Configuration |
@@ -131,18 +98,21 @@ Notes for features marked \*:
 
 ![Embargo settings in Partner Center](xbox-live-setup-images/embargo3resize.png)
 
-<!-- todo: move the following paragraph up? 
-The retail embargo feature is intended for titles that have not released their base game.
-Content Updates to products in RETAIL should opt-out.
--->
+**To set the embargo date:**
 
-<!-- todo: shouldn't these be added to bottom of the above table, with N in the middle column? maybe 3rd col empty or "n/a"? 
-Embargo does not apply to the following:
-* Game Hub
-* Marketplace Availabilities
-* Static Files, such as trailers or artwork
-* Title-Callable UI (TCUI)
--->
+1. In Partner Center, select your title, click **Xbox Live**, and then click **Xbox Live Settings**. The "Xbox Live configuration" page appears.
+
+2. In the **Embargo date** section, select the **Set embargo date** check box.  A date box appears: ![Setting the embargo date in Partner Center](xbox-live-setup-images/embargo1.png)
+
+3. Click the date box to expand the date: ![Setting the embargo date in Partner Center](xbox-live-setup-images/embargo2.png)
+
+4. Select the date and time.
+
+5. Click the **OK** button, and then at the bottom of the page, click the **Save** button.
+
+Note: 
+* The embargo date is set, but will not take effect until you have published.
+* The UI converts to the local browser time zone for the XBL Embargo date.
 
 ## Advanced settings
 
