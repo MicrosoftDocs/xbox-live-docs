@@ -62,26 +62,40 @@ XBL Embargo only impacts Xbox Live related features and does not impact pricing 
 
 Go to ‘Xbox Live’ and then ‘Xbox Live Settings’. Select ‘Set embargo date’ check box and a date box will appear to allow you to select the precise date and time. 
 
-![Image of setting the embargo date in Partner Center](../../images/dev-center/xbox-live-setup/xbox-live-setup-5.png)
+![Setting the embargo date in Partner Center](xbox-live-setup-images/embargo1.png)
 
-<!-- Explanation of Embargo from XDP UI.  -->
+Click on the date box to expand the date
 
-What is RETAIL embargo?
+![Setting the embargo date in Partner Center](xbox-live-setup-images/embargo2.png)
 
-RETAIL Embargo provides additional protections to help limit the product's social data exposure in RETAIL via service calls or in the Xbox UI. Only the product or its custom access policies will be able to make calls to get the embargoed data. Users playing a product during the embargo period (via pre-paid token or other means) won't show any of the below content related to the product until the specified embargo date and time is reached:
+Once you have set the date click the ‘OK” button, then click Save, the embargo date will be set but will not take effect until you have published.
 
-* Achievements & Challenges
-* Broadcasting
-* Game DVR (local capture allowed but upload prevented)
-* Game Invites
-* Game Progress
-* Hero Stats
-* Leaderboards
-* Presence
-* Real Time Activity
-* Screenshots
-* Social Sharing
-* Stats
+Note: The UI converts the local/browser time zone for XBL Embargo date.
+
+<!-- Explanation of Embargo from Partner Center UI.  -->
+
+What is RETAIL XBL embargo?
+
+RETAIL XBL Embargo provides additional protections to help limit the product's social data exposure in RETAIL via service calls or in the Xbox UI. Only the product or its custom access policies will be able to make calls to get the embargoed data. Users playing a product during the embargo period (via pre-paid token or other means) won't show any of the below content related to the product until the specified embargo date and time is reached. 
+
+Note: Calls in title will not be blocked. This could include features such as sending game invites as those calls do not go through the XBL Shell
+
+|Feature | XBL Embargoed |Configuration  |
+| --- | --- | --- |
+|Achievements & Challenges | Y | Service Configuration |
+|Stats | Y | Service Configuration |
+|Real Time Activity | Y | Service Configuration |
+|Game Invites | Y |Service Configuration  |
+|Game Progress | Y |Service Configuration  |
+|Hero Stats | Y | Service Configuration |
+|Leaderboards | Y |Service Configuration  |
+|Presence | Y |Service Configuration  |
+|Game DVR   | Y | Service Configuration |
+|Screenshots | Y | Service Configuration |
+|Broadcasting |Y  |Service Configuration  |
+|Social Sharing | Y |Service Configuration  |
+
+
 
 >[!IMPORTANT]
 >In order for ALL aspects of Embargo to be functional, both a Service Configuration and Catalog publish are required. If the Embargo date is updated after publish to RETAIL, the Service Configuration and Catalog must be republished.
