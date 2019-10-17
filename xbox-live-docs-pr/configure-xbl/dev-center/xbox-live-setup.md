@@ -90,17 +90,14 @@ Note: Calls in title will not be blocked. This could include features such as se
 |Hero Stats | Y | Service Configuration |
 |Leaderboards | Y |Service Configuration  |
 |Presence | Y |Service Configuration  |
-|Game DVR   | Y | Service Configuration |
-|Screenshots | Y | Service Configuration |
-|Broadcasting |Y  |Service Configuration  |
-|Social Sharing | Y |Service Configuration  |
+|Game DVR* | Y | Service Configuration |
+|Screenshots* | Y | Service Configuration |
+|Broadcasting* |Y  |Service Configuration  |
+|Social Sharing* | Y |Service Configuration  |
 
+![Embargo settings in Partner Center](xbox-live-setup-images/embargo3.png)
 
-
->[!IMPORTANT]
->In order for ALL aspects of Embargo to be functional, both a Service Configuration and Catalog publish are required. If the Embargo date is updated after publish to RETAIL, the Service Configuration and Catalog must be republished.
-
-Content Updates to products in RETAIL should opt-out.
+The retail embargo feature is intended for titles that have not released their base game. Content Updates to products in RETAIL should opt-out.
 
 Embargo does not apply to:
 
