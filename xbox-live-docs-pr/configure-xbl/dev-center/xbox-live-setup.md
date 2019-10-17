@@ -52,8 +52,14 @@ You can check the devices to enable them.
 
 
 ## XBL Embargo date
+<!-- This explanation of Embargo was copied from the Partner Center page UI: -->
+**What is RETAIL XBL embargo?**
 
-<!-- todo: maybe restructure this section to have all the background info first, then the numbered UI steps second -->
+RETAIL XBL Embargo provides additional protections to help limit the product's social data exposure in RETAIL via service calls or in the Xbox UI.
+Only the product or its custom access policies will be able to make calls to get the embargoed data.
+Users playing a product during the embargo period (via pre-paid token or other means) won't show any of the below content related to the product until the specified embargo date and time is reached.
+
+Note: Calls in the title will not be blocked. This could include features such as sending game invites, as those calls do not go through the XBL Shell.
 
 The date that you select determines when your Xbox Live configuration goes live to the public.
 **Important:** Even if you publish your changes to RETAIL, the changes will not go live unless the embargo date has been met.
@@ -63,8 +69,7 @@ The date that you select determines when your Xbox Live configuration goes live 
 * The retail embargo feature is intended for titles that have not released their base game. Content Updates to products in RETAIL should opt-out.
 
 XBL Embargo only impacts Xbox Live-related features, and does not impact pricing and availability.
-For more information on pricing, see [Pricing and Offers](https://docs.microsoft.com/en-us/partner-center/pricing-and-offers)
-
+For more information on pricing, see [Pricing and Offers.](https://docs.microsoft.com/en-us/partner-center/pricing-and-offers)
 
 **To set the embargo date:**
 
@@ -81,17 +86,6 @@ For more information on pricing, see [Pricing and Offers](https://docs.microsoft
 Note: 
 * The embargo date is set, but will not take effect until you have published.
 * The UI converts to the local browser time zone for the XBL Embargo date.
-
-
-<!-- This explanation of Embargo was copied from the Partner Center page UI: -->
-**What is RETAIL XBL embargo?**
-
-RETAIL XBL Embargo provides additional protections to help limit the product's social data exposure in RETAIL via service calls or in the Xbox UI.
-Only the product or its custom access policies will be able to make calls to get the embargoed data.
-Users playing a product during the embargo period (via pre-paid token or other means) won't show any of the below content related to the product until the specified embargo date and time is reached.
-
-Note: Calls in the title will not be blocked. This could include features such as sending game invites, as those calls do not go through the XBL Shell.
-
 
 **Xbox Live features that are embargoed:**
 
