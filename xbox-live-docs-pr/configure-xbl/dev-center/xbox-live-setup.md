@@ -51,7 +51,7 @@ You can check the devices to enable them.
 ![Image of the selection check boxes to select the device families in Partner Center](../../images/dev-center/xbox-live-setup/xbox-live-setup-4.png)
 
 
-## Embargo date
+## XBL Embargo date
 
 The date you select will determine when your Xbox Live configuration goes live to the public.
 It is important to note that even if you published your changes to RETAIL they will not go live unless the embargo date has been met.
