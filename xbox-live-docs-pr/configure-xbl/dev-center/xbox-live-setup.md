@@ -51,48 +51,68 @@ You can check the devices to enable them.
 ![Image of the selection check boxes to select the device families in Partner Center](../../images/dev-center/xbox-live-setup/xbox-live-setup-4.png)
 
 
-## Embargo date
+## XBL Embargo date
+<!-- This explanation of Embargo was copied from the Partner Center page UI: -->
+**What is RETAIL XBL embargo?**
 
-The date you select will determine when your Xbox Live configuration goes live to the public.
-It is important to note that even if you published your changes to RETAIL they will not go live unless the embargo date has been met.
+RETAIL XBL Embargo provides additional protections to help limit the product's social data exposure in RETAIL via service calls or in the Xbox UI.
+Only the product or its custom access policies will be able to make calls to get the embargoed data.
+Users playing a product during the embargo period (via pre-paid token or other means) won't show any of the below content related to the product until the specified embargo date and time is reached.
+
+Note: Calls in the title will not be blocked. This could include features such as sending game invites, as those calls do not go through the XBL Shell.
+
+The date that you select determines when your Xbox Live configuration goes live to the public.
+**Important:** Even if you publish your changes to RETAIL, the changes will not go live unless the embargo date has been met.
 * If you select a date in the future, the changes will become available to the public on that date.
 * If you select a date in the past, the changes will become available to the public as soon as you publish your changes to RETAIL.
+* If the Embargo date is updated/changed after you publish to RETAIL, the Service Configuration must be republished; simply clicking **OK** and **Save** will not apply the change.
+* The retail embargo feature is intended for titles that have not released their base game. Content Updates to products in RETAIL should opt-out.
 
-Click on the date-time picker and it will expand to allow you to select the precise date and time.
-Once you click **OK**, the embargo date will be set.
+XBL Embargo only impacts Xbox Live-related features, and does not impact pricing and availability.
+For more information on pricing, see [Pricing and Offers.](https://docs.microsoft.com/en-us/partner-center/pricing-and-offers)
 
-![Image of setting the embargo date in Partner Center](../../images/dev-center/xbox-live-setup/xbox-live-setup-5.png)
+**Xbox Live features that are embargoed:**
 
-<!-- Explanation of Embargo from XDP UI.  -->
+The following table indicates whether the Xbox Live feature is embargoed.
 
-What is RETAIL embargo?
+| Feature | XBL Embargoed? | Configuration |
+| :--- | :---: | :--- |
+| Achievements & Challenges | Y | Service Configuration |
+| Stats | Y | Service Configuration |
+| Real Time Activity | Y | Service Configuration |
+| Game Invites | Y | Service Configuration |
+| Game Progress | Y | Service Configuration |
+| Hero Stats | Y | Service Configuration |
+| Leaderboards | Y | Service Configuration |
+| Presence | Y | Service Configuration |
+| Game DVR | Y\* | Service Configuration |
+| Screenshots | Y\* | Service Configuration |
+| Broadcasting | Y\* | Service Configuration |
+| Social Sharing | Y\* | Service Configuration |
+|Game Hub | N| N/A|
+|Marketplace Availabilities|N |N/A |
+|Static Files, such as trailers or artwork|N |N/A |
+|Title-Callable UI (TCUI)|N |N/A |
 
-RETAIL Embargo provides additional protections to help limit the product's social data exposure in RETAIL via service calls or in the Xbox UI. Only the product or its custom access policies will be able to make calls to get the embargoed data. Users playing a product during the embargo period (via pre-paid token or other means) won't show any of the below content related to the product until the specified embargo date and time is reached:
+Notes for features marked \*:
 
-* Achievements & Challenges
-* Broadcasting
-* Game DVR (local capture allowed but upload prevented)
-* Game Invites
-* Game Progress
-* Hero Stats
-* Leaderboards
-* Presence
-* Real Time Activity
-* Screenshots
-* Social Sharing
-* Stats
+![Embargo settings in Partner Center](xbox-live-setup-images/embargo3resize.png)
 
->[!IMPORTANT]
->In order for ALL aspects of Embargo to be functional, both a Service Configuration and Catalog publish are required. If the Embargo date is updated after publish to RETAIL, the Service Configuration and Catalog must be republished.
+**To set the embargo date:**
 
-Content Updates to products in RETAIL should opt-out.
+1. In Partner Center, select your title, click **Xbox Live**, and then click **Xbox Live Settings**. The "Xbox Live configuration" page appears.
 
-Embargo does not apply to:
+2. In the **Embargo date** section, select the **Set embargo date** check box.  A date box appears: ![Setting the embargo date in Partner Center](xbox-live-setup-images/embargo1.png)
 
-* Game Hub
-* Marketplace Availabilities
-* Static Files (Trailers, Artwork, etc)
-* Title Callable UI (TCUI)
+3. Click the date box to expand the date: ![Setting the embargo date in Partner Center](xbox-live-setup-images/embargo2.png)
+
+4. Select the date and time.
+
+5. Click the **OK** button, and then at the bottom of the page, click the **Save** button.
+
+Note: 
+* The embargo date is set, but will not take effect until you have published.
+* The UI converts to the local browser time zone for the XBL Embargo date.
 
 ## Advanced settings
 
