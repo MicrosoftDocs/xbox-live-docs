@@ -70,9 +70,9 @@ Find more information at:
 
 Public Xbox Live code samples are available on GitHub.
 
-* [Samples for Xbox Live Creators Program](https://github.com/Microsoft/xbox-live-samples/tree/master/Samples/CreatorsSDK)
+* [Samples for Xbox Live Creators Program](https://github.com/Microsoft/xbox-live-samples/tree/master/CreatorsSDK)
 
-* [Samples for ID@Xbox](https://github.com/Microsoft/xbox-live-samples/tree/master/Samples/ID%40XboxSDK)
+* [Samples for ID@Xbox](https://github.com/Microsoft/xbox-live-samples/tree/master/ID%40XboxSDK)
 
 Samples that are restricted to managed partners can be found on the Games Developer Network Portal.
 
