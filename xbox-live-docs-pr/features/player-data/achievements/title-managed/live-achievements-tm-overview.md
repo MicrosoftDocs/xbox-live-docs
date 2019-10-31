@@ -1,16 +1,14 @@
 ---
-title: Overview of Achievements
-author: KevinAsgari
+title: Title-managed Achievements overview
 description: Achievements includes Gamerscore and other rewards such as digital artwork, new maps, characters, and stat boosts.
-ms.assetid: 35e055c2-3c84-4d73-bb86-fc776327d901
-ms.author: kevinasg
 ms.date: 04/04/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
+ms.assetid: 35e055c2-3c84-4d73-bb86-fc776327d901
 ms.localizationpriority: medium
 ---
 
-# Overview of Achievements
+# Title-managed Achievements overview
 
 *Achievements* includes Gamerscore and other rewards such as digital artwork, new maps, characters, and stat boosts.
 

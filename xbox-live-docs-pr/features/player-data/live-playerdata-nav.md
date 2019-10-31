@@ -1,8 +1,8 @@
 ---
-layout: LandingPage
 title: Player Data
-author: mikehoffms
 description: Achievements, player stats, leaderboards, and featured stats.
+layout: LandingPage
+author: mikehoffms
 ms.author: v-mihof
 ms.date: 03/07/2019
 ms.topic: article

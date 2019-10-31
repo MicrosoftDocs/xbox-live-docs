@@ -1,17 +1,19 @@
 ---
-title: Player Stats 2017 
-description: Player Stats 2017 tracks a player's progress and prowess in a game. With Player Stats 2017, your game owns and maintains the stats, and sends the stat values to the server for display upon request.
+title: Title-managed Stats overview
+description: User Stats track a player's progress and prowess in a game. With title-managed Stats, the game code maintains the stats, and sends the stat values to the server for display upon request.
 ms.date: 07/02/2018
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, player stats, leaderboards, stats 2017
+keywords: xbox live, xbox, games, uwp, windows 10, xbox one, player stats, leaderboards, title-managed stats
 ms.localizationpriority: medium
 ---
 
-# Player Stats 2017
+# Title-managed Stats overview
 
-When using Stats 2017, the title keeps track of the stat values, and sends the values to the service.
+Title-managed Stats was formerly known as _Stats 2017_.
 
-Stats 2017 allows developers to configure stats for individual players signifying progress and prowess in game.
+With title-managed Stats, the title keeps track of the stat values, and sends the values to the service.
+
+User Stats allows developers to configure stats for individual players signifying progress and prowess in game.
 These stats are a social tool that will allow players to be more competitive with their friends and the larger title's community, as well as showcasing some of the capabilities and challenges your title has to offer.
 
 For example, if you have a racing game with featured statistics like longest drift and best hang time, you can communicate the type of racing game your players can expect.
@@ -20,10 +22,10 @@ Seeing how players stack against their friends and the community at large will g
 Players will see featured statistics on the title's GameHub.
 Featured Stats may also periodically appear in pinned content blocks that users may add to their Home view.
 
-Stats 2017 operates by accepting stat values as key/value pairs from your title for a player and storing that stat value so that it can be displayed at a later time.
-Stats 2017 supports Xbox Live leaderboard scenarios by saving stats about individual players so they can be compared and ranked on a leaderboard later.
+Title-managed Stats operates by accepting stat values as key/value pairs from your title for a player and storing that stat value so that it can be displayed at a later time.
+Title-managed Stats supports Xbox Live leaderboard scenarios by saving stats about individual players so they can be compared and ranked on a leaderboard later.
 
-Stats 2017 accepts values sent to it with little to no validation, so it is up to your title to handle all of the logic which determines the correct value for a stat.
+Title-managed Stats accepts values sent to it with little to no validation, so it is up to your title to handle all of the logic which determines the correct value for a stat.
 
 
 ## Configured stats and featured leaderboards
@@ -55,5 +57,5 @@ Developers are limited to having no more than 20 featured stats for their title,
 
 ## See also
 
-[Configuring Featured Stats and Leaderboards 2017](../configure-xbl/dev-center/featured-stats-and-leaderboards.md)
-[Updating Stats 2017](player-stats-updating.md)
+[Configuring title-managed Featured Stats and Leaderboards](../configure-xbl/dev-center/featured-stats-and-leaderboards.md)
+[Updating title-managed Stats](player-stats-updating.md)

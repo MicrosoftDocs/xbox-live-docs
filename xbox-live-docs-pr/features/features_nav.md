@@ -33,26 +33,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../social-platform/social-platform_nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_configure-teams.svg" alt="Social features" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Social features</h3>
-                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="../data-platform/player-data_nav.md">
+        <a href="player-data/live-playerdata-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -71,18 +52,18 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../storage-platform/cloud-storage_nav.md">
+        <a href="../social-platform/social-platform_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_data-gateway.svg" alt="Cloud Storage" />
+                                <img src="https://docs.microsoft.com/media/common/i_configure-teams.svg" alt="Social features" />
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Cloud Storage</h3>
-                            <p>Connected Storage and Title Storage.</p>
+                            <h3>Social features</h3>
+                            <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
                         </div>
                     </div>
                 </div>
@@ -109,6 +90,25 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
+        <a href="../storage-platform/cloud-storage_nav.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_data-gateway.svg" alt="Cloud Storage" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Cloud Storage</h3>
+                            <p>Connected Storage and Title Storage.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
         <a href="external-services/external-services_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
@@ -119,7 +119,7 @@ ms.localizationpriority: medium
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>External Services</h3>
+                            <h3>Custom services</h3>
                             <p>Web services, relying parties, single sign-on, and access policies.</p>
                         </div>
                     </div>

@@ -1,5 +1,5 @@
 ---
-title: Achievements 2017
+title: Event-based vs. title-managed Achievements
 description: Achievements 2017 is simpler than cloud-powered achievements, using direct calling, simple configuration, and local troubleshooting.
 ms.assetid: d424db04-328d-470c-81d3-5d4b82cb792f
 ms.date: 04/04/2017
@@ -8,10 +8,14 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Achievements 2017
+# Event-based vs. title-managed Achievements
 
-Achievements 2017 is simpler than cloud-powered achievements, using direct calling, simple configuration, and local troubleshooting.
-The Achievements 2017 system enables game developers to use a direct-calling model to unlock achievements for new Xbox Live games on Xbox One, Windows 10, Windows 10 Phone, Android, and iOS.
+Event-based Achievements was previously called "cloud-powered Achievements" or "Achievements 2013".
+
+Title-managed Achievements was previously called "Achievements 2017".
+
+Title-managed Achievements is simpler than event-based Achievements, using direct calling, simple configuration, and local troubleshooting.
+The title-managed Achievements system enables game developers to use a direct-calling model to unlock achievements for new Xbox Live games on Xbox One, Windows 10, Windows 10 Phone, Android, and iOS.
 
 
 ## Introduction
@@ -25,7 +29,7 @@ In the years following the Xbox One launch, we have listened closely to game dev
     Supporting direct unlock calls on Xbox One and other current-gen Xbox platforms would ease their cross-platform game development needs and development time costs.
 
 2.  **Minimize configuration complexity.**
-    With the Cloud-Powered Achievements system, an achievement’s unlock logic must be configured in Xbox Live so that the services know how to interpret the title’s stats data and when to unlock the achievement for a user. 
+    With the Cloud-Powered Achievements system, an achievement’s unlock logic must be configured in Xbox Live so that the services know how to interpret the title’s stats data and when to unlock the achievement for a user.
     This was done via a new, "Achievement Rules" section of an achievement’s configuration that did not previously exist.
     While having unlock logic in the cloud can be quite powerful, this additional configuration requirement adds complexity into the design & creation of a title’s achievements.
 
@@ -118,96 +122,3 @@ You can safely ignore this base event.
 If your title configures an event using this base event type, those event writes will be ignored by Xbox Live.
 Titles that are built on the Cloud-Powered Achievements system should continue to configure their events by using the other base event types.
 Titles that are built on the Achievements 2017 system need not configure *any* events for achievement purposes.
-
-
-## Getting the Achievements List
-
-To get the achievements for the running title, call **XblAchievementsGetAchievementsForTitleIdAsync**, as follows.
-
-
-### Calling XblAchievementsGetAchievementsForTitleIdAsync
-
-[!INCLUDE [Achievements_GetAchievementsForTitle](../code/snippets/Achievements_GetAchievementsForTitle.md)]
-
-
-### Callback for XblAchievementsGetAchievementsForTitleIdAsync
-
-[!INCLUDE [Achievements_GetAchievementsForTitle_Callback](../code/snippets/Achievements_GetAchievementsForTitle_Callback.md)]
-
-
-## Getting the next page of Achievements results
-
-To get the next page of Achievements, call **XblAchievementsResultGetNextAsync**, as follows.
-
-### Calling XblAchievementsResultGetNextAsync
-
-[!INCLUDE [Achievements_GetNextResultsPage](../code/snippets/Achievements_GetNextResultsPage.md)]
-
-
-### Callback for XblAchievementsResultGetNextAsync
-
-[!INCLUDE [Achievements_GetNextResultsPage_Callback](../code/snippets/Achievements_GetNextResultsPage_Callback.md)]
-
-
-
-## Getting a single Achievement
-
-To get a single Achievement, call **XblAchievementsGetAchievementAsync**, as follows.
-
-
-### Calling XblAchievementsGetAchievementAsync
-
-[!INCLUDE [Achievements_GetAchievement](../code/snippets/Achievements_GetAchievement.md)]
-
-
-### Callback for XblAchievementsGetAchievementAsync
-
-[!INCLUDE [Achievements_GetAchievement_Callback](../code/snippets/Achievements_GetAchievement_Callback.md)]
-
-
-## Unlocking an achievement
-
-Once your achievements are configured via Partner Center and published to your dev sandbox, your title can unlock them by calling **XblAchievementsUpdateAchievementAsync**.
-
-See also [Configuring Achievements 2017 in Partner Center](../configure-xbl/dev-center/achievements-in-udc.md).
-
-To unlock an achievement, set the *percentComplete* argument of **XblAchievementsUpdateAchievementAsync** to 100.
-
-If the user is online, the request will be immediately sent to the Xbox Live Achievements service and will trigger the following user experiences:
-
--   The user will receive an Achievement Unlocked notification.
-
--   The specified achievement will appear as Unlocked in the user’s achievement list for the title.
-
--   The unlocked achievement will be added to the user’s activity feed.
-
-> *Note: There will be no visible difference in user experiences for achievements that use the Achievements 2017 system and the Cloud-Powered Achievements.*
-
-If the user is offline, the unlock request will be queued locally on the user’s device. When the user’s device has reestablished network connectivity, the request will automatically be sent to the Achievements service – note: no action is required from the game to trigger this – and the above user experiences will occur as described.
-
-The code in the next section shows how to call **XblAchievementsUpdateAchievementAsync**.
-
-
-## Updating completion progress for an Achievement
-
-To update a user’s progress toward unlocking an achievement, set the *percentComplete* argument of **XblAchievementsUpdateAchievementAsync** to the appropriate whole number between 1-100.
-
-An achievement’s progress can only increase.
-If *percentComplete* is set to a number less than the achievement’s last *percentComplete* value, the update will be ignored.
-For example, if the achievement’s *percentComplete* had previously been set to 75, sending an update with a value of 25 will be ignored and the achievement will still be displayed as 75% complete.
-
-If *percentComplete* is set to 100, the achievement will unlock.
-
-If *percentComplete* is set to a number greater than 100, the API will behave as if you set it to 100.
-
-The following code shows how to call **XblAchievementsUpdateAchievementAsync**.
-
-
-### Calling XblAchievementsUpdateAchievementAsync
-
-[!INCLUDE [Achievements_UpdateAchievement](../code/snippets/Achievements_UpdateAchievement.md)]
-
-
-### Callback for XblAchievementsUpdateAchievementAsync
-
-[!INCLUDE [Achievements_UpdateAchievement_Callback](../code/snippets/Achievements_UpdateAchievement_Callback.md)]

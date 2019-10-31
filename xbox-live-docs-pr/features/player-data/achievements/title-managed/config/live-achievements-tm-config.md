@@ -1,14 +1,12 @@
 ---
-title: Configuring Achievements 2017 in Partner Center
+title: Title-managed Achievements portal config
 description: Configuring Achievements in Partner Center, to deliver rewards.
-ms.assetid:
 ms.date: 11/10/2017
 ms.topic: article
 ms.localizationpriority: medium
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, udc, universal developer center
 ---
 
-# Configuring Achievements 2017 in Partner Center
+# Title-managed Achievements portal config
 
 > [!IMPORTANT]
 > Achievements are only applicable to Managed Partners; games participating in the Xbox Live Creators Program are not supported.

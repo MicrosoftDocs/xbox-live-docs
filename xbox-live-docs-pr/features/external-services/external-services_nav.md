@@ -1,6 +1,6 @@
 ---
+title: External services
 layout: LandingPage
-title: External Services
 author: mikehoffms
 description: Web services, relying parties, single sign-on, and access policies.
 ms.author: v-mihof
@@ -10,7 +10,7 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h1>External Services</h1>
+<h1>External services</h1>
 
 <ul class="cardsF panelContent cols cols2">
     <li>

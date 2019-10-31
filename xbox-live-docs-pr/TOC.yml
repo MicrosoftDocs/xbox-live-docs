@@ -175,26 +175,95 @@
                 - name: Configuring Privileges in Partner Center
                   href: configure-xbl/dev-center/privileges.md
         - name: Player Data
-          href: data-platform/player-data_nav.md
+          href: features/player-data/live-playerdata-nav.md
           items: 
-            - name: "Player Data: Stats, Leaderboards, and Achievements"
-              href: data-platform/data-platform-for-stats-leaderboards-achievements.md
+            - name: Player Data overview
+              href: features/player-data/live-playerdata-overview.md
             - name: Designing Xbox Live Experiences
-              href: data-platform/designing-xbox-live-experiences.md
+              href: features/player-data/live-designing-experiences.md
+            - name: "Player Data: Stats, Leaderboards, and Achievements"
+              href: features/player-data/data-platform-for-stats-leaderboards-achievements.md
+            - name: Stats & Leaderboards
+              href: features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md
+              items: 
+                - name: Leaderboards overview
+                  href: features/player-data/stats-leaderboards/live-leaderboards-overview.md
+                - name: Event-based vs. title-managed Stats
+                  href: features/player-data/stats-leaderboards/live-stats-eb-vs-tm.md
+                - name: Event-based Stats & Leaderboards
+                  href: features/player-data/stats-leaderboards/event-based/live-statslb-eb-nav.md
+                  items: 
+                    - name: Event-based Player Data overview
+                      href: features/player-data/stats-leaderboards/event-based/live-how-data-platform-works.md
+                    - name: Event-based Stats & Leaderboards concepts
+                      href: features/player-data/stats-leaderboards/event-based/concepts/live-statslb-eb-concep-nav.md
+                      items: 
+                        - name: User Stats overview
+                          href: features/player-data/stats-leaderboards/event-based/concepts/live-stats-overview.md
+                        - name: Event-based Stats overview
+                          href: features/player-data/stats-leaderboards/event-based/concepts/live-stats-eb-overview.md
+                    - name: Event-based Stats & Leaderboards configuration
+                      href: features/player-data/stats-leaderboards/event-based/config/live-statslb-eb-config-nav.md
+                      items: 
+                        - name: First glance for event-based Stats for Xbox One
+                          href: features/player-data/stats-leaderboards/event-based/config/live-stats-first-glance.md
+                        - name: Event-based Stat rules overview
+                          href: features/player-data/stats-leaderboards/event-based/config/live-user-stat-rules.md
+                        - name: User Stats scenarios
+                          href: features/player-data/stats-leaderboards/event-based/config/live-user-stats-scenarios.md
+                        - name: Portal configuration of stat change notifications
+                          href: features/player-data/stats-leaderboards/event-based/config/live-stat-change-notif-portal.md
+                        - name: Adding a field value to a stat rule
+                          href: features/player-data/stats-leaderboards/event-based/config/live-stat-name-value.md
+                        - name: Portal configuration of event-based Stats
+                          href: features/player-data/stats-leaderboards/event-based/config/live-stats-eb-portal.md
+                        - name: Portal configuration of event-based Leaderboards
+                          href: features/player-data/stats-leaderboards/event-based/config/live-eb-leaderboards-portal.md
+                    - name: Event-based Stats & Leaderboards how-to's
+                      href: features/player-data/stats-leaderboards/event-based/how-to/live-statslb-eb-howto-nav.md
+                      items: 
+                        - name: Example code for event-based Stats
+                          href: features/player-data/stats-leaderboards/event-based/how-to/live-stats-eb-code.md
+                        - name: Example code for event-based Leaderboards
+                          href: features/player-data/stats-leaderboards/event-based/how-to/live-eb-leaderboards-apis.md
+                        - name: Xbox Common Events Tool (xcetool.exe)
+                          href: features/player-data/stats-leaderboards/event-based/how-to/live-xbox-common-events-tool.md
+                    - name: Events
+                      href: features/player-data/stats-leaderboards/event-based/events/live-events-nav.md
+                      items: 
+                        - name: Events overview
+                          href: features/player-data/stats-leaderboards/event-based/events/live-game-events.md
+                        - name: Events configuration
+                          href: features/player-data/stats-leaderboards/event-based/events/config/live-events-config-nav.md
+                          items: 
+                            - name: Portal configuration of events
+                              href: features/player-data/stats-leaderboards/event-based/events/config/live-events-portal.md
+                            - name: Download the Events Manifest file from Partner Center
+                              href: features/player-data/stats-leaderboards/event-based/events/config/live-downloading-events-manifest.md
+
+                - name: Title-managed Stats & Leaderboards
+                  href: features/player-data/stats-leaderboards/title-managed/live-statslb-tm-nav.md
+                  items: 
+                    - name: Title-managed Stats overview
+                      href: features/player-data/stats-leaderboards/title-managed/live-stats2017.md
+                    - name: Title-managed Stats & Leaderboards portal config
+                      href: features/player-data/stats-leaderboards/title-managed/config/live-statslb-tm-config-nav.md
+                      items: 
+                        - name: Portal configuration of title-managed Featured Stats & Leaderboards
+                          href: features/player-data/stats-leaderboards/title-managed/config/live-featured-stats-and-leaderboards.md
+
+
             - name: Player Stats
               href: leaderboards-and-stats-2017/player-stats_nav.md
               items: 
                 - name: Player Stats 2013
                   href: leaderboards-and-stats-2017/player-stats-2013.md
-                - name: Using player stats
-                  href: leaderboards-and-stats-2017/using-player-stats.md
                 - name: Player Stats 2017
                   href: leaderboards-and-stats-2017/stats-2017_nav.md
                   items: 
-                    - name: Player Stats 2017
-                      href: leaderboards-and-stats-2017/stats2017.md
                     - name: Updating Player Stats 2017
                       href: leaderboards-and-stats-2017/player-stats-updating.md
+
             - name: Leaderboards
               href: leaderboards-and-stats-2017/leaderboards_nav.md
               items: 
@@ -206,22 +275,65 @@
                   href: get-started-with-creators/setup-leaderboard-example-scene.md
                 - name: Scripting a leaderboard in Unity
                   href: get-started-with-creators/unity-leaderboard-from-scratch.md
-            - name: Featured Stats
-              href: features/data/featured-stats/featured-stats_nav.md
-              items: 
-                - name: Configuring Featured Stats and Leaderboards 2017 in Partner Center
-                  href: configure-xbl/dev-center/featured-stats-and-leaderboards.md
+
+
+
+                - name: Featured Stats
+                  href: features/player-data/stats-leaderboards/featured-stats/live-featured-stats-nav.md
+                  items: 
+                    - name: Featured Stats overview
+                      href: features/player-data/stats-leaderboards/featured-stats/live-featuredstats-overview.md
+                    - name: Featured Stats portal config
+                      href: features/player-data/featured-stats/config/live-featured-stats-config-nav.md
+                      items: 
+                        - name: Portal configuration of event-based Featured Stats
+                          href: features/player-data/featured-stats/config/live-featuredstats-eb-portal.md
+                        - name: Portal configuration of title-managed Featured Stats
+                          href: features/player-data/featured-stats/config/live-featuredstats-tm-portal.md
             - name: Achievements
-              href: achievements-2017/achievements_nav.md
+              href: features/player-data/achievements/live-achievements-nav.md
               items: 
-                - name: Overview of Achievements
-                  href: achievements-2017/achievements-overview.md
-                - name: Achievements 2017
-                  href: achievements-2017/simplified-achievements.md
-                - name: Configuring Achievements 2017 in Partner Center
-                  href: configure-xbl/dev-center/achievements-in-udc.md
-                - name: Achievement Rewards
-                  href: achievements-2017/achievement-rewards.md
+                - name: Event-based vs. title-managed Achievements
+                  href: features/player-data/achievements/live-achievements-eb-vs-tm.md
+                - name: Event-based Achievements
+                  href: features/player-data/achievements/event-based/live-achievements-eb-nav.md
+                  items: 
+                    - name: Event-based Achievements overview
+                      href: features/player-data/achievements/event-based/live-achievements-eb-overview.md
+                    - name: Event-based Achievements portal config
+                      href: features/player-data/achievements/event-based/config/live-achievements-eb-config-nav.md
+                      items: 
+                        - name: Event-based Achievements portal config
+                          href: features/player-data/achievements/event-based/config/live-achievements-eb-config.md
+                        - name: Scenarios for creating event-based Achievements
+                          href: features/player-data/achievements/event-based/config/live-achievements-eb-scenarios.md
+                        - name: Challenges portal config
+                          href: features/player-data/achievements/event-based/config/live-challenges-eb-config.md
+                - name: Title-managed Achievements
+                  href: features/player-data/achievements/title-managed/live-achievements-tm-nav.md
+                  items: 
+                    - name: Title-managed Achievements overview
+                      href: features/player-data/achievements/title-managed/live-achievements-tm-overview.md
+                    - name: Title-managed Achievements concepts
+                      href: features/player-data/achievements/title-managed/concepts/live-achievements-tm-concepts-nav.md
+                      items: 
+                        - name: Achievement Rewards
+                          href: features/player-data/achievements/title-managed/concepts/live-achievement-rewards.md
+                    - name: Title-managed Achievements portal config
+                      href: features/player-data/achievements/title-managed/config/live-achievements-tm-config-nav.md
+                      items: 
+                        - name: Title-managed Achievements portal config
+                          href: features/player-data/achievements/title-managed/config/live-achievements-tm-config.md
+                    - name: Title-managed Achievements how-to's
+                      href: features/player-data/achievements/title-managed/how-to/live-achievements-howto-nav.md
+                      items: 
+                        - name: Getting Achievements
+                          href: features/player-data/achievements/title-managed/how-to/live-how-to-get-achievements.md
+                        - name: Updating Achievements
+                          href: features/player-data/achievements/title-managed/how-to/live-how-to-update-achievements.md
+
+
+
         - name: Social features
           href: social-platform/social-platform_nav.md
           items: 
@@ -482,10 +594,10 @@
                   href: storage-platform/xbox-live-title-storage/storing-jsonblobs.md
                 - name: Reading a JSON blob from Title Storage
                   href: storage-platform/xbox-live-title-storage/reading-jsonblobs.md
-        - name: External Services
+        - name: Custom services
           href: features/external-services/external-services_nav.md
           items: 
-            - name: Web Services
+            - name: Web services
               href: features/external-services/web-services/web-services_nav.md
               items: 
                 - name: Setting up Web Services at Partner Center
