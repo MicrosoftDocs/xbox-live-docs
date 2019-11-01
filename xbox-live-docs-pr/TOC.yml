@@ -196,7 +196,7 @@
                     - name: Event-based Stats overview
                       href: features/player-data/stats-leaderboards/event-based/live-stats-eb-overview.md
                     - name: Event-based Leaderboards overview
-                      href: features/player-data/stats-leaderboards/live-leaderboards-eb-overview.md
+                      href: features/player-data/stats-leaderboards/event-based/live-leaderboards-eb-overview.md
                     - name: Event-based Stats & Leaderboards configuration
                       href: features/player-data/stats-leaderboards/event-based/config/live-statslb-eb-config-nav.md
                       items: 
@@ -269,12 +269,12 @@
                     - name: Featured Stats overview
                       href: features/player-data/stats-leaderboards/featured-stats/live-featuredstats-overview.md
                     - name: Featured Stats portal config
-                      href: features/player-data/featured-stats/config/live-featured-stats-config-nav.md
+                      href: features/player-data/stats-leaderboards/featured-stats/config/live-featured-stats-config-nav.md
                       items: 
                         - name: Portal configuration of event-based Featured Stats
-                          href: features/player-data/featured-stats/config/live-featuredstats-eb-portal.md
+                          href: features/player-data/stats-leaderboards/featured-stats/config/live-featuredstats-eb-portal.md
                         - name: Portal configuration of title-managed Featured Stats
-                          href: features/player-data/featured-stats/config/live-featuredstats-tm-portal.md
+                          href: features/player-data/stats-leaderboards/featured-stats/config/live-featuredstats-tm-portal.md
             - name: Achievements
               href: features/player-data/achievements/live-achievements-nav.md
               items: 

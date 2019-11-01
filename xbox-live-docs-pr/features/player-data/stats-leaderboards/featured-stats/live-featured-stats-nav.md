@@ -1,6 +1,7 @@
 ---
 title: Featured Stats
 description: Featured Stats.
+layout: LandingPage
 kindex: Featured Stats
 author: v-mihof
 ms.author: v-mihof
@@ -20,3 +21,8 @@ permalink: en-us/games/xbox/docs/gxdk/live-featured-stats-nav.html
 | [__](__) | __ |
 | [__](__) | __ |
 | [__](__) | __ | -->
+
+
+### See also
+
+* [Designing Xbox Live Experiences](../../../data-platform/designing-xbox-live-experiences.md)
