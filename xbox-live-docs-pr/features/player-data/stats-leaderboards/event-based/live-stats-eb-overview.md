@@ -24,7 +24,7 @@ With event-based Stats, the Xbox Live Service owns and maintains the stats; stat
 
 Event-based Stats is for Managed Partners only, not Creators.
 
-<!-- See [User Stats for Data Platform 2013](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/user-stats).
+<!-- See [User Stats for Data Platform 2013](https://developer.microsoft.com/games/xbox/docs/xdk/user-stats).
 This is an external link, to the "Xbox One XDK" documentation. -->
 
 <!-- the remainder of this article is from old secure portal article "User Stats for Data Platform 2013" (the old link above): -->

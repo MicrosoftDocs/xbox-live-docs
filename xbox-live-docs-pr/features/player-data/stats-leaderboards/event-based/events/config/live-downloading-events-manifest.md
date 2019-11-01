@@ -56,4 +56,4 @@ You then use the event manifest file, along with the **Xbox Common Events Tool**
 
 [Xbox Common Events Tool (xcetool.exe)](live-xbox-common-events-tool.md)
 
-For an intro to the Xbox Live service configuration, see [Xbox Live service configuration](https://docs.microsoft.com/en-us/windows/uwp/xbox-live/xbox-live-service-configuration) (external link, to public docs).
+For an intro to the Xbox Live service configuration, see [Xbox Live service configuration](https://docs.microsoft.com/windows/uwp/xbox-live/xbox-live-service-configuration) (external link, to public docs).

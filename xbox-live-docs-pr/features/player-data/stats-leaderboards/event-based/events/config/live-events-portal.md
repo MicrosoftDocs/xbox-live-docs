@@ -24,7 +24,7 @@ article copied from secure docs portal "Events (Partner Center)"
 
 This topic describes the procedures for adding and changing events in the Partner Center service configuration for a title. If a title is using event-based Stats, events are the key data sent by the title to the Xbox Live service to update stats and leaderboards and to unlock achievements.
 
-For an intro to the Xbox Live service configuration, see [Xbox Live service configuration](https://docs.microsoft.com/en-us/windows/uwp/xbox-live/xbox-live-service-configuration).
+For an intro to the Xbox Live service configuration, see [Xbox Live service configuration](https://docs.microsoft.com/windows/uwp/xbox-live/xbox-live-service-configuration).
 
 <!-- For an intro to data platform 2013, see the XDK topic, **How the Xbox Live data platform 2013 works**. -->
 

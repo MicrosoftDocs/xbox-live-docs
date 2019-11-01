@@ -14,7 +14,7 @@ permalink: en-us/games/xbox/docs/gxdk/live-how-data-platform-works.html
 # Event-based Player Data overview
 
 <!-- 
-This article is copied from the old secure portal article "How the Xbox Live data platform 2013 works"  https://developer.microsoft.com/en-us/games/xbox/docs/xdk/how-data-platform-works
+This article is copied from the old secure portal article "How the Xbox Live data platform 2013 works"  https://developer.microsoft.com/games/xbox/docs/xdk/how-data-platform-works
 Original wording:
 Note This article only applies if you are using Stats 2013 or Achievements 2013.
 This topic discuss the basic concepts required to understand how to best use the Xbox Live data platform 2013 service.
@@ -44,4 +44,4 @@ You title can request the stats, achievements, leaderboards, etc., from the data
 
 Before your title can use the Xbox Live services, you must create a service configuration for your title. The service configuration lets the Xbox Live service know how your title will use the service. For the data platform, the service configuration defines the events that your title can send, along with any data that is associated with those events. The configuration also defines your title’s stats, achievements, leaderboards, challenges, and the rules that affect them.
 
-<!-- If you are using Partner Center to create your service configuration, you can find more information at [Configure data platform 2013 in Dev Center](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/dev-center-configure-data-platform-2013). -->
+<!-- If you are using Partner Center to create your service configuration, you can find more information at [Configure data platform 2013 in Dev Center](https://developer.microsoft.com/games/xbox/docs/xdk/dev-center-configure-data-platform-2013). -->

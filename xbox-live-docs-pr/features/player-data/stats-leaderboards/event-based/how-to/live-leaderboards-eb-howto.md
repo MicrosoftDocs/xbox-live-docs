@@ -180,7 +180,7 @@ asyncTask = leaderboardService.get_leaderboard(
 
 ### 2. Set up a callback
 
-You can set up a [continuation task](https://msdn.microsoft.com/en-us/library/dd492427(v=vs.110).aspx#continuations) to be called once the leaderboard results are returned, as follows:
+You can set up a [continuation task](https://msdn.microsoft.com/library/dd492427(v=vs.110).aspx#continuations) to be called once the leaderboard results are returned, as follows:
 
 ```cpp
 asyncTask.then([this](

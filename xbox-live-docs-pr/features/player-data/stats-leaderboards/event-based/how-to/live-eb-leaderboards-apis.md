@@ -15,7 +15,7 @@ permalink: en-us/games/xbox/docs/gxdk/live-eb-leaderboards-apis.html
 
 <!-- 
 From "Xbox Live" TOC: "Overview of leaderboards" aka "Leaderboards"
-https://review.docs.microsoft.com/en-us/gaming/xbox-live/leaderboards-and-stats-2017/leaderboards
+https://review.docs.microsoft.com/gaming/xbox-live/leaderboards-and-stats-2017/leaderboards
 copied only the "2013" sections
  -->
 This article describes how to make your first API calls for Leaderboards.
@@ -145,7 +145,7 @@ asyncTask = leaderboardService.get_leaderboard(
 
 ### 2. Set up a callback
 
-You can set up a [continuation task](https://msdn.microsoft.com/en-us/library/dd492427(v=vs.110).aspx#continuations) to be called once the leaderboard results are returned, as follows:
+You can set up a [continuation task](https://msdn.microsoft.com/library/dd492427(v=vs.110).aspx#continuations) to be called once the leaderboard results are returned, as follows:
 
 ```cpp
 asyncTask.then([this](

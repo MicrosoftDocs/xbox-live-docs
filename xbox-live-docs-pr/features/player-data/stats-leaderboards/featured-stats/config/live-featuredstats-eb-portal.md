@@ -18,7 +18,7 @@ permalink: en-us/games/xbox/docs/gxdk/live-featuredstats-eb-portal.html
 
 **Note:** This topic describes the features available only with proper permissions. For details, talk to your account manager or another contact at Microsoft.
 
-This topic describes the procedures for adding and changing the featured stats in the Partner Center service configuration for a title. For an intro to the Xbox Live service configuration, see [Xbox Live service configuration](https://docs.microsoft.com/en-us/gaming/xbox-live/xbox-live-service-configuration).
+This topic describes the procedures for adding and changing the featured stats in the Partner Center service configuration for a title. For an intro to the Xbox Live service configuration, see [Xbox Live service configuration](https://docs.microsoft.com/gaming/xbox-live/xbox-live-service-configuration).
 
 Sections in this topic:
 
@@ -45,7 +45,7 @@ Each featured stat includes a localizable display name, a sort order, and a sequ
 
 ## Configure featured stats
 
-1. Sign in with your account on [Partner Center](https://partner.microsoft.com/en-us/dashboard/windows/overview).
+1. Sign in with your account on [Partner Center](https://partner.microsoft.com/dashboard/windows/overview).
 
 2. Select your title, and go to **Services** > **Xbox Live**.
 

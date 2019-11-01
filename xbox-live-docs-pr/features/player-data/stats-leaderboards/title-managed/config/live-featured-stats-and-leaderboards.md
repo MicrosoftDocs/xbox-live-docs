@@ -12,7 +12,7 @@ keywords: Xbox Live, Xbox, games, uwp, windows 10, Xbox one, Featured Stats and 
 
 <!--
 this article =
-https://docs.microsoft.com/en-us/gaming/xbox-live/
+https://docs.microsoft.com/gaming/xbox-live/
 configure-xbl/dev-center/featured-stats-and-leaderboards
  -->
 

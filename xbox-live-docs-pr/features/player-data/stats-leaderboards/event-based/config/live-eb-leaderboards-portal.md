@@ -15,7 +15,7 @@ permalink: en-us/games/xbox/docs/gxdk/live-eb-leaderboards-portal.html
 
 <!-- 
 from "Xbox One XDK" TOC: "Configure leaderboards in Windows Dev Center"
-https://developer.microsoft.com/en-us/games/xbox/docs/xdk/windows-configure-leaderboards-2013
+https://developer.microsoft.com/games/xbox/docs/xdk/windows-configure-leaderboards-2013
  -->
 
 *Note:* This topic describes the features available only with proper permissions. For details, talk to your account manager or another contact at Microsoft.
@@ -24,11 +24,11 @@ This topic describes the procedures for configuring leaderboards in the Dev Cent
 
 <!-- 
 = lb overview article:
-For info on leaderboards that use data platform 2013, see Leaderboards. https://developer.microsoft.com/en-us/games/xbox/docs/xdk/leaderboards-2013 
+For info on leaderboards that use data platform 2013, see Leaderboards. https://developer.microsoft.com/games/xbox/docs/xdk/leaderboards-2013 
 -->
 
 <!-- 
-For an intro to the Xbox Live service configuration, see Xbox Live service configuration. https://docs.microsoft.com/en-us/windows/uwp/xbox-live/xbox-live-service-configuration 
+For an intro to the Xbox Live service configuration, see Xbox Live service configuration. https://docs.microsoft.com/windows/uwp/xbox-live/xbox-live-service-configuration 
 -->
 
 

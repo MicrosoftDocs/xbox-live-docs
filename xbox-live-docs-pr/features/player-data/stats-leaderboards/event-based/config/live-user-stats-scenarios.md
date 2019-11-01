@@ -13,7 +13,7 @@ permalink: en-us/games/xbox/docs/gxdk/live-user-stats-scenarios.html
 
 # User Stats scenarios
 
-<!-- from old portal "User Stats Scenarios" article; https://developer.microsoft.com/en-us/games/xbox/docs/xdk/user-stats-scenarios -->
+<!-- from old portal "User Stats Scenarios" article; https://developer.microsoft.com/games/xbox/docs/xdk/user-stats-scenarios -->
 
 The following are some common scenarios for creating user statistics, when using event-based Stats.
 

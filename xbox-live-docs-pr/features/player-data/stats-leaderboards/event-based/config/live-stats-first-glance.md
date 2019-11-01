@@ -24,7 +24,7 @@ The following examples use Partner Center to configure the Xbox Live experience 
 
 After your company has an agreement to create products for Xbox One, you can begin to configure your content in Partner Center. If your company is not yet set up with Partner Center access and you are developing a game, contact your Microsoft account manager; if you are developing an application, contact Xbox App Partner Requests (xboxapps@microsoft.com); and if you are working with the ID@Xbox program contact ID Setup (idsetup@microsoft.com).
 
-The ID@Xbox program enables qualified game developers of all sizes to unleash their creativity by self-publishing digital games on Xbox One, giving studios the tools and support needed to maximize their success. Visit [http://www.xbox.com/en-us/Developers](http://www.xbox.com/en-us/Developers) to learn more.
+The ID@Xbox program enables qualified game developers of all sizes to unleash their creativity by self-publishing digital games on Xbox One, giving studios the tools and support needed to maximize their success. Visit [http://www.xbox.com/Developers](http://www.xbox.com/Developers) to learn more.
 
 Once you have access to Partner Center, you will need Microsoft to create a product group for your game. Your Microsoft account manager can assist with this process.
 

@@ -59,4 +59,4 @@ As of July 2019, the following is the most important code for sending events:
 
 See [user_statistics_c header](user_statistics_c_members.md).
 
-See the [Xbox Live Services RESTful Reference](https://docs.microsoft.com/en-us/gaming/xbox-live/xbox-live-rest/atoc-xboxlivews-reference).
+See the [Xbox Live Services RESTful Reference](https://docs.microsoft.com/gaming/xbox-live/xbox-live-rest/atoc-xboxlivews-reference).

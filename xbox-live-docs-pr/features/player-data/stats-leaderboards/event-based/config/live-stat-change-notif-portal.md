@@ -21,13 +21,13 @@ This article describes the procedures for subscribing to stat change notificatio
 
 Stat change notifications are issued by using the Real-Time Activity (RTA) feature. Because constantly polling the service for the value of a player stat is inefficient, RTA is used to notify a title when a subscribed stat value has changed.
 
-For an introduction to service configuration, see [Xbox Live service configuration](https://docs.microsoft.com/en-us/gaming/xbox-live/xbox-live-service-configuration) (external link to public docs).
+For an introduction to service configuration, see [Xbox Live service configuration](https://docs.microsoft.com/gaming/xbox-live/xbox-live-service-configuration) (external link to public docs).
 
-For info on RTA, see [Real-Time Activity Service](https://docs.microsoft.com/en-us/gaming/xbox-live/real-time-activity-service/real-time-activity-service_nav) (external link to public docs).
+For info on RTA, see [Real-Time Activity Service](https://docs.microsoft.com/gaming/xbox-live/real-time-activity-service/real-time-activity-service_nav) (external link to public docs).
 <!--
 todo: 
 link to local article instead
-global search on: https://docs.microsoft.com/en-us/gaming/xbox-live/
+global search on: https://docs.microsoft.com/gaming/xbox-live/
 -->
 
 Sections in this article:
@@ -76,7 +76,7 @@ For details, see [Portal configuration of event-based Stats](live-stats-eb-porta
 4. When done adding the stat change notifications, click **Save** to save your changes, or click **Cancel** to discard them.
 
 For your title to handle stat change notifications, you must add code to subscribe to the stat change notification by using the RTA service.
-For more info, see [Programming the RTA service via C++ APIs](https://docs.microsoft.com/en-us/gaming/xbox-live/real-time-activity-service/programming-the-real-time-activity-service) (external link to public docs).
+For more info, see [Programming the RTA service via C++ APIs](https://docs.microsoft.com/gaming/xbox-live/real-time-activity-service/programming-the-real-time-activity-service) (external link to public docs).
 
 
 <a id="modify-stat-change-notifications"></a>

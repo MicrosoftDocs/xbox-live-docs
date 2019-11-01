@@ -13,7 +13,7 @@ permalink: en-us/games/xbox/docs/gxdk/live-user-stat-rules.html
 
 # Event-based Stat rules overview
 
-<!-- from old portal "User Stat Rules" article; https://developer.microsoft.com/en-us/games/xbox/docs/xdk/user-stats-rules -->
+<!-- from old portal "User Stat Rules" article; https://developer.microsoft.com/games/xbox/docs/xdk/user-stats-rules -->
 
 Stat rules are used for event-based Stats, not for title-managed Stats.
 

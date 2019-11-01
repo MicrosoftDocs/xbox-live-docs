@@ -14,11 +14,11 @@ permalink: en-us/games/xbox/docs/gxdk/live-game-events.html
 
 # Events overview
 
-<!-- from old portal "Game events" article; https://developer.microsoft.com/en-us/games/xbox/docs/xdk/game-events -->
+<!-- from old portal "Game events" article; https://developer.microsoft.com/games/xbox/docs/xdk/game-events -->
 
 **Note:** This article only applies if you are using event-based User Stats, not title-managed User Stats.
 
-**Note** Application Insights has been deprecated. Please use [fiddler](https://docs.microsoft.com/en-us/windows/uwp/xbox-live/using-xbox-live/troubleshooting/how-to-set-up-fiddler-for-debugging) to monitor events.
+**Note** Application Insights has been deprecated. Please use [fiddler](https://docs.microsoft.com/windows/uwp/xbox-live/using-xbox-live/troubleshooting/how-to-set-up-fiddler-for-debugging) to monitor events.
 
 
 ## Writing game events to the Xbox Live User Statistics service
@@ -172,7 +172,7 @@ This would generate an `events.h` file you can include in your project. You can 
 
 This section is most relevant if you are not using the manifest file for UWP apps. But is still worth reading even if you are using the manifest file, since it will help you better understand what is in the generated header from XCETool.
 
-When calling `WriteInGameEvent` for the purposes of events on Xbox Live, there is no difference if you pass an event property as a dimension or measurement. These differences are only relevant if you are analyzing the events on Application Insights for your telemetry - this has no impact on the gameplay experience. There is more information at [Application Insights API for custom events and metrics](https://azure.microsoft.com/en-us/documentation/articles/app-insights-api-custom-events-metrics/).
+When calling `WriteInGameEvent` for the purposes of events on Xbox Live, there is no difference if you pass an event property as a dimension or measurement. These differences are only relevant if you are analyzing the events on Application Insights for your telemetry - this has no impact on the gameplay experience. There is more information at [Application Insights API for custom events and metrics](https://azure.microsoft.com/documentation/articles/app-insights-api-custom-events-metrics/).
 
 Dimensions can be used to filter or pivot on your events. Eg: Show users to completed Level 6, or show all “Enemies Killed” events where the weapon used was “Minigun”.
 
@@ -199,7 +199,7 @@ In your SDK install in the Tools directory, use the SwitchSandbox script to ensu
 
 #### View Fiddler logs
 
-First ensure you have setup Fiddler according to the instructions in [How to set up Fiddler for debugging](https://docs.microsoft.com/en-us/windows/uwp/xbox-live/using-xbox-live/troubleshooting/how-to-set-up-fiddler-for-debugging).
+First ensure you have setup Fiddler according to the instructions in [How to set up Fiddler for debugging](https://docs.microsoft.com/windows/uwp/xbox-live/using-xbox-live/troubleshooting/how-to-set-up-fiddler-for-debugging).
 
 Fiddler will not show events by default since these are processed by the WinHTTP stack. You can route WinHTTP events to Fiddler by using the `WinHttpFiddlerOn` script in your SDK install in the Tools directory. Be sure to run the `WinHttpFiddler Off` script afterwards. **You must run the scripts as an administrator. You can do this by right-clicking on them and selecting “Run as administrator”.**
 
@@ -216,11 +216,11 @@ You can verify the event name is what you expect. Your title ID will be prepende
 
 ### Verify events with Application Insights
 
-**Note** Application Insights has been deprecated. Please use [fiddler](https://docs.microsoft.com/en-us/windows/uwp/xbox-live/using-xbox-live/troubleshooting/how-to-set-up-fiddler-for-debugging) to monitor events.
+**Note** Application Insights has been deprecated. Please use [fiddler](https://docs.microsoft.com/windows/uwp/xbox-live/using-xbox-live/troubleshooting/how-to-set-up-fiddler-for-debugging) to monitor events.
 
-Application Insights is an analytics and telemetry solution provided by Microsoft. More information is available at [What is Application Insights?](https://azure.microsoft.com/en-us/documentation/articles/app-insights-overview/). The Xbox Live API integrates with Application Insights so you can see your events being sent in real-time.
+Application Insights is an analytics and telemetry solution provided by Microsoft. More information is available at [What is Application Insights?](https://azure.microsoft.com/documentation/articles/app-insights-overview/). The Xbox Live API integrates with Application Insights so you can see your events being sent in real-time.
 
-For instructions on how setup Application Insights for your title, please see [Application Insights](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/application-insights).
+For instructions on how setup Application Insights for your title, please see [Application Insights](https://developer.microsoft.com/games/xbox/docs/xdk/application-insights).
 
 You can use this to debug, since if you don’t see your events show up in Application Insights, you will not get any Achievements unlocked, stats updated, etc.
 

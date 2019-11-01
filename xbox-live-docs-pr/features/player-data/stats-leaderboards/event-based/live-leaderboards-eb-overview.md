@@ -19,10 +19,10 @@ permalink: en-us/games/xbox/docs/gxdk/live-leaderboards-eb-overview.html
 This article is for Data Platform 2013.
 
 From "Xbox One XDK" TOC: "Leaderboards 2013"||"Leaderboards"
-https://developer.microsoft.com/en-us/games/xbox/docs/xdk/leaderboards-2013
+https://developer.microsoft.com/games/xbox/docs/xdk/leaderboards-2013
 =
 "Xbox Live developer guide||Xbox Live partner content" TOC, TOC title: "Leaderboards 2013"; top-of-page title: "Leaderboards"
-https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/event-driven-data-platform/leaderboards-2013
+https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/event-driven-data-platform/leaderboards-2013
 -->
 
 Leaderboards are a fun way to engage users and drive competition amongst your players. Xbox Live provides functionality that is suited for your hardcore gamers (Global ranking against the whole Xbox Live population) and for your casual gamers (Social ranking against a user’s friends).
@@ -133,7 +133,7 @@ Multi-column leaderboards are only accessed via our REST API using the normal gl
 
 <!-- 
 from "Xbox Live" TOC; "Overview of leaderboards"||"Leaderboards"
-https://review.docs.microsoft.com/en-us/gaming/xbox-live/leaderboards-and-stats-2017/leaderboards?branch=master
+https://review.docs.microsoft.com/gaming/xbox-live/leaderboards-and-stats-2017/leaderboards?branch=master
 copied top half only.
 -->
 
@@ -202,7 +202,7 @@ You should request the leaderboard data from the service, slightly ahead of when
 
 See:
 * [Example code for event-based Leaderboards](live-eb-leaderboards-apis.md)
-* [Xbox Live RESTful reference: Leaderboards URIs](https://docs.microsoft.com/en-us/gaming/xbox-live/xbox-live-rest/uri/leaderboard/atoc-reference-leaderboard) (external link to public docs)
+* [Xbox Live RESTful reference: Leaderboards URIs](https://docs.microsoft.com/gaming/xbox-live/xbox-live-rest/uri/leaderboard/atoc-reference-leaderboard) (external link to public docs)
 
 <!-- 
 Moved remainder of top half of article, starting w/ section "Leaderboards 2013 APIs", to APIs article
