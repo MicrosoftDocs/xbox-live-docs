@@ -29,12 +29,12 @@ To get the achievements for the running title, call **XblAchievementsGetAchievem
 
 ### Calling XblAchievementsGetAchievementsForTitleIdAsync
 
-[!INCLUDE [Achievements_GetAchievementsForTitle](../code/snippets/Achievements_GetAchievementsForTitle.md)]
+[!INCLUDE [Achievements_GetAchievementsForTitle](../../../../../code/snippets/Achievements_GetAchievementsForTitle.md)]
 
 
 ### Callback for XblAchievementsGetAchievementsForTitleIdAsync
 
-[!INCLUDE [Achievements_GetAchievementsForTitle_Callback](../code/snippets/Achievements_GetAchievementsForTitle_Callback.md)]
+[!INCLUDE [Achievements_GetAchievementsForTitle_Callback](../../../../../code/snippets/Achievements_GetAchievementsForTitle_Callback.md)]
 
 
 ## Getting the next page of Achievements results
@@ -43,12 +43,12 @@ To get the next page of Achievements, call **XblAchievementsResultGetNextAsync**
 
 ### Calling XblAchievementsResultGetNextAsync
 
-[!INCLUDE [Achievements_GetNextResultsPage](../code/snippets/Achievements_GetNextResultsPage.md)]
+[!INCLUDE [Achievements_GetNextResultsPage](../../../../../code/snippets/Achievements_GetNextResultsPage.md)]
 
 
 ### Callback for XblAchievementsResultGetNextAsync
 
-[!INCLUDE [Achievements_GetNextResultsPage_Callback](../code/snippets/Achievements_GetNextResultsPage_Callback.md)]
+[!INCLUDE [Achievements_GetNextResultsPage_Callback](../../../../../code/snippets/Achievements_GetNextResultsPage_Callback.md)]
 
 
 
@@ -59,9 +59,9 @@ To get a single Achievement, call **XblAchievementsGetAchievementAsync**, as fol
 
 ### Calling XblAchievementsGetAchievementAsync
 
-[!INCLUDE [Achievements_GetAchievement](../code/snippets/Achievements_GetAchievement.md)]
+[!INCLUDE [Achievements_GetAchievement](../../../../../code/snippets/Achievements_GetAchievement.md)]
 
 
 ### Callback for XblAchievementsGetAchievementAsync
 
-[!INCLUDE [Achievements_GetAchievement_Callback](../code/snippets/Achievements_GetAchievement_Callback.md)]
+[!INCLUDE [Achievements_GetAchievement_Callback](../../../../../code/snippets/Achievements_GetAchievement_Callback.md)]

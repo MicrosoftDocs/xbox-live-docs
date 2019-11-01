@@ -59,9 +59,9 @@ The following code shows how to call **XblAchievementsUpdateAchievementAsync**.
 
 ### Calling XblAchievementsUpdateAchievementAsync
 
-[!INCLUDE [Achievements_UpdateAchievement](../code/snippets/Achievements_UpdateAchievement.md)]
+[!INCLUDE [Achievements_UpdateAchievement](../../../../../code/snippets/Achievements_UpdateAchievement.md)]
 
 
 ### Callback for XblAchievementsUpdateAchievementAsync
 
-[!INCLUDE [Achievements_UpdateAchievement_Callback](../code/snippets/Achievements_UpdateAchievement_Callback.md)]
+[!INCLUDE [Achievements_UpdateAchievement_Callback](../../../../../code/snippets/Achievements_UpdateAchievement_Callback.md)]
