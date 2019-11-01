@@ -13,7 +13,21 @@ permalink: en-us/games/xbox/docs/gxdk/live-stats-eb-overview.html
 
 # Event-based Stats overview
 
-<!-- from portal article "User Stats for Data Platform 2013", top half (not stat templates/bottom) -->
+<!-- these 4 sentences are from public docs, were the file player-stats-2013.md, and were linked at bottom to old secure docs portal: -->
+
+Player stats are key pieces of information to track about a player, such as *Head Shots* or *Fastest Lap Time*.
+
+Stats are used to generate leaderboards in scenarios that allow players to compare their effort and skills with their friends and every other player in a title's community.
+
+Event-based Stats was formerly named _Stats 2013_.
+With event-based Stats, the Xbox Live Service owns and maintains the stats; stats are updated based on your game sending user-action events to the Xbox Live Service.
+
+Event-based Stats is for Managed Partners only, not Creators.
+
+<!-- See [User Stats for Data Platform 2013](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/user-stats).
+This is an external link, to the "Xbox One XDK" documentation. -->
+
+<!-- the remainder of this article is from old secure portal article "User Stats for Data Platform 2013" (the old link above): -->
 
 User Stats are developer-defined data points that are calculated by the Xbox Live service and stored as name-value pairs on a per-user basis.
 
@@ -24,8 +38,6 @@ Some examples of User Stats include:
 * Name of the car driven most recently.
 
 <!-- probably old: "the XDP Service Configuration Tool" -->
-
-Event-based Stats was formerly named _Stats 2013_.
 
 With event-based Stats, stats are calculated in the Xbox Live service based on events logged by the title and statistics rules defined by the developer via the XDP Service Configuration Tool.
 

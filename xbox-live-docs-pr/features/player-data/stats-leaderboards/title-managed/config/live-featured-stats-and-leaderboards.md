@@ -1,6 +1,6 @@
 ---
-title: Portal configuration of title-managed Featured Stats & Leaderboards
-description: Configuring Xbox Live Featured Stats and Leaderboards 2017 in Partner Center.
+title: Title-managed Featured Stats & Leaderboards portal config
+description: Configuring title-managed Featured Stats & Leaderboards in Partner Center.
 ms.assetid: e0f307d2-ea02-48ea-bcdf-828272a894d4
 ms.date: 10/30/2017
 ms.topic: article
@@ -8,7 +8,13 @@ ms.localizationpriority: medium
 keywords: Xbox Live, Xbox, games, uwp, windows 10, Xbox one, Featured Stats and leaderboards, leaderboards, stats 2017, Partner Center
 ---
 
-# Portal configuration of title-managed Featured Stats & Leaderboards
+# Title-managed Featured Stats & Leaderboards portal config
+
+<!--
+this article =
+https://docs.microsoft.com/en-us/gaming/xbox-live/
+configure-xbl/dev-center/featured-stats-and-leaderboards
+ -->
 
 For a game to interact with the stats service, a stat needs to be defined in [Partner Center](https://partner.microsoft.com/dashboard).
 All Featured Stats will show up on the GameHub, which makes it automatically act as a leaderboard.

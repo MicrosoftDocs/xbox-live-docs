@@ -22,6 +22,12 @@ This topic discuss the basic concepts required to understand how to best use the
 This article only applies if you are using event-based Stats or event-based Achievements.
 This article discusses the basic concepts required to understand how to best use the event-based player data platform.
 
+**Terminology**
+
+_player data_ - This is also known as _user data_, to include the scenario of a non-game title. _data_ or _data platform_ means all associated functionality, including events, stats, stat rules, leaderboards, featured stats, achievements, rewards, and challenges.
+
+_player stats_ - This is also known as _user stats_, to include the scenario of a non-game title. _stats_ means only some of the data platform functionality.
+
 
 ## Basic concepts
 

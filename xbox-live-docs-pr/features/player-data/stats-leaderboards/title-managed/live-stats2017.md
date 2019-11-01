@@ -1,6 +1,6 @@
 ---
 title: Title-managed Stats overview
-description: User Stats track a player's progress and prowess in a game. With title-managed Stats, the game code maintains the stats, and sends the stat values to the server for display upon request.
+description: Stats track a player's progress and prowess in a game. With title-managed Stats, the game code maintains the stats, and sends the stat values to the server for display upon request.
 ms.date: 07/02/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, player stats, leaderboards, title-managed stats

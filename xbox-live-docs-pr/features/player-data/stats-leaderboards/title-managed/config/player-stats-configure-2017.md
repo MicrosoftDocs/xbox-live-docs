@@ -10,6 +10,12 @@ ms.localizationpriority: medium
 
 # Configuring Featured Stats and Leaderboards 2017 in Partner Center
 
+<!-- 
+This file was at path
+leaderboards-and-stats-2017/player-stats-configure-2017.md
+and has been orphaned for over a year.
+-->
+
 With player data, you only need to configure a stat in two cases:
 * The stat is used as a basis for a global leaderboard, or
 * The stat is a featured player stat that will be displayed on the game hub page.

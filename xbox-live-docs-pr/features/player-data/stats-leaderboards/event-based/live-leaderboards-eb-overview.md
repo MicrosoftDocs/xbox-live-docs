@@ -1,7 +1,7 @@
 ---
-title: Leaderboards overview
+title: Event-based Leaderboards overview
 description: Leaderboards compare players by showing selected stats for a game.
-kindex: Leaderboards overview
+kindex: Event-based Leaderboards overview
 kindex: Leaderboards, Xbox Live
 author: v-mihof
 ms.author: v-mihof
@@ -10,12 +10,14 @@ ms.topic: conceptual
 ms.prod: xboxlive
 ms.technology: 
 ms.localizationpriority: medium
-permalink: en-us/games/xbox/docs/gxdk/live-leaderboards-overview.html
+permalink: en-us/games/xbox/docs/gxdk/live-leaderboards-eb-overview.html
 ---
 
-# Leaderboards overview
+# Event-based Leaderboards overview
 
 <!-- 
+This article is for Data Platform 2013.
+
 From "Xbox One XDK" TOC: "Leaderboards 2013"||"Leaderboards"
 https://developer.microsoft.com/en-us/games/xbox/docs/xdk/leaderboards-2013
 =

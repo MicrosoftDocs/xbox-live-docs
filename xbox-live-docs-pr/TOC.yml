@@ -186,8 +186,6 @@
             - name: Stats & Leaderboards
               href: features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md
               items: 
-                - name: Leaderboards overview
-                  href: features/player-data/stats-leaderboards/live-leaderboards-overview.md
                 - name: Event-based vs. title-managed Stats
                   href: features/player-data/stats-leaderboards/live-stats-eb-vs-tm.md
                 - name: Event-based Stats & Leaderboards
@@ -195,13 +193,10 @@
                   items: 
                     - name: Event-based Player Data overview
                       href: features/player-data/stats-leaderboards/event-based/live-how-data-platform-works.md
-                    - name: Event-based Stats & Leaderboards concepts
-                      href: features/player-data/stats-leaderboards/event-based/concepts/live-statslb-eb-concep-nav.md
-                      items: 
-                        - name: User Stats overview
-                          href: features/player-data/stats-leaderboards/event-based/concepts/live-stats-overview.md
-                        - name: Event-based Stats overview
-                          href: features/player-data/stats-leaderboards/event-based/concepts/live-stats-eb-overview.md
+                    - name: Event-based Stats overview
+                      href: features/player-data/stats-leaderboards/event-based/live-stats-eb-overview.md
+                    - name: Event-based Leaderboards overview
+                      href: features/player-data/stats-leaderboards/live-leaderboards-eb-overview.md
                     - name: Event-based Stats & Leaderboards configuration
                       href: features/player-data/stats-leaderboards/event-based/config/live-statslb-eb-config-nav.md
                       items: 
@@ -226,6 +221,8 @@
                           href: features/player-data/stats-leaderboards/event-based/how-to/live-stats-eb-code.md
                         - name: Example code for event-based Leaderboards
                           href: features/player-data/stats-leaderboards/event-based/how-to/live-eb-leaderboards-apis.md
+                        - name: Event-based Leaderboards how-to's
+                          href: features/player-data/stats-leaderboards/event-based/how-to/live-leaderboards-eb-howto.md
                         - name: Xbox Common Events Tool (xcetool.exe)
                           href: features/player-data/stats-leaderboards/event-based/how-to/live-xbox-common-events-tool.md
                     - name: Events
@@ -240,7 +237,6 @@
                               href: features/player-data/stats-leaderboards/event-based/events/config/live-events-portal.md
                             - name: Download the Events Manifest file from Partner Center
                               href: features/player-data/stats-leaderboards/event-based/events/config/live-downloading-events-manifest.md
-
                 - name: Title-managed Stats & Leaderboards
                   href: features/player-data/stats-leaderboards/title-managed/live-statslb-tm-nav.md
                   items: 
@@ -249,35 +245,24 @@
                     - name: Title-managed Stats & Leaderboards portal config
                       href: features/player-data/stats-leaderboards/title-managed/config/live-statslb-tm-config-nav.md
                       items: 
-                        - name: Portal configuration of title-managed Featured Stats & Leaderboards
+                        - name: Title-managed Featured Stats & Leaderboards portal config
                           href: features/player-data/stats-leaderboards/title-managed/config/live-featured-stats-and-leaderboards.md
-
-
-            - name: Player Stats
-              href: leaderboards-and-stats-2017/player-stats_nav.md
-              items: 
-                - name: Player Stats 2013
-                  href: leaderboards-and-stats-2017/player-stats-2013.md
-                - name: Player Stats 2017
-                  href: leaderboards-and-stats-2017/stats-2017_nav.md
-                  items: 
-                    - name: Updating Player Stats 2017
-                      href: leaderboards-and-stats-2017/player-stats-updating.md
-
-            - name: Leaderboards
-              href: leaderboards-and-stats-2017/leaderboards_nav.md
-              items: 
-                - name: Overview of leaderboards
-                  href: leaderboards-and-stats-2017/leaderboards.md
-                - name: Adding player stats and leaderboards to a Unity project
-                  href: get-started-with-creators/add-stats-and-leaderboards-in-unity.md
-                - name: Setting up the Leaderboard example scene in Unity
-                  href: get-started-with-creators/setup-leaderboard-example-scene.md
-                - name: Scripting a leaderboard in Unity
-                  href: get-started-with-creators/unity-leaderboard-from-scratch.md
-
-
-
+                    - name: Title-managed Stats & Leaderboards how-to's
+                      href: features/player-data/stats-leaderboards/title-managed/how-to/live-statslb-tm-nav.md
+                      items: 
+                        - name: Updating title-managed Stats
+                          href: features/player-data/stats-leaderboards/title-managed/how-to/live-stats-tm-updating.md
+                        - name: Title-managed Leaderboards how-to's
+                          href: features/player-data/stats-leaderboards/title-managed/how-to/live-leaderboards-tm-howto.md
+                    - name: Stats & Leaderboards with Unity
+                      href: features/player-data/stats-leaderboards/title-managed/unity/live-statslb-unity-nav.md
+                      items: 
+                        - name: Adding player stats and leaderboards to a Unity project
+                          href: features/player-data/stats-leaderboards/title-managed/unity/live-add-stats-and-leaderboards-in-unity.md
+                        - name: Setting up the Leaderboard example scene in Unity
+                          href: features/player-data/stats-leaderboards/title-managed/unity/live-setup-leaderboard-example-scene.md
+                        - name: Scripting a leaderboard in Unity
+                          href: features/player-data/stats-leaderboards/title-managed/unity/live-unity-leaderboard-from-scratch.md
                 - name: Featured Stats
                   href: features/player-data/stats-leaderboards/featured-stats/live-featured-stats-nav.md
                   items: 
@@ -331,9 +316,6 @@
                           href: features/player-data/achievements/title-managed/how-to/live-how-to-get-achievements.md
                         - name: Updating Achievements
                           href: features/player-data/achievements/title-managed/how-to/live-how-to-update-achievements.md
-
-
-
         - name: Social features
           href: social-platform/social-platform_nav.md
           items: 

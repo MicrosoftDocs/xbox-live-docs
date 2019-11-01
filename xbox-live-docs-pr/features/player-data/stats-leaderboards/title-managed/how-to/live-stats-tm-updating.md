@@ -1,6 +1,6 @@
 ---
-title: Updating Player Stats 2017
-description: Updating player Stats when using Stats 2017, by sending the latest value to the Xbox Live Service using the StatsManager APIs.
+title: Updating title-managed Stats
+description: Updating title-managed Stats, by sending the latest value to the Xbox Live Service using the StatsManager APIs.
 ms.assetid: 019723e9-4c36-4059-9377-4a191c8b8775
 ms.date: 08/24/2018
 ms.topic: article
@@ -8,9 +8,11 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, player stats, stats
 ms.localizationpriority: medium
 ---
 
-# Updating Player Stats 2017
+# Updating title-managed Stats
 
-You update Stats by sending the latest value for the Xbox Live Service using the `StatsManager` APIs which will be discussed below.
+<!-- former filename: player-stats-updating.md -->
+
+With title-managed Stats, your game updates Stats by sending the latest value for the Xbox Live Service using the `StatsManager` APIs.
 
 It is up to your title to keep track of player Stats, and you call `StatsManager` to update these as appropriate.
 `StatsManager` will buffer any changes and flush these to the service periodically.
