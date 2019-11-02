@@ -23,7 +23,7 @@ ms.localizationpriority: medium
 
 Once your achievements are configured via Partner Center and published to your dev sandbox, your title can unlock them by calling **XblAchievementsUpdateAchievementAsync**.
 
-See also [Configuring Achievements 2017 in Partner Center](../configure-xbl/dev-center/achievements-in-udc.md).
+See also [Configuring Achievements 2017 in Partner Center](../config/live-achievements-tm-config.md).
 
 To unlock an achievement, set the *percentComplete* argument of **XblAchievementsUpdateAchievementAsync** to 100.
 

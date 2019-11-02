@@ -136,7 +136,7 @@ public void GetSocialLeaderboard(
 
 Before you can call the `stats_manager` functions you will need to set a variable to its Singleton instance.
 
-```csharp
+```cpp
 m_statsManager = stats_manager::get_singleton_instance();
 ```
 

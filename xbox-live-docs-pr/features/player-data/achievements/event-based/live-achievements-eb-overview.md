@@ -14,7 +14,7 @@ permalink: "en-us/games/xbox/docs/gxdk/live-achievements-eb-overview.html"
 
 # Event-based Achievements overview
 
->![](note.gif) **NOTE:** If your title is currently using event-based Achievements (formerly called Achievements 2013), and you want to enable support between multiple platforms going forward, you must continue using event-based Achievements. This is required, for the user to retain their Achievements across all the platforms.
+>![](../../../../images/common/note.gif) **NOTE:** If your title is currently using event-based Achievements (formerly called Achievements 2013), and you want to enable support between multiple platforms going forward, you must continue using event-based Achievements. This is required, for the user to retain their Achievements across all the platforms.
 
 <!-- # Achievements Design for event-based Achievements -->
 

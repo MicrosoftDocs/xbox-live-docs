@@ -17,7 +17,7 @@ This new achievement system provides more flexibility of how achievements are un
 
 ##### Figure 1.  How a title might drive user behavior.
 
-![rewarding_achievements](../images/omega/achievements_overview_01_drive_behavior.png)
+![rewarding_achievements](../../../../../images/omega/achievements_overview_01_drive_behavior.png)
 
 
 ### Flexible options for rewarding achievement
