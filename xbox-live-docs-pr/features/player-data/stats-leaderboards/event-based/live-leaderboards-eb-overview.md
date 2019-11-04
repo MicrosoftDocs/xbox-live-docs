@@ -82,7 +82,7 @@ Global leaderboards can be accessed via XSAPI or our REST API using `GET (/scids
 
 Below is a screenshot of how a sample Leaderboard could be configured for a racing game:
 
-![Leaderboard details](../../../../../resources/gamecore/secure/images/en-us/live/leaderboards/leaderboard-details.png)
+![Leaderboard details](live-leaderboards-eb-overview-images/leaderboard-details.png)
 
 
 ## Social Leaderboards
@@ -113,7 +113,7 @@ There will be cases where you need more columns in a Leaderboard to decorate the
 
 Xbox Live Leaderboards have multi-column support built in so you can very easily get these type of rankings. The only pre-requisite is that the stat utilized for the Leaderboard has Stat Context defined, which is what’ll be used as additional metadata. For example, for a FastestLap stat we might want to configure these additional properties as Stat Context:
 
-![Stat context](../../../../../resources/gamecore/secure/images/en-us/live/leaderboards/stat-context.png)
+![Stat context](live-leaderboards-eb-overview-images/stat-context.png)
 
 Now that the stat will be getting persisted with context, if we retrieve the multi-column leaderboard, it would look something like this:
 
@@ -201,7 +201,7 @@ When the leaderboard results are returned from the service, you can display the 
 You should request the leaderboard data from the service, slightly ahead of when you want to display it, so that players are not blocked waiting for the leaderboard to display.
 
 See:
-* [Example code for event-based Leaderboards](live-eb-leaderboards-apis.md)
+* [Example code for event-based Leaderboards](how-to/live-eb-leaderboards-apis.md)
 * [Xbox Live RESTful reference: Leaderboards URIs](https://docs.microsoft.com/gaming/xbox-live/xbox-live-rest/uri/leaderboard/atoc-reference-leaderboard) (external link to public docs)
 
 <!-- 

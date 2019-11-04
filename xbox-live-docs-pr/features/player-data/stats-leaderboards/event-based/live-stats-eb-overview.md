@@ -48,15 +48,15 @@ The figures below show the relationship between events, stat rules, and user sta
 
 Figure 1. Events, stat rules, and user stats:
 
-![Events and user statistics](../../../../../../../../resources/gamecore/secure/images/en-us/live/stats/events-and-user-stats2.png)
+![Events and user statistics](live-stats-eb-overview-images/events-and-user-stats2.png)
 
 Figure 2. Events and stat templates:
 
-![Events and stat templates](../../../../../../../../resources/gamecore/secure/images/en-us/live/stats/stat-templates.png)
+![Events and stat templates](live-stats-eb-overview-images/stat-templates.png)
 
 Figure 3. Events, stat rules, and user stats, showing locations of processing:
 
-![Rules, events, and stats, showing locations](../../../../../../../../resources/gamecore/secure/images/en-us/live/stats/stats2013diagram.jpg)
+![Rules, events, and stats, showing locations](live-stats-eb-overview-images/stats2013diagram.jpg)
 
 Every event has an event name and a set of fields.
 Stat rules are triggered when an event of a particular name is received by the Xbox Live service.
@@ -69,7 +69,7 @@ A _stat instance_ uses a single name-value pair.
 This is the basic way to use stats.
 
 You configure stat rules to control how the Xbox Live Service should produce stat instances based on events sent by the game.
-See [User Stat Rules](live-user-stat-rules.md).
+See [User Stat Rules](config/live-user-stat-rules.md).
 
 
 ## Defining stat templates

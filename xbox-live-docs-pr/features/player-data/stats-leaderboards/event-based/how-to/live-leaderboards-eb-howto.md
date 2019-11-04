@@ -13,20 +13,21 @@ ms.localizationpriority: medium
 <!-- 
 old path & filename:
 leaderboards-and-stats-2017/leaderboards.md
+https://docs.microsoft.com/en-us/gaming/xbox-live/leaderboards-and-stats-2017/leaderboards
 Copied entire file to form two files, one for 2013, one for 2017.
  -->
 
 ## Introduction
 
-As described in [Player Data Overview](../data-platform/data-platform-for-stats-leaderboards-achievements.md), Leaderboards are a great way to encourage competition between your players, and keep players engaged in trying to beat their previous best score as well as that of their friends.
+As described in [Player Data: Stats, Leaderboards, and Achievements](../../../data-platform-for-stats-leaderboards-achievements.md), Leaderboards are a great way to encourage competition between your players, and keep players engaged in trying to beat their previous best score as well as that of their friends.
 
-Leaderboards for [Featured Stats](stats2017.md#configured-stats-and-featured-leaderboards) are always displayed in a title's Game Hub and sometimes displayed as a part of the UI for a title when it is pinned to the homepage.
+Leaderboards for [Featured Stats](../../featured-stats/live-featured-stats-nav.md) are always displayed in a title's Game Hub and sometimes displayed as a part of the UI for a title when it is pinned to the homepage.
 You can also use your configured Featured Stats to create Leaderboards inside of your title.
 
 
 ## Choosing Good Leaderboards
 
-As discussed in [Player Stats](player-stats_nav.md), a leaderboard corresponds to a stat that you have defined.
+As discussed in [Player Stats](../live-statslb-eb-nav.md), a leaderboard corresponds to a stat that you have defined.
 You should choose leaderboards that correspond to an accomplishment that a player can work towards improving.
 
 For example, Best Lap Time in a racing game is a good leaderboard, because players will want to work towards improving their Best Lap Time.
@@ -44,7 +45,7 @@ In between rounds and after matches are both good times.
 
 There are numerous options for displaying leaderboards provided in the Xbox Live SDK.
 If you are using Unity with the Xbox Live Creators Program, you can get started by using a Leaderboard Prefab to display your leaderboard data.
-For specifics, see [Configure Xbox Live in Unity](../get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md).
+For specifics, see [Configure Xbox Live in Unity](../../../../../get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md).
 
 If you are coding against the Xbox Live SDK directly, then read on to learn about the APIs you can use.
 
@@ -277,4 +278,4 @@ if (boardResult != null)
 
 | Article | Description |
 |---------|-------------|
-| [Xbox Live RESTful reference: Leaderboards URIs](../xbox-live-rest/uri/leaderboard/atoc-reference-leaderboard.md) | URIs and associated HTTP methods for leaderboards. |
+| [Xbox Live RESTful reference: Leaderboards URIs](../../../../../xbox-live-rest/uri/leaderboard/atoc-reference-leaderboard.md) | URIs and associated HTTP methods for leaderboards. |

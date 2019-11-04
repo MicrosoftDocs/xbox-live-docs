@@ -15,6 +15,7 @@ permalink: en-us/games/xbox/docs/gxdk/live-stats-eb-code.html
 
 As of July 2019, the following is the most important code for sending events:
 
+**C:**
 ```
     HRESULT hr = XblEventsWriteInGameEvent(
         Data()->xboxLiveContext,
@@ -24,6 +25,7 @@ As of July 2019, the following is the most important code for sending events:
     );
 ```
 
+**C:**
 ```
     XAsyncBlock* asyncBlock = new XAsyncBlock{};
     asyncBlock->queue = Data()->queue;
@@ -57,6 +59,9 @@ As of July 2019, the following is the most important code for sending events:
 
 ## Stats Reference
 
+<!-- 
+todo: uncomment when exists in public docs. not in public docs at this time:
 See [user_statistics_c header](user_statistics_c_members.md).
+-->
 
 See the [Xbox Live Services RESTful Reference](https://docs.microsoft.com/gaming/xbox-live/xbox-live-rest/atoc-xboxlivews-reference).

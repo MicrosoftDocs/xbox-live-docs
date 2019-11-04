@@ -27,7 +27,7 @@ xcetool <manifest.man> [-c] [-target <DurangoStandard | DurangoHostKernel | Dura
 | Option | Description |
 | --- | --- |
 | `-c` | Creates a console language header file of the given filename from an XCE format manifest. |
-| `-x` | **For UWP applications only** This generates a Common Schema 2 style header that wraps the `WriteInGameEvent` API with the event schema you have defined on Partner Center. See [Overview of events](live-game-events.md). |
+| `-x` | **For UWP applications only** This generates a Common Schema 2 style header that wraps the `WriteInGameEvent` API with the event schema you have defined on Partner Center. See [Overview of events](../events/live-game-events.md). |
 | `-target <DurangoStandard | DurangoHostKernel | DurangoHostUser>` | Used with `-c` to specify the target operating environment of the generated code. |
 | `-exe` | Used with `-etw` or `-etw2` to specify the name of the executable file containing the provider definition. |
 | `-etw` | Create an ETW-format manifest of the given filename from an XCE format manifest. Must be used with `-exe`. |

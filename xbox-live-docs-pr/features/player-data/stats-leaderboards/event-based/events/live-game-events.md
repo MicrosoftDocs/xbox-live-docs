@@ -159,7 +159,7 @@ Dimensions and Measurements are discussed more below.
 
 * Generate the manifest file on Partner Center as seen below:
 
-![Partner Center Manifest](../../../../../../resources/gamecore/secure/images/en-us/live/stats/evented/game-events/events_manifest.png)
+![Partner Center Manifest](live-game-events-images/events_manifest.png)
 
 * Use the Xbox Common Event tool, `XCETool.exe` (found in your Xbox Live SDK and Xbox Live Tools package installation at \Tools). You create a header file for UWP applications using the `-x` option with `xcetool`. For example, if the downloaded manifest file is `Events-XDKS.1-07AB66C4.man`, the command would be:
 

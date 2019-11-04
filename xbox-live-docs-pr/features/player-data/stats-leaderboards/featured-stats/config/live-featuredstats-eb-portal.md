@@ -58,7 +58,7 @@ Each featured stat includes a localizable display name, a sort order, and a sequ
 
 ## Create a featured stat
 
-You must create a stat rule before you can create a featured stat. For details, see [Portal configuration of event-based Stats](live-stats-eb-portal.md).
+You must create a stat rule before you can create a featured stat. For details, see [Portal configuration of event-based Stats](../../event-based/config/live-stats-eb-portal.md).
 
 1. On the **Featured stats** page, click **New featured stat**.
 
