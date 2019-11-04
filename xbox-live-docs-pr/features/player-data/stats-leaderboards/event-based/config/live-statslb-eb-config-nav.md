@@ -14,10 +14,10 @@ permalink: en-us/games/xbox/docs/gxdk/live-statslb-eb-config-nav.html
 # Event-based Stats & Leaderboards configuration
 
 
-### In this section
+<!-- ### In this section
 
 | Article | Description |
 |---------|-------------|
 | [__](__) | __ |
 | [__](__) | __ |
-| [__](__) | __ |
+| [__](__) | __ | -->

@@ -61,7 +61,7 @@ The deep link is returned in the GET API response.
 The URL specified must contain `ms-xbl-{titleID}://` prefix.
 
 > [!TIP]
-> Achievement Deep links require the hexadecimal TitleId of your game. You can find it on [Xbox Live Setup](../../../../../xbox-live-setup.md) screen in [Partner Center](https://developer.microsoft.com/dashboard).
+> Achievement Deep links require the hexadecimal TitleId of your game. You can find it on [Xbox Live Setup](../../../../../configure-xbl/dev-center/xbox-live-setup.md) screen in [Partner Center](https://developer.microsoft.com/dashboard).
 
 
 ## Additional Rewards

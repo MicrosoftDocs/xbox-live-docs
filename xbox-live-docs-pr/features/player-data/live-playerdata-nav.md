@@ -20,7 +20,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_common-data-service.svg" alt="Player Data: Stats, Leaderboards, and Achievements" />
+                                <img src="https://docs.microsoft.com/media/common/i_common-data-service.svg" alt="Player Data: Stats, Leaderboards, and Achievements"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -33,13 +33,13 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="designing-xbox-live-experiences.md">
+        <a href="live-designing-experiences.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_design.svg" alt="Designing Xbox Live Experiences" />
+                                <img src="https://docs.microsoft.com/media/common/i_design.svg" alt="Designing Xbox Live Experiences"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -52,13 +52,13 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../achievements-2017/achievements_nav.md">
+        <a href="achievements/live-achievements-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_sharepoint-list.svg" alt="Achievements" />
+                                <img src="https://docs.microsoft.com/media/common/i_sharepoint-list.svg" alt="Achievements"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -70,14 +70,14 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
-    <li>
+    <!-- <li>
         <a href="../leaderboards-and-stats-2017/player-stats_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_data-collection.svg" alt="Player Stats" />
+                                <img src="https://docs.microsoft.com/media/common/i_data-collection.svg" alt="Player Stats"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -88,20 +88,20 @@ ms.localizationpriority: medium
                 </div>
             </div>
         </a>
-    </li>
+    </li> -->
     <li>
-        <a href="../leaderboards-and-stats-2017/leaderboards.md">
+        <a href="stats-leaderboards/live-stats-leaderboards-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_learn-about.svg" alt="Leaderboards" />
+                                <img src="https://docs.microsoft.com/media/common/i_learn-about.svg" alt="Stats & Leaderboards"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Leaderboards</h3>
-                            <p>Defining leaderboards to compare players by showing selected stats for a game.</p>
+                            <h3>Stats & Leaderboards</h3>
+                            <p>Key pieces of information to track about a player, and leaderboards to compare players.</p>
                         </div>
                     </div>
                 </div>
@@ -109,13 +109,13 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../features/data/featured-stats/featured-stats_nav.md">
+        <a href="stats-leaderboards/featured-stats/live-featured-stats-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_kaban.svg" alt="Featured Stats" />
+                                <img src="https://docs.microsoft.com/media/common/i_kaban.svg" alt="Featured Stats"/>
                             </div>
                         </div>
                         <div class="cardText">

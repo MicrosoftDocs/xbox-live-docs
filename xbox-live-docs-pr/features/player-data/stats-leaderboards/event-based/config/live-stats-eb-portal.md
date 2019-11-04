@@ -20,7 +20,7 @@ permalink: en-us/games/xbox/docs/gxdk/live-stats-eb-portal.html
 This article describes the procedures for adding and changing stat rules in the Partner Center service configuration for a title. Player stats are created and updated according to the stat rules triggered when a game sends events to the Xbox Live service.
 
 For an intro to Xbox Live service configuration, see [Xbox Live service configuration](https://docs.microsoft.com/gaming/xbox-live/xbox-live-service-configuration).
-For an intro to data platform 2013, see [How the event-based player data platform works](live-how-data-platform-works.md).
+For an intro to data platform 2013, see [How the event-based player data platform works](../live-how-data-platform-works.md).
 
 Sections in this article:  
 
@@ -61,14 +61,14 @@ For info on stats and stat rules, see the following articles in the XDK document
 
 The following diagram demonstrates the flow of an event that triggers stat rules that update stat instances:
 
-![Event triggers stat rule to update stat](../../../../../../../resources/gamecore/secure/images/en-us/live/stats/evented/portal/event-stat-rule-instance-template.png)
+![Event triggers stat rule to update stat](live-stats-eb-portal-images/event-stat-rule-instance-template.png)
 
 
 <a id="ID4ENC"></a>
 
 ## Prepare to configure a stat rule
 
-**Prerequisite:** Because stat rules are based on events, you must create an event before you can create a stat rule. See [Portal configuration of events](live-events-portal.md).
+**Prerequisite:** Because stat rules are based on events, you must create an event before you can create a stat rule. See [Portal configuration of events](../events/config/live-events-portal.md).
 
 1. Sign in with your account on [Partner Center](https://partner.microsoft.com/dashboard/).
 
@@ -78,7 +78,7 @@ The following diagram demonstrates the flow of an event that triggers stat rules
 
    The "Game Overview" page appears.
 
-   ![The "Game Overview" page](../../../../../../../resources/gamecore/secure/images/en-us/live/stats/pctr-product2013-gameoverview.png)
+   ![The "Game Overview" page](live-stats-eb-portal-images/pctr-product2013-gameoverview.png)
 
 3. In the middle navigation column with a white background, click **Xbox Live** to expand it, and then click **Gameplay settings**.
 
@@ -88,16 +88,16 @@ The following diagram demonstrates the flow of an event that triggers stat rules
 
    The "Gameplay Setting" page appears:
 
-   ![The "Gameplay Setting" page](../../../../../../../resources/gamecore/secure/images/en-us/live/stats/pctr-gameplay-setting-page.png)
+   ![The "Gameplay Setting" page](live-stats-eb-portal-images/pctr-gameplay-setting-page.png)
 
 4. At the top, click the **Player stats** menu, then click **Stat rules**.
    In this Partner Center UI, "player stats" means event-based User Stats.
 
-   ![The Stat rules menu](../../../../../../../resources/gamecore/secure/images/en-us/live/stats/pctr-stat-rules-menu.png)
+   ![The Stat rules menu](live-stats-eb-portal-images/pctr-stat-rules-menu.png)
 
    In the "Gameplay Setting" page, the "Events and stat rules" page appears:
 
-   ![The "Events and stat rules" page](../../../../../../../resources/gamecore/secure/images/en-us/live/stats/pctr-events-and-stat-rules-page.png)
+   ![The "Events and stat rules" page](live-stats-eb-portal-images/pctr-events-and-stat-rules-page.png)
 
    Initially, the table at the bottom is empty and reads "No player stats configured".
 
@@ -108,17 +108,17 @@ The following diagram demonstrates the flow of an event that triggers stat rules
 
 ## Create a stat rule
 
-**Prerequisite:** Because stat rules are based on events, you must create an event before you can create a stat rule. See [Portal configuration of events](live-events-portal.md).
+**Prerequisite:** Because stat rules are based on events, you must create an event before you can create a stat rule. See [Portal configuration of events](../events/config/live-events-portal.md).
 
 1. Go to the **Events and stat rules** page, as described in the section above.
 
 2. On an event row, in the **Actions** column on the right, click the **...** button, and then click **New stat rule**.
 
-   ![Selecting an event for which to create a stat rule](../../../../../../../resources/gamecore/secure/images/en-us/live/stats/evented/portal/new-stat-rule-menuitem.png)
+   ![Selecting an event for which to create a stat rule](live-stats-eb-portal-images/new-stat-rule-menuitem.png)
 
    The "Add stat rule" dialog box appears:
 
-   ![The Add stat rule dialog box](../../../../../../../resources/gamecore/secure/images/en-us/live/stats/evented/portal/add-stat-rule-dbox.png)
+   ![The Add stat rule dialog box](live-stats-eb-portal-images/add-stat-rule-dbox.png)
 
    *  **Event fields added to the stat rule**  
       - This optional field lets you select fields included in the base event as part of the stat rule. 
@@ -218,7 +218,7 @@ This operation will be treated as a deletion and creation of a new stat rule. Al
 
    **Figure:** Deleting a stat event rule deletes any dependencies on that rule
 
-   ![Deleting a stat rule deletes dependencies](../../../../../../../resources/gamecore/secure/images/en-us/live/stats/evented/portal/event_delete_dependency.png)
+   ![Deleting a stat rule deletes dependencies](live-stats-eb-portal-images/event_delete_dependency.png)
 
 When you are ready to write code: at Partner Center, publish the product, download the manifest file, and create a header file based on it.
-See [Download the Events Manifest file from Partner Center](live-downloading-events-manifest.md).
+See [Download the Events Manifest file from Partner Center](../events/config/live-downloading-events-manifest.md).

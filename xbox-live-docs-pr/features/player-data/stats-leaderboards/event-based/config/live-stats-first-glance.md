@@ -77,7 +77,7 @@ Now, we’ll define this event in Partner Center:
 
 2. Click **New** to create a new event:
 
-   ![The "Add New Event" dialog box](../../../../../../../../resources/gamecore/secure/images/en-us/live/stats/evented/first-glance/AddNewEvent-XDP.png)
+   ![The "Add New Event" dialog box](live-stats-first-glance-images/AddNewEvent-XDP.png)
 
 3. Select Base as the Base Event.
 
@@ -89,7 +89,7 @@ Now, we’ll define this event in Partner Center:
 
 7. Enter LapTime for the field name, and specify the Type as Double.
 
-   ![The "Add new event" field](../../../../../../../../resources/gamecore/secure/images/en-us/live/stats/evented/first-glance/LapTimeField-XDP.png)
+   ![The "Add new event" field](live-stats-first-glance-images/LapTimeField-XDP.png)
 
 8. Click **Add Event Field**.
 
@@ -103,7 +103,7 @@ Now, we’ll define this event in Partner Center:
 
    Your event should look something like this:
 
-   ![New defined "LapCompleted" event](../../../../../../../../resources/gamecore/secure/images/en-us/live/stats/evented/first-glance/LapCompletedEvent-XDP.png)
+   ![New defined "LapCompleted" event](live-stats-first-glance-images/LapCompletedEvent-XDP.png)
 
 10. Click **Save Event** to save the event in your sandbox.
 
@@ -115,13 +115,13 @@ Now that we have defined the player experiences, we can start creating the Stat 
 This stat will show up as a Featured Stat (also known as a Hero Stat) and will also be used for a Global Leaderboard with additional metadata.
 
 The game fires in-game events when certain actions happen in the game and are considered to be the raw data for creating stats. At least one stat should be created or updated by every event.
-(Generating multiple stats in a single event is covered in [Overview of event-based Stats](live-stats-eb-overview.md).)
+(Generating multiple stats in a single event is covered in [Overview of event-based Stats](../live-stats-eb-overview.md).)
 
 1. On the **Events & Stat Rules** page, select the **LapCompleted** event from the list of events.
 
 2. Click **New** (to the right of **Stat Rules**) to create a new Stat Rule. The new stat rule will be based on the selected event.
 
-   ![The "Add Stat Rule" dialog box](../../../../../../../../resources/gamecore/secure/images/en-us/live/stats/evented/first-glance/AddNewStatRule-XDP.png)
+   ![The "Add Stat Rule" dialog box](live-stats-first-glance-images/AddNewStatRule-XDP.png)
 
 3. Enter **FastestLap** for the Stat Rule Name.
 
@@ -131,7 +131,7 @@ The game fires in-game events when certain actions happen in the game and are co
 
 5. To do that, select **LapTime** as the Parameter, and **Min** as the operator:
 
-   ![Operator and parameter for a Stat rule](../../../../../../../../resources/gamecore/secure/images/en-us/live/stats/evented/first-glance/MinLapTime-XDP.png)
+   ![Operator and parameter for a Stat rule](live-stats-first-glance-images/MinLapTime-XDP.png)
 
   Finally, we need to make sure that the event contains all the extra data (known as Stat context or metadata) that we need for this specific stat: the player’s car, track, and weather conditions.
 
@@ -139,7 +139,7 @@ The game fires in-game events when certain actions happen in the game and are co
 
 7. Repeat this for the **WeatherCondition** and **TrackId** fields:
 
-   ![Fastest Lap stat rule with metadata](../../../../../../../../resources/gamecore/secure/images/en-us/live/stats/evented/first-glance/FastestLapStatRule-XDP.png)
+   ![Fastest Lap stat rule with metadata](live-stats-first-glance-images/FastestLapStatRule-XDP.png)
 
 8. Click the **Add Stat Rule** button to create the stat rule.
 
@@ -167,7 +167,7 @@ Now that the stat rule is complete, we want the stat to show up in the GameHub�
 
 8. Select **Ascending** for the sort order. This indicates that lower values are better than higher values.
 
-   ![Fastest lap hero stat](../../../../../../../../resources/gamecore/secure/images/en-us/live/stats/evented/first-glance/FastestLapHeroStat-XDP.png)
+   ![Fastest lap hero stat](live-stats-first-glance-images/FastestLapHeroStat-XDP.png)
 
 9. Click **Add New Hero Stat** to create the featured/hero stat.
 
@@ -186,7 +186,7 @@ Using the same Lap Time stat, we can configure a leaderboard so that every playe
 
 5. Select Ascending for the sort, which indicates that lower times are better.
 
-   ![Fastest Lap leaderboard](../../../../../../../../resources/gamecore/secure/images/en-us/live/stats/evented/first-glance/FastestLapLeaderboard-XDP.png)
+   ![Fastest Lap leaderboard](live-stats-first-glance-images/FastestLapLeaderboard-XDP.png)
 
 6. Click **Add New Leaderboard** to create a new global leaderboard.
 
@@ -211,7 +211,7 @@ We want players to really go all out and challenge themselves to find a track an
 
 6. Upload a 1920x1080 pixel .png file to serve as the achievement icon.
 
-   !["Add New Achievement" dialog box](../../../../../../../../resources/gamecore/secure/images/en-us/live/stats/evented/first-glance/Under60Achievement-XDP.png)
+   !["Add New Achievement" dialog box](live-stats-first-glance-images/Under60Achievement-XDP.png)
 
 7. Click **Add Achievement** to create the achievement.
 
@@ -221,7 +221,7 @@ We want players to really go all out and challenge themselves to find a track an
 
 10. Enter **20** for the value.
 
-    !["Add New Award" dialog box](../../../../../../../../resources/gamecore/secure/images/en-us/live/stats/evented/first-glance/Under60AchievementReward-XDP.png)
+    !["Add New Award" dialog box](live-stats-first-glance-images/Under60AchievementReward-XDP.png)
 
 11. Click **Add Reward**.
 
@@ -235,7 +235,7 @@ We want players to really go all out and challenge themselves to find a track an
 
 16. Click **Select an Instance**, select the **FastestLap** stat rule, and click **Add Stat Instance**.
 
-    ![Add New Rule for achievement](../../../../../../../../resources/gamecore/secure/images/en-us/live/stats/evented/first-glance/Under60AchievementRule-XDP.png)
+    ![Add New Rule for achievement](live-stats-first-glance-images/Under60AchievementRule-XDP.png)
 
 17. Click **Add Rule** to create the rule for the achievement.
 
