@@ -39,7 +39,7 @@ Each stat rule will be triggered by a specific event name logged by the title. N
 
 * Field names must exactly match the field names that are part of the producer EVENT.
 
-> ![](../../../../../common/note.gif)**Important** When one or more fields are included as part of the statistic rule name, this rule becomes a stat template. At run-time, the actual value of fields from the producer event will be inserted into the stat instance name.
+> ![](../../../../../images/common/note.gif)**Important** When one or more fields are included as part of the statistic rule name, this rule becomes a stat template. At run-time, the actual value of fields from the producer event will be inserted into the stat instance name.
 
 * Some sample valid template names are “EnemiesDefeated.WeaponID”, “BestScoreUnder2Minutes.TrackId.DifficultyID”, and “Total-Collectibles-Jewels.Found”.
 

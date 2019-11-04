@@ -48,7 +48,7 @@ An event is anything that happens during play and can be *captured*. A player ac
 
 An event consists of the event name, an event description, and a number of fields that contain event-related data. When a title writes an event, the event is stored on the local device until it can be sent up to the Xbox Live service. The Xbox Live service receives the event and uses it to build and update stats, leaderboards, achievements, and other features of data platform 2013 according to the rules you define in the service configuration.
 
-For details, see [Overview of events](live-game-events.md).
+For details, see [Overview of events](../live-game-events.md).
 
 
 <a id="ID4EYM"></a>
@@ -65,7 +65,7 @@ For details, see [Overview of events](live-game-events.md).
 
    <!-- old secure portal: Events and stat rules page ../media/events-and-stat-rules-1.png -->
 
-   ![Events and stat rules page](../../../../../../resources/gamecore/secure/images/en-us/live/events/events-and-stat-rules-1.png)
+   ![Events and stat rules page](live-events-portal-images/events-and-stat-rules-1.png)
 
 
 <a id="ID4EUB"></a>
@@ -77,7 +77,7 @@ For details, see [Overview of events](live-game-events.md).
 
    The "Add new event" dialog box appears:
 
-   ![The "Add new event" dialog box](../../../../../../resources/gamecore/secure/images/en-us/live/stats/pctr-add-new-event-dbox.png)
+   ![The "Add new event" dialog box](live-events-portal-images/pctr-add-new-event-dbox.png)
 
 1. Specify the values for the following fields:
 

@@ -43,7 +43,7 @@ You then use the event manifest file, along with the **Xbox Common Events Tool**
 
 5. On the **Confirm** dialog, click **Download event manifest** to confirm your download; otherwise, click **Cancel**.
 
-![Animated gif of the process of downloading the Events Manifest file](../../../../../../resources/gamecore/secure/images/en-us/live/events/download-manifest.gif)
+![Animated gif of the process of downloading the Events Manifest file](live-downloading-events-manifest-images/download-manifest.gif)
 
    The browser starts downloading the event manifest file, which may have a name such as `Events-NKDXTT.0.man`.
 
@@ -54,6 +54,5 @@ You then use the event manifest file, along with the **Xbox Common Events Tool**
 
 ### See also
 
-[Xbox Common Events Tool (xcetool.exe)](live-xbox-common-events-tool.md)
-
-For an intro to the Xbox Live service configuration, see [Xbox Live service configuration](https://docs.microsoft.com/windows/uwp/xbox-live/xbox-live-service-configuration) (external link, to public docs).
+* [Xbox Common Events Tool (xcetool.exe)](../../how-to/live-xbox-common-events-tool.md)
+* For an intro to the Xbox Live service configuration, see [Xbox Live service configuration](https://docs.microsoft.com/windows/uwp/xbox-live/xbox-live-service-configuration) (external link, to public docs).
