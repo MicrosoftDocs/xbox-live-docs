@@ -25,4 +25,4 @@ permalink: en-us/games/xbox/docs/gxdk/live-featured-stats-nav.html
 
 ### See also
 
-* [Designing Xbox Live Experiences](../../../data-platform/designing-xbox-live-experiences.md)
+* [Designing Xbox Live Experiences](../../live-designing-experiences.md)
