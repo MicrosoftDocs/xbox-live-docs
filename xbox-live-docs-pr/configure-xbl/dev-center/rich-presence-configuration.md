@@ -103,4 +103,4 @@ You will be asked to confirm the deletion.
 
 ## See also
 
-[Overview of Rich Presence strings](https://docs.microsoft.com/en-us/windows/uwp/xbox-live/social-platform/rich-presence-strings/rich-presence-strings-overview)
+[Overview of Rich Presence strings](https://docs.microsoft.com/windows/uwp/xbox-live/social-platform/rich-presence-strings/rich-presence-strings-overview)

@@ -69,7 +69,7 @@ The date that you select determines when your Xbox Live configuration goes live 
 * The retail embargo feature is intended for titles that have not released their base game. Content Updates to products in RETAIL should opt-out.
 
 XBL Embargo only impacts Xbox Live-related features, and does not impact pricing and availability.
-For more information on pricing, see [Pricing and Offers.](https://docs.microsoft.com/en-us/partner-center/pricing-and-offers)
+For more information on pricing, see [Pricing and Offers.](https://docs.microsoft.com/partner-center/pricing-and-offers)
 
 **Xbox Live features that are embargoed:**
 

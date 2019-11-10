@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 <!-- 
 old path & filename:
 leaderboards-and-stats-2017/leaderboards.md
-https://docs.microsoft.com/en-us/gaming/xbox-live/leaderboards-and-stats-2017/leaderboards
+https://docs.microsoft.com/gaming/xbox-live/leaderboards-and-stats-2017/leaderboards
 Copied entire file to form two files, one for 2013, one for 2017.
  -->
 

@@ -11,14 +11,14 @@ ms.localizationpriority: medium
 # Get started with Xbox Live, for Creators
  
 The Xbox Live Creators Program allows you to quickly and directly publish your games to Xbox One and Windows 10, with a simplified certification process and no concept approval required.
-If your game integrates Xbox Live and follows our [standard Store policies](https://msdn.microsoft.com/en-us/library/windows/apps/dn764944.aspx), you are ready to publish.
+If your game integrates Xbox Live and follows our [standard Store policies](https://msdn.microsoft.com/library/windows/apps/dn764944.aspx), you are ready to publish.
 This article outlines the steps needed to get your game up and running with Xbox Live integration.
 
 Xbox Live Creators Program games must be a Universal Windows Platform (UWP) application.
- For Xbox One, see [UWP on Xbox One](https://msdn.microsoft.com/en-us/windows/uwp/xbox-apps/index) and specifically [System resources for UWP apps and games on Xbox One](https://msdn.microsoft.com/en-us/windows/uwp/xbox-apps/system-resource-allocation).
+ For Xbox One, see [UWP on Xbox One](https://msdn.microsoft.com/windows/uwp/xbox-apps/index) and specifically [System resources for UWP apps and games on Xbox One](https://msdn.microsoft.com/windows/uwp/xbox-apps/system-resource-allocation).
 
 Games published through the Xbox Live Creators Program do not have access to the achievements or online multiplayer services.
-For a full list of supported services, see the [Developer program overview feature table](https://docs.microsoft.com/en-us/windows/uwp/xbox-live/developer-program-overview#feature-table).
+For a full list of supported services, see [Features supported for each developer program](../../join-dev-program/feature-comparison-table.md).
 
 
 ## 1. Ensure you have a title created in Partner Center
@@ -79,5 +79,5 @@ The online multiplayer, achievements, and gamerscore features are supported for 
 ## 6. Release your game
 
 If you are using the Xbox Live Creators Program, then the process is no different than releasing any other UWP application:
-- [Microsoft Store Policies](https://msdn.microsoft.com/en-us/library/windows/apps/dn764944.aspx) including [Gaming and Xbox Policies](https://msdn.microsoft.com/en-us/library/windows/apps/dn764944.aspx#pol_10_13)
-- [Publish Windows apps](https://developer.microsoft.com/en-us/store/publish-apps)
+- [Microsoft Store Policies](https://msdn.microsoft.com/library/windows/apps/dn764944.aspx) including [Gaming and Xbox Policies](https://msdn.microsoft.com/library/windows/apps/dn764944.aspx#pol_10_13)
+- [Publish Windows apps](https://developer.microsoft.com/store/publish-apps)

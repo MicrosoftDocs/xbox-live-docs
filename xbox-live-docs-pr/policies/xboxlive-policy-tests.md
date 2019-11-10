@@ -207,7 +207,7 @@ Titles should provide a user-friendly error message indicating that there is a p
 <br />
 
 ### [Service Access Limitations (XR-132)](XR132.md)
-Titles which exceed [title and user based limits ](https://docs.microsoft.com/en-us/windows/uwp/xbox-live/using-xbox-live/best-practices/fine-grained-rate-limiting)when calling Xbox Live services or do not adhere to Xbox Live service retry policies may be subjected to rate limiting, which may result in service interruption or deprecation. Failure to adhere to the specified limits may block a title from release, and in-production issues with released titles may result in Xbox Live services suspension up to and including title removal.
+Titles which exceed [title and user based limits ](https://docs.microsoft.com/windows/uwp/xbox-live/using-xbox-live/best-practices/fine-grained-rate-limiting)when calling Xbox Live services or do not adhere to Xbox Live service retry policies may be subjected to rate limiting, which may result in service interruption or deprecation. Failure to adhere to the specified limits may block a title from release, and in-production issues with released titles may result in Xbox Live services suspension up to and including title removal.
 
 ### Test Cases
 

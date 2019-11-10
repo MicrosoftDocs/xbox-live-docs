@@ -70,12 +70,12 @@ You can see the current sandbox in the **Developer Mode Configuration** section.
 
 The following needs to be done before you switch your sandbox in Windows Device Portal (WPD):
 
-1. [Setup Device Portal on Windows Desktop](https://msdn.microsoft.com/en-us/windows/uwp/debug-test-perf/device-portal-desktop)
+1. [Setup Device Portal on Windows Desktop](https://msdn.microsoft.com/windows/uwp/debug-test-perf/device-portal-desktop)
 
 
 #### Switch Sandboxes
 
-1. Open **Windows Dev Portal** by connecting to it in your web browser, as described in [Setup Device Portal on Windows Desktop](https://msdn.microsoft.com/en-us/windows/uwp/debug-test-perf/device-portal-desktop).
+1. Open **Windows Dev Portal** by connecting to it in your web browser, as described in [Setup Device Portal on Windows Desktop](https://msdn.microsoft.com/windows/uwp/debug-test-perf/device-portal-desktop).
 2. Click on **Xbox Live**.
 3. Enter your development sandbox in the text field, and then click **change**.
 

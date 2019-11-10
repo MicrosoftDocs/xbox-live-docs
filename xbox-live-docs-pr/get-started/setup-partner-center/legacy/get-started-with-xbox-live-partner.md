@@ -17,7 +17,7 @@ Managed Partners can access the full range of Xbox Live features, including achi
 Managed Partners can develop Xbox Live titles for both the Universal Windows Platform (UWP) or the Xbox Developer Kit (XDK) platform.
 
 In addition to the content available here, there is also additional documentation that is available to partners with an authorized Partner Center account.
-You can access that content here: [Xbox Live partner content](https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/partner-content).
+You can access that content here: [Xbox Live partner content](https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/partner-content).
 
 
 ## Why should you use Xbox Live?
@@ -37,7 +37,7 @@ Decide between making an Xbox Development Kit (XDK), Universal Windows Platform 
 
 - XDK based games only run on the Xbox One console.
 - UWP games can target any Windows platform such as Windows PC, Windows Phone, or Xbox One.
-  - For Xbox One, see [UWP on Xbox One](https://msdn.microsoft.com/en-us/windows/uwp/xbox-apps/index) and specifically [System resources for UWP apps and games on Xbox One](https://msdn.microsoft.com/en-us/windows/uwp/xbox-apps/system-resource-allocation)
+  - For Xbox One, see [UWP on Xbox One](https://msdn.microsoft.com/windows/uwp/xbox-apps/index) and specifically [System resources for UWP apps and games on Xbox One](https://msdn.microsoft.com/windows/uwp/xbox-apps/system-resource-allocation)
 - Cross-play games are typically games that target Xbox One and Windows PC using both the XDK and UWP paths.
 
 

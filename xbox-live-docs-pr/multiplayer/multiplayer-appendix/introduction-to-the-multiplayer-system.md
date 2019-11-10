@@ -100,7 +100,7 @@ For more information, see [Reputation](../../social-platform/people-system/reput
 #### Xbox Live Compute
 
 Xbox Live Compute provides cloud processing power for titles using 2015 Multiplayer.
-For more information on using Xbox Live Compute, see [Using Xbox Live Compute in Multiplayer](https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/xbox-live-compute/using-xbox-live-compute-in-multiplayer).
+For more information on using Xbox Live Compute, see [Using Xbox Live Compute in Multiplayer](https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/xbox-live-compute/using-xbox-live-compute-in-multiplayer).
 
 
 ### Typical 2015 Multiplayer Architectures
@@ -269,7 +269,7 @@ The clients are notified of the match and perform quality of service (QoS) to va
 
 The Xbox Live Compute service on Xbox One enables developers to harness the elastic compute power of the cloud, and enables larger multiplayer scenarios than were possible in a peer-to-peer network.
 
-See [Xbox Live Compute](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/xbox-live-compute) in the XDK docs (requires ID@Xbox or Managed Partner access).
+See [Xbox Live Compute](https://developer.microsoft.com/games/xbox/docs/xdk/xbox-live-compute) in the XDK docs (requires ID@Xbox or Managed Partner access).
 
 
 ## See also
@@ -282,4 +282,4 @@ See [Xbox Live Compute](https://developer.microsoft.com/en-us/games/xbox/docs/xd
 
 [Reputation](../../social-platform/people-system/reputation_nav.md)
 
-[Using Xbox Live Compute in Multiplayer (requires managed partner access)](https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/xbox-live-compute/using-xbox-live-compute-in-multiplayer)
+[Using Xbox Live Compute in Multiplayer (requires managed partner access)](https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/xbox-live-compute/using-xbox-live-compute-in-multiplayer)
