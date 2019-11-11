@@ -47,6 +47,8 @@ To join the Xbox Live Creators Program:
 
 6. Review the settings, and then click the **Next** or **Save** button.
 
+7. Click the **Finish** button.
+
 
 ## Next steps
 
