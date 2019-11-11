@@ -16,7 +16,7 @@ The following are useful resources for developing Xbox Live-enabled games.
 
 The WinRT SDK API reference can be found online here:
 
-* [Xbox Live WinRT SDK](https://docs.microsoft.com/en-us/dotnet/api/?view=xboxlive-dotnet-2017.11.20171204.01)
+* [Xbox Live WinRT SDK](https://docs.microsoft.com/dotnet/api/?view=xboxlive-dotnet-2017.11.20171204.01)
 
 The C++ SDK API reference is currently only available in offline format.
 
@@ -82,6 +82,6 @@ Samples that are restricted to managed partners can be found on the Games Develo
 Some documentation for Xbox Live is available only to managed partners.
 To access this information, you must have a Microsoft Account (MSA) that has been enabled for full Xbox Live access.
 
-* [XGD > Xbox One > Xbox Live](https://developer.microsoft.com/en-us/games/xbox/partner/live-home) - Jump pages for Xbox Live resources.
-* [XGD > Xbox One > White papers](https://developer.microsoft.com/en-us/games/xbox/partner/development-education-whitepapers) - The section "Xbox Live and Networking" contains about 30 white papers.
-* [XGD > XDK > Xbox Live Services](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/xbox-live-services) - Additional articles about User Privileges, Player Data, Marketplace, and Cloud Compute.
+* [XGD > Xbox One > Xbox Live](https://developer.microsoft.com/games/xbox/partner/live-home) - Jump pages for Xbox Live resources.
+* [XGD > Xbox One > White papers](https://developer.microsoft.com/games/xbox/partner/development-education-whitepapers) - The section "Xbox Live and Networking" contains about 30 white papers.
+* [XGD > XDK > Xbox Live Services](https://developer.microsoft.com/games/xbox/docs/xdk/xbox-live-services) - Additional articles about User Privileges, Player Data, Marketplace, and Cloud Compute.

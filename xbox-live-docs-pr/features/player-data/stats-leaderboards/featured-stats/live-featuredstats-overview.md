@@ -11,7 +11,7 @@ ms.prod: xbox
 ms.technology: xboxgc
 permalink: en-us/games/xbox/docs/gxdk/live-featuredstats-overview.html
 ms.assetid: e5807269-5d30-45ad-a912-0b7e8bec4d1f
-ms.date: 04-04-2017
+ms.date: 04/04/2017
 ---
 
 # Featured Stats overview

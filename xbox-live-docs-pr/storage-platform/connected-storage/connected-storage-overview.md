@@ -104,7 +104,7 @@ The link to XDK APIs requires that you have a Microsoft Account(MSA) that has be
 You can find the UWP Connected Storage APIs documented in the Xbox Live SDK .chm file under the path:  
 **Xbox Live APIs >> Xbox Live Platform Extensions SDK API Reference >> Windows.Gaming.XboxLive.Storage**
 
-The UWP Connected Storage APIs are also documented online: [Windows.Gaming.XboxLive.Storage namespace reference](https://docs.microsoft.com/en-us/uwp/api/windows.gaming.xboxlive.storage)
+The UWP Connected Storage APIs are also documented online: [Windows.Gaming.XboxLive.Storage namespace reference](https://docs.microsoft.com/uwp/api/windows.gaming.xboxlive.storage)
 
 `Windows.Gaming.XboxLive.Storage` is the name of the Connected Storage namespace for UWP apps.
 

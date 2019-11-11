@@ -183,6 +183,6 @@ if(result.Status == GameSaveErrorStatus.Ok)
 
 ## See also
 
-Connected Storage APIs for UWP apps: [Windows.Gaming.XboxLive.Storage Namespace](https://docs.microsoft.com/en-us/uwp/api/windows.gaming.xboxlive.storage)
+Connected Storage APIs for UWP apps: [Windows.Gaming.XboxLive.Storage Namespace](https://docs.microsoft.com/uwp/api/windows.gaming.xboxlive.storage)
 
 For another sample that uses Connected Storage, see [Xbox Live API Samples Game Save project](https://github.com/Microsoft/xbox-live-samples/tree/master/Samples/ID%40XboxSDK/GameSave).

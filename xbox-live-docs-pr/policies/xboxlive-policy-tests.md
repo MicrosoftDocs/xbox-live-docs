@@ -215,7 +215,7 @@ Titles which exceed [title and user based limits ](https://docs.microsoft.com/wi
 
 **Tools Needed**
 >1. Fiddler
->2. [Xbox Live Trace Analyzer](http://aka.ms/xboxlivetoolspackage) to parse the output files from Fiddler
+>2. [Xbox Live Trace Analyzer](https://aka.ms/xboxlivetoolspackage) to parse the output files from Fiddler
 
 **Test Steps**  
 >1. With the title running, start a fiddler trace and proceed to move through all areas of the title, including (if supported), but not limited to, the following: 
