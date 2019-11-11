@@ -205,11 +205,11 @@ Fiddler will not show events by default since these are processed by the WinHTTP
 
 Once you have run the script, you should see events as follows in Fiddler:
 
-![Fiddler Undecoded Event](../../../../../../resources/gamecore/secure/images/en-us/live/stats/evented/game-events/fiddler1.png)
+![Fiddler Undecoded Event](live-game-events-images/fiddler1.png)
 
 Look for calls to `v10.vortex-win.data.microsoft.com`. You will need to decode the request body as shown, then if you look at the JSON you will see something such as the following:
 
-![Fiddler Decoded Event](../../../../../../resources/gamecore/secure/images/en-us/live/stats/evented/game-events/fiddler2.png)
+![Fiddler Decoded Event](live-game-events-images/fiddler2.png)
 
 You can verify the event name is what you expect. Your title ID will be prepended to the name. You should also verify you are getting a 200 return code.
 

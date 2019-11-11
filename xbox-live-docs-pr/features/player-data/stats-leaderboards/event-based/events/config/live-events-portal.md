@@ -83,13 +83,13 @@ For details, see [Overview of events](../live-game-events.md).
 
    * **Base event** - From the drop-down list, select the base event on which you want to build your new event. The selected base event will control the default fields with which your new event will be prepopulated. You can add any other fields but can't remove the default ones.
 
-   ![The Base event list](../../../../../../resources/gamecore/secure/images/en-us/live/stats/pctr-base-event-list.png)
+   ![The Base event list](live-events-portal-images/pctr-base-event-list.png)
 
    *  **Event name** - Provide a name that characterizes the event and that you'll easily remember and recognize. The event name doesn't have to match the name of the base event selected for the new event. Event names aren't displayed to the gamer and are internal to the code and game studio. Event names must be unique within a provider namespace:  a single provider can't have two conflicting event names.  
 
    *  **Description** - Provide a brief description of the event. This text is optional and hidden from the gamer.
 
-   ![The "Add new event" fields filled-in](../../../../../../resources/gamecore/secure/images/en-us/live/stats/pctr-add-new-event-dbox-filled-in.png)
+   ![The "Add new event" fields filled-in](live-events-portal-images/pctr-add-new-event-dbox-filled-in.png)
 
    *  **Event fields**  
       * The fields in this list represent the data that will be captured in connection with the new event.  
@@ -107,17 +107,17 @@ For details, see [Overview of events](../live-game-events.md).
          *  Rich presence: 44  
          *  Hero stat name: 44  
 
-   ![Adding an event field](../../../../../../resources/gamecore/secure/images/en-us/live/stats/pctr-add-event-field.png)
+   ![Adding an event field](live-events-portal-images/pctr-add-event-field.png)
 
 1. Click **Save** to create the event and close the dialog box.
 
-   ![new event dialog box](../../../../../../resources/gamecore/secure/images/en-us/live/events/add-event-dialog.png)
+   ![new event dialog box](live-events-portal-images/add-event-dialog.png)
 
 Your new event is now listed on the **Events and stat rules** page:
 
-![event added](../../../../../../resources/gamecore/secure/images/en-us/live/events/events-and-stat-rules-2.png)
+![event added](live-events-portal-images/events-and-stat-rules-2.png)
 
-Now that you have defined an event, you can click the right-hand side of the event row to define a stat rule that uses the event; see [Portal configuration of event-based Stats](live-stats-eb-portal.md).
+Now that you have defined an event, you can click the right-hand side of the event row to define a stat rule that uses the event; see [Portal configuration of event-based Stats](../../config/live-stats-eb-portal.md).
 
 
 <a id="ID4EYE"></a>
@@ -165,7 +165,7 @@ You can create a new event by copying an existing event and modifying its info f
 
    1. In the **Confirmation** dialog box, click **Delete** or **Cancel**.
 
- ![delete dependency](../../../../../../resources/gamecore/secure/images/en-us/live/events/event_delete_dependency.png)
+ ![delete dependency](live-events-portal-images/event_delete_dependency.png)
 
 
 <a id="ID4ERH"></a>

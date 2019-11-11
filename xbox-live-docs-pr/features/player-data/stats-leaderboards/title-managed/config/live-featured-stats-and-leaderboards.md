@@ -21,7 +21,7 @@ All Featured Stats will show up on the GameHub, which makes it automatically act
 
 We will store the raw value; however, the game will own the logic for determining whether a new value should be provided.
 
-![Screenshot of the achievements page on the Game Hub](../../images/dev-center/featured-stats-and-leaderboards/featured-stats-and-leaderboards-2.png)
+![Achievements page on the Game Hub](../../../../../images/dev-center/featured-stats-and-leaderboards/featured-stats-and-leaderboards-2.png)
 
 The picture above shows how Featured Stats will look in your title's GameHub.
 The Featured Stats are shown withing the red box.
@@ -37,13 +37,13 @@ You can use Partner Center to configure a featured stat and leaderboard that is 
 
 2. Click the **New** button which will open a modal form. Once filled out, click **Save**.
 
-![Image of the new featured stat/leaderboard dialog](../../images/dev-center/featured-stats-and-leaderboards/featured-stats.png)
+![New featured stat/leaderboard dialog](../../../../../images/dev-center/featured-stats-and-leaderboards/featured-stats.png)
 
 The **Display name** field is what users will see in the GameHub.
 This string can be localized in the **Localize strings** of the Xbox Live service configuration.
 
 The **ID** field is the stat name and is how you will refer to your stat when updating it from your code.
-For more details, see [Updating Stats](../../leaderboards-and-stats-2017/player-stats-updating.md).
+For more details, see [Updating title-managed Stats](how-to/live-stats-tm-updating.md).
 
 
 ## Data format
@@ -72,4 +72,4 @@ There are the following requirements when configuring a featured stat and leader
 
 ## Next steps
 
-Next, update the stats from your code; see [Updating Stats](../../leaderboards-and-stats-2017/player-stats-updating.md).
+Next, update the stats from your code; see [Updating title-managed Stats](how-to/live-stats-tm-updating.md).

@@ -16,10 +16,11 @@ ms.assetid: 5ec7cec6-4296-483d-960d-2f025af6896e
 
 <!-- renamed file from leaderboards-and-stats-2017/using-player-stats.md -->
 
-As described in [Player Data Overview](../data-platform/player-data_nav.md), stats are key pieces of information you want to track about a player, such as *Head Shots* or *Fastest Lap Time*.
+As described in [Player Data Overview](../live-playerdata-overview.md), stats are key pieces of information you want to track about a player, such as *Head Shots* or *Fastest Lap Time*.
 Stats are used to generate leaderboards in a number of scenarios that will allow players to compare their effort and skills with their friends and every other player in a title's community.
 
-*Configured stats* show up in a title's [Game Hub](../data-platform/designing-xbox-live-experiences.md) leaderboard, where a player will see how they rank against their friends who have also played the title.
+*Configured stats* show up in a title's GameHub leaderboard, where a player will see how they rank against their friends who have also played the title.
+For more information about GameHub leaderboards, see [Designing Xbox Live Experiences](../live-designing-experiences.md).
 
 <!-- pinned content blocks are no longer applicable:
 
@@ -37,8 +38,7 @@ There are two implementations of Stats for Xbox Live:
 * Managed Partners can use event-based Stats or title-managed Stats.
 
 * Xbox Live Creators Program developers can only use title-managed Stats, and so can ignore event-based Stats.
-  Creators Program developers can skip ahead to [title-managed Stats](stats2017.md).
-
+  Creators Program developers can skip ahead to [Title-managed Stats overview](title-managed/live-stats2017.md).
 Event-based Stats and title-managed Stats operate on fundamentally different principles, as follows.
 
 
@@ -55,7 +55,11 @@ In event-based Stats, the service keeps track of and updates all of your stats v
 When using title-managed Stats, you send up the actual stat value itself for the server to use.
 
 In title-managed Stats, the server does little to no validation on the value sent to it, and so it is up to your title to keep track of the correct stat values; your title is the source of truth for statistic values.
-When using title-managed Stats, we recommend that you track and store your stats in the cloud with the [Xbox Live Cloud Storage](../storage-platform/cloud-storage_nav.md).
+When using title-managed Stats, we recommend that you track and store your stats in the cloud with the [Xbox Live Cloud Storage](../../../storage-platform/cloud-storage_nav.md).
+
+current loc:
+target loc:
+
 
 Title-managed Stats is like a reporting service: you send the correct stat for your game to the server, your stat then sits on the server and waits to be displayed on request or updated.
 
@@ -100,7 +104,7 @@ The service has minimal validation checks to make sure that you're sending a num
 Although you may use the title-managed Stats service to recall the values of stats at the beginning of a game session, you should not use the title-managed Stats service to confirm the value of a stat while the session is ongoing.
 
 How the two flavors of Stats operate:
-![Event-based vs. title-based Stats](../images/stats/Stats2013-7DiagramColored.jpg)
+![Event-based vs. title-based Stats](../../../images/stats/Stats2013-7DiagramColored.jpg)
 
 
 ## Other differences between the two approaches
@@ -131,6 +135,6 @@ Title-managed Stats is only used to produce Featured Stats and leaderboards.
 
 ## Further reading
 
-For a more in-depth explanation of event-based Stats, read the [Event-based Stats overview](/live-stats-eb-overview.md).
+For a more in-depth explanation of event-based Stats, read the [Event-based Stats overview](event-based/live-stats-eb-overview.md).
 
-For a more in-depth explanation of title-managed Stats, read the [Stats 2017 Documentation](stats2017.md).
+For a more in-depth explanation of title-managed Stats, read the [Stats 2017 Documentation](title-managed/live-stats2017.md).

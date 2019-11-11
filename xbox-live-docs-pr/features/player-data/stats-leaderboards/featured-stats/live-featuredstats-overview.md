@@ -47,7 +47,7 @@ Think of Featured Stats as an opportunity for each Xbox One title to prominently
 
 **Figure 1.  Example of displaying Featured Stats.**
 
-![Featured Stats](../../../../../../../resources/gamecore/secure/images/en-us/live/featured-stats/featured_stats_screenshot.png)
+![Featured Stats](live-featuredstats-overview-images/featured_stats_screenshot.png)
 
 
 #### Configuration ####
