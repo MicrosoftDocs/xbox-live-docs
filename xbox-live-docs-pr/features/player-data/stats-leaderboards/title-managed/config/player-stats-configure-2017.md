@@ -30,11 +30,11 @@ You do not need to configure Stats that are not featured player Stats, and are n
 
 First, go to the Player Stats section for your title as shown below.
 
-![Partner Center Featured Stats and Leaderboards configuration screenshot](../images/omega/dev_center_player_stats_creators.png)
+![Partner Center Featured Stats and Leaderboards configuration screenshot](player-stats-configure-2017-images/dev_center_player_stats_creators.png)
 
 Then click the `Create your first featured stat/leaderboard` button, and then fill out this dialog and click Save.
 
-![Partner Center new leaderboard dialogue](../images/omega/dev_center_player_stats_creators_leaderboard.png)
+![Partner Center new leaderboard dialogue](player-stats-configure-2017-images/dev_center_player_stats_creators_leaderboard.png)
 
 The `Display name` field is what users will see in the GameHub.
 
@@ -42,7 +42,7 @@ This string can be localized in the `Localize strings` section.
 To see details on how to localize these strings, in the `Localize strings` section, click `Show Options`.
 
 The `ID` field is the stat name and will be how you will refer to your stat when updating it from your title code.
-For more detail, see the [Updating Stats](player-stats-updating.md) section below.
+For more detail, see [Updating title-managed Stats](../how-to/live-stats-tm-updating.md).
 
 The `Format` is the data format of the stat.
 
@@ -69,4 +69,4 @@ Note the following requirements:
 
 ## Next Steps
 
-Next, update the stat from title code; see [Updating Stats](player-stats-updating.md).
+Next, update the stat from title code; see [Updating title-managed Stats](../how-to/live-stats-tm-updating.md).

@@ -34,7 +34,7 @@ But you would have no way of knowing this without somehow synchronizing this inf
 
 There are a few ways you can do this:
 
-1. Store Stats using [Connected Storage](../storage-platform/connected-storage/connected-storage-technical-overview.md).  Usually you would use Connected Storage for per-user save data.  This data is kept in sync across different devices for a given user.
+1. Store Stats using [Connected Storage](../../../../../storage-platform/connected-storage/connected-storage-technical-overview.md).  Usually you would use Connected Storage for per-user save data.  This data is kept in sync across different devices for a given user.
 2. Use your own web service to keep Stats in sync if you already have one for performing auxillary tasks for your title.
 
 

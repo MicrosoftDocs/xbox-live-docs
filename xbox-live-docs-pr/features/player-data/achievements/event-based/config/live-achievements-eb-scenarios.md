@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.prod: xboxlive
 ms.technology: 
 ms.assetid: f777aca3-0116-46d8-abdd-63a360649d86
-ms.date: 04-04-2017
+ms.date: 04/04/2017
 permalink: "en-us/games/xbox/docs/gxdk/live-achievements-eb-scenarios.html"
 ---
 

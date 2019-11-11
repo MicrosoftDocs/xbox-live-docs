@@ -33,11 +33,11 @@ Title-managed Stats accepts values sent to it with little to no validation, so i
 Stats are configured on the [Partner Center dashboard](https://partner.microsoft.com/dashboard/windows/overview).
 In order to configure stats, you must already have a title configured.
 
-If you do not have a title configured, you can learn how to do so by reading [Create and test a new Creator's title](../get-started/setup-partner-center/legacy/create-and-test-a-new-creators-title.md).
+If you do not have a title configured, you can learn how to do so by reading [Create and test a new Creator's title](../../../../get-started/setup-partner-center/legacy/create-and-test-a-new-creators-title.md).
 The Stats you configure in Partner Center will appear in your title's GameHub as pictured:
 
 The *Featured Stats* are highlighted in yellow in the image below.
-![Official Club Page Social Leaderboard](../images/omega/gamehub_featuredstats.png)
+![Official Club Page Social Leaderboard](live-stats2017-images/gamehub_featuredstats.png)
 
 On Xbox One, users are able to pin games directly to their Home screen to quickly find relevant information, community driven content, and developer posts.
 The stats you configure may also appear as a part of pinned Home content.
@@ -45,7 +45,7 @@ The stats you configure may also appear as a part of pinned Home content.
 Stats will show the player along with a slightly higher ranked friend, encouraging them to play their way up the leaderboard.
 Leaderboards in pinned content would appear as highlighted in the following image.
 
-![Halo 5 Pinned Leaderboard](../images/stats/Halo_5_Pinned_Leaderboard.png)
+![Halo 5 Pinned Leaderboard](live-stats2017-images/Halo_5_Pinned_Leaderboard.png)
 
 Featured Stats compare in-game progress based on configured statistics with other friends who also play the title.
 This encourages more play time for your title when friends compete for high scores or simply bond over a shared experience.
@@ -57,5 +57,5 @@ Developers are limited to having no more than 20 featured stats for their title,
 
 ## See also
 
-[Configuring title-managed Featured Stats and Leaderboards](../configure-xbl/dev-center/featured-stats-and-leaderboards.md)
-[Updating title-managed Stats](player-stats-updating.md)
+[Configuring title-managed Featured Stats and Leaderboards](../../../../configure-xbl/dev-center/featured-stats-and-leaderboards.md)
+[Updating title-managed Stats](how-to/live-stats-tm-updating.md)

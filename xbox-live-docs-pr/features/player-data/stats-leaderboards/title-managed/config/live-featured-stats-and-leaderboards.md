@@ -43,7 +43,7 @@ The **Display name** field is what users will see in the GameHub.
 This string can be localized in the **Localize strings** of the Xbox Live service configuration.
 
 The **ID** field is the stat name and is how you will refer to your stat when updating it from your code.
-For more details, see [Updating title-managed Stats](how-to/live-stats-tm-updating.md).
+For more details, see [Updating title-managed Stats](../how-to/live-stats-tm-updating.md).
 
 
 ## Data format
@@ -72,4 +72,4 @@ There are the following requirements when configuring a featured stat and leader
 
 ## Next steps
 
-Next, update the stats from your code; see [Updating title-managed Stats](how-to/live-stats-tm-updating.md).
+Next, update the stats from your code; see [Updating title-managed Stats](../how-to/live-stats-tm-updating.md).

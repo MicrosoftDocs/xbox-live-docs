@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.prod: xboxlive
 ms.technology: 
 permalink: en-us/games/xbox/docs/gxdk/live-how-to-get-achievements.html
-ms.date: 09-23-2019
+ms.date: 09/23/2019
 ms.localizationpriority: medium
 ---
 
