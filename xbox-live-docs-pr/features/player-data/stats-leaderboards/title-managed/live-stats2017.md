@@ -57,5 +57,5 @@ Developers are limited to having no more than 20 featured stats for their title,
 
 ## See also
 
-[Configuring title-managed Featured Stats and Leaderboards](../../../../configure-xbl/dev-center/featured-stats-and-leaderboards.md)
-[Updating title-managed Stats](how-to/live-stats-tm-updating.md)
+* [Title-managed Featured Stats & Leaderboards portal config](config/live-featured-stats-and-leaderboards.md)
+* [Updating title-managed Stats](how-to/live-stats-tm-updating.md)

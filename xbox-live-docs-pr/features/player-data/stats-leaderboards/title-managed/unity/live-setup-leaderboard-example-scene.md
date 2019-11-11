@@ -16,7 +16,7 @@ In the screenshot below, the leaderboard example scene simply displays a sign-in
 If you hit play at this point without adding to this scene, you will find the sign-in panel is populated with fake user data, but the leaderboard loads no information.
 In order to get this example scene to load an actual leaderboard, you'll have to make some additions.
 
-![Leaderboard Scene Screenshot](../images/unity/leaderboard-scene-1804.JPG)
+![Leaderboard Scene Screenshot](live-setup-leaderboard-example-scene-images/leaderboard-scene-1804.JPG)
 
 
 ## Prerequisites
@@ -33,7 +33,7 @@ After performing the actions in the stats section of that article come back here
 The leaderboard prefab has a number of settings that can be changed in the inspector section for the leaderboard's script component, such as the UI *theme*, the player associated with the leaderboard, xbox controller settings, and other leaderboard settings.
 The leaderboard settings are split into a few different sections in the inspector below.
 
-![Leaderboard inspector screenshot](../images/unity/leaderboard_script_inspector.JPG)
+![Leaderboard inspector screenshot](live-setup-leaderboard-example-scene-images/leaderboard_script_inspector.JPG)
 
 
 ### Theme and display settings
@@ -44,7 +44,7 @@ This will change the background, font, and image colors of the prefab.
 
 The effect is easily seen when playing the scene in the Unity player.
 
-![Light Theme](../images/unity/leaderboard_light_theme.JPG) ![Dark Theme](../images/unity/leaderboard_dark_theme.JPG)
+![Light Theme](live-setup-leaderboard-example-scene-images/leaderboard_light_theme.JPG) ![Dark Theme](live-setup-leaderboard-example-scene-images/leaderboard_dark_theme.JPG)
 
 
 ### Stat configuration
@@ -91,11 +91,11 @@ Viewing the leaderboard prefab in the inspector will reveal that it can take an 
 
 You can drag any of the `State Base` type prefabs `IntegerStat`, `DoubleStat`, or `StringStat` from the prefabs folder of the Xbox Live Unity plugin and place it in this spot in the leaderboard prefab.
 
-![Drag and Drop Stat Prefab](../images/unity/stat-to-leaderbaord-drag.gif)
+![Drag and Drop Stat Prefab](live-setup-leaderboard-example-scene-images/stat-to-leaderbaord-drag.gif)
 
 Now play the scene in Unity and you will find that the leaderboard is populated with fake data like below.
 
-![Fake data populated leaderboard screenshot](../images/unity/leaderboard-fake-data-1804.JPG)
+![Fake data populated leaderboard screenshot](live-setup-leaderboard-example-scene-images/leaderboard-fake-data-1804.JPG)
 
 
 ## Populating a Visual Studio built project with real data
@@ -107,6 +107,6 @@ In addition to building your project to run locally, you will have to configure 
 In order to associate a stat to your leaderboard you will need to modify the ID and Display Name of the stat object in the leaderboard prefab.
 The ID will need to match that of a stat configured in [Partner Center](https://partner.microsoft.com/dashboard).
 
-After you have done the above, build your project as described in the [build section of the configure Xbox Live in Unity article](../get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md#build-and-test-the-project).
+After you have done the above, build your project as described in the [build section of the configure Xbox Live in Unity article](../../../../../get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md#build-and-test-the-project).
 
 Executing this project as an x64 build that targets the "Local Machine" enables you to sign-in with a real gamertag and populate the leaderboard with real data.

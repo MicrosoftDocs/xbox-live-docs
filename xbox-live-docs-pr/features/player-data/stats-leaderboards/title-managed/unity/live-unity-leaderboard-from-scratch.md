@@ -21,8 +21,8 @@ There are two API calls to retrieve leaderboard data.
 - `void GetSocialLeaderboard(XboxLiveUSer user, string statName, string socialGroup, LeaderboardQuery query)`
 
 To successfully make either of these calls return data, do the following steps:
-* Acquire an `XboxLiveUser` by [sign-in](../get-started/setup-ide/creators/unity-win10/signin/unity-prefabs-and-sign-in.md).
-* Have a [configured stat](add-stats-and-leaderboards-in-unity.md) with value for at least one player.
+* Acquire an `XboxLiveUser` by [sign-in](../../../../../get-started/setup-ide/creators/unity-win10/signin/unity-prefabs-and-sign-in.md).
+* Have a [configured stat](live-add-stats-and-leaderboards-in-unity.md) with value for at least one player.
 * Form a `LeaderboardQuery`.
 
 Examples are below.
