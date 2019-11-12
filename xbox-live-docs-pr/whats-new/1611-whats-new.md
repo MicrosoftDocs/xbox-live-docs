@@ -16,7 +16,7 @@ Please see the [What's New - August 2016](1608-whats-new.md) article for what wa
 
 ### Simplified Achievements
 
-* [Simplified Achievements](../achievements-2017/simplified-achievements.md) are a new and simpler way to configure and use achievements.  You no longer have to send events and have the Xbox Live services decide if your achievement is unlocked.  Your title is in charge of that decision.
+* [Title-managed Achievements](../features/player-data/achievements/title-managed/live-achievements-tm-nav.md) are a new and simpler way to configure and use achievements.  You no longer have to send events and have the Xbox Live services decide if your achievement is unlocked.  Your title is in charge of that decision.
 * If you have been part of the early pilot of Simplified Achievements we have also added offline support.
 * There's a new sample called SimplifiedAchievements that shows off how easy it is to use.
 

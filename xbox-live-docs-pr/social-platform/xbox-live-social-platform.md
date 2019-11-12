@@ -66,7 +66,7 @@ The profile contains the following information:
 
 ### Gamerscore and Achievements
 
-Each gamer can earn Gamerscore by unlocking [achievements](../achievements-2017/achievements_nav.md) in your game.
+Each gamer can earn Gamerscore by unlocking [Achievements](../features/player-data/achievements/live-achievements-nav.md) in your game.
 Achievements is a very popular feature that keeps your gamers engaged with your title by letting them both boast of their prowess and extend gameplay goals.
 Players can compare their Achievements with their friends in their profile.
 

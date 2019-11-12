@@ -29,12 +29,7 @@ The domain for these URIs is leaderboards.xboxlive.com.
 
 ## See also
 
-[Overview of Leaderboards](../../../leaderboards-and-stats-2017/leaderboards.md)
-<!--
-present location:
-xbox-live\xbox-live-rest\uri\leaderboard
-destination:
-xbox-live\leaderboards-and-stats-2017 -->
+[Stats & Leaderboards](../../../features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md)
 
 
 <a id="ID4EOB"></a>

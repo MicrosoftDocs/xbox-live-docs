@@ -19,7 +19,7 @@ Please see the [What's New - December 2016](1612-whats-new.md) article for what 
 
 We have introduced a simplified Stats API.  Traditionally you had to send events corresponding to stat rules defined at Partner Center and these would update the stat values in the cloud.  We refer to this model as Stats 2013.
 
-With Stats 2017, your title is now in control of your stat values.  You simply call an API with the most recent stat value, and that gets sent to the service directly without the need for events.  This uses the new `StatsManager` API and you can read more in [Player Stats](../leaderboards-and-stats-2017/player-stats_nav.md)
+With Stats 2017, your title is now in control of your stat values.  You simply call an API with the most recent stat value, and that gets sent to the service directly without the need for events.  This uses the new `StatsManager` API and you can read more in [Title-managed Stats & Leaderboards](../features/player-data/stats-leaderboards/title-managed/live-statslb-tm-nav.md).
 
 
 ### GitHub
