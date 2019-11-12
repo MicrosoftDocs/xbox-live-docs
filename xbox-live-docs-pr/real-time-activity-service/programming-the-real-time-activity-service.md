@@ -50,7 +50,7 @@ You create statistics in Partner Center, for the various scenarios:
 * If you are making a pure UWP game running on Windows 10.
 
 You define your stats in [Partner Center](https://partner.microsoft.com/dashboard).
-See [Configuring Featured Stats or Leaderboards in Partner Center with Player Data 2017](../leaderboards-and-stats-2017/player-stats-configure-2017.md).
+See [Title-managed Featured Stats & Leaderboards portal config](../features/player-data/stats-leaderboards/title-managed/config/live-featured-stats-and-leaderboards.md).
 
 > [!NOTE]
 > An event-based Stats (Stats 2013) developer will need to contact their DAM for information concerning [Stats 2013 configuration](../features/player-data/stats-leaderboards/event-based/config/live-stats-eb-portal.md) in [Partner Center](https://partner.microsoft.com/dashboard).

@@ -24,7 +24,7 @@ In order to get this example scene to load an actual leaderboard, you'll have to
 Leaderboards in Xbox Live are based on the stats in the Xbox Live stats service.
 Before you can populate a leaderboard with data you will need to have some stats associated with your test accounts.
 
-If you have not already added statistics to your title you can learn how to do so by reading [Add player stats and leaderboards to your Unity project](add-stats-and-leaderboards-in-unity.md).
+If you have not already added statistics to your title you can learn how to do so by reading [Add player stats and leaderboards to your Unity project](live-add-stats-and-leaderboards-in-unity.md).
 After performing the actions in the stats section of that article come back here to display a stat in the example leaderboard scene.
 
 
