@@ -14,3 +14,9 @@ permalink: "en-us/games/xbox/docs/gxdk/live-achievements-tm-config-nav.html"
 
 # Title-managed Achievements portal config
 
+
+### In this section
+
+| Article | Description |
+|---------|-------------|
+| [Title-managed Achievements portal config](live-achievements-tm-config.md) | Configuring Achievements in Partner Center, to deliver rewards. |

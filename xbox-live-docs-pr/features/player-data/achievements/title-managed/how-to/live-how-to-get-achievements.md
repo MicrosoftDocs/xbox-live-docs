@@ -1,6 +1,6 @@
 ---
 title: Getting Achievements
-description: "A how-to guide for using the Achievements API to get achievements."
+description: Example code for getting title-managed Achievements.
 kindex: Getting Achievements
 author: XBL
 ms.author: v-jasch

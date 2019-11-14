@@ -12,3 +12,9 @@ permalink: "en-us/games/xbox/docs/gxdk/live-achievements-tm-concepts-nav.html"
 
 # Title-managed Achievements concepts
 
+
+### In this section
+
+| Article | Description |
+|---------|-------------|
+| [Achievement Rewards](live-achievement-rewards.md) | Configuring an achievement to deliver rewards, such as gamerscore, art, and in-app rewards. |

@@ -13,10 +13,8 @@ permalink: en-us/games/xbox/docs/gxdk/live-statslb-tm-config-nav.html
 # Title-managed Stats & Leaderboards portal config
 
 
-<!-- ### In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ | -->
+| [Title-managed Featured Stats & Leaderboards portal config](live-featured-stats-and-leaderboards.md) | Configuring title-managed Featured Stats & Leaderboards in Partner Center. |

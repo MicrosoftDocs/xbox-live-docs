@@ -1,6 +1,6 @@
 ---
-title: "Download the Events Manifest file from Partner Center"
-description: "Procedures for downloading the Events Manifest file from Partner Center."
+title: Downloading the Events Manifest file from Partner Center
+description: Downloading the Events Manifest file from Partner Center, to create header files that contain function definitions that your title can use to send events.
 kindex: Downloading the Events Manifest file
 kindex: Events Manifest, download
 kindex: Events Manifest, publish
@@ -12,7 +12,7 @@ ms.technology:
 permalink: en-us/games/xbox/docs/gxdk/live-downloading-events-manifest.html
 ---
 
-# Download the Events Manifest file from Partner Center
+# Downloading the Events Manifest file from Partner Center
 
 <!-- 
 article copied from secure docs portal "Download the Events Manifest file from Windows Dev Center"-->

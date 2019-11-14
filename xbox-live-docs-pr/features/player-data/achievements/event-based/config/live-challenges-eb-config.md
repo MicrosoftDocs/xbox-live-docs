@@ -1,6 +1,6 @@
 ---
 title: Challenges portal config
-description: "Procedures for adding and changing challenges."
+description: Adding and changing challenges at Partner Center.
 kindex: Challenges portal config
 kindex: challenges, create
 kindex: challenges, change

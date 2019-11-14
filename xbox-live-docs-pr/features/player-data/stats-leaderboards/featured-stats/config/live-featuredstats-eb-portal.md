@@ -1,6 +1,6 @@
 ---
 title: Portal configuration of event-based Featured Stats
-description: Configuring featured stats.
+description: Configuring event-based Featured Stats at Partner Center.
 kindex: Portal configuration of event-based Featured Stats
 kindex: event-based Featured Stats
 kindex: Xbox Live, event-based Featured Stats

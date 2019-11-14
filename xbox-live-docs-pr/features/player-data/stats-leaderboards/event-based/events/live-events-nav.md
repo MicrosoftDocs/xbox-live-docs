@@ -17,10 +17,9 @@ permalink: en-us/games/xbox/docs/gxdk/live-events-nav.html
 These articles only apply if you are using event-based User Stats, not title-managed User Stats.
 
 
-<!-- ### In this section
+### In this section
 
 | Article | Description |
 |---------|-------------|
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ | -->
+| [Events overview](live-game-events.md) | Sending game events to your Xbox Live service configuration to update User Stats, Featured Stats, Achievements, and Leaderboards. |
+| [Events configuration](config/live-events-config-nav.md) | Configuring Events at Partner Center. |

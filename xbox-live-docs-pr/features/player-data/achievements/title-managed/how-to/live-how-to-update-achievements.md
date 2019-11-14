@@ -1,6 +1,6 @@
 ---
 title: Updating Achievements
-description: A how-to guide for using the Achievements API to update achievements.
+description: Example code for updating title-managed Achievements.
 kindex: Updating Achievements
 author: XBL
 ms.author: v-jasch

@@ -1,6 +1,6 @@
 ---
 title: Portal configuration of events
-description: Portal configuration of events.
+description: Configuring Events at Partner Center.
 kindex: Xbox Live events
 kindex: events, Xbox Live
 author: v-mihof

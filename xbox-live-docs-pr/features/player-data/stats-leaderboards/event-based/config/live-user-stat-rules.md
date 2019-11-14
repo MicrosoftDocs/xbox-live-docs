@@ -1,6 +1,6 @@
 ---
 title: Event-based Stat rules overview
-description: How User Stat rules work.
+description: Each stat rule is triggered by a specific event name logged by the title.
 kindex: Event-based Stat rules overview
 kindex: stats, Xbox Live
 author: v-mihof
@@ -14,6 +14,8 @@ permalink: en-us/games/xbox/docs/gxdk/live-user-stat-rules.html
 # Event-based Stat rules overview
 
 <!-- from old portal "User Stat Rules" article; https://developer.microsoft.com/games/xbox/docs/xdk/user-stats-rules -->
+
+<!-- todo: what does a rule accomplish? -->
 
 Stat rules are used for event-based Stats, not for title-managed Stats.
 

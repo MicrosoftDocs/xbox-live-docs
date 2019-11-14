@@ -1,6 +1,6 @@
 ---
 title: Portal configuration of title-managed Featured Stats
-description: Configuring featured stats.
+description: Configuring title-managed Featured Stats at Partner Center.
 kindex: Portal configuration of title-managed Featured Stats
 kindex: event-based Featured Stats
 kindex: Xbox Live, event-based Featured Stats
