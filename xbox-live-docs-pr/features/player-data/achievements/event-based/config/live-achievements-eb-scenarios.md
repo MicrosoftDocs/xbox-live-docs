@@ -15,7 +15,7 @@ permalink: "en-us/games/xbox/docs/gxdk/live-achievements-eb-scenarios.html"
 
 # Scenarios for creating event-based Achievements
 
->![](../../../../../images/common/note.gif) **NOTE:** If you are currently using event-based Achievements (Achievements 2013) and want to continue using cross-progresssion, read this article; otherwise, we recommend using title-managed Achievements.
+>![](live-achievements-eb-scenarios-images/note.gif) **NOTE:** If you are currently using event-based Achievements (formerly called _Achievements 2013_) and want to continue using cross-progresssion, read this article; otherwise, we recommend using title-managed Achievements.
 
 This article covers some common scenarios for creating achievements.
 

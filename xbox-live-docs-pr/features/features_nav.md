@@ -2,7 +2,7 @@
 layout: LandingPage
 title: Features
 author: mikehoffms
-description: Adding Xbox Live features to your game, such as Identity, Social features, Achievements, Cloud Storage, Multiplayer features, and External Services.
+description: Adding Xbox Live features to your game, such as Identity, Social features, Achievements, Cloud Storage, and Multiplayer features; and configuring Custom services to use Xbox Live.
 ms.author: v-mihof
 ms.date: 12/11/2018
 ms.topic: article
@@ -20,7 +20,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_account-management.svg" alt="Identity features" />
+                                <img src="https://docs.microsoft.com/media/common/i_account-management.svg" alt="Identity features"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -39,7 +39,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_common-data-service.svg" alt="Player Data" />
+                                <img src="https://docs.microsoft.com/media/common/i_common-data-service.svg" alt="Player Data"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -58,7 +58,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_configure-teams.svg" alt="Social features" />
+                                <img src="https://docs.microsoft.com/media/common/i_configure-teams.svg" alt="Social features"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -77,7 +77,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_share.svg" alt="Multiplayer features" />
+                                <img src="https://docs.microsoft.com/media/common/i_share.svg" alt="Multiplayer features"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -96,7 +96,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_data-gateway.svg" alt="Cloud Storage" />
+                                <img src="https://docs.microsoft.com/media/common/i_data-gateway.svg" alt="Cloud Storage"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -115,7 +115,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_service-hooks.svg" alt="External Services" />
+                                <img src="https://docs.microsoft.com/media/common/i_service-hooks.svg" alt="Custom services"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -140,7 +140,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_whats-new.svg" alt="What's new" />
+                                <img src="https://docs.microsoft.com/media/common/i_whats-new.svg" alt="What's new"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -159,7 +159,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_form.svg" alt="Title-callable UI (TCUI)" />
+                                <img src="https://docs.microsoft.com/media/common/i_form.svg" alt="Title-callable UI (TCUI)"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -178,7 +178,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_alert.svg" alt="Real-Time Activity (RTA) service" />
+                                <img src="https://docs.microsoft.com/media/common/i_alert.svg" alt="Real-Time Activity (RTA) service"/>
                             </div>
                         </div>
                         <div class="cardText">

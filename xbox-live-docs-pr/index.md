@@ -73,7 +73,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText">
                             <h3>Features</h3>
-                            <p>Add Xbox Live features to your game, such as Identity, Social features, Achievements, Cloud Storage, Multiplayer features, and External Services.</p>
+                            <p>Add Xbox Live features to your game, such as Identity, Social features, Achievements, Cloud Storage, and Multiplayer features; and using Xbox Live with your own custom services.</p>
                         </div>
                     </div>
                 </div>

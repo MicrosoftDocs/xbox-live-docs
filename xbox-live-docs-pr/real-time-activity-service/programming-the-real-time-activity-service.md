@@ -53,7 +53,7 @@ You define your stats in [Partner Center](https://partner.microsoft.com/dashboar
 See [Title-managed Featured Stats & Leaderboards portal config](../features/player-data/stats-leaderboards/title-managed/config/live-featured-stats-and-leaderboards.md).
 
 > [!NOTE]
-> An event-based Stats (Stats 2013) developer will need to contact their DAM for information concerning [Stats 2013 configuration](../features/player-data/stats-leaderboards/event-based/config/live-stats-eb-portal.md) in [Partner Center](https://partner.microsoft.com/dashboard).
+> An event-based Stats developer will need to contact their DAM for information concerning [Portal configuration of event-based Stats](../features/player-data/stats-leaderboards/event-based/config/live-stats-eb-portal.md) in [Partner Center](https://partner.microsoft.com/dashboard).
 
 For XDK-based games, after you have created your stat and defined your events, you will need to run the [XCETool](https://developer.xboxlive.com/en-us/platform/development/documentation/software/Pages/atoc_xce_jun15.aspx) to generate a header used by your application.
 This header contains functions you can call to send events that modify stats.

@@ -23,10 +23,10 @@ This article describes how to make your first API calls for Leaderboards.
 
 ## Leaderboards APIs
 
-Leaderboards 2013 is the preferred approach.
-Leaderboards 2017 is not recommended for new code.
+Event-based Leaderboards is the preferred approach.
+Title-managed Leaderboards is not recommended for new code.
 
-To see all of the Stats Leaderboard APIs, see the `leaderboard_service` namespace.
+To see all of the APIs for Stats & Leaderboards, see the `leaderboard_service` namespace.
 
 
 ### Basic leaderboard display
@@ -119,7 +119,7 @@ Windows::Foundation::IAsyncOperation< LeaderboardResult^> ^  GetLeaderboardWithS
 ```
 
 
-## 2013 C++ Example
+## Event-based C++ Example
 
 When using the C++ API layer, you can then set a callback to be invoked once the Leaderboard results are returned from the service.
 An example is shown below.
@@ -180,7 +180,7 @@ for (const xbox::services::leaderboard::leaderboard_row& row : leaderboard.rows(
 ```
 
 
-## 2013 WinRT C# Example
+## Event-based WinRT C# Example
 
 When using the WinRT C# layer, you will not need to make a separate callback task, and will simply need to use the `await` keyword when calling the leaderboard service.
 

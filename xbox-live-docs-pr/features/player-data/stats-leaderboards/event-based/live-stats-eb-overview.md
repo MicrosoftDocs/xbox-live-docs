@@ -19,7 +19,7 @@ Player stats are key pieces of information to track about a player, such as *Hea
 
 Stats are used to generate leaderboards in scenarios that allow players to compare their effort and skills with their friends and every other player in a title's community.
 
-Event-based Stats was formerly named _Stats 2013_.
+Event-based Stats was formerly called _Stats 2013_.
 With event-based Stats, the Xbox Live Service owns and maintains the stats; stats are updated based on your game sending user-action events to the Xbox Live Service.
 
 Event-based Stats is for Managed Partners only, not Creators.

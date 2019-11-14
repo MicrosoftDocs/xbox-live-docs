@@ -15,11 +15,11 @@ Please see the [What's New - December 2016](1612-whats-new.md) article for what 
 ## Xbox Services API
 
 
-### Player Data 2017
+### Title-managed Player Data
 
-We have introduced a simplified Stats API.  Traditionally you had to send events corresponding to stat rules defined at Partner Center and these would update the stat values in the cloud.  We refer to this model as Stats 2013.
+We have introduced a simplified Stats API.  Traditionally you had to send events corresponding to stat rules defined at Partner Center and these would update the stat values in the cloud.  This model is called _event-based Stats_.
 
-With Stats 2017, your title is now in control of your stat values.  You simply call an API with the most recent stat value, and that gets sent to the service directly without the need for events.  This uses the new `StatsManager` API and you can read more in [Title-managed Stats & Leaderboards](../features/player-data/stats-leaderboards/title-managed/live-statslb-tm-nav.md).
+With _title-managed Stats_, your title is in control of your stat values.  You simply call an API with the most recent stat value, and that gets sent to the service directly without the need for events.  This uses the new `StatsManager` API and you can read more in [Title-managed Stats & Leaderboards](../features/player-data/stats-leaderboards/title-managed/live-statslb-tm-nav.md).
 
 
 ### GitHub

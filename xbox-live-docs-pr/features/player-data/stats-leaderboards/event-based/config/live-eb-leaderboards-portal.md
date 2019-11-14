@@ -24,7 +24,7 @@ This topic describes the procedures for configuring leaderboards in the Dev Cent
 
 <!-- 
 = lb overview article:
-For info on leaderboards that use data platform 2013, see Leaderboards. https://developer.microsoft.com/games/xbox/docs/xdk/leaderboards-2013 
+For info on leaderboards that use the event-based Data platform, see Leaderboards. https://developer.microsoft.com/games/xbox/docs/xdk/leaderboards-2013 
 -->
 
 <!-- 

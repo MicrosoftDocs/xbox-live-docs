@@ -611,8 +611,6 @@
               href: real-time-activity-service/programming-the-real-time-activity-service.md
             - name: Best Practices for the RTA service
               href: real-time-activity-service/rta-best-practices.md
-
-
     - name: Testing and Releasing
       href: releasing/releasing_nav.md
       items:

@@ -48,12 +48,12 @@ Under the **Achievements** tab, users can find Game Progress & Achievements, Her
 This section's goal is to capture the most engaging metrics for the game and expose them to provide a unique picture of the player's experience with the game and rank the player against the player's friends in a social leaderboard.
 For example, the Forza 6 **Achievement** tab could look something like this:
 
-![Gamehub Image](../../images/omega/forza_gamehub.png)
+![Gamehub Image](live-designing-experiences-images/forza_gamehub.png)
 
 Some of the statistics such as Miles Driven and First Place Finishes have gold, silver, or bronze decorations that illustrate where the player ranks against the player's friends.
 Interacting with any of these statistics will show a complete leaderboard, like the following:
 
-![Leaderboard](../../images/omega/progress_gamehub_lb.png)
+![Leaderboard](live-designing-experiences-images/progress_gamehub_lb.png)
 
  For _Races 2020_, the following is a good set of statistics that represent a player's experience with the title as well as good ranking metrics:
  * Fastest lap

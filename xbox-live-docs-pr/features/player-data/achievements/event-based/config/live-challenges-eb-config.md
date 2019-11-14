@@ -19,13 +19,13 @@ permalink: en-us/games/xbox/docs/gxdk/live-challenges-eb-config.html
 
 # Challenges portal config
 
-**Note:** This topic describes the features available only with proper permissions. For details, talk to your account manager or another contact at Microsoft.
+**Note:** This article describes the features available only with proper permissions. For details, talk to your account manager or another contact at Microsoft.
 
-This topic describes the procedures for adding and changing challenges in the Partner Center service configuration for a title. Challenges are similar to achievements but can be unlocked only during a specified period of time. Like achievements, challenges are unlocked according to the logic you define in the service configuration. This logic is based on player stat values in the service, and the challenge is unlocked automatically when the player stats meet the specific requirements during the specified period of time.
+This article describes the procedures for adding and changing challenges in the Partner Center service configuration for a title. Challenges are similar to achievements but can be unlocked only during a specified period of time. Like achievements, challenges are unlocked according to the logic you define in the service configuration. This logic is based on player stat values in the service, and the challenge is unlocked automatically when the player stats meet the specific requirements during the specified period of time.
 
-For an intro to the Xbox Live service configuration, see [Xbox Live service configuration](https://docs.microsoft.com/windows/uwp/xbox-live/xbox-live-service-configuration). For an intro to data platform 2013, see the XDK topic, **How the Xbox Live data platform 2013 works**.
+For an intro to the Xbox Live service configuration, see [Xbox Live service configuration](https://docs.microsoft.com/windows/uwp/xbox-live/xbox-live-service-configuration). For an intro to the event-based Data platform, see [Event-based Player Data overview](../../../stats-leaderboards/event-based/live-how-data-platform-works.md).
 
-Sections in this topic:  
+Sections in this article:  
 
    *  [How challenges work in Xbox Live for Xbox One](#ID4EYB)  
    *  [Create a challenge](#ID4EJC)  

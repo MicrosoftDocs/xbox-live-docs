@@ -20,7 +20,7 @@ permalink: en-us/games/xbox/docs/gxdk/live-stats-eb-portal.html
 This article describes the procedures for adding and changing stat rules in the Partner Center service configuration for a title. Player stats are created and updated according to the stat rules triggered when a game sends events to the Xbox Live service.
 
 For an intro to Xbox Live service configuration, see [Xbox Live service configuration](https://docs.microsoft.com/gaming/xbox-live/xbox-live-service-configuration).
-For an intro to data platform 2013, see [How the event-based player data platform works](../live-how-data-platform-works.md).
+For an intro to the event-based Data platform, see [How the event-based player data platform works](../live-how-data-platform-works.md).
 
 Sections in this article:  
 
@@ -53,11 +53,10 @@ Individual stat rules can be configured to produce one of the following:
 *  A single instance of a player stat  
 *  Multiple instances of a player stat that's based on a stat template  
 
-For info on stats and stat rules, see the following articles in the XDK documentation:
-
-* **User Stats for Data Platform 2013**
-* **User Stat Rules**
-* **User Stats Scenarios**
+See also:
+* [Event-based Stats & Leaderboards](../live-statslb-eb-nav.md)
+* [Event-based Stat rules overview](live-user-stat-rules.md)
+* [User Stats scenarios](live-user-stats-scenarios.md)
 
 The following diagram demonstrates the flow of an event that triggers stat rules that update stat instances:
 

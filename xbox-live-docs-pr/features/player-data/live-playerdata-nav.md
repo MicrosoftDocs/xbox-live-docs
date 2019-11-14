@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="data-platform-for-stats-leaderboards-achievements.md">
+        <a href="live-playerdata-overview.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_common-data-service.svg" alt="Player Data: Stats, Leaderboards, and Achievements"/>
+                                <img src="https://docs.microsoft.com/media/common/i_common-data-service.svg" alt="Player Data overview"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Player Data: Stats, Leaderboards, and Achievements</h3>
-                            <p>Player Data in Xbox Live includes achievements, player stats, and leaderboards.</p>
+                            <h3>Player Data overview</h3>
+                            <p>Player Data includes User Stats, Leaderboards, Achievements, and Featured Stats.</p>
                         </div>
                     </div>
                 </div>
@@ -45,6 +45,44 @@ ms.localizationpriority: medium
                         <div class="cardText">
                             <h3>Designing Xbox Live Experiences</h3>
                             <p>Designing experiences for Player Data, including player stats, leaderboards, and achievements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="data-platform-for-stats-leaderboards-achievements.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_common-data-service.svg" alt="Player Data: Stats, Leaderboards, and Achievements"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Player Data: Stats, Leaderboards, and Achievements</h3>
+                            <p>Player Data in Xbox Live includes achievements, player stats, and leaderboards.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="stats-leaderboards/live-stats-leaderboards-nav.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_learn-about.svg" alt="Stats & Leaderboards"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Stats & Leaderboards</h3>
+                            <p>Key pieces of information to track about a player, and leaderboards to compare players.</p>
                         </div>
                     </div>
                 </div>
@@ -89,42 +127,4 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li> -->
-    <li>
-        <a href="stats-leaderboards/live-stats-leaderboards-nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_learn-about.svg" alt="Stats & Leaderboards"/>
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Stats & Leaderboards</h3>
-                            <p>Key pieces of information to track about a player, and leaderboards to compare players.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="stats-leaderboards/featured-stats/live-featured-stats-nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_kaban.svg" alt="Featured Stats"/>
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Featured Stats</h3>
-                            <p>Featured Stats.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
 </ul>

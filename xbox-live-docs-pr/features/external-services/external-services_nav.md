@@ -1,8 +1,8 @@
 ---
-title: External services
+title: Custom services
 layout: LandingPage
 author: mikehoffms
-description: Web services, relying parties, single sign-on, and access policies.
+description: Using Xbox Live with your own Web services; and configuring relying parties, single sign-on, and access policies.
 ms.author: v-mihof
 ms.date: 12/11/2018
 ms.topic: article
@@ -10,7 +10,7 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h1>External services</h1>
+<h1>Custom services</h1>
 
 <ul class="cardsF panelContent cols cols2">
     <li>

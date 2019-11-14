@@ -32,8 +32,8 @@ Featured Stats are one of several possible items displayed in pinned Content Blo
 -->
 
 There are two implementations of Stats for Xbox Live:
-* Event-based Stats (formerly named _Stats 2013_)
-* Title-managed Stats (formerly named _Stats 2017_)
+* Event-based Stats (formerly called _Stats 2013_)
+* Title-managed Stats (formerly called _Stats 2017_)
 
 * Managed Partners can use event-based Stats or title-managed Stats.
 
@@ -104,7 +104,7 @@ The service has minimal validation checks to make sure that you're sending a num
 Although you may use the title-managed Stats service to recall the values of stats at the beginning of a game session, you should not use the title-managed Stats service to confirm the value of a stat while the session is ongoing.
 
 How the two flavors of Stats operate:
-![Event-based vs. title-based Stats](../../../images/stats/Stats2013-7DiagramColored.jpg)
+![Event-based vs. title-based Stats](live-stats-eb-vs-tm-images/Stats2013-7DiagramColored.jpg)
 
 
 ## Other differences between the two approaches
@@ -135,6 +135,6 @@ Title-managed Stats is only used to produce Featured Stats and leaderboards.
 
 ## Further reading
 
-For a more in-depth explanation of event-based Stats, read the [Event-based Stats overview](event-based/live-stats-eb-overview.md).
+For a more in-depth explanation of event-based Stats, see [Event-based Stats overview](event-based/live-stats-eb-overview.md).
 
-For a more in-depth explanation of title-managed Stats, read the [Stats 2017 Documentation](title-managed/live-stats2017.md).
+For a more in-depth explanation of title-managed Stats, see [Title-managed Stats overview](title-managed/live-stats2017.md).

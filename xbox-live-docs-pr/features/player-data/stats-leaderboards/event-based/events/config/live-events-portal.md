@@ -46,7 +46,7 @@ Sections in this topic:
 
 An event is anything that happens during play and can be *captured*. A player acquiring a weapon is an event, and so is defeating an enemy by using that weapon.  
 
-An event consists of the event name, an event description, and a number of fields that contain event-related data. When a title writes an event, the event is stored on the local device until it can be sent up to the Xbox Live service. The Xbox Live service receives the event and uses it to build and update stats, leaderboards, achievements, and other features of data platform 2013 according to the rules you define in the service configuration.
+An event consists of the event name, an event description, and a number of fields that contain event-related data. When a title writes an event, the event is stored on the local device until it can be sent up to the Xbox Live service. The Xbox Live service receives the event and uses it to build and update stats, leaderboards, achievements, and other features of the event-based Data platform according to the rules you define in the service configuration.
 
 For details, see [Overview of events](../live-game-events.md).
 

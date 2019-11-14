@@ -23,7 +23,7 @@ ms.localizationpriority: medium
 
 Once your achievements are configured via Partner Center and published to your dev sandbox, your title can unlock them by calling **XblAchievementsUpdateAchievementAsync**.
 
-See also [Configuring Achievements 2017 in Partner Center](../config/live-achievements-tm-config.md).
+See also [Title-managed Achievements portal config](../config/live-achievements-tm-config.md).
 
 To unlock an achievement, set the *percentComplete* argument of **XblAchievementsUpdateAchievementAsync** to 100.
 
@@ -35,7 +35,7 @@ If the user is online, the request will be immediately sent to the Xbox Live Ach
 
 -   The unlocked achievement will be added to the user’s activity feed.
 
-> *Note: There will be no visible difference in user experiences for achievements that use the Achievements 2017 system and the Cloud-Powered Achievements.*
+> *Note: There will be no visible difference in user experiences for achievements that use title-managed Achievements and Cloud-Powered (event-based) Achievements.*
 
 If the user is offline, the unlock request will be queued locally on the user’s device. When the user’s device has reestablished network connectivity, the request will automatically be sent to the Achievements service – note: no action is required from the game to trigger this – and the above user experiences will occur as described.
 

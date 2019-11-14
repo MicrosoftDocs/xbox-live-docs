@@ -14,9 +14,9 @@ permalink: "en-us/games/xbox/docs/gxdk/live-achievements-eb-config.html"
 
 # Event-based Achievements portal config
 
->![](../../../../../images/common/note.gif) **NOTE:** If your title is currently using event-based Achievements (formerly called Achievements 2013), and you want to enable support between multiple platforms going forward, you must continue using event-based Achievements. This is required, for the user to retain their Achievements across all the platforms.
+>![](live-achievements-eb-config-images/note.gif) **NOTE:** If your title is currently using event-based Achievements (formerly called _Achievements 2013_), and you want to enable support between multiple platforms going forward, you must continue using event-based Achievements. This is required, for the user to retain their Achievements across all the platforms.
 
->![](../../../../../images/common/note.gif) **NOTE:** This article describes the features available only with proper permissions. For details, talk to your account manager or another contact at Microsoft.
+>![](live-achievements-eb-config-images/note.gif) **NOTE:** This article describes the features available only with proper permissions. For details, talk to your account manager or another contact at Microsoft.
 
 This article describes how to use event-based Achievements to add and change achievements in the Partner Center service configuration for a title. Achievements are unlocked according to the logic you define in the service configuration. This logic is based on the values of player stats in the service, and when the player stats meet the specific requirements for an achievement, it's unlocked automatically.
 

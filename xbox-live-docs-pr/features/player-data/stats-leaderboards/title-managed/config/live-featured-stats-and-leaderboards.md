@@ -5,7 +5,7 @@ ms.assetid: e0f307d2-ea02-48ea-bcdf-828272a894d4
 ms.date: 10/30/2017
 ms.topic: article
 ms.localizationpriority: medium
-keywords: Xbox Live, Xbox, games, uwp, windows 10, Xbox one, Featured Stats and leaderboards, leaderboards, stats 2017, Partner Center
+keywords: Xbox Live, Xbox, games, uwp, windows 10, Xbox one, Featured Stats and leaderboards, leaderboards, title-managed Stats, Partner Center
 ---
 
 # Title-managed Featured Stats & Leaderboards portal config
@@ -21,12 +21,12 @@ All Featured Stats will show up on the GameHub, which makes it automatically act
 
 We will store the raw value; however, the game will own the logic for determining whether a new value should be provided.
 
-![Achievements page on the Game Hub](../../../../../images/dev-center/featured-stats-and-leaderboards/featured-stats-and-leaderboards-2.png)
+![Achievements page on the Game Hub](live-featured-stats-and-leaderboards-images/featured-stats-and-leaderboards-2.png)
 
 The picture above shows how Featured Stats will look in your title's GameHub.
 The Featured Stats are shown withing the red box.
 
-With Player Data 2017, you only need to configure a stat which is used for a social leaderboard that is featured on a player's GameHub page.
+With title-managed Player Data, you only need to configure a stat which is used for a social leaderboard that is featured on a player's GameHub page.
 
 You can use Partner Center to configure a featured stat and leaderboard that is associated with your game.
 
@@ -37,7 +37,7 @@ You can use Partner Center to configure a featured stat and leaderboard that is 
 
 2. Click the **New** button which will open a modal form. Once filled out, click **Save**.
 
-![New featured stat/leaderboard dialog](../../../../../images/dev-center/featured-stats-and-leaderboards/featured-stats.png)
+![New featured stat/leaderboard dialog](live-featured-stats-and-leaderboards-images/featured-stats.png)
 
 The **Display name** field is what users will see in the GameHub.
 This string can be localized in the **Localize strings** of the Xbox Live service configuration.

@@ -4,7 +4,7 @@ description: Updating title-managed Stats, by sending the latest value to the Xb
 ms.assetid: 019723e9-4c36-4059-9377-4a191c8b8775
 ms.date: 08/24/2018
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, player stats, stats 2017
+keywords: xbox live, xbox, games, uwp, windows 10, xbox one, player stats, title-managed stats
 ms.localizationpriority: medium
 ---
 

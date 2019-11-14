@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 > [!IMPORTANT]
 > Achievements are only applicable to Managed Partners; games participating in the Xbox Live Creators Program are not supported.
 
-You can use [Partner Center](https://partner.microsoft.com/dashboard) to configure the [Achievements 2017](../../live-achievements-eb-vs-tm.md) that are associated with your game.
+You can use [Partner Center](https://partner.microsoft.com/dashboard) to configure the [title-managed Achievements](../../live-achievements-eb-vs-tm.md) that are associated with your game.
 
 Add a new achievement by doing the following:
 
@@ -19,7 +19,7 @@ Add a new achievement by doing the following:
 
 2. Click the **New Achievement** button and fill out the form.  Once completed, click **Save**.
 
-![Screenshot to create a new achievement in Partner Center](../../../../../images/dev-center/achievement-table.png)
+![Creating a new achievement in Partner Center](live-achievements-tm-config-images/achievement-table.png)
 
 
 ## Description
@@ -27,7 +27,7 @@ Add a new achievement by doing the following:
 The description section is where you can enter the basics of your achievement, such as the name and locked/unlocked descriptions.
 You can add localization support to achievements by accessing the **Localized strings** service configuration section in [Partner Center](https://partner.microsoft.com/dashboard).
 
-![Screenshot of the description fields when configuring a new achievement in Partner Center](../../../../../images/dev-center/achievements-2.png)
+![Description fields when configuring a new achievement in Partner Center](live-achievements-tm-config-images/achievements-2.png)
 
 The **Achievement Name** field is the public facing name of the achievement.
 
@@ -42,7 +42,7 @@ It has a 100 character limit.
 
 The Details section is used to associate important information such as the image, the type of achievement, the Gamerscore reward (if any) and whether the achievement should be hidden until unlocked.
 
-![Screenshot of the details fields when configuring a new achievement in Partner Center](../../../../../images/dev-center/achievements-3.png)
+![Details fields when configuring a new achievement in Partner Center](live-achievements-tm-config-images/achievements-3.png)
 
 The **Image Icon** field is the image that will be displayed alongside the achievement.
 It must be a 1920 x 1080 png.
@@ -77,14 +77,14 @@ features\player-data\achievements\title-managed\concepts
 
 To create a new reward, click the **Add Reward** button in the **Additional Rewards** section and fill out the form.
 
-![Screenshot of adding rewards to an achievement in Partner Center](../../../../../images/dev-center/achievement-reward.png)
+![Adding rewards to an achievement in Partner Center](live-achievements-tm-config-images/achievement-reward.png)
 
 
 ### Reward Details
 
 Fill out the Reward Details to associate a new reward. Once completed, click **Add**.
 
-![Screenshot of configuring award details for an achievement in Partner Center](../../../../../images/dev-center/achievements-5.png)
+![Configuring award details for an achievement in Partner Center](live-achievements-tm-config-images/achievements-5.png)
 
 There are two types of achievement rewards that can be created:
 
