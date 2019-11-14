@@ -181,8 +181,6 @@
               href: features/player-data/live-playerdata-overview.md
             - name: Designing Xbox Live Experiences
               href: features/player-data/live-designing-experiences.md
-            - name: "Player Data: Stats, Leaderboards, and Achievements"
-              href: features/player-data/data-platform-for-stats-leaderboards-achievements.md
             - name: Stats & Leaderboards
               href: features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md
               items: 
