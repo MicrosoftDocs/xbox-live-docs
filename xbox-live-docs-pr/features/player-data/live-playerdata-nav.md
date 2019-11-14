@@ -20,7 +20,7 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_common-data-service.svg" alt="Player Data overview"/>
+                                <img src="https://docs.microsoft.com/media/common/i_overview.svg" alt="Player Data overview"/>
                             </div>
                         </div>
                         <div class="cardText">
