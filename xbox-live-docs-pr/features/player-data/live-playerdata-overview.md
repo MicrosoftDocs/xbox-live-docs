@@ -13,9 +13,7 @@ permalink: en-us/games/xbox/docs/gxdk/live-playerdata-overview.html
 
 # Player Data overview
 
-<!-- 
-was public "Xbox Live" article titled "Player Data: Stats, Leaderboards, and Achievements", old filename "data-platform-for-stats-leaderboards-achievements.md"
--->
+<!-- was public "Xbox Live" article titled "Player Data: Stats, Leaderboards, and Achievements", old filename "data-platform-for-stats-leaderboards-achievements.md" -->
 
 Writing game data to Xbox Live Player Data enables your title to run as a service.
 Additionally, Player Data drives user engagement with your title using stats, leaderboards, and achievements, and surfaces featured stats in the console shell and Xbox App.
