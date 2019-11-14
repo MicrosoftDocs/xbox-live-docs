@@ -52,25 +52,6 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="data-platform-for-stats-leaderboards-achievements.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_common-data-service.svg" alt="Player Data: Stats, Leaderboards, and Achievements"/>
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Player Data: Stats, Leaderboards, and Achievements</h3>
-                            <p>Player Data in Xbox Live includes achievements, player stats, and leaderboards.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
         <a href="stats-leaderboards/live-stats-leaderboards-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">

@@ -18,7 +18,7 @@ Copied entire file to form two files, one for 2013, one for 2017.
 
 ## Introduction
 
-As described in [Player Data: Stats, Leaderboards, and Achievements](../../../data-platform-for-stats-leaderboards-achievements.md), Leaderboards are a great way to encourage competition between your players, and keep players engaged in trying to beat their previous best score as well as that of their friends.
+As described in [Player Data overview](../../../live-playerdata-overview.md), Leaderboards are a great way to encourage competition between your players, and keep players engaged in trying to beat their previous best score as well as that of their friends.
 
 Leaderboards for Featured Stats are always displayed in a title's Game Hub and sometimes displayed as a part of the UI for a title when it is pinned to the homepage.
 You can also use your configured Featured Stats to create Leaderboards inside of your title.
