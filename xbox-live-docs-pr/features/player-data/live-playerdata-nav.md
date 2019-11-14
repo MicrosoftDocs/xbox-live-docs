@@ -89,23 +89,4 @@ ms.localizationpriority: medium
             </div>
         </a>
     </li>
-    <!-- <li>
-        <a href="../leaderboards-and-stats-2017/player-stats_nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_data-collection.svg" alt="Player Stats"/>
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Player Stats</h3>
-                            <p>Player stats are key pieces of information to track about a player, such as Head Shots or Fastest Lap Time.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li> -->
 </ul>
