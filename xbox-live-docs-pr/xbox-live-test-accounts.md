@@ -62,3 +62,24 @@ You can click on "New Test Account" and you will be presented with a form you ca
 ![Partner Center new test account dialogue box screenshot](images/getting_started/devcenter_testaccount_new.png)
 
 Any test accounts you create will be prefixed with the name of your development sandbox, and will automatically have access to your development sandbox.
+
+## Exporting Test Accounts
+
+If you are in the Managed Partners Program, then you may also export the test accounts for viewing. 
+**Note:** Opening the .csv file without transforming the Xuid column will result in the column giving the wrong Xuid information.
+
+To go to the Test Account management page in Partner Center:
+1. Go to [Partner Center](https://partner.microsoft.com/dashboard).
+2. Click on the gear icon at the top right to go to Developer Settings.
+3. Expand Xbox Live.
+4. Click Xbox Test Accounts.
+5. Click on **Export all**.
+6. Save the .csv file locally.
+7. Open a new blank sheet in Excel
+8. Click on 'Data'
+9. Click 'From Text/CSV' and select the .csv file you saved
+10. Click Import
+11. Click Transform Data and ensure the Xuid column is of Text data type
+12. Close and Load
+
+For additional information on importing or exporting with Excel, see [Import or export text (.txt or .csv) files](https://support.office.com/en-us/article/Import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba)
