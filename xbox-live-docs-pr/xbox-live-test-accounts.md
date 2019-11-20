@@ -45,14 +45,15 @@ You can also create multiple test accounts at once.
 
 To go to the Test Account management page in Partner Center:
 1. Go to [Partner Center](https://partner.microsoft.com/dashboard).
-2. Click on the gear icon at the top right to go to account Settings.
-3. Click **Test Accounts**.
+2. Click on the gear icon at the top right to go to Developer settings.
+3. Expand Xbox Live
+4. Click **Xbox test accounts**.
 
 Screenshot showing where to find this:
 
 ![Partner Center screenshot highlighting gear icon and Test Accounts on the account Settings page](images/getting_started/devcenter_testaccount_nav.png)
 
-Once you click on "Test Accounts", you will see a summary of any existing test accounts if you have any.
+Once you click on "Xobx test accounts", you will see a summary of any existing test accounts if you have any.
 You also have the option to create new test accounts.
 
 ![Partner Center test account editing and creation screenshot](images/getting_started/devcenter_testaccount_summary.png)
@@ -66,7 +67,7 @@ Any test accounts you create will be prefixed with the name of your development 
 ## Exporting Test Accounts
 
 If you are in the Managed Partners Program, then you may also export the test accounts for viewing. 
-**Note:** Opening the .csv file without transforming the Xuid column will result in the column giving the wrong Xuid information.
+**Note:** Opening the .csv file without transforming the Xuid column may result in the column giving incorrect Xuid information.
 
 To go to the Test Account management page in Partner Center:
 1. Go to [Partner Center](https://partner.microsoft.com/dashboard).
