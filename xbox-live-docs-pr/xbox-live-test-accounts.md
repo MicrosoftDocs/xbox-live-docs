@@ -51,17 +51,17 @@ To go to the Test Account management page in Partner Center:
 
 Screenshot showing where to find this:
 
-![Partner Center screenshot highlighting gear icon and Test Accounts on the account Settings page](images/getting_started/testaccount_nav.png)
+![Partner Center screenshot highlighting gear icon and Test Accounts on the account Settings page](images/getting_started/testaccount_nav.jpg)
 
 Once you click on "Xobx test accounts", you will see a summary of any existing test accounts if you have any.
 You also have the option to create new test accounts.
 
-![Partner Center test account editing and creation screenshot](images/getting_started/testaccount_summary.png)
+![Partner Center test account editing and creation screenshot](images/getting_started/testaccount_summary.jpg)
 
 You can click on "New Test Account" and you will be presented with a form you can use to create test accounts.
 
-![Partner Center new test account dialogue box screenshot 1](images/getting_started/testaccount_new.png)
-![Partner Center new test account dialogue box screenshot 2](images/getting_started/testaccount_new2.png)
+![Partner Center new test account dialogue box screenshot 1](images/getting_started/testaccount_new.jpg)
+![Partner Center new test account dialogue box screenshot 2](images/getting_started/testaccount_new2.jpg)
 
 Any test accounts you create will be prefixed with the name of your development sandbox, and will automatically have access to your development sandbox.
 
