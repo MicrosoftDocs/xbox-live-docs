@@ -61,6 +61,7 @@ You also have the option to create new test accounts.
 You can click on "New Test Account" and you will be presented with a form you can use to create test accounts.
 
 ![Partner Center new test account dialogue box screenshot 1](images/getting_started/testaccount_new.jpg)
+
 ![Partner Center new test account dialogue box screenshot 2](images/getting_started/testaccount_new2.jpg)
 
 Any test accounts you create will be prefixed with the name of your development sandbox, and will automatically have access to your development sandbox.
