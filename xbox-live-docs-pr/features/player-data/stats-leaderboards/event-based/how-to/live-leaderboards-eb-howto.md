@@ -1,6 +1,6 @@
 ---
-title: Event-based Leaderboards how-to's
-description: Defining leaderboards to compare players by showing selected stats for a game.
+title: Example code for event-based Leaderboards
+description: Code for basic leaderboard display, getting a specified page of results, and skipping to a specified user in the leaderboard.
 ms.assetid: 132604f9-6107-4479-9246-f8f497978db7
 ms.date: 09/28/2018
 ms.topic: article
@@ -8,14 +8,14 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Event-based Leaderboards how-to's
+# Example code for event-based Leaderboards
 
 <!-- 
 old path & filename:
 leaderboards-and-stats-2017/leaderboards.md
 https://docs.microsoft.com/gaming/xbox-live/leaderboards-and-stats-2017/leaderboards
-Copied entire file to form two files, one for 2013, one for 2017.
- -->
+Copied entire long file to form two shorter files: same top section, one article bottom has code for 2013 code only, the other article bottom has code for 2017 only
+-->
 
 ## Introduction
 
@@ -61,7 +61,7 @@ When the leaderboard results are returned from the service, you can display the 
 You should request the leaderboard data from the service, slightly ahead of when you want to display it, so that players are not blocked waiting for the leaderboard to display.
 
 
-## Event-based Leaderboards APIs
+## Event-based Leaderboards APIs (method signatures)
 
 Event-based Leaderboards is the preferred approach.
 Title-managed Leaderboards is not recommended for new code.

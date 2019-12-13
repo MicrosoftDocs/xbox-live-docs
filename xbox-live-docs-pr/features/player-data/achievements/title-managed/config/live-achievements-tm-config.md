@@ -1,12 +1,12 @@
 ---
-title: Title-managed Achievements portal config
+title: Portal configuration of title-managed Achievements
 description: Configuring Achievements in Partner Center, to deliver rewards.
 ms.date: 11/10/2017
 ms.topic: article
 ms.localizationpriority: medium
 ---
 
-# Title-managed Achievements portal config
+# Portal configuration of title-managed Achievements
 
 > [!IMPORTANT]
 > Achievements are only applicable to Managed Partners; games participating in the Xbox Live Creators Program are not supported.

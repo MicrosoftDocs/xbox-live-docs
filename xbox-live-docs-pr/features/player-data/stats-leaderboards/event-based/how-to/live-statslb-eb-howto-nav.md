@@ -17,6 +17,4 @@ ms.technology: xboxgc
 
 | Article | Description |
 |---------|-------------|
-| [Example code for event-based Stats](live-stats-eb-code.md) | Example code for a game sending events about Stats, to the Xbox Live service. |
-| [Example code for event-based Leaderboards](live-eb-leaderboards-apis.md) | Code for basic leaderboard display, getting a specified page of results, and skipping to a specified user in the leaderboard. |
-| [Event-based Leaderboards how-to's](live-leaderboards-eb-howto.md) | Defining leaderboards to compare players by showing selected stats for a game. |
+| [Example code for event-based Leaderboards](live-leaderboards-eb-howto.md) | Code for basic leaderboard display, getting a specified page of results, and skipping to a specified user in the leaderboard. |

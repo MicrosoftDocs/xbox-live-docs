@@ -13,8 +13,8 @@ ms.localizationpriority: medium
 <!-- 
 old path & filename:
 leaderboards-and-stats-2017/leaderboards.md
-Copied entire file to form two files, one for 2013, one for 2017.
- -->
+Copied entire long file to form two shorter files: same top section, one article bottom has code for 2013 code only, the other article bottom has code for 2017 only
+-->
 
 ## Introduction
 
@@ -61,7 +61,7 @@ When the leaderboard results are returned from the service, you can display the 
 You should request the leaderboard data from the service, slightly ahead of when you want to display it, so that players are not blocked waiting for the leaderboard to display.
 
 
-## Title-managed Leaderboards
+## Title-managed Leaderboards APIs (method signatures)
 
 Event-based Leaderboards is the preferred approach.
 Title-managed Leaderboards is not recommended for new code.

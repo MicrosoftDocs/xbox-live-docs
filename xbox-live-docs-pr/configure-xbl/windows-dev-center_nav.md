@@ -26,7 +26,7 @@ To access the Xbox Live configuration pages, after selecting your title in [Part
 |---------|-------------|
 | [Summary tab](dev-center/summary.md) | Using the Summary tab in Partner Center. |
 | [Xbox Live Setup](dev-center/xbox-live-setup.md) | Configuring Xbox Live Setup at Partner Center. |
-| [Title-managed Achievements portal config](../features/player-data/achievements/title-managed/config/live-achievements-tm-config.md) | Configuring Achievements in Partner Center, to deliver rewards. |
+| [Portal configuration of title-managed Achievements](../features/player-data/achievements/title-managed/config/live-achievements-tm-config.md) | Configuring Achievements in Partner Center, to deliver rewards. |
 | [Title-managed Featured Stats & Leaderboards portal config](../features/player-data/stats-leaderboards/title-managed/config/live-featured-stats-and-leaderboards.md) | Configuring Xbox Live title-managed Featured Stats and Leaderboards on Partner Center. |
 | [Game DVR](dev-center/game-dvr.md) | Configuring Xbox Live Game DVR strings on Partner Center. |
 | [Privileges](dev-center/privileges.md) | Configuring privileges on Partner Center. |

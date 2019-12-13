@@ -194,11 +194,7 @@
                     - name: Event-based Stats & Leaderboards how-to's
                       href: features/player-data/stats-leaderboards/event-based/how-to/live-statslb-eb-howto-nav.md
                       items: 
-                        - name: Example code for event-based Stats
-                          href: features/player-data/stats-leaderboards/event-based/how-to/live-stats-eb-code.md
                         - name: Example code for event-based Leaderboards
-                          href: features/player-data/stats-leaderboards/event-based/how-to/live-eb-leaderboards-apis.md
-                        - name: Event-based Leaderboards how-to's
                           href: features/player-data/stats-leaderboards/event-based/how-to/live-leaderboards-eb-howto.md
                 - name: Title-managed Stats & Leaderboards
                   href: features/player-data/stats-leaderboards/title-managed/live-statslb-tm-nav.md
@@ -252,7 +248,7 @@
                     - name: Title-managed Achievements portal config
                       href: features/player-data/achievements/title-managed/config/live-achievements-tm-config-nav.md
                       items: 
-                        - name: Title-managed Achievements portal config
+                        - name: Portal configuration of title-managed Achievements
                           href: features/player-data/achievements/title-managed/config/live-achievements-tm-config.md
                     - name: Title-managed Achievements how-to's
                       href: features/player-data/achievements/title-managed/how-to/live-achievements-howto-nav.md
