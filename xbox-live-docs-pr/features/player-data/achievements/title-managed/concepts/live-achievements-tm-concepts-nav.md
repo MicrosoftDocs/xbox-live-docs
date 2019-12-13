@@ -7,7 +7,6 @@ ms.author: jeffshi
 ms.topic: conceptual
 ms.prod: xboxlive
 ms.technology: 
-permalink: "en-us/games/xbox/docs/gxdk/live-achievements-tm-concepts-nav.html"
 ---
 
 # Title-managed Achievements concepts

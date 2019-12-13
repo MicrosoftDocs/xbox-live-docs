@@ -9,7 +9,6 @@ ms.topic: landing-page
 ms.date: 10/29/2019
 ms.prod: xboxlive
 ms.technology: 
-permalink: en-us/games/xbox/docs/gxdk/live-stats-leaderboards-nav.html
 ms.localizationpriority: medium
 ---
 

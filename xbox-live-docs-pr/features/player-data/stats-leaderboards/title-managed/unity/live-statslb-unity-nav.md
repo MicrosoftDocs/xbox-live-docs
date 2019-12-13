@@ -8,7 +8,6 @@ ms.author: v-mihof
 ms.topic: conceptual
 ms.prod: xboxlive
 ms.technology: 
-permalink: en-us/games/xbox/docs/gxdk/live-statslb-unity-nav.html
 ---
 
 # Stats & Leaderboards with Unity

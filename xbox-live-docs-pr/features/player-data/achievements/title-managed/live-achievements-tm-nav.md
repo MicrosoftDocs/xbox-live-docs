@@ -10,7 +10,6 @@ ms.author: v-mihof
 ms.topic: conceptual
 ms.prod: xboxlive
 ms.technology: 
-permalink: "en-us/games/xbox/docs/gxdk/live-achievements-tm-nav.html"
 ---
 
 # Title-managed Achievements

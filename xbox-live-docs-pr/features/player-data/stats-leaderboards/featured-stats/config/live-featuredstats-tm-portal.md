@@ -9,7 +9,6 @@ ms.author: v-mihof
 ms.topic: conceptual
 ms.prod: xboxlive
 ms.technology: 
-permalink: en-us/games/xbox/docs/gxdk/live-featuredstats-tm-portal.html
 ---
 
 # Portal configuration of title-managed Featured Stats

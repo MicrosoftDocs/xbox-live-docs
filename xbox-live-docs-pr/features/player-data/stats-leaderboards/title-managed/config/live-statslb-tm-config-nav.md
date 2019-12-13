@@ -7,7 +7,6 @@ ms.author: v-mihof
 ms.topic: conceptual
 ms.prod: xbox
 ms.technology: xboxgc
-permalink: en-us/games/xbox/docs/gxdk/live-statslb-tm-config-nav.html
 ---
 
 # Title-managed Stats & Leaderboards portal config
