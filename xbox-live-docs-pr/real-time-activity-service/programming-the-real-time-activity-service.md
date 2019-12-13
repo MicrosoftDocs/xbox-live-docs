@@ -50,10 +50,10 @@ You create statistics in Partner Center, for the various scenarios:
 * If you are making a pure UWP game running on Windows 10.
 
 You define your stats in [Partner Center](https://partner.microsoft.com/dashboard).
-See [Configuring Featured Stats or Leaderboards in Partner Center with Player Data 2017](../leaderboards-and-stats-2017/player-stats-configure-2017.md).
+See [Title-managed Featured Stats & Leaderboards portal config](../features/player-data/stats-leaderboards/title-managed/config/live-featured-stats-and-leaderboards.md).
 
 > [!NOTE]
-> Stats 2013 developer will need to contact their DAM for information concerning [Stats 2013 configuration](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/windows-configure-stats-2013) in [Partner Center](https://partner.microsoft.com/dashboard).
+> An event-based Stats developer will need to contact their DAM for information about portal configuration of event-based Stats in [Partner Center](https://partner.microsoft.com/dashboard). Secure docs portal: [Configure Xbox Live stats and stat rules in Partner Center](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/windows-configure-stats-2013).
 
 For XDK-based games, after you have created your stat and defined your events, you will need to run the [XCETool](https://developer.xboxlive.com/en-us/platform/development/documentation/software/Pages/atoc_xce_jun15.aspx) to generate a header used by your application.
 This header contains functions you can call to send events that modify stats.

@@ -26,7 +26,7 @@ The appropriate tool to manage your locally cached Connected Storage data depend
 
 - *Gamesaveutil* is a command line tool for managing UWP locally cached Connected Storage on PC. The *gamesaveutil* tool comes packaged with the [Windows 10 SDK](https://developer.microsoft.com/en-US/windows/downloads/windows-10-sdk) for Fall Creators Update and later( build 10.0.16299.15 and later). Once you've installed the appropriate version of the Windows 10 SDK, *gamesaveutil* can be found under the folder: **ProgramFiles(x86)/Windows Kits/10/bin/[SDK Version]/x64/gamesaveutil.exe**.
 
-- *Partner Center* is an online portal that allows you to manage the locally cached Connected Storage UWP data on your Xbox One Console. To learn to use Partner Center, read [Device Portal for Xbox](https://docs.microsoft.com/en-us/windows/uwp/debug-test-perf/device-portal-xbox).
+- *Partner Center* is an online portal that allows you to manage the locally cached Connected Storage UWP data on your Xbox One Console. To learn to use Partner Center, read [Device Portal for Xbox](https://docs.microsoft.com/windows/uwp/debug-test-perf/device-portal-xbox).
 
 
 ## Xbstorage

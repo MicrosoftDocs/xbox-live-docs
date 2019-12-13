@@ -174,6 +174,89 @@
               items: 
                 - name: Configuring Privileges in Partner Center
                   href: configure-xbl/dev-center/privileges.md
+        - name: Player Data
+          href: features/player-data/live-playerdata-nav.md
+          items: 
+            - name: Player Data overview
+              href: features/player-data/live-playerdata-overview.md
+            - name: Designing Xbox Live Experiences
+              href: features/player-data/live-designing-experiences.md
+            - name: Stats & Leaderboards
+              href: features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md
+              items: 
+                - name: Event-based vs. title-managed Stats
+                  href: features/player-data/stats-leaderboards/live-stats-eb-vs-tm.md
+                - name: Event-based Stats & Leaderboards
+                  href: features/player-data/stats-leaderboards/event-based/live-statslb-eb-nav.md
+                  items: 
+                    - name: Event-based Stats overview
+                      href: features/player-data/stats-leaderboards/event-based/live-stats-eb-overview.md
+                    - name: Event-based Stats & Leaderboards how-to's
+                      href: features/player-data/stats-leaderboards/event-based/how-to/live-statslb-eb-howto-nav.md
+                      items: 
+                        - name: Example code for event-based Leaderboards
+                          href: features/player-data/stats-leaderboards/event-based/how-to/live-leaderboards-eb-howto.md
+                - name: Title-managed Stats & Leaderboards
+                  href: features/player-data/stats-leaderboards/title-managed/live-statslb-tm-nav.md
+                  items: 
+                    - name: Title-managed Stats overview
+                      href: features/player-data/stats-leaderboards/title-managed/live-stats2017.md
+                    - name: Title-managed Stats & Leaderboards portal config
+                      href: features/player-data/stats-leaderboards/title-managed/config/live-statslb-tm-config-nav.md
+                      items: 
+                        - name: Title-managed Featured Stats & Leaderboards portal config
+                          href: features/player-data/stats-leaderboards/title-managed/config/live-featured-stats-and-leaderboards.md
+                    - name: Title-managed Stats & Leaderboards how-to's
+                      href: features/player-data/stats-leaderboards/title-managed/how-to/live-statslb-tm-nav.md
+                      items: 
+                        - name: Updating title-managed Stats
+                          href: features/player-data/stats-leaderboards/title-managed/how-to/live-stats-tm-updating.md
+                        - name: Title-managed Leaderboards how-to's
+                          href: features/player-data/stats-leaderboards/title-managed/how-to/live-leaderboards-tm-howto.md
+                    - name: Stats & Leaderboards with Unity
+                      href: features/player-data/stats-leaderboards/title-managed/unity/live-statslb-unity-nav.md
+                      items: 
+                        - name: Adding player stats and leaderboards to a Unity project
+                          href: features/player-data/stats-leaderboards/title-managed/unity/live-add-stats-and-leaderboards-in-unity.md
+                        - name: Setting up the Leaderboard example scene in Unity
+                          href: features/player-data/stats-leaderboards/title-managed/unity/live-setup-leaderboard-example-scene.md
+                        - name: Scripting a leaderboard in Unity
+                          href: features/player-data/stats-leaderboards/title-managed/unity/live-unity-leaderboard-from-scratch.md
+                - name: Featured Stats
+                  href: features/player-data/stats-leaderboards/featured-stats/live-featured-stats-nav.md
+                  items: 
+                    - name: Featured Stats portal config
+                      href: features/player-data/stats-leaderboards/featured-stats/config/live-featured-stats-config-nav.md
+                      items: 
+                        - name: Portal configuration of title-managed Featured Stats
+                          href: features/player-data/stats-leaderboards/featured-stats/config/live-featuredstats-tm-portal.md
+            - name: Achievements
+              href: features/player-data/achievements/live-achievements-nav.md
+              items: 
+                - name: Event-based vs. title-managed Achievements
+                  href: features/player-data/achievements/live-achievements-eb-vs-tm.md
+                - name: Title-managed Achievements
+                  href: features/player-data/achievements/title-managed/live-achievements-tm-nav.md
+                  items: 
+                    - name: Title-managed Achievements overview
+                      href: features/player-data/achievements/title-managed/live-achievements-tm-overview.md
+                    - name: Title-managed Achievements concepts
+                      href: features/player-data/achievements/title-managed/concepts/live-achievements-tm-concepts-nav.md
+                      items: 
+                        - name: Achievement Rewards
+                          href: features/player-data/achievements/title-managed/concepts/live-achievement-rewards.md
+                    - name: Title-managed Achievements portal config
+                      href: features/player-data/achievements/title-managed/config/live-achievements-tm-config-nav.md
+                      items: 
+                        - name: Portal configuration of title-managed Achievements
+                          href: features/player-data/achievements/title-managed/config/live-achievements-tm-config.md
+                    - name: Title-managed Achievements how-to's
+                      href: features/player-data/achievements/title-managed/how-to/live-achievements-howto-nav.md
+                      items: 
+                        - name: Getting Achievements
+                          href: features/player-data/achievements/title-managed/how-to/live-how-to-get-achievements.md
+                        - name: Updating Achievements
+                          href: features/player-data/achievements/title-managed/how-to/live-how-to-update-achievements.md
         - name: Social features
           href: social-platform/social-platform_nav.md
           items: 
@@ -230,97 +313,6 @@
                   href: social-platform/people-system/sending-player-feedback-from-your-title.md
             - name: Programming Social services
               href: social-platform/people-system/programming-social-services.md
-        - name: Player Data
-          href: data-platform/player-data_nav.md
-          items: 
-            - name: "Player Data: Stats, Leaderboards, and Achievements"
-              href: data-platform/data-platform-for-stats-leaderboards-achievements.md
-            - name: Designing Xbox Live Experiences
-              href: data-platform/designing-xbox-live-experiences.md
-            - name: Achievements
-              href: achievements-2017/achievements_nav.md
-              items: 
-                - name: Overview of Achievements
-                  href: achievements-2017/achievements-overview.md
-                - name: Achievements 2017
-                  href: achievements-2017/simplified-achievements.md
-                - name: Configuring Achievements 2017 in Partner Center
-                  href: configure-xbl/dev-center/achievements-in-udc.md
-                - name: Achievement Rewards
-                  href: achievements-2017/achievement-rewards.md
-            - name: Player Stats
-              href: leaderboards-and-stats-2017/player-stats_nav.md
-              items: 
-                - name: Player Stats 2013
-                  href: leaderboards-and-stats-2017/player-stats-2013.md
-                - name: Using player stats
-                  href: leaderboards-and-stats-2017/using-player-stats.md
-                - name: Player Stats 2017
-                  href: leaderboards-and-stats-2017/stats-2017_nav.md
-                  items: 
-                    - name: Player Stats 2017
-                      href: leaderboards-and-stats-2017/stats2017.md
-                    - name: Updating Player Stats 2017
-                      href: leaderboards-and-stats-2017/player-stats-updating.md
-            - name: Leaderboards
-              href: leaderboards-and-stats-2017/leaderboards_nav.md
-              items: 
-                - name: Overview of leaderboards
-                  href: leaderboards-and-stats-2017/leaderboards.md
-                - name: Adding player stats and leaderboards to a Unity project
-                  href: get-started-with-creators/add-stats-and-leaderboards-in-unity.md
-                - name: Setting up the Leaderboard example scene in Unity
-                  href: get-started-with-creators/setup-leaderboard-example-scene.md
-                - name: Scripting a leaderboard in Unity
-                  href: get-started-with-creators/unity-leaderboard-from-scratch.md
-            - name: Featured Stats
-              href: features/data/featured-stats/featured-stats_nav.md
-              items: 
-                - name: Configuring Featured Stats and Leaderboards 2017 in Partner Center
-                  href: configure-xbl/dev-center/featured-stats-and-leaderboards.md
-        - name: Cloud Storage
-          href: storage-platform/cloud-storage_nav.md
-          items: 
-            - name: Connected Storage vs. Title Storage
-              href: storage-platform/connected-storage-vs-title-storage.md
-            - name: Connected Storage
-              href: storage-platform/connected-storage/connected-storage_nav.md
-              items: 
-                - name: Overview of Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-overview.md
-                - name: Saving data with Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-saving.md
-                - name: Loading data with Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-loading.md
-                - name: Deleting data with Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-deleting.md
-                - name: Loading data on-demand with Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-loading-on-demand.md
-                - name: Working with Connected Storage buffers
-                  href: storage-platform/connected-storage/connected-storage-using-buffers.md
-                - name: Managing local Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-xb-storage.md
-                - name: Best practices for Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-best-practices.md
-                - name: Technical overview of Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-technical-overview.md
-            - name: Title Storage
-              href: storage-platform/xbox-live-title-storage/xbl-title-storage_nav.md
-              items: 
-                - name: Overview of Title Storage
-                  href: storage-platform/xbox-live-title-storage/xbox-live-title-storage.md
-                - name: Configuring Title Storage in Partner Center
-                  href: configure-xbl/dev-center/title-storage.md
-                - name: Reading a configuration blob from Title Storage
-                  href: storage-platform/xbox-live-title-storage/reading-configuration-blobs.md
-                - name: Storing a binary blob in Title Storage
-                  href: storage-platform/xbox-live-title-storage/storing-binary-blobs.md
-                - name: Reading a binary blob from Title Storage
-                  href: storage-platform/xbox-live-title-storage/reading-binary-blobs.md
-                - name: Storing a JSON blob in Title Storage
-                  href: storage-platform/xbox-live-title-storage/storing-jsonblobs.md
-                - name: Reading a JSON blob from Title Storage
-                  href: storage-platform/xbox-live-title-storage/reading-jsonblobs.md
         - name: Multiplayer features
           href: multiplayer/multiplayer-platform.md
           items: 
@@ -482,10 +474,53 @@
                   href: multiplayer/multiplayer-appendix/xbox-one-multiplayer-session-directory.md
                 - name: Game session visibility and joinability
                   href: multiplayer/multiplayer-appendix/game-session-and-game-party-visibility-and-joinability.md
-        - name: External Services
+        - name: Cloud Storage
+          href: storage-platform/cloud-storage_nav.md
+          items: 
+            - name: Connected Storage vs. Title Storage
+              href: storage-platform/connected-storage-vs-title-storage.md
+            - name: Connected Storage
+              href: storage-platform/connected-storage/connected-storage_nav.md
+              items: 
+                - name: Overview of Connected Storage
+                  href: storage-platform/connected-storage/connected-storage-overview.md
+                - name: Saving data with Connected Storage
+                  href: storage-platform/connected-storage/connected-storage-saving.md
+                - name: Loading data with Connected Storage
+                  href: storage-platform/connected-storage/connected-storage-loading.md
+                - name: Deleting data with Connected Storage
+                  href: storage-platform/connected-storage/connected-storage-deleting.md
+                - name: Loading data on-demand with Connected Storage
+                  href: storage-platform/connected-storage/connected-storage-loading-on-demand.md
+                - name: Working with Connected Storage buffers
+                  href: storage-platform/connected-storage/connected-storage-using-buffers.md
+                - name: Managing local Connected Storage
+                  href: storage-platform/connected-storage/connected-storage-xb-storage.md
+                - name: Best practices for Connected Storage
+                  href: storage-platform/connected-storage/connected-storage-best-practices.md
+                - name: Technical overview of Connected Storage
+                  href: storage-platform/connected-storage/connected-storage-technical-overview.md
+            - name: Title Storage
+              href: storage-platform/xbox-live-title-storage/xbl-title-storage_nav.md
+              items: 
+                - name: Overview of Title Storage
+                  href: storage-platform/xbox-live-title-storage/xbox-live-title-storage.md
+                - name: Configuring Title Storage in Partner Center
+                  href: configure-xbl/dev-center/title-storage.md
+                - name: Reading a configuration blob from Title Storage
+                  href: storage-platform/xbox-live-title-storage/reading-configuration-blobs.md
+                - name: Storing a binary blob in Title Storage
+                  href: storage-platform/xbox-live-title-storage/storing-binary-blobs.md
+                - name: Reading a binary blob from Title Storage
+                  href: storage-platform/xbox-live-title-storage/reading-binary-blobs.md
+                - name: Storing a JSON blob in Title Storage
+                  href: storage-platform/xbox-live-title-storage/storing-jsonblobs.md
+                - name: Reading a JSON blob from Title Storage
+                  href: storage-platform/xbox-live-title-storage/reading-jsonblobs.md
+        - name: Custom services
           href: features/external-services/external-services_nav.md
           items: 
-            - name: Web Services
+            - name: Web services
               href: features/external-services/web-services/web-services_nav.md
               items: 
                 - name: Setting up Web Services at Partner Center

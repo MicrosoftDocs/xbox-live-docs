@@ -392,6 +392,7 @@ C++ XDK
 ```cpp
 auto appConfig = xbox::services::xbox_live_app_config::get_app_config_singleton();
 string_t sandbox = appConfig->sandbox;
+
 ```
 
 C# WinRT

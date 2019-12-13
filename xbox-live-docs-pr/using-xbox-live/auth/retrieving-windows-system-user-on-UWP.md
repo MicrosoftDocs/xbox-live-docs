@@ -14,7 +14,7 @@ You can retrieve the Windows System User in a Universal Windows Platform (UWP) t
 
 ## Windows.System.User
 
-A [Windows.System.User](https://docs.microsoft.com/en-us/uwp/api/windows.system.user) object represents a local Windows user.
+A [Windows.System.User](https://docs.microsoft.com/uwp/api/windows.system.user) object represents a local Windows user.
 
 On Xbox console, this object allows multiple windows user to be logged in at the same time in a single interactive session.
 
@@ -28,7 +28,7 @@ On other Windows platforms, such as PC or phone, where it only allow one Windows
 
 ### Windows.System.User class static method FindAllAsync
 
-To retrieve a Windows System User, one approach is to use static methods from the [Windows.System.User](https://docs.microsoft.com/en-us/uwp/api/windows.system.user) class.
+To retrieve a Windows System User, one approach is to use static methods from the [Windows.System.User](https://docs.microsoft.com/uwp/api/windows.system.user) class.
 
 That class provides static methods to retrieve `Windows.System.User` objects.
 For example, you can call `FindAllAsync` to get all active windows users.
@@ -36,28 +36,28 @@ For example, you can call `FindAllAsync` to get all active windows users.
 
 ### Windows.System.UserPicker
 
-The class [Windows.System.UserPicker](https://docs.microsoft.com/en-us/uwp/api/windows.system.userpicker) provides methods to launch the user picker UI and select a Windows system user in multi-user scenarios.
+The class [Windows.System.UserPicker](https://docs.microsoft.com/uwp/api/windows.system.userpicker) provides methods to launch the user picker UI and select a Windows system user in multi-user scenarios.
 
 
 ### Windows.Gaming.Input.IGameController
 
-The interface [Windows.Gaming.Input.IGameController](https://docs.microsoft.com/en-us/uwp/api/windows.gaming.input.igamecontroller) is the core interface for all controller devices, such as gamepad, racing wheel, and flight stick.
+The interface [Windows.Gaming.Input.IGameController](https://docs.microsoft.com/uwp/api/windows.gaming.input.igamecontroller) is the core interface for all controller devices, such as gamepad, racing wheel, and flight stick.
 You can get the `Windows.System.User` object that is associated with the game controller, by calling its `User` property.
 
 Here are some game controllers implemented by Windows:
-* [ArcadeStick](https://docs.microsoft.com/en-us/uwp/api/windows.gaming.input.arcadestick)
-* [FlightStick](https://docs.microsoft.com/en-us/uwp/api/windows.gaming.input.flightstick)
-* [Gamepad](https://docs.microsoft.com/en-us/uwp/api/windows.gaming.input.gamepad)
-* [RacingWheel](https://docs.microsoft.com/en-us/uwp/api/windows.gaming.input.racingwheel)
+* [ArcadeStick](https://docs.microsoft.com/uwp/api/windows.gaming.input.arcadestick)
+* [FlightStick](https://docs.microsoft.com/uwp/api/windows.gaming.input.flightstick)
+* [Gamepad](https://docs.microsoft.com/uwp/api/windows.gaming.input.gamepad)
+* [RacingWheel](https://docs.microsoft.com/uwp/api/windows.gaming.input.racingwheel)
 
 
 ### UserDeviceAssociation class static method FindUserFromDeviceId
 
 To retrieve a Windows System User, first, obtain the device ID from Windows input events, such as:
-* [Windows.​UI.​Xaml.​Input.KeyRoutedEventArgs](https://docs.microsoft.com/en-us/uwp/api/Windows.UI.Xaml.Input.KeyRoutedEventArgs)
-* [Windows.​UI.​Core.KeyEventArgs](https://docs.microsoft.com/en-us/uwp/api/windows.ui.core.keyeventargs)
+* [Windows.​UI.​Xaml.​Input.KeyRoutedEventArgs](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Input.KeyRoutedEventArgs)
+* [Windows.​UI.​Core.KeyEventArgs](https://docs.microsoft.com/uwp/api/windows.ui.core.keyeventargs)
 
 Then, to find the user associated with the device ID, you can call the static method
-[FindUserFromDeviceId](https://docs.microsoft.com/en-us/uwp/api/windows.system.userdeviceassociation.finduserfromdeviceid)
+[FindUserFromDeviceId](https://docs.microsoft.com/uwp/api/windows.system.userdeviceassociation.finduserfromdeviceid)
 in the class
-[UserDeviceAssociation](https://docs.microsoft.com/en-us/uwp/api/windows.system.userdeviceassociation).
+[UserDeviceAssociation](https://docs.microsoft.com/uwp/api/windows.system.userdeviceassociation).

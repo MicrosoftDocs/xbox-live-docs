@@ -19,7 +19,7 @@ SmartMatch matchmaking groups players based on user information and the matchmak
 Matchmaking is server-based, meaning that users provide a request to the service, and they are later notified when a match is found.
 
 When building a title for Xbox One, you can use SmartMatch as described in this article.
-Alternatively, you can your own matchmaking service as described in [using your own matchmaking service](https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/multiplayer-and-networking/using-your-own-matchmaking-service).
+Alternatively, you can your own matchmaking service as described in [using your own matchmaking service](https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/multiplayer-and-networking/using-your-own-matchmaking-service).
 Accessing the above link requires that you have a [Partner Center](https://partner.microsoft.com/dashboard) account which is enabled for Xbox Live development.
 
 ### About SmartMatch

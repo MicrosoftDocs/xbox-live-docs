@@ -213,7 +213,7 @@ Failure to follow this guidance can permanently harm the Xbox Live configuration
 
 For an XDK+UWP game, catalog configuration needs to be set up in Partner Center.
 
-For this Partner Center configuration, see the detailed steps in the UWP documentation, in <a href="https://dev.windows.com/en-us/publish" target="_blank">Publish Windows apps and games &#11008;</a>.
+For this Partner Center configuration, see the detailed steps in the UWP documentation, in <a href="https://dev.windows.com/publish" target="_blank">Publish Windows apps and games &#11008;</a>.
 
 <table>
   <tr>
@@ -230,7 +230,7 @@ For this Partner Center configuration, see the detailed steps in the UWP documen
 
 For an XDK+UWP game, binary configuration needs to be set up in Partner Center.
 
-For this Partner Center configuration, see the detailed steps in the UWP documentation, in <a href="https://dev.windows.com/en-us/publish" target="_blank">Publish Windows apps and games &#11008;</a>.
+For this Partner Center configuration, see the detailed steps in the UWP documentation, in <a href="https://dev.windows.com/publish" target="_blank">Publish Windows apps and games &#11008;</a>.
 
 <table>
   <tr>

@@ -137,7 +137,7 @@ This error means that either the device or user doesn't have access to the speci
 
 Double-check the Application ID Setup and Partner Center Binding in Partner Center.
 
-You can view the instructions in the section [Associate your app with the Microsoft Store](https://docs.microsoft.com/en-us/windows-hardware/drivers/devapps/step-1--create-a-uwp-device-app#associate-your-app-with-the-microsoft-store) in the article "Adding Xbox Live Support to a new or existing Visual Studio UWP".
+You can view the instructions in the section [Associate your app with the Microsoft Store](https://docs.microsoft.com/windows-hardware/drivers/devapps/step-1--create-a-uwp-device-app#associate-your-app-with-the-microsoft-store) in the article "Adding Xbox Live Support to a new or existing Visual Studio UWP".
 
 
 ### 0x87DD000E Title not authorized

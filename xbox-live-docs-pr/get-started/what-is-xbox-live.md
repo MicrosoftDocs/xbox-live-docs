@@ -81,10 +81,9 @@ Read this series of articles to learn more about how to use these in your title.
 
 | Article | Description |
 |---------|-------------|
-| [Xbox Live Player Data](../data-platform/player-data_nav.md) | A brief overview of the Player Data system, as well as guidance on how to best incorporate stats, leaderboards, and achievements into your title.
-| [Achievements](../achievements-2017/achievements_nav.md) | Achievements are one of the most well known features in Xbox Live, and a great driver of player engagement. Learn how to use them in your title.
-| [Player Stats](../leaderboards-and-stats-2017/player-stats_nav.md) | Stats are the foundation of leaderboards.  Learn how to define and use them here.
-| [Leaderboards](../leaderboards-and-stats-2017/leaderboards.md) | Bring out your users' competitive sides by intelligently incorporating leaderboards.
+| [Xbox Live Player Data](../features/player-data/live-playerdata-nav.md) | A brief overview of the Player Data system, as well as guidance on how to best incorporate stats, leaderboards, and achievements into your title.
+| [Achievements](../features/player-data/achievements/live-achievements-nav.md) | Achievements are one of the most well known features in Xbox Live, and a great driver of player engagement. Learn how to use them in your title.
+| [Stats & Leaderboards](../features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md) | Stats are the foundation of leaderboards.  Leaderboards bring out your users' competitive sides by intelligently incorporating leaderboards.
 
 
 ## Cloud Storage

@@ -125,6 +125,7 @@ There are two ways to interface with the Xbox One Sessions and Matchmaking servi
 The first way to interface with the Xbox One Sessions and Matchmaking services is to use standard HTTPS calls to the RESTful Xbox Live Services URIs.
 This allows titles flexibility in calling and interfacing with these services depending on their server and game configurations.
 
+<!-- keep /en-us/ in URL else 404: -->
 A list of these URIs can be found in the [Xbox One Development Kit (XDK) documentation](https://developer.xboxlive.com/en-us/platform/development/documentation/software/Pages/home.aspx) under “Xbox Live Services RESTful Reference.”[1]
 
 
@@ -136,6 +137,7 @@ These allow for a more traditional approach to using APIs in code without having
 The source code for the Xbox Live Service APIs is shipped with the Xbox Development Kit (XDK) and can be modified and incorporated into your title as needed.
 The samples are written using the Xbox Live Service APIs.
 
+<!-- keep /en-us/ in URL else 404: -->
 More information about the Xbox Live Services APIs can be found in the Xbox One [XDK documentation](https://developer.xboxlive.com/en-us/platform/development/documentation/software/Pages/home.aspx) under “Xbox Live Services Reference.”[2]
 
 
@@ -145,6 +147,7 @@ MPSD sessions are created with templates ingested through Partner Center.
 The templates are JSON documents that define the framework for the session being created.
 The template provides constants for the new session.
 
+<!-- keep /en-us/ in URL else 404: -->
 The following excerpt from the [Player Rendezvous code sample](https://developer.xboxlive.com/en-us/platform/development/education/Pages/Samples.aspx) is a template config example.
 
 ```json
@@ -1033,6 +1036,7 @@ Collect Fiddler traces to help get more information and then do the following:
 3.  Reboot the console and/or try again with a new user.
 
 4.  Search the [Entertainment Developer Forums](https://developer.xboxlive.com/en-us/platform/community/forums/Pages/home.aspx) for the error code or other potential solutions.
+<!-- keep /en-us/ in URL else 404 -->
 
 
 ### I am getting a 403 error when calling MPSD.
@@ -1083,6 +1087,7 @@ This will return 412 Precondition Failed if the session etag doesn’t match the
 
 Collect Fiddler traces to help get more information and then check the messages returned as part of the HttpResponse body.
 This should give you enough information to identify and fix the error or to search the [Entertainment Developer Forums](https://developer.xboxlive.com/en-us/platform/community/forums/Pages/home.aspx) for possible solutions.
+<!-- keep /en-us/ in URL else 404 -->
 
 You can also get the response body if you are using the Xbox Live Service APIs by setting the **DiagnosticsTraceLevel** property to Error, which will output the information in the debug output, or you can use the **XboxLiveContextSettings.ServiceCallRouted** event as demonstrated in multiple samples to output to your title UI.
 

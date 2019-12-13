@@ -31,4 +31,4 @@ Example state data:
 -   Current X, Y, Z coordinates
 -   Current weapon
 
-For more information, see [Player Stats](../../leaderboards-and-stats-2017/player-stats_nav.md).
+For more information, see [Stats & Leaderboards](../../features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md).

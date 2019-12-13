@@ -15,6 +15,7 @@ The following Xbox Live features are supported for Creators or for Managed Partn
 ## Feature comparison table
 
 <table>
+
 <tr>
 <th>Feature Area</th>
 <th>Feature</th>
@@ -35,6 +36,33 @@ The following Xbox Live features are supported for Creators or for Managed Partn
 <td>User Identity</td>
 <td>Use Xbox Live Identity by displaying information such as Gamertag and Gamerpic.</td>
 <td class="xbl-features-required">Required</td>
+<td class="xbl-features-required">Required</td>
+</tr>
+
+
+<tr class="dev-program-feature-start">
+<td rowspan="4" class="dev-program-feature-name">Player Data</td>
+<td>Achievements</td>
+<td>Gamerscore and other rewards such as digital artwork, new maps, characters, and stat boosts.</td>
+<td class="xbl-features-notavailable">Not Supported</td>
+<td class="xbl-features-required">Required</td>
+</tr>
+<tr>
+<td>Player Stats</td>
+<td>Upload statistics about players which can be used in Leaderboards.</td>
+<td class="xbl-features-optional">Optional (title-managed Player Data only)</td>
+<td class="xbl-features-optional">Optional</td>
+</tr>
+<tr>
+<td>Leaderboards</td>
+<td>Retrieve and display player stats in a sorted way to encourage competition.</td>
+<td class="xbl-features-optional">Optional (title-managed Player Data only)</td>
+<td class="xbl-features-optional">Optional</td>
+</tr>
+<tr>
+<td>Featured Stats</td>
+<td>Designate certain stats as "Featured Stats" that will show up in the Game Hub.</td>
+<td class="xbl-features-optional">Optional (title-managed Player Data only)</td>
 <td class="xbl-features-required">Required</td>
 </tr>
 
@@ -121,48 +149,6 @@ The following Xbox Live features are supported for Creators or for Managed Partn
 
 
 <tr class="dev-program-feature-start">
-<td rowspan="4" class="dev-program-feature-name">Player Data</td>
-<td>Achievements</td>
-<td>Gamerscore and other rewards such as digital artwork, new maps, characters, and stat boosts.</td>
-<td class="xbl-features-notavailable">Not Supported</td>
-<td class="xbl-features-required">Required</td>
-</tr>
-<tr>
-<td>Player Stats</td>
-<td>Upload statistics about players which can be used in Leaderboards.</td>
-<td class="xbl-features-optional">Optional (Player Data 2017 only)</td>
-<td class="xbl-features-optional">Optional</td>
-</tr>
-<tr>
-<td>Leaderboards</td>
-<td>Retrieve and display player stats in a sorted way to encourage competition.</td>
-<td class="xbl-features-optional">Optional (Player Data 2017 only)</td>
-<td class="xbl-features-optional">Optional</td>
-</tr>
-<tr>
-<td>Featured Stats</td>
-<td>Designate certain stats as "Featured Stats" that will show up in the Game Hub.</td>
-<td class="xbl-features-optional">Optional (Player Data 2017 only)</td>
-<td class="xbl-features-required">Required</td>
-</tr>
-
-
-<tr class="dev-program-feature-start">
-<td rowspan="2" class="dev-program-feature-name">Cloud Storage</td>
-<td>Connected Storage</td>
-<td>Roaming game saves across Xbox One Consoles and PCs.</td>
-<td class="xbl-features-optional">Optional</td>
-<td class="xbl-features-required">Required</td>
-</tr>
-<tr>
-<td>Title Storage</td>
-<td>Cloud storage for large amounts of per-user or per-title data.</td>
-<td class="xbl-features-optional">Optional</td>
-<td class="xbl-features-optional">Optional</td>
-</tr>
-
-
-<tr class="dev-program-feature-start">
 <td rowspan="5" class="dev-program-feature-name">Multiplayer features</td>
 <td>Multiplayer Session Directory (MPSD)</td>
 <td>Stores information about a multiplayer session, such as list of players and their state.</td>
@@ -193,6 +179,22 @@ The following Xbox Live features are supported for Creators or for Managed Partn
 <td class="xbl-features-notavailable">Not Supported</td>
 <td class="xbl-features-optional">Optional</td>
 </tr>
+
+
+<tr class="dev-program-feature-start">
+<td rowspan="2" class="dev-program-feature-name">Cloud Storage</td>
+<td>Connected Storage</td>
+<td>Roaming game saves across Xbox One Consoles and PCs.</td>
+<td class="xbl-features-optional">Optional</td>
+<td class="xbl-features-required">Required</td>
+</tr>
+<tr>
+<td>Title Storage</td>
+<td>Cloud storage for large amounts of per-user or per-title data.</td>
+<td class="xbl-features-optional">Optional</td>
+<td class="xbl-features-optional">Optional</td>
+</tr>
+
 </table>
 
 
