@@ -45,7 +45,7 @@ You can now sign in a user by using the XboxLiveUser (WinRT) and xbox_live_user 
 
 | Note |
 |------|
-| This section only applies to UWP titles.  XDK developers should refer to the [Game Events](https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/event-driven-data-platform/game-events) article for XDK specific information  |
+| This section only applies to UWP titles.  XDK developers should refer to the [Game Events](https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/event-driven-data-platform/game-events) article for XDK specific information  |
 
 The new EventsService (WinRT) and events_service (C++) classes let you write in-game events that can update user stats, achievements, leaderboards, etc. These new classes are for UWP apps only.
 

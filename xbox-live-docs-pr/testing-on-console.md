@@ -38,5 +38,5 @@ Managed Partners have the option to purchase an Xbox developer kit from the [Xbo
 Xbox developer kits will allow you to load XDK games to the console for testing, UWP games can also be tested by dev kit.
 Developer kits come with hardware options and testing features that allow for more in-depth performance testing and console management.
 
-To begin your journey with the Xbox developer kit, see [Getting Started with Xbox One Development](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/atoc-getting-started) on the Managed Partner documentation site.
+To begin your journey with the Xbox developer kit, see [Getting Started with Xbox One Development](https://developer.microsoft.com/games/xbox/docs/xdk/atoc-getting-started) on the Managed Partner documentation site.
 This documentation is only accessible to Managed Partners.
