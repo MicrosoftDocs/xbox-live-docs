@@ -122,7 +122,7 @@ You can find the XDK Connected Storage APIs documented in the XDK .chm file unde
 
 Windows.Xbox.Storage is the name of the Connected Storage namespace for Xbox One consoles.
 
-The XDK APIs are also documented on the [developer.microsoft.com site](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/storage-xbox-microsoft-n).
+The XDK APIs are also documented on the [developer.microsoft.com site](https://developer.microsoft.com/games/xbox/docs/xdk/storage-xbox-microsoft-n).
 The link to XDK APIs requires that you have a Microsoft Account(MSA) that has been enabled for Xbox Developer Kit(XDK) access.
 
 

@@ -22,7 +22,7 @@ The Xbox Live SDK supports Windows 10 RTM [Version 10.0.10240] and Visual Studio
 - Multicolumn leaderboards can now be accessed by the GetLeaderboard API. If you provide a vector of the names of the additional columns, the vector of columns on the result will be filled out if those columns exist.
 
 ## Documentation
-- [Application Insights](https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/event-driven-data-platform/application-insights) documentation is here.  You can use Application Insights with a free Azure account to view Player Data events in near-realtime.  This functionality is currently only available for UWP applications running on Windows 10 on the desktop.
+- [Application Insights](https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/event-driven-data-platform/application-insights) documentation is here.  You can use Application Insights with a free Azure account to view Player Data events in near-realtime.  This functionality is currently only available for UWP applications running on Windows 10 on the desktop.
 - Updated documentation on the Xbox Common Events Tool for UWP developers discussing how to generate wrappers for sending Player Data events.  Please note that this is optional and you can continue to use the WriteInGameEvent API if you prefer.
 - Using Fiddler to debug Player Data events and make sure they are properly being sent.  This is only for UWP events.
 - Information on how to collect logs for the Live Trace Analyzer tool is available.  See the [Analyze calls to Xbox Live Services](../tools/analyze-service-calls.md) article.
