@@ -12,6 +12,22 @@ ms.localizationpriority: medium
 
 This article describes issues that you must consider when adapting a 2014 Multiplayer title for 2015 Multiplayer.
 
+<!-- from ~\multiplayer\multiplayer-appendix\multiplayer-appendix.md: -->
+> **Note**  
+The Multiplayer 2015 service, described in this article, is for advanced API usage.  As a starting point, instead use the [Multiplayer Manager API](../multiplayer-manager/multiplayer-manager.md) which significantly simplifies development. If you find an unsupported scenario in the Multiplayer Manager API, please let your DAM know.
+
+> **Note**  
+The previous version of the multiplayer system is Multiplayer 2014.
+Multiplayer 2014 is based on the concept of the *game party* and participation in games through *parties*.
+Multiplayer 2014 is now deprecated, although source code for it is still provided with the XDK.
+The Multiplayer 2014 documentation is no longer included with the XDK; if you need that documentation, use a 2014 release of the XDK.
+
+The Multiplayer 2015 system in Xbox One enables game play and the assembly of game players into groups.
+The system is secure and flexible, allowing you not only to build simple features quickly, but also to build more complex features and plug in your own services.
+
+The Multiplayer 2015 service abstracts-away the Multiplayer 2014 "game party" concept and instead uses the multiplayer session directory (MPSD) to control game sessions.
+<!-- / multiplayer-appendix.md -->
+
 
 ## Configuration Changes to Make for 2015 Multiplayer
 

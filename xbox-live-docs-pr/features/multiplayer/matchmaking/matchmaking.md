@@ -1,6 +1,6 @@
 ---
-title: Matchmaking
-description: Matchmaking
+title: SmartMatch Matchmaking
+description: The SmartMatch matchmaking service selects compatible players in a multiplayer game.
 ms.date: 04/04/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, protocol activation, multiplayer
@@ -20,12 +20,6 @@ ms.localizationpriority: medium
 ### See also
 
 * [Xbox Live Samples](../../samples.md)
-
-
-**Multiplayer Manager**
-
 * [Finding a multiplayer game by using SmartMatch](../multiplayer-manager/play-multiplayer-with-matchmaking.md)
-
 * [Playing a game by using SmartMatch matchmaking (flowchart)](../multiplayer-manager/mpm-flowcharts/mpm-play-with-smartmatch-matchmaking.md)
-
 * [Checking Quality of Service for matchmaking (flowchart)](../multiplayer-manager/mpm-flowcharts/mpm-use-matchmaking-and-qos.md)
