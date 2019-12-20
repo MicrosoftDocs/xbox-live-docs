@@ -1,13 +1,13 @@
 ---
-title: Multiplayer Manager
+title: Multiplayer Manager (MPM)
 description: High-level API for adding multiplayer functionality by managing sessions, matchmaking, and game invites. Provides a state- and event-based programming model.
 layout: LandingPage
-ms.date: 02/08/2019
 ms.topic: article
+ms.date: 02/08/2019
 ms.localizationpriority: medium
 ---
 
-# Multiplayer Manager
+# Multiplayer Manager (MPM)
 
 
 ### In this section

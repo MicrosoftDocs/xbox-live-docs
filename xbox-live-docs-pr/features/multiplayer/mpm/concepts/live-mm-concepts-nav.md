@@ -5,8 +5,8 @@ layout: LandingPage
 kindex: Multiplayer Manager concepts
 author: mikehoffms
 ms.author: v-mihof
-ms.date: 12/17/2019
 ms.topic: article
+ms.date: 12/17/2019
 ms.localizationpriority: medium
 ---
 

@@ -1,15 +1,15 @@
 ---
-title: Overview of Multiplayer Manager
+title: Multiplayer Manager overview
 description: High-level API for adding multiplayer functionality by managing sessions, matchmaking, and game invites. Provides a state- and event-based programming model.
 author: KevinAsgari
 ms.author: kevinasg
-ms.date: 04/04/2017
 ms.topic: article
+ms.date: 04/04/2017
 ms.localizationpriority: medium
 ms.assetid: f3a6c8bc-4f73-4b99-ac51-aadee73c8cfa
 ---
 
-# Overview of Multiplayer Manager
+# Multiplayer Manager overview
 
 Xbox Live provides extensive support for adding multiplayer functionality to your titles, allowing your game to connect Xbox Live members across the world.
 This includes rich matchmaking scenarios, the ability for a player to join a friend's game in progress, and more.

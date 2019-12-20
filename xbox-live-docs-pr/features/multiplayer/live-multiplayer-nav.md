@@ -1,8 +1,8 @@
 ---
-layout: LandingPage
-title: Multiplayer features
-author: mikehoffms
+title: Multiplayer
 description: Matchmaking, invites, voice and text chat, and networking.
+layout: LandingPage
+author: mikehoffms
 ms.author: v-mihof
 ms.date: 12/11/2018
 ms.topic: article
@@ -10,7 +10,7 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h1>Multiplayer features</h1>
+<h1>Multiplayer</h1>
 
 <ul class="cardsF panelContent cols cols2">
     <li>

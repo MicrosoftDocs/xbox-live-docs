@@ -1,5 +1,5 @@
 ---
-title: Multiplayer concepts
+title: Multiplayer concepts overview
 description: Concepts used by Multiplayer systems, including multiplayer session, multiplayer service session directory, SmartMatch matchmaking, and quality of service (QoS).
 ms.assetid: 1e765f19-1530-4464-b5cf-b00259807fd3
 ms.date: 08/25/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer
 ms.localizationpriority: medium
 ---
 
-# Multiplayer concepts
+# Multiplayer concepts overview
 
 This article discusses a number of important multiplayer terms and concepts that are used frequently in the Xbox Live documentation.
 Having a good grasp of these concepts will help you understand how Xbox Live multiplayer works.

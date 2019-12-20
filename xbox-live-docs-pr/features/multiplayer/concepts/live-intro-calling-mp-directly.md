@@ -1,5 +1,5 @@
 ---
-title: Introduction to the Multiplayer system
+title: Intro to calling the Multiplayer service directly
 description: Provides a high level introduction to the Xbox Live Multiplayer 2015 system.
 ms.assetid: d025bd2b-2ca4-4ba9-9394-4950d96ad264
 ms.date: 04/04/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer 2015
 ms.localizationpriority: medium
 ---
 
-# Introduction to the Multiplayer system
+# Intro to calling the Multiplayer service directly
 
 | Note                                                                                                                                                                                                          |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

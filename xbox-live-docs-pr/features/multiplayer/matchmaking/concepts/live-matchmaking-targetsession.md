@@ -1,14 +1,14 @@
 ---
-title: Target Session Initialization and QoS
+title: Target session initialization and QoS
 description: After players are matched into a target session, the title confirms enough players have joined and can connect.
+ms.topic: article
 ms.assetid: ba0c1ecb-e928-4e86-9162-8cb456b697ff
 ms.date: 04/04/2017
-ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, matchmaking, smartmatch
 ms.localizationpriority: medium
 ---
 
-# Target Session Initialization and QoS
+# Target session initialization and QoS
 
 A group of players is matched into a target session by SmartMatch matchmaking. The title must take steps to confirm that enough players have joined that they can successfully connect to one another if they need to. This process is known as target session initialization.
 
