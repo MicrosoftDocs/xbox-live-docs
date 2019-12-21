@@ -13,12 +13,11 @@ ms.localizationpriority: medium
 # XIM how-to's
 
 
-<!-- 
 ### In this section
 
 | Article | Description |
 |---------|-------------|
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
--->
+| [Using XIM via C++](live-using-xim.md) | Using Xbox Integrated Multiplayer (XIM) with C++. |
+| [Using XIM via C#](live-using-xim-cs.md) | Using Xbox Integrated Multiplayer (XIM) with C#. |
+| [Using XIM via Unity with IL2CPP](live-xim-unity-uwp-il2cpp.md) | Using Xbox Integrated Multiplayer with Unity for UWP with the IL2CPP scripting backend. |
+| [XIM dedicated chat via out-of-band reservations](live-xim-chat-reservations.md) | Using Xbox Integrated Multiplayer (XIM) as a dedicated chat solution via out-of-band reservations. |

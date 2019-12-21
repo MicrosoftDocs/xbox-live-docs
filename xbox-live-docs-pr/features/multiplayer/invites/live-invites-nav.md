@@ -12,8 +12,9 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Flows for multiplayer game invites](multiplayer-invite-flows.md) | Updated flow diagrams for implementing multiplayer game invites, to invite another player to a multiplayer game. |
-| [Multiplayer invites for UWP games](multiplayer-invite-uwp.md) | Updating Package.appxmanifest to enable multiplayer invites for UWP games. |
+| [Invites overview](live-multiplayer-invites-overview.md) | A player can invite other players to their game sessions. Invited players receive a game invite, and the title uses this information to join the existing session and multiplayer experience. |
+| [Invites concepts](concepts/live-invites-concepts-nav.md) | Conceptual articles about Multiplayer Invites. |
+| [Invites how-to's](how-to/live-invites-nav.md) | Example code for Multiplayer Invites. |
 
 
 ### See also

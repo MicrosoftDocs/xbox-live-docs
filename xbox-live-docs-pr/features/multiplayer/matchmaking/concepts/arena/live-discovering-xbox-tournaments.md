@@ -1,7 +1,7 @@
 ---
 title: UX for discovering Xbox tournaments
-author: KevinAsgari
 description: Creating a UI for your game's tournament discovery.
+author: KevinAsgari
 ms.author: kevinasg
 ms.date: 10/12/2017
 ms.topic: article

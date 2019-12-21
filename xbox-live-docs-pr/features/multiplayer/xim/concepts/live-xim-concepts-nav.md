@@ -13,12 +13,9 @@ ms.localizationpriority: medium
 # XIM concepts
 
 
-<!-- 
 ### In this section
 
 | Article | Description |
 |---------|-------------|
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
--->
+| [Configuring a XIM project in a manifest](live-xim-manifest.md) | Configuring your UWP app manifests to work with Xbox Integrated Multiplayer (XIM). |
+| [XIM release notes](live-xim-release-notes.md) | Release notes about Xbox Integrated Multiplayer. |

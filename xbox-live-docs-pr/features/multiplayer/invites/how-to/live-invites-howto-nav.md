@@ -14,12 +14,9 @@ edited: 12/18/2019
 # Invites how-to's
 
 
-<!-- 
 ### In this section
 
 | Article | Description |
 |---------|-------------|
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
--->
+| [Sending invites](live-invites-send.md) | Example code for sending multiplayer invites. |
+| [Receiving invites](live-invites-receive.md) | Example code to receive multiplayer invites. |

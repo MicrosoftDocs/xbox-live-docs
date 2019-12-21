@@ -11,10 +11,9 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Matchmaking Overview](matchmaking-overview.md) | The SmartMatch matchmaking service selects compatible players in a multiplayer game. |
-| [Matchmaking Configuration](matchmaking-config.md) | Configuring the portal to select compatible players. |
-| [Target Session Initialization and QoS](matchmaking-targetsession.md) | After players are matched into a target session, the title confirms enough players have joined and can connect. |
-| [Using SmartMatch matchmaking](matchmaking-how-tos.md) | Using SmartMatch to match players in a multiplayer game. |
+| [Matchmaking overview](live-matchmaking-overview.md) | The SmartMatch matchmaking service selects compatible players in a multiplayer game. |
+| [Matchmaking concepts](concepts/live-matchmaking-concepts-nav.md) | SmartMatch matchmaking groups players based on user information and the matchmaking request for the users who want to play together. |
+| [Matchmaking portal config](config/live-matchmaking-config-nav.md) | Configuring Matchmaking at Partner Center. |
 
 
 ### See also

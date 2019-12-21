@@ -1,6 +1,6 @@
 ---
 title: Multiplayer Manager concepts
-description: Multiplayer Manager for Matchmaking.
+description: Conceptual articles about Multiplayer Manager.
 layout: LandingPage
 kindex: Multiplayer Manager concepts
 author: mikehoffms
@@ -13,12 +13,9 @@ ms.localizationpriority: medium
 # Multiplayer Manager concepts
 
 
-<!-- 
 ### In this section
 
 | Article | Description |
 |---------|-------------|
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
--->
+| [Multiplayer Manager API overview](live-multiplayer-manager-api-overview.md) | The most important classes and methods in the Multiplayer Manager API. |
+| [Multiplayer Manager flowcharts](flowcharts/live-mm-flowcharts-nav.md) | Flowcharts of code for implementing specific Multiplayer Manager scenarios. |

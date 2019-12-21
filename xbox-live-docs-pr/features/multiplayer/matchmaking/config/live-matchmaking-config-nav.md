@@ -15,12 +15,8 @@ edited: 00/00/0000
 # Matchmaking portal config
 
 
-<!-- 
 ### In this section
 
 | Article | Description |
 |---------|-------------|
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
--->
+| [Matchmaking portal configuration](live-matchmaking-config.md) | Configuring Partner Center to select compatible players. |
