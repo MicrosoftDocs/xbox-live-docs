@@ -51,7 +51,7 @@ Tournament promotion is perfect fit for this scenario.
 
 ###### UI Example: 'Message of the Day'
 
-![Tournament message of the day](../../images/arena/arena-ux-motd.png)
+![Tournament message of the day](live-discovering-xbox-tournaments-images/arena-ux-motd.png)
 
 
 #### A. Main Heading ex: Play, Watch, Learn  
@@ -73,7 +73,7 @@ Set that expectation in your title’s UI before the gamer makes a decision.
 
 
 ###### UI Example: Exit game confirmation
-![Tournament exit game confirmation](../../images/arena/arena-ux-exit-confirm.png)
+![Tournament exit game confirmation](live-discovering-xbox-tournaments-images/arena-ux-exit-confirm.png)
 
 
 ### 2.	Promote tournaments on the Main Menu
@@ -86,7 +86,7 @@ On **Select**, the gamer is led to a tournaments detail page in the Arena Hub, w
 
 ###### UI Example: A tournament ad displayed alongside the main menu
 
-![Sample In-Game Tournament UI](../../images/arena/arena-ux-promo.png)
+![Sample In-Game Tournament UI](live-discovering-xbox-tournaments-images/arena-ux-promo.png)
 
 > [!TIP]
 > **UX recommendation**  
@@ -106,7 +106,7 @@ If you intend to build a browsing feature, add a **Tournaments** entry point in 
 
 ###### UI Example: Tournaments listed as an additional mode in the Multiplayer section
 
-![Tournament mode](../../images/arena/arena-ux-tournament-mode.png)
+![Tournament mode](live-discovering-xbox-tournaments-images/arena-ux-tournament-mode.png)
 
 
 ### Provide a comprehensive list of tournaments
@@ -137,9 +137,9 @@ Filter tournaments by **All**, **Active** (which covers everything until the tou
 
 ###### UI Example:
 
-![Tournament filters screen](../../images/arena/arena-ux-filters.png)
+![Tournament filters screen](live-discovering-xbox-tournaments-images/arena-ux-filters.png)
 
-> [!NOTE]  
+> [!NOTE]
 > Adding custom filters, outside of what the API supports is possible, *but not recommended*.
 
 Your title can filter by other properties after it makes the request, but it can’t specify them on the query parameter.

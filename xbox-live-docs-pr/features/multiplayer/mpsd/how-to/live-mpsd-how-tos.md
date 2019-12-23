@@ -53,7 +53,7 @@ To receive MPSD session change notifications, the title can follow the procedure
 
 The following flow chart illustrates how to start Multiplayer by subscribing to the events described in this procedure.
 
-![Starting multiplayer flow chart](../../images/multiplayer/Multiplayer_2015_Start_Multiplayer.png)
+![Starting multiplayer flow chart](live-mpsd-how-tos-images/Multiplayer_2015_Start_Multiplayer.png)
 
 
 ### Parsing duplicate session change notifications
@@ -188,7 +188,7 @@ The title must perform the following main steps to handle title activation.
 
 The following flow chart illustrates how to handle title activation.
 
-![Title Activation of Multiplayer flowchart](../../images/multiplayer/Multiplayer_2015_OnActivation.png)
+![Title Activation of Multiplayer flowchart](live-mpsd-how-tos-images/Multiplayer_2015_OnActivation.png)
 
 
 ## Make the user joinable
@@ -211,7 +211,7 @@ To make the user joinable, the title must do the following:
 
 The following flow chart illustrates the steps to take to allow a user to be joined by other players during a game.
 
-![Allow a user to be joined by players flowchart](../../images/multiplayer/Multiplayer_2015_Become_Joinable.png)
+![Allow a user to be joined by players flowchart](live-mpsd-how-tos-images/Multiplayer_2015_Become_Joinable.png)
 
 
 ## Send game invites
@@ -236,7 +236,7 @@ To send game invites for a player, the title must do the following:
 
 The following flow chart illustrates how to send invites.
 
-![Invitation send flowchart](../../images/multiplayer/Multiplayer_2015_Send_Invites.png)
+![Invitation send flowchart](live-mpsd-how-tos-images/Multiplayer_2015_Send_Invites.png)
 
 
 ## Join a game session from a lobby session
@@ -344,7 +344,7 @@ To allow a user to leave a session, the title must do the following.
 
 The following flow chart illustrates how to leave the session and shut down.
 
-![Exit session and close flowchart](../../images/multiplayer/Multiplayer_2015_Shut_Down.png)
+![Exit session and close flowchart](live-mpsd-how-tos-images/Multiplayer_2015_Shut_Down.png)
 
 
 ## Fill open session slots during matchmaking
@@ -365,7 +365,7 @@ To fill open slots in a ticket session during matchmaking, the title must follow
 
 The following flow chart illustrates how to fill open session slots during matchmaking.
 
-![Filling open slots during matchmaking flowchart](../../images/multiplayer/Multiplayer_2015_Fill_Open_Slots.png)
+![Filling open slots during matchmaking flowchart](live-mpsd-how-tos-images/Multiplayer_2015_Fill_Open_Slots.png)
 
 
 ## Create a match ticket

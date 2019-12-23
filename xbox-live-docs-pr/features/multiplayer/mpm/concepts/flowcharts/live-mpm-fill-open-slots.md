@@ -15,9 +15,9 @@ The following flowcharts show filling open slots in a multiplayer game, with fri
 
 ## Fill open slots with friends
 
-![SmartMatch matchmaking](../../../images/multiplayer/mpm-fill-open-slots-with-friends.png)
+![SmartMatch matchmaking](live-mpm-fill-open-slots-images/mpm-fill-open-slots-with-friends.png)
 
 
 ## Fill open slots with matchmaking
 
-![SmartMatch matchmaking](../../../images/multiplayer/mpm-fill-open-slots-with-matchmaking.png)
+![SmartMatch matchmaking](live-mpm-fill-open-slots-images/mpm-fill-open-slots-with-matchmaking.png)

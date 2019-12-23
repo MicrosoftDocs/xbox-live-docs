@@ -19,4 +19,4 @@ In the flowchart below, TCUI stands for *Title Callable User Interface*, which r
 
 A system-provided TCUI is available on both Xbox One and Windows 10, or your title can implement a custom TCUI for viewing online friends and inviting them.
 
-![SmartMatch matchmaking](../../../images/multiplayer/mpm-send-invites.png)
+![SmartMatch matchmaking](live-mpm-send-invites-images/mpm-send-invites.png)

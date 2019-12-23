@@ -60,8 +60,7 @@ For example, by using the Tournaments Hub, your title can display context such a
 This data flow is depicted by the green arrows in the following diagram, and is described in detail in the [Experience requirements and best practices](#experience-requirements-and-best-practices) section.
 The faded arrows indicate that the reference from the team to the session changes over time, as the user moves from match to match within the tournament.
 
-![Tournament call control flowchart](../../images/arena/tournament-flow.png)
-
+![Tournament call control flowchart](live-arena-title-integration-images/tournament-flow.png)
 
 The Arena protocol activation URI contains information about the tournament, the session for the match, and a deep link that your title can invoke when the match is over.
 The deep link returns the user to the Xbox Arena UI.
@@ -74,7 +73,7 @@ These URI components are described in more detail in the [Protocol activation](#
 This section provides technical guidance and details for integrating your title with the minimum requirements for supporting Arena.
 This style of integration leverages the data flow depicted by the orange arrows in the following overview diagram.
 
-![Tournament data flowchart](../../images/arena/arena-data-flow.png)
+![Tournament data flowchart](live-arena-title-integration-images/arena-data-flow.png)
 
 Your title is protocol-activated from the Xbox Arena UI.
 This could originate from a toast notification, the details page for the tournament, or any other entry point for the match.
@@ -213,7 +212,7 @@ Arbitration is a framework for using a session to securely play a match and repo
 The session provided to your title in the protocol-activation step will be an arbitrated session, which means that it has a fixed timeline that the arbitration framework enforces.
 This diagram shows the arbitration timeline.
 
-![Tournament arbitration timeline chart](../../images/arena/arbitration-timeline.png)
+![Tournament arbitration timeline chart](live-arena-title-integration-images/arbitration-timeline.png)
 
 
 #### Time limits
@@ -501,7 +500,7 @@ To enable a title for Arena, some additional steps are required when you configu
 
 To enable Arena, go to the service configuration page for your title in Partner Center and select ‘Arena’.
 
-![Arena configuration on Xbox Developer Platform screenshot](../../images/arena/arena-configure-xdp.png)
+![Arena configuration on Xbox Developer Platform screenshot](live-arena-title-integration-images/arena-configure-xdp.png)
 
 Here, you’ll have several options:
 
@@ -512,7 +511,7 @@ Here, you’ll have several options:
 
 Arena can also be enabled in Partner Center in the **Tournament** menu under the Xbox Live service.
 
-![Arena Menu in Partner Center](../../images/arena/Arena_On_WDC.JPG)
+![Arena Menu in Partner Center](live-arena-title-integration-images/Arena_On_WDC.JPG)
 
 You must publish the service configuration for your changes to take effect.
 Self-service Arena configuration is currently not supported through UDC.

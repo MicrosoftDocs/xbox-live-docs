@@ -38,12 +38,12 @@ For Visual Studio 2017, the component can be added inside the Visual Studio 2017
 
 ### 4. Switch the platform to Universal Windows Platform in the Unity Build Settings menu
 
-![The Unity build settings menu with the Universal Windows Platform build setting selected](../../images/xboxintegratedmultiplayer/xim-unity-build.png)
+![The Unity build settings menu with the Universal Windows Platform build setting selected](live-xim-unity-uwp-il2cpp-images/xim-unity-build.png)
 
 
 ### 5. Enable IL2CPP scripting backend in the Unity player settings, and set API compatibility to .NET 4.6
 
-![The Configuration section of the Unity Player Settings menu with the "Api Compatibility" setting set to ".NET 4.6"](../../images/unity/unity-il2cpp-1.png)
+![The Configuration section of the Unity Player Settings menu with the "Api Compatibility" setting set to ".NET 4.6"](live-xim-unity-uwp-il2cpp-images/unity-il2cpp-1.png)
 
 
 ### 6. Import the latest version of the Xbox Integrated Multiplayer WinRT Unity asset package
@@ -111,7 +111,7 @@ An application using XIM inherently requires connecting to and accepting connect
 It also requires access to microphone devices to support voice chat.
 As a result, the app should declare the "InternetClientServer" and "PrivateNetworkClientServer" capabilities, and the "Microphone" device capability in the publishing settings found in player settings.
 
-![Unity's Capabilities Menu with "InternetClientServer", "PrivateNetworkClientServer" and the "Microphone" capability selected](../../images/xboxintegratedmultiplayer/xim-unity-capability.png)
+![Unity's Capabilities Menu with "InternetClientServer", "PrivateNetworkClientServer" and the "Microphone" capability selected](live-xim-unity-uwp-il2cpp-images/xim-unity-capability.png)
 
 
 ### 9. Build the project in Unity.
@@ -130,9 +130,9 @@ As a result, the app should declare the "InternetClientServer" and "PrivateNetwo
 
 6. Add XIM's network manifest to your project.
 
-    Add the networkmanifest.xml file:
+    Add the `networkmanifest.xml` file:
 
-    ![Visual Studio's networkmanifest.xml properties](../../images/xboxintegratedmultiplayer/xim-unity-networkmanifest.png)
+    ![Visual Studio's networkmanifest.xml properties](live-xim-unity-uwp-il2cpp-images/xim-unity-networkmanifest.png)
 
     See [XIM Project Configuration](xim-manifest.md) for more information on the network manifest and its content.
 

@@ -15,4 +15,4 @@ The following flowcharts show the flow of handling a host migration when the hos
 
 ## Handle host migration
 
-![SmartMatch matchmaking](../../../images/multiplayer/mpm-host-migration.png)
+![SmartMatch matchmaking](live-mpm-host-migration-images/mpm-host-migration.png)

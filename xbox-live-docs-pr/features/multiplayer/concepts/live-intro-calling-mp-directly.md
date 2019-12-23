@@ -114,7 +114,7 @@ In peer-to-peer architecture, the title uses MPSD and SmartMatch matchmaking to 
 The addresses are then used to connect peers using Xbox secure sockets.
 For more information, see *Introduction to Winsock on Xbox One*.
 
-![Diagram of peer to peer architecture](../../images/multiplayer/Mult2015ArchPeer.png)
+![Diagram of peer to peer architecture](live-intro-calling-mp-directly-images/Mult2015ArchPeer.png)
 
 
 #### Client-server Architecture
@@ -127,7 +127,7 @@ For more information, see *Introduction to Winsock on Xbox One*.
 |-------------------------------------------------------------------------------------------|
 | Xbox Live Compute instances can be used as the servers in the client-server architecture. |
 
-![Diagram of client server architecture](../../images/multiplayer/Mult2015ArchClientServer.png)
+![Diagram of client server architecture](live-intro-calling-mp-directly-images/Mult2015ArchClientServer.png)
 
 
 ## Parties Supported by 2015 Multiplayer

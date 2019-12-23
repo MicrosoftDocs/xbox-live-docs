@@ -26,14 +26,15 @@ The four stages of a tournament match are:
 
 ###### Diagram: The four stages of participant progression, after check-in.
 
-![Match engagement flow diagram](../../images/arena/arena-ux-match-flow.png)
+![Match engagement flow diagram](live-arena-ux-match-engagement-images/arena-ux-match-flow.png)
 
-![Match engagement flow bar](../../images/arena/arena-ux-match-flow-bar.png)
+
+![Match engagement flow bar](live-arena-ux-match-engagement-images/arena-ux-match-flow-bar.png)
 
 
 ## 1. Ready (“Waiting for match”)
 
-![Waiting for match diagram](../../images/arena/arena-ux-flow-ready.png)
+![Waiting for match diagram](live-arena-ux-match-engagement-images/arena-ux-flow-ready.png)
 
 
 ### User impact
@@ -58,7 +59,7 @@ A bye simply means that a team does not have to participate in the first round o
 
 ### Discovery
 
-![Team discovery screenshot](../../images/arena/arena-ux-team-discovery.png)
+![Team discovery screenshot](live-arena-ux-match-engagement-images/arena-ux-team-discovery.png)
 
 In the Ready stage, participants learn about their status in these places:
 
@@ -76,7 +77,7 @@ In the Ready stage, participants learn about their status in these places:
 
 ###### UI Example: In-game Multiplayer Lobby
 
-![Tournament lobby screenshot](../../images/arena/arena-ux-tournament-lobby.png)
+![Tournament lobby screenshot](live-arena-ux-match-engagement-images/arena-ux-tournament-lobby.png)
 
 Always present the Tournament State and Reason in a consistent position, wherever a tournament match is promoted or match details are presented.
 
@@ -92,7 +93,7 @@ If this stage is supported by the title, proceed to the Playing stage when the m
  
 ## 2. Playing
 
-![Playing the match diagram](../../images/arena/arena-ux-flow-play.png)
+![Playing the match diagram](live-arena-ux-match-engagement-images/arena-ux-flow-play.png)
 
 
 ### User impact
@@ -107,9 +108,9 @@ This is the stage that users reach when the match is ready.
 There are two ways to alert a tournament participant and enable them to join a Tournament Match from outside a game:
 
 * **Xbox toast notification** – When the notification appears,
-the participant can hold the  ![nexus button](../../images/xbox-nexus.png) (Nexus button) to launch the game and enter a match.
+the participant can hold the  ![nexus button](live-arena-ux-match-engagement-images/xbox-nexus.png) (Nexus button) to launch the game and enter a match.
 
-  ![Match ready toast](../../images/arena/arena-ux-match-ready-toast.png)
+  ![Match ready toast](live-arena-ux-match-engagement-images/arena-ux-match-ready-toast.png)
 
 * Arena Tournament Detail Page – The participant can select **Play**
 to launch the game and enter a match
@@ -121,7 +122,7 @@ to launch the game and enter a match
 
 ###### UI Example: match entry confirmation dialog box
 
-![Match entry confirmation dialog](../../images/arena/arena-ux-confirm-match-entry.png)
+![Match entry confirmation dialog](live-arena-ux-match-engagement-images/arena-ux-confirm-match-entry.png)
 
 Display this UI after the participant chooses to enter a tournament from a location outside the game.
 Do this after a game has launched and before entering the match lobby.
@@ -140,7 +141,7 @@ Your title can offer additional options:
 
 ###### UI Example: match entry confirmation – leave game warning
 
-![Match entry forfeit confirmation dialog](../../images/arena/arena-ux-confirm-match-cancel.png)
+![Match entry forfeit confirmation dialog](live-arena-ux-match-engagement-images/arena-ux-confirm-match-cancel.png)
 
 
 ### Playing a match
@@ -168,7 +169,7 @@ When the match is over, either proceed to stage 3 (Awaiting Results) or return t
 
 ###### UI Example: Match Lobby details
 
-![Match lobby details screen](../../images/arena/arena-ux-match-lobby-details.png)
+![Match lobby details screen](live-arena-ux-match-engagement-images/arena-ux-match-lobby-details.png)
 
 **A** - Reinforce that this is a ”Tournament” or ”Arena” match.
 
@@ -228,7 +229,7 @@ If no one has joined the session as active before the forfeit time, the match is
  
 ## 3. Results
 
-![Results of the match diagram](../../images/arena/arena-ux-flow-results.png)
+![Results of the match diagram](live-arena-ux-match-engagement-images/arena-ux-flow-results.png)
 
 This is the stage when a player has completed the match and the results have been reported to be arbitrated.
 At this point, it’s not yet been determined whether the team is still in the tournament.
@@ -298,7 +299,7 @@ This could be done from an end-of-game report screen.
 > **UX recommendation**  
 > Dedicate a controller button as a quick way for gamers to return to the Arena Hub in the Xbox Dashboard.  
 >
-> ![Arena hub controller button](../../images/arena/arena-ux-arena-hub-button.png)
+> ![Arena hub controller button](live-arena-ux-match-engagement-images/arena-ux-arena-hub-button.png)
 
 
 ### Redirect participants at the end of a match
@@ -333,17 +334,17 @@ Keeping the title running and listening for another protocol-activation event ca
 
 ###### UI Example: Tournament arbitrated results—Winning team
 
-![You have won screen](../../images/arena/arena-ux-won-game-redirect.png)
+![You have won screen](live-arena-ux-match-engagement-images/arena-ux-won-game-redirect.png)
 
 
 ###### UI Example: End-of-tournament results—Match ended 
 
-![You have lost screen](../../images/arena/arena-ux-lost-game-redirect.png)
+![You have lost screen](live-arena-ux-match-engagement-images/arena-ux-lost-game-redirect.png)
 
 
 ## 4. End
 
-![End of the match diagram](../../images/arena/arena-ux-flow-end.png)
+![End of the match diagram](live-arena-ux-match-engagement-images/arena-ux-flow-end.png)
 
 The end stage of a tournament flow occurs when the tournament itself has ended and the final results are reported.
 
@@ -366,7 +367,7 @@ Your title can surface tournament results in-game:
 
 ###### UI Example: End of Tournament Results — Tournament Ended
 
-![Tournament over screen](../../images/arena/arena-ux-tournament-completed.png)
+![Tournament over screen](live-arena-ux-match-engagement-images/arena-ux-tournament-completed.png)
 
 * If this stage is supported, provide an option to return to the Arena UI or tournament organizer app.
 * Display the name of the event.

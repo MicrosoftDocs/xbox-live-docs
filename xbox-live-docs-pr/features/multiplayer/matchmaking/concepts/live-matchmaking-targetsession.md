@@ -17,7 +17,7 @@ Associated operations are the measurement of latency and bandwidth between Xbox 
 
 The following flow chart illustrates how to implement the initialization of the target session and QoS operations.
 
-![Matchmaking Quality of Service flowchart](../../images/multiplayer/Multiplayer_2015_Matchmaking_QoS.png)
+![Matchmaking Quality of Service flowchart](live-matchmaking-targetsession-images/Multiplayer_2015_Matchmaking_QoS.png)
 
 
 ## Managed Initialization

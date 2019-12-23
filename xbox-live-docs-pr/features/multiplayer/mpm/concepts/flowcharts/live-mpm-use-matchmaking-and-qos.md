@@ -15,4 +15,4 @@ The following flowcharts show when to perform Quality of Service (QoS) checks in
 
 ## Matchmaking with Quality of Service
 
-![SmartMatch matchmaking](../../../images/multiplayer/mpm-matchmaking-with-qos.png)
+![SmartMatch matchmaking](live-mpm-use-matchmaking-and-qos-images/mpm-matchmaking-with-qos.png)

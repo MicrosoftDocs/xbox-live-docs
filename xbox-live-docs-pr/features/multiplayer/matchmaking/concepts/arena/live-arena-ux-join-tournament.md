@@ -21,8 +21,7 @@ There is no requirement for the title.
 
 ###### UI Example: Create a team
 
-![Form a team screen](../../images/arena/arena-ux-create-team.png)
-
+![Form a team screen](live-arena-ux-join-tournament-images/arena-ux-create-team.png)
 
 When forming a team, a gamer can:
 
@@ -40,8 +39,7 @@ There is no requirement for the title.
 
 ###### UI Example: Register a team
 
-![Register a team screen](../../images/arena/arena-ux-register-team.png)
-
+![Register a team screen](live-arena-ux-join-tournament-images/arena-ux-register-team.png)
 
 When registering for a tournament, a user can:
 

@@ -74,6 +74,7 @@ The following table lays out the differences in how such tasks were done on Xbox
 | **Manage multiple player sessions**  | Tricky to handle more than one session at a time. For example, **XNetReplaceKey** versus **XNetUnregisterKey**. | Service-based session makes managing one session cleaner and makes it easy to handle multiple sessions.    |
 | **Handle sign-outs and disconnects** | Have to handle disconnects and sign-out differently, with **XCloseHandle** or **XSessionDelete**, respectively. | Centralized service simplifies sign-outs and disconnect handling, and timeouts are set in the game config. |
 
+
 ### Session patterns
 
 -   Game sessions
@@ -92,7 +93,7 @@ The following table lays out the differences in how such tasks were done on Xbox
 
 Figure 1 illustrates usages of MPSD sessions, where the blue boxes represent MPSD sessions and the red boxes are the services that are using them.
 
-Figure 1. MPSD session use.
+**Figure 1. MPSD session use:** (figure missing)
 
 
 ## MPSD sessions
@@ -193,9 +194,9 @@ GameSession (Contract Version:107)
 
 The match ticket session should be used with a game session template set up with QoS timeout values in its **memberInitialization** object.
 
-Figure 2. Sample hopper.
+**Figure 2. Sample hopper:**
 
-![Hopper edit dialogue screenshot](../../images/whitepapers/mpsd_image1.png)
+![Hopper edit dialogue screenshot](live-xbox-one-multiplayer-session-directory-images/mpsd_image1.png)
 
 The code excerpt that follows is an example of a peer-to-peer game session template (title-managed QoS).
 
@@ -505,10 +506,9 @@ Example:
     },
 ```
 
+**Figure 3. Member initialization flow:**
 
-![Member initialization flowchart](../../images/whitepapers/mpsd_image2.png)
-
-**Figure 3. Member initialization flow.**
+![Member initialization flowchart](live-xbox-one-multiplayer-session-directory-images/mpsd_image2.png)
 
 Each of the three stages of member initialization can time out:
 

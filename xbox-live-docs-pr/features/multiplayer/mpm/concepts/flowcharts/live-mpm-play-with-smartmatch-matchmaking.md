@@ -17,4 +17,4 @@ You can see multiplayer manager code examples of this process in [Play a multipl
 
 ## SmartMatch matchmaking
 
-![SmartMatch matchmaking](../../../images/multiplayer/mpm-smartmatch-matchmaking.png)
+![SmartMatch matchmaking](live-mpm-play-with-smartmatch-matchmaking-images/mpm-smartmatch-matchmaking.png)

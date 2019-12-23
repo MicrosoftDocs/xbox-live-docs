@@ -19,11 +19,11 @@ You can see multiplayer manager code examples of this process in [Play a multipl
 
 The following flowchart applies to the client that is starting the multiplayer game:
 
-![Multiplayer inviter flow](../../../images/multiplayer/mpm-play-with-friends-inviter.png)
+![Multiplayer inviter flow](live-mpm-play-with-friends-images/mpm-play-with-friends-inviter.png)
 
 
 ## Accept an invite to a game
 
 The following flowchart applies to the client that receives and accepts an invite to a game:
 
-![Multiplayer invitee flow](../../../images/multiplayer/mpm-play-with-friends-invitee.png)
+![Multiplayer invitee flow](live-mpm-play-with-friends-images/mpm-play-with-friends-invitee.png)

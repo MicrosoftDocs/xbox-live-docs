@@ -43,7 +43,7 @@ For more information, see Basic Hopper Configuration for Matchmaking.
 This section defines the fields used to configure basic hopper fields.
 After this configuration, you must configure the hopper rules, as described in Configuration of Hopper Rules.
 
-![Hopper Editor](../../images/multiplayer/session_template_hopper_edit.png)
+![Hopper Editor](live-matchmaking-config-images/session_template_hopper_edit.png)
 
 
 ###### Name

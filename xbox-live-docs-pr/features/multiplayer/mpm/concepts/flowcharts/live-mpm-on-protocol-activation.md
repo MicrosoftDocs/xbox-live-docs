@@ -15,4 +15,4 @@ The following flowcharts show the flow of responding to a game invite, or joinin
 
 ## Handle protocol activation
 
-![SmartMatch matchmaking](../../../images/multiplayer/mpm-on-activation.png)
+![SmartMatch matchmaking](live-mpm-on-protocol-activation-images/mpm-on-activation.png)

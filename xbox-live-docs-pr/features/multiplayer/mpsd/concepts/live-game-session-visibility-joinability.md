@@ -170,5 +170,5 @@ However, in this flow a UI toast outside of the title cannot be displayed.
 
 Client multiplayer flow
 -----------------------
-![Client Multiplayer flowchart part 1](../../images/whitepapers/gamesessionvisibility_image1.png)
-![Client Multiplayer flowchart part 2](../../images/whitepapers/gamesessionvisibility_image2.png)
+![Client Multiplayer flowchart part 1](live-game-session-visibility-joinability-images/gamesessionvisibility_image1.png)
+![Client Multiplayer flowchart part 2](live-game-session-visibility-joinability-images/gamesessionvisibility_image2.png)

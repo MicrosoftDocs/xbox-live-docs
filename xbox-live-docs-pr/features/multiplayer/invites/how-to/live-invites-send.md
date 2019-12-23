@@ -8,9 +8,9 @@ ms.author: jeffshi
 ms.topic: conceptual
 ms.prod: xbox
 ms.technology: xboxgc
-ms.date: 10-01-2019
 ms.localizationpriority: medium
-edited: 00/00/0000
+ms.date: 10/01/2019
+edited: 10/01/2019
 ---
 
 # Sending invites

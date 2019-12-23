@@ -15,4 +15,4 @@ The following flowcharts depict shutting down a multiplayer session after a mult
 
 ## Shut down a multiplayer session
 
-![SmartMatch matchmaking](../../../images/multiplayer/mpm-shut-down.png)
+![SmartMatch matchmaking](live-mpm-shut-down-images/mpm-shut-down.png)

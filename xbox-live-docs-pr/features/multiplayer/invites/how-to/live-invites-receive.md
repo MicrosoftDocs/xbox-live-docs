@@ -8,8 +8,8 @@ ms.author: jeffshi
 ms.topic: conceptual
 ms.prod: xbox
 ms.technology: xboxgc
-ms.date: 10-01-2019
 ms.localizationpriority: medium
+ms.date: 10/01/2019
 edited: 12/18/2019
 ---
 
