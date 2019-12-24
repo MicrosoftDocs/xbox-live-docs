@@ -38,7 +38,7 @@ When you create a new session template, you must define the following:
 | Contract Version | This value is auto-populated by the system and denotes the current system version of the JSON contract. Do not edit it. |
 | Session Template (JSON text) | Specify the JSON data that describes the different attributes associated with a multiplayer session. |
 
-For more info about multiplayer session templates, including several predefined templates that you can use as a basis for the JSON text, see [Multiplayer session templates](session-templates.md).
+For more info about multiplayer session templates, including several predefined templates that you can use as a basis for the JSON text, see [Multiplayer session templates](../mpsd/concepts/live-session-templates.md).
 
 > **Important:** After a title passes Final Certification, existing multiplayer sessions in that title can no longer be changed or deleted.
 
@@ -85,7 +85,7 @@ For more information about configuring the multiplayer service, see the followin
 
 **Article** | **Description**
 --- | ---
-[Configure your AppXManifest for Multiplayer](../invite/multiplayer-invite-uwp.md) | Describes how to configure a UWP  AppXManifest file to work with the Xbox Live multiplayer service.
-[Multiplayer session templates](session-templates.md) | Gives a brief overview of multiplayer session templates and provides several examples of templates that you can copy and modify for your multiplayer sessions.
-[Session template constants](session-template-constants.md) | Describes the predefined elements of a multiplayer session template.
-[Large sessions](large-sessions.md) | Describes when and how to use large sessions.
+[Configure your AppXManifest for Multiplayer](../invites/concepts/live-multiplayer-invite-uwp.md) | Describes how to configure a UWP  AppXManifest file to work with the Xbox Live multiplayer service.
+[Multiplayer session templates](../mpsd/concepts/live-session-templates.md) | Gives a brief overview of multiplayer session templates and provides several examples of templates that you can copy and modify for your multiplayer sessions.
+[Session template constants](../mpsd/concepts/live-session-template-constants.md) | Describes the predefined elements of a multiplayer session template.
+[Large sessions](multiplayer\concepts\large-sessions.md) | Describes when and how to use large sessions.

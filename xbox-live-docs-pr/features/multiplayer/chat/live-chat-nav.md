@@ -23,4 +23,4 @@ ms.localizationpriority: medium
 
 ### See also
 
-Voice communication for multiplayer games can be set up through Game Chat, or by using only the voice and text chat part of Xbox Integrated Multiplayer (XIM), an all-in-one multiplayer/networking/chat solution; see [XIM dedicated chat via out-of-band reservations](../xbox-integrated-multiplayer/live-xim-reservations.md).
+Voice communication for multiplayer games can be set up through Game Chat, or by using only the voice and text chat part of Xbox Integrated Multiplayer (XIM), an all-in-one multiplayer/networking/chat solution; see [XIM dedicated chat via out-of-band reservations](../xim/how-to/live-xim-chat-reservations.md).

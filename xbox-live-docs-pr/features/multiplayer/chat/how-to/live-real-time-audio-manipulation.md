@@ -343,7 +343,7 @@ Post-decode audio manipulation will not effect the chat indicator state for each
 For instance, when a remote user is muted, the audio will be provided to the app, but the chat indicator for that remote user will still indicate muted.
 
 When a remote user is talking, their audio will be provided, but the chat indicator will indicate talking regardless of whether the app provides an audio mix containing audio from that user.
-For more information on UI and the chat indicator, see [Using Game Chat 2](using-game-chat-2.md#ui).
+For more information on UI and the chat indicator, see [Using Game Chat 2](live-using-game-chat-2.md#ui).
 
 If extra app-specific restrictions are used to determine which users are present in an audio mix, it is the app's responsibility to consider those same restrictions when it is reading the chat indicators provided by Game Chat 2.
 
