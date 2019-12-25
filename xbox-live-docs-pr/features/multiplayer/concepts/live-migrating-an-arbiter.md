@@ -24,7 +24,7 @@ The following flow chart illustrates how to migrate an arbiter.
 ## Graceful Arbiter Migration
 
 In graceful arbiter migration, the outgoing arbiter can assist with the migration task and determine a new arbiter.
-This type of migration uses the setting of an arbiter as described in the section [Set an arbiter for an MPSD session](../multiplayer-session/mpsd-how-tos.md#set-an-arbiter-for-an-mpsd-session) in the article "Multiplayer tasks".
+This type of migration uses the setting of an arbiter as described in the section [Set an arbiter for an MPSD session](../mpsd/how-to/live-mpsd-how-tos.md#set-an-arbiter-for-an-mpsd-session) in the article "Multiplayer tasks".
 
 
 ## Failover Arbiter Migration
@@ -56,7 +56,7 @@ To take advantage of this list during arbiter migration, each peer can:
 If full connectivity exists among all peers, they can use peer messages to vote and select a new arbiter.
 The new arbiter then updates the host device token for the session using a synchronized update.
 
-See the section [Update an MPSD session](../multiplayer-session/mpsd-how-tos.md#update-an-mpsd-session) in the article "Multiplayer tasks".
+See the section [Update an MPSD session](../mpsd/how-to/live-mpsd-how-tos.md#update-an-mpsd-session) in the article "Multiplayer tasks".
 
 
 ### Use Greedy Arbiter Selection
@@ -72,4 +72,4 @@ Only one peer succeeds in selecting the new arbiter.
 
 ## See also
 
-[MPSD session details](../multiplayer-session/mpsd-details.md)
+[Multiplayer Session advanced topics](../mpsd/concepts/live-mpsd-details.md)

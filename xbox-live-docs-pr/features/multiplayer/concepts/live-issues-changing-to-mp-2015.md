@@ -14,7 +14,7 @@ This article describes issues that you must consider when adapting a 2014 Multip
 
 <!-- from ~\multiplayer\multiplayer-appendix\multiplayer-appendix.md: -->
 > **Note**  
-The Multiplayer 2015 service, described in this article, is for advanced API usage.  As a starting point, instead use the [Multiplayer Manager API](../multiplayer-manager/multiplayer-manager.md) which significantly simplifies development. If you find an unsupported scenario in the Multiplayer Manager API, please let your DAM know.
+The Multiplayer 2015 service, described in this article, is for advanced API usage.  As a starting point, instead use the [Multiplayer Manager API](../mpm/live-multiplayer-manager-nav.md) which significantly simplifies development. If you find an unsupported scenario in the Multiplayer Manager API, please let your DAM know.
 
 > **Note**  
 The previous version of the multiplayer system is Multiplayer 2014.
@@ -32,7 +32,9 @@ The Multiplayer 2015 service abstracts-away the Multiplayer 2014 "game party" co
 ## Configuration Changes to Make for 2015 Multiplayer
 
 This section describes changes to be aware of when configuring your sessions and templates for 2015 Multiplayer.
-For examples of the specific items discussed, see [MPSD Session Templates](../multiplayer-session/mpsd-overview.md).
+For examples of the specific items discussed, see:
+* [Multiplayer session templates](..\mpsd\concepts\live-session-templates.md)
+* [Multiplayer Session Directory overview](..\mpsd\live-mpsd-overview.md)
 
 
 ### Add a Capability for Active Member Connection
@@ -50,9 +52,9 @@ Add this constant, set to "game", to the /constants/system object for all templa
 ## Runtime Considerations for 2015 Multiplayer
 
 Titles for 2015 Multiplayer must:
--   Always call the **MultiplayerService.EnableMultiplayerSubscriptions Method** prior to entering the multiplayer area of the title code. This call enables both subscriptions to session changes and disconnect detection.
--   Be sure to use the same **XboxLiveContext Class** object for all calls by the same user. The context contains state related to the management of the connection used for multiplayer subscriptions and disconnect detection.
--   If there are multiple local users, use a separate **XboxLiveContext** object for each user.
+- Always call the **MultiplayerService.EnableMultiplayerSubscriptions Method** prior to entering the multiplayer area of the title code. This call enables both subscriptions to session changes and disconnect detection.
+- Be sure to use the same **XboxLiveContext Class** object for all calls by the same user. The context contains state related to the management of the connection used for multiplayer subscriptions and disconnect detection.
+- If there are multiple local users, use a separate **XboxLiveContext** object for each user.
 
 
 ## Migrating a Session Template from Contract Version 104/105 to 107
@@ -61,16 +63,18 @@ The latest session template contract version is 107, with some changes to the sc
 Templates that you have written for session template contract version 104/105 must be updated if they are republished to use version 107.
 
 This section summarizes the changes to make in migrating your templates to the latest version.
-The templates themselves are described in [MPSD Session Templates](../multiplayer-session/mpsd-overview.md).
+The templates themselves are described in:
+* [Multiplayer session templates](..\mpsd\concepts\live-session-templates.md)
+* [Multiplayer Session Directory overview](..\mpsd\live-mpsd-overview.md)
 
-| Important                                                                                                                                                                                                                                                      |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Important |
+|---|
 | Functionality that is set through a template cannot be changed through writes to MPSD. To change the values, you must create and submit a new template with the necessary changes. Any items that are not set through a template can be changed through writes to the MPSD. |
 
 
 ### Changes to the /constants/system/managedInitialization Object
 
-The /constants/system/managedInitialization object has been renamed to /constants/system/memberInitialization.
+The `/constants/system/managedInitialization` object has been renamed to `/constants/system/memberInitialization`.
 
 Here are the changes to make to the name/value pairs for this object:
 - autoEvaluate is renamed to externalEvaluation. Its polarity changes, except that false remains the default.
@@ -81,7 +85,7 @@ Here are the changes to make to the name/value pairs for this object:
 
 ### Changes to the /constants/system/timeouts Object
 
-The /constants/system/timeouts object is removed, and the timeouts are renamed and relocated under /constants/system.
+The `/constants/system/timeouts` object is removed, and the timeouts are renamed and relocated under `/constants/system`.
 
 Here are the changes to make to the name/value pairs for this object:
 - The reserved timeout becomes reservedRemovalTimeout.
@@ -89,15 +93,16 @@ Here are the changes to make to the name/value pairs for this object:
 - The ready timeout becomes readyRemovalTimeout.
 - The sessionEmpty timeout becomes sessionEmptyTimeout.
 
-Details of the timeouts are presented in [Session Timeouts](../multiplayer-session/mpsd-details.md).
+Details of the timeouts are presented in the [Session Timeouts](..\mpsd\concepts\live-mpsd-details.md#session-timeouts) section of the article "Multiplayer Session advanced topics".
 
 
 ### Change to the Game Play Capability
 
 The game play capability enables recent players and reputation reporting.
-You must now specify the /constants/system/capabilities/gameplay field as true on sessions that represent actual game play, as opposed to helper sessions, for example, match and lobby sessions.
+You must now specify the `/constants/system/capabilities/gameplay` field as true on sessions that represent actual game play, as opposed to helper sessions, for example, match and lobby sessions.
 
 
 ## See also
 
-[MPSD Session Templates](../multiplayer-session/mpsd-details.md)
+* [Multiplayer session templates](..\mpsd\concepts\live-session-templates.md)
+* [Multiplayer Session Directory overview](..\mpsd\live-mpsd-overview.md)

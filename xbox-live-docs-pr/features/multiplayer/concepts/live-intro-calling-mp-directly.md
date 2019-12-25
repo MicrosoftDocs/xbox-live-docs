@@ -168,25 +168,25 @@ It allowed a title to:
 
 | Term | Description|
 | --- | --- |
-| Active Player | A player who has been set to the Active state within the session. The title sets a player to this state when the player is taking part in a game. See the section [Session User States](live-mpsd-details.md#session-user-states) in the article "Multiplayer Session advanced topics". |
-| Arbiter | The single console in a game session that manages the state of the multiplayer session directory (MPSD) session for a game, for example, in advertising the game session to matchmaking, to find more players. The arbiter is set by the title. The arbiter is not always the host of the game. See the section [Session Arbiter](live-mpsd-details.md#session-arbiter) in the article "Multiplayer Session advanced topics". |
+| Active Player | A player who has been set to the Active state within the session. The title sets a player to this state when the player is taking part in a game. See the section [Session User States](../mpsd/concepts/live-mpsd-details.md#session-user-states) in the article "Multiplayer Session advanced topics". |
+| Arbiter | The single console in a game session that manages the state of the multiplayer session directory (MPSD) session for a game, for example, in advertising the game session to matchmaking, to find more players. The arbiter is set by the title. The arbiter is not always the host of the game. See the section [Session Arbiter](../mpsd/concepts/live-mpsd-details.md#session-arbiter) in the article "Multiplayer Session advanced topics". |
 | Arranged Game | A type of game that is created only through one player inviting other players to join, without any involvement from matchmaking. |
 | Chat Party | A group of people who are chatting together. The people might be engaged in the same activity or they might be engaged in different activities, such as games, music, or apps. See **Parties Supported by 2015 Multiplayer**. |
 | Game Invite | An invitation to join a game session. |
-| Game Session | A session in which users are actually playing together. All multiplayer scenarios, for example, matchmaking or joining a lobby, ultimately end up in a game session. The session is often advertised as the users' current activities to enable joins. It is also used to build the recent players list. See [Multiplayer Session advanced topics](../multiplayer-session/live-mpsd-details.md). |
+| Game Session | A session in which users are actually playing together. All multiplayer scenarios, for example, matchmaking or joining a lobby, ultimately end up in a game session. The session is often advertised as the users' current activities to enable joins. It is also used to build the recent players list. See [Multiplayer Session advanced topics](../mpsd/concepts/live-mpsd-details.md). |
 | Game Session Host | The console running the game play simulation for titles built on a host-based peer-to-peer network architecture. This console is typically the same as the arbiter, but it does not have to be the same. |
-| Handle (or Session Handle) | A reference to an MPSD session that has additional state and behavior associated with it. See the section [MPSD Handles to Sessions](live-mpsd-overview.#mpsd-handles-to-sessions) in "Multiplayer Session Directory (MPSD) overview". |
-| Inactive Player | A player who has been set to the Inactive state within the session. The title sets a player to this state when a game is suspended or is otherwise inactive, as defined by the title. In some instances, MPSD might also set a player as inactive, but it is primarily the responsibility of the title to do so. See the section [Session User States](live-mpsd-details.md#session-user-states) in the article "Multiplayer Session advanced topics". |
+| Handle (or Session Handle) | A reference to an MPSD session that has additional state and behavior associated with it. See the section [MPSD Handles to Sessions](../mpsd/live-mpsd-overview.md#mpsd-handles-to-sessions) in "Multiplayer Session Directory (MPSD) overview". |
+| Inactive Player | A player who has been set to the Inactive state within the session. The title sets a player to this state when a game is suspended or is otherwise inactive, as defined by the title. In some instances, MPSD might also set a player as inactive, but it is primarily the responsibility of the title to do so. See the section [Session User States](../mpsd/concepts/live-mpsd-details.md#session-user-states) in the article "Multiplayer Session advanced topics". |
 | Hopper | A Hopper is a logic-driven collection of match tickets. A title can have multiple hoppers, but only tickets within the same hopper can be matched. For example, a title might create one hopper for which player skill is the most important item for matching. It might use another hopper in which players are only matched if they have purchased the same downloadable content. For more information on where hoppers fit into the SmartMatch workflow, see [Matchmaking overview](../matchmaking/live-matchmaking-overview.md) |
 | Join in Progress | The concept of joining another player's game after game play has begun. Players can join a friend's game through the friend's gamer card. The title can then move those players into the game session at the appropriate time. |
-| Lobby Session | A helper session for invited players who are waiting to join a game session. See [Multiplayer Session advanced topics](../multiplayer-session/live-mpsd-details.md). |
+| Lobby Session | A helper session for invited players who are waiting to join a game session. See [Multiplayer Session advanced topics](../mpsd/concepts/live-mpsd-details.md). |
 | Match Target Session | A match session set up during SmartMatch matchmaking to represent the match. See [Matchmaking overview](../matchmaking/live-matchmaking-overview.md). |
 | Match Ticket Session | A preliminary match session set up during SmartMatch matchmaking. See [Matchmaking overview](../matchmaking/live-matchmaking-overview.md). |
-| MPSD Session | A secure document that resides in the multiplayer session directory (MPSD) within the Xbox Live cloud. It contains a group of users who might be connected while running a title on Xbox One, along with metadata about the users and their game. See [Multiplayer Session advanced topics](../multiplayer-session/live-mpsd-details.md). |
+| MPSD Session | A secure document that resides in the multiplayer session directory (MPSD) within the Xbox Live cloud. It contains a group of users who might be connected while running a title on Xbox One, along with metadata about the users and their game. See [Multiplayer Session advanced topics](../mpsd/concepts/live-mpsd-details.md). |
 | Multiplayer Session Directory (MPSD) | The service operating in the cloud that the multiplayer system uses to store and retrieve sessions. See [Multiplayer Session Directory](../mpsd/live-mpsd-nav.md). |
 | Party App | An Xbox One system snap app that allows users to view and manage their parties. |
-| Server Session | A game session created by Xbox Live Compute processing. See [Multiplayer Session advanced topics](../multiplayer-session/live-mpsd-details.md). |
-| Shoulder Tap | A notification from MPSD to a title that a potentially interesting change has occurred on the service. The shoulder tap is a quick reminder, often less informational than a regular notification. See the section [MPSD Change Notification Handling and Disconnect Detection](live-mpsd-overview.md#mpsd-change-notification-handling-and-disconnect-detection) in the article "Multiplayer Session Directory overview". |
+| Server Session | A game session created by Xbox Live Compute processing. See [Multiplayer Session advanced topics](../mpsd/concepts/live-mpsd-details.md). |
+| Shoulder Tap | A notification from MPSD to a title that a potentially interesting change has occurred on the service. The shoulder tap is a quick reminder, often less informational than a regular notification. See the section [MPSD Change Notification Handling and Disconnect Detection](../mpsd/live-mpsd-overview.md#mpsd-change-notification-handling-and-disconnect-detection) in the article "Multiplayer Session Directory overview". |
 | SmartMatch Matchmaking | An Xbox Live matchmaking capability available to Xbox One titles, implemented by the matchmaking service. Using MPSD and matchmaking, the title makes a request to be matched and is notified later that a matched group has been found. See [Matchmaking overview](../matchmaking/live-matchmaking-overview.md). |
 
 
@@ -205,7 +205,7 @@ It allowed a title to:
 MPSD now enables titles to maintain web socket connections with it.
 These connections allow clients to receive notifications when sessions change.
 
-See the section [MPSD Change Notification Handling and Disconnect Detection](live-mpsd-overview.md#mpsd-change-notification-handling-and-disconnect-detection) in the article "Multiplayer Session Directory overview".
+See the section [MPSD Change Notification Handling and Disconnect Detection](../mpsd/live-mpsd-overview.md#mpsd-change-notification-handling-and-disconnect-detection) in the article "Multiplayer Session Directory overview".
 
 
 #### MPSD Session Handles
@@ -279,6 +279,6 @@ See [Xbox Live Compute](https://developer.microsoft.com/games/xbox/docs/xdk/xbox
 
 * [Multiplayer Session Directory](../mpsd/live-mpsd-nav.md)
 * [Matchmaking overview](../matchmaking/live-matchmaking-overview.md)
-* [Real-Time Activity (RTA) Service](../../real-time-activity-service/real-time-activity-service_nav.md)
-* [Reputation](../../user-profile/reputation/reputation.md)
+* [Real-Time Activity (RTA) Service](../../../real-time-activity-service/real-time-activity-service_nav.md)
+* [Reputation](../social-platform/people-system/reputation_nav.md)
 * [Using Xbox Live Compute in Multiplayer (requires managed partner access)](https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/xbox-live-compute/using-xbox-live-compute-in-multiplayer) (ext.)

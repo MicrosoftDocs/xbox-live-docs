@@ -43,7 +43,7 @@ Multiplayer 2014 functionality will continue to apply for existing titles, but t
 
 ### How can I access the new multiplayer API from a service?
 
-See [Calling MPSD](../multiplayer-session/mpsd-overview.md).
+See the section [Calling MPSD](../mpsd/live-mpsd-overview.md#calling-mpsd) in the article "Multiplayer Session Directory overview".
 
 
 ### Can my title subscribe to changes for more than one session?
@@ -53,7 +53,9 @@ Yes, a title can subscribe to receive changes on up to 10 sessions per connectio
 
 ### Will a user be removed immediately if he/she loses a network connection or turns off the console?
 
-The web socket connection allows MPSD to rapidly detect client disconnection and set the client to inactive. Session members are removed as soon as the inactive removal timeout expires. For more information, see [Session Timeouts](../multiplayer-session/mpsd-details.md).
+The web socket connection allows MPSD to rapidly detect client disconnection and set the client to inactive.
+Session members are removed as soon as the inactive removal timeout expires.
+See the section [Session Timeouts](../mpsd/concepts/live-mpsd-details.md#session-timeouts) in the article "Multiplayer Session advanced topics".
 
 
 ### How do I find out what SCID, session template, and sandbox to use?
@@ -97,7 +99,7 @@ Collect Fiddler traces to get more information and then do the following:
 2.  Check the URI you are using.
 3.  Reboot the console or try with a new user.
 4.  Check the Game Developer Forums for the error code or other solutions.
-5.  Confirm that the session was not deleted as a result of being empty. Sessions can become empty because users time out. When this happens, it is frequently because all session members are in a state to which a timeout is applied, such as "ready" or "inactive". See [Session User States](../multiplayer-session/mpsd-details.md) for user state details.
+5.  Confirm that the session was not deleted as a result of being empty. Sessions can become empty because users time out. When this happens, it is frequently because all session members are in a state to which a timeout is applied, such as "ready" or "inactive". See the section [Session User States](../mpsd/concepts/live-mpsd-details.md#session-user-states) in the article "Multiplayer Session advanced topics".
 
 
 ### Why am I getting an HTTP/404 code when calling **MultiplayerService.WriteSessionByHandleAsync** or **MultiplayerService.GetCurrentSessionByHandleAsync**?
@@ -114,17 +116,13 @@ In either of these cases, your title code should show the joining user an error 
 
 The following request returns HTTP/412 if the session already exists:
 
-
 ```uri
 PUT /serviceconfigs/00000000-0000-0000-0000-000000000000/sessiontemplates/quick/sessions/foo HTTP/1.1
 Content-Type: application/json
 If-None-Match: *
 ```
 
-
-
 The following request returns HTTP/412 if the session etag doesn't match the If-Match header:
-
 
 ```uri
 PUT /serviceconfigs/00000000-0000-0000-0000-000000000000/sessiontemplates/quick/sessions/foo HTTP/1.1
@@ -132,21 +130,21 @@ Content-Type: application/json
 If-Match: 9555A7DE-8B91-40E4-8CFB-0629312C9C7D
 ```
 
-
-
-See [Synchronization of Session Updates](../multiplayer-session/mpsd-overview.md) for more information.
+See the section [Synchronization of Session Updates](../mpsd/live-mpsd-overview.md#synchronization-of-session-updates) in the article "Multiplayer Session Directory overview".
 
 
 ### I am getting an HTTP/400, 405, 409, 503, etc. code when calling MPSD.
 
-Collect Fiddler traces to get more information, and then check messages returned as part of the HttpResponse body. This should give you enough information to identify and fix the error, or you can search the developer forums for resolutions.
+Collect Fiddler traces to get more information, and then check messages returned as part of the HttpResponse body.
+This should give you enough information to identify and fix the error, or you can search the developer forums for resolutions.
 
-You can also get the response body if you are using XSAPI, as described in [Troubleshooting the Xbox Live Services API](../../using-xbox-live/troubleshooting/troubleshooting-the-xbox-live-services-api.md). Alternatively, your code can use the **XboxLiveContextSettings.EnableServiceCallRoutedEvents** property to send output to your title UI.
+You can also get the response body if you are using XSAPI, as described in [Troubleshooting the Xbox Live Services API](../../../using-xbox-live/troubleshooting/troubleshooting-the-xbox-live-services-api.md).
+Alternatively, your code can use the **XboxLiveContextSettings.EnableServiceCallRoutedEvents** property to send output to your title UI.
 
 
 ### What can or should I change in the session templates for my title?
 
-Session templates are patterns for your sessions, and you can't override the constants already set in the templates. However, you can add new properties to the templates. See [MPSD Session Templates](../multiplayer-session/mpsd-overview.md) for more detail.
+Session templates are patterns for your sessions, and you can't override the constants already set in the templates. However, you can add new properties to the templates. See [Multiplayer session templates](live-session-templates.md) and [Multiplayer Session Directory overview](../mpsd/live-mpsd-overview.md).
 
 
 ### I'm getting an error that is saying my session isn't initialized.
@@ -157,19 +155,24 @@ Example response error:
 
 The session can't be created because not enough session member reservations with the "initialize" field set to true are included in the request. Your code can set this field for a member using the *initializeRequested* parameter for the **MultiplayerSession.AddMemberReservation** method or the **MultiplayerSession.Join** method.
 
-When initialization is specified in your session template, make sure that "initialize":"true" is set for enough of the member reservations to pass matchmaking QoS. For more information, see [Target Session Initialization and QoS](../matchmaking/matchmaking-overview.md).
+When initialization is specified in your session template, make sure that "initialize":"true" is set for enough of the member reservations to pass matchmaking QoS.
+See [Target session initialization and QoS](../matchmaking/concepts/live-matchmaking-targetsession.md).
 
 
 ### My session is not being created and I'm getting an HTTP/204 code.
 
 This status code indicates that no users were added to the session when you created it. If there are no users in the session when it's created and the session empty timeout is zero (default), the session is not created.
 
-Make sure that you include at least one player when creating a session. For dedicated server scenarios, obtain a player who is trying to create a match or who needs to create a match and make that player the initial player in the match. Alternatively, you can change or remove the session empty timeout. For more information, see [Session Timeouts](../multiplayer-session/mpsd-details.md).
+Make sure that you include at least one player when creating a session.
+For dedicated server scenarios, obtain a player who is trying to create a match or who needs to create a match and make that player the initial player in the match.
+Alternatively, you can change or remove the session empty timeout.
+See the section [Session Timeouts](../mpsd/concepts/live-mpsd-details.md#session-timeouts) in the article "Multiplayer Session advanced topics".
 
 
 ### When should I poll MPSD?
 
-Your titles must avoid polling MPSD. If a title must discover changes to MPSD sessions, it should subscribe for session change events. For more information, see [How to: Subscribe for MPSD Session Change Notifications](../multiplayer-session/mpsd-how-tos.md).
+Your titles must avoid polling MPSD. If a title must discover changes to MPSD sessions, it should subscribe for session change events.
+See the section [Subscribe for MPSD session change notifications](../mpsd/how-to/live-mpsd-how-tos.md#sfmscn) in the article "Multiplayer tasks".
 
 
 ### What happens if a player who was reserved or invited to the session does not join it?
@@ -181,7 +184,7 @@ If the title is constrained or not running, the shell provides a notification th
 
 ### Why would a created session not be found by matchmaking?
 
-On Xbox One, simply creating a session isn't enough for matchmaking to find the new session. You must create a match ticket to start advertising the session to the matchmaking service. See [SmartMatch Matchmaking](../matchmaking/matchmaking-overview.md).
+On Xbox One, simply creating a session isn't enough for matchmaking to find the new session. You must create a match ticket to start advertising the session to the matchmaking service. See [Matchmaking overview](../matchmaking/live-matchmaking-overview.md).
 
 
 ### What is the key difference between the way parties are properly used by Multiplayer 2015 and the way they were used in Multiplayer 2014?
@@ -191,7 +194,7 @@ In Multiplayer 2015, the multiplayer API defines no system-level game party, onl
 
 ### If a game session has open player slots and supports join in progress, why would users not be able to find the session once it has started?
 
-When a game session starts, it is no longer advertised on the matchmaking service. If player slots become available within the session and the arbiter (host) wants to attract new players, the arbiter must create a new match ticket for the in-progress session with the **MatchmakingService.CreateMatchTicketAsync** method. The ticket advertises the session again and finds more players. See [SmartMatch Matchmaking](../matchmaking/matchmaking-overview.md).
+When a game session starts, it is no longer advertised on the matchmaking service. If player slots become available within the session and the arbiter (host) wants to attract new players, the arbiter must create a new match ticket for the in-progress session with the **MatchmakingService.CreateMatchTicketAsync** method. The ticket advertises the session again and finds more players. See [Matchmaking overview](../matchmaking/live-matchmaking-overview.md).
 
 
 ### If a game session is open, can a user who has just joined a game simply join the session and start playing without having to wait for the reservation?
