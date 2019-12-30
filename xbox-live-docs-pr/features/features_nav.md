@@ -77,11 +77,11 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_share.svg" alt="Multiplayer features"/>
+                                <img src="https://docs.microsoft.com/media/common/i_share.svg" alt="Multiplayer"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Multiplayer features</h3>
+                            <h3>Multiplayer</h3>
                             <p>Matchmaking, invites, voice and text chat, and networking.</p>
                         </div>
                     </div>

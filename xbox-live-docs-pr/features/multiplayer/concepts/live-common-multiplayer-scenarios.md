@@ -104,7 +104,7 @@ A session list is most effective when games have a small active multiplayer comm
 This type of multiplayer can use similar services as the previous scenario:
 
 * Multiplayer Manager
-* [Session Browse](live-session-browse.md)
+* [Multiplayer session browse](live-session-browse.md)
 * Presence
 * Stats
 * Social Manager
