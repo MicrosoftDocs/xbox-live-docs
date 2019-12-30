@@ -19,6 +19,18 @@ MPSD ensures that session functionality is synchronized and consistent.
 MPSD is a service operating in the Xbox Live cloud.
 MPSD is wrapped by the **MultiplayerService Class**.
 
+<!-- **Contents**
+
+* [MPSD Sessions](#mpsd-sessions)
+* [MPSD Change Notification Handling and Disconnect Detection](#mpsd-change-notification-handling-and-disconnect-detection)
+* [MPSD Handles to Sessions](#mpsd-handles-to-sessions)
+* [Synchronization of Session Updates](#synchronization-of-session-updates)
+* [Calling MPSD](#calling-mpsd)
+* [Multiplayer Session Explorer](#multiplayer-session-explorer)
+* [See also](#see-also) -->
+
+
+<a id="mpsd-sessions"></a>
 
 ## MPSD Sessions
 
@@ -40,6 +52,8 @@ Session variations include:
 - Target session, a helper session created during matchmaking to represent the matched game play. It is almost always also a game session. See [SmartMatch Matchmaking](../matchmaking/matchmaking-overview.md).
 - Lobby session, a helper session used to accommodate invited players who are waiting to join a game session. Many titles create both a lobby session and a game session. For more information, see **Managing players in your title**.
 
+
+<a id="mpsd-change-notification-handling-and-disconnect-detection"></a>
 
 ## MPSD Change Notification Handling and Disconnect Detection
 
@@ -110,6 +124,8 @@ An ungraceful disconnect might occur when a player's network fails, or when a ti
 MPSD changes the disconnected player's state from Active to Inactive, and notifies other session members of the change as appropriate, based on the members' subscriptions to the session.
 
 
+<a id="mpsd-handles-to-sessions"></a>
+
 ## MPSD Handles to Sessions
 
 An MPSD session handle is an abstract and immutable reference to a session that can also contain additional typed data.
@@ -175,6 +191,8 @@ In both of these cases, the title must:
 3.  Write the session, passing in the appropriate handle.
 
 
+<a id="synchronization-of-session-updates"></a>
+
 ## Synchronization of Session Updates
 
 Because a session is a shared resource that can be created or updated by any of its members, there is the potential for conflicting writes.
@@ -224,6 +242,8 @@ If an updated version of the session is returned, the title should switch its lo
 MPSD supports optimistic concurrency in session updates through REST functionality by using the HTTP "if-match" header with ETag settings and the read-modify-write pattern.
 The ETag passed in the write request should be the one that the MPSD returns with the previous read request.
 
+
+<a id="calling-mpsd"></a>
 
 ## Calling MPSD
 
@@ -296,6 +316,8 @@ To query for session state, use the GET method for one of these URIs:
 - **/serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions**
 
 
+<a id="multiplayer-session-explorer"></a>
+
 ## Multiplayer Session Explorer
 
 Multiplayer Session Explorer is a tool built into MPSD for browsing sessions, session templates, and localization strings.
@@ -345,16 +367,13 @@ The session as shown by MPSD might differ from the response to a standard GET me
 - Since the nextTimer JSON object field is computed at the same time as the side-effects, it is not present on MPSD sessions.
 
 
+<a id="see-also"></a>
+
 ## See also
 
-[Session Overview](mpsd-details.md)
-
-[Multiplayer Session Status Codes](mpsd-status-codes.md)
-
-[How to: Update a Multiplayer Session](mpsd-how-tos.md)
-
-[How to: Join an MPSD Session from a Title Activation](mpsd-how-tos.md)
-
-[How to: Subscribe for MPSD Session Change Notifications](mpsd-how-tos.md)
-
-[SmartMatch Matchmaking](../matchmaking/matchmaking-overview.md)
+* The section [Session Overview](live-mpsd-details.md#session-overview) in the article "Multiplayer Session advanced topics"
+* [Multiplayer session status codes](live-mpsd-status-codes.md)
+* The section [Update an MPSD session](live-mpsd-how-tos.md#update-an-mpsd-session) in the article "Multiplayer tasks"
+* The section [Join an MPSD session from a title activation](live-mpsd-how-tos.md#jamsfata) in the article "Multiplayer tasks"
+* The section [Subscribe for MPSD session change notifications](live-mpsd-how-tos.md#sfmscn) in the article "Multiplayer tasks"
+* [Matchmaking overview](../matchmaking/live-matchmaking-overview.md)

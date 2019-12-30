@@ -42,4 +42,4 @@ For example:
 ![Highlighted changes to Package.appxmanifest mark up](live-multiplayer-invite-uwp-images/multiplayer_appxmanifest_changes.png)
 
 Save and rebuild your title.
-To learn how to use the Multiplayer Manager to implement the ability to invite players to your title, see [Play Multiplayer With Friends](../multiplayer-manager/play-multiplayer-with-friends.md).
+To learn how to use the Multiplayer Manager to implement the ability to invite players to your title, see [Play Multiplayer With Friends](../../mpm/how-to/live-play-multiplayer-with-friends.md).

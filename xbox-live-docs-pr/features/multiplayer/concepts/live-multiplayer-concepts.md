@@ -32,7 +32,7 @@ Titles can choose to use multiple sessions, but a typical multiplayer implementa
 
 * Game session - this is a session that represents the people that are playing in a specific session instance of a game, such as a round, match, level, etc. This session can include members from multiple lobby sessions that have joined the session instance together, typically through a matchmaking service.
 
-For detailed information about multiplayer sessions, see [MPSD session details](multiplayer-session/mpsd-details.md).
+For detailed information about multiplayer sessions, see [MPSD session details](../mpsd/concepts/live-mpsd-details.md).
 
 
 ### Example scenario

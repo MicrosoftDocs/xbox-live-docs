@@ -47,7 +47,7 @@ When another player applies for the session, they can pre-select their role, and
 
 Another example would be if a player wants to reserve 2 slots for their friends to join, the game can specify a "friends" role, and only players that are friends with the session host can fill the 2 slots dedicated to the "friends" role.
 
-For more information about roles, see [multiplayer roles](multiplayer-roles.md).
+For more information about roles, see [multiplayer roles](live-multiplayer-roles.md).
 
 
 ## How does session browse work?
@@ -64,12 +64,12 @@ The title can then use the list of sessions to display a list of joinable games 
 When a session is full, or otherwise cannot be joined, a title can remove the search handle from MPSD so that the session will no longer show up in session browse queries.
 
 >[!NOTE]
-> Search handles are intended to be used when displaying a list of sessions to be presented to a user. Using search handles for background matchmaking is not valid, and instead consider using [SmartMatch](multiplayer-manager/play-multiplayer-with-matchmaking.md)
+> Search handles are intended to be used when displaying a list of sessions to be presented to a user. Using search handles for background matchmaking is not valid, and instead consider using [SmartMatch](../mpm/how-to/live-play-multiplayer-with-matchmaking.md).
 
 
 ## Set up a session for session browse
 
-In order to use search handles for a session, the session must have the following capabilities set to true:
+In order to use search handles for a session, the session must have the following capabilities set to `true`:
 
 * `searchable`
 * `userAuthorizationStyle`
@@ -98,7 +98,7 @@ In order to use owners for a session, the session must have the following capabi
 
 If an owner of a session has an Xbox Live member blocked, that member cannot join the session.
 
-When using [multiplayer roles](multiplayer-roles.md), you can set it so only owners can assign roles to users.
+When using [multiplayer roles](live-multiplayer-roles.md), you can set it so only owners can assign roles to users.
 
 If all owners leave a session, then the service takes action on the session based the `ownershipPolicy.migration` policy that is defined for the session.
 If the policy is "oldest", then the player that has been in the session the longest is set to be the new owner.

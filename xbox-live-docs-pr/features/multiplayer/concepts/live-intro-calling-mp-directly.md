@@ -280,5 +280,5 @@ See [Xbox Live Compute](https://developer.microsoft.com/games/xbox/docs/xdk/xbox
 * [Multiplayer Session Directory](../mpsd/live-mpsd-nav.md)
 * [Matchmaking overview](../matchmaking/live-matchmaking-overview.md)
 * [Real-Time Activity (RTA) Service](../../../real-time-activity-service/real-time-activity-service_nav.md)
-* [Reputation](../social-platform/people-system/reputation_nav.md)
+* [Reputation](../../../social-platform/people-system/reputation_nav.md)
 * [Using Xbox Live Compute in Multiplayer (requires managed partner access)](https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/xbox-live-compute/using-xbox-live-compute-in-multiplayer) (ext.)

@@ -144,7 +144,7 @@ Alternatively, your code can use the **XboxLiveContextSettings.EnableServiceCall
 
 ### What can or should I change in the session templates for my title?
 
-Session templates are patterns for your sessions, and you can't override the constants already set in the templates. However, you can add new properties to the templates. See [Multiplayer session templates](live-session-templates.md) and [Multiplayer Session Directory overview](../mpsd/live-mpsd-overview.md).
+Session templates are patterns for your sessions, and you can't override the constants already set in the templates. However, you can add new properties to the templates. See [Multiplayer session templates](../mpsd/concepts/live-session-templates.md) and [Multiplayer Session Directory overview](../mpsd/live-mpsd-overview.md).
 
 
 ### I'm getting an error that is saying my session isn't initialized.

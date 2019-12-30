@@ -69,7 +69,7 @@ The service enforces the maximum number of members that can be assigned to a rol
 
 ## Create roles
 
-Roles and role types are typically defined in the [session template](service-configuration/session-templates.md).
+Roles and role types are typically defined in the [session template](../mpsd/concepts/live-session-templates.md).
 The service supports role and role type definition during session creation, however the Xbox Live SDK does not.
 
 

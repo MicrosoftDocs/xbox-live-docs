@@ -12,22 +12,24 @@ ms.localizationpriority: medium
 
 This article shows how to implement specific tasks related to using Multiplayer 2015.
 
-**Contents**
-* Subscribe for MPSD session change notifications
-* Create an MPSD session
-* Set an arbiter for an MPSD session
-* Manage title activation
-* Make the user joinable
-* Send game invites
-* Join a game session from a lobby session
-* Join an MPSD session from a title activation
-* Set the user's current activity
-* Update an MPSD session
-* Leave an MPSD session
-* Fill open session slots during matchmaking
-* Create a match ticket
-* Get match ticket status
+<!-- **Contents**
+* [Subscribe for MPSD session change notifications](#sfmscn)
+* [Create an MPSD session](#cams)
+* [Set an arbiter for an MPSD session](#set-an-arbiter-for-an-mpsd-session)
+* [Manage title activation](#mta)
+* [Make the user joinable](#mtuj)
+* [Send game invites](#sgi)
+* [Join a game session from a lobby session](#jagsfals)
+* [Join an MPSD session from a title activation](#jamsfata)
+* [Set the user's current activity](#stuca)
+* [Update an MPSD session](#update-an-mpsd-session)
+* [Leave an MPSD session](#lams)
+* [Fill open session slots during matchmaking](#fossdm)
+* [Create a match ticket](#camt)
+* [Get match ticket status](#gmts) -->
 
+
+<a id="sfmscn"></a>
 
 ## Subscribe for MPSD session change notifications
 
@@ -75,6 +77,8 @@ To detect multiple shoulder taps, a title should:
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **RealTimeActivityMultiplayerSessionChangeEventArgs.ChangeNumber Property** values need to be tracked by **RealTimeActivityMultiplayerSessionChangeEventArgs.Branch Property**, not by session. It's possible for the **RealTimeActivityMultiplayerSessionChangeEventArgs.Branch Property** value to change (and the **RealTimeActivityMultiplayerSessionChangeEventArgs.ChangeNumber Property** to reset) within the lifetime of a session. |
 
+
+<a id="cams"></a>
 
 ## Create an MPSD session
 
@@ -131,7 +135,7 @@ void Example_MultiplayerService_CreateSession()
 ```
 
 
-<a id="set-an-arbiter-for-an-mpsd-session"/>
+<a id="set-an-arbiter-for-an-mpsd-session"></a>
 
 ## Set an arbiter for an MPSD session
 
@@ -164,6 +168,8 @@ The title uses the following procedure to set an arbiter for a session that has 
 | If you have no better algorithm, the client can implement a greedy algorithm in which each host candidate attempts to set itself as the host if nobody else has done it yet. For more information, see [Session Arbiter](mpsd-details.md). |
 
 
+<a id="mta"></a>
+
 ## Manage title activation
 
 Xbox One fires the **CoreApplicationView.Activated Event** during protocol activation.
@@ -191,6 +197,8 @@ The following flow chart illustrates how to handle title activation.
 ![Title Activation of Multiplayer flowchart](live-mpsd-how-tos-images/Multiplayer_2015_OnActivation.png)
 
 
+<a id="mtuj"></a>
+
 ## Make the user joinable
 
 To make the user joinable, the title must do the following:
@@ -213,6 +221,8 @@ The following flow chart illustrates the steps to take to allow a user to be joi
 
 ![Allow a user to be joined by players flowchart](live-mpsd-how-tos-images/Multiplayer_2015_Become_Joinable.png)
 
+
+<a id="sgi"></a>
 
 ## Send game invites
 
@@ -239,6 +249,8 @@ The following flow chart illustrates how to send invites.
 ![Invitation send flowchart](live-mpsd-how-tos-images/Multiplayer_2015_Send_Invites.png)
 
 
+<a id="jagsfals"></a>
+
 ## Join a game session from a lobby session
 
 Gameplay sessions on Windows 10 devices must have the `userAuthorizationStyle` capability set to **true** if they are not large sessions. This means that the `joinRestriction` property cannot be "none", which means that the session can't be publicly joinable directly.
@@ -257,6 +269,8 @@ The solution is use a transfer handle to link the lobby session and the game ses
 
 5. If the members are in the lobby session, they will be able to access the game session.
 
+
+<a id="jamsfata"></a>
 
 ## Join an MPSD session from a title activation
 
@@ -292,6 +306,8 @@ Here are the steps the title should follow:
 8.  Call the **MultiplayerService.WriteSessionByHandleAsync Method**, using the handle acquired as described in step 3. Now the user is a member of the session, and can use data in the session to connect to the game.
 
 
+<a id="stuca"></a>
+
 ## Set the user's current activity
 
 The user's current activity is displayed in Xbox dashboard user experiences for the title. Activity for a user can be set through a session or through title activation. In the latter case, the user enters a session through matchmaking or by starting a game.
@@ -305,7 +321,7 @@ To set a session as the user's current activity, the title calls the **Multiplay
 To set the user's current activity through title activation, see **How to: Join an MPSD Session from a Title Activation**.
 
 
-<a id="update-an-mpsd-session"/>
+<a id="update-an-mpsd-session"></a>
 
 ## Update an MPSD session
 
@@ -330,6 +346,8 @@ To update an existing session, the title must:
 3.  Discard the old local session object, and use the newly retrieved session object so that future actions are based on the latest known session state.
 
 
+<a id="lams"></a>
+
 ## Leave an MPSD session
 
 To allow a user to leave a session, the title must do the following.
@@ -346,6 +364,8 @@ The following flow chart illustrates how to leave the session and shut down.
 
 ![Exit session and close flowchart](live-mpsd-how-tos-images/Multiplayer_2015_Shut_Down.png)
 
+
+<a id="fossdm"></a>
 
 ## Fill open session slots during matchmaking
 
@@ -368,6 +388,8 @@ The following flow chart illustrates how to fill open session slots during match
 ![Filling open slots during matchmaking flowchart](live-mpsd-how-tos-images/Multiplayer_2015_Fill_Open_Slots.png)
 
 
+<a id="camt"></a>
+
 ## Create a match ticket
 
 To create a match ticket, the matchmaking scout must:
@@ -380,6 +402,8 @@ To create a match ticket, the matchmaking scout must:
 
 4.  Use the **CreateMatchTicketResponse.MatchTicketId Property** returned in the response object to cancel matchmaking for the session if needed, by deleting the ticket. Ticket deletion uses the **MatchmakingService.DeleteMatchTicketAsync Method**.
 
+
+<a id="gmts"></a>
 
 ## Get match ticket status
 

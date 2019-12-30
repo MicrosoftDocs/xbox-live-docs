@@ -29,7 +29,8 @@ chm-only content here
 
 ## Using a title-implemented custom UI
 
-Your title can implement a custom UI for viewing online friends and inviting game. You can use the [XblMultiplayerSendInvitesAsync](xblmultiplayersendinvitesasync.md) API to send invites to a set of players defined by their Xbox Live User IDs. <!--chm: This is useful if you prefer to use your own in-game UI instead of the stock System UI.--> <!--main docs:  -->This uses your own in-game UI.
+<!-- destination not in this repo: Your title can implement a custom UI for viewing online friends and inviting game. You can use the [XblMultiplayerSendInvitesAsync](xblmultiplayersendinvitesasync.md) API to send invites to a set of players defined by their Xbox Live User IDs.  -->
+Your title can implement a custom UI for viewing online friends and inviting game. You can use the `XblMultiplayerSendInvitesAsync` API to send invites to a set of players defined by their Xbox Live User IDs. <!--chm: This is useful if you prefer to use your own in-game UI instead of the stock System UI.--> <!--main docs:  -->This uses your own in-game UI.
 
 **C API**
 <!-- XblMultiplayerSendInvitesAsync_C.md -->
@@ -66,15 +67,15 @@ if (SUCCEEDED(hr))
 }
 ```
 
-**Reference**
+<!-- destination not in this repo: **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblMultiplayerInviteHandle](xblmultiplayerinvitehandle.md)
 * [XblMultiplayerSendInvitesAsync](xblmultiplayersendinvitesasync.md)
-* [XblMultiplayerSendInvitesResult](xblmultiplayersendinvitesresult.md)
+* [XblMultiplayerSendInvitesResult](xblmultiplayersendinvitesresult.md) -->
 
 
 ## See also
 
 <!-- * chm-only api ref here -->
-* To use Multiplayer Manager to handle game invites, see [Handling protocol activation to start a game, using Multiplayer Manager](live-handle-protocol-activation.md).
+* To use Multiplayer Manager to handle game invites, see [Handling protocol activation to start a game, using Multiplayer Manager](../../mpm/how-to/live-handle-protocol-activation.md).
 * [Sending game invites using Multiplayer Manager](../../mpm/how-to/live-send-game-invites.md)

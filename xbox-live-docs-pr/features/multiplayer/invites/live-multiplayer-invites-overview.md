@@ -45,9 +45,9 @@ keep and modify, or delete?
 
 ## See also
 
-* The [Invites](live-multiplayer-concepts.md#invites) section in the article "Multiplayer concepts overview"
-* [Flows for multiplayer game invites](live-multiplayer-invite-flows.md)
-* [Sending invites to another player (flowchart)](live-mpm-send-invites.md)
-* [Sending game invites using Multiplayer Manager](live-send-game-invites.md)
-* [Game Invite API](game_invite_c_members.md)
-* [XGameInvite](xgameinvite_members.md)
+* The [Invites](../concepts/live-multiplayer-concepts.md#invites) section in the article "Multiplayer concepts overview"
+* [Flows for multiplayer game invites](concepts/live-multiplayer-invite-flows.md)
+* [Sending invites to another player (flowchart)](../mpm/concepts/flowcharts/live-mpm-send-invites.md)
+* [Sending game invites using Multiplayer Manager](../mpm/how-to/live-send-game-invites.md)
+<!-- destination not in this repo * [Game Invite API](game_invite_c_members.md)
+* [XGameInvite](xgameinvite_members.md) -->

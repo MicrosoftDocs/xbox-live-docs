@@ -33,8 +33,8 @@ The Multiplayer 2015 service abstracts-away the Multiplayer 2014 "game party" co
 
 This section describes changes to be aware of when configuring your sessions and templates for 2015 Multiplayer.
 For examples of the specific items discussed, see:
-* [Multiplayer session templates](..\mpsd\concepts\live-session-templates.md)
-* [Multiplayer Session Directory overview](..\mpsd\live-mpsd-overview.md)
+* [Multiplayer session templates](../mpsd/concepts/live-session-templates.md)
+* [Multiplayer Session Directory overview](../mpsd/live-mpsd-overview.md)
 
 
 ### Add a Capability for Active Member Connection
@@ -64,8 +64,8 @@ Templates that you have written for session template contract version 104/105 mu
 
 This section summarizes the changes to make in migrating your templates to the latest version.
 The templates themselves are described in:
-* [Multiplayer session templates](..\mpsd\concepts\live-session-templates.md)
-* [Multiplayer Session Directory overview](..\mpsd\live-mpsd-overview.md)
+* [Multiplayer session templates](../mpsd/concepts/live-session-templates.md)
+* [Multiplayer Session Directory overview](../mpsd/live-mpsd-overview.md)
 
 | Important |
 |---|
@@ -93,7 +93,7 @@ Here are the changes to make to the name/value pairs for this object:
 - The ready timeout becomes readyRemovalTimeout.
 - The sessionEmpty timeout becomes sessionEmptyTimeout.
 
-Details of the timeouts are presented in the [Session Timeouts](..\mpsd\concepts\live-mpsd-details.md#session-timeouts) section of the article "Multiplayer Session advanced topics".
+Details of the timeouts are presented in the [Session Timeouts](../mpsd/concepts/live-mpsd-details.md#session-timeouts) section of the article "Multiplayer Session advanced topics".
 
 
 ### Change to the Game Play Capability
@@ -104,5 +104,5 @@ You must now specify the `/constants/system/capabilities/gameplay` field as true
 
 ## See also
 
-* [Multiplayer session templates](..\mpsd\concepts\live-session-templates.md)
-* [Multiplayer Session Directory overview](..\mpsd\live-mpsd-overview.md)
+* [Multiplayer session templates](../mpsd/concepts/live-session-templates.md)
+* [Multiplayer Session Directory overview](../mpsd/live-mpsd-overview.md)

@@ -22,7 +22,8 @@ Your game receives invites for the local user, and then joins that user to the m
 ## Registering for multiplayer protocol
 
 Registering for multiplayer protocol tells the system how to launch your game when the user accepts a multiplayer game invite.
-To register the multiplayer protocol, you need to add a `MultiplayerProtocol` element to your [MicrosoftGame.config](MicrosoftGameConfig-toc.md) file:
+To register the multiplayer protocol, you need to add a `MultiplayerProtocol` element to your `MicrosoftGame.config` file:
+<!-- destination not in this repo: To register the multiplayer protocol, you need to add a `MultiplayerProtocol` element to your [MicrosoftGame.config](MicrosoftGameConfig-toc.md) file: -->
 
 ```xml
     <MultiplayerProtocol>true</MultiplayerProtocol>
@@ -38,14 +39,16 @@ If you have multiple executables in the package, you can specify which executabl
 ## Registering for multiplayer game invite callbacks
 
 To receive multiplayer game invite callbacks, you need to register for game invite callbacks with the `XGameInviteRegisterForEvent` API.
-For more details on how to register and unregister game invite callback, see the following articles:
+<!-- destination not in this repo: For more details on how to register and unregister game invite callback, see the following articles:
 * [XGameInviteRegisterForEvent](xgameinviteregisterforevent.md)
-* [XGameInviteUnregisterForEvent](xgameinviteunregisterforevent.md)
+* [XGameInviteUnregisterForEvent](xgameinviteunregisterforevent.md) -->
 
 
 ## Parsing inviteUrl from XGameInviteEventCallback
 
-When your game receives the [XGameInviteEventCallback](xgameinviteeventcallback.md) event, you will have access to the `inviteUrl` string. The `inviteUrl` will be in one of the formats described below.
+<!-- destination not in this repo: When your game receives the [XGameInviteEventCallback](xgameinviteeventcallback.md) event, you will have access to the `inviteUrl` string. -->
+When your game receives the `XGameInviteEventCallback` event, you will have access to the `inviteUrl` string.
+The `inviteUrl` will be in one of the formats described below.
 
 
 ### For accepting a game invite
@@ -85,7 +88,8 @@ The URI will always start with "ms-xbl-multiplayer//", and following that:
 
 ### Using Multiplayer Manager
 
-If you are using Multiplayer Manager, you can join the user to the multiplayer session with the [XblMultiplayerManagerJoinLobby](xblmultiplayermanagerjoinlobby.md) API by passing in the `handleId` extracted from the `inviteUrl`, as well as the `xblUserHandle` for the `invitedXuid`:
+<!-- destination not in this repo: If you are using Multiplayer Manager, you can join the user to the multiplayer session with the [XblMultiplayerManagerJoinLobby](xblmultiplayermanagerjoinlobby.md) API by passing in the `handleId` extracted from the `inviteUrl`, as well as the `xblUserHandle` for the `invitedXuid`: -->
+If you are using Multiplayer Manager, you can join the user to the multiplayer session with the `XblMultiplayerManagerJoinLobby` API by passing in the `handleId` extracted from the `inviteUrl`, as well as the `xblUserHandle` for the `invitedXuid`:
 
 **C API**
 <!-- XblMultiplayerManagerJoinLobby_C.md -->
@@ -97,12 +101,15 @@ HRESULT hr = XblMultiplayerManagerJoinLobby(handleId, xblUserHandle);
 ### Using Multiplayer API directly
 
 If you are using Multiplayer API directly, you can do the following steps:
-1. Fetch the multiplayer session document using the [XblMultiplayerGetSessionByHandleAsync](xblmultiplayergetsessionbyhandleasync.md) API and pass in the `handleIdExtractedFromInviteUrl`.
+<!-- destination not in this repo: 1. Fetch the multiplayer session document using the [XblMultiplayerGetSessionByHandleAsync](xblmultiplayergetsessionbyhandleasync.md) API and pass in the `handleIdExtractedFromInviteUrl`.
 1. Join the local user to the multiplayer session document using the [XblMultiplayerSessionJoin](xblmultiplayersessionjoin.md) API.
-1. Write the multiplayer session document to the service to commit this change using the [XblMultiplayerWriteSessionByHandleAsync](xblmultiplayerwritesessionbyhandleasync.md) API.
+1. Write the multiplayer session document to the service to commit this change using the [XblMultiplayerWriteSessionByHandleAsync](xblmultiplayerwritesessionbyhandleasync.md) API. -->
+1. Fetch the multiplayer session document using the `XblMultiplayerGetSessionByHandleAsync` API and pass in the `handleIdExtractedFromInviteUrl`.
+1. Join the local user to the multiplayer session document using the `XblMultiplayerSessionJoin` API.
+1. Write the multiplayer session document to the service to commit this change using the `XblMultiplayerWriteSessionByHandleAsync` API.
 
 
 ## See also
 
 <!-- * chm-only api ref here -->
-* To use Multiplayer Manager to handle game invites, see [Handling protocol activation to start a game, using Multiplayer Manager](live-handle-protocol-activation.md).
+* To use Multiplayer Manager to handle game invites, see [Handling protocol activation to start a game, using Multiplayer Manager](../../mpm/how-to/live-handle-protocol-activation.md).
