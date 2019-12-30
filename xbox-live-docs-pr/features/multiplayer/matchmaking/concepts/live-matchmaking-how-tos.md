@@ -81,7 +81,7 @@ MPSD notifies the title of this change to the ticket session.
 
 Now the title must then take steps to initialize the target session in order to confirm that enough players have shown up, and perform quality of service (QoS) checks to ensure that they can connect to one another successfully.
 If initialization and/or QoS fails, the title marks the ticket session for resubmission to matchmaking so that another group can be found.
-See [Target session initialization and QoS](concepts/live-matchmaking-target-session.md).
+See [Target session initialization and QoS](live-matchmaking-target-session.md).
 
 During match activity, the following changes are made to the JSON objects for the session:
 
@@ -168,7 +168,7 @@ Instead, the matchmaking service copies the /properties/system/matchmaking/serve
 
 ## See also
 
-<!-- * [SmartMatch Runtime Operations](live-matchmaking-overview.md) -->
-* [Matchmaking overview](live-matchmaking-overview.md)
+<!-- * [SmartMatch Runtime Operations](../live-matchmaking-overview.md) -->
+* [Matchmaking overview](../live-matchmaking-overview.md)
 * **Microsoft.Xbox.Services.Matchmaking Namespace**
 * **Microsoft.Xbox.Services.Multiplayer Namespace**

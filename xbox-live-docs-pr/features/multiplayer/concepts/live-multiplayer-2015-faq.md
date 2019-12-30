@@ -156,7 +156,7 @@ Example response error:
 The session can't be created because not enough session member reservations with the "initialize" field set to true are included in the request. Your code can set this field for a member using the *initializeRequested* parameter for the **MultiplayerSession.AddMemberReservation** method or the **MultiplayerSession.Join** method.
 
 When initialization is specified in your session template, make sure that "initialize":"true" is set for enough of the member reservations to pass matchmaking QoS.
-See [Target session initialization and QoS](../matchmaking/concepts/live-matchmaking-targetsession.md).
+See [Target session initialization and QoS](../matchmaking/concepts/live-matchmaking-target-session.md).
 
 
 ### My session is not being created and I'm getting an HTTP/204 code.

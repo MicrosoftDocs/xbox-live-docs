@@ -29,7 +29,7 @@ There are four steps involved when using the Multiplayer Manager to send an invi
 Steps 1, 2, 3, and 5 are done on the device performing the invite.
 Step 4 would typically be initiated on the invitee's machine following app launch via protocol activation.
 
-You can see a flowchart of the process here: [Flowchart - Play a multiplayer game by using SmartMatch matchmaking](mpm-flowcharts/mpm-play-with-smartmatch-matchmaking.md).
+See [Playing a game by using SmartMatch matchmaking (flowchart)](../concepts/flowcharts/live-mpm-play-with-smartmatch-matchmaking.md).
 
 
 ### 1) Initialize Multiplayer Manager <a name="initialize-multiplayer-manager">
@@ -41,9 +41,7 @@ You can see a flowchart of the process here: [Flowchart - Play a multiplayer gam
 The lobby session object is automatically created upon initializing the Multiplayer Manager, assuming that a valid session template name (configured in the service configuration) is specified.
 Note that this does not create the lobby session instance on the service.
 
-
-**Example:**
-
+**C++ API**
 ```cpp
 auto mpInstance = multiplayer_manager::get_singleton_instance();
 
@@ -71,8 +69,9 @@ After joining the lobby, Microsoft recommends setting the local member's connect
 You must repeat this process for all locally signed-in users.
 
 
-**Example: (single local user)**
+### Adding a single local user
 
+**C++ API**
 ```cpp
 auto mpInstance = multiplayer_manager::get_singleton_instance();
 
@@ -91,8 +90,9 @@ mpInstance->lobby_session()->set_local_member_connection_address(
 mpInstance->lobby_session()->set_local_member_properties(xboxLivecontext->user(), ..., ...)
 ```
 
-**Example: (multiple local users)**
+### Adding multiple local users
 
+**C++ API**
 ```cpp
 auto mpInstance = multiplayer_manager::get_singleton_instance();
 string_t connectionAddress = L"1.1.1.1";
@@ -118,15 +118,13 @@ for (User^ user : User::Users)
 
 ```
 
-
 The changes are batched on the next `do_work()` call.
 Multiplayer manager fires a `user_added` event each time a user is added to the lobby session.
 
 It is recommended that you inspect the error code of the event to see if that user was successfully added.
 In case of a failure, an error message will be provided detailing the reasons of the failure.
 
-
-**Functions performed by Multiplayer Manager**
+**Functions performed by Multiplayer Manager to create the lobby session by adding local users**
 
 * Register Real Time Activity & Multiplayer Subscriptions with the Xbox Live multiplayer service
 * Create Lobby Session
@@ -151,9 +149,7 @@ Once the player hits confirm, Multiplayer Manager sends the invites to the selec
 Games can also use the `invite_users()` method to send invites to a set of people defined by their Xbox Live User IDs.
 This is useful if you prefer to use your own in-game UI instead of the stock Xbox UI.
 
-
-**Example:**
-
+**C++ API**
 ```cpp
 auto result = mpInstance->lobby_session()->invite_friends(xboxLiveContext);
 if (result.err())
@@ -162,8 +158,7 @@ if (result.err())
 }
 ```
 
-
-**Functions performed by Multiplayer Manager**
+**Functions performed by Multiplayer Manager to send invites to friends**
 
 * Brings up the Xbox stock title callable UI (TCUI)
 * Sends invite directly to the selected players
@@ -190,9 +185,7 @@ You can also set the host via `set_synchronized_host` if one doesn't exist.
 Finally, the Multiplayer Manager will auto join the user into the game session if a game is already in progress and has room for the invitee.
 The title will be notified through the `join_game_completed` event providing an appropriate error code and message.
 
-
-**Example:**
-
+**C++ API**
 ```cpp
 auto result = mpInstance().join_lobby(IProtocolActivatedEventArgs^ args);
 if (result.err())
@@ -208,8 +201,7 @@ mpInstance->lobby_session()->set_local_member_connection_address(
 
 Error/success is handled via the `join_lobby_completed` event
 
-
-**Functions performed by Multiplayer Manager**
+**Functions performed by Multiplayer Manager to accept invites**
 
 * Register RTA & Multiplayer Subscriptions
 * Join Lobby session
@@ -236,9 +228,7 @@ After invites (if any) have been accepted, and the host is ready to start playin
 Before you can call `find_match()`, you must first configure hoppers in your service configuration.
 A hopper defines the rules that SmartMatch uses to match players.
 
-
-**Example:**
-
+**C++ API**
 ```cpp
 auto result = mpInstance.find_match(HOPPER_NAME);
 if (result.err())
@@ -247,8 +237,7 @@ if (result.err())
 }
 ```
 
-
-**Functions performed by Multiplayer Manager**
+**Functions performed by Multiplayer Manager to find a match**
 * Create a match ticket
 * Handle all of the QoS stages
 * Handle roster changes
@@ -259,4 +248,4 @@ if (result.err())
 
 ## See also
 
-* [Xbox Live Samples](../../samples.md)
+* [Xbox Live Samples](../../../samples.md)

@@ -13,15 +13,19 @@ ms.localizationpriority: medium
 
 ## Introduction to SmartMatch
 
-Xbox Live provides a matchmaking service, called SmartMatch, that is wrapped by the [Multiplayer Manager API](../multiplayer-manager/multiplayer-manager-overview.md).
-For advanced API usage, you can refer to the **MatchmakingService Class**, but if you find you have a matchmaking scenario not possible to implement using the Multiplayer Manager, please provide feedback to us via your Microsoft Representative.
-Regardless of which API you use, the conceptual information in this article applies.
-
-SmartMatch matchmaking groups players based on user information and the matchmaking request for the users who want to play together.
+Xbox Live provides a matchmaking service, called _SmartMatch_.
+SmartMatch groups players based on user information and the matchmaking request for the users who want to play together.
 Matchmaking is server-based, meaning that users provide a request to the service, and they are later notified when a match is found.
 
+There are several API approaches you can use for SmartMatch matchmaking:
+* The SmartMatch matchmaking service is wrapped by [Multiplayer Manager](../multiplayer-manager/live-multiplayer-manager-nav.md).
+* Or, for advanced API usage, you can directly call methods of the **MatchmakingService Class**.
+
+If you have a matchmaking scenario that isn't supported by Multiplayer Manager, please provide feedback to us via your Microsoft Representative.
+Regardless of which API you use, the conceptual information in this article applies.
+
 When building a title for Xbox One, you can use SmartMatch as described in this article.
-Alternatively, you can your own matchmaking service as described in [using your own matchmaking service](https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/multiplayer-and-networking/using-your-own-matchmaking-service).
+Alternatively, you can your own matchmaking service as described in [using your own matchmaking service](https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/multiplayer-and-networking/using-your-own-matchmaking-service).
 Accessing the above link requires that you have a [Partner Center](https://partner.microsoft.com/dashboard) account which is enabled for Xbox Live development.
 
 
@@ -78,15 +82,16 @@ For more information, see runtime operation configuration information in **Smart
 
 ### Hopper Configuration
 
-[Matchmaking Hopper Configuration](matchmaking-config.md)
+See the section [Basic Hopper Configuration for Matchmaking](live-matchmaking-config.md#hop) in the article "Matchmaking portal configuration".
 
 
 ### Match Target Session
 
 Once a matched group has been found, the service creates a match target session and reserves places for all the players from the ticket sessions that are matched together.
-[Target Session Initialization and QoS](matchmaking-targetsession.md)
+See [Target session initialization and QoS](concepts/live-matchmaking-target-session.md).
 
 
 ## See also
 
-[MPSD Session Templates](../multiplayer-session/mpsd-overview.md)
+* [Multiplayer session templates](live-session-templates.md)
+* [Multiplayer Session Directory overview](live-mpsd-overview.md)

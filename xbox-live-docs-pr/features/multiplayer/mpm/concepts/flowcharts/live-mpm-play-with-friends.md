@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 
 The following flowcharts show how to start a new multiplayer game by adding and inviting friends to the game.
 
-You can see multiplayer manager code examples of this process in [Play a multiplayer game with friends](../play-multiplayer-with-friends.md).
+You can see multiplayer manager code examples of this process in [Play a multiplayer game with friends](../../how-to/live-play-multiplayer-with-friends.md).
 
 
 ## Add and invite friends

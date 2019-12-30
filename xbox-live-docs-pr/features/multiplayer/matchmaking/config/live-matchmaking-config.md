@@ -347,5 +347,6 @@ The Team Rule will cause Match to prefer A and B matching, as opposed to A, C, D
 The Must rule prevents ticket splitting in all generations, and provides the prefer-even-teams sorting.
 The Should rule is identical until the last generation--once there, tickets may be split, although the prefer-even-teams sorting will still be active.
 
+
 ## See also
-[MPSD Session Templates](../multiplayer-session/mpsd-overview.md)
+[MPSD Session Templates](../../mpsd/live-mpsd-overview.md)

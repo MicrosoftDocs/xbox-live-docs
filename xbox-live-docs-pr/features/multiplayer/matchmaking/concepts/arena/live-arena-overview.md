@@ -99,5 +99,5 @@ Article | description
 [Join a tournament](live-arena-ux-join-tournament.md)  |  Provides tips and recommendations to craft a great user experience for registering and joining a tournament.
 [Match engagement](live-arena-ux-match-engagement.md) | Describes the user experience stages of players progressing through a tournament.
 [Arena API UI metadata](live-arena-apis-metadata.md)  | Describes the metadata returned by the Arena APIs which you can use to display information in-game about the current state of the tournament.
-[Arena notifications](livearena-notifications.md)  | Describes the conditions when Xbox Arena sends a notification to tournament participants.
+[Arena notifications](live-arena-notifications.md)  | Describes the conditions when Xbox Arena sends a notification to tournament participants.
 [Arena user scenarios](live-arena-user-scenarios.md)  | Describes Arena scenarios for gamers based on their most common motivations.

@@ -13,13 +13,13 @@ ms.localizationpriority: medium
 One of the simpler multiplayer scenarios is to allow a gamer to play your game online with friends.
 This scenario covers the steps you need to send invites to another player to join your game.
 
-Once you've [initialized the Multiplayer Manager](play-multiplayer-with-friends.md), and have [created a Lobby session by adding local users](play-multiplayer-with-friends.md), you must wait until you receive the `user_added` event before you can start sending invites.
+Once you've initialized the Multiplayer Manager, and have created a Lobby session by adding local users (see [Enable playing a multiplayer game with friends using Multiplayer Manager](live-play-multiplayer-with-friends.md)), you must wait until you receive the `user_added` event before you can start sending invites.
 
 There are two ways to send an invite:
 1. [Xbox Platform Invite TCUI](#xbox-platform-invite-tcui)
 2. [Title implemented custom UI](#title-implemented-custom-ui)
 
-You can see a flowchart of the process here: [Flowchart - Send Invitation to another player](mpm-flowcharts/mpm-send-invites.md).
+You can see a flowchart of the process here: [Flowchart - Send Invitation to another player](mpm-flowcharts/live-mpm-send-invites.md).
 
 
 ### 1) Xbox Platform Invite TCUI <a name="xbox-platform-invite-tcui">
@@ -32,8 +32,7 @@ Calling `invite_friends()` will bring up the standard Xbox UI for inviting frien
 This displays a UI that allows the player to select friends or recent players to invite to the game.
 Once the player hits confirm, Multiplayer Manager sends the invites to the selected players.
 
-**Example:**
-
+**C++ API**
 ```cpp
 auto result = mpInstance->lobby_session()->invite_friends(xboxLiveContext);
 if (result.err())
@@ -42,14 +41,13 @@ if (result.err())
 }
 ```
 
-
-**Functions performed by Multiplayer Manager**
+**Functions performed by Multiplayer Manager for Xbox Platform Invite TCUI**
 
 * Brings up the Xbox stock title callable UI (TCUI)
 * Sends invite directly to the selected players
 
 
-### 2) Title implemented custom UI<a name="title-implemented-custom-ui">
+### 2) Title-implemented custom UI<a name="title-implemented-custom-ui">
 
 | Method | Event triggered |
 |-----|----------------|
@@ -59,9 +57,7 @@ Your title can implement a custom TCUI for viewing online friends and inviting t
 Games can use the `invite_users()` method to send invites to a set of people defined by their Xbox Live User IDs.
 This is useful if you prefer to use your own in-game UI instead of the stock Xbox UI.
 
-
-**Example:**
-
+**C++ API**
 ```cpp
 std::vector<string_t>& xboxUserIds;
 xboxUserIds.push_back();  // Add xbox_user_ids from your in-game roster list
@@ -73,6 +69,6 @@ if (result.err())
 }
 ```
 
-**Functions performed by Multiplayer Manager**
+**Functions performed by Multiplayer Manager for title-implemented custom UI**
 
 * Sends invite directly to the selected players.

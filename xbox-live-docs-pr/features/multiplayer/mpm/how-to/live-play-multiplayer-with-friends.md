@@ -14,9 +14,9 @@ One of the simpler multiplayer scenarios is to allow a gamer to play your game o
 This scenario covers the basic steps you need to implement by using Multiplayer Manager.
 
 
-## Inviting friends
+## Steps to send and accept an invite
 
-There are four steps involved when using the Multiplayer Manager to send an invite to a user's friend, and then for that friend to join the game in progress:
+The following steps are involved, to use the Multiplayer Manager to send an invite to a user's friend, for that friend to join the game in progress:
 1. [Initialize Multiplayer Manager](#initialize-multiplayer-manager)
 2. [Create the lobby session by adding local users](#create-lobby)
 3. [Send invites to friends](#send-invites)
@@ -26,7 +26,7 @@ There are four steps involved when using the Multiplayer Manager to send an invi
 Steps 1, 2, 3, and 5 are done on the device performing the invite.
 Step 4 would typically be initiated on the invitee's machine following app launch via protocol activation.
 
-You can see a flowchart of the process here: [Flowchart - Play a multiplayer/co-op game with friends](mpm-flowcharts/mpm-play-with-friends.md).
+See [Playing a game with friends (flowchart)](../concepts/flowcharts/live-mpm-play-with-friends.md).
 
 
 ### 1) Initialize Multiplayer Manager <a name="initialize-multiplayer-manager">
@@ -38,9 +38,7 @@ You can see a flowchart of the process here: [Flowchart - Play a multiplayer/co-
 The lobby session object is automatically created upon initializing the Multiplayer Manager, assuming that a valid session template name (configured in the service configuration) is specified.
 Note that this does not create the lobby session instance on the service.
 
-
-**Example:**
-
+**C++ API**
 ```cpp
 auto mpInstance = multiplayer_manager::get_singleton_instance();
 
@@ -68,8 +66,9 @@ After joining the lobby, we recommend setting the local member's connection addr
 You must repeat this process for all locally signed-in users.
 
 
-**Example: (single local user)**
+### Adding a single local user
 
+**C++ API**
 ```cpp
 auto mpInstance = multiplayer_manager::get_singleton_instance();
 
@@ -90,8 +89,9 @@ mpInstance->lobby_session()->set_local_member_properties(xboxLivecontext->user()
 ```
 
 
-**Example: (multiple local users)**
+### Adding multiple local users
 
+**C++ API**
 ```cpp
 auto mpInstance = multiplayer_manager::get_singleton_instance();
 string_t connectionAddress = L"1.1.1.1";
@@ -123,8 +123,7 @@ Multiplayer manager fires a `user_added` event each time a user is added to the 
 It's recommended that you inspect the error code of the event to see if that user was successfully added.
 In case of a failure, an error message will be provided detailing the reasons of the failure.
 
-
-**Functions performed by Multiplayer Manager**
+**Functions performed by Multiplayer Manager to create the lobby session by adding local users:**
 
 * Register Real Time Activity & Multiplayer Subscriptions with the Xbox Live multiplayer service
 * Create Lobby Session
@@ -149,9 +148,7 @@ Once the player hits confirm, Multiplayer Manager sends the invites to the selec
 Games can also use the `invite_users()` method to send invites to a set of people defined by their Xbox Live User IDs.
 This is useful if you prefer to use your own in-game UI instead of the stock Xbox UI.
 
-
-**Example:**
-
+**C++ API**
 ```cpp
 auto result = mpInstance->lobby_session()->invite_friends(xboxLiveContext);
 if (result.err())
@@ -160,8 +157,7 @@ if (result.err())
 }
 ```
 
-
-**Functions performed by Multiplayer Manager**
+**Functions performed by Multiplayer Manager to send invites to friends:**
 
 * Brings up the Xbox stock title callable UI (TCUI)
 * Sends invite directly to the selected players
@@ -187,9 +183,7 @@ You can also set the host via set_synchronized_host if one doesn't exist.
 Finally, the Multiplayer Manager will auto join the user into the game session if a game is already in progress and has room for the invitee.
 The title will be notified through the `join_game_completed` event providing an appropriate error code and message.
 
-
-**Example:**
-
+**C++ API**
 ```cpp
 auto result = mpInstance().join_lobby(IProtocolActivatedEventArgs^ args);
 if (result.err())
@@ -204,8 +198,7 @@ mpInstance->lobby_session()->set_local_member_connection_address(
 
 Error/success is handled via the `join_lobby_completed` event
 
-
-**Functions performed by Multiplayer Manager**
+**Functions performed by Multiplayer Manager to accept invites:**
 
 * Register RTA & Multiplayer Subscriptions
 * Join Lobby session
@@ -227,9 +220,7 @@ Error/success is handled via the `join_lobby_completed` event
 
 After invites have been accepted, and the host is ready to start playing the game, you can start a new game that includes the members of the lobby session by calling `join_game_from_lobby()`.
 
-
-**Example:**
-
+**C++ API**
 ```cpp
 auto result = mpInstance.join_game_from_lobby();
 if (result.err())
@@ -240,8 +231,7 @@ if (result.err())
 
 Error/success is handled via `join_game_completed` event
 
-
-**Functions performed by Multiplayer Manager**
+**Functions performed by Multiplayer Manager to join a game session from the lobby:**
 * Create Game Session
 * Join all local players as active
 * Upload SDA
