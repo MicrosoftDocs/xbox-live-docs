@@ -210,4 +210,4 @@ Results:
 * Date/time of cancellation
 
 > [!div class="nextstepaction"]
-> [Join a tournament by using the Arena UI](arena-ux-join-tournament.md)
+> [Join a tournament by using the Arena UI](live-arena-ux-join-tournament.md)

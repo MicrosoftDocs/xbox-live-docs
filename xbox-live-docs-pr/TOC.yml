@@ -461,7 +461,7 @@
                     - name: Using SmartMatch matchmaking
                       href: features/multiplayer/matchmaking/concepts/live-matchmaking-how-tos.md
                     - name: Target session initialization and QoS
-                      href: features/multiplayer/matchmaking/concepts/live-matchmaking-targetsession.md
+                      href: features/multiplayer/matchmaking/concepts/live-matchmaking-target-session.md
                     - name: Xbox Arena
                       href: features/multiplayer/matchmaking/concepts/arena/live-arena-nav.md
                       items: 

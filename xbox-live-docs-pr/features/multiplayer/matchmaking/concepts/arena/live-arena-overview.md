@@ -81,23 +81,23 @@ Xbox Arena role (setting up a tournament)	| Title's role (game play)
 
 Article | description
 --- | ---
-[Arena title integration](arena-title-integration.md) | Learn how to integrate support for Xbox Arena into your title.
+[Arena title integration](live-arena-title-integration.md) | Learn how to integrate support for Xbox Arena into your title.
 
 
 ## Operations guidance
 
 Article | description
 --- | ---
-[Xbox Arena Operations Portal](operations-portal.md) | Describes the operations portal that you can use to create and manage official tournaments for a title that is integrated with Xbox Arena.
+[Xbox Arena Operations Portal](live-arena-operations-portal.md) | Describes the operations portal that you can use to create and manage official tournaments for a title that is integrated with Xbox Arena.
 
 
 ## User experience guidance
 
 Article | description
 --- | ---
-[Discovering Xbox tournaments](discovering-xbox-tournaments.md) | Provides tips and recommendations to craft a great user experience for discovering existing tournaments.
-[Join a tournament](arena-ux-join-tournament.md)  |  Provides tips and recommendations to craft a great user experience for registering and joining a tournament.
-[Match engagement](arena-ux-match-engagement.md) | Describes the user experience stages of players progressing through a tournament.
-[Arena API UI metadata](arena-apis-metadata.md)  | Describes the metadata returned by the Arena APIs which you can use to display information in-game about the current state of the tournament.
-[Arena notifications](arena-notifications.md)  | Describes the conditions when Xbox Arena sends a notification to tournament participants.
-[Arena user scenarios](arena-user-scenarios.md)  | Describes Arena scenarios for gamers based on their most common motivations.
+[Discovering Xbox tournaments](live-discovering-xbox-tournaments.md) | Provides tips and recommendations to craft a great user experience for discovering existing tournaments.
+[Join a tournament](live-arena-ux-join-tournament.md)  |  Provides tips and recommendations to craft a great user experience for registering and joining a tournament.
+[Match engagement](live-arena-ux-match-engagement.md) | Describes the user experience stages of players progressing through a tournament.
+[Arena API UI metadata](live-arena-apis-metadata.md)  | Describes the metadata returned by the Arena APIs which you can use to display information in-game about the current state of the tournament.
+[Arena notifications](livearena-notifications.md)  | Describes the conditions when Xbox Arena sends a notification to tournament participants.
+[Arena user scenarios](live-arena-user-scenarios.md)  | Describes Arena scenarios for gamers based on their most common motivations.

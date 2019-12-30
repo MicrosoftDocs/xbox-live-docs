@@ -17,7 +17,7 @@ Associated operations are the measurement of latency and bandwidth between Xbox 
 
 The following flow chart illustrates how to implement the initialization of the target session and QoS operations.
 
-![Matchmaking Quality of Service flowchart](live-matchmaking-targetsession-images/Multiplayer_2015_Matchmaking_QoS.png)
+![Matchmaking Quality of Service flowchart](live-matchmaking-target-session-images/Multiplayer_2015_Matchmaking_QoS.png)
 
 
 ## Managed Initialization
@@ -61,7 +61,7 @@ Two types of configuration settings can be made:
 - Settings that configure the managed initialization process as a whole.
 - Settings that configure QoS requirements.
 
-See [MPSD Session Templates](../multiplayer-session/mpsd-overview.md) for examples of session templates for common title scenarios.
+For examples of session templates for common title scenarios, see [Multiplayer session templates](../../mpsd/concepts/live-session-templates.md) and [Multiplayer Session Directory overview](../../mpsd/live-mpsd-overview.md).
 
 | Note                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -117,4 +117,5 @@ Here are the fields to set:
 
 ## See also
 
-[MPSD Session Templates](../multiplayer-session/mpsd-overview.md)
+* [Multiplayer session templates](../../mpsd/concepts/live-session-templates.md)
+* [Multiplayer Session Directory overview](../../mpsd/live-mpsd-overview.md)

@@ -10,10 +10,28 @@ ms.localizationpriority: medium
 
 # Using SmartMatch matchmaking
 
+<!-- **In this article**
+* [Flow chart: SmartMatch matchmaking process](#flow-chart-smartmatch-matchmaking-process)
+* [Creating a Match Ticket Session and a Match Ticket](#creating-a-match-ticket-session-and-a-match-ticket)
+* [Setting Matchmaking Attributes on the Session and Players](#setting-matchmaking-attributes-on-the-session-and-players)
+* [Making the Match](#making-the-match)
+* [Maintaining the Match Ticket](#maintaining-the-match-ticket)
+* [Reusing the Game Session as a Match Ticket Session](#reusing-the-game-session-as-a-match-ticket-session)
+* [Deleting the Match Ticket](#deleting-the-match-ticket)
+* [Performing Matchmaking for Games Using Xbox Live Compute](#performing-matchmaking-for-games-using-xbox-live-compute)
+* [See also](#see-also) -->
+
+
+<a id="flow-chart-smartmatch-matchmaking-process"></a>
+
+## Flow chart: SmartMatch matchmaking process
+
 The following flow chart illustrates the SmartMatch matchmaking process.
 
 ![Matchmaking flowchart](live-matchmaking-how-tos-images/Multiplayer_2015_SmartMatch_Matchmaking.png)
 
+
+<a id="creating-a-match-ticket-session-and-a-match-ticket"></a>
 
 ## Creating a Match Ticket Session and a Match Ticket
 
@@ -22,12 +40,14 @@ All users in this group join the session using the **MultiplayerSession.Join Met
 
 Once the ticket session has been created and populated with players, the title submits the session to the matchmaking service using the **MatchmakingService.CreateMatchTicketAsync Method**.
 This method creates a match ticket that represents the ticket session, and updates the /servers/matchmaking/properties/system/status field in the ticket session to "searching".
-For more information, see [How to: Create a Match Ticket](../multiplayer-session/mpsd-how-tos.md).
+See the section [Create a match ticket](../../mpsd/how-to/live-mpsd-how-tos.md#camt) in the article "Multiplayer tasks".
 
 The response from the match ticket creation method is a **CreateMatchTicketResponse Class** object.
 The response contains the match ticket ID, a GUID that can be used can be used to cancel matchmaking by deleting the ticket.
 The response also contains an average wait time for the hopper, which can be used to set user expectations.
 
+
+<a id="setting-matchmaking-attributes-on-the-session-and-players"></a>
 
 ## Setting Matchmaking Attributes on the Session and Players
 
@@ -51,6 +71,8 @@ The matchmaking process "flattens" per-member each into a single ticket-level at
 This is configured on [Partner Center](https://partner.microsoft.com/dashboard).
 
 
+<a id="making-the-match"></a>
+
 ## Making the Match
 
 With the ticket session and the match ticket set up, the matchmaking service matches the represented ticket session with other ticket sessions representing other groups, and creates or identifies a match target session.
@@ -59,7 +81,7 @@ MPSD notifies the title of this change to the ticket session.
 
 Now the title must then take steps to initialize the target session in order to confirm that enough players have shown up, and perform quality of service (QoS) checks to ensure that they can connect to one another successfully.
 If initialization and/or QoS fails, the title marks the ticket session for resubmission to matchmaking so that another group can be found.
-For more information on the processes, see [Target Session Initialization and QoS](matchmaking-overview.md).
+See [Target session initialization and QoS](concepts/live-matchmaking-target-session.md).
 
 During match activity, the following changes are made to the JSON objects for the session:
 
@@ -69,11 +91,15 @@ During match activity, the following changes are made to the JSON objects for th
 -   For each player, ticket attributes copied from the ticketAttributes field in the match ticket to /members/{index}/constants/custom/matchmakingResult/ticketAttrs field
 
 
+<a id="maintaining-the-match-ticket"></a>
+
 ## Maintaining the Match Ticket
 
 The matchmaking service uses a snapshot of the ticket session at the time when the match ticket is created for the session.
 Thus, if any players join or leave the ticket session, the title must use the matchmaking service to delete and recreate the match ticket.
 
+
+<a id="reusing-the-game-session-as-a-match-ticket-session"></a>
 
 ## Reusing the Game Session as a Match Ticket Session
 
@@ -86,6 +112,8 @@ To enable this, the title must create the match ticket by calling **CreateMatchT
 The matchmaking service then ensures that the existing session used for the ticket is preserved throughout the matchmaking process, and becomes the resulting target session.
 
 
+<a id="deleting-the-match-ticket"></a>
+
 ## Deleting the Match Ticket
 
 To delete the match ticket, the title calls **MatchmakingService.DeleteMatchTicketAsync Method**.
@@ -95,6 +123,8 @@ Deletion of the ticket:
 
 2.  Updates the /servers/matchmaking/properties/system/status field in the ticket session to "canceled".
 
+
+<a id="performing-matchmaking-for-games-using-xbox-live-compute"></a>
 
 ## Performing Matchmaking for Games Using Xbox Live Compute
 
@@ -134,12 +164,11 @@ Instead, the matchmaking service copies the /properties/system/matchmaking/serve
 9.  All clients play.
 
 
+<a id="see-also"></a>
+
 ## See also
 
-[SmartMatch Runtime Operations](matchmaking-overview.md)
-
-[SmartMatch Matchmaking](matchmaking-overview.md)
-
-**Microsoft.Xbox.Services.Matchmaking Namespace**
-
-**Microsoft.Xbox.Services.Multiplayer Namespace**
+<!-- * [SmartMatch Runtime Operations](live-matchmaking-overview.md) -->
+* [Matchmaking overview](live-matchmaking-overview.md)
+* **Microsoft.Xbox.Services.Matchmaking Namespace**
+* **Microsoft.Xbox.Services.Multiplayer Namespace**

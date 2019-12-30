@@ -36,19 +36,10 @@ If you have multiple executables in the package, you can specify which executabl
 ```
 
 
-## Registering for multiplayer game invite callbacks
-
-To receive multiplayer game invite callbacks, you need to register for game invite callbacks with the `XGameInviteRegisterForEvent` API.
-<!-- destination not in this repo: For more details on how to register and unregister game invite callback, see the following articles:
-* [XGameInviteRegisterForEvent](xgameinviteregisterforevent.md)
-* [XGameInviteUnregisterForEvent](xgameinviteunregisterforevent.md) -->
+<!-- chm-only content here (h2) -->
 
 
-## Parsing inviteUrl from XGameInviteEventCallback
-
-<!-- destination not in this repo: When your game receives the [XGameInviteEventCallback](xgameinviteeventcallback.md) event, you will have access to the `inviteUrl` string. -->
-When your game receives the `XGameInviteEventCallback` event, you will have access to the `inviteUrl` string.
-The `inviteUrl` will be in one of the formats described below.
+<!-- chm-only content here (h2) -->
 
 
 ### For accepting a game invite
@@ -101,7 +92,8 @@ HRESULT hr = XblMultiplayerManagerJoinLobby(handleId, xblUserHandle);
 ### Using Multiplayer API directly
 
 If you are using Multiplayer API directly, you can do the following steps:
-<!-- destination not in this repo: 1. Fetch the multiplayer session document using the [XblMultiplayerGetSessionByHandleAsync](xblmultiplayergetsessionbyhandleasync.md) API and pass in the `handleIdExtractedFromInviteUrl`.
+<!-- destination not in this repo: 
+1. Fetch the multiplayer session document using the [XblMultiplayerGetSessionByHandleAsync](xblmultiplayergetsessionbyhandleasync.md) API and pass in the `handleIdExtractedFromInviteUrl`.
 1. Join the local user to the multiplayer session document using the [XblMultiplayerSessionJoin](xblmultiplayersessionjoin.md) API.
 1. Write the multiplayer session document to the service to commit this change using the [XblMultiplayerWriteSessionByHandleAsync](xblmultiplayerwritesessionbyhandleasync.md) API. -->
 1. Fetch the multiplayer session document using the `XblMultiplayerGetSessionByHandleAsync` API and pass in the `handleIdExtractedFromInviteUrl`.

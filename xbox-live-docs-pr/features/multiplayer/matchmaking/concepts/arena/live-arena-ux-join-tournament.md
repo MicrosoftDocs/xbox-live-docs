@@ -56,4 +56,4 @@ When registering for a tournament, a user can:
 * Be blocked from registering if a player has been banned.
 
 > [!div class="nextstepaction"]
-> [Match engagement](arena-ux-match-engagement.md)
+> [Match engagement](live-arena-ux-match-engagement.md)

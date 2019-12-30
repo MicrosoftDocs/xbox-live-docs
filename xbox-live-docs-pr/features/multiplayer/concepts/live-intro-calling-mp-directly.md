@@ -213,7 +213,7 @@ See the section [MPSD Change Notification Handling and Disconnect Detection](../
 2015 Multiplayer adds support for MPSD session handles, which are references to sessions that can include typed data.
 For more information, see:
 * The section [Session handles](live-multiplayer-concepts.md#session-handles) in "Multiplayer concepts overview".
-* The section [MPSD Handles to Sessions](live-mpsd-overview.md#mpsd-handles-to-sessions) in "Multiplayer Session Directory (MPSD) overview".
+* The section [MPSD Handles to Sessions](../mpsd/live-mpsd-overview.md#mpsd-handles-to-sessions) in "Multiplayer Session Directory (MPSD) overview".
 
 
 ### Summary of New 2015 Multiplayer WinRT API Functionality
