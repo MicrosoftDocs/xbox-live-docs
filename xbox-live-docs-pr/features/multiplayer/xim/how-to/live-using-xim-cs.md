@@ -10,12 +10,12 @@ ms.localizationpriority: medium
 # Using XIM via C#
 
 > [!div class="op_single_selector" title1="Language"]
-> - [C++](using-xim.md)
-> - [C#](using-xim-cs.md)
+> - [C++](live-using-xim.md)
+> - [C#](live-using-xim-cs.md)
 
 This is a brief walkthrough on using XIM's C# API.
 
-Game developers wanting to access XIM through C++ should see [Using XIM (C++)](using-xim.md).
+Game developers wanting to access XIM through C++ should see [Using XIM (C++)](live-using-xim.md).
 
 **Contents:**
 - [Prerequisites](#prerequisites)
@@ -46,7 +46,7 @@ Before you get started coding with XIM, there are two prerequisites.
 
 1. You must have configured your app's AppXManifest with standard multiplayer networking capabilities and you must have configured the network manifest portion to declare the necessary traffic pattern templates used by XIM.
 
-    AppXManifest capabilities and network manifests are described in more detail in their respective sections of the platform documentation; the typical XIM-specific XML to paste is provided at [XIM Project Configuration](xim-manifest.md).
+    AppXManifest capabilities and network manifests are described in more detail in their respective sections of the platform documentation; the typical XIM-specific XML to paste is provided at [Configuring a XIM project in a manifest](../concepts/live-xim-manifest.md).
 
 2. You'll need to have two pieces of application identity information available:
 

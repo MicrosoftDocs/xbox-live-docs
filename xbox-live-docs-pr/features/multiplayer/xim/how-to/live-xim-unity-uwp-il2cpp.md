@@ -53,7 +53,7 @@ This can be found at https://github.com/Microsoft/xbox-integrated-multiplayer-un
 
 ### 7. You can now use XIM in your scripts
 
-For more guidance on how to use XIM with C#, see [Use XIM (C#)](using-xim-cs.md).
+For more guidance on how to use XIM with C#, see [Using XIM via C#](live-using-xim-cs.md).
 
 The following snippet shows how XIM might be integrated with your code:
 
@@ -134,7 +134,7 @@ As a result, the app should declare the "InternetClientServer" and "PrivateNetwo
 
     ![Visual Studio's networkmanifest.xml properties](live-xim-unity-uwp-il2cpp-images/xim-unity-networkmanifest.png)
 
-    See [XIM Project Configuration](xim-manifest.md) for more information on the network manifest and its content.
+    See [Configuring a XIM project in a manifest](../concepts/live-xim-manifest.md) for more information on the network manifest and its content.
 
 7. Compile and run the UWP app from Visual Studio.
 

@@ -29,7 +29,7 @@ For example, you can't send invites from such a XIM network.
 
 This article describes how to leverage out-of-band reservations in XIM.
 Because of the relatively few differences from "standard" XIM usage described in previous sections, some discussion is abbreviated.
-Familiarity with [Using XIM](using-xim.md) is recommended.
+Familiarity with [Using XIM via C++](live-using-xim.md) is recommended.
 
 
 ## Moving to a new out-of-band reservation XIM network

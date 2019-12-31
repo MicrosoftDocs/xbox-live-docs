@@ -381,7 +381,7 @@ To fill open slots in a ticket session during matchmaking, the title must follow
 
 5.  If the session is not yet full, create the match ticket as described in **How to: Create a Match Ticket**. Be sure to create the ticket with the *preserveSession* parameter set to Always.
 
-6.  Continue with matchmaking. See [Matchmaking overview](../matchmaking/matchmaking-overview.md).
+6.  Continue with matchmaking. See [Matchmaking overview](../../matchmaking/live-matchmaking-overview.md).
 
 The following flow chart illustrates how to fill open session slots during matchmaking.
 

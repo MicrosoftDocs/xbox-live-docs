@@ -10,12 +10,12 @@ ms.localizationpriority: medium
 # Using XIM via C++
 
 > [!div class="op_single_selector" title1="Language"]
-> - [C++](using-xim.md)
-> - [C#](using-xim-cs.md)
+> - [C++](live-using-xim.md)
+> - [C#](live-using-xim-cs.md)
 
 This is a brief walkthrough on using XIM's C++ API.
 
-Game developers wanting to access XIM through C# should see [Using XIM (C#)](using-xim-cs.md).
+Game developers wanting to access XIM through C# should see [Using XIM (C#)](live-using-xim-cs.md).
 
 **Contents:**
 - [Prerequisites](#prerequisites)
@@ -46,7 +46,7 @@ Before you get started coding with XIM, there are two prerequisites.
 
 1. You must have configured your app's AppXManifest with standard multiplayer networking capabilities and you must have configured the network manifest portion to declare the necessary traffic pattern templates used by XIM.
 
-    AppXManifest capabilities and network manifests are described in more detail in their respective sections of the platform documentation; the typical XIM-specific XML to paste is provided at [XIM Project Configuration](xim-manifest.md).
+    AppXManifest capabilities and network manifests are described in more detail in their respective sections of the platform documentation; the typical XIM-specific XML to paste is provided at [Configuring a XIM project in a manifest](../concepts/live-xim-manifest.md).
 
 1. You'll need to have two pieces of application identity information available:
 
@@ -58,7 +58,7 @@ Before you get started coding with XIM, there are two prerequisites.
 Compiling XIM requires including the primary `XboxIntegratedMultiplayer.h` header.
 In order to link properly, your project must also include `XboxIntegratedMultiplayerImpl.h` in at least one compilation unit (a common precompiled header is recommended since these stub function implementations are small and easy for the compiler to generate as "inline").
 
-As mentioned in the [XIM Overview](xbox-integrated-multiplayer.md), the XIM interface does not require a project to choose between compiling with C++/CX versus traditional C++; it can be used with either.
+As mentioned in the [Xbox Integrated Multiplayer (XIM) overview](../live-xim-overview.md), the XIM interface does not require a project to choose between compiling with C++/CX versus traditional C++; it can be used with either.
 The implementation also doesn't throw exceptions as a means of non-fatal error reporting so you can consume it easily from exception-free projects, if preferred.
 
 

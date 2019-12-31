@@ -48,8 +48,8 @@ Every session contains players' Xbox user identifiers (XUIDs) and secure device 
 
 Session variations include:
 - Game session, used as the pattern for game play. A game session can be peer-to-peer, peer-to-host, peer-to-server, or a hybrid of these types.
-- Ticket session, a helper session used to track the state of a match during matchmaking. It is often also a lobby session, and can sometimes be a game session. See [SmartMatch Matchmaking](../matchmaking/matchmaking-overview.md).
-- Target session, a helper session created during matchmaking to represent the matched game play. It is almost always also a game session. See [SmartMatch Matchmaking](../matchmaking/matchmaking-overview.md).
+- Ticket session, a helper session used to track the state of a match during matchmaking. It is often also a lobby session, and can sometimes be a game session. See [SmartMatch Matchmaking](../matchmaking/live-matchmaking-overview.md).
+- Target session, a helper session created during matchmaking to represent the matched game play. It is almost always also a game session. See [SmartMatch Matchmaking](../matchmaking/live-matchmaking-overview.md).
 - Lobby session, a helper session used to accommodate invited players who are waiting to join a game session. Many titles create both a lobby session and a game session. For more information, see **Managing players in your title**.
 
 
@@ -88,7 +88,7 @@ MPSD uses a "shoulder tap" as a lightweight notification that something of inter
 The title should retrieve the modified resource to determine the exact nature of the change.
 With subscriptions enabled, the title can subscribe for shoulder taps on session changes with a call to the **MultiplayerSession.SetSessionChangeSubscription Method**.
 
-See [How to: Subscribe for MPSD Session Change Notifications](mpsd-how-tos.md).
+See the section [Subscribe for MPSD session change notifications](how-to/live-mpsd-how-tos.md#sfmscn) in the article "Multiplayer tasks".
 
 
 ### Handling Shoulder Taps
@@ -334,7 +334,7 @@ To access Multiplayer Session Explorer, open Internet Explorer on your Xbox One,
 
 | Note |
 |---|
-| You will receive an HTTP/404 status code if you attempt to access the tool in the RETAIL sandbox. For more about this code, see [Multiplayer Session Status Codes](mpsd-status-codes.md). |
+| You will receive an HTTP/404 status code if you attempt to access the tool in the RETAIL sandbox. For more about this code, see [Multiplayer session status codes](how-to/live-mpsd-status-codes.md). |
 
 
 ### Using Multiplayer Session Explorer
@@ -371,9 +371,9 @@ The session as shown by MPSD might differ from the response to a standard GET me
 
 ## See also
 
-* The section [Session Overview](live-mpsd-details.md#session-overview) in the article "Multiplayer Session advanced topics"
-* [Multiplayer session status codes](live-mpsd-status-codes.md)
-* The section [Update an MPSD session](live-mpsd-how-tos.md#update-an-mpsd-session) in the article "Multiplayer tasks"
-* The section [Join an MPSD session from a title activation](live-mpsd-how-tos.md#jamsfata) in the article "Multiplayer tasks"
-* The section [Subscribe for MPSD session change notifications](live-mpsd-how-tos.md#sfmscn) in the article "Multiplayer tasks"
+* The section [Session Overview](concepts/live-mpsd-details.md#session-overview) in the article "Multiplayer Session advanced topics"
+* [Multiplayer session status codes](how-to/live-mpsd-status-codes.md)
+* The section [Update an MPSD session](how-to/live-mpsd-how-tos.md#update-an-mpsd-session) in the article "Multiplayer tasks"
+* The section [Join an MPSD session from a title activation](how-to/live-mpsd-how-tos.md#jamsfata) in the article "Multiplayer tasks"
+* The section [Subscribe for MPSD session change notifications](how-to/live-mpsd-how-tos.md#sfmscn) in the article "Multiplayer tasks"
 * [Matchmaking overview](../matchmaking/live-matchmaking-overview.md)

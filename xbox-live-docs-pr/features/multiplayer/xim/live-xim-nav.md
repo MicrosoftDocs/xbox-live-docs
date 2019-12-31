@@ -26,4 +26,4 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [XIM as a dedicated chat solution](xim-reservations.md) | Using Xbox Integrated Multiplayer (XIM) as a dedicated chat solution via out-of-band reservations. |
+| [XIM dedicated chat via out-of-band reservations](how-to/live-xim-chat-reservations.md) | Using Xbox Integrated Multiplayer (XIM) as a dedicated chat solution via out-of-band reservations. |

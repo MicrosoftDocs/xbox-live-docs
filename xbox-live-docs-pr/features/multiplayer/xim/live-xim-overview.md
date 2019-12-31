@@ -23,8 +23,8 @@ Xbox Integrated Multiplayer (XIM) is a self-contained interface for easily addin
 The XIM interface does not require a project to choose between compiling with C++/CX versus traditional C++; it can be used with either.
 The implementation also doesn't throw exceptions as a means of non-fatal error reporting, so you can consume it easily from exception-free projects if preferred.
 
-To get started, see [Using XIM](using-xim.md).
-If you are using C#, see [Using XIM C#](using-xim-cs.md).
+To get started, see [Using XIM via C++](how-to/live-using-xim.md).
+If you are using C#, see [Using XIM via C#](how-to/live-using-xim-cs.md).
 
 
 ## Concepts
@@ -91,7 +91,7 @@ XIM also doesn't constrain apps from using their own concepts, such as support f
 
 - Functions as a dedicated chat solution via out-of-band reservations
 
-    For detailed documentation on using XIM via out-of-band reservations see [XIM Reservations](xim-reservations.md).
+    For detailed documentation on using XIM via out-of-band reservations, see [XIM dedicated chat via out-of-band reservations](how-to/live-xim-chat-reservations.md).
 
 - Exception-free and can be used with either C++/CX or traditional C++
 
