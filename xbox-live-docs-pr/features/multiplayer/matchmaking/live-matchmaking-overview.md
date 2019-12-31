@@ -82,7 +82,7 @@ For more information, see runtime operation configuration information in **Smart
 
 ### Hopper Configuration
 
-See the section [Basic Hopper Configuration for Matchmaking](config\live-matchmaking-config.md#hop) in the article "Matchmaking portal configuration".
+See the section [Basic Hopper Configuration for Matchmaking](config/live-matchmaking-config.md#hop) in the article "Matchmaking portal configuration".
 
 
 ### Match Target Session

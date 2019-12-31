@@ -425,7 +425,7 @@
                     - name: Using large sessions for Multiplayer
                       href: features/multiplayer/mpsd/concepts/live-large-sessions.md
                 - name: MPSD how-to's
-                  href: features/multiplayer/mpsd/how-to/live-mpsd-concepts-nav.md
+                  href: features/multiplayer/mpsd/how-to/live-mpsd-howto-nav.md
                   items:
                     - name: Multiplayer tasks
                       href: features/multiplayer/mpsd/how-to/live-mpsd-how-tos.md
@@ -444,7 +444,7 @@
                     - name: Multiplayer invites for UWP games
                       href: features/multiplayer/invites/concepts/live-multiplayer-invite-uwp.md
                 - name: Invites how-to's
-                  href: features/multiplayer/invites/how-to/live-invites-nav.md
+                  href: features/multiplayer/invites/how-to/live-invites-howto-nav.md
                   items: 
                     - name: Sending invites
                       href: features/multiplayer/invites/how-to/live-invites-send.md

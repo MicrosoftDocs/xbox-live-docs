@@ -10,6 +10,21 @@ ms.localizationpriority: medium
 
 # Multiplayer Session advanced topics
 
+<!-- **Contents**
+* [Session Overview](#session-overview)
+* [Member Properties](#member-properties)
+* [Session Capabilities](#session-capabilities)
+* [Session Size](#session-size)
+* [Session User States](#session-user-states)
+* [Visibility and Joinability](#visibility-and-joinability)
+* [Session Timeouts](#session-timeouts)
+* [Multiple Signed in Users on a Single Console](#multiple-signed-in-users-on-a-single-console)
+* [Process Lifecycle Management](#process-lifecycle-management)
+* [Cleanup of Inactive Sessions](#cleanup-of-inactive-sessions)
+* [Session Arbiter](#session-arbiter) -->
+
+
+<a id="session-overview"></a>
 
 ## Session Overview
 
@@ -104,6 +119,8 @@ Set the member constants at join time for each session member.
 The JSON object is /members/{index}/constants/system.
 The WinRT wrapper class representing a session member is the **MultiplayerSessionMember Class**.
 
+
+<a id="member-properties"></a>
 
 ## Member Properties
 
@@ -213,6 +230,8 @@ Each session template is a JSON document, part of the service configuration, tha
 See [Multiplayer session templates](live-session-templates.md).
 
 
+<a id="session-capabilities"></a>
+
 ## Session Capabilities
 
 *Capabilities* are constants in the MPSD session that configure behavior that the MPSD should apply to that session.
@@ -244,6 +263,8 @@ The **MultiplayerSessionConstants Class** defines the following properties that 
 | If the title defines a dynamic session capability, the corresponding property is set to true for session constants. |
 
 
+<a id="session-size"></a>
+
 ## Session Size
 
 The size of an MPSD session is determined by the number of members in that session.
@@ -274,6 +295,8 @@ A large MPSD session can have up to 1000 members, but it has some session featur
 
 <!--TBD # link-->
 
+
+<a id="session-user-states"></a>
 
 ## Session User States
 
@@ -338,6 +361,8 @@ The title must allow all users to remove themselves using the **MultiplayerSessi
 The session activities associated with the users are automatically cleared when they leave the session.
 
 
+<a id="visibility-and-joinability"></a>
+
 ## Visibility and Joinability
 
 Session access is controlled at the MPSD level by two settings: session visibility and session joinability.
@@ -386,6 +411,8 @@ Making joinability either local or followed restricts access to the session and 
 Additionally, the arbiter should keep track of session joinability so that older session invites can be rejected at the host level if needed.
 For example, if any invited players have not arrived to join a session until the session is already full, the arbiter can instruct the joining players that the session has been locked and they need to leave the session automatically.
 
+
+<a id="session-timeouts"></a>
 
 ## Session Timeouts
 
@@ -518,6 +545,8 @@ If the inactive timeout for the example session is set to 0, Player B times out 
 In this case, the session closes without the need of an additional read from or write to the session.
 
 
+<a id="multiple-signed-in-users-on-a-single-console"></a>
+
 ## Multiple Signed-in Users on a Single Console
 
 When multiple users are signed in on the same console, it's possible for some users to be in a game session while other users are not in the session or are not active in the current title.
@@ -534,6 +563,8 @@ Session state and member events notify the title of any updates to the game sess
 To handle multiple signed-in users for an online session, the title subscribes for shoulder taps for all users, using a separate **XboxLiveContext Class** object for each user.
 The title uses the **MultiplayerSession.ChangeNumber Property** to determine particular changes in the session and ignore duplicate shoulder taps.
 
+
+<a id="process-lifecycle-management"></a>
 
 ## Process Lifecycle Management
 
@@ -566,6 +597,8 @@ See [Migrating an Arbiter](../../concepts/live-migrating-an-arbiter.md).
 | The title should not attempt to save game state to TMS more frequently than once every 5 minutes, unless it is being suspended. |
 
 
+<a id="cleanup-of-inactive-sessions"></a>
+
 ## Cleanup of Inactive Sessions
 
 If the sessionEmptyTimeout is set to 0, an MPSD session is automatically deleted when the last player leaves the session.
@@ -576,6 +609,8 @@ The recommended way to clean up inactive sessions is to have the title query all
 When it encounters a stale session, the title calls the **MultiplayerSession.Leave Method** for all local players in the session.
 This call drops the member count to 0 eventually and cleans up the sessions.
 
+
+<a id="session-arbiter"></a>
 
 ## Session Arbiter
 

@@ -352,5 +352,5 @@ The Should rule is identical until the last generation--once there, tickets may 
 
 ## See also
 
-* [Multiplayer session templates](live-session-templates.md)
-* [Multiplayer Session Directory overview](live-mpsd-overview.md)
+* [Multiplayer session templates](../../mpsd/concepts/live-session-templates.md)
+* [Multiplayer Session Directory overview](../../mpsd/live-mpsd-overview.md)

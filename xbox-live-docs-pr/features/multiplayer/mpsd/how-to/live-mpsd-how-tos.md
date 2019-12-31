@@ -35,7 +35,7 @@ This article shows how to implement specific tasks related to using Multiplayer 
 
 | Note                                                                                                                                                                                                                                                                                                                                    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Subscribing for changes to a session requires the associated player to be active in the session. The connectionRequiredForActiveMembers field must also be set to true in the /constants/system/capabilities object for the session. This field is usually set in the session template. See [MPSD Session Templates](mpsd-overview.md). |
+| Subscribing for changes to a session requires the associated player to be active in the session. The connectionRequiredForActiveMembers field must also be set to true in the /constants/system/capabilities object for the session. This field is usually set in the session template. See [Multiplayer session templates](../concepts/live-session-templates.md) and [Multiplayer Session Directory overview](../live-mpsd-overview.md). |
 
 To receive MPSD session change notifications, the title can follow the procedure below.
 
@@ -159,13 +159,13 @@ The title uses the following procedure to set an arbiter for a session that has 
 
 | Note                                                                                                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Your client should handle the HTTP/412 status code separately from other HTTP codes, since HTTP/412 does not indicate a standard failure. For more about the status code, see [Multiplayer Session Status Codes](mpsd-status-codes.md). |
+| Your client should handle the HTTP/412 status code separately from other HTTP codes, since HTTP/412 does not indicate a standard failure. For more about the status code, see [Multiplayer Session Status Codes](live-mpsd-status-codes.md). |
 
 5.  Update the session in MPSD, as described in **How to: Update a Multiplayer Session**.
 
 | Note                                                                                                                                                                                                                                           |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| If you have no better algorithm, the client can implement a greedy algorithm in which each host candidate attempts to set itself as the host if nobody else has done it yet. For more information, see [Session Arbiter](mpsd-details.md). |
+| If you have no better algorithm, the client can implement a greedy algorithm in which each host candidate attempts to set itself as the host if nobody else has done it yet. See the section [Session Arbiter](../concepts/live-mpsd-details.md#session-arbiter) in the article "Multiplayer Session advanced topics". |
 
 
 <a id="mta"></a>
@@ -339,7 +339,7 @@ To update an existing session, the title must:
     -   **MultiplayerService.TryWriteSessionAsync Method**
     -   **MultiplayerService.TryWriteSessionByHandleAsync Method**
 
-    Set the write mode to **SynchronizedUpdate** if writing to a shared portion that other titles can also modify. See [Synchronization of Session Updates](mpsd-overview.md) for more information.
+    Set the write mode to **SynchronizedUpdate** if writing to a shared portion that other titles can also modify. See the section [Synchronization of Session Updates](../live-mpsd-overview.md#synchronization-of-session-updates) in the article "Multiplayer Session Directory overview".
 
     The write method writes the join to the server and gets the latest session, from which to discover other session members and the secure device addresses (SDAs) of their consoles. For more information about establishing a network connection among these consoles, see **Introduction to Winsock on Xbox One**.
 
@@ -381,7 +381,7 @@ To fill open slots in a ticket session during matchmaking, the title must follow
 
 5.  If the session is not yet full, create the match ticket as described in **How to: Create a Match Ticket**. Be sure to create the ticket with the *preserveSession* parameter set to Always.
 
-6.  Continue with matchmaking. See [Using SmartMatch Matchmaking](../matchmaking/matchmaking-overview.md).
+6.  Continue with matchmaking. See [Matchmaking overview](../matchmaking/matchmaking-overview.md).
 
 The following flow chart illustrates how to fill open session slots during matchmaking.
 
