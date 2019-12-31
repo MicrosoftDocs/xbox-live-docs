@@ -109,7 +109,7 @@ You also have several options of API that provide varying levels of simplicity v
 
 | Article | Description |
 |---------|-------------|
-| [Xbox Live Multiplayer features](../multiplayer/multiplayer-intro.md) | If you are new to Xbox Live multiplayer development, or are unfamiliar with new APIs such as Multiplayer Manager and Xbox Integrated Multiplayer (XIM), then start here. |
-| [Multiplayer scenarios](../multiplayer/multiplayer-scenarios.md) | Suggestions and guidance on how you might incorporate multiplayer into your title. |
-| [Xbox Integrated Multiplayer](../multiplayer/xbox-integrated-multiplayer/xbox-integrated-multiplayer.md) | Xbox Integrated Multiplayer (XIM) is an easy self-contained interface for adding multiplayer, real-time networking, and chat to your title. |
-| [Multiplayer Manager](../multiplayer/multiplayer-manager/multiplayer-manager.md) | Multiplayer Manager provides an API focused on common multiplayer scenarios. |
+| [Multiplayer overview](../features/multiplayer/live-multiplayer-intro.md) | If you are new to Xbox Live multiplayer development, or are unfamiliar with new APIs such as Multiplayer Manager and Xbox Integrated Multiplayer (XIM), then start here. |
+| [Common multiplayer scenarios](../features/multiplayer/concepts/live-common-multiplayer-scenarios.md) | Suggestions and guidance on how you might incorporate multiplayer into your title. |
+| [Xbox Integrated Multiplayer (XIM)](../features/multiplayer/xim/live-xim-nav.md) | Xbox Integrated Multiplayer (XIM) is an easy self-contained interface for adding multiplayer, real-time networking, and chat to your title. |
+| [Multiplayer Manager](../features/multiplayer/mpm/live-multiplayer-manager-nav.md) | High-level API for adding multiplayer functionality by managing sessions, matchmaking, and game invites. Provides a state- and event-based programming model. |

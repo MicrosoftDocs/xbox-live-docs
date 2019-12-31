@@ -26,7 +26,7 @@ The Xbox Live SDK supports Windows 10 RTM [Version 10.0.10240] and Visual Studio
 - Please see the [Fine-Grained Rate Limiting](../using-xbox-live/best-practices/fine-grained-rate-limiting.md) article for a description of how these are enforced for various Xbox Live Service endpoints and scenarios, as well as information about what the limits are.
 
 ## Multiplayer Manager
-The [Multiplayer Manager](../multiplayer/multiplayer-manager/multiplayer-manager.md) is no longer in experimental.  We have incorporated feedback from developers using this API and made some of the APIs more consistent with each other.  Please use the Multiplayer Manager as a starting point when doing your multiplayer development, as it provides a simpler API that manages many of the complexities of the Multiplayer 2015 API for you.
+[Multiplayer Manager (MPM)](../features/multiplayer/mpm/live-multiplayer-manager-nav.md) is no longer in Experimental status.  We have incorporated feedback from developers using this API and made some of the APIs more consistent with each other.  Please use the Multiplayer Manager as a starting point when doing your multiplayer development, as it provides a simpler API that manages many of the complexities of the Multiplayer 2015 API for you.
 
 In the below sections, we have listed some of the new features to the API, as well as a small number of breaking changes.
 

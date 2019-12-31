@@ -187,7 +187,7 @@ For multiplayer session management, the Multiplayer Manager is a drop-in solutio
 The Multiplayer Manager API includes player roster and session management, handles game invites, join in progress, matchmaking, and plugs into your existing networking solution.
 It does all the heavy lifting around implementing traditional multiplayer flows.
 
-See [Multiplayer Manager](../../multiplayer/multiplayer-manager/multiplayer-manager.md).
+See [Multiplayer Manager](../../features/multiplayer/mpm/live-multiplayer-manager-nav.md).
 
 
 ## Throttling (fine grained rate limiting)

@@ -95,16 +95,26 @@ Session handles enable Xbox Live members to join existing sessions.
 Each session handle includes a guid that uniquely identifies the handle, which allows titles to reference the session by using a single guid.
 
 There are several types of session handles:
+
 #### Invite handle
+
 An invite handle is passed to a member when they are invited to join a game.
 The invite handle contains information that lets the invited member's game join the correct session.
+
 #### Search handle
+
 A search handle includes additional metadata about the session, and allows titles to search for sessions that meet the selected criteria.
+
 #### Activity handle
+
 An activity handle lets members see what other members on their social network are playing, and can be used join a friend's game.
+
 #### Correlation handle
+
 A correlation handle effectively works as an alias for a session, allowing a game to refer to a session by only using the id of the correlation handle.
+
 #### Transfer handle
+
 A transfer handle is used to move players from one session to another session.
 
 
