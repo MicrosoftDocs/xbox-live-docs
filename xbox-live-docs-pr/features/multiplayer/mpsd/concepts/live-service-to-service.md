@@ -13,7 +13,8 @@ Like other services, the Multiplayer Session Directory (MPSD) supports service-t
 
 Management of multiplayer sessions through a title service, instead of clients, can reduce error handling logic and avoid race conditions for session write operations. This specifically applies for large session types with large session membership. Therefore, it is best practice for MMOs and titles with many players in a session to manage MPSD sessions through the title server.
 
-For general information about RESTful MPSD calling patterns, refer to [Xbox Live REST Additional Reference](../xbox-live-rest/additional/atoc-xboxlivews-reference-additional.md).
+For general information about RESTful MPSD calling patterns, refer to [Xbox Live REST Additional Reference](../../../../xbox-live-rest/additional/atoc-xboxlivews-reference-additional.md).
+
 
 ## MPSD service-to-service authentication
 
@@ -30,7 +31,9 @@ The following authentication flow is used for service authentication:
 1. Call the MPSD service service with the X token and headers (as specified in the next section). 
 <!--For detailed information on S2S authentication refer to [S2S Auth Doc topic].-->
 
+
 ## MPSD service-to-service headers
+
 
 ### Title header
 
@@ -47,6 +50,7 @@ Request.Headers["X-Xbl-OnBehalfOf-Title"] = "484921321";
 ```
 
 This header must be specified to make calls for a particular title.
+
 
 ### User header
 
@@ -74,6 +78,7 @@ The last requirement means that the service is permitted to take only actions th
 
 For example, a service can set a user as active in a title only if the user is, in fact, running and interacting with that title on the console. The service must then set the user to inactive when he or she is no longer interacting with the title on the console. Similarly, a service can send an invite on behalf of a user only if the user has taken an explicit action to send the invite.
 
+
 ### Deny-Scope header
 
 The `Multiplayer.Manage` access policy overrides user access permissions for service-to-service calls to the MPSD service. Any session access is therefore not restricted based on user permissions. To re-enable user permission checks, you can use the `X-Xbl-Deny-Scope` header:
@@ -92,6 +97,7 @@ This header ensures that the Multiplayer.Manage access policy is not used as an 
 
 > [!NOTE]
 > When setting this header, the `Multiplayer.Runtime` access must also be granted for the web service as a fall-back. This allows access even when user permissions are denied. Otherwise, no service access is granted in an error scenario and a 403 status will be returned. `Multiplayer.Runtime` access requires an acting user, so the `X-Xbl-Deny-Scope` header will only work together with the `X-Xbl-OnBehalfOf-Users` or a user claim obtained from a `DelegationToken` claim.
+
 
 ### Session member management
 
@@ -134,6 +140,7 @@ When the user header is specified, the standard "me" member in a session documen
 
 Title services should use these patterns to perform operations on multiple users (e.g. adding/removing players) through a single MPSD call.
 
+
 ### Adding session members
 
 Session members are added and modified by using one of the above patterns. Generally, the minimum operation to add a player is by setting a property or constant, typically the member’s active status property.
@@ -174,6 +181,7 @@ Other required properties and constants for the player should be set through the
 }
 ```
 
+
 ### Removing session members
 
 Session members are removed by setting using null within the member section:
@@ -206,6 +214,7 @@ Session members are removed by setting using null within the member section:
     }
 }
 ```
+
 
 ### Member reservations
 
@@ -255,9 +264,11 @@ Reservations for multiple users can be added to the session in the user order sp
 > [!NOTE]
 > Reservations are not supported by large sessions. Mixing reservations and adding/removing session members is not supported.
 
+
 ### Session member state
 
 A title service can track and set the state of a session member through system properties. This allows full control of member state and information.
+
 
 ### Member active status
 
@@ -277,6 +288,7 @@ The active status of a member is marking the player active in the session and pr
 ```
 
 Session members should generally always be set to active when they are added to the session. Inactive members should only be used in flows where session members should temporarily remain in the session even if they are disconnected. For S2S flows this can also be managed directly in the title server.
+
 
 ### Member reserve status
 
@@ -308,7 +320,7 @@ These members will be removed from the session by the MPSD once the `reservedRem
 
 ## Large Session limitations
 
-MPSD sessions with the large capability enabled support more than 100 players. These sessions function differently than regular sessions, refer to [Using large sessions for Multiplayer](service-configuration/large-sessions.md) for more information.
+MPSD sessions with the large capability enabled support more than 100 players. These sessions function differently than regular sessions, refer to [Using large sessions for Multiplayer](live-large-sessions.md) for more information.
 
 Operations to large sessions are always carried out as a single user. As a result, S2S calls to large sessions must only include a single user in the `X-Xbl-OnBehalfOf-Users` header. Multiple user operations are not supported. Adding/removing users must be performed through individual calls for each user. Such S2S calls must be performed sequentially to avoid lock congestion on the underlying session document. Parallel operations to the same document will result in longer call times and not speed up the total operation time.
 
@@ -318,7 +330,7 @@ Title services should therefore track the user information for members of large 
 
 ### Encounters and Groups
 
-Sessions with the large capabilities do not update the recent player list automatically. Instead other players are added directly to the recent player list trough Encounters and Groups. For more details refer to [Using large sessions for Multiplayer](service-configuration/large-sessions.md).
+Sessions with the large capabilities do not update the recent player list automatically. Instead other players are added directly to the recent player list trough Encounters and Groups. For more details refer to [Using large sessions for Multiplayer](live-large-sessions.md).
 
 The following pattern is used for flagging session members as part of an encounter:
 
@@ -408,11 +420,15 @@ The list of groups is replaced with every write operation. To remove a member fr
 > [!NOTE]
 > The `groups` property is persistent and will be visible in responses for a member.
 
+
 ### Activity Session management
 
 The activity handle of a user determines which session is used for Platform invites and Join-in-Progress. This handle cannot be set through S2S calls and is currently only available through client APIs. A title server can share the session name with a client to enable activity handle creation for a S2S session.
 
-For more information on handles see [Multiplayer 2015 Appendix](multiplayer-appendix/multiplayer-appendix.md).
+For more information on handles, see:
+* The section [Session handles](../../concepts/live-multiplayer-concepts.md#session-handles) in "Multiplayer concepts overview"
+* The section [MPSD Handles to Sessions](../live-mpsd-overview.md#mpsd-handles-to-sessions) in "Multiplayer Session Directory (MPSD) overview"
+
 
 ## Best practices
 
@@ -446,6 +462,7 @@ When performing MPSD S2S calls titles should adhere to the following best practi
 * *Large session encounters*  
   To ensure encounters in large sessions are captured correctly, all encounters member properties should be written in under 30 seconds. A title service should always attempt to batch updates to the encounters property for all participating members into a single service call. Encounters must use a unique identifier. The use of a GUID is recommended.
 
+
 ## Example S2S Session Template
 
 The following session template is a starting point for a session that is controlled through S2S calls:
@@ -469,6 +486,7 @@ The following session template is a starting point for a session that is control
     }
 }
 ```
+
 
 ## Example S2S Large Session Template
 

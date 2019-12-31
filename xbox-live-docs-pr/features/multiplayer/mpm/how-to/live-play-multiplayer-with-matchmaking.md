@@ -248,4 +248,4 @@ if (result.err())
 
 ## See also
 
-* [Xbox Live Samples](../../../samples.md)
+* [Xbox Live Samples](../../../../samples.md)

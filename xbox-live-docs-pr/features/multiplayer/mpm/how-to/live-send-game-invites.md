@@ -19,7 +19,7 @@ There are two ways to send an invite:
 1. [Xbox Platform Invite TCUI](#xbox-platform-invite-tcui)
 2. [Title implemented custom UI](#title-implemented-custom-ui)
 
-You can see a flowchart of the process here: [Flowchart - Send Invitation to another player](mpm-flowcharts/live-mpm-send-invites.md).
+You can see a flowchart of the process here: [Sending invites to another player (flowchart)](../concepts/flowcharts/live-mpm-send-invites.md).
 
 
 ### 1) Xbox Platform Invite TCUI <a name="xbox-platform-invite-tcui">

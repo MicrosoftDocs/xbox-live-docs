@@ -38,6 +38,8 @@ With the config UI for Partner Center, you can map each session to one or more h
 For more information, see Basic Hopper Configuration for Matchmaking.
 
 
+<a id="hop"></a>
+
 #### Basic Hopper Configuration for Matchmaking
 
 This section defines the fields used to configure basic hopper fields.
@@ -349,4 +351,6 @@ The Should rule is identical until the last generation--once there, tickets may 
 
 
 ## See also
-[MPSD Session Templates](../../mpsd/live-mpsd-overview.md)
+
+* [Multiplayer session templates](live-session-templates.md)
+* [Multiplayer Session Directory overview](live-mpsd-overview.md)

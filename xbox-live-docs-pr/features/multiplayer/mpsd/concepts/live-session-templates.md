@@ -18,7 +18,7 @@ All sessions must be created based on a predefined template.
 A template defines constants that will be the same for any session that is created from the template.
 Once a game creates a session from a template, the game can add and modify additional data to the session, but cannot modify the constants that were defined in the template.
 
-For more information, see [Session Overview](../multiplayer-session/mpsd-details.md).
+See the section [Session Overview](live-mpsd-details.md#session-overview) in the article "Multiplayer Session advanced topics".
 
 The list of session templates that apply to a service configuration identifier (SCID), as well as the contents of specific session templates, can be retrieved from Multiplayer Session Directory (MPSD).
 
@@ -42,7 +42,7 @@ MPSD effectively "upgrades" these requests to version 107 at run time.
 > **Note:** It is permissible to use a different contract version in the request from what is used in the session template.
 
 If necessary, you can change a session template from version 104/105 to version 107.
-For instructions, see migrating instructions in [Common Issues When Adapting Your Titles for 2015 Multiplayer](../multiplayer-appendix/common-issues-when-adapting-multiplayer.md).
+For instructions, see migrating instructions in [Changing a game from 2014 to 2015 Multiplayer](../../concepts/live-issues-changing-to-mp-2015.md).
 
 
 ## Session template default values

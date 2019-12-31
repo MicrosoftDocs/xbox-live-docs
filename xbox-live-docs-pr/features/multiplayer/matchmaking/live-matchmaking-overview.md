@@ -18,7 +18,7 @@ SmartMatch groups players based on user information and the matchmaking request 
 Matchmaking is server-based, meaning that users provide a request to the service, and they are later notified when a match is found.
 
 There are several API approaches you can use for SmartMatch matchmaking:
-* The SmartMatch matchmaking service is wrapped by [Multiplayer Manager](../multiplayer-manager/live-multiplayer-manager-nav.md).
+* The SmartMatch matchmaking service is wrapped by [Multiplayer Manager (MPM)](../mpm/live-multiplayer-manager-nav.md).
 * Or, for advanced API usage, you can directly call methods of the **MatchmakingService Class**.
 
 If you have a matchmaking scenario that isn't supported by Multiplayer Manager, please provide feedback to us via your Microsoft Representative.
@@ -82,7 +82,7 @@ For more information, see runtime operation configuration information in **Smart
 
 ### Hopper Configuration
 
-See the section [Basic Hopper Configuration for Matchmaking](live-matchmaking-config.md#hop) in the article "Matchmaking portal configuration".
+See the section [Basic Hopper Configuration for Matchmaking](config\live-matchmaking-config.md#hop) in the article "Matchmaking portal configuration".
 
 
 ### Match Target Session
@@ -93,5 +93,5 @@ See [Target session initialization and QoS](concepts/live-matchmaking-target-ses
 
 ## See also
 
-* [Multiplayer session templates](live-session-templates.md)
-* [Multiplayer Session Directory overview](live-mpsd-overview.md)
+* [Multiplayer session templates](../mpsd/concepts/live-session-templates.md)
+* [Multiplayer Session Directory overview](../mpsd/live-mpsd-overview.md)
