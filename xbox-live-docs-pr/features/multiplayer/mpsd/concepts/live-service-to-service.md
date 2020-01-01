@@ -330,7 +330,7 @@ Title services should therefore track the user information for members of large 
 
 ### Encounters and Groups
 
-Sessions with the large capabilities do not update the recent player list automatically. Instead other players are added directly to the recent player list trough Encounters and Groups. For more details refer to [Using large sessions for Multiplayer](live-large-sessions.md).
+Sessions with the large capabilities do not update the recent player list automatically. Instead other players are added directly to the recent player list trough Encounters and Groups. For details, see [Using large sessions for Multiplayer](live-large-sessions.md).
 
 The following pattern is used for flagging session members as part of an encounter:
 
@@ -426,8 +426,8 @@ The list of groups is replaced with every write operation. To remove a member fr
 The activity handle of a user determines which session is used for Platform invites and Join-in-Progress. This handle cannot be set through S2S calls and is currently only available through client APIs. A title server can share the session name with a client to enable activity handle creation for a S2S session.
 
 For more information on handles, see:
-* The section [Session handles](../../concepts/live-multiplayer-concepts.md#session-handles) in "Multiplayer concepts overview"
-* The section [MPSD Handles to Sessions](../live-mpsd-overview.md#mpsd-handles-to-sessions) in "Multiplayer Session Directory (MPSD) overview"
+* The section [Session handles](../../concepts/live-multiplayer-concepts.md#session-handles) in the article "Multiplayer concepts overview"
+* The section [MPSD Handles to Sessions](../live-mpsd-overview.md#mpsd-handles-to-sessions) in the article "Multiplayer Session Directory overview"
 
 
 ## Best practices

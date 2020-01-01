@@ -14,6 +14,6 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Overview of Multiplayer Manager](live-multiplayer-manager-overview.md) | High-level API for adding multiplayer functionality by managing sessions, matchmaking, and game invites. Provides a state- and event-based programming model. |
-| [Multiplayer concepts](concepts/live-mm-concepts-nav.md) | Conceptual articles about Multiplayer Manager. |
-| [Multiplayer how-to's](how-to/live-mm-howto-nav.md) | Example code for Multiplayer Manager. |
+| [Multiplayer Manager overview](live-multiplayer-manager-overview.md) | High-level API for adding multiplayer functionality by managing sessions, matchmaking, and game invites. Provides a state- and event-based programming model. |
+| [Multiplayer Manager concepts](concepts/live-mm-concepts-nav.md) | Conceptual articles about Multiplayer Manager. |
+| [Multiplayer Manager how-to's](how-to/live-mm-howto-nav.md) | Example code for Multiplayer Manager. |

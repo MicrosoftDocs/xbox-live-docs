@@ -142,10 +142,10 @@ for (auto& event : eventQueue)
 This section covers common scenarios, and the APIs you would call in each scenario.
 Some information on what Multiplayer Manager is doing behind the scenes is also provided.
 
-* [Play with friends](how-to/live-play-multiplayer-with-friends.md)
-* [Find a match](how-to/live-play-multiplayer-with-matchmaking.md)
-* [Send game invites](how-to/live-send-game-invites.md)
-* [Handle protocol activation](how-to/live-handle-protocol-activation.md)
+* [Enable playing a multiplayer game with friends using Multiplayer Manager](how-to/live-play-multiplayer-with-friends.md)
+* [Finding a multiplayer game by using SmartMatch using Multiplayer Manager](how-to/live-play-multiplayer-with-matchmaking.md)
+* [Sending game invites using Multiplayer Manager](how-to/live-send-game-invites.md)
+* [Handling protocol activation to start a game, using Multiplayer Manager](how-to/live-handle-protocol-activation.md)
 
 A high level overview of the API can be found at [Multiplayer Manager API overview](concepts/live-multiplayer-manager-api-overview.md).
 

@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 This document details the similarities between Game Chat (here called *Game Chat 1*) and Game Chat 2 and how to migrate from Game Chat 1 to Game Chat 2.
 As such, it is for titles that have an existing Game Chat 1 implementation that wish to migrate to Game Chat 2.
 
-If you don't already have a Game Chat implementation, the suggested starting point is [Using Game Chat 2](live-using-game-chat-2.md).
+If you don't already have a Game Chat implementation, the suggested starting point is [Using the Game Chat 2 C++ API](live-using-game-chat-2.md).
 
 
 ## Preface
@@ -35,7 +35,7 @@ Some highlights include:
 * Identical UWP + Exclusive Resource Application (ERA) headers for a more convenient cross-plat development experience.
 
 This document details the similarities between Game Chat 1 and Game Chat 2 and how to migrate from Game Chat 1 to the Game Chat 2 C++ API.
-If you are interested in migration from Game Chat 1 to the Game Chat 2 WinRT API, it is suggested that you read this document to understand how to map Game Chat 1 concepts to Game Chat 2, and then see [Using Game Chat 2 WinRT Projections](live-using-game-chat-2-winrt.md) for the patterns specific to WinRT.
+If you are interested in migration from Game Chat 1 to the Game Chat 2 WinRT API, it is suggested that you read this document to understand how to map Game Chat 1 concepts to Game Chat 2, and then see [Using the Game Chat 2 C# API with WinRT projections](live-using-game-chat-2-winrt.md) for the patterns specific to WinRT.
 
 The sample code for the original Game Chat in this document uses C++/CX.
 
@@ -174,7 +174,7 @@ That is performed synchronously with the following call:
 chat_manager::singleton_instance().remove_user(chatUserD);
 ```
 
-Refer to [Using Game Chat 2 - Configuring Users](live-using-game-chat-2.md#configuring-users) for more detailed examples or the reference for individual API methods for more information.
+See the section [Configuring users](live-using-game-chat-2.md#configuring-users) in the article "Using the Game Chat 2 C++ API", for more detailed examples, or the reference for individual API methods for more information.
 
 
 ## Processing data
@@ -415,7 +415,7 @@ Game Chat 2 will automatically transcribe each remote user's audio and expose it
 
 > `Windows::Xbox::UI::Accessibility` is an Xbox One class specifically designed to provide simple rendering of in-game text chat with a focus on speech-to-text assistive technologies.
 
-Refer to [Using Game Chat 2 - Speech-to-text performance considerations](live-using-game-chat-2.md#speech-to-text-performance-considerations) for more details on speech-to-text performance considerations.
+See the section [Speech-to-text performance considerations](live-using-game-chat-2.md#speech-to-text-performance-considerations) in the article "Using the Game Chat 2 C++ API", for more details on speech-to-text performance considerations.
 
 
 ## UI
@@ -517,7 +517,7 @@ Both Game Chat and Game Chat 2 have a "bad reputation auto-mute" feature.
 This means that users will start off in a muted state when (1) the remote user isn't friends with a local user, and (2) the remote user has a bad reputation flag.
 
 Game Chat 2 provides feedback when a user is muted due to this feature.
-Refer to [Using Game Chat 2 - Bad reputation auto-mute](live-using-game-chat-2.md#bad-reputation-auto-mute) for more information.
+See the section [Bad reputation auto-mute](live-using-game-chat-2.md#bad-reputation-auto-mute) in the article "Using the Game Chat 2 C++ API", for more information.
 
 
 ## Privilege and privacy
@@ -554,7 +554,7 @@ As such, it's memory resources are reclaimed when the last reference count drops
 Interaction with Game Chat 2's C++ API is done through a singleton instance; when the app no longer needs communications via Game Chat 2, you should call `chat_manager::cleanup()`.
 This allows Game Chat 2 immediately release all resources that were allocated to manage communications.
 
-For details on Game Chat 2's WinRT API and resource management, see [Using Game Chat 2 WinRT Projections](live-using-game-chat-2-winrt.md#cleanup).
+For details on Game Chat 2's WinRT API and resource management, see [Using the Game Chat 2 C# API with WinRT projections](live-using-game-chat-2-winrt.md#cleanup).
 
 
 ## Failure model and debugging
@@ -575,7 +575,7 @@ Game Chat 2's WinRT API follows the WinRT pattern of reporting errors through ex
 
 ## How to configure popular scenarios
 
-Refer to [Using Game Chat 2 - How to configure popular scenarios](live-using-game-chat-2.md#how-to-configure-popular-scenarios) for examples on how to configure popular scenarios such as push-to-talk, teams, and broadcast-style communication scenarios.
+For examples on how to configure popular scenarios such as push-to-talk, teams, and broadcast-style communication scenarios, see the section [How to configure popular scenarios](live-using-game-chat-2.md#how-to-configure-popular-scenarios) in the article "Using the Game Chat 2 C++ API".
 
 
 ## Pre-encode and post-decode audio manipulation

@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 
 | Note |
 |---|
-| This article is for advanced API usage.  As a starting point, please take a look at the [Multiplayer Manager API](../mpm/live-multiplayer-manager-nav.md) which significantly simplifies development.  Please let your DAM know if you find an unsupported scenario in the Multiplayer Manager. |
+| This article is for advanced API usage.  As a starting point, see [Multiplayer Manager (MPM)](../mpm/live-multiplayer-manager-nav.md) which significantly simplifies development.  Please let your DAM know if you find an unsupported scenario in the Multiplayer Manager. |
 
 
 ## About the Multiplayer System
@@ -175,7 +175,7 @@ It allowed a title to:
 | Game Invite | An invitation to join a game session. |
 | Game Session | A session in which users are actually playing together. All multiplayer scenarios, for example, matchmaking or joining a lobby, ultimately end up in a game session. The session is often advertised as the users' current activities to enable joins. It is also used to build the recent players list. See [Multiplayer Session advanced topics](../mpsd/concepts/live-mpsd-details.md). |
 | Game Session Host | The console running the game play simulation for titles built on a host-based peer-to-peer network architecture. This console is typically the same as the arbiter, but it does not have to be the same. |
-| Handle (or Session Handle) | A reference to an MPSD session that has additional state and behavior associated with it. See the section [MPSD Handles to Sessions](../mpsd/live-mpsd-overview.md#mpsd-handles-to-sessions) in "Multiplayer Session Directory (MPSD) overview". |
+| Handle (or Session Handle) | A reference to an MPSD session that has additional state and behavior associated with it. See the section [MPSD Handles to Sessions](../mpsd/live-mpsd-overview.md#mpsd-handles-to-sessions) in "Multiplayer Session Directory overview". |
 | Inactive Player | A player who has been set to the Inactive state within the session. The title sets a player to this state when a game is suspended or is otherwise inactive, as defined by the title. In some instances, MPSD might also set a player as inactive, but it is primarily the responsibility of the title to do so. See the section [Session User States](../mpsd/concepts/live-mpsd-details.md#session-user-states) in the article "Multiplayer Session advanced topics". |
 | Hopper | A Hopper is a logic-driven collection of match tickets. A title can have multiple hoppers, but only tickets within the same hopper can be matched. For example, a title might create one hopper for which player skill is the most important item for matching. It might use another hopper in which players are only matched if they have purchased the same downloadable content. For more information on where hoppers fit into the SmartMatch workflow, see [Matchmaking overview](../matchmaking/live-matchmaking-overview.md) |
 | Join in Progress | The concept of joining another player's game after game play has begun. Players can join a friend's game through the friend's gamer card. The title can then move those players into the game session at the appropriate time. |
@@ -183,7 +183,7 @@ It allowed a title to:
 | Match Target Session | A match session set up during SmartMatch matchmaking to represent the match. See [Matchmaking overview](../matchmaking/live-matchmaking-overview.md). |
 | Match Ticket Session | A preliminary match session set up during SmartMatch matchmaking. See [Matchmaking overview](../matchmaking/live-matchmaking-overview.md). |
 | MPSD Session | A secure document that resides in the multiplayer session directory (MPSD) within the Xbox Live cloud. It contains a group of users who might be connected while running a title on Xbox One, along with metadata about the users and their game. See [Multiplayer Session advanced topics](../mpsd/concepts/live-mpsd-details.md). |
-| Multiplayer Session Directory (MPSD) | The service operating in the cloud that the multiplayer system uses to store and retrieve sessions. See [Multiplayer Session Directory](../mpsd/live-mpsd-nav.md). |
+| Multiplayer Session Directory (MPSD) | The service operating in the cloud that the multiplayer system uses to store and retrieve sessions. See [Multiplayer Session Directory (MPSD)](../mpsd/live-mpsd-nav.md). |
 | Party App | An Xbox One system snap app that allows users to view and manage their parties. |
 | Server Session | A game session created by Xbox Live Compute processing. See [Multiplayer Session advanced topics](../mpsd/concepts/live-mpsd-details.md). |
 | Shoulder Tap | A notification from MPSD to a title that a potentially interesting change has occurred on the service. The shoulder tap is a quick reminder, often less informational than a regular notification. See the section [MPSD Change Notification Handling and Disconnect Detection](../mpsd/live-mpsd-overview.md#mpsd-change-notification-handling-and-disconnect-detection) in the article "Multiplayer Session Directory overview". |
@@ -212,8 +212,8 @@ See the section [MPSD Change Notification Handling and Disconnect Detection](../
 
 2015 Multiplayer adds support for MPSD session handles, which are references to sessions that can include typed data.
 For more information, see:
-* The section [Session handles](live-multiplayer-concepts.md#session-handles) in "Multiplayer concepts overview".
-* The section [MPSD Handles to Sessions](../mpsd/live-mpsd-overview.md#mpsd-handles-to-sessions) in "Multiplayer Session Directory (MPSD) overview".
+* The section [Session handles](live-multiplayer-concepts.md#session-handles) in the article "Multiplayer concepts overview".
+* The section [MPSD Handles to Sessions](../mpsd/live-mpsd-overview.md#mpsd-handles-to-sessions) in the article "Multiplayer Session Directory overview".
 
 
 ### Summary of New 2015 Multiplayer WinRT API Functionality
@@ -277,7 +277,7 @@ See [Xbox Live Compute](https://developer.microsoft.com/games/xbox/docs/xdk/xbox
 
 ## See also
 
-* [Multiplayer Session Directory](../mpsd/live-mpsd-nav.md)
+* [Multiplayer Session Directory (MPSD)](../mpsd/live-mpsd-nav.md)
 * [Matchmaking overview](../matchmaking/live-matchmaking-overview.md)
 * [Real-Time Activity (RTA) Service](../../../real-time-activity-service/real-time-activity-service_nav.md)
 * [Reputation](../../../social-platform/people-system/reputation_nav.md)

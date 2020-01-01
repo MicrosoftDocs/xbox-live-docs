@@ -48,8 +48,8 @@ Every session contains players' Xbox user identifiers (XUIDs) and secure device 
 
 Session variations include:
 - Game session, used as the pattern for game play. A game session can be peer-to-peer, peer-to-host, peer-to-server, or a hybrid of these types.
-- Ticket session, a helper session used to track the state of a match during matchmaking. It is often also a lobby session, and can sometimes be a game session. See [SmartMatch Matchmaking](../matchmaking/live-matchmaking-overview.md).
-- Target session, a helper session created during matchmaking to represent the matched game play. It is almost always also a game session. See [SmartMatch Matchmaking](../matchmaking/live-matchmaking-overview.md).
+- Ticket session, a helper session used to track the state of a match during matchmaking. It is often also a lobby session, and can sometimes be a game session. See [Matchmaking overview](../matchmaking/live-matchmaking-overview.md).
+- Target session, a helper session created during matchmaking to represent the matched game play. It is almost always also a game session. See [Matchmaking overview](../matchmaking/live-matchmaking-overview.md).
 - Lobby session, a helper session used to accommodate invited players who are waiting to join a game session. Many titles create both a lobby session and a game session. For more information, see **Managing players in your title**.
 
 

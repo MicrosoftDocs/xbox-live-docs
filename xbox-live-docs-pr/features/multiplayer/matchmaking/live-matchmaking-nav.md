@@ -19,6 +19,6 @@ ms.localizationpriority: medium
 ### See also
 
 * [Xbox Live Samples](../../../samples.md)
-* [Finding a multiplayer game by using SmartMatch](../mpm/how-to/live-play-multiplayer-with-matchmaking.md)
+* [Finding a multiplayer game by using SmartMatch using Multiplayer Manager](../mpm/how-to/live-play-multiplayer-with-matchmaking.md)
 * [Playing a game by using SmartMatch matchmaking (flowchart)](../mpm/concepts/flowcharts/live-mpm-play-with-smartmatch-matchmaking.md)
 * [Checking Quality of Service for matchmaking (flowchart)](../mpm/concepts/flowcharts/live-mpm-use-matchmaking-and-qos.md)

@@ -159,7 +159,7 @@ The title uses the following procedure to set an arbiter for a session that has 
 
 | Note                                                                                                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Your client should handle the HTTP/412 status code separately from other HTTP codes, since HTTP/412 does not indicate a standard failure. For more about the status code, see [Multiplayer Session Status Codes](live-mpsd-status-codes.md). |
+| Your client should handle the HTTP/412 status code separately from other HTTP codes, since HTTP/412 does not indicate a standard failure. For more about the status code, see [Multiplayer session status codes](live-mpsd-status-codes.md). |
 
 5.  Update the session in MPSD, as described in **How to: Update a Multiplayer Session**.
 

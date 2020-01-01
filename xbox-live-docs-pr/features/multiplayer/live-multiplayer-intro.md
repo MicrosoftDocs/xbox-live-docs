@@ -62,7 +62,7 @@ Multiplayer Manager implements many common multiplayer scenarios in an efficient
 Xbox Multiplayer Manager does not implement a networking or chat layer.
 MPM is designed as a flexible but simplified and consolidated multiplayer management API for your game paired with a secure networking layer implemented via Windows.Networking.XboxLive.
 
-In-game communication can be added with the [Game Chat 2](chat/live-game-chat-2-overview.md) API or through XIM Chat Reservations.
+In-game communication can be added with the [Game Chat](chat/live-chat-nav.md) API or through XIM Chat Reservations.
 The networking and Game Chat 2 APIs are documented in the Xbox One XDK and the Xbox Live Platform Extensions SDK.
 
 
@@ -71,19 +71,19 @@ The networking and Game Chat 2 APIs are documented in the Xbox One XDK and the X
 If you are hosting dedicated servers for your multiplayer game, MPM is the best choice.
 MPM is also well-suited for advanced scenarios such as integration with Xbox Live Tournaments.
 
-For more information on MPM, see  [Multiplayer Manager Overview](mpm/live-multiplayer-manager-overview.md).
+For more information on MPM, see  [Multiplayer Manager overview](mpm/live-multiplayer-manager-overview.md).
 
 
 #### Configuring multiplayer
 
 To use Multiplayer Manager, you must configure the Xbox Live service for your multiplayer scenarios.
-For more information on this configuration, see [Configure the Multiplayer service](concepts/live-configure-the-multiplayer-service.md).
+For more information on this configuration, see [Configuring the Multiplayer service](concepts/live-configure-the-multiplayer-service.md).
 
 
 #### Session browse
 
 Multiplayer Manager does not currently support session browse.
-See [Multiplayer Session Browse](concepts/live-session-browse.md).
+See [Multiplayer session browse](concepts/live-session-browse.md).
 
 
 ### API Capabilities
@@ -91,6 +91,6 @@ See [Multiplayer Session Browse](concepts/live-session-browse.md).
 Functionality | Xbox Integrated Multiplayer| Multiplayer Manager
 --  | -- | --
 Visibility              | XIM is provided as a compiled library without source.  | MPM is provided with source, so you may customize behavior by directly interacting with Xbox Live services or with XSAPI.
-Session and Matchmaking | XIM provides simple pre-configured matchmaking rules and does not require multiplayer configuration. | MPM [requires configuring the Multiplayer service](concepts/live-configure-the-multiplayer-service.md), which enables sophisticated specification of matchmaking and session behavior.
+Session and Matchmaking | XIM provides simple pre-configured matchmaking rules and does not require multiplayer configuration. | MPM requires [Configuring the Multiplayer service](concepts/live-configure-the-multiplayer-service.md), which enables sophisticated specification of matchmaking and session behavior.
 Networking              | XIM provides a simple & secure player-to-player network, backed by the Xbox Live Relay service when required. | MPM is designed so you can plug in your own secure networking solution using Windows.Networking.XboxLive.
 Game chat               | XIM provides integrated voice and text chat. | In-game communication can be implemented with the Game Chat 2 API or by using XIM out-of-band reservations to enable chat for an MPM managed roster.

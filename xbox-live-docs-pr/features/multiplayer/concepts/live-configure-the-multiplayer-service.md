@@ -85,7 +85,7 @@ For more information about configuring the multiplayer service, see the followin
 
 **Article** | **Description**
 --- | ---
-[Configure your AppXManifest for Multiplayer](../invites/concepts/live-multiplayer-invite-uwp.md) | Describes how to configure a UWP  AppXManifest file to work with the Xbox Live multiplayer service.
+[Multiplayer invites for UWP games](../invites/concepts/live-multiplayer-invite-uwp.md) | Describes how to configure a UWP AppXManifest file to work with the Xbox Live multiplayer service.
 [Multiplayer session templates](../mpsd/concepts/live-session-templates.md) | Gives a brief overview of multiplayer session templates and provides several examples of templates that you can copy and modify for your multiplayer sessions.
 [Session template constants](../mpsd/concepts/live-session-template-constants.md) | Describes the predefined elements of a multiplayer session template.
-[Large sessions](../mpsd/concepts/live-large-sessions.md) | Describes when and how to use large sessions.
+[Using large sessions for Multiplayer](../mpsd/concepts/live-large-sessions.md) | Describes when and how to use large sessions.

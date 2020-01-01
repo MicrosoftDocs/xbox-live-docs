@@ -14,7 +14,7 @@ This article describes issues that you must consider when adapting a 2014 Multip
 
 <!-- from ~\multiplayer\multiplayer-appendix\multiplayer-appendix.md: -->
 > **Note**  
-The Multiplayer 2015 service, described in this article, is for advanced API usage.  As a starting point, instead use the [Multiplayer Manager API](../mpm/live-multiplayer-manager-nav.md) which significantly simplifies development. If you find an unsupported scenario in the Multiplayer Manager API, please let your DAM know.
+The Multiplayer 2015 service, described in this article, is for advanced API usage.  As a starting point, instead use [Multiplayer Manager (MPM)](../mpm/live-multiplayer-manager-nav.md), which significantly simplifies development. If you find an unsupported scenario in the Multiplayer Manager API, please let your DAM know.
 
 > **Note**  
 The previous version of the multiplayer system is Multiplayer 2014.

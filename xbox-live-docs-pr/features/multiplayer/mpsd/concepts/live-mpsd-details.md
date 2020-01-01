@@ -590,7 +590,7 @@ Session-wide metadata, such as current map, is stored in the global custom prope
 
 Game state is stored in title-managed storage (TMS), using the **title storage service**.
 Storage using this location allows a title to migrate the arbiter without permission concerns.
-See [Migrating an Arbiter](../../concepts/live-migrating-an-arbiter.md).
+See [Migrating an arbiter](../../concepts/live-migrating-an-arbiter.md).
 
 | Note                                                                                                               |
 |---------------------------------------------------------------------------------------------------------------------------------|
@@ -629,7 +629,7 @@ See the section [Set an arbiter for an MPSD session](../how-to/live-mpsd-how-tos
 
 As discussed in **Process Lifecycle Management**, the arbiter should save session state periodically.
 A new arbiter must be able to restore session state in the case of arbiter migration by the title.
-For more information, see [Migrating an Arbiter](../../concepts/live-migrating-an-arbiter.md).
+For more information, see [Migrating an arbiter](../../concepts/live-migrating-an-arbiter.md).
 
 
 ### Managing Game Session Members and Joins in Progress

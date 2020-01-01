@@ -39,7 +39,7 @@ You will need to add the following to the ```<Extensions>``` element under ```<A
 
 For example:
 
-![Highlighted changes to Package.appxmanifest mark up](live-multiplayer-invite-uwp-images/multiplayer_appxmanifest_changes.png)
+![Highlighted changes to Package.appxmanifest markup](live-multiplayer-invite-uwp-images/multiplayer_appxmanifest_changes.png)
 
 Save and rebuild your title.
-To learn how to use the Multiplayer Manager to implement the ability to invite players to your title, see [Play Multiplayer With Friends](../../mpm/how-to/live-play-multiplayer-with-friends.md).
+To learn how to use the Multiplayer Manager to implement the ability to invite players to your title, see [Enable playing a multiplayer game with friends using Multiplayer Manager](../../mpm/how-to/live-play-multiplayer-with-friends.md).

@@ -18,7 +18,7 @@ Your title can get protocol activated through the following ways:
 
 This scenario covers how to handle the protocol activation when your title is launched and join the lobby and game (if one exists).
 
-You can see a flowchart of the process here: [Flowchart - Handle protocol activation player](../concepts/flowcharts/live-mpm-on-protocol-activation.md).
+You can see a flowchart of the process here: [Handling protocol activation (flowchart)](../concepts/flowcharts/live-mpm-on-protocol-activation.md).
 
 | Method | Event triggered |
 | -----|----------------|

@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 
 This is a brief walkthrough on using the C# API of Game Chat 2 with WinRT projections to add voice and text communication to your game.
 
-Game developers wanting to access Game Chat 2 through C++ should instead see [Using Game Chat 2](live-using-game-chat-2.md).
+Game developers wanting to access Game Chat 2 through C++ should instead see [Using the Game Chat 2 C++ API](live-using-game-chat-2.md).
 
 
 ## Prerequisites <a name="prereq">

@@ -365,9 +365,9 @@
             - name: Multiplayer Manager (MPM)
               href: features/multiplayer/mpm/live-multiplayer-manager-nav.md
               items: 
-                - name: Overview of Multiplayer Manager
+                - name: Multiplayer Manager overview
                   href: features/multiplayer/mpm/live-multiplayer-manager-overview.md
-                - name: Multiplayer concepts
+                - name: Multiplayer Manager concepts
                   href: features/multiplayer/mpm/concepts/live-mm-concepts-nav.md
                   items: 
                     - name: Multiplayer Manager API overview
@@ -391,7 +391,7 @@
                           href: features/multiplayer/mpm/concepts/flowcharts/live-mpm-host-migration.md
                         - name: Shutting down a multiplayer session (flowchart)
                           href: features/multiplayer/mpm/concepts/flowcharts/live-mpm-shut-down.md
-                - name: Multiplayer how-to's
+                - name: Multiplayer Manager how-to's
                   href: features/multiplayer/mpm/how-to/live-mm-howto-nav.md
                   items: 
                     - name: Enable playing a multiplayer game with friends using Multiplayer Manager

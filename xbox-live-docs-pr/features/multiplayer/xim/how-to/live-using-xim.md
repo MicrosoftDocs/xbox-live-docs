@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 
 This is a brief walkthrough on using XIM's C++ API.
 
-Game developers wanting to access XIM through C# should see [Using XIM (C#)](live-using-xim-cs.md).
+Game developers wanting to access XIM through C# should see [Using XIM via C#](live-using-xim-cs.md).
 
 **Contents:**
 - [Prerequisites](#prerequisites)
