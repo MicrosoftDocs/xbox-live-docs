@@ -1,11 +1,16 @@
 ---
 title: Multiplayer overview
 description: Multiplayer features in Xbox Live include Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
-ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer
-ms.date: 04/04/2017
+kindex: Multiplayer overview
+author: v-mihof
+ms.author: v-mihof
+ms.topic: conceptual
+ms.prod: xbox
+ms.technology: xboxgc
 ms.assetid: 958b94b3-dccd-479a-bf52-54f7ff1656fa
 ms.localizationpriority: medium
+ms.date: 04/04/2017
+edited: 04/04/2017
 ---
 
 # Multiplayer overview
@@ -60,18 +65,19 @@ Multiplayer Manager implements many common multiplayer scenarios in an efficient
 #### Networking or chat
 
 Xbox Multiplayer Manager does not implement a networking or chat layer.
-MPM is designed as a flexible but simplified and consolidated multiplayer management API for your game paired with a secure networking layer implemented via Windows.Networking.XboxLive.
+MPM is designed as a flexible but simplified and consolidated multiplayer management API for your game paired with a secure networking layer implemented via `Windows.Networking.XboxLive`.
 
 In-game communication can be added with the [Game Chat](chat/live-chat-nav.md) API or through XIM Chat Reservations.
+<!-- public: break into two sentences or bullet points: one about networking, one about Game Chat:-->
 The networking and Game Chat 2 APIs are documented in the Xbox One XDK and the Xbox Live Platform Extensions SDK.
 
 
 #### Servers and tournaments
 
-If you are hosting dedicated servers for your multiplayer game, MPM is the best choice.
+If you are hosting dedicated servers for your multiplayer game, Multiplayer Manager (MPM) is the best choice.
 MPM is also well-suited for advanced scenarios such as integration with Xbox Live Tournaments.
 
-For more information on MPM, see  [Multiplayer Manager overview](mpm/live-multiplayer-manager-overview.md).
+See [Multiplayer Manager overview](mpm/live-multiplayer-manager-overview.md).
 
 
 #### Configuring multiplayer
