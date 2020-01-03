@@ -3,7 +3,9 @@ title: Using SmartMatch matchmaking
 description: Using SmartMatch to match players in a multiplayer game.
 ms.assetid: 10b6413e-51d9-4fec-9110-5e258d291040
 ms.date: 04/04/2017
-ms.topic: article
+ms.topic: conceptual
+ms.prod: gaming
+ms.technology: xboxlive
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, matchmaking, smartmatch
 ms.localizationpriority: medium
 ---

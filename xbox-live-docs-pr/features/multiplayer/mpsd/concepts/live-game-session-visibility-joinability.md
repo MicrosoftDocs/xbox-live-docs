@@ -3,7 +3,9 @@ title: Game session visibility and joinability
 description: Visibility and joinability of multiplayer game sessions and game parties.
 ms.assetid: 39b6dac1-0c6b-4dc1-9fe0-3cb7c471fbab
 ms.date: 04/04/2017
-ms.topic: article
+ms.topic: conceptual
+ms.prod: gaming
+ms.technology: xboxlive
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---

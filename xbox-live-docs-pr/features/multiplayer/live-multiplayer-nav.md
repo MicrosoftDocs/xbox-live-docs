@@ -2,12 +2,16 @@
 title: Multiplayer
 description: Matchmaking, invites, voice and text chat, and networking.
 layout: LandingPage
+kindex: Multiplayer, Xbox Live
+kindex: Xbox Live, Multiplayer
 author: mikehoffms
 ms.author: v-mihof
+ms.topic: navigation
+ms.prod: gaming
+ms.technology: xboxlive
 ms.date: 12/11/2018
-ms.topic: article
-keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
+edited: 00/00/0000
 ---
 
 <h1>Multiplayer</h1>

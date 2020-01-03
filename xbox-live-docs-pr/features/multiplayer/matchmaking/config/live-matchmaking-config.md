@@ -1,7 +1,9 @@
 ---
 title: Matchmaking portal configuration
 description: Configuring Partner Center to select compatible players.
-ms.topic: article
+ms.topic: portal
+ms.prod: gaming
+ms.technology: xboxlive
 ms.assetid: ba0c1ecb-e928-4e86-9162-8cb456b697ff
 ms.date: 04/04/2017
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, matchmaking, smartmatch

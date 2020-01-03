@@ -3,7 +3,9 @@ title: Multiplayer Manager overview
 description: High-level API for adding multiplayer functionality by managing sessions, matchmaking, and game invites. Provides a state- and event-based programming model.
 author: KevinAsgari
 ms.author: kevinasg
-ms.topic: article
+ms.topic: overview
+ms.prod: gaming
+ms.technology: xboxlive
 ms.date: 04/04/2017
 ms.localizationpriority: medium
 ms.assetid: f3a6c8bc-4f73-4b99-ac51-aadee73c8cfa

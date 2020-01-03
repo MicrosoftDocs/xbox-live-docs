@@ -5,8 +5,8 @@ kindex: Multiplayer overview
 author: v-mihof
 ms.author: v-mihof
 ms.topic: conceptual
-ms.prod: xbox
-ms.technology: xboxgc
+ms.prod: gaming
+ms.technology: xboxlive
 ms.assetid: 958b94b3-dccd-479a-bf52-54f7ff1656fa
 ms.localizationpriority: medium
 ms.date: 04/04/2017

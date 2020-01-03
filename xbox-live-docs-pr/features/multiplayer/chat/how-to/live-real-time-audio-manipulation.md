@@ -2,7 +2,9 @@
 title: Real-time audio manipulation
 description: Inspecting and effects-processing the chat audio that is captured by Game Chat 2.
 ms.date: 05/10/2018
-ms.topic: article
+ms.topic: how-to
+ms.prod: gaming
+ms.technology: xboxlive
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, game chat 2, game chat, voice communication, buffer manipulation, audio manipulation
 ms.localizationpriority: medium
 ---

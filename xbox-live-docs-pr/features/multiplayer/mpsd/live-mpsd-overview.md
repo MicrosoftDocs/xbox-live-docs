@@ -3,7 +3,9 @@ title: Multiplayer Session Directory overview
 description: Enables a title to share the information needed to connect a group of users, to create a multiplayer session.
 ms.assetid: a9b029ea-4cc1-485a-8253-e1c74184f35e
 ms.date: 04/04/2017
-ms.topic: article
+ms.topic: overview
+ms.prod: gaming
+ms.technology: xboxlive
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, mpsd, multiplayer session directory.
 ms.localizationpriority: medium
 ---

@@ -2,7 +2,9 @@
 title: UX for Arena notifications
 description: List of Xbox Arena notifications that are sent to players to guide them through the tournament stages.
 ms.date: 10/12/2017
-ms.topic: article
+ms.topic: conceptual
+ms.prod: gaming
+ms.technology: xboxlive
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, arena, tournament, ux
 ms.localizationpriority: medium
 ---

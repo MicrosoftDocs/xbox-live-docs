@@ -1,7 +1,9 @@
 ---
 title: Configuring a XIM project in a manifest
 description: Configuring your UWP app manifests to work with Xbox Integrated Multiplayer (XIM).
-ms.topic: article
+ms.topic: conceptual
+ms.prod: gaming
+ms.technology: xboxlive
 ms.date: 04/04/2017
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, xbox integrated multiplayer, manifest
 ms.assetid: 5d0ed7bd-9527-42a3-ae09-8cc9012c1111

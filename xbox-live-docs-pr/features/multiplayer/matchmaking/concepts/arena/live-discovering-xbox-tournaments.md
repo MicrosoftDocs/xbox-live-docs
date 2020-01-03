@@ -4,7 +4,9 @@ description: Creating a UI for your game's tournament discovery.
 author: KevinAsgari
 ms.author: kevinasg
 ms.date: 10/12/2017
-ms.topic: article
+ms.topic: conceptual
+ms.prod: gaming
+ms.technology: xboxlive
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, arena, tournament, ux
 ms.localizationpriority: medium
 ---

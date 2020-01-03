@@ -4,7 +4,9 @@ description: Xbox Arena runs tournaments for your game.
 layout: LandingPage
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: article
+ms.topic: navigation
+ms.prod: gaming
+ms.technology: xboxlive
 ms.date: 12/06/2018
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, arena, tournament, ux
 ms.localizationpriority: medium

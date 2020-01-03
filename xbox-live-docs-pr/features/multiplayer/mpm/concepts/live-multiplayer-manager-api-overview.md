@@ -3,7 +3,9 @@ title: Multiplayer Manager API overview
 description: The most important classes and methods in the Multiplayer Manager API.
 ms.assetid: 658babf5-d43e-4f5d-a5c5-18c08fe69a66
 ms.date: 04/04/2017
-ms.topic: article
+ms.topic: conceptual
+ms.prod: gaming
+ms.technology: xboxlive
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, multiplayer manager
 ms.localizationpriority: medium
 ---

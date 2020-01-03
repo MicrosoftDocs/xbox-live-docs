@@ -4,9 +4,9 @@ description: A player can invite other players to their game sessions. Invited p
 kindex: Invites overview
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: conceptual
-ms.prod: xbox
-ms.technology: xboxgc
+ms.topic: overview
+ms.prod: gaming
+ms.technology: xboxlive
 edited: 00/00/0000
 ---
 

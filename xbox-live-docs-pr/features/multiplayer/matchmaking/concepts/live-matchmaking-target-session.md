@@ -1,7 +1,9 @@
 ---
 title: Target session initialization and QoS
 description: After players are matched into a target session, the title confirms enough players have joined and can connect.
-ms.topic: article
+ms.topic: conceptual
+ms.prod: gaming
+ms.technology: xboxlive
 ms.assetid: ba0c1ecb-e928-4e86-9162-8cb456b697ff
 ms.date: 04/04/2017
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, matchmaking, smartmatch

@@ -3,7 +3,9 @@ title: Enable playing a multiplayer game with friends using Multiplayer Manager
 description: Using Multiplayer Manager to enable playing a multiplayer game online with friends.
 ms.assetid: 6eefee0e-6c0d-473a-97e7-f3e45f574712
 ms.date: 04/04/2017
-ms.topic: article
+ms.topic: how-to
+ms.prod: gaming
+ms.technology: xboxlive
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, multiplayer manager, flowchart
 ms.localizationpriority: medium
 ---

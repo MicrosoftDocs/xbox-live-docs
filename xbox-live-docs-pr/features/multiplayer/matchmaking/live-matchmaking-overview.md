@@ -3,7 +3,9 @@ title: Matchmaking overview
 description: The SmartMatch matchmaking service selects compatible players in a multiplayer game.
 ms.assetid: ba0c1ecb-e928-4e86-9162-8cb456b697ff
 ms.date: 04/04/2017
-ms.topic: article
+ms.topic: overview
+ms.prod: gaming
+ms.technology: xboxlive
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, matchmaking, smartmatch
 ms.localizationpriority: medium
 ---

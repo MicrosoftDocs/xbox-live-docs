@@ -3,7 +3,9 @@ title: Multiplayer tasks
 description: Implementing common tasks in Multiplayer 2015.
 ms.assetid: 99c5b7c4-018c-4f7a-b2c9-0deed0e34097
 ms.date: 08/29/2017
-ms.topic: article
+ms.topic: how-to
+ms.prod: gaming
+ms.technology: xboxlive
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer 2015
 ms.localizationpriority: medium
 ---

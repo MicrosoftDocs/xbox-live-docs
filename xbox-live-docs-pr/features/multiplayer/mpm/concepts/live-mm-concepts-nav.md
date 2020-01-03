@@ -5,7 +5,9 @@ layout: LandingPage
 kindex: Multiplayer Manager concepts
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: article
+ms.topic: navigation
+ms.prod: gaming
+ms.technology: xboxlive
 ms.date: 12/17/2019
 ms.localizationpriority: medium
 ---

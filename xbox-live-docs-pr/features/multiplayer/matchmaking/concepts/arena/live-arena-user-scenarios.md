@@ -2,7 +2,9 @@
 title: UX for Arena participant user scenarios
 description: User scenarios for Xbox Arena participants are various combinations of collaboration and competition.
 ms.date: 10/12/2017
-ms.topic: article
+ms.topic: conceptual
+ms.prod: gaming
+ms.technology: xboxlive
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, arena, tournament, ux
 ms.localizationpriority: medium
 ---

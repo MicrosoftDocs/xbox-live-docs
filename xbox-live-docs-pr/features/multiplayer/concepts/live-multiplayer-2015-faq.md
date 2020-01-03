@@ -3,7 +3,9 @@ title: Multiplayer 2015 FAQ and troubleshooting
 description: FAQs and troubleshooting for Multiplayer 2015.
 ms.assetid: 75823f10-b342-4e20-b885-e5ad4392bc3d
 ms.date: 04/04/2017
-ms.topic: article
+ms.topic: conceptual
+ms.prod: gaming
+ms.technology: xboxlive
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer
 ms.localizationpriority: medium
 ---

@@ -5,9 +5,9 @@ kindex: Multiplayer concepts
 kindex: Xbox Live, Multiplayer
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: conceptual
-ms.prod: xbox
-ms.technology: xboxgc
+ms.topic: navigation
+ms.prod: gaming
+ms.technology: xboxlive
 ms.localizationpriority: medium
 ms.date: 09/12/2019
 edited: 09/12/2019

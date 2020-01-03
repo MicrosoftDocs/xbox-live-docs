@@ -3,7 +3,9 @@ title: Multiplayer invites for UWP games
 description: Updating Package.appxmanifest to enable multiplayer invites for UWP games.
 ms.assetid: 72f179e7-4705-4161-9b8a-4d6a1a05b8f7
 ms.date: 04/04/2017
-ms.topic: article
+ms.topic: conceptual
+ms.prod: gaming
+ms.technology: xboxlive
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, protocol activation, multiplayer
 ms.localizationpriority: medium
 ---

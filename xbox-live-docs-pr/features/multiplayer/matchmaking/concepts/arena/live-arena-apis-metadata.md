@@ -2,7 +2,9 @@
 title: UI metadata from Arena APIs
 description: Comprehensive list of UI metadata for Xbox Arena APIs, including tournament, match, team, and registration details.
 ms.date: 10/12/2017
-ms.topic: article
+ms.topic: conceptual
+ms.prod: gaming
+ms.technology: xboxlive
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, arena, tournament, ux
 ms.localizationpriority: medium
 ---

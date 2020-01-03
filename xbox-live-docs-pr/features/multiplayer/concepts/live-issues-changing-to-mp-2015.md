@@ -3,7 +3,9 @@ title: Changing a game from 2014 to 2015 Multiplayer
 description: Changing a title from 2014 Multiplayer to 2015 Multiplayer.
 ms.assetid: 206f8fe4-c7aa-44b8-923b-18f679d8439f
 ms.date: 04/04/2017
-ms.topic: article
+ms.topic: conceptual
+ms.prod: gaming
+ms.technology: xboxlive
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---

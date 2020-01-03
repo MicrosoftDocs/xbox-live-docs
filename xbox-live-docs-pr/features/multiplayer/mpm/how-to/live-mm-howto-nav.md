@@ -6,7 +6,9 @@ kindex: Multiplayer Manager how-to's
 author: mikehoffms
 ms.author: v-mihof
 ms.date: 12/17/2019
-ms.topic: article
+ms.topic: navigation
+ms.prod: gaming
+ms.technology: xboxlive
 ms.localizationpriority: medium
 ---
 

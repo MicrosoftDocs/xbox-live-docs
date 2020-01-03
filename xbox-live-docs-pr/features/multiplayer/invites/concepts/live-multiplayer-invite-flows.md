@@ -3,7 +3,9 @@ title: Flows for multiplayer game invites
 description: Updated flow diagrams for implementing multiplayer game invites, to invite another player to a multiplayer game.
 ms.assetid: 1569588e-3bbc-47d3-8b7d-cc9774071adc
 ms.date: 04/04/2017
-ms.topic: article
+ms.topic: conceptual
+ms.prod: gaming
+ms.technology: xboxlive
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer 2015
 ms.localizationpriority: medium
 ---

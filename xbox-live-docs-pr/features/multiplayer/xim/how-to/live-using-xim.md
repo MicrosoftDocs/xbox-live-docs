@@ -2,7 +2,9 @@
 title: Using XIM via C++
 description: Using Xbox Integrated Multiplayer (XIM) with C++.
 ms.date: 04/24/2018
-ms.topic: article
+ms.topic: how-to
+ms.prod: gaming
+ms.technology: xboxlive
 keywords: xbox live, xbox, games, xbox one, xbox integrated multiplayer
 ms.localizationpriority: medium
 ---

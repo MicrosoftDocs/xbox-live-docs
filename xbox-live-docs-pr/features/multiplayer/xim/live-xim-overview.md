@@ -1,7 +1,9 @@
 ---
 title: Xbox Integrated Multiplayer (XIM) overview
 description: Xbox Integrated Multiplayer (XIM) is an all-in-one multiplayer/networking/chat solution for Xbox Live games.
-ms.topic: article
+ms.topic: overview
+ms.prod: gaming
+ms.technology: xboxlive
 ms.date: 01/25/2018
 ms.assetid: edbb28e6-1b6c-4f12-a9c6-fa8961de99a8
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, xbox integrated multiplayer

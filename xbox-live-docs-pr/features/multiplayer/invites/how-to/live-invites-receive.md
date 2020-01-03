@@ -5,9 +5,9 @@ kindex: Receiving invites
 kindex: invites
 author: jeffshi
 ms.author: jeffshi
-ms.topic: conceptual
-ms.prod: xbox
-ms.technology: xboxgc
+ms.topic: how-to
+ms.prod: gaming
+ms.technology: xboxlive
 ms.localizationpriority: medium
 ms.date: 10/01/2019
 edited: 12/18/2019

@@ -3,7 +3,9 @@ title: Configuring the Multiplayer service
 description: Configuring the Multiplayer Service, including session templates, SmartMatch hoppers, and custom invite strings.
 ms.assetid: d042d4d5-1c75-4257-8a6f-07eddd39ca7e
 ms.date: 07/12/2017
-ms.topic: article
+ms.topic: conceptual
+ms.prod: gaming
+ms.technology: xboxlive
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, service configuration, session template, custom invite string, smartmatch hopper
 ms.localizationpriority: medium
 ---

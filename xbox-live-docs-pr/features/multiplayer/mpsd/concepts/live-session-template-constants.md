@@ -3,7 +3,9 @@ title: Session template constants
 description: All system constants that are defined in multiplayer session templates, defining settings for a multiplayer session.
 ms.assetid: d51b2f12-1c56-4261-8692-8f73459dc462
 ms.date: 04/04/2017
-ms.topic: article
+ms.topic: conceptual
+ms.prod: gaming
+ms.technology: xboxlive
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, session template
 ms.localizationpriority: medium
 ---

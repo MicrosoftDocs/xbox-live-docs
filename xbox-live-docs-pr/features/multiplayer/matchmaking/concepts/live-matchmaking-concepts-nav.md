@@ -4,9 +4,9 @@ description: SmartMatch matchmaking groups players based on user information and
 kindex: Matchmaking concepts
 author: v-mihof
 ms.author: v-mihof
-ms.topic: conceptual
-ms.prod: xbox
-ms.technology: xboxgc
+ms.topic: navigation
+ms.prod: gaming
+ms.technology: xboxlive
 ms.date: 09/12/2019
 ms.localizationpriority: medium
 edited: 12/18/2019

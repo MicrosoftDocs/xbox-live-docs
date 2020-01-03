@@ -5,9 +5,9 @@ layout: LandingPage
 kindex: Invites how-to's
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: conceptual
-ms.prod: xbox
-ms.technology: xboxgc
+ms.topic: navigation
+ms.prod: gaming
+ms.technology: xboxlive
 edited: 12/18/2019
 ---
 
