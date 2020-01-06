@@ -313,167 +313,197 @@
                   href: social-platform/people-system/sending-player-feedback-from-your-title.md
             - name: Programming Social services
               href: social-platform/people-system/programming-social-services.md
-        - name: Multiplayer features
-          href: multiplayer/multiplayer-platform.md
+        - name: Multiplayer
+          href: features/multiplayer/live-multiplayer-nav.md
           items: 
-            - name: Overview of Multiplayer features
-              href: multiplayer/multiplayer-intro.md
-            - name: Multiplayer concepts for Xbox Live
-              href: multiplayer/multiplayer-concepts.md
-            - name: Multiplayer scenarios
-              href: multiplayer/multiplayer-scenarios.md
+            - name: Multiplayer overview
+              href: features/multiplayer/live-multiplayer-intro.md
+            - name: Multiplayer concepts
+              href: features/multiplayer/concepts/live-multiplayer-concepts-nav.md
               items: 
-                - name: Common multiplayer scenarios
-                  href: multiplayer/common-multiplayer-scenarios.md
+                - name: Multiplayer concepts overview
+                  href: features/multiplayer/concepts/live-multiplayer-concepts.md
+                - name: Multiplayer roles
+                  href: features/multiplayer/concepts/live-multiplayer-roles.md
                 - name: Multiplayer session browse
-                  href: multiplayer/session-browse.md
-                - name: Service-to-service session management
-                  href: multiplayer/service-to-service.md
-            - name: Multiplayer Service configuration
-              href: multiplayer/service-configuration/multiplayer-service-configuration.md
-              items: 
+                  href: features/multiplayer/concepts/live-session-browse.md
+                - name: Intro to calling the Multiplayer service directly
+                  href: features/multiplayer/concepts/live-intro-calling-mp-directly.md
+                - name: Common multiplayer scenarios
+                  href: features/multiplayer/concepts/live-common-multiplayer-scenarios.md
                 - name: Configuring the Multiplayer service
-                  href: multiplayer/service-configuration/configure-the-multiplayer-service.md
-                - name: Multiplayer session templates
-                  href: multiplayer/service-configuration/session-templates.md
-                - name: Session template constants
-                  href: multiplayer/service-configuration/session-template-constants.md
-                - name: Using large sessions for Multiplayer
-                  href: multiplayer/service-configuration/large-sessions.md
-            - name: Multiplayer Manager
-              href: multiplayer/multiplayer-manager/multiplayer-manager.md
-              items: 
-                - name: Overview of Multiplayer Manager
-                  href: multiplayer/multiplayer-manager/multiplayer-manager-overview.md
-                - name: Multiplayer Manager API overview
-                  href: multiplayer/multiplayer-manager/multiplayer-manager-api-overview.md
-                - name: Enable playing a multiplayer game with friends
-                  href: multiplayer/multiplayer-manager/play-multiplayer-with-friends.md
-                - name: Finding a multiplayer game by using SmartMatch
-                  href: multiplayer/multiplayer-manager/play-multiplayer-with-matchmaking.md
-                - name: Sending game invites
-                  href: multiplayer/multiplayer-manager/send-game-invites.md
-                - name: Handle protocol activation
-                  href: multiplayer/multiplayer-manager/handle-protocol-activation.md
-                - name: Multiplayer manager flowcharts
-                  href: multiplayer/multiplayer-manager/mpm-flowcharts.md
-                  items: 
-                    - name: Playing a game with friends (flowchart)
-                      href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-play-with-friends.md
-                    - name: Playing a game by using SmartMatch matchmaking (flowchart)
-                      href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-play-with-smartmatch-matchmaking.md
-                    - name: Checking Quality of Service for matchmaking (flowchart)
-                      href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-use-matchmaking-and-qos.md
-                    - name: Sending invites to another player (flowchart)
-                      href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-send-invites.md
-                    - name: Handling protocol activation (flowchart)
-                      href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-on-protocol-activation.md
-                    - name: Filling open slots in a multiplayer game (flowchart)
-                      href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-fill-open-slots.md
-                    - name: Handling host migration (flowchart)
-                      href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-host-migration.md
-                    - name: Shutting down a multiplayer session (flowchart)
-                      href: multiplayer/multiplayer-manager/mpm-flowcharts/mpm-shut-down.md
-            - name: Matchmaking
-              href: multiplayer/matchmaking/matchmaking.md
-              items: 
-                  - name: Matchmaking Overview
-                    href: multiplayer/matchmaking/matchmaking-overview.md
-                  - name: Matchmaking Configuration
-                    href: multiplayer/matchmaking/matchmaking-config.md
-                  - name: Target Session Initialization and QoS
-                    href: multiplayer/matchmaking/matchmaking-targetsession.md
-                  - name: Using SmartMatch matchmaking
-                    href: multiplayer/matchmaking/matchmaking-how-tos.md
-            - name: Multiplayer Session Directory
-              href: multiplayer/multiplayer-session/mpsd.md
-              items:
-                  - name: Overview of Multiplayer Session Directory (MPSD)
-                    href: multiplayer/multiplayer-session/mpsd-overview.md
-                  - name: Multiplayer tasks
-                    href: multiplayer/multiplayer-session/mpsd-how-tos.md
-                  - name: Multiplayer session status codes
-                    href: multiplayer/multiplayer-session/mpsd-status-codes.md
-                  - name: Multiplayer Session advanced topics
-                    href: multiplayer/multiplayer-session/mpsd-details.md
-            - name: Invites
-              href: multiplayer/invite/multiplayer-invite.md
-              items: 
-                  - name: Flows for multiplayer game invites
-                    href: multiplayer/invite/multiplayer-invite-flows.md
-                  - name: Multiplayer invites for UWP games
-                    href: multiplayer/invite/multiplayer-invite-uwp.md
-            - name: Voice and text chat
-              href: multiplayer/chat/voice-chat_nav.md
-              items: 
-                - name: Game Chat
-                  href: multiplayer/chat/game-chat-2.md
-                  items: 
-                    - name: Overview of Game Chat
-                      href: multiplayer/chat/game-chat-2-overview.md
-                    - name: Using the Game Chat 2 C++ API
-                      href: multiplayer/chat/using-game-chat-2.md
-                    - name: Using the Game Chat 2 C# API with WinRT projections
-                      href: multiplayer/chat/using-game-chat-2-winrt.md
-                    - name: Real-time audio manipulation
-                      href: multiplayer/chat/real-time-audio-manipulation.md
-                    - name: Migrating from Game Chat 1 to Game Chat 2
-                      href: multiplayer/chat/game-chat-2-migration.md
-                - name: XIM dedicated chat via out-of-band reservations
-                  href: multiplayer/xbox-integrated-multiplayer/xim-reservations.md
-            - name: Xbox Integrated Multiplayer (XIM)
-              href: multiplayer/xbox-integrated-multiplayer/xbox-integrated-multiplayer.md
-              items: 
-                - name: Overview of Xbox Integrated Multiplayer (XIM)
-                  href: multiplayer/xbox-integrated-multiplayer/intro-to-xbox-integrated-multiplayer.md
-                - name: Using XIM via C++
-                  href: multiplayer/xbox-integrated-multiplayer/using-xim.md
-                - name: Using XIM via C#
-                  href: multiplayer/xbox-integrated-multiplayer/using-xim-cs.md
-                - name: Using XIM via Unity with IL2CPP
-                  href: multiplayer/xbox-integrated-multiplayer/xim-unity-uwp-il2cpp.md
-                - name: XIM project configuration
-                  href: multiplayer/xbox-integrated-multiplayer/xim-manifest.md
-                - name: XIM release notes
-                  href: multiplayer/xbox-integrated-multiplayer/xim-release-notes.md
-            - name: Multiplayer roles
-              href: multiplayer/multiplayer-roles.md
-            - name: Xbox Arena
-              href: multiplayer/arena/xbox-arena.md
-              items: 
-                - name: Xbox Arena overview
-                  href: multiplayer/arena/xbox-arena-overview.md
-                - name: Arena title integration
-                  href: multiplayer/arena/arena-title-integration.md
-                - name: Xbox Arena Operations Portal
-                  href: multiplayer/arena/operations-portal.md
-                - name: UX for discovering Xbox tournaments
-                  href: multiplayer/arena/discovering-xbox-tournaments.md
-                - name: Join a tournament by using the Arena UI
-                  href: multiplayer/arena/arena-ux-join-tournament.md
-                - name: UX for match engagement
-                  href: multiplayer/arena/arena-ux-match-engagement.md
-                - name: UI metadata from Arena APIs
-                  href: multiplayer/arena/arena-apis-metadata.md
-                - name: UX for Arena notifications
-                  href: multiplayer/arena/arena-notifications.md
-                - name: UX for Arena participant user scenarios
-                  href: multiplayer/arena/arena-user-scenarios.md
-            - name: Multiplayer 2015 appendix
-              href: multiplayer/multiplayer-appendix/multiplayer-appendix.md
-              items: 
-                - name: Introduction to the Multiplayer system
-                  href: multiplayer/multiplayer-appendix/introduction-to-the-multiplayer-system.md
-                - name: Changing a game from 2014 to 2015 Multiplayer
-                  href: multiplayer/multiplayer-appendix/common-issues-when-adapting-multiplayer.md
-                - name: Migrating an arbiter
-                  href: multiplayer/multiplayer-appendix/migrating-an-arbiter.md
+                  href: features/multiplayer/concepts/live-configure-the-multiplayer-service.md
                 - name: Multiplayer 2015 FAQ and troubleshooting
-                  href: multiplayer/multiplayer-appendix/multiplayer-2015-faq.md
-                - name: Xbox One Multiplayer Session Directory
-                  href: multiplayer/multiplayer-appendix/xbox-one-multiplayer-session-directory.md
-                - name: Game session visibility and joinability
-                  href: multiplayer/multiplayer-appendix/game-session-and-game-party-visibility-and-joinability.md
+                  href: features/multiplayer/concepts/live-multiplayer-2015-faq.md
+                - name: Changing a game from 2014 to 2015 Multiplayer
+                  href: features/multiplayer/concepts/live-issues-changing-to-mp-2015.md
+                - name: Migrating an arbiter
+                  href: features/multiplayer/concepts/live-migrating-an-arbiter.md
+            - name: Xbox Integrated Multiplayer (XIM)
+              href: features/multiplayer/xim/live-xim-nav.md
+              items: 
+                - name: Xbox Integrated Multiplayer (XIM) overview
+                  href: features/multiplayer/xim/live-xim-overview.md
+                - name: XIM concepts
+                  href: features/multiplayer/xim/concepts/live-xim-concepts-nav.md
+                  items: 
+                    - name: Configuring a XIM project in a manifest
+                      href: features/multiplayer/xim/concepts/live-xim-manifest.md
+                    - name: XIM release notes
+                      href: features/multiplayer/xim/concepts/live-xim-release-notes.md
+                - name: XIM how-to's
+                  href: features/multiplayer/xim/how-to/live-xim-howto-nav.md
+                  items: 
+                    - name: Using XIM via C++
+                      href: features/multiplayer/xim/how-to/live-using-xim.md
+                    - name: Using XIM via C#
+                      href: features/multiplayer/xim/how-to/live-using-xim-cs.md
+                    - name: Using XIM via Unity with IL2CPP
+                      href: features/multiplayer/xim/how-to/live-xim-unity-uwp-il2cpp.md
+                    - name: XIM dedicated chat via out-of-band reservations
+                      href: features/multiplayer/xim/how-to/live-xim-chat-reservations.md
+            - name: Multiplayer Manager (MPM)
+              href: features/multiplayer/mpm/live-multiplayer-manager-nav.md
+              items: 
+                - name: Multiplayer Manager overview
+                  href: features/multiplayer/mpm/live-multiplayer-manager-overview.md
+                - name: Multiplayer Manager concepts
+                  href: features/multiplayer/mpm/concepts/live-mm-concepts-nav.md
+                  items: 
+                    - name: Multiplayer Manager API overview
+                      href: features/multiplayer/mpm/concepts/live-multiplayer-manager-api-overview.md
+                    - name: Multiplayer Manager flowcharts
+                      href: features/multiplayer/mpm/concepts/flowcharts/live-mm-flowcharts-nav.md
+                      items: 
+                        - name: Playing a game with friends (flowchart)
+                          href: features/multiplayer/mpm/concepts/flowcharts/live-mpm-play-with-friends.md
+                        - name: Playing a game by using SmartMatch matchmaking (flowchart)
+                          href: features/multiplayer/mpm/concepts/flowcharts/live-mpm-play-with-smartmatch-matchmaking.md
+                        - name: Checking Quality of Service for matchmaking (flowchart)
+                          href: features/multiplayer/mpm/concepts/flowcharts/live-mpm-use-matchmaking-and-qos.md
+                        - name: Sending invites to another player (flowchart)
+                          href: features/multiplayer/mpm/concepts/flowcharts/live-mpm-send-invites.md
+                        - name: Handling protocol activation (flowchart)
+                          href: features/multiplayer/mpm/concepts/flowcharts/live-mpm-on-protocol-activation.md
+                        - name: Filling open slots in a multiplayer game (flowchart)
+                          href: features/multiplayer/mpm/concepts/flowcharts/live-mpm-fill-open-slots.md
+                        - name: Handling host migration (flowchart)
+                          href: features/multiplayer/mpm/concepts/flowcharts/live-mpm-host-migration.md
+                        - name: Shutting down a multiplayer session (flowchart)
+                          href: features/multiplayer/mpm/concepts/flowcharts/live-mpm-shut-down.md
+                - name: Multiplayer Manager how-to's
+                  href: features/multiplayer/mpm/how-to/live-mm-howto-nav.md
+                  items: 
+                    - name: Enable playing a multiplayer game with friends using Multiplayer Manager
+                      href: features/multiplayer/mpm/how-to/live-play-multiplayer-with-friends.md
+                    - name: Finding a multiplayer game by using SmartMatch using Multiplayer Manager
+                      href: features/multiplayer/mpm/how-to/live-play-multiplayer-with-matchmaking.md
+                    - name: Sending game invites using Multiplayer Manager
+                      href: features/multiplayer/mpm/how-to/live-send-game-invites.md
+                    - name: Handling protocol activation to start a game, using Multiplayer Manager
+                      href: features/multiplayer/mpm/how-to/live-handle-protocol-activation.md
+            - name: Multiplayer Session Directory (MPSD)
+              href: features/multiplayer/mpsd/live-mpsd-nav.md
+              items:
+                - name: Multiplayer Session Directory overview
+                  href: features/multiplayer/mpsd/live-mpsd-overview.md
+                - name: Multiplayer Session Directory for Xbox One
+                  href: features/multiplayer/mpsd/live-xbox-one-multiplayer-session-directory.md
+                - name: MPSD concepts
+                  href: features/multiplayer/mpsd/concepts/live-mpsd-concepts-nav.md
+                  items:
+                    - name: Multiplayer Session advanced topics
+                      href: features/multiplayer/mpsd/concepts/live-mpsd-details.md
+                    - name: Service-to-service multiplayer session management
+                      href: features/multiplayer/mpsd/concepts/live-service-to-service.md
+                    - name: Game session visibility and joinability
+                      href: features/multiplayer/mpsd/concepts/live-game-session-visibility-joinability.md
+                    - name: Multiplayer session templates
+                      href: features/multiplayer/mpsd/concepts/live-session-templates.md
+                    - name: Session template constants
+                      href: features/multiplayer/mpsd/concepts/live-session-template-constants.md
+                    - name: Using large sessions for Multiplayer
+                      href: features/multiplayer/mpsd/concepts/live-large-sessions.md
+                - name: MPSD how-to's
+                  href: features/multiplayer/mpsd/how-to/live-mpsd-howto-nav.md
+                  items:
+                    - name: Multiplayer tasks
+                      href: features/multiplayer/mpsd/how-to/live-mpsd-how-tos.md
+                    - name: Multiplayer session status codes
+                      href: features/multiplayer/mpsd/how-to/live-mpsd-status-codes.md
+            - name: Invites
+              href: features/multiplayer/invites/live-invites-nav.md
+              items: 
+                - name: Invites overview
+                  href: features/multiplayer/invites/live-multiplayer-invites-overview.md
+                - name: Invites concepts
+                  href: features/multiplayer/invites/concepts/live-invites-concepts-nav.md
+                  items: 
+                    - name: Flows for multiplayer game invites
+                      href: features/multiplayer/invites/concepts/live-multiplayer-invite-flows.md
+                    - name: Multiplayer invites for UWP games
+                      href: features/multiplayer/invites/concepts/live-multiplayer-invite-uwp.md
+                - name: Invites how-to's
+                  href: features/multiplayer/invites/how-to/live-invites-howto-nav.md
+                  items: 
+                    - name: Sending invites
+                      href: features/multiplayer/invites/how-to/live-invites-send.md
+                    - name: Receiving invites
+                      href: features/multiplayer/invites/how-to/live-invites-receive.md
+            - name: SmartMatch matchmaking
+              href: features/multiplayer/matchmaking/live-matchmaking-nav.md
+              items: 
+                - name: Matchmaking overview
+                  href: features/multiplayer/matchmaking/live-matchmaking-overview.md
+                - name: Matchmaking concepts
+                  href: features/multiplayer/matchmaking/concepts/live-matchmaking-concepts-nav.md
+                  items: 
+                    - name: Using SmartMatch matchmaking
+                      href: features/multiplayer/matchmaking/concepts/live-matchmaking-how-tos.md
+                    - name: Target session initialization and QoS
+                      href: features/multiplayer/matchmaking/concepts/live-matchmaking-target-session.md
+                    - name: Xbox Arena
+                      href: features/multiplayer/matchmaking/concepts/arena/live-arena-nav.md
+                      items: 
+                        - name: Xbox Arena overview
+                          href: features/multiplayer/matchmaking/concepts/arena/live-arena-overview.md
+                        - name: Arena title integration
+                          href: features/multiplayer/matchmaking/concepts/arena/live-arena-title-integration.md
+                        - name: Xbox Arena Operations Portal
+                          href: features/multiplayer/matchmaking/concepts/arena/live-arena-operations-portal.md
+                        - name: UX for discovering Xbox tournaments
+                          href: features/multiplayer/matchmaking/concepts/arena/live-discovering-xbox-tournaments.md
+                        - name: Join a tournament by using the Arena UI
+                          href: features/multiplayer/matchmaking/concepts/arena/live-arena-ux-join-tournament.md
+                        - name: UX for match engagement
+                          href: features/multiplayer/matchmaking/concepts/arena/live-arena-ux-match-engagement.md
+                        - name: UI metadata from Arena APIs
+                          href: features/multiplayer/matchmaking/concepts/arena/live-arena-apis-metadata.md
+                        - name: UX for Arena notifications
+                          href: features/multiplayer/matchmaking/concepts/arena/live-arena-notifications.md
+                        - name: UX for Arena participant user scenarios
+                          href: features/multiplayer/matchmaking/concepts/arena/live-arena-user-scenarios.md
+                - name: Matchmaking portal config
+                  href: features/multiplayer/matchmaking/config/live-matchmaking-config-nav.md
+                  items: 
+                    - name: Matchmaking portal configuration
+                      href: features/multiplayer/matchmaking/config/live-matchmaking-config.md
+            - name: Game Chat
+              href: features/multiplayer/chat/live-chat-nav.md
+              items: 
+                - name: Game Chat overview
+                  href: features/multiplayer/chat/live-game-chat-2-overview.md
+                - name: Game Chat how-to's
+                  href: features/multiplayer/chat/how-to/live-chat-howto-nav.md
+                  items: 
+                    - name: Using the Game Chat 2 C++ API
+                      href: features/multiplayer/chat/how-to/live-using-game-chat-2.md
+                    - name: Using the Game Chat 2 C# API with WinRT projections
+                      href: features/multiplayer/chat/how-to/live-using-game-chat-2-winrt.md
+                    - name: Real-time audio manipulation
+                      href: features/multiplayer/chat/how-to/live-real-time-audio-manipulation.md
+                    - name: Migrating from Game Chat 1 to Game Chat 2
+                      href: features/multiplayer/chat/how-to/live-game-chat-2-migration.md
         - name: Cloud Storage
           href: storage-platform/cloud-storage_nav.md
           items: 
