@@ -71,7 +71,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="xbox-live-rest/atoc-xboxlivews-reference.md">
+        <a href="api-ref/xbox-live-rest/atoc-xboxlivews-reference.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

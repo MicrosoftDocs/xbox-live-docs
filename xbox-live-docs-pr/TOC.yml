@@ -715,6 +715,6 @@
             - name: Making async calls in the XSAPI C API
               href: flatc-async-patterns.md
         - name: REST Reference
-          href: xbox-live-rest/TOC.md
+          href: api-ref/xbox-live-rest/TOC.md
         - name: Xbox Live Samples
           href: samples.md
