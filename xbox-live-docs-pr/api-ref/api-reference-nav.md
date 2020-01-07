@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="api-ref/xsapi/xsapi_nav.md">
+        <a href="xsapi/xsapi_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -33,7 +33,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="api-ref/xal/xal_nav.md">
+        <a href="xal/xal_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -52,7 +52,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="api-ref/xasync/xasync_nav.md">
+        <a href="xasync/xasync_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -71,7 +71,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="api-ref/xbox-live-rest/atoc-xboxlivews-reference.md">
+        <a href="xbox-live-rest/atoc-xboxlivews-reference.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
