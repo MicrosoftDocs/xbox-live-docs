@@ -254,7 +254,7 @@
                       href: features/player-data/achievements/title-managed/how-to/live-achievements-howto-nav.md
                       items: 
                         - name: Getting Achievements
-                          href: features/player-data/achievements/title-managed/how-to/live-how-to-get-achievements.md
+                          href: ../articles/live-how-to-get-achievements.md
                         - name: Updating Achievements
                           href: features/player-data/achievements/title-managed/how-to/live-how-to-update-achievements.md
         - name: Social features
