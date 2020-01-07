@@ -9,7 +9,7 @@ ms.prod: xboxlive
 ms.technology: 
 ms.date: 09/23/2019
 ms.localizationpriority: medium
-zone_pivot_groups: <programming-languages>
+zone_pivot_groups: programming-languages
 ---
 
 # Getting Achievements
