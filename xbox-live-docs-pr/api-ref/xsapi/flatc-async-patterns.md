@@ -20,7 +20,7 @@ making an **asynchronous API** call, such as **XblSocialGetSocialRelationshipsAs
 
 Here is a basic example calling the **XblProfileGetUserProfileAsync** API:
 
-[!INCLUDE [XblProfileGetUserProfileAsync](code/snippets/XblProfileGetUserProfileAsync.md)]
+[!INCLUDE [XblProfileGetUserProfileAsync](../../code/snippets/XblProfileGetUserProfileAsync.md)]
 
 To understand this calling pattern, you will need to understand how to use the **XAsyncBlock** and the **XTaskQueueHandle**.
 
@@ -170,7 +170,7 @@ STDAPI_(void) XTaskQueueCloseHandle(
 ```
 
 **Call Sample**:  
-[!INCLUDE [CloseAsyncQueue](code/snippets/CloseAsyncQueue.md)]
+[!INCLUDE [CloseAsyncQueue](../../code/snippets/CloseAsyncQueue.md)]
 
 
 ### Manually dispatching an **XTaskQueueHandle**
@@ -178,7 +178,7 @@ STDAPI_(void) XTaskQueueCloseHandle(
 If you used the manual queue dispatch mode for an **XTaskQueueHandle** work or completion queue, you will need to manually dispatch.
 Let us say that an **XTaskQueueHandle** was created where both the work queue and the completion queue are set to dispatch manually like so:
 
-[!INCLUDE [CreateAsyncQueue](code/snippets/CreateAsyncQueue.md)]
+[!INCLUDE [CreateAsyncQueue](../../code/snippets/CreateAsyncQueue.md)]
 
 In order to dispatch work that has been assigned **XTaskQueueDispatchMode::Manual** you will have to dispatch it with the **XTaskQueueDispatch** function.
 
@@ -191,7 +191,7 @@ STDAPI_(bool) XTaskQueueDispatch(
 ```
 
 **Call Sample**
-[!INCLUDE [DispatchAsyncQueue](code/snippets/DispatchAsyncQueue.md)]
+[!INCLUDE [DispatchAsyncQueue](../../code/snippets/DispatchAsyncQueue.md)]
 
 * *queue* - which queue to dispatch work on.
 * *port* - an instance of the **XTaskQueuePort** enum.
