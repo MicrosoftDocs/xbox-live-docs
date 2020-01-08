@@ -52,7 +52,7 @@ Please see the [What's New - August 2016](1608-whats-new.md) article for what wa
 
 ### Other
 
-* C++/WinRT support added.   More detail can be found [here](../introduction-to-xbox-live-apis.md)
+* C++/WinRT support added.   More detail can be found [here](../api-ref/xsapi/introduction-to-xbox-live-apis.md)
 * New functionality in to add and remove your own logging callbacks.  The diagnostic level will be passed to your callback so you can fine tune your behavior.  See `add_logging_handler` and `remove_logging_handler` in the `microsoft::xbox::services::system::xbox_live_services_settings` namespace
 
 ## Documentation
