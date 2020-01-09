@@ -23,7 +23,7 @@ ms.localizationpriority: medium
 
 ### See also
 
-* [Xbox Live Samples](../../../api-ref/samples.md)
+* [Xbox Live Samples](../../../api-ref/live-samples.md)
 
 
 ### See also for event-based Achievements

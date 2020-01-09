@@ -158,7 +158,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../api-ref/samples.md">
+        <a href="../api-ref/live-samples.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

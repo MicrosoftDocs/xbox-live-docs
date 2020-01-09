@@ -153,7 +153,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="../api-ref/samples.md">
+        <a href="../api-ref/live-samples.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
