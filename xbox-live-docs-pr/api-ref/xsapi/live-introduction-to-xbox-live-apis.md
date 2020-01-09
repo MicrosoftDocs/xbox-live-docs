@@ -107,4 +107,4 @@ std::shared_ptr<xbox::services::xbox_live_context> xboxLiveContext = std::make_s
 - Allows titles to gain full control of thread handling when calling XSAPI.
 - Uses a new HTTP library, libHttpClient, designed for game developers.
 
-See [Introduction to the Xbox Live C APIs](xsapi-flat-c.md).
+See [Introduction to the Xbox Live C APIs](live-xsapi-flat-c.md).
