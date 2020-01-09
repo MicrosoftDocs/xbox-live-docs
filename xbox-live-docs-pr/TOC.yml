@@ -717,4 +717,4 @@
         - name: REST Reference
           href: api-ref/xbox-live-rest/TOC.md
         - name: Xbox Live Samples
-          href: api-ref/samples.md
+          href: api-ref/live-samples.md
