@@ -33,7 +33,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="xal/xal_nav.md">
+        <a href="xal/live-xal-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
