@@ -696,7 +696,7 @@
             - name: Porting Xbox Live code from XDK to UWP
               href: using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md
     - name: API Reference
-      href: api-ref/api-reference-nav.md
+      href: api-ref/live-api-reference-nav.md
       items:
         - name: XSAPI Reference
           href: api-ref/xsapi/xsapi_nav.md

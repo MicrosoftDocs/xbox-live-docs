@@ -100,7 +100,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="api-ref/api-reference-nav.md">
+        <a href="api-ref/live-api-reference-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
