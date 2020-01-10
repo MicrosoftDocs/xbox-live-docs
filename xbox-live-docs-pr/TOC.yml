@@ -699,7 +699,7 @@
       href: api-ref/live-api-reference-nav.md
       items:
         - name: XSAPI Reference
-          href: api-ref/xsapi/xsapi_nav.md
+          href: api-ref/xsapi/live-xsapi-nav.md
           items:
             - name: Introduction to XSAPI APIs
               href: api-ref/xsapi/live-introduction-to-xbox-live-apis.md
