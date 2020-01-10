@@ -9,6 +9,7 @@ ms.prod: xboxlive
 ms.technology: 
 ms.date: 09/23/2019
 ms.localizationpriority: medium
+zone_pivot_groups: programming-languages
 ---
 
 # Getting Achievements
@@ -25,16 +26,13 @@ A how-to guide for using Achievements API to get achievements.
 
 To get the achievements for the running title, call **XblAchievementsGetAchievementsForTitleIdAsync**, as follows.
 
-
 ### Calling XblAchievementsGetAchievementsForTitleIdAsync
 
 [!INCLUDE [Achievements_GetAchievementsForTitle](../../../../../code/snippets/Achievements_GetAchievementsForTitle.md)]
 
-
 ### Callback for XblAchievementsGetAchievementsForTitleIdAsync
 
 [!INCLUDE [Achievements_GetAchievementsForTitle_Callback](../../../../../code/snippets/Achievements_GetAchievementsForTitle_Callback.md)]
-
 
 ## Getting the next page of Achievements results
 
@@ -44,22 +42,17 @@ To get the next page of Achievements, call **XblAchievementsResultGetNextAsync**
 
 [!INCLUDE [Achievements_GetNextResultsPage](../../../../../code/snippets/Achievements_GetNextResultsPage.md)]
 
-
 ### Callback for XblAchievementsResultGetNextAsync
 
 [!INCLUDE [Achievements_GetNextResultsPage_Callback](../../../../../code/snippets/Achievements_GetNextResultsPage_Callback.md)]
-
-
 
 ## Getting a single Achievement
 
 To get a single Achievement, call **XblAchievementsGetAchievementAsync**, as follows.
 
-
 ### Calling XblAchievementsGetAchievementAsync
 
 [!INCLUDE [Achievements_GetAchievement](../../../../../code/snippets/Achievements_GetAchievement.md)]
-
 
 ### Callback for XblAchievementsGetAchievementAsync
 

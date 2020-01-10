@@ -47,6 +47,7 @@
       "ms.author": "aablackm",
       "ms.prod": "xboxlive",
       "titleSuffix": "Xbox Live",
+      "zone_pivot_group_filename": "xbox-live-docs-pr/zone-pivot-groups.json",
       "_op_documentIdPathDepotMapping": {
         "./": {
           "depot_name": "MSDN.windows-uwp",
