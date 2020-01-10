@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 # Programming Social services
 
 > [!NOTE]
-> This article demonstrates advanced API usage.  As a starting point, please take a look at the [Introduction to the Social Manager API](../intro-to-social-manager.md) which significantly simplifies development.  Please let your DAM know if you find an unsupported scenario in the Social Manager.
+> This article demonstrates advanced API usage.  As a starting point, instead see [Social Manager](../../social-manager/live-social-manager-nav.md), which simplifies development.  Please let your DAM know if you find an unsupported scenario in the Social Manager.
 
 The following code example demonstrates how to retrieve a social relationship with Xbox Live.
 

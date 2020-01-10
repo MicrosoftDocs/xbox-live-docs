@@ -44,11 +44,13 @@ if (SUCCEEDED(hr))
 }
 ```
 
+<!-- in gdk only:
 **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XAsyncGetStatus](xasyncgetstatus.md)
 * [XblReputationFeedbackType](xblreputationfeedbacktype.md)
 * [XblSocialSubmitReputationFeedbackAsync](xblsocialsubmitreputationfeedbackasync.md)
+-->
 
 
 ## Submitting multiple Reputation feedback items
@@ -89,9 +91,11 @@ if (SUCCEEDED(hr))
 }
 ```
 
+<!-- in gdk only:
 **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XAsyncGetStatus](xasyncgetstatus.md)
 * [XblReputationFeedbackItem](xblreputationfeedbackitem.md)
 * [XblReputationFeedbackType](xblreputationfeedbacktype.md)
 * [XblSocialSubmitBatchReputationFeedbackAsync](xblsocialsubmitbatchreputationfeedbackasync.md)
+-->

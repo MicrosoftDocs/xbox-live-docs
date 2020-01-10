@@ -103,4 +103,4 @@ You will be asked to confirm the deletion.
 
 ## See also
 
-[Overview of Rich Presence strings](../../social-platform/rich-presence-strings/rich-presence-strings-overview.md)
+[Rich Presence overview](../live-presence-overview.md)

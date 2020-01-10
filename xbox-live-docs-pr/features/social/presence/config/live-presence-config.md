@@ -24,7 +24,7 @@ In addition to the localized strings, a culture-neutral string must also be supp
 This string is used if a request made for a locale that isn't given.
 
 Each string-set can also make use of in-game data by parameterizing the strings to further enhance them.
-A string-set can have as many parameters as you wish, so long as the resulting strings do not go over character limitations, per [Policies and limits for Rich Presence strings](rich-presence-strings-policies-and-limitations.md).
+A string-set can have as many parameters as you wish, so long as the resulting strings do not go over character limitations, per [Policies and limits for Rich Presence strings](../concepts/live-presence-limits.md).
 
 
 ## Enumerations

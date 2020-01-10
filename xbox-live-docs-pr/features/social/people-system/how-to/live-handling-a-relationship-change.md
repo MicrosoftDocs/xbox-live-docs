@@ -30,8 +30,10 @@ HRESULT hr = XblSocialSubscribeToSocialRelationshipChange(
 );
 ```
 
+<!-- in GDK only:
 **Reference**
 * [XblSocialSubscribeToSocialRelationshipChange](xblsocialsubscribetosocialrelationshipchange.md)
+-->
 
 
 ## Un-subscribing from a Relationship change
@@ -49,8 +51,10 @@ HRESULT hr = XblSocialUnsubscribeFromSocialRelationshipChange(
 state.socialSubscriptionHandle = nullptr;
 ```
 
+<!-- in GDK only:
 **Reference**
 * [XblSocialUnsubscribeFromSocialRelationshipChange](xblsocialunsubscribefromsocialrelationshipchange.md)
+-->
 
 
 ## Adding a Relationship-changed handler
@@ -81,8 +85,10 @@ state.socialRelationshipChangedHandlerToken = XblSocialAddSocialRelationshipChan
 );
 ```
 
+<!-- in GDK only:
 **Reference**
 * [XblSocialAddSocialRelationshipChangedHandler](xblsocialaddsocialrelationshipchangedhandler.md)
+-->
 
 
 ## Removing a Relationship-changed handler
@@ -96,5 +102,7 @@ HRESULT hr = XblSocialRemoveSocialRelationshipChangedHandler(xboxLiveContext, st
 state.socialRelationshipChangedHandlerToken = 0;
 ```
 
+<!-- in GDK only:
 **Reference**
 * [XblSocialRemoveSocialRelationshipChangedHandler](xblsocialremovesocialrelationshipchangedhandler.md)
+-->

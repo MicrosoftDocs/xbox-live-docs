@@ -42,11 +42,13 @@ if (SUCCEEDED(hr))
 }
 ```
 
+<!-- in gdk only:
 **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblPresenceGetPresenceAsync](xblpresencegetpresenceasync.md)
 * [XblPresenceGetPresenceResult](xblpresencegetpresenceresult.md)
 * [XblPresenceRecordCloseHandle](xblpresencerecordclosehandle.md)
+-->
 
 
 ## Getting multiple users' presence strings
@@ -90,6 +92,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
+<!-- in gdk only:
 **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblPresenceGetPresenceForMultipleUsersAsync](xblpresencegetpresenceformultipleusersasync.md)
@@ -97,6 +100,7 @@ if (SUCCEEDED(hr))
 * [XblPresenceGetPresenceForMultipleUsersResultCount](xblpresencegetpresenceformultipleusersresultcount.md)
 * [XblPresenceQueryFilters](xblpresencequeryfilters.md)
 * [XblPresenceRecordCloseHandle](xblpresencerecordclosehandle.md)
+-->
 <!-- * [XblPresenceRecordHandle](xblpresencerecordhandle.md) -->
 
 
@@ -136,12 +140,14 @@ if (SUCCEEDED(hr))
 }
 ```
 
+<!-- in gdk only:
 **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblPresenceGetPresenceForSocialGroupAsync](xblpresencegetpresenceforsocialgroupasync.md)
 * [XblPresenceGetPresenceForSocialGroupResult](xblpresencegetpresenceforsocialgroupresult.md)
 * [XblPresenceGetPresenceForSocialGroupResultCount](xblpresencegetpresenceforsocialgroupresultcount.md)
 * [XblPresenceRecordCloseHandle](xblpresencerecordclosehandle.md)
+-->
 <!-- * [XblPresenceRecordHandle](xblpresencerecordhandle.md) -->
 
 
@@ -170,6 +176,8 @@ for (auto i = 0u; i < deviceRecordsCount; ++i)
 }
 ```
 
+<!-- in gdk only:
 **Reference**
 * [XblPresenceDeviceRecord](xblpresencedevicerecord.md)
 * [XblPresenceRecordGetDeviceRecords](xblpresencerecordgetdevicerecords.md)
+-->

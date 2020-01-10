@@ -209,4 +209,4 @@ For example, the title should:
 
 | Article | Description |
 |---------|-------------|
-| [Sending Reputation feedback from your title](sending-player-feedback-from-your-title.md) | Promoting positive player experiences by sending player feedback to the Xbox Live Reputation service. |
+| [Sending Reputation feedback from a title](concepts/live-sending-reputation-feedback.md) | Promoting positive player experiences by sending player feedback to the Xbox Live Reputation service. |

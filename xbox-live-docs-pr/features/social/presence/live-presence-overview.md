@@ -43,24 +43,3 @@ This set defines the possible values of a Rich Presence string for all possible 
 There are two types of friendly names:
 * *Rich Presence string* - The friendly name for a string-set is a unique identifier in the form of a string used to reference a string-set.
 * *Enumeration* - These friendly names are used to uniquely identify a particular enumeration like the weapons enumeration or the character class enumeration.
-
-
-## In this section
-
-[Rich Presence configuration](rich-presence-strings-configuration.md)  
-How to configure Rich Presence for use in your title.
-
-[Rich Presence updating strings](rich-presence-strings-updating-strings.md)  
-How to update Rich Presence Strings from your title.
-
-[Rich Presence best practices](rich-presence-strings-best-practices.md)  
-Best practices for use of Rich Presence in your title.
-
-[Rich Presence policies and limitations](rich-presence-strings-policies-and-limitations.md)  
-The policies about using Rich Presence in your title.
-
-[Rich Presence appendix](rich-presence-strings-appendix.md)  
-Additional examples and details about Player Data relevant to Rich Presence.
-
-[Programming Xbox Live Rich Presence](programming-rich-presence.md)  
-Demonstrates how to use Rich Presence with Xbox Live.

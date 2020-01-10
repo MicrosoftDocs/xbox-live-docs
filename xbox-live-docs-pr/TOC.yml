@@ -285,14 +285,14 @@
                     - name: Displaying people from the People System
                       href: features/social/people-system/concepts/live-pplsys-displaying-people.md
                 - name: People System (Friends List) how-to's
-                  href: features/social/people-system/howto/live-pplsys-howto-nav.md
+                  href: features/social/people-system/how-to/live-pplsys-howto-nav.md
                   items: 
                     - name: Getting a social relationship
-                      href: features/social/people-system/howto/live-getting-a-social-relationship.md
+                      href: features/social/people-system/how-to/live-getting-a-social-relationship.md
                     - name: Handling a social relationship change
-                      href: features/social/people-system/howto/live-handling-a-relationship-change.md
+                      href: features/social/people-system/how-to/live-handling-a-relationship-change.md
                     - name: Programming Social services
-                      href: features/social/people-system/howto/live-retrieving-social-relationships-winrt.md
+                      href: features/social/people-system/how-to/live-retrieving-social-relationships-winrt.md
             - name: Rich Presence
               href: features/social/presence/live-presence-nav.md
               items: 

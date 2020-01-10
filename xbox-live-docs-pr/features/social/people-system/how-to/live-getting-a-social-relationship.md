@@ -16,7 +16,8 @@ edited: 04/04/2017
 
 # Getting a social relationship
 
->[!NOTE] This article demonstrates advanced API usage.  Please let your DAM know if you find an unsupported scenario in the Social Manager.
+> [!NOTE]
+> This article demonstrates advanced API usage.  Please let your DAM know if you find an unsupported scenario in the Social Manager.
 
 <!-- 
 Commenting out the following that was in the above note, because the article is not in the docs. The article has been moved to the boneyard directory. To add the article to the docs, move it from the boneyard directory to an appropriate location in the  _content directory and then add the article to toc.md:

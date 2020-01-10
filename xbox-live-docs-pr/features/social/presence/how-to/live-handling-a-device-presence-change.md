@@ -35,8 +35,10 @@ HRESULT hr = XblPresenceSubscribeToDevicePresenceChange(
 );
 ```
 
+<!-- in gdk only:
 **Reference**
 * [XblPresenceSubscribeToDevicePresenceChange](xblpresencesubscribetodevicepresencechange.md)
+-->
 
 
 <a id="ufadpc"></a>
@@ -54,8 +56,10 @@ HRESULT hr = XblPresenceUnsubscribeFromDevicePresenceChange(
 state.devicePresenceChangeSubscription = nullptr;
 ```
 
+<!-- in gdk only:
 **Reference**
 * [XblPresenceUnsubscribeFromDevicePresenceChange](xblpresenceunsubscribefromdevicepresencechange.md)
+-->
 
 
 <a id="aadpch"></a>
@@ -77,9 +81,11 @@ state.devicePresenceChangedHandlerToken = XblPresenceAddDevicePresenceChangedHan
 );
 ```
 
+<!-- in gdk only:
 **Reference**
 * [XblPresenceAddDevicePresenceChangedHandler](xblpresenceadddevicepresencechangedhandler.md)
 * [XblPresenceDeviceType](xblpresencedevicetype.md)
+-->
 
 
 <a id="radpch"></a>
@@ -97,5 +103,7 @@ HRESULT hr = XblPresenceRemoveDevicePresenceChangedHandler(
 state.devicePresenceChangedHandlerToken = 0;
 ```
 
+<!-- in gdk only:
 **Reference**
 * [XblPresenceRemoveDevicePresenceChangedHandler](xblpresenceremovedevicepresencechangedhandler.md)
+-->
