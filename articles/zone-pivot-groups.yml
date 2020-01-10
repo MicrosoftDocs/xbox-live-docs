@@ -7,6 +7,6 @@ groups:
   - id: programming-language-c
     title: C
   - id: programming-language-cpp
-    title: Cpp
+    title: C++
   - id: programming-language-csharp
     title: C#
