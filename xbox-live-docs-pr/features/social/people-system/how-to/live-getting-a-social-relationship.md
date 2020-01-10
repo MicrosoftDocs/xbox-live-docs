@@ -65,11 +65,13 @@ if (SUCCEEDED(hr))
 }
 ```
 
+<!-- in GDK, not in public:
 **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblSocialGetSocialRelationshipsAsync](xblsocialgetsocialrelationshipsasync.md)
 * [XblSocialGetSocialRelationshipsResult](xblsocialgetsocialrelationshipsresult.md)
 * [XblSocialRelationshipResultCloseHandle](xblsocialrelationshipresultclosehandle.md)
+-->
 
 
 ## Getting a single relationship
@@ -90,9 +92,11 @@ for (size_t i = 0; i < relationshipsCount; ++i)
 }
 ```
 
+<!-- in GDK, not in public:
 **Reference**
 * [XblSocialRelationship](xblsocialrelationship.md)
 * [XblSocialRelationshipResultGetRelationships](xblsocialrelationshipresultgetrelationships.md)
+-->
 
 
 <!-- ## Getting multiple relationships -->
@@ -148,9 +152,11 @@ if (hasNext)
 }
 ```
 
+<!-- in GDK, not in public:
 **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblSocialRelationshipResultCloseHandle](xblsocialrelationshipresultclosehandle.md)
 * [XblSocialRelationshipResultGetNextAsync](xblsocialrelationshipresultgetnextasync.md)
 * [XblSocialRelationshipResultGetNextResult](xblsocialrelationshipresultgetnextresult.md)
 * [XblSocialRelationshipResultHasNext](xblsocialrelationshipresulthasnext.md)
+-->

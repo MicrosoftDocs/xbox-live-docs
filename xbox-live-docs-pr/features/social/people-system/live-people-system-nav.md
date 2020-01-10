@@ -17,6 +17,6 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [People System (Friends List) overview](features/social/people-system/live-people-system-overview.md) | The People System manages relationships between gamers, such as only showing a user's real name to close friends. |
-| [People System (Friends List) concepts](features/social/people-system/concepts/live-people-system-concepts-nav.md) | People System (Friends List) concepts. |
-| [People System (Friends List) how-to's](features/social/people-system/howto/live-pplsys-howto-nav.md) | People System (Friends List) how-to's. |
+| [People System (Friends List) overview](live-people-system-overview.md) | The People System manages relationships between gamers, such as only showing a user's real name to close friends. |
+| [People System (Friends List) concepts](concepts/live-people-system-concepts-nav.md) | People System (Friends List) concepts. |
+| [People System (Friends List) how-to's](howto/live-pplsys-howto-nav.md) | People System (Friends List) how-to's. |

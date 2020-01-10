@@ -66,7 +66,7 @@ The profile contains the following information:
 
 ### Gamerscore and Achievements
 
-Each gamer can earn Gamerscore by unlocking [Achievements](../features/player-data/achievements/live-achievements-nav.md) in your game.
+Each gamer can earn Gamerscore by unlocking [Achievements](../player-data/achievements/live-achievements-nav.md) in your game.
 Achievements is a very popular feature that keeps your gamers engaged with your title by letting them both boast of their prowess and extend gameplay goals.
 Players can compare their Achievements with their friends in their profile.
 
@@ -89,7 +89,7 @@ To make it easy to find their favorite gamers in their friends list, each gamer 
 
 When a gamer plays your game, the Xbox Live social graph will show only the gamer’s friends who have also played your game.
 
-[Learn more about the people system](people-system/xbox-live-people-system.md) 
+See [People System (Friends List)](people-system/live-people-system-nav.md).
 
 
 ### Clubs
@@ -150,7 +150,7 @@ It also shows what app or game the player is currently engaged with.
 
 Furthermore, Rich Presence strings allow you to advertise what someone is doing within your game, whether they are puttering around the menus, queuing up for a game, or right in the middle of play.
 
-[Learn more about Rich Presence](rich-presence-strings/rich-presence-strings-overview.md)
+See [Rich Presence](presence/live-presence-nav.md).
 
 > [!NOTE]
 > Rich Presence is not available for games created under the Xbox Live Creators Program.
@@ -169,4 +169,4 @@ On average, a post on the Game Hub activity feed will get 10x more engagement th
 ##  Use the Xbox Live Social APIs
 
 To keep gamers and their friends engaged with your title through the Xbox Live Social APIs, use the `SocialManager` class;
-see [Introduction to Social Manager](intro-to-social-manager.md).
+see [Social Manager overview](social-manager/live-social-manager-overview.md).
