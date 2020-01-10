@@ -1,6 +1,6 @@
 - name: Docs
   tocHref: /
   topicHref: /
-  - name: Gaming
-    tocHref: /gaming
-    topicHref: /gaming
+- name: Gaming
+  tocHref: /gaming
+  topicHref: /gaming
