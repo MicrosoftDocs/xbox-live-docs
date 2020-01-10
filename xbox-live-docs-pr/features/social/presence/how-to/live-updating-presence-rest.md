@@ -1,6 +1,6 @@
 ---
-title: Updating a Rich Presence string
-description: Updating Rich Presence strings.
+title: Updating Rich Presence via REST
+description: Updating Rich Presence via REST
 ms.assetid: eb2bb82e-8730-4d74-9b33-95d133360e44
 ms.date: 04/04/2017
 ms.topic: article
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, rich presence
 ms.localizationpriority: medium
 ---
 
-# Updating a Rich Presence string
+# Updating Rich Presence via REST
 
 To update a Rich Presence string in your title, you can call the `Write Title` URI with the appropriate parameters in a JSON object.
 

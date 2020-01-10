@@ -1,8 +1,8 @@
 ---
-layout: LandingPage
-title: Social features
-author: mikehoffms
+title: Social
 description: Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.
+layout: LandingPage
+author: mikehoffms
 ms.author: v-mihof
 ms.date: 12/11/2018
 ms.topic: article
@@ -10,7 +10,7 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h1>Social features</h1>
+<h1>Social</h1>
 
 <ul class="cardsF panelContent cols cols2">
     <li>

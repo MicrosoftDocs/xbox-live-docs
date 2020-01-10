@@ -1,5 +1,5 @@
 ---
-title: Overview of Rich Presence strings
+title: Rich Presence overview
 description: Rich Presence shows what activity a user is currently doing, in which area of the game.
 ms.assetid: 00042359-f877-4b26-9067-58834590b1dd
 ms.date: 04/04/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, rich presence
 ms.localizationpriority: medium
 ---
 
-# Overview of Rich Presence strings
+# Rich Presence overview
 
 By default, you get *Basic Presence*, indicating to other users which game a user is currently playing.
 If you write code to use *Rich Presence*, the Rich Presence string also indicates what activity a user is doing, in which area of the game.

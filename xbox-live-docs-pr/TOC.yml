@@ -257,62 +257,100 @@
                           href: features/player-data/achievements/title-managed/how-to/live-how-to-get-achievements.md
                         - name: Updating Achievements
                           href: features/player-data/achievements/title-managed/how-to/live-how-to-update-achievements.md
-        - name: Social features
-          href: social-platform/social-platform_nav.md
+        - name: Social
+          href: features/social/live-social-nav.md
           items: 
             - name: Overview of Social features
-              href: social-platform/xbox-live-social-platform.md
-            - name: People System (Friends List)
-              href: social-platform/people-system/people-system_nav.md
+              href: features/social/live-social-overview.md
+            - name: Social Manager
+              href: features/social/social-manager/live-social-manager-nav.md
               items: 
-                - name: Overview of the People System
-                  href: social-platform/people-system/xbox-live-people-system.md
-                - name: Displaying people from the People System
-                  href: social-platform/people-system/displaying-people-from-the-people-system.md
-                - name: Social Manager
-                  href: social-platform/social-manager_nav.md
+                - name: Social Manager overview
+                  href: features/social/social-manager/live-social-manager-overview.md
+                - name: Social Manager concepts
+                  href: features/social/social-manager/concepts/live-socmgr-concepts-nav.md
                   items: 
-                    - name: Overview of Social Manager
-                      href: social-platform/intro-to-social-manager.md
                     - name: Privilege codes for Social Manager
-                      href: features/social/friends-list/social-manager/privilege-codes.md
+                      href: features/social/social-manager/concepts/live-socmgr-privilege-codes.md
                     - name: Social Manager memory and performance
-                      href: social-platform/social-manager-memory-and-performance-overview.md
-            - name: Clubs
-              href: features/social/clubs/clubs.md
-            - name: Rich Presence
-              href: features/social/rich-presence/rich-presence_nav.md
+                      href: features/social/social-manager/concepts/live-socmgr-mem-perf.md
+            - name: People System (Friends List)
+              href: features/social/people-system/live-people-system-nav.md
               items: 
-                - name: Overview of Presence strings
-                  href: social-platform/rich-presence-strings/rich-presence-strings-overview.md
-                - name: Configuring Rich Presence strings
-                  href: social-platform/rich-presence-strings/rich-presence-strings-configuration.md
-                - name: Configuring Rich Presence strings in Partner Center
-                  href: configure-xbl/dev-center/rich-presence-configuration.md
-                - name: Updating a Rich Presence string
-                  href: social-platform/rich-presence-strings/rich-presence-strings-updating-strings.md
-                - name: Best practices for Rich Presence
-                  href: social-platform/rich-presence-strings/rich-presence-strings-best-practices.md
-                - name: Policies and limits for Rich Presence strings
-                  href: social-platform/rich-presence-strings/rich-presence-strings-policies-and-limitations.md
-                - name: Rich Presence appendix
-                  href: social-platform/rich-presence-strings/rich-presence-strings-appendix.md
-                - name: Programming Rich Presence
-                  href: social-platform/rich-presence-strings/programming-rich-presence.md
+                - name: People System (Friends List) overview
+                  href: features/social/people-system/live-people-system-overview.md
+                - name: People System (Friends List) concepts
+                  href: features/social/people-system/concepts/live-people-system-concepts-nav.md
+                  items: 
+                    - name: Displaying people from the People System
+                      href: features/social/people-system/concepts/live-pplsys-displaying-people.md
+                - name: People System (Friends List) how-to's
+                  href: features/social/people-system/howto/live-pplsys-howto-nav.md
+                  items: 
+                    - name: Getting a social relationship
+                      href: features/social/people-system/howto/live-getting-a-social-relationship.md
+                    - name: Handling a social relationship change
+                      href: features/social/people-system/howto/live-handling-a-relationship-change.md
+                    - name: Programming Social services
+                      href: features/social/people-system/howto/live-retrieving-social-relationships-winrt.md
+            - name: Rich Presence
+              href: features/social/presence/live-presence-nav.md
+              items: 
+                - name: Rich Presence overview
+                  href: features/social/presence/live-presence-overview.md
+                - name: Rich Presence concepts
+                  href: features/social/presence/concepts/live-presence-concepts-nav.md
+                  items: 
+                    - name: Best practices for Rich Presence
+                      href: features/social/presence/concepts/live-presence-best-practices.md
+                    - name: Policies and limits for Rich Presence strings
+                      href: features/social/presence/concepts/live-presence-limits.md
+                    - name: Rich Presence appendix
+                      href: features/social/presence/concepts/live-presence-apx.md
+                - name: Rich Presence portal config
+                  href: features/social/presence/config/live-presence-config-nav.md
+                  items: 
+                    - name: Configuring Rich Presence strings
+                      href: features/social/presence/config/live-presence-config.md
+                    - name: Configuring Rich Presence strings in Partner Center
+                      href: features/social/presence/config/live-presence-config2.md
+                - name: Rich Presence how-to's
+                  href: features/social/presence/how-to/live-presence-howto-nav.md
+                  items: 
+                    - name: Getting a user's Presence
+                      href: features/social/presence/how-to/live-getting-a-users-presence.md
+                    - name: Handling a title Presence change
+                      href: features/social/presence/how-to/live-handling-a-title-presence-change.md
+                    - name: Handling a device Presence change
+                      href: features/social/presence/how-to/live-handling-a-device-presence-change.md
+                    - name: Updating Rich Presence via REST
+                      href: features/social/presence/how-to/live-updating-presence-rest.md
+                    - name: Updating Rich Presence via WinRT
+                      href: features/social/presence/how-to/live-setting-presence-status.md
+                    - name: Updating a user's Presence via XSAPI C
+                      href: features/social/presence/how-to/live-updating-user-presence.md
             - name: Localized strings
-              href: features/social/localized-strings/localized-strings_nav.md
+              href: features/social/localized-strings/live-localized-strings-nav.md
               items: 
                 - name: Configuring localized strings in Partner Center
-                  href: configure-xbl/dev-center/localized-strings.md
+                  href: features/social/localized-strings/live-localized-strings-config.md
             - name: Reputation
-              href: social-platform/people-system/reputation_nav.md
+              href: features/social/reputation/live-reputation-nav.md
               items: 
                 - name: Overview of the Reputation service
-                  href: social-platform/people-system/the-reputation-service.md
-                - name: Sending Reputation feedback from a title
-                  href: social-platform/people-system/sending-player-feedback-from-your-title.md
-            - name: Programming Social services
-              href: social-platform/people-system/programming-social-services.md
+                  href: features/social/reputation/live-reputation-overview.md
+                - name: Reputation concepts
+                  href: features/social/reputation/concepts/live-reputation-concepts-nav.md
+                  items: 
+                    - name: Sending Reputation feedback from a title
+                      href: features/social/reputation/concepts/live-sending-reputation-feedback.md
+                - name: Reputation how-to's
+                  href: features/social/reputation/how-to/live-reputation-howto-nav.md
+                  items: 
+                    - name: Submitting Reputation feedback
+                      href: features/social/reputation/how-to/live-submitting-reputation-feedback.md
+            - name: Clubs
+              href: features/social/clubs/live-clubs.md
         - name: Multiplayer features
           href: multiplayer/multiplayer-platform.md
           items: 

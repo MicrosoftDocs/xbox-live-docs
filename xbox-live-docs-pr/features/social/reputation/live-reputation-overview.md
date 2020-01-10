@@ -1,11 +1,11 @@
 ---
 title: Overview of the Reputation service
-author: KevinAsgari
 description: The Reputation service encourages positive gameplay.
-ms.assetid: f8966184-5db7-4cab-93ca-9a0250a6077d
+author: KevinAsgari
 ms.author: kevinasg
 ms.date: 04/04/2017
-ms.topic: article
+ms.topic: conceptual
+ms.assetid: f8966184-5db7-4cab-93ca-9a0250a6077d
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, reputation, social features
 ms.localizationpriority: medium
 ---

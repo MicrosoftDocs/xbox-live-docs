@@ -19,11 +19,11 @@ Below, you can see how a Rich Presence string will appear in context.
 
 In the following screenshot, Xbox Live users **Last Roar** and **Lucha Uno** are playing games using Rich Presence strings.
 
-![Friends List Example](../../images/rich_presence/RichPresence_FriendsList_Screen.jpg)
+![Friends List Example](live-presence-config2-images/RichPresence_FriendsList_Screen.jpg)
 
 In the following screenshot you can see **Lucha Uno's** full Rich Presence string in his profile.
 
-![Profile Example](../../images/rich_presence/RichPresence_Config_ProfileScreen.jpg)
+![Profile Example](live-presence-config2-images/RichPresence_Config_ProfileScreen.jpg)
 
 > [!IMPORTANT]
 > Rich Presence strings are not available to Xbox Live Creators Program titles and therefore are not configurable for those titles. The content in this article is for Managed Partners.
@@ -59,7 +59,7 @@ Navigate to the Rich Presence configuration page with the following instructions
 The Rich Presence page displays a brief description of the service, a button to create a new Rich Presence string and a searchable list of your previously configured strings.
 From this page you can configure new strings as well as edit and review your configured strings.
 
-![Example Rich Presence string Config Page](../../images/rich_presence/RichPresence_ConfigPage_New.JPG)
+![Example Rich Presence string Config Page](live-presence-config2-images/RichPresence_ConfigPage_New.JPG)
 
 > [!NOTE]
 > Strings like "Playing Net Runner - Multiplayer deathmatch on Moon Base with 10 kills.” is not available with title-managed Player Data. Event-based Player Data *Variables* are unavailable with title-managed Player Data. The variable in this case is the number of kills "10". The equivalent string after the title-managed Player Data update would be "Playing Net Runner - Multiplayer deathmatch on Moon Base." “Playing Net Runner - In the menus” is still a valid Rich Presence string.
@@ -70,7 +70,7 @@ From this page you can configure new strings as well as edit and review your con
 To create a Rich Presence string, click the button labeled **New Rich Presence string**.
 You will be presented with UI to fill in the **Presence Details** which include the **Unique Rich Presence ID** as well as the **Display string** for your new Rich Presence string.
 
-![new Rich Presence string UI](../../images/rich_presence/RichPresence_Config_NewString.JPG)
+![new Rich Presence string UI](live-presence-config2-images/RichPresence_Config_NewString.JPG)
 
 **Unique Rich Presence ID** - The Unique Rich Presence ID is a string used to identify your Rich Presence string.
 This string will be used to set the status of players for your game and is associated with the particular string you would like to display.
@@ -87,7 +87,7 @@ Once you click save you will be taken back to the Rich Presence Configuration Pa
 ## Review, edit, and delete strings
 
 Here you can see a Rich Presence configuration page with a few configured strings.
-![Rich Presence Page Configured Example](../../images/rich_presence/RichPresence_ConfigPage_Configured.JPG)
+![Rich Presence Page Configured Example](live-presence-config2-images/RichPresence_ConfigPage_Configured.JPG)
 
 To review previously created strings, simply browse the list on the Rich Presence configuration page.
 There you can see both the Unique Rich Presence ID, and Display string together.
@@ -103,4 +103,4 @@ You will be asked to confirm the deletion.
 
 ## See also
 
-[Overview of Rich Presence strings](https://docs.microsoft.com/windows/uwp/xbox-live/social-platform/rich-presence-strings/rich-presence-strings-overview)
+[Overview of Rich Presence strings](../../social-platform/rich-presence-strings/rich-presence-strings-overview.md)
