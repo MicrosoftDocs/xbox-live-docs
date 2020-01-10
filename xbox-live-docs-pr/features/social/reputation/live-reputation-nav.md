@@ -17,5 +17,6 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [The Reputation service](the-reputation-service.md) | The Reputation service encourages positive gameplay. |
-| [Sending Reputation feedback from your title](sending-player-feedback-from-your-title.md) | Promoting positive player experiences by sending player feedback to the Xbox Live Reputation service. |
+| [Overview of the Reputation service](live-reputation-overview.md) | The Reputation service encourages positive gameplay. |
+| [Reputation concepts](concepts/live-reputation-concepts-nav.md) | Conceptual articles about Reputation. |
+| [Reputation how-to's](how-to/live-reputation-howto-nav.md) | Example code for Reputation. |

@@ -17,6 +17,5 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Introduction to Social Manager](intro-to-social-manager.md) | The Xbox Live Social Manager API simplifies keeping track of online friends and their gaming activity. |
-| [Privilege codes for Social Manager](../features/social/friends-list/social-manager/privilege-codes.md) | Privilege Codes for Social Manager. |
-| [Social Manager Memory and Performance](social-manager-memory-and-performance-overview.md) | Memory and performance considerations when using the Xbox Live Social Manager API. |
+| [Social Manager overview](live-social-manager-overview.md) | The Xbox Live Social Manager API simplifies keeping track of online friends and their gaming activity. |
+| [Social Manager concepts](concepts/live-socmgr-concepts-nav.md) | Conceptual articles about the Xbox Live Social Manager API. |

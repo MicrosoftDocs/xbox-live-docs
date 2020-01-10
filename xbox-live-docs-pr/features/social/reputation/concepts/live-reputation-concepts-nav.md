@@ -1,6 +1,6 @@
 ---
 title: Reputation concepts
-description: Reputation concepts.
+description: Conceptual articles about Reputation.
 layout: LandingPage
 kindex: Reputation concepts
 kindex: Xbox Live, Reputation
@@ -14,12 +14,8 @@ ms.localizationpriority: medium
 # Reputation concepts
 
 
-<!-- 
 ### In this section
 
 | Article | Description |
 |---------|-------------|
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
--->
+| [Sending Reputation feedback from a title](live-sending-reputation-feedback.md) | Promoting positive player experiences by sending player feedback to the Reputation service. |

@@ -1,6 +1,6 @@
 ---
 title: Updating Rich Presence via REST
-description: Updating Rich Presence via REST
+description: Updating Rich Presence via REST.
 ms.assetid: eb2bb82e-8730-4d74-9b33-95d133360e44
 ms.date: 04/04/2017
 ms.topic: article

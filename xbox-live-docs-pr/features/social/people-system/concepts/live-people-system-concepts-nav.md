@@ -15,12 +15,8 @@ edited: 12/06/2018
 # People System (Friends List) concepts
 
 
-<!-- 
 ### In this section
 
 | Article | Description |
 |---------|-------------|
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
--->
+| [Displaying people from the People System](live-pplsys-displaying-people.md) | The code flow to display people by using the People System. |

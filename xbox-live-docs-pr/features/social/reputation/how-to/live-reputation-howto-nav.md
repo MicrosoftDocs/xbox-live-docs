@@ -12,12 +12,8 @@ ms.localizationpriority: medium
 # Reputation how-to's
 
 
-<!--
 ### In this section
 
 | Article | Description |
 |---------|-------------|
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
--->
+| [Submitting Reputation feedback](live-submitting-reputation-feedback.md) | Example code for submitting Reputation feedback. |

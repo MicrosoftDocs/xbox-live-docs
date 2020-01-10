@@ -52,7 +52,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../social-platform/social-platform_nav.md">
+        <a href="social/live-social-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

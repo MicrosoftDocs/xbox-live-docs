@@ -21,11 +21,7 @@ If you write code to use *Rich Presence*, the Rich Presence string also indicate
 
 | Article | Description |
 |---------|-------------|
-| [Overview of Rich Presence strings](../../../social-platform/rich-presence-strings/rich-presence-strings-overview.md) | Rich Presence shows what activity a user is currently doing, in which area of the game. |
-| [Configuring Rich Presence strings](../../../social-platform/rich-presence-strings/rich-presence-strings-configuration.md) | Configuring Rich Presence strings. |
-| [Configuring Rich Presence strings in Partner Center](../../../configure-xbl/dev-center/rich-presence-configuration.md) | Configuring Rich Presence strings on Partner Center, to show what a user is currently doing within a game. |
-| [Updating a Rich Presence string](../../../social-platform/rich-presence-strings/rich-presence-strings-updating-strings.md) | Updating Rich Presence strings. |
-| [Best practices for Rich Presence](../../../social-platform/rich-presence-strings/rich-presence-strings-best-practices.md) | Best practices for using Xbox Live Rich Presence. |
-| [Policies and limits for Rich Presence strings](../../../social-platform/rich-presence-strings/rich-presence-strings-policies-and-limitations.md) | Policies and limits for Rich Presence strings. |
-| [Rich Presence appendix](../../../social-platform/rich-presence-strings/rich-presence-strings-appendix.md) | Using stats from Player Data in Rich Presence strings. |
-| [Programming Rich Presence](../../../social-platform/rich-presence-strings/programming-rich-presence.md) | Code example for setting a user's online presence status. |
+| [Rich Presence overview](live-presence-overview.md) | Rich Presence shows what activity a user is currently doing, in which area of the game. |
+| [Rich Presence concepts](concepts/live-presence-concepts-nav.md) | Concepts about Rich Presence strings. |
+| [Rich Presence portal config](config/live-presence-config-nav.md) | Configuring Rich Presence strings at Partner Center. |
+| [Rich Presence how-to's](how-to/live-presence-howto-nav.md) | Example code for Rich Presence strings. |

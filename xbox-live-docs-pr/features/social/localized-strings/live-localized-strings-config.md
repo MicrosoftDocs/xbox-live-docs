@@ -25,15 +25,15 @@ Add configuration by doing the following:
 
    A `localization.xml` file is downloaded onto your local machine.
 
-![Screenshot of the localized strings configuration page in Partner Center](../../images/dev-center/localized-strings/localized-strings-1.png)
+![Screenshot of the localized strings configuration page in Partner Center](live-localized-strings-config-images/localized-strings-1.png)
 
 3. You can add the localized strings by duplicating the <Value locale="en-US">Mazes Played</Value> tag and changing the value of the locale to the language of your choice and the value of the localized string.  To avoid errors, you must have at least one value tag within the developer display locale.
 
-![edit localized strings](../../images/dev-center/localized-strings/localized-strings.gif)
+![edit localized strings](live-localized-strings-config-images/localized-strings.gif)
 
 4. Once you have added all the localized strings, you can upload the file by dragging or browsing your local machine.
 
-![Image of the button to upload the localization.xml file](../../images/dev-center/localized-strings/localized-strings-2.png)
+![Image of the button to upload the localization.xml file](live-localized-strings-config-images/localized-strings-2.png)
 
 The following errors might appear when you upload the localization.xml file:
 

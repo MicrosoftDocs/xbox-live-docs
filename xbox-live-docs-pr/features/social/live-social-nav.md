@@ -14,13 +14,13 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="xbox-live-social-platform.md">
+        <a href="live-social-overview.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_overview.svg" alt="Overview of Social features" />
+                                <img src="https://docs.microsoft.com/media/common/i_overview.svg" alt="Overview of Social features"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -33,13 +33,32 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="people-system/people-system_nav.md">
+        <a href="social-manager/live-social-manager-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_configure-teams.svg" alt="People System (Friends List)" />
+                                <img src="https://docs.microsoft.com/media/common/i_code-blocks.svg" alt="Social Manager"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Social Manager</h3>
+                            <p>An API that simplifies keeping track of online friends and their gaming activity.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="people-system/live-people-system-nav.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_configure-teams.svg" alt="People System (Friends List)"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -52,32 +71,13 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../features/social/clubs/clubs.md">
+        <a href="presence/live-presence-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_share.svg" alt="Clubs" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Clubs</h3>
-                            <p>The Clubs feature easily integrates your game's teams, clans, and communities.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="../features/social/rich-presence/rich-presence_nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_preview.svg" alt="Rich Presence" />
+                                <img src="https://docs.microsoft.com/media/common/i_preview.svg" alt="Rich Presence"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -90,13 +90,13 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../features/social/localized-strings/localized-strings_nav.md">
+        <a href="localized-strings/live-localized-strings-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_web-color.svg" alt="Localized Strings" />
+                                <img src="https://docs.microsoft.com/media/common/i_web-color.svg" alt="Localized Strings"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -109,13 +109,13 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="people-system/reputation_nav.md">
+        <a href="reputation/live-reputation-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_feedback.svg" alt="Reputation" />
+                                <img src="https://docs.microsoft.com/media/common/i_feedback.svg" alt="Reputation"/>
                             </div>
                         </div>
                         <div class="cardText">
@@ -128,18 +128,18 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="people-system/programming-social-services.md">
+        <a href="clubs/live-clubs.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_code-blocks.svg" alt="Programming Social services" />
+                                <img src="https://docs.microsoft.com/media/common/i_share.svg" alt="Clubs"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Programming Social services</h3>
-                            <p>Code example showing how to use the Social Manager API to retrieve a user's social relationships and their public properties.</p>
+                            <h3>Clubs</h3>
+                            <p>The Clubs feature easily integrates your game's teams, clans, and communities.</p>
                         </div>
                     </div>
                 </div>
@@ -153,7 +153,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="../samples.md">
+        <a href="../../samples.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

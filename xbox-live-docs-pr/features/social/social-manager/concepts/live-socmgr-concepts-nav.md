@@ -16,12 +16,9 @@ edited: 01/03/2020
 # Social Manager concepts
 
 
-<!-- 
 ### In this section
 
 | Article | Description |
 |---------|-------------|
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
--->
+| [Privilege codes for Social Manager](features/social/social-manager/concepts/live-socmgr-privilege-codes.md) | Privilege codes for Social Manager. |
+| [Social Manager memory and performance](features/social/social-manager/concepts/live-socmgr-mem-perf.md) | Memory and performance considerations when using the Social Manager API. |
