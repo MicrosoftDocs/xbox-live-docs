@@ -337,7 +337,7 @@
             - name: Reputation
               href: features/social/reputation/live-reputation-nav.md
               items: 
-                - name: Overview of the Reputation service
+                - name: Reputation overview
                   href: features/social/reputation/live-reputation-overview.md
                 - name: Reputation concepts
                   href: features/social/reputation/concepts/live-reputation-concepts-nav.md

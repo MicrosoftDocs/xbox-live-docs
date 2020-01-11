@@ -1,5 +1,5 @@
 ---
-title: Overview of the Reputation service
+title: Reputation overview
 description: The Reputation service encourages positive gameplay.
 author: KevinAsgari
 ms.author: kevinasg
@@ -10,7 +10,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, reputation, social 
 ms.localizationpriority: medium
 ---
 
-# Overview of the Reputation service
+# Reputation overview
 
 Reputation is a user statistic, just like any other, and is included in calls to retrieve all of a user's statistics and use them in reporting and tracking.
 *   The **Reputation** class represents the reputation.
