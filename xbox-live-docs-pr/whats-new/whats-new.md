@@ -69,17 +69,22 @@ These new tournament APIs enable the following scenarios:
 
 ## June 2017
 
+
 ### Xbox Live features
+
 
 #### Game Chat 2
 
-An updated and improved version of Game Chat is now available. For more information, see the [Game Chat 2 overview](../multiplayer/chat/game-chat-2-overview.md).
+An updated and improved version of Game Chat is now available.  See [Game Chat](../features/multiplayer/chat/live-chat-nav.md).
+
 
 ### Xbox Live tools
+
 
 #### Xbox Live PowerShell Module
 
 * PowerShell modules have been added to make it easier to switch sandboxes on your development machine. For more information, see [Tools](../tools/tools.md)
+
 
 #### Bug fixes
 
