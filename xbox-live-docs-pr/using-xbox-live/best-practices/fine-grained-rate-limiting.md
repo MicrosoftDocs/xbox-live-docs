@@ -231,7 +231,7 @@ As of **April 2018**, titles exceeding the specified sustained limits by 10x or 
 ### What if we can’t adhere to the limits?
 
 Please see the [Xbox Live Best Practices](best-practices-for-calling-xbox-live.md) and ensure you are following these steps.
-Also consider using the [social manager](../../social-platform/intro-to-social-manager.md) if you are being rate limited with any of the social services.
+Also consider using [Social Manager](../../features/social/social-manager/live-social-manager-nav.md) if you are being rate-limited with any of the social services.
 
 If after following these steps, you are still unable to remain under the limits, please reach out to your Developer Account Manager.
 

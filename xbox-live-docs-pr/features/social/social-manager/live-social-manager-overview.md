@@ -24,7 +24,7 @@ The Social Manager solves this problem by:
 
 The Social Manager masks the complexity of dealing with multiple RTA subscriptions, and refreshing data for users and allows developers to easily get the up to date graph they want to create interesting scenarios.
 
-For a look at the Social Manager memory and performance characteristics take a look at [Social Manager Memory and Performance Overview](social-manager-memory-and-performance-overview.md)
+See [Social Manager memory and performance](concepts/live-socmgr-mem-perf.md).
 
 
 ## Features

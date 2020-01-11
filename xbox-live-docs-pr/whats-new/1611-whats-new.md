@@ -1,13 +1,13 @@
 ---
 title: What's new for the Xbox Live SDK - November 2016
-
 description: What's new for the Xbox Live SDK - November 2016
-ms.assetid: 5cf9ba9d-5a15-4e62-bc1f-45ff8b8bf3b0
 ms.date: 04/04/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
+ms.assetid: 5cf9ba9d-5a15-4e62-bc1f-45ff8b8bf3b0
 ms.localizationpriority: medium
 ---
+
 # What's new for the Xbox Live SDK - November 2016
 
 Please see the [What's New - August 2016](1608-whats-new.md) article for what was added in the August 2016 release.
@@ -28,7 +28,7 @@ Please see the [What's New - August 2016](1608-whats-new.md) article for what wa
 
 ### Social Manager
 
-* Numerous [Social Manager](../social-platform/intro-to-social-manager.md) API changes:
+* Numerous API changes; see [Social Manager overview](../features/social/social-manager/live-social-manager-overview.md):
 	* Social manager has left the experimental namespace. Special thanks to those who were early adopters and gave feedback!
 	* `xbox_social_user`
 		* `string_t` objects have been changed to `char*` objects
@@ -40,7 +40,7 @@ Please see the [What's New - August 2016](1608-whats-new.md) article for what wa
 		* `users()` API now returns a `std::vector<xbox_social_user*>`. These pointers become invalidated on the next call to `social_manager::do_work()`
 		* `get_copy_of_users` return a `std::vector<xbox_social_user>` as a copy of the current users in the social_user_group to the caller. Calling this function may affect `do_work` completion time.
 * Social Manager now will never fail after initialization. Social Manager will retry RTA automatically on disconnection. The `error` and `rta_disconnect_error` events have been deprecated and removed
-* Title can specify custom memory allocators. See the new documentation: [Social Manager Memory and Performance](../social-platform/social-manager-memory-and-performance-overview.md)
+* Title can specify custom memory allocators. See the new article [Social Manager memory and performance](../features/social/social-manager/concepts/live-socmgr-mem-perf.md).
 
 ### Xbox One UWP
 * TCUI APIs adds support multi-user for Xbox One UWP apps.  The XSAPI C++ adds new Windows::System::User^ parameters specify the user, and the XSAPI WinRT API adds ForUserAsync APIs.
