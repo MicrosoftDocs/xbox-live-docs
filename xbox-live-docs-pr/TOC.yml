@@ -323,12 +323,12 @@
                       href: features/social/presence/how-to/live-handling-a-title-presence-change.md
                     - name: Handling a device Presence change
                       href: features/social/presence/how-to/live-handling-a-device-presence-change.md
-                    - name: Updating Rich Presence via REST
-                      href: features/social/presence/how-to/live-updating-presence-rest.md
-                    - name: Updating Rich Presence via WinRT
-                      href: features/social/presence/how-to/live-setting-presence-status.md
                     - name: Updating a user's Presence via XSAPI C
                       href: features/social/presence/how-to/live-updating-user-presence.md
+                    - name: Updating a user's Presence via REST
+                      href: features/social/presence/how-to/live-updating-presence-rest.md
+                    - name: Updating a user's Presence via WinRT
+                      href: features/social/presence/how-to/live-setting-presence-status.md
             - name: Localized strings
               href: features/social/localized-strings/live-localized-strings-nav.md
               items: 

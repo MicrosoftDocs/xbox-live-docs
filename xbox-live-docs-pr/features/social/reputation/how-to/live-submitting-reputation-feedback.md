@@ -5,9 +5,11 @@ kindex: Submitting Reputation feedback
 kindex: Reputation
 author: mikehoffms
 ms.author: v-mihof
-ms.date: 01/09/2020
 ms.topic: conceptual
+ms.prod: xbox
+ms.technology: xboxgc
 ms.localizationpriority: medium
+ms.date: 01/09/2020
 ---
 
 # Submitting Reputation feedback
@@ -17,6 +19,7 @@ ms.localizationpriority: medium
 
 **C API**
 <!--  XblSocialSubmitReputationFeedbackAsync_C.md -->
+<!-- note guid "123" -->
 ```cpp
 auto asyncBlock = std::make_unique<XAsyncBlock>();
 asyncBlock->queue = queue;
@@ -26,7 +29,7 @@ asyncBlock->callback = [](XAsyncBlock* asyncBlock)
     HRESULT hr = XAsyncGetStatus(asyncBlock, false);
 };
 
-uint64_t xuid{ 2814639011617876 };
+uint64_t xuid{ 123 };
 HRESULT hr = XblSocialSubmitReputationFeedbackAsync(
     xboxLiveContext,
     xuid,
@@ -57,11 +60,12 @@ if (SUCCEEDED(hr))
 
 **C API**
 <!--  _C.md -->
+<!-- note guid "123" -->
 ```cpp
 std::vector<XblReputationFeedbackItem> feedbackItems;
 feedbackItems.push_back(XblReputationFeedbackItem
     {
-        2814639011617876,
+        123,
         XblReputationFeedbackType::PositiveHelpfulPlayer,
         nullptr,
         "Helpful player",

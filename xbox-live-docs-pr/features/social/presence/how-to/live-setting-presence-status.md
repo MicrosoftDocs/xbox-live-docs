@@ -1,5 +1,5 @@
 ---
-title: Updating Rich Presence via WinRT
+title: Updating a user's Presence via WinRT
 description: Code example for setting a user's online presence status.
 ms.assetid: 7e6e7b69-d7c3-42fa-bcc4-6d68947f6fdb
 ms.date: 04/04/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, rich presence
 ms.localizationpriority: medium
 ---
 
-# Updating Rich Presence via WinRT
+# Updating a user's Presence via WinRT
 
 Xbox Live Rich Presence provides features for advertising a player's current activity to other players.
 

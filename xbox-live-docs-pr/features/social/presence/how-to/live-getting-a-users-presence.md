@@ -57,6 +57,7 @@ if (SUCCEEDED(hr))
 
 **C API**
 <!--  XblPresenceGetPresenceForMultipleUsersAsync_C.md -->
+<!-- note guids "123, 456" -->
 ```cpp
 auto asyncBlock = std::make_unique<XAsyncBlock>();
 asyncBlock->queue = queue;
@@ -77,7 +78,7 @@ asyncBlock->callback = [](XAsyncBlock* asyncBlock)
     }
 };
 
-std::vector<uint64_t> xuids{ 2814639011617876, 2814641789541994 };
+std::vector<uint64_t> xuids{ 123, 456 };
 
 // Filter results to only online users
 XblPresenceQueryFilters filters{};

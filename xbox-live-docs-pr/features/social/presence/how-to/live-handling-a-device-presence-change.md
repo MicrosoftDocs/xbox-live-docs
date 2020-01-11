@@ -25,8 +25,9 @@ ms.localizationpriority: medium
 
 **C API**
 <!--  XblPresenceSubscribeToDevicePresenceChange_C.md -->
+<!-- note guid "123" -->
 ```cpp
-uint64_t xuid{ 2814639011617876 };
+uint64_t xuid{ 123 };
 
 HRESULT hr = XblPresenceSubscribeToDevicePresenceChange(
     xboxLiveContext,
