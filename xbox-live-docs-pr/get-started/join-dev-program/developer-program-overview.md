@@ -22,7 +22,7 @@ Each program offers different levels of time investment, features available, and
 
 Join the Xbox Live *Creators Program* if both of the following are true:
 
-*  You're interested in using only a subset of Xbox Live features, such as Identity, Presence, Clubs, or Leaderboards 2017.
+*  You're interested in using only a subset of Xbox Live features, such as Identity, Presence, Clubs, or title-managed Leaderboards.
 
 *  You only plan to ship via Microsoft storefronts on Microsoft devices, such as Xbox, Windows 10 PC, and Hololens.
 

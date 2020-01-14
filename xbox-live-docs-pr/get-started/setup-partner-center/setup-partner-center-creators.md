@@ -203,7 +203,7 @@ The SDK can now be used in an application to sign-in.
 At Partner Center, find the Title ID, SCID, Sandbox ID, and Client ID of your game, as follows.
 When you add basic sign-in code to your game, you will insert these IDs.
 
-1. Go to <a href="https://partner.microsoft.com/en-us/dashboard/" target="_blank">Partner Center</a>.
+1. Go to <a href="https://partner.microsoft.com/dashboard/" target="_blank">Partner Center</a>.
 
 2. On the left, click **Products**, then click your game.
 

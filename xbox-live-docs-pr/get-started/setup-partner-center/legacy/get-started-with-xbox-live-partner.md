@@ -17,7 +17,7 @@ Managed Partners can access the full range of Xbox Live features, including achi
 Managed Partners can develop Xbox Live titles for both the Universal Windows Platform (UWP) or the Xbox Developer Kit (XDK) platform.
 
 In addition to the content available here, there is also additional documentation that is available to partners with an authorized Partner Center account.
-You can access that content here: [Xbox Live partner content](https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/partner-content).
+You can access that content here: [Xbox Live partner content](https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/partner-content).
 
 
 ## Why should you use Xbox Live?
@@ -37,7 +37,7 @@ Decide between making an Xbox Development Kit (XDK), Universal Windows Platform 
 
 - XDK based games only run on the Xbox One console.
 - UWP games can target any Windows platform such as Windows PC, Windows Phone, or Xbox One.
-  - For Xbox One, see [UWP on Xbox One](https://msdn.microsoft.com/en-us/windows/uwp/xbox-apps/index) and specifically [System resources for UWP apps and games on Xbox One](https://msdn.microsoft.com/en-us/windows/uwp/xbox-apps/system-resource-allocation)
+  - For Xbox One, see [UWP on Xbox One](https://msdn.microsoft.com/windows/uwp/xbox-apps/index) and specifically [System resources for UWP apps and games on Xbox One](https://msdn.microsoft.com/windows/uwp/xbox-apps/system-resource-allocation)
 - Cross-play games are typically games that target Xbox One and Windows PC using both the XDK and UWP paths.
 
 
@@ -61,7 +61,7 @@ Once you have a title created, you should learn about the Xbox Live concepts tha
 
 - [Xbox Live sandboxes](../../../xbox-live-sandboxes.md)
 - [Xbox Live test accounts](../../../xbox-live-test-accounts.md)
-- [Introduction to Xbox Live APIs](../../../introduction-to-xbox-live-apis.md)
+- [Introduction to Xbox Live APIs](../../../api-ref/xsapi/live-introduction-to-xbox-live-apis.md)
 
 
 ## 5. Add Xbox Live Features
@@ -69,8 +69,8 @@ Once you have a title created, you should learn about the Xbox Live concepts tha
 Add Xbox Live features to your game:
 
 - [Xbox Live Social features - Profile, Friends, Presence](../../../social-platform/social-platform_nav.md)
-- [Xbox Live Player Data - Stats, Leaderboards, Achievements](../../../data-platform/player-data_nav.md)
-- [Xbox Live Multiplayer features - Invite, Matchmaking, Tournaments](../../../multiplayer/multiplayer-intro.md)
+- [Xbox Live Player Data - Stats, Leaderboards, Achievements](../../../features/player-data/live-playerdata-nav.md)
+- Xbox Live Multiplayer features - Invite, Matchmaking, Tournaments: [Multiplayer overview](../../../features/multiplayer/live-multiplayer-intro.md)
 - [Xbox Live Cloud Storage - Connected Storage, Title Storage](../../../storage-platform/cloud-storage_nav.md)
 - [Contextual Search](../../../contextual-search/introduction-to-contextual-search.md)
 

@@ -43,7 +43,7 @@ If you have an Office 365 account, use Outlook.com, or have an Xbox Live account
 
 Before you can create a new title in Partner Center, you will need to register as an App Developer.
 
-To register, go to [https://developer.microsoft.com/en-us/store/register](https://developer.microsoft.com/en-us/store/register) and follow the sign-up process.
+To register, go to [https://developer.microsoft.com/store/register](https://developer.microsoft.com/store/register) and follow the sign-up process.
 
 
 ### Create a new UWP title

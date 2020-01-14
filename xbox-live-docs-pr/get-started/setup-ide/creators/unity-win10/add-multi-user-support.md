@@ -75,7 +75,7 @@ You will need to have followed the [Getting Started](configure-xbox-live-in-unit
 3. Under the `<Properties></Properties>` section, add the following which enables multi-user input for the app:
   `<uap:SupportedUsers>multiple</uap:SupportedUsers>`
 
-4. To test on Xbox, see [Set up your UWP on Xbox development environment](https://docs.microsoft.com/en-us/windows/uwp/xbox-apps/development-environment-setup).
+4. To test on Xbox, see [Set up your UWP on Xbox development environment](https://docs.microsoft.com/windows/uwp/xbox-apps/development-environment-setup).
 
 
 ## Using the other Xbox Live Prefabs with multiple Users

@@ -29,7 +29,7 @@ See the section "Get your IDs" in [Xbox Live service configuration](../../../../
 
 Activate Dev Mode on the retail Xbox One console.
 To do this, download the Dev Mode Activation app from the Xbox One store.
-See <a href="https://docs.microsoft.com/en-us/windows/uwp/xbox-apps/devkit-activation" target="_blank">Xbox One Developer Mode activation &#11008;</a>.
+See <a href="https://docs.microsoft.com/windows/uwp/xbox-apps/devkit-activation" target="_blank">Xbox One Developer Mode activation &#11008;</a>.
 
 
 ## Set your sandbox on your development kit

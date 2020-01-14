@@ -35,7 +35,7 @@ Developers can now use XAL and XSAPI on Android and iOS platforms.
 
 C APIs are now available for some Xbox Live features. The new API layer provides a number of benefits for the supported features, including custom memory management, manual thread management for asynchronous tasks, and a new HTTP library.
 
-For more information, see [Xbox Live C APIs](../xsapi-flat-c.md).
+For more information, see [Xbox Live C APIs](../api-ref/xsapi/live-xsapi-flat-c.md).
 
 
 ## August 2017
@@ -69,17 +69,22 @@ These new tournament APIs enable the following scenarios:
 
 ## June 2017
 
+
 ### Xbox Live features
+
 
 #### Game Chat 2
 
-An updated and improved version of Game Chat is now available. For more information, see the [Game Chat 2 overview](../multiplayer/chat/game-chat-2-overview.md).
+An updated and improved version of Game Chat is now available.  See [Game Chat](../features/multiplayer/chat/live-chat-nav.md).
+
 
 ### Xbox Live tools
+
 
 #### Xbox Live PowerShell Module
 
 * PowerShell modules have been added to make it easier to switch sandboxes on your development machine. For more information, see [Tools](../tools/tools.md)
+
 
 #### Bug fixes
 
@@ -124,11 +129,11 @@ These new tournament APIs enable the following scenarios:
 
 ### Xbox Services API
 
-#### Player Data 2017
+#### Title-managed Player Data
 
-We have introduced a simplified Stats API.  Traditionally you had to send events corresponding to stat rules defined at Partner Center and these would update the stat values in the cloud.  We refer to this model as Stats 2013.
+We have introduced a simplified Stats API.  Traditionally you had to send events corresponding to stat rules defined at Partner Center and these would update the stat values in the cloud.  We refer to this model as _event-based Stats_.
 
-With Stats 2017, your title is now in control of your stat values.  You simply call an API with the most recent stat value, and that gets sent to the service directly without the need for events.  This uses the new `StatsManager` API and you can read more in [Player Stats](../leaderboards-and-stats-2017/player-stats_nav.md)
+With _title-managed Stats_, your title is in control of your stat values.  You simply call an API with the most recent stat value, and that gets sent to the service directly without the need for events.  This uses the new `StatsManager` API and you can read more in [Title-managed Stats & Leaderboards](../features/player-data/stats-leaderboards/title-managed/live-statslb-tm-nav.md).
 
 
 #### GitHub

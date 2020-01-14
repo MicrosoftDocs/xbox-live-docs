@@ -66,4 +66,4 @@ In-game clubs can help your game in the following ways:
 
 ## See also
 
-[API Reference for Clubs](https://docs.microsoft.com/en-us/dotnet/api/microsoft.xbox.services.clubs?view=xboxlive-dotnet-2017.11.20171204.01) (external, in the Xbox Live WinRT SDK)
+[API Reference for Clubs](https://docs.microsoft.com/dotnet/api/microsoft.xbox.services.clubs?view=xboxlive-dotnet-2017.11.20171204.01) (external, in the Xbox Live WinRT SDK)

@@ -122,7 +122,7 @@ You can find the XDK Connected Storage APIs documented in the XDK .chm file unde
 
 Windows.Xbox.Storage is the name of the Connected Storage namespace for Xbox One consoles.
 
-The XDK APIs are also documented on the [developer.microsoft.com site](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/storage-xbox-microsoft-n).
+The XDK APIs are also documented on the [developer.microsoft.com site](https://developer.microsoft.com/games/xbox/docs/xdk/storage-xbox-microsoft-n).
 The link to XDK APIs requires that you have a Microsoft Account(MSA) that has been enabled for Xbox Developer Kit(XDK) access.
 
 
@@ -184,6 +184,6 @@ GameSaveOperationResult gameSaveOperationResult = await gameSaveContainer.Submit
 //string displayName
 ```
 
-For the Connected Storage API Reference for UWP apps, see [Windows.Gaming.XboxLive.Storage Namespace](https://docs.microsoft.com/en-us/uwp/api/windows.gaming.xboxlive.storage).
+For the Connected Storage API Reference for UWP apps, see [Windows.Gaming.XboxLive.Storage Namespace](https://docs.microsoft.com/uwp/api/windows.gaming.xboxlive.storage).
 
 To see another sample that uses Connected Storage, see [Xbox Live API Samples Game Save project](https://github.com/Microsoft/xbox-live-samples/tree/master/Samples/ID%40XboxSDK/GameSave).

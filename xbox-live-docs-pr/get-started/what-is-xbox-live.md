@@ -38,7 +38,7 @@ Xbox Live is a collection of micro-services that expose Xbox Live features such 
 
 Xbox Live data is stored in the cloud, and can be accessed by using REST endpoints and secure websockets that are accessible from a set of client-side APIs designed for game developers.
 
-In addition to the REST APIs, there are client side APIs that wrap the REST functionality. See [Introduction to Xbox Live APIs](../introduction-to-xbox-live-apis.md).
+In addition to the REST APIs, there are client side APIs that wrap the REST functionality. See [Introduction to Xbox Live APIs](../api-ref/xsapi/live-introduction-to-xbox-live-apis.md).
 
 
 ## Join the Creators or ID program
@@ -81,10 +81,9 @@ Read this series of articles to learn more about how to use these in your title.
 
 | Article | Description |
 |---------|-------------|
-| [Xbox Live Player Data](../data-platform/player-data_nav.md) | A brief overview of the Player Data system, as well as guidance on how to best incorporate stats, leaderboards, and achievements into your title.
-| [Achievements](../achievements-2017/achievements_nav.md) | Achievements are one of the most well known features in Xbox Live, and a great driver of player engagement. Learn how to use them in your title.
-| [Player Stats](../leaderboards-and-stats-2017/player-stats_nav.md) | Stats are the foundation of leaderboards.  Learn how to define and use them here.
-| [Leaderboards](../leaderboards-and-stats-2017/leaderboards.md) | Bring out your users' competitive sides by intelligently incorporating leaderboards.
+| [Xbox Live Player Data](../features/player-data/live-playerdata-nav.md) | A brief overview of the Player Data system, as well as guidance on how to best incorporate stats, leaderboards, and achievements into your title.
+| [Achievements](../features/player-data/achievements/live-achievements-nav.md) | Achievements are one of the most well known features in Xbox Live, and a great driver of player engagement. Learn how to use them in your title.
+| [Stats & Leaderboards](../features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md) | Stats are the foundation of leaderboards.  Leaderboards bring out your users' competitive sides by intelligently incorporating leaderboards.
 
 
 ## Cloud Storage
@@ -110,7 +109,7 @@ You also have several options of API that provide varying levels of simplicity v
 
 | Article | Description |
 |---------|-------------|
-| [Xbox Live Multiplayer features](../multiplayer/multiplayer-intro.md) | If you are new to Xbox Live multiplayer development, or are unfamiliar with new APIs such as Multiplayer Manager and Xbox Integrated Multiplayer (XIM), then start here. |
-| [Multiplayer scenarios](../multiplayer/multiplayer-scenarios.md) | Suggestions and guidance on how you might incorporate multiplayer into your title. |
-| [Xbox Integrated Multiplayer](../multiplayer/xbox-integrated-multiplayer/xbox-integrated-multiplayer.md) | Xbox Integrated Multiplayer (XIM) is an easy self-contained interface for adding multiplayer, real-time networking, and chat to your title. |
-| [Multiplayer Manager](../multiplayer/multiplayer-manager/multiplayer-manager.md) | Multiplayer Manager provides an API focused on common multiplayer scenarios. |
+| [Multiplayer overview](../features/multiplayer/live-multiplayer-intro.md) | If you are new to Xbox Live multiplayer development, or are unfamiliar with new APIs such as Multiplayer Manager and Xbox Integrated Multiplayer (XIM), then start here. |
+| [Common multiplayer scenarios](../features/multiplayer/concepts/live-common-multiplayer-scenarios.md) | Suggestions and guidance on how you might incorporate multiplayer into your title. |
+| [Xbox Integrated Multiplayer (XIM)](../features/multiplayer/xim/live-xim-nav.md) | Xbox Integrated Multiplayer (XIM) is an easy self-contained interface for adding multiplayer, real-time networking, and chat to your title. |
+| [Multiplayer Manager (MPM)](../features/multiplayer/mpm/live-multiplayer-manager-nav.md) | High-level API for adding multiplayer functionality by managing sessions, matchmaking, and game invites. Provides a state- and event-based programming model. |
