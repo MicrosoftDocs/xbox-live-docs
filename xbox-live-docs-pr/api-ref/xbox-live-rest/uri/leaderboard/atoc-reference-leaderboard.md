@@ -2,7 +2,6 @@
 title: Leaderboards URIs
 assetID: f0a0fb49-ef10-3e6e-e989-2f3f30fca954
 permalink: en-us/docs/xboxlive/rest/atoc-reference-leaderboard.html
-
 description: ' Leaderboards URIs'
 ms.date: 10/12/2017
 ms.topic: article
@@ -29,7 +28,7 @@ The domain for these URIs is leaderboards.xboxlive.com.
 
 ## See also
 
-[Stats & Leaderboards](../../../features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md)
+[Stats & Leaderboards](../../../../features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md)
 
 
 <a id="ID4EOB"></a>

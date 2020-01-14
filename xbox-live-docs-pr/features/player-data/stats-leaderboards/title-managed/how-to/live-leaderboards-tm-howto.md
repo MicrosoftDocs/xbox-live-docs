@@ -407,4 +407,4 @@ while (leaderboardResult.HasNext)
 
 | Article | Description |
 |---------|-------------|
-| [Xbox Live RESTful reference: Leaderboards URIs](../../../../../xbox-live-rest/uri/leaderboard/atoc-reference-leaderboard.md) | URIs and associated HTTP methods for leaderboards. |
+| [Xbox Live RESTful reference: Leaderboards URIs](../../../../../api-ref/xbox-live-rest/uri/leaderboard/atoc-reference-leaderboard.md) | URIs and associated HTTP methods for leaderboards. |

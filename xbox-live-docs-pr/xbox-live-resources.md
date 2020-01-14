@@ -26,7 +26,7 @@ You can download the full API reference documentation (which includes C++ as wel
 
 You can find the REST API information at:
 
-* [Xbox Live RESTful reference](xbox-live-rest/atoc-xboxlivews-reference.md)
+* [Xbox Live RESTful reference](api-ref/xbox-live-rest/atoc-xboxlivews-reference.md)
 
 
 ## Xbox Live API source code

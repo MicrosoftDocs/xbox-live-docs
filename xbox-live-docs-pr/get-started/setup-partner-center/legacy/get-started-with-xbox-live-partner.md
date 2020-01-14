@@ -61,7 +61,7 @@ Once you have a title created, you should learn about the Xbox Live concepts tha
 
 - [Xbox Live sandboxes](../../../xbox-live-sandboxes.md)
 - [Xbox Live test accounts](../../../xbox-live-test-accounts.md)
-- [Introduction to Xbox Live APIs](../../../introduction-to-xbox-live-apis.md)
+- [Introduction to Xbox Live APIs](../../../api-ref/xsapi/live-introduction-to-xbox-live-apis.md)
 
 
 ## 5. Add Xbox Live Features

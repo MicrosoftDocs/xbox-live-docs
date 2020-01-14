@@ -28,4 +28,4 @@ ms.localizationpriority: medium
 
 ### See also
 
-* [Xbox Live Samples](../../../samples.md)
+* [Xbox Live Samples](../../../api-ref/live-samples.md)
