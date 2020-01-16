@@ -505,48 +505,48 @@
                     - name: Migrating from Game Chat 1 to Game Chat 2
                       href: features/multiplayer/chat/how-to/live-game-chat-2-migration.md
         - name: Cloud Storage
-          href: storage-platform/cloud-storage_nav.md
+          href: features/cloud-storage/cloud-storage_nav.md
           items: 
             - name: Connected Storage vs. Title Storage
-              href: storage-platform/connected-storage-vs-title-storage.md
+              href: features/cloud-storage/connected-storage-vs-title-storage.md
             - name: Connected Storage
-              href: storage-platform/connected-storage/connected-storage_nav.md
+              href: features/cloud-storage/connected-storage/connected-storage_nav.md
               items: 
                 - name: Overview of Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-overview.md
+                  href: features/cloud-storage/connected-storage/connected-storage-overview.md
                 - name: Saving data with Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-saving.md
+                  href: features/cloud-storage/connected-storage/connected-storage-saving.md
                 - name: Loading data with Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-loading.md
+                  href: features/cloud-storage/connected-storage/connected-storage-loading.md
                 - name: Deleting data with Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-deleting.md
+                  href: features/cloud-storage/connected-storage/connected-storage-deleting.md
                 - name: Loading data on-demand with Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-loading-on-demand.md
+                  href: features/cloud-storage/connected-storage/connected-storage-loading-on-demand.md
                 - name: Working with Connected Storage buffers
-                  href: storage-platform/connected-storage/connected-storage-using-buffers.md
+                  href: features/cloud-storage/connected-storage/connected-storage-using-buffers.md
                 - name: Managing local Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-xb-storage.md
+                  href: features/cloud-storage/connected-storage/connected-storage-xb-storage.md
                 - name: Best practices for Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-best-practices.md
+                  href: features/cloud-storage/connected-storage/connected-storage-best-practices.md
                 - name: Technical overview of Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-technical-overview.md
+                  href: features/cloud-storage/connected-storage/connected-storage-technical-overview.md
             - name: Title Storage
-              href: storage-platform/xbox-live-title-storage/xbl-title-storage_nav.md
+              href: features/cloud-storage/title-storage/xbl-title-storage_nav.md
               items: 
                 - name: Overview of Title Storage
-                  href: storage-platform/xbox-live-title-storage/xbox-live-title-storage.md
+                  href: features/cloud-storage/title-storage/xbox-live-title-storage.md
                 - name: Configuring Title Storage in Partner Center
-                  href: configure-xbl/dev-center/title-storage.md
+                  href: features/cloud-storage/title-storage/title-storage.md
                 - name: Reading a configuration blob from Title Storage
-                  href: storage-platform/xbox-live-title-storage/reading-configuration-blobs.md
+                  href: features/cloud-storage/title-storage/reading-configuration-blobs.md
                 - name: Storing a binary blob in Title Storage
-                  href: storage-platform/xbox-live-title-storage/storing-binary-blobs.md
+                  href: features/cloud-storage/title-storage/storing-binary-blobs.md
                 - name: Reading a binary blob from Title Storage
-                  href: storage-platform/xbox-live-title-storage/reading-binary-blobs.md
+                  href: features/cloud-storage/title-storage/reading-binary-blobs.md
                 - name: Storing a JSON blob in Title Storage
-                  href: storage-platform/xbox-live-title-storage/storing-jsonblobs.md
+                  href: features/cloud-storage/title-storage/storing-jsonblobs.md
                 - name: Reading a JSON blob from Title Storage
-                  href: storage-platform/xbox-live-title-storage/reading-jsonblobs.md
+                  href: features/cloud-storage/title-storage/reading-jsonblobs.md
         - name: Custom services
           href: features/external-services/external-services_nav.md
           items: 
