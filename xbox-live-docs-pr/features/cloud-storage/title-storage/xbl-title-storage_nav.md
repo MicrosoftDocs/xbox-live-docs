@@ -29,4 +29,4 @@ In Xbox Live, Title Storage is cloud storage for large amounts of per-user or pe
 
 ### See also
 
-[Xbox Live Samples](../../api-ref/live-samples.md)
+[Xbox Live Samples](../../../api-ref/live-samples.md)

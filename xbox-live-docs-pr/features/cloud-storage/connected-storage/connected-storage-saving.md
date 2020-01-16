@@ -128,7 +128,7 @@ The link to XDK APIs requires that you have a Microsoft Account(MSA) that has be
 
 ## C# UWP sample
 
-While XDK games and UWP apps may use different APIs, the UWP API is modeled after the XDK API very closely. To save data you will still need to follow the same basic steps while making note of some namespace and class name changes. Instead of using the namespace `Windows::Xbox::Storage` you will use `Windows.Gaming.XboxLive.Storage`. The class `ConnectedStorageSpace`, is equivalent to `GameSaveProvider`. The class `ConnectedStorageContainer` is equivalent to `GameSaveContainer`. These changes are further detailed in the Connected Storage Section of [Porting Xbox Live Code From XDK to UWP](../../using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md).
+While XDK games and UWP apps may use different APIs, the UWP API is modeled after the XDK API very closely. To save data you will still need to follow the same basic steps while making note of some namespace and class name changes. Instead of using the namespace `Windows::Xbox::Storage` you will use `Windows.Gaming.XboxLive.Storage`. The class `ConnectedStorageSpace`, is equivalent to `GameSaveProvider`. The class `ConnectedStorageContainer` is equivalent to `GameSaveContainer`. These changes are further detailed in the Connected Storage Section of [Porting Xbox Live Code From XDK to UWP](../../../using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md).
 
 ```csharp
 //Namespace Required

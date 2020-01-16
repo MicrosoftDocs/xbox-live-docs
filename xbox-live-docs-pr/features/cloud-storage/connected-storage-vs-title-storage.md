@@ -34,4 +34,4 @@ Games running on all platforms can use this online.
 This service gives more control over data visibility for the consumer as well as global per-title data in addition to per-user data.
 Title Storage is great for storing player statistics, player rankings, title assets such as unlockable artwork, and new maps.
 
-See [Xbox Live Title Storage](xbox-live-title-storage/xbox-live-title-storage.md).
+See [Xbox Live Title Storage](title-storage/xbox-live-title-storage.md).

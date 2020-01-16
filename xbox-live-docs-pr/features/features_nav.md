@@ -90,7 +90,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../storage-platform/cloud-storage_nav.md">
+        <a href="../cloud-storage/cloud-storage_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

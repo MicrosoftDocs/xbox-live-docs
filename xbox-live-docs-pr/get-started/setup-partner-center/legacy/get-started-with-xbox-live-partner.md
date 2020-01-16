@@ -71,7 +71,7 @@ Add Xbox Live features to your game:
 - [Xbox Live Social features - Profile, Friends, Presence](../../../social-platform/social-platform_nav.md)
 - [Xbox Live Player Data - Stats, Leaderboards, Achievements](../../../features/player-data/live-playerdata-nav.md)
 - Xbox Live Multiplayer features - Invite, Matchmaking, Tournaments: [Multiplayer overview](../../../features/multiplayer/live-multiplayer-intro.md)
-- [Xbox Live Cloud Storage - Connected Storage, Title Storage](../../../storage-platform/cloud-storage_nav.md)
+- [Xbox Live Cloud Storage - Connected Storage, Title Storage](../../../features/cloud-storage/cloud-storage_nav.md)
 - [Contextual Search](../../../contextual-search/introduction-to-contextual-search.md)
 
 

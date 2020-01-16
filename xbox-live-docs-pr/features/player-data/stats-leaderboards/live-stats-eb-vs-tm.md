@@ -55,11 +55,7 @@ In event-based Stats, the service keeps track of and updates all of your stats v
 When using title-managed Stats, you send up the actual stat value itself for the server to use.
 
 In title-managed Stats, the server does little to no validation on the value sent to it, and so it is up to your title to keep track of the correct stat values; your title is the source of truth for statistic values.
-When using title-managed Stats, we recommend that you track and store your stats in the cloud with the [Xbox Live Cloud Storage](../../../storage-platform/cloud-storage_nav.md).
-
-current loc:
-target loc:
-
+When using title-managed Stats, we recommend that you track and store your stats in the cloud with the [Xbox Live Cloud Storage](../../../features/cloud-storage/cloud-storage_nav.md).
 
 Title-managed Stats is like a reporting service: you send the correct stat for your game to the server, your stat then sits on the server and waits to be displayed on request or updated.
 

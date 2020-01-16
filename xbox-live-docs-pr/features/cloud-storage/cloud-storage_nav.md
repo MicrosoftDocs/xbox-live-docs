@@ -55,7 +55,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="xbox-live-title-storage/xbl-title-storage_nav.md">
+        <a href="title-storage/xbl-title-storage_nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

@@ -96,9 +96,9 @@ These are two different but complementary services:
 
 | Article | Description |
 |---------|-------------|
-| [Xbox Live Cloud Storage](../storage-platform/cloud-storage_nav.md) | Use the Xbox Live storage services for storing game saves, instant replays, user preferences, and other data in the cloud. |
-| [Connected Storage](../storage-platform/connected-storage/connected-storage-technical-overview.md) | An overview and programming guide on Connected Storage. |
-| [Title Storage](../storage-platform/xbox-live-title-storage/xbox-live-title-storage.md) | An overview and programming guide on Title Storage. |
+| [Xbox Live Cloud Storage](../features/cloud-storage/cloud-storage_nav.md) | Use the Xbox Live storage services for storing game saves, instant replays, user preferences, and other data in the cloud. |
+| [Connected Storage](../features/cloud-storage/connected-storage/connected-storage-technical-overview.md) | An overview and programming guide on Connected Storage. |
+| [Title Storage](../features/cloud-storage/title-storage/xbox-live-title-storage.md) | An overview and programming guide on Title Storage. |
 
 
 ## Multiplayer features

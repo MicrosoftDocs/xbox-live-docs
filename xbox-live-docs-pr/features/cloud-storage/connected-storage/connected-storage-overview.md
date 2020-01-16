@@ -59,7 +59,7 @@ Each Connected Storage space can contain numerous containers, as shown in the fo
 
 Connected Storage space (per-title/machine or per-title/user)
 
-![connected_storage_space_containers.png](../../images/connected_storage/connected_storage_space_containers.png)
+![connected_storage_space_containers.png](../../../images/connected_storage/connected_storage_space_containers.png)
 
 Data is stored in containers as one or more buffers called *blobs*.
 
@@ -68,7 +68,7 @@ For each container, there is a container file that contains references to the da
 
 Diagram of a container
 
-![container_storage_blobs.png](../../images/connected_storage/container_storage_blobs.png)
+![container_storage_blobs.png](../../../images/connected_storage/container_storage_blobs.png)
 
 To store data in a container, call the appropriate APIs container method SubmitUpdatesAsync, providing a map of names and blobs (Buffer objects).
 All changes described in a SubmitUpdatesAsync call are applied atomically, that is, either all the blobs are updated as requested, or the entire operation is terminated and the container remains in its state prior to the call.
@@ -85,7 +85,7 @@ The two APIs differ mainly in their namespace and class names.
 
 The functions required to [save](connected-storage-saving.md), [load](connected-storage-loading.md), and [delete](connected-storage-deleting.md) data with the API are named identically.
 
-Further differences between the two Connected Storage APIs are detailed in the Connected Storage section of [Porting Xbox Live code from XDK to UWP](../../using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md).
+Further differences between the two Connected Storage APIs are detailed in the Connected Storage section of [Porting Xbox Live code from XDK to UWP](../../../using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md).
 
 
 ### XDK Connected Storage API Reference

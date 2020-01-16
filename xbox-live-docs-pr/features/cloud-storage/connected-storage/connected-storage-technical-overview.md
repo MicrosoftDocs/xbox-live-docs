@@ -218,14 +218,14 @@ Each connected storage space can contain numerous containers, as shown in the fo
 
 **Figure 1.  Connected storage space (per-title/machine or per-title/user)**
 
-![Container and blob representation diagram](../../images/connected_storage/connected_storage_space_containers.png)
+![Container and blob representation diagram](../../../images/connected_storage/connected_storage_space_containers.png)
 Data is stored in containers as one or more buffers called *blobs*.
 The following diagram illustrates the internal system representation of containers on disk.
 For each container, there is a container file that contains references to the data file for each blob in the container.
 
 **Figure 2.  Diagram of a container**
 
-![Blob and data representation diagram](../../images/connected_storage/container_storage_blobs.png)
+![Blob and data representation diagram](../../../images/connected_storage/container_storage_blobs.png)
 
 To store data in a container, call the *ConnectedStorageContainer.SubmitUpdatesAsync Method*, providing a map of names and blobs (Buffer objects).
 All changes described in a **SubmitUpdatesAsync** call are applied atomically, that is, either all the blobs are updated as requested, or the entire operation is terminated and the container remains in its state prior to the call.
@@ -246,7 +246,7 @@ The system continuously transfers data from the 16 MB buffer to the hard drive, 
 
 **Figure 3.  SubmitUpdatesAsync behavior**
 
-![Asynchronous update diagram](../../images/connected_storage/submitupdatesasync_behavior.png)
+![Asynchronous update diagram](../../../images/connected_storage/submitupdatesasync_behavior.png)
 Uploading to the cloud happens in a similar way: Individual blobs are uploaded to the service, and the update operation is committed by a final update to a container file that references all the other uploaded blobs.
 In an upload to the cloud, this consolidation into a single and final update ensures that all data referenced in a **SubmitUpdatesAsync** call is either committed in its entirety or the container is left unchanged.
 In this way, even if a system goes offline or loses power during an upload operation, a user could go to another Xbox One console, download data from the cloud, and continue play with a consistent view of all containers.
@@ -264,7 +264,7 @@ Bob starts with 100 gold and no food in his inventory.
 
 **Figure 4.  Example scenario: Bob starts with 100 gold.**
 
-![Example figure. Bob has 100 Gold](../../images/connected_storage/submitupdatesasync_example_scenario1.png)
+![Example figure. Bob has 100 Gold](../../../images/connected_storage/submitupdatesasync_example_scenario1.png)
 
 Now Bob spends 50 gold.
 The title prepares a **SubmitUpdatesAsync** call, which updates the value of the gold blob to 50.
@@ -274,14 +274,14 @@ Then the system copies the value of the new blob to the hard drive.
 
 **Figure 5.  The system captures the updated information and copies the values to the hard drive.**
 
-![Example figure. Bob spends 50 Gold](../../images/connected_storage/submitupdatesasync_example_scenario2.png)
+![Example figure. Bob spends 50 Gold](../../../images/connected_storage/submitupdatesasync_example_scenario2.png)
 
 Finally, the system updates the container file on the HDD to reference the new blob.
 Eventually, the system removes the unreferenced blob in a garbage collection operation.
 
 **Figure 6.  The system updates the container file on the HDD and removes the unreferenced blob.**
 
-![Example figure. Overwriting the new Gold value for Bob in Connected Storage](../../images/connected_storage/submitupdatesasync_example_scenario3.png)
+![Example figure. Overwriting the new Gold value for Bob in Connected Storage](../../../images/connected_storage/submitupdatesasync_example_scenario3.png)
 
 Note that the more blobs you use per **SubmitUpdatesAsync** call, the more time is required to complete the necessary atomic operations of the file system operations to store the data robustly.
 The granularity of data storage in the preceding example is far too small, but it is intended to clearly illustrate the behavior of the atomic update of multiple blobs in one container.
@@ -303,26 +303,26 @@ First, the system writes the data for the new value of the food blob to disk:
 
 **Figure 7.  The system writes the value of the food blob to disk.**
 
-![The system writes the value of the food blob to disk.](../../images/connected_storage/update_method_wrong_way_1.png)
+![The system writes the value of the food blob to disk.](../../../images/connected_storage/update_method_wrong_way_1.png)
 Next, the system updates the container to reference the newly written value.
 As the following diagram illustrates, if power were lost after this step and before the next one, Bob would end up with a good deal, gaining 25 food without having the corresponding gold deducted from his inventory.
 
 **Figure 8.  The system updates the container to reference the newly written value.**
 
-![The system updates the container to reference the newly written value](../../images/connected_storage/update_method_wrong_way_2.png)
+![The system updates the container to reference the newly written value](../../../images/connected_storage/update_method_wrong_way_2.png)
 
 Next, the system writes the data for the new value of the gold blob to disk.
 The value for gold referenced by the Bob\_Inventory container still hasn't been updated, and Bob has 25 more gold than he should—but we're one step closer to the desired result.
 
 **Figure 9.  The system writes the data for the new value of the gold blob to disk.**
 
-![The system writes the data for the new value of the gold blob to disk](../../images/connected_storage/update_method_wrong_way_3.png)
+![The system writes the data for the new value of the gold blob to disk](../../../images/connected_storage/update_method_wrong_way_3.png)
 
 Finally, the system updates the container file to reference the newly written blob for gold—the intended result.
 
 **Figure 10.  The system updates the container file to reference the newly written gold blob.**
 
-![The system updates the container file to reference the newly written gold blob](../../images/connected_storage/update_method_wrong_way_4.png)
+![The system updates the container file to reference the newly written gold blob](../../../images/connected_storage/update_method_wrong_way_4.png)
 
 
 ### Updating multiple blobs — the right way
@@ -334,17 +334,17 @@ First the system writes the data for the new value of the food blob to disk.
 
 **Figure 11.  The system writes the data for the new value of the food blob.**
 
-![The system writes the data for the new value of the food blob](../../images/connected_storage/update_method_right_way_1.png)
+![The system writes the data for the new value of the food blob](../../../images/connected_storage/update_method_right_way_1.png)
 Then the system writes the data for the new value of the gold blob to disk.
 
 **Figure 12.  The system writes the data for the new value of the gold blob.**
 
-![The system writes the data for the new value of the gold blob](../../images/connected_storage/update_method_right_way_2.png)
+![The system writes the data for the new value of the gold blob](../../../images/connected_storage/update_method_right_way_2.png)
 Finally, the system updates the container file to reference both of the new blobs.
 
 **Figure 13.  The system updates the container file to reference both new blobs.**
 
-![The system updates the container file to reference both new blobs](../../images/connected_storage/update_method_right_way_3.png)
+![The system updates the container file to reference both new blobs](../../../images/connected_storage/update_method_right_way_3.png)
 While this example is very simple, it illustrates the importance of making all modifications to the data in a container which must be atomically applied by issuing a single **SubmitUpdatesAsync** call with all the desired updates.
 By doing so for the case of purchasing food with gold, the app avoids a potential race condition that could incorrectly update only one of the values and leave the character with too much gold.
 
@@ -361,7 +361,7 @@ The system can operate at a steady state, processing each update within 14–18m
 
 **Figure 14.  Processing time for a SubmitUpdatesAsync operation every 2 seconds with two 512k blob updates and one 1024k blob update, and no other hard drive activity.**
 
-![Processing time for a SubmitUpdatesAsync operation every 2 seconds with two 512k blob updates and one 1024k blob update, and no other hard drive activity](../../images/connected_storage/submitupdatesasync_proc_time_mixed_size_fixed_interval.png)
+![Processing time for a SubmitUpdatesAsync operation every 2 seconds with two 512k blob updates and one 1024k blob update, and no other hard drive activity](../../../images/connected_storage/submitupdatesasync_proc_time_mixed_size_fixed_interval.png)
 Figure 14 shows the processing time for three 1024k blobs at various time intervals.
 
 The system can process these updates at intervals of 3 seconds at 87ms steady state.
@@ -376,7 +376,7 @@ The system can process only 7 updates at this interval, again at 87ms per update
 
 **Figure 15.  Processing time of three 1024k blobs at various time intervals.**
 
-![Processing time of three 1024k blobs at various time intervals.](../../images/connected_storage/submitupdatesasync_proc_time_fixed_size_various_intervals.png)
+![Processing time of three 1024k blobs at various time intervals.](../../../images/connected_storage/submitupdatesasync_proc_time_fixed_size_various_intervals.png)
 These are illustrative examples only.
 Your app generally shouldn't be saving data this often, yet it also won't generally be operating in an environment free of disk I/O.
 
@@ -407,7 +407,7 @@ If the entire sequence takes more than a few seconds, the system-drawn synchroni
 
 **Figure 16.  Sequence followed by the system when an app requests connected storage space.**
 
-![Sequence followed by the system when an app requests connected storage space](../../images/connected_storage/app_requests_connected_storage_space.png)
+![Sequence followed by the system when an app requests connected storage space](../../../images/connected_storage/app_requests_connected_storage_space.png)
 The system goes through the following stages when it services a **GetForUserAsync** request:
 
 -   Connectivity check

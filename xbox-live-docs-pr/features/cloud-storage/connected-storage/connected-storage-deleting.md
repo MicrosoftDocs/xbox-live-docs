@@ -142,7 +142,7 @@ To delete data, you will still need to follow the same basic steps while making 
 * The class `ConnectedStorageSpace` is equivalent to `GameSaveProvider`.
 * The class `ConnectedStorageContainer` is equivalent to `GameSaveContainer`.
 
-These changes are further detailed in the Connected Storage Section of [Porting Xbox Live Code From XDK to UWP](../../using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md).
+These changes are further detailed in the Connected Storage Section of [Porting Xbox Live Code From XDK to UWP](../../../using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md).
 
 ```csharp
 //Namespace Required
