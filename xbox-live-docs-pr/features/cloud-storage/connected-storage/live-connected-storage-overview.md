@@ -183,5 +183,5 @@ To learn more about the functions available in the **xbstorage** tool and `games
 
 ## Technical overview
 
-To take a more in depth look at how Connected Storage works on the XDK read the [Connected Storage Technical Overview](concepts/live-connected-storage-technical-overview.md).
+To take a more in depth look at how Connected Storage works on the XDK read the [Connected Storage Technical Overview](live-connected-storage-technical-overview.md).
 The technical overview was written specifically for XDK developers, but the concepts contained within apply to Connected Storage in general.

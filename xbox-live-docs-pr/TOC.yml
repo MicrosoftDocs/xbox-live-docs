@@ -139,7 +139,7 @@
             - name: Adding basic sign-in code for mobile
               href: get-started/add-signin-code/getting-xsapi-to-sign-in.md
     - name: Features
-      href: features/features_nav.md
+      href: features/features-nav.md
       items:
         - name: Identity features
           href: features/identity/identity_nav.md
@@ -537,7 +537,7 @@
                     - name: Working with Connected Storage buffers
                       href: features/cloud-storage/connected-storage/how-to/live-connected-storage-using-buffers.md
             - name: Title Storage
-              href: features/cloud-storage/title-storage/xbl-title-storage_nav.md
+              href: features/cloud-storage/title-storage/live-title-storage-nav.md
               items:
                 - name: Title Storage overview
                   href: features/cloud-storage/title-storage/live-title-storage-overview.md              
