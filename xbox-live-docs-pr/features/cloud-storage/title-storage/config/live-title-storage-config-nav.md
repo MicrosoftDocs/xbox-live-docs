@@ -10,4 +10,11 @@ ms.technology: xboxgc
 edited: 00/00/0000
 ---
 # Title Storage portal config
-{% jumppage its %}
+
+### In this section
+
+| Article | Description |
+|---------|-------------|
+| [Configuring Title Storage in Partner Center](live-title-storage-portal-config.md) |  Configuring Title Storage on Partner Center, for game-save in the cloud. |
+
+<!-- {% jumppage its %} -->

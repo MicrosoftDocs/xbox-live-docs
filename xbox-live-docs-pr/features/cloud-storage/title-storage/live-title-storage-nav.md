@@ -25,6 +25,11 @@ In Xbox Live, Title Storage is cloud storage for large amounts of per-user or pe
 | [Reading a binary blob from Title Storage](how-to/live-reading-binary-blobs.md) | Reading a binary blob in Title Storage, using GET. |
 | [Storing a JSON blob in Title Storage](how-to/live-storing-jsonblobs.md) | Storing a JSON blob in Title Storage, using PUT. |
 | [Reading a JSON blob from Title Storage](how-to/live-reading-jsonblobs.md) | Reading a JSON blob in Title Storage, using GET. |
+| [Deleting a blob from Title Storage](how-to/live-deleting-title-storage-blob.md) | Example code for deleting a blob from Title Storage. |
+| [Downloading a blob from Title Storage](how-to/live-downloading-title-storage-blob.md) | Example code for downloading a blob from Title Storage |
+| [Getting Title Storage blob metadata](how-to/live-getting-title-storage-blob-metadata.md) | Example code for getting Title Storage blob metadata. |
+| [Getting quota info for a Title Storage service configuration](how-to/live-getting-title-storage-quota-info.md) | Example code for getting quota info for a Title Storage service configuration. |
+| [Uploading a blob to Title Storage](how-to/live-uploading-title-storage-blob.md) | Example code for uploading a blob to Title Storage. |
 
 
 ### See also
