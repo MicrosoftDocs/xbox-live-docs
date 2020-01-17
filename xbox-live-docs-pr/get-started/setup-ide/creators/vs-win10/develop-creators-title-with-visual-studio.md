@@ -120,7 +120,7 @@ For example:
 
 ### 3. (Optional) Using Connected Storage
 
-If you want to use the [Connected Storage](../../../../features/cloud-storage/connected-storage/connected-storage-technical-overview.md) service, you will need to access the `Windows.Gaming.XboxLive.Storage` namespace.
+If you want to use the [Connected Storage](../../../../features/cloud-storage/connected-storage/live-connected-storage-technical-overview.md) service, you will need to access the `Windows.Gaming.XboxLive.Storage` namespace.
 Depending on the version of the Windows SDK that you are using, you may need to install additional content or manually add references to your project to use it.
 
 If you've targeted Windows 10 SDK 10.0.16299 or higher, then you will be able to access the Connected Storage namespace without doing any additional work.

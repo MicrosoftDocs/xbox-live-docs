@@ -43,7 +43,9 @@ if (SUCCEEDED(hr))
 }
 ```
 
+<!-- In .Chm only:
 **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XAsyncGetStatus](xasyncgetstatus.md)
 * [XblTitleStorageDeleteBlobAsync](xbltitlestoragedeleteblobasync.md)
+-->

@@ -26,7 +26,7 @@ To create your own custom tooling, you can use the [Dev Tools library](https://w
 ## Global Storage
 
 Global title storage is used to store data that everyone can read, such as rosters, maps, challenges, or art resources.
-Global title storage is a type of [Title Storage](../features/cloud-storage/title-storage/xbox-live-title-storage.md).
+Global title storage is a type of [Title Storage](../features/cloud-storage/title-storage/live-title-storage-overview.md).
 
 The Global Storage tool is used to manage global title storage in test sandboxes.
 Data must still be published to RETAIL via Partner Center.

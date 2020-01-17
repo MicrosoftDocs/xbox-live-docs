@@ -27,7 +27,7 @@ Title Storage configuration has two main sections: the Title Storage settings se
 
 ## Section 1: Title Storage settings
 
-![Title Storage settings screenshot](../../../images/dev-center/title-storage/title-storage-settings.JPG)
+![Title Storage settings screenshot](../../../../images/dev-center/title-storage/title-storage-settings.JPG)
 
 In this section, you can enable any of the four storage types by checking the box in the **Active** column.
 
@@ -55,7 +55,7 @@ You can find a description of each storage type by hovering over the info icon n
 
 ## Section 2: Global Storage file management
 
-![global storage file management screenshot](../../../images/dev-center/title-storage/global-storage-file-management.JPG)
+![global storage file management screenshot](../../../../images/dev-center/title-storage/global-storage-file-management.JPG)
 
 To see the full Global Storage file management options, click the **show options** drop-down.
 In this section, you can add files and folders that will be accessible if the **Global** storage type is set to active in the Title Storage settings.
@@ -80,7 +80,7 @@ You will then be given the option to add a new file or folder to your global sto
 When adding a new folder to your global storage files you simply need to name the folder and click the **Create** button.
 Your new folder will appear in the file explorer table.
 
-![add folder dialogue](../../../images/dev-center/title-storage/add-folder-global-storage-filled.JPG)
+![add folder dialogue](../../../../images/dev-center/title-storage/add-folder-global-storage-filled.JPG)
 
 To add files to your folder, you must upload them to the folder directly, by clicking the folder's **Actions** button: "**...**", and selecting **upload files**.
 You cannot drag and drop files into folders within the files explorer table.
@@ -99,7 +99,7 @@ In addition to being able to upload a file with the **+ New ...** button, you ca
 > You cannot drag folders into the file explorer table, attempting this action will result in the folder being treated like a file and will not work as expected.
 
 File management actions:
-![file management gif](../../../images/dev-center/title-storage/global-storage-management.gif)
+![file management gif](../../../../images/dev-center/title-storage/global-storage-management.gif)
 
 
 #### File types
@@ -113,5 +113,5 @@ File management actions:
 
 | Article | Description |
 |---------|-------------|
-| [Title Storage documentation](../title-storage/xbox-live-title-storage.md) | Universal, Trusted, Global Storage and storage file types. |
-| [Connected Storage documentation](../connected-storage/connected-storage-overview.md) | Saving game progress in the cloud so that you can continue your game between devices. |
+| [Title Storage documentation](../live-title-storage-nav.md) | Universal, Trusted, Global Storage and storage file types. |
+| [Connected Storage documentation](../../connected-storage/live-connected-storage-overview.md) | Saving game progress in the cloud so that you can continue your game between devices. |

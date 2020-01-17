@@ -83,7 +83,7 @@ Connected Storage has separate APIs for the XDK and UWP apps.
 Fortunately, these APIs resemble each other very closely.
 The two APIs differ mainly in their namespace and class names.
 
-The functions required to [save](connected-storage-saving.md), [load](connected-storage-loading.md), and [delete](connected-storage-deleting.md) data with the API are named identically.
+The functions required to [save](how-to/live-connected-storage-saving.md), [load](how-to/live-connected-storage-loading.md), and [delete](how-to/live-connected-storage-deleting.md) data with the API are named identically.
 
 Further differences between the two Connected Storage APIs are detailed in the Connected Storage section of [Porting Xbox Live code from XDK to UWP](../../../using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md).
 
@@ -147,9 +147,9 @@ This is the function that you will ultimately need to call to update data in you
 ### Examples of using the Connected Storage API
 
 To see examples of the Connected Storage APIs in use, see the following Connected Storage articles:
-* [Save Data](connected-storage-saving.md)
-* [Load Data](connected-storage-loading.md)
-* [Delete Data](connected-storage-deleting.md)
+* [Save Data](how-to/live-connected-storage-saving.md)
+* [Load Data](how-to/live-connected-storage-loading.md)
+* [Delete Data](how-to/live-connected-storage-deleting.md)
 
 > [!NOTE]
 > A Note on Security:
@@ -178,10 +178,10 @@ Both of these tools allow you to manipulate local storage on your device with th
 |generate | Generates dummy data and saves to the specified XML file. |
 |simulate | Simulates out of Storage Space conditions. |
 
-To learn more about the functions available in the **xbstorage** tool and `gamesaveutils.exe`, see [Managing local Connected Storage](connected-storage-xb-storage.md).
+To learn more about the functions available in the **xbstorage** tool and `gamesaveutils.exe`, see [Managing local Connected Storage](concepts/live-connected-storage-xb-storage.md).
 
 
 ## Technical overview
 
-To take a more in depth look at how Connected Storage works on the XDK read the [Connected Storage Technical Overview](connected-storage-technical-overview.md).
+To take a more in depth look at how Connected Storage works on the XDK read the [Connected Storage Technical Overview](concepts/live-connected-storage-technical-overview.md).
 The technical overview was written specifically for XDK developers, but the concepts contained within apply to Connected Storage in general.

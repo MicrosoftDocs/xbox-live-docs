@@ -70,7 +70,7 @@ The Gamertag must be displayed once signed in so that the player can validate th
 Xbox Live Creators Program offers an array of features designed to help promote your game and keep gamers engaged:
 
 - [Player Data](../../../features/player-data/live-playerdata-nav.md) (Achievements, player Stats, Leaderboards, and Featured Stats) helps drive engagement of your game by letting gamers compete to beat their friends and move up the ranks.
-- [Xbox Live Cloud Storage: Connected Storage, Title Storage](../../../features/cloud-storage/cloud-storage_nav.md) offers free save game roaming between devices so gamers can easily continue game progress between Xbox One and Windows PC.
+- [Xbox Live Cloud Storage: Connected Storage, Title Storage](../../../features/cloud-storage/live-cloud-storage-nav.md) offers free save game roaming between devices so gamers can easily continue game progress between Xbox One and Windows PC.
 - [Xbox Live Social features - Profile, Friends, Presence](../../../social-platform/social-platform_nav.md) lets gamers connect with friends and talk about your game.
 
 The online multiplayer, achievements, and gamerscore features are supported for Managed Partners, but not for the Creators Program.

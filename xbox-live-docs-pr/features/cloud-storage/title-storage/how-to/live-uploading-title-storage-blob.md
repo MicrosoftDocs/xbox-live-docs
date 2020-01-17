@@ -63,8 +63,10 @@ if (SUCCEEDED(hr))
 }
 ```
 
+<!-- In .Chm only:
 **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblTitleStorageBlobMetadata](xbltitlestorageblobmetadata.md)
 * [XblTitleStorageUploadBlobAsync](xbltitlestorageuploadblobasync.md)
 * [XblTitleStorageUploadBlobResult](xbltitlestorageuploadblobresult.md)
+-->
