@@ -734,25 +734,25 @@
             - name: Porting Xbox Live code from XDK to UWP
               href: using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md
     - name: API Reference
-      href: api-reference_nav.md
+      href: api-ref/live-api-reference-nav.md
       items:
         - name: XSAPI Reference
-          href: api-ref/xsapi/xsapi_nav.md
+          href: api-ref/xsapi/live-xsapi-nav.md
           items:
             - name: Introduction to XSAPI APIs
-              href: introduction-to-xbox-live-apis.md
+              href: api-ref/xsapi/live-introduction-to-xbox-live-apis.md
             - name: Introduction to the XSAPI C API
-              href: xsapi-flat-c.md
+              href: api-ref/xsapi/live-xsapi-flat-c.md
             - name: XSAPI WinRT Reference
               href: https://docs.microsoft.com/en-us/dotnet/api/?view=xboxlive-dotnet-2017.11.20171204.01
         - name: XAL Reference
-          href: api-ref/xal/xal_nav.md
+          href: api-ref/xal/live-xal-nav.md
         - name: XAsync Reference
-          href: api-ref/xasync/xasync_nav.md
+          href: api-ref/xasync/live-xasync-nav.md
           items: 
             - name: Making async calls in the XSAPI C API
-              href: flatc-async-patterns.md
+              href: api-ref/xsapi/live-flatc-async-patterns.md
         - name: REST Reference
-          href: xbox-live-rest/TOC.md
+          href: api-ref/xbox-live-rest/TOC.md
         - name: Xbox Live Samples
-          href: samples.md
+          href: api-ref/live-samples.md

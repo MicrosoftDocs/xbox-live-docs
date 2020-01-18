@@ -15,7 +15,7 @@ Like other services, the Multiplayer Session Directory (MPSD) supports service-t
 
 Management of multiplayer sessions through a title service, instead of clients, can reduce error handling logic and avoid race conditions for session write operations. This specifically applies for large session types with large session membership. Therefore, it is best practice for MMOs and titles with many players in a session to manage MPSD sessions through the title server.
 
-For general information about RESTful MPSD calling patterns, refer to [Xbox Live REST Additional Reference](../../../../xbox-live-rest/additional/atoc-xboxlivews-reference-additional.md).
+For general information about RESTful MPSD calling patterns, refer to [Xbox Live REST Additional Reference](../../../../api-ref/xbox-live-rest/additional/atoc-xboxlivews-reference-additional.md).
 
 
 ## MPSD service-to-service authentication

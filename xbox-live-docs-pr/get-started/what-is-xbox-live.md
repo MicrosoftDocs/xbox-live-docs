@@ -38,7 +38,7 @@ Xbox Live is a collection of micro-services that expose Xbox Live features such 
 
 Xbox Live data is stored in the cloud, and can be accessed by using REST endpoints and secure websockets that are accessible from a set of client-side APIs designed for game developers.
 
-In addition to the REST APIs, there are client side APIs that wrap the REST functionality. See [Introduction to Xbox Live APIs](../introduction-to-xbox-live-apis.md).
+In addition to the REST APIs, there are client side APIs that wrap the REST functionality. See [Introduction to Xbox Live APIs](../api-ref/xsapi/live-introduction-to-xbox-live-apis.md).
 
 
 ## Join the Creators or ID program

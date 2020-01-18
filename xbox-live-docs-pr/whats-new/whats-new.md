@@ -35,7 +35,7 @@ Developers can now use XAL and XSAPI on Android and iOS platforms.
 
 C APIs are now available for some Xbox Live features. The new API layer provides a number of benefits for the supported features, including custom memory management, manual thread management for asynchronous tasks, and a new HTTP library.
 
-For more information, see [Xbox Live C APIs](../xsapi-flat-c.md).
+For more information, see [Xbox Live C APIs](../api-ref/xsapi/live-xsapi-flat-c.md).
 
 
 ## August 2017
