@@ -100,8 +100,50 @@ You can also find the WinRT APIs in the [Microsoft.Xbox.Services.Social.Manager.
 In this scenario, you want a list of users from a filter, such as all the people this user is following or tagged as favorite.
 
 
-#### Source example using the C++ API
+**C API**
+```cpp
+HRESULT hr = XblSocialManagerAddLocalUser(user, extraLevelDetail, nullptr);
 
+XblPresenceFilter presenceFilter{ XblPresenceFilter::All };
+XblRelationshipFilter relationshipFilter{ XblRelationshipFilter::Friends };
+
+XblSocialManagerUserGroupHandle groupHandle{ nullptr };
+HRESULT hr = XblSocialManagerCreateSocialUserGroupFromFilters(user, presenceFilter, relationshipFilter, &groupHandle);
+
+if (SUCCEEDED(hr))
+{
+    state.groups.insert(groupHandle);
+}
+
+// some update loop in the game
+while (true)
+{
+    const XblSocialManagerEvent* events{ nullptr };
+    size_t eventCount{ 0 };
+    HRESULT hr = XblSocialManagerDoWork(&events, &eventCount);
+    if (SUCCEEDED(hr))
+    {
+        for (size_t i = 0; i < eventCount; i++)
+        {
+            // Act on the event
+        }
+    }
+}
+```
+
+<!-- in chm only:
+**Reference**
+* [XblPresenceFilter](xblpresencefilter.md)
+* [XblRelationshipFilter](xblrelationshipfilter.md)
+* [XblSocialManagerAddLocalUser](xblsocialmanageraddlocaluser.md)
+* [XblSocialManagerCreateSocialUserGroupFromFilters](xblsocialmanagercreatesocialusergroupfromfilters.md)
+* [XblSocialManagerDoWork](xblsocialmanagerdowork.md)
+* [XblSocialManagerEvent](xblsocialmanagerevent.md)
+-->
+<!-- * [XblSocialManagerUserGroupHandle](xblsocialmanagerusergrouphandle.md) -->
+
+
+**C++ API**
 ```cpp
 //#include "Social.h"
 
@@ -127,8 +169,7 @@ while(true)
 ```
 
 
-#### Source example using the C# API
-
+**C# WinRT API**
 ```csharp
 // using Microsoft.Xbox.Services;
 // using Microsoft.Xbox.Services.System;
@@ -183,8 +224,52 @@ The `xbox_social_user` contains the social information such as gamertag, gamerpi
 In this scenario, you want the social information of a list of users such as users in a multiplayer session.
 
 
-#### Source example using the C++ API
+**C API**
+```cpp
+HRESULT hr = XblSocialManagerAddLocalUser(user, extraLevelDetail, nullptr);
 
+// List of xuids to track
+std::vector<uint64_t> xuids
+{
+    listXuids.begin() + static_cast<int>(offset),
+    listXuids.begin() + static_cast<int>(offset + count) 
+}; 
+
+XblSocialManagerUserGroupHandle groupHandle{ nullptr };
+HRESULT hr = XblSocialManagerCreateSocialUserGroupFromList(user, xuids.data(), xuids.size(), &groupHandle);
+
+if (SUCCEEDED(hr))
+{
+    state.groups.insert(groupHandle);
+}
+
+// some update loop in the game
+while (true)
+{
+    const XblSocialManagerEvent* events{ nullptr };
+    size_t eventCount{ 0 };
+    HRESULT hr = XblSocialManagerDoWork(&events, &eventCount);
+    if (SUCCEEDED(hr))
+    {
+        for (size_t i = 0; i < eventCount; i++)
+        {
+            // Act on the event
+        }
+    }
+}
+```
+
+<!-- in chm only:
+**Reference**
+* [XblSocialManagerAddLocalUser](xblsocialmanageraddlocaluser.md)
+* [XblSocialManagerCreateSocialUserGroupFromList](xblsocialmanagercreatesocialusergroupfromlist.md)
+* [XblSocialManagerDoWork](xblsocialmanagerdowork.md)
+* [XblSocialManagerEvent](xblsocialmanagerevent.md)
+ -->
+ <!-- * [XblSocialManagerUserGroupHandle](xblsocialmanagerusergrouphandle.md) -->
+
+
+**C++ API**
 ```cpp
 //#include "Social.h"
 
@@ -209,8 +294,7 @@ while(true)
 ```
 
 
-#### Source example using the C# API
-
+**C# WinRT API**
 ```csharp
 // using Microsoft.Xbox.Services;
 // using Microsoft.Xbox.Services.System;
@@ -251,8 +335,42 @@ while(true)
 You can also change the list of tracked users in the social user group by calling `update_social_user_group()`.
 
 
-#### Source example using the C++ API
+**C API**
+```cpp
+// New list of xuids to track
+std::vector<uint64_t> xuids
+{ 
+    listXuids.begin() + static_cast<int>(offset),
+    listXuids.begin() + static_cast<int>(offset + count)
+};
 
+HRESULT hr = XblSocialManagerUpdateSocialUserGroup(group, xuids.data(), xuids.size());
+
+// some update loop in the game
+while (true)
+{
+    const XblSocialManagerEvent* events{ nullptr };
+    size_t eventCount{ 0 };
+    HRESULT hr = XblSocialManagerDoWork(&events, &eventCount);
+    if (SUCCEEDED(hr))
+    {
+        for (size_t i = 0; i < eventCount; i++)
+        {
+            // Act on the event
+        }
+    }
+}
+```
+
+<!-- in chm only:
+**Reference**
+* [XblSocialManagerDoWork](xblsocialmanagerdowork.md)
+* [XblSocialManagerEvent](xblsocialmanagerevent.md)
+* [XblSocialManagerUpdateSocialUserGroup](xblsocialmanagerupdatesocialusergroup.md)
+-->
+
+
+**C++ API**
 ```cpp
 //#include "Social.h"
 
@@ -269,9 +387,7 @@ socialManager->update_social_user_group(
     }
 ```
 
-
-#### Source example using the C# API
-
+**C# WinRT API**
 ```csharp
 // using Microsoft.Xbox.Services.Social.Manager;
 
@@ -301,8 +417,47 @@ while(true)
 Social Manager will also tell you what happened in the form of events.  You can use those events to update your UI or perform other logic.
 
 
-#### Source example using the C++ API
+**C API**
+```cpp
+// some update loop in the game
+while (true)
+{
+    const XblSocialManagerEvent* events{ nullptr };
+    size_t eventCount{ 0 };
+    HRESULT hr = XblSocialManagerDoWork(&events, &eventCount);
+    if (SUCCEEDED(hr))
+    {
+        for (size_t i = 0; i < eventCount; i++)
+        {
+            // Act on the event
+            auto& socialEvent = events[i];
+            std::stringstream ss;
+            ss << "XblSocialManagerDoWork: Event of type " << eventTypesMap[socialEvent.eventType] << std::endl;
+            for (uint32_t i = 0; i < XBL_SOCIAL_MANAGER_MAX_AFFECTED_USERS_PER_EVENT; i++)
+            {
+                if (socialEvent.usersAffected[i] != nullptr)
+                {
+                    if (i == 0)
+                    {
+                        ss << "Users affected: " << std::endl;
+                    }
+                    ss << "\t" << socialEvent.usersAffected[i]->gamertag << std::endl;
+                }
+            }
+            LogToFile(ss.str().c_str());
+        }
+    }
+}
+```
 
+<!-- in chm only:
+**Reference**
+* [XblSocialManagerDoWork](xblsocialmanagerdowork.md)
+* [XblSocialManagerEvent](xblsocialmanagerevent.md)
+-->
+
+
+**C++ API**
 ```cpp
 //#include "Social.h"
 
@@ -334,8 +489,7 @@ while(true)
 ```
 
 
-##### Source example using the C# API
-
+**C# WinRT API**
 ```csharp
 // using Microsoft.Xbox.Services;
 // using Microsoft.Xbox.Services.System;
@@ -398,6 +552,23 @@ More information can be found in the `social_event` API documentation.
 
 #### Cleaning Up Social User Groups
 
+
+**C API**
+```cpp
+HRESULT hr = XblSocialManagerDestroySocialUserGroup(groupHandle);
+if (SUCCEEDED(hr))
+{
+    state.groups.erase(groupHandle);
+}
+```
+
+<!-- in chm only:
+**Reference**
+*[XblSocialManagerDestroySocialUserGroup](xblsocialmanagerdestroysocialusergroup.md)
+-->
+
+
+**C++ API**
 ```cpp
 //#include "Social.h"
 
@@ -406,6 +577,8 @@ socialManger->destroy_social_user_group(
     );
 ```
 
+
+**C# WinRT API**
 ```csharp
 // using Microsoft.Xbox.Services.Social.Manager;
 
@@ -420,6 +593,21 @@ Caller should also remove any references they have to any created social user gr
 
 #### Cleaning Up Local Users
 
+Remove local user removes the loaded users social graph, as well as any social user groups that were created using that user.
+
+
+**C API**
+```cpp
+HRESULT hr = XblSocialManagerRemoveLocalUser(user);
+```
+
+<!-- in chm only:
+**Reference**
+* [XblSocialManagerRemoveLocalUser](xblsocialmanagerremovelocaluser.md)
+-->
+
+
+**C++ API**
 ```cpp
 //#include "Social.h"
 
@@ -428,6 +616,8 @@ socialManger->remove_local_user(
     );
 ```
 
+
+**C# WinRT API**
 ```csharp
 // using Microsoft.Xbox.Services.Social.Manager;
 
@@ -435,8 +625,6 @@ socialManager.RemoveLocalUser(
      xboxLiveContext.User
      );
 ```
-
-Remove local user removes the loaded users social graph, as well as any social user groups that were created using that user.
 
 
 #### Events Returned
