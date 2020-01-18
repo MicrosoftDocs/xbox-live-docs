@@ -68,11 +68,11 @@ Once you have a title created, you should learn about the Xbox Live concepts tha
 
 Add Xbox Live features to your game:
 
-- [Xbox Live Social features - Profile, Friends, Presence](../../../social-platform/social-platform_nav.md)
-- [Xbox Live Player Data - Stats, Leaderboards, Achievements](../../../features/player-data/live-playerdata-nav.md)
-- Xbox Live Multiplayer features - Invite, Matchmaking, Tournaments: [Multiplayer overview](../../../features/multiplayer/live-multiplayer-intro.md)
-- [Xbox Live Cloud Storage - Connected Storage, Title Storage](../../../storage-platform/cloud-storage_nav.md)
-- [Contextual Search](../../../contextual-search/introduction-to-contextual-search.md)
+- [Player Data](../../../features/player-data/live-playerdata-nav.md) - Achievements, player stats, leaderboards, and featured stats.
+- [Social](../../../features/social/live-social-nav.md) - Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.
+- [Multiplayer](../../../features/multiplayer/live-multiplayer-intro.md) - Matchmaking, invites, voice and text chat, and networking.
+- [Cloud Storage](../../../storage-platform/cloud-storage_nav.md) - Connected Storage and Title Storage.
+- [Contextual Search](../../../contextual-search/contextual-search.md) - Automatically tags broadcasts and game clips with real-time stats such as ranking, current level, weapons, and K/D ratio.
 
 
 ## 6. Release Your Title

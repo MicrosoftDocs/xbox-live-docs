@@ -1,8 +1,8 @@
 ---
-layout: LandingPage
 title: Cloud Storage
-author: mikehoffms
 description: Connected Storage and Title Storage.
+layout: LandingPage
+author: mikehoffms
 ms.author: v-mihof
 ms.date: 12/11/2018
 ms.topic: article

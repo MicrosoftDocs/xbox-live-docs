@@ -71,7 +71,7 @@ This section describes how to get started with the Xbox Live social features.
 
 | Article | Description |
 |---------|-------------|
-| [Xbox Live Social features](../social-platform/social-platform_nav.md) | If you can sign-in a user, then you can start using Xbox Live's Social features, such as utilizing a user's social graph, Rich Presence, and others. |
+| [Social](../features/social/live-social-nav.md) | If you can sign-in a user, then you can start using Xbox Live's Social features, such as Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation. |
 
 
 ## Player Data

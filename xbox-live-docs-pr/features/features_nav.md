@@ -52,17 +52,17 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../social-platform/social-platform_nav.md">
+        <a href="social/live-social-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_configure-teams.svg" alt="Social features"/>
+                                <img src="https://docs.microsoft.com/media/common/i_configure-teams.svg" alt="Social"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Social features</h3>
+                            <h3>Social</h3>
                             <p>Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.</p>
                         </div>
                     </div>
