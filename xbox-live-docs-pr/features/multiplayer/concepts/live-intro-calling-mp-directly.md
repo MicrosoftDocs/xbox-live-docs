@@ -96,7 +96,7 @@ For details of Multiplayer use of this service, see [Matchmaking overview](../ma
 
 The *reputation service* manages user statistics about reputation and during reputation-filtered matchmaking.
 It is used by 2015 Multiplayer through SmartMatch matchmaking.
-For more information, see [Reputation](../../../social-platform/people-system/reputation_nav.md).
+See [Reputation](../../social/reputation/live-reputation-nav.md).
 
 
 #### Xbox Live Compute
@@ -282,5 +282,5 @@ See [Xbox Live Compute](https://developer.microsoft.com/games/xbox/docs/xdk/xbox
 * [Multiplayer Session Directory (MPSD)](../mpsd/live-mpsd-nav.md)
 * [Matchmaking overview](../matchmaking/live-matchmaking-overview.md)
 * [Real-Time Activity (RTA) Service](../../../real-time-activity-service/real-time-activity-service_nav.md)
-* [Reputation](../../../social-platform/people-system/reputation_nav.md)
+* [Reputation](../../social/reputation/live-reputation-nav.md)
 * [Using Xbox Live Compute in Multiplayer (requires managed partner access)](https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/xbox-live-compute/using-xbox-live-compute-in-multiplayer) (ext.)

@@ -18,7 +18,7 @@ The Xbox Live SDK supports Windows 10 RTM [Version 10.0.10240] and Visual Studio
 
 - If you are writing a UWP application, and are implementing the ability to invite users to a game, there are instructions on the `.appxmanifest` changes necessary in [Multiplayer invites for UWP games](../features/multiplayer/invites/concepts/live-multiplayer-invite-uwp.md). This was previously discussed on the [forums](https://forums.xboxlive.com) and the [porting xbox live code from era to uwp](../using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md) article.
 
-- The [Introduction to Social Manager](../social-platform/intro-to-social-manager.md) article has been updated to reflect recent API changes, and provide more information about return codes for some of the functions.
+- The [Social Manager overview](../features/social/social-manager/live-social-manager-overview.md) article has been updated to reflect recent API changes, and provide more information about return codes for some of the functions.
 
 ## Unity Samples
 Some new samples have been added for Unity developers writing a UWP application.
