@@ -549,26 +549,26 @@
                 - name: Title Storage how-tos
                   href: features/cloud-storage/title-storage/how-to/live-title-storage-howto-nav.md
                   items:
-                    - name: Deleting a blob from Title Storage
-                      href: features/cloud-storage/title-storage/how-to/live-deleting-title-storage-blob.md
+                    - name: Uploading a blob to Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-uploading-title-storage-blob.md
                     - name: Downloading a blob from Title Storage
                       href: features/cloud-storage/title-storage/how-to/live-downloading-title-storage-blob.md
+                    - name: Deleting a blob from Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-deleting-title-storage-blob.md
                     - name: Getting Title Storage blob metadata
                       href: features/cloud-storage/title-storage/how-to/live-getting-title-storage-blob-metadata.md
                     - name: Getting quota info for a Title Storage service configuration
                       href: features/cloud-storage/title-storage/how-to/live-getting-title-storage-quota-info.md
-                    - name: Reading a binary blob from Title Storage
-                      href: features/cloud-storage/title-storage/how-to/live-reading-binary-blobs.md                     
-                    - name: Reading a configuration blob from Title Storage
-                      href: features/cloud-storage/title-storage/how-to/live-reading-configuration-blobs.md
-                    - name: Reading a JSON blob from Title Storage
-                      href: features/cloud-storage/title-storage/how-to/live-reading-jsonblobs.md 
-                    - name: Storing a binary blob in Title Storage
-                      href: features/cloud-storage/title-storage/how-to/live-storing-binary-blobs.md
                     - name: Storing a JSON blob in Title Storage
                       href: features/cloud-storage/title-storage/how-to/live-storing-jsonblobs.md
-                    - name: Uploading a blob to Title Storage
-                      href: features/cloud-storage/title-storage/how-to/live-uploading-title-storage-blob.md                                  
+                    - name: Storing a binary blob in Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-storing-binary-blobs.md
+                    - name: Reading a binary blob from Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-reading-binary-blobs.md
+                    - name: Reading a JSON blob from Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-reading-jsonblobs.md
+                    - name: Reading a configuration blob from Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-reading-configuration-blobs.md
         - name: Custom services
           href: features/external-services/external-services_nav.md
           items: 
