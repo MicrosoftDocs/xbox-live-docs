@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="connected-storage-vs-title-storage.md">
+        <a href="live-connected-storage-vs-title-storage.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -33,7 +33,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="connected-storage/connected-storage_nav.md">
+        <a href="connected-storage/live-connected-storage-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -55,7 +55,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="xbox-live-title-storage/xbl-title-storage_nav.md">
+        <a href="title-storage/live-title-storage-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

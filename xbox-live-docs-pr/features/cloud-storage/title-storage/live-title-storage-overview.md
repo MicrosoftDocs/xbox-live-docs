@@ -1,5 +1,5 @@
 ---
-title: Overview of Title Storage
+title: Title Storage overview
 description: Using Title Storage to store game information for a title in the cloud, especially for large amounts of per-user or per-title data.
 ms.assetid: a4182bc8-d232-4e77-93ae-97fe17ac71b1
 ms.date: 04/04/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, title storage
 ms.localizationpriority: medium
 ---
 
-# Overview of Title Storage
+# Title Storage overview
 
 The Xbox Live Title Storage service provides a way to store game information for a title in the cloud.
 Games running on all platforms can use this service.
@@ -297,25 +297,3 @@ Next determine what titles and platforms will need to access the data.
 Title storage supports cloud data access from a single title on a single platform, and from multiple titles on multiple platforms.
 
 Finally, use the articles in this section to configure your storage, upload your data, and set access permissions appropriately based on your choices.
-
-
-<a name="ID4EJFAC"></a>
-
-## In this section
-
-[Reading a Configuration Blob in Xbox Live Title Storage](reading-configuration-blobs.md)  
-Demonstrates reading configuration blobs from Xbox Live title storage.
-
-[Storing a Binary Blob in Xbox Live Title Storage](storing-binary-blobs.md)  
-Demonstrates storing binary blobs in Xbox Live title storage.
-
-[Reading a Binary Blob in Xbox Live Title Storage](reading-binary-blobs.md)  
-Demonstrates reading binary blobs from Xbox Live title storage.
-
-[Storing a JSON Blob in Xbox Live Title Storage](storing-jsonblobs.md)  
-Demonstrates storing JSON blobs in Xbox Live title storage.
-
-[Reading a JSON Blob in Xbox Live Title Storage](reading-jsonblobs.md)  
-Demonstrates reading JSON blobs from Xbox Live title storage.
-
-<a name="ID4E4FAC"></a>

@@ -106,7 +106,7 @@ To add the Xbox Live SDK NuGet package:
 
 ### 3. (Optional) Using Connected Storage and/or Secure Sockets
 
-Depending on the version of the Windows SDK that you are using, you may need to install additional content or manually add references to your project in order to use Xbox Live [Connected Storage](../../../../storage-platform/connected-storage/connected-storage-technical-overview.md) or Secure Sockets.
+Depending on the version of the Windows SDK that you are using, you may need to install additional content or manually add references to your project in order to use Xbox Live [Connected Storage](../../../../features/cloud-storage/connected-storage/live-connected-storage-technical-overview.md) or Secure Sockets.
 
 If you want to use the Connected Storage feature, you will need to access the `Windows.Gaming.XboxLive.Storage` namespace.
 

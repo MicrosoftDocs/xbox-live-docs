@@ -71,8 +71,7 @@ Add Xbox Live features to your game:
 - [Player Data](../../../features/player-data/live-playerdata-nav.md) - Achievements, player stats, leaderboards, and featured stats.
 - [Social](../../../features/social/live-social-nav.md) - Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.
 - [Multiplayer](../../../features/multiplayer/live-multiplayer-intro.md) - Matchmaking, invites, voice and text chat, and networking.
-- [Cloud Storage](../../../storage-platform/cloud-storage_nav.md) - Connected Storage and Title Storage.
-- [Contextual Search](../../../contextual-search/contextual-search.md) - Automatically tags broadcasts and game clips with real-time stats such as ranking, current level, weapons, and K/D ratio.
+- [Cloud Storage](../../../features/cloud-storage/live-cloud-storage-nav.md) - Connected Storage and Title Storage.
 
 
 ## 6. Release Your Title
