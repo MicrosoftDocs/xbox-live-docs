@@ -10,8 +10,8 @@ ms.localizationpriority: medium
 
 # Best practices for handling offline play
 
-Xbox One is designed as a connected device, and the best experiences, such as multiplayer gaming and video streaming, require connectivity.
-However, the Xbox One console supports many scenarios for offline play.
+Xbox is designed as a connected device, and the best experiences, such as multiplayer gaming and video streaming, require connectivity.
+However, the Xbox console supports many scenarios for offline play.
 
 Games must be robust in the face of connectivity failures.
 For games with offline play experiences, allow your players to enjoy those experiences to the fullest.
@@ -20,13 +20,13 @@ For games that are designed as "always online", when network connectivity is los
 An ever-growing number of consumers worldwide have access to the Internet.
 However, there are still places in the world where connectivity is unpredictable, and there are times when routers fail, fiber is cut, servers crash, or wireless services drop.
 
-To support the widest set of consumers and experiences, Xbox One allows for common cases where Internet connectivity is lost from time to time, or is unavailable altogether.
+To support the widest set of consumers and experiences, Xbox allows for common cases where Internet connectivity is lost from time to time, or is unavailable altogether.
 Your game is informed of connectivity failures, and you are free to choose how to respond — such as continuing full gameplay, downgrading to an offline mode, or ending gameplay altogether.
 
 
 ## Normal online operation
 
-In general, Xbox One consoles operate in a fully-connected state, where the user has a steady Internet connection and full access to Xbox Live and to third-party services.
+In general, Xbox consoles operate in a fully-connected state, where the user has a steady Internet connection and full access to Xbox Live and to third-party services.
 This connected state allows the Xbox Live service to periodically validate the console state, to provide updates, and to perform other background services that benefit your game and users.
 
 We recommend that you assume that users have online connectivity the majority of the time.
@@ -36,7 +36,7 @@ We recommend that you assume that users have online connectivity the majority of
 
 There are cases where an online connection is unavailable.
 
-For offline play, Xbox One is designed with the following principles in mind:
+For offline play, Xbox is designed with the following principles in mind:
 
 -   Most importantly, keep users playing despite connectivity issues.
 
@@ -110,7 +110,7 @@ Ideally, gameplay should continue or you should allow the user to continue in an
 
 ## Offline scenario: when Xbox Live cloud compute is down
 
-One of the Xbox One showcases is cloud power.
+One of the Xbox showcases is cloud power.
 Some games may rely completely on an always-connected service such as Xbox Live cloud compute, which allows accessing additional compute capabilities or always-available game servers.
 This always connected mode is both allowed and encouraged where it enhances the experience for players.
 
@@ -144,6 +144,6 @@ Here are best practices for dealing with offline situations:
 
 -   Flag your title appropriately in the application manifest. Only mark your title as “Xbox Live required” if all modes of gameplay require connectivity.
 
--   Xbox One games are allowed to use and rely on online services in all game modes. If the game simply cannot continue because of a loss of service connectivity, then notify the user, end the gaming session, and return to the main menu or initial interactive state.
+-   Xbox games are allowed to use and rely on online services in all game modes. If the game simply cannot continue because of a loss of service connectivity, then notify the user, end the gaming session, and return to the main menu or initial interactive state.
 
 -   Do not rely on the Xbox Help service for error messages and help related to offline states. The Xbox Help service requires a connection to Xbox Live.

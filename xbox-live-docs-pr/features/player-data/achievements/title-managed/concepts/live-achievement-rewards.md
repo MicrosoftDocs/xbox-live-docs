@@ -12,6 +12,7 @@ ms.localizationpriority: medium
 
 The following diagram illustrates how a developer might manage the lifecycle of a title.
 The new achievement system elevates our familiar mechanics with more flexibility, that empowers the developer to run the title as a service by adding value and maintaining user engagement over time.
+
 This new achievement system provides more flexibility of how achievements are unlocked, how and when achievements are added, and what benefits achievements deliver to users.
 
 
