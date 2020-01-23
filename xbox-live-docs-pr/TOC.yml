@@ -139,7 +139,7 @@
             - name: Adding basic sign-in code for mobile
               href: get-started/add-signin-code/getting-xsapi-to-sign-in.md
     - name: Features
-      href: features/features_nav.md
+      href: features/features-nav.md
       items:
         - name: Identity features
           href: features/identity/identity_nav.md
@@ -257,62 +257,100 @@
                           href: features/player-data/achievements/title-managed/how-to/live-how-to-get-achievements.md
                         - name: Updating Achievements
                           href: features/player-data/achievements/title-managed/how-to/live-how-to-update-achievements.md
-        - name: Social features
-          href: social-platform/social-platform_nav.md
+        - name: Social
+          href: features/social/live-social-nav.md
           items: 
             - name: Overview of Social features
-              href: social-platform/xbox-live-social-platform.md
-            - name: People System (Friends List)
-              href: social-platform/people-system/people-system_nav.md
+              href: features/social/live-social-overview.md
+            - name: Social Manager
+              href: features/social/social-manager/live-social-manager-nav.md
               items: 
-                - name: Overview of the People System
-                  href: social-platform/people-system/xbox-live-people-system.md
-                - name: Displaying people from the People System
-                  href: social-platform/people-system/displaying-people-from-the-people-system.md
-                - name: Social Manager
-                  href: social-platform/social-manager_nav.md
+                - name: Social Manager overview
+                  href: features/social/social-manager/live-social-manager-overview.md
+                - name: Social Manager concepts
+                  href: features/social/social-manager/concepts/live-socmgr-concepts-nav.md
                   items: 
-                    - name: Overview of Social Manager
-                      href: social-platform/intro-to-social-manager.md
                     - name: Privilege codes for Social Manager
-                      href: features/social/friends-list/social-manager/privilege-codes.md
+                      href: features/social/social-manager/concepts/live-socmgr-privilege-codes.md
                     - name: Social Manager memory and performance
-                      href: social-platform/social-manager-memory-and-performance-overview.md
-            - name: Clubs
-              href: features/social/clubs/clubs.md
-            - name: Rich Presence
-              href: features/social/rich-presence/rich-presence_nav.md
+                      href: features/social/social-manager/concepts/live-socmgr-mem-perf.md
+            - name: People System (Friends List)
+              href: features/social/people-system/live-people-system-nav.md
               items: 
-                - name: Overview of Presence strings
-                  href: social-platform/rich-presence-strings/rich-presence-strings-overview.md
-                - name: Configuring Rich Presence strings
-                  href: social-platform/rich-presence-strings/rich-presence-strings-configuration.md
-                - name: Configuring Rich Presence strings in Partner Center
-                  href: configure-xbl/dev-center/rich-presence-configuration.md
-                - name: Updating a Rich Presence string
-                  href: social-platform/rich-presence-strings/rich-presence-strings-updating-strings.md
-                - name: Best practices for Rich Presence
-                  href: social-platform/rich-presence-strings/rich-presence-strings-best-practices.md
-                - name: Policies and limits for Rich Presence strings
-                  href: social-platform/rich-presence-strings/rich-presence-strings-policies-and-limitations.md
-                - name: Rich Presence appendix
-                  href: social-platform/rich-presence-strings/rich-presence-strings-appendix.md
-                - name: Programming Rich Presence
-                  href: social-platform/rich-presence-strings/programming-rich-presence.md
+                - name: People System (Friends List) overview
+                  href: features/social/people-system/live-people-system-overview.md
+                - name: People System (Friends List) concepts
+                  href: features/social/people-system/concepts/live-people-system-concepts-nav.md
+                  items: 
+                    - name: Displaying people from the People System
+                      href: features/social/people-system/concepts/live-pplsys-displaying-people.md
+                - name: People System (Friends List) how-to's
+                  href: features/social/people-system/how-to/live-pplsys-howto-nav.md
+                  items: 
+                    - name: Getting a social relationship
+                      href: features/social/people-system/how-to/live-getting-a-social-relationship.md
+                    - name: Handling a social relationship change
+                      href: features/social/people-system/how-to/live-handling-a-relationship-change.md
+                    - name: Programming Social services
+                      href: features/social/people-system/how-to/live-retrieving-social-relationships-winrt.md
+            - name: Rich Presence
+              href: features/social/presence/live-presence-nav.md
+              items: 
+                - name: Rich Presence overview
+                  href: features/social/presence/live-presence-overview.md
+                - name: Rich Presence concepts
+                  href: features/social/presence/concepts/live-presence-concepts-nav.md
+                  items: 
+                    - name: Best practices for Rich Presence
+                      href: features/social/presence/concepts/live-presence-best-practices.md
+                    - name: Policies and limits for Rich Presence strings
+                      href: features/social/presence/concepts/live-presence-limits.md
+                    - name: Rich Presence appendix
+                      href: features/social/presence/concepts/live-presence-apx.md
+                - name: Rich Presence portal config
+                  href: features/social/presence/config/live-presence-config-nav.md
+                  items: 
+                    - name: Configuring Rich Presence strings
+                      href: features/social/presence/config/live-presence-config.md
+                    - name: Configuring Rich Presence strings in Partner Center
+                      href: features/social/presence/config/live-presence-config2.md
+                - name: Rich Presence how-to's
+                  href: features/social/presence/how-to/live-presence-howto-nav.md
+                  items: 
+                    - name: Getting a user's Presence
+                      href: features/social/presence/how-to/live-getting-a-users-presence.md
+                    - name: Handling a title Presence change
+                      href: features/social/presence/how-to/live-handling-a-title-presence-change.md
+                    - name: Handling a device Presence change
+                      href: features/social/presence/how-to/live-handling-a-device-presence-change.md
+                    - name: Updating a user's Presence via XSAPI C
+                      href: features/social/presence/how-to/live-updating-user-presence.md
+                    - name: Updating a user's Presence via REST
+                      href: features/social/presence/how-to/live-updating-presence-rest.md
+                    - name: Updating a user's Presence via WinRT
+                      href: features/social/presence/how-to/live-setting-presence-status.md
             - name: Localized strings
-              href: features/social/localized-strings/localized-strings_nav.md
+              href: features/social/localized-strings/live-localized-strings-nav.md
               items: 
                 - name: Configuring localized strings in Partner Center
-                  href: configure-xbl/dev-center/localized-strings.md
+                  href: features/social/localized-strings/live-localized-strings-config.md
             - name: Reputation
-              href: social-platform/people-system/reputation_nav.md
+              href: features/social/reputation/live-reputation-nav.md
               items: 
-                - name: Overview of the Reputation service
-                  href: social-platform/people-system/the-reputation-service.md
-                - name: Sending Reputation feedback from a title
-                  href: social-platform/people-system/sending-player-feedback-from-your-title.md
-            - name: Programming Social services
-              href: social-platform/people-system/programming-social-services.md
+                - name: Reputation overview
+                  href: features/social/reputation/live-reputation-overview.md
+                - name: Reputation concepts
+                  href: features/social/reputation/concepts/live-reputation-concepts-nav.md
+                  items: 
+                    - name: Sending Reputation feedback from a title
+                      href: features/social/reputation/concepts/live-sending-reputation-feedback.md
+                - name: Reputation how-to's
+                  href: features/social/reputation/how-to/live-reputation-howto-nav.md
+                  items: 
+                    - name: Submitting Reputation feedback
+                      href: features/social/reputation/how-to/live-submitting-reputation-feedback.md
+            - name: Clubs
+              href: features/social/clubs/live-clubs.md
         - name: Multiplayer
           href: features/multiplayer/live-multiplayer-nav.md
           items: 
@@ -505,48 +543,70 @@
                     - name: Migrating from Game Chat 1 to Game Chat 2
                       href: features/multiplayer/chat/how-to/live-game-chat-2-migration.md
         - name: Cloud Storage
-          href: storage-platform/cloud-storage_nav.md
+          href: features/cloud-storage/live-cloud-storage-nav.md
           items: 
             - name: Connected Storage vs. Title Storage
-              href: storage-platform/connected-storage-vs-title-storage.md
+              href: features/cloud-storage/live-connected-storage-vs-title-storage.md
             - name: Connected Storage
-              href: storage-platform/connected-storage/connected-storage_nav.md
-              items: 
-                - name: Overview of Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-overview.md
-                - name: Saving data with Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-saving.md
-                - name: Loading data with Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-loading.md
-                - name: Deleting data with Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-deleting.md
-                - name: Loading data on-demand with Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-loading-on-demand.md
-                - name: Working with Connected Storage buffers
-                  href: storage-platform/connected-storage/connected-storage-using-buffers.md
-                - name: Managing local Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-xb-storage.md
-                - name: Best practices for Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-best-practices.md
-                - name: Technical overview of Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-technical-overview.md
+              href: features/cloud-storage/connected-storage/live-connected-storage-nav.md
+              items:
+                - name: Connected Storage overview
+                  href: features/cloud-storage/connected-storage/live-connected-storage-overview.md
+                - name: Connected Storage technical overview
+                  href: features/cloud-storage/connected-storage/live-connected-storage-technical-overview.md                                
+                - name: Connected Storage concepts
+                  href: features/cloud-storage/connected-storage/concepts/live-connected-storage-concepts-nav.md
+                  items:
+                    - name: Managing local Connected Storage
+                      href: features/cloud-storage/connected-storage/concepts/live-connected-storage-xb-storage.md
+                    - name: Best practices for Connected Storage
+                      href: features/cloud-storage/connected-storage/concepts/live-connected-storage-best-practices.md
+                - name: Connected Storage how-to's
+                  href: features/cloud-storage/connected-storage/how-to/live-connected-storage-howto-nav.md
+                  items:
+                    - name: Saving data with Connected Storage
+                      href: features/cloud-storage/connected-storage/how-to/live-connected-storage-saving.md
+                    - name: Loading data with Connected Storage
+                      href: features/cloud-storage/connected-storage/how-to/live-connected-storage-loading.md
+                    - name: Deleting data with Connected Storage
+                      href: features/cloud-storage/connected-storage/how-to/live-connected-storage-deleting.md
+                    - name: Loading data on-demand with Connected Storage
+                      href: features/cloud-storage/connected-storage/how-to/live-connected-storage-loading-on-demand.md
+                    - name: Working with Connected Storage buffers
+                      href: features/cloud-storage/connected-storage/how-to/live-connected-storage-using-buffers.md
             - name: Title Storage
-              href: storage-platform/xbox-live-title-storage/xbl-title-storage_nav.md
-              items: 
-                - name: Overview of Title Storage
-                  href: storage-platform/xbox-live-title-storage/xbox-live-title-storage.md
-                - name: Configuring Title Storage in Partner Center
-                  href: configure-xbl/dev-center/title-storage.md
-                - name: Reading a configuration blob from Title Storage
-                  href: storage-platform/xbox-live-title-storage/reading-configuration-blobs.md
-                - name: Storing a binary blob in Title Storage
-                  href: storage-platform/xbox-live-title-storage/storing-binary-blobs.md
-                - name: Reading a binary blob from Title Storage
-                  href: storage-platform/xbox-live-title-storage/reading-binary-blobs.md
-                - name: Storing a JSON blob in Title Storage
-                  href: storage-platform/xbox-live-title-storage/storing-jsonblobs.md
-                - name: Reading a JSON blob from Title Storage
-                  href: storage-platform/xbox-live-title-storage/reading-jsonblobs.md
+              href: features/cloud-storage/title-storage/live-title-storage-nav.md
+              items:
+                - name: Title Storage overview
+                  href: features/cloud-storage/title-storage/live-title-storage-overview.md              
+                - name: Title Storage portal config
+                  href: features/cloud-storage/title-storage/config/live-title-storage-config-nav.md
+                  items:                              
+                    - name: Configuring Title Storage in Partner Center
+                      href: features/cloud-storage/title-storage/config/live-title-storage-portal-config.md
+                - name: Title Storage how-tos
+                  href: features/cloud-storage/title-storage/how-to/live-title-storage-howto-nav.md
+                  items:
+                    - name: Uploading a blob to Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-uploading-title-storage-blob.md
+                    - name: Downloading a blob from Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-downloading-title-storage-blob.md
+                    - name: Deleting a blob from Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-deleting-title-storage-blob.md
+                    - name: Getting Title Storage blob metadata
+                      href: features/cloud-storage/title-storage/how-to/live-getting-title-storage-blob-metadata.md
+                    - name: Getting quota info for a Title Storage service configuration
+                      href: features/cloud-storage/title-storage/how-to/live-getting-title-storage-quota-info.md
+                    - name: Storing a JSON blob in Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-storing-jsonblobs.md
+                    - name: Storing a binary blob in Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-storing-binary-blobs.md
+                    - name: Reading a binary blob from Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-reading-binary-blobs.md
+                    - name: Reading a JSON blob from Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-reading-jsonblobs.md
+                    - name: Reading a configuration blob from Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-reading-configuration-blobs.md
         - name: Custom services
           href: features/external-services/external-services_nav.md
           items: 

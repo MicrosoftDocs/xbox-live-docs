@@ -178,7 +178,7 @@ The Social Manager keeps your friends list, their profiles, and their presence d
 The Social Manager exposes a synchronous API that is very game-engine friendly.
 Games can call the Social Manager APIs frequently, because Social Manager maintains an in-memory cache of the latest information from the service.
 
-See [The Social Manager](../../social-platform/social-manager_nav.md).
+See [Social Manager](../../features/social/social-manager/live-social-manager-nav.md).
 
 
 ### Multiplayer Manager

@@ -62,7 +62,7 @@ All Xbox Live Creators Program games must integrate Xbox Live sign-in and displa
 You can choose to automatically sign in the user or have them push a button to initiate it.
 The Gamertag must be displayed once signed in so that the player can validate that they are using the right profile.
 
-- [Xbox Live Social features - Profile, Friends, Presence](../../../social-platform/social-platform_nav.md)
+- [Social](../../../features/social/live-social-nav.md) - Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.
 
 
 ## 5. Add optional Xbox Live features
@@ -70,8 +70,8 @@ The Gamertag must be displayed once signed in so that the player can validate th
 Xbox Live Creators Program offers an array of features designed to help promote your game and keep gamers engaged:
 
 - [Player Data](../../../features/player-data/live-playerdata-nav.md) (Achievements, player Stats, Leaderboards, and Featured Stats) helps drive engagement of your game by letting gamers compete to beat their friends and move up the ranks.
-- [Xbox Live Cloud Storage: Connected Storage, Title Storage](../../../storage-platform/cloud-storage_nav.md) offers free save game roaming between devices so gamers can easily continue game progress between Xbox One and Windows PC.
-- [Xbox Live Social features - Profile, Friends, Presence](../../../social-platform/social-platform_nav.md) lets gamers connect with friends and talk about your game.
+- [Social](../../../features/social/live-social-nav.md) - Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.
+- [Cloud Storage](../../../features/cloud-storage/live-cloud-storage-nav.md) offers free save game roaming between devices so gamers can easily continue game progress between Xbox One and Windows PC.
 
 The online multiplayer, achievements, and gamerscore features are supported for Managed Partners, but not for the Creators Program.
 

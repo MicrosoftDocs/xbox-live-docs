@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 ## What is Service Configuration?
 
-You may be familiar with some of the Xbox Live features such as [Leaderboards](../features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md) and [Connected Storage](../storage-platform/connected-storage/connected-storage-technical-overview.md).
+You may be familiar with some of the Xbox Live features such as [Leaderboards](../features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md) and [Connected Storage](../features/cloud-storage/connected-storage/live-connected-storage-technical-overview.md).
 
 In case you are not, we'll briefly explain Leaderboards as an example.
 Leaderboards allow players to see a value representing an accomplishment, in comparison to other players.
