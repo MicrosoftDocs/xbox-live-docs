@@ -687,11 +687,10 @@
         - name: Troubleshooting Xbox Live
           href: test-release/troubleshooting/live-troubleshooting-nav.md
           items: 
-              items: 
-                - name: Troubleshooting Xbox Live Services APIs
-                  href: test-release/troubleshooting/live-troubleshooting-apis.md
-                - name: Troubleshooting Xbox Live setup on Windows 10 PC
-                  href: test-release/troubleshooting/live-troubleshooting-pc-setup.md
+            - name: Troubleshooting Xbox Live Services APIs
+              href: test-release/troubleshooting/live-troubleshooting-apis.md
+            - name: Troubleshooting Xbox Live setup on Windows 10 PC
+              href: test-release/troubleshooting/live-troubleshooting-pc-setup.md
         - name: Services and tools
           href: test-release/services-tools/live-services-tools-nav.md
           items: 
