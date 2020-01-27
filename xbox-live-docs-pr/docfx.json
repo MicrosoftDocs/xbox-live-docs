@@ -10,7 +10,7 @@
           "**/obj/**",
           "**/includes/**",
           "**/snippets/**",
-          "CodeSnippets/**",
+          "code-snippets/**",
           "_themes/**",
           "_themes.pdf/**",
           "README.md",
@@ -48,7 +48,7 @@
       "ms.author": "XBL",
       "ms.prod": "xboxlive",
       "titleSuffix": "Xbox Live",
-      "zone_pivot_group_filename": "zone-pivot-groups.json",
+      "zone_pivot_group_filename": "xbox-live/zone-pivot-groups.json",
       "_op_documentIdPathDepotMapping": {
         "./": {
           "depot_name": "MSDN.windows-uwp",
