@@ -1,11 +1,11 @@
 ---
 title: Using Fiddler to inspect web service calls
 description: Using Fiddler to log and troubleshoot Xbox Live service calls.
-ms.assetid: 7d76e444-027b-4659-80d5-5b2bf56d199e
-ms.date: 04/04/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, fiddler, service calls, troubleshoot
 ms.localizationpriority: medium
+ms.assetid: 7d76e444-027b-4659-80d5-5b2bf56d199e
+ms.date: 04/04/2017
 ---
 
 # Using Fiddler to inspect web service calls

@@ -1,10 +1,10 @@
 ---
 title: "XR-013: Linking Microsoft Accounts with Publisher Accounts"
-description: "XR-013: Linking Microsoft Accounts with Publisher Accounts."
-ms.date: 03/18/2019
+description: On Xbox One, titles that use partner-hosted services or accounts that require credentials must link that account with the user’s Microsoft account.
 ms.topic: article
 keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
+ms.date: 03/18/2019
 ---
 
 # XR-013: Linking Microsoft Accounts with Publisher Accounts

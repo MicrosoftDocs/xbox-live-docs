@@ -1,10 +1,10 @@
 ---
 title: Summary page for Xbox Live configuration
 description: Using the Summary tab in Partner Center.
-ms.assetid:
 ms.date: 10/19/2018
 ms.topic: article
 ms.localizationpriority: medium
+ms.assetid:
 keywords: Xbox live, Xbox, games, uwp, windows 10, Xbox one, xbox live summary, summary, publish, xbox live history, command bar, history tab, summary table
 ---
 

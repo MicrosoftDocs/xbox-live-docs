@@ -1,11 +1,11 @@
 ---
 title: Advanced Xbox Live sandboxes
 description: Using sandboxes to isolate content during development.
-ms.assetid: bd8a2c51-2434-4cfe-8601-76b08321a658
-ms.date: 04/04/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, xbox one, xdk, managed partner, sandbox, content isolation
 ms.localizationpriority: medium
+ms.assetid: bd8a2c51-2434-4cfe-8601-76b08321a658
+ms.date: 04/04/2017
 ---
 
 # Advanced Xbox Live sandboxes

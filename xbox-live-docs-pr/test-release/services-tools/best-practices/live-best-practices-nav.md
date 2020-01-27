@@ -1,13 +1,13 @@
 ---
-layout: LandingPage
 title: Best practices for Xbox Live
-author: mikehoffms
 description: Best practices for calling Xbox Live APIs, such as proper calling patterns and retry logic.
+layout: LandingPage
+author: mikehoffms
 ms.author: v-mihof
-ms.date: 12/06/2018
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, best practices
 ms.localizationpriority: medium
+ms.date: 12/06/2018
 ---
 
 # Best practices for Xbox Live
@@ -19,6 +19,6 @@ Best practices for calling Xbox Live APIs, such as proper calling patterns and r
 
 | Article | Description |
 |---------|-------------|
-| [Best practices for calling Xbox Live](best-practices-for-calling-xbox-live.md) | Best practices for calling Xbox Live APIs, such as proper calling patterns and retry logic. |
-| [Fine grained rate limiting](fine-grained-rate-limiting.md) | How Xbox Live fine-grained rate limiting works, to prevent your title from being rate-limited. |
-| [Best practices for offline](best-practices-for-offline.md) | Best practices for handling offline or intermittent scenarios with Xbox Live-enabled titles. |
+| [Best practices for calling Xbox Live](live-best-practices-calling-xbl.md) | Best practices for calling Xbox Live APIs, such as proper calling patterns and retry logic. |
+| [Fine-Grained Rate Limiting](live-fine-grained-rate-limiting.md) | How Xbox Live fine-grained rate limiting works, to prevent your title from being rate-limited. |
+| [Best practices for handling offline play](live-best-practices-offline-play.md) | Best practices for handling offline or intermittent scenarios with Xbox Live-enabled titles. |

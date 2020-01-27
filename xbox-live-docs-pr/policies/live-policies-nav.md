@@ -11,12 +11,10 @@ ms.localizationpriority: medium
 # Policies and XRs
 
 
-<!-- 
 ### In this section
 
 | Article | Description |
 |---------|-------------|
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
--->
+| [Policies and XRs for PC and mobile](pc/live-policies-pc-nav.md) | Xbox Requirements for adding Xbox Live to a PC game. |
+
+<!-- chm also has Console XRs -->

@@ -1,11 +1,11 @@
 ---
 title: Configuring cross-play for Xbox and Windows 10 in Partner Center
 description: Sharing a single Xbox Live services configuration across an XDK-based Xbox One version and a UWP-based Windows 10 version of the game.
-ms.assetid: 6c8e9d08-a3d2-4bfc-90ee-03c8fde3e66d
-ms.date: 04/04/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, cross-play, play anywhere
 ms.localizationpriority: medium
+ms.assetid: 6c8e9d08-a3d2-4bfc-90ee-03c8fde3e66d
+ms.date: 04/04/2017
 ---
 
 # Configuring cross-play for Xbox and Windows 10 in Partner Center

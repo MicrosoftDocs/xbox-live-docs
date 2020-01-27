@@ -1,10 +1,10 @@
 ---
 title: "XR-045: Xbox Live and Account Privileges &diams;"
-description: "XR-045: Xbox Live and Account Privileges."
-ms.date: 03/18/2019
+description: Titles must check whether the active user has certain privileges before completing certain actions.
 ms.topic: article
 keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
+ms.date: 03/18/2019
 ---
 
 # XR-045: Xbox Live and Account Privileges &diams;

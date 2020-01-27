@@ -1,11 +1,11 @@
 ---
 title: Configuring Game DVR in Partner Center
 description: Configuring Xbox Live Game DVR strings on Partner Center.
-ms.assetid: e0f307d2-ea02-48ea-bcdf-828272a894d4
-ms.date: 10/30/2017
 ms.topic: article
 ms.localizationpriority: medium
 keywords: Xbox live, Xbox, games, uwp, windows 10, Xbox one, Game DVR, Partner Center
+ms.assetid: e0f307d2-ea02-48ea-bcdf-828272a894d4
+ms.date: 10/30/2017
 ---
 
 # Configuring Game DVR in Partner Center

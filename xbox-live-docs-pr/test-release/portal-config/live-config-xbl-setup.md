@@ -1,11 +1,11 @@
 ---
 title: Configuring Xbox Live Setup in Partner Center
 description: Configuring Xbox Live Setup at Partner Center.
-ms.assetid:
-ms.date: 10/30/2017
 ms.topic: article
 ms.localizationpriority: medium
 keywords: Xbox live, Xbox, games, uwp, windows 10, Xbox one, Partner Center, Xbox Live Setup
+ms.assetid:
+ms.date: 10/30/2017
 ---
 
 # Configuring Xbox Live Setup in Partner Center

@@ -1,11 +1,11 @@
 ---
 title: Trace Analyzer for reviewing service calls
 description: The Xbox Live Trace Analyzer reviews the service calls made by a title.
-ms.assetid: b4490fae-d554-403d-bbbc-601af38af0ef
-ms.date: 04/04/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, service calls, testing, trace analyzer
 ms.localizationpriority: medium
+ms.assetid: b4490fae-d554-403d-bbbc-601af38af0ef
+ms.date: 04/04/2017
 ---
 
 # Trace Analyzer for reviewing service calls

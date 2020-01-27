@@ -1,10 +1,10 @@
 ---
 title: "XR-048: Profile Settings Usage &diams;"
-description: "XR-048: Profile Settings Usage &diams;."
-ms.date: 03/18/2019
+description: Games must not store user information sourced from Xbox Live, such as profile data, preferences, or display names.
 ms.topic: article
 keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
+ms.date: 03/18/2019
 ---
 
 # XR-048: Profile Settings Usage &diams;

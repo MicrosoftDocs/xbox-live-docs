@@ -1,10 +1,10 @@
 ---
 title: "XR-015: Managing Player Communication"
-description: "XR-015: Managing Player Communication."
-ms.date: 10/01/2019
+description: Titles must not transmit user data or allow communication over Xbox Live when the user's privacy & online safety settings do not allow it.
 ms.topic: article
 keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
+ms.date: 10/01/2019
 ---
 
 # XR-015: Managing Player Communication &diams; 

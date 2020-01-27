@@ -17,5 +17,5 @@ Creating accounts for testing your Xbox Live-enabled game during development.
 
 | Article | Description |
 |---------|-------------|
-| [Xbox Live test accounts](xbox-live-test-accounts.md) | Creating accounts for testing your Xbox Live-enabled game during development. |
-| [Developer Account Tool to set up test accounts](tools/xbox-live-account-tool.md) | The Xbox Live Developer Account Tool creates test accounts for testing your Xbox Live enabled title. |
+| [Xbox Live test accounts](live-test-accounts.md) | Creating accounts for testing your Xbox Live-enabled game during development. |
+| [Developer Account Tool to set up test accounts](live-account-tool.md) | The Xbox Live Developer Account Tool creates test accounts for testing your Xbox Live enabled title. |

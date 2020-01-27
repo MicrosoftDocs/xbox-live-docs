@@ -1,10 +1,10 @@
 ---
 title: "XR-074: Loss of Connectivity to Xbox and Partner Services &diams;"
-description: "XR-074: Loss of Connectivity to Xbox and Partner Services."
-ms.date: 03/18/2019
+description: Titles must resolve errors with Xbox Live and partner services connectivity.
 ms.topic: article
 keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
+ms.date: 03/18/2019
 ---
 
 # XR-074: Loss of Connectivity to Xbox and Partner Services &diams;

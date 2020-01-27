@@ -1,11 +1,11 @@
 ---
 title: Xbox Live sandboxes for Creators Program developers
-description: You publish your game to a development sandbox, allowing you to work on changes to your title in an isolated environment.
-ms.assetid: e7daf845-e6cb-4561-9dfa-7cfba882f494
+description: Publishing a game to a development sandbox, to work on changes to the title in an isolated environment.
 ms.date: 10/30/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
+ms.assetid: e7daf845-e6cb-4561-9dfa-7cfba882f494
 ---
 
 # Xbox Live sandboxes for Creators Program developers

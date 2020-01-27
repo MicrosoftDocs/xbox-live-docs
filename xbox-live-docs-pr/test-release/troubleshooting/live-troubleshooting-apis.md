@@ -1,11 +1,11 @@
 ---
 title: Troubleshooting Xbox Live Services APIs
-description: To troubleshoot Xbox Live APIs, hook up the response logger and enable debug tracing.
-ms.assetid: 3827bba1-902f-4f2d-ad51-af09bd9354c4
-ms.date: 04/04/2017
+description: Hooking up the response logger and enabling debug tracing.
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, troubleshooting, error, log
 ms.localizationpriority: medium
+ms.assetid: 3827bba1-902f-4f2d-ad51-af09bd9354c4
+ms.date: 04/04/2017
 ---
 
 # Troubleshooting Xbox Live Services APIs

@@ -26,7 +26,7 @@ Differentiate sentences for the two Policies cards
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="../xbox-live-resources.md">
+        <a href="live-sites-downloads.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -45,36 +45,17 @@ Differentiate sentences for the two Policies cards
         </a>
     </li>
     <li>
-        <a href="../policies/policies_nav.md">
+        <a href="portal-config/live-portal-config-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_policy.svg" alt="Policies"/>
+                                <img src="https://docs.microsoft.com/media/common/i_config-tools.svg" alt="Configuring Xbox Live services"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Policies</h3>
-                            <p>Xbox Requirements for adding Xbox Live to a PC or mobile game.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="../configuring-xbox-live-services_nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_config-tools.svg" alt="Configuring Xbox Live services, for Managed Partners"/>
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Configuring Xbox Live services, for Managed Partners</h3>
+                            <h3>Configuring Xbox Live services</h3>
                             <p>Configuring Xbox Live services to support various features for your game.</p>
                         </div>
                     </div>
@@ -83,7 +64,7 @@ Differentiate sentences for the two Policies cards
         </a>
     </li>
     <li>
-        <a href="sandboxes/sandboxes_nav.md">
+        <a href="sandboxes/live-sandboxes-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -102,7 +83,7 @@ Differentiate sentences for the two Policies cards
         </a>
     </li>
     <li>
-        <a href="../test-accounts_nav.md">
+        <a href="test-accounts/live-test-accounts-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -121,7 +102,7 @@ Differentiate sentences for the two Policies cards
         </a>
     </li>
     <li>
-        <a href="../testing-on-console.md">
+        <a href="live-testing-on-console.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -140,45 +121,7 @@ Differentiate sentences for the two Policies cards
         </a>
     </li>
     <li>
-        <a href="creators/cr-testing_nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_config-tools.svg" alt="Testing and releasing a game, for Creators"/>
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Testing and releasing a game, for Creators</h3>
-                            <p>Testing and releasing a game, for Creators.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="managed/mp-testing_nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_config-tools.svg" alt="Testing and releasing a game, for Managed Partners"/>
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Testing and releasing a game, for Managed Partners</h3>
-                            <p>Testing and releasing a game, for Managed Partners.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="../using-xbox-live/troubleshooting/troubleshooting_nav.md">
+        <a href="troubleshooting/live-troubleshooting-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -189,7 +132,7 @@ Differentiate sentences for the two Policies cards
                         </div>
                         <div class="cardText">
                             <h3>Troubleshooting Xbox Live</h3>
-                            <p>Testing and releasing a game, for Managed Partners.</p>
+                            <p>Troubleshooting Xbox Live development, such as by logging responses, checking the dev PC setup, checking the sign-in sandbox, and logging calls.</p>
                         </div>
                     </div>
                 </div>
@@ -197,7 +140,7 @@ Differentiate sentences for the two Policies cards
         </a>
     </li>
     <li>
-        <a href="../tools/development-tools_nav.md">
+        <a href="services-tools/live-services-tools-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -208,7 +151,7 @@ Differentiate sentences for the two Policies cards
                         </div>
                         <div class="cardText">
                             <h3>Services and tools</h3>
-                            <p>Tools to help develop and test an Xbox Live-enabled title.</p>
+                            <p>Tools to help develop and test an Xbox Live-enabled title, including Trace Analyzer, Fiddler, best practices, and error handling.</p>
                         </div>
                     </div>
                 </div>

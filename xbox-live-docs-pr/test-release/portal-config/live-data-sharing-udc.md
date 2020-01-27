@@ -1,13 +1,13 @@
 ---
 title: Configuring data sharing in Partner Center
-author: KevinAsgari
 description: Configuring data sharing in Partner Center to allow other apps, games, and services to access the Xbox Live settings.
-ms.assetid:
+author: KevinAsgari
 ms.author: kevinasg
-ms.date: 02/21/2018
 ms.topic: article
 ms.localizationpriority: medium
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, udc, universal developer center
+ms.assetid:
+ms.date: 02/21/2018
 ---
 
 # Configuring data sharing in Partner Center

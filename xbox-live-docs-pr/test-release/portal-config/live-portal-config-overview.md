@@ -1,11 +1,11 @@
 ---
-layout: LandingPage
 title: Portal configuration overview
 description: Configuring Xbox Live services at Partner Center.
-ms.date: 07/30/2018
+layout: LandingPage
 ms.topic: article
 ms.localizationpriority: medium
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, udc, universal developer center
+ms.date: 07/30/2018
 ---
 
 # Portal configuration overview

@@ -1,11 +1,11 @@
 ---
 title: Xbox Live sandboxes introduction
-description: You publish your game to a development sandbox, allowing you to work on changes to your title in an isolated environment.
-ms.assetid: a5acb5bf-dc11-4dff-aa94-6d1f01472d2a
-ms.date: 04/04/2017
+description: Publishing a game to a development sandbox, to work on changes to the title in an isolated environment.
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
+ms.assetid: a5acb5bf-dc11-4dff-aa94-6d1f01472d2a
+ms.date: 04/04/2017
 ---
 
 # Xbox Live Sandboxes overview

@@ -1,11 +1,11 @@
 ---
 title: Best practices for handling offline play
 description: Best practices for handling offline or intermittent scenarios with Xbox Live-enabled titles.
-ms.assetid: 6290dd67-1145-4fe2-8ada-c3a29a9ad29a
-ms.date: 04/04/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, offline
 ms.localizationpriority: medium
+ms.assetid: 6290dd67-1145-4fe2-8ada-c3a29a9ad29a
+ms.date: 04/04/2017
 ---
 
 # Best practices for handling offline play

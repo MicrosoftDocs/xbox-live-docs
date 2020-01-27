@@ -1,10 +1,10 @@
 ---
 title: "XR-132: Service Access Limitations"
-description: "XR-132: Service Access Limitations."
-ms.date: 03/18/2019
+description: Titles which exceed limits when calling Xbox Live services, or do not adhere to retry policies, may be subjected to rate limiting.
 ms.topic: article
 keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
+ms.date: 03/18/2019
 ---
 
 # XR-132: Service Access Limitations

@@ -17,6 +17,6 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Xbox Live Sandboxes overview](../../xbox-live-sandboxes.md) | You publish your game to a development sandbox, allowing you to work on changes to your title in an isolated environment. |
-| [Using Xbox Live sandboxes, for Creators](../../get-started-with-creators/xbox-live-sandboxes-creators.md) | You publish your game to a development sandbox, allowing you to work on changes to your title in an isolated environment. |
-| [Advanced Xbox Live sandboxes](../../advanced-xbox-live-sandboxes.md) | Using sandboxes to isolate content during development. |
+| [Xbox Live Sandboxes overview](live-setup-sandbox.md) | Publishing a game to a development sandbox, to work on changes to the title in an isolated environment. |
+| [Using Xbox Live sandboxes, for Creators](live-sandboxes-creators.md) | Publishing a game to a development sandbox, to work on changes to the title in an isolated environment. |
+| [Advanced Xbox Live sandboxes](live-advanced-sandboxes.md) | Using sandboxes to isolate content during development. |
