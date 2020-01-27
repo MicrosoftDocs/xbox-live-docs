@@ -42,16 +42,16 @@ The vast majority of developers need only one sandbox.
 Fortunately a sandbox is created for you when you create a title.
 
 1. You find out about your sandbox by going to Partner Center here:
-![Partner Center ribbon dashboard location screenshot](xbox-live-sandboxes_images/first_xbltitle_dashboard.png)
+![Partner Center ribbon dashboard location screenshot](live-setup-sandbox-images/first_xbltitle_dashboard.png)
 
 1. Then click on your title:
-![Title location in Partner Center menu screenshot](images/getting_started/first_xbltitle_dashboard_overview.png)
+![Title location in Partner Center menu screenshot](../../images/getting_started/first_xbltitle_dashboard_overview.png)
 
 1. Finally, in the left menu, click **Services** -> **Xbox Live**:
-![Xbox Live services in Partner Center menu](xbox-live-sandboxes_images/first_xbltitle_leftnav.png)
+![Xbox Live services in Partner Center menu](live-setup-sandbox-images/first_xbltitle_leftnav.png)
 
 1. You can now see your sandbox listed, as follows:
-![Title info in Partner Center. Includes Sandbox ID.](images/getting_started/devcenter_sandbox_id.png)
+![Title info in Partner Center. Includes Sandbox ID.](../../images/getting_started/devcenter_sandbox_id.png)
 
 
 ## How your Sandbox impacts your workflow
@@ -82,7 +82,7 @@ Both ways are described below.
 
 3. Then you click on "Xbox Live" to go the appropriate section as shown below.
 
-   ![Sandbox configuration in Windows Device Portal](images/getting_started/wdp_switch_sandbox.png)
+   ![Sandbox configuration in Windows Device Portal](../../images/getting_started/wdp_switch_sandbox.png)
 
 4. Then you can enter your sandbox which you got via the steps in the *Finding Out Your Sandbox* and click "Change".
 

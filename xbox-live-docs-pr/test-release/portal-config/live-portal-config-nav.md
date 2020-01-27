@@ -1,8 +1,8 @@
 ---
-layout: LandingPage
 title: Configuring Xbox Live services
-author: mikehoffms
 description: Configuring Xbox Live services to support various features for your game.
+layout: LandingPage
+author: mikehoffms
 ms.author: v-mihof
 ms.date: 12/06/2018
 ms.topic: article

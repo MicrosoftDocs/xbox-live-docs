@@ -96,15 +96,15 @@ The following table indicates whether the Xbox Live feature is embargoed.
 
 Notes for features marked \*:
 
-![Embargo settings in Partner Center](xbox-live-setup-images/embargo3resize.png)
+![Embargo settings in Partner Center](live-config-xbl-setup-images/embargo3resize.png)
 
 **To set the embargo date:**
 
 1. In Partner Center, select your title, click **Xbox Live**, and then click **Xbox Live Settings**. The "Xbox Live configuration" page appears.
 
-2. In the **Embargo date** section, select the **Set embargo date** check box.  A date box appears: ![Setting the embargo date in Partner Center](xbox-live-setup-images/embargo1.png)
+2. In the **Embargo date** section, select the **Set embargo date** check box.  A date box appears: ![Setting the embargo date in Partner Center](live-config-xbl-setup-images/embargo1.png)
 
-3. Click the date box to expand the date: ![Setting the embargo date in Partner Center](xbox-live-setup-images/embargo2.png)
+3. Click the date box to expand the date: ![Setting the embargo date in Partner Center](live-config-xbl-setup-images/embargo2.png)
 
 4. Select the date and time.
 

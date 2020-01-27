@@ -1,5 +1,5 @@
 ---
-title: Xbox Live service configuration IDs for the Creators Program
+title: Xbox Live service configuration IDs, for Creators
 description: Setting up Xbox Live service configuration IDs, for the Creators Program.
 ms.assetid: 22b8f893-abb3-426e-9840-f79de0753702
 ms.date: 10/03/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Xbox Live service configuration IDs for the Creators Program
+# Xbox Live service configuration IDs, for Creators
 
 
 ## What is Service Configuration?
@@ -86,4 +86,4 @@ By default, Xbox One Consoles and Windows 10 PCs are in the RETAIL sandbox.
 
 On the Xbox Live configuration page, click the **Test** button to publish the current Xbox Live configuration to your development sandbox.
 
-![Partner center screenshot with test publish button](xbox-live-service-configuration-creators_images/creators_udc_xboxlive_config_test.png)
+![Partner center screenshot with test publish button](live-service-config-ids-creators-images/creators_udc_xboxlive_config_test.png)
