@@ -19,7 +19,7 @@ This page shows a snapshot of your current configuration on the selected sandbox
 
 ## Sandbox selector
 
-[Sandboxes](../../xbox-live-sandboxes.md) are now a top-level navigation item you can switch between or expand by selection.
+Sandboxes are now a top-level navigation item you can switch between or expand by selection.
 The UI displays the title's sandboxes at the top as tabs.
 The information shown in each tab is in the context of the associated sandbox.
 
@@ -28,6 +28,8 @@ The information shown in each tab is in the context of the associated sandbox.
 You can add additional sandboxes by selecting the "+" which will present you with a dialog where you specify which sandbox you would like to copy the config from and which sandbox you would like to copy the config to.
 
 ![Image of expanding to a new sandbox tab](../../images/summary/sandbox-tabs2.gif)
+
+See [Xbox Live Sandboxes overview](../sandboxes/live-setup-sandbox.md).
 
 
 ## Command bar
