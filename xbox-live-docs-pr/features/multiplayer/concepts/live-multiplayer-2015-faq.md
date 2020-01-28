@@ -140,7 +140,7 @@ See the section [Synchronization of Session Updates](../mpsd/live-mpsd-overview.
 Collect Fiddler traces to get more information, and then check messages returned as part of the HttpResponse body.
 This should give you enough information to identify and fix the error, or you can search the developer forums for resolutions.
 
-You can also get the response body if you are using XSAPI, as described in [Troubleshooting the Xbox Live Services API](../../../using-xbox-live/troubleshooting/troubleshooting-the-xbox-live-services-api.md).
+You can also get the response body if you are using XSAPI, as described in [Troubleshooting Xbox Live Services APIs](../../../test-release/troubleshooting/live-troubleshooting-apis.md).
 Alternatively, your code can use the **XboxLiveContextSettings.EnableServiceCallRoutedEvents** property to send output to your title UI.
 
 

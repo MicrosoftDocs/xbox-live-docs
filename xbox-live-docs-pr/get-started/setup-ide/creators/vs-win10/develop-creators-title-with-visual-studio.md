@@ -40,13 +40,14 @@ The following preliminary setup steps are required on your device, so that you c
 
 ### Set your sandbox
 
-Sandboxes offer a way to keep your [Xbox Live Service Configuration](../../../../get-started-with-creators/xbox-live-service-configuration-creators.md) isolated from retail until you are ready to release your title.
+Sandboxes offer a way to keep your Xbox Live service configuration isolated from retail until you are ready to release your title.
+See [Xbox Live service configuration IDs, for Creators](../../../../test-release/portal-config/live-service-config-ids-creators.md).
 Some data that you accumulate is specific to a sandbox.
 
 For example, suppose your title defines a stat called *Headshots*, and you accumulate some number of Headshots in a user account while testing your title.
 This value would be specific to your title's development sandbox, and if you switched to playing the retail version of your title, the headshots would not carry over.
 
-See [Using Xbox Live sandboxes](../../../../get-started-with-creators/xbox-live-sandboxes-creators.md).
+See [Using Xbox Live sandboxes, for Creators](../../../../test-release/sandboxes/live-sandboxes-creators.md).
 
 
 ### Sign-in with an Xbox Live account that has been authorized for testing
@@ -200,7 +201,7 @@ For example:
 ```
 
 > [!TIP]
-> All values inside xboxservices.config are case sensitive. See [Service Configuration](../../../../xbox-live-service-configuration.md) for more information on obtaining the TitleID and PrimaryServiceConfigId.
+> All values inside `xboxservices.config` are case-sensitive. For more information on obtaining the `TitleID` and `PrimaryServiceConfigId`, see [Xbox Live service configuration IDs, for Creators](../../../../test-release/portal-config/live-service-config-ids-creators.md).
 
 
 ## Learn More

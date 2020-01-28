@@ -1,5 +1,5 @@
 ---
-title: Xbox Live sandboxes for Creators Program developers
+title: Using Xbox Live sandboxes, for Creators
 description: Publishing a game to a development sandbox, to work on changes to the title in an isolated environment.
 ms.date: 10/30/2017
 ms.topic: article
@@ -8,7 +8,7 @@ ms.localizationpriority: medium
 ms.assetid: e7daf845-e6cb-4561-9dfa-7cfba882f494
 ---
 
-# Xbox Live sandboxes for Creators Program developers
+# Using Xbox Live sandboxes, for Creators
 
 In the [Xbox Live service configuration](xbox-live-service-configuration-creators.md) article, it was explained that you must configure information about your title in [Partner Center](https://partner.microsoft.com/dashboard).
 This information includes the stats, leaderboards, localization, and more.

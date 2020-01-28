@@ -26,7 +26,7 @@ You can download the full API reference documentation (which includes C++ as wel
 
 You can find the REST API information at:
 
-* [Xbox Live RESTful reference](api-ref/xbox-live-rest/atoc-xboxlivews-reference.md)
+* [Xbox Live Services RESTful Reference](../api-ref/xbox-live-rest/atoc-xboxlivews-reference.md)
 
 
 ## Xbox Live API source code
@@ -43,7 +43,7 @@ For developers in the Xbox Live Creators Program that are using Unity to develop
 * [Xbox Live Unity plug-in](https://github.com/Microsoft/xbox-live-unity-plugin)
 
 > [!WARNING]
-> Because this is an Xbox Live Creators Program tool, the Xbox Live Unity plug-in will not provide the full suite of Xbox Live features. To see what Xbox Live services are available, see the table of supported features in [Joining a developer program](get-started/join-dev-program/developer-program-overview.md).
+> Because this is an Xbox Live Creators Program tool, the Xbox Live Unity plug-in will not provide the full suite of Xbox Live features. To see what Xbox Live services are available, see [Features supported for each developer program](feature-comparison-table.md).
 
 
 ## Xbox Live Platform Extensions SDK
@@ -63,7 +63,7 @@ This extension will enable the use of Connected Storage in your UWP titles throu
 There are several useful tools that you use to help you develop for Xbox Live.
 Find more information at:
 
-* [Development tools for Xbox Live](tools/tools.md)
+* [Development tools for Xbox Live](services-tools/live-tools.md)
 
 
 ## Xbox Live code samples

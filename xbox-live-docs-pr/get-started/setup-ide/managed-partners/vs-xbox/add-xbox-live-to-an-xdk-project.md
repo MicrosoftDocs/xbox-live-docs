@@ -30,7 +30,7 @@ First, set up the console by following "Setting Up Your Xbox One Development Env
 ## Get your IDs
 
 To enable Xbox Live services, you will need to obtain several IDs to configure your development kit and your title.
-See the section "Get your IDs" in [Xbox Live service configuration](../../../../xbox-live-service-configuration.md#get_ids).
+See the section [Get your IDs](../../../../test-release/portal-config/live-service-config-ids-mp.md#get_ids) in the article "Xbox Live service configuration IDs, for Managed Partners".
 
 
 ## Configure your development console

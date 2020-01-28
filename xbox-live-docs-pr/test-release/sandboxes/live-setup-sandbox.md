@@ -1,5 +1,5 @@
 ---
-title: Xbox Live sandboxes introduction
+title: Xbox Live Sandboxes overview
 description: Publishing a game to a development sandbox, to work on changes to the title in an isolated environment.
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one

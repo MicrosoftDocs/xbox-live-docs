@@ -24,11 +24,11 @@ During the gameplay session, titles which offer communication between Xbox Live 
 
 ## More Information
 
-Prior to allowing any activity to occur, titles must also check the Xbox Live service for privileges, as stated in [XR-045, Xbox Live and Account Privileges](XR045.md).
+Prior to allowing any activity to occur, titles must also check the Xbox Live service for privileges, as stated in [XR-045: Xbox Live and Account Privileges](live-pc-xr045.md).
 
 Titles that support cross-network play and communication between Xbox Live and non Xbox Live players need to check communication permissions prior to allowing communication between those players.  
 
-Titles check communication settings for cross network players by using "_CrossNetworkUser_"  which acts as a replacement for the XUID (see XDK). Based on Xbox Live privacy settings, these users will return a result of “allowed” only when the Xbox Live user’s permissions are set to allow communication with all cross network players. Titles which support a cross network friends list can check communication between cross network friends by using "_crossNetworkFriend_" as a replacement for the XUID.  Based on Xbox Live privacy settings, "_CrossNetworkUser_" will return a result of “allowed” only when the Xbox Live user’s permissions are set to allow communication with all cross network players while _“crossNetworkFriend”_ will return ‘allowed’ when the Xbox Live user’s permissions are set to allow communication with all or cross network friends only.   
+Titles check communication settings for cross network players by using "_CrossNetworkUser_"  which acts as a replacement for the XUID (see XDK). Based on Xbox Live privacy settings, these users will return a result of “allowed” only when the Xbox Live user’s permissions are set to allow communication with all cross network players. Titles which support a cross network friends list can check communication between cross network friends by using "_crossNetworkFriend_" as a replacement for the XUID.  Based on Xbox Live privacy settings, "_CrossNetworkUser_" will return a result of “allowed” only when the Xbox Live user’s permissions are set to allow communication with all cross network players while _“crossNetworkFriend”_ will return ‘allowed’ when the Xbox Live user’s permissions are set to allow communication with all or cross network friends only.
 
 ## Intent
 Ensure that customers have appropriate and consistent control over their personal information.

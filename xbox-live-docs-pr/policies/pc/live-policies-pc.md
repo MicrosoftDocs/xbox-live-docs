@@ -1,6 +1,7 @@
 ---
-title: Xbox Live policies
+title: Xbox Live Integration Policies for PC and Mobile Devices
 description: Policies for adding Xbox Live to a PC or mobile game.
+kindex: Xbox Live Integration Policies for PC and Mobile Devices
 ms.topic: article
 keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
@@ -38,11 +39,13 @@ You are free to release and update your Xbox Live integrated game on any store o
 
 If your game is found to not adhere to these policies, we will inform you and provide a reasonable timeline to fix based on severity, as determined by Microsoft. Other than in exceptional circumstances, if the issue is not resolved within the requested timeframe we may revoke the game’s ability to sign into Xbox Live services until the issue is resolved.
 
-For information on how to test your title's adherence to these policies, visit [Xbox Live Integration Test Cases For PC and Mobile Devices](policies/xboxlive-policy-tests.md)
+For information on how to test your title's adherence to these policies, see [Xbox Live Integration Test Cases For PC and Mobile Devices](live-policy-tests-pc.md).
+
 
 ## Xbox Live Implementation Policies
 
 In order to keep Xbox Live running as a high quality service that respects the privacy and protects the security of its users we enforce a number of Xbox Live implementation policies. These policies are referred to as Xbox Requirements or XRs. Failure to comply with XRs will result in your title being denied the ability to publish to the Microsoft store. Titles which are already published may find themselves removed if they do not maintain compliance with XRs. The rest of this article will outline the XRs required to keep a PC or mobile title in good standing.
+
 
 ### Player Data and Privacy
 
@@ -63,7 +66,7 @@ Notwithstanding the foregoing, the following rules apply to personal data provid
 
 ### Official Naming Standards (XR-022)
 
-Titles must use the naming standards defined in the latest release of the [terminology list](policies/xboxlive-terminology.md) for Xbox Live features. On Xbox One, titles must not refer to components of the console system or components of peripherals using terms that are not specifically included in the terminology list.
+Titles must use the naming standards defined in the latest release of the [Xbox Live required terminology list](live-certification-terminology-pc.md) for Xbox Live features. On Xbox One, titles must not refer to components of the console system or components of peripherals using terms that are not specifically included in the terminology list.
 
 
 ### Display Name and Gamerpic (XR-046)
@@ -75,7 +78,7 @@ On non console platforms, while not required, we recommend you use the Xbox Live
 If titles show the user's gamerpic, the corresponding GameDisplayPic function must be used. These items are returned by the get_user_profile or GetUserProfileAsync Xbox Live APIs. When the gamertag is displayed, all 15 characters of any gamertag must be displayed correctly. Gamertags can include only ASCII characters a--z, A--Z, 0--9, comma (,), and space (ASCII character 0x20).
 
 
-### [Profile Settings Usage (XR-048)](policies/XR048.md)
+### [Profile Settings Usage (XR-048)](xr/live-pc-xr048.md)
 
 The Xbox Live service is the source for Xbox Live user profile information. Games must not store user information sourced from Xbox Live, such as profile data, preferences, or display names, beyond a locally stored cache used to support loss of network connectivity. Any such caches must be updated on the next available connection to the service. 
 
@@ -83,12 +86,12 @@ The Xbox Live service is the source for Xbox Live user profile information. Game
 ## Service Connectivity
 
 
-### [Loss of Connectivity to Xbox and Partner Services (XR-074)](policies/XR074.md)
+### [Loss of Connectivity to Xbox and Partner Services (XR-074)](xr/live-pc-xr074.md)
 
 Titles must resolve errors with Xbox Live and partner services connectivity. Titles must honor the retry policies set by Xbox Live when attempting to retry a request to the Xbox service after a failure has occurred.  Titles must appropriately manage messaging the user when services are unavailable. For example, if a partner service other than Xbox Live is not available, the game should not indicate that there is an issue with Xbox Live.
  
 
-### [Service Access Limitations (XR-132)](policies/XR132.md)
+### [Service Access Limitations (XR-132)](xr/live-pc-xr132.md)
 
 Titles which exceed [title and user based limits ](https://docs.microsoft.com/windows/uwp/xbox-live/using-xbox-live/best-practices/fine-grained-rate-limiting)when calling Xbox Live services or do not adhere to Xbox Live service retry policies may be subjected to rate limiting, which may result in service interruption or deprecation. Failure to adhere to the specified limits may block a title from release, and in-production issues with released titles may result in Xbox Live services suspension up to and including title removal.
 
@@ -96,7 +99,7 @@ Titles which exceed [title and user based limits ](https://docs.microsoft.com/wi
 ## Online Safety and Privacy
  
 
-### [Linking Microsoft Accounts with Publisher Accounts (XR-013)](policies/XR013.md)
+### [Linking Microsoft Accounts with Publisher Accounts (XR-013)](xr/live-pc-xr013.md)
 
 On Xbox One, titles that use partner-hosted services or accounts that require credentials must link that account with the user’s Microsoft account.  
 
@@ -110,7 +113,7 @@ If account linking is enabled within the title, the following rules apply:
 * Users must have the ability to de-link accounts.
 
 
-### [Xbox Live and Account Privileges (XR-045)](policies/XR045.md)
+### [Xbox Live and Account Privileges (XR-045)](xr/live-pc-xr045.md)
 
 Xbox Live promises users a certain level of privacy and online safety for themselves and their children. In order to deliver on that promise, titles must check whether the active user has certain privileges before completing certain actions on the Xbox Live service or in a title experience.
 
@@ -125,7 +128,7 @@ Xbox Live promises users a certain level of privacy and online safety for themse
 |Sharing to a social network|220|XPRIVILEGE_SOCIAL_NETWORK_SHARING|Xbox One Only: Allows a user to share information, including game progress, Kinect-generated content, game clips, and so on outside of Xbox Live.|
 
 
-### [Managing Player Communication (XR-015)](policies/XR015.md)
+### [Managing Player Communication (XR-015)](xr/live-pc-xr015.md)
 
 TTitles must not transmit user data or allow communication over Xbox Live when the user's privacy & online safety settings do not allow it.
 
@@ -175,7 +178,7 @@ Achievements must not be shared across titles. When a single title is supported 
 After an achievement has been published to users, it cannot be removed, nor can its unlock rules or rewards be changed. Achievement text strings (name, description) or art (icons/background) can be modified.
  
  
-### [Achievement Names and Descriptions (XR-062)](policies/XR062.md)
+### [Achievement Names and Descriptions (XR-062)](xr/live-pc-xr062.md)
 
 Achievement names and descriptions may contain only content that would merit a rating of PEGI 12, ESRB EVERYONE 10+, or lower.
 

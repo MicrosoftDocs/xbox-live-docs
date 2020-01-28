@@ -1,5 +1,5 @@
 ---
-title: Title-managed Featured Stats & Leaderboards portal config
+title: Configuring title-managed Featured Stats & Leaderboards in Partner Center
 description: Configuring title-managed Featured Stats & Leaderboards in Partner Center.
 ms.assetid: e0f307d2-ea02-48ea-bcdf-828272a894d4
 ms.date: 10/30/2017
@@ -8,7 +8,7 @@ ms.localizationpriority: medium
 keywords: Xbox Live, Xbox, games, uwp, windows 10, Xbox one, Featured Stats and leaderboards, leaderboards, title-managed Stats, Partner Center
 ---
 
-# Title-managed Featured Stats & Leaderboards portal config
+# Configuring title-managed Featured Stats & Leaderboards in Partner Center
 
 <!--
 this article =

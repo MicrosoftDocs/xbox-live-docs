@@ -111,7 +111,7 @@ A Cross-Play game requires two versions of the game:
 
 ## Create your UWP product in Partner Center
 
-Create a UWP product in Partner Center by following the guide: [Adding Xbox Live to a new or existing UWP project](../get-started/setup-ide/managed-partners/vs-win10/get-started-with-visual-studio-and-uwp.md).
+Create a UWP product in Partner Center by following the guide: [Get started using Visual Studio for UWP games](../../get-started/setup-ide/managed-partners/vs-win10/get-started-with-visual-studio-and-uwp.md).
 
 
 ## Set up your XDK product at Partner Center
@@ -130,7 +130,7 @@ Check every platform that you **intend to someday** release the game on with Xbo
 
 Once you have selected your platforms, specify the type of resource access for your game (most likely a XDK title) and the intended release mechanisms for this product.
 
-![Platform selection for new product](../images/ingesting_crossplay_games_xdp/image4.png)
+![Platform selection for new product](../../images/ingesting_crossplay_games_xdp/image4.png)
 
 
 ### Update your Product Platforms at Partner Center
@@ -138,7 +138,7 @@ Once you have selected your platforms, specify the type of resource access for y
 If you have an existing XDK product at Partner Center, it needs to be updated to support the PC platform.
 To do this, once on the product, navigate to Product Setup &gt; Platform Type.
 
-![Update platforms dialog box](../images/ingesting_crossplay_games_xdp/image10.png)
+![Update platforms dialog box](../../images/ingesting_crossplay_games_xdp/image10.png)
 
 On this page, select the platforms you want to support (options are Xbox One, Threshold PC, and Windows Mobile).
 Then select the **Submit Platforms** button.
@@ -151,12 +151,12 @@ This configuration spans sandboxes – you cannot have different platform types 
 
 Once the product is created at Partner Center, go to the Product Setup page for the product to enter the MSA App ID created earlier.
 
-![Product setup location](../images/ingesting_crossplay_games_xdp/image11.png)
+![Product setup location](../../images/ingesting_crossplay_games_xdp/image11.png)
 
 Once you make it to the Product Setup page, select the “Application ID Setup” section.
 In this area, you can enter the MSA App ID you retrieved and place it in the “Application ID” field, as shown below.
 
-![Application ID setup](../images/ingesting_crossplay_games_xdp/image12.png)
+![Application ID setup](../../images/ingesting_crossplay_games_xdp/image12.png)
 
 **You** **do not need to enter Name and Publisher attribution**, **and specifically should not use the “Get Application ID” link on the page**, as you already have an MSA App ID you need to enter in this field and do not want a new one generated for your application.
 
@@ -172,7 +172,7 @@ Certain Xbox Live features (like multiplayer invites) need to be aware of your U
 
 To do this, navigate to Product Setup &gt; Partner Center Binding
 
-![Dev Center Binding](../images/ingesting_crossplay_games_xdp/image13.png)
+![Dev Center Binding](../../images/ingesting_crossplay_games_xdp/image13.png)
 
 On this page, enter the PFN for your UWP app (as retrieved in section 4.1.1), then select the “save” button.
 

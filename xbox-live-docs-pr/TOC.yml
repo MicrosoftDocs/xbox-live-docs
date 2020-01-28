@@ -204,7 +204,7 @@
                     - name: Title-managed Stats & Leaderboards portal config
                       href: features/player-data/stats-leaderboards/title-managed/config/live-statslb-tm-config-nav.md
                       items: 
-                        - name: Title-managed Featured Stats & Leaderboards portal config
+                        - name: Configuring title-managed Featured Stats & Leaderboards in Partner Center
                           href: features/player-data/stats-leaderboards/title-managed/config/live-featured-stats-and-leaderboards.md
                     - name: Title-managed Stats & Leaderboards how-to's
                       href: features/player-data/stats-leaderboards/title-managed/how-to/live-statslb-tm-nav.md
@@ -524,7 +524,7 @@
                 - name: Matchmaking portal config
                   href: features/multiplayer/matchmaking/config/live-matchmaking-config-nav.md
                   items: 
-                    - name: Matchmaking portal configuration
+                    - name: Configuring Matchmaking in Partner Center
                       href: features/multiplayer/matchmaking/config/live-matchmaking-config.md
             - name: Game Chat
               href: features/multiplayer/chat/live-chat-nav.md
