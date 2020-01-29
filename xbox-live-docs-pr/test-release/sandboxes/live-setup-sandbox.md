@@ -10,7 +10,7 @@ ms.date: 04/04/2017
 
 # Xbox Live Sandboxes overview
 
-In [Xbox Live Service Configuration](xbox-live-service-configuration.md), it was explained that you must configure information about your title online, usually in [Partner Center](https://partner.microsoft.com/dashboard).
+Before using Xbox Live services from your game, you must configure information about your title online in <a href="https://partner.microsoft.com/dashboard" target="_blank">Partner Center &#11008;</a>.
 This information includes things like the leaderboards your title wants to display, achievements that players can unlock, matchmaking configuration, etc.
 
 When you make changes to your service configuration, these need to be published from Partner Center before the changes are picked up by the rest of Xbox Live and can be seen by your title.
@@ -18,7 +18,9 @@ When you make changes to your service configuration, these need to be published 
 You publish to a *development sandbox*.
 Sandboxes allow you to work on changes to your title in an isolated environment.
 
-By default, Xbox One Consoles and Windows 10 PCs are in the RETAIL sandbox.
+By default, Xbox One Consoles <!--and Windows 10 PCs--> are in the RETAIL sandbox.
+
+See also [Advanced Xbox Live sandboxes](live-advanced-sandboxes.md).
 
 
 ## Benefits
@@ -175,14 +177,14 @@ So for example, if a user follows another user, that relationship is sandbox-agn
 
 The below examples show some of the benefits of using multiple sandboxes.
 
-> **Note**: If you are in the Xbox Creators Program, you can only have one sandbox. To create multiple sandboxes, you must be in the Managed Partners Program; see 
+> **Note**: If you are in the Xbox Creators Program, you can only have one sandbox. To create multiple sandboxes, you must be in the Managed Partners Program.
 
 
 #### Service config isolation
 
 As mentioned above, service configuration is sandbox-specific.
 So you might have a *Development* sandbox, and a *Testing* sandbox.
-When you give a build of your title to your testers, you would publish your [service configuration](xbox-live-service-configuration.md) to the *Testing* sandbox.
+When you give a build of your title to your testers, you would publish your Xbox Live Service Configuration to the *Testing* sandbox.
 
 Then in the meantime, you could add achievements, or different multiplayer session types to your *Development* sandbox without affecting the service configuration that your testers are seeing.
 
@@ -198,8 +200,13 @@ A good way to prevent this would be for your developers to be in the *Developmen
 This keeps both groups isolated.
 
 
-## Advanced
+#### Broadcasting
 
-To keep your development process simple, start off with your default sandbox and add new sandboxes judiciously.
+To prevent leaking title information accidentally, broadcasting through Mixer is also content-isolated.
+Broadcasts are automatically redirected into a development stream that is not accessible by other players.
+Titles that need to test specific broadcast functionality can do so through a limited Beta release in a retail scenario.
 
-Once you find your access control and data isolation needs growing, see [Advanced Xbox Live Sandboxes](advanced-xbox-live-sandboxes.md).
+
+### See also
+
+* [Advanced Xbox Live sandboxes](live-advanced-sandboxes.md)

@@ -19,14 +19,13 @@ To minimize the chance of unexpected errors, do the steps in [Get started with V
 
 ### Sandbox Problems
 
-Generally speaking, you should familiarize yourself with the concept of Sandboxes and how they pertain to Xbox Live.
-You can see more information in the [Xbox Live Sandboxes](../../xbox-live-sandboxes.md) guide.
+You should familiarize yourself with the concept of [Sandboxes](../../test-release/sandboxes/live-sandboxes-nav.md) and how they pertain to Xbox Live.
 
-Briefly, sandboxes enforce content isolation and access control before retail release.
+Sandboxes enforce content isolation and access control before retail release.
 Users without access to your development sandbox cannot perform any read or write operations that pertain to your title.
 You can also publish variations of service config to different sandboxes for testing.
 
-Some things to watch out for with regards to sandboxes are discussed below.
+Things to watch out for with sandboxes are discussed below.
 
 
 #### Developer account doesn't have access to the right sandbox for run-time access
@@ -54,15 +53,15 @@ For Windows 10 Desktop, you can use the `SwitchSandbox.cmd` script that's locate
 Ensure your title's service configuration is published in a development sandbox.
 You cannot sign-in to Xbox Live in a given development sandbox for a title, unless that title is published to the same sandbox.
 
-To publish the title to the same sandbox, see [Partner Center Documentation](../../xbox-live-service-configuration.md#sandbox-ids).
+To publish the title to the same sandbox, see the section [Sandbox IDs](../../test-release/portal-config/live-service-config-ids-mp.md#sandbox-ids) in the article "Xbox Live service configuration IDs, for Managed Partners".
 
-To publish your Partner Center configuration, see Partner Center Documentation: [Xbox Live service configuration for the Creators Program: Publish your Xbox Live service configuration](../../get-started-with-creators/xbox-live-service-configuration-creators.md#publish-your-xbox-live-service-configuration).
+To publish your Partner Center configuration, see the section [Publish your Xbox Live service configuration](../../test-release/portal-config/live-service-config-ids-creators.md#publish-your-xbox-live-service-configuration) in the article "Xbox Live service configuration IDs, for Creators".
 
 
 ### IDs configured incorrectly
 
 There are several pieces of ID required to configure your game.
-You can see more information in [Get started with Visual Studio for UWP games](../../get-started/setup-ide/managed-partners/vs-win10/get-started-with-visual-studio-and-uwp.md) or [Getting started with cross-play games](../../get-started-with-partner/get-started-with-cross-play-games.md), depending on what type of title you are creating.
+You can see more information in [Get started with Visual Studio for UWP games](../../get-started/setup-ide/managed-partners/vs-win10/get-started-with-visual-studio-and-uwp.md) or [Configuring cross-play for Xbox and Windows 10 in Partner Center](../../test-release/portal-config/live-config-cross-play-xbox-win10.md), depending on what type of title you are creating.
 
 Some things to watch out for are:
 * Ensure your App ID is entered into Partner Center correctly.
@@ -124,13 +123,13 @@ The error codes appear as follows:
 This error means that either the device or user doesn't have access to the specified title.
 
 1. This could mean you're not using a test account to attempt sign-in, or your test account doesn't have access to the same sandbox you're signed in as.
-   Please double-check the instructions on creating test accounts in the [Partner Center documentation.](../../xbox-live-test-accounts.md).
+   Double-check the instructions on creating test accounts in [Xbox Live test accounts](../../test-release/test-accounts/live-test-accounts.md).
    If necessary, create a new test account with access to the appropriate sandbox.
 
    You may need to remove your old account from Windows 10, you can do that by going to Settings from the Start Menu, and then going to Accounts.
 
 2. Double-check that your title is published to the sandbox that you are trying to use.
-   See [Partner Center Documentation](../../xbox-live-service-configuration.md#sandbox-ids).
+   See the section [Sandbox IDs](../../test-release/portal-config/live-service-config-ids-mp.md#sandbox-ids) in the article "Xbox Live service configuration IDs, for Managed Partners".
 
 
 ### 0x87DD0005 Unexpected or unknown title

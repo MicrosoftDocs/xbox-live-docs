@@ -28,9 +28,9 @@ An updated and improved version of Game Chat is now available.  See [Game Chat](
 
 ### Xbox Live PowerShell Module
 
-* PowerShell modules have been added to make it easier to switch sandboxes on your development machine. For more information, see [Tools](../tools/tools.md)
+* PowerShell modules have been added to make it easier to switch sandboxes on your development machine. See [Development tools for Xbox Live](../test-release/services-tools/live-tools.md).
 
 
 ### Bug fixes
 
-* Various bug fixes. Check the [GitHub commit history](https://github.com/Microsoft/xbox-live-api/commits/master) for a full list.
+* See <a href="https://github.com/Microsoft/xbox-live-api/commits/master" target="_blank">GitHub commit history for the "xbox-live-api" repo &#11008;</a>.

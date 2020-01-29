@@ -578,7 +578,7 @@
               href: features/cloud-storage/title-storage/live-title-storage-nav.md
               items:
                 - name: Title Storage overview
-                  href: features/cloud-storage/title-storage/live-title-storage-overview.md              
+                  href: features/cloud-storage/title-storage/live-title-storage-overview.md
                 - name: Title Storage portal config
                   href: features/cloud-storage/title-storage/config/live-title-storage-config-nav.md
                   items:                              

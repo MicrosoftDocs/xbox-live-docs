@@ -26,7 +26,7 @@ To create your own custom tooling, you can use the [Dev Tools library](https://w
 ## Global Storage
 
 Global title storage is used to store data that everyone can read, such as rosters, maps, challenges, or art resources.
-Global title storage is a type of [Title Storage](../features/cloud-storage/title-storage/live-title-storage-overview.md).
+Global title storage is a type of [Title Storage](../../features/cloud-storage/title-storage/live-title-storage-nav.md).
 
 The Global Storage tool is used to manage global title storage in test sandboxes.
 Data must still be published to RETAIL via Partner Center.
@@ -61,23 +61,23 @@ The Xbox Live Developer Account tool is needed to interact with other developer 
 
 The tool is available via command-line as part of the [Development Tools](https://aka.ms/xboxliveuwptools) zip.
 
-For more information, see [XBL Developer Account Tool](xbox-live-account-tool.md).
+For more information, see [Developer Account Tool to set up test accounts](../test-accounts/live-account-tool.md).
 
 
 ## Xbox Live Trace Analyzer
 
-Using [Xbox Live Trace Analyzer](analyze-service-calls.md), you can capture all service calls and then analyze them offline for any violations in calling patterns.
+Using the Xbox Live Trace Analyzer, you can capture all service calls and then analyze them offline for any violations in calling patterns.
 Service call tracing can be activated by using the **xbtrace** command line tool, or through protocol activation for more advanced scenarios.
 Activating service call tracking directly from title code is also supported.
 
 The tool is available via command-line as part of the [Development Tools](https://aka.ms/xboxliveuwptools) zip.
 
-For more information, see [Xbox Live Trace Analyzer](analyze-service-calls.md).
+See [Trace Analyzer for reviewing service calls](live-trace-analyzer.md).
 
 
 ## Xbox Live Account Tool  
 
-The [Xbox Live Account Tool](xbox-live-account-tool.md) is designed to help you set up existing test accounts for testing game scenarios.
+The [Developer Account Tool to set up test accounts](../test-accounts/live-account-tool.md) is designed to help you set up existing test accounts for testing game scenarios.
 For example, you can use Xbox Live Account Tool to change an account's gamertag, or quickly add 1000 followers to an account's friends list.
 
 The tool is available via command-line as part of the [Development Tools](https://aka.ms/xboxliveuwptools) zip.
