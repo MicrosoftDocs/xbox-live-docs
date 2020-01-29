@@ -10,8 +10,8 @@ ms.assetid: e7daf845-e6cb-4561-9dfa-7cfba882f494
 
 # Using Xbox Live sandboxes, for Creators
 
-In the [Xbox Live service configuration](xbox-live-service-configuration-creators.md) article, it was explained that you must configure information about your title in [Partner Center](https://partner.microsoft.com/dashboard).
-This information includes the stats, leaderboards, localization, and more.
+You must configure information about your title in <a href="https://partner.microsoft.com/dashboard" target="_blank">Partner Center &#11008;</a>, such as stats, leaderboards, and localization.
+See [Xbox Live service configuration IDs, for Creators](../portal-config/live-service-config-ids-creators.md).
 
 Changes to your Xbox Live service configuration need to be published from Partner Center into your development sandbox, before the changes are picked up by the rest of Xbox Live and can be accessed in your title.
 
@@ -32,7 +32,7 @@ A sandbox is created for you when you create a title.
 You can find your Sandbox ID by opening your product in **Partner Center** and navigating to **Services** > **Xbox Live**.
 The **Sandbox ID** will be listed at the top of the page.
 
-![Title Information in Partner Center screenshot. Includes Sandbox ID](../images/getting_started/devcenter_sandbox_id.png)
+![Title Information in Partner Center screenshot. Includes Sandbox ID](../../images/getting_started/devcenter_sandbox_id.png)
 
 
 ## Switch your PC's development sandbox
@@ -47,7 +47,7 @@ You can switch your PC into the development sandbox by using Unity, Windows Devi
 
 The following needs to be done before you can switch in and out of the development sandbox in Unity:
 
-* [Configure Xbox Live in Unity](../get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md)
+* [Configure Xbox Live in Unity](../../get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md)
 
 
 #### Switch Sandboxes
@@ -60,7 +60,7 @@ You can see the current sandbox in the **Developer Mode Configuration** section.
 
 2. If **Developer Mode** says **disabled**, you are currently in the RETAIL sandbox. You can click the **Switch to Developer Mode** button to switch in.
 
-![XBL Enabled](../images/unity/unity-xbl-dev-mode.PNG)
+![XBL Enabled](../../images/unity/unity-xbl-dev-mode.PNG)
 
 
 ### Windows Device Portal
@@ -79,7 +79,7 @@ The following needs to be done before you switch your sandbox in Windows Device 
 2. Click on **Xbox Live**.
 3. Enter your development sandbox in the text field, and then click **change**.
 
-![Sandbox configuration screenshot on Windows Devices Portal](../images/getting_started/wdp_switch_sandbox.png)
+![Sandbox configuration screenshot on Windows Devices Portal](../../images/getting_started/wdp_switch_sandbox.png)
 
 To switch back to RETAIL, you can enter RETAIL here.
 
@@ -125,9 +125,9 @@ You can use the Xbox Dev Portal to change the sandbox on your console:
 1. In the Xbox Dev Portal, click **Xbox Live**.
 1. Enter your development sandbox in the text field and click **change**.
 
-![switch sandbox](../images/getting_started/xdp_switch_sandbox.png)
+![switch sandbox](../../images/getting_started/xdp_switch_sandbox.png)
 
-![[Sandbox configuration at portal](../images/getting_started/xdp_switch_sandbox.png)
+![[Sandbox configuration at portal](../../images/getting_started/xdp_switch_sandbox.png)
 
 <!-- todo: replace XDP captures by Partner Center captures -->
 

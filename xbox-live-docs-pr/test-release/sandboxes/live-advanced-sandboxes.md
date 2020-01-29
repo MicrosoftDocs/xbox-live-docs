@@ -11,7 +11,7 @@ ms.date: 04/04/2017
 # Advanced Xbox Live sandboxes
 
 > [!NOTE]
-> This article explains advanced usage of sandboxes and is mainly applicable to large gaming studios which have multiple teams and complex permissions requirements. If you are instead part of the Xbox Live Creators Program or the ID@Xbox Program, see [Xbox Live Sandboxes Intro](xbox-live-sandboxes.md).
+> This article explains advanced usage of sandboxes and is mainly applicable to large gaming studios which have multiple teams and complex permissions requirements. If you are instead part of the Xbox Live Creators Program or the ID@Xbox Program, see [Xbox Live Sandboxes overview](live-setup-sandbox.md).
 
 The Xbox Live *sandbox* provides an entire private environment for development.
 This article explains what sandboxes are, why they exist, how they apply to publishers, and how they impact internal Xbox teams.
@@ -45,7 +45,7 @@ Only authorized dev accounts or dev kits are permitted access to these sandboxes
 
 Figure 1. Sandboxes in a production environment.
 
-![Sandbox structure and access diagram](images/sandboxes/sandboxes_image1.png)
+![Sandbox structure and access diagram](../../images/sandboxes/sandboxes_image1.png)
 
 Just as PublisherA has development sandboxes, other publishers have their own development sandboxes.
 The same title ID may reside in different sandboxes but the data generated for the title ID is distinct across sandboxes.
@@ -72,7 +72,7 @@ In order to create a title at Partner Center, a publisher creates a product grou
 
 Figure 2. The relationships between a product group, a product, a product instance, and a sandbox.
 
-![Product group and product instance diagram](images/sandboxes/sandboxes_image2.png)
+![Product group and product instance diagram](../../images/sandboxes/sandboxes_image2.png)
 
 
 ## Product instances
@@ -129,7 +129,7 @@ So, for a user or device to access a pre-release title in a sandbox, access must
 
 Figure 3. A model for setting up access through Partner Center
 
-![Sandbox resource access diagram](images/sandboxes/sandboxes_image3.png)
+![Sandbox resource access diagram](../../images/sandboxes/sandboxes_image3.png)
 
 The effectiveness of content isolation is based on the fact that your organization owns the following processes:
 
@@ -144,7 +144,7 @@ An example of this setup is illustrated in the figure below.
 Figure 4. An unauthorized user's credentials fail to gain access to the sandbox, as do the ordinary credentials of an authorized Partner Center user account.
 Only the credentials of the dev account owned by the authorized Partner Center user account succeed in gaining run-time access to the sandbox, and to all of the product instances currently in it.
 
-![Sandbox access example diagram](images/sandboxes/sandboxes_image4.png)
+![Sandbox access example diagram](../../images/sandboxes/sandboxes_image4.png)
 
 
 ### Dev accounts setup
@@ -231,7 +231,7 @@ When the title data moves through services, Xbox services use the sandbox ID to 
 
 The diagram below shows what user and title data is sandboxed.
 
-![What is and is not sandboxed bucket diagram](images/sandboxes/sandboxes_image5.png)
+![What is and is not sandboxed bucket diagram](../../images/sandboxes/sandboxes_image5.png)
 
 
 ### Global override sandbox
@@ -303,7 +303,7 @@ The diagram below shows a user group.
 The publisher may choose to use a device group instead of a user group, if deemed easier.
 Also, this user group has run-time and design-time access to sandbox XLDP.1 and the titles in this sandbox.
 
-![User group with two titles flowchart](images/sandboxes/sandboxes_image6.png)
+![User group with two titles flowchart](../../images/sandboxes/sandboxes_image6.png)
 
 
 ### Scenario 2: One title, different teams
@@ -332,7 +332,7 @@ Because the finance user group will not typically do any run-time debugging of a
 > [!NOTE]
 > Irrespective of the organization, a Partner Center user can belong in more than one user group.
 
-![One Title with multiple User Groups flowchart](images/sandboxes/sandboxes_image7.png)
+![One Title with multiple User Groups flowchart](../../images/sandboxes/sandboxes_image7.png)
 
 
 ### Scenario 3: Two titles, completely separate
@@ -350,7 +350,7 @@ In this example, the requirements change a bit:
 In this model, the publisher has chosen to keep both titles completely separated and thus assigned these two titles in two different sandboxes.
 The publisher has also chosen to create a separate admin user group and assigned access to the two products.
 
-![One Admin Two User Group and Two Title flowchart](images/sandboxes/sandboxes_image8.png)
+![One Admin Two User Group and Two Title flowchart](../../images/sandboxes/sandboxes_image8.png)
 
 
 ### Scenario 4: Any way you like it
@@ -380,7 +380,7 @@ The model followed below is:
 
 - Vendor Device Group C is a vendor-only user group that is given access to sandbox XLDP.3.
 
-![Customized Usergroup and Title Access flowchart](images/sandboxes/sandboxes_image9.png)
+![Customized Usergroup and Title Access flowchart](../../images/sandboxes/sandboxes_image9.png)
 
 
 ## Determine the Sandbox your device is targeting

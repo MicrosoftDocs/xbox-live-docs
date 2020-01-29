@@ -553,7 +553,7 @@
                 - name: Connected Storage overview
                   href: features/cloud-storage/connected-storage/live-connected-storage-overview.md
                 - name: Connected Storage technical overview
-                  href: features/cloud-storage/connected-storage/live-connected-storage-technical-overview.md                                
+                  href: features/cloud-storage/connected-storage/live-connected-storage-technical-overview.md
                 - name: Connected Storage concepts
                   href: features/cloud-storage/connected-storage/concepts/live-connected-storage-concepts-nav.md
                   items:

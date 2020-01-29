@@ -13,7 +13,7 @@ ms.date: 04/04/2017
 
 ## What is Service Configuration?
 
-Xbox Live features to configure include [Achievements](features/player-data/achievements/live-achievements-nav.md), [Stats & Leaderboards](features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md) and [Matchmaking](features/multiplayer/concepts/live-multiplayer-concepts.md#smartmatch-matchmaking).
+Xbox Live features to configure include [Achievements](../../features/player-data/achievements/live-achievements-nav.md), [Stats & Leaderboards](../../features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md) and [Smartmatch Matchmaking](../../features/multiplayer/matchmaking/live-matchmaking-nav.md).
 
 For example, Leaderboards allow players to see a value representing an accomplishment, in comparison to other players.
 Such values include high scores in an arcade game, lap times in a racing game, and headshots in a first-person shooter.
@@ -24,18 +24,17 @@ For example, whether the values should be sorted in ascending or descending valu
 
 This configuration happens on [Partner Center](https://partner.microsoft.com/dashboard).
 
-If you are a developing your title as part of the Xbox Live Creators Program, you use [Partner Center](https://partner.microsoft.com/dashboard), and you can read [Getting Started With Xbox Live](get-started/setup-partner-center/legacy/get-started-with-xbox-live-creators.md) to learn how to get set up.
+If you are a developing your title as part of the Xbox Live Creators Program, you use [Partner Center](https://partner.microsoft.com/dashboard), and you can read [Get started with Xbox Live, for Creators](../../get-started/setup-partner-center/legacy/get-started-with-xbox-live-creators.md) to learn how to get set up.
 
 If you are in the Managed Partners Program, read on.
 
 
 ## Choose your development portal
 
-Partner Center is used to configure Xbox Live Services.
-*  Partner Center at [https://partner.microsoft.com/dashboard](https://partner.microsoft.com/dashboard)
+<a href="https://partner.microsoft.com/dashboard" target="_blank">Partner Center &#11008;</a> is used to configure Xbox Live Services.
 
 You can find information about specific service configuration pages:
-* [Partner Center configuration](configure-xbl/windows-dev-center_nav.md)
+* [Portal configuration overview](live-portal-config-overview.md)
 
 If you already have a title configured, you can scroll down to [Get your IDs](#get_ids) to learn how to get the various identifiers required to set up your title.
 
@@ -71,7 +70,7 @@ In order to implement cross-play, do the following:
 
 * **Use Partner Center to ingest and publish your UWP game.** Use Partner Center to configure Xbox Live services. Your game will use the service configuration that you created in Partner Center.
 
-For more detail on this process, including items which are *not* self-service, see [Getting started with cross-play games](get-started-with-partner/get-started-with-cross-play-games.md).
+For more detail on this process, including items which are *not* self-service, see [Configuring cross-play for Xbox and Windows 10 in Partner Center](live-config-cross-play-xbox-win10.md).
 
 
 ### Separate versions of Xbox One and PC/Mobile games that are not cross-play
@@ -111,7 +110,7 @@ Sandbox IDs are case-sensitive.
 
 When configuring your title in Partner Center, you get your Sandbox ID on the "Xbox Live" root configuration page as shown below:
 
-![Xbox Live title information on Partner Center screenshot. Includes Sandbox ID](images/getting_started/devcenter_sandbox_id.png)
+![Xbox Live title information on Partner Center screenshot. Includes Sandbox ID](../../images/getting_started/devcenter_sandbox_id.png)
 
 
 #### Service Configuration ID (SCID)
@@ -125,7 +124,7 @@ To retrieve your SCID, in Partner Center, navigate to the Xbox Live Services sec
 
 Your SCID is displayed in the table shown below:
 
-![SCID displayed in Xbox Live Configuration on Partner Center screenshot](images/getting_started/devcenter_scid.png)
+![SCID displayed in Xbox Live Configuration on Partner Center screenshot](../../images/getting_started/devcenter_scid.png)
 
 
 #### Title ID

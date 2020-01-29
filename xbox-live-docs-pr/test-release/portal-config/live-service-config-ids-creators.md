@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 ## What is Service Configuration?
 
-You may be familiar with some of the Xbox Live features such as [Leaderboards](../features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md) and [Connected Storage](../features/cloud-storage/connected-storage/live-connected-storage-technical-overview.md).
+You may be familiar with some of the Xbox Live features such as [Stats & Leaderboards](../../features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md) and [Connected Storage](../../features/cloud-storage/connected-storage/live-connected-storage-nav.md).
 
 In case you are not, we'll briefly explain Leaderboards as an example.
 Leaderboards allow players to see a value representing an accomplishment, in comparison to other players.
@@ -24,7 +24,7 @@ But unlike an arcade machine, which only shows the top scores from the players w
 But for this to happen, you need to perform some one-time configuration so that Xbox Live knows about your leaderboard.
 For example, whether the values should be sorted in ascending or descending value, and what piece of data it should be sorting.
 
-This configuration happens in [Partner Center](https://partner.microsoft.com/dashboard) for Xbox Live Creators Program, and you can read [Getting Started With Xbox Live](../get-started/setup-partner-center/legacy/get-started-with-xbox-live-creators.md) to learn how to get set up.
+This configuration happens in [Partner Center](https://partner.microsoft.com/dashboard) for Xbox Live Creators Program, and you can read [Get started with Xbox Live, for Creators](../../get-started/setup-partner-center/legacy/get-started-with-xbox-live-creators.md) to learn how to get set up.
 
 
 ## Get your IDs
@@ -32,7 +32,7 @@ This configuration happens in [Partner Center](https://partner.microsoft.com/das
 To enable Xbox Live services, you will need to obtain several IDs to configure your development environment and title.
 These can be obtained by updating your Xbox Live service configuration.
 
-If you do not currently have a title in Partner Center, see [Create and test a new Creators title](../get-started/setup-partner-center/legacy/create-and-test-a-new-creators-title.md) for guidance.
+If you do not currently have a title in Partner Center, see [Create an app and publish it for testing, for Creators](../../get-started/setup-partner-center/legacy/create-and-test-a-new-creators-title.md) for guidance.
 
 
 ### Critical IDs
@@ -48,7 +48,7 @@ We therefore recommend that you obtain all three IDs at once.
 
 You can view all of these IDs on the "Xbox Live" root configuration page, as shown below:
 
-![Title Information including IDs in Partner Center screenshot](../images/getting_started/devcenter_sandbox_id.png)
+![Title Information including IDs in Partner Center screenshot](../../images/getting_started/devcenter_sandbox_id.png)
 
 
 #### Sandbox IDs

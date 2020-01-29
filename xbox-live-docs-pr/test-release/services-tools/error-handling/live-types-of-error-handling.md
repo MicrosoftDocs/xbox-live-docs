@@ -28,7 +28,5 @@ Most of these issues will result in an exception being thrown from the Services 
 Your title should capture these exceptions and handle them appropriately.
 
 There are two different styles of error handling in Xbox Services API (XSAPI), depending on which API you are using:
-
-* [C++ API Error Handling](error-handling-cpp.md)
-
-* [WinRT API Error Handling](error-handling-winrt.md)
+* [C++ API error handling](live-error-handling-cpp.md)
+* [WinRT API error handling](live-error-handling-winrt.md)
