@@ -12,6 +12,9 @@ ms.date: 10/30/2017
 
 You can use [Partner Center](https://developer.microsoft.com/dashboard) to configure the initial set of Xbox Live properties that are associated with your game.
 
+> [!NOTE]
+> This article describes the Partner Center UI for Managed Partners, more than for Creators.
+
 Add configuration by doing the following:
 
 1. Navigate to the **Xbox Live** section for your title, located under **Xbox Live Settings**.

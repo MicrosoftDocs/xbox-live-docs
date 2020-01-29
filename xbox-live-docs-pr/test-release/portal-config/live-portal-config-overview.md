@@ -12,9 +12,6 @@ ms.date: 07/30/2018
 
 Games that are published in [Partner Center](https://partner.microsoft.com/dashboard) and use the full set of Xbox Live features can configure their Xbox Live services in Partner Center.
 
-> [!IMPORTANT]
-> These articles do not apply to titles in the Xbox Live Creators Program.
-
 Your game must be enabled for full Xbox Live access in order to access the configuration pages.
 
 To access the Xbox Live configuration pages, after selecting your title in [Partner Center](https://partner.microsoft.com/dashboard), navigate to **Services** > **Xbox Live**.
@@ -37,14 +34,12 @@ To access the Xbox Live configuration pages, after selecting your title in [Part
 | [Configuring Privileges in Partner Center](../../configure-xbl/dev-center/privileges.md) | Configuring privileges on Partner Center. |
 
 
-### Data (Stats, Leaderboards, Achievements)
+### Event-based Data
 
-| Article | Description |
-|---------|-------------|
-| [Configuring title-managed Featured Stats & Leaderboards in Partner Center](../../features/player-data/stats-leaderboards/title-managed/config/live-featured-stats-and-leaderboards.md) | Configuring Xbox Live title-managed Featured Stats and Leaderboards on Partner Center. |
-| [Configuring title-managed Achievements in Partner Center](../../features/player-data/achievements/title-managed/config/live-achievements-tm-config.md) | Configuring Achievements in Partner Center, to deliver rewards. |
+For portal configuration of _event-based_ Stats and Leaderboards, see <a href="https://developer.microsoft.com/en-us/games/xbox/docs/xdk/dev-center-configure-data-platform-2013" target="_blank">Configure Xbox Live data platform 2013 in Windows Dev Center &#11008;</a> (that is, in Partner Center).
+Or, see that page in `XboxOneXDK.chm`.
 
-For portal configuration of _event-based_ Stats and Leaderboards, see <a href="https://developer.microsoft.com/en-us/games/xbox/docs/xdk/dev-center-configure-data-platform-2013" target="_blank">Configure Xbox Live data platform 2013 in Windows Dev Center &#11008;</a> (that is, in Partner Center). Or, see that page in `XboxOneXDK.chm`.  Articles cover:
+These event-based Data articles cover:
 * Events
 * Player stats
 * Featured stats
@@ -53,6 +48,14 @@ For portal configuration of _event-based_ Stats and Leaderboards, see <a href="h
 * Achievements
 * Challenges
 * Event manifest
+
+
+### Title-managed Data
+
+| Article | Description |
+|---------|-------------|
+| [Configuring title-managed Featured Stats & Leaderboards in Partner Center](../../features/player-data/stats-leaderboards/title-managed/config/live-featured-stats-and-leaderboards.md) | Configuring Xbox Live title-managed Featured Stats and Leaderboards on Partner Center. |
+| [Configuring title-managed Achievements in Partner Center](../../features/player-data/achievements/title-managed/config/live-achievements-tm-config.md) | Configuring Achievements in Partner Center, to deliver rewards. |
 
 
 ### Social

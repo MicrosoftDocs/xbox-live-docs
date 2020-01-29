@@ -15,11 +15,12 @@ ms.date: 02/21/2018
 You can use [Partner Center](https://developer.microsoft.com/dashboard/windows/overview) to allow other services, games, and apps to access your title's Xbox Live settings and data.
 For example, you may want a web service to display leaderboards on your website, or you may have a companion app that can access the game's title storage to view or modify saved game data.
 
+> [!NOTE]
+> This article does not apply to titles in the Xbox Live Creators Program.
+
 By default, only the title itself can access the settings and data stored on the Xbox Live service.
 You can change this by configuring data sharing on Partner Center.
 
-> [!NOTE]
-> This topic does not apply to titles in the Xbox Live Creators Program.
 
 ## To add configuration:
 
