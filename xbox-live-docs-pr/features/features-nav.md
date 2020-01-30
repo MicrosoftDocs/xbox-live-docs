@@ -109,7 +109,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="external-services/live-custom-services-nav.md">
+        <a href="custom-services/live-custom-services-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

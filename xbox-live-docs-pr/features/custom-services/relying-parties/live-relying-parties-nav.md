@@ -12,7 +12,7 @@ edited: 00/00/0000
 
 # Relying parties
 
-See the section [Configure Relying Party](live-web-services.md#corepa) in the article "Setting up Web Services at Partner Center".
+See the section [Configure Relying Party](../web-services/live-web-services.md#corepa) in the article "Setting up Web Services at Partner Center".
 
 
 <!-- {% jumppage its %} -->

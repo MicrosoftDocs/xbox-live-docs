@@ -620,16 +620,16 @@
                   items: 
                     - name: Configuring access policies in Partner Center
                       href: features/custom-services/access-policies/config/live-access-policies-udc.md
-            - name: Web services
-              href: features/custom-services/web-services/live-web-services-nav.md
-              items: 
-                - name: Setting up Web Services at Partner Center
-                  href: features/custom-services/web-services/live-web-services.md
             - name: Single Sign-On
               href: features/custom-services/single-sign-on/live-single-sign-on-nav.md
               items: 
                 - name: Configuring single sign-on in Partner Center
                   href: features/custom-services/single-sign-on/live-single-sign-on.md
+            - name: Web services
+              href: features/custom-services/web-services/live-web-services-nav.md
+              items: 
+                - name: Setting up Web Services at Partner Center
+                  href: features/custom-services/web-services/live-web-services.md
             - name: Relying parties
               href: features/custom-services/relying-parties/live-relying-parties-nav.md
         - name: What's new for Xbox Live
