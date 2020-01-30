@@ -1,6 +1,7 @@
 ---
 title: Xbox Live Sandboxes overview
 description: Publishing a game to a development sandbox, to work on changes to the title in an isolated environment.
+kindex: Xbox Live Sandboxes overview
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
@@ -42,6 +43,11 @@ Test accounts can only sign-in to development sandboxes, and will be explained i
 
 The vast majority of developers need only one sandbox.
 Fortunately a sandbox is created for you when you create a title.
+
+<!--
+The below steps and captures were modified in the chm copy of this article.
+Need to specify whether these steps and captures are for Managed Partners or Creators.
+-->
 
 1. You find out about your sandbox by going to Partner Center here:
 ![Partner Center ribbon dashboard location screenshot](live-setup-sandbox-images/first_xbltitle_dashboard.png)

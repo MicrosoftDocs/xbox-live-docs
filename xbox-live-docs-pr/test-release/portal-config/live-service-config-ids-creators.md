@@ -1,6 +1,7 @@
 ---
 title: Xbox Live service configuration IDs, for Creators
 description: Setting up Xbox Live service configuration IDs, for the Creators Program.
+kindex: Xbox Live service configuration IDs, for Creators
 ms.date: 10/03/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one

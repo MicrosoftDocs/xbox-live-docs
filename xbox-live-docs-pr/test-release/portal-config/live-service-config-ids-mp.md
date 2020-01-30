@@ -1,6 +1,7 @@
 ---
 title: Xbox Live service configuration IDs, for Managed Partners
 description: Setting up Xbox Live service configuration for your game, for Managed Partners.
+kindex: Xbox Live service configuration IDs, for Managed Partners
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, service configuration
 ms.localizationpriority: medium

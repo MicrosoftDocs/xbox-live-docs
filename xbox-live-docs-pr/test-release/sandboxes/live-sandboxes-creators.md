@@ -1,6 +1,7 @@
 ---
 title: Using Xbox Live sandboxes, for Creators
 description: Publishing a game to a development sandbox, to work on changes to the title in an isolated environment.
+kindex: Using Xbox Live sandboxes, for Creators
 ms.date: 10/30/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
