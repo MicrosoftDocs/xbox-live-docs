@@ -11,7 +11,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, udc, universal deve
 # Configuring single sign-on in Partner Center, for Managed Partners
 
 > [!NOTE]
-> This article does not apply to titles in the Xbox Live Creators Program.
+> This article is for Managed Partners, and does not apply to titles in the Xbox Live Creators Program.
 
 Single sign-on allows a player using your title to sign into your services by using their Xbox Live sign-in.
 This lets a player that is signed into Xbox Live run an app or game for your service without having to log in a second time using a different account credential specific to your service.

@@ -16,4 +16,4 @@ ms.technology: xboxgc
 
 | Article | Description |
 |---------|-------------|
-| [Title-managed Featured Stats & Leaderboards portal config](live-featured-stats-and-leaderboards.md) | Configuring title-managed Featured Stats & Leaderboards in Partner Center. |
+| [Configuring title-managed Featured Stats & Leaderboards in Partner Center](live-featured-stats-and-leaderboards.md) | Configuring title-managed Featured Stats & Leaderboards in Partner Center. |
