@@ -255,7 +255,7 @@
                       items: 
                         - name: Getting title-managed Achievements
                           href: features/player-data/achievements/title-managed/how-to/live-how-to-get-achievements.md
-                        - name: Updating Achievements
+                        - name: Updating title-managed Achievements
                           href: features/player-data/achievements/title-managed/how-to/live-how-to-update-achievements.md
         - name: Social
           href: features/social/live-social-nav.md
