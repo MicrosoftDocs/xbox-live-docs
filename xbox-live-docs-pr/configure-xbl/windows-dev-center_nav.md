@@ -27,10 +27,10 @@ To access the Xbox Live configuration pages, after selecting your title in [Part
 | [Summary tab](dev-center/summary.md) | Using the Summary tab in Partner Center. |
 | [Xbox Live Setup](dev-center/xbox-live-setup.md) | Configuring Xbox Live Setup at Partner Center. |
 | [Portal configuration of title-managed Achievements](../features/player-data/achievements/title-managed/config/live-achievements-tm-config.md) | Configuring Achievements in Partner Center, to deliver rewards. |
-| [Title-managed Featured Stats & Leaderboards portal config](../features/player-data/stats-leaderboards/title-managed/config/live-featured-stats-and-leaderboards.md) | Configuring Xbox Live title-managed Featured Stats and Leaderboards on Partner Center. |
-| [Game DVR](dev-center/game-dvr.md) | Configuring Xbox Live Game DVR strings on Partner Center. |
-| [Privileges](dev-center/privileges.md) | Configuring privileges on Partner Center. |
-| [Title Storage](../features/cloud-storage/title-storage/live-title-storage-overview.md) | Configuring Title Storage on Partner Center, for game-save in the cloud. |
+| [Configuring title-managed Featured Stats & Leaderboards in Partner Center](../features/player-data/stats-leaderboards/title-managed/config/live-tm-leaderboards-portal.md) | Configuring Xbox Live title-managed Featured Stats and Leaderboards on Partner Center. |
+| [Configuring Game DVR in Partner Center](dev-center/game-dvr.md) | Configuring Xbox Live Game DVR strings on Partner Center. |
+| [Configuring Privileges in Partner Center](dev-center/privileges.md) | Configuring privileges on Partner Center. |
+| [Title Storage overview](../features/cloud-storage/title-storage/live-title-storage-overview.md) | Configuring Title Storage on Partner Center, for game-save in the cloud. |
 | [Access Policies](dev-center/access-policies-udc.md) | Configuring access policies to allow other apps, games, and services to access the Xbox Live settings. |
 | [Web Services](dev-center/web-services.md) | Creating a Web service for an Xbox Live-enabled app. |
 | [Data sharing](dev-center/data-sharing-udc.md) | Configuring data sharing in Partner Center to allow other apps, games, and services to access the Xbox Live settings. |

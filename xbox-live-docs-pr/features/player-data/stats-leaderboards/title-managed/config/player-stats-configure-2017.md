@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 <!-- 
 This file was at path
 leaderboards-and-stats-2017/player-stats-configure-2017.md
-and has been orphaned for over a year.
+and has been orphaned for over a year.  sme compare the two articles in this dir. delete one?
 -->
 
 With player data, you only need to configure a stat in two cases:
