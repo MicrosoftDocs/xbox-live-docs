@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ## Introduction
 
 Before writing any Xbox Live code, you must set up a new title on your service configuration portal.
-See also [Xbox Live Service Configuration](../../../xbox-live-service-configuration.md).
+See also [Xbox Live service configuration IDs, for Creators](../../../test-release/portal-config/live-service-config-ids-creators.md).
 
 This article will walk through everything required to configure a title in Partner Center, create a new project, and prepare Xbox Live for testing.
 

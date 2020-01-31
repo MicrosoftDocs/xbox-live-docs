@@ -51,8 +51,8 @@ For support using Xbox Live Services with third party game engines that are not 
 Once you have a title created, you should learn about the Xbox Live concepts that will affect your experience developing titles.
 It's also important to test your game on all of the platforms that it will support to ensure that it behaves as expected.
 
-- [Xbox Live service configuration for the Creators Program](../../../get-started-with-creators/xbox-live-service-configuration-creators.md)
-- [Xbox Live test environment](../../../xbox-live-sandboxes.md)
+- [Xbox Live service configuration IDs, for Creators](../../../test-release/portal-config/live-service-config-ids-creators.md)
+- [Xbox Live Sandboxes overview](../../../test-release/sandboxes/live-setup-sandbox.md)
 - [Authorize Xbox Live accounts](authorize-xbox-live-accounts.md)
 
 
