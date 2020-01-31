@@ -54,7 +54,7 @@ These event-based Data articles cover:
 
 | Article | Description |
 |---------|-------------|
-| [Configuring title-managed Featured Stats & Leaderboards in Partner Center](../../features/player-data/stats-leaderboards/title-managed/config/live-featured-stats-and-leaderboards.md) | Configuring Xbox Live title-managed Featured Stats and Leaderboards on Partner Center. |
+| [Configuring title-managed Featured Stats & Leaderboards in Partner Center](../../features/player-data/stats-leaderboards/title-managed/config/live-tm-leaderboards-portal.md) | Configuring Xbox Live title-managed Featured Stats and Leaderboards on Partner Center. |
 | [Configuring title-managed Achievements in Partner Center](../../features/player-data/achievements/title-managed/config/live-achievements-tm-config.md) | Configuring Achievements in Partner Center, to deliver rewards. |
 
 
