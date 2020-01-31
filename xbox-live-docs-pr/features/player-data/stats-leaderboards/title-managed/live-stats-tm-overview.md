@@ -57,5 +57,5 @@ Developers are limited to having no more than 20 featured stats for their title,
 
 ## See also
 
-* [Title-managed Featured Stats & Leaderboards portal config](config/live-featured-stats-and-leaderboards.md)
+* [Configuring title-managed Featured Stats & Leaderboards in Partner Center](config/live-tm-leaderboards-portal.md)
 * [Updating title-managed Stats](how-to/live-stats-tm-updating.md)

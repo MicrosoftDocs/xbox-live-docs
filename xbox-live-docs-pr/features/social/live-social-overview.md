@@ -29,6 +29,7 @@ Integrating the Xbox Live Social features in your title provides a huge return o
 
 
 ## Concepts in this article
+
 - [Profile](#profile)
 - [Gamerscore and Achievements](#gamerscore-and-achievements)
 - [The people system - Your Social Network On Xbox Live](#the-people-system---your-social-network-on-xbox-live)

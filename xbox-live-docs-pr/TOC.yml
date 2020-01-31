@@ -204,10 +204,10 @@
                     - name: Title-managed Stats & Leaderboards portal config
                       href: features/player-data/stats-leaderboards/title-managed/config/live-statslb-tm-config-nav.md
                       items: 
-                        - name: Title-managed Featured Stats & Leaderboards portal config
-                          href: features/player-data/stats-leaderboards/title-managed/config/live-featured-stats-and-leaderboards.md
+                        - name: Configuring title-managed Featured Stats & Leaderboards in Partner Center
+                          href: features/player-data/stats-leaderboards/title-managed/config/live-tm-leaderboards-portal.md
                     - name: Title-managed Stats & Leaderboards how-to's
-                      href: features/player-data/stats-leaderboards/title-managed/how-to/live-statslb-tm-nav.md
+                      href: features/player-data/stats-leaderboards/title-managed/how-to/live-statslb-tm-howto-nav.md
                       items: 
                         - name: Updating title-managed Stats
                           href: features/player-data/stats-leaderboards/title-managed/how-to/live-stats-tm-updating.md
