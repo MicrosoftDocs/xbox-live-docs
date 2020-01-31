@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.prod: xboxlive
 ---
 
-<!-- was https://docs.microsoft.com/en-us/gaming/xbox-live/leaderboards-and-stats-2017/player-stats-2013 -->
+<!-- was https://docs.microsoft.com/gaming/xbox-live/leaderboards-and-stats-2017/player-stats-2013 -->
 
 # Event-based Stats overview
 

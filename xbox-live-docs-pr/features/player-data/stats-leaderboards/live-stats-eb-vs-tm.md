@@ -14,7 +14,7 @@ ms.assetid: 5ec7cec6-4296-483d-960d-2f025af6896e
 
 # Event-based vs. title-managed Stats
 
-<!-- Original title, dir, filename of this article: "Using player stats" https://docs.microsoft.com/en-us/gaming/xbox-live/leaderboards-and-stats-2017/using-player-stats -->
+<!-- Original title, dir, filename of this article: "Using player stats" https://docs.microsoft.com/gaming/xbox-live/leaderboards-and-stats-2017/using-player-stats -->
 
 As described in [Player Data Overview](../live-playerdata-overview.md), stats are key pieces of information you want to track about a player, such as *Head Shots* or *Fastest Lap Time*.
 Stats are used to generate leaderboards in scenarios that allow players to compare their effort and skills with their friends and every other player in a title's community.
@@ -29,7 +29,7 @@ There are two implementations of Stats for Xbox Live:
 * Managed Partners can use event-based Stats or title-managed Stats.
 
 * Xbox Live Creators Program developers can only use title-managed Stats, and so can ignore event-based Stats.
-  Creators Program developers can skip ahead to [Title-managed Stats overview](title-managed/live-stats2017.md).
+  Creators Program developers can skip ahead to [Title-managed Stats overview](title-managed/live-stats-tm-overview.md).
 
 Event-based Stats and title-managed Stats operate on fundamentally different principles, as follows.
 
@@ -128,4 +128,4 @@ Title-managed Stats is only used to produce Featured Stats and leaderboards.
 
 For a more in-depth explanation of event-based Stats, see [Event-based Stats overview](event-based/live-stats-eb-overview.md).
 
-For a more in-depth explanation of title-managed Stats, see [Title-managed Stats overview](title-managed/live-stats2017.md).
+For a more in-depth explanation of title-managed Stats, see [Title-managed Stats overview](title-managed/live-stats-tm-overview.md).
