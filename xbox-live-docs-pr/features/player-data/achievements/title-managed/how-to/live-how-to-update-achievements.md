@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 
 **Contents:**
 * [Unlocking an Achievement](#unlocking-an-achievement)
-* [Updating an Achievement](#updating-an-achievement)
+* [Updating completion progress for an Achievement](#updating-an-achievement)
 
 
 <!-- ===================================================== -->
@@ -23,25 +23,18 @@ ms.localizationpriority: medium
 
 ## Unlocking an Achievement
 
-Once your achievements are configured via Partner Center and published to your dev sandbox, your title can unlock them by calling **XblAchievementsUpdateAchievementAsync**.
+Once your achievements are configured via Partner Center and published to your development sandbox, your title can unlock them by calling the `XblAchievementsUpdateAchievementAsync` API.
+See the code in the next section.
 
-See also [Portal configuration of title-managed Achievements](../config/live-achievements-tm-config.md).
-
-To unlock an achievement, set the *percentComplete* argument of **XblAchievementsUpdateAchievementAsync** to 100.
-
+To unlock an achievement, set the *percentComplete* to 100.
 If the user is online, the request will be immediately sent to the Xbox Live Achievements service and will trigger the following user experiences:
-
--   The user will receive an Achievement Unlocked notification.
-
--   The specified achievement will appear as Unlocked in the user’s achievement list for the title.
-
+-   The user will receive an Achievement Unlocked notification;
+-   The specified achievement will appear as Unlocked in the user’s achievement list for the title;
 -   The unlocked achievement will be added to the user’s activity feed.
+>![alert](note.gif) **NOTE:** There will be no visible difference in user experiences for achievements that use event-based or title-managed Achievements.
 
-> *Note: There will be no visible difference in user experiences for achievements that use title-managed Achievements and Cloud-Powered (event-based) Achievements.*
-
-If the user is offline, the unlock request will be queued locally on the user’s device. When the user’s device has reestablished network connectivity, the request will automatically be sent to the Achievements service – note: no action is required from the game to trigger this – and the above user experiences will occur as described.
-
-The code in the next section shows how to call **XblAchievementsUpdateAchievementAsync**.
+If the user is offline, the unlock request will be queued locally on the user’s device.
+When the user’s device has reestablished network connectivity, the request will automatically be sent to the Achievements service (no action is required from the game to trigger this), and the above user experiences will occur as described.
 
 
 <!-- ===================================================== -->
@@ -49,24 +42,117 @@ The code in the next section shows how to call **XblAchievementsUpdateAchievemen
 
 ## Updating completion progress for an Achievement
 
-To update a user’s progress toward unlocking an achievement, set the *percentComplete* argument of **XblAchievementsUpdateAchievementAsync** to the appropriate whole number between 1-100.
+To update a user’s progress toward unlocking an achievement, call `XblAchievementsUpdateAchievementAsync`, setting the *percentComplete* argument to a whole number between 1-100.
+See the code below.
 
 An achievement’s progress can only increase.
-If *percentComplete* is set to a number less than the achievement’s last *percentComplete* value, the update will be ignored.
+If *percentComplete* is set to a number less than the achievement’s last *percentComplete* value, the update will be ignored. 
 For example, if the achievement’s *percentComplete* had previously been set to 75, sending an update with a value of 25 will be ignored and the achievement will still be displayed as 75% complete.
 
 If *percentComplete* is set to 100, the achievement will unlock.
 
-If *percentComplete* is set to a number greater than 100, the API will behave as if you set it to 100.
-
-The following code shows how to call **XblAchievementsUpdateAchievementAsync**.
+If *percentComplete* is set to a number greater than 100, the API will behave as if you set it to exactly 100.
 
 
-### Calling XblAchievementsUpdateAchievementAsync
+### Updating achievements for the present title
 
-[!INCLUDE [Achievements_UpdateAchievement](../../../../../code/snippets/Achievements_UpdateAchievement.md)]
+You can update achievements for the current title by calling `XblAchievementsUpdateAchievementAsync`, as follows.
+
+**C API**
+<!-- XblAchievementsUpdateAchievementAsync.md -->
+```cpp
+auto asyncBlock = std::make_unique<XAsyncBlock>();
+asyncBlock->queue = queue;
+asyncBlock->context = nullptr;
+asyncBlock->callback = [](XAsyncBlock* asyncBlock)
+{
+    std::unique_ptr<XAsyncBlock> asyncBlockPtr{ asyncBlock }; // Take over ownership of the XAsyncBlock*
+    auto result = XAsyncGetStatus(asyncBlock, false);
+    if (SUCCEEDED(result))
+    {
+        // Achievement updated
+    }
+    else if (result == HTTP_E_STATUS_NOT_MODIFIED)
+    {
+        // Achievement not modified
+    }
+    else
+    {
+        // Achievement failed to update
+    }
+};
+
+HRESULT hr = XblAchievementsUpdateAchievementAsync(
+    xboxLiveContext,
+    xboxUserId,
+    achievementId.c_str(),
+    percentComplete,
+    asyncBlock.get()
+);
+if (SUCCEEDED(hr))
+{
+    // The call succeeded, so release the std::unique_ptr ownership of XAsyncBlock* since the callback will take over ownership.
+    // If the call fails, the std::unique_ptr will keep ownership and delete the XAsyncBlock*
+    asyncBlock.release();
+}
+```
+
+<!-- not present in public 
+**Reference**
+* [XAsyncBlock](xasyncblock.md)
+* [XAsyncGetStatus](xasyncgetstatus.md)
+* [XblAchievementsUpdateAchievementAsync](xblachievementsupdateachievementasync.md)
+-->
 
 
-**Callback for XblAchievementsUpdateAchievementAsync**
+### Updating achievements for a different title
 
-[!INCLUDE [Achievements_UpdateAchievement_Callback](../../../../../code/snippets/Achievements_UpdateAchievement_Callback.md)]
+You can update achievements for another `titleId`, by using `XblAchievementsUpdateAchievementForTitleIdAsync`, as follows.
+
+**C API**
+<!-- XblAchievementsUpdateAchievementForTitleIdAsync.md -->
+```cpp
+auto asyncBlock = std::make_unique<XAsyncBlock>();
+asyncBlock->queue = queue;
+asyncBlock->context = nullptr;
+asyncBlock->callback = [](XAsyncBlock* asyncBlock)
+{
+    std::unique_ptr<XAsyncBlock> asyncBlockPtr{ asyncBlock }; // Take over ownership of the XAsyncBlock*
+    auto result = XAsyncGetStatus(asyncBlock, false);
+    if (SUCCEEDED(result))
+    {
+        // Achievement updated
+    }
+    else if (result == HTTP_E_STATUS_NOT_MODIFIED)
+    {
+        // Achievement not modified
+    }
+    else
+    {
+        // Achievement failed to update
+    }
+};
+
+HRESULT hr = XblAchievementsUpdateAchievementForTitleIdAsync(
+    xboxLiveContext,
+    xboxUserId,
+    titleId,
+    scid,
+    achievementId.c_str(),
+    percentComplete,
+    asyncBlock.get()
+);
+if (SUCCEEDED(hr))
+{
+    // The call succeeded, so release the std::unique_ptr ownership of XAsyncBlock* since the callback will take over ownership.
+    // If the call fails, the std::unique_ptr will keep ownership and delete the XAsyncBlock*
+    asyncBlock.release();
+}
+```
+
+<!-- not present in public 
+**Reference**
+* [XAsyncBlock](xasyncblock.md)
+* [XAsyncGetStatus](xasyncgetstatus.md)
+* [XblAchievementsUpdateAchievementForTitleIdAsync](xblachievementsupdateachievementfortitleidasync.md)
+-->
