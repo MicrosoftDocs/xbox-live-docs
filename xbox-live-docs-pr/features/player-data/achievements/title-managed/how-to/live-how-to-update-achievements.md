@@ -31,7 +31,8 @@ If the user is online, the request will be immediately sent to the Xbox Live Ach
 -   The user will receive an Achievement Unlocked notification;
 -   The specified achievement will appear as Unlocked in the user’s achievement list for the title;
 -   The unlocked achievement will be added to the user’s activity feed.
->![alert](note.gif) **NOTE:** There will be no visible difference in user experiences for achievements that use event-based or title-managed Achievements.
+    > [!NOTE]
+    > There will be no visible difference in user experiences for achievements that use event-based or title-managed Achievements.
 
 If the user is offline, the unlock request will be queued locally on the user’s device.
 When the user’s device has reestablished network connectivity, the request will automatically be sent to the Achievements service (no action is required from the game to trigger this), and the above user experiences will occur as described.
