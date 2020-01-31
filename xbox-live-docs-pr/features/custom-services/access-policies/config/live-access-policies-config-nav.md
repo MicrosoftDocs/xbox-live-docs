@@ -19,6 +19,6 @@ edited: 00/00/0000
 
 | Article | Description |
 |---------|-------------|
-| [Configuring access policies in Partner Center, for Managed Partners](live-access-policies-udc.md) | Configuring access policies to allow other apps, games, and services to access a title's Xbox Live settings.|
+| [Configuring access policies in Partner Center, for Managed Partners](live-access-policies-udc.md) | Configuring access policies to allow other apps, games, and services to access a title's Xbox Live settings. |
 
 <!-- {% jumppage its %} -->
