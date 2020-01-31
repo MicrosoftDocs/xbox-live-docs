@@ -44,4 +44,4 @@ Each relying party configuration specifies what information is contained in the 
 
 6. Click on the **Save** button to save your changes.
 
-![Screenshot of the single sign-on configuration page](../../images/dev-center/single-signon.png)
+![Screenshot of the single sign-on configuration page](../../../images/dev-center/single-signon.png)

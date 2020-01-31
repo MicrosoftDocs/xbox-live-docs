@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="web-services/web-services_nav.md">
+        <a href="access-policies/live-access-policies-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_service-hooks.svg" alt="Web Services" />
+                                <img src="https://docs.microsoft.com/media/common/i_guidelines.svg" alt="Access Policies" />
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Web Services</h3>
-                            <p>Web services.</p>
+                            <h3>Access Policies</h3>
+                            <p>Access policies.</p>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="single-sign-on/single-sign-on_nav.md">
+        <a href="single-sign-on/live-single-sign-on-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -52,18 +52,37 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="access-policies/access-policies_nav.md">
+        <a href="web-services/live-web-services-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_guidelines.svg" alt="Access Policies" />
+                                <img src="https://docs.microsoft.com/media/common/i_service-hooks.svg" alt="Web Services" />
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Access Policies</h3>
-                            <p>Access policies.</p>
+                            <h3>Web Services</h3>
+                            <p>Web services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="relying-parties/live-relying-parties-nav.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_link.svg" alt="Relying Parties" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Relying Parties</h3>
+                            <p>Relying Parties.</p>
                         </div>
                     </div>
                 </div>
