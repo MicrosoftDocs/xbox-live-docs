@@ -248,12 +248,12 @@
                     - name: Title-managed Achievements portal config
                       href: features/player-data/achievements/title-managed/config/live-achievements-tm-config-nav.md
                       items: 
-                        - name: Portal configuration of title-managed Achievements
+                        - name: Configuring title-managed Achievements in Partner Center
                           href: features/player-data/achievements/title-managed/config/live-achievements-tm-config.md
                     - name: Title-managed Achievements how-to's
                       href: features/player-data/achievements/title-managed/how-to/live-achievements-howto-nav.md
                       items: 
-                        - name: Getting Achievements
+                        - name: Getting title-managed Achievements
                           href: features/player-data/achievements/title-managed/how-to/live-how-to-get-achievements.md
                         - name: Updating Achievements
                           href: features/player-data/achievements/title-managed/how-to/live-how-to-update-achievements.md

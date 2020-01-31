@@ -18,5 +18,5 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Getting Achievements](live-how-to-get-achievements.md) | Example code for getting title-managed Achievements. |
+| [Getting title-managed Achievements](live-how-to-get-achievements.md) | Example code for getting title-managed Achievements. |
 | [Updating Achievements](live-how-to-update-achievements.md) | Example code for updating title-managed Achievements. |

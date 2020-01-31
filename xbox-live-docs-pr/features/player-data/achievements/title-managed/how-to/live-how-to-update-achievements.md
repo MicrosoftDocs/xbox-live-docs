@@ -1,7 +1,7 @@
 ---
-title: Updating Achievements
+title: Updating title-managed Achievements
 description: Example code for updating title-managed Achievements.
-kindex: Updating Achievements
+kindex: Updating title-managed Achievements
 author: XBL
 ms.author: v-jasch
 ms.topic: conceptual
@@ -11,12 +11,15 @@ ms.date: 09/23/2019
 ms.localizationpriority: medium
 ---
 
-# Updating Achievements
+# Updating title-managed Achievements
 
 **Contents:**
-* Unlocking an Achievement
-* Updating an Achievement
+* [Unlocking an Achievement](#unlocking-an-achievement)
+* [Updating an Achievement](#updating-an-achievement)
 
+
+<!-- ===================================================== -->
+<a id="unlocking-an-achievement"></a>
 
 ## Unlocking an Achievement
 
@@ -41,6 +44,9 @@ If the user is offline, the unlock request will be queued locally on the user’
 The code in the next section shows how to call **XblAchievementsUpdateAchievementAsync**.
 
 
+<!-- ===================================================== -->
+<a id="updating-an-achievement"></a>
+
 ## Updating completion progress for an Achievement
 
 To update a user’s progress toward unlocking an achievement, set the *percentComplete* argument of **XblAchievementsUpdateAchievementAsync** to the appropriate whole number between 1-100.
@@ -61,6 +67,6 @@ The following code shows how to call **XblAchievementsUpdateAchievementAsync**.
 [!INCLUDE [Achievements_UpdateAchievement](../../../../../code/snippets/Achievements_UpdateAchievement.md)]
 
 
-### Callback for XblAchievementsUpdateAchievementAsync
+**Callback for XblAchievementsUpdateAchievementAsync**
 
 [!INCLUDE [Achievements_UpdateAchievement_Callback](../../../../../code/snippets/Achievements_UpdateAchievement_Callback.md)]
