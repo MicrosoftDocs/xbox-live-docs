@@ -28,7 +28,7 @@ Reasons to define web services:
 3. Within the dropdown, select **Developer Settings**.
 4. On the left-side navigation bar, expand the option **Xbox Live** and select **Web Services**.
 
-![web services gif](../../images/dev-center/web-services/web-services.gif)
+![web services gif](../../../images/dev-center/web-services/web-services.gif)
 
 5. In the Web Services page, click on **New Web Service**.
 6. Enter the Web Service Name and choose the access type as required.

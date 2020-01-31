@@ -17,4 +17,4 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Setting up Web Services at Partner Center](../../../configure-xbl/dev-center/web-services.md) | Creating a Web service for an Xbox Live-enabled app. |
+| [Setting up Web Services at Partner Center](live-web-services.md) | Creating a Web service for an Xbox Live-enabled app. |

@@ -608,25 +608,30 @@
                     - name: Reading a configuration blob from Title Storage
                       href: features/cloud-storage/title-storage/how-to/live-reading-configuration-blobs.md
         - name: Custom services
-          href: features/external-services/external-services_nav.md
+          href: features/custom-services/live-custom-services-nav.md
           items: 
-            - name: Web services
-              href: features/external-services/web-services/web-services_nav.md
-              items: 
-                - name: Setting up Web Services at Partner Center
-                  href: configure-xbl/dev-center/web-services.md
-            - name: Single Sign-On
-              href: features/external-services/single-sign-on/single-sign-on_nav.md
-              items: 
-                - name: Configuring single sign-on in Partner Center
-                  href: configure-xbl/dev-center/single-sign-on.md
             - name: Access Policies
-              href: features/external-services/access-policies/access-policies_nav.md
+              href: features/custom-services/access-policies/live-access-policies-nav.md
               items: 
                 - name: Overview of configuring access policies
-                  href: features/external-services/access-policies/access-policies-overview.md
-                - name: Configuring access policies in Partner Center
-                  href: configure-xbl/dev-center/access-policies-udc.md
+                  href: features/custom-services/access-policies/live-access-policies-overview.md
+                - name: Access Policies portal config
+                  href: features/custom-services/access-policies/config/live-access-policies-config-nav.md
+                  items: 
+                    - name: Configuring access policies in Partner Center
+                      href: features/custom-services/access-policies/config/live-access-policies-udc.md
+            - name: Single Sign-On
+              href: features/custom-services/single-sign-on/live-single-sign-on-nav.md
+              items: 
+                - name: Configuring single sign-on in Partner Center
+                  href: features/custom-services/single-sign-on/live-single-sign-on.md
+            - name: Web services
+              href: features/custom-services/web-services/live-web-services-nav.md
+              items: 
+                - name: Setting up Web Services at Partner Center
+                  href: features/custom-services/web-services/live-web-services.md
+            - name: Relying parties
+              href: features/custom-services/relying-parties/live-relying-parties-nav.md
         - name: What's new for Xbox Live
           href: whats-new/whats-new.md
         - name: Title-callable UI (TCUI)

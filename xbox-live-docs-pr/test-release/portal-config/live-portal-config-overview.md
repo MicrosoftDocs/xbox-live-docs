@@ -78,9 +78,9 @@ These event-based Data articles cover:
 
 | Article | Description |
 |---------|-------------|
-| [Configuring access policies in Partner Center, for Managed Partners](../../configure-xbl/dev-center/access-policies-udc.md) | Configuring access policies to allow other apps, games, and services to access the Xbox Live settings. 
-| [Setting up Web Services at Partner Center](../../configure-xbl/dev-center/web-services.md) | Creating a Web service for an Xbox Live-enabled app. |
-| [Configuring single sign-on in Partner Center, for Managed Partners](../../configure-xbl/dev-center/single-sign-on.md) | Configuring single sign-on in Partner Center to allow a title to sign a user into your services by using their Xbox Live ID. |
+| [Configuring access policies in Partner Center, for Managed Partners](../../features/custom-services/access-policies/config/live-access-policies-udc.md) | Configuring access policies to allow other apps, games, and services to access the Xbox Live settings. 
+| [Setting up Web Services at Partner Center](../../features/custom-services/web-services/live-web-services.md) | Creating a Web service for an Xbox Live-enabled app. |
+| [Configuring single sign-on in Partner Center, for Managed Partners](../../features/custom-services/single-sign-on/live-single-sign-on.md) | Configuring single sign-on in Partner Center to allow a title to sign a user into your services by using their Xbox Live ID. |
 
 
 ### Cloud Storage

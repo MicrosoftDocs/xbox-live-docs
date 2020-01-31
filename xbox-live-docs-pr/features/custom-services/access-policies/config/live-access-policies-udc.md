@@ -35,4 +35,4 @@ You can change this by configuring access policies in Partner Center.
 
 7. When you are finished, click the **Save** button to save your changes.
 
-![Access Policies add app or service screen](../../images/dev-center/data-sharing-2.png)
+![Access Policies add app or service screen](../../../../images/dev-center/data-sharing-2.png)
