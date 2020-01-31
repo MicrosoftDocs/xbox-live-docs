@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ## Introduction
 
 Before writing any code, you must set up a new title on your service configuration portal.
-You can learn more about service configuration in [Xbox Live Service Configuration](../../../xbox-live-service-configuration.md).
+You can learn more about service configuration in [Xbox Live service configuration IDs, for Managed Partners](../../../test-release/portal-config/live-service-config-ids-mp.md).
 
 This article through this process with the following assumptions:
 * You are developing a Universal Windows Platform (UWP) title.  UWP titles run on Xbox One, Windows 10 desktop PCs, and mobile.

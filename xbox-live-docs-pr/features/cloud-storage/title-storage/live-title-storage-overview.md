@@ -1,6 +1,6 @@
 ---
 title: Title Storage overview
-description: Using Title Storage to store game information for a title in the cloud, especially for large amounts of per-user or per-title data.
+description: Title Storage is cloud storage for large amounts of per-user or per-game data, such as player statistics and assets.
 ms.assetid: a4182bc8-d232-4e77-93ae-97fe17ac71b1
 ms.date: 04/04/2017
 ms.topic: article

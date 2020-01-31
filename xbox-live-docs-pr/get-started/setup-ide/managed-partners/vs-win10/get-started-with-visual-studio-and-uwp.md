@@ -35,13 +35,14 @@ The following preliminary setup steps are required on your device, so that you c
 
 ### Set your sandbox
 
-Sandboxes offer a way to keep your [Xbox Live Service Configuration](../../../../xbox-live-service-configuration.md) isolated from retail until you are ready to release your title.
+Sandboxes offer a way to keep your Xbox Live service configuration isolated from retail until you are ready to release your title.
 Some data that you accumulate is specific to a sandbox.
+See [Xbox Live service configuration IDs, for Managed Partners](../../../../test-release/portal-config/live-service-config-ids-mp.md).
 
 For example, suppose your title defines a stat called *Headshots*, and you accumulate some number of Headshots in a user account while testing your title.
 This value would be specific to your title's development sandbox, and if you switched to playing the retail version of your title, the headshots would not carry over.
 
-To learn more and see how to set your sandbox, see [Xbox Live Sandboxes](../../../../xbox-live-sandboxes.md).
+To learn more and see how to set your sandbox, see [Xbox Live Sandboxes overview](../../../../test-release/sandboxes/live-setup-sandbox.md).
 
 
 ### Sign-in with a test account
@@ -49,7 +50,7 @@ To learn more and see how to set your sandbox, see [Xbox Live Sandboxes](../../.
 To sign-in to your development sandbox, you must either create a test account, or provision a regular Microsoft Account (MSA) for access to your sandbox.
 This provides improved security for your titles in development, as well as some other benefits.
 
-To learn more about test accounts and how to create one, see [Xbox Live Test Accounts](../../../../xbox-live-test-accounts.md)
+To learn more about test accounts and how to create one, see [Xbox Live test accounts](../../../../test-release/test-accounts/live-test-accounts.md).
 
 
 ## Visual Studio Project Setup
@@ -193,7 +194,7 @@ For example:
 ```
 
 > [!TIP]
-> All values inside xboxservices.config are case sensitive. See [Service Configuration](../../../../xbox-live-service-configuration.md) for more information on obtaining the TitleID and PrimaryServiceConfigId.
+> All values inside `xboxservices.config` are case-sensitive. For more information about obtaining the `TitleID` and `PrimaryServiceConfigId`, see [Xbox Live service configuration IDs, for Managed Partners](../../../../test-release/portal-config/live-service-config-ids-mp.md).
 
 
 ### 7. (Optional) Add multiplayer capabilities

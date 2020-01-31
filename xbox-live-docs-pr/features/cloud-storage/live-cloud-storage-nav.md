@@ -66,7 +66,7 @@ ms.localizationpriority: medium
                         </div>
                         <div class="cardText">
                             <h3>Title Storage</h3>
-                            <p>Cloud storage for large amounts of per-user or per-game data, such as player statistics and assets.</p>
+                            <p>Title Storage is cloud storage for large amounts of per-user or per-game data, such as player statistics and assets.</p>
                         </div>
                     </div>
                 </div>

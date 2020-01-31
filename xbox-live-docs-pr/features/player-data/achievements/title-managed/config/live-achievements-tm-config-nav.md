@@ -18,4 +18,4 @@ ms.technology:
 
 | Article | Description |
 |---------|-------------|
-| [Portal configuration of title-managed Achievements](live-achievements-tm-config.md) | Configuring Achievements in Partner Center, to deliver rewards. |
+| [Configuring title-managed Achievements in Partner Center](live-achievements-tm-config.md) | Configuring Achievements in Partner Center, to deliver rewards. |

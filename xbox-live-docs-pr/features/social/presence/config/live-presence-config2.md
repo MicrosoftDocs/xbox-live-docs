@@ -12,6 +12,9 @@ keywords: Xbox Live, Xbox, games, uwp, windows 10, Xbox one, Rich Presence strin
 A Rich Presence string displays a user's in-game activity after the name of the game that the user is playing, separated by a hyphen.
 A Rich Presence string is displayed under a player's Gamertag in the **Friends & clubs** list as well as in the player's Xbox Live user profile.
 
+> [!IMPORTANT]
+> Rich Presence strings are not available to Xbox Live Creators Program titles and therefore are not configurable for those titles. The content in this article is for Managed Partners.
+
 Configured Rich Presence strings are appended to the name of the game being played.
 
 If you create a game called BubblePop and configure the Rich Presence string "Popping bubbles with friends", your configured string would produce "BubblePop - Popping bubbles with friends" as a status.
@@ -24,9 +27,6 @@ In the following screenshot, Xbox Live users **Last Roar** and **Lucha Uno** are
 In the following screenshot you can see **Lucha Uno's** full Rich Presence string in his profile.
 
 ![Profile Example](live-presence-config2-images/RichPresence_Config_ProfileScreen.jpg)
-
-> [!IMPORTANT]
-> Rich Presence strings are not available to Xbox Live Creators Program titles and therefore are not configurable for those titles. The content in this article is for Managed Partners.
 
 
 ## Requirements

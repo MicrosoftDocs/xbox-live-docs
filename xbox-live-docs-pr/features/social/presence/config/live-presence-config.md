@@ -1,6 +1,6 @@
 ---
 title: Configuring Rich Presence strings
-description: Configuring Rich Presence strings.
+description: Configuring Rich Presence strings in Partner Center.
 ms.assetid: 7b08d46d-d3aa-42eb-93f2-ecd9338fccea
 ms.date: 04/04/2017
 ms.topic: article
