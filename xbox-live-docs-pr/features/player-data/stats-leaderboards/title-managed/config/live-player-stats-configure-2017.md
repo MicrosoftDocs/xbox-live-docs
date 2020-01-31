@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 <!-- 
 This file was at path
 leaderboards-and-stats-2017/player-stats-configure-2017.md
-and has been orphaned for over a year.
+and has been orphaned for over a year.  sme compare the two articles in this dir. delete one?
 -->
 
 With player data, you only need to configure a stat in two cases:
@@ -30,11 +30,11 @@ You do not need to configure Stats that are not featured player Stats, and are n
 
 First, go to the Player Stats section for your title as shown below.
 
-![Partner Center Featured Stats and Leaderboards configuration screenshot](player-stats-configure-2017-images/dev_center_player_stats_creators.png)
+![Partner Center Featured Stats and Leaderboards configuration screenshot](live-player-stats-configure-2017-images/dev_center_player_stats_creators.png)
 
 Then click the `Create your first featured stat/leaderboard` button, and then fill out this dialog and click Save.
 
-![Partner Center new leaderboard dialogue](player-stats-configure-2017-images/dev_center_player_stats_creators_leaderboard.png)
+![Partner Center new leaderboard dialogue](live-player-stats-configure-2017-images/dev_center_player_stats_creators_leaderboard.png)
 
 The `Display name` field is what users will see in the GameHub.
 

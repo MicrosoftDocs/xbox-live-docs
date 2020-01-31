@@ -200,14 +200,14 @@
                   href: features/player-data/stats-leaderboards/title-managed/live-statslb-tm-nav.md
                   items: 
                     - name: Title-managed Stats overview
-                      href: features/player-data/stats-leaderboards/title-managed/live-stats2017.md
+                      href: features/player-data/stats-leaderboards/title-managed/live-stats-tm-overview.md
                     - name: Title-managed Stats & Leaderboards portal config
                       href: features/player-data/stats-leaderboards/title-managed/config/live-statslb-tm-config-nav.md
                       items: 
                         - name: Configuring title-managed Featured Stats & Leaderboards in Partner Center
-                          href: features/player-data/stats-leaderboards/title-managed/config/live-featured-stats-and-leaderboards.md
+                          href: features/player-data/stats-leaderboards/title-managed/config/live-tm-leaderboards-portal.md
                     - name: Title-managed Stats & Leaderboards how-to's
-                      href: features/player-data/stats-leaderboards/title-managed/how-to/live-statslb-tm-nav.md
+                      href: features/player-data/stats-leaderboards/title-managed/how-to/live-statslb-tm-howto-nav.md
                       items: 
                         - name: Updating title-managed Stats
                           href: features/player-data/stats-leaderboards/title-managed/how-to/live-stats-tm-updating.md
@@ -248,14 +248,14 @@
                     - name: Title-managed Achievements portal config
                       href: features/player-data/achievements/title-managed/config/live-achievements-tm-config-nav.md
                       items: 
-                        - name: Portal configuration of title-managed Achievements
+                        - name: Configuring title-managed Achievements in Partner Center
                           href: features/player-data/achievements/title-managed/config/live-achievements-tm-config.md
                     - name: Title-managed Achievements how-to's
                       href: features/player-data/achievements/title-managed/how-to/live-achievements-howto-nav.md
                       items: 
-                        - name: Getting Achievements
+                        - name: Getting title-managed Achievements
                           href: features/player-data/achievements/title-managed/how-to/live-how-to-get-achievements.md
-                        - name: Updating Achievements
+                        - name: Updating title-managed Achievements
                           href: features/player-data/achievements/title-managed/how-to/live-how-to-update-achievements.md
         - name: Social
           href: features/social/live-social-nav.md

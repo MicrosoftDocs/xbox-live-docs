@@ -1,27 +1,30 @@
 ---
 title: Configuring title-managed Featured Stats & Leaderboards in Partner Center
 description: Configuring title-managed Featured Stats & Leaderboards in Partner Center.
-ms.assetid: e0f307d2-ea02-48ea-bcdf-828272a894d4
-ms.date: 10/30/2017
-ms.topic: article
+kindex: Configuring title-managed Featured Stats & Leaderboards in Partner Center
+kindex: Xbox Live leaderboards
+kindex: leaderboards, Xbox Live
+author: v-mihof
+ms.author: v-mihof
+ms.topic: conceptual
+ms.prod: xbox
+ms.technology: xboxgc
 ms.localizationpriority: medium
-keywords: Xbox Live, Xbox, games, uwp, windows 10, Xbox one, Featured Stats and leaderboards, leaderboards, title-managed Stats, Partner Center
+ms.assetid: e0f37d2-ea02-48ea-bcdf-828272a894d4
+ms.date: 10/30/2017
+edited: 00/00/0000
 ---
 
 # Configuring title-managed Featured Stats & Leaderboards in Partner Center
 
-<!--
-this article =
-https://docs.microsoft.com/gaming/xbox-live/
-configure-xbl/dev-center/featured-stats-and-leaderboards
- -->
+<!-- was https://docs.microsoft.com/gaming/xbox-live/configure-xbl/dev-center/featured-stats-and-leaderboards -->
 
 For a game to interact with the stats service, a stat needs to be defined in [Partner Center](https://partner.microsoft.com/dashboard).
 All Featured Stats will show up on the GameHub, which makes it automatically act as a leaderboard.
 
 We will store the raw value; however, the game will own the logic for determining whether a new value should be provided.
 
-![Achievements page on the Game Hub](live-featured-stats-and-leaderboards-images/featured-stats-and-leaderboards-2.png)
+![Achievements page on the Game Hub](live-tm-leaderboards-portal-images/featured-stats-and-leaderboards-2.png)
 
 The picture above shows how Featured Stats will look in your title's GameHub.
 The Featured Stats are shown withing the red box.
@@ -37,7 +40,7 @@ You can use Partner Center to configure a featured stat and leaderboard that is 
 
 2. Click the **New** button which will open a modal form. Once filled out, click **Save**.
 
-![New featured stat/leaderboard dialog](live-featured-stats-and-leaderboards-images/featured-stats.png)
+![New featured stat/leaderboard dialog](live-tm-leaderboards-portal-images/featured-stats.png)
 
 The **Display name** field is what users will see in the GameHub.
 This string can be localized in the **Localize strings** of the Xbox Live service configuration.
