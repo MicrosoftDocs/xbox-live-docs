@@ -59,9 +59,10 @@ Once you have a title created and the fundamentals working, this section provide
 
 | Article | Description |
 |---------|-------------|
-| [Using Xbox Live](../using-xbox-live/using-xbox-live.md) | Once you've setup your title and integrated the Xbox Live SDK, you are ready to implement sign-in and learn more about Xbox Live programming.
-| [Best practices for calling Xbox Live](../using-xbox-live/best-practices/best-practices-for-calling-xbox-live.md) | Familiarize yourself with the basics on Xbox Live calling patterns and best-practices to ensure your title performs well and doesn't get rate limited.
-| [Troubleshooting the Xbox Live Services API](../using-xbox-live/troubleshooting/troubleshooting-the-xbox-live-services-api.md) | Common issues you may encounter and suggestions on how to fix them.
+| [Error handling](../test-release/services-tools/error-handling/live-error-handling-nav.md) | Handling errors when calling an Xbox Live service through XSAPI. |
+| [Authentication and sign-in](../using-xbox-live/auth/authentication_nav.md) | Signing-in an Xbox Live user in your title. |
+| [Best practices for calling Xbox Live](../test-release/services-tools/best-practices/live-best-practices-calling-xbl.md) | Familiarize yourself with the basics on Xbox Live calling patterns and best-practices to ensure your title performs well and doesn't get rate limited.
+| [Troubleshooting Xbox Live Services APIs](../test-release/troubleshooting/live-troubleshooting-apis.md) | Common issues you may encounter and suggestions on how to fix them.
 
 
 ## Social features
@@ -71,7 +72,7 @@ This section describes how to get started with the Xbox Live social features.
 
 | Article | Description |
 |---------|-------------|
-| [Xbox Live Social features](../social-platform/social-platform_nav.md) | If you can sign-in a user, then you can start using Xbox Live's Social features, such as utilizing a user's social graph, Rich Presence, and others. |
+| [Social](../features/social/live-social-nav.md) | If you can sign-in a user, then you can start using Xbox Live's Social features, such as Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation. |
 
 
 ## Player Data
@@ -96,9 +97,9 @@ These are two different but complementary services:
 
 | Article | Description |
 |---------|-------------|
-| [Xbox Live Cloud Storage](../storage-platform/cloud-storage_nav.md) | Use the Xbox Live storage services for storing game saves, instant replays, user preferences, and other data in the cloud. |
-| [Connected Storage](../storage-platform/connected-storage/connected-storage-technical-overview.md) | An overview and programming guide on Connected Storage. |
-| [Title Storage](../storage-platform/xbox-live-title-storage/xbox-live-title-storage.md) | An overview and programming guide on Title Storage. |
+| [Xbox Live Cloud Storage](../features/cloud-storage/live-cloud-storage-nav.md) | Use the Xbox Live storage services for storing game saves, instant replays, user preferences, and other data in the cloud. |
+| [Connected Storage](../features/cloud-storage/connected-storage/live-connected-storage-technical-overview.md) | An overview and programming guide on Connected Storage. |
+| [Title Storage](../features/cloud-storage/title-storage/live-title-storage-overview.md) | An overview and programming guide on Title Storage. |
 
 
 ## Multiplayer features

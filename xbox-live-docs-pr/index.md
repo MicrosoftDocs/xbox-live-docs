@@ -62,7 +62,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="features/features_nav.md">
+        <a href="features/features-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -81,7 +81,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="releasing/releasing_nav.md">
+        <a href="test-release/live-test-release-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -93,6 +93,25 @@ ms.localizationpriority: medium
                         <div class="cardText">
                             <h3>Testing and Releasing</h3>
                             <p>Test, troubleshoot, and publish a game.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="policies/live-policies-nav.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_policy.svg" alt="Policies"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Policies</h3>
+                            <p>Xbox Requirements for adding Xbox Live to a PC or mobile game.</p>
                         </div>
                     </div>
                 </div>

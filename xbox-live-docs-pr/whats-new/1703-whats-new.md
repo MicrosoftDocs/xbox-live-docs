@@ -36,11 +36,11 @@ See [Choosing an Xbox Live developer program](../get-started/join-dev-program/de
 
 ## Documentation
 
-There are the following new articles
+There are the following revised or new articles.
 
 | Article | Description |
 |---------|-------------|
-|[Xbox Live Service Configuration](../xbox-live-service-configuration.md) | Updated information on doing service configuration for your Xbox Live Title
-| [Configure Xbox Live in Unity](../get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md) | New information on Unity setup for Xbox Live Creators Program developers |
-| [Xbox Live Sandboxes](../xbox-live-sandboxes.md) | A simplified guide to Xbox Live sandboxes and content isolation |
-| [Xbox Live Test Accounts](../xbox-live-test-accounts.md) | Information about how test accounts work, and how to create them on Partner Center |
+| [Xbox Live service configuration IDs, for Managed Partners](../test-release/portal-config/live-service-config-ids-mp.md) | Updated information on doing service configuration for your Xbox Live Title. |
+| [Configure Xbox Live in Unity](../get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md) | New information on Unity setup for Xbox Live Creators Program developers. |
+| [Xbox Live Sandboxes overview](../test-release/sandboxes/live-setup-sandbox.md) | A simplified guide to Xbox Live sandboxes and content isolation. |
+| [Xbox Live test accounts](../test-release/test-accounts/live-test-accounts.md) | Information about how test accounts work, and how to create them on Partner Center. |

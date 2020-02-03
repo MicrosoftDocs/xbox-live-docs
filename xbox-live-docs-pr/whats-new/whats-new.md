@@ -20,7 +20,7 @@ You can also check the [Xbox Live API GitHub commit history](https://github.com/
 SDK is now available as precompiled binaries (libs), and integrated with a package manager for Android.
 See [Get started with Xbox Live APIs on Android](../get-started/setup-ide/managed-partners/as-android/other/android-get-started-with-xsapi.md).
 
-For more information about this release, see [What's new in 1810 Release](1810-whats-new.md) 
+For more information about this release, see [What's new in 1810 Release](1810-whats-new.md).
 
 
 ## September 2018
@@ -83,7 +83,7 @@ An updated and improved version of Game Chat is now available.  See [Game Chat](
 
 #### Xbox Live PowerShell Module
 
-* PowerShell modules have been added to make it easier to switch sandboxes on your development machine. For more information, see [Tools](../tools/tools.md)
+* PowerShell modules have been added to make it easier to switch sandboxes on your development machine. See [Development tools for Xbox Live](../test-release/services-tools/live-tools.md).
 
 
 #### Bug fixes
@@ -152,16 +152,17 @@ You can read more about the program in [Developer Program Overview](../get-start
 
 ### Documentation
 
-There are the following new articles:
+There are the following revised or new articles.
 
 | Article | Description |
 |---------|-------------|
-| [Xbox Live Service Configuration](../xbox-live-service-configuration.md) | Updated information on doing service configuration for your Xbox Live Title. |
+| [Xbox Live service configuration IDs, for Managed Partners](../test-release/portal-config/live-service-config-ids-mp.md) | Updated information on doing service configuration for your Xbox Live Title. |
 | [Configure Xbox Live in Unity](../get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md) | New information on Unity setup for Xbox Live Creators Program developers. |
-| [Xbox Live Sandboxes](../xbox-live-sandboxes.md) | A simplified guide to Xbox Live sandboxes and content isolation. |
-| [Xbox Live Test Accounts](../xbox-live-test-accounts.md) | Information about how test accounts work, and how to create them on Partner Center. |
+| [Xbox Live Sandboxes overview](../test-release/sandboxes/live-setup-sandbox.md) | A simplified guide to Xbox Live sandboxes and content isolation. |
+| [Xbox Live test accounts](../test-release/test-accounts/live-test-accounts.md) | Information about how test accounts work, and how to create them on Partner Center. |
 
-## Archived
+
+## What's New articles prior to March 2017
 
 * [December 2016](1612-whats-new.md)
 * [November 2016](1611-whats-new.md)

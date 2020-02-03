@@ -1,12 +1,13 @@
 ---
-title: Portal configuration of title-managed Achievements
+title: Configuring title-managed Achievements in Partner Center
 description: Configuring Achievements in Partner Center, to deliver rewards.
+kindex: Configuring title-managed Achievements in Partner Center
 ms.date: 11/10/2017
 ms.topic: article
 ms.localizationpriority: medium
 ---
 
-# Portal configuration of title-managed Achievements
+# Configuring title-managed Achievements in Partner Center
 
 > [!IMPORTANT]
 > Achievements are only applicable to Managed Partners; games participating in the Xbox Live Creators Program are not supported.
@@ -61,7 +62,7 @@ The deep link is returned in the GET API response.
 The URL specified must contain `ms-xbl-{titleID}://` prefix.
 
 > [!TIP]
-> Achievement Deep links require the hexadecimal TitleId of your game. You can find it on [Xbox Live Setup](../../../../../configure-xbl/dev-center/xbox-live-setup.md) screen in [Partner Center](https://developer.microsoft.com/dashboard).
+> Achievement Deep links require the hexadecimal TitleId of your game. You can find it on **Xbox Live Setup** screen in [Partner Center](https://developer.microsoft.com/dashboard); see [Configuring Xbox Live Setup in Partner Center](../../../../../test-release/portal-config/live-config-xbl-setup.md).
 
 
 ## Additional Rewards

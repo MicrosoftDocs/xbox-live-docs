@@ -120,7 +120,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="../features/features_nav.md">
+        <a href="../features/features-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -139,7 +139,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../releasing/releasing_nav.md">
+        <a href="../test-release/live-test-release-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

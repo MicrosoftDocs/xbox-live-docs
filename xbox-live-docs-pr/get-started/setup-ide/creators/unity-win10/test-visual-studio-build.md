@@ -43,7 +43,7 @@ The following articles serve as a checklist of items to help ensure successful t
     When your title is published for testing, it is published to a specific environment called a *sandbox*.
     If your development PC is not set to use that sandbox, you will not be able to test Xbox Live features.
 
-    Learn to check and change your PC's sandbox with the [Xbox Live sandboxes introduction](../../../../get-started-with-creators/xbox-live-sandboxes-creators.md).
+    Learn to check and change your PC's sandbox with the [Using Xbox Live sandboxes, for Creators](../../../../test-release/sandboxes/live-sandboxes-creators.md).
 
 5. **Make sure that you build your project as an x64 build targeting the local machine to build on your PC.**
 

@@ -65,4 +65,4 @@ if (XboxLiveUser.User.Privileges.Contains("247"))
 
 ## Privilege codes
 
-See [Privilege codes for Social Manager](../../../../features/social/friends-list/social-manager/privilege-codes.md).
+See [Privilege codes for Social Manager](../../../../features/social/social-manager/concepts/live-socmgr-privilege-codes.md).

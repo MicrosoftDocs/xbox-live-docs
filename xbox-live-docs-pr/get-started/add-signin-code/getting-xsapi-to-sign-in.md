@@ -211,4 +211,4 @@ Your game now enables the user to do basic sign-in to Xbox Live.
 ## Next step
 
 Now that your game enables the user to do basic sign-in to Xbox Live on the device, you are ready to implement any of the Xbox Live features, which are provided through the Xbox Services API (XSAPI).
-See [Features](../../features/features_nav.md).
+See [Features](../../features/features-nav.md).

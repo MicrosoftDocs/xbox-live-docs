@@ -132,7 +132,7 @@ You can verify both by looking at the **Xbox Live Configuration** window in Unit
 
 ![XBL Enabled](configure-xbox-live-in-unity_images/unity-xbl-enabled.png)
 
-See [Xbox Live sandboxes](../../../../xbox-live-sandboxes.md) for information about sandboxes.
+See [Xbox Live Sandboxes overview](../../../../test-release/sandboxes/live-setup-sandbox.md) for information about sandboxes.
 
 
 ## Build and test the project

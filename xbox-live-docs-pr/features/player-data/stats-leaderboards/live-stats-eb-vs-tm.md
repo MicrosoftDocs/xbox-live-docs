@@ -14,22 +14,13 @@ ms.assetid: 5ec7cec6-4296-483d-960d-2f025af6896e
 
 # Event-based vs. title-managed Stats
 
-<!-- renamed file from leaderboards-and-stats-2017/using-player-stats.md -->
+<!-- Original title, dir, filename of this article: "Using player stats" https://docs.microsoft.com/gaming/xbox-live/leaderboards-and-stats-2017/using-player-stats -->
 
 As described in [Player Data Overview](../live-playerdata-overview.md), stats are key pieces of information you want to track about a player, such as *Head Shots* or *Fastest Lap Time*.
-Stats are used to generate leaderboards in a number of scenarios that will allow players to compare their effort and skills with their friends and every other player in a title's community.
+Stats are used to generate leaderboards in scenarios that allow players to compare their effort and skills with their friends and every other player in a title's community.
 
-*Configured stats* show up in a title's GameHub leaderboard, where a player will see how they rank against their friends who have also played the title.
+*Configured stats* show up in a title's leaderboard, where a player will see how they rank against their friends who have also played the title.
 For more information about GameHub leaderboards, see [Designing Xbox Live Experiences](../live-designing-experiences.md).
-
-<!-- pinned content blocks are no longer applicable:
-
-The stats that show up in a title's Game Hub are called *Featured stats*, aka *Hero stats*.
-In addition to showing up in the Game Hub, as of the Xbox One 1806 update, Featured Stats may also periodically appear in pinned content blocks that users may add to their Home view.
-This allows quick access to social leaderboards for directly from the Home view.
-
-Featured Stats are one of several possible items displayed in pinned Content Blocks, so users may not always see them if Microsoft’s content services determine another content item could be more compelling.
--->
 
 There are two implementations of Stats for Xbox Live:
 * Event-based Stats (formerly called _Stats 2013_)
@@ -38,11 +29,12 @@ There are two implementations of Stats for Xbox Live:
 * Managed Partners can use event-based Stats or title-managed Stats.
 
 * Xbox Live Creators Program developers can only use title-managed Stats, and so can ignore event-based Stats.
-  Creators Program developers can skip ahead to [Title-managed Stats overview](title-managed/live-stats2017.md).
+  Creators Program developers can skip ahead to [Title-managed Stats overview](title-managed/live-stats-tm-overview.md).
+
 Event-based Stats and title-managed Stats operate on fundamentally different principles, as follows.
 
 
-### Event-based Stats
+## Event-based Stats
 
 When using event-based Stats, you send **events** to the Xbox Live Service containing certain information about an action a user performed.
 
@@ -50,16 +42,12 @@ The information in these **events** is used to update stats accordingly.
 In event-based Stats, the service keeps track of and updates all of your stats values, so that the service is the source of truth for statistic values for a player or group of players.
 
 
-### Title-managed Stats
+## Title-managed Stats
 
 When using title-managed Stats, you send up the actual stat value itself for the server to use.
 
 In title-managed Stats, the server does little to no validation on the value sent to it, and so it is up to your title to keep track of the correct stat values; your title is the source of truth for statistic values.
-When using title-managed Stats, we recommend that you track and store your stats in the cloud with the [Xbox Live Cloud Storage](../../../storage-platform/cloud-storage_nav.md).
-
-current loc:
-target loc:
-
+When using title-managed Stats, we recommend that you track and store your stats in the cloud with the [Xbox Live Cloud Storage](../../../features/cloud-storage/live-cloud-storage-nav.md).
 
 Title-managed Stats is like a reporting service: you send the correct stat for your game to the server, your stat then sits on the server and waits to be displayed on request or updated.
 
@@ -103,7 +91,10 @@ The service has minimal validation checks to make sure that you're sending a num
 
 Although you may use the title-managed Stats service to recall the values of stats at the beginning of a game session, you should not use the title-managed Stats service to confirm the value of a stat while the session is ongoing.
 
-How the two flavors of Stats operate:
+The following diagram shows how the two flavors of Stats operate:
+* Event-based Stats (formerly called Stats 2013) on the left
+* Title-managed Stats (formerly called Stats 2017) on the right
+
 ![Event-based vs. title-based Stats](live-stats-eb-vs-tm-images/Stats2013-7DiagramColored.jpg)
 
 
@@ -137,4 +128,4 @@ Title-managed Stats is only used to produce Featured Stats and leaderboards.
 
 For a more in-depth explanation of event-based Stats, see [Event-based Stats overview](event-based/live-stats-eb-overview.md).
 
-For a more in-depth explanation of title-managed Stats, see [Title-managed Stats overview](title-managed/live-stats2017.md).
+For a more in-depth explanation of title-managed Stats, see [Title-managed Stats overview](title-managed/live-stats-tm-overview.md).

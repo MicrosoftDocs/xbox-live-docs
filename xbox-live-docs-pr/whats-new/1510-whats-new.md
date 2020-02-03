@@ -23,7 +23,7 @@ The Xbox Live SDK supports Windows 10 RTM [Version 10.0.10240] and Visual Studio
 * We have a new Social Manager sample demonstrating the API.
 
 ## Tools
-* The Xbox Live Trace Analyzer is now included in the Xbox Live SDK.  Collect traces as described in the [Analyze calls to Xbox Live Services](../tools/analyze-service-calls.md), and then run the Live Trace Analyzer to ensure your title is using Xbox Live in an optimal way by viewing statistics about repeated calls, call frequency, and more.
+* The Xbox Live Trace Analyzer is now included in the Xbox Live SDK.  Collect traces as described in the [Trace Analyzer for reviewing service calls](../test-release/services-tools/live-trace-analyzer.md), and then run the Live Trace Analyzer to ensure your title is using Xbox Live in an optimal way by viewing statistics about repeated calls, call frequency, and more.
 
 ## Bug Fixes
 * Changed default timeout for HTTP socket operations to 30 seconds from 5 minutes.  For long running HTTP socket operations such as Title Storage upload and download calls, those remain using a 5 minute timeout.

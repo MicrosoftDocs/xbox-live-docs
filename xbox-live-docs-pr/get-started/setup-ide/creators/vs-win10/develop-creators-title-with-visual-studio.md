@@ -40,13 +40,14 @@ The following preliminary setup steps are required on your device, so that you c
 
 ### Set your sandbox
 
-Sandboxes offer a way to keep your [Xbox Live Service Configuration](../../../../get-started-with-creators/xbox-live-service-configuration-creators.md) isolated from retail until you are ready to release your title.
+Sandboxes offer a way to keep your Xbox Live service configuration isolated from retail until you are ready to release your title.
+See [Xbox Live service configuration IDs, for Creators](../../../../test-release/portal-config/live-service-config-ids-creators.md).
 Some data that you accumulate is specific to a sandbox.
 
 For example, suppose your title defines a stat called *Headshots*, and you accumulate some number of Headshots in a user account while testing your title.
 This value would be specific to your title's development sandbox, and if you switched to playing the retail version of your title, the headshots would not carry over.
 
-See [Using Xbox Live sandboxes](../../../../get-started-with-creators/xbox-live-sandboxes-creators.md).
+See [Using Xbox Live sandboxes, for Creators](../../../../test-release/sandboxes/live-sandboxes-creators.md).
 
 
 ### Sign-in with an Xbox Live account that has been authorized for testing
@@ -120,7 +121,7 @@ For example:
 
 ### 3. (Optional) Using Connected Storage
 
-If you want to use the [Connected Storage](../../../../storage-platform/connected-storage/connected-storage-technical-overview.md) service, you will need to access the `Windows.Gaming.XboxLive.Storage` namespace.
+If you want to use the [Connected Storage](../../../../features/cloud-storage/connected-storage/live-connected-storage-technical-overview.md) service, you will need to access the `Windows.Gaming.XboxLive.Storage` namespace.
 Depending on the version of the Windows SDK that you are using, you may need to install additional content or manually add references to your project to use it.
 
 If you've targeted Windows 10 SDK 10.0.16299 or higher, then you will be able to access the Connected Storage namespace without doing any additional work.
@@ -200,7 +201,7 @@ For example:
 ```
 
 > [!TIP]
-> All values inside xboxservices.config are case sensitive. See [Service Configuration](../../../../xbox-live-service-configuration.md) for more information on obtaining the TitleID and PrimaryServiceConfigId.
+> All values inside `xboxservices.config` are case-sensitive. For more information on obtaining the `TitleID` and `PrimaryServiceConfigId`, see [Xbox Live service configuration IDs, for Creators](../../../../test-release/portal-config/live-service-config-ids-creators.md).
 
 
 ## Learn More

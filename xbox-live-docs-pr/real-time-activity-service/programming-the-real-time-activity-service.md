@@ -50,7 +50,7 @@ You create statistics in Partner Center, for the various scenarios:
 * If you are making a pure UWP game running on Windows 10.
 
 You define your stats in [Partner Center](https://partner.microsoft.com/dashboard).
-See [Title-managed Featured Stats & Leaderboards portal config](../features/player-data/stats-leaderboards/title-managed/config/live-featured-stats-and-leaderboards.md).
+See [Configuring title-managed Featured Stats & Leaderboards in Partner Center](../features/player-data/stats-leaderboards/title-managed/config/live-tm-leaderboards-portal.md).
 
 > [!NOTE]
 > An event-based Stats developer will need to contact their DAM for information about portal configuration of event-based Stats in [Partner Center](https://partner.microsoft.com/dashboard). Secure docs portal: [Configure Xbox Live stats and stat rules in Partner Center](https://developer.microsoft.com/games/xbox/docs/xdk/windows-configure-stats-2013).

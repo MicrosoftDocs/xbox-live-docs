@@ -37,7 +37,7 @@ Player stats must represent a single value.
 The Xbox Live Unity plugin contains prefabs for integer, double, and string stats.
 Additionally, a script is provided for a base stat object that can be extended to other data types.
 
-For more information about player stats, see [Title-managed Stats overview](../live-stats2017.md).
+For more information about player stats, see [Title-managed Stats overview](../live-stats-tm-overview.md).
 
 > [!NOTE]
 > In order to use player stats or leaderboards with the Xbox Live service, you must have a successfully signed in user before you can access any data.

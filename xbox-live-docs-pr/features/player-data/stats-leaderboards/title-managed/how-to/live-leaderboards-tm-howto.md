@@ -22,12 +22,12 @@ As described in [Player Data overview](../../../live-playerdata-overview.md), Le
 
 Leaderboards for Featured Stats are always displayed in a title's Game Hub and sometimes displayed as a part of the UI for a title when it is pinned to the homepage.
 You can also use your configured Featured Stats to create Leaderboards inside of your title.
-For more information about Featured Stats, see the section [Configured stats and featured leaderboards](../live-stats2017.md#configured-stats-and-featured-leaderboards) in the article "Title-managed Stats overview".
+For more information about Featured Stats, see the section [Configured stats and featured leaderboards](../live-stats-tm-overview.md#configured-stats-and-featured-leaderboards) in the article "Title-managed Stats overview".
 
 
 ## Choosing Good Leaderboards
 
-As discussed in [Player Stats](../live-stats2017.md), a leaderboard corresponds to a stat that you have defined.
+As discussed in [Player Stats](../live-stats-tm-overview.md), a leaderboard corresponds to a stat that you have defined.
 You should choose leaderboards that correspond to an accomplishment that a player can work towards improving.
 
 For example, Best Lap Time in a racing game is a good leaderboard, because players will want to work towards improving their Best Lap Time.

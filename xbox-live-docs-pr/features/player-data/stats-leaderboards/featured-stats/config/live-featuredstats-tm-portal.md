@@ -13,4 +13,4 @@ ms.technology:
 
 # Portal configuration of title-managed Featured Stats
 
-See [Title-managed Featured Stats & Leaderboards portal config](../../title-managed/config/live-featured-stats-and-leaderboards.md).
+See [Configuring title-managed Featured Stats & Leaderboards in Partner Center](../../title-managed/config/live-tm-leaderboards-portal.md).

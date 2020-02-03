@@ -23,7 +23,7 @@ Gamerscore is still a key reward, however, so developers can now add more achiev
 Across the board, achievements on Xbox One have been reimagined to give service-like flexibility to titles.
 
 
-## Feature Summary ##
+## Feature summary
 
 Key features and components that contribute to the Achievement system on Xbox One:
 

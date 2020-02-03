@@ -139,7 +139,7 @@
             - name: Adding basic sign-in code for mobile
               href: get-started/add-signin-code/getting-xsapi-to-sign-in.md
     - name: Features
-      href: features/features_nav.md
+      href: features/features-nav.md
       items:
         - name: Identity features
           href: features/identity/identity_nav.md
@@ -200,14 +200,14 @@
                   href: features/player-data/stats-leaderboards/title-managed/live-statslb-tm-nav.md
                   items: 
                     - name: Title-managed Stats overview
-                      href: features/player-data/stats-leaderboards/title-managed/live-stats2017.md
+                      href: features/player-data/stats-leaderboards/title-managed/live-stats-tm-overview.md
                     - name: Title-managed Stats & Leaderboards portal config
                       href: features/player-data/stats-leaderboards/title-managed/config/live-statslb-tm-config-nav.md
                       items: 
-                        - name: Title-managed Featured Stats & Leaderboards portal config
-                          href: features/player-data/stats-leaderboards/title-managed/config/live-featured-stats-and-leaderboards.md
+                        - name: Configuring title-managed Featured Stats & Leaderboards in Partner Center
+                          href: features/player-data/stats-leaderboards/title-managed/config/live-tm-leaderboards-portal.md
                     - name: Title-managed Stats & Leaderboards how-to's
-                      href: features/player-data/stats-leaderboards/title-managed/how-to/live-statslb-tm-nav.md
+                      href: features/player-data/stats-leaderboards/title-managed/how-to/live-statslb-tm-howto-nav.md
                       items: 
                         - name: Updating title-managed Stats
                           href: features/player-data/stats-leaderboards/title-managed/how-to/live-stats-tm-updating.md
@@ -248,71 +248,109 @@
                     - name: Title-managed Achievements portal config
                       href: features/player-data/achievements/title-managed/config/live-achievements-tm-config-nav.md
                       items: 
-                        - name: Portal configuration of title-managed Achievements
+                        - name: Configuring title-managed Achievements in Partner Center
                           href: features/player-data/achievements/title-managed/config/live-achievements-tm-config.md
                     - name: Title-managed Achievements how-to's
                       href: features/player-data/achievements/title-managed/how-to/live-achievements-howto-nav.md
                       items: 
-                        - name: Getting Achievements
+                        - name: Getting title-managed Achievements
                           href: features/player-data/achievements/title-managed/how-to/live-how-to-get-achievements.md
-                        - name: Updating Achievements
+                        - name: Updating title-managed Achievements
                           href: features/player-data/achievements/title-managed/how-to/live-how-to-update-achievements.md
-        - name: Social features
-          href: social-platform/social-platform_nav.md
+        - name: Social
+          href: features/social/live-social-nav.md
           items: 
             - name: Overview of Social features
-              href: social-platform/xbox-live-social-platform.md
-            - name: People System (Friends List)
-              href: social-platform/people-system/people-system_nav.md
+              href: features/social/live-social-overview.md
+            - name: Social Manager
+              href: features/social/social-manager/live-social-manager-nav.md
               items: 
-                - name: Overview of the People System
-                  href: social-platform/people-system/xbox-live-people-system.md
-                - name: Displaying people from the People System
-                  href: social-platform/people-system/displaying-people-from-the-people-system.md
-                - name: Social Manager
-                  href: social-platform/social-manager_nav.md
+                - name: Social Manager overview
+                  href: features/social/social-manager/live-social-manager-overview.md
+                - name: Social Manager concepts
+                  href: features/social/social-manager/concepts/live-socmgr-concepts-nav.md
                   items: 
-                    - name: Overview of Social Manager
-                      href: social-platform/intro-to-social-manager.md
                     - name: Privilege codes for Social Manager
-                      href: features/social/friends-list/social-manager/privilege-codes.md
+                      href: features/social/social-manager/concepts/live-socmgr-privilege-codes.md
                     - name: Social Manager memory and performance
-                      href: social-platform/social-manager-memory-and-performance-overview.md
-            - name: Clubs
-              href: features/social/clubs/clubs.md
-            - name: Rich Presence
-              href: features/social/rich-presence/rich-presence_nav.md
+                      href: features/social/social-manager/concepts/live-socmgr-mem-perf.md
+            - name: People System (Friends List)
+              href: features/social/people-system/live-people-system-nav.md
               items: 
-                - name: Overview of Presence strings
-                  href: social-platform/rich-presence-strings/rich-presence-strings-overview.md
-                - name: Configuring Rich Presence strings
-                  href: social-platform/rich-presence-strings/rich-presence-strings-configuration.md
-                - name: Configuring Rich Presence strings in Partner Center
-                  href: configure-xbl/dev-center/rich-presence-configuration.md
-                - name: Updating a Rich Presence string
-                  href: social-platform/rich-presence-strings/rich-presence-strings-updating-strings.md
-                - name: Best practices for Rich Presence
-                  href: social-platform/rich-presence-strings/rich-presence-strings-best-practices.md
-                - name: Policies and limits for Rich Presence strings
-                  href: social-platform/rich-presence-strings/rich-presence-strings-policies-and-limitations.md
-                - name: Rich Presence appendix
-                  href: social-platform/rich-presence-strings/rich-presence-strings-appendix.md
-                - name: Programming Rich Presence
-                  href: social-platform/rich-presence-strings/programming-rich-presence.md
+                - name: People System (Friends List) overview
+                  href: features/social/people-system/live-people-system-overview.md
+                - name: People System (Friends List) concepts
+                  href: features/social/people-system/concepts/live-people-system-concepts-nav.md
+                  items: 
+                    - name: Displaying people from the People System
+                      href: features/social/people-system/concepts/live-pplsys-displaying-people.md
+                - name: People System (Friends List) how-to's
+                  href: features/social/people-system/how-to/live-pplsys-howto-nav.md
+                  items: 
+                    - name: Getting a social relationship
+                      href: features/social/people-system/how-to/live-getting-a-social-relationship.md
+                    - name: Handling a social relationship change
+                      href: features/social/people-system/how-to/live-handling-a-relationship-change.md
+                    - name: Programming Social services
+                      href: features/social/people-system/how-to/live-retrieving-social-relationships-winrt.md
+            - name: Rich Presence
+              href: features/social/presence/live-presence-nav.md
+              items: 
+                - name: Rich Presence overview
+                  href: features/social/presence/live-presence-overview.md
+                - name: Rich Presence concepts
+                  href: features/social/presence/concepts/live-presence-concepts-nav.md
+                  items: 
+                    - name: Best practices for Rich Presence
+                      href: features/social/presence/concepts/live-presence-best-practices.md
+                    - name: Policies and limits for Rich Presence strings
+                      href: features/social/presence/concepts/live-presence-limits.md
+                    - name: Rich Presence appendix
+                      href: features/social/presence/concepts/live-presence-apx.md
+                - name: Rich Presence portal config
+                  href: features/social/presence/config/live-presence-config-nav.md
+                  items: 
+                    - name: Configuring Rich Presence strings
+                      href: features/social/presence/config/live-presence-config.md
+                    - name: Configuring Rich Presence strings in Partner Center
+                      href: features/social/presence/config/live-presence-config2.md
+                - name: Rich Presence how-to's
+                  href: features/social/presence/how-to/live-presence-howto-nav.md
+                  items: 
+                    - name: Getting a user's Presence
+                      href: features/social/presence/how-to/live-getting-a-users-presence.md
+                    - name: Handling a title Presence change
+                      href: features/social/presence/how-to/live-handling-a-title-presence-change.md
+                    - name: Handling a device Presence change
+                      href: features/social/presence/how-to/live-handling-a-device-presence-change.md
+                    - name: Updating a user's Presence via XSAPI C
+                      href: features/social/presence/how-to/live-updating-user-presence.md
+                    - name: Updating a user's Presence via REST
+                      href: features/social/presence/how-to/live-updating-presence-rest.md
+                    - name: Updating a user's Presence via WinRT
+                      href: features/social/presence/how-to/live-setting-presence-status.md
             - name: Localized strings
-              href: features/social/localized-strings/localized-strings_nav.md
+              href: features/social/localized-strings/live-localized-strings-nav.md
               items: 
                 - name: Configuring localized strings in Partner Center
-                  href: configure-xbl/dev-center/localized-strings.md
+                  href: features/social/localized-strings/live-localized-strings-config.md
             - name: Reputation
-              href: social-platform/people-system/reputation_nav.md
+              href: features/social/reputation/live-reputation-nav.md
               items: 
-                - name: Overview of the Reputation service
-                  href: social-platform/people-system/the-reputation-service.md
-                - name: Sending Reputation feedback from a title
-                  href: social-platform/people-system/sending-player-feedback-from-your-title.md
-            - name: Programming Social services
-              href: social-platform/people-system/programming-social-services.md
+                - name: Reputation overview
+                  href: features/social/reputation/live-reputation-overview.md
+                - name: Reputation concepts
+                  href: features/social/reputation/concepts/live-reputation-concepts-nav.md
+                  items: 
+                    - name: Sending Reputation feedback from a title
+                      href: features/social/reputation/concepts/live-sending-reputation-feedback.md
+                - name: Reputation how-to's
+                  href: features/social/reputation/how-to/live-reputation-howto-nav.md
+                  items: 
+                    - name: Submitting Reputation feedback
+                      href: features/social/reputation/how-to/live-submitting-reputation-feedback.md
+            - name: Clubs
+              href: features/social/clubs/live-clubs.md
         - name: Multiplayer
           href: features/multiplayer/live-multiplayer-nav.md
           items: 
@@ -486,7 +524,7 @@
                 - name: Matchmaking portal config
                   href: features/multiplayer/matchmaking/config/live-matchmaking-config-nav.md
                   items: 
-                    - name: Matchmaking portal configuration
+                    - name: Configuring Matchmaking in Partner Center
                       href: features/multiplayer/matchmaking/config/live-matchmaking-config.md
             - name: Game Chat
               href: features/multiplayer/chat/live-chat-nav.md
@@ -505,68 +543,95 @@
                     - name: Migrating from Game Chat 1 to Game Chat 2
                       href: features/multiplayer/chat/how-to/live-game-chat-2-migration.md
         - name: Cloud Storage
-          href: storage-platform/cloud-storage_nav.md
+          href: features/cloud-storage/live-cloud-storage-nav.md
           items: 
             - name: Connected Storage vs. Title Storage
-              href: storage-platform/connected-storage-vs-title-storage.md
+              href: features/cloud-storage/live-connected-storage-vs-title-storage.md
             - name: Connected Storage
-              href: storage-platform/connected-storage/connected-storage_nav.md
-              items: 
-                - name: Overview of Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-overview.md
-                - name: Saving data with Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-saving.md
-                - name: Loading data with Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-loading.md
-                - name: Deleting data with Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-deleting.md
-                - name: Loading data on-demand with Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-loading-on-demand.md
-                - name: Working with Connected Storage buffers
-                  href: storage-platform/connected-storage/connected-storage-using-buffers.md
-                - name: Managing local Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-xb-storage.md
-                - name: Best practices for Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-best-practices.md
-                - name: Technical overview of Connected Storage
-                  href: storage-platform/connected-storage/connected-storage-technical-overview.md
+              href: features/cloud-storage/connected-storage/live-connected-storage-nav.md
+              items:
+                - name: Connected Storage overview
+                  href: features/cloud-storage/connected-storage/live-connected-storage-overview.md
+                - name: Connected Storage technical overview
+                  href: features/cloud-storage/connected-storage/live-connected-storage-technical-overview.md
+                - name: Connected Storage concepts
+                  href: features/cloud-storage/connected-storage/concepts/live-connected-storage-concepts-nav.md
+                  items:
+                    - name: Managing local Connected Storage
+                      href: features/cloud-storage/connected-storage/concepts/live-connected-storage-xb-storage.md
+                    - name: Best practices for Connected Storage
+                      href: features/cloud-storage/connected-storage/concepts/live-connected-storage-best-practices.md
+                - name: Connected Storage how-to's
+                  href: features/cloud-storage/connected-storage/how-to/live-connected-storage-howto-nav.md
+                  items:
+                    - name: Saving data with Connected Storage
+                      href: features/cloud-storage/connected-storage/how-to/live-connected-storage-saving.md
+                    - name: Loading data with Connected Storage
+                      href: features/cloud-storage/connected-storage/how-to/live-connected-storage-loading.md
+                    - name: Deleting data with Connected Storage
+                      href: features/cloud-storage/connected-storage/how-to/live-connected-storage-deleting.md
+                    - name: Loading data on-demand with Connected Storage
+                      href: features/cloud-storage/connected-storage/how-to/live-connected-storage-loading-on-demand.md
+                    - name: Working with Connected Storage buffers
+                      href: features/cloud-storage/connected-storage/how-to/live-connected-storage-using-buffers.md
             - name: Title Storage
-              href: storage-platform/xbox-live-title-storage/xbl-title-storage_nav.md
-              items: 
-                - name: Overview of Title Storage
-                  href: storage-platform/xbox-live-title-storage/xbox-live-title-storage.md
-                - name: Configuring Title Storage in Partner Center
-                  href: configure-xbl/dev-center/title-storage.md
-                - name: Reading a configuration blob from Title Storage
-                  href: storage-platform/xbox-live-title-storage/reading-configuration-blobs.md
-                - name: Storing a binary blob in Title Storage
-                  href: storage-platform/xbox-live-title-storage/storing-binary-blobs.md
-                - name: Reading a binary blob from Title Storage
-                  href: storage-platform/xbox-live-title-storage/reading-binary-blobs.md
-                - name: Storing a JSON blob in Title Storage
-                  href: storage-platform/xbox-live-title-storage/storing-jsonblobs.md
-                - name: Reading a JSON blob from Title Storage
-                  href: storage-platform/xbox-live-title-storage/reading-jsonblobs.md
+              href: features/cloud-storage/title-storage/live-title-storage-nav.md
+              items:
+                - name: Title Storage overview
+                  href: features/cloud-storage/title-storage/live-title-storage-overview.md
+                - name: Title Storage portal config
+                  href: features/cloud-storage/title-storage/config/live-title-storage-config-nav.md
+                  items:                              
+                    - name: Configuring Title Storage in Partner Center
+                      href: features/cloud-storage/title-storage/config/live-title-storage-portal-config.md
+                - name: Title Storage how-tos
+                  href: features/cloud-storage/title-storage/how-to/live-title-storage-howto-nav.md
+                  items:
+                    - name: Uploading a blob to Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-uploading-title-storage-blob.md
+                    - name: Downloading a blob from Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-downloading-title-storage-blob.md
+                    - name: Deleting a blob from Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-deleting-title-storage-blob.md
+                    - name: Getting Title Storage blob metadata
+                      href: features/cloud-storage/title-storage/how-to/live-getting-title-storage-blob-metadata.md
+                    - name: Getting quota info for a Title Storage service configuration
+                      href: features/cloud-storage/title-storage/how-to/live-getting-title-storage-quota-info.md
+                    - name: Storing a JSON blob in Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-storing-jsonblobs.md
+                    - name: Storing a binary blob in Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-storing-binary-blobs.md
+                    - name: Reading a binary blob from Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-reading-binary-blobs.md
+                    - name: Reading a JSON blob from Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-reading-jsonblobs.md
+                    - name: Reading a configuration blob from Title Storage
+                      href: features/cloud-storage/title-storage/how-to/live-reading-configuration-blobs.md
         - name: Custom services
-          href: features/external-services/external-services_nav.md
+          href: features/custom-services/live-custom-services-nav.md
           items: 
-            - name: Web services
-              href: features/external-services/web-services/web-services_nav.md
-              items: 
-                - name: Setting up Web Services at Partner Center
-                  href: configure-xbl/dev-center/web-services.md
-            - name: Single Sign-On
-              href: features/external-services/single-sign-on/single-sign-on_nav.md
-              items: 
-                - name: Configuring single sign-on in Partner Center
-                  href: configure-xbl/dev-center/single-sign-on.md
             - name: Access Policies
-              href: features/external-services/access-policies/access-policies_nav.md
+              href: features/custom-services/access-policies/live-access-policies-nav.md
               items: 
                 - name: Overview of configuring access policies
-                  href: features/external-services/access-policies/access-policies-overview.md
-                - name: Configuring access policies in Partner Center
-                  href: configure-xbl/dev-center/access-policies-udc.md
+                  href: features/custom-services/access-policies/live-access-policies-overview.md
+                - name: Access Policies portal config
+                  href: features/custom-services/access-policies/config/live-access-policies-config-nav.md
+                  items: 
+                    - name: Configuring access policies in Partner Center
+                      href: features/custom-services/access-policies/config/live-access-policies-udc.md
+            - name: Single Sign-On
+              href: features/custom-services/single-sign-on/live-single-sign-on-nav.md
+              items: 
+                - name: Configuring single sign-on in Partner Center
+                  href: features/custom-services/single-sign-on/live-single-sign-on.md
+            - name: Web services
+              href: features/custom-services/web-services/live-web-services-nav.md
+              items: 
+                - name: Setting up Web Services at Partner Center
+                  href: features/custom-services/web-services/live-web-services.md
+            - name: Relying parties
+              href: features/custom-services/relying-parties/live-relying-parties-nav.md
         - name: What's new for Xbox Live
           href: whats-new/whats-new.md
         - name: Title-callable UI (TCUI)
@@ -583,118 +648,112 @@
             - name: Best Practices for the RTA service
               href: real-time-activity-service/rta-best-practices.md
     - name: Testing and Releasing
-      href: releasing/releasing_nav.md
+      href: test-release/live-test-release-nav.md
       items:
         - name: Xbox Live resources, sites, and downloads
-          href: xbox-live-resources.md
-        - name: Policies
-          href: policies/policies_nav.md
-          items:
-            - name: Xbox Live policies
-              href: xboxlive-policies.md
-            - name: Xbox Live terminology
-              href: policies/xboxlive-terminology.md
-            - name: Recommended Policy Tests
-              href: policies/xboxlive-policy-tests.md
-            - name: "XR-013: Linking Microsoft Accounts with Publisher Accounts"
-              href: policies/xr013.md
-            - name: "XR-015: Privacy and Permissions"
-              href: policies/xr015.md
-            - name: "XR-045: Xbox Live and Account Privileges"
-              href: policies/xr045.md
-            - name: "XR-048: Profile Settings Usage"
-              href: policies/xr048.md
-            - name: "XR-062: Achievement Names and Descriptions"
-              href: policies/xr062.md
-            - name: "XR-074: Loss of Connectivity to Xbox and Partner Services"
-              href: policies/xr074.md
-            - name: "XR-132: Service Access Limitations"
-              href: policies/xr132.md
-        - name: Configuring Xbox Live services, for Managed Partners
-          href: configuring-xbox-live-services_nav.md
+          href: test-release/live-sites-downloads.md
+        - name: Configuring Xbox Live services
+          href: test-release/portal-config/live-portal-config-nav.md
           items: 
-            - name: Partner Center services configuration, for Managed Partners
-              href: configure-xbl/windows-dev-center_nav.md
-              items: 
-                - name: Summary page for Xbox Live configuration
-                  href: configure-xbl/dev-center/summary.md
-                - name: Configuring Xbox Live Setup in Partner Center
-                  href: configure-xbl/dev-center/xbox-live-setup.md
-                - name: Configuring Game DVR in Partner Center
-                  href: configure-xbl/dev-center/game-dvr.md
-                - name: Configuring data sharing in Partner Center
-                  href: configure-xbl/dev-center/data-sharing-udc.md
-                - name: Setting up a cross-play game targeting Xbox One and Windows 10
-                  href: get-started-with-partner/get-started-with-cross-play-games.md
+            - name: Portal configuration overview
+              href: test-release/portal-config/live-portal-config-overview.md
+            - name: Summary page for Xbox Live configuration
+              href: test-release/portal-config/live-portal-summary-tab.md
+            - name: Configuring Xbox Live Setup in Partner Center
+              href: test-release/portal-config/live-config-xbl-setup.md
+            - name: Configuring Game DVR in Partner Center
+              href: test-release/portal-config/live-game-dvr.md
+            - name: Configuring data sharing in Partner Center
+              href: test-release/portal-config/live-data-sharing-udc.md
+            - name: Configuring cross-play for Xbox and Windows 10 in Partner Center
+              href: test-release/portal-config/live-config-cross-play-xbox-win10.md
+            - name: Xbox Live service configuration IDs, for Creators
+              href: test-release/portal-config/live-service-config-ids-creators.md
+            - name: Xbox Live service configuration IDs, for Managed Partners
+              href: test-release/portal-config/live-service-config-ids-mp.md
         - name: Sandboxes
-          href: releasing/sandboxes/sandboxes_nav.md
+          href: test-release/sandboxes/live-sandboxes-nav.md
           items:
             - name: Xbox Live Sandboxes overview
-              href: xbox-live-sandboxes.md
+              href: test-release/sandboxes/live-setup-sandbox.md
             - name: Using Xbox Live sandboxes, for Creators
-              href: get-started-with-creators/xbox-live-sandboxes-creators.md
+              href: test-release/sandboxes/live-sandboxes-creators.md
             - name: Advanced Xbox Live sandboxes
-              href: advanced-xbox-live-sandboxes.md
+              href: test-release/sandboxes/live-advanced-sandboxes.md
         - name: Test accounts
-          href: test-accounts_nav.md
+          href: test-release/test-accounts/live-test-accounts-nav.md
           items: 
             - name: Xbox Live test accounts
-              href: xbox-live-test-accounts.md
+              href: test-release/test-accounts/live-test-accounts.md
             - name: Developer Account Tool to set up test accounts
-              href: tools/xbox-live-account-tool.md
+              href: test-release/test-accounts/live-account-tool.md
         - name: Testing on the Xbox One console
-          href: testing-on-console.md
-        - name: Testing and releasing a game, for Creators
-          href: releasing/creators/cr-testing_nav.md
-          items: 
-            - name: Xbox Live service configuration IDs, for Creators
-              href: get-started-with-creators/xbox-live-service-configuration-creators.md
-        - name: Testing and releasing a game, for Managed Partners
-          href: releasing/managed/mp-testing_nav.md
-          items: 
-            - name: Xbox Live service configuration IDs, for Managed Partners
-              href: xbox-live-service-configuration.md
+          href: test-release/live-testing-on-console.md
         - name: Troubleshooting Xbox Live
-          href: using-xbox-live/troubleshooting/troubleshooting_nav.md
+          href: test-release/troubleshooting/live-troubleshooting-nav.md
           items: 
-            - name: Tools for troubleshooting Xbox Live
-              href: releasing/troubleshooting/tools/tr-tools_nav.md
-            - name: Guides for troubleshooting Xbox Live
-              href: releasing/troubleshooting/guides/tr-guides_nav.md
-              items: 
-                - name: Troubleshooting Xbox Live Services APIs
-                  href: using-xbox-live/troubleshooting/troubleshooting-the-xbox-live-services-api.md
-                - name: Troubleshooting Xbox Live setup on Windows 10 PC
-                  href: using-xbox-live/troubleshooting/troubleshooting-pc-setup.md
+            - name: Troubleshooting Xbox Live Services APIs
+              href: test-release/troubleshooting/live-troubleshooting-apis.md
+            - name: Troubleshooting Xbox Live setup on Windows 10 PC
+              href: test-release/troubleshooting/live-troubleshooting-pc-setup.md
         - name: Services and tools
-          href: tools/development-tools_nav.md
+          href: test-release/services-tools/live-services-tools-nav.md
           items: 
             - name: Development tools for Xbox Live
-              href: tools/tools.md
+              href: test-release/services-tools/live-tools.md
             - name: Trace Analyzer for reviewing service calls
-              href: tools/analyze-service-calls.md
+              href: test-release/services-tools/live-trace-analyzer.md
             - name: Using Fiddler to inspect web service calls
-              href: using-xbox-live/troubleshooting/how-to-set-up-fiddler-for-debugging.md
+              href: test-release/services-tools/live-fiddler-inspect-web-calls.md
             - name: Best practices for Xbox Live
-              href: using-xbox-live/best-practices/best-practices_nav.md
+              href: test-release/services-tools/best-practices/live-best-practices-nav.md
               items: 
                 - name: Best practices for calling Xbox Live
-                  href: using-xbox-live/best-practices/best-practices-for-calling-xbox-live.md
+                  href: test-release/services-tools/best-practices/live-best-practices-calling-xbl.md
                 - name: Fine-Grained Rate Limiting
-                  href: using-xbox-live/best-practices/fine-grained-rate-limiting.md
+                  href: test-release/services-tools/best-practices/live-fine-grained-rate-limiting.md
                 - name: Best practices for handling offline play
-                  href: using-xbox-live/best-practices/best-practices-for-offline.md
+                  href: test-release/services-tools/best-practices/live-best-practices-offline-play.md
             - name: Error handling
-              href: using-xbox-live/error-handling/error-handling_nav.md
+              href: test-release/services-tools/error-handling/live-error-handling-nav.md
               items: 
                 - name: Types of error handling
-                  href: using-xbox-live/error-handling/types-of-error-handling.md
+                  href: test-release/services-tools/error-handling/live-types-of-error-handling.md
                 - name: C++ API error handling
-                  href: using-xbox-live/error-handling/error-handling-cpp.md
+                  href: test-release/services-tools/error-handling/live-error-handling-cpp.md
                 - name: WinRT API error handling
-                  href: using-xbox-live/error-handling/error-handling-winrt.md
+                  href: test-release/services-tools/error-handling/live-error-handling-winrt.md
             - name: Porting Xbox Live code from XDK to UWP
-              href: using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md
+              href: test-release/services-tools/live-port-xbl-code-from-xdk-to-uwp.md
+    - name: Policies and XRs
+      href: policies/live-policies-nav.md
+      items:
+        - name: Policies and XRs for PC and mobile
+          href: policies/pc/live-policies-pc-nav.md
+          items:
+            - name: Xbox Live policies
+              href: policies/pc/live-policies-pc.md
+            - name: Xbox Live terminology
+              href: policies/pc/live-certification-terminology-pc.md
+            - name: Recommended Policy Tests
+              href: policies/pc/live-policy-tests-pc.md
+            - name: XRs for PC and mobile
+              href: policies/pc/xr/live-pc-xrs-nav.md
+              items:
+                - name: "XR-013: Linking Microsoft Accounts with Publisher Accounts"
+                  href: policies/pc/xr/live-pc-xr013.md
+                - name: "XR-015: Privacy and Permissions"
+                  href: policies/pc/xr/live-pc-xr015.md
+                - name: "XR-045: Xbox Live and Account Privileges"
+                  href: policies/pc/xr/live-pc-xr045.md
+                - name: "XR-048: Profile Settings Usage"
+                  href: policies/pc/xr/live-pc-xr048.md
+                - name: "XR-062: Achievement Names and Descriptions"
+                  href: policies/pc/xr/live-pc-xr062.md
+                - name: "XR-074: Loss of Connectivity to Xbox and Partner Services"
+                  href: policies/pc/xr/live-pc-xr074.md
+                - name: "XR-132: Service Access Limitations"
+                  href: policies/pc/xr/live-pc-xr132.md
     - name: API Reference
       href: api-ref/live-api-reference-nav.md
       items:

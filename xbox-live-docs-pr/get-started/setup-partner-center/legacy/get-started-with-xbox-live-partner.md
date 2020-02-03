@@ -52,15 +52,15 @@ See [Setting up a game at Partner Center, for Managed Partners](../setup-partner
 You can follow the appropriate Getting Started guide for your platform and engine and learn the basics of Xbox Live as you go along.
 
 * [Setting up an IDE](../../setup-ide/setup-ide_nav.md)
-* [Getting started making a cross-play game](../../../get-started-with-partner/get-started-with-cross-play-games.md) shows how to make a product that is an XDK-based game for Xbox One and a UWP-based game for Windows 10 PC.
+* [Configuring cross-play for Xbox and Windows 10 in Partner Center](../../../test-release/portal-config/live-config-cross-play-xbox-win10.md) shows how to make a product that is an XDK-based game for Xbox One and a UWP-based game for Windows 10 PC.
 
 
 ## 4. Xbox Live Concepts
 
 Once you have a title created, you should learn about the Xbox Live concepts that will affect your experience developing titles:
 
-- [Xbox Live sandboxes](../../../xbox-live-sandboxes.md)
-- [Xbox Live test accounts](../../../xbox-live-test-accounts.md)
+- [Xbox Live Sandboxes overview](../../../test-release/sandboxes/live-setup-sandbox.md)
+- [Xbox Live test accounts](../../../test-release/test-accounts/live-test-accounts.md)
 - [Introduction to Xbox Live APIs](../../../api-ref/xsapi/live-introduction-to-xbox-live-apis.md)
 
 
@@ -68,11 +68,10 @@ Once you have a title created, you should learn about the Xbox Live concepts tha
 
 Add Xbox Live features to your game:
 
-- [Xbox Live Social features - Profile, Friends, Presence](../../../social-platform/social-platform_nav.md)
-- [Xbox Live Player Data - Stats, Leaderboards, Achievements](../../../features/player-data/live-playerdata-nav.md)
-- Xbox Live Multiplayer features - Invite, Matchmaking, Tournaments: [Multiplayer overview](../../../features/multiplayer/live-multiplayer-intro.md)
-- [Xbox Live Cloud Storage - Connected Storage, Title Storage](../../../storage-platform/cloud-storage_nav.md)
-- [Contextual Search](../../../contextual-search/introduction-to-contextual-search.md)
+- [Player Data](../../../features/player-data/live-playerdata-nav.md) - Achievements, player stats, leaderboards, and featured stats.
+- [Social](../../../features/social/live-social-nav.md) - Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.
+- [Multiplayer](../../../features/multiplayer/live-multiplayer-intro.md) - Matchmaking, invites, voice and text chat, and networking.
+- [Cloud Storage](../../../features/cloud-storage/live-cloud-storage-nav.md) - Connected Storage and Title Storage.
 
 
 ## 6. Release Your Title
