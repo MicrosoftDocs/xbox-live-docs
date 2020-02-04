@@ -19,7 +19,6 @@ The Real-Time Activity service enables an application on any device to subscribe
 
 | Article | Description |
 |---------|-------------|
-| [Real-Time Activity (RTA) service overview](real-time-activity-service-overview.md) | The Real-Time Activity service enables an application on any device to subscribe to state data, user statistics, and presence. |
-| [Registering for player stat change notifications](register-for-stat-notifications.md) | Using the Real-Time Activity service to register for player stat change notifications. |
-| [Program RTA Service with C++ APIs](programming-the-real-time-activity-service.md) | Programming the Real-Time Activity Service with the C++ APIs. |
-| [Best Practices ](rta-best-practices.md) | Best practices for using the Real Time Activity (RTA) service. |
+| [Overview of Real-Time Activity service](live-real-time-activity-service-overview.md) | The Real-Time Activity service enables an application on any device to subscribe to state data, user statistics, and presence. |
+| [Real-Time Activity (RTA) service concepts](concepts/live-rta-concepts-nav.md) | Conceptual articles about the Real-Time Activity service. |
+| [Real-Time Activity (RTA) service how-to's](how-to/live-rta-howto-nav.md) | Example code for Real-Time Activity service. |

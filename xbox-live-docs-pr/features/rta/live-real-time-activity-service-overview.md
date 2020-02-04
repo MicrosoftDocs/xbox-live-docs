@@ -72,7 +72,7 @@ You can subscribe to a user's friends' presence and show which friends are comin
 The latest version of RTA includes checks for privacy and authorization/content isolation.
 As long as privacy and authorization checks are satisfied, your app can subscribe to any statistic that is marked as RTA-enabled.
 
-For more information on how to make a statistic RTA-enabled, see [Register for stat notifications](register-for-stat-notifications.md).
+For more information on how to make a statistic RTA-enabled, see [Registering for player Stat change notifications](concepts/live-register-for-stat-notifications.md).
 
 There are no limitations on the kinds of statistics that can be made RTA-enabled—it's up to you, the developer.
 However, there is a limit to the *number* of statistics that a user can subscribe to per app session.

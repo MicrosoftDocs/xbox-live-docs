@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="../../using-xbox-live/auth/authentication_nav.md">
+        <a href="auth/live-authentication-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -33,7 +33,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../../using-xbox-live/auth/single-point-of-presence.md">
+        <a href="live-single-point-of-presence.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

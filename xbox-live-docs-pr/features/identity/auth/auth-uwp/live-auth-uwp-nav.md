@@ -1,11 +1,13 @@
 ---
-layout: LandingPage
 title: UWP Authentication and user identity
 description: Authentication and sign-in.
-ms.date: 02/08/2019
+layout: LandingPage
 ms.topic: article
-keywords: xbox live, xbox, games, windows 10, xbox one
+kindex: UWP Authentication and user identity
+kindex: authentication
+kindex: identity
 ms.localizationpriority: medium
+ms.date: 02/08/2019
 ---
 
 # UWP Authentication and user identity
@@ -15,5 +17,5 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Authentication for UWP projects](authentication-for-UWP-projects.md) | Signing-in Xbox Live users in a Universal Windows Platform (UWP) title. |
-| [Retrieving the Windows user in a UWP title](retrieving-windows-system-user-on-UWP.md) | Retrieving the Windows System User in a Universal Windows Platform (UWP) game. |
+| [Authentication for UWP projects](live-auth-for-uwp-projects.md) | Signing-in Xbox Live users in a Universal Windows Platform (UWP) title. |
+| [Retrieving the Windows user in a UWP title](live-retrieving-system-user-on-uwp.md) | Retrieving the Windows System User in a Universal Windows Platform (UWP) game. |

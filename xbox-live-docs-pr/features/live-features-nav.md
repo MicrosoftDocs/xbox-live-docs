@@ -134,17 +134,17 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="../whats-new/whats-new.md">
+        <a href="whats-new/live-whats-new-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_whats-new.svg" alt="What's new"/>
+                                <img src="https://docs.microsoft.com/media/common/i_whats-new.svg" alt="What's New"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>What's new for Xbox Live</h3>
+                            <h3>What's New</h3>
                             <p>New features and functionality in each release of Xbox Live.</p>
                         </div>
                     </div>
@@ -172,7 +172,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="../real-time-activity-service/real-time-activity-service_nav.md">
+        <a href="rta/live-rta-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

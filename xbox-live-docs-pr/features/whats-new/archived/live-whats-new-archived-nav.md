@@ -1,11 +1,11 @@
 ---
-title: What's New for older releases
-description: What's New for releases prior to 2017.
-kindex: What's New for older releases
+title: What's New for older releases of Xbox Live
+description: What's New for releases of Xbox Live prior to 2017.
+kindex: What's New for older releases of Xbox Live
+layout: LandingPage
+ms.topic: navigation
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: navigation
-layout: LandingPage
 ms.prod: gaming
 ms.technology: xboxlive
 ms.localizationpriority: medium
@@ -14,24 +14,21 @@ ms.date: 01/31/2020
 edited: 00/00/0000
 ---
 
-# What's New for older releases
+# What's New for older releases of Xbox Live
 
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
-| [__](__) | __ |
+| Article |
+|---------|
+| [What's new for the Xbox Live SDK - December 2016](live-whats-new-1612.md) |
+| [What's new for the Xbox Live SDK - November 2016](live-whats-new-1611.md) |
+| [What's new for the Xbox Live SDK - August 2016](live-whats-new-1608.md) |
+| [What's new for the Xbox Live SDK - June 2016](live-whats-new-1606.md) |
+| [What's new for the Xbox Live SDK - April 2016](live-whats-new-1604.md) |
+| [What's new for the Xbox Live SDK - March 2016](live-whats-new-1603.md) |
+| [What's new for the Xbox Live SDK - February 2016](live-whats-new-1602.md) |
+| [What's new for the Xbox Live SDK - October 2015](live-whats-new-1510.md) |
+| [What's new for the Xbox Live SDK - September 2015](live-whats-new-1509.md) |
+| [What's new for the Xbox Live SDK - August 2015](live-whats-new-1508.md) |
+| [What's new for the Xbox Live SDK - June 2015](live-whats-new-1506.md) |

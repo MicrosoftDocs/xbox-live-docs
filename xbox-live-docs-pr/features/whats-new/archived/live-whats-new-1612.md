@@ -1,11 +1,10 @@
 ---
 title: What's new for the Xbox Live SDK - December 2016
 description: What's new for the Xbox Live SDK - December 2016
-ms.assetid: 28fd8784-abef-4999-8f47-80f5bec19dcd
-ms.date: 04/04/2017
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
+ms.assetid: 28fd8784-abef-4999-8f47-80f5bec19dcd
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # What's new for the Xbox Live SDK - December 2016

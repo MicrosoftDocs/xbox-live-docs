@@ -1,10 +1,11 @@
 ---
 title: Retrieving the Windows user in a UWP title
 description: Retrieving the Windows System User in a Universal Windows Platform (UWP) game.
-ms.date: 06/07/2017
+kindex: Retrieving the Windows user in a UWP title
+kindex: system user
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, system user
 ms.localizationpriority: medium
+ms.date: 06/07/2017
 ---
 
 # Retrieving the Windows user in a UWP title

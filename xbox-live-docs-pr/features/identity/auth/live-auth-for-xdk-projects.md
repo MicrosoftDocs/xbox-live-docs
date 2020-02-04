@@ -1,6 +1,7 @@
 ---
 title: Authentication for XDK projects
 description: Signing-in Xbox Live users in an Xbox Development Kit (XDK) title.
+kindex: Authentication for XDK projects
 ms.assetid: 713bb2e3-80c5-4ac9-8697-257525f243d3
 ms.date: 04/04/2017
 ms.topic: article

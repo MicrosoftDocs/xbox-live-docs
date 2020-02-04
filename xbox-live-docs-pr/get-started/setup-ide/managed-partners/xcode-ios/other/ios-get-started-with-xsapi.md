@@ -1,15 +1,16 @@
 ---
-title: Get started with Xbox Live SDK for iOS
+title: Getting started with Xbox Live SDK for iOS
 description: Adding the Xbox Live SDK to an iOS project (older article).
+kindex: Getting started with Xbox Live SDK for iOS
+kindex: iOS, Xbox Live
 author: JeffreyShi
 ms.author: jeffshi
-ms.date: 03/10/2019
 ms.topic: article
-keywords: xbox live, xbox, games, iOS
 ms.localizationpriority: medium
+ms.date: 03/10/2019
 ---
 
-# Get started with the Xbox Live SDK for iOS
+# Getting started with the Xbox Live SDK for iOS
 
 This is an older and less comprehensive setup article.
 Instead, start with the newer article [Setting up Xcode targeting iOS](../xcode-ios-mp.md), and if needed, check the present article for additional tips.
@@ -18,10 +19,12 @@ Use Xbox Live to connect all games across devices to play together.
 
 
 ## Add the Xbox Live SDK for iOS to your project
+
 Xbox Live SDK for iOS contains 3 components as "frameworks" that you can reference in your game:
 - HttpClient.framework
 - Xal.framework
 - Xsapi-c.framework
+
 
 **To use Xbox Live SDK for iOS in your game:**
 

@@ -1,6 +1,7 @@
 ---
 title: Registering for player Stat change notifications
 description: Using the Real-Time Activity service to register for player stat change notifications.
+kindex: Registering for player Stat change notifications
 ms.assetid: d8dd61d4-4188-4dbc-abc5-ffcb491a2778
 ms.date: 06/12/2017
 ms.topic: article

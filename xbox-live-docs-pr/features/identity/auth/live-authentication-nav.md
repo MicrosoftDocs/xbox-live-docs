@@ -1,10 +1,11 @@
 ---
-layout: LandingPage
 title: Authentication and sign-in
 description: Signing-in an Xbox Live user in your game.
+layout: LandingPage
+kindex: Authentication and sign-in
+kindex: sign-in
+ms.topic: navigation
 ms.assetid: 7a9dfb3c-1ccc-4948-a218-37101069c91a
-ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, authentication, sign-in
 ms.localizationpriority: medium
 ms.date: 04/04/2017
 ---
@@ -18,7 +19,7 @@ Signing-in an Xbox Live user in your game.
 
 | Article | Description |
 |---------|-------------|
-| [Authentication for Mobile Projects using XAL](xal_nav.md) | An introduction to XAL and how to integrate it into your Xbox Live project. |
-| [Authentication for UWP projects](authentication-for-UWP-projects.md) | Signing-in Xbox Live users in a Universal Windows Platform (UWP) title. |
-| [Authentication for XDK projects](authentication-for-XDK-projects.md) | Signing-in Xbox Live users in an Xbox Development Kit (XDK) title. |
-| [Troubleshooting Xbox Live sign-in](../../features/identity/auth/live-troubleshooting-sign-in.md) | Troubleshooting issues with Xbox Live sign-in, such as correct sandbox and configuration IDs. |
+| [Authentication for mobile projects using XAL](auth-mobile-xal/live-xal-nav.md) | An introduction to XAL and how to integrate it into your Xbox Live project. |
+| [UWP Authentication and user identity](auth-uwp/live-auth-uwp-nav.md) | Signing-in Xbox Live users in a Universal Windows Platform (UWP) title. |
+| [Authentication for XDK projects](live-auth-for-xdk-projects.md) | Signing-in Xbox Live users in an Xbox Development Kit (XDK) title. |
+| [Troubleshooting Xbox Live sign-in](live-troubleshooting-sign-in.md) | Troubleshooting issues with Xbox Live sign-in, such as correct sandbox and configuration IDs. |

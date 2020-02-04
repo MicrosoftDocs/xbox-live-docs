@@ -1,7 +1,8 @@
 ---
 title: Signing-in using XAL
-author: aablackm
 description: Sign-in scenarios for XAL are soft single-user authentication, hard single-user authentication, and multi-user authentication.
+kindex: Signing-in using XAL
+author: aablackm
 ms.author: aablackm
 ms.date: 08/30/2018
 ms.topic: article
@@ -67,7 +68,7 @@ All of these functions are used to set functions to be called by XAL when it nee
 
 In each scenario you will need to initialize XAL before signing in a user:
 
-[!INCLUDE [XalInitialize](../../code/snippets/XalInitialize.md)]
+[!INCLUDE [XalInitialize](../../../../code/snippets/XalInitialize.md)]
 
 
 ## Sign-in
@@ -76,7 +77,7 @@ XAL has two sign-in functions:
 * `XalTryAddDefaultUserSilentlyAsync()` - Attempts to add a user without showing any UI.
 * `XalAddUserWithUiAsync()` - Attempts to add a user and will always show UI.
 
-Both of these functions follow the C API calling pattern, which you should familiarize yourself with; see [Making async calls in the XSAPI C API](../../api-ref/xsapi/live-flatc-async-patterns.md).
+Both of these functions follow the C API calling pattern, which you should familiarize yourself with; see [Making async calls in the XSAPI C API](../../../../api-ref/xsapi/live-flatc-async-patterns.md).
 
 You will need to set up an `XAsyncBlock` which calls the appropriate result function, `XalTryAddDefaultUserSilentlyResult()` or `XalAddUserWithUiResult()`, in its return function before calling the sign-in function.
 You will also need to have set up an `XTaskQueueHandle` to handle the asynchronous work, or pass null if you do not wish to control the threading model.
@@ -84,11 +85,11 @@ You will also need to have set up an `XTaskQueueHandle` to handle the asynchrono
 
 ### Sign-in silent example
 
-[!INCLUDE [XalTryAddDefaultUserSilentlyAsync](../../code/snippets/XalTryAddDefaultUserSilentlyAsync.md)]
+[!INCLUDE [XalTryAddDefaultUserSilentlyAsync](../../../../code/snippets/XalTryAddDefaultUserSilentlyAsync.md)]
 
 ### Sign-in with UI example
 
-[!INCLUDE [XalAddUserWithUIAsync](../../code/snippets/XalAddUserWithUiAsync.md)]
+[!INCLUDE [XalAddUserWithUIAsync](../../../../code/snippets/XalAddUserWithUiAsync.md)]
 
 
 ### Resolving issues with sign-in
@@ -143,7 +144,7 @@ Before using the sign-out function make sure that you verify its presence with `
 
 #### Sign-out example
 
-[!INCLUDE [XalSignOutUserAsync](../../code/snippets/XalSignOutUserAsync.md)]
+[!INCLUDE [XalSignOutUserAsync](../../../../code/snippets/XalSignOutUserAsync.md)]
 
 > [!IMPORTANT]
 > Calling sign out will remove users from the device and removes them as a default user for sign-in. This means that a user that is signed out will no longer be eligible for silent sign-in.
@@ -151,5 +152,5 @@ Before using the sign-out function make sure that you verify its presence with `
 
 ## See also
 
-* [XAL sign-in for iOS](../../get-started/setup-ide/managed-partners/xcode-ios/other/ios-get-started-with-xsapi.md)
-* [XAL sign-in for android](../../get-started/setup-ide/managed-partners/as-android/other/android-get-started-with-xsapi.md)
+* [Getting started with Xbox Live SDK for iOS](../../../../get-started/setup-ide/managed-partners/xcode-ios/other/ios-get-started-with-xsapi.md)
+* [Getting started with the Xbox Live APIs on Android](../../../../get-started/setup-ide/managed-partners/as-android/other/android-get-started-with-xsapi.md)

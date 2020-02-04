@@ -33,6 +33,6 @@ XAL works on both Single User Application (SUA) and Multi User Application (MUA)
 ## Working with XAL
 
 Read the following articles to learn how to work with XAL in the general case and for any of its supported platforms.
-* [XAL Sign-In](xal-sign-in.md)
-* [Get Started with XAL on iOS](../../get-started/setup-ide/managed-partners/xcode-ios/other/ios-get-started-with-xsapi.md)
-* [Get Started with XAL on Android](../../get-started/setup-ide/managed-partners/as-android/other/android-get-started-with-xsapi.md)
+* [Signing-in using XAL](live-xal-sign-in.md)
+* [Getting started with the Xbox Live SDK for iOS](../../../../get-started/setup-ide/managed-partners/xcode-ios/other/ios-get-started-with-xsapi.md)
+* [Getting started with the Xbox Live APIs on Android](../../../../get-started/setup-ide/managed-partners/as-android/other/android-get-started-with-xsapi.md)

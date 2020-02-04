@@ -1,15 +1,16 @@
 ---
-title: Get started with the Xbox Live APIs on Android
-author: KevinAsgari
+title: Getting started with the Xbox Live APIs on Android
 description: Adding and compiling the Xbox Live APIs source in an Android project.
+kindex: Getting started with the Xbox Live APIs on Android
+kindex: Android, Xbox Live
+ms.topic: conceptual
+author: KevinAsgari
 ms.author: kevinasg
-ms.date: 09/21/2018
-ms.topic: article
-keywords: xbox live, xbox, games, android
 ms.localizationpriority: medium
+ms.date: 09/21/2018
 ---
 
-# Get started with Xbox Live APIs on Android
+# Getting started with Xbox Live APIs on Android
 
 To use the Xbox Live APIs with an Android game, you can use the pre-compiled binaries, or include the Xbox Live API source in your project and build it.
 
@@ -86,7 +87,7 @@ You must use Visual Studio 2017 or later in order to build the Xbox Live APIs. Y
 ## Remarks about using the Xbox Live APIs on Android
 
 
-### Sign-in and authorization
+## Sign-in and authorization
 
 Android games that use the Xbox Live APIs use the Xbox Authentication Library (XAL) in order to associate players with their Xbox Live identity.
 

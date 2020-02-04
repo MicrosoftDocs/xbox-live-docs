@@ -18,4 +18,5 @@ ms.date: 12/06/2018
 
 | Article | Description |
 |---------|-------------|
-| [__](__) | __ |
+| [Registering for player Stat change notifications](live-register-for-stat-notifications.md) | Using the Real-Time Activity service to register for player stat change notifications. |
+| [Best Practices for the RTA service](live-rta-best-practices.md) | Best practices for using the Real Time Activity (RTA) service. |

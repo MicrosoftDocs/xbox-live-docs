@@ -156,7 +156,7 @@
                       href: features/identity/auth/auth-mobile-xal/live-xal-sign-in.md
                     - name: Using Xbox Live tokens for custom web service authentication
                       href: features/identity/auth/auth-mobile-xal/live-xal-partner-token.md
-                - name: Authentication for UWP projects
+                - name: UWP Authentication and user identity
                   href: features/identity/auth/auth-uwp/live-auth-uwp-nav.md
                   items:
                     - name: Authentication for UWP projects
@@ -640,7 +640,7 @@
           items: 
             - name: What's new for Xbox Live
               href: features/whats-new/live-whats-new.md
-            - name: What's New for older releases
+            - name: What's New for older releases of Xbox Live
               href: features/whats-new/archived/live-whats-new-archived-nav.md
               items: 
                 - name: What's new for the Xbox Live SDK - December 2016

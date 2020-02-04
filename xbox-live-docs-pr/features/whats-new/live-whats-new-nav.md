@@ -1,11 +1,11 @@
 ---
 title: What's New
-description: What's New.
+description: New features and functionality in each release of Xbox Live.
+layout: LandingPage
+ms.topic: navigation
 kindex: What's New
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: navigation
-layout: LandingPage
 ms.prod: gaming
 ms.technology: xboxlive
 ms.localizationpriority: medium
@@ -22,4 +22,4 @@ edited: 00/00/0000
 | Article | Description |
 |---------|-------------|
 | [What's new for Xbox Live](live-whats-new.md) | New features and functionality in each release of Xbox Live. |
-| [What's New for older releases](archived/live-whats-new-archived-nav.md) | What's New for releases prior to 2017. |
+| [What's New for older releases of Xbox Live](archived/live-whats-new-archived-nav.md) | What's New for releases of Xbox Live prior to 2017. |
