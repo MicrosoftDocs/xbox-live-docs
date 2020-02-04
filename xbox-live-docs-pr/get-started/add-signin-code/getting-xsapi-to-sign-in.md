@@ -22,7 +22,7 @@ Before adding code to your game to do basic sign-in into the Xbox Live services,
 
 2. Add the Xbox Live SDK to an IDE that targets Android or iOS.
 
-See [Getting Started](../get-started_nav.md).
+See [Getting Started](../live-getstarted-nav.md).
 
 Do the following steps in the order shown.
 For example, you must initialize XAL before initializing XSAPI.
@@ -211,4 +211,4 @@ Your game now enables the user to do basic sign-in to Xbox Live.
 ## Next step
 
 Now that your game enables the user to do basic sign-in to Xbox Live on the device, you are ready to implement any of the Xbox Live features, which are provided through the Xbox Services API (XSAPI).
-See [Features](../../features/features-nav.md).
+See [Features](../../features/live-features-nav.md).

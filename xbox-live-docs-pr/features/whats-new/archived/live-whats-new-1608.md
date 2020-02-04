@@ -7,26 +7,32 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
+
 # What's new for the Xbox Live SDK - August 2016
 
-Please see the [What's New - June 2016](1606-whats-new.md) article for what was added in the June 2016 release.
 
 ## OS and tool support
+
 The Xbox Live SDK supports Windows 10 RTM [Version 10.0.10240] and Visual Studio 2015 RTM [Version 14.0.23107.0].
+
 
 ## Documentation
 
-- If you are writing a UWP application, and are implementing the ability to invite users to a game, there are instructions on the `.appxmanifest` changes necessary in [Multiplayer invites for UWP games](../features/multiplayer/invites/concepts/live-multiplayer-invite-uwp.md). This was previously discussed on the [forums](https://forums.xboxlive.com) and in [Porting Xbox Live code from XDK to UWP](../test-release/services-tools/live-port-xbl-code-from-xdk-to-uwp.md).
+- If you are writing a UWP application, and are implementing the ability to invite users to a game, there are instructions on the `.appxmanifest` changes necessary in [Multiplayer invites for UWP games](../../../features/multiplayer/invites/concepts/live-multiplayer-invite-uwp.md). This was previously discussed on the [forums](https://forums.xboxlive.com) and in [Porting Xbox Live code from XDK to UWP](../../../test-release/services-tools/live-port-xbl-code-from-xdk-to-uwp.md).
 
-- The [Social Manager overview](../features/social/social-manager/live-social-manager-overview.md) article has been updated to reflect recent API changes, and provide more information about return codes for some of the functions.
+- The [Social Manager overview](../../../features/social/social-manager/live-social-manager-overview.md) article has been updated to reflect recent API changes, and provide more information about return codes for some of the functions.
+
 
 ## Unity Samples
+
 Some new samples have been added for Unity developers writing a UWP application.
 - There is now a Unity version of the Social sample, you can find this under the Samples/Social/Unity directory.
 - There is also a sample describing how to use Connected Storage.  Please see Samples/GameSave/Unity for the sample.
 There is a Unity version of AchievementsLeaderboard under Samples/AchievementsLeaderboard/Unity
 
+
 ## Social Manager
+
 In addition to the documentation updates mentioned above, there are some new APIs that have been added.  These are described below, and you can see more detail in social_manager.h
 
 - Added new API that allows updating of social groups without recreation:
@@ -42,6 +48,7 @@ In addition to the documentation updates mentioned above, there are some new API
 
 
 ## Multiplayer
+
 Improved session browsing is now available and you can use new Multiplayer  APIs to utilize it.
 
 Using the new APIs, you can filter on tags, strings, and other rich data to allow users to more easily find a session that they want to play.
@@ -69,6 +76,7 @@ _XSAPIIMP pplx::task<xbox_live_result<std::vector<multiplayer_search_handle_deta
 ```cpp
 _XSAPIIMP pplx::task<xbox_live_result<void>> clear_search_handle(_In_ const string_t& handleId);
 ```
+
 
 ### Xbox Integrated Multiplayer
 

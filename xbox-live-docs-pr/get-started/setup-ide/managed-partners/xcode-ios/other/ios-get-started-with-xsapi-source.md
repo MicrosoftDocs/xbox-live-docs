@@ -69,7 +69,7 @@ iOS games that use the Xbox Live APIs use the Xbox Authentication Library (XAL) 
 After signing a player in with XAL, your game should then create an `xbox_live_context` and pass the XAL user handle as a parameter.
 After that, the `xbox_live_context` should look and function the same as it does on any other platform.
 
-For more information about signing in a player by using XAL in an iOS game, see [Xbox Live Authentication Layer (Xal) with iOS](../../../../../using-xbox-live/auth/iOS-xal.md).
+For more information about signing in a player by using XAL in an iOS game, see [Setting up Xcode targeting iOS](../xcode-ios-mp.md).
 
 
 ### xboxservices.config

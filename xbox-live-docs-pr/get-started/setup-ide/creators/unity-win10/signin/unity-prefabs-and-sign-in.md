@@ -255,4 +255,4 @@ If you enabled **script debugging** when you built the UWP solution from Unity, 
 
 ## Troubleshooting
 
-If you're having issues signing-in to Xbox Live, see [Troubleshooting Xbox Live sign-in](../../../../../using-xbox-live/troubleshooting/troubleshooting-sign-in.md).
+If you're having issues signing-in to Xbox Live, see [Troubleshooting Xbox Live sign-in](../../../../../features/identity/auth/live-troubleshooting-sign-in.md).

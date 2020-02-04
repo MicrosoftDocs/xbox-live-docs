@@ -1,5 +1,5 @@
 ---
-title: Get started with Xbox Live, for Managed Partners
+title: Getting started with Xbox Live, for Managed Partners
 description: All the high-level steps for Xbox Live-enabling your game, from joining the Managed Partners Program, through releasing your game.
 ms.assetid: 69ab75d1-c0e7-4bad-bf8f-5df5cfce13d5
 ms.date: 06/07/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, partner
 ms.localizationpriority: medium
 ---
 
-# Get started with Xbox Live, for Managed Partners
+# Getting started with Xbox Live, for Managed Partners
 
 This section covers getting started with Xbox Live development, for Managed Partners.
 

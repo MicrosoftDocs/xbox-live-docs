@@ -19,5 +19,5 @@ ms.localizationpriority: medium
 | [Get started with Xbox Live, for Creators](get-started-with-xbox-live-creators.md) | All the high-level steps, from joining the Creators Program, through releasing your game. |
 | [Create a game and publish it for testing, for Creators](create-and-test-a-new-creators-title.md) | Creating a new Creators game in Partner Center, and publishing it to the test environment. |
 | [Authorize test accounts, for Creators](authorize-xbox-live-accounts.md) | Authorizing a public Xbox Live account for testing in your development environment. |
-| [Get started with Xbox Live, for Managed Partners](get-started-with-xbox-live-partner.md) | All the high-level steps for Xbox Live-enabling your game, from joining the ID@Xbox Program, through releasing your game. |
+| [Getting started with Xbox Live, for Managed Partners](get-started-with-xbox-live-partner.md) | All the high-level steps for Xbox Live-enabling your game, from joining the ID@Xbox Program, through releasing your game. |
 | [Create a game and publish it for testing, for Managed Partners](create-a-new-title.md) | Creating a new Managed Partners game in Partner Center, and publishing it to the test environment. |

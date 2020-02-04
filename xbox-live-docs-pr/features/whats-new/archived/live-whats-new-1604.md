@@ -4,34 +4,42 @@ description: What's new for the Xbox Live SDK - April 2016
 ms.assetid: a6f26ffd-f136-4753-b0cd-92b0da522d93
 ms.date: 04/04/2017
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
+
 # What's new for the Xbox Live SDK - April 2016
 
-Please see the [What's New - March 2016](1603-whats-new.md) article for what was added in 1603
 
 ## OS and tool support
+
 The Xbox Live SDK supports Windows 10 RTM [Version 10.0.10240] and Visual Studio 2015 RTM [Version 14.0.23107.0].
 
+
 ## Tournaments
+
 - The Xbox Live Tournaments Tool is now included with the SDK.  You can see it in the Tools directory, along with some information on how to use it.
-- The APIs for Tournaments are also available.  See the Xbox::Services::Tournaments namespace
+- The APIs for Tournaments are also available.  See the `Xbox::Services::Tournaments` namespace.
 - Documentation is also available in the Programming Guide.
 
+
 ## Documentation
-- [Sign-in Troubleshooting Guide](../using-xbox-live/troubleshooting/troubleshooting-sign-in.md) lists some general strategies to debug sign-in failures, as well as steps to follow based on error code.
+
+- [Troubleshooting Xbox Live sign-in](../../../features/identity/auth/live-troubleshooting-sign-in.md) lists some general strategies to debug sign-in failures, as well as steps to follow based on error code.
 - The [Marketplace](https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/xbox-marketplace/marketplace-and-downloadable-content) docs for Xbox One developers only can now be found in the Programming Guide.  UWP developers should continue to consult Partner Center for documentation on the store.
-- See [Porting Xbox Live code from XDK to UWP](../test-release/services-tools/live-port-xbl-code-from-xdk-to-uwp.md) if you are interested in bringing an Xbox One title to the Universal Windows Platform.
-- See [Fine-Grained Rate Limiting](../test-release/services-tools/best-practices/live-fine-grained-rate-limiting.md) for a description of how these are enforced for various Xbox Live Service endpoints and scenarios, as well as information about what the limits are.
+- See [Porting Xbox Live code from XDK to UWP](../../../test-release/services-tools/live-port-xbl-code-from-xdk-to-uwp.md) if you are interested in bringing an Xbox One title to the Universal Windows Platform.
+- See [Fine-Grained Rate Limiting](../../../test-release/services-tools/best-practices/live-fine-grained-rate-limiting.md) for a description of how these are enforced for various Xbox Live Service endpoints and scenarios, as well as information about what the limits are.
+
 
 ## Multiplayer Manager
-[Multiplayer Manager (MPM)](../features/multiplayer/mpm/live-multiplayer-manager-nav.md) is no longer in Experimental status.  We have incorporated feedback from developers using this API and made some of the APIs more consistent with each other.  Please use the Multiplayer Manager as a starting point when doing your multiplayer development, as it provides a simpler API that manages many of the complexities of the Multiplayer 2015 API for you.
 
-In the below sections, we have listed some of the new features to the API, as well as a small number of breaking changes.
+[Multiplayer Manager (MPM)](../../../features/multiplayer/mpm/live-multiplayer-manager-nav.md) is no longer in Experimental status.  We have incorporated feedback from developers using this API and made some of the APIs more consistent with each other.  Please use the Multiplayer Manager as a starting point when doing your multiplayer development, as it provides a simpler API that manages many of the complexities of the Multiplayer 2015 API for you.
+
+Below are some of the new features of the API, as well as a small number of breaking changes.
+
 
 #### Completed events
-All APIs now have a corresponding``` _competed``` event and all events are fired regardless of success or failure. The previous behavior was that it only triggered upon failure, for the title to take action on. And since calls are batched, it means that upon completion, the title will get multiple ```_competed``` events.
+
+All APIs now have a corresponding ```_completed``` event and all events are fired regardless of success or failure. The previous behavior was that it only triggered upon failure, for the title to take action on. And since calls are batched, it means that upon completion, the title will get multiple ```_completed``` events.
 
 | API | Returned Event |
 |-----|----------------|
@@ -43,9 +51,11 @@ All APIs now have a corresponding``` _competed``` event and all events are fired
 
 The same applies for ```game_session()```.
 
+
 #### Application defined context
-You can now pass in an optional application-defined context for each set_* methods to correlate the multiplayer event to the initiating call.
-For example
+
+You can now pass-in an optional, application-defined context for each `set_*` method, to correlate the multiplayer event to the initiating call.
+For example:
 
 ```cpp
 _XSAPIIMP xbox_live_result<void> set_properties(
@@ -55,7 +65,8 @@ _XSAPIIMP xbox_live_result<void> set_properties(
        );
 ```
 
-The context would then be returned back to the title through the ```_completed``` event.
+The context is returned back to the title through the ```_completed``` event.
+
 
 #### Breaking Changes
 

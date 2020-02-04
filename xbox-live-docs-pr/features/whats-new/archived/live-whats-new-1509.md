@@ -10,12 +10,8 @@ ms.localizationpriority: medium
 
 # What's new for the Xbox Live SDK - September 2015
 
-Please see the [What's New - August 2015](1508-whats-new.md) article for what was added in the August 2015 release.
 
-The September release of the Xbox Live SDK includes the following updates:
-
-
-## OS and tool support ##
+## OS and tool support
 
 The Xbox Live SDK supports Windows 10 RTM [Version 10.0.10240] and Visual Studio 2015 RTM [Version 14.0.23107.0].
 

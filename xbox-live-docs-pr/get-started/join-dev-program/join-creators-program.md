@@ -52,4 +52,4 @@ To join the Xbox Live Creators Program:
 
 ## Next steps
 
-Next, set up a game at Partner Center; see [Getting Started](../get-started_nav.md).
+Next, set up a game at Partner Center; see [Getting Started](../live-getstarted-nav.md).

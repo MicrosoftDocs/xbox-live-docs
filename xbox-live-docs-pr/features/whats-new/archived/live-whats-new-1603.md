@@ -7,12 +7,15 @@ ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
+
 # What's new for the Xbox Live SDK - March 2016
 
-Please see the [What's New - February 2016](1602-whats-new.md) article for what was added in 1602
 
 ## OS and tool support
+
 The Xbox Live SDK supports Windows 10 RTM [Version 10.0.10240] and Visual Studio 2015 RTM [Version 14.0.23107.0].
 
+
 ## Tournaments
+
 Tournament APIs are now available, please see the xbox::services::experimental::tournaments namespace in the API reference for more information

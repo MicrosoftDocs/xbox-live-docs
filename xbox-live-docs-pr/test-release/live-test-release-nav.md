@@ -21,7 +21,7 @@ Differentiate sentences for the two Policies cards
   You can publish a game to a private sandbox for testing, or to the public on the Xbox Managed Partners Store.
 </p>
 <p>
-  To publish a game for testing or public release, first complete the <a href="../get-started/get-started_nav.md">Getting Started</a> steps so that your game can do basic sign-in to Xbox Live.
+  To publish a game for testing or public release, first complete the <a href="../get-started/live-getstarted-nav.md">Getting Started</a> steps so that your game can do basic sign-in to Xbox Live.
 </p>
 
 <ul class="cardsF panelContent cols cols2">

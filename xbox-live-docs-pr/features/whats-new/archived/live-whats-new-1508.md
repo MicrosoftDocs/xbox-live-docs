@@ -10,10 +10,6 @@ ms.localizationpriority: medium
 
 # What's new for the Xbox Live SDK - August 2015
 
-Please see the [What's New - June 2015](1506-whats-new.md) article for what was added in the June 2015 release.
-
-The August release of the Xbox Live SDK includes the following updates:
-
 
 ## OS and tool support
 

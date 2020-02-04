@@ -21,4 +21,4 @@ ms.localizationpriority: medium
 
 ### Next steps
 
-Add basic sign-in code; see [Getting Started](../get-started_nav.md).
+Add basic sign-in code; see [Getting Started](../live-getstarted-nav.md).

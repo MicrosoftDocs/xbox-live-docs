@@ -10,8 +10,6 @@ ms.localizationpriority: medium
 
 # What's new for the Xbox Live SDK - October 2015
 
-Please see the [What's New - September 2015](1509-whats-new.md) article for what was added in the September 2015 release.
-
 
 ## OS and tool support
 
@@ -30,7 +28,7 @@ The Xbox Live SDK supports Windows 10 RTM [Version 10.0.10240] and Visual Studio
 
 ## Tools
 
-* The Xbox Live Trace Analyzer is now included in the Xbox Live SDK.  Collect traces as described in the [Trace Analyzer for reviewing service calls](../test-release/services-tools/live-trace-analyzer.md), and then run the Live Trace Analyzer to ensure your title is using Xbox Live in an optimal way by viewing statistics about repeated calls, call frequency, and more.
+* The Xbox Live Trace Analyzer is now included in the Xbox Live SDK.  Collect traces as described in the [Trace Analyzer for reviewing service calls](../../../test-release/services-tools/live-trace-analyzer.md), and then run the Live Trace Analyzer to ensure your title is using Xbox Live in an optimal way by viewing statistics about repeated calls, call frequency, and more.
 
 
 ## Bug Fixes

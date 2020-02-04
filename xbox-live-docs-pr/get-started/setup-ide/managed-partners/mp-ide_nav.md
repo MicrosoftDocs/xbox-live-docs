@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 
 # Setting up an IDE, for Managed Partners
 
-Prerequisite: Set up a game at Partner Center; see [Getting Started](../../get-started_nav.md).
+Prerequisite: Set up a game at Partner Center; see [Getting Started](../../live-getstarted-nav.md).
 
 <ul class="cardsF panelContent cols cols2">
     <li>
@@ -151,4 +151,4 @@ Prerequisite: Set up a game at Partner Center; see [Getting Started](../../get-s
 
 ### Next steps
 
-Add basic sign-in code; see [Getting Started](../../get-started_nav.md).
+Add basic sign-in code; see [Getting Started](../../live-getstarted-nav.md).

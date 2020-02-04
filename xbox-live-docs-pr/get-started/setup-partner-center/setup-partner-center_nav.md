@@ -21,4 +21,4 @@ ms.localizationpriority: medium
 
 ### See also
 
-[Getting Started](../get-started_nav.md)
+[Getting Started](../live-getstarted-nav.md)

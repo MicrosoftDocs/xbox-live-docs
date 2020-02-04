@@ -31,7 +31,7 @@ To access the Xbox Live configuration pages, after selecting your title in [Part
 
 | Article | Description |
 |---------|-------------|
-| [Configuring Privileges in Partner Center](../../configure-xbl/dev-center/privileges.md) | Configuring privileges on Partner Center. |
+| [Configuring Privileges in Partner Center](../../features/identity/privileges/config/live-privileges-config.md) | Configuring privileges on Partner Center. |
 
 
 ### Event-based Data

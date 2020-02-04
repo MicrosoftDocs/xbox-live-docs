@@ -16,7 +16,7 @@ Then you'll be able to call other Xbox Services API (XSAPI) functions.
 
 ## Prerequisite steps
 
-* Set up a game in Partner Center; see [Getting Started](../../../get-started_nav.md).
+* Set up a game in Partner Center; see [Getting Started](../../../live-getstarted-nav.md).
 
 * Ensure you have a iOS project created in Xcode, set up to handle Objective-C.
   If your project is written in pure Swift, you will need to set up Objective-C interoperability.
@@ -211,4 +211,4 @@ Objective-C++ files enable you to mix Objective-C and C++ code:
 
 ## Next step
 
-Add basic sign-in code; see [Getting Started](../../../get-started_nav.md).
+Add basic sign-in code; see [Getting Started](../../../live-getstarted-nav.md).

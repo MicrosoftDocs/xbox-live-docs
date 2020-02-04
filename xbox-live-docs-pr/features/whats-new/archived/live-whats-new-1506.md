@@ -10,8 +10,6 @@ ms.localizationpriority: medium
 
 # What's new for the Xbox Live SDK - June 2015
 
-The June release of the Xbox Live SDK includes the following updates:
-
 
 ## OS and tool support ##
 

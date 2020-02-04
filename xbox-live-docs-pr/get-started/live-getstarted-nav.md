@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="live-xbox-live-overview.md">
+        <a href="live-xbl-overview.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -120,7 +120,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="../features/features-nav.md">
+        <a href="../features/live-features-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
