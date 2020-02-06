@@ -1,5 +1,5 @@
 ---
-title: Create an app and publish it for testing, for Managed Partners
+title: Creating an app and publishing it for testing, for Managed Partners
 description: Creating a new Managed Partners app in Partner Center, and publishing it to the test environment.
 ms.assetid: b8bd69e6-887a-4b1f-a42d-8affdbec0234
 ms.date: 04/04/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# Create an app and publish it for testing, for Managed Partners
+# Creating an app and publishing it for testing, for Managed Partners
 
 
 ## Introduction
@@ -83,4 +83,4 @@ You can find the Xbox App by going into the *Start Menu* and typing in "Xbox" as
 
 Now that you have a new title created, you can set up an Xbox Live enabled title in your Game Engine, Visual Studio or build environment of choice.
 
-See [Get started with Xbox Live, as a Managed Partner](get-started-with-xbox-live-partner.md).
+See [Getting started with Xbox Live, for Managed Partners](live-get-started-xbl-partner.md).

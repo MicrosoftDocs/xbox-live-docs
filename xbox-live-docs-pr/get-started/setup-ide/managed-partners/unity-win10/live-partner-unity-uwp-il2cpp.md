@@ -141,7 +141,7 @@ Add the xboxservices.config file:
 
 ![xboxservices.config file type screenshot](live-partner-unity-uwp-il2cpp-images/unity-il2cpp-4.png)
 
-Follow the steps in [Adding Xbox Live to a new or existing UWP project](../vs-win10/get-started-with-visual-studio-and-uwp.md).
+Follow the steps in [Getting started using Visual Studio for UWP games](../vstudio-win10/live-get-started-vstudio-uwp.md).
 
 > [!NOTE]
 > All values inside `xboxservices.config` are case-sensitive.

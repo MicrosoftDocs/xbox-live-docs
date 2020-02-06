@@ -24,7 +24,7 @@ To use the Xbox Live API from your project, you can either add references to the
 Adding NuGet packages makes compiling faster; adding the source makes debugging easier.
 
 This article will walk through using NuGet packages.
-If you instead want to use source, see [Compiling the Xbox Live APIs Source In Your UWP Project](add-xbox-live-apis-source-to-a-uwp-project.md).
+If you instead want to use source, see [Add and compile XSAPI source code into a UWP project](live-add-xbl-source-uwp.md).
 
 The Xbox Services API comes in flavors for both UWP and XDK, and for C++ and WinRT and have their namespace structured as **Microsoft.Xbox.Live.SDK.*.UWP** and **Microsoft.Xbox.Live.SDK.*.XboxOneXDK**.
 

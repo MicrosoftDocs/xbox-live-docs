@@ -20,8 +20,8 @@ If you installed the Xbox Live Plugin after that time, or have not yet downloade
 
 In addition, the screenshots in this plugin do not match those of the most recent release.
 For more up-to-date screenshots, see the two newer articles:
-* [Easy sign-in with the PlayerAuthentication prefab (2018)](playerauthentication-prefab-sign-in.md)
-* [Scripting Sign-In with the SignInManager in Unity (2018)](sign-in-manager.md)
+* [Easy sign-in with the PlayerAuthentication prefab](live-authentication-prefab-sign-in.md) (2018)
+* [Scripting Sign-In with the SignInManager in Unity](live-sign-in-manager.md) (2018)
 
 
 ## Before you begin
@@ -30,9 +30,9 @@ Before you start adding Xbox Live social services to your Unity game, there are 
 
 1. First, make sure that you have downloaded and integrated the [Xbox Live Unity plugin](https://github.com/Microsoft/xbox-live-unity-plugin).
 
-2. Second, you'll want to have your title reserved and published through the [Microsoft Development Center](https://developer.microsoft.com/games/uwp). Read [Create a new Xbox Live Creators Program title](../../../../setup-partner-center/legacy/create-and-test-a-new-creators-title.md) for instructions on publishing your title.
+2. Second, you'll want to have your title reserved and published through the [Microsoft Development Center](https://developer.microsoft.com/games/uwp). For instructions on publishing your title, see [Creating an app and publishing it for testing, for Creators](../../../../setup-partner-center/legacy/live-create-and-test-creators-title.md).
 
-3. Finally, read [Configure Xbox Live in Unity](../configure-xbox-live-in-unity.md) to set up your Unity environment properly and configure your title to use Xbox Live services.
+3. Finally, set up your Unity environment properly and configure your title to use Xbox Live services; see [Configuring Xbox Live in Unity](../live-configure-xbl-in-unity.md).
 
 Once your Unity project is set up properly, it's time to learn about the tools you can use in your Xbox Live enabled title, as well as the two main ways you can implement Xbox Live in Unity: prefabs and scripts.
 
@@ -41,12 +41,12 @@ Once your Unity project is set up properly, it's time to learn about the tools y
 
 Unity has a prefab asset type that allows you to store a GameObject complete with components and properties.
 The prefab acts as a template from which you can create new object instances in your Unity scene.
-To learn more about prefabs, at the Unity website, see [Prefabs - Concept & Usage](https://unity3d.com/learn/tutorials/topics/interface-essentials/prefabs-concept-usage).
+To learn more about prefabs, see <a href="https://unity3d.com/learn/tutorials/topics/interface-essentials/prefabs-concept-usage" target="_blank">Prefabs - Concept & Usage &#11008;</a> at the Unity website.
 
 The Xbox Live Unity plugin provides a few prefabs that you can use in your project, to utilize Xbox Live features.
 The prefabs that are described in this article enable you to do the following:
 *  The **UserProfile** prefab enables sign-in.
-*  The **XboxLiveUser** prefab is for [adding multi-user support](../add-multi-user-support.md) to your title.
+*  The **XboxLiveUser** prefab is for adding multi-user support to your title; see [Adding multi-user support to a Unity game](../live-add-multi-user-support.md).
 *  Display the friends list of a signed-in Xbox Live profile.
 
 You can find these and other prefabs under the **Project** tab by following the path: **Assets > Xbox Live > Prefabs**.
@@ -81,7 +81,7 @@ The use of the **XboxLiveUser** prefab is not immediately evident, because it do
 The **XboxLiveUser** has no visual representation; it simply contains the details that pertain to the Xbox Live user.
 
 You will need an instance of the **XboxLiveUser** for every instance of the **UserProfile**.
-This is important when [adding multi-user support](../add-multi-user-support.md) to your title.
+This is important when adding multi-user support to your title (per [Adding multi-user support to a Unity game](../live-add-multi-user-support.md)).
 
 In addition to holding information about the user, after sign-in, the **XboxLiveUser** prefab is also a wrapper for the code used to sign-in an Xbox Live user.
 
@@ -110,7 +110,7 @@ This can be added by right-clicking on the sign-in scene, then clicking through 
 If you enter play mode, the service will sign in a user automatically.
 In Unity, the Xbox Live SDK simulates calls to the Xbox Live service and sends back fake data for you to work with.
 
-In order to view live data, you will need to build the project as a UWP application and run it from Visual Studio; see [Configure Xbox Live in Unity](../configure-xbox-live-in-unity.md).
+In order to view live data, you will need to build the project as a UWP application and run it from Visual Studio; see [Configuring Xbox Live in Unity](../live-configure-xbl-in-unity.md).
 
 When you enter play mode in Unity, the prefab will be populated with the fake data, which will simulate information such as the Gamertag, Gamerpic and Gamerscore of a player.
 This is the information that should be displayed by the **UserProfile** prefab.
@@ -250,7 +250,7 @@ Once the build has finished, Unity will have generated a new UWP solution file, 
 If you enabled **script debugging** when you built the UWP solution from Unity, your scripts will be located under the **Assembly-CSharp (Universal Windows)** project.
 
 > [!NOTE]
-> Before using your Visual Studio build to test your game with real data, follow the checklist in [Testing a Unity game build in Visual Studio](../test-visual-studio-build.md), to help ensure that your title will be able to access the Xbox Live service.
+> Before using your Visual Studio build to test your game with real data, follow the checklist in [Testing a Unity game build in Visual Studio](../live-test-vstudio-build.md), to help ensure that your title will be able to access the Xbox Live service.
 
 
 ## Troubleshooting

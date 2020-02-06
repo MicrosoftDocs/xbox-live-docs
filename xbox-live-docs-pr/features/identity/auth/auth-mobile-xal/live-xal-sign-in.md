@@ -152,5 +152,5 @@ Before using the sign-out function make sure that you verify its presence with `
 
 ## See also
 
-* [Getting started with Xbox Live SDK for iOS](../../../../get-started/setup-ide/managed-partners/xcode-ios/other/ios-get-started-with-xsapi.md)
-* [Getting started with the Xbox Live APIs on Android](../../../../get-started/setup-ide/managed-partners/as-android/other/android-get-started-with-xsapi.md)
+* [Getting started with Xbox Live SDK for iOS](../../../../get-started/setup-ide/managed-partners/xcode-ios/other/live-ios-get-started-xsapi.md)  
+* [Getting started with the Xbox Live APIs on Android](../../../../get-started/setup-ide/managed-partners/astudio-android/other/live-android-get-started-xsapi.md)

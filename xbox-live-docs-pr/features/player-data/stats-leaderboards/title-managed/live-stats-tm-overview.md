@@ -33,7 +33,7 @@ Title-managed Stats accepts values sent to it with little to no validation, so i
 Stats are configured on the [Partner Center dashboard](https://partner.microsoft.com/dashboard/windows/overview).
 In order to configure stats, you must already have a title configured.
 
-If you do not have a title configured, you can learn how to do so by reading [Create and test a new Creator's title](../../../../get-started/setup-partner-center/legacy/create-and-test-a-new-creators-title.md).
+If you do not have a title configured, you can learn how to do so by reading [Create an app and publish it for testing, for Creators](../../../../get-started/setup-partner-center/legacy/live-create-and-test-creators-title.md).
 The Stats you configure in Partner Center will appear in your title's GameHub as pictured:
 
 The *Featured Stats* are highlighted in yellow in the image below.

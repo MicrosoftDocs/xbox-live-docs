@@ -16,8 +16,7 @@ Managed Partners can access the full range of Xbox Live features, including achi
 
 Managed Partners can develop Xbox Live titles for both the Universal Windows Platform (UWP) or the Xbox Developer Kit (XDK) platform.
 
-In addition to the content available here, there is also additional documentation that is available to partners with an authorized Partner Center account.
-You can access that content here: [Xbox Live partner content](https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/partner-content).
+In addition to the content available here, there is also additional documentation that is available to partners with an authorized Partner Center account: <a href="https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/partner-content" target="_blank">Xbox Live partner content &#11008;</a>.
 
 
 ## Why should you use Xbox Live?
@@ -37,21 +36,21 @@ Decide between making an Xbox Development Kit (XDK), Universal Windows Platform 
 
 - XDK based games only run on the Xbox One console.
 - UWP games can target any Windows platform such as Windows PC, Windows Phone, or Xbox One.
-  - For Xbox One, see [UWP on Xbox One](https://msdn.microsoft.com/windows/uwp/xbox-apps/index) and specifically [System resources for UWP apps and games on Xbox One](https://msdn.microsoft.com/windows/uwp/xbox-apps/system-resource-allocation)
+  - For Xbox One, see <a href="https://docs.microsoft.com/windows/uwp/xbox-apps/" target="_blank">UWP on Xbox One &#11008;</a> and specifically <a href="https://docs.microsoft.com/windows/uwp/xbox-apps/system-resource-allocation" target="_blank">System resources for UWP apps and games on Xbox One &#11008;</a>.
 - Cross-play games are typically games that target Xbox One and Windows PC using both the XDK and UWP paths.
 
 
 ## 2. Ensure that you have a title created in Partner Center
 
 Every Xbox Live title must be defined in Partner Center before you will be able to sign-in and make Xbox Live Service calls.
-See [Setting up a game at Partner Center, for Managed Partners](../setup-partner-center-id-partners.md).
+See [Setting up a game at Partner Center, for Managed Partners](../live-setup-partner-center-partners.md).
 
 
 ## 3. Follow the appropriate guide to setup your IDE or game engine
 
 You can follow the appropriate Getting Started guide for your platform and engine and learn the basics of Xbox Live as you go along.
 
-* [Setting up an IDE](../../setup-ide/setup-ide_nav.md)
+* [Setting up an IDE](../../setup-ide/live-setup-ide-nav.md)
 * [Configuring cross-play for Xbox and Windows 10 in Partner Center](../../../test-release/portal-config/live-config-cross-play-xbox-win10.md) shows how to make a product that is an XDK-based game for Xbox One and a UWP-based game for Windows 10 PC.
 
 

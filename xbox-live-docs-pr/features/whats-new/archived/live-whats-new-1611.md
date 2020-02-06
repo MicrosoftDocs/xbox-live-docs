@@ -60,7 +60,7 @@ ms.localizationpriority: medium
 ## Documentation
 
 * There is new documentation on [Multiplayer Manager (MPM)](../../../features/multiplayer/mpm/live-multiplayer-manager-nav.md), [Xbox Integrated Multiplayer (XIM)](../../../features/multiplayer/xim/live-xim-nav.md), and [Multiplayer concepts overview](../../../features/multiplayer/concepts/live-multiplayer-concepts.md) for Xbox Live.
-* The [Getting started with Xbox Live, for Managed Partners](../../../get-started/setup-partner-center/legacy/get-started-with-xbox-live-partner.md) sections have been rewritten.  If you are creating a new Xbox Live enabled title, or are curious about incorporating other Xbox Live functionality into your game, see that article.
+* The [Getting started with Xbox Live, for Managed Partners](../../../get-started/setup-partner-center/legacy/live-get-started-xbl-partner.md) sections have been rewritten.  If you are creating a new Xbox Live enabled title, or are curious about incorporating other Xbox Live functionality into your game, see that article.
 
 
 ## Tools

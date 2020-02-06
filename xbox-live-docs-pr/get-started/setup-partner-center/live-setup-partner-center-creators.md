@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 
 ## Prerequisites
 
-* [Joining the Creators Program](../join-dev-program/join-creators-program.md).
+* [Joining the Creators Program](../join-dev-program/live-join-creators-program.md).
 
 
 <!--===========================================================-->

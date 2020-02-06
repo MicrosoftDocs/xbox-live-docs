@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 
 The Xbox Development Kit (XDK) is not publicly available.
 Managed Partners have access to the XDK and associated development resources such as documentation and middleware tools.
-See [Joining a developer program](../../../join-dev-program/join-dev-program_nav.md).
+See [Joining a developer program](../../../join-dev-program/live-join-dev-program-nav.md).
 
 The XDK can be downloaded from the [software downloads page](https://developer.microsoft.com/games/xbox/partner/resources-softwaredownloads) on the developer.microsoft.com site.
 
@@ -47,5 +47,5 @@ Like the XDK, these resources are not public and are only available to Managed P
 
 After downloading and installing the XDK, you can integrate Xbox Live into your project.
 See one of these articles:
-- [Compiling the Xbox Live APIs source shipped with the XDK](compile-the-xdk-xbox-live-api-source.md)
-- [Using Xbox Live APIs built into the XDK](using-xbox-live-apis-built-into-the-xdk.md)
+- [Compile the XDK Xbox Live API source](live-compile-xdk-xbl-api-source.md)
+- [Using Xbox Live APIs built into the XDK](live-using-xbl-apis-built-into-xdk.md)

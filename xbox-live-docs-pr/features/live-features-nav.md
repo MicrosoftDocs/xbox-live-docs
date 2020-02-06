@@ -195,4 +195,4 @@ ms.localizationpriority: medium
 
 ### See also
 
-[Features supported for each developer program](../get-started/join-dev-program/feature-comparison-table.md)
+[Features supported for each developer program](../get-started/join-dev-program/live-feature-comparison-table.md)

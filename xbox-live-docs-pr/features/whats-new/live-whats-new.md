@@ -21,7 +21,7 @@ For 2015 and 2016 releases, see [What's New for older releases of Xbox Live](arc
 ### Xbox Live Features
 
 SDK is now available as precompiled binaries (libs), and integrated with a package manager for Android.
-See [Get started with Xbox Live APIs on Android](../../get-started/setup-ide/managed-partners/as-android/other/android-get-started-with-xsapi.md).
+See [Getting started with the Xbox Live APIs on Android](../../get-started/setup-ide/managed-partners/astudio-android/other/live-android-get-started-xsapi.md).
 
 
 ### Fixes
@@ -191,7 +191,7 @@ Using the binaries that come with the XDK or as NuGet packages is still recommen
 
 The Xbox Live Creators Program is a developer program offering a subset of Xbox Live functionality to a broader developer audience.  If you are already in the Managed Partners Program, this will not have any impact on you.
 
-See [Choosing an Xbox Live developer program](../../get-started/join-dev-program/developer-program-overview.md).
+See [Choosing an Xbox Live developer program](../../get-started/join-dev-program/live-dev-program-overview.md).
 
 
 ### Documentation
@@ -201,6 +201,6 @@ There are the following revised or new articles.
 | Article | Description |
 |---------|-------------|
 | [Xbox Live service configuration IDs, for Managed Partners](../../test-release/portal-config/live-service-config-ids-mp.md) | Updated information on doing service configuration for your Xbox Live Title. |
-| [Configuring Xbox Live in Unity](../../get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md) | New information on Unity setup for Xbox Live Creators Program developers. |
+| [Configuring Xbox Live in Unity](../../get-started/setup-ide/creators/unity-win10/live-configure-xbl-in-unity.md) | New information on Unity setup for Xbox Live Creators Program developers. |
 | [Xbox Live Sandboxes overview](../../test-release/sandboxes/live-setup-sandbox.md) | A simplified guide to Xbox Live sandboxes and content isolation. |
 | [Xbox Live test accounts](../../test-release/test-accounts/live-test-accounts.md) | Information about how test accounts work, and how to create them on Partner Center. |

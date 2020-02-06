@@ -37,7 +37,7 @@ Join the *ID@Xbox Program* if at least one of the following are true:
 
 * You must agree to abide by the regulations around Xbox Live.
 
-See [Features supported for each developer program](feature-comparison-table.md).
+See [Features supported for each developer program](live-feature-comparison-table.md).
 
 
 ## The Xbox Live Creators Program
@@ -78,7 +78,7 @@ For a full list of supported services, see the Feature Table below.
 Xbox Live Creators Program titles are UWP games which can be built with a number of popular game engines.
 Microsoft provides documentation for integrating Xbox Live services into UWP games built with the <a href="https://unity.com" target="_blank">Unity game engine &#11008;</a>.
  
-For details on Xbox Live integration with Unity games, see [Unity targeting Windows 10](../setup-ide/creators/unity-win10/cr-unity-win10_nav.md).
+For details on Xbox Live integration with Unity games, see [Unity targeting Windows 10](../setup-ide/creators/unity-win10/live-cr-unity-win10-nav.md).
 
 Download and learn about the Microsoft-built <a href="https://github.com/Microsoft/xbox-live-unity-plugin" target="_blank">Xbox Live Unity plugin &#11008;</a>.
 
@@ -123,4 +123,4 @@ Documentation for Managed Partners applies to ID@Xbox Partners.
 
 ## Feature comparison table
 
-See [Features supported for each developer program](feature-comparison-table.md).
+See [Features supported for each developer program](live-feature-comparison-table.md).

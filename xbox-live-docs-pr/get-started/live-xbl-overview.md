@@ -29,9 +29,9 @@ Here are some reasons to add Xbox Live to your game:
 
 With the Xbox Live Creators Program, anyone with a [Partner Center](https://partner.microsoft.com/dashboard) account can build an Xbox Live enabled Universal Windows Platform (UWP) game that can run on both Windows 10 PCs and Xbox One consoles.
 
-For game developers that want to take advantage of the full Xbox Live experience, including multiplayer, achievements, and native Xbox console development, there are additional developer programs which are detailed in the [Developer Program Overview](join-dev-program/developer-program-overview.md).
+For game developers that want to take advantage of the full Xbox Live experience, including multiplayer, achievements, and native Xbox console development, see [Choosing an Xbox Live developer program](join-dev-program/live-dev-program-overview.md).
 
-For consumer Xbox Live information, see [Xbox Live](https://www.xbox.com/live/).
+For consumer Xbox Live information, see <a href="https://www.xbox.com/live/" target="_blank">Xbox Live &#11008;</a>.
 
 
 ## How Xbox Live works
@@ -50,9 +50,9 @@ There are also guides for getting setup with game engines.
 
 | Article | Description |
 |---------|-------------|
-| [Developer Program Overview](join-dev-program/developer-program-overview.md) | The various developer programs that enable Xbox Live development. |
-| [Get started with Xbox Live Creators Program](setup-partner-center/legacy/get-started-with-xbox-live-creators.md) | How to get started with Xbox Live in the Xbox Live Creators Program. |
-| [Get started with Xbox Live as a Managed Partner](setup-partner-center/legacy/get-started-with-xbox-live-partner.md) | How to get started with Xbox Live as a developer in the Managed Partners Program. |
+| [Choosing an Xbox Live developer program](join-dev-program/live-dev-program-overview.md) | The various developer programs that enable Xbox Live development. |
+| [Getting started with Xbox Live, for Creators](setup-partner-center/legacy/live-get-started-creators.md) | How to get started with Xbox Live in the Xbox Live Creators Program. |
+| [Getting started with Xbox Live, for Managed Partners](setup-partner-center/legacy/live-get-started-xbl-partner.md) | How to get started with Xbox Live as a developer in the Managed Partners Program. |
 
 
 ## Using Xbox Live

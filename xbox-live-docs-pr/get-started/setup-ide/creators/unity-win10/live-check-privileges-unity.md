@@ -27,8 +27,8 @@ In order to determine user privilege settings, you must have configured your gam
 
 The following articles outline the steps that you can take:
 
-* [Sign in to Xbox Live in Unity (build and test sign-in)](signin/unity-prefabs-and-sign-in.md#build-and-test-sign-in)
-* [Test your Unity game build in Visual Studio](test-visual-studio-build.md)
+* The section [Build and test sign-in](signin/live-unity-prefabs-sign-in.md#build-and-test-sign-in) in the article "Sign-in in Unity through prefabs or scripting (pre-1804 release)"
+* [Testing a Unity game build in Visual Studio](live-test-vstudio-build.md)
 
 
 ## Determine privileges

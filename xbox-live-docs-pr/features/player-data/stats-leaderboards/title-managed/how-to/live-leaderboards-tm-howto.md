@@ -45,7 +45,7 @@ In between rounds and after matches are both good times.
 
 There are numerous options for displaying leaderboards provided in the Xbox Live SDK.
 If you are using Unity with the Xbox Live Creators Program, you can get started by using a Leaderboard Prefab to display your leaderboard data.
-For specifics, see [Configure Xbox Live in Unity](../../../../../get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md).
+For specifics, see [Configuring Xbox Live in Unity](../../../../../get-started/setup-ide/creators/unity-win10/live-configure-xbl-in-unity.md).
 
 If you are coding against the Xbox Live SDK directly, then read on to learn about the APIs you can use.
 

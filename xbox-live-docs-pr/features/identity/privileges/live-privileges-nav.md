@@ -27,4 +27,4 @@ edited: 00/00/0000
 
 ### See also
 
-[Checking user privilege settings in Unity](../../../get-started/setup-ide/creators/unity-win10/check-user-privileges-in-unity.md)
+[Checking user privilege settings in Unity](../../../get-started/setup-ide/creators/unity-win10/live-check-privileges-unity.md)

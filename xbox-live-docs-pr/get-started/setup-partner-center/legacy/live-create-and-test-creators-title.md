@@ -1,5 +1,5 @@
 ---
-title: Create an app and publish it for testing, for Creators
+title: Creating an app and publishing it for testing, for Creators
 description: Creating a new Creators app in Partner Center, and publishing it to the test environment.
 ms.assetid: ced4d708-e8c0-4b69-aad0-e953bfdacbbf
 ms.date: 04/04/2017
@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, creators, test
 ms.localizationpriority: medium
 ---
 
-# Create an app and publish it for testing, for Creators
+# Creating an app and publishing it for testing, for Creators
 
 
 ## Introduction
@@ -108,4 +108,4 @@ If you’re already in your Partner Center account, you can go to **Account Sett
 ## Next steps
 
 After you have a new title created, you can set up an Xbox Live-enabled title in your game engine, Visual Studio, or build environment of choice.
-See [Get started with the Xbox Live Creators Program](get-started-with-xbox-live-creators.md).
+See [Getting started with Xbox Live, for Creators](live-get-started-creators.md).

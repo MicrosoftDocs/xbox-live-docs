@@ -17,7 +17,7 @@ To add Xbox Live functionality to your game, start by setting up a game in Partn
 
 * Have a prototype of your game, such as a demo and screen captures.
 
-* [Joining the ID@Xbox Program](../join-dev-program/join-id-program.md).
+* [Joining the ID@Xbox Program](../join-dev-program/live-join-id-program.md).
 
 
 <!--===========================================================-->

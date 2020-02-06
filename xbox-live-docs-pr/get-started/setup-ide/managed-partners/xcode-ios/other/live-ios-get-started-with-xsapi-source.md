@@ -23,11 +23,11 @@ In order to use the Xbox Live APIs with an iOS game, you must link the Xbox Live
     * `External\xal\External\CompactCoreCLL\CompactCoreCLL.xcodeproj`
     * `External\xal\External\libHttpClient\Build\libHttpClient.Apple.C\libHttpClient.xcodeproj`
 
-    ![Image of adding the xcode projects](live-ios-get-started-with-xsapi-source-images/ios-add-xcode-projects.png)
+    ![Adding the xcode projects](live-ios-get-started-with-xsapi-source-images/ios-add-xcode-projects.png)
 
 2. Link to the project binaries by navigating to your project's build phases, then clicking the add button under **Link Binary With Libraries**.
 
-    ![Image of linking to project binaries](live-ios-get-started-with-xsapi-source-images/ios-link-to-project-binaries.png)
+    ![Linking to project binaries](live-ios-get-started-with-xsapi-source-images/ios-link-to-project-binaries.png)
 
 3. Add the following header paths by navigating to your project's build settings, then selecting the **Header Search Paths** field:
 
@@ -36,7 +36,7 @@ In order to use the Xbox Live APIs with an iOS game, you must link the Xbox Live
     * `{xbox live api path}/External/xal/Source/Xal/Include`
     * `{xbox live api path}/External/xal/External/libHttpClient/Include`
 
-    ![Image of adding the header paths to your project](live-ios-get-started-with-xsapi-source-images/ios-add-header-paths.png)
+    ![Adding the header paths to your project](live-ios-get-started-with-xsapi-source-images/ios-add-header-paths.png)
 
 4. Add the following preprocessor macros by navigating to your project's build settings, then selecting the **Preprocessor Macros** field:
 
@@ -45,13 +45,13 @@ In order to use the Xbox Live APIs with an iOS game, you must link the Xbox Live
     * `XSAPI_CPP=1`
     * `XSAPI_XAL_AUTH=1`
 
-    ![Image of adding preprocessor macros](live-ios-get-started-with-xsapi-source-images/ios-add-preprocessor-macros.png)
+    ![Adding preprocessor macros](live-ios-get-started-with-xsapi-source-images/ios-add-preprocessor-macros.png)
 
 5. Navigate to the **Keychain Sharing** section of your project's **Capabilities**, then add the following keychain group to the list:
 
     * `com.microsoft.xal`
 
-    ![Image of adding keychain sharing](live-ios-get-started-with-xsapi-source-images/ios-add-keychain-sharing.png)
+    ![Adding keychain sharing](live-ios-get-started-with-xsapi-source-images/ios-add-keychain-sharing.png)
 
 
 ## Samples
@@ -69,13 +69,14 @@ iOS games that use the Xbox Live APIs use the Xbox Authentication Library (XAL) 
 After signing a player in with XAL, your game should then create an `xbox_live_context` and pass the XAL user handle as a parameter.
 After that, the `xbox_live_context` should look and function the same as it does on any other platform.
 
-For more information about signing in a player by using XAL in an iOS game, see [Setting up Xcode targeting iOS](../xcode-ios-mp.md).
+For more information about signing in a player by using XAL in an iOS game, see [Setting up Xcode targeting iOS](../live-xcode-ios-mp.md).
 
 
 ### xboxservices.config
 
-The Xbox Live APIs for iOS rely on [xboxservices.config](../../vs-win10/xboxservices-config.md).
+The Xbox Live APIs for iOS rely on the `XboxServices.config` file; see [The XboxServices.config file for UWP games](../../vstudio-win10/live-xboxservices-config.md).
 On iOS, you can just add the config file to your project.
+
 
 ### Async library
 

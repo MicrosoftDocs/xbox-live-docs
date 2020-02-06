@@ -11,7 +11,7 @@ localizationpriority: medium
 # Configuring Xbox Live in Unity
 
 > [!NOTE]
-> The Xbox Live Unity plugin is only recommended for [Xbox Live Creators Program](../../../join-dev-program/developer-program-overview.md) members, since currently there is no support for achievements or multiplayer.
+> The Xbox Live Unity plugin is only recommended for members of the Xbox Live Creators Program, since currently there is no support for achievements or multiplayer. See [Choosing an Xbox Live developer program](../../../join-dev-program/live-dev-program-overview.md).
 
 With the [Xbox Live Unity Plugin](https://github.com/Microsoft/xbox-live-unity-plugin), adding Xbox Live support to a Unity game is easy, giving you more time to focus on using Xbox Live in ways that best suit your title.
 
@@ -138,7 +138,7 @@ See [Xbox Live Sandboxes overview](../../../../test-release/sandboxes/live-setup
 ## Build and test the project
 
 When running your title in the editor, you will see fake data when you try to use Xbox Live functionality.
-For example, if you [add sign in capabilities](signin/unity-prefabs-and-sign-in.md) to your scene and try to sign in, you will see **Fake User** appear as your profile name, with a placeholder icon.
+For example, if you add sign in capabilities to your scene (per [Sign-in in Unity through prefabs or scripting (pre-1804 release)](signin/live-unity-prefabs-sign-in.md)) and try to sign in, you will see **Fake User** appear as your profile name, with a placeholder icon.
 To sign in with a real profile and test out Xbox Live functionality in your title, you'll need to build a UWP solution and run it in Visual Studio.
 
 You can build the UWP project in Unity, as follows:
@@ -169,7 +169,7 @@ If you enabled **script debugging** when you built the UWP solution from Unity, 
 ![Fake User: 123456789](live-configure-xbl-in-unity-images/visualStudio.PNG)
 
 > [!NOTE]
-> Before using your Visual Studio build to test your game with real data, follow [this checklist](test-visual-studio-build.md) to help ensure your title will be able to access the Xbox Live service.
+> Before using your Visual Studio build to test your game with real data, follow the checklist in [Testing a Unity game build in Visual Studio](live-test-vstudio-build.md) to help ensure your title will be able to access the Xbox Live service.
 
 > [!IMPORTANT]
 > Starting May 2018, to test your UWP title properly in Visual Studio, you must update the `package.appxmanifest.xml` file. To do this:
@@ -192,7 +192,7 @@ If you enabled **script debugging** when you built the UWP solution from Unity, 
 You can now start using Xbox Live in your Unity project.
 Try opening scenes in the **Xbox Live/Examples** folder to see the plugin in action, and for examples of how to use the functionality yourself.
 
-Running the examples in the editor will give you fake data - to sign in with your gamertag, build the project in Visual Studio and [associate your Xbox Live account with the sandbox](../../../setup-partner-center/legacy/authorize-xbox-live-accounts.md).
+Running the examples in the editor will give you fake data - to sign in with your gamertag, build the project in Visual Studio and associate your Xbox Live account with the sandbox; see [Authorize test accounts, for Creators](../../../setup-partner-center/legacy/live-authorize-xbox-live-accounts.md).
 
 * Try the **SignInAndProfile** scene for signing into your Microsoft Account.
 * Try the **Leaderboard** scene for creating a leaderboard.
@@ -201,5 +201,5 @@ Running the examples in the editor will give you fake data - to sign in with you
 
 ## See also
 
-* [Sign in to Xbox Live in Unity](signin/unity-prefabs-and-sign-in.md)
-* [Authorize Xbox Live accounts](../../../setup-partner-center/legacy/authorize-xbox-live-accounts.md)
+* [Sign-in in Unity through prefabs or scripting (pre-1804 release)](signin/live-unity-prefabs-sign-in.md)
+* [Authorizing Xbox Live accounts](../../../setup-partner-center/legacy/live-authorize-xbox-live-accounts.md)

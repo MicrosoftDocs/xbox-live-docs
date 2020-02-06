@@ -92,4 +92,4 @@ You will need to enable multi-user support for your game, as follows:
 > [!NOTE]
 > The piece of configuration changed may look like it is enabling multi-player but it is still necessary to run your game in single player scenarios.
 
-Once you've got the PlayerAuthentication prefab working, you can learn more about scripting sign-in; see [Sign-In with the Sign-In manager in Unity](sign-in-manager.md).
+Once you've got the PlayerAuthentication prefab working, you can learn more about scripting sign-in; see [Scripting Sign-In with the SignInManager in Unity](live-sign-in-manager.md).

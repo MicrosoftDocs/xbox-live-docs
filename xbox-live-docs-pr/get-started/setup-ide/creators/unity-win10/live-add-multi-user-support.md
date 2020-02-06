@@ -1,5 +1,5 @@
 ---
-title: Add multi-user support to a Unity game
+title: Adding multi-user support to a Unity game
 description: Adding multi-user support to your Unity game using the Xbox Live Unity plug-in.
 ms.date: 07/14/2017
 ms.topic: article
@@ -7,10 +7,10 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity, multi user
 ms.localizationpriority: medium
 ---
 
-# Add multi-user support to a Unity game
+# Adding multi-user support to a Unity game
 
 > [!IMPORTANT]
-> The Xbox Live Unity plugin does not support achievements or online multiplayer and is only recommended for [Xbox Live Creators Program](../../../join-dev-program/developer-program-overview.md) members.
+> The Xbox Live Unity plugin does not support achievements or online multiplayer and is only recommended for members of the Xbox Live Creators Program; see [Choosing an Xbox Live developer program](../../../join-dev-program/live-dev-program-overview.md).
 
 Multi-user support is supported by the Xbox Live Unity Plugin for scenarios that involve multiple local players.
 Each player can use their own Xbox Live account for stats and sign-in.
@@ -26,7 +26,7 @@ This tutorial shows how to add multi-user support to the different Xbox Live Pre
 
 ## Prerequisites
 
-You will need to have followed the [Getting Started](configure-xbox-live-in-unity.md) tutorial to enable and configure Xbox Live.
+First do the steps in [Configuring Xbox Live in Unity](live-configure-xbl-in-unity.md).
 
 
 ## Adding and signing in multiple Xbox Live users
@@ -59,7 +59,7 @@ You will need to have followed the [Getting Started](configure-xbox-live-in-unit
    This will assign the `A` button for interacting with **UserProfile** for the two controllers.
 
    > [!Note]
-   > For more details about Xbox Controller Support in the Xbox Live Unity Plugin, please check out: [Add Controller Support to Xbox Live Prefabs](add-controller-support-to-xbox-live-prefabs.md)
+   > For more details about Xbox Controller Support in the Xbox Live Unity Plugin, please check out: [Add Controller Support to Xbox Live Prefabs](live-add-controller-support-xbl-prefabs.md)
 
 5. Run the scene in the editor and hit run on each of the buttons to make sure everything is configured correctly.
 
@@ -68,7 +68,7 @@ You will need to have followed the [Getting Started](configure-xbox-live-in-unit
 
 ## Building and Testing the UWP
 
-1. After following the steps outlined at the [Develop Creators Titles with Unity](configure-xbox-live-in-unity.md) tutorial, open the exported UWP solution in Visual Studio.
+1. After following the steps in [Configuring Xbox Live in Unity](live-configure-xbl-in-unity.md), open the exported UWP solution in Visual Studio.
 
 2. Under the UWP project of your game, right-click the `package.appxmanifest.xml` file, and then click **View Code**.
 

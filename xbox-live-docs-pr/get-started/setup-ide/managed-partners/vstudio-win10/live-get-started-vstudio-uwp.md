@@ -24,8 +24,8 @@ ms.date: 11/28/2017
 
 ## Create a new product in Partner Center
 
-Every Xbox Live title must have a product created in [Partner Center](https://partner.microsoft.com/dashboard) before you will be able to sign-in and make Xbox Live Service calls.
-See [Create a title on UDC](../../../setup-partner-center/legacy/create-a-new-title.md).
+Every Xbox Live title must have a product created in <a href="https://partner.microsoft.com/dashboard" target="_blank">Partner Center &#11008;</a> before you will be able to sign-in and make Xbox Live Service calls.
+See [Creating an app and publishing it for testing, for Managed Partners](../../../setup-partner-center/legacy/live-create-new-title-partner.md).
 
 
 ## Configuring your development device
@@ -90,7 +90,7 @@ To use the Xbox Live API from your project, you can either add references to the
 Adding NuGet packages makes compilation quicker while adding the source makes debugging easier.
 
 This article will walk through using NuGet packages.
-If you instead want to add the API source, see [Compiling the Xbox Live APIs Source In Your UWP Project](add-xbox-live-apis-source-to-a-uwp-project.md).
+If you instead want to add the API source, see [Add and compile XSAPI source code into a UWP project](live-add-xbl-source-uwp.md).
 
 To add the Xbox Live SDK NuGet package:
 1. In Visual Studio go to **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution...**.

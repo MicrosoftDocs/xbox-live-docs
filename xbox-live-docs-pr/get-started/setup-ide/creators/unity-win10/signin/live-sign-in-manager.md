@@ -173,10 +173,8 @@ The above code removes the sign-in and sign-out callback functions for the playe
 
 ## Testing your code in Visual Studio
 
-In addition to the [steps required to build your game in Visual Studio](../configure-xbox-live-in-unity.md#build-and-test-the-project), listed in the [Configure your Xbox Live Title for Unity](../configure-xbox-live-in-unity.md) article, there is an additional step required to test your game properly in Visual Studio.
-You will need to update a property of the `package.appxmanifest.xml` file.
-
-To do this:
+First, build your game in Visual Studio; see the section [Build and test the project](../live-configure-xbl-in-unity.md#build-and-test-the-project) in the article "Configure your Xbox Live Title for Unity".
+Then update a property of the `package.appxmanifest.xml` file, as follows:
 
 1. Search the Solution Explorer for the `package.appxmanifest.xml` file.
 

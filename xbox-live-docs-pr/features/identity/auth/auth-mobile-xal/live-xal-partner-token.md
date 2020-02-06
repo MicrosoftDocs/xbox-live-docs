@@ -120,5 +120,5 @@ Once `XalUserResolveIssueWithUiAsync()` completes, you must retry your call to `
 
 To learn how to work with XAL in the general case and for any of its supported platforms, see the following articles:
 * [Signing-in using XAL](live-xal-sign-in.md)  
-* [Getting started with Xbox Live SDK for iOS](../../../../get-started/setup-ide/managed-partners/xcode-ios/other/ios-get-started-with-xsapi.md)  
-* [Getting started with the Xbox Live APIs on Android](../../../../get-started/setup-ide/managed-partners/as-android/other/android-get-started-with-xsapi.md)
+* [Getting started with Xbox Live SDK for iOS](../../../../get-started/setup-ide/managed-partners/xcode-ios/other/live-ios-get-started-xsapi.md)  
+* [Getting started with the Xbox Live APIs on Android](../../../../get-started/setup-ide/managed-partners/astudio-android/other/live-android-get-started-xsapi.md)

@@ -8,7 +8,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity
 
 # Testing a Unity game build in Visual Studio
 
-To test the Xbox Live functionality of your Unity game with real data, you must build the game as described in the **Build and test the project** section of the [Configure Xbox Live in Unity article](configure-xbox-live-in-unity.md).
+To test the Xbox Live functionality of your Unity game with real data, you must build the game as described in the section [Build and test the project](live-configure-xbl-in-unity.md#build-and-test-the-project) in the article "Configuring Xbox Live in Unity".
 
 The following articles serve as a checklist of items to help ensure successful testing of your Unity game in Visual Studio.
 
@@ -17,16 +17,16 @@ The following articles serve as a checklist of items to help ensure successful t
     If you enabled Xbox Live through the Xbox Live Association Wizard, you will want to familiarize yourself with [Partner Center](https://partner.microsoft.com/dashboard).
     Partner Center allows you to configure the Xbox Live settings for your title and must be set up properly in order for your title to communicate with Xbox Live.
 
-    The article [Create a new Xbox Live Creators Program title and publish to the test environment](../../../setup-partner-center/legacy/create-and-test-a-new-creators-title.md) takes you through the Partner Center setup process.
+    The article [Creating an app and publishing it for testing, for Creators](../../../setup-partner-center/legacy/live-create-and-test-creators-title.md) takes you through the Partner Center setup process.
     
-    If you have already set up your game through the **Xbox Configuration Wizard** in Unity, you can skip to the section [Test Xbox Live service configuration in your game](../../../setup-partner-center/legacy/create-and-test-a-new-creators-title.md#test-xbox-live-service-configuration-in-your-game).
+    If you have already set up your game through the **Xbox Configuration Wizard** in Unity, you can skip to the section [Test Xbox Live service configuration in your game](../../../setup-partner-center/legacy/live-create-and-test-creators-title.md#test-xbox-live-service-configuration-in-your-game) in the article "Creating an app and publishing it for testing, for Creators".
     While in Partner Center, make sure to check to see that the information in your Xbox Live configuration for your Unity game matches the Partner Center configuration for your game.
     
 2. **Ensure that your title has an authorized Microsoft Account(with gamertag) that can sign-in to your title.**
 
     Without an authorized account, you will not be able to complete sign-in in while testing your title, nor will you be able to use other Xbox Live features.
 
-    To make sure you have an authorized Microsoft Account and gamertag, read [Authorize Xbox Live Accounts for Testing in your environment](../../../setup-partner-center/legacy/authorize-xbox-live-accounts.md).
+    To make sure you have an authorized Microsoft Account and gamertag, read [Authorizing test accounts, for Creators](../../../setup-partner-center/legacy/live-authorize-xbox-live-accounts.md).
 
 3. **Ensure that your title has been published for testing.**
 

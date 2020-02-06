@@ -27,15 +27,15 @@
             - name: Legacy articles about Partner Center setup
               href: get-started/setup-partner-center/legacy/live-legacy-nav.md
               items:
-                - name: Get started with Xbox Live, for Creators
+                - name: Getting started with Xbox Live, for Creators
                   href: get-started/setup-partner-center/legacy/live-get-started-creators.md
-                - name: Create an app and publish it for testing, for Creators
+                - name: Creating an app and publishing it for testing, for Creators
                   href: get-started/setup-partner-center/legacy/live-create-and-test-creators-title.md
-                - name: Authorize test accounts, for Creators
+                - name: Authorizing test accounts, for Creators
                   href: get-started/setup-partner-center/legacy/live-authorize-xbox-live-accounts.md
                 - name: Getting started with Xbox Live, for Managed Partners
                   href: get-started/setup-partner-center/legacy/live-get-started-xbl-partner.md
-                - name: Create an app and publish it for testing, for Managed Partners
+                - name: Creating an app and publishing it for testing, for Managed Partners
                   href: get-started/setup-partner-center/legacy/live-create-new-title-partner.md
         - name: Setting up an IDE
           href: get-started/setup-ide/live-setup-ide-nav.md
@@ -64,9 +64,9 @@
                           href: get-started/setup-ide/creators/unity-win10/signin/live-unity-prefabs-sign-in.md
                     - name: Testing a Unity game build in Visual Studio
                       href: get-started/setup-ide/creators/unity-win10/live-test-vstudio-build.md
-                    - name: Add controller support to Xbox Live prefabs
+                    - name: Adding controller support to Xbox Live prefabs
                       href: get-started/setup-ide/creators/unity-win10/live-add-controller-support-xbl-prefabs.md
-                    - name: Add multi-user support to a Unity game
+                    - name: Adding multi-user support to a Unity game
                       href: get-started/setup-ide/creators/unity-win10/live-add-multi-user-support.md
                     - name: Checking user privilege settings in Unity
                       href: get-started/setup-ide/creators/unity-win10/live-check-privileges-unity.md

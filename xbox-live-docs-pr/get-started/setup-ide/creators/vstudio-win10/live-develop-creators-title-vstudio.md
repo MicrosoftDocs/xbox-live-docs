@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 This article is for the Creators program.
 
 > [!NOTE]
-> There is a plugin available for games that are being developed with Unity. See [Unity targeting Windows 10](../unity-win10/cr-unity-win10_nav.md).
+> There is a plugin available for games that are being developed with Unity. See [Unity targeting Windows 10](../unity-win10/live-cr-unity-win10-nav.md).
 
 
 ## Requirements
@@ -30,7 +30,7 @@ This article is for the Creators program.
 ## Create a new product in Partner Center
 
 Every Xbox Live title must have a product created in [Partner Center](https://partner.microsoft.com/dashboard) before you will be able to sign-in and make Xbox Live Service calls.
-See [Creating a new Creators title](../../../setup-partner-center/legacy/create-and-test-a-new-creators-title.md).
+See [Creating an app and publishing it for testing, for Creators](../../../setup-partner-center/legacy/live-create-and-test-creators-title.md).
 
 
 ## Configuring your development device
@@ -55,7 +55,7 @@ See [Using Xbox Live sandboxes, for Creators](../../../../test-release/sandboxes
 To sign-in to your development sandbox, you must provision a regular Microsoft Account (MSA) for access to your sandbox.
 This provides improved security for your titles in development, as well as some other benefits.
 
-To learn more about test accounts and how to create one, see [Authorize Xbox Live Accounts for Testing in your environment](../../../setup-partner-center/legacy/authorize-xbox-live-accounts.md).
+To learn more about test accounts and how to create one, see [Authorizing test accounts, for Creators](../../../setup-partner-center/legacy/live-authorize-xbox-live-accounts.md).
 
 
 ## Visual Studio Project Setup
@@ -91,7 +91,7 @@ C++ is the recommended API to use for C++ game engines.
 To use the Xbox Live API from your project, you can either add references to the binaries by using NuGet packages or adding the API source.
 Adding NuGet packages makes compilation quicker while adding the source makes debugging easier.
 This article will walk through using NuGet packages.
-If you want to use source, then please see [Compiling the Xbox Live APIs Source In Your UWP Project](../../managed-partners/vs-win10/add-xbox-live-apis-source-to-a-uwp-project.md).
+If you want to use source, see [Add and compile XSAPI source code into a UWP project](../../managed-partners/vstudio-win10/live-add-xbl-source-uwp.md).
 
 You can add the Xbox Live SDK NuGet package by:
 

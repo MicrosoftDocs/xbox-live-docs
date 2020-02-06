@@ -35,7 +35,7 @@ See the section [Get your IDs](../../../../test-release/portal-config/live-servi
 
 ## Configure your development console
 
-Once you have your IDs, set up your development console; see [Configuring an Xbox development console](configure-your-development-console.md).
+Once you have your IDs, set up your development console; see [Configuring an Xbox development console](live-configure-dev-console.md).
 
 
 ## Add the TitleID and SCID to your binary
