@@ -37,10 +37,10 @@ For consumer Xbox Live information, see [Xbox Live](https://www.xbox.com/live/).
 ## How Xbox Live works
 
 Xbox Live is a collection of micro-services that expose Xbox Live features such as profile, friends and presence, stats, leaderboards, achievements, multiplayer, and matchmaking.
-
 Xbox Live data is stored in the cloud, and can be accessed by using REST endpoints and secure websockets that are accessible from a set of client-side APIs designed for game developers.
 
-In addition to the REST APIs, there are client side APIs that wrap the REST functionality. See [Introduction to Xbox Live APIs](../api-ref/xsapi/live-introduction-to-xbox-live-apis.md).
+In addition to the REST APIs, there are client-side APIs that wrap the REST functionality.
+See [Introduction to Xbox Live APIs](../api-ref/xsapi/live-introduction-to-xbox-live-apis.md).
 
 
 ## Join the Creators or ID program
@@ -67,6 +67,18 @@ Once you have a title created and the fundamentals working, this section provide
 | [Troubleshooting Xbox Live Services APIs](../test-release/troubleshooting/live-troubleshooting-apis.md) | Common issues you may encounter and suggestions on how to fix them.
 
 
+## Player Data
+
+Xbox Live Player Data drives the usage of player stats, achievements, and leaderboards.
+Read this series of articles to learn more about how to use these in your title.
+
+| Article | Description |
+|---------|-------------|
+| [Player Data](../features/player-data/live-playerdata-nav.md) | A brief overview of the Player Data system, as well as guidance on how to best incorporate stats, leaderboards, and achievements into your title.
+| [Stats & Leaderboards](../features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md) | Stats are the foundation of leaderboards.  Leaderboards bring out your users' competitive sides by intelligently incorporating leaderboards.
+| [Achievements](../features/player-data/achievements/live-achievements-nav.md) | Achievements are one of the most well known features in Xbox Live, and a great driver of player engagement. Learn how to use them in your title.
+
+
 ## Social features
 
 Xbox Live social features can organically grow your audience, spreading awareness to over 55 million active users.
@@ -77,16 +89,19 @@ This section describes how to get started with the Xbox Live social features.
 | [Social](../features/social/live-social-nav.md) | If you can sign-in a user, then you can start using Xbox Live's Social features, such as Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation. |
 
 
-## Player Data
+## Multiplayer features
 
-Xbox Live Player Data drives the usage of player stats, achievements, and leaderboards.
-Read this series of articles to learn more about how to use these in your title.
+Multiplayer is a great way to extend the lifetime of your title and keep gameplay experiences fresh.
+Xbox Live provides extensive multiplayer and matchmaking features.
+You also have several options of API that provide varying levels of simplicity vs flexibility.
 
 | Article | Description |
 |---------|-------------|
-| [Xbox Live Player Data](../features/player-data/live-playerdata-nav.md) | A brief overview of the Player Data system, as well as guidance on how to best incorporate stats, leaderboards, and achievements into your title.
-| [Achievements](../features/player-data/achievements/live-achievements-nav.md) | Achievements are one of the most well known features in Xbox Live, and a great driver of player engagement. Learn how to use them in your title.
-| [Stats & Leaderboards](../features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md) | Stats are the foundation of leaderboards.  Leaderboards bring out your users' competitive sides by intelligently incorporating leaderboards.
+| [Multiplayer overview](../features/multiplayer/live-multiplayer-intro.md) | If you are new to Xbox Live multiplayer development, or are unfamiliar with new APIs such as Multiplayer Manager and Xbox Integrated Multiplayer (XIM), start here. |
+| [Common multiplayer scenarios](../features/multiplayer/concepts/live-common-multiplayer-scenarios.md) | Suggestions and guidance on how you might incorporate multiplayer into your title. |
+| [Xbox Integrated Multiplayer (XIM)](../features/multiplayer/xim/live-xim-nav.md) | Xbox Integrated Multiplayer (XIM) is an easy self-contained interface for adding multiplayer, real-time networking, and chat to your title. |
+| [Multiplayer Manager (MPM)](../features/multiplayer/mpm/live-multiplayer-manager-nav.md) | Multiplayer Manager provides a high-level API focused on common multiplayer scenarios, including adding multiplayer functionality by managing sessions, matchmaking, and game invites. Provides a state- and event-based programming model. |
+
 
 
 ## Cloud Storage
@@ -99,20 +114,6 @@ These are two different but complementary services:
 
 | Article | Description |
 |---------|-------------|
-| [Xbox Live Cloud Storage](../features/cloud-storage/live-cloud-storage-nav.md) | Use the Xbox Live storage services for storing game saves, instant replays, user preferences, and other data in the cloud. |
-| [Connected Storage](../features/cloud-storage/connected-storage/live-connected-storage-technical-overview.md) | An overview and programming guide on Connected Storage. |
-| [Title Storage](../features/cloud-storage/title-storage/live-title-storage-overview.md) | An overview and programming guide on Title Storage. |
-
-
-## Multiplayer features
-
-Multiplayer is a great way to extend the lifetime of your title and keep gameplay experiences fresh.
-Xbox Live provides extensive multiplayer and matchmaking features.
-You also have several options of API that provide varying levels of simplicity vs flexibility.
-
-| Article | Description |
-|---------|-------------|
-| [Multiplayer overview](../features/multiplayer/live-multiplayer-intro.md) | If you are new to Xbox Live multiplayer development, or are unfamiliar with new APIs such as Multiplayer Manager and Xbox Integrated Multiplayer (XIM), then start here. |
-| [Common multiplayer scenarios](../features/multiplayer/concepts/live-common-multiplayer-scenarios.md) | Suggestions and guidance on how you might incorporate multiplayer into your title. |
-| [Xbox Integrated Multiplayer (XIM)](../features/multiplayer/xim/live-xim-nav.md) | Xbox Integrated Multiplayer (XIM) is an easy self-contained interface for adding multiplayer, real-time networking, and chat to your title. |
-| [Multiplayer Manager (MPM)](../features/multiplayer/mpm/live-multiplayer-manager-nav.md) | High-level API for adding multiplayer functionality by managing sessions, matchmaking, and game invites. Provides a state- and event-based programming model. |
+| [Connected Storage vs. Title Storage](../features/cloud-storage/live-connected-storage-vs-title-storage.md) | Xbox Live Cloud Storage includes Connected Storage to store game state, and Title Storage to store player statistics and assets. |
+| [Connected Storage](../features/cloud-storage/connected-storage/live-connected-storage-nav.md) | Connected Storage saves and loads gameplay data and other state data across devices. Title data is stored locally and also synced to the cloud. |
+| [Title Storage](../features/cloud-storage/title-storage/live-title-storage-nav.md) | Title Storage is cloud storage for large amounts of per-user or per-game data, such as player statistics and assets. |

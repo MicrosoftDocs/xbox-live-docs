@@ -2,10 +2,10 @@
 title: Title Storage
 description: Title Storage is cloud storage for large amounts of per-user or per-game data, such as player statistics and assets.
 layout: LandingPage
+ms.topic: article
 author: mikehoffms
 ms.author: v-mihof
 ms.date: 12/06/2018
-ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, title storage
 ms.localizationpriority: medium
 ---

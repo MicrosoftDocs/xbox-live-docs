@@ -38,7 +38,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="join-dev-program/join-dev-program_nav.md">
+        <a href="join-dev-program/live-join-dev-program-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -57,7 +57,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="setup-partner-center/setup-partner-center_nav.md">
+        <a href="setup-partner-center/live-setup-partner-center-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -76,7 +76,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="setup-ide/setup-ide_nav.md">
+        <a href="setup-ide/live-setup-ide-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -95,7 +95,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="add-signin-code/add-signin-code_nav.md">
+        <a href="add-signin-code/live-add-signin-code-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
