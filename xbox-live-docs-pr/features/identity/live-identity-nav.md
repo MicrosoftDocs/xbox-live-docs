@@ -58,11 +58,11 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_threat-protection.svg" alt="User Privileges" />
+                                <img src="https://docs.microsoft.com/media/common/i_threat-protection.svg" alt="Privileges" />
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>User Privileges</h3>
+                            <h3>Privileges</h3>
                             <p>Privileges control which features of Xbox Live a user can access at a given point in time.</p>
                         </div>
                     </div>

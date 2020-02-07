@@ -153,7 +153,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="tcui/tcui_nav.md">
+        <a href="tcui/live-tcui-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

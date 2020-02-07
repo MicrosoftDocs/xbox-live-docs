@@ -1,7 +1,7 @@
 ---
-title: User Privileges
+title: Privileges
 description: Privileges control which features of Xbox Live a user can access at a given point in time.
-kindex: User Privileges
+kindex: Privileges
 kindex: privileges
 layout: LandingPage
 author: mikehoffms
@@ -15,7 +15,7 @@ ms.date: 02/08/2019
 edited: 00/00/0000
 ---
 
-# User Privileges
+# Privileges
 
 
 ### In this section

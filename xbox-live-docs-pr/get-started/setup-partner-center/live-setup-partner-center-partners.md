@@ -270,6 +270,8 @@ When you add basic sign-in code to your game, you will insert these IDs.
 
 The app's MSA App ID is known as the _Client ID_, inside XAL.
 
+See also [Xbox Live service configuration IDs, for Managed Partners](../../test-release/portal-config/live-service-config-ids-mp.md).
+
 
 <!--===========================================================-->
 ## Update Microsoft Account (MSA) configuration for your mobile game
