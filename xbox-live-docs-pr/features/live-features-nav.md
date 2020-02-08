@@ -20,11 +20,11 @@ ms.localizationpriority: medium
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_account-management.svg" alt="Identity features"/>
+                                <img src="https://docs.microsoft.com/media/common/i_account-management.svg" alt="Identity"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Identity features</h3>
+                            <h3>Identity</h3>
                             <p>User profile, authentication and sign-in, privileges, and privacy settings.</p>
                         </div>
                     </div>

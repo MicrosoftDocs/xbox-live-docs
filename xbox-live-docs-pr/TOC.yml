@@ -141,7 +141,7 @@
     - name: Features
       href: features/live-features-nav.md
       items:
-        - name: Identity features
+        - name: Identity
           href: features/identity/live-identity-nav.md
           items: 
             - name: Authentication and sign-in
@@ -491,7 +491,7 @@
                       href: features/multiplayer/invites/how-to/live-invites-send.md
                     - name: Receiving invites
                       href: features/multiplayer/invites/how-to/live-invites-receive.md
-            - name: SmartMatch matchmaking
+            - name: SmartMatch Matchmaking
               href: features/multiplayer/matchmaking/live-matchmaking-nav.md
               items: 
                 - name: Matchmaking overview

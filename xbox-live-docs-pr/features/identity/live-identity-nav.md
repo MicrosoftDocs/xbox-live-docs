@@ -1,6 +1,6 @@
 ---
 layout: LandingPage
-title: Identity features
+title: Identity
 author: mikehoffms
 description: User profile, authentication and sign-in, privileges, and privacy settings.
 ms.author: v-mihof
@@ -10,7 +10,7 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h1>Identity features</h1>
+<h1>Identity</h1>
 
 <ul class="cardsF panelContent cols cols2">
     <li>
