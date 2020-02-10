@@ -635,6 +635,25 @@
                   href: features/custom-services/web-services/live-web-services.md
             - name: Relying parties
               href: features/custom-services/relying-parties/live-relying-parties-nav.md
+        - name: Title-callable UI (TCUI)
+          href: features/tcui/live-tcui-nav.md
+        - name: Real-Time Activity (RTA) service
+          href: features/rta/live-rta-nav.md
+          items: 
+            - name: Overview of Real-Time Activity service
+              href: features/rta/live-real-time-activity-service-overview.md
+            - name: Real-Time Activity (RTA) service concepts
+              href: features/rta/concepts/live-rta-concepts-nav.md
+              items: 
+                - name: Registering for player Stat change notifications
+                  href: features/rta/concepts/live-register-for-stat-notifications.md
+                - name: Best Practices for the RTA service
+                  href: features/rta/concepts/live-rta-best-practices.md
+            - name: Real-Time Activity (RTA) service how-to's
+              href: features/rta/how-to/live-rta-howto-nav.md
+              items: 
+                - name: Programming the RTA service
+                  href: features/rta/how-to/live-programming-rta.md
         - name: What's New
           href: features/whats-new/live-whats-new-nav.md
           items: 
@@ -665,25 +684,6 @@
                   href: features/whats-new/archived/live-whats-new-1508.md
                 - name: What's new for the Xbox Live SDK - June 2015
                   href: features/whats-new/archived/live-whats-new-1506.md
-        - name: Title-callable UI (TCUI)
-          href: features/tcui/live-tcui-nav.md
-        - name: Real-Time Activity (RTA) service
-          href: features/rta/live-rta-nav.md
-          items: 
-            - name: Overview of Real-Time Activity service
-              href: features/rta/live-real-time-activity-service-overview.md
-            - name: Real-Time Activity (RTA) service concepts
-              href: features/rta/concepts/live-rta-concepts-nav.md
-              items: 
-                - name: Registering for player Stat change notifications
-                  href: features/rta/concepts/live-register-for-stat-notifications.md
-                - name: Best Practices for the RTA service
-                  href: features/rta/concepts/live-rta-best-practices.md
-            - name: Real-Time Activity (RTA) service how-to's
-              href: features/rta/how-to/live-rta-howto-nav.md
-              items: 
-                - name: Programming the RTA service
-                  href: features/rta/how-to/live-programming-rta.md
     - name: Testing and Releasing
       href: test-release/live-test-release-nav.md
       items:
