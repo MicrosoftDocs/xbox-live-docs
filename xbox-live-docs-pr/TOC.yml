@@ -2,178 +2,181 @@
   href: index.md
   items:
     - name: Getting Started
-      href: get-started/get-started_nav.md
+      href: get-started/live-getstarted-nav.md
       items:
-        - name: What is Xbox Live?
-          href: get-started/what-is-xbox-live.md
+        - name: Xbox Live overview
+          href: get-started/live-xbl-overview.md
         - name: Joining a developer program
-          href: get-started/join-dev-program/join-dev-program_nav.md
+          href: get-started/join-dev-program/live-join-dev-program-nav.md
           items:
             - name: Choosing an Xbox Live developer program
-              href: get-started/join-dev-program/developer-program-overview.md
+              href: get-started/join-dev-program/live-dev-program-overview.md
             - name: Features supported for each developer program
-              href: get-started/join-dev-program/feature-comparison-table.md
+              href: get-started/join-dev-program/live-feature-comparison-table.md
             - name: Joining the Creators Program
-              href: get-started/join-dev-program/join-creators-program.md
+              href: get-started/join-dev-program/live-join-creators-program.md
             - name: Joining the ID@Xbox Program
-              href: get-started/join-dev-program/join-id-program.md
+              href: get-started/join-dev-program/live-join-id-program.md
         - name: Setting up a game app at Partner Center
-          href: get-started/setup-partner-center/setup-partner-center_nav.md
+          href: get-started/setup-partner-center/live-setup-partner-center-nav.md
           items:
             - name: Setting up a game app at Partner Center, for Creators
-              href: get-started/setup-partner-center/setup-partner-center-creators.md
+              href: get-started/setup-partner-center/live-setup-partner-center-creators.md
             - name: Setting up a game app at Partner Center, for Managed Partners
-              href: get-started/setup-partner-center/setup-partner-center-id-partners.md
+              href: get-started/setup-partner-center/live-setup-partner-center-partners.md
             - name: Legacy articles about Partner Center setup
-              href: get-started/setup-partner-center/legacy/legacy_nav.md
+              href: get-started/setup-partner-center/legacy/live-legacy-nav.md
               items:
-                - name: Get started with Xbox Live, for Creators
-                  href: get-started/setup-partner-center/legacy/get-started-with-xbox-live-creators.md
-                - name: Create an app and publish it for testing, for Creators
-                  href: get-started/setup-partner-center/legacy/create-and-test-a-new-creators-title.md
-                - name: Authorize test accounts, for Creators
-                  href: get-started/setup-partner-center/legacy/authorize-xbox-live-accounts.md
-                - name: Get started with Xbox Live, for Managed Partners
-                  href: get-started/setup-partner-center/legacy/get-started-with-xbox-live-partner.md
-                - name: Create an app and publish it for testing, for Managed Partners
-                  href: get-started/setup-partner-center/legacy/create-a-new-title.md
+                - name: Getting started with Xbox Live, for Creators
+                  href: get-started/setup-partner-center/legacy/live-get-started-creators.md
+                - name: Creating an app and publishing it for testing, for Creators
+                  href: get-started/setup-partner-center/legacy/live-create-and-test-creators-title.md
+                - name: Authorizing test accounts, for Creators
+                  href: get-started/setup-partner-center/legacy/live-authorize-xbox-live-accounts.md
+                - name: Getting started with Xbox Live, for Managed Partners
+                  href: get-started/setup-partner-center/legacy/live-get-started-xbl-partner.md
+                - name: Creating an app and publishing it for testing, for Managed Partners
+                  href: get-started/setup-partner-center/legacy/live-create-new-title-partner.md
         - name: Setting up an IDE
-          href: get-started/setup-ide/setup-ide_nav.md
+          href: get-started/setup-ide/live-setup-ide-nav.md
           items:
             - name: Setting up an IDE, for Creators
-              href: get-started/setup-ide/creators/creators-ide_nav.md
+              href: get-started/setup-ide/creators/live-creators-ide-nav.md
               items:
                 - name: Visual Studio targeting Windows 10
-                  href: get-started/setup-ide/creators/vs-win10/cr-vs-win10_nav.md
+                  href: get-started/setup-ide/creators/vstudio-win10/live-cr-vstudio-win10-nav.md
                   items:
                     - name: Setting up Visual Studio targeting Windows 10
-                      href: get-started/setup-ide/creators/vs-win10/develop-creators-title-with-visual-studio.md
+                      href: get-started/setup-ide/creators/vstudio-win10/live-develop-creators-title-vstudio.md
                 - name: Unity targeting Windows 10
-                  href: get-started/setup-ide/creators/unity-win10/cr-unity-win10_nav.md
+                  href: get-started/setup-ide/creators/unity-win10/live-cr-unity-win10-nav.md
                   items:
                     - name: Configuring Xbox Live in Unity
-                      href: get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md
+                      href: get-started/setup-ide/creators/unity-win10/live-configure-xbl-in-unity.md
                     - name: Signing into Xbox Live in Unity
-                      href: get-started/setup-ide/creators/unity-win10/signin/unity-signin_nav.md
+                      href: get-started/setup-ide/creators/unity-win10/signin/live-unity-signin-nav.md
                       items: 
                         - name: Easy sign-in with the PlayerAuthentication prefab
-                          href: get-started/setup-ide/creators/unity-win10/signin/playerauthentication-prefab-sign-in.md
+                          href: get-started/setup-ide/creators/unity-win10/signin/live-authentication-prefab-sign-in.md
                         - name: Scripting Sign-In with the SignInManager in Unity
-                          href: get-started/setup-ide/creators/unity-win10/signin/sign-in-manager.md
+                          href: get-started/setup-ide/creators/unity-win10/signin/live-sign-in-manager.md
                         - name: Sign-in in Unity through prefabs or scripting (pre-1804 release)
-                          href: get-started/setup-ide/creators/unity-win10/signin/unity-prefabs-and-sign-in.md
+                          href: get-started/setup-ide/creators/unity-win10/signin/live-unity-prefabs-sign-in.md
                     - name: Testing a Unity game build in Visual Studio
-                      href: get-started/setup-ide/creators/unity-win10/test-visual-studio-build.md
-                    - name: Add controller support to Xbox Live prefabs
-                      href: get-started/setup-ide/creators/unity-win10/add-controller-support-to-xbox-live-prefabs.md
-                    - name: Add multi-user support to a Unity game
-                      href: get-started/setup-ide/creators/unity-win10/add-multi-user-support.md
+                      href: get-started/setup-ide/creators/unity-win10/live-test-vstudio-build.md
+                    - name: Adding controller support to Xbox Live prefabs
+                      href: get-started/setup-ide/creators/unity-win10/live-add-controller-support-xbl-prefabs.md
+                    - name: Adding multi-user support to a Unity game
+                      href: get-started/setup-ide/creators/unity-win10/live-add-multi-user-support.md
                     - name: Checking user privilege settings in Unity
-                      href: get-started/setup-ide/creators/unity-win10/check-user-privileges-in-unity.md
+                      href: get-started/setup-ide/creators/unity-win10/live-check-privileges-unity.md
             - name: Setting up an IDE, for Managed Partners
-              href: get-started/setup-ide/managed-partners/mp-ide_nav.md
+              href: get-started/setup-ide/managed-partners/live-mp-ide-nav.md
               items:
                 - name: Android Studio targeting Android
-                  href: get-started/setup-ide/managed-partners/as-android/mp-as-android_nav.md
+                  href: get-started/setup-ide/managed-partners/astudio-android/live-mp-astudio-android-nav.md
                   items:
                     - name: Setting up Android Studio targeting Android
-                      href: get-started/setup-ide/managed-partners/as-android/as-android-mp.md
+                      href: get-started/setup-ide/managed-partners/astudio-android/live-astudio-android-mp.md
                     - name: Other articles about Android Studio targeting Android
-                      href: get-started/setup-ide/managed-partners/as-android/other/mp-as-android-other_nav.md
+                      href: get-started/setup-ide/managed-partners/astudio-android/other/live-mp-astudio-android-other-nav.md
                       items:
                         - name: Get started with the Xbox Live APIs on Android
-                          href: get-started/setup-ide/managed-partners/as-android/other/android-get-started-with-xsapi.md
+                          href: get-started/setup-ide/managed-partners/astudio-android/other/live-android-get-started-xsapi.md
                         - name: Setting up Visual Studio for XAL login on Android
-                          href: get-started/setup-ide/managed-partners/as-android/other/android-xal.md
+                          href: get-started/setup-ide/managed-partners/astudio-android/other/live-android-xal.md
                 - name: Xcode targeting iOS
-                  href: get-started/setup-ide/managed-partners/xcode-ios/mp-xcode-ios_nav.md
+                  href: get-started/setup-ide/managed-partners/xcode-ios/live-mp-xcode-ios-nav.md
                   items:
                     - name: Setting up Xcode targeting iOS
-                      href: get-started/setup-ide/managed-partners/xcode-ios/xcode-ios-mp.md
+                      href: get-started/setup-ide/managed-partners/xcode-ios/live-xcode-ios-mp.md
                     - name: Other articles about Xcode targeting iOS
-                      href: get-started/setup-ide/managed-partners/xcode-ios/other/mp-xcode-ios-other_nav.md
+                      href: get-started/setup-ide/managed-partners/xcode-ios/other/live-mp-xcode-ios-other-nav.md
                       items:
                         - name: Get started with the Xbox Live SDK for iOS
-                          href: get-started/setup-ide/managed-partners/xcode-ios/other/ios-get-started-with-xsapi.md
+                          href: get-started/setup-ide/managed-partners/xcode-ios/other/live-ios-get-started-xsapi.md
                 - name: Visual Studio targeting Windows 10
-                  href: get-started/setup-ide/managed-partners/vs-win10/mp-vs-win10_nav.md
+                  href: get-started/setup-ide/managed-partners/vstudio-win10/live-mp-vstudio-win10-nav.md
                   items:
                     - name: Get started using Visual Studio for UWP games
-                      href: get-started/setup-ide/managed-partners/vs-win10/get-started-with-visual-studio-and-uwp.md
+                      href: get-started/setup-ide/managed-partners/vstudio-win10/live-get-started-vstudio-uwp.md
                     - name: Add an XSAPI binary package to a UWP project
-                      href: get-started/setup-ide/managed-partners/vs-win10/add-xbox-live-apis-binary-to-a-uwp-project.md
+                      href: get-started/setup-ide/managed-partners/vstudio-win10/live-add-xbl-apis-binary-uwp.md
                     - name: Add and compile XSAPI source code into a UWP project
-                      href: get-started/setup-ide/managed-partners/vs-win10/add-xbox-live-apis-source-to-a-uwp-project.md
+                      href: get-started/setup-ide/managed-partners/vstudio-win10/live-add-xbl-source-uwp.md
                     - name: The XboxServices.config file for UWP games
-                      href: get-started/setup-ide/managed-partners/vs-win10/xboxservices-config.md
+                      href: get-started/setup-ide/managed-partners/vstudio-win10/live-xboxservices-config.md
                 - name: Visual Studio targeting Xbox
-                  href: get-started/setup-ide/managed-partners/vs-xbox/mp-vs-xbox_nav.md
+                  href: get-started/setup-ide/managed-partners/vstudio-xbox/live-mp-vstudio-xbox-nav.md
                   items:
                     - name: Getting the XDK
-                      href: get-started/setup-ide/managed-partners/vs-xbox/where-to-get-xdk.md
+                      href: get-started/setup-ide/managed-partners/vstudio-xbox/live-where-to-get-xdk.md
                     - name: Configuring an Xbox development console
-                      href: get-started/setup-ide/managed-partners/vs-xbox/configure-your-development-console.md
+                      href: get-started/setup-ide/managed-partners/vstudio-xbox/live-configure-dev-console.md
                     - name: Add Xbox Live to an XDK project
-                      href: get-started/setup-ide/managed-partners/vs-xbox/add-xbox-live-to-an-xdk-project.md
+                      href: get-started/setup-ide/managed-partners/vstudio-xbox/live-add-xbl-xdk-project.md
                     - name: Using Xbox Live APIs built into the XDK
-                      href: get-started/setup-ide/managed-partners/vs-xbox/using-xbox-live-apis-built-into-the-xdk.md
+                      href: get-started/setup-ide/managed-partners/vstudio-xbox/live-using-xbl-apis-built-into-xdk.md
                     - name: Use the Xbox Live API NuGet package to develop XDK titles
-                      href: get-started/setup-ide/managed-partners/vs-xbox/use-xbox-live-nuget-with-xdk.md
+                      href: get-started/setup-ide/managed-partners/vstudio-xbox/live-use-xbl-nuget-for-xdk.md
                     - name: Compile the XDK Xbox Live API source
-                      href: get-started/setup-ide/managed-partners/vs-xbox/compile-the-xdk-xbox-live-api-source.md
+                      href: get-started/setup-ide/managed-partners/vstudio-xbox/live-compile-xdk-xbl-api-source.md
                 - name: Unity targeting Windows 10
-                  href: get-started/setup-ide/managed-partners/unity-win10/mp-unity-win10_nav.md
+                  href: get-started/setup-ide/managed-partners/unity-win10/live-mp-unity-win10-nav.md
                   items:
                     - name: Add XBL support to Unity for UWP, with .NET scripting
-                      href: get-started/setup-ide/managed-partners/unity-win10/partner-add-xbox-live-to-unity-uwp.md
+                      href: get-started/setup-ide/managed-partners/unity-win10/live-partner-unity-uwp-net.md
                     - name: Add XBL support to Unity for UWP, with IL2CPP scripting
-                      href: get-started/setup-ide/managed-partners/unity-win10/partner-unity-uwp-il2cpp.md
+                      href: get-started/setup-ide/managed-partners/unity-win10/live-partner-unity-uwp-il2cpp.md
                 - name: Unity targeting Xbox
-                  href: get-started/setup-ide/managed-partners/unity-xbox/mp-unity-xbox_nav.md
+                  href: get-started/setup-ide/managed-partners/unity-xbox/live-mp-unity-xbox-nav.md
                   items:
                     - name: Add XBL support to Unity for XDK, with IL2CPP scripting
-                      href: get-started/setup-ide/managed-partners/unity-xbox/partner-unity-xdk-il2cpp.md
+                      href: get-started/setup-ide/managed-partners/unity-xbox/live-partner-unity-xdk-il2cpp.md
         - name: Adding basic sign-in code
-          href: get-started/add-signin-code/add-signin-code_nav.md
+          href: get-started/add-signin-code/live-add-signin-code-nav.md
           items:
             - name: Adding basic sign-in code for mobile
-              href: get-started/add-signin-code/getting-xsapi-to-sign-in.md
+              href: get-started/add-signin-code/live-getting-xsapi-to-sign-in.md
     - name: Features
-      href: features/features-nav.md
+      href: features/live-features-nav.md
       items:
-        - name: Identity features
-          href: features/identity/identity_nav.md
+        - name: Identity
+          href: features/identity/live-identity-nav.md
           items: 
             - name: Authentication and sign-in
-              href: using-xbox-live/auth/authentication_nav.md
+              href: features/identity/auth/live-authentication-nav.md
               items: 
                 - name: Authentication for mobile projects using XAL
-                  href: using-xbox-live/auth/xal_nav.md
+                  href: features/identity/auth/auth-mobile-xal/live-xal-nav.md
                   items: 
                     - name: Xbox Authentication Library (XAL) overview
-                      href: using-xbox-live/auth/xal-overview.md
+                      href: features/identity/auth/auth-mobile-xal/live-xal-overview.md
                     - name: Signing-in using XAL
-                      href: using-xbox-live/auth/xal-sign-in.md
+                      href: features/identity/auth/auth-mobile-xal/live-xal-sign-in.md
                     - name: Using Xbox Live tokens for custom web service authentication
-                      href: using-xbox-live/auth/xal-partner-token.md
-                - name: Authentication for UWP projects
-                  href: using-xbox-live/auth/auth-uwp_nav.md
+                      href: features/identity/auth/auth-mobile-xal/live-xal-partner-token.md
+                - name: UWP Authentication and user identity
+                  href: features/identity/auth/auth-uwp/live-auth-uwp-nav.md
                   items:
                     - name: Authentication for UWP projects
-                      href: using-xbox-live/auth/authentication-for-UWP-projects.md
+                      href: features/identity/auth/auth-uwp/live-auth-for-uwp-projects.md
                     - name: Retrieving the Windows user in a UWP title
-                      href: using-xbox-live/auth/retrieving-windows-system-user-on-UWP.md
+                      href: features/identity/auth/auth-uwp/live-retrieving-system-user-on-uwp.md
                 - name: Authentication for XDK projects
-                  href: using-xbox-live/auth/authentication-for-XDK-projects.md
+                  href: features/identity/auth/live-auth-for-xdk-projects.md
                 - name: Troubleshooting Xbox Live sign-in
-                  href: using-xbox-live/troubleshooting/troubleshooting-sign-in.md
+                  href: features/identity/auth/live-troubleshooting-sign-in.md
             - name: Single Point of Presence (SPOP)
-              href: using-xbox-live/auth/single-point-of-presence.md
+              href: features/identity/live-single-point-of-presence.md
             - name: User Privileges
-              href: features/identity/privileges/privileges_nav.md
+              href: features/identity/privileges/live-privileges-nav.md
               items: 
-                - name: Configuring Privileges in Partner Center
-                  href: configure-xbl/dev-center/privileges.md
+                - name: Privileges portal config
+                  href: features/identity/privileges/config/live-privileges-config-nav.md
+                  items: 
+                    - name: Configuring Privileges in Partner Center
+                      href: features/identity/privileges/config/live-privileges-config.md
         - name: Player Data
           href: features/player-data/live-playerdata-nav.md
           items: 
@@ -488,7 +491,7 @@
                       href: features/multiplayer/invites/how-to/live-invites-send.md
                     - name: Receiving invites
                       href: features/multiplayer/invites/how-to/live-invites-receive.md
-            - name: SmartMatch matchmaking
+            - name: SmartMatch Matchmaking
               href: features/multiplayer/matchmaking/live-matchmaking-nav.md
               items: 
                 - name: Matchmaking overview
@@ -632,21 +635,55 @@
                   href: features/custom-services/web-services/live-web-services.md
             - name: Relying parties
               href: features/custom-services/relying-parties/live-relying-parties-nav.md
-        - name: What's new for Xbox Live
-          href: whats-new/whats-new.md
         - name: Title-callable UI (TCUI)
-          href: features/tcui/tcui_nav.md
+          href: features/tcui/live-tcui-nav.md
         - name: Real-Time Activity (RTA) service
-          href: real-time-activity-service/real-time-activity-service_nav.md
+          href: features/rta/live-rta-nav.md
           items: 
             - name: Overview of Real-Time Activity service
-              href: real-time-activity-service/real-time-activity-service-overview.md
-            - name: Registering for player Stat change notifications
-              href: real-time-activity-service/register-for-stat-notifications.md
-            - name: Programming the RTA service via C++ APIs
-              href: real-time-activity-service/programming-the-real-time-activity-service.md
-            - name: Best Practices for the RTA service
-              href: real-time-activity-service/rta-best-practices.md
+              href: features/rta/live-real-time-activity-service-overview.md
+            - name: Real-Time Activity (RTA) service concepts
+              href: features/rta/concepts/live-rta-concepts-nav.md
+              items: 
+                - name: Registering for player Stat change notifications
+                  href: features/rta/concepts/live-register-for-stat-notifications.md
+                - name: Best Practices for the RTA service
+                  href: features/rta/concepts/live-rta-best-practices.md
+            - name: Real-Time Activity (RTA) service how-to's
+              href: features/rta/how-to/live-rta-howto-nav.md
+              items: 
+                - name: Programming the RTA service
+                  href: features/rta/how-to/live-programming-rta.md
+        - name: What's New
+          href: features/whats-new/live-whats-new-nav.md
+          items: 
+            - name: What's new for Xbox Live
+              href: features/whats-new/live-whats-new.md
+            - name: What's New for older releases of Xbox Live
+              href: features/whats-new/archived/live-whats-new-archived-nav.md
+              items: 
+                - name: What's new for the Xbox Live SDK - December 2016
+                  href: features/whats-new/archived/live-whats-new-1612.md
+                - name: What's new for the Xbox Live SDK - November 2016
+                  href: features/whats-new/archived/live-whats-new-1611.md
+                - name: What's new for the Xbox Live SDK - August 2016
+                  href: features/whats-new/archived/live-whats-new-1608.md
+                - name: What's new for the Xbox Live SDK - June 2016
+                  href: features/whats-new/archived/live-whats-new-1606.md
+                - name: What's new for the Xbox Live SDK - April 2016
+                  href: features/whats-new/archived/live-whats-new-1604.md
+                - name: What's new for the Xbox Live SDK - March 2016
+                  href: features/whats-new/archived/live-whats-new-1603.md
+                - name: What's new for the Xbox Live SDK - February 2016
+                  href: features/whats-new/archived/live-whats-new-1602.md
+                - name: What's new for the Xbox Live SDK - October 2015
+                  href: features/whats-new/archived/live-whats-new-1510.md
+                - name: What's new for the Xbox Live SDK - September 2015
+                  href: features/whats-new/archived/live-whats-new-1509.md
+                - name: What's new for the Xbox Live SDK - August 2015
+                  href: features/whats-new/archived/live-whats-new-1508.md
+                - name: What's new for the Xbox Live SDK - June 2015
+                  href: features/whats-new/archived/live-whats-new-1506.md
     - name: Testing and Releasing
       href: test-release/live-test-release-nav.md
       items:

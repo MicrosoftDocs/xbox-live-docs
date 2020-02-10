@@ -33,7 +33,7 @@ A sandbox is created for you when you create a title.
 You can find your Sandbox ID by opening your product in **Partner Center** and navigating to **Services** > **Xbox Live**.
 The **Sandbox ID** will be listed at the top of the page.
 
-![Title Information in Partner Center screenshot. Includes Sandbox ID](../../images/getting_started/devcenter_sandbox_id.png)
+![Title Information in Partner Center. Includes Sandbox ID](../../images/getting_started/devcenter_sandbox_id.png)
 
 
 ## Switch your PC's development sandbox
@@ -48,7 +48,7 @@ You can switch your PC into the development sandbox by using Unity, Windows Devi
 
 The following needs to be done before you can switch in and out of the development sandbox in Unity:
 
-* [Configure Xbox Live in Unity](../../get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md)
+* [Configuring Xbox Live in Unity](../../get-started/setup-ide/creators/unity-win10/live-configure-xbl-in-unity.md)
 
 
 #### Switch Sandboxes
@@ -80,7 +80,7 @@ The following needs to be done before you switch your sandbox in Windows Device 
 2. Click on **Xbox Live**.
 3. Enter your development sandbox in the text field, and then click **change**.
 
-![Sandbox configuration screenshot on Windows Devices Portal](../../images/getting_started/wdp_switch_sandbox.png)
+![Sandbox configuration on Windows Devices Portal](../../images/getting_started/wdp_switch_sandbox.png)
 
 To switch back to RETAIL, you can enter RETAIL here.
 
