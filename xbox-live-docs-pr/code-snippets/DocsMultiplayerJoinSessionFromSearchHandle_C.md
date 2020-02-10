@@ -4,7 +4,7 @@ asyncBlock->queue = queue;
 asyncBlock->context = nullptr;
 asyncBlock->callback = [](XAsyncBlock* asyncBlock)
 {
-    std::unique_ptr<XAsyncBlock> asyncBlockPtr{ asyncBlock }; // Take over ownership of the XAsyncBlock*
+    std::unique_ptr<XAsyncBlock> asyncBlockPtr{ asyncBlock };
     size_t resultCount{ 0 };
     auto hr = XblMultiplayerGetSearchHandlesResultCount(asyncBlock, &resultCount);
     if (SUCCEEDED(hr) && resultCount > 0)
@@ -15,13 +15,26 @@ asyncBlock->callback = [](XAsyncBlock* asyncBlock)
 
         if (SUCCEEDED(hr))
         {
+            // Join the game session
+            const char* handleId{ nullptr };
+            XblMultiplayerSearchHandleGetId(handles[0], &handleId);
+            
+            XblMultiplayerSessionReference multiplayerSessionReference;
+            XblMultiplayerSearchHandleGetSessionReference(handles[0], &multiplayerSessionReference);
 
-            // Process handles
+            XblMultiplayerSessionHandle gameSession =
+                XblMultiplayerSessionCreateHandle(xboxUserId, &multiplayerSessionReference, nullptr);
+
+            XblMultiplayerSessionJoin(gameSession, nullptr, true, true);
+
+            // TODO finish
+              XblMultiplayerWriteSessionByHandleAsync(xboxLiveContext, gameSession, XblMultiplayerSessionWriteMode::UpdateExisting, handleId, async);
+
+               XblMultiplayerManagerJoinGame(handleId, xalUser);
+
+            // Close handles
             for (auto i = 0u; i < resultCount; ++i)
             {
-                const char* handleId{ nullptr };
-                XblMultiplayerSearchHandleGetId(handles[i], &handleId);
-
                 XblMultiplayerSearchHandleCloseHandle(handles[i]);
             }
         }
@@ -47,8 +60,6 @@ HRESULT hr = XblMultiplayerGetSearchHandlesAsync(
 );
 if (SUCCEEDED(hr))
 {
-    // The call succeeded, so release the std::unique_ptr ownership of XAsyncBlock* since the callback will take over ownership.
-    // If the call fails, the std::unique_ptr will keep ownership and delete the XAsyncBlock*
     asyncBlock.release();
 }
 ```

@@ -4,7 +4,7 @@ const XblMultiplayerEvent* events{ nullptr };
 HRESULT hr = XblMultiplayerManagerDoWork(&events, &eventCount);
 if (FAILED(hr))
 {
-    return hr;
+    // Handle failure
 }
 
 for (auto i = 0u; i < eventCount; ++i)
@@ -21,6 +21,7 @@ for (auto i = 0u; i < eventCount; ++i)
             std::vector<XblMultiplayerManagerMember> members(memberCount);
             hr = XblMultiplayerEventArgsMembers(events[i].EventArgsHandle, memberCount, members.data());
             assert(SUCCEEDED(hr));
+            ...
 
             for (auto& member : members)
             {
@@ -31,6 +32,11 @@ for (auto i = 0u; i < eventCount; ++i)
         case XblMultiplayerEventType::SessionPropertyChanged:
         {
             // Handle SessionPropertyChanged
+            const char* changedProperty{ nullptr };
+            hr = XblMultiplayerEventArgsPropertiesJson(events[i].EventArgsHandle, &changedProperty);
+            assert(SUCCEEDED(hr));
+            ...
+
             break;
         }
         ...
