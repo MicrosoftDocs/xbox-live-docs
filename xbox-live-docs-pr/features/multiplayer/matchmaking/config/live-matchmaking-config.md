@@ -1,5 +1,5 @@
 ---
-title: Matchmaking portal configuration
+title: Configuring Matchmaking in Partner Center
 description: Configuring Partner Center to select compatible players.
 ms.topic: portal
 ms.prod: gaming
@@ -10,7 +10,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, matchm
 ms.localizationpriority: medium
 ---
 
-# Matchmaking portal configuration
+# Configuring Matchmaking in Partner Center
 
 
 ## Configuration of SmartMatch Matchmaking Runtime Operations

@@ -59,9 +59,10 @@ Once you have a title created and the fundamentals working, this section provide
 
 | Article | Description |
 |---------|-------------|
-| [Using Xbox Live](../using-xbox-live/using-xbox-live.md) | Once you've setup your title and integrated the Xbox Live SDK, you are ready to implement sign-in and learn more about Xbox Live programming.
-| [Best practices for calling Xbox Live](../using-xbox-live/best-practices/best-practices-for-calling-xbox-live.md) | Familiarize yourself with the basics on Xbox Live calling patterns and best-practices to ensure your title performs well and doesn't get rate limited.
-| [Troubleshooting the Xbox Live Services API](../using-xbox-live/troubleshooting/troubleshooting-the-xbox-live-services-api.md) | Common issues you may encounter and suggestions on how to fix them.
+| [Error handling](../test-release/services-tools/error-handling/live-error-handling-nav.md) | Handling errors when calling an Xbox Live service through XSAPI. |
+| [Authentication and sign-in](../using-xbox-live/auth/authentication_nav.md) | Signing-in an Xbox Live user in your title. |
+| [Best practices for calling Xbox Live](../test-release/services-tools/best-practices/live-best-practices-calling-xbl.md) | Familiarize yourself with the basics on Xbox Live calling patterns and best-practices to ensure your title performs well and doesn't get rate limited.
+| [Troubleshooting Xbox Live Services APIs](../test-release/troubleshooting/live-troubleshooting-apis.md) | Common issues you may encounter and suggestions on how to fix them.
 
 
 ## Social features

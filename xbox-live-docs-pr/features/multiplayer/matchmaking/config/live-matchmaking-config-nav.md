@@ -19,4 +19,4 @@ edited: 00/00/0000
 
 | Article | Description |
 |---------|-------------|
-| [Matchmaking portal configuration](live-matchmaking-config.md) | Configuring Partner Center to select compatible players. |
+| [Configuring Matchmaking in Partner Center](live-matchmaking-config.md) | Configuring Partner Center to select compatible players. |

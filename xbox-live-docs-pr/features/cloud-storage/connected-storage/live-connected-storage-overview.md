@@ -85,7 +85,7 @@ The two APIs differ mainly in their namespace and class names.
 
 The functions required to [save](how-to/live-connected-storage-saving.md), [load](how-to/live-connected-storage-loading.md), and [delete](how-to/live-connected-storage-deleting.md) data with the API are named identically.
 
-Further differences between the two Connected Storage APIs are detailed in the Connected Storage section of [Porting Xbox Live code from XDK to UWP](../../../using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md).
+Further differences between the two Connected Storage APIs are detailed in the Connected Storage section of [Porting Xbox Live code from XDK to UWP](../../../test-release/services-tools/live-port-xbl-code-from-xdk-to-uwp.md).
 
 
 ### XDK Connected Storage API Reference
