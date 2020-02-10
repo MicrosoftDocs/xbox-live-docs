@@ -1,14 +1,20 @@
 ---
 title: Best practices for handling offline play
 description: Best practices for handling offline or intermittent scenarios with Xbox Live-enabled titles.
-ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, offline
-ms.localizationpriority: medium
+kindex: Best practices for handling offline play
+kindex: offline play best practices
+ms.topic: conceptual
+author: v-mihof
+ms.author: v-mihof
 ms.assetid: 6290dd67-1145-4fe2-8ada-c3a29a9ad29a
+ms.localizationpriority: medium
 ms.date: 04/04/2017
 ---
 
 # Best practices for handling offline play
+
+> [!NOTE]
+> This article applies to the Xbox console only, not to other platforms, such as PC.
 
 Xbox is designed as a connected device, and the best experiences, such as multiplayer gaming and video streaming, require connectivity.
 However, the Xbox console supports many scenarios for offline play.
