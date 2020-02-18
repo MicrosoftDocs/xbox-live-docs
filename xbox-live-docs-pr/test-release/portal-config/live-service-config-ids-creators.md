@@ -22,10 +22,10 @@ Leaderboards allow players to see a value representing an accomplishment, in com
 For example, high scores in an arcade game, lap times in a racing game, or headshots in a first-person shooter.
 But unlike an arcade machine, which only shows the top scores from the players who have played on that physical machine, with Xbox Live it is possible to display high scores from around the world.
 
-But for this to happen, you need to perform some one-time configuration so that Xbox Live knows about your leaderboard.
-For example, whether the values should be sorted in ascending or descending value, and what piece of data it should be sorting.
+For this to happen, you need to perform some one-time configuration so that Xbox Live knows about your leaderboard - for example, whether the values should be sorted in ascending or descending value, and what piece of data it should be sorting.
 
-This configuration happens in [Partner Center](https://partner.microsoft.com/dashboard) for Xbox Live Creators Program, and you can read [Get started with Xbox Live, for Creators](../../get-started/setup-partner-center/legacy/get-started-with-xbox-live-creators.md) to learn how to get set up.
+This configuration happens in <a href="https://partner.microsoft.com/dashboard" target="_blank">Partner Center &#11008;</a>.
+To learn how to get set up, see [Getting started with Xbox Live, for Creators](../../get-started/setup-partner-center/legacy/live-get-started-creators.md).
 
 
 ## Get your IDs
@@ -33,7 +33,7 @@ This configuration happens in [Partner Center](https://partner.microsoft.com/das
 To enable Xbox Live services, you will need to obtain several IDs to configure your development environment and title.
 These can be obtained by updating your Xbox Live service configuration.
 
-If you do not currently have a title in Partner Center, see [Create an app and publish it for testing, for Creators](../../get-started/setup-partner-center/legacy/create-and-test-a-new-creators-title.md) for guidance.
+If you do not currently have a title in Partner Center, see [Creating an app and publishing it for testing, for Creators](../../get-started/setup-partner-center/legacy/live-create-and-test-creators-title.md).
 
 
 ### Critical IDs
@@ -49,7 +49,7 @@ We therefore recommend that you obtain all three IDs at once.
 
 You can view all of these IDs on the "Xbox Live" root configuration page, as shown below:
 
-![Title Information including IDs in Partner Center screenshot](../../images/getting_started/devcenter_sandbox_id.png)
+![Title Information including IDs in Partner Center](../../images/getting_started/devcenter_sandbox_id.png)
 
 
 #### Sandbox IDs
@@ -87,4 +87,4 @@ By default, Xbox One Consoles and Windows 10 PCs are in the RETAIL sandbox.
 
 On the Xbox Live configuration page, click the **Test** button to publish the current Xbox Live configuration to your development sandbox.
 
-![Partner center screenshot with test publish button](live-service-config-ids-creators-images/creators_udc_xboxlive_config_test.png)
+![Partner Center with Test publish button](live-service-config-ids-creators-images/creators_udc_xboxlive_config_test.png)

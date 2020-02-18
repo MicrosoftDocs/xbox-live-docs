@@ -107,6 +107,6 @@ In addition to building your project to run locally, you will have to configure 
 In order to associate a stat to your leaderboard you will need to modify the ID and Display Name of the stat object in the leaderboard prefab.
 The ID will need to match that of a stat configured in [Partner Center](https://partner.microsoft.com/dashboard).
 
-After you have done the above, build your project as described in the [build section of the configure Xbox Live in Unity article](../../../../../get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md#build-and-test-the-project).
+After you have done the above, build your project as described in the section [Build and test the project](../../../../../get-started/setup-ide/creators/unity-win10/live-configure-xbl-in-unity.md#build-and-test-the-project) in the article "Configuring Xbox Live in Unity".
 
 Executing this project as an x64 build that targets the "Local Machine" enables you to sign-in with a real gamertag and populate the leaderboard with real data.

@@ -23,9 +23,10 @@ But unlike an arcade machine, which only shows the top scores from the players w
 For this to happen, you need to perform some one-time configuration so that Xbox Live knows about your leaderboard.
 For example, whether the values should be sorted in ascending or descending value, and what piece of data it should be sorting.
 
-This configuration happens on [Partner Center](https://partner.microsoft.com/dashboard).
+This configuration happens on <a href="https://partner.microsoft.com/dashboard" target="_blank">Partner Center &#11008;</a>.
 
-If you are a developing your title as part of the Xbox Live Creators Program, you use [Partner Center](https://partner.microsoft.com/dashboard), and you can read [Get started with Xbox Live, for Creators](../../get-started/setup-partner-center/legacy/get-started-with-xbox-live-creators.md) to learn how to get set up.
+If you are a developing your title as part of the Xbox Live Creators Program, you use Partner Center.
+To learn how to get set up, see [Getting started with Xbox Live, for Creators](../../get-started/setup-partner-center/legacy/live-get-started-creators.md).
 
 If you are in the Managed Partners Program, read on.
 
@@ -111,7 +112,7 @@ Sandbox IDs are case-sensitive.
 
 When configuring your title in Partner Center, you get your Sandbox ID on the "Xbox Live" root configuration page as shown below:
 
-![Xbox Live title information on Partner Center screenshot. Includes Sandbox ID](../../images/getting_started/devcenter_sandbox_id.png)
+![Xbox Live title information on Partner Center. Includes Sandbox ID](../../images/getting_started/devcenter_sandbox_id.png)
 
 
 #### Service Configuration ID (SCID)
@@ -125,7 +126,7 @@ To retrieve your SCID, in Partner Center, navigate to the Xbox Live Services sec
 
 Your SCID is displayed in the table shown below:
 
-![SCID displayed in Xbox Live Configuration on Partner Center screenshot](../../images/getting_started/devcenter_scid.png)
+![SCID displayed in Xbox Live Configuration on Partner Center](../../images/getting_started/devcenter_scid.png)
 
 
 #### Title ID

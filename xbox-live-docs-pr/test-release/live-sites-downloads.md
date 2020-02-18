@@ -43,7 +43,7 @@ For developers in the Xbox Live Creators Program that are using Unity to develop
 * [Xbox Live Unity plug-in](https://github.com/Microsoft/xbox-live-unity-plugin)
 
 > [!WARNING]
-> Because this is an Xbox Live Creators Program tool, the Xbox Live Unity plug-in will not provide the full suite of Xbox Live features. To see what Xbox Live services are available, see [Features supported for each developer program](../get-started/join-dev-program/feature-comparison-table.md).
+> Because this is an Xbox Live Creators Program tool, the Xbox Live Unity plug-in will not provide the full suite of Xbox Live features. To see what Xbox Live services are available, see [Features supported for each developer program](../get-started/join-dev-program/live-feature-comparison-table.md).
 
 
 ## Xbox Live Platform Extensions SDK
