@@ -1,7 +1,7 @@
 {
     "redirections": [
         {
-            "source_path": "gaming/xbox-live/index.md",
+            "source_path": "gaming/xbox-live/index-placeholder.md",
             "redirect_url": "/gaming/xbox-live/index",
             "redirect_document_id": true
         },
