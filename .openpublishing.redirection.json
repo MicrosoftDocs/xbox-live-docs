@@ -5,11 +5,11 @@
             "redirect_url": "/gaming/xbox-live/index",
             "redirect_document_id": true
         },
-        {
-            // "source_path": "xbox-live-docs-pr/__.md",
-            "redirect_url": "/gaming/xbox-live/get-started/live-getstarted-nav",
-            "redirect_document_id": true
-        },
+        // {
+        //     "source_path": "xbox-live-docs-pr/__.md",
+        //     "redirect_url": "/gaming/xbox-live/get-started/live-getstarted-nav",
+        //     "redirect_document_id": true
+        // },
         {
             "source_path": "xbox-live-docs-pr/get-started/what-is-xbox-live.md",
             "redirect_url": "/gaming/xbox-live/get-started/live-xbl-overview",
