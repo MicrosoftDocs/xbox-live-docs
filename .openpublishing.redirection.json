@@ -1,8 +1,39 @@
 {
     "redirections": [
         {
+            "source_path": "xbox-live-docs-pr/using-xbox-live/using-xbox-live.md",
+            "redirect_url": "/gaming/xbox-live/index",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/get-started/what-is-xbox-live.md",
+            "redirect_url": "/gaming/xbox-live/get-started/live-xbl-overview",
+            "redirect_document_id": true
+        },
+        {
             "source_path": "xbox-live-docs-pr/get-started/join-dev-program/join-dev-program_nav.md",
             "redirect_url": "/gaming/xbox-live/get-started/join-dev-program/live-join-dev-program-nav",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/developer-program-overview.md",
+            "redirect_url": "/gaming/xbox-live/get-started/join-dev-program/live-dev-program-overview",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/get-started/setup-partner-center/setup-partner-center_nav.md",
+            "redirect_url": "/gaming/xbox-live/get-started/setup-partner-center/live-setup-partner-center-nav",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/get-started/setup-partner-center/setup-partner-center-creators.md",
+            "redirect_url": "/gaming/xbox-live/get-started/setup-partner-center/live-setup-partner-center-creators",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/get-started-with-creators/get-started-with-xbox-live-creators.md",
+            "source_path": "xbox-live-docs-pr/get-started-with-creators/creators-step-by-step-guide.md",
+            "redirect_url": "/gaming/xbox-live/get-started/setup-partner-center/legacy/live-get-started-creators",
             "redirect_document_id": true
         }
     ]
