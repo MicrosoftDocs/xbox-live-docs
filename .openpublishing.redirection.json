@@ -6,6 +6,7 @@
             "redirect_document_id": true
         },
         {
+            // "source_path": "xbox-live-docs-pr/__.md",
             "redirect_url": "/gaming/xbox-live/get-started/live-getstarted-nav",
             "redirect_document_id": true
         },
