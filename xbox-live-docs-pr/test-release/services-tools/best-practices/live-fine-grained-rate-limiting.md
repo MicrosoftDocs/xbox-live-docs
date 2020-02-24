@@ -187,7 +187,7 @@ For example, if the sustained limit at which FGRL takes effect is set to 300 cal
 | Stats Write | statswrite.xboxlive.com | Achievements or Leaderboards entries not updated.
 | Privacy | privacy.xboxlive.com | Privacy failures may result in blocked access for all callers.
 | Clubs | Clubhub.xboxlive.com | Player may not be able to see their in-game clubs.
-| Collections | collections.md.mp.microsoft.com / collections.mp.microsoft.com | Player's owned games list might not be correct.
+| Collections | collections.md.mp.microsoft.com / collections.mp.microsoft.com / firstparty-collections.mp.microsoft.com | Player's owned games list might not be correct.
 | Inventory | inventory.xboxlive.com | Players's owned games list might not be correct.
 
 
