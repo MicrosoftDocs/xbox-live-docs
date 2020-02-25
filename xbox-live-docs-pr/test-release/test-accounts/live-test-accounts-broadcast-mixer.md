@@ -56,4 +56,4 @@ To see the frames, go to the developer portal and change the embargo settings to
 An alternative is to use a capture card instead of the guide, to broadcast.
 
 The most popular workflow is to work with the test frames.
-The video isn't necessary for testing and development, since the interactive controls appear and the Xbox is usually close enough to see.
+The video isn't necessary for testing and development, since the interactive controls appear and the Xbox is usually close enough to see. 
