@@ -17,10 +17,19 @@ For example: `https://mixer.com/?sandbox=XDKS.1`
 > **Sandbox IDs are case-sensitive.** Note the uppercase sandbox name in the above URL: `XDKS.1`. The lowercase sandbox name `xdks.1` won't work in the URL.
 
 
-**To log in:**
-1. Click the Login button in the upper, right.
-2. In the dialog, click the **Log in with your Microsoft account** button.
-3. This will show a second dialog where you can enter your credentials for your Xbox Live test account.
+**To log in to Mixer using the Xbox Live test account:**
+
+1. In a web browser, in the URL field, enter `https://mixer.com/?sandbox=XDKS.1`, and then change the sandbox name from `XDKS.1` to your sandbox name, using uppercase characters. 
+   Then press `Enter`. 
+   A webpage appears.
+
+2. Click the **Sign in**  button in the upper right.
+   A "Join the Party" Mixer dialog box appears.
+
+3. Click the **Sign in with Microsoft** button.
+   A small browser window appears, like a dialog box, titled "Sign in to continue to Mixer".
+
+4. Enter your credentials for your Xbox Live test account.
 
 If you encounter the error message "There was an error logging you in: Content isolation not authorized", make sure you are not logged into Mixer in another tab or browser with a non-sandbox account.
 The easiest way to get around this conflict is to open an in-private browser session.
@@ -35,7 +44,7 @@ If the game doesn't have a Title ID and Service Configuration ID, broadcasting w
 
 ## Test Streams
 
-See <a href="https://dev.mixer.com/guides/test-streams/introduction" target="_blank">Test Streams &#11008;</a> at Mixer Dev site.
+See <a href="https://dev.mixer.com/guides/test-streams/introduction" target="_blank">Test Streams &#11008;</a> at the Mixer Dev site.
 
 
 ## TroubleShooting
