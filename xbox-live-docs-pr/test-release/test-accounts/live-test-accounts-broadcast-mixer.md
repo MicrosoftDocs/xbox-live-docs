@@ -3,6 +3,8 @@ title: Broadcasting Xbox Live test accounts to Mixer
 description: Creating test accounts for use with Mixer on your Xbox Live sandbox.
 kindex: Broadcasting Xbox Live test accounts to Mixer
 ms.topic: article
+author: mikehoffms
+ms.author: v-mihof
 ms.date: 02/25/2020
 ---
 
@@ -19,9 +21,9 @@ For example: `https://mixer.com/?sandbox=XDKS.1`
 
 **To log in to Mixer using the Xbox Live test account:**
 
-1. In a web browser, in the URL field, enter `https://mixer.com/?sandbox=XDKS.1`, and then change the sandbox name from `XDKS.1` to your sandbox name, using uppercase characters. 
-   Then press `Enter`. 
-   A webpage appears.
+1. In a web browser, in the URL field, enter `https://mixer.com/?sandbox=XDKS.1`, and then change the sandbox name from `XDKS.1` to your sandbox name, using uppercase characters.
+   Then press `Enter`.
+   The Mixer home page appears.
 
 2. Click the **Sign in**  button in the upper right.
    A "Join the Party" Mixer dialog box appears.
