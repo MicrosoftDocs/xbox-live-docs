@@ -89,7 +89,7 @@ Both ways are described below.
 
 ### Windows Device Portal
 
-1. If you have not already enabled WDP on your PC, do the steps in section [Set up Device Portal on Windows Desktop](https://docs.microsoft.com/en-us/windows/uwp/debug-test-perf/device-portal-desktop#set-up-device-portal-on-windows-desktop) in the article "Device Portal for Windows Desktop" at UWP.
+1. If you have not already enabled WDP on your PC, do the steps in section [Set up Device Portal on Windows Desktop](https://docs.microsoft.com/windows/uwp/debug-test-perf/device-portal-desktop#set-up-device-portal-on-windows-desktop) in the article "Device Portal for Windows Desktop" at UWP.
 
 2. Open Windows Dev Portal by connecting to it in your web browser as described in the above article.
 
