@@ -97,21 +97,6 @@ Both ways are described below.
    To switch back to RETAIL, you can enter RETAIL here.
 
 
-### PowerShell module
-
-[Xbox Live PowerShell Module](https://github.com/Microsoft/xbox-live-powershell-module/blob/master/docs/XboxLivePsModule.md)
-XboxlivePSModule contains various utilities to help Xbox Live development including changing sandboxes on the PC or console.
-
-* To consume it from [PowerShell Gallery](https://www.powershellgallery.com/packages/XboxlivePSModule), open a PowerShell window:
-    1. Download and install the module: `Install-Module XboxlivePSModule -Scope CurrentUser`
-    2. Start using by running `Import-Module XboxlivePSModule`
-    3. Run cmdlets; that is, `Set-XblSandbox XDKS.1`, or `Get-XblSandbox`.
-
-* To consume it from a zip file at [https://aka.ms/xboxliveuwptools](https://aka.ms/xboxliveuwptools), open a PowerShell window,
-    1. Run: `Import-Module <path to unzipped folder>\XboxLivePsModule\XboxLivePsModule.psd1`
-    2. Run cmdlets; that is, `Set-XblSandbox XDKS.1`, or `Get-XblSandbox`.
-
-
 ### Command Prompt Script
 
 Download the Xbox Live Tools Package at [https://aka.ms/xboxliveuwptools](https://aka.ms/xboxliveuwptools) and unzip.
