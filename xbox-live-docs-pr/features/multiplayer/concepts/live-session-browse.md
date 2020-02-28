@@ -156,7 +156,13 @@ In the Xbox Live APIs, you can use the `multiplayer_service::clear_search_handle
 The following code shows how to create a search handle for a session by using the Xbox Live multiplayer APIs.
 
 
-#### [C API](#tab/c_api)
+<!-- Invalid link: 
+<a href="#tab/c_api">C API</a>
+The file features/multiplayer/concepts/live-session-browse.md doesn't contain a bookmark named 
+tab/c_api
+-->
+
+#### [C API](#tab/c_api/)
 
 <!-- XblMultiplayerCreateSearchHandleAsync_C.md -->
 ```cpp
@@ -208,18 +214,18 @@ if (SUCCEEDED(hr))
 }
 ```
 
-**Reference**
+<!-- **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblMultiplayerCreateSearchHandleAsync](xblmultiplayercreatesearchhandleasync.md)
-* [XblMultiplayerCreateSearchHandleResult](xblmultiplayercreatesearchhandleresult.md)
+* [XblMultiplayerCreateSearchHandleResult](xblmultiplayercreatesearchhandleresult.md) -->
 <!-- * [XblMultiplayerSearchHandle](xblmultiplayersearchhandle.md) -->
-* [XblMultiplayerSearchHandleGetId](xblmultiplayersearchhandlegetid.md)
+<!-- * [XblMultiplayerSearchHandleGetId](xblmultiplayersearchhandlegetid.md)
 * [XblMultiplayerSessionNumberAttribute](xblmultiplayersessionnumberattribute.md)
 * [XblMultiplayerSessionStringAttribute](xblmultiplayersessionstringattribute.md)
-* [XblMultiplayerSessionTag](xblmultiplayersessiontag.md)
+* [XblMultiplayerSessionTag](xblmultiplayersessiontag.md) -->
 
 
-#### [C++ API](#tab/cpp_api)
+#### [C++ API](#tab/cpp_api/)
 
 ```cpp
 auto searchHandleReq = multiplayer_search_handle_request(sessionBrowseRef);
