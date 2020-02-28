@@ -225,7 +225,7 @@ if (SUCCEEDED(hr))
 * [XblMultiplayerSessionTag](xblmultiplayersessiontag.md) -->
 
 
-#### [C++ API](#tab/browser/)
+#### [C++ API](#tab/visual-studio/)
 
 ```cpp
 auto searchHandleReq = multiplayer_search_handle_request(sessionBrowseRef);
