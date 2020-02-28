@@ -162,7 +162,7 @@ The file features/multiplayer/concepts/live-session-browse.md doesn't contain a 
 tab/c_api
 -->
 
-#### [C API](#tab/c_api/)
+#### [C API](#tab/browser/)
 
 <!-- XblMultiplayerCreateSearchHandleAsync_C.md -->
 ```cpp
@@ -225,7 +225,7 @@ if (SUCCEEDED(hr))
 * [XblMultiplayerSessionTag](xblmultiplayersessiontag.md) -->
 
 
-#### [C++ API](#tab/cpp_api/)
+#### [C++ API](#tab/browser/)
 
 ```cpp
 auto searchHandleReq = multiplayer_search_handle_request(sessionBrowseRef);
