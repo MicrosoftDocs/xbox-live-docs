@@ -244,7 +244,8 @@ auto result = xboxLiveContext->multiplayer_service().set_search_handle(searchHan
 });
 ```
 
---- <!-- closes the tab -->
+* * *
+<!-- closes the tab -->
 
 
 ## Create a search query for sessions
