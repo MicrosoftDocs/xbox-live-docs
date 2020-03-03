@@ -47,7 +47,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!-- in gdk only:
+<!--
 **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XAsyncGetStatus](xasyncgetstatus.md)
@@ -95,7 +95,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!-- in gdk only:
+<!--
 **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XAsyncGetStatus](xasyncgetstatus.md)

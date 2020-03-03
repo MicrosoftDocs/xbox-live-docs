@@ -29,7 +29,7 @@ HRESULT hr = XblPresenceSubscribeToTitlePresenceChange(
 );
 ```
 
-<!-- in gdk only:
+<!--
 **Reference**
 * [XblPresenceSubscribeToTitlePresenceChange](xblpresencesubscribetotitlepresencechange.md)
 -->
@@ -48,7 +48,7 @@ HRESULT hr = XblPresenceUnsubscribeFromTitlePresenceChange(
 state.titlePresenceChangeSubscription = nullptr;
 ```
 
-<!-- in gdk only:
+<!--
 **Reference**
 * [XblPresenceUnsubscribeFromTitlePresenceChange](xblpresenceunsubscribefromtitlepresencechange.md)
 -->
@@ -71,7 +71,7 @@ state.titlePresenceChangedHandlerToken =  XblPresenceAddTitlePresenceChangedHand
 );
 ```
 
-<!-- in gdk only:
+<!--
 **Reference**
 * [XblPresenceAddTitlePresenceChangedHandler](xblpresenceaddtitlepresencechangedhandler.md)
 * [XblPresenceTitleState](xblpresencetitlestate.md)
@@ -91,7 +91,7 @@ HRESULT hr = XblPresenceRemoveTitlePresenceChangedHandler(
 state.titlePresenceChangedHandlerToken = 0;
 ```
 
-<!-- in gdk only:
+<!--
 **Reference**
 * [XblPresenceRemoveTitlePresenceChangedHandler](xblpresenceremovetitlepresencechangedhandler.md)
 -->

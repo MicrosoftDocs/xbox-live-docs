@@ -15,7 +15,7 @@ xalInitArgs.packageFamilyName = u8"41336MicrosoftATG.XboxLiveE2E_dspnxghe87tn0";
 
 #else
 
-// Args for iOS / Android / Win32 
+// Args for iOS / Android / Win32
 xalInitArgs.clientId = clientId.c_str();
 xalInitArgs.titleId = titleId;
 xalInitArgs.sandbox = sandbox.c_str();
