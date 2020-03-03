@@ -95,23 +95,10 @@ The following needs to be done before you can switch in and out of the developme
 1. Download the Xbox Live Tools Package at [https://aka.ms/xboxliveuwptools](https://aka.ms/xboxliveuwptools), and then unzip the package.
 
 
-#### Switch Sandboxes
+### XBLPCSandbox (PC sandbox switcher command)
 
-1. Run the `SwitchSandbox.cmd` batch file in **administrator mode**.
-
-Run this in Administrator mode to switch your sandbox.
-The first argument is the sandbox.
-For example, to switch to the MJJSQH.58 sandbox, use this command:
-
-```cmd
-SwitchSandbox.cmd MJJSQH.58
-```
-
-To switch back to RETAIL, provide that as the second argument:
-
-```cmd
-SwitchSandbox.cmd RETAIL
-```
+The Xbox Live development tools .zip file contains a command-line tool to switch sandboxes for PC development.
+See the section [XBLPCSandbox (PC sandbox switcher command)](../services-tools/live-tools.md#xpssc) in the article "Development tools for Xbox Live".
 
 
 ## Switch your Xbox One console development sandbox

@@ -36,6 +36,51 @@ The tool is available via command-line as part of the [Development Tools](https:
 Custom tools can be created with the [Dev Tools library](https://www.nuget.org/packages/Microsoft.Xbox.Services.DevTools).
 
 
+<a id="xpssc"></a>
+
+### XBLPCSandbox (PC sandbox switcher command)
+
+`XBLPCSandbox.exe` is a tool that helps manage the Xbox Live sandbox on PC.
+This tool can get the current sandbox, set a sandbox, and launch the Microsoft Store app, the Xbox app, and the Xbox Companion app in sandbox mode.
+
+**How to get this tool**
+
+The XBLPCSandbox tool is available via command-line as part of the [Development Tools](https://aka.ms/xboxliveuwptools) zip.
+
+**Requirements for running the command**
+
+For setting the sandbox, the XBLPCSandbox tool requires elevated privilege (such as a command prompt with "Run as admin").
+If the tool is run without elevated privilege, then the tool will attempt to re-run in an elevated state.
+
+**Command options**
+
+    XBLPCSandbox
+
+Gets the current Xbox Live sandbox, if any.
+
+    XBLPCSandbox /?
+
+Shows the help information, similar to this section.
+
+<pre>
+XBLPCSandbox <i>sandbox</i>
+</pre>
+
+Sets the Xbox Live sandbox for the device.
+For example:
+
+    XBLPCSandbox XDKS.1
+
+If the Microsoft Store app, the Xbox app, and/or the Xbox Companion app is open, setting the sandbox will re-launch the apps in sandbox mode.
+
+To go back to normal, for the sandbox name, pass "RETAIL".
+For example:
+
+    XBLPCSandbox RETAIL
+
+When setting the sandbox, the XBLPCSandbox tool will always restart the Xbox Live Auth Manager and will only relaunch the Microsoft Store app, the Xbox app, and/or the Xbox Companion app in sandbox modes if the apps are open. Setting the sandbox to RETAIL resets the apps to normal.
+
+
 ## Multiplayer Session History Viewer
 
 Multiplayer Session History Viewer gives you the ability to view a historical timeline of all changes over a multiplayer session document's history (including deleted documents).
