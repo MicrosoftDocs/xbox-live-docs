@@ -724,6 +724,8 @@
               href: test-release/test-accounts/live-test-accounts.md
             - name: Developer Account Tool to set up test accounts
               href: test-release/test-accounts/live-account-tool.md
+            - name: Broadcasting Xbox Live test accounts to Mixer
+              href: test-release/test-accounts/live-test-accounts-broadcast-mixer.md
         - name: Testing on the Xbox One console
           href: test-release/live-testing-on-console.md
         - name: Troubleshooting Xbox Live
