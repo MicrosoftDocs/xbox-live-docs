@@ -93,7 +93,8 @@ When setting the sandbox, the Sandbox Switcher always restarts the Xbox Live Aut
 If the Microsoft Store app, the Xbox app, and/or the Xbox Companion app is open, setting the sandbox re-launches the open apps in sandbox mode.
 If one of these apps is not open, the Sandbox Switcher doesn't open that app.
 
-**Switching back to RETAIL**
+
+##### Switching back to RETAIL
 
 To reset the device to normal, set the sandbox to RETAIL.
 For example: `XBLPCSandbox RETAIL`
