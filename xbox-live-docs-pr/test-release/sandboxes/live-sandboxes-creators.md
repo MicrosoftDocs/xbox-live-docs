@@ -88,14 +88,7 @@ To switch back to RETAIL, you can enter RETAIL here.
 ### Command-line
 
 
-#### Prerequisites
-
-The following needs to be done before you can switch in and out of the development sandbox via command-line:
-
-1. Download the Xbox Live Tools Package at [https://aka.ms/xboxliveuwptools](https://aka.ms/xboxliveuwptools), and then unzip the package.
-
-
-### Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)
+#### Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)
 
 The Xbox Live development tools .zip file contains a command-line tool to switch sandboxes for PC development.
 See the section [Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)](../services-tools/live-tools.md#xpssc) in the article "Development tools for Xbox Live".
