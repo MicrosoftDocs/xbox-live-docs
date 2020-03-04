@@ -95,10 +95,10 @@ The following needs to be done before you can switch in and out of the developme
 1. Download the Xbox Live Tools Package at [https://aka.ms/xboxliveuwptools](https://aka.ms/xboxliveuwptools), and then unzip the package.
 
 
-### XBLPCSandbox (PC sandbox switcher command)
+### Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)
 
 The Xbox Live development tools .zip file contains a command-line tool to switch sandboxes for PC development.
-See the section [XBLPCSandbox (PC sandbox switcher command)](../services-tools/live-tools.md#xpssc) in the article "Development tools for Xbox Live".
+See the section [Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)](../services-tools/live-tools.md#xpssc) in the article "Development tools for Xbox Live".
 
 
 ## Switch your Xbox One console development sandbox

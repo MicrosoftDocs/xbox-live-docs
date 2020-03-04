@@ -14,10 +14,7 @@ ms.date: 06/13/2018
 
 Various tools in `XboxLiveTools-#.zip` can help you develop for Xbox Live.
 
-
-**Getting the Xbox Live Development Tools**
-
-You can download `XboxLiveTools-#.zip` using this [aka.ms link](https://aka.ms/xboxliveuwptools).
+To get these Xbox Live development tools, you can download `XboxLiveTools-#.zip` using this [aka.ms link](https://aka.ms/xboxliveuwptools).
 
 > [!NOTE]
 > `XboxLiveTools-#.zip` includes the MatchSim and XboxLiveCompute tools, but those tools can only be used by Managed Partners, not by Creators Program developers.
@@ -35,7 +32,7 @@ Global title storage is a type of [Title Storage](../../features/cloud-storage/t
 The Global Storage tool is used to manage global title storage in test sandboxes.
 Data must still be published to RETAIL via Partner Center.
 
-The tool is available via command-line as part of the Xbox Live Development Tools .zip file (`XboxLiveTools-#.zip`).
+This command-line tool is part of `XboxLiveTools-#.zip`; see the top of this article.
 
 Custom tools can be created with the [Dev Tools library](https://www.nuget.org/packages/Microsoft.Xbox.Services.DevTools).
 
@@ -51,10 +48,7 @@ This Sandbox Switcher can do the following:
 * Set a sandbox to use.
 * Re-launch the Microsoft Store app, the Xbox app, and the Xbox Companion app in sandbox mode.
 
-
-### How to get this tool
-
-The Xbox Live PC Sandbox Switcher is part of `XboxLiveTools-#.zip`; to download that .zip file, see the top of this article.
+This command-line tool is part of `XboxLiveTools-#.zip`; see the top of this article.
 
 
 ### Requirements for running the command
@@ -114,7 +108,7 @@ Setting the sandbox to RETAIL resets the opened apps to normal, including Xbox L
 Multiplayer Session History Viewer gives you the ability to view a historical timeline of all changes over a multiplayer session document's history (including deleted documents).
 Using this tool will give you a deeper understanding of what is happening with your MPSD session documents as it changes over time.
 
-The tool is available as a standalone tool in the Xbox Live Development Tools .zip file (`XboxLiveTools-#.zip`).
+This standalone tool is part of `XboxLiveTools-#.zip`; see the top of this article.
 
 
 ## Player Data Reset
@@ -122,7 +116,7 @@ The tool is available as a standalone tool in the Xbox Live Development Tools .z
 The Player Data Reset tool can be used to reset a player's data in test sandboxes.
 You can reset data such as; achievements, leaderboards, stats and title history.
 
-The tool is available via command-line as part of the Xbox Live Development Tools .zip file (`XboxLiveTools-#.zip`).
+This command-line tool is part of `XboxLiveTools-#.zip`; see the top of this article.
 
 Custom tools can be created with the [Dev Tools library](https://www.nuget.org/packages/Microsoft.Xbox.Services.DevTools).
 
@@ -130,9 +124,9 @@ Custom tools can be created with the [Dev Tools library](https://www.nuget.org/p
 ## Xbox Live Developer Account
 
 The Xbox Live Developer Account tool is used to manage authentication of a developer account.
-The Xbox Live Developer Account tool is needed to interact with other developer tools that require a developer credential, such as Player Reset and Global Storage.
+This tool is needed to interact with other developer tools that require a developer credential, such as Player Reset and Global Storage.
 
-The tool is available via command-line as part of the Xbox Live Development Tools .zip file (`XboxLiveTools-#.zip`).
+This command-line tool is part of `XboxLiveTools-#.zip`; see the top of this article.
 
 For more information, see [Developer Account Tool to set up test accounts](../test-accounts/live-account-tool.md).
 
@@ -143,7 +137,7 @@ Using the Xbox Live Trace Analyzer, you can capture all service calls and then a
 Service call tracing can be activated by using the **xbtrace** command line tool, or through protocol activation for more advanced scenarios.
 Activating service call tracking directly from title code is also supported.
 
-The tool is available via command-line as part of the Xbox Live Development Tools .zip file (`XboxLiveTools-#.zip`).
+This command-line tool is part of `XboxLiveTools-#.zip`; see the top of this article.
 
 See [Trace Analyzer for reviewing service calls](live-trace-analyzer.md).
 
@@ -153,7 +147,7 @@ See [Trace Analyzer for reviewing service calls](live-trace-analyzer.md).
 The [Developer Account Tool to set up test accounts](../test-accounts/live-account-tool.md) is designed to help you set up existing test accounts for testing game scenarios.
 For example, you can use Xbox Live Account Tool to change an account's gamertag, or quickly add 1000 followers to an account's friends list.
 
-The tool is available via command-line as part of the Xbox Live Development Tools .zip file (`XboxLiveTools-#.zip`).
+This command-line tool is part of `XboxLiveTools-#.zip`; see the top of this article.
 
 
 ## Config as Source
@@ -165,4 +159,4 @@ For many game developers, using Partner Center is sufficient.
 For advanced users, however, there is a desire to integrate common configuration tasks into their own processes and tools.
 Config as Source is intended to support these scenarios by providing command line tools and new APIs to support custom integration into your existing workflows and pipelines.
 
-The tool is available via command-line as part of the Xbox Live Development Tools .zip file (`XboxLiveTools-#.zip`).
+This command-line tool is part of `XboxLiveTools-#.zip`; see the top of this article.
