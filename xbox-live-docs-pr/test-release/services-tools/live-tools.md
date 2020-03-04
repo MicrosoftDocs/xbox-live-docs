@@ -58,10 +58,7 @@ For setting the sandbox, the Sandbox Switcher requires elevated privileges (such
 If the tool is run without elevated privileges, then the tool will attempt to re-run in an elevated state.
 
 
-### Command options
-
-
-#### Getting the current sandbox
+### Getting the current sandbox
 
 <pre>
 XBLPCSandbox
@@ -70,7 +67,7 @@ XBLPCSandbox
 Gets the current Xbox Live sandbox, if any.
 
 
-#### Showing Help info
+### Showing Help info
 
 <pre>
 XBLPCSandbox /?
@@ -79,7 +76,7 @@ XBLPCSandbox /?
 Shows the help information, similar to this section.
 
 
-#### Setting the sandbox
+### Setting the sandbox
 
 <pre>
 XBLPCSandbox <i>sandbox</i>
@@ -94,7 +91,7 @@ If the Microsoft Store app, the Xbox app, and/or the Xbox Companion app is open,
 If one of these apps is not open, the Sandbox Switcher doesn't open that app.
 
 
-##### Switching back to RETAIL
+#### Switching back to RETAIL
 
 To reset the device to normal, set the sandbox to RETAIL.
 For example: `XBLPCSandbox RETAIL`
