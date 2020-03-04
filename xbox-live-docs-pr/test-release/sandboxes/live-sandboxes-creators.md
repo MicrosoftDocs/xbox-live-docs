@@ -86,7 +86,7 @@ To switch back to RETAIL, you can enter RETAIL here.
 <!-- --------------- -->
 ### Command-line
 
-The Xbox Live development tools .zip file contains a command-line tool to switch sandboxes for PC development.
+The Xbox Live development tools file (`XboxLiveTools.zip`) contains a command-line tool to switch sandboxes for PC development.
 See the section [Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)](../services-tools/live-tools.md#xpssc) in the article "Development tools for Xbox Live".
 
 
