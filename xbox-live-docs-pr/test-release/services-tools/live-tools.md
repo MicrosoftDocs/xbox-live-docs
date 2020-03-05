@@ -87,7 +87,7 @@ For example: `XBLPCSandbox XDKS.1`
 
 When setting the sandbox, the Sandbox Switcher always restarts the Xbox Live Auth Manager.
 
-If the Microsoft Store app, the Xbox app, and/or the Xbox Companion app is open, setting the sandbox re-launches the open apps in sandbox mode.
+If the Microsoft Store app, the Xbox app, and/or the Xbox Companion app is open, setting the sandbox relaunches the open apps in sandbox mode.
 If one of these apps is not open, the Sandbox Switcher doesn't open that app.
 
 
@@ -96,7 +96,7 @@ If one of these apps is not open, the Sandbox Switcher doesn't open that app.
 To reset the device to normal, set the sandbox to RETAIL.
 For example: `XBLPCSandbox RETAIL`
 
-Setting the sandbox to RETAIL resets the opened apps to normal, including Xbox Live Auth Manager, the Microsoft Store app, the Xbox app, and the Xbox Companion app.
+Resetting the sandbox to RETAIL will restart the Xbox Live Auth Manager and relaunch opened system apps (the Microsoft Store app, the Xbox app, and/or the Xbox Companion app) back to normal.
 
 
 ## Multiplayer Session History Viewer
