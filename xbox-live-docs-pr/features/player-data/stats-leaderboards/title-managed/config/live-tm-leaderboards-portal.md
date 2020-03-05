@@ -65,10 +65,6 @@ Each **Format** option will give some information on acceptable values or format
 | Long timespan stats | Use the Xd Xh Xm format like 1d 2h 10m, this stat will also ask you to provide a time unit for the stat. |
 | Sort field | Lets you change the sort order of the leaderboard to be either ascending or descending. |
 
-<!-- gdk has:
-Developers are limited to having no more than 20 featured stats for their title, but there is no requirement for developers to include Featured Stats in their title.
--->
-<!-- public instead has: -->
 There are the following requirements when configuring a featured stat and leaderboard:
 
 | Developer Type | Requirement | Limit |
