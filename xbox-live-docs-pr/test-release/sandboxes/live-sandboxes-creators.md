@@ -36,20 +36,19 @@ The **Sandbox ID** will be listed at the top of the page.
 ![Title Information in Partner Center. Includes Sandbox ID](../../images/getting_started/devcenter_sandbox_id.png)
 
 
+<!-- =============================================================== -->
 ## Switch your PC's development sandbox
 
 You can switch your PC into the development sandbox by using Unity, Windows Device Portal (WPD), or the command line.
 
-
+<!-- --------------- -->
 ### Unity
-
 
 #### Prerequisites
 
 The following needs to be done before you can switch in and out of the development sandbox in Unity:
 
 * [Configuring Xbox Live in Unity](../../get-started/setup-ide/creators/unity-win10/live-configure-xbl-in-unity.md)
-
 
 #### Switch Sandboxes
 
@@ -64,15 +63,14 @@ You can see the current sandbox in the **Developer Mode Configuration** section.
 ![XBL Enabled](../../images/unity/unity-xbl-dev-mode.PNG)
 
 
+<!-- --------------- -->
 ### Windows Device Portal
-
 
 #### Prerequisites
 
 The following needs to be done before you switch your sandbox in Windows Device Portal (WPD):
 
 1. [Setup Device Portal on Windows Desktop](https://msdn.microsoft.com/windows/uwp/debug-test-perf/device-portal-desktop)
-
 
 #### Switch Sandboxes
 
@@ -85,38 +83,18 @@ The following needs to be done before you switch your sandbox in Windows Device 
 To switch back to RETAIL, you can enter RETAIL here.
 
 
+<!-- --------------- -->
 ### Command-line
 
-
-#### Prerequisites
-
-The following needs to be done before you can switch in and out of the development sandbox via command-line:
-
-1. Download the Xbox Live Tools Package at [https://aka.ms/xboxliveuwptools](https://aka.ms/xboxliveuwptools), and then unzip the package.
+The Xbox Live development tools file (`XboxLiveTools.zip`) contains a command-line tool to switch sandboxes for PC development.
+See the section [Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)](../services-tools/live-tools.md#xpssc) in the article "Development tools for Xbox Live".
 
 
-#### Switch Sandboxes
-
-1. Run the `SwitchSandbox.cmd` batch file in **administrator mode**.
-
-Run this in Administrator mode to switch your sandbox.
-The first argument is the sandbox.
-For example, to switch to the MJJSQH.58 sandbox, use this command:
-
-```cmd
-SwitchSandbox.cmd MJJSQH.58
-```
-
-To switch back to RETAIL, provide that as the second argument:
-
-```cmd
-SwitchSandbox.cmd RETAIL
-```
-
-
+<!-- =============================================================== -->
 ## Switch your Xbox One console development sandbox
 
 
+<!-- --------------- -->
 ### Using Xbox Dev Portal
 
 You can use the Xbox Dev Portal to change the sandbox on your console:
@@ -130,9 +108,10 @@ You can use the Xbox Dev Portal to change the sandbox on your console:
 
 ![[Sandbox configuration at portal](../../images/getting_started/xdp_switch_sandbox.png)
 
-<!-- todo: replace XDP captures by Partner Center captures -->
+<!-- replace XDP captures by Partner Center captures -->
 
 
+<!-- --------------- -->
 ### Using Xbox One console UI
 
 You can use [Dev Home](https://docs.microsoft.com/windows/uwp/xbox-apps/dev-home) to change the sandbox on your console directly:
