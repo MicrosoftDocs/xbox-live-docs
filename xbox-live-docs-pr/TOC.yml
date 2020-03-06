@@ -205,6 +205,14 @@
                           href: features/player-data/stats-leaderboards/event-based/how-to/live-handling-eb-stat-change.md
                         - name: Example code for event-based Leaderboards
                           href: features/player-data/stats-leaderboards/event-based/how-to/live-leaderboards-eb-howto.md
+                    - name: Events
+                      href: features/player-data/stats-leaderboards/event-based/events/how-to/live-events-nav.md
+                      items: 
+                        - name: Events how-to's
+                          href: features/player-data/stats-leaderboards/event-based/events/how-to/live-events-howto-nav.md
+                          items: 
+                            - name: Sending an event
+                              href: features/player-data/stats-leaderboards/event-based/events/how-to/live-sending-an-event.md
                 - name: Title-managed Stats & Leaderboards
                   href: features/player-data/stats-leaderboards/title-managed/live-statslb-tm-nav.md
                   items: 
