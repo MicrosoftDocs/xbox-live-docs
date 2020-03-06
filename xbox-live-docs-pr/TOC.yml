@@ -197,6 +197,12 @@
                     - name: Event-based Stats & Leaderboards how-to's
                       href: features/player-data/stats-leaderboards/event-based/how-to/live-statslb-eb-howto-nav.md
                       items: 
+                        - name: Writing an event to power an event-based Stat
+                          href: features/player-data/stats-leaderboards/event-based/how-to/live-sending-eb-stat.md
+                        - name: Getting event-based stats
+                          href: features/player-data/stats-leaderboards/event-based/how-to/live-getting-eb-stat.md
+                        - name: Handling an event-based stat change
+                          href: features/player-data/stats-leaderboards/event-based/how-to/live-handling-eb-stat-change.md
                         - name: Example code for event-based Leaderboards
                           href: features/player-data/stats-leaderboards/event-based/how-to/live-leaderboards-eb-howto.md
                 - name: Title-managed Stats & Leaderboards
