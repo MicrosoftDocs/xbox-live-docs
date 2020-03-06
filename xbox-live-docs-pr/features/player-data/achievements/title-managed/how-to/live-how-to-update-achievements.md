@@ -11,6 +11,7 @@ ms.date: 09/23/2019
 ms.localizationpriority: medium
 ---
 
+
 # Updating title-managed Achievements
 
 **Contents:**
@@ -29,13 +30,13 @@ See the code in the next section.
 To unlock an achievement, set the *percentComplete* to 100.
 If the user is online, the request will be immediately sent to the Xbox Live Achievements service and will trigger the following user experiences:
 -   The user will receive an Achievement Unlocked notification;
--   The specified achievement will appear as Unlocked in the user’s achievement list for the title;
--   The unlocked achievement will be added to the user’s activity feed.
+-   The specified achievement will appear as Unlocked in the user's achievement list for the title;
+-   The unlocked achievement will be added to the user's activity feed.
     > [!NOTE]
     > There will be no visible difference in user experiences for achievements that use event-based or title-managed Achievements.
 
-If the user is offline, the unlock request will be queued locally on the user’s device.
-When the user’s device has reestablished network connectivity, the request will automatically be sent to the Achievements service (no action is required from the game to trigger this), and the above user experiences will occur as described.
+If the user is offline, the unlock request will be queued locally on the user's device.
+When the user's device has reestablished network connectivity, the request will automatically be sent to the Achievements service (no action is required from the game to trigger this), and the above user experiences will occur as described.
 
 
 <!-- ===================================================== -->
@@ -43,12 +44,12 @@ When the user’s device has reestablished network connectivity, the request wil
 
 ## Updating completion progress for an Achievement
 
-To update a user’s progress toward unlocking an achievement, call `XblAchievementsUpdateAchievementAsync`, setting the *percentComplete* argument to a whole number between 1-100.
+To update a user's progress toward unlocking an achievement, call `XblAchievementsUpdateAchievementAsync`, setting the *percentComplete* argument to a whole number between 1-100.
 See the code below.
 
-An achievement’s progress can only increase.
-If *percentComplete* is set to a number less than the achievement’s last *percentComplete* value, the update will be ignored. 
-For example, if the achievement’s *percentComplete* had previously been set to 75, sending an update with a value of 25 will be ignored and the achievement will still be displayed as 75% complete.
+An achievement's progress can only increase.
+If *percentComplete* is set to a number less than the achievement's last *percentComplete* value, the update will be ignored. 
+For example, if the achievement's *percentComplete* had previously been set to 75, sending an update with a value of 25 will be ignored and the achievement will still be displayed as 75% complete.
 
 If *percentComplete* is set to 100, the achievement will unlock.
 
@@ -98,12 +99,10 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!-- not present in public 
-**Reference**
+<!-- **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XAsyncGetStatus](xasyncgetstatus.md)
-* [XblAchievementsUpdateAchievementAsync](xblachievementsupdateachievementasync.md)
--->
+* [XblAchievementsUpdateAchievementAsync](xblachievementsupdateachievementasync.md)-->
 
 
 ### Updating achievements for a different title
@@ -151,9 +150,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!-- not present in public 
-**Reference**
+<!-- **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XAsyncGetStatus](xasyncgetstatus.md)
-* [XblAchievementsUpdateAchievementForTitleIdAsync](xblachievementsupdateachievementfortitleidasync.md)
--->
+* [XblAchievementsUpdateAchievementForTitleIdAsync](xblachievementsupdateachievementfortitleidasync.md)-->

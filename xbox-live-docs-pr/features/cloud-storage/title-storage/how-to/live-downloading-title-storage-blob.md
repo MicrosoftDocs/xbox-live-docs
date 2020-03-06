@@ -58,7 +58,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!-- In .Chm only:
+<!--
 **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblTitleStorageDownloadBlobAsync](xbltitlestoragedownloadblobasync.md)

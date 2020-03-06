@@ -11,6 +11,8 @@ ms.localizationpriority: medium
 ms.assetid: f3a6c8bc-4f73-4b99-ac51-aadee73c8cfa
 ---
 
+
+
 # Multiplayer Manager overview
 
 Xbox Live provides extensive support for adding multiplayer functionality to your titles, allowing your game to connect Xbox Live members across the world.
@@ -35,8 +37,8 @@ These are the main features of the Multiplayer Manager API:
 * State and event based programming model.
 * Ensures Xbox Live Best Practices  along with being Multiplayer XR compliant.
 * Supports both Xbox One XDK and UWP titles.
-* Works alongside the traditional Multiplayer 2015 APIs.
 * Implements [Multiplayer 2015 flowcharts](https://developer.xboxlive.com/en-us/platform/development/education/Documents/Xbox%20One%20Multiplayer%202015%20Developer%20Flowcharts.aspx).
+* Works alongside the traditional Multiplayer 2015 APIs.
 <!-- keep /en-us/ in URL else 404 
 .zip contains:
 Xbox_One_Multiplayer_2015_Developer_Flowcharts.pdf - 14 pages/diagrams
@@ -114,6 +116,62 @@ For more details, see the `multiplayer_event` class documentation.
 For each event, depending on the event type, you must cast the `event_args` to the appropriate event arg class to get the event properties.
 The following example demonstrates using `do_work()` to handle events:
 
+
+**C API**
+<!-- XblMultiplayerManagerDoWork_C.md -->
+```cpp
+size_t eventCount{ 0 };
+const XblMultiplayerEvent* events{ nullptr };
+HRESULT hr = XblMultiplayerManagerDoWork(&events, &eventCount);
+if (FAILED(hr))
+{
+    // Handle failure
+}
+
+for (auto i = 0u; i < eventCount; ++i)
+{
+    switch (events[i].EventType)
+    {
+        case XblMultiplayerEventType::MemberJoined:
+        {
+            // Handle MemberJoined
+            size_t memberCount = 0;
+            hr = XblMultiplayerEventArgsMembersCount(events[i].EventArgsHandle, &memberCount);
+            assert(SUCCEEDED(hr));
+
+            std::vector<XblMultiplayerManagerMember> members(memberCount);
+            hr = XblMultiplayerEventArgsMembers(events[i].EventArgsHandle, memberCount, members.data());
+            assert(SUCCEEDED(hr));
+            ...
+
+            break;
+        }
+        case XblMultiplayerEventType::SessionPropertyChanged:
+        {
+            // Handle SessionPropertyChanged
+            const char* changedProperty{ nullptr };
+            hr = XblMultiplayerEventArgsPropertiesJson(events[i].EventArgsHandle, &changedProperty);
+            assert(SUCCEEDED(hr));
+            ...
+
+            break;
+        }
+        ...
+    }
+}
+```
+
+<!-- **Reference**
+* [XblMultiplayerEvent](xblmultiplayerevent.md)
+* [XblMultiplayerEventArgsMembers](xblmultiplayereventargsmembers.md)
+* [XblMultiplayerEventArgsMembersCount](xblmultiplayereventargsmemberscount.md)
+* [XblMultiplayerEventArgsPropertiesJson](xblmultiplayereventargspropertiesjson.md)
+* [XblMultiplayerEventType](xblmultiplayereventtype.md)
+* [XblMultiplayerManagerDoWork](xblmultiplayermanagerdowork.md)
+* [XblMultiplayerManagerMember](xblmultiplayermanagermember.md) -->
+
+
+**C++ API**
 ```cpp
 auto eventQueue = mpInstance.do_work();
 for (auto& event : eventQueue)
@@ -135,7 +193,6 @@ for (auto& event : eventQueue)
       ...
     }
 }
-
 ```
 
 
@@ -149,7 +206,7 @@ Some information on what Multiplayer Manager is doing behind the scenes is also 
 * [Sending game invites using Multiplayer Manager](how-to/live-send-game-invites.md)
 * [Handling protocol activation to start a game, using Multiplayer Manager](how-to/live-handle-protocol-activation.md)
 
-A high level overview of the API can be found at [Multiplayer Manager API overview](concepts/live-multiplayer-manager-api-overview.md).
+A high-level overview of the API can be found at [Multiplayer Manager API overview](concepts/live-multiplayer-manager-api-overview.md).
 
 
 ## What Multiplayer Manager does not do

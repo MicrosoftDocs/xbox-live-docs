@@ -11,6 +11,7 @@ ms.date: 09/23/2019
 ms.localizationpriority: medium
 ---
 
+
 # Getting title-managed Achievements
 
 **Contents:**
@@ -82,8 +83,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!-- not present in public 
-**Reference**
+<!-- **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblAchievement](xblachievement.md)
 * [XblAchievementProgressState](xblachievementprogressstate.md)
@@ -91,8 +91,7 @@ if (SUCCEEDED(hr))
 * [XblAchievementsGetAchievementsForTitleIdResult](xblachievementsgetachievementsfortitleidresult.md)
 * [XblAchievementsResultCloseHandle](xblachievementsresultclosehandle.md)
 * [XblAchievementsResultDuplicateHandle](xblachievementsresultduplicatehandle.md)
-* [XblAchievementsResultGetAchievements](xblachievementsresultgetachievements.md)
--->
+* [XblAchievementsResultGetAchievements](xblachievementsresultgetachievements.md)-->
 <!-- * [XblAchievementsResultHandle](xblachievementsresulthandle.md) -->
 
 
@@ -117,10 +116,8 @@ if (achievementsResult != nullptr)
 }
 ```
 
-<!-- not present in public 
-**Reference**
-* [XblAchievementsResultHasNext](xblachievementsresulthasnext.md)
--->
+<!-- **Reference**
+* [XblAchievementsResultHasNext](xblachievementsresulthasnext.md)-->
 
 
 ### Calling XblAchievementsResultGetNextAsync
@@ -171,16 +168,14 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!-- not present in public 
-**Reference**
+<!-- **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblAchievement](xblachievement.md)
 * [XblAchievementProgressState](xblachievementprogressstate.md)
 * [XblAchievementsResultCloseHandle](xblachievementsresultclosehandle.md)
 * [XblAchievementsResultGetAchievements](xblachievementsresultgetachievements.md)
 * [XblAchievementsResultGetNextAsync](xblachievementsresultgetnextasync.md)
-* [XblAchievementsResultGetNextResult](xblachievementsresultgetnextresult.md)
--->
+* [XblAchievementsResultGetNextResult](xblachievementsresultgetnextresult.md)-->
 <!-- * [XblAchievementsResultHandle](xblachievementsresulthandle.md) -->
 
 
@@ -231,13 +226,11 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!-- not present in public 
-**Reference**
+<!-- **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblAchievement](xblachievement.md)
 * [XblAchievementsGetAchievementAsync](xblachievementsgetachievementasync.md)
 * [XblAchievementsGetAchievementResult](xblachievementsgetachievementresult.md)
 * [XblAchievementsResultCloseHandle](xblachievementsresultclosehandle.md)
-* [XblAchievementsResultGetAchievements](xblachievementsresultgetachievements.md)
--->
+* [XblAchievementsResultGetAchievements](xblachievementsresultgetachievements.md)-->
 <!-- * [XblAchievementsResultHandle](xblachievementsresulthandle.md) -->

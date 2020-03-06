@@ -56,13 +56,13 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!-- In .Chm only:
+<!-- 
 **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblTitleStorageBlobMetadataResultCloseHandle](xbltitlestorageblobmetadataresultclosehandle.md)
 -->
 <!-- * [XblTitleStorageBlobMetadataResultHandle](xbltitlestorageblobmetadataresulthandle.md) -->
-<!-- In .Chm only:
+<!-- 
 * [XblTitleStorageGetBlobMetadataAsync](xbltitlestoragegetblobmetadataasync.md)
 * [XblTitleStorageGetBlobMetadataResult](xbltitlestoragegetblobmetadataresult.md)
 -->
@@ -81,7 +81,7 @@ size_t itemsSize;
 HRESULT hr = XblTitleStorageBlobMetadataResultGetItems(handle, &items, &itemsSize);
 ```
 
-<!-- In .Chm only:
+<!-- 
 **Reference**
 * [XblTitleStorageBlobMetadata](xbltitlestorageblobmetadata.md)
 * [XblTitleStorageBlobMetadataResultGetItems](xbltitlestorageblobmetadataresultgetitems.md)
@@ -104,11 +104,11 @@ XblTitleStorageBlobMetadataResultHandle handle = blobMetadataResultHandle;
 bool hasNext;
 HRESULT hr = XblTitleStorageBlobMetadataResultHasNext(handle, &hasNext);
 ```
-<!-- In .Chm only:
+<!-- 
 **Reference**
 -->
 <!-- * [XblTitleStorageBlobMetadataResultHandle](xbltitlestorageblobmetadataresulthandle.md) -->
-<!-- In .Chm only:
+<!-- 
 * [XblTitleStorageBlobMetadataResultHasNext](xbltitlestorageblobmetadataresulthasnext.md)
 -->
 
@@ -138,7 +138,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!-- In .Chm only:
+<!-- 
 **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblTitleStorageBlobMetadataResultGetNextAsync](xbltitlestorageblobmetadataresultgetnextasync.md)
@@ -160,7 +160,7 @@ XblTitleStorageBlobMetadataResultHandle duplicatedHandle;
 HRESULT hr = XblTitleStorageBlobMetadataResultDuplicateHandle(handle, &duplicatedHandle);
 ```
 
-<!-- In .Chm only:
+<!-- 
 **Reference**
 * [XblTitleStorageBlobMetadataResultDuplicateHandle](xbltitlestorageblobmetadataresultduplicatehandle.md)
 -->
@@ -179,7 +179,7 @@ XblTitleStorageBlobMetadataResultCloseHandle(handle);
 blobMetadataResultHandle = nullptr;
 ```
 
-<!-- In .Chm only:
+<!-- 
 **Reference**
 * [XblTitleStorageBlobMetadataResultCloseHandle](xbltitlestorageblobmetadataresultclosehandle.md)
 -->

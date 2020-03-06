@@ -47,7 +47,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!-- In .Chm only:
+<!--
 **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblTitleStorageGetQuotaAsync](xbltitlestoragegetquotaasync.md)
