@@ -300,5 +300,5 @@ if (SUCCEEDED(hr))
 
 ## See also
 
-* [Sending an event](live-sending-an-event.md)
-* [user_statistics_c header](user_statistics_c_members.md)
+* [Sending an event](../events/how-to/live-sending-an-event.md)
+<!-- * [user_statistics_c header](user_statistics_c_members.md) -->

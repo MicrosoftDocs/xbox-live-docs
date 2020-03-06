@@ -206,7 +206,7 @@
                         - name: Example code for event-based Leaderboards
                           href: features/player-data/stats-leaderboards/event-based/how-to/live-leaderboards-eb-howto.md
                     - name: Events
-                      href: features/player-data/stats-leaderboards/event-based/events/how-to/live-events-nav.md
+                      href: features/player-data/stats-leaderboards/event-based/events/live-events-nav.md
                       items: 
                         - name: Events how-to's
                           href: features/player-data/stats-leaderboards/event-based/events/how-to/live-events-howto-nav.md
