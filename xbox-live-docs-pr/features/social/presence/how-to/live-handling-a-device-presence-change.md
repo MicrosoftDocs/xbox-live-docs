@@ -36,7 +36,7 @@ HRESULT hr = XblPresenceSubscribeToDevicePresenceChange(
 );
 ```
 
-<!-- in gdk only:
+<!--
 **Reference**
 * [XblPresenceSubscribeToDevicePresenceChange](xblpresencesubscribetodevicepresencechange.md)
 -->
@@ -57,7 +57,7 @@ HRESULT hr = XblPresenceUnsubscribeFromDevicePresenceChange(
 state.devicePresenceChangeSubscription = nullptr;
 ```
 
-<!-- in gdk only:
+<!--
 **Reference**
 * [XblPresenceUnsubscribeFromDevicePresenceChange](xblpresenceunsubscribefromdevicepresencechange.md)
 -->
@@ -82,7 +82,7 @@ state.devicePresenceChangedHandlerToken = XblPresenceAddDevicePresenceChangedHan
 );
 ```
 
-<!-- in gdk only:
+<!--
 **Reference**
 * [XblPresenceAddDevicePresenceChangedHandler](xblpresenceadddevicepresencechangedhandler.md)
 * [XblPresenceDeviceType](xblpresencedevicetype.md)
@@ -104,7 +104,7 @@ HRESULT hr = XblPresenceRemoveDevicePresenceChangedHandler(
 state.devicePresenceChangedHandlerToken = 0;
 ```
 
-<!-- in gdk only:
+<!--
 **Reference**
 * [XblPresenceRemoveDevicePresenceChangedHandler](xblpresenceremovedevicepresencechangedhandler.md)
 -->

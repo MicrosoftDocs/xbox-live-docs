@@ -43,7 +43,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!-- in gdk only:
+<!--
 **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XAsyncGetStatus](xasyncgetstatus.md)
@@ -77,7 +77,7 @@ ids.presenceTokenIdsCount = tokenIds.size();
 HRESULT hr = XblPresenceSetPresenceAsync(xboxLiveContext, true, &ids, asyncBlock.get());
 ```
 
-<!-- in gdk only:
+<!--
 **Reference**
 * [XblPresenceRichPresenceIds](xblpresencerichpresenceids.md)
 * [XblPresenceSetPresenceAsync](xblpresencesetpresenceasync.md)

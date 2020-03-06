@@ -102,24 +102,11 @@ Both ways are described below.
    To switch back to RETAIL, you can enter "RETAIL" here.
 
 
-### Command Prompt Script
+### Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)
 
-Download the Xbox Live Tools Package at [https://aka.ms/xboxliveuwptools](https://aka.ms/xboxliveuwptools) and unzip.
-You will find a `SwitchSandbox.cmd` batch file within.
+The Xbox Live development tools file (`XboxLiveTools.zip`) contains a command-line tool to switch sandboxes for PC development.
+See the section [Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)](../services-tools/live-tools.md#xpssc) in the article "Development tools for Xbox Live".
 
-Run this in Administrator mode to switch your sandbox.
-The first argument is the sandbox.
-For example if you are trying to switch to the XDKS.1 sandbox, you would do:
-
-```cmd
-SwitchSandbox.cmd XDKS.1
-```
-
-To switch back to RETAIL, you simply provide that as the second argument.
-
-```cmd
-SwitchSandbox.cmd RETAIL
-```
 
 ## Switch your Xbox One console development sandbox
 
