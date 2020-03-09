@@ -5,8 +5,6 @@ kindex: Handling a title Presence change
 kindex: Presence
 author: mikehoffms
 ms.author: v-mihof
-ms.prod: xbox
-ms.technology: xboxgc
 ms.topic: conceptual
 ms.localizationpriority: medium
 ms.date: 01/09/2020
