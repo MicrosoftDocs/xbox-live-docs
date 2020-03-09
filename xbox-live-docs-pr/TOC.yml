@@ -259,6 +259,7 @@
                   items: 
                     - name: Event-based Achievements how-to's
                       href: features/player-data/achievements/event-based/how-to/live-achievements-eb-howto-nav.md
+                      items: 
                         - name: Getting event-based Achievements
                           href: features/player-data/achievements/event-based/how-to/live-getting-event-based-achievements.md
                         - name: Writing an event to power an event-based Achievement
