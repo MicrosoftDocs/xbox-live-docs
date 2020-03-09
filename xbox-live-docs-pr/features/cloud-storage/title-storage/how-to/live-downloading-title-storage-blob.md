@@ -5,8 +5,8 @@ kindex: Downloading a blob from Title Storage
 author: heba
 ms.author: heba
 ms.topic: conceptual
-ms.prod: xbox
-ms.technology: xboxgc
+ms.prod: gaming
+ms.technology: xboxlive
 ms.assetid: f424aca1-e671-4e31-84c6-098fda4a9558
 ms.date: 11/15/2019
 ms.localizationpriority: medium

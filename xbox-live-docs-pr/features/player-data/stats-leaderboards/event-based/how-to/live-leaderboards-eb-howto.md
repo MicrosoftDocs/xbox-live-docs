@@ -76,6 +76,8 @@ To see all of the event-based Leaderboards APIs, see the `leaderboard_service` n
 Use `XblLeaderboardGetLeaderboardAsync` to return the leaderboard values for the given leaderboard, starting from the top of the leaderboard.
 
 
+### Basic leaderboard display (C API)
+
 **C API**
 <!-- XblLeaderboardGetLeaderboardAsync.md -->
 ```cpp
@@ -138,7 +140,7 @@ if (SUCCEEDED(hr))
 * [XblLeaderboardResult](xblleaderboardresult.md) -->
 
 
-### Basic leaderboard display (C++)
+### Basic leaderboard display (C++ API)
 
 The following `get_leaderboard` C++ function is the most basic version of the API.
 This returns the leaderboard values for the given leaderboard, starting from the player at the top of the leaderboard.
@@ -151,7 +153,7 @@ pplx::task<xbox_live_result<leaderboard_result>> get_leaderboard(
         );
 ```
 
-### Basic leaderboard display (C#)
+### Basic leaderboard display (C# API)
 
 The following `GetLeaderboardAsync` WinRT C# function gets a leaderboard for a single leaderboard, given a service configuration ID and a leaderboard name.
 
@@ -170,6 +172,8 @@ Windows::Foundation::IAsyncOperation< LeaderboardResult^> ^  GetLeaderboardAsync
 
 Use the same code as above, except that to create the `XblLeaderboardQuery`, use this code instead:
 
+
+### Get a specified page of results (C)
 
 **C API**
 <!-- XblLeaderboardGetLeaderboardAsync-Rank.md -->
@@ -198,7 +202,6 @@ pplx::task<xbox_live_result<leaderboard_result>> get_leaderboard(
     _In_ uint32_t skipToRank,
     _In_ uint32_t maxItems = 0
     );
-
 ```
 
 

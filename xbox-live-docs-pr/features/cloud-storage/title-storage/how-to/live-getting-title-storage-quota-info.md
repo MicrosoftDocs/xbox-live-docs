@@ -5,8 +5,8 @@ kindex: Getting quota info for a Title Storage service configuration
 author: heba
 ms.author: heba
 ms.topic: conceptual
-ms.prod: xbox
-ms.technology: xboxgc
+ms.prod: gaming
+ms.technology: xboxlive
 ms.date: 11/15/2019
 ms.localizationpriority: medium
 edited: 11/15/2019

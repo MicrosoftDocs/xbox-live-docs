@@ -27,12 +27,14 @@ This scenario covers how to handle the protocol activation when your title is la
 You can see a flowchart of the process here: [Handling protocol activation (flowchart)](../concepts/flowcharts/live-mpm-on-protocol-activation.md).
 
 
-<!-- chm needs c version; commented out there: -->
+**C++ API**
 | Method | Event triggered |
 | -----|----------------|
 | `multiplayer_manager::join_lobby(IProtocolActivatedEventArgs^ args, User^)` | `join_lobby_completed_event` |
 | `multiplayer_lobby_session::set_local_member_connection_address()` | `local_member_connection_address_write_completed ` |
 | `multiplayer_lobby_session::set_local_member_properties()` | `member_property_changed` |
+
+
 
 When a player accepts a game invite or joins a friend's game through the player's gamercard, the game is launched on their device by using protocol activation.
 Once the game starts, Multiplayer Manager can use the protocol activated event arguments to join the lobby.

@@ -6,8 +6,8 @@ layout: LandingPage
 author: v-mihof
 ms.author: v-mihof
 ms.topic: landing-page
-ms.prod: xbox
-ms.technology: xboxgc
+ms.prod: gaming
+ms.technology: xboxlive
 ms.date: 01/30/2020
 edited: 00/00/0000
 ---

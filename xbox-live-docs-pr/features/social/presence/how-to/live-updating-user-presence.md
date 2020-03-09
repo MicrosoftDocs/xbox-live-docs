@@ -11,6 +11,7 @@ ms.date: 01/09/2020
 edited: 01/09/2020
 ---
 
+
 # Updating a user's Presence via XSAPI C
 
 Xbox Live Rich Presence provides features for advertising a player's current activity to other players.
@@ -43,12 +44,10 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!--
-**Reference**
+<!--**Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XAsyncGetStatus](xasyncgetstatus.md)
-* [XblPresenceSetPresenceAsync](xblpresencesetpresenceasync.md)
--->
+* [XblPresenceSetPresenceAsync](xblpresencesetpresenceasync.md)-->
 
 
 <!-- ### Updating basic Presence status -->
@@ -77,8 +76,6 @@ ids.presenceTokenIdsCount = tokenIds.size();
 HRESULT hr = XblPresenceSetPresenceAsync(xboxLiveContext, true, &ids, asyncBlock.get());
 ```
 
-<!--
-**Reference**
+<!--**Reference**
 * [XblPresenceRichPresenceIds](xblpresencerichpresenceids.md)
-* [XblPresenceSetPresenceAsync](xblpresencesetpresenceasync.md)
--->
+* [XblPresenceSetPresenceAsync](xblpresencesetpresenceasync.md)-->

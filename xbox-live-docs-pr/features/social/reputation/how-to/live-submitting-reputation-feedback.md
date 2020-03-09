@@ -6,8 +6,8 @@ kindex: Reputation
 author: mikehoffms
 ms.author: v-mihof
 ms.topic: conceptual
-ms.prod: xbox
-ms.technology: xboxgc
+ms.prod: gaming
+ms.technology: xboxlive
 ms.localizationpriority: medium
 ms.date: 01/09/2020
 ---
@@ -16,6 +16,7 @@ ms.date: 01/09/2020
 
 
 ## Submitting a single Reputation feedback
+
 
 **C API**
 <!--  XblSocialSubmitReputationFeedbackAsync_C.md -->
@@ -47,16 +48,15 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!--
-**Reference**
+<!--**Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XAsyncGetStatus](xasyncgetstatus.md)
 * [XblReputationFeedbackType](xblreputationfeedbacktype.md)
-* [XblSocialSubmitReputationFeedbackAsync](xblsocialsubmitreputationfeedbackasync.md)
--->
+* [XblSocialSubmitReputationFeedbackAsync](xblsocialsubmitreputationfeedbackasync.md)-->
 
 
 ## Submitting multiple Reputation feedback items
+
 
 **C API**
 <!--  _C.md -->
@@ -95,11 +95,9 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!--
-**Reference**
+<!--**Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XAsyncGetStatus](xasyncgetstatus.md)
 * [XblReputationFeedbackItem](xblreputationfeedbackitem.md)
 * [XblReputationFeedbackType](xblreputationfeedbacktype.md)
-* [XblSocialSubmitBatchReputationFeedbackAsync](xblsocialsubmitbatchreputationfeedbackasync.md)
--->
+* [XblSocialSubmitBatchReputationFeedbackAsync](xblsocialsubmitbatchreputationfeedbackasync.md)-->

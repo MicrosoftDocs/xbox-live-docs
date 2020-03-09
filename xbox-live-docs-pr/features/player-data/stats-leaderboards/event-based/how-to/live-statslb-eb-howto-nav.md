@@ -6,8 +6,8 @@ kindex: Event-based Stats & Leaderboards how-to's
 author: v-mihof
 ms.author: v-mihof
 ms.topic: conceptual
-ms.prod: xbox
-ms.technology: xboxgc
+ms.localizationpriority: medium
+ms.date: 11/20/2019
 ---
 
 # Event-based Stats & Leaderboards how-to's
