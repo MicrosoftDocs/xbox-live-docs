@@ -23,9 +23,9 @@ edited: 00/00/0000
 | [Event-based Achievements how-to's](how-to/live-achievements-eb-howto-nav.md) | Example code for event-based Achievements. |
 
 
-### See also for event-based Achievements
+### See also
 
 | Page | Description |
 |---------|-------------|
-| [Data platform 2013 and 2015 (that is, event-based)](https://developer.microsoft.com/games/xbox/docs/xdk/data-platform-2013-2015) | Conceptual articles about event-based Achievements (and Stats and Leaderboards). This is an external link, to the "Xbox One XDK" documentation.  Or, see "Data platform 2013 and 2015" in `XboxOneXDK.chm`. |
-| [Configure Xbox Live data platform 2013 in Windows Dev Center (that is, Partner Center)](https://developer.microsoft.com/games/xbox/docs/xdk/dev-center-configure-data-platform-2013) | Portal configuration articles about event-based Achievements (and Stats and Leaderboards). This is an external link, to the "Xbox One XDK" documentation. Or, see "Configure Xbox Live data platform 2013 in Windows Dev Center" in `XboxOneXDK.chm`. |
+| <a href="https://developer.microsoft.com/games/xbox/docs/xdk/data-platform-2013-2015" target="_blank">Data platform 2013 and 2015 &#11008;</a> | Conceptual articles about event-based Achievements, in the "Xbox One XDK" documentation.  Or, see "Data platform 2013 and 2015" in `XboxOneXDK.chm`. |
+| <a href="https://developer.microsoft.com/games/xbox/docs/xdk/dev-center-configure-data-platform-2013" target="_blank">Configure Xbox Live data platform 2013 in Windows Dev Center &#11008;</a> | Portal configuration articles about event-based Achievements, in the "Xbox One XDK" documentation. Or, see "Configure Xbox Live data platform 2013 in Windows Dev Center" in `XboxOneXDK.chm`. |

@@ -1,6 +1,6 @@
 ---
 title: Event-based Stats & Leaderboards how-to's
-description: How-to articles about event-based Stats & Leaderboards, such as example code for tasks.
+description: Example code for event-based Stats & Leaderboards.
 layout: LandingPage
 kindex: Event-based Stats & Leaderboards how-to's
 author: v-mihof
