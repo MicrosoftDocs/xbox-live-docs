@@ -7,8 +7,8 @@ kindex: leaderboards, Xbox Live
 author: v-mihof
 ms.author: v-mihof
 ms.topic: conceptual
-ms.prod: xbox
-ms.technology: xboxgc
+ms.prod: gaming
+ms.technology: xboxlive
 ms.localizationpriority: medium
 ms.assetid: e0f37d2-ea02-48ea-bcdf-828272a894d4
 ms.date: 10/30/2017

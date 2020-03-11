@@ -197,8 +197,22 @@
                     - name: Event-based Stats & Leaderboards how-to's
                       href: features/player-data/stats-leaderboards/event-based/how-to/live-statslb-eb-howto-nav.md
                       items: 
+                        - name: Writing an event to power an event-based Stat
+                          href: features/player-data/stats-leaderboards/event-based/how-to/live-sending-eb-stat.md
+                        - name: Getting event-based stats
+                          href: features/player-data/stats-leaderboards/event-based/how-to/live-getting-eb-stat.md
+                        - name: Handling an event-based stat change
+                          href: features/player-data/stats-leaderboards/event-based/how-to/live-handling-eb-stat-change.md
                         - name: Example code for event-based Leaderboards
                           href: features/player-data/stats-leaderboards/event-based/how-to/live-leaderboards-eb-howto.md
+                    - name: Events
+                      href: features/player-data/stats-leaderboards/event-based/events/live-events-nav.md
+                      items: 
+                        - name: Events how-to's
+                          href: features/player-data/stats-leaderboards/event-based/events/how-to/live-events-howto-nav.md
+                          items: 
+                            - name: Sending an event
+                              href: features/player-data/stats-leaderboards/event-based/events/how-to/live-sending-an-event.md
                 - name: Title-managed Stats & Leaderboards
                   href: features/player-data/stats-leaderboards/title-managed/live-statslb-tm-nav.md
                   items: 
@@ -214,6 +228,8 @@
                       items: 
                         - name: Updating title-managed Stats
                           href: features/player-data/stats-leaderboards/title-managed/how-to/live-stats-tm-updating.md
+                        - name: Writing title-managed stats
+                          href: features/player-data/stats-leaderboards/title-managed/how-to/live-writing-tm-stats.md
                         - name: Title-managed Leaderboards how-to's
                           href: features/player-data/stats-leaderboards/title-managed/how-to/live-leaderboards-tm-howto.md
                     - name: Stats & Leaderboards with Unity
@@ -238,6 +254,16 @@
               items: 
                 - name: Event-based vs. title-managed Achievements
                   href: features/player-data/achievements/live-achievements-eb-vs-tm.md
+                - name: Event-based Achievements
+                  href: features/player-data/achievements/event-based/live-achievements-eb-nav.md
+                  items: 
+                    - name: Event-based Achievements how-to's
+                      href: features/player-data/achievements/event-based/how-to/live-achievements-eb-howto-nav.md
+                      items: 
+                        - name: Getting event-based Achievements
+                          href: features/player-data/achievements/event-based/how-to/live-getting-event-based-achievements.md
+                        - name: Writing an event to power an event-based Achievement
+                          href: features/player-data/achievements/event-based/how-to/live-writing-event-based-achievement.md
                 - name: Title-managed Achievements
                   href: features/player-data/achievements/title-managed/live-achievements-tm-nav.md
                   items: 

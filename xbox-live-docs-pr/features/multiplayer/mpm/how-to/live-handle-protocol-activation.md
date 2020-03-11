@@ -10,23 +10,31 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer manager
 ms.localizationpriority: medium
 ---
 
+
+
+
+
 # Handling protocol activation to start a game, using Multiplayer Manager
 
 *Protocol activation* is when the system automatically starts a game in response to another action, typically when a player accepts a game invite from another player.
 
 Your title can get protocol activated through the following ways:
 * When a user accepts a game invite.
-* When a user selects "Join Game" from a player’s gamercard.
+* When a user selects "Join Game" from a player's gamercard.
 
 This scenario covers how to handle the protocol activation when your title is launched and join the lobby and game (if one exists).
 
 You can see a flowchart of the process here: [Handling protocol activation (flowchart)](../concepts/flowcharts/live-mpm-on-protocol-activation.md).
 
+
+**C++ API**
 | Method | Event triggered |
 | -----|----------------|
 | `multiplayer_manager::join_lobby(IProtocolActivatedEventArgs^ args, User^)` | `join_lobby_completed_event` |
 | `multiplayer_lobby_session::set_local_member_connection_address()` | `local_member_connection_address_write_completed ` |
 | `multiplayer_lobby_session::set_local_member_properties()` | `member_property_changed` |
+
+
 
 When a player accepts a game invite or joins a friend's game through the player's gamercard, the game is launched on their device by using protocol activation.
 Once the game starts, Multiplayer Manager can use the protocol activated event arguments to join the lobby.
@@ -40,9 +48,21 @@ You can also set the host via `set_synchronized_host` if one doesn't exist.
 Finally, the Multiplayer Manager will auto join the user into the game session if a game is already in progress and has room for the invitee.
 The title will be notified through the `join_game_completed` event providing an appropriate error code and message.
 
+Error/success is handled via the `join_lobby_completed` event.
 
-**Example:**
 
+**C API**
+<!-- XblMultiplayerManagerLobbySessionSetLocalMemberConnectionAddress_C.md -->
+```cpp
+HRESULT hr = XblMultiplayerManagerLobbySessionSetLocalMemberConnectionAddress(
+    xblUserHandle, connectionAddress, context);
+```
+
+<!--**Reference**
+* [XblMultiplayerManagerLobbySessionSetLocalMemberConnectionAddress](xblmultiplayermanagerlobbysessionsetlocalmemberconnectionaddress.md)-->
+
+
+**C++ API**
 ```cpp
 auto result = mpInstance().join_lobby(IProtocolActivatedEventArgs^ args, users);
 if (result.err())
@@ -55,8 +75,6 @@ mpInstance->lobby_session()->set_local_member_connection_address(
     xboxLiveContext->user(),
     connectionAddress);
 ```
-
-Error/success is handled via the `join_lobby_completed` event
 
 
 **Functions performed by Multiplayer Manager**

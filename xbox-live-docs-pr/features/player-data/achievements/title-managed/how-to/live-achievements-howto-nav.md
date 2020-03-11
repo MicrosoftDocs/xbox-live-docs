@@ -5,10 +5,10 @@ kindex: Title-managed Achievements how-to's
 author: v-mihof
 ms.author: v-mihof
 ms.topic: conceptual
-ms.prod: xbox
-ms.technology: xboxgc
-ms.date: 09/23/2019
+ms.prod: gaming
+ms.technology: xboxlive
 ms.localizationpriority: medium
+ms.date: 09/23/2019
 ---
 
 # Title-managed Achievements how-to's

@@ -10,6 +10,10 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
+
+
+
+
 # Multiplayer session browse
 
 Multiplayer session browse enables a title to query for a list of open multiplayer game sessions that meet the specified criteria.
@@ -153,8 +157,72 @@ In the Xbox Live APIs, you can use the `multiplayer_service::clear_search_handle
 
 ### Example: Create a search handle with metadata
 
-The following code shows how to create a search handle for a session by using the C++ Xbox Live multiplayer APIs.
+The following code shows how to create a search handle for a session by using the Xbox Live multiplayer APIs.
 
+
+**C API**
+<!-- XblMultiplayerCreateSearchHandleAsync_C.md -->
+```cpp
+size_t tagsCount = 1;
+XblMultiplayerSessionTag tags[1] = {};
+tags[0] = XblMultiplayerSessionTag{ "SessionTag" };
+
+size_t numberAttributesCount = 1;
+XblMultiplayerSessionNumberAttribute numberAttributes[1] = {};
+numberAttributes[0] = XblMultiplayerSessionNumberAttribute{ "numberattributename", 1.1 };
+
+size_t strAttributesCount = 1;
+XblMultiplayerSessionStringAttribute strAttributes[1] = {};
+strAttributes[0] = XblMultiplayerSessionStringAttribute{ "stringattributename", "string attribute value" };
+
+auto asyncBlock = std::make_unique<XAsyncBlock>();
+asyncBlock->queue = queue;
+asyncBlock->context = nullptr;
+asyncBlock->callback = [](XAsyncBlock* asyncBlock)
+{
+    std::unique_ptr<XAsyncBlock> asyncBlockPtr{ asyncBlock }; // Take over ownership of the XAsyncBlock*
+    XblMultiplayerSearchHandle searchHandle{ nullptr };
+    HRESULT hr = XblMultiplayerCreateSearchHandleResult(asyncBlock, &searchHandle);
+
+    if (SUCCEEDED(hr))
+    {
+        const char* handleId{ nullptr };
+        XblMultiplayerSearchHandleGetId(searchHandle, &handleId);
+    }
+};
+
+HRESULT hr = XblMultiplayerCreateSearchHandleAsync(
+    xblContextHandle,
+    &xblMultiplayerSessionReference,
+    tags,
+    tagsCount,
+    numberAttributes,
+    numberAttributesCount,
+    strAttributes,
+    strAttributesCount,
+    asyncBlock.get()
+);
+
+if (SUCCEEDED(hr))
+{
+    // The call succeeded, so release the std::unique_ptr ownership of XAsyncBlock* since the callback will take over ownership.
+    // If the call fails, the std::unique_ptr will keep ownership and delete the XAsyncBlock*
+    asyncBlock.release();
+}
+```
+
+<!-- **Reference**
+* [XAsyncBlock](xasyncblock.md)
+* [XblMultiplayerCreateSearchHandleAsync](xblmultiplayercreatesearchhandleasync.md)
+* [XblMultiplayerCreateSearchHandleResult](xblmultiplayercreatesearchhandleresult.md) -->
+<!-- * [XblMultiplayerSearchHandle](xblmultiplayersearchhandle.md) -->
+<!-- * [XblMultiplayerSearchHandleGetId](xblmultiplayersearchhandlegetid.md)
+* [XblMultiplayerSessionNumberAttribute](xblmultiplayersessionnumberattribute.md)
+* [XblMultiplayerSessionStringAttribute](xblmultiplayersessionstringattribute.md)
+* [XblMultiplayerSessionTag](xblmultiplayersessiontag.md) -->
+
+
+**C++ API**
 ```cpp
 auto searchHandleReq = multiplayer_search_handle_request(sessionBrowseRef);
 
@@ -250,13 +318,83 @@ If a player attempts to join a session, but that session is full or closed, then
 
 Too many search refreshes can lead to service throttling, so your title should limit the rate at which the query can be refreshed.
 
+To reduce service call volume, search handles include custom session properties which can be used to store and query rapidly changing session attributes. Such attributes should not be stored in search attributes.
 
- To reduce service call volume, search handles include custom session properties which can be used to store and query rapidly changing session attributes. Such attributes should not be stored in search attributes.
 
 ### Example: query for search handles
 
 The following code shows how to query for search handles.
-The API returns a collection of `multiplayer_search_handle_details` objects that represent all the search handles that match the query.
+
+
+**C API**
+<!-- XblMultiplayerGetSearchHandlesAsync_C.md -->
+```cpp
+auto asyncBlock = std::make_unique<XAsyncBlock>();
+asyncBlock->queue = queue;
+asyncBlock->context = nullptr;
+asyncBlock->callback = [](XAsyncBlock* asyncBlock)
+{
+    std::unique_ptr<XAsyncBlock> asyncBlockPtr{ asyncBlock }; // Take over ownership of the XAsyncBlock*
+    size_t resultCount{ 0 };
+    auto hr = XblMultiplayerGetSearchHandlesResultCount(asyncBlock, &resultCount);
+    if (SUCCEEDED(hr) && resultCount > 0)
+    {
+        auto handles = new XblMultiplayerSearchHandle[resultCount];
+
+        hr = XblMultiplayerGetSearchHandlesResult(asyncBlock, handles, resultCount);
+
+        if (SUCCEEDED(hr))
+        {
+            // Process handles
+            for (auto i = 0u; i < resultCount; ++i)
+            {
+                const char* handleId{ nullptr };
+                XblMultiplayerSearchHandleGetId(handles[i], &handleId);
+
+                XblMultiplayerSearchHandleCloseHandle(handles[i]);
+            }
+        }
+    }
+
+};
+
+const char* sessionName{ "MinGameSession" };
+const char* orderByAttribute{ nullptr };
+bool orderAscending{ false };
+const char* searchFilter{ nullptr };
+const char* socialGroup{ nullptr };
+
+HRESULT hr = XblMultiplayerGetSearchHandlesAsync(
+    xblContextHandle,
+    scid,
+    sessionName,
+    orderByAttribute,
+    orderAscending,
+    searchFilter,
+    socialGroup,
+    asyncBlock.get()
+);
+if (SUCCEEDED(hr))
+{
+    // The call succeeded, so release the std::unique_ptr ownership of XAsyncBlock* since the callback will take over ownership.
+    // If the call fails, the std::unique_ptr will keep ownership and delete the XAsyncBlock*
+    asyncBlock.release();
+}
+```
+
+<!-- **Reference**
+* [XAsyncBlock](xasyncblock.md)
+* [XblMultiplayerGetSearchHandlesAsync](xblmultiplayergetsearchhandlesasync.md)
+* [XblMultiplayerGetSearchHandlesResult](xblmultiplayergetsearchhandlesresult.md)
+* [XblMultiplayerGetSearchHandlesResultCount](xblmultiplayergetsearchhandlesresultcount.md) -->
+<!-- * [XblMultiplayerSearchHandle](xblmultiplayersearchhandle.md) -->
+<!-- * [XblMultiplayerSearchHandleCloseHandle](xblmultiplayersearchhandleclosehandle.md)
+* [XblMultiplayerSearchHandleGetId](xblmultiplayersearchhandlegetid.md) -->
+
+
+**C++ API**
+
+The C++ API returns a collection of `multiplayer_search_handle_details` objects that represent all the search handles that match the query.
 
 ```cpp
  auto result = multiplayer_service().get_search_handles(scid, template, orderBy, orderAscending, searchFilter)
@@ -297,6 +435,7 @@ Once you have retrieved a search handle for a session that you want to join, the
 
 The following code demonstrates how to join a session after retrieving a search handle.
 
+<!-- TODO: copy other lang snippet when available -->
 ```cpp
 void Sample::BrowseSearchHandles()
 {

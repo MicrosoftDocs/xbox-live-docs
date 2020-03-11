@@ -5,18 +5,19 @@ kindex: Handling a device Presence change
 kindex: Presence
 author: mikehoffms
 ms.author: v-mihof
-ms.date: 01/09/2020
 ms.topic: conceptual
 ms.localizationpriority: medium
+ms.date: 01/09/2020
 ---
+
 
 # Handling a device Presence change
 
-**Contents**
+<!-- **Contents**
 * [Subscribing to a device Presence change​](#stadpc)
 * [Un-subscribing from a device Presence change​](#ufadpc)
 * [Adding a device Presence change handler​](#aadpch)
-* [Removing a device Presence change handler](#radpch)
+* [Removing a device Presence change handler](#radpch) -->
 
 
 <a id="stadpc"></a>
@@ -36,10 +37,8 @@ HRESULT hr = XblPresenceSubscribeToDevicePresenceChange(
 );
 ```
 
-<!--
-**Reference**
-* [XblPresenceSubscribeToDevicePresenceChange](xblpresencesubscribetodevicepresencechange.md)
--->
+<!--**Reference**
+* [XblPresenceSubscribeToDevicePresenceChange](xblpresencesubscribetodevicepresencechange.md)-->
 
 
 <a id="ufadpc"></a>
@@ -57,10 +56,8 @@ HRESULT hr = XblPresenceUnsubscribeFromDevicePresenceChange(
 state.devicePresenceChangeSubscription = nullptr;
 ```
 
-<!--
-**Reference**
-* [XblPresenceUnsubscribeFromDevicePresenceChange](xblpresenceunsubscribefromdevicepresencechange.md)
--->
+<!--**Reference**
+* [XblPresenceUnsubscribeFromDevicePresenceChange](xblpresenceunsubscribefromdevicepresencechange.md)-->
 
 
 <a id="aadpch"></a>
@@ -82,11 +79,9 @@ state.devicePresenceChangedHandlerToken = XblPresenceAddDevicePresenceChangedHan
 );
 ```
 
-<!--
-**Reference**
+<!--**Reference**
 * [XblPresenceAddDevicePresenceChangedHandler](xblpresenceadddevicepresencechangedhandler.md)
-* [XblPresenceDeviceType](xblpresencedevicetype.md)
--->
+* [XblPresenceDeviceType](xblpresencedevicetype.md)-->
 
 
 <a id="radpch"></a>
@@ -104,7 +99,5 @@ HRESULT hr = XblPresenceRemoveDevicePresenceChangedHandler(
 state.devicePresenceChangedHandlerToken = 0;
 ```
 
-<!--
-**Reference**
-* [XblPresenceRemoveDevicePresenceChangedHandler](xblpresenceremovedevicepresencechangedhandler.md)
--->
+<!--**Reference**
+* [XblPresenceRemoveDevicePresenceChangedHandler](xblpresenceremovedevicepresencechangedhandler.md)-->
