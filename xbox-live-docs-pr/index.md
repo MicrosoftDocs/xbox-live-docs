@@ -43,7 +43,7 @@ ms.localizationpriority: medium
 
 <ul class="cardsF panelContent cols cols2" style="display: flex; margin-top: 0px;">
     <li>
-        <a href="get-started/get-started_nav.md">
+        <a href="get-started/live-getstarted-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -62,7 +62,7 @@ ms.localizationpriority: medium
         </a>
     </li>
     <li>
-        <a href="features/features-nav.md">
+        <a href="features/live-features-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

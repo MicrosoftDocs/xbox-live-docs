@@ -10,6 +10,10 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer 2015
 ms.localizationpriority: medium
 ---
 
+
+
+
+
 # Multiplayer tasks
 
 This article shows how to implement specific tasks related to using Multiplayer 2015.
@@ -105,7 +109,58 @@ The title must do the following to create a new session:
 
 ### Example
 
+**C API**
+<!-- DocsMultiplayerCreateSession_C.md -->
+```cpp
+auto asyncBlock = std::make_unique<XAsyncBlock>();
+asyncBlock->queue = queue;
+asyncBlock->context = nullptr;
+asyncBlock->callback = [](XAsyncBlock* asyncBlock)
+{
+    std::unique_ptr<XAsyncBlock> asyncBlockPtr{ asyncBlock }; // Take over ownership of the XAsyncBlock*
 
+    XblMultiplayerSessionHandle sessionHandle;
+    HRESULT hr = XblMultiplayerWriteSessionResult(asyncBlock, &sessionHandle);
+    if (SUCCEEDED(hr))
+    {
+        // Process multiplayer session handle
+    }
+    else
+    {
+        // Handle failure
+    }
+};
+
+XblMultiplayerSessionReference ref;
+pal::strcpy(ref.Scid, sizeof(ref.Scid), SCID);
+pal::strcpy(ref.SessionTemplateName, sizeof(ref.SessionTemplateName), SESSION_TEMPLATE_NAME);
+pal::strcpy(ref.SessionName, sizeof(ref.SessionName), SESSION_NAME);
+
+XblMultiplayerSessionInitArgs args = {};
+
+XblMultiplayerSessionHandle sessionHandle = XblMultiplayerSessionCreateHandle(XUID, &ref, &args);
+
+auto hr = XblMultiplayerWriteSessionAsync(xblContextHandle, sessionHandle, XblMultiplayerSessionWriteMode::CreateNew, asyncBlock.get());
+if (SUCCEEDED(hr))
+{
+    // The call succeeded, so release the std::unique_ptr ownership of XAsyncBlock* since the callback will take over ownership.
+    // If the call fails, the std::unique_ptr will keep ownership and delete the XAsyncBlock*
+    asyncBlock.release();
+}
+```
+
+<!-- **Reference**
+* [XAsyncBlock](xasyncblock.md)
+* [XblMultiplayerSessionCreateHandle](xblmultiplayersessioncreatehandle.md) -->
+<!-- * [XblMultiplayerSessionHandle](xblmultiplayersessionhandle.md) -->
+<!-- * [XblMultiplayerSessionInitArgs](xblmultiplayersessioninitargs.md)
+* [XblMultiplayerSessionReference](xblmultiplayersessionreference.md)
+* [XblMultiplayerSessionWriteMode](xblmultiplayersessionwritemode.md)
+* [XblMultiplayerWriteSessionAsync](xblmultiplayerwritesessionasync.md)
+* [XblMultiplayerWriteSessionResult](xblmultiplayerwritesessionresult.md) -->
+
+
+**C++ API**
 ```cpp
 void Example_MultiplayerService_CreateSession()
 {

@@ -167,3 +167,7 @@ statsManager->do_work();  // applies the stat changes, returns local_user_remove
 statManager.RemoveLocalUser(user);
 statManager.DoWork();
 ```
+
+### See also
+
+* [Writing title-managed stats](live-writing-tm-stats.md) - Example code for the C API

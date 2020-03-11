@@ -7,8 +7,8 @@ kindex: leaderboards, Xbox Live
 author: v-mihof
 ms.author: v-mihof
 ms.topic: conceptual
-ms.prod: xbox
-ms.technology: xboxgc
+ms.prod: gaming
+ms.technology: xboxlive
 ms.localizationpriority: medium
 ms.assetid: e0f37d2-ea02-48ea-bcdf-828272a894d4
 ms.date: 10/30/2017
@@ -65,10 +65,6 @@ Each **Format** option will give some information on acceptable values or format
 | Long timespan stats | Use the Xd Xh Xm format like 1d 2h 10m, this stat will also ask you to provide a time unit for the stat. |
 | Sort field | Lets you change the sort order of the leaderboard to be either ascending or descending. |
 
-<!-- gdk has:
-Developers are limited to having no more than 20 featured stats for their title, but there is no requirement for developers to include Featured Stats in their title.
--->
-<!-- public instead has: -->
 There are the following requirements when configuring a featured stat and leaderboard:
 
 | Developer Type | Requirement | Limit |

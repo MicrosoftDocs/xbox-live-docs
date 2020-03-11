@@ -13,12 +13,9 @@ edited: 01/09/2020
 
 # Handling a social relationship change
 
-<!-- intro sentence here -->
 
+## Subscribing to a relationship change
 
-## Subscribing to a Relationship change
-
-<!-- intro sentence here -->
 
 **C API**
 <!--  XblSocialSubscribeToSocialRelationshipChange_C.md -->
@@ -30,15 +27,12 @@ HRESULT hr = XblSocialSubscribeToSocialRelationshipChange(
 );
 ```
 
-<!-- in GDK only:
-**Reference**
-* [XblSocialSubscribeToSocialRelationshipChange](xblsocialsubscribetosocialrelationshipchange.md)
--->
+<!--**Reference**
+* [XblSocialSubscribeToSocialRelationshipChange](xblsocialsubscribetosocialrelationshipchange.md)-->
 
 
-## Un-subscribing from a Relationship change
+## Un-subscribing from a relationship change
 
-<!-- intro sentence here -->
 
 **C API**
 <!--  XblSocialUnsubscribeFromSocialRelationshipChange_C.md -->
@@ -51,15 +45,12 @@ HRESULT hr = XblSocialUnsubscribeFromSocialRelationshipChange(
 state.socialSubscriptionHandle = nullptr;
 ```
 
-<!-- in GDK only:
-**Reference**
-* [XblSocialUnsubscribeFromSocialRelationshipChange](xblsocialunsubscribefromsocialrelationshipchange.md)
--->
+<!--**Reference**
+* [XblSocialUnsubscribeFromSocialRelationshipChange](xblsocialunsubscribefromsocialrelationshipchange.md)-->
 
 
-## Adding a Relationship-changed handler
+## Adding a relationship-changed handler
 
-<!-- intro sentence here -->
 
 **C API**
 <!--  XblSocialAddSocialRelationshipChangedHandler_C.md -->
@@ -85,15 +76,12 @@ state.socialRelationshipChangedHandlerToken = XblSocialAddSocialRelationshipChan
 );
 ```
 
-<!-- in GDK only:
-**Reference**
-* [XblSocialAddSocialRelationshipChangedHandler](xblsocialaddsocialrelationshipchangedhandler.md)
--->
+<!--**Reference**
+* [XblSocialAddSocialRelationshipChangedHandler](xblsocialaddsocialrelationshipchangedhandler.md)-->
 
 
-## Removing a Relationship-changed handler
+## Removing a relationship-changed handler
 
-<!-- intro sentence here -->
 
 **C API**
 <!--  XblSocialRemoveSocialRelationshipChangedHandler_C.md -->
@@ -102,7 +90,5 @@ HRESULT hr = XblSocialRemoveSocialRelationshipChangedHandler(xboxLiveContext, st
 state.socialRelationshipChangedHandlerToken = 0;
 ```
 
-<!-- in GDK only:
-**Reference**
-* [XblSocialRemoveSocialRelationshipChangedHandler](xblsocialremovesocialrelationshipchangedhandler.md)
--->
+<!--**Reference**
+* [XblSocialRemoveSocialRelationshipChangedHandler](xblsocialremovesocialrelationshipchangedhandler.md)-->

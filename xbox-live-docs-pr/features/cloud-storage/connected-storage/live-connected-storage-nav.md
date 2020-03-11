@@ -1,11 +1,11 @@
 ---
-layout: LandingPage
 title: Connected Storage
-author: mikehoffms
 description: Connected Storage saves and loads gameplay data and other state data across devices. Title data is stored locally and also synced to the cloud.
+layout: LandingPage
+ms.topic: article
+author: mikehoffms
 ms.author: v-mihof
 ms.date: 12/06/2018
-ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, connected storage
 ms.localizationpriority: medium
 ---

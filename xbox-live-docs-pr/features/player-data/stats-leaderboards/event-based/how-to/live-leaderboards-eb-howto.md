@@ -45,7 +45,7 @@ In between rounds and after matches are both good times.
 
 There are numerous options for displaying leaderboards provided in the Xbox Live SDK.
 If you are using Unity with the Xbox Live Creators Program, you can get started by using a Leaderboard Prefab to display your leaderboard data.
-For specifics, see [Configure Xbox Live in Unity](../../../../../get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md).
+For specifics, see [Configuring Xbox Live in Unity](../../../../../get-started/setup-ide/creators/unity-win10/live-configure-xbl-in-unity.md).
 
 If you are coding against the Xbox Live SDK directly, then read on to learn about the APIs you can use.
 
@@ -69,11 +69,83 @@ Title-managed Leaderboards is not recommended for new code.
 To see all of the event-based Leaderboards APIs, see the `leaderboard_service` namespace.
 
 
-### Basic leaderboard display (C++)
+<a id="gttoal"></a>
+
+## Getting the top of a leaderboard
+
+Use `XblLeaderboardGetLeaderboardAsync` to return the leaderboard values for the given leaderboard, starting from the top of the leaderboard.
+
+
+### Basic leaderboard display (C API)
+
+**C API**
+<!-- XblLeaderboardGetLeaderboardAsync.md -->
+```cpp
+auto asyncBlock = std::make_unique<XAsyncBlock>();
+asyncBlock->queue = queue;
+asyncBlock->context = nullptr;
+asyncBlock->callback = [](XAsyncBlock* asyncBlock)
+{
+    std::unique_ptr<XAsyncBlock> asyncBlockPtr{ asyncBlock }; // Take over ownership of the XAsyncBlock*
+    size_t resultSize;
+    HRESULT hr = XblLeaderboardGetLeaderboardResultSize(asyncBlock, &resultSize);
+
+    if (SUCCEEDED(hr))
+    {
+        leaderboardBuffer.resize(resultSize);
+        XblLeaderboardResult* leaderboard{};
+
+        hr = XblLeaderboardGetLeaderboardResult(asyncBlock, resultSize, leaderboardBuffer.data(), &leaderboard, nullptr);
+
+        if (SUCCEEDED(hr))
+        {
+            // Use XblLeaderboardResult in result
+            for (auto row = 0u; row < leaderboard->rowsCount; ++row)
+            {
+                std::stringstream rowText;
+                rowText << leaderboard->rows[row].xboxUserId << "\t";
+
+                for (auto column = 0u; column < leaderboard->rows[row].columnValuesCount; ++column)
+                {
+                    rowText << leaderboard->rows[row].columnValues[column] << "\t";
+                }
+            }
+        }
+    }
+};
+
+XblLeaderboardQuery leaderboardQuery = {}; 
+pal::strcpy(leaderboardQuery.scid, sizeof(leaderboardQuery.scid), scid.c_str()) 
+leaderboardQuery.leaderboardName = leaderboardName.c_str(); 
+// See below on more options in XblLeaderboardQuery
+
+HRESULT hr = XblLeaderboardGetLeaderboardAsync(
+    xboxLiveContext,
+    leaderboardQuery,
+    asyncBlock.get());
+if (SUCCEEDED(hr))
+{
+    // The call succeeded, so release the std::unique_ptr ownership of XAsyncBlock* since the callback will take over ownership.
+    // If the call fails, the std::unique_ptr will keep ownership and delete the XAsyncBlock*
+    asyncBlock.release();
+}
+```
+
+<!-- **Reference**
+* [XAsyncBlock](xasyncblock.md)
+* [XblLeaderboardGetLeaderboardAsync](xblleaderboardgetleaderboardasync.md)
+* [XblLeaderboardGetLeaderboardResult](xblleaderboardgetleaderboardresult.md)
+* [XblLeaderboardGetLeaderboardResultSize](xblleaderboardgetleaderboardresultsize.md)
+* [XblLeaderboardQuery](xblleaderboardquery.md)
+* [XblLeaderboardResult](xblleaderboardresult.md) -->
+
+
+### Basic leaderboard display (C++ API)
 
 The following `get_leaderboard` C++ function is the most basic version of the API.
 This returns the leaderboard values for the given leaderboard, starting from the player at the top of the leaderboard.
 
+**C++ API**
 ```cpp
 pplx::task<xbox_live_result<leaderboard_result>> get_leaderboard(
         const string_t& scid,
@@ -81,10 +153,11 @@ pplx::task<xbox_live_result<leaderboard_result>> get_leaderboard(
         );
 ```
 
-### Basic leaderboard display (C#)
+### Basic leaderboard display (C# API)
 
 The following `GetLeaderboardAsync` WinRT C# function gets a leaderboard for a single leaderboard, given a service configuration ID and a leaderboard name.
 
+**WinRT C# API**
 ```csharp
 Windows::Foundation::IAsyncOperation< LeaderboardResult^> ^  GetLeaderboardAsync (
         _In_ Platform::String^ serviceConfigurationId,
@@ -93,11 +166,35 @@ Windows::Foundation::IAsyncOperation< LeaderboardResult^> ^  GetLeaderboardAsync
 ```
 
 
+<a id="galaasr"></a>
+
+## Getting a leaderboard around a specified rank
+
+Use the same code as above, except that to create the `XblLeaderboardQuery`, use this code instead:
+
+
+### Get a specified page of results (C)
+
+**C API**
+<!-- XblLeaderboardGetLeaderboardAsync-Rank.md -->
+```cpp
+XblLeaderboardQuery leaderboardQuery = {};
+pal::strcpy(leaderboardQuery.scid, sizeof(leaderboardQuery.scid), scid.c_str());
+leaderboardQuery.leaderboardName = leaderboardName.c_str();
+leaderboardQuery.skipResultToRank = 100;
+leaderboardQuery.maxItems = 100;
+```
+
+<!-- **Reference**
+* [XblLeaderboardQuery](xblleaderboardquery.md) -->
+
+
 ### Get a specified page of results (C++)
 
 The following `get_leaderboard` C++ function provides more flexibility; you can specify the rank (position) that you want to display, as well as the maximum number of items to return.
 For example, you can use this API to display the leaderboard starting at position 1000.
 
+**C++ API**
 ```cpp
 pplx::task<xbox_live_result<leaderboard_result>> get_leaderboard(
     _In_ const string_t& scid,
@@ -105,7 +202,6 @@ pplx::task<xbox_live_result<leaderboard_result>> get_leaderboard(
     _In_ uint32_t skipToRank,
     _In_ uint32_t maxItems = 0
     );
-
 ```
 
 
@@ -114,6 +210,7 @@ pplx::task<xbox_live_result<leaderboard_result>> get_leaderboard(
 The following `GetLeaderboardAsync` WinRT C# function gets a page of leaderboard results for a single leaderboard, given a service configuration ID and a leaderboard name.
 The leaderboard results will start at the "skipToRank" rank.
 
+**WinRT C# API**
 ```csharp
 Windows::Foundation::IAsyncOperation< LeaderboardResult^> ^  GetLeaderboardAsync (
          _In_ Platform::String^ serviceConfigurationId,
@@ -124,7 +221,28 @@ Windows::Foundation::IAsyncOperation< LeaderboardResult^> ^  GetLeaderboardAsync
 ```
 
 
-### Skip to specified player (C++)
+<a id="galaasp"></a>
+
+## Getting a leaderboard around a specified player
+
+Use the same code as above, except that to create the `XblLeaderboardQuery`, use this code instead:
+
+
+**C API**
+<!-- XblLeaderboardGetLeaderboardAsync-User.md -->
+```cpp
+XblLeaderboardQuery leaderboardQuery = {};
+pal::strcpy(leaderboardQuery.scid, sizeof(leaderboardQuery.scid), scid.c_str());
+leaderboardQuery.leaderboardName = leaderboardName.c_str();
+leaderboardQuery.skipToXboxUserId = xboxUserId;
+leaderboardQuery.maxItems = 100;
+```
+
+<!-- **Reference**
+* [XblLeaderboardQuery](xblleaderboardquery.md) -->
+
+
+**C++ API**
 
 The following `get_leaderboard_skip_to_xuid` C++ function skips to the specified user in the leaderboard.
 A `XUID` is a unique identifier for each Xbox User.
@@ -141,7 +259,7 @@ pplx::task<xbox_live_result<leaderboard_result>> get_leaderboard_skip_to_xuid(
 ```
 
 
-### Skip to specified player (C#)
+**WinRT C# API**
 
 The following `GetLeaderboardWithSkipToUserAsync` WinRT C# function gets a leaderboard starting at a specified player, regardless of the player's rank or score, ordered by the player's percentile rank.
 
@@ -170,6 +288,8 @@ The section below shows how you might retrieve Leaderboard results and use them.
 
 The first step is to call the Leaderboard service to retrieve the results for a particular leaderboard.
 
+
+**C++ API**
 ```cpp
 pplx::task<xbox_live_result<leaderboard_result>> asyncTask;
 auto& leaderboardService = xboxLiveContext->leaderboard_service();
@@ -183,6 +303,7 @@ asyncTask = leaderboardService.get_leaderboard(
 
 You can set up a [continuation task](https://msdn.microsoft.com/library/dd492427(v=vs.110).aspx#continuations) to be called once the leaderboard results are returned, as follows:
 
+**C++ API**
 ```cpp
 asyncTask.then([this](
   xbox::services::xbox_live_result<xbox::services::leaderboard::leaderboard_result>
@@ -199,6 +320,8 @@ This continuation task is called in the context of the object that originally in
 
 The leaderboard data is contained in `leaderboard_result` and the fields are self-explanatory, as follows:
 
+
+**C++ API**
 ```cpp
 auto leaderboard = result.payload();
 
@@ -226,6 +349,7 @@ When using the WinRT C# layer, you will not need to make a separate callback tas
 The `LeaderboardService` can be retrieved from the `XboxLiveContext` that was created when signing-in a user to the game.
 You will need it to call for leaderboard data.
 
+**WinRT C# API**
 ```csharp
 XboxLiveContext xboxLiveContext = idManager.xboxLiveContext;
 LeaderboardService boardService = xboxLiveContext.LeaderboardService;
@@ -234,6 +358,7 @@ LeaderboardService boardService = xboxLiveContext.LeaderboardService;
 
 ### 2. Call the LeaderboardService
 
+**WinRT C# API**
 ```csharp
 LeaderboardResult boardResult = await boardService.GetLeaderboardAsync(
      xboxLiveConfig.ServiceConfigurationId,
@@ -262,6 +387,8 @@ Leaderboard data is provided one page at a time.
 You may loop through the `LeaderboardResult` Rows and Columns to retrieve the data.
 To retrieve subsequent pages of leaderboard data, use the `HasNext` boolean and the `GetNextAsync()` function.
 
+
+**WinRT C# API**
 ```csharp
 if (boardResult != null)
 {
@@ -272,6 +399,54 @@ if (boardResult != null)
     }
 }
 ```
+
+
+## Getting the next page of leaderboards
+
+To get the next page of a previous leaderboard result, call `XblLeaderboardResultGetNextAsync`, as follows.
+
+
+**C API**
+<!-- XblLeaderboardResultGetNextAsync.md -->
+```cpp
+auto asyncBlock = std::make_unique<XAsyncBlock>();
+asyncBlock->queue = queue;
+asyncBlock->context = nullptr;
+asyncBlock->callback = [](XAsyncBlock* asyncBlock)
+{
+    std::unique_ptr<XAsyncBlock> asyncBlockPtr{ asyncBlock }; // Take over ownership of the XAsyncBlock*
+    size_t resultSize;
+    HRESULT hr = XblLeaderboardResultGetNextResultSize(asyncBlock, &resultSize);
+
+    if (SUCCEEDED(hr))
+    {
+        std::vector<char> buffer(resultSize, 0);
+        XblLeaderboardResult* result{};
+
+        hr = XblLeaderboardResultGetNextResult(asyncBlock, resultSize, buffer.data(), &result, nullptr);
+        // Use result to read the leaderboard results
+    }
+};
+
+HRESULT hr = XblLeaderboardResultGetNextAsync(
+    xboxLiveContext,
+    leaderboardResult,
+    maxItems,
+    asyncBlock.get());
+if (SUCCEEDED(hr))
+{
+    // The call succeeded, so release the std::unique_ptr ownership of XAsyncBlock* since the callback will take over ownership.
+    // If the call fails, the std::unique_ptr will keep ownership and delete the XAsyncBlock*
+    asyncBlock.release();
+}
+```
+
+<!-- **Reference**
+* [XAsyncBlock](xasyncblock.md)
+* [XblLeaderboardResult](xblleaderboardresult.md)
+* [XblLeaderboardResultGetNextAsync](xblleaderboardresultgetnextasync.md)
+* [XblLeaderboardResultGetNextResult](xblleaderboardresultgetnextresult.md)
+* [XblLeaderboardResultGetNextResultSize](xblleaderboardresultgetnextresultsize.md) -->
 
 
 ## See also

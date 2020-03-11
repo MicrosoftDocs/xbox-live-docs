@@ -5,8 +5,8 @@ kindex: relying parties, Xbox Live
 author: v-mihof
 ms.author: v-mihof
 ms.topic: conceptual
-ms.prod: xbox
-ms.technology: xboxgc
+ms.prod: gaming
+ms.technology: xboxlive
 edited: 00/00/0000
 ---
 

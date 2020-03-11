@@ -9,6 +9,8 @@ ms.assetid: a5acb5bf-dc11-4dff-aa94-6d1f01472d2a
 ms.date: 04/04/2017
 ---
 
+
+
 # Xbox Live Sandboxes overview
 
 Before using Xbox Live services from your game, you must configure information about your title online in <a href="https://partner.microsoft.com/dashboard" target="_blank">Partner Center &#11008;</a>.
@@ -33,7 +35,7 @@ Development sandboxes offer several benefits:
 3. Some developers on your team may want to "branch" and test service config changes without affecting your primary in-development service configuration.
 4. Other publishers cannot see what you are working on without being granted access to your sandbox.
 
-You can also **optionally** create test accounts.
+You can also _optionally_ create test accounts.
 You can use these if you don't want to use your regular Xbox Live account for testing your title, or you need several accounts to test scenarios such as social interaction (eg: view a friend's stats) or multiplayer.
 
 Test accounts can only sign-in to development sandboxes, and will be explained in a section below.
@@ -67,8 +69,11 @@ Need to specify whether these steps and captures are for Managed Partners or Cre
 Typically you work with sandboxes in the following ways:
 
 1. (One-time) Switch your PC or Xbox One to your development sandbox.
+
 2. (Many times) As you make changes to your service configuration, you will publish changes to your development sandbox. Service configuration changes are things such as defining achievements, adding leaderboards, or modifying a Multiplayer Session Template.
+
 3. (A few times) If you are working with other team members, you can give them access to your sandbox.
+
 4. (One-time) If you need to test something in RETAIL, or want to take a break to play your favorite Xbox game, you will need to switch your sandbox back to RETAIL.
 
 These scenarios will be described in more detail below.
@@ -84,52 +89,24 @@ Both ways are described below.
 
 ### Windows Device Portal
 
-1. If you have not already enabled WDP on your PC, do the steps in [Setup Device Portal on Windows Desktop](https://msdn.microsoft.com/windows/uwp/debug-test-perf/device-portal-desktop).
+1. If you have not already enabled WDP on your PC, do the steps in section [Set up Device Portal on Windows Desktop](https://docs.microsoft.com/windows/uwp/debug-test-perf/device-portal-desktop#set-up-device-portal-on-windows-desktop) in the article "Device Portal for Windows Desktop" at UWP.
 
-2. Once you have done so, open Windows Dev Portal by connecting to it in your web browser as described in the above article.
+2. Open Windows Dev Portal by connecting to it in your web browser as described in the above article.
 
-3. Then you click on "Xbox Live" to go the appropriate section as shown below.
+3. Click on **Xbox Live** to go the appropriate section as shown below.
 
    ![Sandbox configuration in Windows Device Portal](../../images/getting_started/wdp_switch_sandbox.png)
 
-4. Then you can enter your sandbox which you got via the steps in the *Finding Out Your Sandbox* and click "Change".
+4. Enter your sandbox which you got via the steps in the *Finding Out Your Sandbox* and click **Change**.
 
-   To switch back to RETAIL, you can enter RETAIL here.
-
-
-### PowerShell module
-
-[Xbox Live PowerShell Module](https://github.com/Microsoft/xbox-live-powershell-module/blob/master/docs/XboxLivePsModule.md)
-XboxlivePSModule contains various utilities to help Xbox Live development including changing sandboxes on the PC or console.
-
-* To consume it from [PowerShell Gallery](https://www.powershellgallery.com/packages/XboxlivePSModule), open a PowerShell window:
-    1. Download and install the module: `Install-Module XboxlivePSModule -Scope CurrentUser`
-    2. Start using by running `Import-Module XboxlivePSModule`
-    3. Run cmdlets; that is, `Set-XblSandbox XDKS.1`, or `Get-XblSandbox`.
-
-* To consume it from a zip file at [https://aka.ms/xboxliveuwptools](https://aka.ms/xboxliveuwptools), open a PowerShell window,
-    1. Run: `Import-Module <path to unzipped folder>\XboxLivePsModule\XboxLivePsModule.psd1`
-    2. Run cmdlets; that is, `Set-XblSandbox XDKS.1`, or `Get-XblSandbox`.
+   To switch back to RETAIL, you can enter "RETAIL" here.
 
 
-### Command Prompt Script
+### Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)
 
-Download the Xbox Live Tools Package at [https://aka.ms/xboxliveuwptools](https://aka.ms/xboxliveuwptools) and unzip.
-You will find a `SwitchSandbox.cmd` batch file within.
+The Xbox Live development tools file (`XboxLiveTools.zip`) contains a command-line tool to switch sandboxes for PC development.
+See the section [Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)](../services-tools/live-tools.md#xpssc) in the article "Development tools for Xbox Live".
 
-Run this in Administrator mode to switch your sandbox.
-The first argument is the sandbox.
-For example if you are trying to switch to the XDKS.1 sandbox, you would do:
-
-```cmd
-SwitchSandbox.cmd XDKS.1
-```
-
-To switch back to RETAIL, you simply provide that as the second argument.
-
-```cmd
-SwitchSandbox.cmd RETAIL
-```
 
 ## Switch your Xbox One console development sandbox
 

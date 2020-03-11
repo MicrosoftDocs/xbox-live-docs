@@ -45,7 +45,7 @@ In between rounds and after matches are both good times.
 
 There are numerous options for displaying leaderboards provided in the Xbox Live SDK.
 If you are using Unity with the Xbox Live Creators Program, you can get started by using a Leaderboard Prefab to display your leaderboard data.
-For specifics, see [Configure Xbox Live in Unity](../../../../../get-started/setup-ide/creators/unity-win10/configure-xbox-live-in-unity.md).
+For specifics, see [Configuring Xbox Live in Unity](../../../../../get-started/setup-ide/creators/unity-win10/live-configure-xbl-in-unity.md).
 
 If you are coding against the Xbox Live SDK directly, then read on to learn about the APIs you can use.
 
@@ -130,7 +130,123 @@ public void GetSocialLeaderboard(
 ```  
 
 
-## C++ example for title-managed Leaderboards
+<!-- this C API section is copied from other repo, = entire file live-getting-tm-leaderboard.md -->
+<!-- break this section out into a separate code-only .md file like the other repo's file - maybe including the C++ and C# sections that follow it -->
+## Getting a title-managed Leaderboard (C API)
+
+
+<a id="gael"></a>
+
+### Getting an entire leaderboard
+
+Use `XblLeaderboardGetLeaderboardAsync` to return the leaderboard values for the given leaderboard, starting from the top of the leaderboard.
+
+
+**C API**
+<!-- XblLeaderboardGetLeaderboardAsync.md -->
+```cpp
+auto asyncBlock = std::make_unique<XAsyncBlock>();
+asyncBlock->queue = queue;
+asyncBlock->context = nullptr;
+asyncBlock->callback = [](XAsyncBlock* asyncBlock)
+{
+    std::unique_ptr<XAsyncBlock> asyncBlockPtr{ asyncBlock }; // Take over ownership of the XAsyncBlock*
+    size_t resultSize;
+    HRESULT hr = XblLeaderboardGetLeaderboardResultSize(asyncBlock, &resultSize);
+
+    if (SUCCEEDED(hr))
+    {
+        leaderboardBuffer.resize(resultSize);
+        XblLeaderboardResult* leaderboard{};
+
+        hr = XblLeaderboardGetLeaderboardResult(asyncBlock, resultSize, leaderboardBuffer.data(), &leaderboard, nullptr);
+
+        if (SUCCEEDED(hr))
+        {
+            // Use XblLeaderboardResult in result
+            for (auto row = 0u; row < leaderboard->rowsCount; ++row)
+            {
+                std::stringstream rowText;
+                rowText << leaderboard->rows[row].xboxUserId << "\t";
+
+                for (auto column = 0u; column < leaderboard->rows[row].columnValuesCount; ++column)
+                {
+                    rowText << leaderboard->rows[row].columnValues[column] << "\t";
+                }
+            }
+        }
+    }
+};
+
+XblLeaderboardQuery leaderboardQuery = {}; 
+pal::strcpy(leaderboardQuery.scid, sizeof(leaderboardQuery.scid), scid.c_str()) 
+leaderboardQuery.leaderboardName = leaderboardName.c_str(); 
+// See below on more options in XblLeaderboardQuery
+
+HRESULT hr = XblLeaderboardGetLeaderboardAsync(
+    xboxLiveContext,
+    leaderboardQuery,
+    asyncBlock.get());
+if (SUCCEEDED(hr))
+{
+    // The call succeeded, so release the std::unique_ptr ownership of XAsyncBlock* since the callback will take over ownership.
+    // If the call fails, the std::unique_ptr will keep ownership and delete the XAsyncBlock*
+    asyncBlock.release();
+}
+```
+
+<!-- **Reference**
+* [XAsyncBlock](xasyncblock.md)
+* [XblLeaderboardGetLeaderboardAsync](xblleaderboardgetleaderboardasync.md)
+* [XblLeaderboardGetLeaderboardResult](xblleaderboardgetleaderboardresult.md)
+* [XblLeaderboardGetLeaderboardResultSize](xblleaderboardgetleaderboardresultsize.md)
+* [XblLeaderboardQuery](xblleaderboardquery.md)
+* [XblLeaderboardResult](xblleaderboardresult.md) -->
+
+
+<a id="galaasr"></a>
+
+### Getting a leaderboard around a specified rank
+
+Use the same code as above, except that to create the `XblLeaderboardQuery`, use this code instead:
+
+
+**C API**
+<!-- XblLeaderboardGetLeaderboardAsync-Rank.md -->
+```cpp
+XblLeaderboardQuery leaderboardQuery = {};
+pal::strcpy(leaderboardQuery.scid, sizeof(leaderboardQuery.scid), scid.c_str());
+leaderboardQuery.leaderboardName = leaderboardName.c_str();
+leaderboardQuery.skipResultToRank = 100;
+leaderboardQuery.maxItems = 100;
+```
+
+<!-- **Reference**
+* [XblLeaderboardQuery](xblleaderboardquery.md) -->
+
+
+<a id="galaasp"></a>
+
+### Getting a leaderboard around a specified player
+
+Use the same code as above, except that to create the `XblLeaderboardQuery`, use this code instead:
+
+
+**C API**
+<!-- XblLeaderboardGetLeaderboardAsync-User.md -->
+```cpp
+XblLeaderboardQuery leaderboardQuery = {};
+pal::strcpy(leaderboardQuery.scid, sizeof(leaderboardQuery.scid), scid.c_str());
+leaderboardQuery.leaderboardName = leaderboardName.c_str();
+leaderboardQuery.skipToXboxUserId = xboxUserId;
+leaderboardQuery.maxItems = 100;
+```
+
+<!-- **Reference**
+* [XblLeaderboardQuery](xblleaderboardquery.md) -->
+
+
+## Getting a title-managed Leaderboard (C++ API)
 
 
 ### 1. Get a Singleton Instance of the stats_manager
@@ -287,7 +403,8 @@ void Sample::ProcessLeaderboards(
 }
 ```  
 
-## WinRT C# example for title-managed Leaderboards
+
+## Getting a title-managed Leaderboard (WinRT C# API)
 
 
 ### 1. Get a singleton instance of the StatisticManager
