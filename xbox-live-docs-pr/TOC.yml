@@ -766,6 +766,20 @@
           items: 
             - name: Development tools for Xbox Live
               href: test-release/services-tools/live-tools.md
+            - name: Config as Source tools (XblConfig.exe)
+              href: test-release/services-tools/live-config-as-source.md
+            - name: Global Storage tool (GlobalStorage.exe)
+              href: test-release/services-tools/live-global-storage-tool.md
+            - name: Multiplayer Session History Viewer (MultiplayerSessionHistoryViewer.exe)
+              href: test-release/services-tools/live-mp-session-history-viewer.md
+            - name: Player Data Reset tool (PlayerReset.exe)
+              href: test-release/services-tools/live-player-data-reset.md
+            - name: Xbox Live Account tool (XboxLiveAccountTool.exe)
+              href: test-release/services-tools/live-xbl-account-tool.md
+            - name: Xbox Live Developer Account tool (XblDevAccount.exe)
+              href: test-release/services-tools/live-dev-account-tool.md
+            - name: Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)
+              href: test-release/services-tools/live-pc-sandbox-switcher.md
             - name: Trace Analyzer for reviewing service calls
               href: test-release/services-tools/live-trace-analyzer.md
             - name: Using Fiddler to inspect web service calls
