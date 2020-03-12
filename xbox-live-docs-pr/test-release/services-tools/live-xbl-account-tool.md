@@ -29,7 +29,7 @@ This command-line tool is part of `XboxLiveTools.zip`; see [Development tools fo
 
 The Xbox Live Account tool (XBLAT) is a tool designed to help title developers set up existing dev accounts for testing game scenarios.
 For example, you can use XBLAT to change a dev account's gamertag, or quickly add 1000 followers to an account's friends list.
-For more details, go to http://www.aka.ms/XboxLiveAccountTool.
+For more details, see [https://www.aka.ms/XboxLiveAccountTool](https://www.aka.ms/XboxLiveAccountTool).
 
 
 ### What can I do with XBLAT?
