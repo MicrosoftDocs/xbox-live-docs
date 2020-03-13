@@ -137,6 +137,7 @@ Extract Xbox Live SDK to a folder, and double-click the `Tools\XboxLiveAccountTo
 Talk to your Microsoft representative with any feature requests and we'll see what we can do.
 
 
-### See also
+<!-- ### See also -->
 
-* [Creating test accounts](../../getstarted/live-setup-testaccounts.md)
+<!-- chm only
+* [Creating test accounts](../../get-started/live-setup-testaccounts.md) -->
