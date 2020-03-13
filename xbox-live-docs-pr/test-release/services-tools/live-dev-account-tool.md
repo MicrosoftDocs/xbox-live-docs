@@ -20,8 +20,6 @@ This tool is needed to interact with other developer tools that require a develo
 
 This command-line tool is part of `XboxLiveTools.zip`; see [Development tools for Xbox Live](live-tools.md).
 
-For more information, see [Developer Account Tool to set up test accounts](../test-accounts/live-account-tool.md).
-
 This executable is used to signin/out dev accounts and to save the credentials to be used across other Xbox Live executables that require dev credentials.
 
 

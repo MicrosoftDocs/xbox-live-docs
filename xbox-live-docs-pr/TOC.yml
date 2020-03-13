@@ -748,8 +748,6 @@
           items: 
             - name: Xbox Live test accounts
               href: test-release/test-accounts/live-test-accounts.md
-            - name: Developer Account Tool to set up test accounts
-              href: test-release/test-accounts/live-account-tool.md
             - name: Broadcasting Xbox Live test accounts to Mixer
               href: test-release/test-accounts/live-test-accounts-broadcast-mixer.md
         - name: Testing on the Xbox One console
@@ -775,7 +773,7 @@
             - name: Player Data Reset tool (PlayerReset.exe)
               href: test-release/services-tools/live-player-data-reset.md
             - name: Xbox Live Account tool (XboxLiveAccountTool.exe)
-              href: test-release/services-tools/live-xbl-account-tool.md
+              href: test-release/services-tools/live-xbox-live-account-tool.md
             - name: Xbox Live Developer Account tool (XblDevAccount.exe)
               href: test-release/services-tools/live-dev-account-tool.md
             - name: Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)

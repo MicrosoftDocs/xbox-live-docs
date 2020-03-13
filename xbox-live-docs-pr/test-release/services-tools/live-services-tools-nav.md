@@ -22,7 +22,7 @@ ms.localizationpriority: medium
 | [Global Storage tool (GlobalStorage.exe)](live-global-storage-tool.md) | GlobalStorage.exe is used to manage title global storage in test sandboxes, before publish to RETAIL. |
 | [Multiplayer Session History Viewer (MultiplayerSessionHistoryViewer.exe)](live-mp-session-history-viewer.md) | Shows a historical timeline of all changes over a multiplayer session document's history. |
 | [Player Data Reset tool (PlayerReset.exe)](live-player-data-reset.md) | Resets a player's data in test sandboxes. |
-| [Xbox Live Account tool (XboxLiveAccountTool.exe)](live-xbl-account-tool.md) | Sets up existing test accounts for testing game scenarios. |
+| [Xbox Live Account tool (XboxLiveAccountTool.exe)](live-xbox-live-account-tool.md) | Sets up existing test accounts for testing game scenarios. |
 | [Xbox Live Developer Account tool (XblDevAccount.exe)](live-dev-account-tool.md) | Manages authentication of a developer account and saves the credentials to be used across other Xbox Live executables. |
 | [Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)](live-pc-sandbox-switcher.md) | Command-line tool that helps manage the Xbox Live sandbox on PC. |
 | [Trace Analyzer for reviewing service calls](live-trace-analyzer.md) | Reviews the service calls made by a title. |

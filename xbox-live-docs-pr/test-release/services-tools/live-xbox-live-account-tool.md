@@ -1,33 +1,47 @@
 ---
-title: Developer Account Tool to set up test accounts
-description: The Xbox Live Developer Account Tool creates test accounts for testing your Xbox Live enabled title.
-ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, testing, test accounts
+title: Xbox Live Account tool (XboxLiveAccountTool.exe)
+description: Sets up existing test accounts for testing game scenarios.
+kindex: Xbox Live Account tool (XboxLiveAccountTool.exe)
+kindex: account tool
+author: mikehoffms
+ms.author: v-mihof
+ms.topic: conceptual
+ms.prod: gaming
+ms.technology: xboxlive
 ms.localizationpriority: medium
-ms.assetid: ec5959f9-1c60-4aa4-94a6-5d8bdcf77a96
-ms.date: 04/04/2017
+ms.date: 03/12/2018
+edited: 00/00/0000
 ---
 
-# Developer Account Tool to set up test accounts
+# Xbox Live Account tool (XboxLiveAccountTool.exe)
 
-The Xbox Live Developer Account Tool is a tool to help title developers set up existing dev accounts for testing game scenarios.
+<!-- `XboxLiveTools.zip` contains the following "XboxLiveAccountTool-Readme.txt" content. -->
+<!-- ## XboxLiveAccountTool (XBLAT) FAQ -->
+<!-- ### What is XBLAT? -->
 
-For example, you can use Xbox Live Account Tool to change a dev account's gamertag, or quickly add 1000 followers to an account's friends list.
+The Xbox Live Account tool (XBLAT) helps title developers set up existing dev accounts for testing game scenarios.
+For example, you can use the Xbox Live Account Tool to change a dev account's gamertag, or quickly add 1000 followers to an account's friends list.
+For more details, see the May 4, 2016 forum post [Xbox Live Developer Tools for Xbox One developers are now available in their own tools package](https://www.aka.ms/XboxLiveAccountTool) at forums.xboxlive.com.
+<!-- The forum post mentions:
+* Xbox Live Trace Analyzer
+* Xbox Live Account Tool
+* Xbox Tournament Tool
+* MatchSim -->
 
 
-## What can I do with Xbox Live Account Tool?
+## What can I do with the Xbox Live Account Tool?
 
 You can:
-* View a user's profile settings, XUID, and active privileges.
-* Add a list of followers to a user's social graph, either from a text file or an Xbox Developer Platform csv.
-* Manage a user's friends list: favorite, unfavorite, block, and unblock users you follow, and see if they follow you back.
-* Change your dev user's reputation (and see the raw reputation stat values immediately).
-* Change a user's gamertag.
+*  View a user's profile settings, XUID, and active privileges.
+*  Add a list of followers to a user's social graph, either from a text file or an Xbox Developer Platform (XDP) csv.
+*  Manage a user's friends list: favorite, unfavorite, block, and unblock users you follow, and see if they follow you back.
+*  Change your dev user's reputation (and see the raw reputation stat values immediately).
+*  Change a user's gamertag.
 
 
-## Where can I find Xbox Live Account Tool?
+## Where can I find the Xbox Live Account Tool?
 
-The Xbox Live Account Tool can be found as part of the Xbox Live Tools package from [https://aka.ms/xboxliveuwptools](https://aka.ms/xboxliveuwptools).
+This command-line tool is part of `XboxLiveTools.zip`; see [Development tools for Xbox Live](live-tools.md).
 
 
 ## How do I log in?
@@ -40,7 +54,7 @@ The tool was designed with dev accounts using a sandbox in mind.
 
 ## Can I use a retail account, or does it have to be a sandboxed account?
 
-You can certainly use Xbox Live Account Tool to manage a retail account, but not all features are supported.
+You can certainly use the Xbox Live Account Tool to manage a retail account, but not all features are supported.
 For example, you cannot change a retail user's reputation.
 
 
@@ -113,7 +127,7 @@ We're aware of a bug that some dev accounts do not get a gamerpic auto-generated
 For the batch operations (like adding followers), the tool automatically performs batches to prevent huge request sizes.
 
 
-## How do I run Xbox Live Account Tool?
+## How do I run the Xbox Live Account Tool?
 
 Extract Xbox Live SDK to a folder, and double-click the `Tools\XboxLiveAccountTool.exe` file to run it.
 
@@ -121,3 +135,8 @@ Extract Xbox Live SDK to a folder, and double-click the `Tools\XboxLiveAccountTo
 ## I have a feature request! How do I get my feature incorporated?
 
 Talk to your Microsoft representative with any feature requests and we'll see what we can do.
+
+
+### See also
+
+* [Creating test accounts](../../getstarted/live-setup-testaccounts.md)
