@@ -546,6 +546,7 @@
             "redirect_document_id": true
         },
         {
+            "source_path": "xbox-live-docs-pr/achievements-2017/achievements-overview.md",
             "source_path": "xbox-live-docs-pr/achievements-2017/achievements.md",
             "redirect_url": "/gaming/xbox-live/features/player-data/achievements/title-managed/live-achievements-tm-overview",
             "redirect_document_id": true

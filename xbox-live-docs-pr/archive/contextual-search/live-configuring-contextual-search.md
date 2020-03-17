@@ -35,18 +35,18 @@ To support this, you should design your eventing accordingly.
 
 For example, if you are using stats like SinglePlayerMap and MultiplayerMap to filter content, the player is only going to be in one of them at once.
 However, both values will be available to query from the service at any time.
-It’s important that as you set one, you clear out the other.
+It's important that as you set one, you clear out the other.
 For string-based stats, an empty string is great (make sure not to include that in your UI configuration as an option).
 
 
 ## Configuring a Stat for Contextual Search
 
 Configuring your title for Contextual Search is easy once you've set up the Events and Stats that power the tagging.
-See other existing XDP or Partner Center documentation on setting up Contextual Search if you're not already familiar.
+See other existing Partner Center or Xbox Developer Platform (XDP) documentation on setting up Contextual Search if you're not already familiar.
 
-![Xbox Developer Platform screenshot for Contextual Search configuration](../../images/contextual_search/config02.png)
+![Xbox Developer Platform (XDP) Contextual Search configuration](../../images/contextual_search/config02.png)
 
-The image above is an example of the main page after you click the Contextual Search tile in the main Service configuration portion of XDP.
+The image above is an example of the main page after you click the Contextual Search tile in the main Service configuration portion of Partner Center or Xbox Developer Platform (XDP).
 
 Even if this is the first time you've visited this page, it's possible that you will see stats already configured for Contextual Search.
 This is because all your Hero Stats are automatically set up for Contextual Search.
@@ -63,7 +63,7 @@ Each of these will be explained in more detail in the next section.
 
 The above image is the screen that will appear if you choose to create a new Contextual Search stat or edit and existing one.
 
-### To configure a stat for Contextual Search:
+**To configure a stat for Contextual Search:**
 
 1. Choose your stat instance.
 
@@ -90,8 +90,8 @@ Sets are important to the Contextual Search stats you want to filter with.
 
 {% raw %}
 For example, suppose there's an integer Stat called SinglePlayerMap.
-Showing a bunch of numbers to end users doesn’t make any sense.
-So instead, create a Set of mappings like ```{{0, “Blood Gulch”}, {1, “Lockout”}, {2, “Zanzibar”}}```.
+Showing a bunch of numbers to end users doesn't make any sense.
+So instead, create a Set of mappings like ```{{0, "Blood Gulch"}, {1, "Lockout"}, {2, "Zanzibar"}}```.
 The user will see the string, but we use the number as part of the Contextual Search search-query.
 You can map integers or strings to localized strings in Sets.
 {% endraw %}

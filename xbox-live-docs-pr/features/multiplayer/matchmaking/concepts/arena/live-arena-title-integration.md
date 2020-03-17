@@ -26,13 +26,13 @@ The Arena-enabled title then places the right users into each match within the g
 ## Overview
 
 Xbox Arena uses concepts familiar to Xbox multiplayer game development.
-If you’re not familiar with the Xbox multiplayer system, we recommend that you review that documentation before continuing.
+If you're not familiar with the Xbox multiplayer system, we recommend that you review that documentation before continuing.
 
 The process is similar to that of a user accepting an invitation into a multiplayer game.
-When it’s time for a user to play a match in an Arena tournament, a toast pops up to inform the user.
+When it's time for a user to play a match in an Arena tournament, a toast pops up to inform the user.
 
 Accepting the toast causes your title to receive a standard Arena protocol activation event.
-If your title isn’t already running, it is launched at this time.
+If your title isn't already running, it is launched at this time.
 
 
 ### Sessions
@@ -81,10 +81,10 @@ Your title is protocol-activated from the Xbox Arena UI.
 This could originate from a toast notification, the details page for the tournament, or any other entry point for the match.
 
 When a user participates in a match, the following steps occur:
-1.	Your title is [protocol-activated](#protocol-activation) by the Xbox Arena UI.
-2.	Your title uses the activation parameters to [play a single match](#2-playing-the-match).
-3.	When the match is over, your title [reports the results](#3-reporting-results) to the MPSD game session.
-4.	Your title gives the user the option to [return to the Arena UI](#4-returning-to-the-xbox-arena-ui).
+1.    Your title is [protocol-activated](#protocol-activation) by the Xbox Arena UI.
+2.    Your title uses the activation parameters to [play a single match](#2-playing-the-match).
+3.    When the match is over, your title [reports the results](#3-reporting-results) to the MPSD game session.
+4.    Your title gives the user the option to [return to the Arena UI](#4-returning-to-the-xbox-arena-ui).
 
 The following sections go through each of these steps in detail.
 
@@ -124,7 +124,7 @@ Protocol activations are delivered to your title via the `CoreApplicationView.Ac
 If the `IActivatedEventArgs.Kind` property of the event arguments is set to `Protocol`, the activation is a protocol activation, and the arguments can be cast to the `ProtocolActivatedEventArgs` class, where the protocol-activation URI is available via the `Uri` property.
 
 Have your title check the XUID on the protocol activation URI.
-If it doesn’t match the current player, your title will also need to switch user contexts.
+If it doesn't match the current player, your title will also need to switch user contexts.
 
 
 #### The protocol-activation URI
@@ -144,21 +144,21 @@ ms-xbl-{titleIdHex}://
 This is the same as for invitations.
 For this purpose, the title ID must be eight hexadecimal characters, so it will include leading zeroes if necessary.
 
-First make sure that the `Uri.Host` (the name immediately following the “://” separator) is “tournament”.
-That’s how Arena’s protocol activations are distinguished from activations of other features, such as game invitations.
+First make sure that the `Uri.Host` (the name immediately following the "://" separator) is "tournament".
+That's how Arena's protocol activations are distinguished from activations of other features, such as game invitations.
 
 The query-string arguments will be URL encoded and are case insensitive.
-Your title shouldn’t depend on the order of the parameters, and it should ignore unrecognized parameters.
+Your title shouldn't depend on the order of the parameters, and it should ignore unrecognized parameters.
 
 
 Parameter | Description
 --- | ---
-**action** | The only supported action is “joinGame”. If the **action** is missing or another value is specified for it, ignore the activation.
-**joinerXuid** | The **joinerXuid** is the XUID of the signed-in user who is attempting to play in a tournament match. Your title must allow switching to this user’s context. If the **joinerXuid** is not signed in, your title must prompt the user to do so by bringing up the account picker. XUIDs are always expressed in decimal.
+**action** | The only supported action is "joinGame". If the **action** is missing or another value is specified for it, ignore the activation.
+**joinerXuid** | The **joinerXuid** is the XUID of the signed-in user who is attempting to play in a tournament match. Your title must allow switching to this user's context. If the **joinerXuid** is not signed in, your title must prompt the user to do so by bringing up the account picker. XUIDs are always expressed in decimal.
 **organizerId, tournamentId** | The **organizerId** and **tournamentId**, when combined, form the unique identifier for the tournament that the match is associated with. Use this identifier to retrieve more detailed information about the tournament from the Tournaments Hub, if you choose to display it in your title.
 **teamId** | The **teamId** is a unique identifier for the team, in the context of the tournament that the user (specified by the **joinerXuid** parameter) is a member of. Like the **organizerId** and **tournamentId** parameters, you can use the **teamId** to optionally retrieve information about the team from the Tournaments Hub.
-**scid, templateName, name** | Together, these identify the session. These are the same three parameters in the MPSD URI path to the session:</br> </br>`https://sessiondirectory.xboxlive.com/serviceconfigs/{scid}/sessiontemplates/{templateName}/sessions{name}`.</br></br>In XSAPI, they’re the three parameters to the `multiplayer_session_reference `constructor.
-**returnUri, returnPfn** | The **returnUri** is a protocol-activation URI to return the user to the Xbox Arena UI. The **returnPfn** parameter may or may not be present. If it is, it’s the Product Family Name (PFN) for the app that’s intended to handle the **returnUri**. For sample code that shows how to use these values, see [Returning to the Xbox Arena UI](#4-returning-to-the-xbox-arena-ui).
+**scid, templateName, name** | Together, these identify the session. These are the same three parameters in the MPSD URI path to the session:</br> </br>`https://sessiondirectory.xboxlive.com/serviceconfigs/{scid}/sessiontemplates/{templateName}/sessions{name}`.</br></br>In XSAPI, they're the three parameters to the `multiplayer_session_reference `constructor.
+**returnUri, returnPfn** | The **returnUri** is a protocol-activation URI to return the user to the Xbox Arena UI. The **returnPfn** parameter may or may not be present. If it is, it's the Product Family Name (PFN) for the app that's intended to handle the **returnUri**. For sample code that shows how to use these values, see [Returning to the Xbox Arena UI](#4-returning-to-the-xbox-arena-ui).
 
 
 ### 2. Playing the match
@@ -167,20 +167,20 @@ When the MPSD session is created by the Tournament Organizer, the user is set as
 Your title must immediately set the player to active by using `multiplayer_session::join()`.
 This indicates to Xbox Live and the other users in the match that the user is in your title and ready to play.
 
-The start time for the match is in the session at `/servers/arbitration/constants/system/startTime` as a date-time value in the standard UTC format (for example, “2009-06-15T13:45:30.0900000Z”).
+The start time for the match is in the session at `/servers/arbitration/constants/system/startTime` as a date-time value in the standard UTC format (for example, "2009-06-15T13:45:30.0900000Z").
 Start time is also available in XSAPI as `multiplayer_session_arbitration_server::arbitration_start_time()`, starting in the 1703 XDK.
 
 The Tournament Organizer (TO) can create the session as far in advance of the start time as it wants (including concurrently with the start time).
 Match notifications are sent to the match participants at the start time, so titles never get activated before the start time.
 The start time is also the earliest time at which MPSD will allow results to be reported for the match.
 
-Your title looks at each member’s `/member/{index}/constants/system/team` property (`multiplayer_session_member::team_id()`) to figure out which team each user is on.
+Your title looks at each member's `/member/{index}/constants/system/team` property (`multiplayer_session_member::team_id()`) to figure out which team each user is on.
 
 Your title also uses the session to determine the match settings, such as map and mode.
 These title-specific settings can be set in the session template or as part of the tournament definition as custom constants.
 For more information, see [Configuring a title for Arena](#configuring-a-title-for-arena).
 
-Here’s an example:
+Here's an example:
 
 ```json
 {
@@ -201,7 +201,7 @@ In general, your title should treat the Arena session the same way it would trea
 For example, it can create handles and subscribe for RTA notifications.
 
 But there are a few differences.
-For example, your title can’t change the roster of the game session or use the Quality of Service (QoS) features of the session, and it must participate in arbitration.
+For example, your title can't change the roster of the game session or use the Quality of Service (QoS) features of the session, and it must participate in arbitration.
 
 The complete details of the session are provided later in this document.
 
@@ -236,18 +236,18 @@ Your title can report results at any time between the start time and the arbitra
 Arbitration occurs at any time between the forfeit time and the arbitration time, after every active member of the session has submitted results.
 For example, if just one member is active in the session at the forfeit time, they can (and should) post a result, and arbitration will occur.
 
-No matter how many results are available at arbitration time, arbitration will occur if it hasn’t already.
+No matter how many results are available at arbitration time, arbitration will occur if it hasn't already.
 If no results are submitted when arbitration time is reached, all participants in the match are given a loss.
 
 
 #### Forcing arbitration
 
-It’s also possible for a game server to force arbitration at any time by simply writing an arbitrated result.
+It's also possible for a game server to force arbitration at any time by simply writing an arbitrated result.
 
 If a user is in a session that has already been arbitrated (either because the arbitration time-out expired, a game server arbitrates the session, or the user joins late), your title ends the match and displays the arbitrated result to the user.
 
 Arbitration results always include the outcome for every team.
-When an individual player writes a result to the session, it includes not just their team’s outcome, but the full set of results for every team.
+When an individual player writes a result to the session, it includes not just their team's outcome, but the full set of results for every team.
 
 The results in JSON look like this.
 
@@ -264,24 +264,24 @@ The results in JSON look like this.
 }
 ```
 
-In this example, the team IDs are “red” and “blue”.
+In this example, the team IDs are "red" and "blue".
 The red team came in first and the blue team second.
 
 Other possible values for **outcome** are:
 
-* “win”
-* “loss”
-* “draw”
-* “noshow”
+* "win"
+* "loss"
+* "draw"
+* "noshow"
 
-If **outcome** is anything other than “rank,” the ranking is omitted for that team.
+If **outcome** is anything other than "rank," the ranking is omitted for that team.
 
 
 #### Constructing and submitting results
 
 Individual users write the match results to `/members/{index}/properties/system/arbitration` (`multiplayer_session::set_current_user_member_arbitration_results()`).
 
-The following example illustrates how a title might construct and submit a set of results, assuming that your title isn’t team based (that is, all players are on teams of one).
+The following example illustrates how a title might construct and submit a set of results, assuming that your title isn't team based (that is, all players are on teams of one).
 
 ```c++
 void Sample::SubmitResultsForArbitration()
@@ -323,7 +323,7 @@ After arbitration occurs, MPSD places the final results in `/servers/arbitration
 
 ```json
 {
-    "resultState": "completed”,
+    "resultState": "completed",
     "resultSource": "arbitration",
     "resultConfidenceLevel": 75,
 
@@ -335,23 +335,23 @@ After arbitration occurs, MPSD places the final results in `/servers/arbitration
 
 Possibilities for **resultState** include:
 
-* “completed”: All active players reported a result.
-* “partialresults”: Some but not all active players reported a result before the arbitration time-out.
-* “noresults”: None of the active players reported a result before the arbitration time-out.
-* “canceled”: No active players arrived before the forfeit time-out.
+* "completed": All active players reported a result.
+* "partialresults": Some but not all active players reported a result before the arbitration time-out.
+* "noresults": None of the active players reported a result before the arbitration time-out.
+* "canceled": No active players arrived before the forfeit time-out.
 
-In the case of “noresults” and “canceled”, the results are omitted.
+In the case of "noresults" and "canceled", the results are omitted.
 
 
 #### resultSource
 
-The **resultSource** is “arbitration” when MPSD performs the arbitration based on the results reported by individual players.
+The **resultSource** is "arbitration" when MPSD performs the arbitration based on the results reported by individual players.
 A game server can write to /servers/arbitration/properties/system itself, bypassing arbitration.
-In that case, it indicates a **resultSource** of “server”.
+In that case, it indicates a **resultSource** of "server".
 
-It’s also possible for a game server to rewrite (that is, fix or adjust) the results, in which case it sets **resultSource** to “adjusted”.
+It's also possible for a game server to rewrite (that is, fix or adjust) the results, in which case it sets **resultSource** to "adjusted".
 
-When the **resultSource** is “arbitration” (and the **resultState** is “completed” or “partialresults”), the results provided are an exact copy of at least one of the player-reported results.
+When the **resultSource** is "arbitration" (and the **resultState** is "completed" or "partialresults"), the results provided are an exact copy of at least one of the player-reported results.
 
 
 #### resultConfidenceLevel
@@ -362,22 +362,22 @@ The **resultConfidenceLevel** is an integer between 0 and 100 that indicates the
 
 0 means there was no consensus, and a result was chosen essentially at random from those submitted.
 
-When a game server sets the arbitration results, it sets the **resultConfidenceLevel**-typically to 100, unless for some reason even the game server itself isn’t sure (for example, if it’s reporting the results of its own per-player voting procedure).
+When a game server sets the arbitration results, it sets the **resultConfidenceLevel**-typically to 100, unless for some reason even the game server itself isn't sure (for example, if it's reporting the results of its own per-player voting procedure).
 Set the **resultConfidenceLevel** also when results are adjusted to reflect the confidence in the adjusted results.
 
 
 ### 4. Returning to the Xbox Arena UI
 
-When the match is over (or potentially in response to a player’s request to abandon the match in progress), present an option for the player to return to the Xbox Arena UI from where they joined the match.
+When the match is over (or potentially in response to a player's request to abandon the match in progress), present an option for the player to return to the Xbox Arena UI from where they joined the match.
 This can be done from a post-match results screen or any other end-of-game UI.
 
 To return to the Arena UI, invoke the **returnUri** that was passed in from the protocol-activation URI by using the `Windows::System::Launcher` class.
 Be sure to include the user context.
 
 The launch API is exposed slightly differently to ERA games than to Universal Windows Platform (UWP) games.
-The ERA version of the API doesn’t allow the PFN to be supplied, so the PFN can be ignored even if present on the activation URI.
+The ERA version of the API doesn't allow the PFN to be supplied, so the PFN can be ignored even if present on the activation URI.
 
-Here’s example code for an ERA to return the user to the Arena UI.
+Here's example code for an ERA to return the user to the Arena UI.
 
 ```c++
 void Sample::LaunchReturnUi(Uri ^returnUri, Windows::Xbox::System::User ^currentUser)
@@ -390,9 +390,9 @@ void Sample::LaunchReturnUi(Uri ^returnUri, Windows::Xbox::System::User ^current
 ```
 
 UWP games can set the **TargetApplicationPackageFamilyName** property on **LauncherOptions** to the return PFN, if one was provided on the protocol activation URI.
-That ensures that the specific app is launched and that the user is taken to the Store if the app isn’t already installed.
+That ensures that the specific app is launched and that the user is taken to the Store if the app isn't already installed.
 
-Here’s example code for a UWP app to return the user to the Arena UI.
+Here's example code for a UWP app to return the user to the Arena UI.
 
 ```c++
 void Sample::LaunchReturnUi(Uri ^returnUri, String ^returnPfn, User ^currentUser)
@@ -429,14 +429,14 @@ If your title is launched with a session ref for a match, and the client then fa
 #### User attempts to join a match that has been played
 
 If a user attempts to join a match after results have been reported, block that client from starting a new match and present the user with an error.
-You can check whether results have been reported by iterating through the members of the session to see if any have a `/members/{index}/arbitrationStatus` (`multiplayer_session_member::tournament_arbitration_status`) set to “complete”.
+You can check whether results have been reported by iterating through the members of the session to see if any have a `/members/{index}/arbitrationStatus` (`multiplayer_session_member::tournament_arbitration_status`) set to "complete".
 
 
 #### Game clients unable to establish a p2p connection
 
-If your title uses person-to-person (p2p) connections between clients for multiplayer and doesn’t have support for relays, there may be instances where users who are matched together are unable to form a p2p connection.
+If your title uses person-to-person (p2p) connections between clients for multiplayer and doesn't have support for relays, there may be instances where users who are matched together are unable to form a p2p connection.
 
-If the client is able to retrieve the session for the match but can’t connect to other clients, report a “draw” result for each team under `/members/{index}/properties/system/arbitration/results` (`multiplayer_session::set_current_user_member_arbitration_results()`).
+If the client is able to retrieve the session for the match but can't connect to other clients, report a "draw" result for each team under `/members/{index}/properties/system/arbitration/results` (`multiplayer_session::set_current_user_member_arbitration_results()`).
 This indicates to Xbox Live that the match has not taken place.
 It also prevents exploits where users can advance through a tournament by forcing a p2p connection failure.
 
@@ -446,7 +446,7 @@ It also prevents exploits where users can advance through a tournament by forcin
 One of the most common error scenarios is when clients disconnect while a match is being played.
 Depending on the state of the match and your implementation, there are a few options for handling this case:
 
-* If the tournament match is one vs. one, or if all members of a team disconnect from the other clients and/or your game service, we recommend that you report a “loss” for the team that is no longer connected. This prevents the case in which users can force a disconnect from a match they are losing to prevent the result from being reported.
+* If the tournament match is one vs. one, or if all members of a team disconnect from the other clients and/or your game service, we recommend that you report a "loss" for the team that is no longer connected. This prevents the case in which users can force a disconnect from a match they are losing to prevent the result from being reported.
 * If the match is between teams with multiple members, and a subset of the clients for a team disconnect mid-match, you can choose to end the match at that point or allow it to continue with the remaining users. If you choose to continue the match, you may also optionally allow users who disconnected to rejoin the match.
 
 
@@ -500,16 +500,16 @@ To enable a title for Arena, some additional steps are required when you configu
 
 ### Enabling Arena for your title
 
-To enable Arena, go to the service configuration page for your title in Partner Center and select ‘Arena’.
+To enable Arena, go to the service configuration page for your title in Partner Center and select 'Arena'.
 
-![Arena configuration on Xbox Developer Platform screenshot](live-arena-title-integration-images/arena-configure-xdp.png)
+![Arena configuration on Xbox Developer Platform (XDP)](live-arena-title-integration-images/arena-configure-xdp.png)
 
-Here, you’ll have several options:
+Here, you'll have several options:
 
 * **Arena Enabled** – Select this check box to enable Arena for this sandbox.
 * **Arena Features** – This section includes check boxes to enable user-generated tournaments in the sandbox, and to enable cross play, which allows users on multiple platforms to participate in the same tournaments.
 * **Arena Platforms** – Lets you select the platforms on which tournaments can be played for your title.
-* **Tournament Assets** – (Formerly in the ‘Multiplayer and Matchmaking’ section.) These are the tournament images for your title.
+* **Tournament Assets** – (Formerly in the 'Multiplayer and Matchmaking' section.) These are the tournament images for your title.
 
 Arena can also be enabled in Partner Center in the **Tournament** menu under the Xbox Live service.
 
@@ -517,7 +517,7 @@ Arena can also be enabled in Partner Center in the **Tournament** menu under the
 
 You must publish the service configuration for your changes to take effect.
 Self-service Arena configuration is currently not supported through UDC.
-If you’re using UDC for service configuration, work with your Development Account Manager to onboard with Arena.
+If you're using UDC for service configuration, work with your Development Account Manager to onboard with Arena.
 
 
 ### Setting up game modes
@@ -540,14 +540,14 @@ If your title is configured to support UGT, you can mark game modes so that they
 This is the number of users that can participate in the tournament as a team.
 For a single-user title or tournament, the game mode has a team size of one.
 
-Arena currently doesn’t support variable team sizes for tournaments.
+Arena currently doesn't support variable team sizes for tournaments.
 
 
 #### forfeitTimeout
 
 This is the number of milliseconds, after the match start time, before the match is canceled if no players show up for it (that is, if no players set themselves to active in the session).
 
-Set this to an amount of time that’s at least long enough for a player to launch your title and get into the tournament match from the time they see the toast notification.
+Set this to an amount of time that's at least long enough for a player to launch your title and get into the tournament match from the time they see the toast notification.
 
 
 #### arbitrationTimeout
@@ -560,9 +560,9 @@ That way, even if the players start playing right before the forfeit time, they 
 If no results are reported by the time of the **arbitrationTimeout**, the participants of the match all receive a loss.
 Xbox Arena also waits up until the **arbitrationTimeout** for all active members to report results before beginning arbitration.
 
-This time-out acts as a backstop in case something goes wrong and a result doesn’t get reported for a player.
+This time-out acts as a backstop in case something goes wrong and a result doesn't get reported for a player.
 Rather than stalling the entire tournament, this time-out puts an upper bound on the amount of time that the tournament will wait.
-For that reason, it shouldn’t be set too high, because it determines the maximum length of each tournament round.
+For that reason, it shouldn't be set too high, because it determines the maximum length of each tournament round.
 
 
 #### Name
@@ -582,7 +582,7 @@ This value is localizable.
 The **custom** section for the game mode is a property bag where developers can insert any title-specific configuration settings for the tournament match.
 Values defined as part of the custom section are written to the match MPSD session under `/properties/custom/`.
 
-<!-- Currently, game mode setup is not supported through XDP or UDC.
+<!-- Currently, game mode setup is not supported through Xbox Developer Platform (XDP) or UDC.
 To create game modes for your title, contact your Developer Account Manager. -->
 
 
@@ -613,7 +613,7 @@ There are some expectations about the contents of the template.
 Other properties that are not shown here can be set however you want.
 
 Arena sessions are always version 1.
-Setting the **inviteProtocol** to “tournamentGame” enables the match-ready notifications to be sent to tournament participants.
+Setting the **inviteProtocol** to "tournamentGame" enables the match-ready notifications to be sent to tournament participants.
 **memberInitialization** is set to null to disable QoS.
 
 The gameplay capability must be set because the session represents a match, and the arbitration capability is required for results reporting.

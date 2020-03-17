@@ -12,7 +12,7 @@ ms.date: 04/04/2017
 
 A _cross-play game_ is a game that is released as an XDK-based Xbox One version and a UWP-based Windows 10 version, where both versions of the game share a single Title ID and a single Xbox Live services configuration such as multiplayer, game saves, achievements, and leaderboards.
 
-<!-- todo: replace XDP captures by Partner Center captures -->
+<!-- todo: replace Xbox Developer Platform (XDP) captures by Partner Center captures -->
 
 With the launch of Windows 10, game developers will be able to release single products both on Xbox One (as an XDK game) and Windows 10 (as a UWP game).
 
@@ -153,14 +153,14 @@ Once the product is created at Partner Center, go to the Product Setup page for 
 
 ![Product setup location](../../images/ingesting_crossplay_games_xdp/image11.png)
 
-Once you make it to the Product Setup page, select the “Application ID Setup” section.
-In this area, you can enter the MSA App ID you retrieved and place it in the “Application ID” field, as shown below.
+Once you make it to the Product Setup page, select the "Application ID Setup" section.
+In this area, you can enter the MSA App ID you retrieved and place it in the "Application ID" field, as shown below.
 
 ![Application ID setup](../../images/ingesting_crossplay_games_xdp/image12.png)
 
-**You** **do not need to enter Name and Publisher attribution**, **and specifically should not use the “Get Application ID” link on the page**, as you already have an MSA App ID you need to enter in this field and do not want a new one generated for your application.
+**You** **do not need to enter Name and Publisher attribution**, **and specifically should not use the "Get Application ID" link on the page**, as you already have an MSA App ID you need to enter in this field and do not want a new one generated for your application.
 
-Once you’ve entered your MSA App ID in the “Application ID” field, click the “Submit Application ID Setup” button.
+Once you've entered your MSA App ID in the "Application ID" field, click the "Submit Application ID Setup" button.
 This will save your MSA App ID information with Xbox Live security – whenever you make a request to retrieve an XToken from your UWP, the title claim contained within will now map to this Partner Center product, as long as the UWP is properly using the AppX Manifest Identity you created in Partner Center.
 
 The above steps get your UWP game authenticated and using Xbox Live with the Service Configuration you create and publish in Partner Center.
@@ -168,13 +168,13 @@ The above steps get your UWP game authenticated and using Xbox Live with the Ser
 
 ### Enter the Package Family Name (PFN)
 
-Certain Xbox Live features (like multiplayer invites) need to be aware of your UWP game’s PFN, in order to work correctly.
+Certain Xbox Live features (like multiplayer invites) need to be aware of your UWP game's PFN, in order to work correctly.
 
 To do this, navigate to Product Setup &gt; Partner Center Binding
 
 ![Dev Center Binding](../../images/ingesting_crossplay_games_xdp/image13.png)
 
-On this page, enter the PFN for your UWP app (as retrieved in section 4.1.1), then select the “save” button.
+On this page, enter the PFN for your UWP app (as retrieved in section 4.1.1), then select the "save" button.
 
 This configuration is not immediately made live.
 This configuration is brought live through future Service Configuration publishes to a sandbox.
@@ -220,7 +220,7 @@ For this Partner Center configuration, see the detailed steps in the UWP documen
     <td>
       For UWP-only games, only a limited set of catalog configuration needs to be set up.
       In particular, Marketing Info should be filled out for UWP-only games, as service configuration consumes the strings entered here for any Partner Center-configured Xbox Live game.
-      Additionally, availabilities should be setup with “not available” to ensure that the game will never appear in the Xbox One catalog if/when the catalog info for the game gets published.
+      Additionally, availabilities should be setup with "not available" to ensure that the game will never appear in the Xbox One catalog if/when the catalog info for the game gets published.
     </td>
   </tr>
 </table>
@@ -253,7 +253,7 @@ The below focuses on unique process or considerations to make for cross-play gam
 
 While Partner Center allows you to publish your catalog & binary to the dev sandbox version of the Xbox One catalog, the Microsoft Store catalog has no sandbox support.
 As such, testing your UWP in a dev sandbox requires you to sideload that UWP and play it directly.
-This doesn’t impact Xbox Live testing, but may alter your standard testing processes.
+This doesn't impact Xbox Live testing, but may alter your standard testing processes.
 
 <table>
   <tr>
@@ -269,18 +269,18 @@ This doesn’t impact Xbox Live testing, but may alter your standard testing pro
 In Partner Center, the submission process automatically moves your game through certification and on to retail.
 There is an order of operations to respect.
 
-When you’re ready to go to certification, you should follow the following steps in order:
+When you're ready to go to certification, you should follow the following steps in order:
 
 1.  Publish your XDK product in Partner Center to CERT (including catalog, binary, and service config).
 
 2.  Start your Partner Center submission for your UWP product.
 
-    1.  **Be sure to select “Publish this app manually” or “No sooner than \[date\]” in the Publish date field!** If you don’t do this, your UWP game could be released to retail automatically without your intervention.
+    1.  **Be sure to select "Publish this app manually" or "No sooner than \[date\]" in the Publish date field!** If you don't do this, your UWP game could be released to retail automatically without your intervention.
 
 <table>
   <tr>
     <td>
-      For a UWP-only game, it is still required to publish your catalog and service config to CERT in Partner Center before starting your submission, even though you don’t have an XDK title binary that you’re publishing.
+      For a UWP-only game, it is still required to publish your catalog and service config to CERT in Partner Center before starting your submission, even though you don't have an XDK title binary that you're publishing.
     </td>
   </tr>
 </table>
@@ -289,11 +289,11 @@ When you’re ready to go to certification, you should follow the following step
 ## RETAIL Sandbox Publishing
 
 Once certification of your XDK title has completed, and your UWP has left certification and is ready to publish, you are ready to publish your app to RETAIL.
-Again, it’s important to follow this process in a specific order to ensure that your XDK title and UWP stay aligned.
+Again, it's important to follow this process in a specific order to ensure that your XDK title and UWP stay aligned.
 
-1.  Once you’re ready, publish your XDK product in Partner Center to RETAIL (including catalog, binary, and service config)
+1.  Once you're ready, publish your XDK product in Partner Center to RETAIL (including catalog, binary, and service config)
 
-2.  In Partner Center, on the certification page of your product, select “Publish now” if you had previously selected “Publish this app manually”, or wait for the publish to occur if you selected “No sooner than \[date\]”.
+2.  In Partner Center, on the certification page of your product, select "Publish now" if you had previously selected "Publish this app manually", or wait for the publish to occur if you selected "No sooner than \[date\]".
 
 Once these steps have completed, you should have your XDK title and UWP game published to the world, with a shared service configuration in RETAIL.
 Congratulations!
