@@ -42,11 +42,11 @@ For string-based stats, an empty string is great (make sure not to include that 
 ## Configuring a Stat for Contextual Search
 
 Configuring your title for Contextual Search is easy once you've set up the Events and Stats that power the tagging.
-See other existing Partner Center or Xbox Developer Platform (XDP) documentation on setting up Contextual Search if you're not already familiar.
+See other existing Partner Center or Xbox Developer Portal (XDP) documentation on setting up Contextual Search if you're not already familiar.
 
-![Xbox Developer Platform (XDP) Contextual Search configuration](../../images/contextual_search/config02.png)
+![Xbox Developer Portal (XDP) Contextual Search configuration](../../images/contextual_search/config02.png)
 
-The image above is an example of the main page after you click the Contextual Search tile in the main Service configuration portion of Partner Center or Xbox Developer Platform (XDP).
+The image above is an example of the main page after you click the Contextual Search tile in the main Service configuration portion of Partner Center or Xbox Developer Portal (XDP).
 
 Even if this is the first time you've visited this page, it's possible that you will see stats already configured for Contextual Search.
 This is because all your Hero Stats are automatically set up for Contextual Search.

@@ -33,7 +33,7 @@ For more details, see the May 4, 2016 forum post [Xbox Live Developer Tools for 
 
 You can:
 *  View a user's profile settings, XUID, and active privileges.
-*  Add a list of followers to a user's social graph, either from a text file or <!-- an Xbox Developer Platform (XDP)--> a Partner Center .csv file.
+*  Add a list of followers to a user's social graph, either from a text file or an Xbox Developer Portal (XDP) csv.
 *  Manage a user's friends list: favorite, unfavorite, block, and unblock users you follow, and see if they follow you back.
 *  Change your dev user's reputation (and see the raw reputation stat values immediately).
 *  Change a user's gamertag.

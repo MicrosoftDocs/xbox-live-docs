@@ -12,7 +12,7 @@ ms.date: 04/04/2017
 
 A _cross-play game_ is a game that is released as an XDK-based Xbox One version and a UWP-based Windows 10 version, where both versions of the game share a single Title ID and a single Xbox Live services configuration such as multiplayer, game saves, achievements, and leaderboards.
 
-<!-- todo: replace Xbox Developer Platform (XDP) captures by Partner Center captures -->
+<!-- todo: replace Xbox Developer Portal (XDP) captures by Partner Center captures -->
 
 With the launch of Windows 10, game developers will be able to release single products both on Xbox One (as an XDK game) and Windows 10 (as a UWP game).
 
