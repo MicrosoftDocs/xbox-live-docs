@@ -37,6 +37,25 @@ edited: 00/00/0000
         </a>
     </li>
     <li>
+        <a href="live-common-multiplayer-scenarios.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_overview.svg" alt="Common multiplayer scenarios"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Common multiplayer scenarios</h3>
+                            <p>Which Xbox Live functionality supports various multiplayer scenarios, including Comparative (Indirect) Play, Online Play with friends, Skill-Based Matchmaking, and Tournaments.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
         <a href="concepts/live-multiplayer-concepts-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">

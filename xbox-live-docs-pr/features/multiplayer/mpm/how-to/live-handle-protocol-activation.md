@@ -52,6 +52,35 @@ Error/success is handled via the `join_lobby_completed` event.
 
 
 **C API**
+```cpp
+#include <XTaskQueue.h>
+#include <XGameInvite.h>  
+  
+XTaskQueueHandle g_taskQueue;  
+XTaskQueueRegistrationToken g_gameInviteEventToken;  
+  
+void OnGameInvite(void* context, const char* inviteUri)  
+{  
+    if (inviteUri != nullptr)
+    {
+        std::string inviteString(inviteUri);
+        auto pos = inviteString.find("handle=");
+        auto inviteHandeId = inviteString.substr(pos + 7, 36);
+        // Now call XblMultiplayerManagerJoinLobby
+    }
+}  
+  
+void InitializeGame()  
+{  
+    XGameInviteRegisterForEvent(g_taskQueue, nullptr, OnGameInvite, &g_gameInviteEventToken);  
+}  
+  
+void ShutdownGame()  
+{  
+    XGameInviteUnregisterForEvent(g_gameInviteEventToken);  
+}  
+```
+
 <!-- XblMultiplayerManagerLobbySessionSetLocalMemberConnectionAddress_C.md -->
 ```cpp
 HRESULT hr = XblMultiplayerManagerLobbySessionSetLocalMemberConnectionAddress(

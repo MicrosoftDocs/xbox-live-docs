@@ -62,7 +62,7 @@ These approaches are described below.
 
 To start tracing directly from your title, you must do the following:
 
-1.  In the `Microsoft::Xbox::Services::Experimental` namespace, set the `EnableServiceCallTracking` property of the `ServiceCallTrackerSettings` class to true.
+1.  Set the `EnableServiceCallTracking` property of the `ServiceCallTrackerSettings` class to true.
 2.  Call `StartServiceCallTracking()` to start tracing service calls.
 3.  Call `StopServiceCallTracking()` to stop tracing service calls.
 4.  After tracing is stopped, copy the resulting trace file from the developer scratch drive on the console back to your PC by using either *File Copy (xbcp.exe)* or the *Xbox One Neighborhood* in order to analyze it by using Xbox Live Trace Analyzer.

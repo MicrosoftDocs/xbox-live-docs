@@ -385,23 +385,23 @@
           items: 
             - name: Multiplayer overview
               href: features/multiplayer/live-multiplayer-intro.md
+            - name: Common multiplayer scenarios
+              href: features/multiplayer/live-common-multiplayer-scenarios.md
             - name: Multiplayer concepts
-              href: features/multiplayer/concepts/live-multiplayer-concepts-nav.md
+              href: features/multiplayer/live-multiplayer-concepts-nav.md
               items: 
                 - name: Multiplayer concepts overview
                   href: features/multiplayer/concepts/live-multiplayer-concepts.md
+                - name: Configuring the Multiplayer service
+                  href: features/multiplayer/concepts/live-configure-the-multiplayer-service.md
+                - name: Multiplayer 2015 FAQ and troubleshooting
+                  href: features/multiplayer/concepts/live-multiplayer-2015-faq.md
                 - name: Multiplayer roles
                   href: features/multiplayer/concepts/live-multiplayer-roles.md
                 - name: Multiplayer session browse
                   href: features/multiplayer/concepts/live-session-browse.md
                 - name: Intro to calling the Multiplayer service directly
                   href: features/multiplayer/concepts/live-intro-calling-mp-directly.md
-                - name: Common multiplayer scenarios
-                  href: features/multiplayer/concepts/live-common-multiplayer-scenarios.md
-                - name: Configuring the Multiplayer service
-                  href: features/multiplayer/concepts/live-configure-the-multiplayer-service.md
-                - name: Multiplayer 2015 FAQ and troubleshooting
-                  href: features/multiplayer/concepts/live-multiplayer-2015-faq.md
                 - name: Changing a game from 2014 to 2015 Multiplayer
                   href: features/multiplayer/concepts/live-issues-changing-to-mp-2015.md
                 - name: Migrating an arbiter
