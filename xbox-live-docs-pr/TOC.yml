@@ -388,7 +388,7 @@
             - name: Common multiplayer scenarios
               href: features/multiplayer/live-common-multiplayer-scenarios.md
             - name: Multiplayer concepts
-              href: features/multiplayer/live-multiplayer-concepts-nav.md
+              href: features/multiplayer/concepts/live-multiplayer-concepts-nav.md
               items: 
                 - name: Multiplayer concepts overview
                   href: features/multiplayer/concepts/live-multiplayer-concepts.md
