@@ -799,6 +799,12 @@
             "redirect_url": "/gaming/xbox-live/features/multiplayer/live-multiplayer-intro",
             "redirect_document_id": true
         },
+        {
+            "source_path": "xbox-live-docs-pr/multiplayer/multiplayer-scenarios.md",
+            "source_path": "xbox-live-docs-pr/features/multiplayer/concepts/live-common-multiplayer-scenarios.md",
+            "redirect_url": "/gaming/xbox-live/features/multiplayer/live-common-multiplayer-scenarios",
+            "redirect_document_id": true
+        },
         // {
         //     "source_path": "xbox-live-docs-pr/__.md",
         //     "redirect_url": "/gaming/xbox-live/features/multiplayer/concepts/live-multiplayer-concepts-nav",
@@ -807,6 +813,16 @@
         {
             "source_path": "xbox-live-docs-pr/multiplayer/multiplayer-concepts.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/concepts/live-multiplayer-concepts",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/multiplayer/service-configuration/configure-the-multiplayer-service.md",
+            "redirect_url": "/gaming/xbox-live/features/multiplayer/concepts/live-configure-the-multiplayer-service",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/multiplayer/multiplayer-appendix/multiplayer-2015-faq.md",
+            "redirect_url": "/gaming/xbox-live/features/multiplayer/concepts/live-multiplayer-2015-faq",
             "redirect_document_id": true
         },
         {
@@ -822,21 +838,6 @@
         {
             "source_path": "xbox-live-docs-pr/multiplayer/multiplayer-appendix/introduction-to-the-multiplayer-system.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/concepts/live-intro-calling-mp-directly",
-            "redirect_document_id": true
-        },
-        {
-            "source_path": "xbox-live-docs-pr/multiplayer/multiplayer-scenarios.md",
-            "redirect_url": "/gaming/xbox-live/features/multiplayer/concepts/live-common-multiplayer-scenarios",
-            "redirect_document_id": true
-        },
-        {
-            "source_path": "xbox-live-docs-pr/multiplayer/service-configuration/configure-the-multiplayer-service.md",
-            "redirect_url": "/gaming/xbox-live/features/multiplayer/concepts/live-configure-the-multiplayer-service",
-            "redirect_document_id": true
-        },
-        {
-            "source_path": "xbox-live-docs-pr/multiplayer/multiplayer-appendix/multiplayer-2015-faq.md",
-            "redirect_url": "/gaming/xbox-live/features/multiplayer/concepts/live-multiplayer-2015-faq",
             "redirect_document_id": true
         },
         {
