@@ -54,13 +54,16 @@ An administrator for your company can create their own developer account to test
 
 4. If the credentials are valid, the query runs, and any MPSD sessions that match the query criteria are displayed in the top listview control, along with metadata.
 
-5. If multiple sessions are found, selecting any one of them in the top section will pull down all changes ever made to that session, along with metadata for each change.
+5. Select a session or a change.
 
-6. Selecting a single change will download and show the complete MPSD document state for that change.
+If multiple sessions are found, selecting any one of them in the top section will pull down all changes ever made to that session, along with metadata for each change.
 
-If you multi-select two different changes, a colored diff view will appear highlighting differences between the two versions of the session.
-* Blue means "something changed".
-* Yellow means "something was added".
-* Red means "something was removed".
+Selecting a single change will download and show the complete MPSD document state for that change.
+
+If you multi-select two different changes, a colored diff view will appear, highlighting differences between the two versions of the session.
+Meaning of colors in the diff view:
+* Blue - something changed.
+* Yellow - something was added.
+* Red - something was removed.
 
 To keep the line numbers matched up on each side for easier comparison, enable lock-scrolling.
