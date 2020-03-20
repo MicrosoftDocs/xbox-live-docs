@@ -1,12 +1,15 @@
 ---
 title: Achievement Rewards
 description: Configuring an achievement to deliver rewards, such as gamerscore, art, and in-app rewards.
+kindex: Achievement Rewards
+kindex: rewards
 ms.assetid: b6fc5bdb-ba7b-4687-985e-894182f066da
-ms.date: 04/04/2017
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, achievement, rewards
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
+
+
 
 # Achievement Rewards
 
@@ -23,7 +26,7 @@ This new achievement system provides more flexibility of how achievements are un
 
 ### Flexible options for rewarding achievement
 
-With Xbox One, we have expanded the achievement system to support more flexible reward options.
+The achievement system has been expanded to support more flexible reward options.
 Gamerscore remains as a valuable reward that tracks a single, common gaming score for the user across the Xbox Live ecosystem, but now you—the developer or publisher—can use achievements as a delivery mechanism for a much wider range of rewards, both within your title and outside of your title.
 
 An achievement can be configured with multiple rewards, up to one reward of each reward type.
@@ -39,7 +42,8 @@ Xbox Live supports the following types of rewards:
 #### Gamerscore
 
 We are committed to preserving the integrity of the gamerscore value that has been built up with our Xbox Live users.
-There is only one gamerscore per user! Any gamerscore that a user earns on existing Xbox Live platforms such as Xbox 360, Xbox One, or Windows 10 will count toward a single gamerscore for that user.
+There is only one gamerscore per user!
+Any gamerscore that a user earns on existing Xbox Live platforms such as Xbox 360, Xbox One, or Windows 10 will count toward a single gamerscore for that user.
 
 When a user unlocks a gamerscore achievement, Xbox Live automatically increases the user's gamerscore by the configured amount.
 
@@ -52,7 +56,7 @@ See the policy documents on https://developer.xboxlive.com/ for the latest infor
 Do you have some interesting concept art that your designers drew early in your title's inception phase? Do you have beautiful, high-resolution images that can decorate your hub application when players visit? Perhaps your app supports multiple skins? With the Art reward, you can power lush, beautiful experiences in your titles and beyond that your players must earn.
 
 High-resolution concept art, early design drawings, specially created art assets, and other digital art assets may be offered as a reward to users for unlocking an achievement.
-These assets may be displayed within the Xbox One Dashboard experience and can be displayed in companion experiences simply by querying the Achievements service to retrieve the pertinent metadata.
+These assets may be displayed within the Xbox Dashboard experience and can be displayed in companion experiences simply by querying the Achievements service to retrieve the pertinent metadata.
 
 
 #### In-app rewards
@@ -87,7 +91,7 @@ An in-app reward takes effect when the user redeems the reward within the game.
 Titles must be aware that a user has unlocked an achievement that is configured with an in-app reward so the title can properly deliver the reward to the user.
 To do this, titles should do the following:
 
-1. Query the Achievements service upon title launch or title resume from suspension to see which unlocked achievements have in-app rewards and to get the reward code for each. This should always be done to make sure you catch any achievements that may have been unlocked while the title wasn’t running or on another console.  
+1. Query the Achievements service upon title launch or title resume from suspension to see which unlocked achievements have in-app rewards and to get the reward code for each. This should always be done to make sure you catch any achievements that may have been unlocked while the title wasn't running or on another console.  
 
    To query, you can use the RESTful Achievements URIs or the APIs in the Microsoft.Xbox.Services.Achievements Namespace.
 

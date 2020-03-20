@@ -10,11 +10,15 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer 2015
 ms.localizationpriority: medium
 ---
 
+
+
+
+
 # Intro to calling the Multiplayer service directly
 
 | Note |
 |---|
-| This article is for advanced API usage.  As a starting point, see [Multiplayer Manager (MPM)](../mpm/live-multiplayer-manager-nav.md) which significantly simplifies development.  Please let your DAM know if you find an unsupported scenario in the Multiplayer Manager. |
+| This article is for advanced API usage, by calling Multiplayer APIs directly.  As a starting point, try using [Multiplayer Manager](../mpm/live-multiplayer-manager-nav.md) instead, which significantly simplifies development.  Please let your DAM know if you find an unsupported scenario in the Multiplayer Manager. |
 
 
 ## About the Multiplayer System
@@ -84,6 +88,9 @@ For details about Xbox secure sockets, see **Networking Overviews**.
 
 2015 Multiplayer uses the **real-time activity service** to allow titles to subscribe to MPSD session changes, and enable automatic detection of client disconnects.
 More information is provided in [Real-Time Activity (RTA) service](../../rta/live-rta-nav.md).
+
+
+
 
 
 #### Xbox Live Matchmaking Service
@@ -253,8 +260,9 @@ The class also has new URI path parsing methods.
 On the Xbox 360, a session represented an instance of game play.
 Users searched for sessions in the matchmaking service, and reported statistics at the end of a session.
 
-On Xbox One, a session is more generic, and represents a group of players.
-A session is required for any network connectivity between consoles, and holds information that should be shared among all users in the session.
+For all target platforms after Xbox 360 (including PC), a session is more generic, and represents a group of players.
+
+A session is required for any network connectivity between Xbox Live clients, and holds information that should be shared among all users in the session.
 Some examples of this information include the number of players allowed in the session, the secure address of each console in the session, and custom game data.
 
 
@@ -263,7 +271,7 @@ Some examples of this information include the number of players allowed in the s
 On the Xbox 360, titles performed matchmaking by configuring a schema of attributes, and a set of queries to search through those attributes.
 At run time, the title chose to either host a session or search for one.
 
-On Xbox One, matchmaking is server-based, and players and titles no longer decide whether to host or search.
+For all newer Xbox Live clients, such as Xbox One and PC, matchmaking is server-based, and players and titles no longer decide whether to host or search.
 Instead, each pre-formed group of players creates a "ticket" session and submits that session to the matchmaking service.
 
 The service then finds other sessions and combines the groups to form a new "target" session.
@@ -272,7 +280,7 @@ The clients are notified of the match and perform quality of service (QoS) to va
 
 ### Xbox Live Compute Service
 
-The Xbox Live Compute service on Xbox One enables developers to harness the elastic compute power of the cloud, and enables larger multiplayer scenarios than were possible in a peer-to-peer network.
+The Xbox Live Compute service enables developers to harness the elastic compute power of the cloud, and enables larger multiplayer scenarios than were possible in a peer-to-peer network.
 
 See [Xbox Live Compute](https://developer.microsoft.com/games/xbox/docs/xdk/xbox-live-compute) in the XDK docs (requires ID@Xbox or Managed Partner access).
 

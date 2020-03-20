@@ -1,12 +1,19 @@
 ---
 title: Best practices for Rich Presence
 description: Best practices for using Xbox Live Rich Presence.
-ms.assetid: 51a84137-37e4-4f98-b3d3-5ae70e27753d
-ms.date: 04/04/2017
+kindex: Best practices for Rich Presence
+kindex: Rich Presence
+kindex: Presence
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, rich presence, best practices
+ms.assetid: 51a84137-37e4-4f98-b3d3-5ae70e27753d
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
+
+
+
+
+
 
 # Best practices for Rich Presence
 
@@ -45,7 +52,7 @@ Create Rich Presence strings that empower gamers to show off their achievements,
 
 ## Localize your Rich Presence strings
 
-Localize your Rich Presence strings and their associated parameters so that Xbox gamers around the world can be a part of the community you are fostering.
+Localize your Rich Presence strings and their associated parameters so that gamers around the world can be a part of the community you are fostering.
 
 
 ## It can take time for new Rich Presence data to appear

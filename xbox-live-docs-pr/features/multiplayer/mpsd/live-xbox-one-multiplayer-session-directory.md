@@ -1,22 +1,47 @@
 ---
-title: Multiplayer Session Directory for Xbox One
+title: Multiplayer Session Directory
 description: Creating multiplayer sessions by using the Xbox Live Multiplayer Session Directory (MPSD) service.
+kindex: Multiplayer Session Directory
 ms.assetid: 70da1be3-5f39-4eed-b62d-9cdd47e413d2
-ms.date: 04/04/2017
 ms.topic: overview
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
-# Multiplayer Session Directory for Xbox One
 
-This article provides an overview of multiplayer session creation using the Xbox One Multiplayer Session Directory (MPSD) service.
 
-This article is directed primarily toward Xbox One title developers who submit their session templates directly to Partner Center.
+
+
+
+
+# Multiplayer Session Directory
+
+This article provides an overview of multiplayer session creation using the Xbox Live Multiplayer Session Directory (MPSD) service, on platforms later than Xbox 360.
+
+This article is directed primarily toward Xbox Live title developers who submit their session templates directly to Partner Center.
 
 This article covers MPSD configuration, usage, and troubleshooting of multiplayer sessions.
+
+
+<!-- chm has Contents here -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Revision summary
@@ -34,7 +59,7 @@ In addition, the table found in the Query for Session State Information section 
 
 ## Introduction
 
-On Xbox One, a multiplayer session is a secure document that lives in the cloud on the Multiplayer Session Directory (MPSD), and this document represents a group of people playing a game.
+A multiplayer session is a secure document that lives in the cloud on the Multiplayer Session Directory (MPSD), and this document represents a group of people playing a game.
 Specifically, multiplayer sessions have the following qualities:
 
 -   Each session has a unique URI.
@@ -50,14 +75,14 @@ MPSD provides the basic information needed about a session to help set up the se
 
 MPSD also provides basic first-boot metadata for a client to connect to the game before it starts passing around more specific game data.
 
-With Process Lifetime Management (PLM) and the task-switching nature of applications on Xbox One, MPSD ensures that clients have the correct information for contacting peers and servers that are identified as part of the active game session, and coordinates with the shell and console operating system to reserve, activate, and manage player lifetime for a game session.
+With Process Lifetime Management (PLM) and the task-switching nature of applications on Xbox One and later, MPSD ensures that clients have the correct information for contacting peers and servers that are identified as part of the active game session, and coordinates with the shell and console operating system to reserve, activate, and manage player lifetime for a game session.
 
 
 ## Terminology used in this document
 
 | Term                 | Definition                                                                                                                                                                                                                                                                                  |
 |----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Multiplayer session  | A secure document that resides in the Xbox Live cloud and represents a group of users who are (or will be) connected together while playing a title on Xbox One. All the aspects of multiplayer—such as matchmaking, parties, join-in-progress, and so on—leverage the multiplayer session. |
+| Multiplayer session  | A secure document that resides in the Xbox Live cloud and represents a group of users who are (or will be) connected together while playing a title on Xbox One or later (including PC). All the aspects of multiplayer—such as matchmaking, parties, join-in-progress, and so on—leverage the multiplayer session. |
 | Game session         | This is the actual game session, exposed in the MPSD, in which users are playing together. All multiplayer scenarios ultimately end up in a game session.                                                                                                                               |
 | Match ticket session | This is a session used to track match ticket submission during matchmaking.                                                                                                                                                                                                                 |
 | Inactive player      | A player who has been set to the Inactive state within the session. The title sets a user to the Inactive state when the game is constrained, suspended, or otherwise inactive as defined by the title.                                                                                     |
@@ -67,12 +92,12 @@ With Process Lifetime Management (PLM) and the task-switching nature of applicat
 The MPSD facilitates and helps titles coordinate session information between online players.
 There can be different types of sessions created to accomplish different tasks of multiplayer play.
 
-The following table lays out the differences in how such tasks were done on Xbox 360 versus how they are accomplished on Xbox One.
+The following table lays out the differences in how such tasks were done on Xbox 360 versus how they are accomplished on Xbox One or later (including PC).
 
-| Function or task                     | Xbox 360                                                                                                        | Xbox One                                                                                                   |
+| Function or task                     | Xbox 360                                                                                                        | Xbox One or later                                                                                                   |
 |--------------------------------------|-----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
 | **Get game session information**     | **XSessionGetDetails**, **XSessionSearchByID**, or track yourself.                                              | Request the session information from the service.                                                          |
-| **Migrate host**                     | When needed, the title calls **XSessionMigrateHost.**                                                           | Don’t need to create a new session, just assign a new host for SessionID.                                  |
+| **Migrate host**                     | When needed, the title calls **XSessionMigrateHost.**                                                           | Don't need to create a new session, just assign a new host for SessionID.                                  |
 | **Manage multiple player sessions**  | Tricky to handle more than one session at a time. For example, **XNetReplaceKey** versus **XNetUnregisterKey**. | Service-based session makes managing one session cleaner and makes it easy to handle multiple sessions.    |
 | **Handle sign-outs and disconnects** | Have to handle disconnects and sign-out differently, with **XCloseHandle** or **XSessionDelete**, respectively. | Centralized service simplifies sign-outs and disconnect handling, and timeouts are set in the game config. |
 
@@ -81,7 +106,7 @@ The following table lays out the differences in how such tasks were done on Xbox
 
 -   Game sessions
 
-    -   Session with players’ XUIDs, secure device address data, and property states. This is thought of as the actual gameplay session.
+    -   Session with players' XUIDs, secure device address data, and property states. This is thought of as the actual gameplay session.
 
     -   Can be peer-to-peer, peer-to-host, peer-to-server, or hybrid.
 
@@ -115,9 +140,15 @@ Each entity has:
 3.  Read-only metadata.
 
 
+
+
+
+
+
+
 ### Xbox Live Service APIs and RESTful service calls
 
-There are two ways to interface with the Xbox One Sessions and Matchmaking services.
+There are two ways to interface with the Xbox Live Sessions and Matchmaking services.
 
 * Standard HTTPs calls
 * Xbox Live Service API wrappers
@@ -125,23 +156,23 @@ There are two ways to interface with the Xbox One Sessions and Matchmaking servi
 
 #### Using standard HTTPS calls to the RESTful services
 
-The first way to interface with the Xbox One Sessions and Matchmaking services is to use standard HTTPS calls to the RESTful Xbox Live Services URIs.
+For Xbox One and later, the first way to interface with the Xbox Live Sessions and Matchmaking services is to use standard HTTPS calls to the RESTful Xbox Live Services URIs.
 This allows titles flexibility in calling and interfacing with these services depending on their server and game configurations.
 
-<!-- keep /en-us/ in URL else 404: -->
-A list of these URIs can be found in the [Xbox One Development Kit (XDK) documentation](https://developer.xboxlive.com/en-us/platform/development/documentation/software/Pages/home.aspx) under “Xbox Live Services RESTful Reference.”[1]
+For a list of these URIs, see [Xbox Live Services RESTful Reference](https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/atoc-xboxlivews-reference).
 
 
 #### Using the Xbox Live Service API wrappers for RESTful services
 
-The second way to interface with the Xbox One Sessions and Matchmaking services is to use the Xbox Live Service APIs, which act as wrappers for the RESTful service URIs.
+The second way to interface with the Sessions and Matchmaking services is to use the Xbox Live Service APIs, which act as wrappers for the RESTful service URIs.
 These allow for a more traditional approach to using APIs in code without having to handle HTTPS traffic for each call.
 
 The source code for the Xbox Live Service APIs is shipped with the Xbox Development Kit (XDK) and can be modified and incorporated into your title as needed.
 The samples are written using the Xbox Live Service APIs.
 
-<!-- keep /en-us/ in URL else 404: -->
-More information about the Xbox Live Services APIs can be found in the Xbox One [XDK documentation](https://developer.xboxlive.com/en-us/platform/development/documentation/software/Pages/home.aspx) under “Xbox Live Services Reference.”[2]
+<!-- More information about the Xbox Live Services APIs can be found in either:
+* [Xbox Live Services API Reference](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/atoc-online-reference) - external link to XDK secure documentation portal -->
+<!-- * `XboxOneXDK.chm` -->
 
 
 ### MPSD sessions and templates
@@ -173,7 +204,7 @@ MatchTicketSession (Contract Version: 107)
     }
 }
 
-// This is the new game session that is returned after you’ve been matched.
+// This is the new game session that is returned after you've been matched.
 // Note: This is used for in-game QoS. For out-of-game QoS, you will need P2P/HTP requirements.
 GameSession (Contract Version:107)
 {
@@ -292,12 +323,12 @@ The query can be modified using these query-string parameters:
 
 | Query string             | Effect                                                                                                         | Description                                                                                         |
 |--------------------------|----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| keyword=foo              | Only include sessions that have the keyword ”foo.”                                                             |                                                                                                     |
-| XUID=123                 | Only include sessions that the user “123” is in.                                                               | By default, the user must be active in the session to be included.                                  |
-| *reservations*=**true** | Include sessions for which the user is set as a reserved player but has not joined to become an active player. | Only when querying your own sessions, or when querying a specific user’s sessions server-to-server. |
-| *inactive*=**true**      | Include sessions that the user has accepted but isn’t actively playing in.                                     | Sessions in which the user is “ready” but not “active” count as inactive.                           |
+| keyword=foo              | Only include sessions that have the keyword "foo."                                                             |                                                                                                     |
+| XUID=123                 | Only include sessions that the user "123" is in.                                                               | By default, the user must be active in the session to be included.                                  |
+| *reservations*=**true** | Include sessions for which the user is set as a reserved player but has not joined to become an active player. | Only when querying your own sessions, or when querying a specific user's sessions server-to-server. |
+| *inactive*=**true**      | Include sessions that the user has accepted but isn't actively playing in.                                     | Sessions in which the user is "ready" but not "active" count as inactive.                           |
 | *private*=**true**       | Include private sessions.                                                                                      | Only when querying your own sessions, or when querying server-to-server.                            |
-| *visibility*=open        | Only include sessions that are ”open.”                                                                         | If set to ”private,” the ”private=true” directive must also be set.                                 |
+| *visibility*=open        | Only include sessions that are "open."                                                                         | If set to "private," the "private=true" directive must also be set.                                 |
 | *take*=5                 | Return up to five sessions.                                                                                    | Must be between 0 and 100.                                                                          |
 
 The result is a JSON array of session references.
@@ -392,7 +423,7 @@ But unlike custom objects, after they are merged the system objects are further 
 // Capabilities are boolean values that are optionally set in the session template. If no capabilities are needed, an empty "capabilities" object should be in the template in order to prevent capabilities from being specified on session creation, unless the title desires dynamic session capabilities.
 "capabilities": {
 "clientMatchmaking": true,
-"connectivity": true, // Cannot be set if ‘large’ is specified.
+"connectivity": true, // Cannot be set if 'large' is specified.
      "suppressPresenceActivityCheck": false,
      "gameplay": false,
      "large": false
@@ -432,9 +463,9 @@ If "followed", only local users (as defined above) and users who are followed by
 "serverConnectionStringCandidates": [ "datacenter b", "serverfarm a" ],
 
 "matchmaking": {
-	"targetSessionConstants": { },
-	// Force a specific connection string to be used (useful in preserveSession=always cases).
-	"serverConnectionString": "datacenter b",
+    "targetSessionConstants": { },
+    // Force a specific connection string to be used (useful in preserveSession=always cases).
+    "serverConnectionString": "datacenter b",
 },
 
 // True if the match that was found didn't work out and needs to be resubmitted. Set to false to signal that the match did work, and the matchmaking service can release the session.
@@ -456,8 +487,8 @@ This value is also returned in the **Expires** HTTP header.
 Timeouts are specified in milliseconds.
 Zero is allowed and signifies that the timeout should be immediate.
 
-If a given timeout isn’t specified, it’s considered infinite.
-Because the timeouts have defaults, the session template should explicitly specify “null” for an infinite timeout.
+If a given timeout isn't specified, it's considered infinite.
+Because the timeouts have defaults, the session template should explicitly specify "null" for an infinite timeout.
 
 
 #### SessionEmptyTimeout
@@ -481,7 +512,7 @@ The three other timeouts within **/constants/system** control the amount of time
 
 -   **readyRemovalTimeout**
 
-    -   Members who are “ready” revert to the inactive state after three minutes by default.
+    -   Members who are "ready" revert to the inactive state after three minutes by default.
 
 <div id="_Member_initialization_in"/>
 
@@ -494,7 +525,7 @@ The three other timeouts within **/constants/system** control the amount of time
 The **memberInitialization** object controls the initialization stages following session creation and/or as new members join the session.
 The timeouts and initialization stages are automatically tracked by the session, including QoS measurements if any metrics are set.
 
-These timeouts override the session’s reservation and ready timeouts for members that have the **initializationEpisode** property set.
+These timeouts override the session's reservation and ready timeouts for members that have the **initializationEpisode** property set.
 
 Example:
 
@@ -502,9 +533,9 @@ Example:
 "memberInitialization": {
         "joinTimeout": 5000,
         "measurementTimeout": 5000,
-        "evaluationTimeout": 5000,	// only specify for external evaluation
+        "evaluationTimeout": 5000,    // only specify for external evaluation
         "externalEvaluation": true,
-  	   "membersNeededToStart": 2
+         "membersNeededToStart": 2
     },
 ```
 
@@ -532,7 +563,7 @@ Each of the three stages of member initialization can time out:
 
 **membersNeededToStart**
 
--   This is the minimum number of member reservations that need to exist with “initialize”:”true” and pass QoS for automatic evaluation to succeed.
+-   This is the minimum number of member reservations that need to exist with "initialize":"true" and pass QoS for automatic evaluation to succeed.
 
 
 ### Initialization episodes
@@ -592,7 +623,7 @@ When an MPSD session is being used as a match ticket session, some special sessi
   {
   "xuid": "12345678",
 
-  "initialize": "false", // Run initialization for this user (if “memberInitialization” is set). Defaults to false.
+  "initialize": "false", // Run initialization for this user (if "memberInitialization" is set). Defaults to false.
 
 ```
 
@@ -602,7 +633,7 @@ When the Matchmaking service adds users to a session, it provides some context a
 "matchmakingResult": {
 ```
 
-This is a copy of a user’s **serverMeasurements** from the matchmaking session.
+This is a copy of a user's **serverMeasurements** from the matchmaking session.
 
 ```json
 "serverMeasurements": {
@@ -685,7 +716,7 @@ If a **memberInitialization** object is set, the session expects the client syst
 
 The timeouts and initialization stages are automatically tracked by the session, including QoS measurements if any metrics are set.
 
-These timeouts override the session’s reservation and ready timeouts for members that have the **initializationEpisode** property set.
+These timeouts override the session's reservation and ready timeouts for members that have the **initializationEpisode** property set.
 
 ```json
 "memberInitialization": {
@@ -750,8 +781,8 @@ The following potential server connection strings should be evaluated (note that
 
 **members/{index}/properties/system**
 
-These flags control the member status and **activeTitle**, and they are mutually exclusive (it’s an error to set both to **true**).
-For each, **false** is the same as “not present.” The default status is “inactive,” that is, neither is present.
+These flags control the member status and **activeTitle**, and they are mutually exclusive (it's an error to set both to **true**).
+For each, **false** is the same as "not present." The default status is "inactive," that is, neither is present.
 
 ```json
 "ready": true,
@@ -872,8 +903,8 @@ The stage progresses from *joining* to *measuring* to *evaluating*.
 "turn": true,
 ```
 
--   The *initializationFailure* attribute is set on the member object when transitioning out of the joining or measuring stage if the member hasn’t successfully passed the stage. In order of precedence, it could be set to *timeout*, *latency*, *bandwidthdown*, *bandwidthup*, *network*, *group*, or *episode*.
-    The *network* value means that the network configuration and/or conditions (such as conflicting network address translations \[NATs\]) prevented the QoS metrics from being measured. The only possible value at the end of joining is *group*. (On timeout from joining, the reservation is removed.) The *episode* value is set after a failed “evaluation” stage on all members of the initialization episode that didn't fail during joining or measuring.
+-   The *initializationFailure* attribute is set on the member object when transitioning out of the joining or measuring stage if the member hasn't successfully passed the stage. In order of precedence, it could be set to *timeout*, *latency*, *bandwidthdown*, *bandwidthup*, *network*, *group*, or *episode*.
+    The *network* value means that the network configuration and/or conditions (such as conflicting network address translations \[NATs\]) prevented the QoS metrics from being measured. The only possible value at the end of joining is *group*. (On timeout from joining, the reservation is removed.) The *episode* value is set after a failed "evaluation" stage on all members of the initialization episode that didn't fail during joining or measuring.
 
 ```json
 "initializationFailure": "latency",
@@ -888,22 +919,22 @@ The stage progresses from *joining* to *measuring* to *evaluating*.
 -   The *next* attribute represents the index value of the next member in the session. It will be the same value as the *next* attribute in the **membersInfo** object below if there are no more members to add.
 
 ```json
-			"next": 4
-		},
-		"4": { "next": 5 /* etc */ }
-	},
-	"membersInfo": {
-		"first": 1,  // The first member's index.
-		"next": 5,  // The index that the next member added will get.
-		"count": 2,  // The number of members.
-		"accepted": 1  // The number of members that are no longer 'pending'.
-	},
-	"servers": {
-		"name": {
-			"constants": { /* Property Bag */ },
-			"properties": { /* Property Bag */ }
-		}
-	}
+            "next": 4
+        },
+        "4": { "next": 5 /* etc */ }
+    },
+    "membersInfo": {
+        "first": 1,  // The first member's index.
+        "next": 5,  // The index that the next member added will get.
+        "count": 2,  // The number of members.
+        "accepted": 1  // The number of members that are no longer 'pending'.
+    },
+    "servers": {
+        "name": {
+            "constants": { /* Property Bag */ },
+            "properties": { /* Property Bag */ }
+        }
+    }
 }
 
 ```
@@ -1058,11 +1089,11 @@ Collect Fiddler traces to help get more information and then do the following:
 
 -   *The requested session cannot be accessed. Private Sessions can only be read by members of the session.*
 
-    -   You are trying to access a session that has a visibility of “private.” Only members within the session can read the session document.
+    -   You are trying to access a session that has a visibility of "private." Only members within the session can read the session document.
 
 -   *The request body can't contain existing member references unless the authentication principal includes a server.*
 
-    -   You cannot join another user to a session on behalf of a user. You can only invite. Set the index to “reserve\_&lt;number&gt;” to invite a player.
+    -   You cannot join another user to a session on behalf of a user. You can only invite. Set the index to "reserve\_&lt;number&gt;" to invite a player.
 
 
 ### I am getting a 412 Precondition Failed error.
@@ -1076,7 +1107,7 @@ This will return 412 Precondition Failed if the session already exists:
 ```
 
 
-This will return 412 Precondition Failed if the session etag doesn’t match the If-Match header:
+This will return 412 Precondition Failed if the session etag doesn't match the If-Match header:
 
 ```http
 > PUT /serviceconfigs/00000000-0000-0000-0000-000000000000/sessiontemplates/quick/sessions/foo HTTP/1.1
@@ -1100,12 +1131,12 @@ Session templates are not defaults, but are more of a mold.
 However, you cannot override the constants already set in the templates, although you can add to them.
 
 
-### I’m getting an error that is saying my session isn’t initialized.
+### I'm getting an error that is saying my session isn't initialized.
 
-When member initialization is present in your template (game, party, and match ticket scenarios, usually), you need to make sure that “initialize=true” is set for enough of the member reservations (members needed to start) to pass QoS to fix this issue.
+When member initialization is present in your template (game, party, and match ticket scenarios, usually), you need to make sure that "initialize=true" is set for enough of the member reservations (members needed to start) to pass QoS to fix this issue.
 
 
-### My session is not being created and I’m getting an HTTP 204 error.
+### My session is not being created and I'm getting an HTTP 204 error.
 
 This indicates that there were no users added to the session when you created it.
 If there are no users for a session at the time of creation, the session will not be created.
@@ -1121,7 +1152,7 @@ Alternatively you can change or remove the **sessionEmptyTimeout**.
 You should avoid polling MPSD sessions.
 At a high level, you can do this by designing your code in a way that utilizes the MPSD session only for initial establishment of network connectivity for each client, and for reestablishing network state for a client or clients that have lost connectivity.
 
-It’s also important to take advantage of MPSD’s etag-based synchronization primitives to eliminate the need to refresh session state to resolve race conditions.
+It's also important to take advantage of MPSD's etag-based synchronization primitives to eliminate the need to refresh session state to resolve race conditions.
 
 A common application of these principles is when you have a set of N clients that all need to connect together and play in a peer-to-peer mesh.
 Rather than regularly querying the session for new members, each member can join the session, connect to the members already in the session, and assume that any later joiners will do the same.

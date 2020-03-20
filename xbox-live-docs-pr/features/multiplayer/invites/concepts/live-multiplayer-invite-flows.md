@@ -10,20 +10,24 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer 2015
 ms.localizationpriority: medium
 ---
 
+
+
+
+
 # Flows for multiplayer game invites
 
-As a result of Xbox One beta feedback, the user experience flow for multiplayer game invites has been changed as of Xbox One Recovery Update 24, released on November 6, 2013.
+Starting with Xbox One Recovery Update 24 (November 6, 2013), the user experience flow for multiplayer game invites has been changed.
 This is a change to the **user-experience (UX) only** and will not affect any behavior or functionality from the perspective of a game title.
 Title developers will not need to make any code changes.
 
 
 ## Summary of changes
 
-- The initial invitation toast has changed from “join my party” to “&lt;_game title_&gt; Let’s Play” and now has a button that allows users to launch the game and jump right into gameplay.
+- The initial invitation toast has changed from "join my party" to "&lt;_game title_&gt; Let's Play" and now has a button that allows users to launch the game and jump right into gameplay.
 
-- The Party app is not snapped by default when the user chooses the new “&lt;_game title_&gt; Let’s Play” option. This change is also made so that the user can jump right into gameplay.
+- The Party app is not snapped by default when the user chooses the new "&lt;_game title_&gt; Let's Play" option. This change is also made so that the user can jump right into gameplay.
 
-- A new toast has been added on the sender’s side that says “Adding \[*number*\] friends to the game”. This makes it clear that invites were sent out when a game session is associated with a user’s party.
+- A new toast has been added on the sender's side that says "Adding \[*number*\] friends to the game". This makes it clear that invites were sent out when a game session is associated with a user's party.
 
 The detailed user experience flows are described in the following examples.
 Each table shows an example flow for two users, David and Laura.
@@ -78,7 +82,7 @@ The <b style="background-color: #FFFF00">highlighted text</b> shows the adjustme
   <tr>
     <td>3.</td>
     <td>
-      <p>Toast pops up indicating that Laura has joined David’s party.</p>
+      <p>Toast pops up indicating that Laura has joined David's party.</p>
       <p>David starts the game from multiplayer lobby.</p>
       <p><b style="background-color: #FFFF00">Toast pops up indicating that a game invite was sent to Laura.</b></p>
     </td>

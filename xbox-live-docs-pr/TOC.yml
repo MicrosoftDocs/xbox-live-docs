@@ -474,7 +474,7 @@
               items:
                 - name: Multiplayer Session Directory overview
                   href: features/multiplayer/mpsd/live-mpsd-overview.md
-                - name: Multiplayer Session Directory for Xbox One
+                - name: Multiplayer Session Directory
                   href: features/multiplayer/mpsd/live-xbox-one-multiplayer-session-directory.md
                 - name: MPSD concepts
                   href: features/multiplayer/mpsd/concepts/live-mpsd-concepts-nav.md

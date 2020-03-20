@@ -1,13 +1,14 @@
 ---
 title: Matchmaking overview
 description: The SmartMatch matchmaking service selects compatible players in a multiplayer game.
+kindex: Matchmaking overview
+kindex: SmartMatch
 ms.assetid: ba0c1ecb-e928-4e86-9162-8cb456b697ff
-ms.date: 04/04/2017
 ms.topic: overview
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, matchmaking, smartmatch
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Matchmaking overview
@@ -26,7 +27,7 @@ There are several API approaches you can use for SmartMatch matchmaking:
 If you have a matchmaking scenario that isn't supported by Multiplayer Manager, please provide feedback to us via your Microsoft Representative.
 Regardless of which API you use, the conceptual information in this article applies.
 
-When building a title for Xbox One, you can use SmartMatch as described in this article.
+When building a title, you can use SmartMatch as described in this article.
 Alternatively, you can your own matchmaking service as described in [using your own matchmaking service](https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/multiplayer-and-networking/using-your-own-matchmaking-service).
 Accessing the above link requires that you have a [Partner Center](https://partner.microsoft.com/dashboard) account which is enabled for Xbox Live development.
 
