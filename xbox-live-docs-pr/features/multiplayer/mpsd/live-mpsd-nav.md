@@ -15,6 +15,6 @@ ms.localizationpriority: medium
 | Article | Description |
 |---------|-------------|
 | [Multiplayer Session Directory overview](live-mpsd-overview.md) | Enables a title to share the information needed to connect a group of users, to create a multiplayer session. |
-| [Multiplayer Session Directory](live-xbox-one-multiplayer-session-directory.md) | Creating multiplayer sessions by using the Xbox Live Multiplayer Session Directory (MPSD) service. |
+| [Multiplayer Session Directory](live-xbox-multiplayer-session-directory.md) | Creating multiplayer sessions by using the Xbox Live Multiplayer Session Directory (MPSD) service. |
 | [MPSD concepts](concepts/live-mpsd-concepts-nav.md) | Conceptual articles about Multiplayer Session Directory. |
 | [MPSD how-to's](how-to/live-mpsd-howto-nav.md) | Example code for Multiplayer Session Directory. |
