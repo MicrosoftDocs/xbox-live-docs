@@ -41,8 +41,7 @@ This article covers MPSD configuration, usage, and troubleshooting of multiplaye
 
 
 
-
-
+<a id="rs"></a>
 
 ## Revision summary
 
@@ -56,6 +55,8 @@ However, the services are backward-compatible so you can continue to use the cur
 The previous revision of this document updated information regarding server sessions and added a new section about Xbox Live Service APIs and RESTful service calls.
 In addition, the table found in the Query for Session State Information section was updated and the Quality of Service (QoS) Templates section was revised.
 
+
+<a id="intro"></a>
 
 ## Introduction
 
@@ -78,6 +79,8 @@ MPSD also provides basic first-boot metadata for a client to connect to the game
 With Process Lifetime Management (PLM) and the task-switching nature of applications on Xbox One and later, MPSD ensures that clients have the correct information for contacting peers and servers that are identified as part of the active game session, and coordinates with the shell and console operating system to reserve, activate, and manage player lifetime for a game session.
 
 
+<a id="tuitd"></a>
+
 ## Terminology used in this document
 
 | Term                 | Definition                                                                                                                                                                                                                                                                                  |
@@ -86,6 +89,9 @@ With Process Lifetime Management (PLM) and the task-switching nature of applicat
 | Game session         | This is the actual game session, exposed in the MPSD, in which users are playing together. All multiplayer scenarios ultimately end up in a game session.                                                                                                                               |
 | Match ticket session | This is a session used to track match ticket submission during matchmaking.                                                                                                                                                                                                                 |
 | Inactive player      | A player who has been set to the Inactive state within the session. The title sets a user to the Inactive state when the game is constrained, suspended, or otherwise inactive as defined by the title.                                                                                     |
+
+
+<a id="tmsd"></a>
 
 ## The Multiplayer Session Directory
 
@@ -123,6 +129,8 @@ Figure 1 illustrates usages of MPSD sessions, where the blue boxes represent MPS
 **Figure 1. MPSD session use:** (figure missing)
 
 
+<a id="mpsds"></a>
+
 ## MPSD sessions
 
 Sessions maintain two lists of related entities:
@@ -138,12 +146,6 @@ Each entity has:
 2.  Mutable properties.
 
 3.  Read-only metadata.
-
-
-
-
-
-
 
 
 ### Xbox Live Service APIs and RESTful service calls
@@ -170,9 +172,15 @@ These allow for a more traditional approach to using APIs in code without having
 The source code for the Xbox Live Service APIs is shipped with the Xbox Development Kit (XDK) and can be modified and incorporated into your title as needed.
 The samples are written using the Xbox Live Service APIs.
 
-<!-- More information about the Xbox Live Services APIs can be found in either:
-* [Xbox Live Services API Reference](https://developer.microsoft.com/en-us/games/xbox/docs/xdk/atoc-online-reference) - external link to XDK secure documentation portal -->
-<!-- * `XboxOneXDK.chm` -->
+<!-- 
+More information about the Xbox Live Services APIs can be found in either:
+* [Xbox Live Services API Reference](https://developer.microsoft.com/games/xbox/docs/xdk/atoc-online-reference) - external link to XDK secure documentation portal
+* `XboxOneXDK.chm`
+
+That Reference documentation includes:
+* JSON Parsing API Reference - Reference material for the JSON parsing APIs.
+* Windows.Web Namespace - Windows.Web namespace members.
+* Xbox Live Compute SDK Reference - APIs for creating game server instances for Xbox Live Compute. -->
 
 
 ### MPSD sessions and templates
@@ -229,7 +237,7 @@ The match ticket session should be used with a game session template set up with
 
 **Figure 2. Sample hopper:**
 
-![Hopper edit dialogue screenshot](live-xbox-one-multiplayer-session-directory-images/mpsd_image1.png)
+![Hopper edit dialog box](live-xbox-one-multiplayer-session-directory-images/mpsd_image1.png)
 
 The code excerpt that follows is an example of a peer-to-peer game session template (title-managed QoS).
 
@@ -362,10 +370,14 @@ The following code excerpt shows an example of a query response.
 ```
 
 
+<a id="sta"></a>
+
 ## Session template attributes
 
-<div id="_Contract_schema_update"/>
 
+<a id="csu"></a>
+
+<div id="_Contract_schema_update"/>
 
 ## Contract schema update
 
@@ -514,8 +526,10 @@ The three other timeouts within **/constants/system** control the amount of time
 
     -   Members who are "ready" revert to the inactive state after three minutes by default.
 
+
 <div id="_Member_initialization_in"/>
 
+<a id="miisd"></a>
 
 ## Member initialization in session documents
 
@@ -611,6 +625,8 @@ If **memberInitialization** is set and the member was added with "initialize": t
 ```
 
 
+<a id="mts"></a>
+
 ## Match ticket session
 
 When an MPSD session is being used as a match ticket session, some special session properties and constants are used.
@@ -646,6 +662,8 @@ This is a copy of a user's **serverMeasurements** from the matchmaking session.
 
 ```
 
+
+<a id="qost"></a>
 
 ## Quality of Service (QoS) templates
 
@@ -834,6 +852,8 @@ For each, **false** is the same as "not present." The default status is "inactiv
 ```
 
 
+<a id="qospasid"></a>
+
 ## QoS phase and session initialization details
 
 MPSD will track and report QoS results for game creation after the template has completed member initialization.
@@ -940,6 +960,8 @@ The stage progresses from *joining* to *measuring* to *evaluating*.
 ```
 
 
+<a id="xccs"></a>
+
 ## Xbox Cloud Compute session
 
 An Xbox Cloud Compute session contains the ordered list of case-insensitive connection strings that the session could use to connect to a game server.
@@ -991,6 +1013,8 @@ Generally, titles should use the first string on the list, but sophisticated tit
 ```
 
 
+<a id="rsactp"></a>
+
 ## Raw session and custom title properties
 
 A session can be used to store custom housekeeping information (metadata) around a multiplayer game.
@@ -1015,6 +1039,8 @@ The custom objects can contain any JSON.
 ```
 
 
+<a id="actmemdec"></a>
+
 ## Active member decay
 
 Active members are automatically marked inactive when MPSD detects that the user is no longer engaged in the title.
@@ -1023,10 +1049,12 @@ This can happen, for example, if the Presence times out the user record.
 This mechanism is just a backstop; that is,titles are still required to proactively mark members as inactive (or remove them from the session) when the members leave or switch away from the title, sign out, or otherwise become disengaged.
 
 
+<a id="fat"></a>
+
 ## FAQ and troubleshooting
 
 
-### How do I call MPSD ?
+### How do I call MPSD?
 
 Using certificate authentication: client-sessiondirectory.xboxlive.com
 
@@ -1068,8 +1096,8 @@ Collect Fiddler traces to help get more information and then do the following:
 
 3.  Reboot the console and/or try again with a new user.
 
-4.  Search the [Entertainment Developer Forums](https://developer.xboxlive.com/en-us/platform/community/forums/Pages/home.aspx) for the error code or other potential solutions.
-<!-- keep /en-us/ in URL else 404 -->
+4.  Search the [Entertainment Developer Forums](https://developer.xboxlive.com/platform/community/forums/Pages/home.aspx) for the error code or other potential solutions.
+<!-- 404 -->
 
 
 ### I am getting a 403 error when calling MPSD.
@@ -1079,7 +1107,7 @@ Collect Fiddler traces to help get more information and then do the following:
 
 1.  Check messages returned as part of the HttpResponse body for common 403 messages:
 
--   *The requested service config cannot be accessed. *
+-   *The requested service config cannot be accessed.*
 
     -   Verify that you are using an account that has access to the sandbox.
 
@@ -1105,7 +1133,6 @@ This will return 412 Precondition Failed if the session already exists:
 > Content-Type: application/json
 > If-None-Match: \*
 ```
-
 
 This will return 412 Precondition Failed if the session etag doesn't match the If-Match header:
 

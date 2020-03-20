@@ -1,14 +1,19 @@
 ---
 title: Configuring Matchmaking in Partner Center
 description: Configuring Partner Center to select compatible players.
+kindex: Configuring Matchmaking in Partner Center
+kindex: matchmaking
+kindex: SmartMatch
 ms.topic: portal
 ms.prod: gaming
 ms.technology: xboxlive
 ms.assetid: ba0c1ecb-e928-4e86-9162-8cb456b697ff
-ms.date: 04/04/2017
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, matchmaking, smartmatch
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
+
+
+
 
 # Configuring Matchmaking in Partner Center
 
@@ -18,7 +23,7 @@ ms.localizationpriority: medium
 All configuration of SmartMatch matchmaking occurs through the [Partner Center](https://partner.microsoft.com/dashboard).
 
 
-#### Matchmaking Session Template Configuration
+### Matchmaking Session Template Configuration
 
 There are two types of session related to matchmaking:
 * The match ticket session, which is the input to the matchmaking service.
@@ -37,12 +42,12 @@ For a target session, you must use a template that is intended for matchmade gam
 It should have settings that enable QoS checks between peers prior to the start of game play, and must be marked with the "gameplay" capability.
 
 With the config UI for Partner Center, you can map each session to one or more hoppers, each containing rules that determine how sessions are matched together in that hopper.
-For more information, see Basic Hopper Configuration for Matchmaking.
+For more information, see the next section, "Basic Hopper Configuration for Matchmaking".
 
 
 <a id="hop"></a>
 
-#### Basic Hopper Configuration for Matchmaking
+### Basic Hopper Configuration for Matchmaking
 
 This section defines the fields used to configure basic hopper fields.
 After this configuration, you must configure the hopper rules, as described in Configuration of Hopper Rules.
@@ -50,20 +55,20 @@ After this configuration, you must configure the hopper rules, as described in C
 ![Hopper Editor](live-matchmaking-config-images/session_template_hopper_edit.png)
 
 
-###### Name
+#### Name
 
 The name of the hopper that is used when submitting a session to matchmaking.
 This name must match the value passed as a parameter to the **CreateMatchTicketAsync** method during creation of the match ticket.
 
 
-###### Min/Max Group Size
+#### Min/Max Group Size
 
 The minimum and maximum sizes for the player group that is to be created from sessions in the hopper.
 The matchmaking service attempts to create a matched group that is as large as possible, up to the maximum group size.
 However, it does create a matched group if it can assemble enough players to meet the minimum group size.
 
 
-###### Should Rule Expansion Cycles
+#### Should Rule Expansion Cycles
 
 For a SHOULD rule, the matchmaking service attempts to increase the search space and relax the provided matchmaking rules over time if no successful match is found.
 This process is performed over multiple cycles, as specified using the Should Rule Expansion Cycles field.
@@ -82,20 +87,27 @@ The default value is 3, which is generally sufficient for most configurations.
 | Expansion cycles occur at fixed time intervals of 5 seconds. Upon the last expansion cycle, all "Should" rules are no longer taken into account for the remainder of the matchmaking attempt. |
 
 
-##### Ranked Hopper
+#### Ranked Hopper
+
 Ordinarily SmartMatch will prevent blocked players from being matched.
 If Ranked Hopper is checked, this logic is bypassed to prevent players from using this system to avoid players of greater skill.
 
-#### Configuration of Hopper Rules
+
+### Configuration of Hopper Rules
+
 This section defines the fields used to configure rules for a hopper.
 
-###### Common Rule Fields
+
+#### Common Rule Fields
+
 The fields defined in this section are common to all hopper rules.
 
 **Rule Name**
+
 The friendly name displayed for the rule for configuration purposes.
 
 **Rule Type**
+
 The rule type.
 Options are MUST and SHOULD.
 - MUST rules have to be satisfied for successful matchmaking.
@@ -104,6 +116,7 @@ Options are MUST and SHOULD.
 See "Configuration of SHOULD Rule Expansion" for more details on this process.
 
 **Data Type**
+
 The data type of the attribute of the matchmaking rule.
 Possible values are:
 - Number. Specify a simple 32-bit numerical value.
@@ -119,32 +132,39 @@ Possible values are:
 - Team. Specify a custom data type for the teams of players included in matchmaking requests. You can use this value to avoid splitting players within a single match ticket among multiple teams.
 
 
-###### Data Type-specific Rule Fields
+#### Data Type-specific Rule Fields
+
 This section defines fields used to define rules that apply to some data types, but not to others. The UI should be able to clarify which data types apply to particular rules.
 
 **Allow Wildcards**
+
 A value that indicates if the attribute can be omitted in the match ticket.
 If it is omitted, the ticket becomes compatible with any other ticket, regardless of the value for this attribute.
 
 **Attribute Source**
+
 The source of the data type value. Possible sources are:
 - Title provided. The data value is submitted in the match ticket.
 - User stat instance. The data value is automatically retrieved from the UserStatistics service.
 
 **Attribute Name**
+
 The name of the attribute value source.
 It is either the property name in the match ticket or the name of a user statistic.
 
 **Default Value**
+
 The default value for the data type, if no value is specified or available for the matchmaking request.
 The default value is not applied when the Allow Wildcards field is selected and no value is specified.
 
 **Weight**
+
 The importance of the rule.
 The weight can be used to indicate which rules are prioritized during matchmaking and rule expansion.
 The weight value must be positive, and defaults to 1.
 
 **Flatten Method**
+
 Number data types only.
 A value that indicates how multiple values are combined to satisfy a match.
 It applies to multiple values for different players in a single match ticket and across multiple tickets.
@@ -154,11 +174,13 @@ The possible values are:
 - Average. Use average value of multiple values from different match tickets.
 
 **Max Diff**
+
 Number data types only.
 The maximum acceptable numerical difference between two compared values to satisfy a rule.
 For a SHOULD rule, this value is the starting point for rule expansion.
 
 **Set Operation**
+
 Collection data types only.
 The operation to perform on matching the group of set values.
 
@@ -168,15 +190,18 @@ The possible options are:
 - Role Preference. Match collections based on the preferences for the role of a player in role-based game modes.
 
 **Target Intersection**
+
 Part of Set Operation configuration.
 The minimal intersection or maximum difference for two collections before they are matched.
 
 **Network Topology**
+
 Quality of service data type only.
 The network topology that is used for QoS.
 Possible values are Peer to Peer, Peer to Host, and Client/Server.
 
 **Maximum Latency/Scaling Maximum**  
+
 Quality of service data type only.
 The maximum latency for successful matchmaking within the specified network topology.
 
@@ -187,10 +212,13 @@ This value is treated as a scaling value (as opposed to a required latency) when
 | In addition, default reputation rules are also applied to a hopper. These rules cannot be removed and are used to ensure correct handling of reputation during matchmaking. |
 
 **Allow Waiting for Roles**
+
 Collection Role Preferences data type only.
 Specifies if the match service holds the matchmaking ticket in order to fill all available roles.
 
-###### Expansion Delta
+
+#### Expansion Delta
+
 Value indicating how much to relax the submitted rule for each expansion generation.
 The expansion delta is applied in addition to the Max Diff value.
 See Example 1 (Rule Expansion) for details.
@@ -202,12 +230,12 @@ Instead, the approach is to use decimal expansion values, for example, 0.4.
 An expansion only occurs when a new integer is reached, which allows for different expansion speeds, even for the same number of expansion cycles.
 
 
-###### QoS Expansion (Peer-to-Peer, Peer-to-Host)
+#### QoS Expansion (Peer-to-Peer, Peer-to-Host)
+
 For quality of service type expansion for peer games, the expansion delta cannot be configured.
 Instead, you should use one of the following expansion strategies.
 
 <table>
-
 <tr>
 
 <tr>
@@ -234,7 +262,8 @@ If five cycles were chosen, the values would be 50, 112.5, 175, 237.5, and 300.
 </table>
 
 
-##### QoS Expansion (Client-Server)
+#### QoS Expansion (Client-Server)
+
 When using dedicated servers, the expansion is based on relative preference.
 Only most preferred servers will be considered in early expansion cycles.
 Over time, other, less preferred servers will be used.
@@ -244,7 +273,9 @@ This Scaling Maximum should still be set to the largest acceptable ping time —
 
 You can exclude servers with unacceptable ping times by removing them from the list in the request.
 
+
 #### Example 1 (Rule Expansion)
+
 Player level is used for matchmaking, and players are matched loosely, based on the closeness of their levels.
 Players with the least amount of difference between their levels are preferred.
 
@@ -273,6 +304,7 @@ Only the player level value is relaxed.
 
 
 #### Example 2 (Collection Rule)
+
 The game releases three types of DLC that are available for players.
 This matchmaking rule is applied to "DLC only" game play matchmaking, and a player should own at least one DLC to be matchmade with other players.
 
@@ -296,7 +328,9 @@ Players evaluate their DLCs and submit the values shown in the next table in the
 
 If the target intersection in the example is set to 2, players 1 and 3 will not be matched, since the intersection between them is only 1.
 
+
 #### Example 3 (Avoid previous players)
+
 The title prefers avoiding a game with the player most recently played.
 * Rule Type: MUST
 * Data Type: Collection
@@ -306,7 +340,9 @@ The title prefers avoiding a game with the player most recently played.
 
 ## Defining team rules during SmartMatch configuration
 
+
 ### Configuring Team Rules
+
 To set up the Team Rule, begin by creating one in Partner Center.
 Fill out the team sizes your game expects to create from the tickets matched in this hopper.
 
@@ -316,7 +352,8 @@ There is a minimum team size as well--use this if a game can be played with fewe
 Otherwise, the minimum and maximum should be the same value.
 
 
-#### Using Team Rules
+### Using Team Rules
+
 Once the Team Rule is configured, tickets within the hopper will be prevented from matching if there is no way to fit their groups into teams without causing a split.
 The rule will write the resulting team allocation to the target session, under members/constants/custom/matchmakingresult/initialTeam.
 Note that this is simply a suggested allocation--the title may find that by rearranging the players it may create a better game, while still preventing tickets from splitting into different teams.
@@ -335,7 +372,8 @@ Once the above properties are written to the game session, one player creates a 
 When the ticket is fulfilled, Match will again write the suggested team of any players who join into members/constants/custom/matchmakingresult/initialTeam
 
 
-###### Preferring even teams
+#### Preferring even teams
+
 Additionally, matches will be made with the largest teams first.
 This means that in a hypothetical 4v4 hopper, tickets of 4 players will be matched together first, until no tickets of 4 remain.
 Tickets of 3 then continue, pulling singletons as they need to, and so forth.
@@ -347,7 +385,8 @@ For example, suppose you have a limited population, consisting of one ticket of 
 The Team Rule will cause Match to prefer A and B matching, as opposed to A, C, D, E, and F.
 
 
-###### Should Variant
+#### Should Variant
+
 The Must rule prevents ticket splitting in all generations, and provides the prefer-even-teams sorting.
 The Should rule is identical until the last generation--once there, tickets may be split, although the prefer-even-teams sorting will still be active.
 

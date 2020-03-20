@@ -18,6 +18,8 @@ ms.localizationpriority: medium
 
 This article shows how to implement specific tasks related to using Multiplayer 2015.
 
+
+
 <!-- **Contents**
 * [Subscribe for MPSD session change notifications](#sfmscn)
 * [Create an MPSD session](#cams)

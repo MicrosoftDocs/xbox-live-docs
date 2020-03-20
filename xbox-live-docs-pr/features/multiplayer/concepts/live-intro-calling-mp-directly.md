@@ -1,15 +1,14 @@
 ---
 title: Intro to calling the Multiplayer service directly
 description: Provides a high level introduction to the Xbox Live Multiplayer 2015 system.
-ms.assetid: d025bd2b-2ca4-4ba9-9394-4950d96ad264
-ms.date: 04/04/2017
+kindex: Intro to calling the Multiplayer service directly
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer 2015
+ms.assetid: d025bd2b-2ca4-4ba9-9394-4950d96ad264
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
-
 
 
 
@@ -88,9 +87,6 @@ For details about Xbox secure sockets, see **Networking Overviews**.
 
 2015 Multiplayer uses the **real-time activity service** to allow titles to subscribe to MPSD session changes, and enable automatic detection of client disconnects.
 More information is provided in [Real-Time Activity (RTA) service](../../rta/live-rta-nav.md).
-
-
-
 
 
 #### Xbox Live Matchmaking Service
@@ -282,7 +278,7 @@ The clients are notified of the match and perform quality of service (QoS) to va
 
 The Xbox Live Compute service enables developers to harness the elastic compute power of the cloud, and enables larger multiplayer scenarios than were possible in a peer-to-peer network.
 
-See [Xbox Live Compute](https://developer.microsoft.com/games/xbox/docs/xdk/xbox-live-compute) in the XDK docs (requires ID@Xbox or Managed Partner access).
+See <a href="https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/xbox-live-compute/using-xbox-live-compute-in-multiplayer" target="_blank">Using Xbox Live Compute in Multiplayer &#11008;</a> in the XDK docs (requires Managed Partner access), or see that article in `XboxOneXDK.chm`.
 
 
 ## See also
@@ -291,4 +287,5 @@ See [Xbox Live Compute](https://developer.microsoft.com/games/xbox/docs/xdk/xbox
 * [Matchmaking overview](../matchmaking/live-matchmaking-overview.md)
 * [Real-Time Activity (RTA) service](../../rta/live-rta-nav.md)
 * [Reputation](../../social/reputation/live-reputation-nav.md)
-* [Using Xbox Live Compute in Multiplayer (requires managed partner access)](https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/xbox-live-compute/using-xbox-live-compute-in-multiplayer) (ext.)
+* <a href="https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/xbox-live-compute/using-xbox-live-compute-in-multiplayer" target="_blank">Using Xbox Live Compute in Multiplayer &#11008;</a>
+(requires Managed Partner access)

@@ -10,6 +10,10 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
+
+
+
+
 # Game session visibility and joinability
 
 On Xbox One, the *visibility* and *joinability* settings for game sessions and game parties control access to multiplayer experiences.
@@ -77,7 +81,7 @@ The joinability state can be set to:
 -   *Joinable by Friends* (default value) — This setting requires a friend relationship for a player to join the game party (to join a party, a party member has to follow the joining player).
 
 Joinability can be used to create an invite-only game party.
-To restrict access to a party and require that players have received an invite to join, joinability should be set to “invite only”.
+To restrict access to a party and require that players have received an invite to join, joinability should be set to "invite only".
 
 **Note:** Party joinability does not influence session joinability, but the party joinability is reflected in the Party App UI. Players can change the party joinability in the Party App manually outside of a title.
 
@@ -142,10 +146,10 @@ To address this issue, the maximum member size of a session should always be set
 For instance, if the player number is 8, the title should set the maximum session size at 12.
 In this way, new players can join even if old players have not yet timed out.
 
-The arbiter or host determines whether the session is full and then sets a custom session property that will determines whether new players can still join (**IsFull** : “true”).
+The arbiter or host determines whether the session is full and then sets a custom session property that will determines whether new players can still join (**IsFull** : "true").
 This allows for a quick check from joining players if the session is joinable.
 
-The arbiter or host should also maintain a custom property that indicates which members, by index, have timed out (for example, **TimedOutPlayers** : “3, 5, 9”).
+The arbiter or host should also maintain a custom property that indicates which members, by index, have timed out (for example, **TimedOutPlayers** : "3, 5, 9").
 This allows new players to correctly identify the current session members.
 
 
