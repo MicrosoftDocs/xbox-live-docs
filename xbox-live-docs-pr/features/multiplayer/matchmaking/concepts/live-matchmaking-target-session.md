@@ -22,7 +22,7 @@ ms.date: 04/04/2017
 A group of players is matched into a target session by SmartMatch matchmaking. The title must take steps to confirm that enough players have joined that they can successfully connect to one another if they need to. This process is known as target session initialization.
 
 For games using peer-to-peer network topologies, an important aspect of target session initialization is QoS measurement and evaluation.
-Associated operations are the measurement of latency and bandwidth between Xbox One consoles (or between consoles and servers), and the evaluation of the resulting measurements to determine whether the network connection between nodes is good.
+Associated operations are the measurement of latency and bandwidth between Xbox One (or later) consoles, or between consoles and servers, and the evaluation of the resulting measurements to determine whether the network connection between nodes is good.
 
 The following flow chart illustrates how to implement the initialization of the target session and QoS operations.
 

@@ -2,12 +2,12 @@
 title: Multiplayer Session Directory (MPSD)
 description: Shares information to connect a group of users. Coordinates with the shell and console operating system in sending/accepting invites and in being joined via the gamer card.
 kindex: Multiplayer Session Directory (MPSD)
+kindex: protocol activation
 ms.topic: navigation
 ms.prod: gaming
 ms.technology: xboxlive
-ms.date: 04/04/2017
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, protocol activation, multiplayer
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Multiplayer Session Directory (MPSD)

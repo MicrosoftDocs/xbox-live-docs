@@ -1,11 +1,11 @@
 ---
 title: Configuring single sign-on in Partner Center, for Managed Partners
 description: Configuring single sign-on in Partner Center to allow a title to sign a user into your services by using their Xbox Live ID.
-ms.assetid:
-ms.date: 02/21/2018
+kindex: Configuring single sign-on in Partner Center, for Managed Partners
+kindex: single sign-on
 ms.topic: article
 ms.localizationpriority: medium
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, udc, universal developer center, single sign-on
+ms.date: 02/21/2018
 ---
 
 # Configuring single sign-on in Partner Center, for Managed Partners

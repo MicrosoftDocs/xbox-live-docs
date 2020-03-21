@@ -1,18 +1,19 @@
 ---
 title: Overview of Connected Storage
 description: Connected Storage saves and loads gameplay data and other state data across devices.  Title data is stored locally and also synced to the cloud.
-ms.assetid: a0bacf59-120a-4ffc-85e1-fbeec5db1308
-ms.date: 02/27/2018
+kindex: Overview of Connected Storage
+kindex: connected storage
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, connected storage
+ms.assetid: a0bacf59-120a-4ffc-85e1-fbeec5db1308
 ms.localizationpriority: medium
+ms.date: 02/27/2018
 ---
 
 # Overview of Connected Storage
 
 Connected Storage allows your title to save gameplay data and other relevant state data that should roam between devices.
 
-The Connected Storage API allows titles on Xbox One and Universal Windows Platform (UWP) to save, load, and delete title data that is stored locally and also synced to the cloud whenever the Xbox One or UWP title is connected to the internet.
+The Connected Storage API allows titles on Xbox One (or later) and Universal Windows Platform (UWP) to save, load, and delete title data that is stored locally and also synced to the cloud whenever the Xbox or UWP title is connected to the internet.
 Saved data will be available on any other device which runs your title after synchronization occurs.
 
 Developers are encouraged to save title state as accurately as possible to offer the best away-from-home play experience.
@@ -30,7 +31,7 @@ The Connected Storage API provides the following features:
     - 64 MB per user/app of cloud storage.
 - Robust response to power failures—apps don't have to deal with partial data being saved.
 - Data is automatically uploaded to the cloud, even when the app isn't running.
-- Data is available across Xbox One or UWP devices that are connected to Xbox Live.
+- Data is available across Xbox or UWP devices that are connected to Xbox Live.
 - Xbox Live handles cross-device syncing and conflict management without requiring involvement by the app.
 
 The Connected Storage system makes sure that all saves are made in their entirety or not at all.
@@ -90,13 +91,13 @@ Further differences between the two Connected Storage APIs are detailed in the C
 
 ### XDK Connected Storage API Reference
 
-You can find the XDK Connected Storage APIs documented in the XDK .chm file under the path:  
-**Xbox ONE XDK >> API Reference >> Platform API Reference >> System API Reference >> Windows.Xbox.Storage**
+You can find the XDK Connected Storage APIs documented in the `XboxOneXDK.chm` file under the path:  
+**Xbox One XDK >> API Reference >> Platform API Reference >> System API Reference >> Windows.Xbox.Storage**
 
 The XDK APIs are also documented on the [developer.microsoft.com site](https://developer.microsoft.com/games/xbox/docs/xdk/storage-xbox-microsoft-n).
-The link to XDK APIs requires that you have a Microsoft Account(MSA) that has been enabled for Xbox Developer Kit(XDK) access.
+The link to XDK APIs requires that you have a Microsoft Account(MSA) that has been enabled for Xbox Developer Kit (XDK) access.
 
-`Windows.Xbox.Storage` is the name of the Connected Storage namespace for Xbox One consoles.
+`Windows.Xbox.Storage` is the name of the Connected Storage namespace for Xbox consoles.
 
 
 ### UWP Connected Storage API Reference

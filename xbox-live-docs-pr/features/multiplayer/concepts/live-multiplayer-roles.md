@@ -1,12 +1,13 @@
 ---
 title: Multiplayer roles
 description: Defining player roles in Xbox Live multiplayer.
-ms.date: 06/29/2017
+kindex: Multiplayer roles
+kindex: roles, multiplayer
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, roles
 ms.localizationpriority: medium
+ms.date: 06/29/2017
 ---
 
 # Multiplayer roles

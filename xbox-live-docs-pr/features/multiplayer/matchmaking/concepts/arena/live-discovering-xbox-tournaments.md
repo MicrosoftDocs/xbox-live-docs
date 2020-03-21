@@ -1,14 +1,16 @@
 ---
 title: UX for discovering Xbox tournaments
 description: Creating a UI for your game's tournament discovery.
+kindex: UX for discovering Xbox tournaments
+kindex: arena
+kindex: tournament
 author: KevinAsgari
 ms.author: kevinasg
-ms.date: 10/12/2017
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, arena, tournament, ux
 ms.localizationpriority: medium
+ms.date: 10/12/2017
 ---
 
 # UX for discovering Xbox tournaments
@@ -40,7 +42,7 @@ Xbox games have a unique opportunity to catch gamers at that crucial moment when
 Titles that have built an announcement feature into their game UI typically use a content-management system that allows for instant updates.
 This is useful for pushing new content to gamers without relying on a content update or downloadable content release.
 
-For example, Halo uses a “Message of the Day” feature to surface community announcements and tips.
+For example, Halo uses a "Message of the Day" feature to surface community announcements and tips.
 Tournament promotion is perfect fit for this scenario.
 
 **User impact**
@@ -71,14 +73,14 @@ Deep-link to Game Hub/Tournament/Details - Recommended when announcing a specifi
 #### C. Game-exit confirmation
 
 Screen elements A and B lead the user out the game to the Xbox Dashboard.
-Set that expectation in your title’s UI before the gamer makes a decision.
+Set that expectation in your title's UI before the gamer makes a decision.
 
 
 ###### UI Example: Exit game confirmation
 ![Tournament exit game confirmation](live-discovering-xbox-tournaments-images/arena-ux-exit-confirm.png)
 
 
-### 2.	Promote tournaments on the Main Menu
+### 2.    Promote tournaments on the Main Menu
 
 In this example, the announcement is an interactive ad for an upcoming event.
 It gives enough information to entice the gamer to learn more.
@@ -113,12 +115,12 @@ If you intend to build a browsing feature, add a **Tournaments** entry point in 
 
 ### Provide a comprehensive list of tournaments
 
-Empower gamers to quickly check the status of tournaments they’re currently registered in, and to browse tournaments between gameplay sessions.
+Empower gamers to quickly check the status of tournaments they're currently registered in, and to browse tournaments between gameplay sessions.
 
 
 #### User impact
 
-* Minimizes the gamer’s need to leave the game to check tournament status in the Dashboard.
+* Minimizes the gamer's need to leave the game to check tournament status in the Dashboard.
 * Serves as a great back-up solution if gamers miss Xbox Arena toast notifications.
 * Does involve additional cost for the game developer to manage.
 * Leads gamers to the Arena UI for joining, registration, checking in, seeding and team formation.
@@ -144,7 +146,7 @@ Filter tournaments by **All**, **Active** (which covers everything until the tou
 > [!NOTE]
 > Adding custom filters, outside of what the API supports is possible, *but not recommended*.
 
-Your title can filter by other properties after it makes the request, but it can’t specify them on the query parameter.
+Your title can filter by other properties after it makes the request, but it can't specify them on the query parameter.
 This makes filtering by other properties unreliable for this type of UI.
 
 The Arena APIs retrieve a title-specified number of results at a time—for example, the title may specify a **maxItems** value of 10 tournaments.
@@ -153,9 +155,9 @@ This helps your title manage performance and minimizes the risk of overwhelming 
 However, any custom filters provided by your game would apply only to the 10 items requested at that time.
 This could result in an inconsistent number of filtered results after each API call.
 
-For example, the first set of 10 tournaments returned might contain 2 that are related to a custom filter, like ‘Playing.’
+For example, the first set of 10 tournaments returned might contain 2 that are related to a custom filter, like 'Playing.'
 But the next 10 may show 9 such items, and so on.
-The only reliable way for your title to fully populate each custom filter is to request every active tournament and then filter them all, which we don’t recommend.
+The only reliable way for your title to fully populate each custom filter is to request every active tournament and then filter them all, which we don't recommend.
 
 
 #### Filter recommendations:
@@ -179,7 +181,7 @@ View tournaments that a participant is currently registered in.
 Results:
 * Tournaments that the currently signed-in user is participating in
 * Tournament status
-* A method to enter a tournament match (for ‘match ready’ status)
+* A method to enter a tournament match (for 'match ready' status)
 * Deep link to Tournament Detail Page in the Dashboard
 
 

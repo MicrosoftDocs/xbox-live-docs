@@ -1,13 +1,16 @@
 ---
 title: Multiplayer Session advanced topics
 description: Details about multiplayer sessions.
-ms.assetid: 5aeae339-4a97-45f4-b0e7-e669c994f249
-ms.date: 04/04/2017
+kindex: Multiplayer Session advanced topics
+kindex: multiplayer 2015
+kindex: session
+kindex: MPSD
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer 2015, session, mpsd
+ms.assetid: 5aeae339-4a97-45f4-b0e7-e669c994f249
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Multiplayer Session advanced topics
@@ -47,7 +50,7 @@ Secondary access checks, such as session membership validation, are performed at
 
 ### Contract version number
 
-This article assumes that your template uses contract version 107, which is the version used by the current MPSD for Xbox One.
+This article assumes that your template uses contract version 107, which is the version used by the current MPSD for Xbox One (or later).
 
 If you have defined templates based on contract version 105 (identical to 104), you must change these to support version 107.
 For instructions, see [Changing a game from 2014 to 2015 Multiplayer](../../concepts/live-issues-changing-to-mp-2015.md).

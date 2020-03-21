@@ -1,15 +1,18 @@
 ---
 title: Game Chat
 description: Adding voice and text communication to your game by using Xbox Live Game Chat 2.
+kindex: Game Chat
+kindex: voice communication
+kindex: text chat
+kindex: chat
 layout: LandingPage
 author: mikehoffms
 ms.author: v-mihof
 ms.topic: navigation
 ms.prod: gaming
 ms.technology: xboxlive
-ms.date: 12/06/2018
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, game chat, game chat 2, voice communication
 ms.localizationpriority: medium
+ms.date: 12/06/2018
 ---
 
 # Game Chat

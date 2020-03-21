@@ -1,11 +1,11 @@
 ---
 title: Title-managed Leaderboards how-to's
 description: Defining leaderboards to compare players by showing selected stats for a game.
-ms.assetid: 132604f9-6107-4479-9246-f8f497978db7
-ms.date: 09/28/2018
+kindex: Title-managed Leaderboards how-to's
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
+ms.assetid: 132604f9-6107-4479-9246-f8f497978db7
 ms.localizationpriority: medium
+ms.date: 09/28/2018
 ---
 
 # Title-managed Leaderboards how-to's

@@ -1,11 +1,12 @@
 ---
 title: Example code for event-based Leaderboards
 description: Code for basic leaderboard display, getting a specified page of results, and skipping to a specified user in the leaderboard.
-ms.assetid: 132604f9-6107-4479-9246-f8f497978db7
-ms.date: 09/28/2018
+kindex: Xbox Live Leaderboards
+kindex: Leaderboards, Xbox Live
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
+ms.assetid: 132604f9-6107-4479-9246-f8f497978db7
 ms.localizationpriority: medium
+ms.date: 09/28/2018
 ---
 
 # Example code for event-based Leaderboards

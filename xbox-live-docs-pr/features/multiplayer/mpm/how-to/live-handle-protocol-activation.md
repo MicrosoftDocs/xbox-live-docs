@@ -1,13 +1,15 @@
 ---
 title: Handling protocol activation to start a game, using Multiplayer Manager
 description: Using Multiplayer Manager to handle protocol activation, so that the game automatically starts in response to another action, such as when a player accepts a game invite from another player.
-ms.assetid: e514bcb8-4302-4eeb-8c5b-176e23f3929f
-ms.date: 04/04/2017
+kindex: Handling protocol activation to start a game, using Multiplayer Manager
+kindex: multiplayer manager
+kindex: protocol activation
 ms.topic: how-to
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer manager, protocol activation
+ms.assetid: e514bcb8-4302-4eeb-8c5b-176e23f3929f
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 
@@ -33,8 +35,6 @@ You can see a flowchart of the process here: [Handling protocol activation (flow
 | `multiplayer_manager::join_lobby(IProtocolActivatedEventArgs^ args, User^)` | `join_lobby_completed_event` |
 | `multiplayer_lobby_session::set_local_member_connection_address()` | `local_member_connection_address_write_completed ` |
 | `multiplayer_lobby_session::set_local_member_properties()` | `member_property_changed` |
-
-
 
 When a player accepts a game invite or joins a friend's game through the player's gamercard, the game is launched on their device by using protocol activation.
 Once the game starts, Multiplayer Manager can use the protocol activated event arguments to join the lobby.

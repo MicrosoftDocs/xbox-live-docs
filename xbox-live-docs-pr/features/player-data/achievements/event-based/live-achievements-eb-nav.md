@@ -1,9 +1,10 @@
 ---
 title: Event-based Achievements
 description: Event-based Achievements.
-layout: LandingPage
+kindex: Event-based Achievements
 kindex: Achievements
 kindex: Xbox Live, Achievements
+layout: LandingPage
 author: XBL
 ms.author: player-data
 ms.topic: navigation

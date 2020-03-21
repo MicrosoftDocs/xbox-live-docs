@@ -1,41 +1,20 @@
 ---
 title: Multiplayer 2015 FAQ and troubleshooting
 description: FAQs and troubleshooting for Multiplayer 2015.
-ms.assetid: 75823f10-b342-4e20-b885-e5ad4392bc3d
-ms.date: 04/04/2017
+kindex: Multiplayer 2015 FAQ and troubleshooting
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer
+ms.assetid: 75823f10-b342-4e20-b885-e5ad4392bc3d
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
-# Multiplayer 2015 FAQ and troubleshooting
 
-The following questions are answered below.
--   I am developing a new title. Which multiplayer API elements should I use?
--   How can I access the new multiplayer API from a service?
--   Can my title subscribe to changes for more than one session?
--   Will a user be removed immediately if he/she loses a network connection or turns off the console?
--   How do I find out what SCID, session template, and sandbox to use?
--   Is there an example of a request body that I can compare to the one for my title?
--   I am getting an HTTP/403 code when calling MPSD.
--   I am getting an HTTP/404 code when calling MPSD.
--   Why am I getting an HTTP/404 code when calling **MultiplayerService.WriteSessionByHandleAsync** or **MultiplayerService.GetCurrentSessionByHandleAsync**?
--   I am getting an HTTP/412 code when calling MPSD.
--   I am getting an HTTP/400, 405, 409, 503, etc. code when calling MPSD.
--   What can or should I change in the session templates for my title?
--   I'm getting an error that is saying my session isn't initialized.
--   My session is not being created and I'm getting an HTTP/204 code.
--   When should I poll MPSD?
--   What happens if a player who was reserved or invited to the session does not join it?
--   Why would a created session not be found by matchmaking?
--   What is the key difference between the way parties are properly used by Multiplayer 2015 and the way they were used in Multiplayer 2014?
--   If a game session has open player slots and supports join in progress, why would users not be able to find the session once it has started?
--   If a game session is open, can a user who has just joined a game simply join the session and start playing without having to wait for the reservation?
--   When large game sessions are playing in my title, why aren't all session members seeing the game invite toast?
--   I am seeing inconsistent game behavior and have received protocol activation information referencing game party features.
--   Why am I seeing the syntax for v105 session documents in my traces although I have configured a v107 session template?
+
+
+
+# Multiplayer 2015 FAQ and troubleshooting
 
 
 ### I am developing a new title. Which multiplayer API elements should I use?
@@ -186,7 +165,7 @@ If the title is constrained or not running, the shell provides a notification th
 
 ### Why would a created session not be found by matchmaking?
 
-On Xbox One, simply creating a session isn't enough for matchmaking to find the new session. You must create a match ticket to start advertising the session to the matchmaking service. See [Matchmaking overview](../matchmaking/live-matchmaking-overview.md).
+On Xbox One (or later), simply creating a session isn't enough for matchmaking to find the new session. You must create a match ticket to start advertising the session to the matchmaking service. See [Matchmaking overview](../matchmaking/live-matchmaking-overview.md).
 
 
 ### What is the key difference between the way parties are properly used by Multiplayer 2015 and the way they were used in Multiplayer 2014?
@@ -218,6 +197,6 @@ This indicates that you are mixing Multiplayer 2014 and Multiplayer 2015 functio
 
 The MPSD performs automatic conversion between session document versions based on the client request. Currently all Xbox Service APIs use v105 for requests to the MPSD. This may result in different syntax between v107 session templates and v105 traces but has no other functional impact. Session templates should be configured as v107.
 
-© 2015 Microsoft Corporation. All rights reserved.
+&copy; 2015 Microsoft Corporation. All rights reserved.
 Submit feedback on <https://forums.xboxlive.com/spaces/22/index.html>.
 Version: 2.0.90731.0

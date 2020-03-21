@@ -1,9 +1,11 @@
 ---
 title: Build a Leaderboard in Unity
 description: Guide on building your own Leaderboard in Unity
-ms.date: 04/24/2018
+kindex: Build a Leaderboard in Unity
+kindex: Unity
+kindex: leaderboards
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity, leaderboards
+ms.date: 04/24/2018
 ---
 
 # Leaderboard data in Unity

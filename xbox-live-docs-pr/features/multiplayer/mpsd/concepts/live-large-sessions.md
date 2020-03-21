@@ -1,12 +1,15 @@
 ---
 title: Using large sessions for Multiplayer
 description: Using large sessions (more than 100 members) with Multiplayer features.
-ms.date: 07/11/2017
+kindex: Using large sessions for Multiplayer
+kindex: multiplayer
+kindex: large sessions
+kindex: recent players
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, large session, recent players
 ms.localizationpriority: medium
+ms.date: 07/11/2017
 ---
 
 # Using large sessions for Multiplayer
@@ -39,7 +42,7 @@ If you use large sessions however, you must take some extra steps to ensure that
 
 ## Set up a large session
 
-To set sessions up as large, add `“large”: true` to the capabilities section in the session template.
+To set sessions up as large, add `"large": true` to the capabilities section in the session template.
 That lets you set the `maxMembersCount` up to 10,000.
 
 A session template like the below should work:
@@ -77,8 +80,8 @@ Other properties should not be maintained in the large sessions.
 
 ### Associating players from the same large session
 
-When you retrieve a large session from MPSD, the list of members doesn't come back with the response, and in fact there’s no way to get the full list.
-Instead, if the caller is in the session, their member record will be the only one in the “members” collection, labelled as “me” (just like in the request).
+When you retrieve a large session from MPSD, the list of members doesn't come back with the response, and in fact there's no way to get the full list.
+Instead, if the caller is in the session, their member record will be the only one in the "members" collection, labelled as "me" (just like in the request).
 
 This means that clients members will only be able to update their own entry in the session, and will rely on the server to provide them with a common identifier that Xbox Live can use to associate players that played together.
 
@@ -89,7 +92,7 @@ There are two ways to indicate that people in a session played together (for upd
 
 If a group of people is staying together on an ongoing basis, potentially with people coming and going from it, you can give the group a name (for example, a guid – following the same naming rules as for regular sessions).
 
-As each member comes and goes from the group, they should add or remove the group name to their own “groups” property, which is an array of strings:
+As each member comes and goes from the group, they should add or remove the group name to their own "groups" property, which is an array of strings:
 
 ```json
 {
@@ -108,9 +111,9 @@ As each member comes and goes from the group, they should add or remove the grou
 
 #### 2. Brief encounters
 
-If two people have a brief one-time encounter, the game can instead use the “encounters” array.
+If two people have a brief one-time encounter, the game can instead use the "encounters" array.
 
-Give each encounter a name, and after the encounter, both (or all) participants would write the name to their own “encounters” property:
+Give each encounter a name, and after the encounter, both (or all) participants would write the name to their own "encounters" property:
 
 ```json
 {
@@ -126,11 +129,11 @@ Give each encounter a name, and after the encounter, both (or all) participants 
 }
 ```
 
-You can use the same name for both “groups” and “encounters” – for example, if one player “trades with” a group, the people in the group won’t need to do anything (assuming they previously added the group name to their “groups”), and the person who had the encounter would upload the group name in their “encounters” list.
+You can use the same name for both "groups" and "encounters" – for example, if one player "trades with" a group, the people in the group won't need to do anything (assuming they previously added the group name to their "groups"), and the person who had the encounter would upload the group name in their "encounters" list.
 That will cause the individual to see all the members of the group as recent players and vice versa.
 
 Encounters count as having been a member of the group for 30 seconds.
-Since the encounters are considered one-off events, the “encounters” array is always immediately processed and then cleared from the session.
+Since the encounters are considered one-off events, the "encounters" array is always immediately processed and then cleared from the session.
 
-The “encounters” array will never appear in a response.
-In contrast, the “groups” array remains until altered or removed, or the member leaves the session.
+The "encounters" array will never appear in a response.
+In contrast, the "groups" array remains until altered or removed, or the member leaves the session.

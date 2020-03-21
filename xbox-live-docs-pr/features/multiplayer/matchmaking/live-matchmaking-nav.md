@@ -1,12 +1,14 @@
 ---
 title: SmartMatch Matchmaking
 description: The SmartMatch matchmaking service selects compatible players in a multiplayer game.
-ms.date: 04/04/2017
+kindex: SmartMatch Matchmaking
+kindex: protocol activation
+kindex: multiplayer
 ms.topic: navigation
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, protocol activation, multiplayer
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # SmartMatch Matchmaking

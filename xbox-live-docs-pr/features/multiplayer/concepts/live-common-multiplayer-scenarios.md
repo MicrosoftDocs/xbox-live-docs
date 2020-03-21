@@ -1,13 +1,14 @@
 ---
 title: Common multiplayer scenarios
 description: Which Xbox Live functionality supports various multiplayer scenarios, including Comparative (Indirect) Play, Online Play with friends, Skill-Based Matchmaking, and Tournaments.
-ms.assetid: 470914df-cbb5-4580-b33a-edb353873e32
-ms.date: 04/04/2017
+kindex: Common multiplayer scenarios
+kindex: multiplayer
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer
+ms.assetid: 470914df-cbb5-4580-b33a-edb353873e32
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Common multiplayer scenarios
@@ -50,14 +51,13 @@ This type of multiplayer is based on two or more players playing a game together
 A title may use a single screen for all players or a split screen experience for each player.
 Alternatively, in turn based games, you may use a "hot seat" approach where each player takes control of the game during their turn.
 
-On the Xbox One console multiple gamers can be signed in on a single console.
+On the Xbox One (or later) console, multiple gamers can be signed in on a single console.
 Each player is tied to a controller.
 Currently, Windows 10 devices only support sign-in of a single Xbox Live account, but Microsoft is investigating changing this in a future update.
 
 While it is possible to design a local play only style of multiplayer by using Xbox Live Multiplayer services, it may be better to consider this scenario as a subset of a more expansive multiplayer scenario that incorporates online experiences, as the additional investment required is minimal compared to the potential return of expanding the multiplayer scenario.
 
 This type of multiplayer can use similar services as the previous scenario:
-
 * Presence
 * Stats
 * Social Manager

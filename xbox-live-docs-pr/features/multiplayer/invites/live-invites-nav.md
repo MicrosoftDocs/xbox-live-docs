@@ -1,13 +1,15 @@
 ---
 title: Invites
 description: A player can invite other players to their game sessions. Invited players receive a game invite, and the title uses this information to join the existing session and multiplayer experience.
+kindex: Invites
+kindex: protocol activation
+kindex: multiplayer
 layout: LandingPage
-ms.date: 04/04/2017
 ms.topic: navigation
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, protocol activation, multiplayer
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Invites

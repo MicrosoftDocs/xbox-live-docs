@@ -42,8 +42,8 @@ Xbox Live supports the following types of rewards:
 #### Gamerscore
 
 We are committed to preserving the integrity of the gamerscore value that has been built up with our Xbox Live users.
-There is only one gamerscore per user!
-Any gamerscore that a user earns on existing Xbox Live platforms such as Xbox 360, Xbox One, or Windows 10 will count toward a single gamerscore for that user.
+There is only one gamerscore per user.
+Any gamerscore that a user earns on existing Xbox Live platforms such as Xbox or Windows 10 will count toward a single gamerscore for that user.
 
 When a user unlocks a gamerscore achievement, Xbox Live automatically increases the user's gamerscore by the configured amount.
 
