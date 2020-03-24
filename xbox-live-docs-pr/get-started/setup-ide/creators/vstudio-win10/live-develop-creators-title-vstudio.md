@@ -82,7 +82,8 @@ If you do not already have an existing UWP project, you can create one by doing 
 ### 2. Add references to the Xbox Live API (XSAPI) in your project
 
 The Xbox Services API comes in flavors for C++ and WinRT and have their naming structured as **Microsoft.Xbox.Live.SDK.*.UWP**.
-You can read more about running UWP on Xbox One at [https://docs.microsoft.com/windows/uwp/xbox-apps/getting-started](https://docs.microsoft.com/windows/uwp/xbox-apps/getting-started).
+You can read more about running UWP on Xbox One (or later) at <a href="https://docs.microsoft.com/windows/uwp/xbox-apps/getting-started" target="_blank">Getting started with UWP app development on Xbox One &#11008;</a>.
+
 The C++ SDK can be used for C++ game engines, where as the  WinRT SDK is for game engines written with C++, C#, or JavaScript.
 When using WinRT with a C++ engine, you would use C++/CX which uses hats (^).
 C++ is the recommended API to use for C++ game engines.

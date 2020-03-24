@@ -199,6 +199,6 @@ There are a few sign-in policies and limitations of the Title's that you may wan
 
 - The title does not actually have permission to sign-out a player from the OS, because of this SignOut may not work as expected. The SignInManager can sign a user in and out where the title is concerned, but cannot sign anyone out from the machine the title is deployed to.
 
-- Multiple user sign-in is only available on the Xbox One Console.
+- Multiple user sign-in is only available on the Xbox One (or later) console.
 
 - Guest accounts are not available to Xbox Live Creators Program titles.

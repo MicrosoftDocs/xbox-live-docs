@@ -1,10 +1,12 @@
 ---
 title: Adding controller support to Xbox Live prefabs
 description: Adding controller support to Xbox Live prefabs using the Xbox Live Unity plug-in.
-ms.date: 07/14/2017
+kindex: Adding controller support to Xbox Live prefabs
+kindex: unity
+kindex: controller support
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity, controller support
 ms.localizationpriority: medium
+ms.date: 07/14/2017
 ---
 
 # Adding controller support to Xbox Live prefabs

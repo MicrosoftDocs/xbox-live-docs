@@ -1,10 +1,11 @@
 ---
 title: Features supported for each developer program
 description: Table of Xbox Live features supported for Creators and for Managed Partners.
-ms.date: 04/11/2019
+kindex: Features supported for each developer program
+kindex: developer programs
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, developer program
 ms.localizationpriority: medium
+ms.date: 04/11/2019
 ---
 
 # Features supported for each developer program
@@ -100,13 +101,13 @@ The following Xbox Live features are supported for Creators or for Managed Partn
 </tr>
 <tr>
 <td>Recently Played</td>
-<td>Appear in recently played titles in the Xbox App or Xbox One.</td>
+<td>Appear in recently played titles in the Xbox App or Xbox One (or later) console.</td>
 <td class="xbl-features-automatic">Automatic</td>
 <td class="xbl-features-automatic">Automatic</td>
 </tr>
 <tr>
 <td>Activity Feed</td>
-<td>Appear in the activity feed in the Xbox App or Xbox One.</td>
+<td>Appear in the activity feed in the Xbox App or Xbox One (or later) console.</td>
 <td class="xbl-features-automatic">Automatic</td>
 <td class="xbl-features-automatic">Automatic</td>
 </tr>
@@ -118,7 +119,7 @@ The following Xbox Live features are supported for Creators or for Managed Partn
 </tr>
 <tr>
 <td>Clubs</td>
-<td>Players can use the Xbox App or Xbox One to create clubs that can be optionally associated with your title.</td>
+<td>Players can use the Xbox App or Xbox One (or later) console to create clubs that can be optionally associated with your title.</td>
 <td class="xbl-features-automatic">Automatic</td>
 <td class="xbl-features-automatic">Automatic</td>
 </tr>
@@ -184,7 +185,7 @@ The following Xbox Live features are supported for Creators or for Managed Partn
 <tr class="dev-program-feature-start">
 <td rowspan="2" class="dev-program-feature-name">Cloud Storage</td>
 <td>Connected Storage</td>
-<td>Roaming game saves across Xbox One Consoles and PCs.</td>
+<td>Roaming game saves across Xbox One (or later) consoles and PCs.</td>
 <td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-required">Required</td>
 </tr>
