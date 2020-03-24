@@ -24,7 +24,7 @@ The tool will only show sessions for a few days.
 This standalone tool is part of `XboxLiveTools.zip`; see [Development tools for Xbox Live](live-tools.md).
 
 <!-- .chm: -->
-<!-- ![MPSD Session History Viewer](../../../../../resources/gdk/secure/images/en-us/live/test-release/services-tools/live-mp-session-history-viewer-images/live-session-history-viewer.png) -->
+<!-- ![MPSD Session History Viewer](../../../../../resources/gdk/secure/images/en-us/live/test-release/tools/live-mp-session-history-viewer-images/live-session-history-viewer.png) -->
 <!-- dmc: -->
 ![MPSD Session History Viewer](live-mp-session-history-viewer-images/live-session-history-viewer.png)
 

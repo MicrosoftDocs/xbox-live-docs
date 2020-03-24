@@ -63,7 +63,7 @@ This extension will enable the use of Connected Storage in your UWP titles throu
 There are several useful tools that you use to help you develop for Xbox Live.
 Find more information at:
 
-* [Development tools for Xbox Live](services-tools/live-tools.md)
+* [Development tools for Xbox Live](tools/live-tools.md)
 
 
 ## Xbox Live code samples

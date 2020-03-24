@@ -140,18 +140,37 @@ Differentiate sentences for the two Policies cards
         </a>
     </li>
     <li>
-        <a href="services-tools/live-services-tools-nav.md">
+        <a href="tools/live-tools-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_tools.svg" alt="Services and tools"/>
+                                <img src="https://docs.microsoft.com/media/common/i_tools.svg" alt="Tools for Xbox Live"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Services and tools</h3>
-                            <p>Tools to help develop and test an Xbox Live-enabled title, including Trace Analyzer, Fiddler, best practices, and error handling.</p>
+                            <h3>Tools for Xbox Live</h3>
+                            <p>Tools to help develop and test an Xbox Live-enabled title.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="services/live-services-nav.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_tools.svg" alt="Services and APIs"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Services and APIs</h3>
+                            <p>Using services to analyze Xbox Live activity.</p>
                         </div>
                     </div>
                 </div>
