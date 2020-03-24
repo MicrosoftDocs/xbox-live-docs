@@ -1,0 +1,148 @@
+### YamlMime:Landing
+
+title: Xbox Live documentation # < 60 chars
+summary: Xbox Live is a premier gaming network that connects millions of gamers across the world. # < 160 chars
+
+metadata:
+  title: title # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: description # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: service #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.subservice: subservice # Optional; Remove if no subservice is used.
+  ms.topic: landing-page # Required
+  ms.collection: collection # Optional; Remove if no collection is used.
+  author: githubauthor #Required; your GitHub user alias, with correct capitalization.
+  ms.author: msauthor #Required; microsoft alias of author; optional team alias.
+  ms.date: 01/27/2020 #Required; mm/dd/yyyy format.
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+
+
+Planning:
+Notable Children and Grandchildren
+
+
+card: Getting Started
+card section infotype: 
+link: 
+link: 
+card section infotype: 
+link: 
+link: 
+
+card: Identity features (1st link is the nav page)
+card section infotype: 
+link: 
+link: 
+card section infotype: 
+link: 
+link: 
+
+card: Data features (1st link is the nav page)
+card section infotype: 
+link: 
+link: 
+card section infotype: 
+link: 
+link: 
+
+card: Social features (1st link is the nav page)
+card section infotype: 
+link: 
+link: 
+card section infotype: 
+link: 
+link: 
+
+card: Multiplayer features (1st link is the nav page)
+card section infotype: 
+link: 
+link: 
+card section infotype: 
+link: 
+link: 
+
+card: Cloud Storage features (1st link is the nav page)
+card section infotype: 
+link: 
+link: 
+card section infotype: 
+link: 
+link: 
+
+card: Custom services features (1st link is the nav page)
+card section infotype: 
+link: 
+link: 
+card section infotype: 
+link: 
+link: 
+
+card: Testing and Releasing
+card section infotype: 
+link: 
+link: 
+card section infotype: 
+link: 
+link: 
+
+card: Policies and XRs
+card section infotype: 
+link: 
+link: 
+card section infotype: 
+link: 
+link: 
+
+card: API Reference
+card section infotype: 
+link: 
+link: 
+card section infotype: 
+link: 
+link: 
+
+
+  # Card
+  - title: Getting Started
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: Getting Started - Join a developer program, create a game at Partner Center, add the Xbox Live SDK to your IDE, and write basic sign-in code.
+            url: get-started/live-getstarted-nav.md
+
+  # Card
+  - title: Identity
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Identity
+            url: features/live-features-nav.md
+
+
+  # Card
+  - title: Testing and Releasing
+    linkLists:
+      - linkListType: deploy
+        links:
+          - text: Testing and Releasing
+            url: test-release/live-test-release-nav.md
+
+  # Card
+  - title: Policies and XRs
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Policies and XRs
+            url: policies/live-policies-nav.md
+
+  # Card
+  - title: API Reference
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: API Reference
+            url: api-ref/live-api-reference-nav.md
