@@ -2,6 +2,7 @@
 title: Event-based vs. title-managed Achievements
 description: Title-managed Achievements is simpler than cloud-powered (event-based) Achievements, using direct calling, simple configuration, and local troubleshooting.
 kindex: Event-based vs. title-managed Achievements
+kindex: achievements
 ms.topic: article
 ms.assetid: d424db04-328d-470c-81d3-5d4b82cb792f
 ms.localizationpriority: medium
@@ -15,7 +16,7 @@ Event-based Achievements was previously called "cloud-powered Achievements" or "
 Title-managed Achievements was previously called "Achievements 2017".
 
 Title-managed Achievements is simpler than event-based Achievements, using direct calling, simple configuration, and local troubleshooting.
-The title-managed Achievements system enables game developers to use a direct-calling model to unlock achievements for new Xbox Live games on Xbox One, Windows 10, Windows 10 Phone, Android, and iOS.
+The title-managed Achievements system enables game developers to use a direct-calling model to unlock achievements for new Xbox Live games on Xbox One (or later), Windows 10, Windows 10 Phone, Android, and iOS.
 
 
 ## Introduction

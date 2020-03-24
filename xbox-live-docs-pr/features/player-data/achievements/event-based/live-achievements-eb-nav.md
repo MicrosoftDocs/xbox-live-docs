@@ -11,7 +11,6 @@ ms.topic: navigation
 ms.prod: gaming
 ms.technology: xboxlive
 ms.date: 11/22/2019
-edited: 00/00/0000
 ---
 
 # Event-based Achievements

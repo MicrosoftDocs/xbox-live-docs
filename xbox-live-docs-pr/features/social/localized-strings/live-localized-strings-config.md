@@ -1,11 +1,13 @@
 ---
 title: Configuring localized strings in Partner Center
 description: Configuring localized strings in Partner Center.
-ms.assetid: e0f307d2-ea02-48ea-bcdf-828272a894d4
-ms.date: 11/17/2017
+kindex: Configuring localized strings in Partner Center
+kindex: localized strings, configuring
+kindex: Partner Center, localized strings
 ms.topic: article
+ms.assetid: e0f307d2-ea02-48ea-bcdf-828272a894d4
 ms.localizationpriority: medium
-keywords: Xbox Live, Xbox, games, uwp, windows 10, Xbox one, Localized strings, Partner Center
+ms.date: 11/17/2017
 ---
 
 # Configuring localized strings in Partner Center

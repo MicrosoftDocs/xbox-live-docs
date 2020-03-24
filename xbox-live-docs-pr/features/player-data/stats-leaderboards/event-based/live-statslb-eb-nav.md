@@ -6,8 +6,6 @@ layout: LandingPage
 author: v-mihof
 ms.author: v-mihof
 ms.topic: article
-ms.prod: xboxlive
-ms.technology: 
 ---
 
 # Event-based Stats & Leaderboards

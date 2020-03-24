@@ -1,11 +1,12 @@
 ---
 title: Updating a user's Presence via WinRT
 description: Code example for setting a user's online presence status.
-ms.assetid: 7e6e7b69-d7c3-42fa-bcc4-6d68947f6fdb
-ms.date: 04/04/2017
+kindex: Updating a user's Presence via WinRT
+kindex: rich presence
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, rich presence
+ms.assetid: 7e6e7b69-d7c3-42fa-bcc4-6d68947f6fdb
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Updating a user's Presence via WinRT
