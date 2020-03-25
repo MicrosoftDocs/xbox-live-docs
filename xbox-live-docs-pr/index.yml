@@ -147,7 +147,7 @@ landingContent:
           - text: Test accounts
             url: test-release/test-accounts/live-test-accounts-nav.md
           - text: Testing on the Xbox console
-            url: test-release/live-testing-on-console
+            url: test-release/live-testing-on-console.md
           - text: Troubleshooting Xbox Live
             url: test-release/troubleshooting/live-troubleshooting-nav.md
           - text: Services and APIs
