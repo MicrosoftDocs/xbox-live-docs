@@ -1,6 +1,6 @@
 ---
 title: Multiplayer overview
-description: Multiplayer features in Xbox Live include Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
+description: Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
 kindex: Multiplayer overview
 author: v-mihof
 ms.author: v-mihof
@@ -27,10 +27,10 @@ The Xbox Live Multiplayer features are provided as a set of client APIs that you
 
 The major sub-systems in the API suite are:
 
--	The **Xbox Live Multiplayer Session Directory (MPSD)** service. The MPSD service works with integrated UI experiences to facilitate users finding and inviting each other for play. Integration with Xbox Live's services also allows customers to use Xbox Live Party Chat to assemble.
--	**Simple and advanced matchmaking facilities.** Xbox Live provides traditional quickmatch capabilities, but also session browse and support for highly customized matchmaking scenarios. Xbox Live Looking for Group (LFG) also allows players to find each other, rally in Party Chat, and then play your game.
--	**Peer to peer and client-server networking APIs** provide secure real-time communication leveraging modern Internet standards and actively monitored by Xbox Live. Standardization and integration with the Xbox Live network troubleshooting experiences allow users to quickly remediate connectivity issues.  
--	**Integrated voice and text chat solutions** that facilitate safe in-game communication leveraging the Xbox Live social graph, media services, and specialized encoding hardware on Xbox One devices.
+-    The **Xbox Live Multiplayer Session Directory (MPSD)** service. The MPSD service works with integrated UI experiences to facilitate users finding and inviting each other for play. Integration with Xbox Live's services also allows customers to use Xbox Live Party Chat to assemble.
+-    **Simple and advanced matchmaking facilities.** Xbox Live provides traditional quickmatch capabilities, but also session browse and support for highly customized matchmaking scenarios. Xbox Live Looking for Group (LFG) also allows players to find each other, rally in Party Chat, and then play your game.
+-    **Peer to peer and client-server networking APIs** provide secure real-time communication leveraging modern Internet standards and actively monitored by Xbox Live. Standardization and integration with the Xbox Live network troubleshooting experiences allow users to quickly remediate connectivity issues.  
+-    **Integrated voice and text chat solutions** that facilitate safe in-game communication leveraging the Xbox Live social graph, media services, and specialized encoding hardware on Xbox One devices.
 
 For an overview of some of the most common multiplayer scenarios, and which Xbox Live functionality can help implement those scenarios, see [Common multiplayer scenarios](concepts/live-common-multiplayer-scenarios.md).
 
@@ -57,7 +57,7 @@ See [Xbox Integrated Multiplayer (XIM)](xim/live-xim-nav.md).
 
 ### Xbox Multiplayer Manager (MPM)
 
-Xbox Multiplayer Manager (MPM) is a client API that provides flexible access to Xbox Live’s multiplayer session directory, invitation, and matchmaking services.
+Xbox Multiplayer Manager (MPM) is a client API that provides flexible access to Xbox Live's multiplayer session directory, invitation, and matchmaking services.
 
 Multiplayer Manager implements many common multiplayer scenarios in an efficient manner that follows best practices, and also handles many of the Xbox Requirements (XRs) that your game must implement in order to pass certification.
 

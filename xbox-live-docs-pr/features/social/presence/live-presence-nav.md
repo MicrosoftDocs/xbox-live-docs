@@ -1,6 +1,6 @@
 ---
 title: Rich Presence
-description: Rich Presence shows what activity a user is currently doing, in which area of the game.
+description: Shows what activity a user is currently doing, in which area of the game.
 layout: LandingPage
 author: mikehoffms
 ms.author: v-mihof

@@ -30,20 +30,14 @@ landingContent:
         links:
           - text: Xbox Live overview 
             url: get-started/live-xbl-overview.md
-      - linkListType: 
+      - linkListType: how-to-guide
         links:
           - text: Joining a developer program
             url: get-started/join-dev-program/live-join-dev-program-nav.md
-      - linkListType: 
-        links:
           - text: Setting up a game at Partner Center
             url: get-started/setup-partner-center/live-setup-partner-center-nav.md
-      - linkListType: 
-        links:
           - text: Setting up an IDE
             url: get-started/setup-ide/live-setup-ide-nav.md
-      - linkListType: 
-        links:
           - text: Adding basic sign-in code
             url: get-started/add-signin-code/live-add-signin-code-nav.md
   # Card

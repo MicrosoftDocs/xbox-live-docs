@@ -1,13 +1,14 @@
 ---
 title: Reputation
 description: The Reputation service encourages positive gameplay.
+kindex: Reputation
+kindex: social features
 layout: LandingPage
+ms.topic: article
+ms.localizationpriority: medium
 author: mikehoffms
 ms.author: v-mihof
 ms.date: 12/06/2018
-ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, reputation, social features
-ms.localizationpriority: medium
 ---
 
 # Reputation

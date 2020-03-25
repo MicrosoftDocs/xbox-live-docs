@@ -10,95 +10,23 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h1>API Reference</h1>
-
-<ul class="cardsF panelContent cols cols2">
-    <li>
-        <a href="xsapi/live-xsapi-nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_reference.svg" alt="XSAPI Reference"/>
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>XSAPI Reference</h3>
-                            <p>Xbox Services API (XSAPI) reference.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="xal/live-xal-nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_reference.svg" alt="XAL Reference" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>XAL Reference</h3>
-                            <p>Xbox Authentication Library (XAL) reference.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="xasync/live-xasync-nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_reference.svg" alt="XAsync Reference" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>XAsync Reference</h3>
-                            <p>Xbox Asynchronous library (XAsync) reference.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="xbox-live-rest/atoc-xboxlivews-reference.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_reference.svg" alt="REST Reference" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>REST Reference</h3>
-                            <p>Services for managing games and player information.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-</ul>
+# API Reference
 
 
-<h3>See also</h3>
+### In this section
 
-<p>
-  <a href="https://aka.ms/xboxliveuwpdocs">Download XboxLiveAPIs.chm</a>. Contains:
-  <ul>
-    <li>Xbox Live reference for Universal Windows Platform (UWP)</li>
-    <li>Xbox Live reference for Xbox Development Kit (XDK)</li>
-    <li>Xbox Live Services RESTful reference</li>
-  </ul>
-</p>
+| Article | Description |
+|---------|-------------|
+| [XSAPI Reference](xsapi/live-xsapi-nav.md) | Xbox Services API (XSAPI) reference. |
+| [XAL Reference](xal/live-xal-nav.md) | Xbox Authentication Library (XAL) reference. |
+| [XAsync Reference](xasync/live-xasync-nav.md) | Xbox Asynchronous library (XAsync) reference. |
+| [REST Reference](xbox-live-rest/atoc-xboxlivews-reference.md) | Services for managing games and player information. Use the **Xbox.Services** API whenever possible. Use the RESTful interface for newer methods that have not been added to **Xbox.Services** yet. |
+| [Xbox Live Samples](live-samples.md) | Xbox Live API samples and Xbox Developer Kit samples. |
+
+
+### See also
+
+<a href="https://aka.ms/xboxliveuwpdocs" target="_blank">Download XboxLiveAPIs.chm &#11008;</a>. Contains:
+* Xbox Live reference for Universal Windows Platform (UWP)
+* Xbox Live reference for Xbox Development Kit (XDK)
+* Xbox Live Services RESTful reference

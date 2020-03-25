@@ -1,20 +1,18 @@
 ---
 title: Stats & Leaderboards
-description: Stats & Leaderboards.
-layout: LandingPage
+description: How a player has performed and which players have the top stats.
 kindex: Stats & Leaderboards
-author: v-mihof
-ms.author: v-mihof
+layout: LandingPage
 ms.topic: landing-page
-ms.date: 10/29/2019
 ms.prod: xboxlive
 ms.technology: 
 ms.localizationpriority: medium
+author: v-mihof
+ms.author: v-mihof
+ms.date: 10/29/2019
 ---
 
 # Stats & Leaderboards
-
-<!-- todo: change to ms.topic: landing-page, see if there are issues. -->
 
 
 ### In this section

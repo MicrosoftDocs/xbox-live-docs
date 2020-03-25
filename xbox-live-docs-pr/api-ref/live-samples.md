@@ -1,6 +1,6 @@
 ---
 title: Xbox Live samples
-description: There are Xbox Live API samples and Xbox Developer Kit samples.
+description: Xbox Live API samples and Xbox Developer Kit samples.
 ms.assetid: 4bb6fa66-34d1-4db9-87c8-7e24ad5afc0a
 ms.date: 04/04/2017
 ms.topic: article

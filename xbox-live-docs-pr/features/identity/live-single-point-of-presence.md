@@ -1,11 +1,12 @@
 ---
 title: Single Point of Presence (SPOP)
-description: Using Xbox Live Single Point of Presence (SPOP) to ensure that a title is played on only a single device at a time.
-ms.assetid: 40f19319-9ccc-4d35-85eb-4749c2cf5ef8
-ms.date: 04/04/2017
+description: Ensures that a title is played on only a single device at a time.
+kindex: Single Point of Presence (SPOP)
+kindex: SPOP
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, spop, single point of presence
+ms.assetid: 40f19319-9ccc-4d35-85eb-4749c2cf5ef8
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Single Point of Presence (SPOP)
