@@ -1,11 +1,14 @@
 ---
 title: Setting up Visual Studio targeting Windows 10
 description: Setting up Visual Studio to use the Xbox Live SDK.
-ms.assetid: 6952dac0-66ff-4717-b3c7-8b3792e834e3
-ms.date: 11/28/2017
+kindex: Setting up Visual Studio targeting Windows 10
+kindex: Windows 10
+kindex: Creators
+kindex: Visual Studio
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, xbox live creators, visual studio
+ms.assetid: 6952dac0-66ff-4717-b3c7-8b3792e834e3
 ms.localizationpriority: medium
+ms.date: 11/28/2017
 ---
 
 # Setting up Visual Studio targeting Windows 10
@@ -82,7 +85,7 @@ If you do not already have an existing UWP project, you can create one by doing 
 ### 2. Add references to the Xbox Live API (XSAPI) in your project
 
 The Xbox Services API comes in flavors for C++ and WinRT and have their naming structured as **Microsoft.Xbox.Live.SDK.*.UWP**.
-You can read more about running UWP on Xbox One (or later) at <a href="https://docs.microsoft.com/windows/uwp/xbox-apps/getting-started" target="_blank">Getting started with UWP app development on Xbox One &#11008;</a>.
+You can read more about running UWP on Xbox One (or later) at <a href="https://docs.microsoft.com/windows/uwp/xbox-apps/getting-started" target="_blank">Getting started with UWP app development on Xbox One &#11008;</a> (external link to UWP documentation).
 
 The C++ SDK can be used for C++ game engines, where as the  WinRT SDK is for game engines written with C++, C#, or JavaScript.
 When using WinRT with a C++ engine, you would use C++/CX which uses hats (^).

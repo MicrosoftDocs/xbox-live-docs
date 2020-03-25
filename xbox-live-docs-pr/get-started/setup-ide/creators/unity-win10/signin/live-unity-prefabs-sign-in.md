@@ -1,9 +1,10 @@
 ---
 title: Sign-in in Unity through prefabs or scripting (pre-1804 release)
 description: Unity prefabs and Scripted Sign-In examples for Social services on Xbox Live.
-ms.date: 01/24/2018
+kindex: Sign-in in Unity through prefabs or scripting (pre-1804 release)
+kindex: Unity sign-in
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity
+ms.date: 01/24/2018
 ---
 
 # Sign-in in Unity through prefabs or scripting (pre-1804 release)
@@ -68,7 +69,7 @@ The **UserProfile** prefab contains both:
 ![UserProfile prefab in assets and hierarchy](live-unity-prefabs-sign-in-images/unity-userprofile-views.png)
 
 The **UserProfile** prefab is what you will use to represent the information of any Xbox Live user signed-in locally to your title.
-If you expand the **UserProfile** prefab in the **Project** panel or in the **hierarchy** after it’s been added to a scene, you’ll see that the **UserProfile** prefab contains two GameObjects inside of it:
+If you expand the **UserProfile** prefab in the **Project** panel or in the **hierarchy** after it's been added to a scene, you'll see that the **UserProfile** prefab contains two GameObjects inside of it:
 * The **SignInPanel**, which contains the sign-in button experience.
 * The **ProfileInfo**, which will contain the information about the user once they sign in.
 
