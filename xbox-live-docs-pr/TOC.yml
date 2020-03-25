@@ -1,5 +1,5 @@
 - name: Xbox Live
-  href: index.md
+  href: index.yml
   items:
     - name: Getting Started
       href: get-started/live-getstarted-nav.md
