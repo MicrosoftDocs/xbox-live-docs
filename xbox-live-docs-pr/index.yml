@@ -4,145 +4,189 @@ title: Xbox Live documentation # < 60 chars
 summary: Xbox Live is a premier gaming network that connects millions of gamers across the world. # < 160 chars
 
 metadata:
-  title: title # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: description # Required; article description that is displayed in search results. < 160 chars.
-  ms.service: service #Required; service per approved list. service slug assigned to your service by ACOM.
-  ms.subservice: subservice # Optional; Remove if no subservice is used.
+  title: Xbox Live documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Xbox Live is a premier gaming network that connects millions of gamers across the world. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: gaming #Required; service per approved list. service slug assigned to your service by ACOM.
+  # ms.subservice: subservice # Optional; Remove if no subservice is used.
   ms.topic: landing-page # Required
-  ms.collection: collection # Optional; Remove if no collection is used.
-  author: githubauthor #Required; your GitHub user alias, with correct capitalization.
-  ms.author: msauthor #Required; microsoft alias of author; optional team alias.
-  ms.date: 01/27/2020 #Required; mm/dd/yyyy format.
+  # ms.collection: collection # Optional; Remove if no collection is used.
+  author: mlamaute #Required; your GitHub user alias, with correct capitalization.
+  ms.author: mlamaute #Required; microsoft alias of author; optional team alias.
+  ms.date: 03/25/2020 #Required; mm/dd/yyyy format.
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 
 landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
-
-
-Planning:
-Notable Children and Grandchildren
-
-
-card: Getting Started
-card section infotype: 
-link: 
-link: 
-card section infotype: 
-link: 
-link: 
-
-card: Identity features (1st link is the nav page)
-card section infotype: 
-link: 
-link: 
-card section infotype: 
-link: 
-link: 
-
-card: Data features (1st link is the nav page)
-card section infotype: 
-link: 
-link: 
-card section infotype: 
-link: 
-link: 
-
-card: Social features (1st link is the nav page)
-card section infotype: 
-link: 
-link: 
-card section infotype: 
-link: 
-link: 
-
-card: Multiplayer features (1st link is the nav page)
-card section infotype: 
-link: 
-link: 
-card section infotype: 
-link: 
-link: 
-
-card: Cloud Storage features (1st link is the nav page)
-card section infotype: 
-link: 
-link: 
-card section infotype: 
-link: 
-link: 
-
-card: Custom services features (1st link is the nav page)
-card section infotype: 
-link: 
-link: 
-card section infotype: 
-link: 
-link: 
-
-card: Testing and Releasing
-card section infotype: 
-link: 
-link: 
-card section infotype: 
-link: 
-link: 
-
-card: Policies and XRs
-card section infotype: 
-link: 
-link: 
-card section infotype: 
-link: 
-link: 
-
-card: API Reference
-card section infotype: 
-link: 
-link: 
-card section infotype: 
-link: 
-link: 
-
-
   # Card
   - title: Getting Started
     linkLists:
       - linkListType: get-started
         links:
-          - text: Getting Started - Join a developer program, create a game at Partner Center, add the Xbox Live SDK to your IDE, and write basic sign-in code.
+          - text: Getting Started nav page
             url: get-started/live-getstarted-nav.md
-
+      - linkListType: overview
+        links:
+          - text: Xbox Live overview 
+            url: get-started/live-xbl-overview.md
+      - linkListType: 
+        links:
+          - text: Joining a developer program
+            url: get-started/join-dev-program/live-join-dev-program-nav.md
+      - linkListType: 
+        links:
+          - text: Setting up a game at Partner Center
+            url: get-started/setup-partner-center/live-setup-partner-center-nav.md
+      - linkListType: 
+        links:
+          - text: Setting up an IDE
+            url: get-started/setup-ide/live-setup-ide-nav.md
+      - linkListType: 
+        links:
+          - text: Adding basic sign-in code
+            url: get-started/add-signin-code/live-add-signin-code-nav.md
   # Card
   - title: Identity
     linkLists:
       - linkListType: concept
         links:
-          - text: Identity
-            url: features/live-features-nav.md
-
-
+          - text: Authentication and sign-in 
+            url: features/identity/auth/live-authentication-nav.md
+          - text: Single Point of Presence (SPOP)
+            url: features/identity/live-single-point-of-presence.md
+          - text: User Privileges
+            url: features/identity/privileges/live-privileges-nav.md
   # Card
-  - title: Testing and Releasing
+  - title: Player Data
     linkLists:
-      - linkListType: deploy
+      - linkListType: overview
         links:
-          - text: Testing and Releasing
-            url: test-release/live-test-release-nav.md
-
+          - text: Player Data overview
+            url: features/player-data/live-playerdata-overview.md
+      - linkListType: concept
+        links:
+          - text: Stats & Leaderboards
+            url: features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md
+          - text: Achievements
+            url: features/player-data/achievements/live-achievements-nav.md
   # Card
-  - title: Policies and XRs
+  - title: Social
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Overview of Social features
+            url: features/social/live-social-overview.md
+      - linkListType: concept
+        links:
+          - text: Social Manager
+            url: features/social/social-manager/live-social-manager-nav.md
+          - text: People System (Friends List) nav page
+            url: features/social/people-system/live-people-system-nav.md
+          - text: Rich Presence
+            url: features/social/presence/live-presence-nav.md
+          - text: Localized strings
+            url: features/social/localized-strings/live-localized-strings-nav.md
+          - text: Reputation
+            url: features/social/reputation/live-reputation-nav.md
+  # Card
+  - title: Multiplayer
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Multiplayer overview
+            url: features/multiplayer/live-multiplayer-intro.md
+      - linkListType: concept
+        links:
+          - text: Xbox Integrated Multiplayer (XIM)
+            url: features/multiplayer/xim/live-xim-nav.md
+          - text: Multiplayer Manager (MPM)
+            url: features/multiplayer/mpm/live-multiplayer-manager-nav.md
+          - text: Multiplayer Session Directory (MPSD)
+            url: features/multiplayer/mpsd/live-mpsd-nav.md
+          - text: Invites
+            url: features/multiplayer/invites/live-invites-nav.md
+          - text: SmartMatch Matchmaking
+            url: features/multiplayer/matchmaking/live-matchmaking-nav.md
+          - text: Game Chat
+            url: features/multiplayer/chat/live-chat-nav.md
+  # Card
+  - title: Cloud Storage
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Connected Storage vs. Title Storage
+            url: features/cloud-storage/live-connected-storage-vs-title-storage.md
     linkLists:
       - linkListType: concept
         links:
-          - text: Policies and XRs
+          - text: Connected Storage
+            url: features/cloud-storage/connected-storage/live-connected-storage-nav.md
+          - text: Title Storage
+            url: features/cloud-storage/title-storage/live-title-storage-nav.md
+  # Card
+  - title: Custom services
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Access policies
+            url: features/custom-services/access-policies/live-access-policies-nav.md
+          - text: Single sign-on
+            url: features/custom-services/single-sign-on/live-single-sign-on-nav.md
+          - text: Web services
+            url: features/custom-services/web-services/live-web-services-nav.md
+          - text: Relying parties
+            url: features/custom-services/relying-parties/live-relying-parties-nav.md
+  # Card
+  - title: Testing and Releasing
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Testing and Releasing nav page
+            url: test-release/live-test-release-nav.md
+      - linkListType: deploy
+        links:
+          - text: Configuring Xbox Live services
+            url: test-release/portal-config/live-portal-config-nav.md
+          - text: Sandboxes
+            url: test-release/sandboxes/live-sandboxes-nav.md
+          - text: Test accounts
+            url: test-release/test-accounts/live-test-accounts-nav.md
+          - text: Testing on the Xbox console
+            url: test-release/live-testing-on-console
+          - text: Troubleshooting Xbox Live
+            url: test-release/troubleshooting/live-troubleshooting-nav.md
+          - text: Services and APIs
+            url: test-release/services-tools/live-services-tools-nav.md
+          - text: Tools
+            url: test-release/services-tools/live-services-tools-nav.md
+  # Card
+  - title: Policies and XRs
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Policies and XRs nav page
             url: policies/live-policies-nav.md
-
+      - linkListType: concept
+        links:
+          - text: Policies and XRs for PC nav page
+            url: policies/pc/live-policies-pc-nav.md
   # Card
   - title: API Reference
     linkLists:
+      - linkListType: overview
+        links:
+          - text: API Reference nav page
+            url: api-ref/live-api-reference-nav.md
       - linkListType: reference
         links:
-          - text: API Reference
-            url: api-ref/live-api-reference-nav.md
+          - text: XSAPI Reference
+            url: api-ref/xsapi/live-xsapi-nav.md
+          - text: XAL Reference
+            url: api-ref/xal/live-xal-nav.md
+          - text: XAsync Reference
+            url: api-ref/xasync/live-xasync-nav.md
+          - text: REST Reference
+            url: api-ref/xbox-live-rest/atoc-xboxlivews-reference.md
+          - text: Xbox Live samples
+            url: api-ref/live-samples.md
