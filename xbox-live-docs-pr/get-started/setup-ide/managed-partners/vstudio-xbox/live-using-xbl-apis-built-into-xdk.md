@@ -1,11 +1,11 @@
 ---
 title: Using Xbox Live APIs built into the XDK
 description: Using the built-in Xbox Live APIs in your Xbox Developer Kit (XDK) project.
+kindex: Using Xbox Live APIs built into the XDK
 ms.assetid: 539caca3-58bc-49d9-8432-ca8e57755be2
-ms.date: 04/04/2017
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Using Xbox Live APIs built into the XDK

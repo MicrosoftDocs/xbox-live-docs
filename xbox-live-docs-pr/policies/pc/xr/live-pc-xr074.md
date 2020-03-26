@@ -1,8 +1,9 @@
 ---
 title: "XR-074: Loss of Connectivity to Xbox and Partner Services &diams;"
 description: Titles must resolve errors with Xbox Live and partner services connectivity.
+kindex: "XR-074: Loss of Connectivity to Xbox and Partner Services &diams;"
+kindex: policies
 ms.topic: article
-keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
 ms.date: 03/18/2019
 ---
@@ -21,14 +22,14 @@ Titles encountering issues with partner services such as non-transient timeouts,
 
 An example of a user-friendly message is:
 
->“Sorry, _non-Microsoft service_ is not currently available. Please try again later. For more information, contact _non-Microsoft support contact information_.”
+>"Sorry, _non-Microsoft service_ is not currently available. Please try again later. For more information, contact _non-Microsoft support contact information_."
 
 
 ### Handling Issues With Xbox Live Services
 
 Some functionality might become unavailable if connectivity to an Xbox service is lost. In such instances, titles should use clear, user-friendly messaging to communicate this to users.
 
-If a service is unavailable, titles are permitted to retry their request, but they can do so only within the parameters allowed by Xbox Live. For more information about service resiliency for Xbox One titles, including required HTTP retry and back-off logic, as well as user-interaction guidance for individual services, see Service Interruption Resiliency for Titles.
+If a service is unavailable, titles are permitted to retry their request, but they can do so only within the parameters allowed by Xbox Live. For more information about service resiliency for Xbox One (or later) titles, including required HTTP retry and back-off logic, as well as user-interaction guidance for individual services, see Service Interruption Resiliency for Titles.
 
 
 ## Recommended Test Cases

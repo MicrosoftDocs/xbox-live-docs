@@ -11,7 +11,7 @@ ms.date: 03/18/2019
 
 Version 1.0
 
-The Xbox One Required Terminology List provides developers and publishers with the official terminology required of their games when using Xbox Live in their mobile or PC game.
+The Xbox Live Required Terminology List provides developers and publishers with the official terminology required of their games when using Xbox Live in their mobile or PC game.
 
 | Term (U.S. English) | Description | Usage notes |
 |---|---|---|

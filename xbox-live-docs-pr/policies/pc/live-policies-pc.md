@@ -2,11 +2,12 @@
 title: Xbox Live Integration Policies for PC and Mobile Devices
 description: Policies for adding Xbox Live to a PC or mobile game.
 kindex: Xbox Live Integration Policies for PC and Mobile Devices
+kindex: policies
 ms.topic: article
-keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
 ms.date: 10/01/2019
 ---
+
 # Xbox Live Integration Policies for PC and Mobile Devices
 
 Version 2.0
@@ -14,11 +15,11 @@ Version 2.0
 
 ## Introduction
 
-The following policies apply when Xbox Live is integrated into a mobile, PC, or console device other than Xbox One.
+The following policies apply when Xbox Live is integrated into a mobile, PC, or console device other than the Xbox One (or later) console.
 
->If your game is targeting Xbox One, please visit [Xbox Requirements](https://developer.microsoft.com/games/xbox/partner/certification-requirements) for the Xbox Live and Xbox Policies which apply on that platform. If you have trouble accessing that page, please contact your Microsoft representative. Interested in bringing your PC/Mobile game to Xbox One? Visit the [ID@Xbox program](https://www.xbox.com/Developers/id) for more information on how to apply.
+>If your game is targeting Xbox One (or later), see [Xbox Requirements](https://developer.microsoft.com/games/xbox/partner/certification-requirements) for the Xbox Live and Xbox Policies which apply on that platform. If you have trouble accessing that page, please contact your Microsoft representative. Interested in bringing your PC/Mobile game to Xbox One (or later) console? Visit the [ID@Xbox program](https://www.xbox.com/Developers/id) for more information on how to apply.
 >
->For developers in the Xbox Live Creators Program, visit the[ Microsoft Store Policies](https://docs.microsoft.com/legal/windows/agreements/store-policies) for all policies relating to the submission of your game to the Store across all Microsoft Devices (PC, Xbox One, Hololens, etc). Note that there are additional requirements for apps that are primarily gaming experiences or target Xbox One, detailed in the section titled Gaming and Xbox. Xbox Live on devices not supported by the Microsoft Store is not available to the Creators Program at this time. Visit the [Xbox Live Creators Program](https://www.xbox.com/developers/creators-program/) for information on getting started.
+>For developers in the Xbox Live Creators Program, visit the[ Microsoft Store Policies](https://docs.microsoft.com/legal/windows/agreements/store-policies) for all policies relating to the submission of your game to the Store across all Microsoft Devices (PC, Xbox One or later, Hololens, etc). Note that there are additional requirements for apps that are primarily gaming experiences or target the Xbox One (or later) console, detailed in the section titled "Gaming and Xbox". Xbox Live on devices not supported by the Microsoft Store is not available to the Creators Program at this time. Visit the [Xbox Live Creators Program](https://www.xbox.com/developers/creators-program/) for information on getting started.
 >
 Adherence to these integration policies will ensure successful deployment of Xbox Live in your game and consistent implementation across the gaming ecosystem. Failure to adhere to these policies may result in revocation of access to the Xbox Live service by your title.
 
@@ -32,12 +33,12 @@ For PC games submitted to the Microsoft Store which have Xbox Live, there will b
 
 ## Policy enforcement process
 
-You are free to release and update your Xbox Live integrated game on any store or platform, outside of the Xbox One console, without any additional certification testing, except for those required by the store or platform on which your game will be published and released. Microsoft will monitor released games via the following mechanisms:
+You are free to release and update your Xbox Live integrated game on any store or platform, outside of the Xbox One (or later) console, without any additional certification testing, except for those required by the store or platform on which your game will be published and released. Microsoft will monitor released games via the following mechanisms:
 1. Customer complaints regarding game functionality.
 2. Spot-check review of select games, including the most popular titles.
 3. Alerts and/or warnings we find in our back-end services.
 
-If your game is found to not adhere to these policies, we will inform you and provide a reasonable timeline to fix based on severity, as determined by Microsoft. Other than in exceptional circumstances, if the issue is not resolved within the requested timeframe we may revoke the game’s ability to sign into Xbox Live services until the issue is resolved.
+If your game is found to not adhere to these policies, we will inform you and provide a reasonable timeline to fix based on severity, as determined by Microsoft. Other than in exceptional circumstances, if the issue is not resolved within the requested timeframe we may revoke the game's ability to sign into Xbox Live services until the issue is resolved.
 
 For information on how to test your title's adherence to these policies, see [Xbox Live Integration Test Cases For PC and Mobile Devices](live-policy-tests-pc.md).
 
@@ -49,7 +50,7 @@ In order to keep Xbox Live running as a high quality service that respects the p
 
 ### Player Data and Privacy
 
-Xbox Live Services will provide you with limited user data in order for you to deliver your game to players.  This user data includes account identifiers like a userid (XUID) and gamertag, connections with other players, and data about a player’s activities in your game, including usage data, statistics, scores, ratings rankings, and social activity.
+Xbox Live Services will provide you with limited user data in order for you to deliver your game to players.  This user data includes account identifiers like a userid (XUID) and gamertag, connections with other players, and data about a player's activities in your game, including usage data, statistics, scores, ratings rankings, and social activity.
 
 You are an independent controller of such data and must have a privacy statement (or policy) in place with end users governing your use of personal data, as required by the [Application Developer Agreement](https://docs.microsoft.com/legal/windows/agreements/app-developer-agreement). We recommend you include a link to your privacy statement from within your game, on your website, and from the detail page of any store in which you make your game available for download.
 
@@ -57,7 +58,7 @@ Notwithstanding the foregoing, the following rules apply to personal data provid
 
 * Such data may only be used to deliver your game to players.  
 
-* You may not sell, license, or share the data with any third party.  Social graph data (e.g., friends’ lists) may not be stored, except for the account identifiers of those friends who have linked their own Xbox Live accounts with your game. Delete all account identifiers, when you remove your game from our service, or when a user delinks their Xbox Live account from your game.  
+* You may not sell, license, or share the data with any third party.  Social graph data (e.g., friends' lists) may not be stored, except for the account identifiers of those friends who have linked their own Xbox Live accounts with your game. Delete all account identifiers, when you remove your game from our service, or when a user delinks their Xbox Live account from your game.  
 
 * Do not share services or user data (even if anonymous, aggregate, or derived data) to any ad network, data broker or other advertising or monetization-related service.
 
@@ -66,14 +67,14 @@ Notwithstanding the foregoing, the following rules apply to personal data provid
 
 ### Official Naming Standards (XR-022)
 
-Titles must use the naming standards defined in the latest release of the [Xbox Live required terminology list](live-certification-terminology-pc.md) for Xbox Live features. On Xbox One, titles must not refer to components of the console system or components of peripherals using terms that are not specifically included in the terminology list.
+Titles must use the naming standards defined in the latest release of the [Xbox Live required terminology list](live-certification-terminology-pc.md) for Xbox Live features. On Xbox One (or later), titles must not refer to components of the console system or components of peripherals using terms that are not specifically included in the terminology list.
 
 
 ### Display Name and Gamerpic (XR-046)
 
-On Xbox One, titles must use the Gamertag function to display the user's gamertag as their primary display name. 
+On Xbox One (or later), titles must use the Gamertag function to display the user's gamertag as their primary display name. 
 
-On non console platforms, while not required, we recommend you use the Xbox Live player’s gamertag in the appropriate locations within the game title’s experience. 
+On non console platforms, while not required, we recommend you use the Xbox Live player's gamertag in the appropriate locations within the game title's experience. 
 
 If titles show the user's gamerpic, the corresponding GameDisplayPic function must be used. These items are returned by the get_user_profile or GetUserProfileAsync Xbox Live APIs. When the gamertag is displayed, all 15 characters of any gamertag must be displayed correctly. Gamertags can include only ASCII characters a--z, A--Z, 0--9, comma (,), and space (ASCII character 0x20).
 
@@ -101,9 +102,9 @@ Titles which exceed [title and user based limits ](https://docs.microsoft.com/wi
 
 ### [Linking Microsoft Accounts with Publisher Accounts (XR-013)](xr/live-pc-xr013.md)
 
-On Xbox One, titles that use partner-hosted services or accounts that require credentials must link that account with the user’s Microsoft account.  
+On Xbox One (or later), titles that use partner-hosted services or accounts that require credentials must link that account with the user's Microsoft account.  
 
-Outside of Xbox One, titles can choose to allow account linking to support their game experience.  
+Outside of Xbox One (or later), titles can choose to allow account linking to support their game experience.  
 
 If account linking is enabled within the title, the following rules apply:
 * Users must be notified of the account linking and given the choice to opt-out.
@@ -124,8 +125,8 @@ Xbox Live promises users a certain level of privacy and online safety for themse
 |Playing in a cross network game play session|185|AuthPrivileges.CrossNetworkPlay|Allows a user to participate in a gameplay session with other real-world players who are not signed into Xbox Live in scenarios such as: Synchronous player-vs-player gameplay in the same session, asynchronous turn-based gameplay, Team-based gameplay, User-initiated matchmaking, Sending or accepting invitations, Join-in-progress sessions.|
 |Communication with anyone |252|XPRIVILEGE_COMMUNICATIONS|Allows a user to communicate with any other Xbox Live users through voice or text. |
 |Shared gaming sessions|189|XPRIVILEGE_SESSIONS|Allows a user to participate in connected single-player experiences in shared environments. These experiences must not have any features covered under privilege 252 or 254 (Communications and Multiplayer, respectively). Use of this privilege is a title capability that requires platform approval.|
-|User-generated content (UGC)|247|XPRIVILEGE_USER_CREATED_CONTENT|Allows a user to see other users’ UGC online, download other users’ UGC, or share their own UGC online. This does not restrict usage of previously downloaded UGC. |
-|Sharing to a social network|220|XPRIVILEGE_SOCIAL_NETWORK_SHARING|Xbox One Only: Allows a user to share information, including game progress, Kinect-generated content, game clips, and so on outside of Xbox Live.|
+|User-generated content (UGC)|247|XPRIVILEGE_USER_CREATED_CONTENT|Allows a user to see other users' UGC online, download other users' UGC, or share their own UGC online. This does not restrict usage of previously downloaded UGC. |
+|Sharing to a social network|220|XPRIVILEGE_SOCIAL_NETWORK_SHARING|Xbox One (or later) Only: Allows a user to share information, including game progress, Kinect-generated content, game clips, and so on outside of Xbox Live.|
 
 
 ### [Managing Player Communication (XR-015)](xr/live-pc-xr015.md)
@@ -143,7 +144,7 @@ During the gameplay session, titles which offer communication between Xbox Live 
 
 ## Achievements and awards
 
-The following requirements apply to titles that offer achievements, and awards on Xbox Live.  All games targeting Xbox One are required to have Achievements and meet the following requirements. Demos are not allowed to have achievements; however, they have the option of supporting Hero Stats.
+The following requirements apply to titles that offer achievements, and awards on Xbox Live.  All games targeting Xbox One (or later) are required to have Achievements and meet the following requirements. Demos are not allowed to have achievements; however, they have the option of supporting Hero Stats.
 
 
 ### Achievements and Gamerscore (XR-055)
@@ -158,7 +159,7 @@ Minimum achievements | 10 | 0 | 10
 Maximum achievements | 100 | 100 | 500
 Gamerscore | 1000 | 1000 | 5000
 
-Note: “Semi-annual” means January–June, July–December.
+Note: "Semi-annual" means January–June, July–December.
 
 
 ### No Additional Purchases Required for Base Achievements (XR-057)

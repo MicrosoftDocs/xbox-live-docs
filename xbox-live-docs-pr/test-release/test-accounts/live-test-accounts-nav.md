@@ -1,11 +1,11 @@
 ---
-layout: LandingPage
 title: Test accounts
 description: Creating accounts for testing your Xbox Live-enabled game during development.
-ms.date: 01/24/2019
+kindex: Test accounts
+layout: LandingPage
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, test account
 ms.localizationpriority: medium
+ms.date: 01/24/2019
 ---
 
 # Test accounts

@@ -1,10 +1,11 @@
 ---
 title: Porting Xbox Live code from XDK to UWP
 description: Porting Xbox Live code from the Xbox Development Kit (XDK) platform to the Universal Windows Platform (UWP).
+kindex: Porting Xbox Live code from XDK to UWP
+kindex: XDK, porting
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, xdk, porting
-ms.localizationpriority: medium
 ms.assetid: 69939f95-44ad-4ffd-851f-59b0745907c8
+ms.localizationpriority: medium
 ms.date: 04/04/2017
 ---
 
@@ -12,7 +13,8 @@ ms.date: 04/04/2017
 
 If you have a title that was developed using the Xbox One Xbox Developer Kit (XDK), you can migrate the title's Xbox Live code to the Windows 10 Universal Windows Platform (UWP).
 
-Part of this migration includes switching from XSAPI 1.0 (Xbox Live Services API, included in the Xbox One XDK through August 2015) to XSAPI 2.0 (included in the Xbox One XDK starting in November 2015, and also available in the Xbox Live SDK.
+Part of this migration includes switching from XSAPI 1.0 (Xbox Live Services API, included in the Xbox One XDK through August 2015) to XSAPI 2.0 (included in the Xbox One XDK starting in November 2015, and also available in the Xbox Live SDK).
+
 The functionality of these APIs are virtually identical, but there are some important implementation differences.
 
 This article also covers:
@@ -42,9 +44,12 @@ All Windows 10 titles that use Xbox Live multiplayer and write to an MPSD (multi
 
 ### Enabling cross-play
 
-If you will support "cross-play" (a shared Xbox Live configuration between Xbox One and PC games, allowing cross-device multiplayer gaming), you will also need to add this capability to your session templates: **crossPlay: true**.
+_Cross-play_ is an Xbox Live configuration that is shared between Xbox One (or later) consoles and PC games, enabling cross-device multiplayer gaming.
+
+If your title will support "cross-play", you also need to add this capability to your session templates: **crossPlay: true**.
 
 For additional information about supporting cross-play and its configuration requirements, see the Xbox Live Programming Guide (a .chm file containing conceptual content).
+<!-- XboxLiveSDK.chm -->
 
 Also, for some programmatic considerations, see the later section [Supporting multiplayer cross-play between Xbox One and PC](#_Supporting_multiplayer_cross-play).
 
@@ -216,7 +221,7 @@ Following is a very high level list of sections of code that will likely have di
 
 -   Checking multiplayer privileges
 
--   Supporting multiplayer cross-play between Xbox One and PC
+-   Supporting multiplayer cross-play between Xbox One (or later) and PC
 
 -   Sending game invites
 
@@ -266,9 +271,9 @@ For more information, see the MSDN article [Handle app prelaunch](https://msdn.m
 
 ### Suspend/resume PLM handling
 
-Suspend and resume, and PLM in general, work similarly in a Universal Windows app to the way they work on Xbox One; however, there are a few important differences to keep in mind:
+Suspend and resume, and PLM in general, work similarly in a Universal Windows app to the way they work on Xbox One (or later) consoles; however, there are a few important differences to keep in mind:
 
--   There is no **Constrained** state on the PC—this is an Xbox One exclusive concept.
+-   There is no **Constrained** state on the PC; this is an Xbox One (or later) exclusive concept.
 
 -   Suspending begins immediately when the title is minimized; for a way around this, see the section [Extended execution](#_Extended_execution).
 
@@ -417,7 +422,7 @@ See the forum post [xsapi & user privileges](https://forums.xboxlive.com/questio
 
 <a name="_Supporting_multiplayer_cross-play"></a>
 
-### Supporting multiplayer cross-play between Xbox One and PC UWP
+### Supporting multiplayer cross-play between Xbox and PC UWP
 
 In addition to new session template requirements in Partner Center (see [Setting up and configuring your project in Partner Center](#_Setting_up_and)), cross-play comes with new restrictions on session join ability.
 You can no longer use "None" as a session join restriction.
@@ -473,10 +478,12 @@ See this forum post for API usage: [Setting up SecureDeviceAssociation for cross
 
 **Note** For UWP, the **SocketDescriptions** section has moved out of the appxmanifest and into its own [networkmanifest.xml](https://forums.xboxlive.com/storage/attachments/410-networkmanifestxml.txt). The format inside the &lt;SocketDescriptions&gt; element is virtually identical, just without the **mx:** prefix.
 
-For cross-play between Xbox and Windows 10, be *sure* that everything is defined *identically* between the two different kinds of manifests (Package.appxmanifest for Xbox One and networkmanifest.xml for Windows 10).
+For cross-play between Xbox and Windows 10, be *sure* that everything is defined *identically* between the two different kinds of manifests:
+*  `Package.appxmanifest` for Xbox One or later
+* `networkmanifest.xml` for Windows 10
 The socket name, protocol, etc. must match *exactly*.
 
-Also for cross-play, you will need to define the following four SDA usages inside the ```<AllowedUsages>``` element in *both* the Xbox One Package.appxmanifest and the Windows 10 networkmanifest.xml:
+Also for cross-play, you will need to define the following four SDA usages inside the ```<AllowedUsages>``` element in *both* the Xbox One `Package.appxmanifest` and the Windows 10 `networkmanifest.xml`:
 
 ```xml
 <SecureDeviceAssociationUsage Type="InitiateFromMicrosoftConsole" />
@@ -600,7 +607,7 @@ A few differences in the API include:
 The Connected Storage API is provided in the separate [Xbox Live Platform Extensions SDK](https://developer.xboxlive.com/en-us/live/development/Pages/Downloads.aspx).
 Documentation is included in the Xbox Live SDK docs.
 
-The overall flow is the same as on Xbox One, with the addition of the **ContainersChangedSinceLastSync** property in the UWP version.
+The overall flow is the same as on Xbox One (or later) consoles, with the addition of the **ContainersChangedSinceLastSync** property in the UWP version.
 This property should be checked when your title handles a resume event, after calling **GetForUserAsync()** again, to see what containers changed in the cloud while your title was suspended.
 
 If you have data loaded in memory from one of the containers that changed, you probably want to read in the data again to see what changed and handle the changes accordingly.
@@ -637,7 +644,7 @@ Refer to the GameSave sample or the NetRumble sample for example usage.
 The API changes and new requirements outlined in this white paper are ones that you are likely to encounter when porting existing game code from the Xbox One XDK to the new UWP.
 Particular emphasis has been given to application and environment setup, as well as feature areas related to Xbox Live services, such as multiplayer and connected storage.
 
-For more information, follow the links provided throughout this article and in the following references, and be sure to visit the “Windows 10” section of the [developer forums](https://forums.xboxlive.com) for more help, answers, and news.
+For more information, follow the links provided throughout this article and in the following references, and be sure to visit the "Windows 10" section of the [developer forums](https://forums.xboxlive.com) for more help, answers, and news.
 
 
 ## See also

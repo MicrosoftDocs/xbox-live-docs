@@ -1,17 +1,18 @@
 ---
 title: "XR-013: Linking Microsoft Accounts with Publisher Accounts"
-description: On Xbox One, titles that use partner-hosted services or accounts that require credentials must link that account with the user’s Microsoft account.
+description: On Xbox One, titles that use partner-hosted services or accounts that require credentials must link that account with the user's Microsoft account.
+kindex: "XR-013: Linking Microsoft Accounts with Publisher Accounts"
+kindex: policies
 ms.topic: article
-keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
 ms.date: 03/18/2019
 ---
 
 # XR-013: Linking Microsoft Accounts with Publisher Accounts
 
-On Xbox One, titles that use partner-hosted services or accounts that require credentials must link that account with the user’s Microsoft account.  
+On Xbox One (or later) consoles, titles that use partner-hosted services or accounts that require credentials must link that account with the user's Microsoft account.  
 
-Outside of Xbox One, titles can choose to allow account linking to support their game experience.  
+Outside of Xbox One (or later), titles can choose to allow account linking to support their game experience.  
 
 If account linking is enabled within the title, the following rules apply:
 
@@ -36,7 +37,7 @@ Titles performing account linking or account creation on the console must follow
 
 ### Accommodate all users
 
-Titles must accommodate account linking for all users if a linked account is required for gameplay. Publishers are responsible for ensuring the link to their service is handled in a manner that is compliant with the Children’s Online Privacy Protection Act (COPPA) for titles shipping in the US.
+Titles must accommodate account linking for all users if a linked account is required for gameplay. Publishers are responsible for ensuring the link to their service is handled in a manner that is compliant with the Children's Online Privacy Protection Act (COPPA) for titles shipping in the US.
 
 
 ### Unlinking

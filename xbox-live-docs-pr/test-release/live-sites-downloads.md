@@ -1,10 +1,14 @@
 ---
 title: Xbox Live resources, sites, and downloads
 description: Download resources for Xbox Live development, such as tools and API Reference.
-ms.date: 09/12/2017
+kindex: Xbox Live resources, sites, and downloads
+kindex: resources, Xbox Live
+kindex: websites, Xbox Live
+kindex: tools
+kindex: WinRT
 ms.topic: article
-keywords: windows 10, uwp, games, xbox, xbox live, resources, API, reference, tools, winrt
 ms.localizationpriority: medium
+ms.date: 09/12/2017
 ---
 
 # Xbox Live resources, sites, and downloads

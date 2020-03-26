@@ -2,9 +2,9 @@
 title: Testing on the Xbox console
 description: Testing Xbox Live services on the Xbox console.
 kindex: Testing on the Xbox console
-ms.date: 08/15/2018
 ms.topic: article
 ms.localizationpriority: low
+ms.date: 08/15/2018
 ---
 
 # Testing on the Xbox console
@@ -12,7 +12,7 @@ ms.localizationpriority: low
 When developing your title for the Xbox family of consoles, you should test your title and Xbox Live features on an actual console.
 There are a few options for testing your title on hardware:
 
-* You can use any retail Xbox One console or a later Xbox console, to test a Universal Windows Platform (UWP) title or app by activating the console's developer mode. This option is accessible to all developers and is the only option for Xbox Live Creators Program Developers.
+* You can use any retail Xbox One (or later) console or a later Xbox console, to test a Universal Windows Platform (UWP) title or app by activating the console's developer mode. This option is accessible to all developers and is the only option for Xbox Live Creators Program Developers.
 
 * Managed Partners can also order and use an Xbox Development Kit.
 

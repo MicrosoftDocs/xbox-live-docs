@@ -1,12 +1,17 @@
 ---
 title: Development tools for Xbox Live
 description: Tools to help develop and test an Xbox Live-enabled title.
+kindex: Development tools for Xbox Live
+kindex: tools
+kindex: player reset
+kindex: Live Trace Analyzer
+kindex: LTA
+kindex: Xbox Live Account Tool
+ms.topic: article
+ms.assetid: 380a29bf-41a7-4817-9c57-f48f2b824b52
+ms.localizationpriority: medium
 author: StaceyHaffner
 ms.author: kevinasg
-ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, tools, player reset, live trace analyzer, LTA, xbox live account tool
-ms.localizationpriority: medium
-ms.assetid: 380a29bf-41a7-4817-9c57-f48f2b824b52
 ms.date: 06/13/2018
 ---
 

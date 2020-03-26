@@ -2,8 +2,8 @@
 title: Xbox Live Integration Test Cases For PC and Mobile Devices
 description: Test cases for adding Xbox Live to a PC or mobile game.
 kindex: Xbox Live Integration Test Cases For PC and Mobile Devices
+kindex: policies
 ms.topic: article
-keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
 ms.date: 10/01/2019
 ---
@@ -14,14 +14,14 @@ Version 2.0
 
 ## Introduction
 
-The following test cases are the recommended steps to validate a title when Xbox Live is integrated into a mobile, PC or console device other than Xbox One.  
+The following test cases are the recommended steps to validate a title when Xbox Live is integrated into a mobile, PC or console device other than Xbox One (or later).
 
 See also [Xbox Live Integration Policies For PC and Mobile Devices](live-policies-pc.md).
 
 
 ### Official Naming Standards (XR-022)
 
-Titles must use the naming standards defined in the latest release of the [Xbox Live required terminology list](live-certification-terminology-pc.md) for Xbox Live features. On Xbox One, titles must not refer to components of the console system or components of peripherals using terms that are not specifically included in the terminology list.
+Titles must use the naming standards defined in the latest release of the [Xbox Live required terminology list](live-certification-terminology-pc.md) for Xbox Live features. On Xbox One (or later), titles must not refer to components of the console system or components of peripherals using terms that are not specifically included in the terminology list.
 
 
 ### Test Cases
@@ -50,9 +50,9 @@ Titles must use the naming standards defined in the latest release of the [Xbox 
 <br />
 
 ### Display Name and Gamerpic (XR-046)
-On Xbox One, titles must use the Gamertag function to display the user's gamertag as their primary display name. 
+On Xbox One (or later), titles must use the Gamertag function to display the user's gamertag as their primary display name. 
 
-On non console platforms, while not required, we recommend you use the Xbox Live player’s gamertag in the appropriate locations within the game title’s experience. 
+On non console platforms, while not required, we recommend you use the Xbox Live player's gamertag in the appropriate locations within the game title's experience. 
 
 If titles show the user's gamerpic, the corresponding GameDisplayPic function must be used. These items are returned by the get_user_profile or GetUserProfileAsync Xbox Live APIs. When the gamertag is displayed, all 15 characters of any gamertag must be displayed correctly. Gamertags can include only ASCII characters a--z, A--Z, 0--9, comma (,), and space (ASCII character 0x20).
 
@@ -62,11 +62,11 @@ If titles show the user's gamerpic, the corresponding GameDisplayPic function mu
 
 **Test Steps**  
 >1. Discover if gamertags are displayed within the title.
->2. Check to see how the user’s gamertag is displayed in all areas where the gamertag is used.
->3. If the title displays users’ pictures, verify that the correct Microsoft account picture or gamerpic appears for each account.
+>2. Check to see how the user's gamertag is displayed in all areas where the gamertag is used.
+>3. If the title displays users' pictures, verify that the correct Microsoft account picture or gamerpic appears for each account.
 
 **Expected Result**  
->The user’s gamertag must be displayed correctly.
+>The user's gamertag must be displayed correctly.
 
 **Pass Examples**  
 >1. If used, the gamertag is displayed correctly.  
@@ -99,10 +99,10 @@ User-profile data must not be stored. For example, if the title uses the gamerta
 >1. User-profile data and preference settings are updated in all displays after they have been changed.  
 
 **Fail Examples**  
->1. The title does not display the user’s updated gamertag or Microsoft account name within the title for locally stored save data such as replays, saves, options, maps, and teams. 
->2. The title does not update a user’s gamertag for persistent posts, such as game clips, replays, leaderboards, or other custom posts, such as messages, bulletin posts, user challenges, costumes, themes, livery, tournaments, and league.
+>1. The title does not display the user's updated gamertag or Microsoft account name within the title for locally stored save data such as replays, saves, options, maps, and teams. 
+>2. The title does not update a user's gamertag for persistent posts, such as game clips, replays, leaderboards, or other custom posts, such as messages, bulletin posts, user challenges, costumes, themes, livery, tournaments, and league.
 Note: This applies to both new and previously created posts.
->3. The title stores the user’s gamertag for the user’s saved data, such as replays, saves, options, maps, and teams, resulting in the save data becoming unusable if the user changes his or her gamertag or account name.  
+>3. The title stores the user's gamertag for the user's saved data, such as replays, saves, options, maps, and teams, resulting in the save data becoming unusable if the user changes his or her gamertag or account name.  
 
 <br />
 
@@ -131,12 +131,12 @@ Titles must resolve errors with Xbox Live and partner services connectivity. Tit
 In the event that the device is unable to reach Xbox services, the title should respond with a user-friendly error message.
 
 **Pass Examples**  
->1.	Title displays error message indicating loss of network connection to Xbox services.
->2.	Title does not display an error message while playing a local game mode that does not require Xbox services.
+>1.    Title displays error message indicating loss of network connection to Xbox services.
+>2.    Title does not display an error message while playing a local game mode that does not require Xbox services.
 
 **Fail Examples**  
 >1. User is unable to complete a non-online Xbox game session.
->2.	Title goes into an unresponsive or unstable state.
+>2.    Title goes into an unresponsive or unstable state.
 
 **074-02 Direct Disconnection**
 
@@ -156,12 +156,12 @@ In the event that the device is unable to reach Xbox services, the title should 
 In the event the device loses connection to Xbox services, the title should respond with a user-friendly error message.
 
 **Pass Examples**  
->1.	The title displays a user-friendly message while in online game mode.
+>1.    The title displays a user-friendly message while in online game mode.
 >2. The title does not interrupt game-play during offline game mode.
 
 **Fail Examples**  
 >1. An error message is displayed during offline game mode.
->2.	The user is able to view online menus or view buffered media after the network goes offline.
+>2.    The user is able to view online menus or view buffered media after the network goes offline.
 
 **074-07 Dynamic Connectivity Loss**
 
@@ -181,8 +181,8 @@ Title should gracefully handle disconnections to non-Microsoft service.
 
 **Fail Examples**
 >1. Error displayed implies issues with Microsoft service.
->2.	Non-descriptive error message is displayed.
->3.	Title crashes or becomes unstable.
+>2.    Non-descriptive error message is displayed.
+>3.    Title crashes or becomes unstable.
 
 **074-08 Pre-launch Downtime**
 
@@ -202,8 +202,8 @@ Titles should provide a user-friendly error message indicating that there is a p
 
 **Fail Examples**
 >1. Error displayed implies issues with Microsoft service.
->2.	Non-descriptive error message is displayed.
->3.	Title crashes or becomes unstable.
+>2.    Non-descriptive error message is displayed.
+>3.    Title crashes or becomes unstable.
 
 <br />
 
@@ -231,7 +231,7 @@ Titles which exceed [title and user based limits ](https://docs.microsoft.com/wi
 >* Access the in-game store (if applicable)
 >2. Once test has concluded, stop the fiddler trace.
 >3. In the XDK command prompt, run _xboxlivetraceanalyzer -data filepath -outputdir filepath_
->4. Open the output directory from step 4 and open the ‘index’ file (select ‘Allow blocked content’ if prompted).
+>4. Open the output directory from step 4 and open the 'index' file (select 'Allow blocked content' if prompted).
 
 **Expected Result**  
 Games must not display any serious warnings in their Live Trace Analyzer output results. Titles must ensure they keep their service calls to Xbox Live endpoints below the specified burst and sustain limits.
@@ -247,9 +247,9 @@ Games must not display any serious warnings in their Live Trace Analyzer output 
 ## Online Safety and Privacy
  
 ### [Linking Microsoft Accounts with Publisher Accounts (XR-013)](xr/live-pc-xr013.md)
-On Xbox One, titles that use partner-hosted services or accounts that require credentials must link that account with the user’s Microsoft account.  
+On Xbox One (or later), titles that use partner-hosted services or accounts that require credentials must link that account with the user's Microsoft account.  
 
-Outside of Xbox One, titles can choose to allow account linking to support their game experience.  
+Outside of Xbox One (or later), titles can choose to allow account linking to support their game experience.  
 
 If account linking is enabled within the title, the following rules apply: 
 * Users must be notified of the account linking and given the choice to opt-out.
@@ -303,8 +303,8 @@ Xbox Live promises users a certain level of privacy and online safety for themse
 |Playing in a cross network game play session|185|AuthPrivileges.CrossNetworkPlay|Allows a user to participate in a gameplay session with other real-world players who are not signed into Xbox Live in scenarios such as: Synchronous player-vs-player gameplay in the same session, asynchronous turn-based gameplay, Team-based gameplay, User-initiated matchmaking, Sending or accepting invitations, Join-in-progress sessions.|
 |Communication with anyone |252|XPRIVILEGE_COMMUNICATIONS|Allows a user to communicate with any other Xbox Live users through voice or text. |
 |Shared gaming sessions|189|XPRIVILEGE_SESSIONS|Allows a user to participate in connected single-player experiences in shared environments. These experiences must not have any features covered under privilege 252 or 254 (Communications and Multiplayer, respectively). Use of this privilege is a title capability that requires platform approval.|
-|User-generated content (UGC)|247|XPRIVILEGE_USER_CREATED_CONTENT|Allows a user to see other users’ UGC online, download other users’ UGC, or share their own UGC online. This does not restrict usage of previously downloaded UGC. |
-|Sharing to a social network|220|XPRIVILEGE_SOCIAL_NETWORK_SHARING|Xbox One Only: Allows a user to share information, including game progress, Kinect-generated content, game clips, and so on outside of Xbox Live.|
+|User-generated content (UGC)|247|XPRIVILEGE_USER_CREATED_CONTENT|Allows a user to see other users' UGC online, download other users' UGC, or share their own UGC online. This does not restrict usage of previously downloaded UGC. |
+|Sharing to a social network|220|XPRIVILEGE_SOCIAL_NETWORK_SHARING|Xbox One (or later) Only: Allows a user to share information, including game progress, Kinect-generated content, game clips, and so on outside of Xbox Live.|
 
 ### Test Cases
 
@@ -314,22 +314,22 @@ Xbox Live promises users a certain level of privacy and online safety for themse
 >1. Sign in to a profile and launch the title.
 >2. For each of the privileges identified in the XR, identify if the title supports the associated activity.
 >3. For each possible setting of each applicable privilege identified in step [2], perform the following:
->* Exit the title and change the user’s settings for the privilege.
+>* Exit the title and change the user's settings for the privilege.
 >* Restart the device.
 >* Sign into the same profile and launch the title.
->* Visit all relevant areas of the title, use all title features relevant to the privilege and verify that the title respects the user’s current privilege setting.  
+>* Visit all relevant areas of the title, use all title features relevant to the privilege and verify that the title respects the user's current privilege setting.  
 
 **Expected Result**  
-Titles must honor the user’s privilege settings.  
+Titles must honor the user's privilege settings.  
 
 **Pass Examples**  
->1. The title respects the user’s privilege settings.
+>1. The title respects the user's privilege settings.
 >2. The title treats a partial-allow privilege setting as if the privilege is disabled / disallowed (e.g. when the User-generated content (UGC) privilege is set to Friends Only, the title behaves as if the privilege is set to Blocked).
 >3. For titles using the Xbox One XDK, the title invokes the system UI to alert the user of any privilege conflicts (titles must use the Store::Product::CheckPrivilegeAsync API).
 >4. For titles using XSAPI, the title shows an informative message to let the user know they cannot participate. 
 
 **Fail Examples**  
->1. The title persists a user’s privilege settings and does not reflect the user’s actual privileges after they have been changed.
+>1. The title persists a user's privilege settings and does not reflect the user's actual privileges after they have been changed.
 >2. The title treats a partial-allow privilege setting as if the privilege is set to its least restrictive setting (e.g. when the User-generated content (UGC) privilege is set to Friends Only, the title behaves as if the privilege is set to Allowed).
 >3. For titles using the Xbox One XDK, the title uses in-game messaging to alert the user of any privilege conflicts and does not display the System UI.
 >4. For titles using XSAPI, the title does not show an informative message to let the user know they cannot participate.  
@@ -362,7 +362,7 @@ During the gameplay session, titles which offer communication between Xbox Live 
 >4. Repeat Steps [1] – [3] for all profiles from the Configuration step.  
 
 **Expected Result**  
-Titles must check the Xbox Live service for a user’s permissions regarding privacy and online safety-related actions before completing certain actions in the title when communicating over Xbox Live.  
+Titles must check the Xbox Live service for a user's permissions regarding privacy and online safety-related actions before completing certain actions in the title when communicating over Xbox Live.  
 
 **Pass Examples**  
 >1. The title prevents the user from communicating over Xbox Live when that specific method of communication is configured to be blocked.  
@@ -418,7 +418,7 @@ User A must not be able to hear or see communication from user B. User A must no
 <br />
 
 ## Achievements and awards
-The following requirements apply to titles that offer achievements, and awards on Xbox Live.  All games targeting Xbox One are required to have Achievements and meet the following requirements. Demos are not allowed to have achievements; however, they have the option of supporting Hero Stats.
+The following requirements apply to titles that offer achievements, and awards on Xbox Live.  All games targeting Xbox One (or later) are required to have Achievements and meet the following requirements. Demos are not allowed to have achievements; however, they have the option of supporting Hero Stats.
 
 ### Achievements and Gamerscore (XR-055)
 Titles that offer Xbox Live achievements must provide the required number of achievements and their associated gamerscore at launch. Titles are permitted to add achievements or gamerscore at any time after launch, with or without corresponding new content, but they cannot exceed title-based or calendar-based limits.
@@ -441,7 +441,7 @@ Gamerscore | 1000 | 500 | 5000
 >3. Repeat step [2] after resuming from connected-standby.
 
 **Expected Result**  
-All achievements unlock according to their criteria and the maximum possible Gamerscore for the base game’s launch is 1000G spread between 10-100 achievements.
+All achievements unlock according to their criteria and the maximum possible Gamerscore for the base game's launch is 1000G spread between 10-100 achievements.
 
 **Pass Examples**
 >1. All achievements can be gained.
@@ -449,7 +449,7 @@ All achievements unlock according to their criteria and the maximum possible Gam
 >3. The launch version of the game has 1000 gamerscore spread across 10-100 achievements.
 
 **Fail Examples**
->1. An achievement doesn’t unlock when the criteria has been met.
+>1. An achievement doesn't unlock when the criteria has been met.
 >2. An achievement unlocks before the criteria has been met.
 >3. The launch version of the game does not have 1000G.
 >4. The launch version of the game has more or fewer than 10-100 achievements.

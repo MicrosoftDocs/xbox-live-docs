@@ -1,10 +1,11 @@
 ---
 title: WinRT API error handling
 description: Handling errors when making an Xbox Live service call with the WinRT APIs.
+kindex: WinRT API error handling
+kindex: error handling
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, error handling
-ms.localizationpriority: medium
 ms.assetid: b4f04798-df91-430e-90f0-83b5a48b9ab2
+ms.localizationpriority: medium
 ms.date: 04/04/2017
 ---
 
@@ -55,7 +56,7 @@ For example:
 The XSAPI async methods have some code that runs synchronously when a method is called.
 The synchronous code does work such as validating the input arguments, and then starting the async operations or actions.
 
-So, even calling the async methods can result in an exception – although this shouldn’t happen for normal scenarios (i.e. programmer error, not network error).
+So, even calling the async methods can result in an exception – although this shouldn't happen for normal scenarios (i.e. programmer error, not network error).
 
 Be conscious of this possibility, and program defensively by validating input and by testing your code thoroughly during development.
 Whether you put a try/catch around the call itself, or place a try/catch at a higher level in the callstack, the important thing is to have a try/catch.
@@ -63,7 +64,7 @@ Whether you put a try/catch around the call itself, or place a try/catch at a hi
 
 ## The game crashes when calling XYZ Xbox Service API
 
-If your game crashes, the callstack might appear to say it’s an Xbox Service API call:
+If your game crashes, the callstack might appear to say it's an Xbox Service API call:
 
 ```cpp
 msvcr110.dll!Concurrency::details::_ReportUnobservedException() Line 2455    C++
@@ -100,7 +101,7 @@ The sample code that generated the above callstack looks like this:
 
 Does your callstack contain `Concurrency::_ReportUnobservedException()`?
 Take another look at the above callstack.
-If your callstack contains `Concurrency::_ReportUnobservedException()`, then you’ve found a bug in the game code.
+If your callstack contains `Concurrency::_ReportUnobservedException()`, then you've found a bug in the game code.
 
 PPL creates tasks, which can be followed by other tasks.
 In the example above, `create_task()` builds the task to call `GetUserProfileAsync()` and the `.then()` creates the following task.
@@ -119,7 +120,7 @@ There are two kinds of continuation tasks: task-based continuation, and value-ba
   To get the result of the antecedent task, you must call .get() on the argument.
 
 * A value-based continuation receives the output of the previous task directly.
-  A value-based continuation is really syntactic sugar except for one thing: value-based continuations aren’t run at all, if the antecedent throws an exception.
+  A value-based continuation is really syntactic sugar except for one thing: value-based continuations aren't run at all, if the antecedent throws an exception.
 
 Recommendation: To prevent crashes, use a task-based continuation at the end of your continuation chain, and surround all `concurrency::task::get()` or `concurrency::task::wait()` calls in try/catch blocks, to handle errors that can be recovered from.
 
@@ -182,7 +183,7 @@ Recommendation: To prevent crashes, use a task-based continuation at the end of 
 
 There is a third solution – use value-based continuations completely, but call `.get()` or `.wait()` on another thread and catch the exception there.
 
-Here’s a simple example:
+Here's a simple example:
 
 ```cpp
     auto getProfileTask = create_task( pAsyncOp )
@@ -244,7 +245,7 @@ Below is an example showing how to handle errors:
         // What is this try/catch block for?
         //
         // Xbox Service APIs do have some code that runs synchronously and errors need
-        // to be safely handled.  In this example, if “” was passed instead of “abc123”,
+        // to be safely handled.  In this example, if "" was passed instead of "abc123",
         // then an invalid argument exception would be thrown when calling GetUserProfileAsync
     // See the next section for more a more detailed explanation.
         //
