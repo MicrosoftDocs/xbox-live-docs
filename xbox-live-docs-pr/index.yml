@@ -41,6 +41,27 @@ landingContent:
           - text: Adding basic sign-in code
             url: get-started/add-signin-code/live-add-signin-code-nav.md
   # Card
+  - title: Features
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Features nav page
+            url: features/live-features-nav.md
+      - linkListType: concept
+        links:
+          - text: Identity (user profile, authentication, sign-in, privileges, privacy settings)
+            url: features/identity/live-identity-nav.md
+          - text: Player Data (stats, leaderboards, achievements)
+            url: features/player-data/live-playerdata-nav.md
+          - text: Social (friends list/people system, clubs, activity feed/presence strings, reputation)
+            url: features/social/live-social-nav.md
+          - text: Multiplayer (matchmaking, invites, chat, networking)
+            url: features/multiplayer/live-multiplayer-nav.md
+          - text: Cloud Storage (connected storage, title storage)
+            url: features/cloud-storage/live-cloud-storage-nav.md
+          - text: Custom services (web services, relying parties, single sign-on, access policies)
+            url: features/custom-services/live-custom-services-nav.md
+  # Card
   - title: Identity
     linkLists:
       - linkListType: concept
