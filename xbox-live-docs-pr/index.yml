@@ -40,6 +40,10 @@ landingContent:
             url: get-started/setup-ide/live-setup-ide-nav.md
           - text: Adding basic sign-in code
             url: get-started/add-signin-code/live-add-signin-code-nav.md
+  # footerLink (optional)
+    footerLink:
+      url: get-started\live-getstarted-nav.md
+      text: See more
 # ================= FEATURE AREA CARDS ==================================================
   # Card
   - title: Identity
