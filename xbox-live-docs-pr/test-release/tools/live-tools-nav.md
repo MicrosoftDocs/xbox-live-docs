@@ -27,4 +27,3 @@ ms.date: 06/13/2018
 | [Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)](live-pc-sandbox-switcher.md) | Command-line tool that helps manage the Xbox Live sandbox on PC. |
 | [Trace Analyzer for reviewing service calls](live-trace-analyzer.md) | Reviews the service calls made by a title. |
 | [Using Fiddler to inspect web service calls](live-fiddler-inspect-web-calls.md) | Using Fiddler to log and troubleshoot Xbox Live service calls. |
-| [Porting Xbox Live code from XDK to UWP](live-port-xbl-code-from-xdk-to-uwp.md) | Porting Xbox Live code from the Xbox Development Kit (XDK) platform to the Universal Windows Platform (UWP). |

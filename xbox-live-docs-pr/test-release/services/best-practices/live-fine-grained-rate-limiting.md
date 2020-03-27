@@ -45,9 +45,9 @@ Fine-Grained Rate Limiting (FGRL) solves the following scenario:
 
 Developer A has just released a title that follows all the Xbox live best practices ensuring optimal use of services while Developer B has also just released a title however this one has an unknown bug.
 This bug causes the title and each user to spam presence which results in the service going under heavy load.
-The service slows and eventually halts breaking the experience for developer A’s users even though it was developer B’s bug that caused the issue.
+The service slows and eventually halts breaking the experience for developer A's users even though it was developer B's bug that caused the issue.
 
-If FGRL was implemented, the service would have been able to stop receiving requests from the misbehaving title, allowing it to serve Developer A’s title its fair slice of the resource pie.
+If FGRL was implemented, the service would have been able to stop receiving requests from the misbehaving title, allowing it to serve Developer A's title its fair slice of the resource pie.
 
 
 ## Title and User granularity
@@ -118,7 +118,7 @@ Once either limit is tripped, no requests are let through, as shown when both li
 ## HTTP 429 Response object
 
 When the associated user and title count is at or above either the burst or sustain limit the service will not handle the request and will instead return a HTTP 429 response.
-The HTTP 429 code stands for “too many requests” will be accompanied by a header containing a “retry after X seconds” value.
+The HTTP 429 code stands for "too many requests" will be accompanied by a header containing a "retry after X seconds" value.
 
 An FGRL 429 response object contains a "retry after" header, which specifies the amount of time the calling entities should wait before trying again.
 Developers that use XSAPI will not have to worry, as XSAPI honors and handles the Retry-After header.
@@ -130,8 +130,8 @@ The actual response will contain the following fields:
 | Version         | Integer    | `"version":1`          |                                          |
 | currentRequests | Integer    | `"currentRequests":13` | Total number of requests sent            |
 | maxRequests     | Integer    | `"maxRequests":10`     | Total number of requests allowed         |
-| periodInSeconds | Integer    | `“periodInSeconds”:15` | Time window                              |
-| LimitType       | String     | `“limitType”:”rate”`   | Throttle limit type (rate or concurrency)|
+| periodInSeconds | Integer    | `"periodInSeconds":15` | Time window                              |
+| LimitType       | String     | `"limitType":"rate"`   | Throttle limit type (rate or concurrency)|
 
 
 ## Implemented limits
@@ -176,9 +176,9 @@ For example, if the sustained limit at which FGRL takes effect is set to 300 cal
 | **Name** | **Service Endpoint** | **Anticipiated Game Impact of FGRL**
 | --- | :---: | --- 
 | Stats Read | userstats.xboxlive.com | Achievements or Leaderboards entries not updated or retrieved.
-| Profile | profile.xboxlive.com | Player’s data not updated or displayed correctly.
+| Profile | profile.xboxlive.com | Player's data not updated or displayed correctly.
 | MPSD | sessiondirectory.xboxlive.com | Joins/invites would not complete correctly, sessions not created or updated properly which can cause title failures.
-| Presence | presence.xboxlive.com | Player’s in-game presence would not be accurate.
+| Presence | presence.xboxlive.com | Player's in-game presence would not be accurate.
 | Social | social.xboxlive.com | Impacts all friends writes (e.g. adding a friend, making someone favorite etc.) and may impact friend reads (e.g. fetch my friend list). Developers are encouraged to call the peoplehub for read rather than social.xboxlive.com.
 | Leaderboards | leaderboards.xboxlive.com | In-game UX for leaderboards would not populate/update.
 | Achievements | achievements.xboxlive.com | In-game UX for achievements unlocked would not be updated.
@@ -204,7 +204,7 @@ See [Best practices for calling Xbox Live](live-best-practices-calling-xbl.md), 
 Another option is to record a trace of the Xbox Live calls, and then analyze that trace using the [Xbox Live Trace Analyzer tool](https://docs.microsoft.com/windows/uwp/xbox-live/tools/analyze-service-calls).
 To record a trace, you can either use Fiddler to record a .SAZ file, or use the built-in trace logging of XSAPI.
 
-To turn on and use traces in XSAPI, see [Trace Analyzer for reviewing service calls](../live-trace-analyzer.md).
+To turn on and use traces in XSAPI, see [Trace Analyzer for reviewing service calls](../../tools/live-trace-analyzer.md).
 Once you have a trace, the Xbox Live Trace Analyzer tool will warn upon detecting throttled calls.
 
 You can find the best practices paper on GDNP and SDK and XDK docs 1602 and higher. <!-- tbd link/clarify -->
@@ -228,7 +228,7 @@ Rate limits have been enforced since **May 2016**.
 As of **April 2018**, titles exceeding the specified sustained limits by 10x or more will not pass the Xbox Certification process.
 
 
-### What if we can’t adhere to the limits?
+### What if we can't adhere to the limits?
 
 See the [Best practices for calling Xbox Live](live-best-practices-calling-xbl.md) and ensure you are following these steps.
 If you are being rate-limited with any of the social services, also consider using [Social Manager](../../../features/social/social-manager/live-social-manager-nav.md)
