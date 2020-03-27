@@ -825,9 +825,9 @@
         - name: XSAPI Reference
           href: api-ref/xsapi/live-xsapi-nav.md
           items:
-            - name: Introduction to XSAPI APIs
+            - name: XSAPI overview
               href: api-ref/xsapi/live-introduction-to-xbox-live-apis.md
-            - name: Introduction to the XSAPI C API
+            - name: XSAPI C overview
               href: api-ref/xsapi/live-xsapi-flat-c.md
             - name: XSAPI WinRT Reference
               href: https://docs.microsoft.com/en-us/dotnet/api/?view=xboxlive-dotnet-2017.11.20171204.01

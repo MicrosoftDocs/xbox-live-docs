@@ -21,35 +21,49 @@ metadata:
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 
 # 4 XBL infotypes + ref, use these:
+
+      # Describes a product/service from a technical point of view.
       # - linkListType: overview
-      #   links:
+
+      # In-depth explanation of functionality related to a service(s) that are fundamental to understanding and use.
       # - linkListType: concept
-      #   links:
+
+      # How to deploy a service.
       # - linkListType: deploy
-      #   links:
+
+      # Related code sample.
       # - linkListType: sample
-      #   links:
+
+      # Documentation for APIs, PowerShell cmdlets, CLI commands, or other types of language-based content.
       # - linkListType: reference
-      #   links:
+# ------------------------------------------
 # non-XBL infotypes, don't use except as overflow bucket to extend the above
+      # Getting started content that targets users that are new to a service or product.
       # - linkListType: get-started
-      #   links:
+
+      # Fundamental day 1 instructions that help new customers quickly use a product or service.
       # - linkListType: quickstart
-      #   links:
+
+      # Detailed guidance for how to design and deploy an architecture.
       # - linkListType: architecture
-      #   links:
+
+      # Procedural articles that show the customer how to complete a task.
       # - linkListType: how-to-guide
-      #   links:
+
+      # Typically Microsoft Learn modules, but can be any learning content.
       # - linkListType: learn
-      #   links:
+
+      # Scenario-based procedures for the top customer tasks.
       # - linkListType: tutorial
-      #   links:
+
+      # Video that supplements the content.
       # - linkListType: video
-      #   links:
+
+      # Download a file related to the service or product.
       # - linkListType: download
-      #   links:
+
+      # Describes recent changes to product or service.
       # - linkListType: whats-new
-      #   links:
 
 landingContent:
 # Cards and links should be based on top customer tasks or top subjects
@@ -75,7 +89,7 @@ landingContent:
         links:
           - text: Adding basic sign-in code
             url: get-started/add-signin-code/live-add-signin-code-nav.md
-      - linkListType: reference
+      - linkListType: architecture
         links:
           - text: Getting Started
             url: get-started/live-getstarted-nav.md
@@ -101,7 +115,7 @@ landingContent:
             url: features/identity/privileges/config/live-privileges-config.md
 #      - linkListType: sample
 #        links:
-      - linkListType: reference
+      - linkListType: architecture
         links:
           - text: Identity
             url: features/identity/live-identity-nav.md
@@ -132,32 +146,12 @@ landingContent:
             url: features/player-data/stats-leaderboards/featured-stats/config/live-featuredstats-tm-portal.md
           - text: Configuring title-managed Achievements in Partner Center
             url: features/player-data/achievements/title-managed/config/live-achievements-tm-config.md
-      - linkListType: sample
-        links:
-          - text: Updating title-managed Stats
-            url: features/player-data/stats-leaderboards/title-managed/how-to/live-stats-tm-updating.md
-          - text: Writing title-managed stats
-            url: features/player-data/stats-leaderboards/title-managed/how-to/live-writing-tm-stats.md
-          - text: Title-managed Leaderboards how-to's
-            url: features/player-data/stats-leaderboards/title-managed/how-to/live-leaderboards-tm-howto.md
-          - text: Getting title-managed Achievements
-            url: features/player-data/achievements/title-managed/how-to/live-how-to-get-achievements.md
-          - text: Updating title-managed Achievements
-            url: features/player-data/achievements/title-managed/how-to/live-how-to-update-achievements.md
-          - text: Getting event-based Achievements
-            url: features/player-data/achievements/event-based/how-to/live-getting-event-based-achievements.md
-          - text: Writing an event to power an event-based Achievement
-            url: features/player-data/achievements/event-based/how-to/live-writing-event-based-achievement.md
-      - linkListType: reference
+      # - linkListType: sample
+      #   links:
+      - linkListType: architecture
         links:
           - text: Player Data
             url: features/player-data/live-playerdata-nav.md
-          - text: Stats & Leaderboards
-            url: features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md
-          - text: Featured Stats
-            url: features/player-data/stats-leaderboards/featured-stats/live-featured-stats-nav.md
-          - text: Achievements
-            url: features/player-data/achievements/live-achievements-nav.md
   # Card
   - title: Social
     linkLists:
@@ -193,27 +187,9 @@ landingContent:
             url: features/social/presence/config/live-presence-config.md
           - text: Configuring Rich Presence strings in Partner Center
             url: features/social/presence/config/live-presence-config2.md
-      - linkListType: sample
-        links:
-          - text: Getting a social relationship
-            url: features/social/people-system/how-to/live-getting-a-social-relationship.md
-          - text: Handling a social relationship change
-            url: features/social/people-system/how-to/live-handling-a-relationship-change.md
-          - text: Programming Social services
-            url: features/social/people-system/how-to/live-retrieving-social-relationships-winrt.md
-          - text: Getting a user's Presence
-            url: features/social/presence/how-to/live-getting-a-users-presence.md
-          - text: Handling a title Presence change
-            url: features/social/presence/how-to/live-handling-a-title-presence-change.md
-          - text: Handling a device Presence change
-            url: features/social/presence/how-to/live-handling-a-device-presence-change.md
-          - text: Updating a user's Presence via XSAPI C
-            url: features/social/presence/how-to/live-updating-user-presence.md
-          - text: Updating a user's Presence via REST
-            url: features/social/presence/how-to/live-updating-presence-rest.md
-          - text: Updating a user's Presence via WinRT
-            url: features/social/presence/how-to/live-setting-presence-status.md
-      - linkListType: reference
+      # - linkListType: sample
+      #   links:
+      - linkListType: architecture
         links:
         - text: Social
           url: features/social/live-social-nav.md
@@ -250,36 +226,12 @@ landingContent:
             url: features/multiplayer/mpsd/concepts/live-session-templates.md
       # - linkListType: deploy
       #   links:
-      - linkListType: sample
+      # - linkListType: sample
+      #   links:
+      - linkListType: architecture
         links:
-          - text: Enable playing a multiplayer game with friends using Multiplayer Manager
-            url: features/multiplayer/mpm/how-to/live-play-multiplayer-with-friends.md
-          - text: Finding a multiplayer game by using SmartMatch using Multiplayer Manager
-            url: features/multiplayer/mpm/how-to/live-play-multiplayer-with-matchmaking.md
-          - text: Sending game invites using Multiplayer Manager
-            url: features/multiplayer/mpm/how-to/live-send-game-invites.md
-          - text: Handling protocol activation to start a game, using Multiplayer Manager
-            url: features/multiplayer/mpm/how-to/live-handle-protocol-activation.md
-      - linkListType: reference
-        links:
-          - text: Xbox Integrated Multiplayer (XIM)
-            url: features/multiplayer/xim/live-xim-nav.md
-          - text: Multiplayer Manager (MPM)
-            url: features/multiplayer/mpm/live-multiplayer-manager-nav.md
-          - text: Multiplayer Session Directory (MPSD)
-            url: features/multiplayer/mpsd/live-mpsd-nav.md
-          - text: Invites
-            url: features/multiplayer/invites/live-invites-nav.md
-          - text: SmartMatch Matchmaking
-            url: features/multiplayer/matchmaking/live-matchmaking-nav.md
-          - text: Game Chat
-            url: features/multiplayer/chat/live-chat-nav.md
           - text: Multiplayer
             url: features/multiplayer/live-multiplayer-nav.md
-          - text: Xbox Integrated Multiplayer (XIM)
-            url: features/multiplayer/xim/live-xim-nav.md
-          - text: Multiplayer Manager (MPM)
-            url: features/multiplayer/mpm/live-multiplayer-manager-nav.md
   # Card
   - title: Cloud Storage
     linkLists:
@@ -305,41 +257,9 @@ landingContent:
         links:
           - text: Configuring Title Storage in Partner Center
             url: features/cloud-storage/title-storage/config/live-title-storage-portal-config.md
-      - linkListType: sample
-        links:
-          - text: Saving data with Connected Storage
-            url: features/cloud-storage/connected-storage/how-to/live-connected-storage-saving.md
-          - text: Loading data with Connected Storage
-            url: features/cloud-storage/connected-storage/how-to/live-connected-storage-loading.md
-          - text: Deleting data with Connected Storage
-            url: features/cloud-storage/connected-storage/how-to/live-connected-storage-deleting.md
-          - text: Loading data on-demand with Connected Storage
-            url: features/cloud-storage/connected-storage/how-to/live-connected-storage-loading-on-demand.md
-          - text: Working with Connected Storage buffers
-            url: features/cloud-storage/connected-storage/how-to/live-connected-storage-using-buffers.md
-      - linkListType: how-to-guide
-        links:
-          - text: Uploading a blob to Title Storage
-            url: features/cloud-storage/title-storage/how-to/live-uploading-title-storage-blob.md
-          - text: Downloading a blob from Title Storage
-            url: features/cloud-storage/title-storage/how-to/live-downloading-title-storage-blob.md
-          - text: Deleting a blob from Title Storage
-            url: features/cloud-storage/title-storage/how-to/live-deleting-title-storage-blob.md
-          - text: Getting Title Storage blob metadata
-            url: features/cloud-storage/title-storage/how-to/live-getting-title-storage-blob-metadata.md
-          - text: Getting quota info for a Title Storage service configuration
-            url: features/cloud-storage/title-storage/how-to/live-getting-title-storage-quota-info.md
-          - text: Storing a JSON blob in Title Storage
-            url: features/cloud-storage/title-storage/how-to/live-storing-jsonblobs.md
-          - text: Storing a binary blob in Title Storage
-            url: features/cloud-storage/title-storage/how-to/live-storing-binary-blobs.md
-          - text: Reading a binary blob from Title Storage
-            url: features/cloud-storage/title-storage/how-to/live-reading-binary-blobs.md
-          - text: Reading a JSON blob from Title Storage
-            url: features/cloud-storage/title-storage/how-to/live-reading-jsonblobs.md
-          - text: Reading a configuration blob from Title Storage
-            url: features/cloud-storage/title-storage/how-to/live-reading-configuration-blobs.md
-      - linkListType: reference
+      # - linkListType: sample
+      #   links:
+      - linkListType: architecture
         links:
           - text: Title Storage
             url: features/cloud-storage/title-storage/live-title-storage-nav.md
@@ -370,7 +290,7 @@ landingContent:
             url: features/custom-services/web-services/live-web-services.md
       # - linkListType: sample
       #   links:
-      - linkListType: reference
+      - linkListType: architecture
         links:
           - text: Custom services
             url: features/custom-services/live-custom-services-nav.md
@@ -410,17 +330,11 @@ landingContent:
       #   links:
       - linkListType: download
         links:
+          - text: Services and tools
+            url: test-release/services-tools/live-services-tools-nav.md
           - text: Xbox Live resources, sites, and downloads
             url: test-release/live-sites-downloads.md
-          - text: Development tools for Xbox Live
-            url: test-release/services-tools/live-tools.md
-          - text: Developer Account Tool to set up test accounts
-            url: test-release/test-accounts/live-account-tool.md
-          - text: Trace Analyzer for reviewing service calls
-            url: test-release/services-tools/live-trace-analyzer.md
-          - text: Using Fiddler to inspect web service calls
-            url: test-release/services-tools/live-fiddler-inspect-web-calls.md
-      - linkListType: reference
+      - linkListType: architecture
         links:
           - text: Testing and Releasing
             url: test-release/live-test-release-nav.md
@@ -429,8 +343,8 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: Policies and XRs
-            url: policies/live-policies-nav.md
+          - text: Xbox Live Integration Policies for PC and Mobile Devices
+            url: policies/pc/live-policies-pc.md
       - linkListType: concept
         links:
           - text: Policies and XRs for PC
@@ -439,32 +353,18 @@ landingContent:
             url: policies/live-policies-nav.md
           - text: Policies and XRs for PC and mobile
             url: policies/pc/live-policies-pc-nav.md
-          - text: Xbox Live policies
-            url: policies/pc/live-policies-pc.md
           - text: Xbox Live terminology
             url: policies/pc/live-certification-terminology-pc.md
           - text: Recommended Policy Tests
             url: policies/pc/live-policy-tests-pc.md
-      - linkListType: deploy
-        links:
-          - text: "XR-013: Linking Microsoft Accounts with Publisher Accounts"
-            url: policies/pc/xr/live-pc-xr013.md
-          - text: "XR-015: Privacy and Permissions"
-            url: policies/pc/xr/live-pc-xr015.md
-          - text: "XR-045: Xbox Live and Account Privileges"
-            url: policies/pc/xr/live-pc-xr045.md
-          - text: "XR-048: Profile Settings Usage"
-            url: policies/pc/xr/live-pc-xr048.md
-          - text: "XR-062: Achievement Names and Descriptions"
-            url: policies/pc/xr/live-pc-xr062.md
-          - text: "XR-074: Loss of Connectivity to Xbox and Partner Services"
-            url: policies/pc/xr/live-pc-xr074.md
-          - text: "XR-132: Service Access Limitations"
-            url: policies/pc/xr/live-pc-xr132.md
+      # - linkListType: deploy
+      #   links:
       # - linkListType: sample
       #   links:
-      # - linkListType: reference
-      #   links:
+      - linkListType: architecture
+        links:
+          - text: Policies and XRs
+            url: policies/live-policies-nav.md
   # Card
   - title: API Reference
     linkLists:
