@@ -4,6 +4,7 @@ description: Creating a Web service for an Xbox Live-enabled app.
 kindex: Setting up Web Services at Partner Center
 kindex: web services
 ms.topic: article
+ms.localizationpriority: medium
 ms.date: 06/04/2018
 ---
 

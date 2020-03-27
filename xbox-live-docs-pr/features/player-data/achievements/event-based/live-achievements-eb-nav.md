@@ -10,6 +10,7 @@ ms.author: player-data
 ms.topic: navigation
 ms.prod: gaming
 ms.technology: xboxlive
+ms.localizationpriority: medium
 ms.date: 11/22/2019
 ---
 

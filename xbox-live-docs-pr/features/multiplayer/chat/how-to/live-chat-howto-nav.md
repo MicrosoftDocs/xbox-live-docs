@@ -10,6 +10,7 @@ ms.topic: navigation
 ms.prod: gaming
 ms.technology: xboxlive
 ms.localizationpriority: medium
+ms.localizationpriority: medium
 ---
 
 # Game Chat how-to's

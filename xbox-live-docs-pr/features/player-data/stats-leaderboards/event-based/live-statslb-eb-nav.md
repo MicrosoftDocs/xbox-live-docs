@@ -6,6 +6,7 @@ layout: LandingPage
 author: v-mihof
 ms.author: v-mihof
 ms.topic: article
+ms.localizationpriority: medium
 ---
 
 # Event-based Stats & Leaderboards

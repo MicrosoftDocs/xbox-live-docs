@@ -6,8 +6,7 @@ kindex: Title-managed Stats & Leaderboards
 author: v-mihof
 ms.author: v-mihof
 ms.topic: conceptual
-ms.prod: xboxlive
-ms.technology: 
+ms.localizationpriority: medium
 ---
 
 # Title-managed Stats & Leaderboards

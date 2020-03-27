@@ -5,6 +5,7 @@ kindex: Setting up the Leaderboard example scene in Unity
 kindex: Unity
 kindex: leaderboards
 ms.topic: article
+ms.localizationpriority: medium
 ms.date: 04/24/2018
 ---
 

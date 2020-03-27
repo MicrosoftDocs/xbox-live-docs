@@ -7,6 +7,7 @@ author: v-mihof
 ms.author: v-mihof
 ms.topic: conceptual
 ms.prod: xboxlive
+ms.localizationpriority: medium
 ---
 
 <!-- was https://docs.microsoft.com/gaming/xbox-live/leaderboards-and-stats-2017/player-stats-2013 -->

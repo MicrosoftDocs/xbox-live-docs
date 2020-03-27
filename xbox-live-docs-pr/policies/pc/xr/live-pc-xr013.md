@@ -10,9 +10,9 @@ ms.date: 03/18/2019
 
 # XR-013: Linking Microsoft Accounts with Publisher Accounts
 
-On Xbox One (or later) consoles, titles that use partner-hosted services or accounts that require credentials must link that account with the user's Microsoft account.  
+On Xbox One consoles, titles that use partner-hosted services or accounts that require credentials must link that account with the user's Microsoft account.  
 
-Outside of Xbox One (or later), titles can choose to allow account linking to support their game experience.  
+Outside of Xbox One, titles can choose to allow account linking to support their game experience.  
 
 If account linking is enabled within the title, the following rules apply:
 

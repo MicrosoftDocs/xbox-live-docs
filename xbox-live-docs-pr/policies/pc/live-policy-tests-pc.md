@@ -14,21 +14,21 @@ Version 2.0
 
 ## Introduction
 
-The following test cases are the recommended steps to validate a title when Xbox Live is integrated into a mobile, PC or console device other than Xbox One (or later).
+The following test cases are the recommended steps to validate a title when Xbox Live is integrated into a mobile, PC or console device other than Xbox One.
 
 See also [Xbox Live Integration Policies For PC and Mobile Devices](live-policies-pc.md).
 
 
 ### Official Naming Standards (XR-022)
 
-Titles must use the naming standards defined in the latest release of the [Xbox Live required terminology list](live-certification-terminology-pc.md) for Xbox Live features. On Xbox One (or later), titles must not refer to components of the console system or components of peripherals using terms that are not specifically included in the terminology list.
+Titles must use the naming standards defined in the latest release of the [Xbox Live required terminology list](live-certification-terminology-pc.md) for Xbox Live features. On Xbox One, titles must not refer to components of the console system or components of peripherals using terms that are not specifically included in the terminology list.
 
 
 ### Test Cases
 
-**022-01 Official Naming Standards**   
+**022-01 Official Naming Standards**
 
-**Test Steps**  
+**Test Steps**
 >1. Launch the title.
 >2. Visit all areas of the title.
 >3. Navigate all menus and sub-menus.
@@ -50,7 +50,7 @@ Titles must use the naming standards defined in the latest release of the [Xbox 
 <br />
 
 ### Display Name and Gamerpic (XR-046)
-On Xbox One (or later), titles must use the Gamertag function to display the user's gamertag as their primary display name. 
+On Xbox One, titles must use the Gamertag function to display the user's gamertag as their primary display name. 
 
 On non console platforms, while not required, we recommend you use the Xbox Live player's gamertag in the appropriate locations within the game title's experience. 
 
@@ -247,13 +247,13 @@ Games must not display any serious warnings in their Live Trace Analyzer output 
 ## Online Safety and Privacy
  
 ### [Linking Microsoft Accounts with Publisher Accounts (XR-013)](xr/live-pc-xr013.md)
-On Xbox One (or later), titles that use partner-hosted services or accounts that require credentials must link that account with the user's Microsoft account.  
+On Xbox One, titles that use partner-hosted services or accounts that require credentials must link that account with the user's Microsoft account.  
 
-Outside of Xbox One (or later), titles can choose to allow account linking to support their game experience.  
+Outside of Xbox One, titles can choose to allow account linking to support their game experience.  
 
 If account linking is enabled within the title, the following rules apply: 
 * Users must be notified of the account linking and given the choice to opt-out.
-* If any account linking or access to partner hosted services is enabled, it must be made available to all users/account types. 
+* If any account linking or access to partner hosted services is enabled, it must be made available to all users/account types.
 * Linked accounts must be authenticated prior to linking. 
 * Users must be provided all applicable terms of use, privacy and other policies within the title (or a notice with a link to such information) both during the linking process and for as long as the accounts are linked.
 * Users must have the ability to de-link accounts. 
@@ -304,7 +304,7 @@ Xbox Live promises users a certain level of privacy and online safety for themse
 |Communication with anyone |252|XPRIVILEGE_COMMUNICATIONS|Allows a user to communicate with any other Xbox Live users through voice or text. |
 |Shared gaming sessions|189|XPRIVILEGE_SESSIONS|Allows a user to participate in connected single-player experiences in shared environments. These experiences must not have any features covered under privilege 252 or 254 (Communications and Multiplayer, respectively). Use of this privilege is a title capability that requires platform approval.|
 |User-generated content (UGC)|247|XPRIVILEGE_USER_CREATED_CONTENT|Allows a user to see other users' UGC online, download other users' UGC, or share their own UGC online. This does not restrict usage of previously downloaded UGC. |
-|Sharing to a social network|220|XPRIVILEGE_SOCIAL_NETWORK_SHARING|Xbox One (or later) Only: Allows a user to share information, including game progress, Kinect-generated content, game clips, and so on outside of Xbox Live.|
+|Sharing to a social network|220|XPRIVILEGE_SOCIAL_NETWORK_SHARING|Xbox One Only: Allows a user to share information, including game progress, Kinect-generated content, game clips, and so on outside of Xbox Live.|
 
 ### Test Cases
 
@@ -418,7 +418,7 @@ User A must not be able to hear or see communication from user B. User A must no
 <br />
 
 ## Achievements and awards
-The following requirements apply to titles that offer achievements, and awards on Xbox Live.  All games targeting Xbox One (or later) are required to have Achievements and meet the following requirements. Demos are not allowed to have achievements; however, they have the option of supporting Hero Stats.
+The following requirements apply to titles that offer achievements, and awards on Xbox Live.  All games targeting Xbox One are required to have Achievements and meet the following requirements. Demos are not allowed to have achievements; however, they have the option of supporting Hero Stats.
 
 ### Achievements and Gamerscore (XR-055)
 Titles that offer Xbox Live achievements must provide the required number of achievements and their associated gamerscore at launch. Titles are permitted to add achievements or gamerscore at any time after launch, with or without corresponding new content, but they cannot exceed title-based or calendar-based limits.

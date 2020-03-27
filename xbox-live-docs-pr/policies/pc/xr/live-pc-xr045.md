@@ -19,14 +19,14 @@ Xbox Live promises users a certain level of privacy and online safety for themse
 | Communication with anyone | 252 | XPRIVILEGE_COMMUNICATIONS | Allows a user to communicate with any other Xbox Live users through voice or text. |
 | Shared gaming sessions | 189 | XPRIVILEGE_SESSIONS | Allows a user to participate in connected single-player experiences in shared environments. These experiences must not have any features covered under privilege 252 or 254 (Communications and Multiplayer, respectively). Use of this privilege is a title capability that requires platform approval. |
 | User-generated content (UGC) | 247 | XPRIVILEGE_USER_CREATED_CONTENT | Allows a user to see other users' UGC online, download other users' UGC, or share their own UGC online. This does not restrict usage of previously downloaded UGC. |
-| Sharing to a social network | 220 | XPRIVILEGE_SOCIAL_NETWORK_SHARING | Xbox One (or later) Only: Allows a user to share information, including game progress, Kinect-generated content, game clips, and so on outside of Xbox Live. |
+| Sharing to a social network | 220 | XPRIVILEGE_SOCIAL_NETWORK_SHARING | Xbox One Only: Allows a user to share information, including game progress, Kinect-generated content, game clips, and so on outside of Xbox Live. |
 
 
 ## More Information
 
 If your services processes Xbox Live issued tokens, you should enforce on your service that the users in the session have the appropriate privileges to perform the requested action by inspecting the "prv" claim for those users inside the token.
 
-If a title offers one or more of the activities listed in the above table, the title must check privileges associated with the particular activity. If a user does not have the privilege, the user must not be allowed to use the associated activity. Privileges are granted for the duration of the session/action or the time before the Xbox Live token is refreshed, whichever is shorter. 
+If a title offers one or more of the activities listed in the above table, the title must check privileges associated with the particular activity. If a user does not have the privilege, the user must not be allowed to use the associated activity. Privileges are granted for the duration of the session/action or the time before the Xbox Live token is refreshed, whichever is shorter.
 
 
 ### On Windows 10
