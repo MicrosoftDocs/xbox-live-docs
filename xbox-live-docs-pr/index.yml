@@ -40,6 +40,7 @@ landingContent:
             url: get-started/setup-ide/live-setup-ide-nav.md
           - text: Adding basic sign-in code
             url: get-started/add-signin-code/live-add-signin-code-nav.md
+# ================= FEATURE AREA CARDS ==================================================
   # Card
   - title: Identity
     linkLists:
@@ -131,6 +132,7 @@ landingContent:
             url: features/custom-services/web-services/live-web-services-nav.md
           - text: Relying parties
             url: features/custom-services/relying-parties/live-relying-parties-nav.md
+# ================= / END OF FEATURE AREA CARDS =============================================
   # Card
   - title: Testing and Releasing
     linkLists:
