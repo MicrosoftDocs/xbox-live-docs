@@ -384,9 +384,6 @@ landingContent:
             url: api-ref/live-samples.md
       - linkListType: reference
         links:
-          - text: API Reference
-            url: api-ref/live-api-reference-nav.md
-          - text: XSAPI Reference
             url: api-ref/xsapi/live-xsapi-nav.md
           - text: XAL Reference
             url: api-ref/xal/live-xal-nav.md
