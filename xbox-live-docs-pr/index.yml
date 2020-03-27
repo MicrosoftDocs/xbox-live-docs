@@ -22,10 +22,6 @@ landingContent:
   # Card
   - title: Getting Started
     linkLists:
-      - linkListType: get-started
-        links:
-          - text: Getting Started
-            url: get-started/live-getstarted-nav.md
       - linkListType: overview
         links:
           - text: Xbox Live overview 
@@ -40,10 +36,10 @@ landingContent:
             url: get-started/setup-ide/live-setup-ide-nav.md
           - text: Adding basic sign-in code
             url: get-started/add-signin-code/live-add-signin-code-nav.md
-  # footerLink (optional)
-    footerLink:
-      url: get-started\live-getstarted-nav.md
-      text: See more
+      - linkListType: reference
+        links:
+          - text: See more
+            url: get-started/live-getstarted-nav.md
 # ================= FEATURE AREA CARDS ==================================================
   # Card
   - title: Identity
