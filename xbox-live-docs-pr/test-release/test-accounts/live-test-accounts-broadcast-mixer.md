@@ -5,6 +5,7 @@ kindex: Broadcasting Xbox Live test accounts to Mixer
 ms.topic: article
 author: mikehoffms
 ms.author: v-mihof
+ms.localizationpriority: medium
 ms.date: 02/25/2020
 ---
 

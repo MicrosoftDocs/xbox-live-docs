@@ -11,6 +11,7 @@ ms.prod: gaming
 ms.technology: xboxlive
 author: v-mihof
 ms.author: v-mihof
+ms.localizationpriority: medium
 edited: 01/24/2020
 ---
 

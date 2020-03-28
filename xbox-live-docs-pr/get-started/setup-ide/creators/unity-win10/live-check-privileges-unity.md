@@ -10,6 +10,7 @@ kindex: user privileges
 kindex: enforcement bans
 kindex: upsell
 ms.topic: article
+ms.localizationpriority: medium
 ms.date: 10/26/2017
 ---
 

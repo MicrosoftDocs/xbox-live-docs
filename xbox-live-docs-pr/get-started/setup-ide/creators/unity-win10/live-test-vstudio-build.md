@@ -5,6 +5,7 @@ kindex: Testing a Unity game build in Visual Studio
 kindex: Unity
 kindex: Visual Studio
 ms.topic: article
+ms.localizationpriority: medium
 ms.date: 03/12/2018
 ---
 

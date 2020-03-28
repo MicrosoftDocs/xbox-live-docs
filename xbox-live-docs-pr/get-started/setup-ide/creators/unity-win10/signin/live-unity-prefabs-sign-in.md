@@ -4,6 +4,7 @@ description: Unity prefabs and Scripted Sign-In examples for Social services on 
 kindex: Sign-in in Unity through prefabs or scripting (pre-1804 release)
 kindex: Unity sign-in
 ms.topic: article
+ms.localizationpriority: medium
 ms.date: 01/24/2018
 ---
 

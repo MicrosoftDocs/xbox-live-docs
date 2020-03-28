@@ -5,6 +5,7 @@ kindex: Scripting Sign-In with the SignInManager in Unity
 kindex: Unity
 kindex: SignInManager, Unity
 ms.topic: article
+ms.localizationpriority: medium
 ms.date: 05/08/2018
 ---
 

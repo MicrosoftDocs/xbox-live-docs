@@ -12,6 +12,7 @@ ms.author: v-mihof
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
+ms.localizationpriority: medium
 ms.date: 01/24/2020
 edited: 01/24/2020
 ---

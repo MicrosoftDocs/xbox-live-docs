@@ -5,6 +5,7 @@ kindex: Signing into Xbox Live in Unity
 kindex: Unity, sign-in
 layout: LandingPage
 ms.topic: article
+ms.localizationpriority: medium
 ms.date: 04/05/2019
 ---
 
