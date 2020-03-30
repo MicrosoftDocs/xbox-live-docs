@@ -28,9 +28,6 @@ metadata:
       # In-depth explanation of functionality related to a service(s) that are fundamental to understanding and use.
       # - linkListType: concept
 
-      # How to deploy a service.
-      # - linkListType: deploy
-
       # Related code sample.
       # - linkListType: sample
 
@@ -81,15 +78,11 @@ landingContent:
             url: get-started/join-dev-program/live-join-dev-program-nav.md
           - text: Setting up an IDE
             url: get-started/setup-ide/live-setup-ide-nav.md
-      - linkListType: deploy
-        links:
-          - text: Setting up a game at Partner Center
-            url: get-started/setup-partner-center/live-setup-partner-center-nav.md
       - linkListType: sample
         links:
           - text: Adding basic sign-in code
             url: get-started/add-signin-code/live-add-signin-code-nav.md
-      - linkListType: architecture
+      - linkListType: learn
         links:
           - text: Getting Started
             url: get-started/live-getstarted-nav.md
@@ -109,13 +102,9 @@ landingContent:
             url: features/identity/auth/auth-mobile-xal/live-xal-nav.md
           - text: User Privileges
             url: features/identity/privileges/live-privileges-nav.md
-      - linkListType: deploy
-        links:
-          - text: Configuring Privileges in Partner Center
-            url: features/identity/privileges/config/live-privileges-config.md
 #      - linkListType: sample
 #        links:
-      - linkListType: architecture
+      - linkListType: learn
         links:
           - text: Identity
             url: features/identity/live-identity-nav.md
@@ -140,15 +129,9 @@ landingContent:
             url: features/player-data/achievements/live-achievements-eb-vs-tm.md
           - text: Achievement Rewards
             url: features/player-data/achievements/title-managed/concepts/live-achievement-rewards.md
-      - linkListType: deploy
-        links:
-          - text: Portal configuration of title-managed Featured Stats
-            url: features/player-data/stats-leaderboards/featured-stats/config/live-featuredstats-tm-portal.md
-          - text: Configuring title-managed Achievements in Partner Center
-            url: features/player-data/achievements/title-managed/config/live-achievements-tm-config.md
       # - linkListType: sample
       #   links:
-      - linkListType: architecture
+      - linkListType: learn
         links:
           - text: Player Data
             url: features/player-data/live-playerdata-nav.md
@@ -181,15 +164,9 @@ landingContent:
             url: features/social/localized-strings/live-localized-strings-nav.md
           - text: Reputation
             url: features/social/reputation/live-reputation-nav.md
-      - linkListType: deploy
-        links:
-          - text: Configuring Rich Presence strings
-            url: features/social/presence/config/live-presence-config.md
-          - text: Configuring Rich Presence strings in Partner Center
-            url: features/social/presence/config/live-presence-config2.md
       # - linkListType: sample
       #   links:
-      - linkListType: architecture
+      - linkListType: learn
         links:
         - text: Social
           url: features/social/live-social-nav.md
@@ -224,11 +201,9 @@ landingContent:
             url: features/multiplayer/mpsd/concepts/live-game-session-visibility-joinability.md
           - text: Multiplayer session templates
             url: features/multiplayer/mpsd/concepts/live-session-templates.md
-      # - linkListType: deploy
-      #   links:
       # - linkListType: sample
       #   links:
-      - linkListType: architecture
+      - linkListType: learn
         links:
           - text: Multiplayer
             url: features/multiplayer/live-multiplayer-nav.md
@@ -253,13 +228,9 @@ landingContent:
             url: features/cloud-storage/connected-storage/concepts/live-connected-storage-xb-storage.md
           - text: Best practices for Connected Storage
             url: features/cloud-storage/connected-storage/concepts/live-connected-storage-best-practices.md
-      - linkListType: deploy
-        links:
-          - text: Configuring Title Storage in Partner Center
-            url: features/cloud-storage/title-storage/config/live-title-storage-portal-config.md
       # - linkListType: sample
       #   links:
-      - linkListType: architecture
+      - linkListType: learn
         links:
           - text: Title Storage
             url: features/cloud-storage/title-storage/live-title-storage-nav.md
@@ -280,17 +251,9 @@ landingContent:
             url: features/custom-services/web-services/live-web-services-nav.md
           - text: Relying parties
             url: features/custom-services/relying-parties/live-relying-parties-nav.md
-      - linkListType: deploy
-        links:
-          - text: Configuring access policies in Partner Center
-            url: features/custom-services/access-policies/config/live-access-policies-udc.md
-          - text: Configuring single sign-on in Partner Center
-            url: features/custom-services/single-sign-on/live-single-sign-on.md
-          - text: Setting up Web Services at Partner Center
-            url: features/custom-services/web-services/live-web-services.md
       # - linkListType: sample
       #   links:
-      - linkListType: architecture
+      - linkListType: learn
         links:
           - text: Custom services
             url: features/custom-services/live-custom-services-nav.md
@@ -320,12 +283,6 @@ landingContent:
             url: test-release/troubleshooting/live-troubleshooting-apis.md
           - text: Types of error handling
             url: test-release/services-tools/error-handling/live-types-of-error-handling.md
-      - linkListType: deploy
-        links:
-          - text: Portal configuration overview
-            url: test-release/portal-config/live-portal-config-overview.md
-          - text: Sandboxes
-            url: test-release/sandboxes/live-sandboxes-nav.md
       # - linkListType: sample
       #   links:
       - linkListType: download
@@ -334,7 +291,7 @@ landingContent:
             url: test-release/services-tools/live-services-tools-nav.md
           - text: Xbox Live resources, sites, and downloads
             url: test-release/live-sites-downloads.md
-      - linkListType: architecture
+      - linkListType: learn
         links:
           - text: Testing and Releasing
             url: test-release/live-test-release-nav.md
@@ -357,11 +314,9 @@ landingContent:
             url: policies/pc/live-certification-terminology-pc.md
           - text: Recommended Policy Tests
             url: policies/pc/live-policy-tests-pc.md
-      # - linkListType: deploy
-      #   links:
       # - linkListType: sample
       #   links:
-      - linkListType: architecture
+      - linkListType: learn
         links:
           - text: Policies and XRs
             url: policies/live-policies-nav.md
