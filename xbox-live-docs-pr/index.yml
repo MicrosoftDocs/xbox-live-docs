@@ -74,8 +74,8 @@ landingContent:
             url: get-started/live-xbl-overview.md
       - linkListType: concept
         links:
-          - text: Joining a developer program
-            url: get-started/join-dev-program/live-join-dev-program-nav.md
+          - text: Choosing an Xbox Live developer program
+            url: get-started/join-dev-program/live-dev-program-overview.md
           - text: Setting up an IDE
             url: get-started/setup-ide/live-setup-ide-nav.md
       - linkListType: sample
@@ -92,16 +92,16 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: Single Point of Presence (SPOP)
-            url: features/identity/live-single-point-of-presence.md
+          - text: Xbox Authentication Library (XAL) overview
+            url: features/identity/auth/auth-mobile-xal/live-xal-overview.md
       - linkListType: concept
         links:
-          - text: Authentication and sign-in 
-            url: features/identity/auth/live-authentication-nav.md
-          - text: Authentication for mobile projects using XAL
-            url: features/identity/auth/auth-mobile-xal/live-xal-nav.md
-          - text: User Privileges
-            url: features/identity/privileges/live-privileges-nav.md
+          - text: Single Point of Presence (SPOP)
+            url: features/identity/live-single-point-of-presence.md
+          - text: Troubleshooting Xbox Live sign-in
+            url: features/identity/auth/live-troubleshooting-sign-in.md
+          - text: Configuring Privileges in Partner Center
+            url: features/identity/privileges/config/live-privileges-config.md
 #      - linkListType: sample
 #        links:
       - linkListType: learn
