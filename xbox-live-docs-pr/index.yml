@@ -144,26 +144,16 @@ landingContent:
             url: features/social/live-social-overview.md
           - text: Social Manager overview
             url: features/social/social-manager/live-social-manager-overview.md
-          - text: People System (Friends List) overview
-            url: features/social/people-system/live-people-system-overview.md
-          - text: Rich Presence overview
-            url: features/social/presence/live-presence-overview.md
           - text: Reputation overview
             url: features/social/reputation/live-reputation-overview.md
       - linkListType: concept
         links:
-          - text: Social Manager
-            url: features/social/social-manager/live-social-manager-nav.md
-          - text: People System (Friends List)
-            url: features/social/people-system/live-people-system-nav.md
           - text: Displaying people from the People System
             url: features/social/people-system/concepts/live-pplsys-displaying-people.md
-          - text: Rich Presence
-            url: features/social/presence/live-presence-nav.md
-          - text: Localized strings
-            url: features/social/localized-strings/live-localized-strings-nav.md
-          - text: Reputation
-            url: features/social/reputation/live-reputation-nav.md
+          - text: Best practices for Rich Presence
+            url: features/social/presence/concepts/live-presence-best-practices.md
+          - text: Sending Reputation feedback from a title
+            url: features/social/reputation/concepts/live-sending-reputation-feedback.md
       # - linkListType: sample
       #   links:
       - linkListType: learn
