@@ -797,6 +797,12 @@
             "redirect_url": "/gaming/xbox-live/features/multiplayer/live-multiplayer-intro",
             "redirect_document_id": true
         },
+        {
+            "source_path": "xbox-live-docs-pr/multiplayer/multiplayer-scenarios.md",
+            "source_path": "xbox-live-docs-pr/features/multiplayer/concepts/live-common-multiplayer-scenarios.md",
+            "redirect_url": "/gaming/xbox-live/features/multiplayer/live-common-multiplayer-scenarios",
+            "redirect_document_id": true
+        },
         // {
         //     "source_path": "xbox-live-docs-pr/__.md",
         //     "redirect_url": "/gaming/xbox-live/features/multiplayer/concepts/live-multiplayer-concepts-nav",
@@ -820,11 +826,6 @@
         {
             "source_path": "xbox-live-docs-pr/multiplayer/multiplayer-appendix/introduction-to-the-multiplayer-system.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/concepts/live-intro-calling-mp-directly",
-            "redirect_document_id": true
-        },
-        {
-            "source_path": "xbox-live-docs-pr/multiplayer/multiplayer-scenarios.md",
-            "redirect_url": "/gaming/xbox-live/features/multiplayer/concepts/live-common-multiplayer-scenarios",
             "redirect_document_id": true
         },
         {
@@ -1227,11 +1228,11 @@
             "redirect_url": "/gaming/xbox-live/features/cloud-storage/live-connected-storage-vs-title-storage",
             "redirect_document_id": true
         },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/features/cloud-storage/connected-storage/live-connected-storage-nav",
-        //     "redirect_document_id": true
-        // },
+        {
+            "source_path": "xbox-live-docs-pr/storage-platform/connected-storage/connected-storage_nav.md",
+            "redirect_url": "/gaming/xbox-live/features/cloud-storage/connected-storage/live-connected-storage-nav",
+            "redirect_document_id": true
+        },
         {
             "source_path": "xbox-live-docs-pr/storage-platform/connected-storage/connected-storage-overview.md",
             "redirect_url": "/gaming/xbox-live/features/cloud-storage/connected-storage/live-connected-storage-overview",
@@ -1287,11 +1288,11 @@
             "redirect_url": "/gaming/xbox-live/features/cloud-storage/connected-storage/how-to/live-connected-storage-using-buffers",
             "redirect_document_id": true
         },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/features/cloud-storage/title-storage/live-title-storage-nav",
-        //     "redirect_document_id": true
-        // },
+        {
+            "source_path": "xbox-live-docs-pr/storage-platform/xbox-live-title-storage/xbl-title-storage_nav.md",
+            "redirect_url": "/gaming/xbox-live/features/cloud-storage/title-storage/live-title-storage-nav",
+            "redirect_document_id": true
+        },
         {
             "source_path": "xbox-live-docs-pr/storage-platform/xbox-live-title-storage/xbox-live-title-storage.md",
             "redirect_url": "/gaming/xbox-live/features/cloud-storage/title-storage/live-title-storage-overview",
@@ -1362,21 +1363,21 @@
             "redirect_url": "/gaming/xbox-live/features/cloud-storage/title-storage/how-to/live-reading-configuration-blobs",
             "redirect_document_id": true
         },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/features/custom-services/live-custom-services-nav",
-        //     "redirect_document_id": true
-        // },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/features/custom-services/access-policies/live-access-policies-nav",
-        //     "redirect_document_id": true
-        // },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/features/custom-services/access-policies/live-access-policies-overview",
-        //     "redirect_document_id": true
-        // },
+        {
+            "source_path": "xbox-live-docs-pr/features/external-services/external-services_nav.md",
+            "redirect_url": "/gaming/xbox-live/features/custom-services/live-custom-services-nav",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/external-services/access-policies/access-policies_nav.md",
+            "redirect_url": "/gaming/xbox-live/features/custom-services/access-policies/live-access-policies-nav",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/external-services/access-policies/access-policies-overview.md",
+            "redirect_url": "/gaming/xbox-live/features/custom-services/access-policies/live-access-policies-overview",
+            "redirect_document_id": true
+        },
         // {
         //     "source_path": "xbox-live-docs-pr/__.md",
         //     "redirect_url": "/gaming/xbox-live/features/custom-services/access-policies/config/live-access-policies-config-nav",
@@ -1387,21 +1388,21 @@
             "redirect_url": "/gaming/xbox-live/features/custom-services/access-policies/config/live-access-policies-udc",
             "redirect_document_id": true
         },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/features/custom-services/single-sign-on/live-single-sign-on-nav",
-        //     "redirect_document_id": true
-        // },
+        {
+            "source_path": "xbox-live-docs-pr/features/external-services/single-sign-on/single-sign-on_nav.md",
+            "redirect_url": "/gaming/xbox-live/features/custom-services/single-sign-on/live-single-sign-on-nav",
+            "redirect_document_id": true
+        },
         {
             "source_path": "xbox-live-docs-pr/configure-xbl/dev-center/single-sign-on.md",
             "redirect_url": "/gaming/xbox-live/features/custom-services/single-sign-on/live-single-sign-on",
             "redirect_document_id": true
         },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/features/custom-services/web-services/live-web-services-nav",
-        //     "redirect_document_id": true
-        // },
+        {
+            "source_path": "xbox-live-docs-pr/features/external-services/web-services/web-services_nav.md",
+            "redirect_url": "/gaming/xbox-live/features/custom-services/web-services/live-web-services-nav",
+            "redirect_document_id": true
+        },
         {
             "source_path": "xbox-live-docs-pr/configure-xbl/dev-center/web-services.md",
             "redirect_url": "/gaming/xbox-live/features/custom-services/web-services/live-web-services",
@@ -1412,11 +1413,11 @@
         //     "redirect_url": "/gaming/xbox-live/features/custom-services/relying-parties/live-relying-parties-nav",
         //     "redirect_document_id": true
         // },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/features/tcui/live-tcui-nav",
-        //     "redirect_document_id": true
-        // },
+        {
+            "source_path": "xbox-live-docs-pr/features/tcui/tcui_nav.md",
+            "redirect_url": "/gaming/xbox-live/features/tcui/live-tcui-nav",
+            "redirect_document_id": true
+        },
         {
             "source_path": "xbox-live-docs-pr/real-time-activity-service/real-time-activity-service_nav.md",
             "redirect_url": "/gaming/xbox-live/features/rta/live-rta-nav",
@@ -1527,11 +1528,11 @@
             "redirect_url": "/gaming/xbox-live/features/whats-new/archived/live-whats-new-1506",
             "redirect_document_id": true
         },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/test-release/live-test-release-nav",
-        //     "redirect_document_id": true
-        // },
+        {
+            "source_path": "xbox-live-docs-pr/releasing/releasing_nav.md",
+            "redirect_url": "/gaming/xbox-live/test-release/live-test-release-nav",
+            "redirect_document_id": true
+        },
         {
             "source_path": "xbox-live-docs-pr/xbox-live-resources.md",
             "redirect_url": "/gaming/xbox-live/test-release/live-sites-downloads",
@@ -1542,11 +1543,12 @@
             "redirect_url": "/gaming/xbox-live/test-release/portal-config/live-portal-config-nav",
             "redirect_document_id": true
         },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/test-release/portal-config/live-portal-config-overview",
-        //     "redirect_document_id": true
-        // },
+        {
+            "source_path": "xbox-live-docs-pr/configuring-xbox-live-services_nav.md",
+            "source_path": "xbox-live-docs-pr/configure-xbl/windows-dev-center_nav.md",
+            "redirect_url": "/gaming/xbox-live/test-release/portal-config/live-portal-config-overview",
+            "redirect_document_id": true
+        },
         {
             "source_path": "xbox-live-docs-pr/configure-xbl/dev-center/summary.md",
             "redirect_url": "/gaming/xbox-live/test-release/portal-config/live-portal-summary-tab",
@@ -1706,6 +1708,7 @@
         },
         {
             "source_path": "xbox-live-docs-pr/xboxlive-policies.md",
+            "source_path": "xbox-live-docs-pr/policies/policies_nav.md",
             "redirect_url": "/gaming/xbox-live/policies/live-policies-nav",
             "redirect_document_id": true
         },
@@ -1719,66 +1722,66 @@
         //     "redirect_url": "/gaming/xbox-live/policies/pc/live-policies-pc",
         //     "redirect_document_id": true
         // },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/policies/pc/live-certification-terminology-pc",
-        //     "redirect_document_id": true
-        // },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/policies/pc/live-policy-tests-pc",
-        //     "redirect_document_id": true
-        // },
+        {
+            "source_path": "xbox-live-docs-pr/policies/xboxlive-terminology.md",
+            "redirect_url": "/gaming/xbox-live/policies/pc/live-certification-terminology-pc",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/policies/xboxlive-policy-tests.md",
+            "redirect_url": "/gaming/xbox-live/policies/pc/live-policy-tests-pc",
+            "redirect_document_id": true
+        },
         // {
         //     "source_path": "xbox-live-docs-pr/__.md",
         //     "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xrs-nav",
         //     "redirect_document_id": true
         // },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xr013",
-        //     "redirect_document_id": true
-        // },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xr015",
-        //     "redirect_document_id": true
-        // },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xr045",
-        //     "redirect_document_id": true
-        // },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xr048",
-        //     "redirect_document_id": true
-        // },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xr062",
-        //     "redirect_document_id": true
-        // },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xr074",
-        //     "redirect_document_id": true
-        // },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xr132",
-        //     "redirect_document_id": true
-        // },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/api-ref/live-api-reference-nav",
-        //     "redirect_document_id": true
-        // },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/api-ref/xsapi/live-xsapi-nav",
-        //     "redirect_document_id": true
-        // },
+        {
+            "source_path": "xbox-live-docs-pr/policies/xr013.md",
+            "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xr013",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/policies/xr015.md",
+            "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xr015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/policies/xr045.md",
+            "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xr045",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/policies/xr048.md",
+            "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xr048",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/policies/xr062.md",
+            "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xr062",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/policies/xr074.md",
+            "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xr074",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/policies/xr132.md",
+            "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xr132",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/api-reference_nav.md",
+            "redirect_url": "/gaming/xbox-live/api-ref/live-api-reference-nav",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/api-ref/xsapi/xsapi_nav.md",
+            "redirect_url": "/gaming/xbox-live/api-ref/xsapi/live-xsapi-nav",
+            "redirect_document_id": true
+        },
         {
             "source_path": "xbox-live-docs-pr/introduction-to-xbox-live-apis.md",
             "redirect_url": "/gaming/xbox-live/api-ref/xsapi/live-introduction-to-xbox-live-apis",
@@ -1794,16 +1797,16 @@
         //     "redirect_url": "https://docs.microsoft.com/en-us/dotnet/api/?view=xboxlive-dotnet-2017.11.20171204.01",
         //     "redirect_document_id": true
         // },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/api-ref/xal/live-xal-nav",
-        //     "redirect_document_id": true
-        // },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/api-ref/xasync/live-xasync-nav",
-        //     "redirect_document_id": true
-        // },
+        {
+            "source_path": "xbox-live-docs-pr/api-ref/xal/xal_nav.md",
+            "redirect_url": "/gaming/xbox-live/api-ref/xal/live-xal-nav",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/api-ref/xasync/xasync_nav.md",
+            "redirect_url": "/gaming/xbox-live/api-ref/xasync/live-xasync-nav",
+            "redirect_document_id": true
+        },
         {
             "source_path": "xbox-live-docs-pr/flatc-async-patterns.md",
             "redirect_url": "/gaming/xbox-live/api-ref/xsapi/live-flatc-async-patterns",

@@ -210,3 +210,8 @@ This is specifically important for players that are matched during matchmaking t
 QoS is less applicable for invites where friends play together and are usually willing to accept the consequences of a poor connection.
 
 You can configure the session to handle QoS automatically based on specific criteria, or your game can handle measuring the QoS whenever anyone joins the session.
+
+
+### See also
+
+* [Multiplayer overview](../live-multiplayer-intro.md)

@@ -21,6 +21,7 @@ ms.date: 12/11/2018
 | Article | Description |
 |---------|-------------|
 | [Multiplayer overview](live-multiplayer-intro.md) | Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat. |
+| [Common multiplayer scenarios](live-common-multiplayer-scenarios.md) | Which Xbox Live functionality supports various multiplayer scenarios, including Comparative (Indirect) Play, Online Play with friends, Skill-Based Matchmaking, and Tournaments. |
 | [Multiplayer concepts](concepts/live-multiplayer-concepts-nav.md) | Conceptual articles about Xbox Live Multiplayer services. |
 | [Xbox Integrated Multiplayer (XIM)](xim/live-xim-nav.md) | An all-in-one multiplayer/networking/chat solution for Xbox Live games. |
 | [Multiplayer Manager (MPM)](mpm/live-multiplayer-manager-nav.md) | High-level API for adding multiplayer functionality by managing sessions, matchmaking, and game invites. Provides a state- and event-based programming model. |

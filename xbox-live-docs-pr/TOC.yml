@@ -147,7 +147,7 @@
             - name: Authentication and sign-in
               href: features/identity/auth/live-authentication-nav.md
               items: 
-                - name: Authentication for mobile projects using XAL
+                - name: Authentication for projects using XAL
                   href: features/identity/auth/auth-mobile-xal/live-xal-nav.md
                   items: 
                     - name: Xbox Authentication Library (XAL) overview
@@ -385,6 +385,8 @@
           items: 
             - name: Multiplayer overview
               href: features/multiplayer/live-multiplayer-intro.md
+            - name: Common multiplayer scenarios
+              href: features/multiplayer/live-common-multiplayer-scenarios.md
             - name: Multiplayer concepts
               href: features/multiplayer/concepts/live-multiplayer-concepts-nav.md
               items: 
@@ -396,8 +398,6 @@
                   href: features/multiplayer/concepts/live-session-browse.md
                 - name: Intro to calling the Multiplayer service directly
                   href: features/multiplayer/concepts/live-intro-calling-mp-directly.md
-                - name: Common multiplayer scenarios
-                  href: features/multiplayer/concepts/live-common-multiplayer-scenarios.md
                 - name: Configuring the Multiplayer service
                   href: features/multiplayer/concepts/live-configure-the-multiplayer-service.md
                 - name: Multiplayer 2015 FAQ and troubleshooting
