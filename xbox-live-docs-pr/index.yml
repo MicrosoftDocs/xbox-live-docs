@@ -115,12 +115,12 @@ landingContent:
         links:
           - text: Player Data overview
             url: features/player-data/live-playerdata-overview.md
-          - text: Title-managed Achievements overview
-            url: features/player-data/achievements/title-managed/live-achievements-tm-overview.md
           - text: Event-based Stats overview
             url: features/player-data/stats-leaderboards/event-based/live-stats-eb-overview.md
           - text: Title-managed Stats overview
             url: features/player-data/stats-leaderboards/title-managed/live-stats-tm-overview.md
+          - text: Title-managed Achievements overview
+            url: features/player-data/achievements/title-managed/live-achievements-tm-overview.md
       - linkListType: concept
         links:
           - text: Event-based vs. title-managed Stats
@@ -167,10 +167,6 @@ landingContent:
         links:
           - text: Multiplayer overview
             url: features/multiplayer/live-multiplayer-intro.md
-          - text: Multiplayer Manager overview
-            url: features/multiplayer/mpm/live-multiplayer-manager-overview.md
-          - text: Multiplayer Session Directory overview
-            url: features/multiplayer/mpsd/live-mpsd-overview.md
           - text: Invites overview
             url: features/multiplayer/invites/live-multiplayer-invites-overview.md
           - text: Matchmaking overview
@@ -210,10 +206,6 @@ landingContent:
             url: features/cloud-storage/title-storage/live-title-storage-overview.md
       - linkListType: concept
         links:
-          - text: Connected Storage
-            url: features/cloud-storage/connected-storage/live-connected-storage-nav.md
-          - text: Title Storage
-            url: features/cloud-storage/title-storage/live-title-storage-nav.md
           - text: Managing local Connected Storage
             url: features/cloud-storage/connected-storage/concepts/live-connected-storage-xb-storage.md
           - text: Best practices for Connected Storage
@@ -233,12 +225,10 @@ landingContent:
             url: features/custom-services/access-policies/live-access-policies-overview.md
       - linkListType: concept
         links:
-          - text: Access policies
-            url: features/custom-services/access-policies/live-access-policies-nav.md
-          - text: Single sign-on
-            url: features/custom-services/single-sign-on/live-single-sign-on-nav.md
-          - text: Web services
-            url: features/custom-services/web-services/live-web-services-nav.md
+          - text: Configuring single sign-on in Partner Center, for Managed Partners
+            url: features/custom-services/single-sign-on/live-single-sign-on.md
+          - text: Setting up Web Services at Partner Center
+            url: features/custom-services/web-services/live-web-services.md
           - text: Relying parties
             url: features/custom-services/relying-parties/live-relying-parties-nav.md
       # - linkListType: sample
@@ -261,18 +251,12 @@ landingContent:
             url: test-release/services-tools/best-practices/live-best-practices-calling-xbl.md
           - text: Fine-Grained Rate Limiting
             url: test-release/services-tools/best-practices/live-fine-grained-rate-limiting.md
-          - text: Testing on the Xbox console
-            url: test-release/live-testing-on-console.md
           - text: Xbox Live test accounts
             url: test-release/test-accounts/live-test-accounts.md
-          - text: Broadcasting Xbox Live test accounts to Mixer
-            url: test-release/test-accounts/live-test-accounts-broadcast-mixer.md
           - text: Testing on the Xbox One console
             url: test-release/live-testing-on-console.md
           - text: Troubleshooting Xbox Live Services APIs
             url: test-release/troubleshooting/live-troubleshooting-apis.md
-          - text: Types of error handling
-            url: test-release/services-tools/error-handling/live-types-of-error-handling.md
       # - linkListType: sample
       #   links:
       - linkListType: download
@@ -294,10 +278,6 @@ landingContent:
             url: policies/pc/live-policies-pc.md
       - linkListType: concept
         links:
-          - text: Policies and XRs for PC
-            url: policies/pc/live-policies-pc-nav.md
-          - text: Policies and XRs
-            url: policies/live-policies-nav.md
           - text: Policies and XRs for PC and mobile
             url: policies/pc/live-policies-pc-nav.md
           - text: Xbox Live terminology
