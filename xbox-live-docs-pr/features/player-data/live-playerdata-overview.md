@@ -36,7 +36,7 @@ See [Stats & Leaderboards](stats-leaderboards/live-stats-leaderboards-nav.md).
 You can designate certain stats as featured stats.
 Featured stats are shown in your title's GameHub, to compare players against their friends.
 
-See [Featured Stats](stats-leaderboards\featured-stats\live-featured-stats-nav.md).
+See [Featured Stats](stats-leaderboards/featured-stats/live-featured-stats-nav.md).
 
 
 ## Achievements

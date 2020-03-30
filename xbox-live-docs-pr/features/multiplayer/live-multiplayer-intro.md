@@ -71,14 +71,7 @@ In-game communication can be added with the [Game Chat](chat/live-chat-nav.md) A
 <!-- public: break into two sentences or bullet points: one about networking, one about Game Chat:-->
 The networking and Game Chat 2 APIs are documented in the Xbox One XDK and the Xbox Live Platform Extensions SDK.
 
-See [Game Chat overview](chat\live-game-chat-2-overview.md).
-
-
-
-
-
-
-
+See [Game Chat overview](chat/live-game-chat-2-overview.md).
 
 
 #### Servers and tournaments
@@ -114,4 +107,4 @@ Game chat               | XIM provides integrated voice and text chat. | In-game
 ### See also
 
 * [Multiplayer concepts overview](concepts/live-multiplayer-concepts.md)
-* [Invites overview](live-multiplayer-invites-overview.md)
+* [Invites overview](invites/live-multiplayer-invites-overview.md)
