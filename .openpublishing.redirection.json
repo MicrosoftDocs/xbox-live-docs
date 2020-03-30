@@ -399,11 +399,11 @@
             "redirect_url": "/gaming/xbox-live/features/identity/privileges/live-privileges-nav",
             "redirect_document_id": true
         },
-        {
-            "source_path": "xbox-live-docs-pr/configure-xbl/dev-center/privileges.md",
-            "redirect_url": "/gaming/xbox-live/features/identity/privileges/config/live-privileges-config-nav",
-            "redirect_document_id": true
-        },
+        // {
+        //     "source_path": "xbox-live-docs-pr/__.md",
+        //     "redirect_url": "/gaming/xbox-live/features/identity/privileges/config/live-privileges-config-nav",
+        //     "redirect_document_id": true
+        // },
         {
             "source_path": "xbox-live-docs-pr/configure-xbl/dev-center/privileges.md",
             "redirect_url": "/gaming/xbox-live/features/identity/privileges/config/live-privileges-config",
