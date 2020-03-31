@@ -1,10 +1,10 @@
 ---
 title: Title-callable UI (TCUI)
 description: Title-callable UI (TCUI) enables your game code to call pre-defined user interface displays.
-ms.date: 02/08/2019
+kindex: Title-callable UI (TCUI)
 ms.topic: article
-keywords: xbox live, xbox, games, windows 10, xbox one
 ms.localizationpriority: medium
+ms.date: 02/08/2019
 ---
 
 # Title-callable UI (TCUI)
@@ -28,7 +28,7 @@ TCUI provides the following functions.
 | Function | Description |
 |---------|-------------|
 | `ShowProfileCardForUserAsync` | Show me-view or you-view profile card for a specific profile. |
-| `ShowComposeInvitationForUserAsync` | Show list of user’s friends to select as invite recipients, then send the invite. Could potentially show other lists to choose from. |
+| `ShowComposeInvitationForUserAsync` | Show list of user's friends to select as invite recipients, then send the invite. Could potentially show other lists to choose from. |
 | `ShowPeoplePickerForUserAsync` | Get the user to choose a set of people from a list—either their friends list or a list provided by the game.  The selected list is returned to the game. |
 | `ShowChangeFriendRelationshipForUserAsync` | Allow the user to add/favorite/remove another profile as a friend.  Can also be invoked from Profile Card. |
 | `ShowTitleAchievementsForUserAsync` | Show the Achievement list for a specific title.  Can pivot to show Stats. |

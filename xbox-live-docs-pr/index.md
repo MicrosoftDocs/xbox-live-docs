@@ -1,21 +1,24 @@
 ---
-layout: LandingPage
 title: Xbox Live documentation
-author: mikehoffms
 description: Xbox Live is a premier gaming network that connects millions of gamers across the world.
-ms.author: v-mihof
-ms.date: 12/11/2018
+kindex: Xbox Live documentation
+kindex: Windows 10
+kindex: UWP
+kindex: games
+layout: LandingPage
 ms.topic: article
 ms.prod: xboxlive
-keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
+author: mikehoffms
+ms.author: v-mihof
+ms.date: 12/11/2018
 ---
 
 <h1>Xbox Live documentation</h1>
 
 <p>
   Xbox Live is a premier gaming network that connects millions of gamers across the world.
-  You can add Xbox Live to your Windows 10 PC, Xbox One, or mobile game in order to take advantage of the Xbox Live features and services.
+  You can add Xbox Live to your Windows 10 PC, Xbox, or mobile game in order to take advantage of the Xbox Live features and services.
 </p>
 
 <ul class="cardsY panelContent cols cols2">

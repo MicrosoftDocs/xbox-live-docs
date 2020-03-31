@@ -1,11 +1,11 @@
 ---
 title: Rich Presence appendix
 description: Using stats from the Player Data in Rich Presence strings.
-ms.assetid: 626c1661-3be9-49e4-a5ce-d3f5abd79a9b
-ms.date: 04/04/2017
+kindex: Rich Presence appendix
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
+ms.assetid: 626c1661-3be9-49e4-a5ce-d3f5abd79a9b
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Rich Presence appendix

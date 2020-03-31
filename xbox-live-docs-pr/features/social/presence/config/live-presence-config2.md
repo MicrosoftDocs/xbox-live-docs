@@ -1,10 +1,12 @@
 ---
 title: Configuring Rich Presence strings in Partner Center
 description: Configuring Rich Presence strings in Partner Center, to show what a user is currently doing within a game.
-ms.date: 02/27/2018
+kindex: Configuring Rich Presence strings in Partner Center
+kindex: Rich Presence strings
+kindex: Partner Center
 ms.topic: article
 ms.localizationpriority: medium
-keywords: Xbox Live, Xbox, games, uwp, windows 10, Xbox one, Rich Presence strings, Partner Center
+ms.date: 02/27/2018
 ---
 
 # Configuring Rich Presence strings in Partner Center
@@ -62,7 +64,7 @@ From this page you can configure new strings as well as edit and review your con
 ![Example Rich Presence string Config Page](live-presence-config2-images/RichPresence_ConfigPage_New.JPG)
 
 > [!NOTE]
-> Strings like "Playing Net Runner - Multiplayer deathmatch on Moon Base with 10 kills.” is not available with title-managed Player Data. Event-based Player Data *Variables* are unavailable with title-managed Player Data. The variable in this case is the number of kills "10". The equivalent string after the title-managed Player Data update would be "Playing Net Runner - Multiplayer deathmatch on Moon Base." “Playing Net Runner - In the menus” is still a valid Rich Presence string.
+> Strings like "Playing Net Runner - Multiplayer deathmatch on Moon Base with 10 kills." is not available with title-managed Player Data. Event-based Player Data *Variables* are unavailable with title-managed Player Data. The variable in this case is the number of kills "10". The equivalent string after the title-managed Player Data update would be "Playing Net Runner - Multiplayer deathmatch on Moon Base." "Playing Net Runner - In the menus" is still a valid Rich Presence string.
 
 
 ## Create a new Rich Presence string

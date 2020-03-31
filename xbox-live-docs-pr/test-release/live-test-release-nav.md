@@ -108,12 +108,12 @@ Differentiate sentences for the two Policies cards
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_continuous-testing.svg" alt="Testing on the Xbox One console"/>
+                                <img src="https://docs.microsoft.com/media/common/i_continuous-testing.svg" alt="Testing on the Xbox console"/>
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Testing on the Xbox One console</h3>
-                            <p>Testing Xbox Live services on the Xbox One console.</p>
+                            <h3>Testing on the Xbox console</h3>
+                            <p>Testing Xbox Live services on the Xbox console.</p>
                         </div>
                     </div>
                 </div>

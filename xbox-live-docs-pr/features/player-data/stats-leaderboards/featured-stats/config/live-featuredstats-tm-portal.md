@@ -7,8 +7,7 @@ kindex: Xbox Live, event-based Featured Stats
 author: v-mihof
 ms.author: v-mihof
 ms.topic: conceptual
-ms.prod: xboxlive
-ms.technology: 
+ms.localizationpriority: medium
 ---
 
 # Portal configuration of title-managed Featured Stats

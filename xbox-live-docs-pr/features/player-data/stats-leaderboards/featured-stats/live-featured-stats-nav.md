@@ -7,6 +7,7 @@ author: v-mihof
 ms.author: v-mihof
 ms.topic: conceptual
 ms.prod: xboxlive
+ms.localizationpriority: medium
 ---
 
 # Featured Stats

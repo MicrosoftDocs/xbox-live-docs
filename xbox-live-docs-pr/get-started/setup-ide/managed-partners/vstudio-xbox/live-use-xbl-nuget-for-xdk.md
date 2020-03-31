@@ -1,11 +1,12 @@
 ---
 title: Use the Xbox Live API NuGet package to develop XDK titles
 description: Using the Xbox Live API NuGet package to develop XDK titles.
-ms.assetid: 2c5ae514-393d-48bb-afd8-a897d35f7938
-ms.date: 04/04/2017
+kindex: Use the Xbox Live API NuGet package to develop XDK titles
+kindex: NuGet
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, NuGet
+ms.assetid: 2c5ae514-393d-48bb-afd8-a897d35f7938
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Use the Xbox Live API NuGet package to develop XDK titles
@@ -13,15 +14,15 @@ ms.localizationpriority: medium
 
 ## 1. Ensure you have the latest NuGet Package Manager installed
 
-1.	Check your current version:
-	- On the menu bar, select Tools-> Extensions and Updates.
-	- Under the Installed tab,  look for `NuGet Package Manager`
+1.    Check your current version:
+    - On the menu bar, select Tools-> Extensions and Updates.
+    - Under the Installed tab,  look for `NuGet Package Manager`
 
 ![Nuget Package Manager for Visual Studio screenshot under Extensions and Updates in Visual Studio](live-use-xbl-nuget-for-xdk-images/nuget_uwp_install_1.png)
 
-2.	To update your current version:
-	- On the menu bar, select Tools-> Extensions and Updates.
-	- Under the Updates->Visual Studio Gallery tab, select `Update`
+2.    To update your current version:
+    - On the menu bar, select Tools-> Extensions and Updates.
+    - Under the Updates->Visual Studio Gallery tab, select `Update`
 
 ![NugetPackge for Visual Studio Update screenshot](live-use-xbl-nuget-for-xdk-images/nuget_uwp_install_2.png)
 
@@ -30,15 +31,15 @@ ms.localizationpriority: medium
 
 Add a reference to the project:
 
-1.	Right-click on your project solution and select "Manage NuGet Packages".
+1.    Right-click on your project solution and select "Manage NuGet Packages".
 
 ![Manage NuGet Packages in Solution Explorer menu screenshot](live-use-xbl-nuget-for-xdk-images/nuget_xbox_install_4.png)
 
-2.	Search for `Xbox Live` and select the appropriate package and click `Install`.
+2.    Search for `Xbox Live` and select the appropriate package and click `Install`.
 
   - The Xbox Services API comes in flavors for both UWP and XDK, and for C++ and WinRT.  
 
-  - Choose between `Microsoft.Xbox.Live.SDK.*.UWP` and `Microsoft.Xbox.Live.SDK.*.XboxOneXDK`.  `XboxOneXDK` is for Managed Partners who are using the Xbox One XDK.  `UWP` is for UWP games which can run on either PC, the Xbox One, or Windows Phone.  You can read more about running UWP on Xbox One at [https://docs.microsoft.com/windows/uwp/xbox-apps/getting-started](https://docs.microsoft.com/windows/uwp/xbox-apps/getting-started)
+  - Choose between `Microsoft.Xbox.Live.SDK.*.UWP` and `Microsoft.Xbox.Live.SDK.*.XboxOneXDK`.  `XboxOneXDK` is for Managed Partners who are using the Xbox One XDK.  `UWP` is for UWP games, which can run on either PC, Xbox One (or later) consoles, or Windows Phone.  You can read more about running UWP on Xbox One (or later) at [https://docs.microsoft.com/windows/uwp/xbox-apps/getting-started](https://docs.microsoft.com/windows/uwp/xbox-apps/getting-started)
 
   - Choose between `Microsoft.Xbox.Live.SDK.Cpp.*` and `Microsoft.Xbox.Live.SDK.WinRT.*`. `Cpp` is for C++ game engines using the Xbox Live APIs.  `WinRT` is for game engines written with C++, C#, or Javascript using the Xbox Live APIs.  When using WinRT with a C++ engine, you would use C++/CX which uses hats (^).  `Cpp` is the recommended API to use for C++ game engines.
 

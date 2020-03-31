@@ -1,12 +1,12 @@
 ---
 title: Authorization Types
 description: Authorization Types.
+kindex: Authorization Types
 assetID: 9e4d41ee-9078-7d3f-9393-20c88c20c4fd
 permalink: en-us/docs/xboxlive/rest/authorizationtypes.html
-ms.date: 10/12/2017
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
+ms.date: 10/12/2017
 ---
 
 # Authorization Types

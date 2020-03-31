@@ -1,15 +1,16 @@
 ---
 title: XIM how-to's
 description: Example code for Xbox Integrated Multiplayer.
+kindex: XIM how-to's
+kindex: Xbox Integrated Multiplayer
 layout: LandingPage
 author: mikehoffms
 ms.author: v-mihof
-ms.date: 12/06/2018
 ms.topic: navigation
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, xbox integrated multiplayer
 ms.localizationpriority: medium
+ms.date: 12/06/2018
 ---
 
 # XIM how-to's

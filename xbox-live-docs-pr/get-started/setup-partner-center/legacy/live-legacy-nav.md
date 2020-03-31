@@ -1,12 +1,13 @@
 ---
 title: Legacy articles about Partner Center setup
 description: Older articles about Partner Center setup.
+kindex: Legacy articles about Partner Center setup
+kindex: test accounts
 layout: LandingPage
+ms.topic: article
+ms.localizationpriority: medium
 author: mikehoffms
 ms.date: 01/24/2019
-ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, test account
-ms.localizationpriority: medium
 ---
 
 # Legacy articles about Partner Center setup

@@ -8,6 +8,7 @@ ms.author: v-mihof
 ms.topic: navigation
 ms.prod: gaming
 ms.technology: xboxlive
+ms.localizationpriority: medium
 edited: 12/18/2019
 ---
 

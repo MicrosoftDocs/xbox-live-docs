@@ -1,13 +1,13 @@
 ---
-layout: LandingPage
 title: API Reference
-author: mikehoffms
 description: Xbox Live API reference, including Xbox Services API (XSAPI), WinRT, Xbox Authentication Library (XAL), XAsync, and RESTful APIs.
+kindex: API Reference
+layout: LandingPage
+ms.topic: article
+ms.localizationpriority: medium
+author: mikehoffms
 ms.author: v-mihof
 ms.date: 12/12/2018
-ms.topic: article
-keywords: windows 10, uwp, games, xbox, xbox live
-ms.localizationpriority: medium
 ---
 
 <h1>API Reference</h1>

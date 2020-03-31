@@ -1,10 +1,13 @@
 ---
 title: The XboxServices.config file for UWP games
 description: The XboxServices.config file associates your UWP game with an Xbox Live configuration.
-ms.date: 03/29/2018
+kindex: The XboxServices.config file for UWP games
+kindex: UWP
+kindex: service configuration
+kindex: xboxservices.config
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, service configuration, xboxservices.config
 ms.localizationpriority: medium
+ms.date: 03/29/2018
 ---
 
 # The XboxServices.config file for UWP games

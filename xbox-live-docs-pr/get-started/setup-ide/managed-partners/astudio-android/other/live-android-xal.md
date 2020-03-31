@@ -1,12 +1,16 @@
 ---
 title: Setting up Visual Studio for XAL login on Android
 description: Setting up Visual Studio to sign-in to Xbox Live with an Android project.
+kindex: Setting up Visual Studio for XAL login on Android
+kindex: authentication
+kindex: sign-in
+kindex: XAL login
+kindex: Android, login
+ms.topic: article
+ms.localizationpriority: medium
 author: aablackm
 ms.author: aablackm
 ms.date: 08/30/2018
-ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, authentication, sign-in
-ms.localizationpriority: medium
 ---
 
 # Setting up Visual Studio for XAL login on Android

@@ -1,13 +1,14 @@
 ---
 title: Multiplayer session templates
 description: A multiplayer session template is a blueprint that is used to create a multiplayer session.
-ms.assetid: 178c9863-0fce-4e6a-9147-a928110b53a2
-ms.date: 04/04/2017
+kindex: Multiplayer session templates
+kindex: session template
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, session template
+ms.assetid: 178c9863-0fce-4e6a-9147-a928110b53a2
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Multiplayer session templates
@@ -98,7 +99,7 @@ You can then copy and paste the template into your service configuration, potent
 You can use the following template as a starter template to create a lobby session for your game:
 
 * Change the `maxMembersCount` value to the maximum number of players that you want to support in your lobby session.
-* If your title does not support players from different platforms (such as an Xbox One and a PC) playing together, you can remove the `crossPlay` element.
+* If your title does not support players from different platforms, such as an Xbox One (or later) console and a PC playing together, you can remove the `crossPlay` element.
 * You can change the other values as well, but the following values are good values to start with if you're not sure what you need.
 
 ```json
@@ -339,9 +340,9 @@ This template is not intended to be used to configure a game session.
 ```
 
 
-#### Session template for crossplay between Xbox One and Windows 10
+#### Session template for crossplay between Xbox and Windows 10
 
-Use this template to enable crossplay multiplayer between Xbox One and Windows 10.
+Use this template to enable crossplay multiplayer between Xbox One (or later) and Windows 10.
 
 * The optional `crossPlay` capability signifies that your title supports interactions such as invites and join-in-progress between platforms.
 

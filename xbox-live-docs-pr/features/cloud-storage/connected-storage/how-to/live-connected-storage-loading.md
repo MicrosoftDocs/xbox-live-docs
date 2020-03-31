@@ -1,11 +1,12 @@
 ---
 title: Loading data with Connected Storage
 description: Code examples using Connected Storage to read data by calling ReadAsync or GetAsync.
-ms.assetid: c660a456-fe7d-453a-ae7b-9ecaa2ba0a15
-ms.date: 02/27/2018
+kindex: Loading data with Connected Storage
+kindex: connected storage
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, connected storage
+ms.assetid: c660a456-fe7d-453a-ae7b-9ecaa2ba0a15
 ms.localizationpriority: medium
+ms.date: 02/27/2018
 ---
 
 # Loading data with Connected Storage
@@ -97,13 +98,13 @@ void OnLoadCompleted(IAsyncAction^ action, Windows::Foundation::AsyncStatus stat
 }
 ```
 
-You can find the XDK Connected Storage APIs documented in the XDK .chm file under the path:  
-**Xbox ONE XDK >> API Reference >> Platform API Reference >> System API Reference >> Windows.Xbox.Storage**
+You can find the XDK Connected Storage APIs documented in `XboxOneXDK.chm` under the path:  
+**Xbox One XDK >> API Reference >> Platform API Reference >> System API Reference >> Windows.Xbox.Storage**
 
 The XDK APIs are also documented on the [developer.microsoft.com site](https://developer.microsoft.com/games/xbox/docs/xdk/storage-xbox-microsoft-n).
 The link to XDK APIs requires that you have a Microsoft Account(MSA) that has been enabled for Xbox Developer Kit(XDK) access.
 
-`Windows.Xbox.Storage` is the name of the Connected Storage namespace for Xbox One consoles.
+`Windows.Xbox.Storage` is the name of the Connected Storage namespace for Xbox One (or later) consoles.
 
 
 ## C# UWP sample
@@ -137,7 +138,7 @@ GameSaveProviderGetResult gameSaveTask = await GameSaveProvider.GetForUserAsync(
 
 if(gameSaveTask.Status == GameSaveErrorStatus.Ok)
 {
-	gameSaveProvider = gameSaveTask.Value;
+    gameSaveProvider = gameSaveTask.Value;
 }
 else
 {

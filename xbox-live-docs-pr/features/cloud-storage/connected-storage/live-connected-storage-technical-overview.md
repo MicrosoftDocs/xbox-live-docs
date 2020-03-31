@@ -1,22 +1,23 @@
 ---
 title: Technical overview of Connected Storage
 description: The inner workings of Connected Storage.
-ms.assetid: a0bacf59-120a-4ffc-85e1-fbeec5db1308
-ms.date: 02/27/2018
+kindex: Technical overview of Connected Storage
+kindex: connected storage
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, connected storage
+ms.assetid: a0bacf59-120a-4ffc-85e1-fbeec5db1308
 ms.localizationpriority: medium
+ms.date: 02/27/2018
 ---
 # Technical overview of Connected Storage
 
 > [!NOTE]
-> This document was originally written for Managed Partner Xbox One developers. Some of the Xbox One-specific content like Local and Title storage can be ignored for UWP on Windows.  The conceptual content and API in this document are still relevant.  Contact your Microsoft representative (if applicable) with any questions.
+> This document was originally written for Managed Partner Xbox One developers. Some of the Xbox console-specific content like Local and Title storage can be ignored for UWP on Windows.  The conceptual content and API in this document are still relevant.  Contact your Microsoft representative (if applicable) with any questions.
 
-The storage and save models on Xbox One are much different from those on Xbox 360; Xbox One has a more flexible application model that supports fast application switching, multiple simultaneous applications, and quick suspend and resume of apps.
+The storage and save models on Xbox One (or later) are much different from those on Xbox 360; Xbox One has a more flexible application model that supports fast application switching, multiple simultaneous applications, and quick suspend and resume of apps.
 Data stored by using the Connected Storage API automatically roams for users across multiple Xbox One consoles, and is also available for use offline.
 
 This article covers:
--   Using the Connected Storage API to store saved games and app data on Xbox One.
+-   Using the Connected Storage API to store saved games and app data on Xbox One (or later).
 -   Best practices for the design of app save systems, so that they integrate well with the user experience benefits provided by the Xbox One application model.
 -   How the connected storage system maximizes the speed with which your app can save data
 -   How the system handles data synchronization and data conflicts from multiple consoles without requiring app UI.
@@ -30,7 +31,7 @@ This article covers:
 
 The Xbox One application model allows users to use multiple apps at once, which means your app can't ask a user to wait for data to be saved before turning off the console or moving on to another app.
 
-Xbox One users will also enjoy having their data roam automatically across consoles so that every Xbox One console feels like their own console.
+Xbox One (or later) users will also enjoy having their data roam automatically across consoles so that every Xbox One console feels like their own console.
 
 The Xbox One platform provides the Connected Storage API to help your app satisfy these requirements.
 
@@ -116,7 +117,7 @@ For more information about the Xbox One app model, see the following resources:
 
 ### Storage options on Xbox One
 
-Xbox One provides several storage options, each with its own benefits and constraints.
+Xbox One (or later) provides several storage options, each with its own benefits and constraints.
 Apps may need to use a combination of options depending on the apps' requirements.
 
 
@@ -124,7 +125,7 @@ Apps may need to use a combination of options depending on the apps' requirement
 
 Connected storage is designed to help apps save Xbox One gameplay data and other relevant app states-data that should roam between consoles.
 
-The Connected Storage API, specific to Xbox One, assists with saving and uploading that data.
+The Connected Storage API, specific to Xbox One (or later), assists with saving and uploading that data.
 The API works in combination with the Xbox One application model.
 
 The Connected Storage API provides the following features:
@@ -156,7 +157,7 @@ The Title Storage service offers a cross-platform REST API for data storage with
 
 Requirements for using the service:
 
--   Xbox One console must be online in order to access the service
+-   The Xbox One (or later) console must be online in order to access the service
 -   All service interactions must be completed while the app is running; data transfer is not completed automatically in the background.
 
 For more information, see *Xbox Live Title Storage*, in the XDK documentation.
@@ -249,7 +250,7 @@ The system continuously transfers data from the 16 MB buffer to the hard drive, 
 ![Asynchronous update diagram](../../../images/connected_storage/submitupdatesasync_behavior.png)
 Uploading to the cloud happens in a similar way: Individual blobs are uploaded to the service, and the update operation is committed by a final update to a container file that references all the other uploaded blobs.
 In an upload to the cloud, this consolidation into a single and final update ensures that all data referenced in a **SubmitUpdatesAsync** call is either committed in its entirety or the container is left unchanged.
-In this way, even if a system goes offline or loses power during an upload operation, a user could go to another Xbox One console, download data from the cloud, and continue play with a consistent view of all containers.
+In this way, even if a system goes offline or loses power during an upload operation, a user could go to another Xbox One (or later) console, download data from the cloud, and continue play with a consistent view of all containers.
 
 > [!IMPORTANT]
 > Data dependencies across containers are not safe.  The results of individual *SubmitUpdatesAsync* calls are guaranteed to be applied entirely, or not at all.
@@ -390,7 +391,7 @@ It's important to understand the characteristics of the system based on these ex
 -   Container listing, comparison, and merger logic
 -   Container download
 
-When your app requests access to a connected storage space, the system performs a synchronizing process to keep the user's saved data in a consistent state across Xbox One consoles and to make his or her data available for offline play.
+When your app requests access to a connected storage space, the system performs a synchronizing process to keep the user's saved data in a consistent state across Xbox One (or later) consoles and to make the user's data available for offline play.
 Because synchronizing can take varying amounts of time and might require the user to make decisions, the system might display UI to the user at various stages of the process.
 
 The user can navigate away from your app by pressing the Xbox button at any time, even if synchronization UI is active.
@@ -508,7 +509,7 @@ Two tools will help you with developing your app's use of connected storage: XbS
 
 ### Managing connected storage with XbStorage
 
-XbStorage is a development tool that enables managing the local connected storage data on an Xbox One development kit from a development PC.
+XbStorage is a development tool that enables managing the local connected storage data on an Xbox One (or later) development kit from a development PC.
 
 The tool allows clearing local connected storage spaces from the hard drive, as well as importing and exporting individual user- or machine-connected storage spaces by using XML files.
 
@@ -529,7 +530,9 @@ For more information about XbStorage, see *Manage Connected Storage (xbstorage.e
 
 It can be helpful to determine whether your console is interacting with the service when cloud storage operations are performed.
 Using Fiddler can help determine whether your console is making calls to the service successfully or if it is encountering authorization errors.
-For information about setting up Fiddler on an Xbox One, see *How to use Fiddler with Xbox One*, in the XDK documentation.
+For information about setting up Fiddler on an Xbox One (or later) console, see *How to use Fiddler with Xbox One*, in the XDK documentation.
+
+See also [Using Fiddler to inspect web service calls](../../../test-release/services-tools/live-fiddler-inspect-web-calls.md).
 
 
 ## Resources

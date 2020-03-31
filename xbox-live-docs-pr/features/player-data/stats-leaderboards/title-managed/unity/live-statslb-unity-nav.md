@@ -6,8 +6,7 @@ kindex: Stats & Leaderboards with Unity
 author: v-mihof
 ms.author: v-mihof
 ms.topic: conceptual
-ms.prod: xboxlive
-ms.technology: 
+ms.localizationpriority: medium
 ---
 
 # Stats & Leaderboards with Unity

@@ -1,9 +1,13 @@
 ---
 title: Easy sign-in with the PlayerAuthentication prefab
 description: Overview of the Unity Plugin PlayerAuthentication Prefab.
-ms.date: 05/08/2018
+kindex: Easy sign-in with the PlayerAuthentication prefab
+kindex: Unity
+kindex: PlayerAuthentication prefab
+kindex: prefab, PlayerAuthentication
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity
+ms.localizationpriority: medium
+ms.date: 05/08/2018
 ---
 
 # Easy sign-in with the PlayerAuthentication prefab
@@ -38,11 +42,11 @@ The PlayerAuthentication prefab's script has a few settings that you can manipul
 
 ## Multiplayer sign-in
 
-In addition to single player sign-in, you can also use multiple PlayerAuthentication prefabs to implement local multiplayer on Xbox One console titles.
+In addition to single player sign-in, you can also use multiple PlayerAuthentication prefabs to implement local multiplayer on Xbox One (or later) console titles.
 By adding multiple instances of the prefab and changing the Player Number attribute of each, you can sign-in multiple users to your title.
 
 > [!WARNING]
-> Signing-in multiple gamertags is not allowed on Windows 10 PCs. In order to sign in multiple users you will need to test your game on an Xbox One Console.
+> Signing-in multiple gamertags is not allowed on Windows 10 PCs. In order to sign in multiple users you will need to test your game on an Xbox console.
 
 Creating a scene that allows multiplayer is only marginally more difficult using the PlayerAuthentication prefab:
 

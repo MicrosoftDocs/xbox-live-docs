@@ -1,13 +1,14 @@
 ---
 title: Multiplayer Session Directory overview
 description: Enables a title to share the information needed to connect a group of users, to create a multiplayer session.
-ms.assetid: a9b029ea-4cc1-485a-8253-e1c74184f35e
-ms.date: 04/04/2017
+kindex: Multiplayer Session Directory overview
+kindex: MPSD
 ms.topic: overview
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, mpsd, multiplayer session directory.
+ms.assetid: a9b029ea-4cc1-485a-8253-e1c74184f35e
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Multiplayer Session Directory overview
@@ -332,7 +333,7 @@ The tool is intended only to be used for development sandboxes.
 |---|
 | To use the tool, you must be signed in. Your browsing is limited to sessions that have the signed-in user as a member. |
 
-To access Multiplayer Session Explorer, open Internet Explorer on your Xbox One, press the **View** button, and enter <https://sessiondirectory.xboxlive.com/debug> in the **Address** field.
+To access Multiplayer Session Explorer, open Internet Explorer on your Xbox One (or later) console, press the **View** button, and enter <https://sessiondirectory.xboxlive.com/debug> in the **Address** field.
 
 | Note |
 |---|

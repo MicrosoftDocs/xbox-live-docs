@@ -7,6 +7,7 @@ ms.author: jeffshi
 ms.topic: navigation
 ms.prod: gaming
 ms.technology: xboxlive
+ms.localizationpriority: medium
 ---
 
 # Title-managed Achievements concepts

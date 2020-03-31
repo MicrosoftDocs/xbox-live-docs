@@ -1,11 +1,12 @@
 ---
 title: Add XBL support to Unity for XDK, with IL2CPP scripting
 description: Add Xbox Live support to Unity for XDK with IL2CPP scripting backend, for Managed Partners.
-ms.assetid: 790a49ad-eff4-4916-8578-968ca8483211
-ms.date: 04/04/2017
+kindex: Add XBL support to Unity for XDK, with IL2CPP scripting
+kindex: Unity
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, Unity
+ms.assetid: 790a49ad-eff4-4916-8578-968ca8483211
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Add XBL support to Unity for XDK, with IL2CPP scripting
@@ -25,6 +26,7 @@ To get started, see [Windows Runtime support](https://docs.unity3d.com/Manual/IL
 **1) Install Unity**
 
 Install Unity 5.6 or higher, and ensure you have the Xbox One editor extension installed.
+The Xbox One editor extension is used for Xbox One and later consoles.
 
 
 **2) Install Visual Studio Tools for Unity version 3.1 and above for IntelliSense support when using WinMDs**
@@ -48,7 +50,9 @@ For Visual Studio 2017, the component can be added inside the Visual Studio 2017
 **6) Switch the Script Compiler to Roslyn**
 
 
-**7) The Xbox One appropriate system libraries will all be added automatically to your project, and no extra steps are needed to include the platform binaries.**
+**7) The Xbox One-appropriate system libraries will all be added automatically to your project, and no extra steps are needed to include the platform binaries.**
+
+These libraries are for Xbox One or later.
 
 
 **8) Add and attach a new C\# script to a Unity object.**
@@ -106,7 +110,7 @@ public class XboxLiveTest : MonoBehaviour
 
 ```
 
-**11)	Make sure you have 'InternetClient' capability selected in the publishing settings found in player settings**
+**11)    Make sure you have 'InternetClient' capability selected in the publishing settings found in player settings**
 
 ![Unity Player settings to enable InternetClient screenshot](live-partner-unity-xdk-il2cpp-images/unity-il2cpp-3.png)
 

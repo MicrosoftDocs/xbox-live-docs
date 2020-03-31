@@ -1,11 +1,12 @@
 ---
 title: Add XBL support to Unity for UWP, with IL2CPP scripting
 description: Add Xbox Live support to Unity for UWP with IL2CPP scripting backend, for Managed Partners.
-ms.assetid: 790a49ad-eff4-4916-8578-968ca8483211
-ms.date: 04/04/2017
+kindex: Add XBL support to Unity for UWP, with IL2CPP scripting
+kindex: Unity
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, Unity
+ms.assetid: 790a49ad-eff4-4916-8578-968ca8483211
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Add XBL support to Unity for UWP, with IL2CPP scripting
@@ -117,7 +118,7 @@ public class XboxLiveTest : MonoBehaviour
 
 ```
 
-**10)	Make sure you have 'InternetClient' capability selected in the publishing settings found in player settings**
+**10)    Make sure you have 'InternetClient' capability selected in the publishing settings found in player settings**
 
 ![Unity Player settings to enable InternetClient screenshot](live-partner-unity-uwp-il2cpp-images/unity-il2cpp-3.png)
 
@@ -132,7 +133,7 @@ public class XboxLiveTest : MonoBehaviour
 
 4.  In the UWP build type combo box, choose "D3D", but "XAML" will also work if you prefer.
 
-5.  Click "Build" for Unity to generate the UWP Visual Studio project that wraps your Unity game in a UWP application. When you get prompted for a location, create a new folder to avoid confusion since a lot of new files will be created. It’s recommended you call the folder "Build", and then select that folder.
+5.  Click "Build" for Unity to generate the UWP Visual Studio project that wraps your Unity game in a UWP application. When you get prompted for a location, create a new folder to avoid confusion since a lot of new files will be created. It's recommended you call the folder "Build", and then select that folder.
 
 
 **12) Add Xbox Live configuration to your project**

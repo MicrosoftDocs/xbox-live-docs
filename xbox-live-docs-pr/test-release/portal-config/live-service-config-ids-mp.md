@@ -2,8 +2,8 @@
 title: Xbox Live service configuration IDs, for Managed Partners
 description: Setting up Xbox Live service configuration for your game, for Managed Partners.
 kindex: Xbox Live service configuration IDs, for Managed Partners
+kindex: service configuration
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, service configuration
 ms.localizationpriority: medium
 ms.assetid: 631c415b-5366-4a84-ba4f-4f513b229c32
 ms.date: 04/04/2017
@@ -52,21 +52,21 @@ You use Partner Center to configure UWP titles for all kinds of requirements, in
 1. You are using Arena.
 2. You have existing users, groups, and permissions set up on Partner Center.
 3. You are using tools on Partner Center such as the Tournaments Tool or Multiplayer Session Directory session history viewer.
-4. You are developing a title that will have cross-platform play between an Xbox One XDK based game and UWP PC/mobile version of the same game.
+4. You are developing a title that will have cross-platform play between an Xbox One (or later) XDK-based game and UWP PC/mobile version of the same game.
 
 See below for how to use Partner Center to configure a UWP title.
 
 
-### Cross-play between Xbox One and PC/Mobile games ###
+### Cross-play between Xbox and PC/Mobile games ###
 
-Cross-device gaming between the Xbox One and the PC, known as cross-play, is a showcase Windows 10 experience.
-In this scenario, both the Xbox One and PC versions of a game share the same Xbox Live configuration.
+Cross-device gaming between the Xbox One (or later) and the PC, known as _cross-play_, is a showcase Windows 10 experience.
+In this scenario, both the Xbox and PC versions of a game share the same Xbox Live configuration.
 
-This scenario also covers the case where you have an existing Xbox One XDK game, and want to add cross-play support for a UWP version of your game.
+This scenario also covers the case where you have an existing Xbox One (or later) XDK game, and want to add cross-play support for a UWP version of your game.
 
 In order to implement cross-play, do the following:
 
-* **Use Partner Center to configure and publish your XDK game.** Partner Center supports Xbox One XDK games.
+* **Use Partner Center to configure and publish your XDK game.** Partner Center supports Xbox One (or later) XDK games.
 
 * **Use a single Xbox Live service configuration that you created in Partner Center for both the XDK and the UWP versions of a game.** Partner Center allows a game to share a single Xbox Live service configuration between the XDK version and the UWP version of a game.
 
@@ -75,9 +75,9 @@ In order to implement cross-play, do the following:
 For more detail on this process, including items which are *not* self-service, see [Configuring cross-play for Xbox and Windows 10 in Partner Center](live-config-cross-play-xbox-win10.md).
 
 
-### Separate versions of Xbox One and PC/Mobile games that are not cross-play
+### Separate versions of Xbox and PC/Mobile games that are not cross-play
 
-You may decide to keep your Xbox One version of a game separate from the PC/Mobile version of the same game.
+You may decide to keep your Xbox One (or later) version of a game separate from the PC/Mobile version of the same game.
 In this case, you create two separate products, and follow the guidance for Xbox One XDK only and PC/Mobile UWP game only respectively.
 
 You cannot use the same service configuration for both versions in this case, and you must manually create the service configuration for each separate version of your game, in Partner Center.
@@ -95,7 +95,7 @@ If you do not currently have a title at Partner Center, see the above section [X
 
 ### Critical IDs
 
-There are three IDs which are critical for development of titles and applications for Xbox One: the sandbox ID, the Title ID, and the SCID.
+There are three IDs which are critical for development of titles and applications for Xbox One (or later): the sandbox ID, the Title ID, and the SCID.
 
 It is necessary to have a sandbox ID to use a development kit.
 However, the Title ID and SCID are not required for initial development, but are required for any use of Xbox Live services.
