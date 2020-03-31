@@ -1,5 +1,5 @@
 ---
-title: Access Policies overview
+title: Access Policies Overview
 author: mikehoffms
 description: Configuring access policies to allow other apps, games, and services to access a title's Xbox Live settings.
 kindex: Access Policies overview

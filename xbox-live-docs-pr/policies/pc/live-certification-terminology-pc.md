@@ -1,5 +1,5 @@
 ---
-title: Xbox Live required terminology list
+title: Xbox Live terminology
 description: Terminology required when using Xbox Live in a PC or mobile game.
 ms.topic: article
 keywords: windows 10, uwp, games, xbox, xbox live, policies
@@ -7,7 +7,7 @@ ms.localizationpriority: medium
 ms.date: 03/18/2019
 ---
 
-# Xbox Live required terminology list
+# Xbox Live terminology
 
 Version 1.0
 

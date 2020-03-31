@@ -1,13 +1,13 @@
 ---
-title: Xbox Live Integration Test Cases For PC and Mobile Devices
+title: Recommended Policy Tests for PC and mobile
 description: Test cases for adding Xbox Live to a PC or mobile game.
-kindex: Xbox Live Integration Test Cases For PC and Mobile Devices
+kindex: Recommended Policy Tests for PC and mobile
 ms.topic: article
 keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
 ms.date: 10/01/2019
 ---
-# Xbox Live Integration Test Cases for PC and Mobile Devices
+# Recommended Policy Tests for PC and mobile
 
 Version 2.0
 
