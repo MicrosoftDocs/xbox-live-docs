@@ -1,10 +1,11 @@
 ---
 title: Best practices for Connected Storage
 description: Getting the best performance and experience from Connected Storage, such as when to load and save.
-ms.date: 02/27/2018
+kindex: Best practices for Connected Storage
+kindex: connected storage
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, Connected Storage
 ms.localizationpriority: medium
+ms.date: 02/27/2018
 ---
 
 # Best practices for Connected Storage
@@ -20,7 +21,7 @@ The API also allows titles to update more than one data item in an atomic operat
 
 ## Keep the current state ready to save on short notice
 
-Because Xbox One allows users to quickly switch among titles, you should design the title to keep the current state ready to save on short notice in anticipation of receiving a Suspend event, which can happen virtually at any time.
+Because Xbox One (or later) allows users to quickly switch among titles, you should design the title to keep the current state ready to save on short notice in anticipation of receiving a Suspend event, which can happen virtually at any time.
 
 The Connected Storage API uses RAM outside of the title reservation as the first point of storage in order to maximize title write speed during the short suspend time window.
 The system then persists the data to durable storage, reconciles it with any other data writes since the last upload, and schedules data uploads.
@@ -59,8 +60,8 @@ If you're developing your game with the XDK, when a user signs out, the User obj
 Because saved data is always synchronized to the cloud, a bug in saved data and app code that causes the app to crash could be backed up in the cloud and distributed across devices.
 
 To prevent users from having an app that crashes on every launch, design the app to ensure that:
--	Users can reach a point in the app at which they can manage saved state, even if some saved data is malformed.
--	The app can handle corrupt data automatically, recovering as much data as it can and reinitializing everything else to a safe state.
+-    Users can reach a point in the app at which they can manage saved state, even if some saved data is malformed.
+-    The app can handle corrupt data automatically, recovering as much data as it can and reinitializing everything else to a safe state.
 
 
 ## Use cases for save-game designs
@@ -72,18 +73,18 @@ The design of a game saving system that makes the best use of containers in Conn
 
 For apps that use a single, campaign-style save system, like a first person shooter:
 
--	Put all of the data into a single container and always write to the same container, identified by name.
+-    Put all of the data into a single container and always write to the same container, identified by name.
 
--	Consider exposing an option to reset all data that will clear all of a user's saved data, in case he or she wants to start playing the app from the beginning, with no previous progress being retained.
+-    Consider exposing an option to reset all data that will clear all of a user's saved data, in case he or she wants to start playing the app from the beginning, with no previous progress being retained.
 
 
 ### Multiple saves
 
 For apps that have a fixed number of save slots (such as five slots), there are two ways to use containers to save game data:
 
--	Store all 5 slots within one fixed-name container by using 1 blob for each save slot. Using this method all 5 slots will be fully synchronized and available, or, in the case that synchronization fails at any point, none of the slots will be synchronized and will remain in their previous state. If a user plays the app offline on two different consoles, saving progress in slot 1 on the first console and in slot 2 on the second console, the user must choose which data to retain on connecting both consoles to Xbox Live; the merge logic for containers will produce a conflict.
+-    Store all 5 slots within one fixed-name container by using 1 blob for each save slot. Using this method all 5 slots will be fully synchronized and available, or, in the case that synchronization fails at any point, none of the slots will be synchronized and will remain in their previous state. If a user plays the app offline on two different consoles, saving progress in slot 1 on the first console and in slot 2 on the second console, the user must choose which data to retain on connecting both consoles to Xbox Live; the merge logic for containers will produce a conflict.
 
--	Store each slot in a container with its own name. This allows independent progress in each slot, even on multiple machines that might be offline. However, if a user cancels partway through a synchronization, it's possible that only some of the slots will be available during that session; some of the containers might not have completed downloading. In such a case, the user is notified that the synchronization was incomplete, and that some of the cloud data isn't on the local console.
+-    Store each slot in a container with its own name. This allows independent progress in each slot, even on multiple machines that might be offline. However, if a user cancels partway through a synchronization, it's possible that only some of the slots will be available during that session; some of the containers might not have completed downloading. In such a case, the user is notified that the synchronization was incomplete, and that some of the cloud data isn't on the local console.
 
 
 #### Provide UI to delete individual saves from slots
@@ -103,7 +104,7 @@ Whichever of the above two approaches is used, the app should provide the user w
 
 Your title should not discourage users from turning off the console or navigating away from your app when saving.
 * On Xbox 360, if a user turns off the system while your title is saving, the user's data is not saved.
-* On Xbox One, your title receives a suspend event and has 1 second to use the Connected Storage API to save state.
+* On Xbox One (or later), your title receives a suspend event and has 1 second to use the Connected Storage API to save state.
 
 The system ensures that data is properly committed to the hard drive before it shuts down completely or enters its low-power state.
 The same suspension process occurs if the user ejects your title's disc to play another one.

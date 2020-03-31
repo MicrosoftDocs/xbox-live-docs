@@ -1,9 +1,12 @@
 ---
 title: Setting up the Leaderboard example scene in Unity
 description: Setting up the Leaderboard example scene in Unity.
-ms.date: 04/24/2018
+kindex: Setting up the Leaderboard example scene in Unity
+kindex: Unity
+kindex: leaderboards
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity, leaderboards
+ms.localizationpriority: medium
+ms.date: 04/24/2018
 ---
 
 # Setting up the Leaderboard example scene in Unity

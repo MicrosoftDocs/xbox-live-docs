@@ -1,10 +1,12 @@
 ---
 title: Fine-Grained Rate Limiting
 description: How Xbox Live fine-grained rate limiting works, to prevent your title from being rate-limited.
+kindex: Fine-Grained Rate Limiting
+kindex: throttling
+kindex: rate limiting
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, throttling, rate limiting
-ms.localizationpriority: medium
 ms.assetid: ceca4784-9fe3-47c2-94c3-eb582ddf47d6
+ms.localizationpriority: medium
 ms.date: 04/04/2017
 ---
 

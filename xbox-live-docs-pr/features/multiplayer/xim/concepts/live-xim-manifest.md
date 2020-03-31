@@ -1,13 +1,15 @@
 ---
 title: Configuring a XIM project in a manifest
 description: Configuring your UWP app manifests to work with Xbox Integrated Multiplayer (XIM).
+kindex: Configuring a XIM project in a manifest
+kindex: Xbox Integrated Multiplayer
+kindex: manifest
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-ms.date: 04/04/2017
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, xbox integrated multiplayer, manifest
 ms.assetid: 5d0ed7bd-9527-42a3-ae09-8cc9012c1111
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Configuring a XIM project in a manifest
@@ -61,12 +63,12 @@ This can be done as in the following snippet:
 ```
 
 This is only required for universal Windows applications.
-Xbox One exclusive resource ("XDK") applications do not explicitly declare a protocol activation extension as they are automatically registered by declaring their Xbox Live title ID extension.
+Xbox One (or later) exclusive resource ("XDK") applications do not explicitly declare a protocol activation extension as they are automatically registered by declaring their Xbox Live title ID extension.
 
 
 ## Xbox One exclusive resource application network manifest templates
 
-Any Xbox One exclusive resource application that uses XIM must ensure certain socket description and template content is included in its "network manifest" extension of the AppXManifest (see the platform documentation for more detail on network manifests).
+Any Xbox One (or later) exclusive resource application that uses XIM must ensure certain socket description and template content is included in its "network manifest" extension of the AppXManifest (see the platform documentation for more detail on network manifests).
 
 The app may have other templates as well, but the following snippet must be present, or else moving to a XIM network will fail:
 

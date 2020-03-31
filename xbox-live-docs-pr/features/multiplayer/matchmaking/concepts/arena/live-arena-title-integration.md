@@ -1,13 +1,15 @@
 ---
 title: Arena title integration
 description: Adding support in a game for the Arena platform, which allows Tournament Organizers to create and operate tournaments.
-ms.assetid: 470914df-cbb5-4580-b33a-edb353873e32
-ms.date: 10/12/2017
+kindex: Arena title integration
+kindex: arena
+kindex: tournament
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, arena, tournament
+ms.assetid: 470914df-cbb5-4580-b33a-edb353873e32
 ms.localizationpriority: medium
+ms.date: 10/12/2017
 ---
 
 # Arena title integration

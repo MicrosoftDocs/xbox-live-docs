@@ -1,12 +1,12 @@
 ---
 title: Clubs
-description: The Clubs feature easily integrates your game's teams, clans, and communities.
+description: Integrates your game's teams, clans, and communities.
+kindex: Clubs
 author: mikehoffms
 ms.author: v-mihof
-ms.date: 12/06/2018
 ms.topic: conceptual
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, clubs
 ms.localizationpriority: medium
+ms.date: 12/06/2018
 ---
 
 # Clubs

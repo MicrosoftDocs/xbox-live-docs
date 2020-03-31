@@ -1,15 +1,15 @@
 ---
 title: Event-based vs. title-managed Stats
 description: User Stats can be updated by sending events to the Xbox Live service or by directly calling the Stats API.
+kindex: Event-based vs. title-managed Stats
 kindex: Xbox Live stats
 kindex: stats, Xbox Live
 author: aablackm
 ms.author: aablackm
-ms.date: 07/30/2018
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, player stats, leaderboards
-ms.localizationpriority: medium
 ms.assetid: 5ec7cec6-4296-483d-960d-2f025af6896e
+ms.localizationpriority: medium
+ms.date: 07/30/2018
 ---
 
 # Event-based vs. title-managed Stats

@@ -8,9 +8,9 @@ ms.author: v-mihof
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
+ms.assetid: ec5959f9-1c60-4aa4-94a6-5d8bdcf77a96
 ms.localizationpriority: medium
 ms.date: 03/12/2018
-edited: 00/00/0000
 ---
 
 # Xbox Live Account tool (XboxLiveAccountTool.exe)

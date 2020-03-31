@@ -5,8 +5,8 @@ kindex: Using Fiddler to inspect web service calls
 kindex: Fiddler
 kindex: service calls, troubleshooting
 ms.topic: article
-ms.localizationpriority: medium
 ms.assetid: 7d76e444-027b-4659-80d5-5b2bf56d199e
+ms.localizationpriority: medium
 ms.date: 04/04/2017
 ---
 
@@ -26,11 +26,11 @@ Use Fiddler to log and inspect traffic to and from the Xbox Live services and re
 
 
 
-## For Xbox One XDK projects
+## For Xbox One (or later) XDK projects
 
 In normal operation, a console that communicates through a proxy is at risk of having its communications modified by the proxy, possibly allowing players to cheat.
 Thus, consoles are designed not to allow communication through a proxy.
-Using Fiddler with your Xbox One dev kit requires that you perform some special configuration steps on the dev kit to allow it to use the Fiddler proxy.
+Using Fiddler with your Xbox One (or later) dev kit requires that you perform some special configuration steps on the dev kit to allow it to use the Fiddler proxy.
 
 Fiddler is freeware, and can be downloaded from the [Fiddler website](https://www.telerik.com/fiddler/).
 
@@ -120,7 +120,7 @@ The Fiddler instance on whichever PC's address is in `ProxyAddress.txt` will be 
 
 ## For Xbox One UWP projects
 
-Follow the steps at [https://docs.microsoft.com/windows/uwp/xbox-apps/uwp-fiddler](https://docs.microsoft.com/windows/uwp/xbox-apps/uwp-fiddler).
+Follow the steps in the article <a href="https://docs.microsoft.com/windows/uwp/xbox-apps/uwp-fiddler" target="_blank">How to use Fiddler with Xbox One when developing for UWP &#11008;</a> in the UWP documentation.
 
 
 ## For Windows UWP PC apps

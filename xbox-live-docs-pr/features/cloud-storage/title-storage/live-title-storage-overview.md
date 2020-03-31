@@ -1,11 +1,11 @@
 ---
 title: Title Storage overview
 description: Title Storage is cloud storage for large amounts of per-user or per-game data, such as player statistics and assets.
-ms.assetid: a4182bc8-d232-4e77-93ae-97fe17ac71b1
-ms.date: 04/04/2017
+kindex: Title Storage overview
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, title storage
+ms.assetid: a4182bc8-d232-4e77-93ae-97fe17ac71b1
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Title Storage overview
@@ -30,12 +30,13 @@ Some of the high-level features of Xbox Live title storage include, but are not 
 
 | Storage Type       | Quota (Managed Partners) | Quota (Creators Program) |  Purpose                                                                                                                                                      | Platforms                                                                                           | Users                                       |
 |--------------------|--------------------|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------|
-| Trusted Platform   | 256 MB per user | 64 MB per user    | Per-user data such as saved games or game state for play/pause/resume. More secure, but with platform restrictions. | Any platform may read, but only Xbox One, Xbox 360, or Windows Phone may write.  | Configurable to public or owner only.       |
+| Trusted Platform   | 256 MB per user | 64 MB per user    | Per-user data such as saved games or game state for play/pause/resume. More secure, but with platform restrictions. | Any platform may read, but only Xbox 360 (or later) or Windows Phone may write.  | Configurable to public or owner only.       |
 | Universal Platform | 64 MB per user | 64 MB per user    | Per-user data such as saved games or game state for play/pause/resume. | Any platform may read or write. | Configurable to public or owner only.       |
 | Global             | 256 MB | 256 MB            | Data that everyone can read, such as rosters, maps, challenges, or art resources. | Only writeable via the Xbox Developer Portal or Partner Center, any platform may read.                                | All users may read.
 
 
 <a name="ID4ECF"></a>
+
 ## Types of data
 
 Games specify the type of data to use in the **{type}** parameter of a GET or PUT method.

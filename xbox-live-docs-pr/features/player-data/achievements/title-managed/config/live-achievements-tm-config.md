@@ -2,15 +2,21 @@
 title: Configuring title-managed Achievements in Partner Center
 description: Configuring Achievements in Partner Center, to deliver rewards.
 kindex: Configuring title-managed Achievements in Partner Center
-ms.date: 11/10/2017
 ms.topic: article
 ms.localizationpriority: medium
+ms.date: 11/10/2017
 ---
+
+
+
+
 
 # Configuring title-managed Achievements in Partner Center
 
 > [!IMPORTANT]
 > Achievements are only applicable to Managed Partners; games participating in the Xbox Live Creators Program are not supported.
+
+
 
 You can use [Partner Center](https://partner.microsoft.com/dashboard) to configure the [title-managed Achievements](../../live-achievements-eb-vs-tm.md) that are associated with your game.
 
@@ -89,7 +95,7 @@ Fill out the Reward Details to associate a new reward. Once completed, click **A
 
 There are two types of achievement rewards that can be created:
 
-1. The **Art** type can be used if you want to reward the player with things such as high-resolution concept art, early design drawings, specially created art assets or other digital art. Art assets are displayed within the Xbox One Dashboard and can be also be displayed in companion experiences by querying the Achievements service.
+1. The **Art** type can be used if you want to reward the player with things such as high-resolution concept art, early design drawings, specially created art assets or other digital art. Art assets are displayed within the Xbox Dashboard and can be also be displayed in companion experiences by querying the Achievements service.
 
 2. The **In-Game** type can be used if you want to reward the player with custom in-game rewards without updating your title. Some potential scenarios are extra in-game currency/points or access to special characters, weapons or maps.
 

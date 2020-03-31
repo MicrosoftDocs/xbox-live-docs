@@ -1,11 +1,13 @@
 ---
 title: People System (Friends List) overview
 description: The People System manages relationships between gamers, such as only showing a user's real name to close friends.
-ms.assetid: f1881a52-8e65-4364-9937-d2b8b8476cbf
+kindex: People System (Friends List) overview
+kindex: friends list
+kindex: social
 ms.topic: article
-ms.date: 03/19/2018
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, social, people system, friends
+ms.assetid: f1881a52-8e65-4364-9937-d2b8b8476cbf
 ms.localizationpriority: medium
+ms.date: 03/19/2018
 ---
 
 # People System (Friends List) overview

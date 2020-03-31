@@ -1,11 +1,12 @@
 ---
 title: Getting the XDK
 description: Obtaining the Xbox Developer Kit (XDK).
-ms.assetid: 5e7abfb7-5d68-4e77-a941-13dd081268ac
-ms.date: 04/04/2017
+kindex: Getting the XDK
+kindex: XDK, obtaining
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, xdk
+ms.assetid: 5e7abfb7-5d68-4e77-a941-13dd081268ac
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Getting the XDK
@@ -28,10 +29,10 @@ If you do no not have access, contact your account manager.
     - Windows 8.1 64-bit
     - Windows Server 2008 and Windows Server 2012 are supported for build servers
     - Windows 10 64-bit
-- Xbox One dev kit
+- Xbox One (or later) dev kit
 - Xbox One XDK
 - Visual Studio
-	- Visual Studio 2012, Visual Studio 2015, Visual Studio 2017, or the latest release of Visual Studio. The latest version of Visual Studio will give you access to the most current updates for development and security.
+    - Visual Studio 2012, Visual Studio 2015, Visual Studio 2017, or the latest release of Visual Studio. The latest version of Visual Studio will give you access to the most current updates for development and security.
 
 
 ## Use

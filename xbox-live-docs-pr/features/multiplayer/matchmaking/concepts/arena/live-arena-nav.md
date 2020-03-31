@@ -1,15 +1,17 @@
 ---
 title: Xbox Arena
 description: Xbox Arena runs tournaments for your game.
+kindex: Xbox Arena
+kindex: arena
+kindex: tournament
 layout: LandingPage
 author: mikehoffms
 ms.author: v-mihof
 ms.topic: navigation
 ms.prod: gaming
 ms.technology: xboxlive
-ms.date: 12/06/2018
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, arena, tournament, ux
 ms.localizationpriority: medium
+ms.date: 12/06/2018
 ---
 
 # Xbox Arena

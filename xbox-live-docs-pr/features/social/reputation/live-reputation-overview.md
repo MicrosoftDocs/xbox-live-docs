@@ -1,14 +1,18 @@
 ---
 title: Reputation overview
 description: The Reputation service encourages positive gameplay.
+kindex: Overview of the Reputation service
+kindex: Reputation
 author: KevinAsgari
 ms.author: kevinasg
-ms.date: 04/04/2017
 ms.topic: conceptual
-ms.assetid: f8966184-5db7-4cab-93ca-9a0250a6077d
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, reputation, social features
 ms.localizationpriority: medium
+ms.assetid: f8966184-5db7-4cab-93ca-9a0250a6077d
+ms.date: 04/04/2017
 ---
+
+
+
 
 # Reputation overview
 
@@ -54,7 +58,7 @@ For reputation-filtered matchmaking, specified by Xbox Requirement (XR), the tit
 This value is a score that indicates the state of the player's overall reputation.
 
 > [!NOTE]
-> If your title is looking for the OverallReputationIsBad attribute in a JSON file, and does not find it, it is safe to assume that the user has a good reputation.
+> If your title is looking for the `OverallReputationIsBad` attribute in a JSON file, and does not find it, it is safe to assume that the user has a good reputation.
 This can happen with new accounts, until feedback has been processed for the user.
 Players with any feedback from other users will always have reputation statistics, and a value for the **Reputation.OverallReputation** property.
 
@@ -62,10 +66,10 @@ Players with any feedback from other users will always have reputation statistic
 ## Reputation as an Indicator of Behavior
 
 Reputation provides an indicator of how the user behaves on the system.
-For example, is the person a friendly player or not? 
+For example, is the person a friendly player or not?
 Feedback from other session members determines a player's reputation.
 
-Each user has a reputation score that travels with that person everywhere on Xbox One.
+Each user has a reputation score that travels with that person everywhere on Xbox Live.
 The reputation score is exposed prominently in social places that friends can see, so that they can apply peer pressure to a player to behave better.
 
 For example:

@@ -1,10 +1,10 @@
 ---
 title: Best practices for calling Xbox Live
 description: Best practices for calling Xbox Live APIs, such as proper calling patterns and retry logic.
+kindex: Best practices for calling Xbox Live
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, best practices
-ms.localizationpriority: medium
 ms.assetid: f4c7156b-7736-41e5-9b3d-e87cc8dd2531
+ms.localizationpriority: medium
 ms.date: 04/04/2017
 ---
 

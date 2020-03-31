@@ -3,9 +3,8 @@ title: Xbox Live Sandboxes overview
 description: Publishing a game to a development sandbox, to work on changes to the title in an isolated environment.
 kindex: Xbox Live Sandboxes overview
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
-ms.localizationpriority: medium
 ms.assetid: a5acb5bf-dc11-4dff-aa94-6d1f01472d2a
+ms.localizationpriority: medium
 ms.date: 04/04/2017
 ---
 
@@ -21,7 +20,7 @@ When you make changes to your service configuration, these need to be published 
 You publish to a *development sandbox*.
 Sandboxes allow you to work on changes to your title in an isolated environment.
 
-By default, Xbox One Consoles <!--and Windows 10 PCs--> are in the RETAIL sandbox.
+By default, Xbox One (or later) consoles <!--and Windows 10 PCs--> are in the RETAIL sandbox.
 
 See also [Advanced Xbox Live sandboxes](live-advanced-sandboxes.md).
 
@@ -68,7 +67,7 @@ Need to specify whether these steps and captures are for Managed Partners or Cre
 
 Typically you work with sandboxes in the following ways:
 
-1. (One-time) Switch your PC or Xbox One to your development sandbox.
+1. (One-time) Switch your PC or Xbox to your development sandbox.
 
 2. (Many times) As you make changes to your service configuration, you will publish changes to your development sandbox. Service configuration changes are things such as defining achievements, adding leaderboards, or modifying a Multiplayer Session Template.
 
@@ -108,7 +107,7 @@ The Xbox Live development tools file (`XboxLiveTools.zip`) contains a command-li
 See [Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)](../tools/live-pc-sandbox-switcher.md).
 
 
-## Switch your Xbox One console development sandbox
+## Switch your Xbox console development sandbox
 
 
 ### Using Windows Dev Portal
@@ -122,7 +121,7 @@ You can then click on "Xbox Live" and enter the sandbox in the textbox there.
 
 ### Using Xbox One Manager
 
-Xbox One Manager lets you administer certain aspects of your console from your PC.
+Xbox One Manager lets you administer certain aspects of your Xbox One (or later) console from your PC.
 This includes rebooting, managing installed apps, and changing your sandbox.
 
 Right click on the console you want to change the sandbox for and go to "Settings..."
@@ -130,9 +129,9 @@ Right click on the console you want to change the sandbox for and go to "Setting
 You can then enter a sandbox there.
 
 
-### Using Xbox One console UI
+### Using the Xbox console UI
 
-If you want to change your development sandbox right from your console, you can go to "Settings".
+If you want to change your development sandbox right from your Xbox One (or later) console, you can go to "Settings".
 Then go to "Developer Settings" and you will see an option to change your sandbox.
 
 

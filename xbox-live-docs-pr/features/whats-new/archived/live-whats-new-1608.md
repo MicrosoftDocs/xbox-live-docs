@@ -1,11 +1,11 @@
 ---
 title: What's new for the Xbox Live SDK - August 2016
 description: What's new for the Xbox Live SDK - August 2016
-ms.assetid: fa52e7bd-2c2c-4c25-94ab-761036a7ca79
-ms.date: 04/04/2017
+kindex: What's new for the Xbox Live SDK - August 2016
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
+ms.assetid: fa52e7bd-2c2c-4c25-94ab-761036a7ca79
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # What's new for the Xbox Live SDK - August 2016

@@ -1,5 +1,5 @@
 - name: Xbox Live
-  href: index.md
+  href: index.yml
   items:
     - name: Getting Started
       href: get-started/live-getstarted-nav.md
@@ -147,7 +147,7 @@
             - name: Authentication and sign-in
               href: features/identity/auth/live-authentication-nav.md
               items: 
-                - name: Authentication for mobile projects using XAL
+                - name: Authentication for projects using XAL
                   href: features/identity/auth/auth-mobile-xal/live-xal-nav.md
                   items: 
                     - name: Xbox Authentication Library (XAL) overview
@@ -474,8 +474,8 @@
               items:
                 - name: Multiplayer Session Directory overview
                   href: features/multiplayer/mpsd/live-mpsd-overview.md
-                - name: Multiplayer Session Directory for Xbox One
-                  href: features/multiplayer/mpsd/live-xbox-one-multiplayer-session-directory.md
+                - name: Multiplayer Session Directory
+                  href: features/multiplayer/mpsd/live-xbox-multiplayer-session-directory.md
                 - name: MPSD concepts
                   href: features/multiplayer/mpsd/concepts/live-mpsd-concepts-nav.md
                   items:
@@ -750,7 +750,7 @@
               href: test-release/test-accounts/live-test-accounts.md
             - name: Broadcasting Xbox Live test accounts to Mixer
               href: test-release/test-accounts/live-test-accounts-broadcast-mixer.md
-        - name: Testing on the Xbox One console
+        - name: Testing on the Xbox console
           href: test-release/live-testing-on-console.md
         - name: Troubleshooting Xbox Live
           href: test-release/troubleshooting/live-troubleshooting-nav.md
@@ -805,7 +805,6 @@
               href: test-release/tools/live-trace-analyzer.md
             - name: Using Fiddler to inspect web service calls
               href: test-release/tools/live-fiddler-inspect-web-calls.md
-
     - name: Policies and XRs
       href: policies/live-policies-nav.md
       items:
@@ -841,9 +840,9 @@
         - name: XSAPI Reference
           href: api-ref/xsapi/live-xsapi-nav.md
           items:
-            - name: Introduction to XSAPI APIs
+            - name: XSAPI overview
               href: api-ref/xsapi/live-introduction-to-xbox-live-apis.md
-            - name: Introduction to the XSAPI C API
+            - name: XSAPI C overview
               href: api-ref/xsapi/live-xsapi-flat-c.md
             - name: XSAPI WinRT Reference
               href: https://docs.microsoft.com/en-us/dotnet/api/?view=xboxlive-dotnet-2017.11.20171204.01

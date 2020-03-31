@@ -1,11 +1,14 @@
 ---
 title: Social Manager memory and performance
 description: Memory and performance considerations when using the Social Manager API.
-ms.assetid: 2540145e-b8e2-4ab5-9390-65e2c9b19792
-ms.date: 04/04/2017
+kindex: Social Manager memory and performance
+kindex: memory and performance, Social Manager
+kindex: performance and memory, Social Manager
+kindex: social manager
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, social manager, people
+ms.assetid: 2540145e-b8e2-4ab5-9390-65e2c9b19792
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Social Manager memory and performance
@@ -40,6 +43,6 @@ There is a global limit of 100 total additional users that can be in the system 
 ## Processing time
 
 Social Manager will have at worst case 1100 users.
-The performance characteristics of Social Manager on a Xbox One has a worst case of 0.3 ms to 0.5 ms for `do_work`, depending on the number of social graphs created.
+The performance characteristics of Social Manager on a Xbox One (or later) console has a worst case of 0.3 ms to 0.5 ms for `do_work`, depending on the number of social graphs created.
 
 The typical case is 0.01 ms for with no groups created and up to 0.2 ms for a group with 1000 users in it.

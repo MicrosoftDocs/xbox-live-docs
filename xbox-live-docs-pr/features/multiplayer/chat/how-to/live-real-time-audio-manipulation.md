@@ -1,12 +1,16 @@
 ---
 title: Real-time audio manipulation
 description: Inspecting and effects-processing the chat audio that is captured by Game Chat 2.
-ms.date: 05/10/2018
+kindex: Real-time audio manipulation
+kindex: game chat
+kindex: voice communication
+kindex: buffer manipulation
+kindex: audio manipulation
 ms.topic: how-to
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, game chat 2, game chat, voice communication, buffer manipulation, audio manipulation
 ms.localizationpriority: medium
+ms.date: 05/10/2018
 ---
 
 # Real-time audio manipulation
@@ -107,7 +111,9 @@ Processed formats for pre-encode audio streams must meet these pre-conditions:
 
 * The format must be mono.
 * The format must be 32-bit float PCM, 32-bit integer PCM, or 16-bit integer PCM formats.
-* The format's sample rate must follow pre-conditions based on its platform. Xbox One ERA supports 8kHz, 12kHz, 16kHz, and 24kHz sample rates. UWP for Xbox One and PC supports 8kHz, 12kHz, 16kHz, 24kHz, 32kHz, 44.1kHz, and 48kHz sample rates.
+* The format's sample rate must follow pre-conditions based on its platform.
+  * Xbox One (or later) ERA supports 8kHz, 12kHz, 16kHz, and 24kHz sample rates.
+  * UWP for Xbox One (or later) and PC supports 8kHz, 12kHz, 16kHz, 24kHz, 32kHz, 44.1kHz, and 48kHz sample rates.
 
 
 ### Retrieving and submitting pre-encode audio

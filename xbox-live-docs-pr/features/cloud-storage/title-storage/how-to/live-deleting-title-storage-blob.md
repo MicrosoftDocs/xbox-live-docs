@@ -7,9 +7,8 @@ ms.author: heba
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-ms.date: 11/15/2019
 ms.localizationpriority: medium
-edited: 11/15/2019
+ms.date: 11/15/2019
 ---
 
 # Deleting a blob from Title Storage

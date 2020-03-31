@@ -1,11 +1,11 @@
 ---
 title: What's new for the Xbox Live SDK - February 2016
 description: What's new for the Xbox Live SDK - February 2016
-ms.assetid: 7ff34ea4-f07d-4584-98e4-13977994ccca
-ms.date: 04/04/2017
+kindex: What's new for the Xbox Live SDK - February 2016
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
+ms.assetid: 7ff34ea4-f07d-4584-98e4-13977994ccca
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # What's new for the Xbox Live SDK - February 2016

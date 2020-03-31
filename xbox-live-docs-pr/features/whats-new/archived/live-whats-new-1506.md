@@ -1,11 +1,11 @@
 ---
 title: What's new for the Xbox Live SDK - June 2015
 description: What's new for the Xbox Live SDK - June 2015
+kindex: What's new for the Xbox Live SDK - June 2015
 ms.assetid: 354bcd47-2564-4dd5-89e3-242bca462b35
-ms.date: 04/04/2017
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # What's new for the Xbox Live SDK - June 2015

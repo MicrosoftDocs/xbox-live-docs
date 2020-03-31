@@ -1,11 +1,13 @@
 ---
 title: Configuring Xbox Live in Unity
 description: Use the Xbox Live Unity plugin to configure Xbox Live in your Unity game.
-ms.assetid: 55147c41-cc49-47f3-829b-fa7e1a46b2dd
-ms.date: 01/25/2018
+kindex: Configuring Xbox Live in Unity
+kindex: UWP
+kindex: Unity, configuring
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, Unity, configure
+ms.assetid: 55147c41-cc49-47f3-829b-fa7e1a46b2dd
 localizationpriority: medium
+ms.date: 01/25/2018
 ---
 
 # Configuring Xbox Live in Unity
@@ -57,12 +59,12 @@ There are three settings that can be configured in Unity to define how your code
 
 The following table shows the current scripting support matrix for the Xbox Live Unity Plugin:
 
-| Scripting Backend 	| Scripting Runtime Version	| Supported 	| Minimum Unity Version Required |
-|-------------------	|-------------------	    |-----------	|------------------------------- |
-| IL2CPP            	| .NET 3.5 Equivalent       | No        	| N/A                            |
-| Il2CPP            	| .NET 4.6 Equivalent       | Yes       	| 2017.2.0p2                     |
-| .NET              	| .NET 3.5 Equivalent       | Yes       	| Same as prerequisites          |
-| .NET              	| .NET 4.6 Equivalent       | Yes       	| Same as prerequisites          |
+| Scripting Backend     | Scripting Runtime Version    | Supported     | Minimum Unity Version Required |
+|-------------------    |-------------------        |-----------    |------------------------------- |
+| IL2CPP                | .NET 3.5 Equivalent       | No            | N/A                            |
+| Il2CPP                | .NET 4.6 Equivalent       | Yes           | 2017.2.0p2                     |
+| .NET                  | .NET 3.5 Equivalent       | Yes           | Same as prerequisites          |
+| .NET                  | .NET 4.6 Equivalent       | Yes           | Same as prerequisites          |
 
 We've added additional scripting runtime support to the Xbox Live Unity Plugin, starting with version "1711 Release".
 By default, the plugin is configured to run in the Unity editor with the .NET scripting backend and scripting runtime version of .NET 3.5.

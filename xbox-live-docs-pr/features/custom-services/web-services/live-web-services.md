@@ -1,9 +1,11 @@
 ---
 title: Setting up Web Services at Partner Center
 description: Creating a Web service for an Xbox Live-enabled app.
-ms.date: 06/04/2018
+kindex: Setting up Web Services at Partner Center
+kindex: web services
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, web services
+ms.localizationpriority: medium
+ms.date: 06/04/2018
 ---
 
 # Setting up Web Services at Partner Center

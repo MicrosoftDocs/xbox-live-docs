@@ -1,22 +1,23 @@
 ---
 title: Configuring cross-play for Xbox and Windows 10 in Partner Center
-description: Sharing a single Xbox Live services configuration across an XDK-based Xbox One version and a UWP-based Windows 10 version of the game.
+description: Sharing a single Xbox Live services configuration across an XDK-based Xbox version and a UWP-based Windows 10 version of the game.
+kindex: Configuring cross-play for Xbox and Windows 10 in Partner Center
+kindex: cross-play
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, cross-play, play anywhere
-ms.localizationpriority: medium
 ms.assetid: 6c8e9d08-a3d2-4bfc-90ee-03c8fde3e66d
+ms.localizationpriority: medium
 ms.date: 04/04/2017
 ---
 
 # Configuring cross-play for Xbox and Windows 10 in Partner Center
 
-A _cross-play game_ is a game that is released as an XDK-based Xbox One version and a UWP-based Windows 10 version, where both versions of the game share a single Title ID and a single Xbox Live services configuration such as multiplayer, game saves, achievements, and leaderboards.
+A _cross-play game_ is a game that is released as an XDK-based Xbox One (or later) version and a UWP-based Windows 10 version, where both versions of the game share a single Title ID and a single Xbox Live services configuration such as multiplayer, game saves, achievements, and leaderboards.
 
 <!-- todo: replace Xbox Developer Portal (XDP) captures by Partner Center captures -->
 
 With the launch of Windows 10, game developers will be able to release single products both on Xbox One (as an XDK game) and Windows 10 (as a UWP game).
 
-In some cases, developers will want to enable cross-play for these games, where the Xbox One and Windows 10 versions of their game are unified across Xbox Live services like Multiplayer, Game Save, Achievements, and more.
+In some cases, developers will want to enable cross-play for these games, where the Xbox One (or later) and Windows 10 versions of their game are unified across Xbox Live services like Multiplayer, Game Save, Achievements, and more.
 To enable cross-play, these games will share a single Title ID and Xbox Live service configuration across both the XDK and UWP versions of the game.
 
 Ingesting an XDK+UWP game requires 4 major steps:
@@ -68,14 +69,14 @@ MSA App IDs are 1:1 with PFNs (and accordingly with Xbox Title IDs).
 
 ### What is Cross-Play?
 
-A showcase Windows 10 experience; cross-play is cross-device gaming between the Xbox One and PC, with games sharing a single Xbox Live configuration across device versions to light up scenarios like cross-device multiplayer, achievements & leaderboards, and game saves.
+A showcase Windows 10 experience; cross-play is cross-device gaming between the Xbox One (or later) and PC, with games sharing a single Xbox Live configuration across device versions to light up scenarios like cross-device multiplayer, achievements & leaderboards, and game saves.
 
 
 ### What are the pros and cons of Cross-Play?
 
 Cross-Play is likely the right approach for you if you want the XDK and UWP versions of your game to:
 
--   Engage in cross-device multiplayer (Xbox One vs. PC) in at least one multiplayer game mode
+-   Engage in cross-device multiplayer (Xbox vs. PC) in at least one multiplayer game mode
 
 -   Share a single game save that the user can use on both devices
 
@@ -83,17 +84,17 @@ Cross-Play is likely the right approach for you if you want the XDK and UWP vers
 
 Cross-Play is likely not the right approach for you if:
 
--   You want to prevent the PC and Xbox One players of your game from engaging in multiplayer across devices in any and all multiplayer game modes
+-   You want to prevent the PC and Xbox players of your game from engaging in multiplayer across devices in any and all multiplayer game modes
 
--   You want to keep Xbox One and PC game save separate (perhaps for security or trust reasons)
+-   You want to keep Xbox and PC game save separate (perhaps for security or trust reasons)
 
--   You want the Xbox One and PC versions of your game to have separate Gamerscore (aka users who buy both Xbox One and PC can receive 1000 Gamerscore for each platform instead of a shared 1000)
+-   You want the Xbox and PC versions of your game to have separate Gamerscore (aka users who buy both Xbox and PC can receive 1000 Gamerscore for each platform instead of a shared 1000)
 
 In general, Cross-Play adds the most value to:
 
--   Free-to-Play / Xbox Play Anywhere games, that emphasize continuity between the Xbox One and PC versions of the game
+-   Free-to-Play / Xbox Play Anywhere games, that emphasize continuity between the Xbox and PC versions of the game
 
--   Games featuring cross-device multiplayer between Xbox One and PC
+-   Games featuring cross-device multiplayer between Xbox and PC
 
 **NOTE**: Cross-Play is available both to new games that are releasing the XDK and UWP versions of their game simultaneously, as well as games that have already shipped an XDK, but are adding a UWP version.
 
@@ -101,7 +102,7 @@ In general, Cross-Play adds the most value to:
 ### Two versions of the game are required
 
 A Cross-Play game requires two versions of the game:
-*  A XDK version of the game, for the Xbox One console
+*  A XDK version of the game, for the Xbox One (or later) console
 *  A UWP version of the game, for Windows 10 PC
 
 **XDK titles must be ingested in Partner Center**. Both for service configuration and mainline publishing, Partner Center supports XDK-based titles.
@@ -258,7 +259,7 @@ This doesn't impact Xbox Live testing, but may alter your standard testing proce
 <table>
   <tr>
     <td>
-      For a UWP-only game, it is still required to publish the XDK title catalog information to unblock service configuration publish, even though the UWP-only game has not Xbox One catalog presence.
+      For a UWP-only game, it is still required to publish the XDK title catalog information to unblock service configuration publish, even though the UWP-only game has no Xbox One catalog presence.
     </td>
   </tr>
 </table>

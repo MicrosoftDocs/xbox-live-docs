@@ -27,4 +27,5 @@ ms.localizationpriority: medium
 
 ### See also
 
-[Getting Started](../live-getstarted-nav.md)
+* [Getting Started](../live-getstarted-nav.md)
+* [Authentication and sign-in](../../features/identity/auth/live-authentication-nav.md)

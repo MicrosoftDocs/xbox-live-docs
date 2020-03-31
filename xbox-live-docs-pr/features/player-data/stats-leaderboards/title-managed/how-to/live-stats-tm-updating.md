@@ -1,11 +1,13 @@
 ---
 title: Updating title-managed Stats
 description: Updating title-managed Stats, by sending the latest value to the Xbox Live Service using the StatsManager APIs.
-ms.assetid: 019723e9-4c36-4059-9377-4a191c8b8775
-ms.date: 08/24/2018
+kindex: Updating title-managed Stats
+kindex: player stats
+kindex: title-managed stats
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, player stats, title-managed stats
+ms.assetid: 019723e9-4c36-4059-9377-4a191c8b8775
 ms.localizationpriority: medium
+ms.date: 08/24/2018
 ---
 
 # Updating title-managed Stats

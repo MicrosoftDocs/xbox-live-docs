@@ -1,20 +1,23 @@
 ---
 title: Intro to calling the Multiplayer service directly
 description: Provides a high level introduction to the Xbox Live Multiplayer 2015 system.
-ms.assetid: d025bd2b-2ca4-4ba9-9394-4950d96ad264
-ms.date: 04/04/2017
+kindex: Intro to calling the Multiplayer service directly
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer 2015
+ms.assetid: d025bd2b-2ca4-4ba9-9394-4950d96ad264
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
+
+
+
 
 # Intro to calling the Multiplayer service directly
 
 | Note |
 |---|
-| This article is for advanced API usage.  As a starting point, see [Multiplayer Manager (MPM)](../mpm/live-multiplayer-manager-nav.md) which significantly simplifies development.  Please let your DAM know if you find an unsupported scenario in the Multiplayer Manager. |
+| This article is for advanced API usage, by calling Multiplayer APIs directly.  As a starting point, try using [Multiplayer Manager](../mpm/live-multiplayer-manager-nav.md) instead, which significantly simplifies development.  Please let your DAM know if you find an unsupported scenario in the Multiplayer Manager. |
 
 
 ## About the Multiplayer System
@@ -134,7 +137,7 @@ For more information, see *Introduction to Winsock on Xbox One*.
 
 ## Parties Supported by 2015 Multiplayer
 
-2015 Multiplayer for Xbox One does not expose the "game party" as a system-level construct.
+2015 Multiplayer for Xbox One (or later) does not expose the "game party" as a system-level construct.
 However, it does support the "chat party" at a system level, as in 2014 Multiplayer.
 
 | Note |
@@ -184,12 +187,12 @@ It allowed a title to:
 | Lobby Session | A helper session for invited players who are waiting to join a game session. See [Multiplayer Session advanced topics](../mpsd/concepts/live-mpsd-details.md). |
 | Match Target Session | A match session set up during SmartMatch matchmaking to represent the match. See [Matchmaking overview](../matchmaking/live-matchmaking-overview.md). |
 | Match Ticket Session | A preliminary match session set up during SmartMatch matchmaking. See [Matchmaking overview](../matchmaking/live-matchmaking-overview.md). |
-| MPSD Session | A secure document that resides in the multiplayer session directory (MPSD) within the Xbox Live cloud. It contains a group of users who might be connected while running a title on Xbox One, along with metadata about the users and their game. See [Multiplayer Session advanced topics](../mpsd/concepts/live-mpsd-details.md). |
+| MPSD Session | A secure document that resides in the multiplayer session directory (MPSD) within the Xbox Live cloud. It contains a group of users who might be connected while running a title on Xbox One (or later), along with metadata about the users and their game. See [Multiplayer Session advanced topics](../mpsd/concepts/live-mpsd-details.md). |
 | Multiplayer Session Directory (MPSD) | The service operating in the cloud that the multiplayer system uses to store and retrieve sessions. See [Multiplayer Session Directory (MPSD)](../mpsd/live-mpsd-nav.md). |
-| Party App | An Xbox One system snap app that allows users to view and manage their parties. |
+| Party App | An Xbox One (or later) system snap app that allows users to view and manage their parties. |
 | Server Session | A game session created by Xbox Live Compute processing. See [Multiplayer Session advanced topics](../mpsd/concepts/live-mpsd-details.md). |
 | Shoulder Tap | A notification from MPSD to a title that a potentially interesting change has occurred on the service. The shoulder tap is a quick reminder, often less informational than a regular notification. See the section [MPSD Change Notification Handling and Disconnect Detection](../mpsd/live-mpsd-overview.md#mpsd-change-notification-handling-and-disconnect-detection) in the article "Multiplayer Session Directory overview". |
-| SmartMatch Matchmaking | An Xbox Live matchmaking capability available to Xbox One titles, implemented by the matchmaking service. Using MPSD and matchmaking, the title makes a request to be matched and is notified later that a matched group has been found. See [Matchmaking overview](../matchmaking/live-matchmaking-overview.md). |
+| SmartMatch Matchmaking | An Xbox Live matchmaking capability available to Xbox One (or later) titles, implemented by the matchmaking service. Using MPSD and matchmaking, the title makes a request to be matched and is notified later that a matched group has been found. See [Matchmaking overview](../matchmaking/live-matchmaking-overview.md). |
 
 
 ## What's New in 2015 Multiplayer
@@ -239,7 +242,7 @@ The class also has new URI path parsing methods.
 
 ## Differences Between Xbox 360 and Xbox One MPSD Session Functions
 
-| Function | Xbox 360 | Xbox One |
+| Function | Xbox 360 | Xbox One (or later) |
 |---|---|---|
 | **Get game session information** | XSessionGetDetails, XSessionSearchByID, or title does tracking. | Title requests session information from MPSD. |
 |**Migrate the host** | When needed, title calls XSessionMigrateHost. | Depending on the cause of the migration, title might be able to assign a new host for the session, or might create a new MPSD session. |
@@ -253,8 +256,9 @@ The class also has new URI path parsing methods.
 On the Xbox 360, a session represented an instance of game play.
 Users searched for sessions in the matchmaking service, and reported statistics at the end of a session.
 
-On Xbox One, a session is more generic, and represents a group of players.
-A session is required for any network connectivity between consoles, and holds information that should be shared among all users in the session.
+For all target platforms after Xbox 360 (including PC), a session is more generic, and represents a group of players.
+
+A session is required for any network connectivity between Xbox Live clients, and holds information that should be shared among all users in the session.
 Some examples of this information include the number of players allowed in the session, the secure address of each console in the session, and custom game data.
 
 
@@ -263,7 +267,7 @@ Some examples of this information include the number of players allowed in the s
 On the Xbox 360, titles performed matchmaking by configuring a schema of attributes, and a set of queries to search through those attributes.
 At run time, the title chose to either host a session or search for one.
 
-On Xbox One, matchmaking is server-based, and players and titles no longer decide whether to host or search.
+For all newer Xbox Live clients, such as Xbox One (or later) and PC, matchmaking is server-based, and players and titles no longer decide whether to host or search.
 Instead, each pre-formed group of players creates a "ticket" session and submits that session to the matchmaking service.
 
 The service then finds other sessions and combines the groups to form a new "target" session.
@@ -272,9 +276,9 @@ The clients are notified of the match and perform quality of service (QoS) to va
 
 ### Xbox Live Compute Service
 
-The Xbox Live Compute service on Xbox One enables developers to harness the elastic compute power of the cloud, and enables larger multiplayer scenarios than were possible in a peer-to-peer network.
+The Xbox Live Compute service enables developers to harness the elastic compute power of the cloud, and enables larger multiplayer scenarios than were possible in a peer-to-peer network.
 
-See [Xbox Live Compute](https://developer.microsoft.com/games/xbox/docs/xdk/xbox-live-compute) in the XDK docs (requires ID@Xbox or Managed Partner access).
+See <a href="https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/xbox-live-compute/using-xbox-live-compute-in-multiplayer" target="_blank">Using Xbox Live Compute in Multiplayer &#11008;</a> in the XDK docs (requires Managed Partner access), or see that article in `XboxOneXDK.chm`.
 
 
 ## See also
@@ -283,4 +287,5 @@ See [Xbox Live Compute](https://developer.microsoft.com/games/xbox/docs/xdk/xbox
 * [Matchmaking overview](../matchmaking/live-matchmaking-overview.md)
 * [Real-Time Activity (RTA) service](../../rta/live-rta-nav.md)
 * [Reputation](../../social/reputation/live-reputation-nav.md)
-* [Using Xbox Live Compute in Multiplayer (requires managed partner access)](https://developer.microsoft.com/en-us/games/xbox/docs/xboxlive/xbox-live-partners/xbox-live-compute/using-xbox-live-compute-in-multiplayer) (ext.)
+* <a href="https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/xbox-live-compute/using-xbox-live-compute-in-multiplayer" target="_blank">Using Xbox Live Compute in Multiplayer &#11008;</a>
+(requires Managed Partner access)

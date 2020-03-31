@@ -1,10 +1,9 @@
 ---
 title: What's new for Xbox Live
 description: New features and functionality in each release of Xbox Live.
-ms.date: 10/23/2018
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
+ms.date: 10/23/2018
 ---
 
 # What's new for Xbox Live
@@ -154,7 +153,7 @@ An updated and improved version of Game Chat is now available.  See [Game Chat](
 
 #### Visual Studio 2017
 
-The Xbox Live APIs have been updated to support Visual Studio 2017, for both Universal Windows Platform (UWP) and Xbox One titles.
+The Xbox Live APIs have been updated to support Visual Studio 2017, for both Universal Windows Platform (UWP) and Xbox One (or later) titles.
 
 #### Tournaments
 

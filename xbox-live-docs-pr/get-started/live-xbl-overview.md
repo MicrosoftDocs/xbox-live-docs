@@ -13,21 +13,21 @@ ms.date: 04/04/2017
 # Xbox Live overview
 
 Xbox Live is a premier gaming network that connects millions of gamers across the world.
-You can add Xbox Live to your game on mobile platforms, Windows 10 PC, and Xbox One console to take advantage of the Xbox Live features and services.
+You can add Xbox Live to your game on mobile platforms, Windows 10 PC, and Xbox One (or later) console to take advantage of the Xbox Live features and services.
 
 Here are some reasons to add Xbox Live to your game:
 
-- Xbox Live unites gamers across Xbox One and Windows 10, so gamers can play with their friends and connect with a massive community of players.
+- Xbox Live unites gamers across Xbox One (or later) consoles and Windows 10, so gamers can play with their friends and connect with a massive community of players.
 
 - Xbox Live lets players build a gaming legacy by unlocking achievements, sharing epic game clips, amassing Gamerscore, and perfecting their avatar.
 
-- Xbox Live lets gamers play and pick up where they left off on another Xbox One or PC, bringing all their saves from another device.
+- Xbox Live lets gamers play and pick up where they left off on another Xbox One (or later) console or PC, bringing all their saves from another device.
 
 - With over 1 billion multiplayer matches played each month, Xbox Live is built for performance, speed and reliability.
 
-- With cross-device multiplayer, gamers can play with your friends regardless of whether they play on Xbox One or Windows 10 PC.
+- With cross-device multiplayer, gamers can play with your friends regardless of whether they play on the Xbox One (or later) console or a Windows 10 PC.
 
-With the Xbox Live Creators Program, anyone with a [Partner Center](https://partner.microsoft.com/dashboard) account can build an Xbox Live enabled Universal Windows Platform (UWP) game that can run on both Windows 10 PCs and Xbox One consoles.
+With the Xbox Live Creators Program, anyone with a [Partner Center](https://partner.microsoft.com/dashboard) account can build an Xbox Live enabled Universal Windows Platform (UWP) game that can run on both Windows 10 PCs and Xbox One (or later) consoles.
 
 For game developers that want to take advantage of the full Xbox Live experience, including multiplayer, achievements, and native Xbox console development, see [Choosing an Xbox Live developer program](join-dev-program/live-dev-program-overview.md).
 

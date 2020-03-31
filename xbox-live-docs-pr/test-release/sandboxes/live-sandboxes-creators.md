@@ -2,11 +2,10 @@
 title: Using Xbox Live sandboxes, for Creators
 description: Publishing a game to a development sandbox, to work on changes to the title in an isolated environment.
 kindex: Using Xbox Live sandboxes, for Creators
-ms.date: 10/30/2017
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ms.assetid: e7daf845-e6cb-4561-9dfa-7cfba882f494
+ms.date: 10/30/2017
 ---
 
 # Using Xbox Live sandboxes, for Creators
@@ -22,8 +21,8 @@ Sandboxes offer several benefits:
 2. For security reasons, some tools only work in a development sandbox.
 3. Other publishers cannot see what you are working on without being granted access to your sandbox.
 
-By default, Xbox One consoles and Windows 10 PCs are in the RETAIL sandbox.
-To access that version of the Xbox Live service configuration, you will need to switch your PC and/or Xbox One to the development sandbox.
+By default, Xbox One (or later) consoles and Windows 10 PCs are in the RETAIL sandbox.
+To access that version of the Xbox Live service configuration, you will need to switch your PC and/or Xbox to the development sandbox.
 If you need to test something in RETAIL, or want to play an Xbox Live game, change the device back to the RETAIL sandbox.
 
 
@@ -91,7 +90,7 @@ See [Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)](../tools/live-pc-sandbox-
 
 
 <!-- =============================================================== -->
-## Switch your Xbox One console development sandbox
+## Switch your Xbox console development sandbox
 
 
 <!-- --------------- -->
@@ -112,9 +111,9 @@ You can use the Xbox Dev Portal to change the sandbox on your console:
 
 
 <!-- --------------- -->
-### Using Xbox One console UI
+### Using the Xbox console UI
 
-You can use [Dev Home](https://docs.microsoft.com/windows/uwp/xbox-apps/dev-home) to change the sandbox on your console directly:
+You can use [Dev Home](https://docs.microsoft.com/windows/uwp/xbox-apps/dev-home) to change the sandbox on your Xbox One (or later) console directly:
 1. Click **Change Sandbox**, located under **Quick Actions**.
 2. Enter the sandbox ID and then click **Save and restart**.
 

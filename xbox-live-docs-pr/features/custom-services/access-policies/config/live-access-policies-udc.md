@@ -1,11 +1,10 @@
 ---
 title: Configuring access policies in Partner Center, for Managed Partners
 description: Configuring access policies to allow other apps, games, and services to access a title's Xbox Live settings.
-ms.assetid:
-ms.date: 02/21/2018
+kindex: Configuring access policies in Partner Center, for Managed Partners
 ms.topic: article
 ms.localizationpriority: medium
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, udc, universal developer center
+ms.date: 02/21/2018
 ---
 
 # Configuring access policies in Partner Center, for Managed Partners

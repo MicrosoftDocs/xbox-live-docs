@@ -1,14 +1,17 @@
 ---
 title: Filling open slots in a multiplayer game (flowchart)
 description: Flowcharts of filling open slots in a multiplayer game, with friends and/or with matchmaking.
-ms.assetid: ff4141db-648f-4cd7-818b-8a1633002b66
-ms.date: 04/04/2017
+kindex: Filling open slots in a multiplayer game (flowchart)
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer manager, flowchart
+ms.assetid: ff4141db-648f-4cd7-818b-8a1633002b66
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
+
+
+
 
 # Filling open slots in a multiplayer game (flowchart)
 

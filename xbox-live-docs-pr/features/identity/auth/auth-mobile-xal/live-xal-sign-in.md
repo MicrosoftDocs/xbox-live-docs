@@ -2,12 +2,13 @@
 title: Signing-in using XAL
 description: Sign-in scenarios for XAL are soft single-user authentication, hard single-user authentication, and multi-user authentication.
 kindex: Signing-in using XAL
+kindex: authentication
+kindex: sign-in
 author: aablackm
 ms.author: aablackm
-ms.date: 08/30/2018
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, authentication, sign-in
 ms.localizationpriority: medium
+ms.date: 08/30/2018
 ---
 
 # Signing-in using XAL

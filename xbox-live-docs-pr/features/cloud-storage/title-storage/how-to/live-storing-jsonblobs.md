@@ -1,11 +1,11 @@
 ---
 title: Storing a JSON blob in Title Storage
 description: Storing a JSON blob in Title Storage, using PUT.
-ms.assetid: f424aca1-e671-4e31-84c6-098fda4a9558
-ms.date: 04/04/2017
+kindex: Storing a JSON blob in Title Storage
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, title storage
+ms.assetid: f424aca1-e671-4e31-84c6-098fda4a9558
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Storing a JSON blob in Title Storage

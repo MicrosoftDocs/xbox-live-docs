@@ -1,10 +1,11 @@
 ---
 title: What's new for the Xbox Live SDK - April 2016
 description: What's new for the Xbox Live SDK - April 2016
-ms.assetid: a6f26ffd-f136-4753-b0cd-92b0da522d93
-ms.date: 04/04/2017
+kindex: What's new for the Xbox Live SDK - April 2016
 ms.topic: article
+ms.assetid: a6f26ffd-f136-4753-b0cd-92b0da522d93
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # What's new for the Xbox Live SDK - April 2016
@@ -25,8 +26,11 @@ The Xbox Live SDK supports Windows 10 RTM [Version 10.0.10240] and Visual Studio
 ## Documentation
 
 - [Troubleshooting Xbox Live sign-in](../../../features/identity/auth/live-troubleshooting-sign-in.md) lists some general strategies to debug sign-in failures, as well as steps to follow based on error code.
-- The [Marketplace](https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/xbox-marketplace/marketplace-and-downloadable-content) docs for Xbox One developers only can now be found in the Programming Guide.  UWP developers should continue to consult Partner Center for documentation on the store.
-- See [Porting Xbox Live code from XDK to UWP](../../../test-release/services/live-port-xbl-code-from-xdk-to-uwp.md) if you are interested in bringing an Xbox One title to the Universal Windows Platform.
+
+- The Marketplace docs for Xbox One (or later) developers only can now be found in the Programming Guide; see <a href="https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/xbox-marketplace/marketplace-and-downloadable-content" target="_blank">Xbox One Marketplace and Downloadable Content &#11008;</a> at Xbox Game Dev (XGD).  UWP developers should continue to consult Partner Center for documentation on the store.
+
+- If you are interested in bringing an Xbox One (or later) title to the Universal Windows Platform, see [Porting Xbox Live code from XDK to UWP](../../../test-release/services/live-port-xbl-code-from-xdk-to-uwp.md).
+
 - See [Fine-Grained Rate Limiting](../../../test-release/services/best-practices/live-fine-grained-rate-limiting.md) for a description of how these are enforced for various Xbox Live Service endpoints and scenarios, as well as information about what the limits are.
 
 

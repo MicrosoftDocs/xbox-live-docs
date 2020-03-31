@@ -1,11 +1,13 @@
 ---
 title: Add an XSAPI binary package to a UWP project
 description: Using NuGet to add the Xbox Live APIs binary package to your UWP project.
-ms.assetid: 1e77ce9f-8a0e-402c-9f46-e37f9cda90ed
-ms.date: 11/28/2017
+kindex: Add an XSAPI binary package to a UWP project
+kindex: UWP
+kindex: NuGet
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, nuget
+ms.assetid: 1e77ce9f-8a0e-402c-9f46-e37f9cda90ed
 ms.localizationpriority: medium
+ms.date: 11/28/2017
 ---
 
 # Add an XSAPI binary package to a UWP project
@@ -28,7 +30,7 @@ If you instead want to use source, see [Add and compile XSAPI source code into a
 
 The Xbox Services API comes in flavors for both UWP and XDK, and for C++ and WinRT and have their namespace structured as **Microsoft.Xbox.Live.SDK.*.UWP** and **Microsoft.Xbox.Live.SDK.*.XboxOneXDK**.
 
-* **UWP** is for developers who are building a UWP game, which can run on either PC, the Xbox One, or Windows Phone.
+* **UWP** is for developers who are building a UWP game, which can run on either PC, Xbox One (or later) consoles, or Windows Phone.
 
 * **XboxOneXDK** is for Managed Partners who are using the Xbox One XDK.
 
@@ -37,7 +39,7 @@ The Xbox Services API comes in flavors for both UWP and XDK, and for C++ and Win
 * When using WinRT with a C++ engine, you should use C++/CX, which uses carets (^). C++ is the recommended API to use for C++ game engines.
 
 > [!TIP]
-> You can read more about running UWP on Xbox One at [Getting started with UWP app development on Xbox One](https://docs.microsoft.com/windows/uwp/xbox-apps/getting-started).
+> You can read more about running UWP on Xbox One (or later) at [Getting started with UWP app development on Xbox One](https://docs.microsoft.com/windows/uwp/xbox-apps/getting-started).
 
 You can add the Xbox Live SDK NuGet package, as follows:
 1. In Visual Studio, go to **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution...**.

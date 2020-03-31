@@ -1,13 +1,16 @@
 ---
 title: Multiplayer session status codes
 description: Status codes returned from the Xbox Live service when requesting a multiplayer session.
-ms.assetid: 4ab320d6-8050-41a9-9f00-faaad3b128fd
-ms.date: 04/04/2017
+kindex: Multiplayer session status codes
+kindex: Multiplayer 2015
+kindex: status codes
+kindex: session
 ms.topic: how-to
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer 2015, status codes, session
+ms.assetid: 4ab320d6-8050-41a9-9f00-faaad3b128fd
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Multiplayer session status codes

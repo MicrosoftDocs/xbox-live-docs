@@ -7,7 +7,7 @@
         },
         // sort order: "redirect_url" = a current toc entry, all toc entries are present here, in toc order, commented-out if no redirection needed
         {
-            "source_path": "xbox-live-docs-pr/gaming/xbox-live/get-started/get-started_nav.md",
+            "source_path": "xbox-live-docs-pr/get-started/get-started_nav.md",
             "redirect_url": "/gaming/xbox-live/get-started/live-getstarted-nav",
             "redirect_document_id": true
         },
@@ -1003,7 +1003,8 @@
         },
         {
             "source_path": "xbox-live-docs-pr/multiplayer/multiplayer-appendix/xbox-one-multiplayer-session-directory.md",
-            "redirect_url": "/gaming/xbox-live/features/multiplayer/mpsd/live-xbox-one-multiplayer-session-directory",
+            "source_path": "xbox-live-docs-pr/features/multiplayer/mpsd/live-xbox-one-multiplayer-session-directory.md",
+            "redirect_url": "/gaming/xbox-live/features/multiplayer/mpsd/live-xbox-multiplayer-session-directory",
             "redirect_document_id": true
         },
         // {
@@ -1546,6 +1547,7 @@
             "redirect_document_id": true
         },
         {
+            "source_path": "xbox-live-docs-pr/configuring-xbox-live-services_nav.md",
             "source_path": "xbox-live-docs-pr/configure-xbl/windows-dev-center_nav.md",
             "redirect_url": "/gaming/xbox-live/test-release/portal-config/live-portal-config-overview",
             "redirect_document_id": true
@@ -1636,66 +1638,6 @@
             "redirect_url": "/gaming/xbox-live/test-release/troubleshooting/live-troubleshooting-pc-setup",
             "redirect_document_id": true
         },
-        {
-            "source_path": "xbox-live-docs-pr/tools/development-tools_nav.md",
-            "source_path": "xbox-live-docs-pr/test-release/services-tools/live-services-tools-nav.md",
-            "redirect_url": "/gaming/xbox-live/test-release/tools/live-tools-nav",
-            "redirect_document_id": true
-        },
-        {
-            "source_path": "xbox-live-docs-pr/tools/tools.md",
-            "source_path": "xbox-live-docs-pr/test-release/services-tools/live-tools.md",
-            "redirect_url": "/gaming/xbox-live/test-release/tools/live-tools",
-            "redirect_document_id": true
-        },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/test-release/tools/live-config-as-source",
-        //     "redirect_document_id": true
-        // },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/test-release/tools/live-global-storage-tool",
-        //     "redirect_document_id": true
-        // },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/test-release/tools/live-mp-session-history-viewer",
-        //     "redirect_document_id": true
-        // },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/test-release/tools/live-player-data-reset",
-        //     "redirect_document_id": true
-        // },
-        {
-            "source_path": "xbox-live-docs-pr/tools/xbox-live-account-tool.md",
-            "source_path": "xbox-live-docs-pr/test-release/test-accounts/live-account-tool.md",
-            "redirect_url": "/gaming/xbox-live/test-release/tools/live-xbox-live-account-tool",
-            "redirect_document_id": true
-        },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/test-release/tools/live-dev-account-tool",
-        //     "redirect_document_id": true
-        // },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/test-release/tools/live-pc-sandbox-switcher",
-        //     "redirect_document_id": true
-        // },
-        {
-            "source_path": "xbox-live-docs-pr/tools/analyze-service-calls.md",
-            "source_path": "xbox-live-docs-pr/test-release/services-tools/live-trace-analyzer.md",
-            "redirect_url": "/gaming/xbox-live/test-release/tools/live-trace-analyzer",
-            "redirect_document_id": true
-        },
-        {
-            "source_path": "xbox-live-docs-pr/using-xbox-live/troubleshooting/how-to-set-up-fiddler-for-debugging.md",
-            "source_path": "xbox-live-docs-pr/test-release/services-tools/live-fiddler-inspect-web-calls.md",
-            "redirect_url": "/gaming/xbox-live/test-release/tools/live-fiddler-inspect-web-calls",
-            "redirect_document_id": true
-        },
         // {
         //     "source_path": "xbox-live-docs-pr/__.md",
         //     "redirect_url": "/gaming/xbox-live/test-release/services/live-services-nav",
@@ -1754,6 +1696,66 @@
             "source_path": "xbox-live-docs-pr/using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md",
             "source_path": "xbox-live-docs-pr/test-release/services-tools/live-port-xbl-code-from-xdk-to-uwp.md",
             "redirect_url": "/gaming/xbox-live/test-release/services/live-port-xbl-code-from-xdk-to-uwp",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/tools/development-tools_nav.md",
+            "source_path": "xbox-live-docs-pr/test-release/services-tools/live-services-tools-nav.md",
+            "redirect_url": "/gaming/xbox-live/test-release/tools/live-tools-nav",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/tools/tools.md",
+            "source_path": "xbox-live-docs-pr/test-release/services-tools/live-tools.md",
+            "redirect_url": "/gaming/xbox-live/test-release/tools/live-tools",
+            "redirect_document_id": true
+        },
+        // {
+        //     "source_path": "xbox-live-docs-pr/__.md",
+        //     "redirect_url": "/gaming/xbox-live/test-release/tools/live-config-as-source",
+        //     "redirect_document_id": true
+        // },
+        // {
+        //     "source_path": "xbox-live-docs-pr/__.md",
+        //     "redirect_url": "/gaming/xbox-live/test-release/tools/live-global-storage-tool",
+        //     "redirect_document_id": true
+        // },
+        // {
+        //     "source_path": "xbox-live-docs-pr/__.md",
+        //     "redirect_url": "/gaming/xbox-live/test-release/tools/live-mp-session-history-viewer",
+        //     "redirect_document_id": true
+        // },
+        // {
+        //     "source_path": "xbox-live-docs-pr/__.md",
+        //     "redirect_url": "/gaming/xbox-live/test-release/tools/live-player-data-reset",
+        //     "redirect_document_id": true
+        // },
+        {
+            "source_path": "xbox-live-docs-pr/tools/xbox-live-account-tool.md",
+            "source_path": "xbox-live-docs-pr/test-release/test-accounts/live-account-tool.md",
+            "redirect_url": "/gaming/xbox-live/test-release/tools/live-xbox-live-account-tool",
+            "redirect_document_id": true
+        },
+        // {
+        //     "source_path": "xbox-live-docs-pr/__.md",
+        //     "redirect_url": "/gaming/xbox-live/test-release/tools/live-dev-account-tool",
+        //     "redirect_document_id": true
+        // },
+        // {
+        //     "source_path": "xbox-live-docs-pr/__.md",
+        //     "redirect_url": "/gaming/xbox-live/test-release/tools/live-pc-sandbox-switcher",
+        //     "redirect_document_id": true
+        // },
+        {
+            "source_path": "xbox-live-docs-pr/tools/analyze-service-calls.md",
+            "source_path": "xbox-live-docs-pr/test-release/services-tools/live-trace-analyzer.md",
+            "redirect_url": "/gaming/xbox-live/test-release/tools/live-trace-analyzer",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/using-xbox-live/troubleshooting/how-to-set-up-fiddler-for-debugging.md",
+            "source_path": "xbox-live-docs-pr/test-release/services-tools/live-fiddler-inspect-web-calls.md",
+            "redirect_url": "/gaming/xbox-live/test-release/tools/live-fiddler-inspect-web-calls",
             "redirect_document_id": true
         },
         // {

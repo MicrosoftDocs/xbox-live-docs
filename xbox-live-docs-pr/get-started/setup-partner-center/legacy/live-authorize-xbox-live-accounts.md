@@ -1,11 +1,14 @@
 ---
 title: Authorizing test accounts, for Creators
 description: Authorizing a public Xbox Live account for testing in your development environment.
-ms.assetid: 9772b8f1-81db-4c57-a54d-4e9ca9142111
-ms.date: 04/04/2017
+kindex: Authorizing test accounts, for Creators
+kindex: accounts
+kindex: test accounts
+kindex: Creators
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, accounts, test accounts
+ms.assetid: 9772b8f1-81db-4c57-a54d-4e9ca9142111
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Authorizing test accounts, for Creators
@@ -45,7 +48,7 @@ To authorize a new account:
 
 ![Adding Xbox Live Accounts](live-authorize-xbox-live-accounts-images/add_test_account.png)
 
-   A modal dialog box appears, with one text box where you can enter the desired account’s email address:
+   A modal dialog box appears, with one text box where you can enter the desired account's email address:
 
 ![Adding Xbox Live Accounts Modal](live-authorize-xbox-live-accounts-images/add_test_account_modal.png)
 
@@ -61,4 +64,4 @@ To authorize a new account:
 The email address that was entered in the modal dialog box is run through a few checks, including a lookup to ensure there is an Xbox Live account associated with it.
 If any of these checks fail, the account is not added to the table and is therefore not authorized, and you may get a "Sorry, there was an issue adding your email address" error.
 
-A good check if you are having issues is to try and sign in with the account on [Xbox.com](https://www.xbox.com/live/). If you can’t sign in then the account is not an Xbox Live account.
+A good check if you are having issues is to try and sign in with the account on [Xbox.com](https://www.xbox.com/live/). If you can't sign in then the account is not an Xbox Live account.

@@ -7,6 +7,7 @@ ms.author: v-mihof
 ms.topic: overview
 ms.prod: gaming
 ms.technology: xboxlive
+ms.localizationpriority: medium
 edited: 00/00/0000
 ---
 

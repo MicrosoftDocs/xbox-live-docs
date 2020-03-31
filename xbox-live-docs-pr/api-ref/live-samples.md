@@ -1,11 +1,12 @@
 ---
 title: Xbox Live samples
-description: There are Xbox Live API samples and Xbox Developer Kit samples.
-ms.assetid: 4bb6fa66-34d1-4db9-87c8-7e24ad5afc0a
-ms.date: 04/04/2017
+description: Xbox Live API samples and Xbox Developer Kit samples.
+kindex: Xbox Live samples
+kindex: samples, Xbox Live
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, sample, samples
+ms.assetid: 4bb6fa66-34d1-4db9-87c8-7e24ad5afc0a
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Xbox Live samples
