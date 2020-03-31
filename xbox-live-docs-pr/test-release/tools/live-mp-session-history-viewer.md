@@ -31,15 +31,18 @@ This standalone tool is part of `XboxLiveTools.zip`; see [Development tools for 
 
 ## Access Control
 
-Partner Center has certain setup requirements in order to support using a dev's account to sign in to Multiplayer Session History Viewer.
-The publisher of the title must give permission for that dev to run session history queries for that title.
+<!-- As an administrator, to grant access to a developer to access data using the Multiplayer Session History Viewer, follow the steps below. -->
 
-Someone on your developer team with Partner Center access needs to go to the Partner Center page for your company, select **Access Management**, and then select the appropriate group.
-A real user must be added to this group.
-Developer accounts can then be created and added to this group.
+Partner Center has certain setup requirements in order to support using a developer's account to sign in to Multiplayer Session History Viewer.
+The publisher of the title must give permission for that developer to run session history queries for that title.
 
-Those developer accounts are given to people who need access to the title's query data via the Multiplayer Session History Viewer.
-An administrator for your company can create their own developer account to test out tool access through running test queries.
+<!-- audience: admin: -->
+Your company administrator needs to go to the Partner Center page for your company, select **Access Management**, and then select the appropriate group.
+
+<!-- audience: dev: -->
+A Partner Center developer account is required, to use the Multiplayer Session History Viewer.
+This developer account needs to be part of a specific group.
+As a developer, if you do not already have access to Partner Center, contact your company administrator.
 
 
 ## Viewing changes to the session document
