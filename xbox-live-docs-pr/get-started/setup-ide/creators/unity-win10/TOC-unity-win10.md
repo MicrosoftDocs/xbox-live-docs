@@ -2,7 +2,7 @@
 
 ## live-configure-xbl-in-unity.md
 
-## signin/micro-toc.md
+## _include_ signin/micro-toc.md
 
 ## live-test-vstudio-build.md
 

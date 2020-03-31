@@ -4,4 +4,4 @@
 
 ## live-setup-partner-center-partners.md
 
-## legacy/micro-toc.md
+## _include_ legacy/TOC-legacy.md

@@ -2,16 +2,16 @@
 
 ## live-multiplayer-intro.md
 
-## concepts/micro-toc.md
+## _include_ concepts/micro-toc.md
 
-## xim/micro-toc.md
+## _include_ xim/micro-toc.md
 
-## mpm/micro-toc.md
+## _include_ mpm/micro-toc.md
 
-## mpsd/micro-toc.md
+## _include_ mpsd/micro-toc.md
 
-## invites/micro-toc.md
+## _include_ invites/micro-toc.md
 
-## matchmaking/micro-toc.md
+## _include_ matchmaking/micro-toc.md
 
-## chat/micro-toc.md
+## _include_ chat/micro-toc.md
