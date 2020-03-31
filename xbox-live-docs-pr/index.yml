@@ -167,12 +167,6 @@ landingContent:
         links:
           - text: Multiplayer overview
             url: features/multiplayer/live-multiplayer-intro.md
-          - text: Invites overview
-            url: features/multiplayer/invites/live-multiplayer-invites-overview.md
-          - text: Matchmaking overview
-            url: features/multiplayer/matchmaking/live-matchmaking-overview.md
-          - text: Game Chat overview
-            url: features/multiplayer/chat/live-game-chat-2-overview.md
       - linkListType: concept
         links:
           - text: Multiplayer roles
