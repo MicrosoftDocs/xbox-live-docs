@@ -1,21 +1,28 @@
 ---
 title: Target session initialization and QoS
 description: After players are matched into a target session, the title confirms enough players have joined and can connect.
+kindex: Target session initialization and QoS
+kindex: matchmaking
+kindex: SmartMatch
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
 ms.assetid: ba0c1ecb-e928-4e86-9162-8cb456b697ff
-ms.date: 04/04/2017
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, matchmaking, smartmatch
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
+
+
+
+
+
 
 # Target session initialization and QoS
 
 A group of players is matched into a target session by SmartMatch matchmaking. The title must take steps to confirm that enough players have joined that they can successfully connect to one another if they need to. This process is known as target session initialization.
 
 For games using peer-to-peer network topologies, an important aspect of target session initialization is QoS measurement and evaluation.
-Associated operations are the measurement of latency and bandwidth between Xbox One consoles (or between consoles and servers), and the evaluation of the resulting measurements to determine whether the network connection between nodes is good.
+Associated operations are the measurement of latency and bandwidth between Xbox One (or later) consoles, or between consoles and servers, and the evaluation of the resulting measurements to determine whether the network connection between nodes is good.
 
 The following flow chart illustrates how to implement the initialization of the target session and QoS operations.
 
@@ -90,7 +97,7 @@ QoS is only needed during initialization if the title uses a peer-to-peer or pee
 Each topology maps to a topology-specific constant under /constants/system/.
 
 
-##### Configuring QoS Requirements for Peer-to-peer Topology
+#### Configuring QoS Requirements for Peer-to-peer Topology
 
 | Note                                                                                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -104,7 +111,7 @@ The object has the following pertinent fields:
 -   bandwidthMinimum. Specifies the minimum bandwidth between any two clients.
 
 
-##### Configuring QoS Requirements for Peer-to-host Topology
+#### Configuring QoS Requirements for Peer-to-host Topology
 
 Peer-to-host topology QOS requirements are set in the peerToHostRequirements object.
 Every client must be able to connect to a single common host.

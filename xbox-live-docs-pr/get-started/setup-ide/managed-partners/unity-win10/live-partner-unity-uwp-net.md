@@ -1,16 +1,17 @@
 ---
 title: Add XBL support to Unity for UWP, with .NET scripting
 description: Add Xbox Live support to Unity for UWP with .NET scripting backend, for Managed Partners.
-ms.assetid: 790a49ad-eff4-4916-8578-968ca8483211
-ms.date: 04/04/2017
+kindex: Add XBL support to Unity for UWP, with .NET scripting
+kindex: Unity
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, Unity
+ms.assetid: 790a49ad-eff4-4916-8578-968ca8483211
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Add XBL support to Unity for UWP, with .NET scripting
 
-This article is for Managed Partners.
+This article is for Managed Partners. 
 
 You can add Xbox Live support to Unity for UWP with .NET scripting backend.
 
@@ -49,7 +50,7 @@ Any game object will do.
 
 5.  Click the **Unity C\# Projects** checkbox to generate the `Assembly-Csharp.dll` projects.
 
-6.  Click **Build** for Unity to generate the UWP Visual Studio project that wraps your Unity game in a UWP application. When you are prompted for a location, create a new folder to avoid confusion, since many new files will be created. It’s recommended you call the folder **Build**, and then select that folder.
+6.  Click **Build** for Unity to generate the UWP Visual Studio project that wraps your Unity game in a UWP application. When you are prompted for a location, create a new folder to avoid confusion, since many new files will be created. It's recommended you call the folder **Build**, and then select that folder.
 
 ![Unity build settings screenshot](live-partner-unity-uwp-net-images/unity3-buildsettings.png)
 

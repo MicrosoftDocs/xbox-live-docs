@@ -1,11 +1,11 @@
 ---
 title: Configuring an Xbox development console
 description: Configuring your Xbox development console to support Xbox Live development.
-ms.assetid: f8fd1caa-b1e9-4882-a01f-8f17820dfb55
-ms.date: 04/04/2017
+kindex: Configuring an Xbox development console
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
+ms.assetid: f8fd1caa-b1e9-4882-a01f-8f17820dfb55
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Configuring an Xbox development console
@@ -27,7 +27,7 @@ See the section [Get your IDs](../../../../test-release/portal-config/live-servi
 
 ## Activate the console as a dev kit
 
-Activate Dev Mode on the retail Xbox One console.
+Activate Dev Mode on the retail Xbox One (or later) console.
 To do this, download the Dev Mode Activation app from the Xbox One store.
 See <a href="https://docs.microsoft.com/windows/uwp/xbox-apps/devkit-activation" target="_blank">Xbox One Developer Mode activation &#11008;</a>.
 
@@ -35,7 +35,9 @@ See <a href="https://docs.microsoft.com/windows/uwp/xbox-apps/devkit-activation"
 ## Set your sandbox on your development kit
 
 To boot your development kit, you must set your Sandbox ID.
-To do this, you can use the "Xbox One Manager" that's installed on your PC by the XDK, or you can open an XDK command window and use the Configuration (xbconfig.exe) command, as follows:
+You can set your Sandbox ID in one of two ways:
+*  Use the "Xbox One Manager" that's installed on your PC by the XDK.
+*  Open an XDK command window and use the `xbconfig.exe` command, as follows:
 
 1. Check your current sandbox.
    To do this, type `xbconfig sandboxid` at the command prompt.

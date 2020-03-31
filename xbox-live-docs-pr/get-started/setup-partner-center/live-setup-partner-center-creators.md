@@ -1,10 +1,11 @@
 ---
 title: Setting up a game at Partner Center, for Creators
 description: Creating a new game at Partner Center as a Creator, enabling Xbox Live for the game, creating test accounts, and publishing the game to a development sandbox.
-ms.date: 02/08/2019
+kindex: Setting up a game at Partner Center, for Creators
+kindex: sign-in
 ms.topic: article
-keywords: xbox live, xbox, games, xbox one, sign-in
 ms.localizationpriority: medium
+ms.date: 02/08/2019
 ---
 
 # Setting up a game at Partner Center, for Creators

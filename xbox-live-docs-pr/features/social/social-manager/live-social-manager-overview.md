@@ -1,12 +1,17 @@
 ---
 title: Social Manager overview
 description: The Xbox Live Social Manager API simplifies keeping track of online friends and their gaming activity.
-ms.assetid: d4c6d5aa-e18c-4d59-91f8-63077116eda3
-ms.date: 03/26/2018
+kindex: Social Manager overview
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
+ms.assetid: d4c6d5aa-e18c-4d59-91f8-63077116eda3
 ms.localizationpriority: medium
+ms.date: 03/26/2018
 ---
+
+
+
+
+
 
 # Social Manager overview
 
@@ -60,20 +65,26 @@ There are two types of groups:
 
 * **User Groups**: A user group takes a list of users and returns a consistently fresh view of those users. These users can be outside of a user's friends list.
 
-To keep a *social user group* up to date, the function `social_manager::do_work()` must be called every frame.
+C API: To keep a *social user group* up to date, the function `XblSocialManagerDoWork()` must be called every frame.
+
+C++ API: To keep a *social user group* up to date, the function `social_manager::do_work()` must be called every frame.
 
 
 ## API Overview
 
-You will most frequently use the following key classes:
+You will most frequently use the following key APIs.
 
 
-### Social Manager
+### Adding local users to Social Manager
 
-* C++ API class name: social_manager
-* WinRT(C#) API class name: [SocialManager](https://docs.microsoft.com/dotnet/api/microsoft.xbox.services.social.manager.socialmanager?view=xboxlive-dotnet-2017.11.20171204.01)
+* C API function: `XblSocialManagerAddLocalUser(...)`
+* C++ API class: social_manager
+* WinRT(C#) API class: <a href="https://docs.microsoft.com/dotnet/api/microsoft.xbox.services.social.manager.socialmanager?view=xboxlive-dotnet-2017.11.20171204.01" target="_blank">SocialManager &#11008;</a>
 
-This is a singleton class that can be used to get **Xbox social user groups** which are the views described above.
+Adding a local user to Social Manager causes a *social graph* to be created for the user.
+After a local user is added, *social user groups* can be created for that user.
+
+For C++ and WinRT C#, this is a singleton class that can be used to get **Xbox social user groups** which are the views described above.
 
 The Social Manager will keep xbox social user groups up to date, and can filter user groups by presence or relationship to the user.
 For example, an xbox social user group containing all of the user's friends who are online and playing the current title could be created.
@@ -82,8 +93,9 @@ This would be kept up to date as friends start or stop playing the title.
 
 ### Xbox social user group
 
-* C++ API class name: xbox_social_user_group
-* WinRT(C#) API class name: [XboxSocialUserGroup](https://docs.microsoft.com/dotnet/api/microsoft.xbox.services.social.manager.xboxsocialusergroup?view=xboxlive-dotnet-2017.11.20171204.01)
+* C API function: `XblSocialManagerUserGroupHandle`
+* C++ API class: xbox_social_user_group
+* WinRT(C#) API class: <a href="https://docs.microsoft.com/dotnet/api/microsoft.xbox.services.social.manager.xboxsocialusergroup?view=xboxlive-dotnet-2017.11.20171204.01" target="_blank">XboxSocialUserGroup &#11008;</a>
 
 A group of users that meet certain criteria, as described above.
 Xbox social user groups expose what type of a group they are, which users are being tracked or what the filter set is on them, and the local user which the group belongs to.
@@ -97,7 +109,7 @@ You can also find the WinRT APIs in the [Microsoft.Xbox.Services.Social.Manager.
 
 ### Creating a social user group from filters
 
-In this scenario, you want a list of users from a filter, such as all the people this user is following or tagged as favorite.
+In this scenario, you want a list of users from a filter, such as all the people this user is following or has tagged as favorite.
 
 
 **C API**
@@ -131,15 +143,13 @@ while (true)
 }
 ```
 
-<!-- in chm only:
-**Reference**
+<!-- **Reference**
 * [XblPresenceFilter](xblpresencefilter.md)
 * [XblRelationshipFilter](xblrelationshipfilter.md)
 * [XblSocialManagerAddLocalUser](xblsocialmanageraddlocaluser.md)
 * [XblSocialManagerCreateSocialUserGroupFromFilters](xblsocialmanagercreatesocialusergroupfromfilters.md)
 * [XblSocialManagerDoWork](xblsocialmanagerdowork.md)
-* [XblSocialManagerEvent](xblsocialmanagerevent.md)
--->
+* [XblSocialManagerEvent](xblsocialmanagerevent.md)-->
 <!-- * [XblSocialManagerUserGroupHandle](xblsocialmanagerusergrouphandle.md) -->
 
 
@@ -198,17 +208,42 @@ while(true)
 ```
 
 
-#### Events Returned
+#### Events returned
 
-`local_user_added`(C++) | `LocalUserAdded`(C#) - Triggers when loading of users social graph is complete. Will indicate if any errors occurred during initialization.
+**Local User Added**: Triggers when loading of users social graph is complete. Will indicate if any errors occurred during initialization.
+* C API: `XblSocialManagerEventType::LocalUserAdded`
+* C++ API: `local_user_added`
+* C# API: `LocalUserAdded`
 
-`social_user_group_loaded`(C++) | `SocialUserGroupLoaded`(C#) - Triggers when social user group has been created.
+**Social User Group Loaded**: Triggers when social user group has been created.
+* C API: `XblSocialManagerEventType::SocialUserGroupLoaded`
+* C++ API: `social_user_group_loaded`
+* C# API: `SocialUserGroupLoaded`
 
-`users_added_to_social_graph`(C++) | `UsersAddedToSocialGraph`(C#) - Triggers when users are loaded in.
+**Users Added to Social Graph**: Triggers when users are loaded in.
+* C API: `XblSocialManagerEventType::UsersAddedToSocialGraph`
+* C++ API: `users_added_to_social_graph`
+* C# API: `UsersAddedToSocialGraph`
+
+<!-- **Reference**:
+* [XblSocialManagerEventType](xblsocialmanagereventtype.md) (C API) -->
 
 
 #### Additional details
 
+
+**C API**
+The above example shows how to initialize the Social Manager for a user, create a social user group for that user, and keep it up to date.
+
+The filtering options can be seen in the `XblPresenceFilter` and `XblRelationshipFilter` enums.
+
+In the game loop, the `XblSocialManagerDoWork` function updates all created views with the latest snapshot of the users in that group.
+
+The users in the view can be obtained by calling the `XblSocialManagerUserGroupGetUsers(...)` function which returns an `XblSocialManagerUserPtrArray`, an array of `XblSocialManagerUser` objects owned by XSAPI.
+The `XblSocialManagerUser` contains the social information such as gamertag, gamerpic uri, etc.
+
+
+**C++ API**
 The above example shows how to initialize the Social Manager for a user, create a social user group for that user, and keep it up to date.
 
 The filtering options can be seen in the `presence_filter` and `relationship_filter` enums.
@@ -259,13 +294,11 @@ while (true)
 }
 ```
 
-<!-- in chm only:
-**Reference**
+<!-- **Reference**
 * [XblSocialManagerAddLocalUser](xblsocialmanageraddlocaluser.md)
 * [XblSocialManagerCreateSocialUserGroupFromList](xblsocialmanagercreatesocialusergroupfromlist.md)
 * [XblSocialManagerDoWork](xblsocialmanagerdowork.md)
-* [XblSocialManagerEvent](xblsocialmanagerevent.md)
- -->
+* [XblSocialManagerEvent](xblsocialmanagerevent.md)-->
  <!-- * [XblSocialManagerUserGroupHandle](xblsocialmanagerusergrouphandle.md) -->
 
 
@@ -321,7 +354,7 @@ while(true)
 ```
 
 
-#### Events Returned
+#### Events returned
 
 `local_user_added`(C++) | `LocalUserAdded`(C#) - Triggers when loading of users social graph is complete. Will indicate if any errors occurred during initialization.
 
@@ -362,12 +395,10 @@ while (true)
 }
 ```
 
-<!-- in chm only:
-**Reference**
+<!-- **Reference**
 * [XblSocialManagerDoWork](xblsocialmanagerdowork.md)
 * [XblSocialManagerEvent](xblsocialmanagerevent.md)
-* [XblSocialManagerUpdateSocialUserGroup](xblsocialmanagerupdatesocialusergroup.md)
--->
+* [XblSocialManagerUpdateSocialUserGroup](xblsocialmanagerupdatesocialusergroup.md)-->
 
 
 **C++ API**
@@ -387,6 +418,7 @@ socialManager->update_social_user_group(
     }
 ```
 
+
 **C# WinRT API**
 ```csharp
 // using Microsoft.Xbox.Services.Social.Manager;
@@ -405,16 +437,24 @@ while(true)
 ```
 
 
-#### Events Returned
+#### Events returned
 
-`social_user_group_updated`(C++) | `SocialUserGroupUpdated`(C#) - Triggers when social user group updating is complete.
+**Social User Group Updated** - Triggers when social user group updating is complete.
+* C++: `social_user_group_updated`
+* C#: `SocialUserGroupUpdated`
 
-`users_added_to_social_graph` | `UsersAddedToSocialGraph`(C#) - Triggers when users are loaded in. If users added via list are already in graph, this event will not trigger.
+**Users Added to Social Graph** - Triggers when users are loaded in. If users added via list are already in graph, this event will not trigger.
+* C++: `users_added_to_social_graph`
+* C#: `UsersAddedToSocialGraph`
+
+**Users Removed from Social Graph** - Triggers when the previous users are removed from the social graph.
+* C#: `XblSocialManagerEventType::UsersRemovedFromSocialGraph`
 
 
 ### Using Social Manager events
 
-Social Manager will also tell you what happened in the form of events.  You can use those events to update your UI or perform other logic.
+Social Manager tells you what happened, in the form of events.
+You can use those events to update your UI or perform other logic.
 
 
 **C API**
@@ -450,11 +490,9 @@ while (true)
 }
 ```
 
-<!-- in chm only:
-**Reference**
+<!-- **Reference**
 * [XblSocialManagerDoWork](xblsocialmanagerdowork.md)
-* [XblSocialManagerEvent](xblsocialmanagerevent.md)
--->
+* [XblSocialManagerEvent](xblsocialmanagerevent.md)-->
 
 
 **C++ API**
@@ -525,13 +563,26 @@ while(true)
 ```
 
 
-#### Events Returned
+#### Events returned
 
-`local_user_added`(C++) | `LocalUserAdded`(C#) - Triggers when loading of users social graph is complete. Will indicate if any errors occurred during initialization.
+`XblSocialManagerEventType::LocalUserAdded` - Triggers when loading of users social graph is complete. Will indicate if any errors occurred during initialization.
+* C++: `local_user_added`
 
-`social_user_group_loaded`(C++) | `SocialUserGroupLoaded`(C#)- Triggers when social user group has been created.
+`XblSocialManagerEventType::SocialUserGroupLoaded` - Triggers when social user group has been created.
+* C++: `social_user_group_loaded`
 
-`users_added_to_social_graph`(C++) | `UsersAddedToSocialGraph`(C#)- Triggers when users are loaded in.
+`XblSocialManagerEventType::UsersAddedToSocialGraph` - Triggers when users are loaded in.
+* C++: `users_added_to_social_graph`
+
+`XblSocialManagerEventType::UsersRemovedFromSocialGraph` - Triggers when a user is removed from the social graph.
+
+`XblSocialManagerEventType::PresenceChanged` - Triggers when the presence of a user in the social graph changes.
+
+`XblSocialManagerEventType::ProfilesChanged` - Triggers when the profile of a user in the social graph changes.
+
+`XblSocialManagerEventType::SocialRelationshipsChanged` - Triggers when the relationship between the local user and another user in the social graph changes.
+
+`XblSocialManagerEventType::SocialUserGroupUpdated` - Triggers when social user group updating is complete.
 
 
 #### Additional details
@@ -552,6 +603,9 @@ More information can be found in the `social_event` API documentation.
 
 #### Cleaning Up Social User Groups
 
+Cleans up the social user group that was created.
+Caller should also remove any references they have to any created social user group, as it is now invalid.
+
 
 **C API**
 ```cpp
@@ -562,10 +616,8 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!-- in chm only:
-**Reference**
-*[XblSocialManagerDestroySocialUserGroup](xblsocialmanagerdestroysocialusergroup.md)
--->
+<!-- **Reference**
+*[XblSocialManagerDestroySocialUserGroup](xblsocialmanagerdestroysocialusergroup.md)-->
 
 
 **C++ API**
@@ -587,13 +639,12 @@ socialManager.DestroySocialUserGroup(
      );
 ```
 
-Cleans up the social user group that was created.
-Caller should also remove any references they have to any created social user group as it now contains stale data.
-
 
 #### Cleaning Up Local Users
 
 Remove local user removes the loaded users social graph, as well as any social user groups that were created using that user.
+
+With the C API, no further events should be received for the removed user.
 
 
 **C API**
@@ -601,10 +652,8 @@ Remove local user removes the loaded users social graph, as well as any social u
 HRESULT hr = XblSocialManagerRemoveLocalUser(user);
 ```
 
-<!-- in chm only:
-**Reference**
-* [XblSocialManagerRemoveLocalUser](xblsocialmanagerremovelocaluser.md)
--->
+<!-- **Reference**
+* [XblSocialManagerRemoveLocalUser](xblsocialmanagerremovelocaluser.md)-->
 
 
 **C++ API**
@@ -627,6 +676,6 @@ socialManager.RemoveLocalUser(
 ```
 
 
-#### Events Returned
+#### Events returned
 
 `local_user_removed`(C++) | `LocalUserRemoved`(C#) - Triggers when a local user has been removed successfully.

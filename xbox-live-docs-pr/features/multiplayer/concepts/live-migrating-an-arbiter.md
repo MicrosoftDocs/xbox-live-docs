@@ -1,13 +1,15 @@
 ---
 title: Migrating an arbiter
 description: Selecting a new arbiter for 2015 Multiplayer by using either graceful or failover migration.
-ms.assetid: 9fb5d2c0-d548-4a22-b64e-6b215f78d22e
-ms.date: 04/04/2017
+kindex: Migrating an arbiter
+kindex: arbiter
+kindex: Multiplayer 2015
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, arbiter, multiplayer 2015
+ms.assetid: 9fb5d2c0-d548-4a22-b64e-6b215f78d22e
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Migrating an arbiter

@@ -1,18 +1,24 @@
 ---
 title: Multiplayer tasks
 description: Implementing common tasks in Multiplayer 2015.
-ms.assetid: 99c5b7c4-018c-4f7a-b2c9-0deed0e34097
-ms.date: 08/29/2017
+kindex: Multiplayer tasks
 ms.topic: how-to
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer 2015
+ms.assetid: 99c5b7c4-018c-4f7a-b2c9-0deed0e34097
 ms.localizationpriority: medium
+ms.date: 08/29/2017
 ---
+
+
+
+
 
 # Multiplayer tasks
 
 This article shows how to implement specific tasks related to using Multiplayer 2015.
+
+
 
 <!-- **Contents**
 * [Subscribe for MPSD session change notifications](#sfmscn)
@@ -105,7 +111,58 @@ The title must do the following to create a new session:
 
 ### Example
 
+**C API**
+<!-- DocsMultiplayerCreateSession_C.md -->
+```cpp
+auto asyncBlock = std::make_unique<XAsyncBlock>();
+asyncBlock->queue = queue;
+asyncBlock->context = nullptr;
+asyncBlock->callback = [](XAsyncBlock* asyncBlock)
+{
+    std::unique_ptr<XAsyncBlock> asyncBlockPtr{ asyncBlock }; // Take over ownership of the XAsyncBlock*
 
+    XblMultiplayerSessionHandle sessionHandle;
+    HRESULT hr = XblMultiplayerWriteSessionResult(asyncBlock, &sessionHandle);
+    if (SUCCEEDED(hr))
+    {
+        // Process multiplayer session handle
+    }
+    else
+    {
+        // Handle failure
+    }
+};
+
+XblMultiplayerSessionReference ref;
+pal::strcpy(ref.Scid, sizeof(ref.Scid), SCID);
+pal::strcpy(ref.SessionTemplateName, sizeof(ref.SessionTemplateName), SESSION_TEMPLATE_NAME);
+pal::strcpy(ref.SessionName, sizeof(ref.SessionName), SESSION_NAME);
+
+XblMultiplayerSessionInitArgs args = {};
+
+XblMultiplayerSessionHandle sessionHandle = XblMultiplayerSessionCreateHandle(XUID, &ref, &args);
+
+auto hr = XblMultiplayerWriteSessionAsync(xblContextHandle, sessionHandle, XblMultiplayerSessionWriteMode::CreateNew, asyncBlock.get());
+if (SUCCEEDED(hr))
+{
+    // The call succeeded, so release the std::unique_ptr ownership of XAsyncBlock* since the callback will take over ownership.
+    // If the call fails, the std::unique_ptr will keep ownership and delete the XAsyncBlock*
+    asyncBlock.release();
+}
+```
+
+<!-- **Reference**
+* [XAsyncBlock](xasyncblock.md)
+* [XblMultiplayerSessionCreateHandle](xblmultiplayersessioncreatehandle.md) -->
+<!-- * [XblMultiplayerSessionHandle](xblmultiplayersessionhandle.md) -->
+<!-- * [XblMultiplayerSessionInitArgs](xblmultiplayersessioninitargs.md)
+* [XblMultiplayerSessionReference](xblmultiplayersessionreference.md)
+* [XblMultiplayerSessionWriteMode](xblmultiplayersessionwritemode.md)
+* [XblMultiplayerWriteSessionAsync](xblmultiplayerwritesessionasync.md)
+* [XblMultiplayerWriteSessionResult](xblmultiplayerwritesessionresult.md) -->
+
+
+**C++ API**
 ```cpp
 void Example_MultiplayerService_CreateSession()
 {
@@ -174,7 +231,7 @@ The title uses the following procedure to set an arbiter for a session that has 
 
 ## Manage title activation
 
-Xbox One fires the **CoreApplicationView.Activated Event** during protocol activation.
+Xbox One (or later) fires the **CoreApplicationView.Activated Event** during protocol activation.
 In the context of the multiplayer API, this event is fired when a user accepts an invite or joins another user.
 These actions trigger an activation that the title must react to by bringing the joining user into game play with the target user.
 

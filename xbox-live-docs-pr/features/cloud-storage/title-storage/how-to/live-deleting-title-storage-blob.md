@@ -5,11 +5,10 @@ kindex: Deleting a blob from Title Storage
 author: heba
 ms.author: heba
 ms.topic: conceptual
-ms.prod: xbox
-ms.technology: xboxgc
-ms.date: 11/15/2019
+ms.prod: gaming
+ms.technology: xboxlive
 ms.localizationpriority: medium
-edited: 11/15/2019
+ms.date: 11/15/2019
 ---
 
 # Deleting a blob from Title Storage

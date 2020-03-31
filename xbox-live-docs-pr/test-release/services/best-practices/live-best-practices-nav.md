@@ -1,11 +1,11 @@
 ---
 title: Best practices for Xbox Live
 description: Best practices for calling Xbox Live APIs, such as proper calling patterns and retry logic.
+kindex: Best practices for Xbox Live
 layout: LandingPage
 author: mikehoffms
 ms.author: v-mihof
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, best practices
 ms.localizationpriority: medium
 ms.date: 12/06/2018
 ---

@@ -8,17 +8,15 @@ ms.author: v-mihof
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
+ms.localizationpriority: medium
 edited: 01/09/2020
 ---
 
 # Handling a social relationship change
 
-<!-- intro sentence here -->
 
+## Subscribing to a relationship change
 
-## Subscribing to a Relationship change
-
-<!-- intro sentence here -->
 
 **C API**
 <!--  XblSocialSubscribeToSocialRelationshipChange_C.md -->
@@ -30,15 +28,12 @@ HRESULT hr = XblSocialSubscribeToSocialRelationshipChange(
 );
 ```
 
-<!--
-**Reference**
-* [XblSocialSubscribeToSocialRelationshipChange](xblsocialsubscribetosocialrelationshipchange.md)
--->
+<!--**Reference**
+* [XblSocialSubscribeToSocialRelationshipChange](xblsocialsubscribetosocialrelationshipchange.md)-->
 
 
-## Un-subscribing from a Relationship change
+## Un-subscribing from a relationship change
 
-<!-- intro sentence here -->
 
 **C API**
 <!--  XblSocialUnsubscribeFromSocialRelationshipChange_C.md -->
@@ -51,15 +46,12 @@ HRESULT hr = XblSocialUnsubscribeFromSocialRelationshipChange(
 state.socialSubscriptionHandle = nullptr;
 ```
 
-<!--
-**Reference**
-* [XblSocialUnsubscribeFromSocialRelationshipChange](xblsocialunsubscribefromsocialrelationshipchange.md)
--->
+<!--**Reference**
+* [XblSocialUnsubscribeFromSocialRelationshipChange](xblsocialunsubscribefromsocialrelationshipchange.md)-->
 
 
-## Adding a Relationship-changed handler
+## Adding a relationship-changed handler
 
-<!-- intro sentence here -->
 
 **C API**
 <!--  XblSocialAddSocialRelationshipChangedHandler_C.md -->
@@ -85,15 +77,12 @@ state.socialRelationshipChangedHandlerToken = XblSocialAddSocialRelationshipChan
 );
 ```
 
-<!--
-**Reference**
-* [XblSocialAddSocialRelationshipChangedHandler](xblsocialaddsocialrelationshipchangedhandler.md)
--->
+<!--**Reference**
+* [XblSocialAddSocialRelationshipChangedHandler](xblsocialaddsocialrelationshipchangedhandler.md)-->
 
 
-## Removing a Relationship-changed handler
+## Removing a relationship-changed handler
 
-<!-- intro sentence here -->
 
 **C API**
 <!--  XblSocialRemoveSocialRelationshipChangedHandler_C.md -->
@@ -102,7 +91,5 @@ HRESULT hr = XblSocialRemoveSocialRelationshipChangedHandler(xboxLiveContext, st
 state.socialRelationshipChangedHandlerToken = 0;
 ```
 
-<!--
-**Reference**
-* [XblSocialRemoveSocialRelationshipChangedHandler](xblsocialremovesocialrelationshipchangedhandler.md)
--->
+<!--**Reference**
+* [XblSocialRemoveSocialRelationshipChangedHandler](xblsocialremovesocialrelationshipchangedhandler.md)-->

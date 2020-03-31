@@ -1,32 +1,33 @@
 ---
 title: Managing local Connected Storage
 description: Managing a local cache of the Connected Storage data in a development environment.
-ms.assetid: 630cb5fc-5d48-4026-8d6c-3aa617d75b2e
-ms.date: 02/27/2018
+kindex: Managing local Connected Storage
+kindex: connected storage
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, connected storage
+ms.assetid: 630cb5fc-5d48-4026-8d6c-3aa617d75b2e
 ms.localizationpriority: medium
+ms.date: 02/27/2018
 ---
 
 # Managing local Connected Storage
 
 Although Connected Storage is used to store your game data in the cloud, there is also a local storage component to the Connected Storage service.
 
-Whether you are on a PC or console, there is a local cache of the Connected Storage data which contains the data synced to the cloud.
+Whether you are on a PC or Xbox console (Xbox One or later), there is a local cache of the Connected Storage data which contains the data synced to the cloud.
 
 The appropriate tool to manage your locally cached Connected Storage data depends on the platform:
 
 |Title Classification  |Device  |Local Storage Tool  |
 |---------|---------|---------|
-|XDK     |Xbox One Console     |*xbstorage*         |
+|XDK     |Xbox Console     |*xbstorage*         |
 |UWP     |PC         |*gamesaveutil*         |
-|UWP     |Xbox One Console     |Partner Center |
+|UWP     |Xbox Console     |Partner Center |
 
-- *Xbstorage* is a command line tool, run from the XDK command prompt, for managing locally cached Connected Storage on the Xbox One Console. The *xbstorage* tool can be found in the Xbox One XDK under the file path: **/Program Files (x86)/Microsoft Durango XDK/bin/xbstorage.exe**
+- *Xbstorage* is a command line tool, run from the XDK command prompt, for managing locally cached Connected Storage on the Xbox console. The *xbstorage* tool can be found in the Xbox XDK under the file path: **/Program Files (x86)/Microsoft Durango XDK/bin/xbstorage.exe**
 
 - *Gamesaveutil* is a command line tool for managing UWP locally cached Connected Storage on PC. The *gamesaveutil* tool comes packaged with the [Windows 10 SDK](https://developer.microsoft.com/en-US/windows/downloads/windows-10-sdk) for Fall Creators Update and later( build 10.0.16299.15 and later). Once you've installed the appropriate version of the Windows 10 SDK, *gamesaveutil* can be found under the folder: **ProgramFiles(x86)/Windows Kits/10/bin/[SDK Version]/x64/gamesaveutil.exe**.
 
-- *Partner Center* is an online portal that allows you to manage the locally cached Connected Storage UWP data on your Xbox One Console. To learn to use Partner Center, read [Device Portal for Xbox](https://docs.microsoft.com/windows/uwp/debug-test-perf/device-portal-xbox).
+- *Partner Center* is an online portal that allows you to manage the locally cached Connected Storage UWP data on your Xbox console. To learn to use Partner Center, read [Device Portal for Xbox](https://docs.microsoft.com/windows/uwp/debug-test-perf/device-portal-xbox).
 
 
 ## Xbstorage
@@ -35,7 +36,7 @@ The appropriate tool to manage your locally cached Connected Storage data depend
 
 When an operation is performed on local data using the *xbstorage* tool, the system will behave as if that operation had been performed by the app itself, so the act of reading the data from a Connected Storage space to a local file will cause synchronization with the cloud prior to copying.
 
-Similarly, a copy of data from an XML file on the development PC to a Connected Storage container on the Xbox One dev kit will cause the console to start uploading that data to the cloud.
+Similarly, a copy of data from an XML file on the development PC to a Connected Storage container on the Xbox One (or later) dev kit will cause the console to start uploading that data to the cloud.
 
 However, there are conditions in which this will not occur: if the dev kit cannot acquire the lock, or if there is a data conflict between the containers on the console and those in the cloud, the console will behave as if the user had decided not to resolve the conflict by picking one version of the container to keep, and the console will behave as if the user is playing offline until the next time the title is started.
 
@@ -45,7 +46,7 @@ This is useful for putting a console into the state it would be in if a user was
 
 ### Xbstorage commands
 
-Xbstorage has the following six commands developers can use with the XDK command prompt to manage local data on their Xbox One Development Kit:
+Xbstorage has the following six commands developers can use with the XDK command prompt to manage local data on their Xbox Development Kit:
 
 |Command  |Description  |
 |---------|---------|

@@ -1,14 +1,20 @@
 ---
 title: Sending game invites using Multiplayer Manager
 description: Using Multiplayer Manager to enable a player to send game invites to other players to join the game.
-ms.assetid: 8b9a98af-fb78-431b-9a2a-876168e2fd76
-ms.date: 04/04/2017
+kindex: Sending game invites using Multiplayer Manager
+kindex: multiplayer manager
+kindex: flowchart, game invite
 ms.topic: how-to
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, multiplayer manager, flowchart, game invite
+ms.assetid: 8b9a98af-fb78-431b-9a2a-876168e2fd76
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
+
+
+
+
 
 # Sending game invites using Multiplayer Manager
 
@@ -34,6 +40,7 @@ Calling `invite_friends()` will bring up the standard Xbox UI for inviting frien
 This displays a UI that allows the player to select friends or recent players to invite to the game.
 Once the player hits confirm, Multiplayer Manager sends the invites to the selected players.
 
+
 **C++ API**
 ```cpp
 auto result = mpInstance->lobby_session()->invite_friends(xboxLiveContext);
@@ -58,6 +65,26 @@ if (result.err())
 Your title can implement a custom TCUI for viewing online friends and inviting them.
 Games can use the `invite_users()` method to send invites to a set of people defined by their Xbox Live User IDs.
 This is useful if you prefer to use your own in-game UI instead of the stock Xbox UI.
+
+
+**C API**
+<!-- XblMultiplayerManagerLobbySessionInviteUsers_C.md -->
+```cpp
+size_t xuidsCount = 1;
+uint64_t xuids[1] = {};
+xuids[0] = 1234567891234567;
+HRESULT hr = XblMultiplayerManagerLobbySessionInviteUsers(
+    xblUserHandle, 
+    xuids, 
+    xuidsCount, 
+    nullptr,    // ContextStringId 
+    nullptr     // CustomActivationContext
+);
+```
+
+<!-- **Reference**
+* [XblMultiplayerManagerLobbySessionInviteUsers](xblmultiplayermanagerlobbysessioninviteusers.md) -->
+
 
 **C++ API**
 ```cpp

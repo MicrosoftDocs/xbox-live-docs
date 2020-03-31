@@ -1,11 +1,11 @@
 ---
 title: What's new for the Xbox Live SDK - June 2016
 description: What's new for the Xbox Live SDK - June 2016
-ms.assetid: 306e7fa8-14f0-437f-a991-6693f5c0d6a8
-ms.date: 04/04/2017
+kindex: What's new for the Xbox Live SDK - June 2016
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
+ms.assetid: 306e7fa8-14f0-437f-a991-6693f5c0d6a8
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # What's new for the Xbox Live SDK - June 2016
@@ -45,4 +45,4 @@ You can disable this assert by calling `disable_asserts_for_maximum_number_of_we
 It is an add-on to Fiddler that enables developers to selectively block calls to Xbox Live.
 Using this plugin, developers can test resiliency across partial service disruptions in their game titles.
 The tool includes a number of Xbox Live service endpoints built-in and different error types to test against.
-All Xbox One and UWP titles are supported.
+All Xbox One (and later) and UWP titles are supported.

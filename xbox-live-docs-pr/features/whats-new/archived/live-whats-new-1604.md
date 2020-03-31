@@ -1,10 +1,11 @@
 ---
 title: What's new for the Xbox Live SDK - April 2016
 description: What's new for the Xbox Live SDK - April 2016
-ms.assetid: a6f26ffd-f136-4753-b0cd-92b0da522d93
-ms.date: 04/04/2017
+kindex: What's new for the Xbox Live SDK - April 2016
 ms.topic: article
+ms.assetid: a6f26ffd-f136-4753-b0cd-92b0da522d93
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # What's new for the Xbox Live SDK - April 2016
@@ -25,9 +26,12 @@ The Xbox Live SDK supports Windows 10 RTM [Version 10.0.10240] and Visual Studio
 ## Documentation
 
 - [Troubleshooting Xbox Live sign-in](../../../features/identity/auth/live-troubleshooting-sign-in.md) lists some general strategies to debug sign-in failures, as well as steps to follow based on error code.
-- The [Marketplace](https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/xbox-marketplace/marketplace-and-downloadable-content) docs for Xbox One developers only can now be found in the Programming Guide.  UWP developers should continue to consult Partner Center for documentation on the store.
-- See [Porting Xbox Live code from XDK to UWP](../../../test-release/services-tools/live-port-xbl-code-from-xdk-to-uwp.md) if you are interested in bringing an Xbox One title to the Universal Windows Platform.
-- See [Fine-Grained Rate Limiting](../../../test-release/services-tools/best-practices/live-fine-grained-rate-limiting.md) for a description of how these are enforced for various Xbox Live Service endpoints and scenarios, as well as information about what the limits are.
+
+- The Marketplace docs for Xbox One (or later) developers only can now be found in the Programming Guide; see <a href="https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/xbox-marketplace/marketplace-and-downloadable-content" target="_blank">Xbox One Marketplace and Downloadable Content &#11008;</a> at Xbox Game Dev (XGD).  UWP developers should continue to consult Partner Center for documentation on the store.
+
+- If you are interested in bringing an Xbox One (or later) title to the Universal Windows Platform, see [Porting Xbox Live code from XDK to UWP](../../../test-release/services/live-port-xbl-code-from-xdk-to-uwp.md).
+
+- See [Fine-Grained Rate Limiting](../../../test-release/services/best-practices/live-fine-grained-rate-limiting.md) for a description of how these are enforced for various Xbox Live Service endpoints and scenarios, as well as information about what the limits are.
 
 
 ## Multiplayer Manager
@@ -70,13 +74,13 @@ The context is returned back to the title through the ```_completed``` event.
 
 #### Breaking Changes
 
-1.	Both invite APIs (```invite_friends``` & ```invite_users```) are now synchronous. Upon completion, it returns an invite_sent event.
+1.    Both invite APIs (```invite_friends``` & ```invite_users```) are now synchronous. Upon completion, it returns an invite_sent event.
 
-2.	```write_synchronized_properties_and_commit``` was renamed to ```set_synchronized_properties```. Upon completion, it returns a ```session_synchronized_property_write_completed``` event.
+2.    ```write_synchronized_properties_and_commit``` was renamed to ```set_synchronized_properties```. Upon completion, it returns a ```session_synchronized_property_write_completed``` event.
 
-3.	```write_synchronized_host_and_commit``` was renamed to ```set_synchronized_host```. Upon completion, it returns a ```synchronized_host_write_completed``` event.
+3.    ```write_synchronized_host_and_commit``` was renamed to ```set_synchronized_host```. Upon completion, it returns a ```synchronized_host_write_completed``` event.
 
-4.	On ```lobby_session()```
+4.    On ```lobby_session()```
 
   *Removed*
 
@@ -90,7 +94,7 @@ _XSAPIIMP const std::unordered_map<string_t, xbox::services:: multiplayer::multi
 _XSAPIIMP const std::unordered_map<string_t, xbox::services::tournaments::tournament_team_result>& tournament_team_results() const;
 ```
 
-5.	On ```game_session()```
+5.    On ```game_session()```
 
   *Removed*
 
@@ -105,7 +109,7 @@ _XSAPIIMP const std::unordered_map<string_t, multiplayer_session_reference>& tou
 _XSAPIIMP const std::unordered_map<string_t, xbox::services::tournaments::tournament_team_result>& tournament_team_results() const;
 ```
 
-6.	Change in event types:
+6.    Change in event types:
 
   *Removed*
 

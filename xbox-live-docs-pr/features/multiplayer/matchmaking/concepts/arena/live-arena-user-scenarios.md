@@ -1,12 +1,14 @@
 ---
 title: UX for Arena participant user scenarios
 description: User scenarios for Xbox Arena participants are various combinations of collaboration and competition.
-ms.date: 10/12/2017
+kindex: UX for Arena participant user scenarios
+kindex: arena
+kindex: tournament
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, arena, tournament, ux
 ms.localizationpriority: medium
+ms.date: 10/12/2017
 ---
 
 # UX for Arena participant user scenarios
@@ -30,12 +32,12 @@ For example:
   This will meet the needs of gamers who are looking for inspiration and new ways to develop their skills.
   These images can be surfaced at a Results stage, along with tournament results, or through the Watch section in the Arena UI.
 
-* Leaderboards, stats, and player profiles now include past and present tournament results, celebrating a participant’s competitive status.
+* Leaderboards, stats, and player profiles now include past and present tournament results, celebrating a participant's competitive status.
 
 
 ## Motivation type: Immersion
 
-* To become immersed in a game or a game’s story.
+* To become immersed in a game or a game's story.
 
 * To explore new virtual worlds.
 
@@ -64,10 +66,10 @@ Tournaments has become a new way for Fernando to stay engaged, by creating compe
 
 ### Arena participant scenario
 
-Katie can’t get enough of exploring the open world elements in Mass Effect Andromeda.
-Katie has leveled-up multiple characters so that she doesn’t wind up playing the same character as another player in multiplayer matches.
+Katie can't get enough of exploring the open world elements in Mass Effect Andromeda.
+Katie has leveled-up multiple characters so that she doesn't wind up playing the same character as another player in multiplayer matches.
 
-Tournaments puts Katie's characters’ skills and abilities to the test.
+Tournaments puts Katie's characters' skills and abilities to the test.
 Katie faces off with other competitive opponents who have leveled up characters with their own unique combination of skills and abilities.
 
 Each time Katie plays in a tournament, she uncovers a new approach to improving her skill mastery.

@@ -1,12 +1,19 @@
 ---
-title: Trace Analyzer for reviewing service calls
-description: The Xbox Live Trace Analyzer reviews the service calls made by a title.
+title: Xbox Live Trace Analyzer (XBLTraceAnalyzer.exe)
+description: Reviews the service calls made by a title.
+kindex: Xbox Live Trace Analyzer (XBLTraceAnalyzer.exe)
+kindex: trace analyzer
+kindex: service calls, testing
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, service calls, testing, trace analyzer
 ms.localizationpriority: medium
 ms.assetid: b4490fae-d554-403d-bbbc-601af38af0ef
 ms.date: 04/04/2017
 ---
+
+
+
+
+
 
 # Trace Analyzer for reviewing service calls
 
@@ -18,7 +25,9 @@ The *Xbox Live Trace Analyzer* is an offline analysis tool, to find any violatio
 Service call tracing can be activated by using functionality available in the **xbtrace** command line tool, or through protocol activation for more advanced scenarios.
 Activating service call tracking directly from title code is also supported.
 
-The Trace Analyzer (**XBLTraceAnalyzer.exe**) can be found as part of the Xbox Live Tools package from [https://aka.ms/xboxliveuwptools](https://aka.ms/xboxliveuwptools).
+The Trace Analyzer (**XBLTraceAnalyzer.exe**) can be found as part of the Xbox Live Tools package (`XboxLiveTools.zip`) from [https://aka.ms/xboxliveuwptools](https://aka.ms/xboxliveuwptools).
+
+This is a command-line tool.  There is a readme file about this tool in the .zip file.
 
 
 ## Gather logs and analyze the service calls
@@ -36,6 +45,11 @@ The following steps are required to gather the logs that contain the record of y
 
 ## Starting and stopping tracing
 
+
+
+It is possible to use Fiddler to capture the trace file of the target device, then save the Fiddler results as a Fiddler Session file (.saz) which the Xbox Live Trace Analyzer tool can read.
+See [Using Fiddler to inspect web service calls](live-fiddler-inspect-web-calls.md).
+
 There are three ways to start and stop tracing:
 * Call a set of Xbox Live Services APIs directly from your title.
 * Use the **xbtrace** command line tool.
@@ -48,7 +62,7 @@ These approaches are described below.
 
 To start tracing directly from your title, you must do the following:
 
-1.  In the `Microsoft::Xbox::Services::Experimental` namespace, set the `EnableServiceCallTracking` property of the `ServiceCallTrackerSettings` class to true.
+1.  Set the `EnableServiceCallTracking` property of the `ServiceCallTrackerSettings` class to true.
 2.  Call `StartServiceCallTracking()` to start tracing service calls.
 3.  Call `StopServiceCallTracking()` to stop tracing service calls.
 4.  After tracing is stopped, copy the resulting trace file from the developer scratch drive on the console back to your PC by using either *File Copy (xbcp.exe)* or the *Xbox One Neighborhood* in order to analyze it by using Xbox Live Trace Analyzer.
@@ -115,7 +129,7 @@ xbapp launch "ms-xbl-12345678://serviceCallTracking?verbosity=diagnostic"
 
 ## Analyze the trace file
 
-To analyze your title's use of Xbox Live Services, after the trace file has been copied back to your PC, you can use the Xbox Live Trace Analyzer tool on GNDP.
+To analyze your title's use of Xbox Live Services, after the trace file has been copied back to your PC, you can use the Xbox Live Trace Analyzer tool on GDN.
 
 For a description of how to invoke the tool and interpret its output, see the documentation included with the Xbox Live Trace Analyzer tool on Game Developer Network.
 

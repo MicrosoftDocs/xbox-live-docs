@@ -1,12 +1,14 @@
 ---
 title: Using the Game Chat 2 C++ API
 description: Using the C++ API of Game Chat 2 to add voice and text communication to your game.
-ms.date: 03/20/2018
+kindex: Using the Game Chat 2 C++ API
+kindex: game chat
+kindex: voice communication
 ms.topic: how-to
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, game chat 2, game chat, voice communication
 ms.localizationpriority: medium
+ms.date: 03/20/2018
 ---
 
 # Using the Game Chat 2 C++ API
@@ -235,7 +237,7 @@ When a user has speech-to-text enabled, `chat_user::chat_user_local::speech_to_t
 When this state is detected, the app must be prepared to provide UI associated with transcribed chat messages.
 Game Chat 2 will automatically transcribe each remote user's audio and expose it via a `game_chat_transcribed_chat_received_state_change`.
 
-> `Windows::Xbox::UI::Accessibility` is an Xbox One class specifically designed to provide simple rendering of in-game text chat with a focus on speech-to-text assistive technologies.
+> `Windows::Xbox::UI::Accessibility` is an Xbox One (or later) class specifically designed to provide simple rendering of in-game text chat with a focus on speech-to-text assistive technologies.
 
 
 ### Speech-to-text performance considerations
@@ -246,7 +248,7 @@ The remote device then sends the transcription message (i.e. a text message) to 
 
 Therefore, the primary performance cost of speech-to-text is network usage.
 Most of the network traffic is the upload of encoded audio.
-The websocket uploads audio that has already been encoded by Game Chat 2 in the “normal” voice chat path; the app has control over the bitrate via `chat_manager::set_audio_encoding_type_and_bitrate`.
+The websocket uploads audio that has already been encoded by Game Chat 2 in the "normal" voice chat path; the app has control over the bitrate via `chat_manager::set_audio_encoding_type_and_bitrate`.
 
 
 ## UI

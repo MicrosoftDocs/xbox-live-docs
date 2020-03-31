@@ -1,8 +1,8 @@
 ---
 title: Getting started using Visual Studio for UWP games
 description: Setting up a Visual Studio project to enable Xbox Live for a UWP game.
-ms.topic: article
 kindex: Getting started using Visual Studio for UWP games
+ms.topic: article
 ms.assetid: b53bc91f-79db-4d8f-8919-b9144e2d609b
 ms.localizationpriority: medium
 ms.date: 11/28/2017
@@ -75,7 +75,7 @@ If you do not already have an existing UWP project, you can create one by doing 
 
 The Xbox Services API comes in flavors for both UWP and XDK, and for C++ and WinRT and have their namespace structured as **Microsoft.Xbox.Live.SDK.*.UWP** and **Microsoft.Xbox.Live.SDK.*.XboxOneXDK**.
 
-* **UWP** is for developers who are building a UWP game, which can run on either PC, the Xbox One, or Windows Phone.
+* **UWP** is for developers who are building a UWP game, which can run on either PC, the Xbox One (or later) console, or Windows Phone.
 
 * **XboxOneXDK** is for Managed Partners who are using the Xbox One XDK.
 
@@ -84,7 +84,7 @@ The Xbox Services API comes in flavors for both UWP and XDK, and for C++ and Win
 * When using WinRT with a C++ engine, you should use C++/CX which uses hats (^). C++ is the recommended API to use for C++ game engines.  
 
 > [!TIP]
-> You can read more about running UWP on Xbox One at [Getting started with UWP app development on Xbox One](https://docs.microsoft.com/windows/uwp/xbox-apps/getting-started).
+> You can read more about running UWP on Xbox One (or later) at [Getting started with UWP app development on Xbox One](https://docs.microsoft.com/windows/uwp/xbox-apps/getting-started).
 
 To use the Xbox Live API from your project, you can either add references to the binaries by using NuGet packages or by adding the API source.
 Adding NuGet packages makes compilation quicker while adding the source makes debugging easier.

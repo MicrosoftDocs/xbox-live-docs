@@ -1,11 +1,12 @@
 ---
 title: Saving data with Connected Storage
 description: Code examples using Connected Storage to save gameplay data.
-ms.assetid: ccf7488c-5d55-480e-b3aa-412220d03104
-ms.date: 02/27/2018
+kindex: Saving data with Connected Storage
+kindex: connected storage
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, connected storage
+ms.assetid: ccf7488c-5d55-480e-b3aa-412220d03104
 ms.localizationpriority: medium
+ms.date: 02/27/2018
 ---
 
 # Saving data with Connected Storage
@@ -117,18 +118,18 @@ void SaveCheckpoint(Windows::Storage::Streams::IBuffer^ buffer, User^ user)
 }
 ```
 
-You can find the XDK Connected Storage APIs documented in the XDK .chm file under the path:
-**Xbox ONE XDK >> API Reference >> Platform API Reference >> System API Reference >> Windows.Xbox.Storage**.
+You can find the XDK Connected Storage APIs documented in `XboxOneXDK.chm` under the path:
+**Xbox One XDK >> API Reference >> Platform API Reference >> System API Reference >> Windows.Xbox.Storage**.
 
-Windows.Xbox.Storage is the name of the Connected Storage namespace for Xbox One consoles.
+`Windows.Xbox.Storage` is the name of the Connected Storage namespace for Xbox One (or later) consoles.
 
 The XDK APIs are also documented on the [developer.microsoft.com site](https://developer.microsoft.com/games/xbox/docs/xdk/storage-xbox-microsoft-n).
-The link to XDK APIs requires that you have a Microsoft Account(MSA) that has been enabled for Xbox Developer Kit(XDK) access.
+The link to XDK APIs requires that you have a Microsoft Account(MSA) that has been enabled for Xbox Developer Kit (XDK) access.
 
 
 ## C# UWP sample
 
-While XDK games and UWP apps may use different APIs, the UWP API is modeled after the XDK API very closely. To save data you will still need to follow the same basic steps while making note of some namespace and class name changes. Instead of using the namespace `Windows::Xbox::Storage` you will use `Windows.Gaming.XboxLive.Storage`. The class `ConnectedStorageSpace`, is equivalent to `GameSaveProvider`. The class `ConnectedStorageContainer` is equivalent to `GameSaveContainer`. These changes are further detailed in the Connected Storage Section of [Porting Xbox Live code from XDK to UWP](../../../../test-release/services-tools/live-port-xbl-code-from-xdk-to-uwp.md).
+While XDK games and UWP apps may use different APIs, the UWP API is modeled after the XDK API very closely. To save data you will still need to follow the same basic steps while making note of some namespace and class name changes. Instead of using the namespace `Windows::Xbox::Storage` you will use `Windows.Gaming.XboxLive.Storage`. The class `ConnectedStorageSpace`, is equivalent to `GameSaveProvider`. The class `ConnectedStorageContainer` is equivalent to `GameSaveContainer`. These changes are further detailed in the Connected Storage Section of [Porting Xbox Live code from XDK to UWP](../../../../test-release/services/live-port-xbl-code-from-xdk-to-uwp.md).
 
 ```csharp
 //Namespace Required
@@ -150,7 +151,7 @@ GameSaveProviderGetResult gameSaveTask = await GameSaveProvider.GetForUserAsync(
 
 if(gameSaveTask.Status == GameSaveErrorStatus.Ok)
 {
-	gameSaveProvider = gameSaveTask.Value;
+    gameSaveProvider = gameSaveTask.Value;
 }
 else
 {

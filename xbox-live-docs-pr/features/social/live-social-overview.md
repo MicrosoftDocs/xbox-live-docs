@@ -1,14 +1,18 @@
 ---
 title: Overview of Social features
-author: aablackm
-description: Xbox Live Social features provide a gaming-oriented social network that includes a user's profile, gamerscore, achievements, clubs, and activity feed.
-ms.assetid: 27b85218-60f3-4eb0-9f7e-fe90e027db5c
-ms.author: aablackm
-ms.date: 09/18/2017
+description: Gaming-oriented social network features including user profiles, gamerscore, achievements, clubs, and activity feed.
+kindex: Overview of Social features
+kindex: social features
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, social features
+author: aablackm
+ms.author: aablackm
 ms.localizationpriority: medium
+ms.assetid: 27b85218-60f3-4eb0-9f7e-fe90e027db5c
+ms.date: 09/18/2017
 ---
+
+
+
 
 # Overview of Social features
 
@@ -56,7 +60,7 @@ The profile contains the following information:
 
 -   **Gamertag**: The unique nickname of the gamer. Every user on Xbox Live has a gamertag.
 
--   **Real Name**: The first and last name of the gamer. This is empty if the user doesn’t want to share their real name via their privacy settings.
+-   **Real Name**: The first and last name of the gamer. This is empty if the user doesn't want to share their real name via their privacy settings.
 
 -   **Gamerpic**: The picture or icon that the gamer has chosen to represent them.
 
@@ -88,7 +92,7 @@ You can add up to 1000 friends in your friends list and have unlimited followers
 
 To make it easy to find their favorite gamers in their friends list, each gamer can mark up to 100 friends as a favorite.
 
-When a gamer plays your game, the Xbox Live social graph will show only the gamer’s friends who have also played your game.
+When a gamer plays your game, the Xbox Live social graph will show only the gamer's friends who have also played your game.
 
 See [People System (Friends List)](people-system/live-people-system-nav.md).
 
@@ -121,8 +125,12 @@ Gamers who join Clubs increase their engagement by 40% and make more friends.
 An important part of the Xbox social system is activity sharing.
 This lets all your friends on Xbox Live know what you've been up to, with the special added benefit of giving your game more exposure for every player getting in the game.
 
-The following features are meant to help Xbox users discover your game and keep them engaged after they’ve become yet another loyal fan.
-Even better than that, every time they play your game they’ll be enticing all their friends to join your legion.
+<<<<<<< HEAD
+The following features are meant to help Xbox users discover your game and keep them engaged after they've become yet another loyal fan.
+=======
+The following features help Xbox Live users discover your game and keep them engaged after they've become yet another loyal fan.
+>>>>>>> master
+Even better than that, every time they play your game they'll be enticing all their friends to join your legion.
 
 
 ### Clips and screenshots

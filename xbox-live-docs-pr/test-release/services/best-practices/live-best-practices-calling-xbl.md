@@ -1,10 +1,10 @@
 ---
 title: Best practices for calling Xbox Live
 description: Best practices for calling Xbox Live APIs, such as proper calling patterns and retry logic.
+kindex: Best practices for calling Xbox Live
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, best practices
-ms.localizationpriority: medium
 ms.assetid: f4c7156b-7736-41e5-9b3d-e87cc8dd2531
+ms.localizationpriority: medium
 ms.date: 04/04/2017
 ---
 
@@ -242,7 +242,7 @@ This simply disables the asserts when in dev sandboxes while using a debug build
 
 ### Using the Xbox Live Trace Analyzer tool
 
-Another option for determining whether your title was throttled is to record a trace of the Xbox Live calls and then analyze that trace using [Trace Analyzer for reviewing service calls](../live-trace-analyzer.md).
+Another option for determining whether your title was throttled is to record a trace of the Xbox Live calls and then analyze that trace using [Trace Analyzer for reviewing service calls](../../tools/live-trace-analyzer.md).
 
 To record a trace, you can either use Fiddler to record a .SAZ file, or by using the built-in trace logging of XSAPI.
 For more information about turning on traces in XSAPI, see the Xbox Live documentation page "Analyze calls to Xbox Live Services". <!-- tbd: link, not found -->
@@ -252,12 +252,12 @@ Once you have a trace, the Xbox Live Trace Analyzer tool will warn you when it d
 ## Is Xbox Live Up?
 
 Xbox Live is a collection of microservices that expose Xbox Live features such as profile, friends and presence, stats, leaderboards, achievements, multiplayer, and matchmaking.
-There isn’t a single server or endpoint that defines whether Xbox Live is up.
+There isn't a single server or endpoint that defines whether Xbox Live is up.
 If a single server goes down, the rest of the Xbox Live microservices are largely independent and should be operational.
 
-If a single service experiences a temporary outage, it’s important to know if this service call is mission critical for your game.
+If a single service experiences a temporary outage, it's important to know if this service call is mission critical for your game.
 Try to provide reasonable experience while there are intermittent network or service issues.
-For example, if the presence service is returning failure that call likely isn’t mission-critical for your game.
+For example, if the presence service is returning failure that call likely isn't mission-critical for your game.
 So simply report to the user the last known presence, instead of reporting that Xbox Live is down.
 
 Xbox Live follows the consistency model of "eventual consistency".

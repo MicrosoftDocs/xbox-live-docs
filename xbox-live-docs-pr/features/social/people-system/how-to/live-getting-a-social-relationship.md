@@ -19,11 +19,8 @@ edited: 04/04/2017
 > [!NOTE]
 > This article demonstrates advanced API usage.  Please let your DAM know if you find an unsupported scenario in the Social Manager.
 
-<!-- 
-Commenting out the following that was in the above note, because the article is not in the docs. The article has been moved to the boneyard directory. To add the article to the docs, move it from the boneyard directory to an appropriate location in the  _content directory and then add the article to toc.md:
-
-As a starting point, please take a look at the [Introduction to the Social Manager API](intro-to-social-manager.md) which significantly simplifies development.
--->
+As a starting point, see [Introduction to the Social Manager API](../../social-manager/live-social-manager-overview.md).
+The Social Manager significantly simplifies development.
 
 
 ## Getting the first user's social relationships
@@ -34,6 +31,7 @@ The example does the following:
 1. Generates a list of all users on the system and retrieves the first one.
 2. Retrieves all of that user's social relationships.
 3. Displays the public properties of each of those relationships.
+
 
 **C API**
 <!--  XblSocialGetSocialRelationshipsAsync_C.md -->
@@ -66,18 +64,15 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!-- 
-**Reference**
+<!-- **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblSocialGetSocialRelationshipsAsync](xblsocialgetsocialrelationshipsasync.md)
 * [XblSocialGetSocialRelationshipsResult](xblsocialgetsocialrelationshipsresult.md)
-* [XblSocialRelationshipResultCloseHandle](xblsocialrelationshipresultclosehandle.md)
--->
+* [XblSocialRelationshipResultCloseHandle](xblsocialrelationshipresultclosehandle.md)-->
 
 
 ## Getting a single relationship
 
-<!-- intro sentence here -->
 
 **C API**
 <!--  XblSocialRelationshipResultGetRelationships_C.md -->
@@ -93,22 +88,18 @@ for (size_t i = 0; i < relationshipsCount; ++i)
 }
 ```
 
-<!-- 
-**Reference**
+<!-- **Reference**
 * [XblSocialRelationship](xblsocialrelationship.md)
-* [XblSocialRelationshipResultGetRelationships](xblsocialrelationshipresultgetrelationships.md)
--->
+* [XblSocialRelationshipResultGetRelationships](xblsocialrelationshipresultgetrelationships.md)-->
 
 
 <!-- ## Getting multiple relationships -->
-
-<!-- intro sentence here -->
 
 <!-- **C API** -->
 <!--  _C.md -->
 <!--
 ```cpp
-See above. There is no way to retreive just a single relationship.
+See above. There is no way to retrieve just a single relationship.
 ```
 -->
 
@@ -117,7 +108,6 @@ See above. There is no way to retreive just a single relationship.
 
 ## Getting next page of relationships
 
-<!-- intro sentence here -->
 
 **C API**
 <!--  XblSocialRelationshipResultHasNext_C.md -->
@@ -153,11 +143,9 @@ if (hasNext)
 }
 ```
 
-<!-- 
-**Reference**
+<!-- **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblSocialRelationshipResultCloseHandle](xblsocialrelationshipresultclosehandle.md)
 * [XblSocialRelationshipResultGetNextAsync](xblsocialrelationshipresultgetnextasync.md)
 * [XblSocialRelationshipResultGetNextResult](xblsocialrelationshipresultgetnextresult.md)
-* [XblSocialRelationshipResultHasNext](xblsocialrelationshipresulthasnext.md)
--->
+* [XblSocialRelationshipResultHasNext](xblsocialrelationshipresulthasnext.md)-->

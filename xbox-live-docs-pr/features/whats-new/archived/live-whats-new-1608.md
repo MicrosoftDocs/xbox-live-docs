@@ -1,11 +1,11 @@
 ---
 title: What's new for the Xbox Live SDK - August 2016
 description: What's new for the Xbox Live SDK - August 2016
-ms.assetid: fa52e7bd-2c2c-4c25-94ab-761036a7ca79
-ms.date: 04/04/2017
+kindex: What's new for the Xbox Live SDK - August 2016
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
+ms.assetid: fa52e7bd-2c2c-4c25-94ab-761036a7ca79
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # What's new for the Xbox Live SDK - August 2016
@@ -18,7 +18,7 @@ The Xbox Live SDK supports Windows 10 RTM [Version 10.0.10240] and Visual Studio
 
 ## Documentation
 
-- If you are writing a UWP application, and are implementing the ability to invite users to a game, there are instructions on the `.appxmanifest` changes necessary in [Multiplayer invites for UWP games](../../../features/multiplayer/invites/concepts/live-multiplayer-invite-uwp.md). This was previously discussed on the [forums](https://forums.xboxlive.com) and in [Porting Xbox Live code from XDK to UWP](../../../test-release/services-tools/live-port-xbl-code-from-xdk-to-uwp.md).
+- If you are writing a UWP application, and are implementing the ability to invite users to a game, there are instructions on the `.appxmanifest` changes necessary in [Multiplayer invites for UWP games](../../../features/multiplayer/invites/concepts/live-multiplayer-invite-uwp.md). This was previously discussed on the [forums](https://forums.xboxlive.com) and in [Porting Xbox Live code from XDK to UWP](../../../test-release/services/live-port-xbl-code-from-xdk-to-uwp.md).
 
 - The [Social Manager overview](../../../features/social/social-manager/live-social-manager-overview.md) article has been updated to reflect recent API changes, and provide more information about return codes for some of the functions.
 
@@ -84,8 +84,8 @@ We have included documentation for the Xbox Integrated Multiplayer (XIM) API.  T
 
 XIM is a self-contained interface for easily adding multiplayer real-time networking and chat communication to your game through the power of Xbox Live services.
 
-This preview of the API’s documentation is shared here to encourage customer feedback and inquiry. We talked about this API earlier at Xfest 2016, and you can see archived [presentation material on the managed partner developer site](https://developer.xboxlive.com/en-us/platform/documentlibrary/events/Pages/Xfest2016.aspx) from the “Turn-Key Multiplayer Networking and Chat” talk. Note that this preview documentation is only for the C++ API. WinRT equivalents for C# and other languages will be released later in the year.
+This preview of the API's documentation is shared here to encourage customer feedback and inquiry. We talked about this API earlier at Xfest 2016, and you can see archived [presentation material on the managed partner developer site](https://developer.xboxlive.com/en-us/platform/documentlibrary/events/Pages/Xfest2016.aspx) from the "Turn-Key Multiplayer Networking and Chat" talk. Note that this preview documentation is only for the C++ API. WinRT equivalents for C# and other languages will be released later in the year.
 
-If you are interested in XIM’s capabilities, have feedback or other questions about this project, please feel free to post on the [Xbox Developer Forum](https://forums.xboxlive.com/) or reach out through your developer account manager.
+If you are interested in XIM's capabilities, have feedback or other questions about this project, please feel free to post on the [Xbox Developer Forum](https://forums.xboxlive.com/) or reach out through your developer account manager.
 
 You can see this new documentation in xbox_integrated_multiplayer.chm in the Docs directory of the Xbox Live SDK.  The include file is available as a preview in \include\xim\XboxIntegratedMultiplayer.h.  

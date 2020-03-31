@@ -1,11 +1,11 @@
 ---
 title: Creating an app and publishing it for testing, for Managed Partners
 description: Creating a new Managed Partners app in Partner Center, and publishing it to the test environment.
-ms.assetid: b8bd69e6-887a-4b1f-a42d-8affdbec0234
-ms.date: 04/04/2017
+kindex: Creating an app and publishing it for testing, for Managed Partners
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
+ms.assetid: b8bd69e6-887a-4b1f-a42d-8affdbec0234
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Creating an app and publishing it for testing, for Managed Partners
@@ -17,7 +17,7 @@ Before writing any code, you must set up a new title on your service configurati
 You can learn more about service configuration in [Xbox Live service configuration IDs, for Managed Partners](../../../test-release/portal-config/live-service-config-ids-mp.md).
 
 This article through this process with the following assumptions:
-* You are developing a Universal Windows Platform (UWP) title.  UWP titles run on Xbox One, Windows 10 desktop PCs, and mobile.
+* You are developing a Universal Windows Platform (UWP) title.  UWP titles run on Xbox One (or later) consoles, Windows 10 desktop PCs, and mobile devices.
 * You are configuring your title in Partner Center.
 * You are using either Visual Studio with a custom game engine, or Unity.
 * Your development machine is running Windows 10.
@@ -69,10 +69,10 @@ The primary page where you'll be configuring Xbox Live is under the **Services -
 ## Create an Xbox Live Account
 
 You will need an Xbox Live Account to sign-in to Xbox Live.
-If you already have one that you use to sign-in on your Xbox One console, or in the Xbox App on Windows 10, then you can use that one.
+If you already have such an account that you use to sign-in on your Xbox One (or later) console, or in the Xbox App on Windows 10, then you can use that account.
 
-Otherwise you should open the Xbox App on your PC and sign-in with your Microsoft Account.
-It will then be enabled for use with Xbox Live.
+Otherwise you should open the Xbox App on your PC and sign in with your Microsoft Account.
+The Xbox App will then be enabled for use with Xbox Live.
 
 You can find the Xbox App by going into the *Start Menu* and typing in "Xbox" as shown below.
 

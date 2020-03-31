@@ -5,15 +5,17 @@ kindex: Handling a title Presence change
 kindex: Presence
 author: mikehoffms
 ms.author: v-mihof
-ms.date: 01/09/2020
 ms.topic: conceptual
 ms.localizationpriority: medium
+ms.date: 01/09/2020
 ---
+
 
 # Handling a title Presence change
 
 
 ## Subscribing to a title presence change
+
 
 **C API**
 <!--  XblPresenceSubscribeToTitlePresenceChange_C.md -->
@@ -29,13 +31,12 @@ HRESULT hr = XblPresenceSubscribeToTitlePresenceChange(
 );
 ```
 
-<!--
-**Reference**
-* [XblPresenceSubscribeToTitlePresenceChange](xblpresencesubscribetotitlepresencechange.md)
--->
+<!--**Reference**
+* [XblPresenceSubscribeToTitlePresenceChange](xblpresencesubscribetotitlepresencechange.md)-->
 
 
 ## Unsubscribing from a title presence change
+
 
 **C API**
 <!--  XblPresenceUnsubscribeFromTitlePresenceChange_C.md -->
@@ -48,13 +49,12 @@ HRESULT hr = XblPresenceUnsubscribeFromTitlePresenceChange(
 state.titlePresenceChangeSubscription = nullptr;
 ```
 
-<!--
-**Reference**
-* [XblPresenceUnsubscribeFromTitlePresenceChange](xblpresenceunsubscribefromtitlepresencechange.md)
--->
+<!--**Reference**
+* [XblPresenceUnsubscribeFromTitlePresenceChange](xblpresenceunsubscribefromtitlepresencechange.md)-->
 
 
 ## Adding a title presence change handler
+
 
 **C API**
 <!--  XblPresenceAddTitlePresenceChangedHandler_C.md -->
@@ -71,11 +71,9 @@ state.titlePresenceChangedHandlerToken =  XblPresenceAddTitlePresenceChangedHand
 );
 ```
 
-<!--
-**Reference**
+<!--**Reference**
 * [XblPresenceAddTitlePresenceChangedHandler](xblpresenceaddtitlepresencechangedhandler.md)
-* [XblPresenceTitleState](xblpresencetitlestate.md)
--->
+* [XblPresenceTitleState](xblpresencetitlestate.md)-->
 
 
 ## Removing a title presence change handler
@@ -91,7 +89,5 @@ HRESULT hr = XblPresenceRemoveTitlePresenceChangedHandler(
 state.titlePresenceChangedHandlerToken = 0;
 ```
 
-<!--
-**Reference**
-* [XblPresenceRemoveTitlePresenceChangedHandler](xblpresenceremovetitlepresencechangedhandler.md)
--->
+<!--**Reference**
+* [XblPresenceRemoveTitlePresenceChangedHandler](xblpresenceremovetitlepresencechangedhandler.md)-->

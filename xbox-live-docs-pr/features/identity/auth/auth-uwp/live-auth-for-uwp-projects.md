@@ -1,13 +1,13 @@
 ---
 title: Authentication for UWP projects
 author: aablackm
+kindex: Authentication for UWP projects
 description: Signing-in Xbox Live users in a Universal Windows Platform (UWP) title.
-ms.assetid: e54c98ce-e049-4189-a50d-bb1cb319697c
 ms.author: aablackm
-ms.date: 03/14/2018
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, authentication, sign-in
+ms.assetid: e54c98ce-e049-4189-a50d-bb1cb319697c
 ms.localizationpriority: medium
+ms.date: 03/14/2018
 ---
 
 # Authentication for UWP projects
@@ -110,7 +110,7 @@ There are 3 possible outcomes from the silent sign-in attempt:
 If the device is online, this outcome means the user authenticated to Xbox Live successfully, and we were able to get a valid token.
 
 If the device is offline, this outcome means the user has previously authenticated to Xbox Live successfully, and has not explicitly signed-out from this title.
-Note in this case there is no guarantee that title has access to a valid token, it is only guaranteed that the user’s identity is known and has been verified.
+Note in this case there is no guarantee that title has access to a valid token, it is only guaranteed that the user's identity is known and has been verified.
 The identity of the user is known to the title via their xbox user ID (xuid) and gamertag.
 
 
@@ -122,7 +122,7 @@ The game should call `xbox_live_user::sign_in` which invokes the Xbox Identity P
 Common issues are:
 * User does not have a Microsoft Account.
 * User has not set a preferred Microsoft Account for gaming.
-* The selected Microsoft Account doesn’t have an Xbox Live profile.
+* The selected Microsoft Account doesn't have an Xbox Live profile.
 * User needs to accept Microsoft Account consent.
 
 
@@ -170,7 +170,7 @@ There are 3 possible outcomes from the sign-in attempt with UX:
 If the device is online, this sign-in outcome means the user authenticated to Xbox Live successfully, and we were able to get a valid token.
 
 If the device is offline, this sign-in outcome means the user has previously authenticated to Xbox Live successfully, and has not explicitly signed-out from this title.
-Note in this case there is no guarantee that title has access to a valid token, it is only guaranteed that the user’s identity is known and has been verified.
+Note in this case there is no guarantee that title has access to a valid token, it is only guaranteed that the user's identity is known and has been verified.
 The identity of the user is known to the title xbox user ID (xuid) and gamertag.
 
 
@@ -262,13 +262,13 @@ void SignInSample::SignIn()
 void SignInSample::AddSignOut()
 {
     xbox::services::system::xbox_live_user::add_sign_out_completed_handler(
-		[this](const xbox::services::system::sign_out_completed_event_args&)
+        [this](const xbox::services::system::sign_out_completed_event_args&)
 
-	{
+    {
         // 6. When the game exits or the user signs-out, release the XboxLiveUser object and XboxLiveContext object by setting them to null
-		m_user = NULL;
-		m_xboxLiveContext = NULL;
-	});
+        m_user = NULL;
+        m_xboxLiveContext = NULL;
+    });
 }
 
 ```
@@ -353,7 +353,7 @@ public void OnSignOut(object sender, SignOutCompletedEventArgs e)
 
 The user will sign-out from a title if one of the following happens:
 
-* The user signed-out from the Xbox App (Windows 10) or console shell (Xbox One). Signing out will affect all Xbox Live enabled apps installed for this user.
+* The user signed-out from the Xbox App (Windows 10) or console shell (Xbox One or later). Signing out will affect all Xbox Live enabled apps installed for this user.
 * The user switched to a different Microsoft Account.
 * The user signed into the same title from a different device.
 
@@ -371,13 +371,13 @@ The game must handle the "sign-out completed" event appropriately:
 
 ```cpp
 xbox::services::system::xbox_live_user::add_sign_out_completed_handler(
-		[this](const xbox::services::system::sign_out_completed_event_args&)
+        [this](const xbox::services::system::sign_out_completed_event_args&)
 
-	{
+    {
         // 6. When the game exits or the user signs-out, release the XboxLiveUser object and XboxLiveContext object by setting them to null
-		m_user = NULL;
-		m_xboxLiveContext = NULL;
-	});
+        m_user = NULL;
+        m_xboxLiveContext = NULL;
+    });
 
 ```
 

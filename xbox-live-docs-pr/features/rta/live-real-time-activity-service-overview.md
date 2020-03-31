@@ -1,11 +1,13 @@
 ---
 title: Overview of Real-Time Activity service
 description: The Real-Time Activity service enables an application on any device to subscribe to state data, user statistics, and presence.
-ms.assetid: 50de262f-fc55-4301-83b5-0a8a30bc7852
-ms.date: 04/04/2017
+kindex: Overview of Real-Time Activity service
+kindex: Real-Time Activity service
+kindex: RTA
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, real time activity service, rta
+ms.assetid: 50de262f-fc55-4301-83b5-0a8a30bc7852
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Overview of Real-Time Activity service
@@ -36,12 +38,12 @@ The following are some simple scenarios that you can create for your title by us
 
 Users are nearly always curious about their progress towards certain achievements, especially achievements that require performing an action a certain number of times.
 
-With real-time access to a user's statistics (which are aggregated in the Xbox Live Player Statistics service), you can present real-time progress for players and their friends towards achievements and milestones, on Xbox One or on a companion device, while the user is playing your title.
+With real-time access to a user's statistics (which are aggregated in the Xbox Live Player Statistics service), you can present real-time progress for players and their friends towards achievements and milestones, on Xbox One (or later) or on a companion device, while the user is playing your title.
 
 
 ## Game help app
 
-As users navigate through your title, real-time access to data allows you to present game help either next to the experience on Xbox One or on any companion device.
+As users navigate through your title, real-time access to data allows you to present game help either next to the experience on Xbox One (or later) or on any companion device.
 
 Users might come up to a new map, new track, or challenging boss fight, and your Game Help companion could display user-generated or developer-generated videos and text to help the user through the experience in your title.
 

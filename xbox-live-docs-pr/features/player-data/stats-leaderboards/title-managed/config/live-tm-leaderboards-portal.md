@@ -7,8 +7,8 @@ kindex: leaderboards, Xbox Live
 author: v-mihof
 ms.author: v-mihof
 ms.topic: conceptual
-ms.prod: xbox
-ms.technology: xboxgc
+ms.prod: gaming
+ms.technology: xboxlive
 ms.localizationpriority: medium
 ms.assetid: e0f37d2-ea02-48ea-bcdf-828272a894d4
 ms.date: 10/30/2017
@@ -26,10 +26,14 @@ We will store the raw value; however, the game will own the logic for determinin
 
 ![Achievements page on the Game Hub](live-tm-leaderboards-portal-images/featured-stats-and-leaderboards-2.png)
 
+
+
+
+
 The picture above shows how Featured Stats will look in your title's GameHub.
 The Featured Stats are shown withing the red box.
 
-With title-managed Player Data, you only need to configure a stat which is used for a social leaderboard that is featured on a player's GameHub page.
+With title-managed Featured Stats and Leaderboards, you only need to configure a stat which is used for a social leaderboard that is featured on a player's GameHub page.
 
 You can use Partner Center to configure a featured stat and leaderboard that is associated with your game.
 
@@ -42,11 +46,14 @@ You can use Partner Center to configure a featured stat and leaderboard that is 
 
 ![New featured stat/leaderboard dialog](live-tm-leaderboards-portal-images/featured-stats.png)
 
+
+
 The **Display name** field is what users will see in the GameHub.
 This string can be localized in the **Localize strings** of the Xbox Live service configuration.
 
 The **ID** field is the stat name and is how you will refer to your stat when updating it from your code.
 For more details, see [Updating title-managed Stats](../how-to/live-stats-tm-updating.md).
+
 
 
 ## Data format
@@ -75,4 +82,6 @@ There are the following requirements when configuring a featured stat and leader
 
 ## Next steps
 
-Next, update the stats from your code; see [Updating title-managed Stats](../how-to/live-stats-tm-updating.md).
+Next, update the stats from your code; see:
+* [Writing title-managed stats](../how-to/live-writing-tm-stats.md) (C)
+* [Updating title-managed Stats](../how-to/live-stats-tm-updating.md) (C++ and C#)
