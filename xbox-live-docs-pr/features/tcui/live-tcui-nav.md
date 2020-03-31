@@ -1,6 +1,6 @@
 ---
 title: Title-callable UI (TCUI)
-description: Title-callable UI (TCUI) enables your game code to call pre-defined user interface displays.
+description: Enables your game code to call pre-defined user interface displays.
 kindex: Title-callable UI (TCUI)
 ms.topic: article
 ms.localizationpriority: medium

@@ -1,6 +1,6 @@
 ---
 title: Multiplayer overview
-description: Multiplayer features in Xbox Live include Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
+description: Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
 kindex: Multiplayer overview
 author: v-mihof
 ms.author: v-mihof
@@ -27,12 +27,15 @@ The Xbox Live Multiplayer features are provided as a set of client APIs that you
 
 The major sub-systems in the API suite are:
 
--    The **Xbox Live Multiplayer Session Directory (MPSD)** service. The MPSD service works with integrated UI experiences to facilitate users finding and inviting each other for play. Integration with Xbox Live's services also allows customers to use Xbox Live Party Chat to assemble.
--    **Simple and advanced matchmaking facilities.** Xbox Live provides traditional quickmatch capabilities, but also session browse and support for highly customized matchmaking scenarios. Xbox Live Looking for Group (LFG) also allows players to find each other, rally in Party Chat, and then play your game.
--    **Peer to peer and client-server networking APIs** provide secure real-time communication leveraging modern Internet standards and actively monitored by Xbox Live. Standardization and integration with the Xbox Live network troubleshooting experiences allow users to quickly remediate connectivity issues.  
--    **Integrated voice and text chat solutions** that facilitate safe in-game communication leveraging the Xbox Live social graph, media services, and specialized encoding hardware on Xbox One (or later) devices.
+- The **Xbox Live Multiplayer Session Directory (MPSD)** service. The MPSD service works with integrated UI experiences to facilitate users finding and inviting each other for play. Integration with Xbox Live's services also allows customers to use Xbox Live Party Chat to assemble. See [Multiplayer Session Directory overview](mpsd/live-mpsd-overview.md).
 
-For an overview of some of the most common multiplayer scenarios, and which Xbox Live functionality can help implement those scenarios, see [Common multiplayer scenarios](concepts/live-common-multiplayer-scenarios.md).
+- **Simple and advanced matchmaking facilities.** Xbox Live provides traditional quickmatch capabilities, but also session browse and support for highly customized matchmaking scenarios. Xbox Live Looking for Group (LFG) also allows players to find each other, rally in Party Chat, and then play your game. See [Matchmaking overview](matchmaking/live-matchmaking-overview.md).
+
+- **Peer to peer and client-server networking APIs** provide secure real-time communication leveraging modern Internet standards and actively monitored by Xbox Live. Standardization and integration with the Xbox Live network troubleshooting experiences allow users to quickly remediate connectivity issues.  
+
+- **Integrated voice and text chat solutions** that facilitate safe in-game communication leveraging the Xbox Live social graph, media services, and specialized encoding hardware on Xbox One (or later) devices.
+
+For an overview of some of the most common multiplayer scenarios, and which Xbox Live functionality can help implement those scenarios, see [Common multiplayer scenarios](live-common-multiplayer-scenarios.md).
 
 
 ## How can I implement Xbox Live Multiplayer in my game?
@@ -52,7 +55,7 @@ XIM provides the following functionality:
 - Aides for detecting and managing network congestion, as well as for migrating game state.
 
 XIM is the simplest multiplayer solution available through the Xbox Live Multiplayer features, but also the least customizable and is only suited for P2P games.
-See [Xbox Integrated Multiplayer (XIM)](xim/live-xim-nav.md).
+See [Xbox Integrated Multiplayer (XIM) overview](xim/live-xim-overview.md).
 
 
 ### Xbox Multiplayer Manager (MPM)
@@ -70,6 +73,8 @@ MPM is designed as a flexible but simplified and consolidated multiplayer manage
 In-game communication can be added with the [Game Chat](chat/live-chat-nav.md) API or through XIM Chat Reservations.
 <!-- public: break into two sentences or bullet points: one about networking, one about Game Chat:-->
 The networking and Game Chat 2 APIs are documented in the Xbox One XDK and the Xbox Live Platform Extensions SDK.
+
+See [Game Chat overview](chat/live-game-chat-2-overview.md).
 
 
 #### Servers and tournaments
@@ -100,3 +105,9 @@ Visibility              | XIM is provided as a compiled library without source. 
 Session and Matchmaking | XIM provides simple pre-configured matchmaking rules and does not require multiplayer configuration. | MPM requires [Configuring the Multiplayer service](concepts/live-configure-the-multiplayer-service.md), which enables sophisticated specification of matchmaking and session behavior.
 Networking              | XIM provides a simple & secure player-to-player network, backed by the Xbox Live Relay service when required. | MPM is designed so you can plug in your own secure networking solution using Windows.Networking.XboxLive.
 Game chat               | XIM provides integrated voice and text chat. | In-game communication can be implemented with the Game Chat 2 API or by using XIM out-of-band reservations to enable chat for an MPM managed roster.
+
+
+### See also
+
+* [Multiplayer concepts overview](concepts/live-multiplayer-concepts.md)
+* [Invites overview](invites/live-multiplayer-invites-overview.md)

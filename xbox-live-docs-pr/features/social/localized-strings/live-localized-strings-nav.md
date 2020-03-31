@@ -1,6 +1,6 @@
 ---
 title: Localized strings
-description: Localized strings.
+description: Configuring UI strings in various languages for an Xbox Live game at Partner Center.
 kindex: Localized strings
 layout: LandingPage
 author: mikehoffms

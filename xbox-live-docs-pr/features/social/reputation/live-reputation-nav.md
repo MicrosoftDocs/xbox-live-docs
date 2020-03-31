@@ -4,9 +4,9 @@ description: The Reputation service encourages positive gameplay.
 kindex: Reputation
 kindex: social features
 layout: LandingPage
+ms.topic: article
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: article
 ms.localizationpriority: medium
 ms.date: 12/06/2018
 ---

@@ -1,6 +1,6 @@
 ---
 title: Xbox Live samples
-description: There are Xbox Live API samples and Xbox Developer Kit samples.
+description: Xbox Live API samples and Xbox Developer Kit samples.
 kindex: Xbox Live samples
 kindex: samples, Xbox Live
 ms.topic: article

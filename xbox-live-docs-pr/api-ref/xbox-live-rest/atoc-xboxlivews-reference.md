@@ -1,12 +1,12 @@
 ---
 title: Xbox Live Services RESTful Reference
-description: Xbox Live Services is a set of services for managing games and player information.
+description: Services for managing games and player information. Use the **Xbox.Services** API whenever possible. Use the RESTful interface for newer methods that have not been added to **Xbox.Services** yet.
 kindex: Xbox Live Services RESTful Reference
 permalink: en-us/docs/xboxlive/rest/atoc-xboxlivews-reference.html
 ms.topic: article
 assetID: 527db3b0-5ebd-eeca-4330-2074199c82ff
 ms.localizationpriority: medium
-ms.topic: article
+ms.date: 10/12/2017
 ---
 
 # Xbox Live Services RESTful Reference

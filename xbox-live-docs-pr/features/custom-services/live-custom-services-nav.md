@@ -10,83 +10,13 @@ keywords: windows 10, uwp, games, xbox, xbox live
 ms.localizationpriority: medium
 ---
 
-<h1>Custom services</h1>
+# Custom services
 
-<ul class="cardsF panelContent cols cols2">
-    <li>
-        <a href="access-policies/live-access-policies-nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_guidelines.svg" alt="Access Policies" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Access Policies</h3>
-                            <p>Access policies.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="single-sign-on/live-single-sign-on-nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_identity-protection.svg" alt="Single Sign-On" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Single Sign-On</h3>
-                            <p>Single sign-on allows a player using your title to sign into your services by using their Xbox Live sign-in.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="web-services/live-web-services-nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_service-hooks.svg" alt="Web Services" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Web Services</h3>
-                            <p>Web services.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="relying-parties/live-relying-parties-nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_link.svg" alt="Relying Parties" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Relying Parties</h3>
-                            <p>Relying Parties.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-</ul>
+### In this section
+
+| Article | Description |
+|---------|-------------|
+| [Access Policies](access-policies/live-access-policies-nav.md) | Configuring access policies to allow other apps, games, and services to access a title's Xbox Live settings. |
+| [Single Sign-On](single-sign-on/live-single-sign-on-nav.md) | Enables a player using your title to sign into your services by using their Xbox Live sign-in. |
+| [Web services](web-services/live-web-services-nav.md) | Creating a Web service for an Xbox Live-enabled app. |
+| [Relying parties](relying-parties/live-relying-parties-nav.md) | Configuring your web service as a relying party of Xbox live in order to provide the Single Sign-On experience to Xbox Live users. |

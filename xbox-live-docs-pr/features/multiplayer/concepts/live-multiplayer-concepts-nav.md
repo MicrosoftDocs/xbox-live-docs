@@ -24,7 +24,6 @@ edited: 09/12/2019
 | [Multiplayer roles](live-multiplayer-roles.md) | Defining player roles in Xbox Live multiplayer. |
 | [Multiplayer session browse](live-session-browse.md) | Multiplayer session browse enables a title to query for a list of open multiplayer game sessions that meet the specified criteria. |
 | [Intro to calling the Multiplayer service directly](live-intro-calling-mp-directly.md) | Provides a high level introduction to the Xbox Live Multiplayer 2015 system. |
-| [Common multiplayer scenarios](live-common-multiplayer-scenarios.md) | Which Xbox Live functionality supports various multiplayer scenarios, including Comparative (Indirect) Play, Online Play with friends, Skill-Based Matchmaking, and Tournaments. |
 | [Configuring the Multiplayer service](live-configure-the-multiplayer-service.md) | Configuring the Multiplayer Service, including session templates, SmartMatch hoppers, and custom invite strings. |
 | [Multiplayer 2015 FAQ and troubleshooting](live-multiplayer-2015-faq.md) | FAQs and troubleshooting for Multiplayer 2015. |
 | [Changing a game from 2014 to 2015 Multiplayer](live-issues-changing-to-mp-2015.md) | Changing a title from 2014 Multiplayer to 2015 Multiplayer. |

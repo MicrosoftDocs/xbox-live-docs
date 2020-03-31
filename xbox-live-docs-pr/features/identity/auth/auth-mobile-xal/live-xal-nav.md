@@ -1,14 +1,14 @@
 ---
-title: Authentication for mobile projects using XAL
+title: Authentication for projects using XAL
 description: The Xbox Authentication Library (XAL) is a cross-platform authentication platform for Android, and iOS.
-kindex: Authentication for mobile projects using XAL
+kindex: Authentication for projects using XAL
 layout: LandingPage
 ms.topic: article
 ms.localizationpriority: medium
 ms.date: 08/30/2018
 ---
 
-# Authentication for mobile projects using XAL
+# Authentication for projects using XAL
 
 The Xbox Authentication Library (XAL) is a cross-platform authentication platform for Xbox Live.
 

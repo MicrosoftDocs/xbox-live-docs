@@ -1,7 +1,8 @@
 ---
 title: People System (Friends List)
-description: The People System includes the Friends List, and manages relationships between gamers, such as only showing a user's real name to close friends.
+description: Manages relationships between gamers, such as only showing a user's real name to close friends.
 kindex: People System (Friends List)
+kindex: friends list
 layout: LandingPage
 author: mikehoffms
 ms.author: v-mihof

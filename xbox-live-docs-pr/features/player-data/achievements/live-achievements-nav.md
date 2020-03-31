@@ -1,6 +1,6 @@
 ---
 title: Achievements
-description: Achievements includes Gamerscore and other rewards such as digital artwork, new maps, characters, and stat boosts.
+description: Includes Gamerscore and other rewards such as digital artwork, new maps, characters, and stat boosts.
 kindex: Achievements
 layout: LandingPage
 author: mikehoffms
