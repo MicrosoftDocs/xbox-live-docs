@@ -140,25 +140,6 @@ Differentiate sentences for the two Policies cards
         </a>
     </li>
     <li>
-        <a href="tools/live-tools-nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_tools.svg" alt="Tools for Xbox Live"/>
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Tools for Xbox Live</h3>
-                            <p>Tools to help develop and test an Xbox Live-enabled title.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
         <a href="services/live-services-nav.md">
             <div class="cardSize">
                 <div class="cardPadding">
@@ -171,6 +152,25 @@ Differentiate sentences for the two Policies cards
                         <div class="cardText">
                             <h3>Services and APIs</h3>
                             <p>Using services to analyze Xbox Live activity.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="tools/live-tools-nav.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="https://docs.microsoft.com/media/common/i_tools.svg" alt="Tools for Xbox Live"/>
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Tools for Xbox Live</h3>
+                            <p>Tools to help develop and test an Xbox Live-enabled title.</p>
                         </div>
                     </div>
                 </div>

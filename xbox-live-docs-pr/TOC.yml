@@ -759,29 +759,6 @@
               href: test-release/troubleshooting/live-troubleshooting-apis.md
             - name: Troubleshooting Xbox Live setup on Windows 10 PC
               href: test-release/troubleshooting/live-troubleshooting-pc-setup.md
-        - name: Tools for Xbox Live
-          href: test-release/tools/live-tools-nav.md
-          items: 
-            - name: Development tools for Xbox Live
-              href: test-release/tools/live-tools.md
-            - name: Config as Source tools (XblConfig.exe)
-              href: test-release/tools/live-config-as-source.md
-            - name: Global Storage tool (GlobalStorage.exe)
-              href: test-release/tools/live-global-storage-tool.md
-            - name: Multiplayer Session History Viewer (MultiplayerSessionHistoryViewer.exe)
-              href: test-release/tools/live-mp-session-history-viewer.md
-            - name: Player Data Reset tool (PlayerReset.exe)
-              href: test-release/tools/live-player-data-reset.md
-            - name: Xbox Live Account tool (XboxLiveAccountTool.exe)
-              href: test-release/tools/live-xbox-live-account-tool.md
-            - name: Xbox Live Developer Account tool (XblDevAccount.exe)
-              href: test-release/tools/live-dev-account-tool.md
-            - name: Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)
-              href: test-release/tools/live-pc-sandbox-switcher.md
-            - name: Trace Analyzer for reviewing service calls
-              href: test-release/tools/live-trace-analyzer.md
-            - name: Using Fiddler to inspect web service calls
-              href: test-release/tools/live-fiddler-inspect-web-calls.md
         - name: Services and APIs
           href: test-release/services/live-services-nav.md
           items: 
@@ -805,6 +782,30 @@
                   href: test-release/services/error-handling/live-error-handling-winrt.md
             - name: Porting Xbox Live code from XDK to UWP
               href: test-release/services/live-port-xbl-code-from-xdk-to-uwp.md
+        - name: Tools for Xbox Live
+          href: test-release/tools/live-tools-nav.md
+          items: 
+            - name: Development tools for Xbox Live
+              href: test-release/tools/live-tools.md
+            - name: Config as Source tools (XblConfig.exe)
+              href: test-release/tools/live-config-as-source.md
+            - name: Global Storage tool (GlobalStorage.exe)
+              href: test-release/tools/live-global-storage-tool.md
+            - name: Multiplayer Session History Viewer (MultiplayerSessionHistoryViewer.exe)
+              href: test-release/tools/live-mp-session-history-viewer.md
+            - name: Player Data Reset tool (PlayerReset.exe)
+              href: test-release/tools/live-player-data-reset.md
+            - name: Xbox Live Account tool (XboxLiveAccountTool.exe)
+              href: test-release/tools/live-xbox-live-account-tool.md
+            - name: Xbox Live Developer Account tool (XblDevAccount.exe)
+              href: test-release/tools/live-dev-account-tool.md
+            - name: Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)
+              href: test-release/tools/live-pc-sandbox-switcher.md
+            - name: Trace Analyzer for reviewing service calls
+              href: test-release/tools/live-trace-analyzer.md
+            - name: Using Fiddler to inspect web service calls
+              href: test-release/tools/live-fiddler-inspect-web-calls.md
+
     - name: Policies and XRs
       href: policies/live-policies-nav.md
       items:
