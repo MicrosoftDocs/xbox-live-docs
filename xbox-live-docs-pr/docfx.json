@@ -11,6 +11,7 @@
           "**/includes/**",
           "**/snippets/**",
           "code-snippets/**",
+          "**/TOC-**.md",
           "_themes/**",
           "_themes.pdf/**",
           "README.md",
