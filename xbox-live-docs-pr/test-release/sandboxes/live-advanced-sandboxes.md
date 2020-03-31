@@ -1,10 +1,14 @@
 ---
 title: Advanced Xbox Live sandboxes
 description: Using sandboxes to isolate content during development.
+kindex: Advanced Xbox Live sandboxes
+kindex: XDK, sandboxes
+kindex: managed partners, sandboxes
+kindex: content isolation
+kindex: sandboxes
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, xbox one, xdk, managed partner, sandbox, content isolation
-ms.localizationpriority: medium
 ms.assetid: bd8a2c51-2434-4cfe-8601-76b08321a658
+ms.localizationpriority: medium
 ms.date: 04/04/2017
 ---
 
@@ -15,13 +19,13 @@ ms.date: 04/04/2017
 
 The Xbox Live *sandbox* provides an entire private environment for development.
 This article explains what sandboxes are, why they exist, how they apply to publishers, and how they impact internal Xbox teams.
-The audience for this article is publishers who build Xbox One content and use sandboxes.
+The audience for this article is publishers who build Xbox One (or later) content and use sandboxes.
 
 Xbox Live development provides tremendous opportunity to publishers to test in production with production-quality services and production MSA developer accounts.
 The increase in functionality and flexibility requires configuration steps in Partner Center to create title data and manage access to the titles while in development and in general availability.
 
 Sandboxes are a way to partition data in production.
-Because there is a single production environment for all content, sandboxes act as “virtual environments” where data generated in one environment does not cross over to the other.
+Because there is a single production environment for all content, sandboxes act as "virtual environments" where data generated in one environment does not cross over to the other.
 
 
 ## Isolate content on Xbox Live
@@ -36,7 +40,7 @@ Sandboxes are a way to partition data that is in production.
 
 * With Xbox 360-era services, PartnerNet and ProductionNet are two distinct environments.
 
-* With Xbox One-era services, a single production environment contains *n* distinct virtual environments, where each virtual environment is called a *sandbox*.
+* With Xbox One (or later) era services, a single production environment contains *n* distinct virtual environments, where each virtual environment is called a *sandbox*.
 
 Because there is a single production environment for all content, sandboxes are actually unique virtual environments where data generated in one environment cannot cross over to another environment.
 
@@ -64,7 +68,7 @@ All data in Xbox Live will be primarily partitioned by the sandbox ID throughout
 A title is born in the Partner Center.
 A title is assigned a title ID, product ID, and service configuration ID (SCID).
 
-A title or product on its own doesn’t mean anything to Xbox Live.
+A title or product on its own doesn't mean anything to Xbox Live.
 To support simultaneous retail and development use of a single title, Partner Center supports *instancing* of titles in order to make and maintain the necessary distinctions.
 An instance of a title resides in a sandbox and this is where sandboxes come in.
 
@@ -102,14 +106,14 @@ A binary can be represented in either of two ways:
 
 ## Getting the access right
 
-There are two distinct types of access to your content in Xbox One:
+There are two distinct types of access to your content in Xbox One (or later):
 
 *Design-time access*—access from a PC via Partner Center - Allows people working on your products to upload, organize, and work with content, configuration, and metadata, but does not allow them to run or play instances of your products.
 
 *Run-time access*—access from an Xbox console - Allows your developers, testers, reviewers, and eventually your customers to run and play product instances.
 
 > [!NOTE]
-> In order to be available for run-time access, a product instance must be placed in a sandbox. Once a build is placed in a sandbox, Partner Center users or devkit devices that have been granted access to that sandbox can run the instance. To do this, they log on to Xbox One via an Xbox console, using one of their dev accounts—special accounts that function as virtual users for run-time access.
+> In order to be available for run-time access, a product instance must be placed in a sandbox. Once a build is placed in a sandbox, Partner Center users or devkit devices that have been granted access to that sandbox can run the instance. To do this, they log on to Xbox Live via an Xbox console, using one of their dev accounts—special accounts that function as virtual users for run-time access.
 
 When we are talking about sandboxes, we are typically talking about run-time access to content that runs on Xbox Live.
 In order to access a service in Xbox Live, a title ID is required.
@@ -149,7 +153,7 @@ Only the credentials of the dev account owned by the authorized Partner Center u
 
 ### Dev accounts setup
 
-Dev accounts in Xbox One are just standard Microsoft accounts (MSA) with special rules applied to them.
+Dev accounts in Xbox One (or later) are just standard Microsoft accounts (MSA) with special rules applied to them.
 Dev accounts are used in Xbox Live for development.
 
 A dev account:
@@ -201,9 +205,9 @@ Stated simply, *a sandbox is a way to partition data in production*.
 ### Why do we need sandboxes?
 
 Just as users and devices access titles, titles access services.
-We introduce a concept of “title group” where sets of titles are granted access to service resources.
+We introduce a concept of "title group" where sets of titles are granted access to service resources.
 
-Because there is a single production environment for Xbox One for all content (pre-release and retail), multiple instances (pre-release/retail) of a title must be prevented from operating on the same instances of resources.
+Because there is a single production environment for Xbox One (or later) for all content (pre-release and retail), multiple instances (pre-release/retail) of a title must be prevented from operating on the same instances of resources.
 
 
 ### What is in a sandbox?
@@ -220,11 +224,11 @@ A sandbox ID (case sensitive) is a string in the following format: &lt;Publisher
 
 An example sandbox ID, XLDP.5, is explained below:
 
-- The *publisher moniker* is unique across all publishers. So, “XLPD” is the publisher moniker for this particular publisher. A publisher moniker is created when a publisher is “activated” in Partner Center by the developer account manager.
+- The *publisher moniker* is unique across all publishers. So, "XLPD" is the publisher moniker for this particular publisher. A publisher moniker is created when a publisher is "activated" in Partner Center by the developer account manager.
 
-- The digit *“n”* identifies the number of the sandbox. In this case, “5” is the sixth sandbox created for this publisher.
+- The digit *"n"* identifies the number of the sandbox. In this case, "5" is the sixth sandbox created for this publisher.
 
-When the title data moves through services, Xbox services use the sandbox ID to uniquely identify the “environment” for the data that is generated.
+When the title data moves through services, Xbox services use the sandbox ID to uniquely identify the "environment" for the data that is generated.
 
 
 ### What data is sandboxed?
@@ -263,7 +267,7 @@ Any product instances that fail while in certification can be brought back to a 
 
 ### RETAIL sandbox
 
-The RETAIL sandbox is the final destination for all content that is created for Xbox One.
+The RETAIL sandbox is the final destination for all content that is created for Xbox One (or later) consoles.
 
 After a title passes certification, it is added to the RETAIL sandbox.
 Only green signed content is permitted to run in the RETAIL sandbox.

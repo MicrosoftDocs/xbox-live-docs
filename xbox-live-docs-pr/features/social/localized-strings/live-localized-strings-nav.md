@@ -1,13 +1,13 @@
 ---
 title: Localized strings
 description: Configuring UI strings in various languages for an Xbox Live game at Partner Center.
+kindex: Localized strings
 layout: LandingPage
 author: mikehoffms
 ms.author: v-mihof
-ms.date: 12/06/2018
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, localized strings
 ms.localizationpriority: medium
+ms.date: 12/06/2018
 ---
 
 # Localized strings

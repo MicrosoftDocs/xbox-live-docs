@@ -1,13 +1,13 @@
 ---
 title: Achievements
 description: Includes Gamerscore and other rewards such as digital artwork, new maps, characters, and stat boosts.
+kindex: Achievements
 layout: LandingPage
 author: mikehoffms
 ms.author: v-mihof
-ms.date: 12/06/2018
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
+ms.date: 12/06/2018
 ---
 
 # Achievements

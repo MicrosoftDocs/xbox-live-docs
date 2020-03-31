@@ -36,7 +36,7 @@ These are the main features of the Multiplayer Manager API:
 * Easy session management and Xbox Live Matchmaking
 * State and event based programming model.
 * Ensures Xbox Live Best Practices  along with being Multiplayer XR compliant.
-* Supports both Xbox One XDK and UWP titles.
+* Supports both Xbox One (or later) XDK and UWP titles.
 * Implements [Multiplayer 2015 flowcharts](https://developer.xboxlive.com/en-us/platform/development/education/Documents/Xbox%20One%20Multiplayer%202015%20Developer%20Flowcharts.aspx).
 * Works alongside the traditional Multiplayer 2015 APIs.
 <!-- keep /en-us/ in URL else 404 

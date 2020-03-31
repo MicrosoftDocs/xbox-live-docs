@@ -1,13 +1,14 @@
 ---
 title: Multiplayer session browse
 description: Multiplayer session browse enables a title to query for a list of open multiplayer game sessions that meet the specified criteria.
-ms.assetid: b4b3ed67-9e2c-4c14-9b27-083b8bccb3ce
-ms.date: 10/16/2017
+title: Multiplayer session browse
+title: session browse, multiplayer
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
+ms.assetid: b4b3ed67-9e2c-4c14-9b27-083b8bccb3ce
 ms.localizationpriority: medium
+ms.date: 10/16/2017
 ---
 
 
@@ -279,9 +280,9 @@ Currently, the following filter scenarios are supported:
 
  Filter by | Search filter string
  --- | ---
- A single member xuid '1234566’ | "session/memberXuids/any(d:d eq '1234566')"
- A single owner xuid '1234566’ | "session/ownerXuids/any(d:d eq '1234566')"
- A string 'forzacarclass' equal to 'classb‘ | "tolower(strings/forzacarclass) eq 'classb'"
+ A single member xuid '1234566' | "session/memberXuids/any(d:d eq '1234566')"
+ A single owner xuid '1234566' | "session/ownerXuids/any(d:d eq '1234566')"
+ A string 'forzacarclass' equal to 'classb' | "tolower(strings/forzacarclass) eq 'classb'"
  A number 'forzaskill' equal to 6 | "numbers/forzaskill eq 6"
  A number 'halokdratio' greater than 1.5 | "numbers/halokdratio gt 1.5"
  A tag 'coolpeopleonly' | "tags/any(d:tolower(d) eq 'coolpeopleonly')"

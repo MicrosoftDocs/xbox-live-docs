@@ -1,17 +1,19 @@
 ---
 title: Game Chat overview
 description: Adding voice and text communication to your game by using Xbox Live Game Chat 2.
+kindex: Game Chat overview
+kindex: chat
+kindex: voice communication
 ms.topic: overview
 ms.prod: gaming
 ms.technology: xboxlive
-ms.date: 10/20/2017
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, game chat, game chat 2, voice communication
 ms.localizationpriority: medium
+ms.date: 10/20/2017
 ---
 
 # Game Chat overview
 
-Game Chat 2 allows you to easily add voice and text chat communication to your app while respecting your players' privacy settings and fulfilling the Xbox Requirements for Xbox One Games and Hub Apps relating to voice and text chat.
+Game Chat 2 allows you to easily add voice and text chat communication to your app while respecting your players' privacy settings and fulfilling the Xbox Requirements for Xbox One (or later) Games and Hub Apps relating to voice and text chat.
 
 For players that have enabled speech-to-text or text-to-speech conversion via the "Ease of Access - Game Chat Transcription" settings, Game Chat 2 will transparently perform translations to create chat text messages representing incoming speech audio and play synthesized speech audio for outgoing chat text messages, respectively.
 
@@ -29,7 +31,7 @@ For players that have enabled speech-to-text or text-to-speech conversion via th
 
 - **Automatic Gain Control** - Game Chat 2 performs Automatic Gain Control to minimize variation in a user's microphone output.
 
-- **Codecs** - Game Chat 2 encodes audio data that must be delivered to remote instances of the app. On Xbox One, this encoding (and decoding on the receiving end) is hardware accelerated.
+- **Codecs** - Game Chat 2 encodes audio data that must be delivered to remote instances of the app. On Xbox One (or later), this encoding (and decoding on the receiving end) is hardware-accelerated.
 
 - `chat_manager::start/finish_processing_state_changes` - The pair of methods called by the app every UI frame to perform asynchronous operations, to retrieve results to be handled in the form of `game_chat_state_change` structures, and then to free the associated resources when finished.
 

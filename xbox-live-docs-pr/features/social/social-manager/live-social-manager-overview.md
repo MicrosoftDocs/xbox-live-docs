@@ -1,11 +1,11 @@
 ---
 title: Social Manager overview
 description: The Xbox Live Social Manager API simplifies keeping track of online friends and their gaming activity.
-ms.assetid: d4c6d5aa-e18c-4d59-91f8-63077116eda3
-ms.date: 03/26/2018
+kindex: Social Manager overview
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
+ms.assetid: d4c6d5aa-e18c-4d59-91f8-63077116eda3
 ms.localizationpriority: medium
+ms.date: 03/26/2018
 ---
 
 

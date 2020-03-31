@@ -6,8 +6,7 @@ kindex: Xbox Live Player Data
 author: v-mihof
 ms.author: v-mihof
 ms.topic: conceptual
-ms.prod: xboxlive
-ms.technology: 
+ms.localizationpriority: medium
 ---
 
 # Player Data overview

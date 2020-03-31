@@ -8,6 +8,7 @@ ms.author: jeffshi
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
+ms.localizationpriority: medium
 edited: 01/09/2020
 ---
 

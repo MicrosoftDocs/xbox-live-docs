@@ -1,10 +1,12 @@
 ---
 title: Portal configuration overview
 description: Configuring Xbox Live services at Partner Center.
+kindex: Portal configuration overview
+kindex: UDC
+kindex: Universal Developer Center
 layout: LandingPage
 ms.topic: article
 ms.localizationpriority: medium
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, udc, universal developer center
 ms.date: 07/30/2018
 ---
 
@@ -96,4 +98,4 @@ These event-based Data articles cover:
 |---------|-------------|
 | [Configuring Game DVR in Partner Center](live-game-dvr.md) | Configuring Xbox Live Game DVR strings on Partner Center. |
 | [Configuring data sharing in Partner Center](live-data-sharing-udc.md) | Configuring data sharing in Partner Center to allow other apps, games, and services to access the Xbox Live settings. |
-| [Configuring cross-play for Xbox and Windows 10 in Partner Center](live-config-cross-play-xbox-win10.md) | Developing cross-play games, which run on both Xbox One (as an XDK game) and Windows 10 (as a UWP game). |
+| [Configuring cross-play for Xbox and Windows 10 in Partner Center](live-config-cross-play-xbox-win10.md) | Developing cross-play games, which run on both Xbox One or later (as an XDK game) and Windows 10 (as a UWP game). |

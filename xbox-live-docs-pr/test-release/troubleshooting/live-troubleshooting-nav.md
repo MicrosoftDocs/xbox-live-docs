@@ -1,12 +1,12 @@
 ---
-layout: LandingPage
 title: Troubleshooting Xbox Live
 description: Troubleshooting Xbox Live development, such as by logging responses, checking the dev PC setup, checking the sign-in sandbox, and logging calls.
+kindex: Troubleshooting Xbox Live
+layout: LandingPage
 ms.assetid: 5e96199b-9177-4789-9c80-79f6b83a2db4
-ms.date: 04/04/2017
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, troubleshoot
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Troubleshooting Xbox Live

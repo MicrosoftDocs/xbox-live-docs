@@ -1,13 +1,18 @@
 ---
 title: Services, tools, and APIs
 description: Tools to help develop and test an Xbox Live-enabled title, including Trace Analyzer, Fiddler, best practices, and error handling.
+kindex: Services, tools, and APIs
+kindex: tools
+kindex: player reset
+kindex: Live Trace Analyzer
+kindex: LTA
+kindex: Xbox Live account tool
 layout: LandingPage
+ms.topic: article
+ms.localizationpriority: medium
 author: mikehoffms
 ms.author: v-mihof
 ms.date: 06/13/2018
-ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, tools, player reset, live trace analyzer, LTA, xbox live account tool
-ms.localizationpriority: medium
 ---
 
 # Services, tools, and APIs

@@ -474,8 +474,8 @@
               items:
                 - name: Multiplayer Session Directory overview
                   href: features/multiplayer/mpsd/live-mpsd-overview.md
-                - name: Multiplayer Session Directory for Xbox One
-                  href: features/multiplayer/mpsd/live-xbox-one-multiplayer-session-directory.md
+                - name: Multiplayer Session Directory
+                  href: features/multiplayer/mpsd/live-xbox-multiplayer-session-directory.md
                 - name: MPSD concepts
                   href: features/multiplayer/mpsd/concepts/live-mpsd-concepts-nav.md
                   items:
@@ -752,7 +752,7 @@
               href: test-release/test-accounts/live-account-tool.md
             - name: Broadcasting Xbox Live test accounts to Mixer
               href: test-release/test-accounts/live-test-accounts-broadcast-mixer.md
-        - name: Testing on the Xbox One console
+        - name: Testing on the Xbox console
           href: test-release/live-testing-on-console.md
         - name: Troubleshooting Xbox Live
           href: test-release/troubleshooting/live-troubleshooting-nav.md

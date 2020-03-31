@@ -1,12 +1,13 @@
 ---
 title: Types of error handling
 description: Handling errors when calling an Xbox Live service through XSAPI.
+kindex: Types of error handling
+kindex: errors from service calls
+ms.topic: article
+ms.assetid: e433dfbd-488b-44ff-8333-1dcf0329cd60
+ms.localizationpriority: medium
 author: KevinAsgari
 ms.author: kevinasg
-ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, error, service call
-ms.localizationpriority: medium
-ms.assetid: e433dfbd-488b-44ff-8333-1dcf0329cd60
 ms.date: 04/04/2017
 ---
 

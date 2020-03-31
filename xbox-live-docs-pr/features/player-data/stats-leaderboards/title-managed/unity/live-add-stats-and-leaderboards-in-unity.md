@@ -1,11 +1,13 @@
 ---
 title: Adding player stats and leaderboards to a Unity project
 description: Use the Xbox Live Unity plugin to add player stats and leaderboards to your Unity project.
-ms.assetid: 756b3c31-a459-4ad2-97af-119adcd522b5
-ms.date: 10/19/2017
+kindex: Adding player stats and leaderboards to a Unity project
+kindex: Unity
+kindex: Creators
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, Unity, creators
+ms.assetid: 756b3c31-a459-4ad2-97af-119adcd522b5
 ms.localizationpriority: medium
+ms.date: 10/19/2017
 ---
 
 # Adding player stats and leaderboards to a Unity project

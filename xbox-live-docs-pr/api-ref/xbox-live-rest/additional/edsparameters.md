@@ -2,8 +2,7 @@
 title: EDS Parameters
 assetID: 9475b427-53bc-697b-6d24-1787320260b7
 permalink: en-us/docs/xboxlive/rest/edsparameters.html
-
-description: ' EDS Parameters'
+description: 'EDS Parameters'
 ms.date: 10/12/2017
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one
@@ -24,7 +23,7 @@ These query parameters are not necessarily accepted by all [Entertainment Discov
 | continuationToken| string| Optional. The continuation token is an opaque blob that contains information the service needs for pagination in certain scenarios. If the value is omitted, the first page of results is returned (where page size is determined by the maxItems parameter), along with a continuation token that can be used to obtain the second page of results. The second page would contain the continuation token for the third page of results, and so on.|
 | Desired| string| Optional. See the Combined Field Name API.|
 | desiredMediaItemTypes| array of string| Optional. This parameter determines the types of items to be returned in the response.|
-| Domain| string| Optional. The Domain parameter determines the game and app marketplace context in which client is calling for. By default the domain is "Modern", indicating the client can only ask for Xbox One content. If the client wants to switch the domain to surface Xbox 360 content, it must specify Domain as "Xbox360". Currently, cross domain results are not supported. Possible values are: <ul><li>Xbox360</li><li>Modern</li></ul> The "Xbox360" value is only supported for singleMediaGroupSearch. Browse and Details are supported. crossMediaGroupSearch is not supported and will return a 400 error.|
+| Domain| string| Optional. The Domain parameter determines the game and app marketplace context in which client is calling for. By default the domain is "Modern", indicating the client can only ask for Xbox One (or later) content. If the client wants to switch the domain to surface Xbox 360 content, it must specify Domain as "Xbox360". Currently, cross domain results are not supported. Possible values are: <ul><li>Xbox360</li><li>Modern</li></ul> The "Xbox360" value is only supported for singleMediaGroupSearch. Browse and Details are supported. crossMediaGroupSearch is not supported and will return a 400 error.|
 | fields| string| Optional. See [GET (/media/{marketplaceId}/fields)](../uri/marketplace/uri-medialocalefieldsget.md).|
 | firstPartyOnly| Boolean value| Optional filter parameter. Determines whether only first-party content is returned or whether both first- and third-party content are returned from the query. |
 | freeOnly| Boolean value| Optional filter parameter. Restricts results to only free content.|

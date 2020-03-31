@@ -1,10 +1,11 @@
 ---
 title: Adding multi-user support to a Unity game
 description: Adding multi-user support to your Unity game using the Xbox Live Unity plug-in.
-ms.date: 07/14/2017
+kindex: Adding multi-user support to a Unity game
+kindex: Unity, multi-user support
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity, multi user
 ms.localizationpriority: medium
+ms.date: 07/14/2017
 ---
 
 # Adding multi-user support to a Unity game
@@ -52,7 +53,7 @@ First do the steps in [Configuring Xbox Live in Unity](live-configure-xbl-in-uni
 
     ![UserProfile prefab for multi-user support](live-add-multi-user-support-images/user-profile-for-mua.png)
 
-4. Since Multi-User applications are only supported on Xbox One devices, adding controller support to the **UserProfile** objects is required.
+4. Since Multi-User applications are only supported on Xbox One (or later) devices, adding controller support to the **UserProfile** objects is required.
    On each **UserProfile** object, there is a field called `InputControllerButton` where you can specify the joystick and button numbers each **UserProfile** should listen to.
 
    For this tutorial, we'll use `joystick 1 button 0` for the **UserProfile** that Player 1 is assigned to and `joystick 2 button 0` for Player 2 and the second **UserProfile** game object.

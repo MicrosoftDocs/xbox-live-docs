@@ -1,11 +1,18 @@
 ---
 title: Title-managed Stats overview
 description: Stats track a player's progress and prowess in a game. With title-managed Stats, the game code maintains the stats, and sends the stat values to the server for display upon request.
-ms.date: 07/02/2018
+kindex: Title-managed Stats overview
+kindex: stats, title-managed Stats
+kindex: stats, title-managed Leaderboards
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, player stats, leaderboards, title-managed stats
 ms.localizationpriority: medium
+ms.date: 07/02/2018
 ---
+
+
+
+
+
 
 # Title-managed Stats overview
 
@@ -25,7 +32,8 @@ Featured Stats may also periodically appear in pinned content blocks that users 
 Title-managed Stats operates by accepting stat values as key/value pairs from your title for a player and storing that stat value so that it can be displayed at a later time.
 Title-managed Stats supports Xbox Live leaderboard scenarios by saving stats about individual players so they can be compared and ranked on a leaderboard later.
 
-Title-managed Stats accepts values sent to it with little to no validation, so it is up to your title to handle all of the logic which determines the correct value for a stat.
+Title-managed Stats accepts stat values sent to it with no validation, so it is up to your title to handle the logic to determine the correct value for the stats.
+Since your title is in full control of the stat value, it also means its easy to debug the flow of stat values end-to-end.
 
 
 ## Configured stats and featured leaderboards
@@ -33,13 +41,14 @@ Title-managed Stats accepts values sent to it with little to no validation, so i
 Stats are configured on the [Partner Center dashboard](https://partner.microsoft.com/dashboard/windows/overview).
 In order to configure stats, you must already have a title configured.
 
-If you do not have a title configured, you can learn how to do so by reading [Create an app and publish it for testing, for Creators](../../../../get-started/setup-partner-center/legacy/live-create-and-test-creators-title.md).
-The Stats you configure in Partner Center will appear in your title's GameHub as pictured:
 
-The *Featured Stats* are highlighted in yellow in the image below.
+If you do not have a title configured, you can learn how to do so by reading [Create an app and publish it for testing, for Creators](../../../../get-started/setup-partner-center/legacy/live-create-and-test-creators-title.md).
+The Stats you configure in Partner Center will appear in your title's GameHub as pictured below.
+Featured Stats are highlighted in yellow.
+
 ![Official Club Page Social Leaderboard](live-stats-tm-overview-images/gamehub_featuredstats.png)
 
-On Xbox One, users are able to pin games directly to their Home screen to quickly find relevant information, community driven content, and developer posts.
+On the Xbox console, users are able to pin games directly to their Home screen to quickly find relevant information, community driven content, and developer posts.
 The stats you configure may also appear as a part of pinned Home content.
 
 Stats will show the player along with a slightly higher ranked friend, encouraging them to play their way up the leaderboard.
@@ -59,3 +68,4 @@ Developers are limited to having no more than 20 featured stats for their title,
 
 * [Configuring title-managed Featured Stats & Leaderboards in Partner Center](config/live-tm-leaderboards-portal.md)
 * [Updating title-managed Stats](how-to/live-stats-tm-updating.md)
+

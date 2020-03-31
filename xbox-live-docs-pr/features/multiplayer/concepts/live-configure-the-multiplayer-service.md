@@ -1,12 +1,16 @@
 ---
 title: Configuring the Multiplayer service
 description: Configuring the Multiplayer Service, including session templates, SmartMatch hoppers, and custom invite strings.
+kindex: Configuring the Multiplayer service
+kindex: service configuration
+kindex: session template
+kindex: custom invite string
+kindex: smartmatch hopper
 ms.assetid: d042d4d5-1c75-4257-8a6f-07eddd39ca7e
 ms.date: 07/12/2017
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, service configuration, session template, custom invite string, smartmatch hopper
 ms.localizationpriority: medium
 ---
 
@@ -49,7 +53,7 @@ For more info about multiplayer session templates, including several predefined 
 
 An optional addition to the Xbox multiplayer service is the Xbox server-based matchmaking service, which provides a method of grouping players together based on information provided by the title or stored in user statistics, or based on the user's preferences, or based on quality of service.
 
-Because Xbox One matchmaking is server-based, users can provide a request to the service and then be notified later, whenever a match is found.
+Matchmaking is now server-based, so users can provide a request to the service and then be notified later, whenever a match is found.
 That is: the user is not forced to wait in your title while the matchmaking process occurs—they are free to play the single-player portion of your title, or even to play other titles, and still be candidates for matchmaking.
 This eliminates the need to achieve a "critical mass" of players before matches can be found.
 
@@ -64,7 +68,7 @@ When you create a new matchmaking hopper, you must define the following:
 | Max Group Size | Specify the maximum acceptable number of players. Maximum value is 256. |
 | Should Rule Expansion Cycles | The default value is 3. The default value should not need to be changed for normal player populations. |
 | Ranked hopper | If a hopper is marked as a Ranked Hopper it allows players in that hopper to be matched together even if they have blocked each other. This helps in preventing people from trying to avoid players with greater skill by blocking them. |
-| Auto update from session | When this field is enabled, changes made to the session’s member list or members’ custom properties will automatically propagate to a previously submitted ticket. |
+| Auto update from session | When this field is enabled, changes made to the session's member list or members' custom properties will automatically propagate to a previously submitted ticket. |
 
 > **Important:** After a title passes Final Certification, existing matchmaking hoppers in that title can no longer be changed or deleted.
 

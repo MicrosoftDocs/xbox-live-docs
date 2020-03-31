@@ -1,12 +1,14 @@
 ---
 title: Using the Game Chat 2 C# API with WinRT projections
 description: Using the C# API of Game Chat 2 with WinRT projections to add voice and text communication to your game.
-ms.date: 04/11/2018
+kindex: Using the Game Chat 2 C# API with WinRT projections
+kindex: game chat
+kindex: voice communication
 ms.topic: how-to
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, game chat 2, game chat, voice communication
 ms.localizationpriority: medium
+ms.date: 04/11/2018
 ---
 
 # Using the Game Chat 2 C# API with WinRT projections
@@ -280,7 +282,7 @@ The remote device then sends the transcription message (i.e. a text message) to 
 
 Therefore, the primary performance cost of speech-to-text is network usage.
 Most of the network traffic is the upload of encoded audio.
-The websocket uploads audio that has already been encoded by Game Chat 2 in the “normal” voice chat path; the app has control over the bitrate via `GameChat2ChatManager.AudioEncodingTypeAndBitrate`.
+The websocket uploads audio that has already been encoded by Game Chat 2 in the "normal" voice chat path; the app has control over the bitrate via `GameChat2ChatManager.AudioEncodingTypeAndBitrate`.
 
 
 ## UI <a name="UI">

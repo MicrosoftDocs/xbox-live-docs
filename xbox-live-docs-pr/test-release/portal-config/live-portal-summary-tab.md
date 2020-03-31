@@ -1,11 +1,15 @@
 ---
 title: Summary page for Xbox Live configuration
 description: Using the Summary tab in Partner Center.
-ms.date: 10/19/2018
+kindex: Summary page for Xbox Live configuration
+kindex: publish
+kindex: history tab
+kindex: command bar
+kindex: summary table
 ms.topic: article
 ms.localizationpriority: medium
 ms.assetid:
-keywords: Xbox live, Xbox, games, uwp, windows 10, Xbox one, xbox live summary, summary, publish, xbox live history, command bar, history tab, summary table
+ms.date: 10/19/2018
 ---
 
 # Summary page for Xbox Live configuration
@@ -54,7 +58,7 @@ The UI now provides a meaningful roll up of all your different configurations, a
 * **Since Last Publish** – This will let you know what new configurations you have created that have not been published to your sandbox for testing
 * **Status** – Informs you whether this feature is ready to be published to retail. Anything labeled "Not ready for retail" must be addressed, rows marked "Optional" are at the discretion of the developer.
 
-*Previously, once you selected the “Test button”, validation would run, and only then would you know if you had an issue you needed to correct; this streamlines that process, and creates a better UX*  
+*Previously, once you selected the "Test button", validation would run, and only then would you know if you had an issue you needed to correct; this streamlines that process, and creates a better UX*  
   
 ![Image of the command bar](../../images/summary/summary-table.png)  
 
@@ -73,4 +77,4 @@ However, when you open this pane on a specific page like achievements you will s
 * Publish your changes to your sandbox after you have made a few edits to ensure they are live on your test accounts and devices.
 * Use the new tab view, summary table, and history pane to help you quickly identify what is published where.
 * In extreme cases where you need to do XML comparisons between sandboxes you can use the export feature of both sandboxes to get both documents and then open them up with a tool like Beyond Compare.
-* Export can be used to get a local version of files that can be committed to your own source control. That way, if you every lose any configuration you don’t actually lose it. You can take your local configuration out of your source control and import it back into the sandbox.
+* Export can be used to get a local version of files that can be committed to your own source control. That way, if you every lose any configuration you don't actually lose it. You can take your local configuration out of your source control and import it back into the sandbox.

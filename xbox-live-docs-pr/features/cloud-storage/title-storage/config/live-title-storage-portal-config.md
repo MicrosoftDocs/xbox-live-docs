@@ -1,10 +1,12 @@
 ---
 title: Configuring Title Storage in Partner Center
 description: Configuring Title Storage on Partner Center, for game-save in the cloud.
-ms.date: 04/24/2018
+kindex: Configuring Title Storage in Partner Center
+kindex: title storage
+kindex: Partner Center, title storage
 ms.topic: article
 ms.localizationpriority: medium
-keywords: Xbox Live, Xbox, games, uwp, windows 10, Xbox one, Title Storage, Partner Center
+ms.date: 04/24/2018
 ---
 
 # Configuring Title Storage in Partner Center
@@ -48,9 +50,9 @@ You can find a description of each storage type by hovering over the info icon n
 |Storage Type |Description |Example Usage  |
 |---------|---------|---------|
 |Global             |Data Uploaded to Partner Center that can be read by any device, and is accessible to every user. Can only be written to by the developer uploads to Partner Center. | Advertise updates to all users via in-game news feed.     |
-|Connected Storage  |Allows background syncing of game data on XboxOne and Windows 10 Games. A robust fault tolerant game save service. Can be read by any device, can be written to by Xbox One and Windows 10 devices    | Save files for an individual user to allow play on a separate console.         |
+|Connected Storage  |Allows background syncing of game data on XboxOne and Windows 10 Games. A robust fault tolerant game save service. Can be read by any device, can be written to by Xbox One (and later) and Windows 10 devices. | Save files for an individual user to allow play on a separate console.         |
 |Universal          |Network accessible blob storage that gives read/write access to any device that is not an Xbox 360 or Windows Phone. Can be read by Android and IOS devices.      | save playtime or other stats to be accessible from multiple Windows devices.        |
-|Trusted            |Network accessible blob storage that can only be written by Xbox One, Xbox 360 and Windows Phone. Can be read by any device. Can be read by Android and IOS.     | store a player's ranking in multiplayer.        |
+|Trusted            |Network accessible blob storage that can only be written by Xbox 360 (and later) and Windows Phone. Can be read by any device. Can be read by Android and IOS.     | store a player's ranking in multiplayer.        |
 
 
 ## Section 2: Global Storage file management

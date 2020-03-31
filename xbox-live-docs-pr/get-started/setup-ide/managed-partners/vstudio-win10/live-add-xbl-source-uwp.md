@@ -1,11 +1,13 @@
 ---
 title: Add and compile XSAPI source code into a UWP project
 description: Adding and compiling the Xbox Live APIs source in your UWP project.
-ms.assetid: 744f87dc-510b-4a26-b2c0-74fc70b8453b
-ms.date: 04/04/2017
+kindex: Add and compile XSAPI source code into a UWP project
+kindex: UWP
+kindex: XSAPI
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
+ms.assetid: 744f87dc-510b-4a26-b2c0-74fc70b8453b
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Add and compile XSAPI source code into a UWP project

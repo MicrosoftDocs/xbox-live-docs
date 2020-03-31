@@ -1,11 +1,11 @@
 ---
 title: Data Type Overview
 description: Data Type Overview.
+kindex: Data Type Overview
 assetID: c154a6fa-e7b2-4652-f6fc-f946f74480e9
 permalink: en-us/docs/xboxlive/rest/datatypeoverview.html
 ms.date: 10/12/2017
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 # Data Type Overview

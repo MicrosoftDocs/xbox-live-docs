@@ -1,12 +1,15 @@
 ---
 title: Xbox Arena Operations Portal
 description: Using the Xbox Arena Operations Portal to manage official tournaments for your game.
+kindex: Xbox Arena Operations Portal
+kindex: arena
+kindex: tournament
+kindex: operations portal
 ms.topic: portal
 ms.prod: gaming
 ms.technology: xboxlive
-ms.date: 06/18/2018
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, arena, tournament, operations, portal
 ms.localizationpriority: medium
+ms.date: 06/18/2018
 ---
 
 # Xbox Arena Operations Portal
@@ -50,7 +53,7 @@ In order to get set up, you'll need to reach out to your Microsoft account manag
 They can provide a link that a member of your team can use to sign in by using their Microsoft Account.
 
 Once signed in, your Microsoft account manager will go through the steps to get an operator created on your behalf.
-From there, you’ll be able to add additional users from your team once they go through the initial sign-in process.
+From there, you'll be able to add additional users from your team once they go through the initial sign-in process.
 
 You can also set individualized access for each member of your team via the roles management section of the portal.
 

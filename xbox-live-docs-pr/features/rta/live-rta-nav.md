@@ -1,13 +1,14 @@
 ---
-layout: LandingPage
 title: Real-Time Activity (RTA) service
-author: mikehoffms
 description: Enables an application on any device to subscribe to state data, user statistics, and presence.
+kindex: Real-Time Activity (RTA) service
+kindex: RTA
+layout: LandingPage
+author: mikehoffms
 ms.author: v-mihof
-ms.date: 12/06/2018
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, real time activity service, rta
 ms.localizationpriority: medium
+ms.date: 12/06/2018
 ---
 
 # Real-Time Activity (RTA) service

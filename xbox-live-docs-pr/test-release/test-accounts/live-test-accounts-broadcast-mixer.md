@@ -5,6 +5,7 @@ kindex: Broadcasting Xbox Live test accounts to Mixer
 ms.topic: article
 author: mikehoffms
 ms.author: v-mihof
+ms.localizationpriority: medium
 ms.date: 02/25/2020
 ---
 
@@ -52,9 +53,9 @@ See <a href="https://dev.mixer.com/guides/test-streams/introduction" target="_bl
 ## TroubleShooting
 
 
-**Can't broadcast from Xbox One**
+**Can't broadcast from Xbox**
 
-If you can't broadcast from Xbox One:
+If you can't broadcast from an Xbox One (or later) console:
 1. Make sure you are signed in.
 2. Make sure the game has a Title ID and Service Configuration that you have access to.
 

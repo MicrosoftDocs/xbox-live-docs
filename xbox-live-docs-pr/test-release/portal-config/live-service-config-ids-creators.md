@@ -2,11 +2,10 @@
 title: Xbox Live service configuration IDs, for Creators
 description: Setting up Xbox Live service configuration IDs, for the Creators Program.
 kindex: Xbox Live service configuration IDs, for Creators
-ms.date: 10/03/2017
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.assetid: 22b8f893-abb3-426e-9840-f79de0753702
 ms.localizationpriority: medium
+ms.date: 10/03/2017
 ---
 
 # Xbox Live service configuration IDs, for Creators
@@ -38,7 +37,7 @@ If you do not currently have a title in Partner Center, see [Creating an app and
 
 ### Critical IDs
 
-There are three IDs which are critical for development of titles and applications for Xbox One:
+There are three IDs which are critical for development of titles and applications for Xbox One or later:
 * The Sandbox ID
 * The Title ID
 * The service configuration ID (SCID).
@@ -83,7 +82,7 @@ When you are still working on your game, you publish to your own development san
 The development sandbox allows you to work on changes to your game in an isolated environment.
 
 When your game is released to the public, the Xbox Live configuration will automatically be published to the RETAIL sandbox.
-By default, Xbox One Consoles and Windows 10 PCs are in the RETAIL sandbox.
+By default, Xbox One (or later) consoles and Windows 10 PCs are in the RETAIL sandbox.
 
 On the Xbox Live configuration page, click the **Test** button to publish the current Xbox Live configuration to your development sandbox.
 

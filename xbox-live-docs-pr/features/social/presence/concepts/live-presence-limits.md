@@ -1,11 +1,12 @@
 ---
 title: Policies and limits for Rich Presence strings
 description: Policies and limits for Rich Presence strings.
-ms.assetid: 0ad21a75-0524-45a8-8d8a-0dec0f7d6d6f
-ms.date: 04/04/2017
+kindex: Policies and limits for Rich Presence strings
+kindex: rich presence, policies
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, rich presence, policies
+ms.assetid: 0ad21a75-0524-45a8-8d8a-0dec0f7d6d6f
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Policies and limits for Rich Presence strings

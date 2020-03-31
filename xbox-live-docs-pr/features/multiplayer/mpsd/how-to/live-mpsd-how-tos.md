@@ -1,13 +1,13 @@
 ---
 title: Multiplayer tasks
 description: Implementing common tasks in Multiplayer 2015.
-ms.assetid: 99c5b7c4-018c-4f7a-b2c9-0deed0e34097
-ms.date: 08/29/2017
+kindex: Multiplayer tasks
 ms.topic: how-to
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer 2015
+ms.assetid: 99c5b7c4-018c-4f7a-b2c9-0deed0e34097
 ms.localizationpriority: medium
+ms.date: 08/29/2017
 ---
 
 
@@ -17,6 +17,8 @@ ms.localizationpriority: medium
 # Multiplayer tasks
 
 This article shows how to implement specific tasks related to using Multiplayer 2015.
+
+
 
 <!-- **Contents**
 * [Subscribe for MPSD session change notifications](#sfmscn)
@@ -229,7 +231,7 @@ The title uses the following procedure to set an arbiter for a session that has 
 
 ## Manage title activation
 
-Xbox One fires the **CoreApplicationView.Activated Event** during protocol activation.
+Xbox One (or later) fires the **CoreApplicationView.Activated Event** during protocol activation.
 In the context of the multiplayer API, this event is fired when a user accepts an invite or joins another user.
 These actions trigger an activation that the title must react to by bringing the joining user into game play with the target user.
 

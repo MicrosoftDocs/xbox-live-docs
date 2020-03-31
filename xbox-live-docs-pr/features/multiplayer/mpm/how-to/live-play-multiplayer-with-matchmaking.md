@@ -1,13 +1,16 @@
 ---
 title: Finding a multiplayer game by using SmartMatch using Multiplayer Manager
 description: Using Multiplayer Manager to enable a player to find a multiplayer game by using SmartMatch matchmaking.
-ms.assetid: f9001364-214f-4ba0-a0a6-0f3be0b2f523
-ms.date: 04/04/2017
+kindex: Finding a multiplayer game by using SmartMatch using Multiplayer Manager
+kindex: multiplayer manager
+kindex: flowchart, SmartMatch
+kindex: SmartMatch
 ms.topic: how-to
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, multiplayer manager, flowchart, smartmatch
+ms.assetid: f9001364-214f-4ba0-a0a6-0f3be0b2f523
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 

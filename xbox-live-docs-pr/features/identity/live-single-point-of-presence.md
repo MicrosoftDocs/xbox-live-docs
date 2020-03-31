@@ -12,9 +12,9 @@ ms.date: 04/04/2017
 # Single Point of Presence (SPOP)
 
 Single Point of Presence (SPOP) is an Xbox Live-enforced condition where a title can only be played on one device at a time.
-This is enforced for Xbox One XDK and UWP titles on any device.
+This is enforced for Xbox XDK and UWP titles on any device.
 
-An Xbox Live title, regardless of the device it is on, can sign-out a user who is signed into a title on another Xbox One or Windows 10 device.
+An Xbox Live title, regardless of the device it is on, can sign-out a user who is signed into a title on another Xbox One (or later) or Windows 10 device.
 
 
 ## How to handle SPOP

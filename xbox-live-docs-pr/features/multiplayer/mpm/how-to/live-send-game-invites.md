@@ -1,13 +1,15 @@
 ---
 title: Sending game invites using Multiplayer Manager
 description: Using Multiplayer Manager to enable a player to send game invites to other players to join the game.
-ms.assetid: 8b9a98af-fb78-431b-9a2a-876168e2fd76
-ms.date: 04/04/2017
+kindex: Sending game invites using Multiplayer Manager
+kindex: multiplayer manager
+kindex: flowchart, game invite
 ms.topic: how-to
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, multiplayer manager, flowchart, game invite
+ms.assetid: 8b9a98af-fb78-431b-9a2a-876168e2fd76
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 

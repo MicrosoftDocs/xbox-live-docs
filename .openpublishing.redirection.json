@@ -1001,7 +1001,8 @@
         },
         {
             "source_path": "xbox-live-docs-pr/multiplayer/multiplayer-appendix/xbox-one-multiplayer-session-directory.md",
-            "redirect_url": "/gaming/xbox-live/features/multiplayer/mpsd/live-xbox-one-multiplayer-session-directory",
+            "source_path": "xbox-live-docs-pr/features/multiplayer/mpsd/live-xbox-one-multiplayer-session-directory.md",
+            "redirect_url": "/gaming/xbox-live/features/multiplayer/mpsd/live-xbox-multiplayer-session-directory",
             "redirect_document_id": true
         },
         // {

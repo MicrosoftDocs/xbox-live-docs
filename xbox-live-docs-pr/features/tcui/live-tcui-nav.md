@@ -1,10 +1,10 @@
 ---
 title: Title-callable UI (TCUI)
 description: Enables your game code to call pre-defined user interface displays.
-ms.date: 02/08/2019
+kindex: Title-callable UI (TCUI)
 ms.topic: article
-keywords: xbox live, xbox, games, windows 10, xbox one
 ms.localizationpriority: medium
+ms.date: 02/08/2019
 ---
 
 # Title-callable UI (TCUI)

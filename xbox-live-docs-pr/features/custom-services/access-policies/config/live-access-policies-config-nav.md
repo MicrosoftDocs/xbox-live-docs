@@ -9,6 +9,7 @@ ms.topic: landing-page
 ms.prod: gaming
 ms.technology: xboxlive
 ms.date: 01/30/2020
+ms.localizationpriority: medium
 edited: 00/00/0000
 ---
 

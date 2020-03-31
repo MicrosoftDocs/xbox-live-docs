@@ -1,11 +1,11 @@
 ---
 title: What's new for the Xbox Live SDK - November 2016
 description: What's new for the Xbox Live SDK - November 2016
-ms.date: 04/04/2017
+kindex: What's new for the Xbox Live SDK - November 2016
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.assetid: 5cf9ba9d-5a15-4e62-bc1f-45ff8b8bf3b0
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # What's new for the Xbox Live SDK - November 2016
@@ -31,24 +31,24 @@ ms.localizationpriority: medium
 ### Social Manager
 
 * Numerous API changes; see [Social Manager overview](../../../features/social/social-manager/live-social-manager-overview.md):
-	* Social manager has left the experimental namespace. Special thanks to those who were early adopters and gave feedback!
-	* `xbox_social_user`
-		* `string_t` objects have been changed to `char*` objects
-		* Custom presence record with limit of six `social_manager_presence_title_record` per `social_manager_presence_record`
-	* `social_event`
-		* Returns a `std::vector<xbox_user_id_container>` instead of `std::vector<xbox_social_user>`
-		* This vector can be passed into new API, `xbox_social_user_group::get_users_from_xbox_user_ids()`
-	* `xbox_social_user_group`
-		* `users()` API now returns a `std::vector<xbox_social_user*>`. These pointers become invalidated on the next call to `social_manager::do_work()`
-		* `get_copy_of_users` return a `std::vector<xbox_social_user>` as a copy of the current users in the social_user_group to the caller. Calling this function may affect `do_work` completion time.
+    * Social manager has left the experimental namespace. Special thanks to those who were early adopters and gave feedback!
+    * `xbox_social_user`
+        * `string_t` objects have been changed to `char*` objects
+        * Custom presence record with limit of six `social_manager_presence_title_record` per `social_manager_presence_record`
+    * `social_event`
+        * Returns a `std::vector<xbox_user_id_container>` instead of `std::vector<xbox_social_user>`
+        * This vector can be passed into new API, `xbox_social_user_group::get_users_from_xbox_user_ids()`
+    * `xbox_social_user_group`
+        * `users()` API now returns a `std::vector<xbox_social_user*>`. These pointers become invalidated on the next call to `social_manager::do_work()`
+        * `get_copy_of_users` return a `std::vector<xbox_social_user>` as a copy of the current users in the social_user_group to the caller. Calling this function may affect `do_work` completion time.
 * Social Manager now will never fail after initialization. Social Manager will retry RTA automatically on disconnection. The `error` and `rta_disconnect_error` events have been deprecated and removed
 * Title can specify custom memory allocators. See the new article [Social Manager memory and performance](../../../features/social/social-manager/concepts/live-socmgr-mem-perf.md).
 
 
 ### Xbox One UWP
 
-* TCUI APIs adds support multi-user for Xbox One UWP apps.  The XSAPI C++ adds new Windows::System::User^ parameters specify the user, and the XSAPI WinRT API adds ForUserAsync APIs.
-* Updated UWP samples to support multi-user on Xbox
+* TCUI APIs adds support multi-user for Xbox One (or later) UWP apps.  The XSAPI C++ adds new Windows::System::User^ parameters specify the user, and the XSAPI WinRT API adds ForUserAsync APIs.
+* Updated UWP samples to support multi-user on Xbox.
 
 
 ### Other

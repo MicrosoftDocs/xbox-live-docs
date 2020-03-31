@@ -1,12 +1,14 @@
 ---
 title: Using XIM via Unity with IL2CPP
 description: Using Xbox Integrated Multiplayer with Unity for UWP with the IL2CPP scripting backend.
-ms.date: 04/03/2018
+kindex: Using XIM via Unity with IL2CPP
+kindex: Unity
+kindex: Xbox Integrated Multiplayer
 ms.topic: how-to
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, Unity, Xbox Integrated Multiplayer
 ms.localizationpriority: medium
+ms.date: 04/03/2018
 ---
 
 # Using XIM via Unity with IL2CPP
@@ -128,7 +130,7 @@ As a result, the app should declare the "InternetClientServer" and "PrivateNetwo
 
 5. Click "Build" for Unity to generate the UWP Visual Studio project that wraps your Unity game in a UWP application.
 
-    When you get prompted for a location, create a new folder to avoid confusion since a lot of new files will be created. It’s recommended you call the folder "Build", and then select that folder.
+    When you get prompted for a location, create a new folder to avoid confusion since a lot of new files will be created. It's recommended you call the folder "Build", and then select that folder.
 
 6. Add XIM's network manifest to your project.
 

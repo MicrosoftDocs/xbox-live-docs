@@ -1,12 +1,17 @@
 ---
 title: Rich Presence overview
 description: Rich Presence shows what activity a user is currently doing, in which area of the game.
+kindex: Rich Presence overview
+ms.topic: article
+ms.localizationpriority: medium
 ms.assetid: 00042359-f877-4b26-9067-58834590b1dd
 ms.date: 04/04/2017
-ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, rich presence
-ms.localizationpriority: medium
 ---
+
+
+
+
+
 
 # Rich Presence overview
 
@@ -19,7 +24,7 @@ For example, your game can use Rich Presence strings to show all gamers the stat
 Rich Presence information is visible to gamers connected to Xbox Live.
 Ideally, a Rich Presence string tells other Xbox Live gamers what a player is doing, and where in your game the player is doing it.
 
-The concept of Rich Presence strings is the same on Xbox One as it was on Xbox 360, but the newer, Xbox One implementation follows the "Entertainment as a Service" initiative.
+The concept of Rich Presence strings is now the same as it was on Xbox 360, but the newer implementation follows the "Entertainment as a Service" initiative.
 
 The articles in this section describe how to configure your Rich Presence strings and then how to set the string for a user playing your title.
 

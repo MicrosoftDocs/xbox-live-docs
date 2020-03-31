@@ -4,11 +4,10 @@ description: Manages relationships between gamers, such as only showing a user's
 kindex: People System (Friends List)
 kindex: friends list
 layout: LandingPage
-ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
-ms.localizationpriority: medium
 author: mikehoffms
 ms.author: v-mihof
+ms.topic: article
+ms.localizationpriority: medium
 ms.date: 12/06/2018
 ---
 

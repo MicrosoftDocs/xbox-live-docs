@@ -1,10 +1,11 @@
 ---
 title: C++ API error handling
 description: Handling errors when making an Xbox Live service call with the C++ APIs.
+kindex: C++ API error handling
+kindex:keywords: error handling
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, error handling
-ms.localizationpriority: medium
 ms.assetid: 10b47e68-8b1f-4023-96a4-404f3f6a9850
+ms.localizationpriority: medium
 ms.date: 04/04/2017
 ---
 

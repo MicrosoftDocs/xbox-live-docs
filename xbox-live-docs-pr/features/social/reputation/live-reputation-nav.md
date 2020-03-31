@@ -5,9 +5,9 @@ kindex: Reputation
 kindex: social features
 layout: LandingPage
 ms.topic: article
-ms.localizationpriority: medium
 author: mikehoffms
 ms.author: v-mihof
+ms.localizationpriority: medium
 ms.date: 12/06/2018
 ---
 

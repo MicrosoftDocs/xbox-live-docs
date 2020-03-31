@@ -1,12 +1,14 @@
 ﻿---
 title: Using XIM via C#
 description: Using Xbox Integrated Multiplayer (XIM) with C#.
-ms.date: 04/24/2018
+kindex: Using XIM via C#
+kindex: Xbox Integrated Multiplayer
+kindex: XIM
 ms.topic: how-to
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox integrated multiplayer
 ms.localizationpriority: medium
+ms.date: 04/24/2018
 ---
 
 # Using XIM via C#
@@ -304,8 +306,8 @@ Be sure to run the multiplayer connectivity test in the network settings area/Xb
 
 ## Disabling matchmaking NAT rule for debugging purposes
 
-If your network administrator is unable to make the necessary environment changes to support XIM's NAT rules, you can unblock your matchmaking testing on Xbox One development kits by configuring XIM to allow matching "Strict NAT" devices without at least one "Open NAT" device.
-This is done by placing a file called "xim_disable_matchmaking_nat_rule" (contents don't matter) at the root of the "title scratch" drive on all Xbox One consoles.
+If your network administrator is unable to make the necessary environment changes to support XIM's NAT rules, you can unblock your matchmaking testing on Xbox One (or later) development kits by configuring XIM to allow matching "Strict NAT" devices without at least one "Open NAT" device.
+This is done by placing a file called "xim_disable_matchmaking_nat_rule" (contents don't matter) at the root of the "title scratch" drive on all Xbox One (or later) consoles.
 
 One example way to do that is by executing the following from an XDK command prompt before launching your app, replacing the placeholder "{console_name_or_ip_address}" for each console as appropriate:
 
@@ -316,7 +318,7 @@ del %TEMP%\emptyfile.txt
 ```
 
 > [!NOTE]
-> This development workaround is currently only available for Xbox One exclusive resource applications and is not supported for Universal Windows Applications. Also note that consoles that are using this setting will never match with devices that don't also have this file present, regardless of network environment, so be sure to add and remove the file everywhere.
+> This development workaround is currently only available for Xbox One (or later) exclusive resource applications and is not supported for Universal Windows Applications. Also note that consoles that are using this setting will never match with devices that don't also have this file present, regardless of network environment, so be sure to add and remove the file everywhere.
 
 
 ## Leaving a XIM network and cleaning up
@@ -597,7 +599,7 @@ Similarly, text display is required because players may configure the system to 
 If you wish to conditionally enable text mechanisms, these preferences can be detected on local players by accessing the `XimLocalPlayer.ChatTextToSpeechConversionPreferenceEnabled` and `XimLocalPlayer.ChatSpeechToTextConversionPreferenceEnabled` fields respectively, and you may wish to conditionally enable text mechanisms.
 However, we recommend that you consider making text input and display options that are always available.
 
-`Windows::Xbox::UI::Accessability` is an Xbox One class specifically designed to provide simple rendering of in-game text chat with a focus on speech-to-text assistive technologies.
+`Windows::Xbox::UI::Accessability` is an Xbox One (or later) class specifically designed to provide simple rendering of in-game text chat with a focus on speech-to-text assistive technologies.
 
 Once you have text input provided by a real or virtual keyboard, pass the string to the `XimLocalPlayer.SendChatText()` method.
 
