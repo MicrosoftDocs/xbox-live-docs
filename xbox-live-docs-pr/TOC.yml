@@ -805,7 +805,7 @@
       href: api-ref/xal/live-xal-nav.md
     - name: XAsync reference
       href: api-ref/xasync/live-xasync-nav.md
-    - name: 
+    - name: REST reference
       href: api-ref/xbox-live-rest/TOC-rest.md
     - name: Xbox Live samples
       href: api-ref/live-samples.md
