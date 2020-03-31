@@ -1,13 +1,13 @@
 # live-mp-ide-nav.md
 
-## astudio-android/micro-toc.md
+## _include_ astudio-android/TOC-astudio-android.md
 
-## xcode-ios/micro-toc.md
+## _include_ xcode-ios/TOC-xcode-ios.md
 
-## vstudio-win10/micro-toc.md
+## _include_ vstudio-win10/TOC-vstudio-win10.md
 
-## vstudio-xbox/micro-toc.md
+## _include_ vstudio-xbox/TOC-vstudio-xbox.md
 
-## unity-win10/micro-toc.md
+## _include_ unity-win10/TOC-unity-win10.md
 
-## unity-xbox/micro-toc.md
+## _include_ unity-xbox/TOC-unity-xbox.md
