@@ -242,7 +242,7 @@ This simply disables the asserts when in dev sandboxes while using a debug build
 
 ### Using the Xbox Live Trace Analyzer tool
 
-Another option for determining whether your title was throttled is to record a trace of the Xbox Live calls and then analyze that trace using [Trace Analyzer for reviewing service calls](../live-trace-analyzer.md).
+Another option for determining whether your title was throttled is to record a trace of the Xbox Live calls and then analyze that trace using [Trace Analyzer for reviewing service calls](../../tools/live-trace-analyzer.md).
 
 To record a trace, you can either use Fiddler to record a .SAZ file, or by using the built-in trace logging of XSAPI.
 For more information about turning on traces in XSAPI, see the Xbox Live documentation page "Analyze calls to Xbox Live Services". <!-- tbd: link, not found -->

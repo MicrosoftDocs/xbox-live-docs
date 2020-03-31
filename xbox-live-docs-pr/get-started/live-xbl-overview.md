@@ -61,9 +61,9 @@ Once you have a title created and the fundamentals working, this section provide
 
 | Article | Description |
 |---------|-------------|
-| [Error handling](../test-release/services-tools/error-handling/live-error-handling-nav.md) | Handling errors when calling an Xbox Live service through XSAPI. |
+| [Error handling](../test-release/services/error-handling/live-error-handling-nav.md) | Handling errors when calling an Xbox Live service through XSAPI. |
 | [Authentication and sign-in](../features/identity/auth/live-authentication-nav.md) | Signing-in an Xbox Live user in your title. |
-| [Best practices for calling Xbox Live](../test-release/services-tools/best-practices/live-best-practices-calling-xbl.md) | Familiarize yourself with the basics on Xbox Live calling patterns and best-practices to ensure your title performs well and doesn't get rate limited.
+| [Best practices for calling Xbox Live](../test-release/services/best-practices/live-best-practices-calling-xbl.md) | Familiarize yourself with the basics on Xbox Live calling patterns and best-practices to ensure your title performs well and doesn't get rate limited.
 | [Troubleshooting Xbox Live Services APIs](../test-release/troubleshooting/live-troubleshooting-apis.md) | Common issues you may encounter and suggestions on how to fix them.
 
 

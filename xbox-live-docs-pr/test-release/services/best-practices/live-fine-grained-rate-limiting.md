@@ -206,7 +206,7 @@ See [Best practices for calling Xbox Live](live-best-practices-calling-xbl.md), 
 Another option is to record a trace of the Xbox Live calls, and then analyze that trace using the [Xbox Live Trace Analyzer tool](https://docs.microsoft.com/windows/uwp/xbox-live/tools/analyze-service-calls).
 To record a trace, you can either use Fiddler to record a .SAZ file, or use the built-in trace logging of XSAPI.
 
-To turn on and use traces in XSAPI, see [Trace Analyzer for reviewing service calls](../live-trace-analyzer.md).
+To turn on and use traces in XSAPI, see [Trace Analyzer for reviewing service calls](../../tools/live-trace-analyzer.md).
 Once you have a trace, the Xbox Live Trace Analyzer tool will warn upon detecting throttled calls.
 
 You can find the best practices paper on GDNP and SDK and XDK docs 1602 and higher. <!-- tbd link/clarify -->

@@ -18,6 +18,12 @@ To listen to this additional data, hook up the response logger and enable debug 
 Response logging allows you to see HTTP traffic and web service response codes, which is often as useful as a Fiddler trace.
 
 
+
+
+
+
+
+
 ## Code example
 
 The following code example enables response logging, and sets the debug error level to **Verbose**.
@@ -33,6 +39,20 @@ HCSettingsSetTraceLevel(HCTraceLevel::Verbose); // See HCTraceLevel enum for var
 HCTraceSetTraceToDebugger(true);
 ```
 
+```cpp
+void CALLBACK TraceCallback(
+    _In_z_ char const* areaName,
+    enum HCTraceLevel level,
+    uint64_t threadId,
+    uint64_t timestamp,
+    _In_z_ char const* message
+)
+{
+    // Log info
+}
+
+HCTraceSetClientCallback(TraceCallback);
+```
 
 **C++ API**
 ```cpp

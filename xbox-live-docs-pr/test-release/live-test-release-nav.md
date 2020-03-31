@@ -27,7 +27,8 @@ To publish a game for testing or public release, first complete the <a href="../
 | [Test accounts](test-accounts/live-test-accounts-nav.md) | Creating accounts for testing your Xbox Live-enabled game during development. |
 | [Testing on the Xbox One console](live-testing-on-console.md) | Testing Xbox Live services on the Xbox One console. |
 | [Troubleshooting Xbox Live](troubleshooting/live-troubleshooting-nav.md) | Troubleshooting Xbox Live development, such as by logging responses, checking the dev PC setup, checking the sign-in sandbox, and logging calls. |
-| [Services and tools](services-tools/live-services-tools-nav.md) | Tools to help develop and test an Xbox Live-enabled title, including Trace Analyzer, Fiddler, best practices, and error handling. |
+| [Services and APIs](services/live-services-nav.md) | Using services to analyze Xbox Live activity. |
+| [Tools for Xbox Live](tools/live-tools-nav.md) | Tools to help develop and test an Xbox Live-enabled title. |
 
 
 ### See also

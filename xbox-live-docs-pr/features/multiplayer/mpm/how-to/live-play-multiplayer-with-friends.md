@@ -300,6 +300,31 @@ The title will be notified through the `join_game_completed` event providing an 
 
 
 **C API**
+```cpp
+void CALLBACK MyXGameInviteEventCallback(
+    _In_opt_ void* context,
+    _In_ const char* inviteUri)
+{
+    UNREFERENCED_PARAMETER(context);
+    if (inviteUri != nullptr)
+    {
+        std::string inviteString(inviteUri);
+        auto pos = inviteString.find("handle=");
+        auto inviteHandleId = inviteString.substr(pos + 7, 36);
+
+        // now use inviteHandleId when calling XblMultiplayerManagerJoinLobby().  
+        // See example call below
+    }
+}
+
+XTaskQueueRegistrationToken token = { 0 };
+HRESULT hr = XGameInviteRegisterForEvent(
+    queue,
+    nullptr,
+    MyXGameInviteEventCallback,
+    &token);
+```
+
 <!-- DocsMultiplayerManagerJoinLobby_C.md -->
 ```cpp
 HRESULT hr = XblMultiplayerManagerJoinLobby(inviteHandleId, xblUserHandle);

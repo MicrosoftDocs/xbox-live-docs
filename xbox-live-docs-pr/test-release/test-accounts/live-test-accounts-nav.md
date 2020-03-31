@@ -18,5 +18,12 @@ Creating accounts for testing your Xbox Live-enabled game during development.
 | Article | Description |
 |---------|-------------|
 | [Xbox Live test accounts](live-test-accounts.md) | Creating accounts for testing your Xbox Live-enabled game during development. |
-| [Developer Account Tool to set up test accounts](live-account-tool.md) | The Xbox Live Developer Account Tool creates test accounts for testing your Xbox Live enabled title. |
 | [Broadcasting Xbox Live test accounts to Mixer](live-test-accounts-broadcast-mixer.md) | Creating test accounts for use with Mixer on your Xbox Live sandbox. |
+
+
+### See also
+
+| Article | Description |
+|---------|-------------|
+| [Xbox Live Account tool (XboxLiveAccountTool.exe)](../tools/live-xbox-live-account-tool.md) | Sets up existing test accounts for testing game scenarios. |
+| [Xbox Live Developer Account tool (XblDevAccount.exe)](../tools/live-dev-account-tool.md) | Manages authentication of a developer account and saves the credentials to be used across other Xbox Live executables. |

@@ -35,5 +35,5 @@ These samples are in the [Xbox Live Samples GitHub repo](https://github.com/Micr
 
 ## XDK samples
 
-The Xbox Developer Kit (XDK) samples, including some Xbox Live samples, are hosted on GDNP.
+The Xbox Developer Kit (XDK) samples, including some Xbox Live samples, are hosted on GDN.
 Contact your developer account manager (DAM) for access.

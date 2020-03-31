@@ -104,7 +104,7 @@ Both ways are described below.
 ### Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)
 
 The Xbox Live development tools file (`XboxLiveTools.zip`) contains a command-line tool to switch sandboxes for PC development.
-See the section [Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)](../services-tools/live-tools.md#xpssc) in the article "Development tools for Xbox Live".
+See [Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)](../tools/live-pc-sandbox-switcher.md).
 
 
 ## Switch your Xbox console development sandbox

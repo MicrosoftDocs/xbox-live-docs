@@ -86,7 +86,7 @@ To switch back to RETAIL, you can enter RETAIL here.
 ### Command-line
 
 The Xbox Live development tools file (`XboxLiveTools.zip`) contains a command-line tool to switch sandboxes for PC development.
-See the section [Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)](../services-tools/live-tools.md#xpssc) in the article "Development tools for Xbox Live".
+See [Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)](../tools/live-pc-sandbox-switcher.md).
 
 
 <!-- =============================================================== -->
@@ -107,7 +107,7 @@ You can use the Xbox Dev Portal to change the sandbox on your console:
 
 ![[Sandbox configuration at portal](../../images/getting_started/xdp_switch_sandbox.png)
 
-<!-- replace XDP captures by Partner Center captures -->
+<!-- replace Xbox Developer Portal (XDP) captures by Partner Center captures -->
 
 
 <!-- --------------- -->

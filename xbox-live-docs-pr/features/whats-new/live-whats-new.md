@@ -126,7 +126,7 @@ An updated and improved version of Game Chat is now available.  See [Game Chat](
 
 #### Xbox Live PowerShell Module
 
-* PowerShell modules have been added to make it easier to switch sandboxes on your development machine. See [Development tools for Xbox Live](../../test-release/services-tools/live-tools.md).
+* PowerShell modules have been added to make it easier to switch sandboxes on your development machine. See [Development tools for Xbox Live](../../test-release/tools/live-tools.md).
 
 
 #### Bug fixes

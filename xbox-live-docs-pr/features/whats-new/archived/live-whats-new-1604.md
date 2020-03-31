@@ -26,9 +26,12 @@ The Xbox Live SDK supports Windows 10 RTM [Version 10.0.10240] and Visual Studio
 ## Documentation
 
 - [Troubleshooting Xbox Live sign-in](../../../features/identity/auth/live-troubleshooting-sign-in.md) lists some general strategies to debug sign-in failures, as well as steps to follow based on error code.
+
 - The Marketplace docs for Xbox One (or later) developers only can now be found in the Programming Guide; see <a href="https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/xbox-marketplace/marketplace-and-downloadable-content" target="_blank">Xbox One Marketplace and Downloadable Content &#11008;</a> at Xbox Game Dev (XGD).  UWP developers should continue to consult Partner Center for documentation on the store.
-- See [Porting Xbox Live code from XDK to UWP](../../../test-release/services-tools/live-port-xbl-code-from-xdk-to-uwp.md) if you are interested in bringing an Xbox One (or later) title to the Universal Windows Platform.
-- See [Fine-Grained Rate Limiting](../../../test-release/services-tools/best-practices/live-fine-grained-rate-limiting.md) for a description of how these are enforced for various Xbox Live Service endpoints and scenarios, as well as information about what the limits are.
+
+- If you are interested in bringing an Xbox One (or later) title to the Universal Windows Platform, see [Porting Xbox Live code from XDK to UWP](../../../test-release/services/live-port-xbl-code-from-xdk-to-uwp.md).
+
+- See [Fine-Grained Rate Limiting](../../../test-release/services/best-practices/live-fine-grained-rate-limiting.md) for a description of how these are enforced for various Xbox Live Service endpoints and scenarios, as well as information about what the limits are.
 
 
 ## Multiplayer Manager
