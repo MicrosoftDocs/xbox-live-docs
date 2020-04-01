@@ -6,6 +6,6 @@
 
 ## _include_ xasync/TOC-xasync.md
 
-## xbox-live-rest/TOC-rest.md
+## xbox-live-rest/TOC.md
 
 ## live-samples.md

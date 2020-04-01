@@ -850,6 +850,6 @@
             - name: Making async calls in the XSAPI C API
               href: api-ref/xasync/live-flatc-async-patterns.md
         - name: REST reference
-          href: api-ref/xbox-live-rest/TOC-rest.md
+          href: api-ref/xbox-live-rest/TOC.md
         - name: Xbox Live Samples
           href: api-ref/live-samples.md
