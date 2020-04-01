@@ -2,6 +2,8 @@
 
 ## live-multiplayer-intro.md
 
+## live-common-multiplayer-scenarios.md
+
 ## _include_ concepts/TOC-multiplayer-concepts.md
 
 ## _include_ xim/TOC-multiplayer-xim.md
