@@ -5,7 +5,7 @@ author: mikehoffms
 description: Enables a player using your title to sign into your services by using their Xbox Live sign-in.
 ms.author: v-mihof
 ms.date: 12/06/2018
-ms.topic: articleS
+ms.topic: article
 keywords: xbox live
 ms.localizationpriority: medium
 ---
