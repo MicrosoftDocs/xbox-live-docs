@@ -1,21 +1,21 @@
 ---
 title: Getting started with Xbox Live, for Creators
 description: All the high-level steps, from joining the Creators Program, through releasing your game.
-ms.assetid: 2a744405-7ee4-42b4-8f36-9916e8c3a530
-ms.date: 12/13/2017
+kindex: Getting started with Xbox Live, for Creators
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
+ms.assetid: 2a744405-7ee4-42b4-8f36-9916e8c3a530
 ms.localizationpriority: medium
+ms.date: 12/13/2017
 ---
 
 # Getting started with Xbox Live, for Creators
  
-The Xbox Live Creators Program allows you to quickly and directly publish your games to Xbox One and Windows 10, with a simplified certification process and no concept approval required.
+The Xbox Live Creators Program allows you to quickly and directly publish your games to Xbox One (or later) consoles and Windows 10, with a simplified certification process and no concept approval required.
 If your game integrates Xbox Live and follows our [standard Store policies](https://msdn.microsoft.com/library/windows/apps/dn764944.aspx), you are ready to publish.
 This article outlines the steps needed to get your game up and running with Xbox Live integration.
 
 Xbox Live Creators Program games must be a Universal Windows Platform (UWP) application.
- For Xbox One, see [UWP on Xbox One](https://msdn.microsoft.com/windows/uwp/xbox-apps/index) and specifically [System resources for UWP apps and games on Xbox One](https://msdn.microsoft.com/windows/uwp/xbox-apps/system-resource-allocation).
+ For Xbox One (or later), see [UWP on Xbox One](https://msdn.microsoft.com/windows/uwp/xbox-apps/index) and specifically [System resources for UWP apps and games on Xbox One](https://msdn.microsoft.com/windows/uwp/xbox-apps/system-resource-allocation).
 
 Games published through the Xbox Live Creators Program do not have access to the achievements or online multiplayer services.
 For a full list of supported services, see [Features supported for each developer program](../../join-dev-program/live-feature-comparison-table.md).
@@ -36,7 +36,7 @@ You can follow the appropriate "getting started guide" for your platform and eng
 
 While Unity is the only third party game engine for which we provide documentation, the game engines [Construct (2 & 3)](https://www.scirra.com/construct2) and [Game Maker Studio](https://www.yoyogames.com/gamemaker) also have documentation to help you integrate Xbox Live into your Construct or Game Maker Studio game respectively.
 
-* [Game Maker Studio 2 UWP now supports Xbox Live Creators Program](https://www.yoyogames.com/gamemaker/xblc) will show you how to export your Game Maker Studio projects to play on Xbox One and Windows 10 PC.
+* [Game Maker Studio 2 UWP now supports Xbox Live Creators Program](https://www.yoyogames.com/gamemaker/xblc) will show you how to export your Game Maker Studio projects to play on Xbox One (or later) consoles and Windows 10 PCs.
 * [Using Xbox Live in UWP apps - Construct](https://www.scirra.com/tutorials/9540/using-xbox-live-in-uwp-apps) will show you how to use Xbox Live in your Construct 2 and 3 games.
 
 For other game development engines without documented Xbox Live integration, you can still use the Xbox Live APIs to add Xbox Live to your title.
@@ -71,7 +71,7 @@ Xbox Live Creators Program offers an array of features designed to help promote 
 
 - [Player Data](../../../features/player-data/live-playerdata-nav.md) (Achievements, player Stats, Leaderboards, and Featured Stats) helps drive engagement of your game by letting gamers compete to beat their friends and move up the ranks.
 - [Social](../../../features/social/live-social-nav.md) - Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.
-- [Cloud Storage](../../../features/cloud-storage/live-cloud-storage-nav.md) offers free save game roaming between devices so gamers can easily continue game progress between Xbox One and Windows PC.
+- [Cloud Storage](../../../features/cloud-storage/live-cloud-storage-nav.md) offers free save-game roaming between devices, so gamers can easily continue game progress between an Xbox One (or later) consoles and Windows PCs.
 
 The online multiplayer, achievements, and gamerscore features are supported for Managed Partners, but not for the Creators Program.
 

@@ -8,8 +8,6 @@
 
 ## live-intro-calling-mp-directly.md
 
-## live-common-multiplayer-scenarios.md
-
 ## live-configure-the-multiplayer-service.md
 
 ## live-multiplayer-2015-faq.md

@@ -1,11 +1,12 @@
 ---
 title: Reading a binary blob from Title Storage
 description: Reading a binary blob in Title Storage, using GET.
-ms.assetid: 9b8e0c35-0cea-4491-bf30-22fad224f11b
-ms.date: 04/04/2017
+kindex: Reading a binary blob from Title Storage
+kindex: title storage
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, title storage
+ms.assetid: 9b8e0c35-0cea-4491-bf30-22fad224f11b
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Reading a binary blob from Title Storage
@@ -21,9 +22,9 @@ Connection: Keep-Alive
 ```
 
 
--   The user must be in the session to update it.
+- The user must be in the session to update it.
 
--   `<STSTokenString>` is a placeholder for brevity, and should be replaced with the token returned by the authentication request.
+- `<STSTokenString>` is a placeholder for brevity, and should be replaced with the token returned by the authentication request.
 
 
 ### Reference

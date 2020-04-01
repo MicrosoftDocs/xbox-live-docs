@@ -1,11 +1,13 @@
 ---
 title: Configuring Privileges in Partner Center
 description: Configuring privileges in Partner Center.
+kindex: Configuring Privileges in Partner Center
+kindex: privileges
+kindex: Partner Center
 ms.author: aablackm
-ms.date: 04/09/2018
 ms.topic: article
 ms.localizationpriority: medium
-keywords: Xbox Live, Xbox, games, uwp, windows 10, Xbox one, privileges, Partner Center
+ms.date: 04/09/2018
 ---
 
 # Configuring Privileges in Partner Center

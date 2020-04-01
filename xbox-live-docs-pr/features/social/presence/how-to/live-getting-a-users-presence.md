@@ -5,19 +5,17 @@ kindex: Getting a user's Presence
 kindex: Presence
 author: mikehoffms
 ms.author: v-mihof
-ms.date: 01/09/2020
 ms.topic: navigation
 ms.localizationpriority: medium
+ms.date: 01/09/2020
 ---
 
-# Getting a user's Presence
 
-<!-- intro sentence here -->
+# Getting a user's Presence
 
  ​
 ## Getting a single user's presence
 
-<!-- intro sentence here -->
 
 **C API**
 <!--  XblPresenceGetPresenceAsync_C.md.md -->
@@ -42,18 +40,15 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!-- in gdk only:
-**Reference**
+<!--**Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblPresenceGetPresenceAsync](xblpresencegetpresenceasync.md)
 * [XblPresenceGetPresenceResult](xblpresencegetpresenceresult.md)
-* [XblPresenceRecordCloseHandle](xblpresencerecordclosehandle.md)
--->
+* [XblPresenceRecordCloseHandle](xblpresencerecordclosehandle.md)-->
 
 
 ## Getting multiple users' presence strings
 
-<!-- intro sentence here -->
 
 **C API**
 <!--  XblPresenceGetPresenceForMultipleUsersAsync_C.md -->
@@ -93,21 +88,18 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!-- in gdk only:
-**Reference**
+<!--**Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblPresenceGetPresenceForMultipleUsersAsync](xblpresencegetpresenceformultipleusersasync.md)
 * [XblPresenceGetPresenceForMultipleUsersResult](xblpresencegetpresenceformultipleusersresult.md)
 * [XblPresenceGetPresenceForMultipleUsersResultCount](xblpresencegetpresenceformultipleusersresultcount.md)
 * [XblPresenceQueryFilters](xblpresencequeryfilters.md)
-* [XblPresenceRecordCloseHandle](xblpresencerecordclosehandle.md)
--->
+* [XblPresenceRecordCloseHandle](xblpresencerecordclosehandle.md)-->
 <!-- * [XblPresenceRecordHandle](xblpresencerecordhandle.md) -->
 
 
 ## Getting a user's presence from a social group
 
-<!-- intro sentence here -->
 
 **C API**
 <!--  XblPresenceGetPresenceForSocialGroupAsync_C.md -->
@@ -141,20 +133,17 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!-- in gdk only:
-**Reference**
+<!--**Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblPresenceGetPresenceForSocialGroupAsync](xblpresencegetpresenceforsocialgroupasync.md)
 * [XblPresenceGetPresenceForSocialGroupResult](xblpresencegetpresenceforsocialgroupresult.md)
 * [XblPresenceGetPresenceForSocialGroupResultCount](xblpresencegetpresenceforsocialgroupresultcount.md)
-* [XblPresenceRecordCloseHandle](xblpresencerecordclosehandle.md)
--->
+* [XblPresenceRecordCloseHandle](xblpresencerecordclosehandle.md)-->
 <!-- * [XblPresenceRecordHandle](xblpresencerecordhandle.md) -->
 
 
 ## Displaying a user's presence
 
-<!-- intro sentence here -->
 
 **C API**
 <!--  _C.md -->
@@ -177,8 +166,6 @@ for (auto i = 0u; i < deviceRecordsCount; ++i)
 }
 ```
 
-<!-- in gdk only:
-**Reference**
+<!--**Reference**
 * [XblPresenceDeviceRecord](xblpresencedevicerecord.md)
-* [XblPresenceRecordGetDeviceRecords](xblpresencerecordgetdevicerecords.md)
--->
+* [XblPresenceRecordGetDeviceRecords](xblpresencerecordgetdevicerecords.md)-->

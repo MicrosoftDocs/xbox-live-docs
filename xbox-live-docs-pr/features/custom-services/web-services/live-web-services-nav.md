@@ -2,7 +2,7 @@
 layout: LandingPage
 title: Web services
 author: mikehoffms
-description: Web services.
+description: Creating a Web service for an Xbox Live-enabled app.
 ms.author: v-mihof
 ms.date: 12/06/2018
 ms.topic: article

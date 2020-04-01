@@ -1,11 +1,13 @@
 ---
 title: Choosing an Xbox Live developer program
 description: Comparison of the Creators Program and the Managed Partners Program.
-ms.assetid: 1166308a-4079-41b4-8550-ce04b82b4f72
-ms.date: 05/30/2018
+kindex: Choosing an Xbox Live developer program
+kindex: developer program, Creators
+kindex: Creators developer program
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, developer program, creators
+ms.assetid: 1166308a-4079-41b4-8550-ce04b82b4f72
 ms.localizationpriority: medium
+ms.date: 05/30/2018
 ---
 
 # Choosing an Xbox Live developer program
@@ -31,7 +33,7 @@ Join the Xbox Live *Creators Program* if both of the following are true:
 
 Join the *ID@Xbox Program* if at least one of the following are true:
 
-* You’re interested in using the full suite of Xbox Live services, including multiplayer features, Achievements, and Gamerscore on Microsoft devices such as Xbox, Windows 10 PC, or Hololens.
+* You're interested in using the full suite of Xbox Live services, including multiplayer features, Achievements, and Gamerscore on Microsoft devices such as Xbox, Windows 10 PC, or Hololens.
 
 * You plan to use Xbox Live components in a game which is shipping via a non-Microsoft store or on a non-Microsoft device (such as mobile).
 
@@ -46,10 +48,10 @@ The Xbox Live Creators Program is a good starting point for Xbox Live if you are
 No approval process from Microsoft is required to join this program, and there are minimal certification and publishing requirements.
 
 The Xbox Live Creators Program only supports the creation of titles (games) for the <a href="https://msdn.microsoft.com/windows/uwp/get-started/universal-application-platform-guide" target="_blank">Universal Windows Platform (UWP) &#11008;</a>.
-These titles created as UWP games run on Windows 10 PCs and on Xbox One consoles.
-For more details about running UWP games on Xbox One, see <a href="https://docs.microsoft.com/windows/uwp/xbox-apps/index" target="_blank">UWP on Xbox One &#11008;</a>.
+These titles created as UWP games run on Windows 10 PCs and on Xbox One (or later) consoles.
+For more details about running UWP games on Xbox One (or later), see <a href="https://docs.microsoft.com/windows/uwp/xbox-apps/index" target="_blank">UWP on Xbox One &#11008;</a>.
 
-On Xbox One, which offers gamers a curated store experience, games published through the Xbox Live Creators Program will be sold in the new Creators Collection section of the Microsoft Store on Xbox.
+On Xbox One (or later), which offers gamers a curated store experience, games published through the Xbox Live Creators Program will be sold in the new Creators Collection section of the Microsoft Store on Xbox.
 This offers a balance between ensuring an open platform where anyone can develop and ship a game, and a curated store experience console gamers have come to know and expect.
 On Windows 10, your title will be published among all of the other Xbox Live games in the Microsoft Store.
 
@@ -115,7 +117,7 @@ The Xbox Live Creators Program is great for many games and developers.
 
 ### Support for Managed Partners
 
-If you’d like to access the full Xbox Live stack, including online multiplayer, achievements, and Gamerscore, or you want to access the full power of the Xbox One family of devices using hardware dev kits, the ID@Xbox Program is for you.
+If you'd like to access the full Xbox Live stack, including online multiplayer, achievements, and Gamerscore, or you want to access the full power of the Xbox One (or later) family of devices using hardware dev kits, the ID@Xbox Program is for you.
 
 The ID@Xbox Program is part of the Managed Partners program.
 Documentation for Managed Partners applies to ID@Xbox Partners.

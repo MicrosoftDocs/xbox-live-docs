@@ -6,8 +6,7 @@ kindex: Xbox Live Player Data
 author: v-mihof
 ms.author: v-mihof
 ms.topic: conceptual
-ms.prod: xboxlive
-ms.technology: 
+ms.localizationpriority: medium
 ---
 
 # Player Data overview
@@ -35,6 +34,8 @@ See [Stats & Leaderboards](stats-leaderboards/live-stats-leaderboards-nav.md).
 
 You can designate certain stats as featured stats.
 Featured stats are shown in your title's GameHub, to compare players against their friends.
+
+See [Featured Stats](stats-leaderboards/featured-stats/live-featured-stats-nav.md).
 
 
 ## Achievements

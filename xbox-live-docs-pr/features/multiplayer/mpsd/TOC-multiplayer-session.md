@@ -2,7 +2,7 @@
 
 ## live-mpsd-overview.md
 
-## live-xbox-one-multiplayer-session-directory.md
+## live-xbox-multiplayer-session-directory.md
 
 ## _include_ concepts/TOC-mpsd-concepts.md
 

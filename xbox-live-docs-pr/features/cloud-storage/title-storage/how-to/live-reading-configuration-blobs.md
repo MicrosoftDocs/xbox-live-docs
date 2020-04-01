@@ -1,11 +1,11 @@
 ---
 title: Reading a configuration blob from Title Storage
 description: Reading a JSON configuration blob in Title Storage, using GET.
-ms.assetid: ee62d221-69b9-4f52-9b5d-5a44d04de548
-ms.date: 04/04/2017
+kindex: Reading a configuration blob from Title Storage
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
+ms.assetid: ee62d221-69b9-4f52-9b5d-5a44d04de548
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Reading a configuration blob from Title Storage

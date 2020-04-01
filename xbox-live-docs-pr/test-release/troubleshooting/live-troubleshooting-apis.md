@@ -1,10 +1,11 @@
 ---
 title: Troubleshooting Xbox Live Services APIs
 description: Hooking up the response logger and enabling debug tracing.
+kindex: Troubleshooting Xbox Live Services APIs
+kindex: debug tracing, enabling
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, troubleshooting, error, log
-ms.localizationpriority: medium
 ms.assetid: 3827bba1-902f-4f2d-ad51-af09bd9354c4
+ms.localizationpriority: medium
 ms.date: 04/04/2017
 ---
 
@@ -15,6 +16,12 @@ Additional, helpful error information â€” such as logging of all RESTful calls â
 
 To listen to this additional data, hook up the response logger and enable debug tracing.
 Response logging allows you to see HTTP traffic and web service response codes, which is often as useful as a Fiddler trace.
+
+
+
+
+
+
 
 
 ## Code example
@@ -32,6 +39,20 @@ HCSettingsSetTraceLevel(HCTraceLevel::Verbose); // See HCTraceLevel enum for var
 HCTraceSetTraceToDebugger(true);
 ```
 
+```cpp
+void CALLBACK TraceCallback(
+    _In_z_ char const* areaName,
+    enum HCTraceLevel level,
+    uint64_t threadId,
+    uint64_t timestamp,
+    _In_z_ char const* message
+)
+{
+    // Log info
+}
+
+HCTraceSetClientCallback(TraceCallback);
+```
 
 **C++ API**
 ```cpp

@@ -10,13 +10,14 @@ kindex: Xbox Live, Xbox Requirements (XRs)
 author: v-mihof
 ms.author: v-mihof
 ms.topic: conceptual
-ms.prod: xbox
-ms.technology: xboxgc
+ms.prod: gaming
+ms.technology: xboxlive
+ms.localizationpriority: medium
 ms.date: 01/24/2020
 edited: 01/24/2020
 ---
 
-# Policies and XRs for PC
+# Policies and XRs for PC and mobile
 
 
 ### In this section

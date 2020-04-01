@@ -1,16 +1,17 @@
 ---
 title: XRs for PC and mobile
 description: Xbox Requirements (XRs) for adding Xbox Live to a game on Windows or mobile.
-layout: LandingPage
 kindex: XRs for PC and mobile
 kindex: Xbox Requirements (XRs) for Xbox Live
 kindex: Xbox Live, XRs
 kindex: Xbox Live, Xbox Requirements (XRs)
+layout: LandingPage
+ms.topic: conceptual
+ms.prod: gaming
+ms.technology: xboxlive
 author: v-mihof
 ms.author: v-mihof
-ms.topic: conceptual
-ms.prod: xbox
-ms.technology: xboxgc
+ms.localizationpriority: medium
 edited: 01/24/2020
 ---
 
@@ -23,7 +24,7 @@ Xbox Requirements (XRs) for adding Xbox Live to a game on Windows or mobile.
 
 | Article | Description |
 |---------|-------------|
-| [XR-013: Linking Microsoft Accounts with Publisher Accounts](live-pc-xr013.md) | On Xbox One, titles that use partner-hosted services or accounts that require credentials must link that account with the user’s Microsoft account. |
+| [XR-013: Linking Microsoft Accounts with Publisher Accounts](live-pc-xr013.md) | On Xbox One, titles that use partner-hosted services or accounts that require credentials must link that account with the user's Microsoft account. |
 | [XR-015: Privacy and Permissions](live-pc-xr015.md) | Titles must not transmit user data or allow communication over Xbox Live when the user's privacy & online safety settings do not allow it. |
 | [XR-045: Xbox Live and Account Privileges](live-pc-xr045.md) | Titles must check whether the active user has certain privileges before completing certain actions. |
 | [XR-048: Profile Settings Usage](live-pc-xr048.md) | Games must not store user information sourced from Xbox Live, such as profile data, preferences, or display names. |

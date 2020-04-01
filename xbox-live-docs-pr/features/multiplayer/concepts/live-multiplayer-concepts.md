@@ -1,13 +1,13 @@
 ---
 title: Multiplayer concepts overview
 description: Concepts used by Multiplayer systems, including multiplayer session, multiplayer service session directory, SmartMatch matchmaking, and quality of service (QoS).
-ms.assetid: 1e765f19-1530-4464-b5cf-b00259807fd3
-ms.date: 08/25/2017
+kindex: Multiplayer concepts overview
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer
+ms.assetid: 1e765f19-1530-4464-b5cf-b00259807fd3
 ms.localizationpriority: medium
+ms.date: 08/25/2017
 ---
 
 # Multiplayer concepts overview
@@ -80,7 +80,7 @@ The MPSD also manages session state and updates sessions when necessary.
 
 MPSD allows titles to share the basic information needed to connect a group of users.
 MPSD ensures that session functionality is synchronized and consistent.
-It coordinates with the shell and Xbox One console operating system in sending/accepting invites and in being joined via the gamer card.
+It coordinates with the shell and Xbox One (or later) console operating system in sending/accepting invites and in being joined via the gamer card.
 
 
 ### Session handles
@@ -210,3 +210,8 @@ This is specifically important for players that are matched during matchmaking t
 QoS is less applicable for invites where friends play together and are usually willing to accept the consequences of a poor connection.
 
 You can configure the session to handle QoS automatically based on specific criteria, or your game can handle measuring the QoS whenever anyone joins the session.
+
+
+### See also
+
+* [Multiplayer overview](../live-multiplayer-intro.md)

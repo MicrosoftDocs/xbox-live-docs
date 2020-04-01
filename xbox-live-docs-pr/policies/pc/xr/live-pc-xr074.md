@@ -1,8 +1,9 @@
 ---
 title: "XR-074: Loss of Connectivity to Xbox and Partner Services"
 description: Titles must resolve errors with Xbox Live and partner services connectivity.
+kindex: "XR-074: Loss of Connectivity to Xbox and Partner Services &diams;"
+kindex: policies
 ms.topic: article
-keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
 ms.date: 03/18/2019
 ---
@@ -21,7 +22,7 @@ Titles encountering issues with partner services such as non-transient timeouts,
 
 An example of a user-friendly message is:
 
->“Sorry, _non-Microsoft service_ is not currently available. Please try again later. For more information, contact _non-Microsoft support contact information_.”
+>"Sorry, _non-Microsoft service_ is not currently available. Please try again later. For more information, contact _non-Microsoft support contact information_."
 
 
 ### Handling Issues With Xbox Live Services

@@ -12,4 +12,6 @@
 
 ## _include_ troubleshooting/TOC-tr-troubleshooting.md
 
-## _include_ services-tools/TOC-tr-services-tools.md
+## _include_ services/TOC-tr-services.md
+
+## _include_ tools/TOC-tr-tools.md

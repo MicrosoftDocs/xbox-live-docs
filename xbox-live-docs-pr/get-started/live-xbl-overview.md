@@ -13,21 +13,21 @@ ms.date: 04/04/2017
 # Xbox Live overview
 
 Xbox Live is a premier gaming network that connects millions of gamers across the world.
-You can add Xbox Live to your game on mobile platforms, Windows 10 PC, and Xbox One console to take advantage of the Xbox Live features and services.
+You can add Xbox Live to your game on mobile platforms, Windows 10 PC, and Xbox One (or later) console to take advantage of the Xbox Live features and services.
 
 Here are some reasons to add Xbox Live to your game:
 
-- Xbox Live unites gamers across Xbox One and Windows 10, so gamers can play with their friends and connect with a massive community of players.
+- Xbox Live unites gamers across Xbox One (or later) consoles and Windows 10, so gamers can play with their friends and connect with a massive community of players.
 
 - Xbox Live lets players build a gaming legacy by unlocking achievements, sharing epic game clips, amassing Gamerscore, and perfecting their avatar.
 
-- Xbox Live lets gamers play and pick up where they left off on another Xbox One or PC, bringing all their saves from another device.
+- Xbox Live lets gamers play and pick up where they left off on another Xbox One (or later) console or PC, bringing all their saves from another device.
 
 - With over 1 billion multiplayer matches played each month, Xbox Live is built for performance, speed and reliability.
 
-- With cross-device multiplayer, gamers can play with your friends regardless of whether they play on Xbox One or Windows 10 PC.
+- With cross-device multiplayer, gamers can play with your friends regardless of whether they play on the Xbox One (or later) console or a Windows 10 PC.
 
-With the Xbox Live Creators Program, anyone with a [Partner Center](https://partner.microsoft.com/dashboard) account can build an Xbox Live enabled Universal Windows Platform (UWP) game that can run on both Windows 10 PCs and Xbox One consoles.
+With the Xbox Live Creators Program, anyone with a [Partner Center](https://partner.microsoft.com/dashboard) account can build an Xbox Live enabled Universal Windows Platform (UWP) game that can run on both Windows 10 PCs and Xbox One (or later) consoles.
 
 For game developers that want to take advantage of the full Xbox Live experience, including multiplayer, achievements, and native Xbox console development, see [Choosing an Xbox Live developer program](join-dev-program/live-dev-program-overview.md).
 
@@ -61,9 +61,9 @@ Once you have a title created and the fundamentals working, this section provide
 
 | Article | Description |
 |---------|-------------|
-| [Error handling](../test-release/services-tools/error-handling/live-error-handling-nav.md) | Handling errors when calling an Xbox Live service through XSAPI. |
+| [Error handling](../test-release/services/error-handling/live-error-handling-nav.md) | Handling errors when calling an Xbox Live service through XSAPI. |
 | [Authentication and sign-in](../features/identity/auth/live-authentication-nav.md) | Signing-in an Xbox Live user in your title. |
-| [Best practices for calling Xbox Live](../test-release/services-tools/best-practices/live-best-practices-calling-xbl.md) | Familiarize yourself with the basics on Xbox Live calling patterns and best-practices to ensure your title performs well and doesn't get rate limited.
+| [Best practices for calling Xbox Live](../test-release/services/best-practices/live-best-practices-calling-xbl.md) | Familiarize yourself with the basics on Xbox Live calling patterns and best-practices to ensure your title performs well and doesn't get rate limited.
 | [Troubleshooting Xbox Live Services APIs](../test-release/troubleshooting/live-troubleshooting-apis.md) | Common issues you may encounter and suggestions on how to fix them.
 
 
@@ -98,7 +98,7 @@ You also have several options of API that provide varying levels of simplicity v
 | Article | Description |
 |---------|-------------|
 | [Multiplayer overview](../features/multiplayer/live-multiplayer-intro.md) | If you are new to Xbox Live multiplayer development, or are unfamiliar with new APIs such as Multiplayer Manager and Xbox Integrated Multiplayer (XIM), start here. |
-| [Common multiplayer scenarios](../features/multiplayer/concepts/live-common-multiplayer-scenarios.md) | Suggestions and guidance on how you might incorporate multiplayer into your title. |
+| [Common multiplayer scenarios](../features/multiplayer/live-common-multiplayer-scenarios.md) | Suggestions and guidance on how you might incorporate multiplayer into your title. |
 | [Xbox Integrated Multiplayer (XIM)](../features/multiplayer/xim/live-xim-nav.md) | Xbox Integrated Multiplayer (XIM) is an easy self-contained interface for adding multiplayer, real-time networking, and chat to your title. |
 | [Multiplayer Manager (MPM)](../features/multiplayer/mpm/live-multiplayer-manager-nav.md) | Multiplayer Manager provides a high-level API focused on common multiplayer scenarios, including adding multiplayer functionality by managing sessions, matchmaking, and game invites. Provides a state- and event-based programming model. |
 

@@ -1,11 +1,12 @@
 ---
 title: Updating a user's Presence via REST
 description: Updating Rich Presence via REST.
-ms.assetid: eb2bb82e-8730-4d74-9b33-95d133360e44
-ms.date: 04/04/2017
+kindex: Updating a user's Presence via REST
+kindex: rich presence
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, rich presence
+ms.assetid: eb2bb82e-8730-4d74-9b33-95d133360e44
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Updating a user's Presence via REST

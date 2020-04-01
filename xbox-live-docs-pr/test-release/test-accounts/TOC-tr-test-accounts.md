@@ -2,4 +2,4 @@
 
 ## live-test-accounts.md
 
-## live-account-tool.md
+## live-test-accounts-broadcast-mixer.md

@@ -1,11 +1,11 @@
 ---
 title: Reading a JSON blob from Title Storage
 description: Reading a JSON blob in Title Storage, using GET.
-ms.assetid: 3697af16-d054-4835-af7f-7fee8c628345
-ms.date: 04/04/2017
+kindex: Reading a JSON blob from Title Storage
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
+ms.assetid: 3697af16-d054-4835-af7f-7fee8c628345
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Reading a JSON blob from Title Storage

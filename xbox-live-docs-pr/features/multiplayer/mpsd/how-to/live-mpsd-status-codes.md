@@ -1,13 +1,16 @@
 ---
 title: Multiplayer session status codes
 description: Status codes returned from the Xbox Live service when requesting a multiplayer session.
-ms.assetid: 4ab320d6-8050-41a9-9f00-faaad3b128fd
-ms.date: 04/04/2017
+kindex: Multiplayer session status codes
+kindex: Multiplayer 2015
+kindex: status codes
+kindex: session
 ms.topic: how-to
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer 2015, status codes, session
+ms.assetid: 4ab320d6-8050-41a9-9f00-faaad3b128fd
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Multiplayer session status codes
@@ -34,5 +37,5 @@ These are the multiplayer status codes concerning sessions.
 | 409         | Conflict            | text/plain       | message | The session could not be updated because the request is incompatible with the session. For example, constants in the request conflict with constants in the session or session template, or members other than the caller have been added to or removed from a large session.                                                                         |
 | 412         | Precondition failed |                  |         | The If-Match header, or the If-None-Match header (for an operation other than GET), could not be satisfied.                                                                                                                                                                                                                                           |
 |             |                     | application/json | session | The If-Match header could not be satisfied on a PUT or DELETE operation for an existing session. The current state of the session is returned along with the current ETag value.                                                                                                                                                                      |
-| 429 | Too many requests | application/json | message | The service call was throttled due to exceeding the fine grained rate limiting restrictions. For more information, see [Fine-Grained Rate Limiting](../../../../test-release/services-tools/best-practices/live-fine-grained-rate-limiting.md). |
+| 429 | Too many requests | application/json | message | The service call was throttled due to exceeding the fine grained rate limiting restrictions. For more information, see [Fine-Grained Rate Limiting](../../../../test-release/services/best-practices/live-fine-grained-rate-limiting.md). |
 | 503         | Service unavailable | text/plain       | none    | The service is overloaded and the request should be retried later. This code includes a Retry-After header that the client should honor.                                                                                                                                                                                                              |

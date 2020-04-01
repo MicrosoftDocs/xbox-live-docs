@@ -1,12 +1,18 @@
 ---
 title: Sending Reputation feedback from a title
 description: Promoting positive player experiences by sending player feedback to the Reputation service.
+kindex: Sending Reputation feedback from a title
+kindex: Reputation
+ms.topic: conceptual
+ms.localizationpriority: medium
 ms.assetid: 49f8eb44-1e31-4248-b645-9123df6f8689
 ms.date: 04/04/2017
-ms.topic: conceptual
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, reputation, player feedback
-ms.localizationpriority: medium
 ---
+
+
+
+
+
 
 # Sending Reputation feedback from a title
 
@@ -14,8 +20,18 @@ The majority of Xbox Live members are awesome, but there are a small percentage 
 We identify these small percentages of users through user-submitted and title-submitted feedback.
 We help protect the rest of the population by ensuring that these "Bad Apples" have a limited multiplayer experience where they can't interfere with good players' games.
 
-Xbox relies heavily on users to report other users to keep the system accurate, but titles in Xbox One can directly participate and dramatically help improve the accuracy of the user reputation population.
+Xbox Live relies heavily on users to report other users to keep the system accurate, but titles can directly participate and dramatically help improve the accuracy of the user reputation population.
 
+<!-- **Contents:**
+* [Steps to Submit Feedback from Title or Title Service](#stsfftots)
+* [Example Partner Feedback Usage Scenarios](#epfus)
+* [Complete Behavior Feedback Options](#cbfo)
+* [Feedback API Calls](#fac)
+* [Feedback Object](#fo)
+* [Feedback Q&A](#fqaa) -->
+
+
+<a id="stsfftots"></a>
 
 ## Steps to Submit Feedback from Title or Title Service
 
@@ -45,6 +61,8 @@ That user-to-user feedback does not carry much weight, since users are prone to 
 Titles can supplement that system UI, providing UI for users to directly submit feedback on another, but instead, we prefer that titles submit feedback on behalf of the title itself by using Partner feedback.
 Partner feedback is highly trusted.
 
+
+<a id="epfus"></a>
 
 ## Example Partner Feedback Usage Scenarios
 
@@ -104,6 +122,8 @@ A title's community manager has noticed a low-reputation player that is consiste
 A title can request an XBL Policy and Enforcement team review using **FairPlayUserBanRequest.**
 
 
+<a id="cbfo"></a>
+
 ## Complete Behavior Feedback Options
 
 The table below lists the feedback types you can use to submit user feedback on behalf of your title.
@@ -134,8 +154,10 @@ UserContentReviewRequestScreenshot        | Report a screenshot proactively so t
 **Positive Feedback**                     |
 PositiveSkilledPlayer                     | If users can vote to determine an MVP, report a skilled player when certain that the player deserves positive feedback
 PositiveHelpfulPlayer                     | If a game provides UI for a player to report that another one was helpful, report the helpful player
-PositiveHighQualityUGC                    | If a game provides UI for a player to compliment another user’s content, report the content positively
+PositiveHighQualityUGC                    | If a game provides UI for a player to compliment another user's content, report the content positively
 
+
+<a id="fac"></a>
 
 ## Feedback API Calls
 
@@ -161,6 +183,8 @@ API          | URL                                                      | Auth R
 Service POST | https://reputation.xboxlive.com/users/batchfeedback      | S-token with partner and sandbox claims
 Client POST  | https://reputation.xboxlive.com/users/batchtitlefeedback | Xtoken with title and sandbox claims
 
+
+<a id="fo"></a>
 
 ## Feedback Object
 
@@ -199,6 +223,8 @@ POST https://reputation.xboxlive.com/users/batchtitlefeedback
 ```
 
 
+<a id="fqaa"></a>
+
 ## Feedback Q&A
 
 
@@ -222,7 +248,7 @@ A: No, the Reputation service determines the weight of the feedback.
 We are always adjusting the weights to make the system better.
 
 
-### Q: Can I undo feedback I’ve sent on a user?
+### Q: Can I undo feedback I've sent on a user?
 
 A: No, feedback is final.
 If you believe your title has a bug and is sending erroneous feedback, let us know and we'll blacklist your title until you fix the bug.

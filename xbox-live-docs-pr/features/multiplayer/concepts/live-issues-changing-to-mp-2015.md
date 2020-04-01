@@ -1,13 +1,13 @@
 ---
 title: Changing a game from 2014 to 2015 Multiplayer
 description: Changing a title from 2014 Multiplayer to 2015 Multiplayer.
-ms.assetid: 206f8fe4-c7aa-44b8-923b-18f679d8439f
-ms.date: 04/04/2017
+kindex: Changing a game from 2014 to 2015 Multiplayer
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
+ms.assetid: 206f8fe4-c7aa-44b8-923b-18f679d8439f
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Changing a game from 2014 to 2015 Multiplayer
@@ -24,7 +24,7 @@ Multiplayer 2014 is based on the concept of the *game party* and participation i
 Multiplayer 2014 is now deprecated, although source code for it is still provided with the XDK.
 The Multiplayer 2014 documentation is no longer included with the XDK; if you need that documentation, use a 2014 release of the XDK.
 
-The Multiplayer 2015 system in Xbox One enables game play and the assembly of game players into groups.
+The Multiplayer 2015 system in Xbox One (or later) enables game play and the assembly of game players into groups.
 The system is secure and flexible, allowing you not only to build simple features quickly, but also to build more complex features and plug in your own services.
 
 The Multiplayer 2015 service abstracts-away the Multiplayer 2014 "game party" concept and instead uses the multiplayer session directory (MPSD) to control game sessions.

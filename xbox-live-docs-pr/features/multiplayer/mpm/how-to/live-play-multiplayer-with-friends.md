@@ -1,14 +1,20 @@
 ---
 title: Enable playing a multiplayer game with friends using Multiplayer Manager
 description: Using Multiplayer Manager to enable playing a multiplayer game online with friends.
-ms.assetid: 6eefee0e-6c0d-473a-97e7-f3e45f574712
-ms.date: 04/04/2017
+kindex: Enable playing a multiplayer game with friends using Multiplayer Manager
+kindex: Multiplayer Manager
+kindex: flowchart, Multiplayer Manager
 ms.topic: how-to
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, multiplayer manager, flowchart
+ms.assetid: 6eefee0e-6c0d-473a-97e7-f3e45f574712
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
+
+
+
+
 
 # Enable playing a multiplayer game with friends using Multiplayer Manager
 
@@ -31,7 +37,7 @@ Step 4 would typically be initiated on the invitee's machine following app launc
 See [Playing a game with friends (flowchart)](../concepts/flowcharts/live-mpm-play-with-friends.md).
 
 
-### 1) Initialize Multiplayer Manager <a name="initialize-multiplayer-manager">
+## 1) Initialize Multiplayer Manager <a name="initialize-multiplayer-manager">
 
 | Call | Event triggered |
 |-----|----------------|
@@ -39,6 +45,17 @@ See [Playing a game with friends (flowchart)](../concepts/flowcharts/live-mpm-pl
 
 The lobby session object is automatically created upon initializing the Multiplayer Manager, assuming that a valid session template name (configured in the service configuration) is specified.
 Note that this does not create the lobby session instance on the service.
+
+
+**C API**
+<!-- XblMultiplayerManagerInitialize_C.md -->
+```cpp
+HRESULT hr = XblMultiplayerManagerInitialize(lobbySessionTemplateName, queueUsedByMultiplayerManager);
+```
+
+<!-- **Reference**
+* [XblMultiplayerManagerInitialize](xblmultiplayermanagerinitialize.md) -->
+
 
 **C++ API**
 ```cpp
@@ -48,7 +65,7 @@ mpInstance->initialize(lobbySessionTemplateName);
 ```
 
 
-### 2) Create the lobby session by adding local users<a name="create-lobby">
+## 2) Create the lobby session by adding local users<a name="create-lobby">
 
 | Method | Event triggered |
 |-----|----------------|
@@ -69,6 +86,44 @@ You must repeat this process for all locally signed-in users.
 
 
 ### Adding a single local user
+
+**C API**
+<!-- DocsMultiplayerManagerAddLocalUser_Single_C.md -->
+```cpp
+HRESULT hr = XblMultiplayerManagerLobbySessionAddLocalUser(xblUserHandle);
+
+if (!SUCCEEDED(hr))
+{
+    // Handle failure
+}
+
+// Set member connection address
+const char* connectionAddress = "1.1.1.1";
+hr = XblMultiplayerManagerLobbySessionSetLocalMemberConnectionAddress(
+    xblUserHandle, connectionAddress, context);
+
+if (!SUCCEEDED(hr))
+{
+    // Handle failure
+}
+
+// Set custom member properties
+const char* propName = "Name";
+const char* propValueJson = "{}";
+hr = XblMultiplayerManagerLobbySessionSetProperties(propName, propValueJson, context);
+
+if (!SUCCEEDED(hr))
+{
+    // Handle failure
+}
+...
+```
+
+<!-- **Reference**
+* [XblMultiplayerManagerLobbySessionAddLocalUser](xblmultiplayermanagerlobbysessionaddlocaluser.md)
+* [XblMultiplayerManagerLobbySessionSetLocalMemberConnectionAddress](xblmultiplayermanagerlobbysessionsetlocalmemberconnectionaddress.md)
+* [XblMultiplayerManagerLobbySessionSetProperties](xblmultiplayermanagerlobbysessionsetproperties.md) -->
+
 
 **C++ API**
 ```cpp
@@ -92,6 +147,44 @@ mpInstance->lobby_session()->set_local_member_properties(xboxLivecontext->user()
 
 
 ### Adding multiple local users
+
+**C API**
+<!-- DocsMultiplayerManagerAddLocalUser_Multiple_C.md -->
+```cpp
+std::vector<XblUserHandle> xblUsers;
+for (XblUserHandle xblUserHandle : xblUsers)
+{
+    HRESULT hr = XblMultiplayerManagerLobbySessionAddLocalUser(xblUserHandle);
+
+    if (!SUCCEEDED(hr))
+    {
+        // Handle failure
+    }
+
+    // Set member connection address
+    const char* connectionAddress = "1.1.1.1";
+    hr = XblMultiplayerManagerLobbySessionSetLocalMemberConnectionAddress(
+        xblUserHandle, connectionAddress, context);
+
+    if (!SUCCEEDED(hr))
+    {
+        // Handle failure
+    }
+
+    // Set custom member properties
+    const char* propName = "Name";
+    const char* propValueJson = "{}";
+    hr = XblMultiplayerManagerLobbySessionSetProperties(propName, propValueJson, context);
+    ...
+}
+```
+
+<!-- **Reference**
+* [XblMultiplayerManagerLobbySessionAddLocalUser](xblmultiplayermanagerlobbysessionaddlocaluser.md)
+* [XblMultiplayerManagerLobbySessionSetLocalMemberConnectionAddress](xblmultiplayermanagerlobbysessionsetlocalmemberconnectionaddress.md)
+* [XblMultiplayerManagerLobbySessionSetProperties](xblmultiplayermanagerlobbysessionsetproperties.md) -->
+<!-- * [XblUserHandle](xbluserhandle.md) -->
+
 
 **C++ API**
 ```cpp
@@ -136,7 +229,7 @@ In case of a failure, an error message will be provided detailing the reasons of
 * Set Lobby Session as Active Session
 
 
-### 3) Send invites to friends <a name="send-invites">
+## 3) Send invites to friends <a name="send-invites">
 
 | Method | Event triggered |
 | -----|----------------|
@@ -149,6 +242,26 @@ Once the player hits confirm, Multiplayer Manager sends the invites to the selec
 
 Games can also use the `invite_users()` method to send invites to a set of people defined by their Xbox Live User IDs.
 This is useful if you prefer to use your own in-game UI instead of the stock Xbox UI.
+
+
+**C API**
+<!-- XblMultiplayerManagerLobbySessionInviteUsers_C.md -->
+```cpp
+size_t xuidsCount = 1;
+uint64_t xuids[1] = {};
+xuids[0] = 1234567891234567;
+HRESULT hr = XblMultiplayerManagerLobbySessionInviteUsers(
+    xblUserHandle, 
+    xuids, 
+    xuidsCount, 
+    nullptr,    // ContextStringId 
+    nullptr     // CustomActivationContext
+);
+```
+
+<!-- **Reference**
+* [XblMultiplayerManagerLobbySessionInviteUsers](xblmultiplayermanagerlobbysessioninviteusers.md) -->
+
 
 **C++ API**
 ```cpp
@@ -165,7 +278,7 @@ if (result.err())
 * Sends invite directly to the selected players
 
 
-### 4) Accept invites <a name="accept-invites">
+## 4) Accept invites <a name="accept-invites">
 
 | Method | Event triggered |
 | -----|----------------|
@@ -184,6 +297,52 @@ You can also set the host via set_synchronized_host if one doesn't exist.
 
 Finally, the Multiplayer Manager will auto join the user into the game session if a game is already in progress and has room for the invitee.
 The title will be notified through the `join_game_completed` event providing an appropriate error code and message.
+
+
+**C API**
+```cpp
+void CALLBACK MyXGameInviteEventCallback(
+    _In_opt_ void* context,
+    _In_ const char* inviteUri)
+{
+    UNREFERENCED_PARAMETER(context);
+    if (inviteUri != nullptr)
+    {
+        std::string inviteString(inviteUri);
+        auto pos = inviteString.find("handle=");
+        auto inviteHandleId = inviteString.substr(pos + 7, 36);
+
+        // now use inviteHandleId when calling XblMultiplayerManagerJoinLobby().  
+        // See example call below
+    }
+}
+
+XTaskQueueRegistrationToken token = { 0 };
+HRESULT hr = XGameInviteRegisterForEvent(
+    queue,
+    nullptr,
+    MyXGameInviteEventCallback,
+    &token);
+```
+
+<!-- DocsMultiplayerManagerJoinLobby_C.md -->
+```cpp
+HRESULT hr = XblMultiplayerManagerJoinLobby(inviteHandleId, xblUserHandle);
+if (!SUCCEEDED(hr))
+{
+    // Handle failure
+}
+
+// Set member connection address
+const char* connectionAddress = "1.1.1.1";
+hr = XblMultiplayerManagerLobbySessionSetLocalMemberConnectionAddress(
+    xblUserHandle, connectionAddress, context);
+```
+
+<!-- **Reference**
+* [XblMultiplayerManagerJoinLobby](xblmultiplayermanagerjoinlobby.md)
+* [XblMultiplayerManagerLobbySessionSetLocalMemberConnectionAddress](xblmultiplayermanagerlobbysessionsetlocalmemberconnectionaddress.md) -->
+
 
 **C++ API**
 ```cpp
@@ -214,13 +373,28 @@ Error/success is handled via the `join_lobby_completed` event
 * Uses transfer handle
 
 
-### 5) Join a game session from the lobby <a name="join-game">
+## 5) Join a game session from the lobby <a name="join-game">
 
 | Method | Event triggered |
 |-----|----------------|
 | `multiplayer_manager::join_game_from_lobby()` | `join_game_completed_event` |
 
 After invites have been accepted, and the host is ready to start playing the game, you can start a new game that includes the members of the lobby session by calling `join_game_from_lobby()`.
+
+
+**C API**
+<!-- XblMultiplayerManagerJoinGameFromLobby_C.md -->
+```cpp
+HRESULT hr = XblMultiplayerManagerJoinGameFromLobby(gameSessionTemplateName);
+if (!SUCCEEDED(hr))
+{
+    // Handle error
+}
+```
+
+<!-- **Reference**
+* [XblMultiplayerManagerJoinGameFromLobby](xblmultiplayermanagerjoingamefromlobby.md) -->
+
 
 **C++ API**
 ```cpp
@@ -231,7 +405,7 @@ if (result.err())
 }
 ```
 
-Error/success is handled via `join_game_completed` event
+Error/success is handled via the `join_game_completed` event
 
 **Functions performed by Multiplayer Manager to join a game session from the lobby:**
 * Create Game Session

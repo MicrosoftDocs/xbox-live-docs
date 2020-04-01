@@ -1,5 +1,5 @@
 - name: Xbox Live documentation
-  href: index.md
+  href: index.yml
   items:
     - name: Getting Started
       href: get-started/live-getstarted-nav.md
@@ -147,7 +147,7 @@
             - name: Authentication and sign-in
               href: features/identity/auth/live-authentication-nav.md
               items:
-                - name: Authentication for mobile projects using XAL
+                - name: Authentication for projects using XAL
                   href: features/identity/auth/auth-mobile-xal/live-xal-nav.md
                   items:
                     - name: Xbox Authentication Library (XAL) overview
@@ -197,8 +197,22 @@
                     - name: Event-based Stats & Leaderboards how-to's
                       href: features/player-data/stats-leaderboards/event-based/how-to/live-statslb-eb-howto-nav.md
                       items:
+                        - name: Writing an event to power an event-based Stat
+                          href: features/player-data/stats-leaderboards/event-based/how-to/live-sending-eb-stat.md
+                        - name: Getting event-based stats
+                          href: features/player-data/stats-leaderboards/event-based/how-to/live-getting-eb-stat.md
+                        - name: Handling an event-based stat change
+                          href: features/player-data/stats-leaderboards/event-based/how-to/live-handling-eb-stat-change.md
                         - name: Example code for event-based Leaderboards
                           href: features/player-data/stats-leaderboards/event-based/how-to/live-leaderboards-eb-howto.md
+                    - name: Events
+                      href: features/player-data/stats-leaderboards/event-based/events/live-events-nav.md
+                      items: 
+                        - name: Events how-to's
+                          href: features/player-data/stats-leaderboards/event-based/events/how-to/live-events-howto-nav.md
+                          items: 
+                            - name: Sending an event
+                              href: features/player-data/stats-leaderboards/event-based/events/how-to/live-sending-an-event.md
                 - name: Title-managed Stats & Leaderboards
                   href: features/player-data/stats-leaderboards/title-managed/live-statslb-tm-nav.md
                   items:
@@ -214,6 +228,8 @@
                       items:
                         - name: Updating title-managed Stats
                           href: features/player-data/stats-leaderboards/title-managed/how-to/live-stats-tm-updating.md
+                        - name: Writing title-managed stats
+                          href: features/player-data/stats-leaderboards/title-managed/how-to/live-writing-tm-stats.md
                         - name: Title-managed Leaderboards how-to's
                           href: features/player-data/stats-leaderboards/title-managed/how-to/live-leaderboards-tm-howto.md
                     - name: Stats & Leaderboards with Unity
@@ -238,6 +254,16 @@
               items:
                 - name: Event-based vs. title-managed Achievements
                   href: features/player-data/achievements/live-achievements-eb-vs-tm.md
+                - name: Event-based Achievements
+                  href: features/player-data/achievements/event-based/live-achievements-eb-nav.md
+                  items: 
+                    - name: Event-based Achievements how-to's
+                      href: features/player-data/achievements/event-based/how-to/live-achievements-eb-howto-nav.md
+                      items: 
+                        - name: Getting event-based Achievements
+                          href: features/player-data/achievements/event-based/how-to/live-getting-event-based-achievements.md
+                        - name: Writing an event to power an event-based Achievement
+                          href: features/player-data/achievements/event-based/how-to/live-writing-event-based-achievement.md
                 - name: Title-managed Achievements
                   href: features/player-data/achievements/title-managed/live-achievements-tm-nav.md
                   items:
@@ -370,8 +396,6 @@
                   href: features/multiplayer/concepts/live-session-browse.md
                 - name: Intro to calling the Multiplayer service directly
                   href: features/multiplayer/concepts/live-intro-calling-mp-directly.md
-                - name: Common multiplayer scenarios
-                  href: features/multiplayer/concepts/live-common-multiplayer-scenarios.md
                 - name: Configuring the Multiplayer service
                   href: features/multiplayer/concepts/live-configure-the-multiplayer-service.md
                 - name: Multiplayer 2015 FAQ and troubleshooting
@@ -448,8 +472,8 @@
               items:
                 - name: Multiplayer Session Directory overview
                   href: features/multiplayer/mpsd/live-mpsd-overview.md
-                - name: Multiplayer Session Directory for Xbox One
-                  href: features/multiplayer/mpsd/live-xbox-one-multiplayer-session-directory.md
+                - name: Multiplayer Session Directory
+                  href: features/multiplayer/mpsd/live-xbox-multiplayer-session-directory.md
                 - name: MPSD concepts
                   href: features/multiplayer/mpsd/concepts/live-mpsd-concepts-nav.md
                   items:
@@ -722,9 +746,9 @@
           items:
             - name: Xbox Live test accounts
               href: test-release/test-accounts/live-test-accounts.md
-            - name: Developer Account Tool to set up test accounts
-              href: test-release/test-accounts/live-account-tool.md
-        - name: Testing on the Xbox One console
+            - name: Broadcasting Xbox Live test accounts to Mixer
+              href: test-release/test-accounts/live-test-accounts-broadcast-mixer.md
+        - name: Testing on the Xbox console
           href: test-release/live-testing-on-console.md
         - name: Troubleshooting Xbox Live
           href: test-release/troubleshooting/live-troubleshooting-nav.md
@@ -733,35 +757,52 @@
               href: test-release/troubleshooting/live-troubleshooting-apis.md
             - name: Troubleshooting Xbox Live setup on Windows 10 PC
               href: test-release/troubleshooting/live-troubleshooting-pc-setup.md
-        - name: Services and tools
-          href: test-release/services-tools/live-services-tools-nav.md
+        - name: Services
+          href: test-release/services/live-services-nav.md
           items:
-            - name: Development tools for Xbox Live
-              href: test-release/services-tools/live-tools.md
-            - name: Trace Analyzer for reviewing service calls
-              href: test-release/services-tools/live-trace-analyzer.md
-            - name: Using Fiddler to inspect web service calls
-              href: test-release/services-tools/live-fiddler-inspect-web-calls.md
             - name: Best practices for Xbox Live
-              href: test-release/services-tools/best-practices/live-best-practices-nav.md
+              href: test-release/services/best-practices/live-best-practices-nav.md
               items:
                 - name: Best practices for calling Xbox Live
-                  href: test-release/services-tools/best-practices/live-best-practices-calling-xbl.md
+                  href: test-release/services/best-practices/live-best-practices-calling-xbl.md
                 - name: Fine-Grained Rate Limiting
-                  href: test-release/services-tools/best-practices/live-fine-grained-rate-limiting.md
+                  href: test-release/services/best-practices/live-fine-grained-rate-limiting.md
                 - name: Best practices for handling offline play
-                  href: test-release/services-tools/best-practices/live-best-practices-offline-play.md
+                  href: test-release/services/best-practices/live-best-practices-offline-play.md
             - name: Error handling
-              href: test-release/services-tools/error-handling/live-error-handling-nav.md
+              href: test-release/services/error-handling/live-error-handling-nav.md
               items:
                 - name: Types of error handling
-                  href: test-release/services-tools/error-handling/live-types-of-error-handling.md
+                  href: test-release/services/error-handling/live-types-of-error-handling.md
                 - name: C++ API error handling
-                  href: test-release/services-tools/error-handling/live-error-handling-cpp.md
+                  href: test-release/services/error-handling/live-error-handling-cpp.md
                 - name: WinRT API error handling
-                  href: test-release/services-tools/error-handling/live-error-handling-winrt.md
+                  href: test-release/services/error-handling/live-error-handling-winrt.md
             - name: Porting Xbox Live code from XDK to UWP
-              href: test-release/services-tools/live-port-xbl-code-from-xdk-to-uwp.md
+              href: test-release/services/live-port-xbl-code-from-xdk-to-uwp.md
+        - name: Tools for Xbox Live
+          href: test-release/tools/live-tools-nav.md
+          items:
+            - name: Development tools for Xbox Live
+              href: test-release/tools/live-tools.md
+            - name: Config as Source tools (XblConfig.exe)
+              href: test-release/tools/live-config-as-source.md
+            - name: Global Storage tool (GlobalStorage.exe)
+              href: test-release/tools/live-global-storage-tool.md
+            - name: Multiplayer Session History Viewer (MultiplayerSessionHistoryViewer.exe)
+              href: test-release/tools/live-mp-session-history-viewer.md
+            - name: Player Data Reset tool (PlayerReset.exe)
+              href: test-release/tools/live-player-data-reset.md
+            - name: Xbox Live Account tool (XboxLiveAccountTool.exe)
+              href: test-release/tools/live-xbox-live-account-tool.md
+            - name: Xbox Live Developer Account tool (XblDevAccount.exe)
+              href: test-release/tools/live-dev-account-tool.md
+            - name: Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)
+              href: test-release/tools/live-pc-sandbox-switcher.md
+            - name: Xbox Live Trace Analyzer (XBLTraceAnalyzer.exe)
+              href: test-release/tools/live-trace-analyzer.md
+            - name: Using Fiddler to inspect web service calls
+              href: test-release/tools/live-fiddler-inspect-web-calls.md
     - name: Policies and XRs
       href: policies/live-policies-nav.md
       items:
@@ -797,15 +838,18 @@
         - name: XSAPI reference
           href: api-ref/xsapi/live-xsapi-nav.md
           items:
-            - name: Introduction to Xbox Live APIs
+            - name: XSAPI Overview
               href: api-ref/xsapi/live-introduction-to-xbox-live-apis.md
-            - name: Introduction to the Xbox Live C APIs
+            - name: XSAPI C Overview
               href: api-ref/xsapi/live-xsapi-flat-c.md
         - name: XAL reference
           href: api-ref/xal/live-xal-nav.md
         - name: XAsync reference
           href: api-ref/xasync/live-xasync-nav.md
+          items:
+            - name: Making async calls in the XSAPI C API
+              href: api-ref/xasync/live-flatc-async-patterns.md
         - name: REST reference
           href: api-ref/xbox-live-rest/TOC-rest.md
-        - name: Xbox Live samples
+        - name: Xbox Live Samples
           href: api-ref/live-samples.md

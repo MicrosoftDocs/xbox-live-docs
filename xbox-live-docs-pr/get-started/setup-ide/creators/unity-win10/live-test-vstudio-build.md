@@ -1,9 +1,12 @@
 ---
 title: Testing a Unity game build in Visual Studio
 description: Checklist for testing Unity builds in Visual Studio.
-ms.date: 03/12/2018
+kindex: Testing a Unity game build in Visual Studio
+kindex: Unity
+kindex: Visual Studio
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, unity
+ms.localizationpriority: medium
+ms.date: 03/12/2018
 ---
 
 # Testing a Unity game build in Visual Studio

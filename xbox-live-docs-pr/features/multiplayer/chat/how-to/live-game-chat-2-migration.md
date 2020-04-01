@@ -1,12 +1,14 @@
 ---
 title: Migrating from Game Chat 1 to Game Chat 2
 description: Migrating existing Game Chat code to use Game Chat 2.
-ms.date: 05/02/2018
+kindex: Migrating from Game Chat 1 to Game Chat 2
+kindex: game chat
+kindex: voice communication
 ms.topic: how-to
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, game chat 2, game chat, voice communication
 ms.localizationpriority: medium
+ms.date: 05/02/2018
 ---
 
 # Migrating from Game Chat 1 to Game Chat 2
@@ -415,7 +417,7 @@ When a user has speech-to-text enabled, `chat_user::chat_user_local::speech_to_t
 When this state is detected, the app must be prepared to provide UI associated with transcribed chat messages.
 Game Chat 2 will automatically transcribe each remote user's audio and expose it via a `game_chat_transcribed_chat_received_state_change`.
 
-> `Windows::Xbox::UI::Accessibility` is an Xbox One class specifically designed to provide simple rendering of in-game text chat with a focus on speech-to-text assistive technologies.
+> `Windows::Xbox::UI::Accessibility` is an Xbox One (or later) class specifically designed to provide simple rendering of in-game text chat with a focus on speech-to-text assistive technologies.
 
 See the section [Speech-to-text performance considerations](live-using-game-chat-2.md#speech-to-text-performance-considerations) in the article "Using the Game Chat 2 C++ API", for more details on speech-to-text performance considerations.
 

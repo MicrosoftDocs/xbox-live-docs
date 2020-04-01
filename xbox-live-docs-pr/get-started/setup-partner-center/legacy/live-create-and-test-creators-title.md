@@ -1,11 +1,13 @@
 ---
 title: Creating an app and publishing it for testing, for Creators
 description: Creating a new Creators app in Partner Center, and publishing it to the test environment.
-ms.assetid: ced4d708-e8c0-4b69-aad0-e953bfdacbbf
-ms.date: 04/04/2017
+kindex: Creating an app and publishing it for testing, for Creators
+kindex: Creators
+kindex: publishing for testing
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, creators, test
+ms.assetid: ced4d708-e8c0-4b69-aad0-e953bfdacbbf
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Creating an app and publishing it for testing, for Creators
@@ -20,12 +22,12 @@ This article will walk through everything required to configure a title in Partn
 
 This article assumes the following:
 1. You are using the Xbox Live Creators Program.
-2. You are developing a Universal Windows Platform (UWP) title.  UWP titles can run on Xbox One, Windows 10 desktop PCs, and mobile.
+2. You are developing a Universal Windows Platform (UWP) title.  UWP titles can run on Xbox One (or later) consoles, Windows 10 desktop PCs, and mobile devices.
 3. You are configuring your title in Partner Center.
 4. Your development machine is running Windows 10.
 
 > [!NOTE]
-> If you are part of the Xbox Live Creators Program, the above assumptions apply to you and you should follow along with this article
+> If you are part of the Xbox Live Creators Program, the above assumptions apply to you and you should follow along with this article.
 
 
 ## Partner Center setup
@@ -66,7 +68,7 @@ Next, click the **Enable** button to bring up the Xbox Live setup dialog.
 
 ![Partner Center screenshot with enable button location](live-create-and-test-creators-title-images/creators_udc_xboxlive_enable.png)
 
-On the setup dialog, select the platforms that you would like to enable the Xbox Live Services for (both Xbox One and Windows 10 PC are selected by default).
+On the setup dialog, select the platforms that you would like to enable the Xbox Live Services for (both **Xbox One** and **Windows 10 PC** are selected by default).
 Click the **Confirm** button to enable Xbox Live Creators Program for your game.
 
 > [!IMPORTANT]
@@ -84,7 +86,7 @@ The development sandbox allows you to work on changes to your game in an isolate
 
 When your game is released to the public, the Xbox Live configuration will automatically be published to the RETAIL sandbox.
 
-By default, Xbox One Consoles and Windows 10 PCs are in the RETAIL sandbox.
+By default, Xbox One (or later) consoles and Windows 10 PCs are in the RETAIL sandbox.
 
 
 ### Publish Xbox Live Configuration to the test environment
@@ -100,9 +102,9 @@ On the Xbox Live configuration page, click the **Test** button to publish the cu
 
 Only authorized devices and users can access the Xbox Live configuration for the game in your development sandbox.
 
-By default, all the Xbox One development consoles you have added to your Partner Center account have access to your development sandbox.
-To add an Xbox One console, go to [Manage Xbox One consoles](https://partner.microsoft.com/xboxconfig/devices).
-If you’re already in your Partner Center account, you can go to **Account Settings** > **Account Settings** > **Dev devices** > **Xbox One development consoles**.
+By default, all the Xbox One (or later) development consoles you have added to your Partner Center account have access to your development sandbox.
+To add an Xbox console, go to [Manage Xbox One consoles](https://partner.microsoft.com/xboxconfig/devices).
+If you're already in your Partner Center account, you can go to **Account Settings** > **Account Settings** > **Dev devices** > **Xbox One development consoles**.
 
 
 ## Next steps

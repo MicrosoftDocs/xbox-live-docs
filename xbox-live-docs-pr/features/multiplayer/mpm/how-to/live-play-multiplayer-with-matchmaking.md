@@ -1,14 +1,21 @@
 ---
 title: Finding a multiplayer game by using SmartMatch using Multiplayer Manager
 description: Using Multiplayer Manager to enable a player to find a multiplayer game by using SmartMatch matchmaking.
-ms.assetid: f9001364-214f-4ba0-a0a6-0f3be0b2f523
-ms.date: 04/04/2017
+kindex: Finding a multiplayer game by using SmartMatch using Multiplayer Manager
+kindex: multiplayer manager
+kindex: flowchart, SmartMatch
+kindex: SmartMatch
 ms.topic: how-to
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, multiplayer manager, flowchart, smartmatch
+ms.assetid: f9001364-214f-4ba0-a0a6-0f3be0b2f523
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
+
+
+
+
 
 # Finding a multiplayer game by using SmartMatch using Multiplayer Manager
 
@@ -43,6 +50,17 @@ See [Playing a game by using SmartMatch matchmaking (flowchart)](../concepts/flo
 The lobby session object is automatically created upon initializing the Multiplayer Manager, assuming that a valid session template name (configured in the service configuration) is specified.
 Note that this does not create the lobby session instance on the service.
 
+
+**C API**
+<!-- XblMultiplayerManagerInitialize_C.md -->
+```cpp
+HRESULT hr = XblMultiplayerManagerInitialize(lobbySessionTemplateName, queueUsedByMultiplayerManager);
+```
+
+<!-- **Reference**
+* [XblMultiplayerManagerInitialize](xblmultiplayermanagerinitialize.md) -->
+
+
 **C++ API**
 ```cpp
 auto mpInstance = multiplayer_manager::get_singleton_instance();
@@ -73,6 +91,45 @@ You must repeat this process for all locally signed-in users.
 
 ### Adding a single local user
 
+
+**C API**
+<!-- DocsMultiplayerManagerAddLocalUser_Single_C.md -->
+```cpp
+HRESULT hr = XblMultiplayerManagerLobbySessionAddLocalUser(xblUserHandle);
+
+if (!SUCCEEDED(hr))
+{
+    // Handle failure
+}
+
+// Set member connection address
+const char* connectionAddress = "1.1.1.1";
+hr = XblMultiplayerManagerLobbySessionSetLocalMemberConnectionAddress(
+    xblUserHandle, connectionAddress, context);
+
+if (!SUCCEEDED(hr))
+{
+    // Handle failure
+}
+
+// Set custom member properties
+const char* propName = "Name";
+const char* propValueJson = "{}";
+hr = XblMultiplayerManagerLobbySessionSetProperties(propName, propValueJson, context);
+
+if (!SUCCEEDED(hr))
+{
+    // Handle failure
+}
+...
+```
+
+<!-- **Reference**
+* [XblMultiplayerManagerLobbySessionAddLocalUser](xblmultiplayermanagerlobbysessionaddlocaluser.md)
+* [XblMultiplayerManagerLobbySessionSetLocalMemberConnectionAddress](xblmultiplayermanagerlobbysessionsetlocalmemberconnectionaddress.md)
+* [XblMultiplayerManagerLobbySessionSetProperties](xblmultiplayermanagerlobbysessionsetproperties.md) -->
+
+
 **C++ API**
 ```cpp
 auto mpInstance = multiplayer_manager::get_singleton_instance();
@@ -92,7 +149,47 @@ mpInstance->lobby_session()->set_local_member_connection_address(
 mpInstance->lobby_session()->set_local_member_properties(xboxLivecontext->user(), ..., ...)
 ```
 
+
 ### Adding multiple local users
+
+
+**C API**
+<!-- DocsMultiplayerManagerAddLocalUser_Multiple_C.md -->
+```cpp
+std::vector<XblUserHandle> xblUsers;
+for (XblUserHandle xblUserHandle : xblUsers)
+{
+    HRESULT hr = XblMultiplayerManagerLobbySessionAddLocalUser(xblUserHandle);
+
+    if (!SUCCEEDED(hr))
+    {
+        // Handle failure
+    }
+
+    // Set member connection address
+    const char* connectionAddress = "1.1.1.1";
+    hr = XblMultiplayerManagerLobbySessionSetLocalMemberConnectionAddress(
+        xblUserHandle, connectionAddress, context);
+
+    if (!SUCCEEDED(hr))
+    {
+        // Handle failure
+    }
+
+    // Set custom member properties
+    const char* propName = "Name";
+    const char* propValueJson = "{}";
+    hr = XblMultiplayerManagerLobbySessionSetProperties(propName, propValueJson, context);
+    ...
+}
+```
+
+<!-- **Reference**
+* [XblMultiplayerManagerLobbySessionAddLocalUser](xblmultiplayermanagerlobbysessionaddlocaluser.md)
+* [XblMultiplayerManagerLobbySessionSetLocalMemberConnectionAddress](xblmultiplayermanagerlobbysessionsetlocalmemberconnectionaddress.md)
+* [XblMultiplayerManagerLobbySessionSetProperties](xblmultiplayermanagerlobbysessionsetproperties.md) -->
+<!-- * [XblUserHandle](xbluserhandle.md) -->
+
 
 **C++ API**
 ```cpp
@@ -117,7 +214,6 @@ for (User^ user : User::Users)
     mpInstance->lobby_session()->set_local_member_properties(xboxLivecontext->user(), ..., ...)
   }
 }
-
 ```
 
 The changes are batched on the next `do_work()` call.
@@ -150,6 +246,26 @@ Once the player hits confirm, Multiplayer Manager sends the invites to the selec
 
 Games can also use the `invite_users()` method to send invites to a set of people defined by their Xbox Live User IDs.
 This is useful if you prefer to use your own in-game UI instead of the stock Xbox UI.
+
+
+**C API**
+<!-- XblMultiplayerManagerLobbySessionInviteUsers_C.md -->
+```cpp
+size_t xuidsCount = 1;
+uint64_t xuids[1] = {};
+xuids[0] = 1234567891234567;
+HRESULT hr = XblMultiplayerManagerLobbySessionInviteUsers(
+    xblUserHandle, 
+    xuids, 
+    xuidsCount, 
+    nullptr,    // ContextStringId 
+    nullptr     // CustomActivationContext
+);
+```
+
+<!-- **Reference**
+* [XblMultiplayerManagerLobbySessionInviteUsers](xblmultiplayermanagerlobbysessioninviteusers.md) -->
+
 
 **C++ API**
 ```cpp
@@ -187,6 +303,27 @@ You can also set the host via `set_synchronized_host` if one doesn't exist.
 Finally, the Multiplayer Manager will auto join the user into the game session if a game is already in progress and has room for the invitee.
 The title will be notified through the `join_game_completed` event providing an appropriate error code and message.
 
+
+**C API**
+<!-- DocsMultiplayerManagerJoinLobby_C.md -->
+```cpp
+HRESULT hr = XblMultiplayerManagerJoinLobby(inviteHandleId, xblUserHandle);
+if (!SUCCEEDED(hr))
+{
+    // Handle failure
+}
+
+// Set member connection address
+const char* connectionAddress = "1.1.1.1";
+hr = XblMultiplayerManagerLobbySessionSetLocalMemberConnectionAddress(
+    xblUserHandle, connectionAddress, context);
+```
+
+<!-- **Reference**
+* [XblMultiplayerManagerJoinLobby](xblmultiplayermanagerjoinlobby.md)
+* [XblMultiplayerManagerLobbySessionSetLocalMemberConnectionAddress](xblmultiplayermanagerlobbysessionsetlocalmemberconnectionaddress.md) -->
+
+
 **C++ API**
 ```cpp
 auto result = mpInstance().join_lobby(IProtocolActivatedEventArgs^ args);
@@ -201,10 +338,9 @@ mpInstance->lobby_session()->set_local_member_connection_address(
 
 ```
 
-Error/success is handled via the `join_lobby_completed` event
+Error/success is handled via the `join_lobby_completed` event.
 
 **Functions performed by Multiplayer Manager to accept invites**
-
 * Register RTA & Multiplayer Subscriptions
 * Join Lobby session
  * Existing Lobby state cleanup
@@ -230,6 +366,22 @@ After invites (if any) have been accepted, and the host is ready to start playin
 Before you can call `find_match()`, you must first configure hoppers in your service configuration.
 A hopper defines the rules that SmartMatch uses to match players.
 
+
+**C API**
+<!-- XblMultiplayerManagerFindMatch_C.md -->
+```cpp
+uint32_t timeoutInSeconds = 30;
+HRESULT hr = XblMultiplayerManagerFindMatch(hopperName, attributesJson, timeoutInSeconds);
+if (!SUCCEEDED(hr))
+{
+    // Handle failure
+}
+```
+
+<!-- **Reference**
+* [XblMultiplayerManagerFindMatch](xblmultiplayermanagerfindmatch.md) -->
+
+
 **C++ API**
 ```cpp
 auto result = mpInstance.find_match(HOPPER_NAME);
@@ -238,6 +390,7 @@ if (result.err())
   // handle error
 }
 ```
+
 
 **Functions performed by Multiplayer Manager to find a match**
 * Create a match ticket

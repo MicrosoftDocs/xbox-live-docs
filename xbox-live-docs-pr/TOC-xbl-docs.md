@@ -1,4 +1,4 @@
-# index.md
+# index.yml
 
 ## _include_ get-started/TOC-get-started.md
 

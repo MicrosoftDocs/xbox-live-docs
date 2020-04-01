@@ -1,9 +1,9 @@
 ---
 title: Troubleshooting Xbox Live sign-in
 description: Troubleshooting issues with Xbox Live sign-in, such as correct sandbox and configuration IDs.
-ms.topic: article
 kindex: Troubleshooting Xbox Live sign-in
 kindex: sign-in
+ms.topic: article
 ms.assetid: 87b70b4c-c9c1-48ba-bdea-b922b0236da4
 ms.localizationpriority: medium
 ms.date: 04/04/2017
@@ -44,7 +44,7 @@ The test accounts you create in Partner Center inherit the permissions of the Pa
 #### Your device is not on the correct sandbox
 
 The device you are developing on must be set to a development sandbox.
-On Xbox One, you can set your sandbox using *Xbox One Manager*.
+On Xbox One (or later), you can set your sandbox using *Xbox One Manager*.
 
 For Windows 10 Desktop, you can use the `SwitchSandbox.cmd` script that's located in the `Tools` directory of the Xbox Live SDK installation.
 
@@ -108,8 +108,8 @@ The error codes appear as follows:
 
    ![pfx file in Solution Explorer](../../../images/troubleshooting/pfx_file.png)
 
-   If you didn’t sign-in to Visual Studio with the Microsoft Account used for provisioning the app in Partner Center, Visual Studio will auto generate a signing pfx file based on your personal Microsoft Account or your domain account.
-   When building the appx package, Visual Studio will use that auto-generated pfx to sign the package & alter the “publisher” part of the package identity in the `package.appxmanifest`.
+   If you didn't sign-in to Visual Studio with the Microsoft Account used for provisioning the app in Partner Center, Visual Studio will auto generate a signing pfx file based on your personal Microsoft Account or your domain account.
+   When building the appx package, Visual Studio will use that auto-generated pfx to sign the package & alter the "publisher" part of the package identity in the `package.appxmanifest`.
    As a result, the produced bits (specifically, the `appxmanifest.xml`) will have a different package identity than what you intend to use.
 
 2. Double-check that your `package.appxmanifest` is set to the same application identity as your title in Partner Center.
