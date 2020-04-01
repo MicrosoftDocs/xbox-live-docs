@@ -1,6 +1,3 @@
----
-title: REST reference
----
 # [Xbox Live Services RESTful Reference](atoc-xboxlivews-reference.md)
 # [Universal Resource Identifier (URI) Reference](uri/atoc-xboxlivews-reference-uris.md)
 ## [Achievements URIs](uri/achievements/atoc-reference-achievementsv2.md)

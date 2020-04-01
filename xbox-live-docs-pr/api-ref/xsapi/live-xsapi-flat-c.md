@@ -60,7 +60,7 @@ To manually specify your memory routines, you can do the following:
 ### Managing asynchronous threads
 
 The C API introduces a new asynchronous thread calling pattern that allows developers full control over the threading model.
-For more information, see [Calling pattern for XSAPI C layer async calls](live-flatc-async-patterns.md).
+For more information, see [Calling pattern for XSAPI C layer async calls](../xasync/live-flatc-async-patterns.md).
 
 
 ## Migrating code to use C XSAPI

@@ -18,7 +18,7 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Making async calls in the XSAPI C API](../../api-ref/xsapi/live-flatc-async-patterns.md) | Making asynchronous calls using the XSAPI C API. |
+| [Making async calls in the XSAPI C API](live-flatc-async-patterns.md) | Making asynchronous calls using the XSAPI C API. |
 
 
 <!-- ### See also -->

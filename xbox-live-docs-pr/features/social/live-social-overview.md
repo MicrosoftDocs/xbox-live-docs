@@ -11,9 +11,6 @@ ms.assetid: 27b85218-60f3-4eb0-9f7e-fe90e027db5c
 ms.date: 09/18/2017
 ---
 
-
-
-
 # Overview of Social features
 
 Social features in Xbox Live provide a gaming-oriented social network that includes the following information about a user:
