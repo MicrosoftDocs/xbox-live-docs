@@ -2,12 +2,12 @@
 title: Services and APIs
 description: Using services to analyze Xbox Live activity.
 kindex: Services and APIs
+ms.topic: navigation
 layout: LandingPage
-author: mikehoffms
-ms.author: v-mihof
-ms.topic: article
-ms.localizationpriority: medium
-ms.date: 06/13/2018
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Services and APIs

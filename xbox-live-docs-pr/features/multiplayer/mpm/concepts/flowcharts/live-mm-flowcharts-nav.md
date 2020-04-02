@@ -3,13 +3,13 @@ title: Multiplayer Manager flowcharts
 description: Flowcharts of code for implementing specific Multiplayer Manager scenarios.
 kindex: Multiplayer Manager flowcharts
 kindex: flowcharts, Multiplayer Manager
-layout: LandingPage
 ms.topic: navigation
-ms.prod: gaming
-ms.technology: xboxlive
+layout: LandingPage
 ms.assetid: 0e81ab13-9285-4b72-a6ce-f15add559128
-ms.localizationpriority: medium
-ms.date: 04/04/2017
+ms.localizationpriority: high
+author: mikehoffms
+ms.author: v-mihof
+ms.date: 11/01/2019
 ---
 
 # Multiplayer Manager flowcharts

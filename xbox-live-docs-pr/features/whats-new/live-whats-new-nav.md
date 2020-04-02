@@ -1,17 +1,13 @@
 ---
 title: What's New
 description: New features and functionality in each release of Xbox Live.
-layout: LandingPage
-ms.topic: navigation
 kindex: What's New
-author: mikehoffms
-ms.author: v-mihof
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
-ms.assetid:
-ms.date: 01/31/2020
-edited: 00/00/0000
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # What's New

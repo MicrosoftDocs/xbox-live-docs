@@ -1,13 +1,13 @@
 ---
-layout: LandingPage
 title: Web services
-author: mikehoffms
 description: Creating a Web service for an Xbox Live-enabled app.
-ms.author: v-mihof
-ms.date: 12/06/2018
+kindex: Web services
 ms.topic: article
-keywords: xbox live
-ms.localizationpriority: medium
+layout: LandingPage
+ms.localizationpriority: high
+author: mikehoffms
+ms.author: v-mihof
+ms.date: 11/01/2019
 ---
 
 # Web services

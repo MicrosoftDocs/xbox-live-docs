@@ -3,7 +3,7 @@ title: Managing local Connected Storage
 description: Managing a local cache of the Connected Storage data in a development environment.
 kindex: Managing local Connected Storage
 kindex: connected storage
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: 630cb5fc-5d48-4026-8d6c-3aa617d75b2e
 ms.localizationpriority: medium
 ms.date: 02/27/2018

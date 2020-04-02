@@ -1,15 +1,13 @@
 ---
 title: Game Chat how-to's
 description: Example code for Game Chat 2.
-layout: LandingPage
 kindex: Game Chat how-to's
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.date: 12/18/2019
-ms.topic: navigation
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
+ms.date: 11/01/2019
 ---
 
 # Game Chat how-to's

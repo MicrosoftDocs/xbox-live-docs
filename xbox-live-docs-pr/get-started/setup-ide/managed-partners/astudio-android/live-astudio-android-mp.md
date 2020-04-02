@@ -1,10 +1,10 @@
 ---
 title: Setting up Android Studio targeting Android
 description: Setting up Android Studio targeting Android to use the Xbox Live SDK, for Managed Partners.
+kindex: Setting up Android Studio targeting Android
+ms.topic: conceptual
+ms.localizationpriority: high
 ms.date: 04/19/2019
-ms.topic: article
-keywords: xbox live, games
-ms.localizationpriority: medium
 ---
 
 # Setting up Android Studio targeting Android

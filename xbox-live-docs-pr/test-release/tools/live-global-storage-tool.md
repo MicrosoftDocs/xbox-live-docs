@@ -2,12 +2,12 @@
 title: Global Storage tool (GlobalStorage.exe)
 description: GlobalStorage.exe is used to manage title global storage in test sandboxes, before publish to RETAIL.
 kindex: Global Storage tool (GlobalStorage.exe)
-author: mikehoffms
-ms.author: v-mihof
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mikehoffms
+ms.author: v-mihof
 ms.date: 03/12/2018
 edited: 00/00/0000
 ---

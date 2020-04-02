@@ -3,9 +3,11 @@ title: Storing a binary blob in Title Storage
 description: Storing a binary blob in Title Storage, using PUT.
 kindex: Storing a binary blob in Title Storage
 kindex: title storage
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: a0da36ef-5a5a-466d-80a8-e055ba7e4cdc
 ms.localizationpriority: medium
+author: heba
+ms.author: heba
 ms.date: 04/04/2017
 ---
 

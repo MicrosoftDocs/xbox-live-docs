@@ -1,13 +1,13 @@
 ---
 title: "XR-015: Managing Player Communication"
 description: Titles must not transmit user data or allow communication over Xbox Live when the user's privacy & online safety settings do not allow it.
-ms.topic: article
-keywords: windows 10, uwp, games, xbox, xbox live, policies
-ms.localizationpriority: medium
+kindex: "XR-015: Managing Player Communication"
+ms.topic: conceptual
+ms.localizationpriority: high
 ms.date: 10/01/2019
 ---
 
-# XR-015: Managing Player Communication &diams; 
+# XR-015: Managing Player Communication &diams;
 
 
 Titles must not transmit user data or allow communication over Xbox Live when the user's privacy settings do not allow it.
@@ -28,7 +28,7 @@ Prior to allowing any activity to occur, titles must also check the Xbox Live se
 
 Titles that support cross-network play and communication between Xbox Live and non Xbox Live players need to check communication permissions prior to allowing communication between those players.  
 
-Titles check communication settings for cross network players by using "_CrossNetworkUser_"  which acts as a replacement for the XUID (see XDK). Based on Xbox Live privacy settings, these users will return a result of “allowed” only when the Xbox Live user’s permissions are set to allow communication with all cross network players. Titles which support a cross network friends list can check communication between cross network friends by using "_crossNetworkFriend_" as a replacement for the XUID.  Based on Xbox Live privacy settings, "_CrossNetworkUser_" will return a result of “allowed” only when the Xbox Live user’s permissions are set to allow communication with all cross network players while _“crossNetworkFriend”_ will return ‘allowed’ when the Xbox Live user’s permissions are set to allow communication with all or cross network friends only.
+Titles check communication settings for cross network players by using "_CrossNetworkUser_"  which acts as a replacement for the XUID (see XDK). Based on Xbox Live privacy settings, these users will return a result of "allowed" only when the Xbox Live user's permissions are set to allow communication with all cross network players. Titles which support a cross network friends list can check communication between cross network friends by using "_crossNetworkFriend_" as a replacement for the XUID.  Based on Xbox Live privacy settings, "_CrossNetworkUser_" will return a result of "allowed" only when the Xbox Live user's permissions are set to allow communication with all cross network players while _"crossNetworkFriend"_ will return 'allowed' when the Xbox Live user's permissions are set to allow communication with all or cross network friends only.
 
 ## Intent
 Ensure that customers have appropriate and consistent control over their personal information.
@@ -51,7 +51,7 @@ Ensure that customers have appropriate and consistent control over their persona
 >4. Repeat Steps [1] – [3] for all profiles from the Configuration step.  
 
 **Expected Result**  
-Titles must check the Xbox Live service for a user’s permissions regarding privacy and online safety-related actions before completing certain actions in the title when communicating over Xbox Live.  
+Titles must check the Xbox Live service for a user's permissions regarding privacy and online safety-related actions before completing certain actions in the title when communicating over Xbox Live.  
 
 **Pass Examples**  
 >1. The title prevents the user from communicating over Xbox Live when that specific method of communication is configured to be blocked.  

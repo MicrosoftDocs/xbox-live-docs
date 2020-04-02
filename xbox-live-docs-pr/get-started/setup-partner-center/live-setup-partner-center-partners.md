@@ -1,9 +1,9 @@
 ---
 title: Setting up a game at Partner Center, for Managed Partners
 description: Creating a new game at Partner Center as a Managed Partner, enabling Xbox Live for the game, creating test accounts, and publishing the game to a development sandbox.
-ms.topic: article
 kindex: Setting up a game at Partner Center, for Managed Partners
 kindex: sign-in
+ms.topic: article
 ms.localizationpriority: medium
 ms.date: 02/08/2019
 ---

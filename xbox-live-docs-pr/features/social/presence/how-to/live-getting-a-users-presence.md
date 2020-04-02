@@ -3,10 +3,10 @@ title: Getting a user's Presence
 description: Example code for getting a user's Presence.
 kindex: Getting a user's Presence
 kindex: Presence
+ms.topic: how-to
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: navigation
-ms.localizationpriority: medium
 ms.date: 01/09/2020
 ---
 

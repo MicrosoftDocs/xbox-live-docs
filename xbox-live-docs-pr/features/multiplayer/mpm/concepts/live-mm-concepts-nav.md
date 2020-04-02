@@ -1,15 +1,13 @@
 ---
 title: Multiplayer Manager concepts
 description: Conceptual articles about Multiplayer Manager.
-layout: LandingPage
 kindex: Multiplayer Manager concepts
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: navigation
-ms.prod: gaming
-ms.technology: xboxlive
-ms.date: 12/17/2019
-ms.localizationpriority: medium
+ms.date: 11/01/2019
 ---
 
 # Multiplayer Manager concepts

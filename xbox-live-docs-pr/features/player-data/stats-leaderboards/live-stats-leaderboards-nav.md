@@ -2,14 +2,12 @@
 title: Stats & Leaderboards
 description: How a player has performed and which players have the top stats.
 kindex: Stats & Leaderboards
+ms.topic: navigation
 layout: LandingPage
-ms.topic: landing-page
-ms.prod: xboxlive
-ms.technology: 
-ms.localizationpriority: medium
-author: v-mihof
+ms.localizationpriority: high
+author: mikehoffms
 ms.author: v-mihof
-ms.date: 10/29/2019
+ms.date: 11/01/2019
 ---
 
 # Stats & Leaderboards

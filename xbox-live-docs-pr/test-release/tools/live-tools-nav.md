@@ -2,12 +2,12 @@
 title: Tools for Xbox Live
 description: Tools to help develop and test an Xbox Live-enabled title.
 kindex: Tools for Xbox Live
+ms.topic: navigation
 layout: LandingPage
-author: mikehoffms
-ms.author: v-mihof
-ms.topic: article
-ms.localizationpriority: medium
-ms.date: 06/13/2018
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Tools for Xbox Live

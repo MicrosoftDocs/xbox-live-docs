@@ -1,13 +1,13 @@
 ---
 title: Event-based Stats & Leaderboards how-to's
 description: Example code for event-based Stats & Leaderboards.
-layout: LandingPage
 kindex: Event-based Stats & Leaderboards how-to's
-author: v-mihof
-ms.author: v-mihof
-ms.topic: conceptual
-ms.localizationpriority: medium
-ms.date: 11/20/2019
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Event-based Stats & Leaderboards how-to's

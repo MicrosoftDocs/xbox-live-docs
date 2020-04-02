@@ -2,12 +2,12 @@
 title: Social
 description: Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.
 kindex: Social
+ms.topic: navigation
 layout: LandingPage
-ms.topic: article
-ms.localizationpriority: medium
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.date: 12/11/2018
+ms.date: 11/01/2019
 ---
 
 # Social

@@ -2,12 +2,12 @@
 title: Featured Stats
 description: Featured Stats.
 kindex: Featured Stats
+ms.topic: navigation
 layout: LandingPage
-author: v-mihof
+ms.localizationpriority: high
+author: mikehoffms
 ms.author: v-mihof
-ms.topic: conceptual
-ms.prod: xboxlive
-ms.localizationpriority: medium
+ms.date: 11/01/2019
 ---
 
 # Featured Stats

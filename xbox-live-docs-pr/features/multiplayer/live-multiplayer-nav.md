@@ -3,14 +3,12 @@ title: Multiplayer
 description: Matchmaking, invites, voice and text chat, and networking.
 kindex: Multiplayer
 kindex: Xbox Live, Multiplayer
-layout: LandingPage
 ms.topic: navigation
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
+layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.date: 12/11/2018
+ms.date: 11/01/2019
 ---
 
 # Multiplayer

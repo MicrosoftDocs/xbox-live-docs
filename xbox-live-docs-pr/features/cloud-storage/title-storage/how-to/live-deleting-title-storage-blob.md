@@ -2,14 +2,13 @@
 title: Deleting a blob from Title Storage
 description: Example code for deleting a blob from Title Storage.
 kindex: Deleting a blob from Title Storage
+ms.topic: conceptual
+ms.localizationpriority: high
 author: heba
 ms.author: heba
-ms.topic: conceptual
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
 ms.date: 11/15/2019
 ---
+
 
 # Deleting a blob from Title Storage
 

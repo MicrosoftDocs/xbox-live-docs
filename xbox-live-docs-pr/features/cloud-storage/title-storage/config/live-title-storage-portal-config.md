@@ -4,7 +4,7 @@ description: Configuring Title Storage on Partner Center, for game-save in the c
 kindex: Configuring Title Storage in Partner Center
 kindex: title storage
 kindex: Partner Center, title storage
-ms.topic: article
+ms.topic: conceptual
 ms.localizationpriority: medium
 ms.date: 04/24/2018
 ---

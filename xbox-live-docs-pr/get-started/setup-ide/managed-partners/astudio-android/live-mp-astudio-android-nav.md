@@ -1,11 +1,13 @@
 ---
 title: Android Studio targeting Android
 description: Setting up Android Studio targeting Android to use the Xbox Live SDK, for Managed Partners.
+kindex: Android Studio targeting Android
+ms.topic: navigation
 layout: LandingPage
-ms.date: 02/08/2019
-ms.topic: article
-keywords: xbox live, games
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Android Studio targeting Android

@@ -2,13 +2,12 @@
 title: Rich Presence
 description: Shows what activity a user is currently doing, in which area of the game.
 kindex: Rich Presence
+ms.topic: navigation
 layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: article
-ms.prod: xboxlive
-ms.localizationpriority: medium
-ms.date: 12/06/2018
+ms.date: 11/01/2019
 ---
 
 # Rich Presence

@@ -2,14 +2,12 @@
 title: Matchmaking portal config
 description: Configuring Matchmaking at Partner Center.
 kindex: Matchmaking portal config
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: navigation
-ms.prod: gaming
-ms.technology: xboxlive
-ms.date: 09/19/2019
-ms.localizationpriority: medium
-edited: 00/00/0000
+ms.date: 11/01/2019
 ---
 
 # Matchmaking portal config

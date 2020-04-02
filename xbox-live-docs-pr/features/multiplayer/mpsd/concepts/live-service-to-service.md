@@ -1,12 +1,11 @@
 ---
 title: Service-to-service multiplayer session management
 description: Using service-to-service calling patterns with MPSD.
-ms.date: 05/21/2019
+kindex: Service-to-service multiplayer session management
+kindex: S2S
 ms.topic: conceptual
-ms.prod: gaming
-ms.technology: xboxlive
-keywords: xbox live, xbox, games, multiplayer, service-to-service, s2s
-ms.localizationpriority: medium
+ms.localizationpriority: high
+ms.date: 05/21/2019
 ---
 
 # Service-to-service multiplayer session management
@@ -70,7 +69,7 @@ Request.Headers["X-Xbl-OnBehalfOf-Users"] = "741837829132;priv=multiplayer","892
 
 The only privilege currently supported is `priv=multiplayer`, which indicates that the user has the multiplayer privilege.
 
-When using the `X-Xbl-OnBehalfOf-Users` header, it is as though the user identified in the header is making the call directly from his or her console. Because of this, the calling service is required to maintain the user’s security.
+When using the `X-Xbl-OnBehalfOf-Users` header, it is as though the user identified in the header is making the call directly from his or her console. Because of this, the calling service is required to maintain the user's security.
 
 * Only real XUIDs can be used.
 * The privileges declared for the user must be correct.
@@ -95,7 +94,7 @@ The `Multiplayer.Manage` access policy overrides user access permissions for ser
     Request.Headers["X-Xbl-Deny-Scope"] = "Multiplayer.Manage";
 ```
 
-This header ensures that the Multiplayer.Manage access policy is not used as an override when checking a user’s access (from the user header) to a session. It can be used to ensure that a user has the correct access to a session and that the server access is not overriding any other blocks because of visibility or join restrictions.
+This header ensures that the Multiplayer.Manage access policy is not used as an override when checking a user's access (from the user header) to a session. It can be used to ensure that a user has the correct access to a session and that the server access is not overriding any other blocks because of visibility or join restrictions.
 
 > [!NOTE]
 > When setting this header, the `Multiplayer.Runtime` access must also be granted for the web service as a fall-back. This allows access even when user permissions are denied. Otherwise, no service access is granted in an error scenario and a 403 status will be returned. `Multiplayer.Runtime` access requires an acting user, so the `X-Xbl-Deny-Scope` header will only work together with the `X-Xbl-OnBehalfOf-Users` or a user claim obtained from a `DelegationToken` claim.
@@ -145,7 +144,7 @@ Title services should use these patterns to perform operations on multiple users
 
 ### Adding session members
 
-Session members are added and modified by using one of the above patterns. Generally, the minimum operation to add a player is by setting a property or constant, typically the member’s active status property.
+Session members are added and modified by using one of the above patterns. Generally, the minimum operation to add a player is by setting a property or constant, typically the member's active status property.
 
 > [!NOTE]
 > Members that are not set to active will be removed automatically by the service dependent on the `InactiveTimeout` value for the MPSD session.
@@ -311,7 +310,7 @@ Example session document:
 
             /.../
 
-            "reserved”: true,
+            "reserved": true,
             /.../
         }
     }

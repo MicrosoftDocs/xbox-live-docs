@@ -2,10 +2,10 @@
 title: Broadcasting Xbox Live test accounts to Mixer
 description: Creating test accounts for use with Mixer on your Xbox Live sandbox.
 kindex: Broadcasting Xbox Live test accounts to Mixer
-ms.topic: article
+ms.topic: conceptual
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.localizationpriority: medium
 ms.date: 02/25/2020
 ---
 

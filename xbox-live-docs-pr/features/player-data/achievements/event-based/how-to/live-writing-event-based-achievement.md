@@ -9,8 +9,7 @@ ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
 ms.date: 11/22/2019
-ms.localizationpriority: medium
-edited: 00/00/0000
+ms.localizationpriority: high
 ---
 
 # Writing an event to power an event-based achievement

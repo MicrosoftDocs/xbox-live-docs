@@ -1,14 +1,12 @@
 ---
 title: Relying parties
 description: Configuring your web service as a relying party of Xbox live in order to provide the Single Sign-On experience to Xbox Live users.
-kindex: relying parties, Xbox Live
-author: v-mihof
-ms.author: v-mihof
+kindex: Relying parties
 ms.topic: conceptual
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
-edited: 00/00/0000
+ms.localizationpriority: high
+author: mikehoffms
+ms.author: v-mihof
+ms.date: 11/01/2019
 ---
 
 # Relying parties

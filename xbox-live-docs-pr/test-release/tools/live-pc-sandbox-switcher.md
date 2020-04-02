@@ -3,14 +3,11 @@ title: Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)
 description: Command-line tool that helps manage the Xbox Live sandbox on PC.
 kindex: Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)
 kindex: sandbox switcher
+ms.topic: conceptual
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: conceptual
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
 ms.date: 03/12/2020
-edited: 00/00/0000
 ---
 
 # Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)

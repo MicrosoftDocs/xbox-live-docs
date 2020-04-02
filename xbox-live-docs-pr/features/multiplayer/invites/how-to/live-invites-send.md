@@ -3,14 +3,11 @@ title: Sending invites
 description: Example code for sending multiplayer invites.
 kindex: Sending invites
 kindex: invites
+ms.topic: how-to
+ms.localizationpriority: high
 author: jeffshi
 ms.author: jeffshi
-ms.topic: how-to
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
 ms.date: 10/01/2019
-edited: 10/01/2019
 ---
 
 # Sending invites

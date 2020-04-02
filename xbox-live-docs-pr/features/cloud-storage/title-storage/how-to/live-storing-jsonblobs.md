@@ -2,9 +2,11 @@
 title: Storing a JSON blob in Title Storage
 description: Storing a JSON blob in Title Storage, using PUT.
 kindex: Storing a JSON blob in Title Storage
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: f424aca1-e671-4e31-84c6-098fda4a9558
 ms.localizationpriority: medium
+author: heba
+ms.author: heba
 ms.date: 04/04/2017
 ---
 
