@@ -1,5 +1,5 @@
 - name: Cloud Storage
-  href: 
+  href: index.yml
   items: 
     - name: Connected Storage vs. Title Storage
       href: live-connected-storage-vs-title-storage.md

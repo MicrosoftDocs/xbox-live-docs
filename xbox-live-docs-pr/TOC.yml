@@ -572,7 +572,7 @@
                     - name: Migrating from Game Chat 1 to Game Chat 2
                       href: features/multiplayer/chat/how-to/live-game-chat-2-migration.md
         - name: Cloud Storage
-          href: features/cloud-storage/live-cloud-storage-nav.md
+          href: features/cloud-storage/index.yml
           items:
             - name: Connected Storage vs. Title Storage
               href: features/cloud-storage/live-connected-storage-vs-title-storage.md
