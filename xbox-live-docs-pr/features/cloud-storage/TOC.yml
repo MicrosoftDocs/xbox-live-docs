@@ -17,7 +17,7 @@
               href: connected-storage/concepts/live-connected-storage-xb-storage.md
             - name: Best practices
               href: connected-storage/concepts/live-connected-storage-best-practices.md
-        - name: How-to's
+        - name: Samples
           href: 
           items:
             - name: Saving data
@@ -35,12 +35,12 @@
       items:
         - name: Overview
           href: title-storage/live-title-storage-overview.md
-        - name: Portal config
+        - name: How-to guides
           href: 
           items:                              
-            - name: Partner Center configuration
+            - name: Set up in Partner Center
               href: title-storage/config/live-title-storage-portal-config.md
-        - name: How-tos
+        - name: Samples
           href: 
           items:
             - name: Uploading a blob

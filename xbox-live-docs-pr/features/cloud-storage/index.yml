@@ -109,9 +109,9 @@ landingContent:
         links:
           - text: Overview
             url: title-storage/live-title-storage-overview.md
-      - linkListType: deploy
+      - linkListType: how-to-guide
         links:
-          - text: Partner Center configuration
+          - text: Set up in Partner Center
             url: title-storage/config/live-title-storage-portal-config.md
       - linkListType: sample
         links:
