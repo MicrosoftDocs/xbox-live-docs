@@ -2,13 +2,11 @@
 title: Updating title-managed Achievements
 description: Example code for updating title-managed Achievements.
 kindex: Updating title-managed Achievements
+ms.topic: conceptual
+ms.localizationpriority: high
 author: XBL
 ms.author: v-jasch
-ms.topic: conceptual
-ms.prod: xboxlive
-ms.technology: 
 ms.date: 09/23/2019
-ms.localizationpriority: medium
 ---
 
 

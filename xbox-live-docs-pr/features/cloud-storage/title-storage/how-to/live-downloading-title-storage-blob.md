@@ -2,16 +2,16 @@
 title: Downloading a blob from Title Storage
 description: Example code for downloading a blob from Title Storage.
 kindex: Downloading a blob from Title Storage
+ms.topic: conceptual
+ms.assetid: f424aca1-e671-4e31-84c6-098fda4a9558
+ms.localizationpriority: high
 author: heba
 ms.author: heba
-ms.topic: conceptual
-ms.prod: gaming
-ms.technology: xboxlive
-ms.assetid: f424aca1-e671-4e31-84c6-098fda4a9558
-ms.localizationpriority: medium
 ms.date: 11/15/2019
-edited: 00/00/0000
 ---
+
+
+
 
 # Downloading a blob from Title Storage
 

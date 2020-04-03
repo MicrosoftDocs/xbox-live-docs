@@ -3,12 +3,11 @@ title: Updating a user's Presence via XSAPI C
 description: Example code for setting a user's online Presence status.
 kindex: Updating a user's Presence via XSAPI C
 kindex: Presence
+ms.topic: conceptual
+ms.localizationpriority: high
 author: jeffshi
 ms.author: v-mihof
-ms.topic: conceptual
-ms.localizationpriority: medium
 ms.date: 01/09/2020
-edited: 01/09/2020
 ---
 
 

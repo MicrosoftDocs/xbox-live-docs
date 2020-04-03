@@ -3,7 +3,7 @@ title: Best practices for Connected Storage
 description: Getting the best performance and experience from Connected Storage, such as when to load and save.
 kindex: Best practices for Connected Storage
 kindex: connected storage
-ms.topic: article
+ms.topic: conceptual
 ms.localizationpriority: medium
 ms.date: 02/27/2018
 ---

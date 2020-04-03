@@ -1,13 +1,13 @@
 ---
 title: Sandboxes
-author: mikehoffms
 description: Sandboxes are for testing and publishing in an isolated environment.
+kindex: Sandboxes
+ms.topic: navigation
 layout: LandingPage
-ms.author: v-mihof
-ms.date: 03/06/2019
-ms.topic: article
-keywords: xbox live
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Sandboxes

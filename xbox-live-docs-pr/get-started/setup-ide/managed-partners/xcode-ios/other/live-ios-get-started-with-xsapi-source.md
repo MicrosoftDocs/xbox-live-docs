@@ -1,12 +1,13 @@
 ---
 title: Get started with Xbox Live APIs on iOS
-author: KevinAsgari
 description: Learn how to add and compile the Xbox Live APIs source in your iOS project.
+kindex: Get started with Xbox Live APIs on iOS
+kindex: iOS
+author: KevinAsgari
 ms.author: kevinasg
-ms.date: 09/21/2018
 ms.topic: article
-keywords: xbox live, xbox, games, iOS
 ms.localizationpriority: medium
+ms.date: 09/21/2018
 ---
 
 # Get started with Xbox Live APIs on iOS

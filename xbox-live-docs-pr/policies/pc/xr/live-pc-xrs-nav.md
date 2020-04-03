@@ -5,14 +5,12 @@ kindex: XRs for PC and mobile
 kindex: Xbox Requirements (XRs) for Xbox Live
 kindex: Xbox Live, XRs
 kindex: Xbox Live, Xbox Requirements (XRs)
+ms.topic: navigation
 layout: LandingPage
-ms.topic: conceptual
-ms.prod: gaming
-ms.technology: xboxlive
-author: v-mihof
-ms.author: v-mihof
-ms.localizationpriority: medium
-edited: 01/24/2020
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # XRs for PC and mobile

@@ -3,10 +3,12 @@ title: Signing into Xbox Live in Unity
 description: Signing into Xbox Live in Unity.
 kindex: Signing into Xbox Live in Unity
 kindex: Unity, sign-in
+ms.topic: navigation
 layout: LandingPage
-ms.topic: article
-ms.localizationpriority: medium
-ms.date: 04/05/2019
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Signing into Xbox Live in Unity

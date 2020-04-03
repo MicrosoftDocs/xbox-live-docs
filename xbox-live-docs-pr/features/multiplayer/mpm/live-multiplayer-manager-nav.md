@@ -1,12 +1,13 @@
 ---
 title: Multiplayer Manager (MPM)
 description: High-level API for adding multiplayer functionality by managing sessions, matchmaking, and game invites. Provides a state- and event-based programming model.
-layout: LandingPage
+kindex: Multiplayer Manager (MPM)
 ms.topic: navigation
-ms.prod: gaming
-ms.technology: xboxlive
-ms.date: 02/08/2019
-ms.localizationpriority: medium
+layout: LandingPage
+ms.localizationpriority: high
+author: mikehoffms
+ms.author: v-mihof
+ms.date: 11/01/2019
 ---
 
 # Multiplayer Manager (MPM)

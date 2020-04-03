@@ -2,15 +2,15 @@
 title: Getting Title Storage blob metadata
 description: Example code for getting Title Storage blob metadata.
 kindex: Getting Title Storage blob metadata
+ms.topic: conceptual
+ms.localizationpriority: high
 author: heba
 ms.author: heba
-ms.topic: conceptual
-ms.prod: gaming
-ms.technology: xboxlive
 ms.date: 11/15/2019
-ms.localizationpriority: medium
-edited: 11/15/2019
 ---
+
+
+
 
 # Getting Title Storage blob metadata
 

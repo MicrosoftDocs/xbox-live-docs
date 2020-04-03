@@ -4,14 +4,12 @@ description: Event-based Achievements.
 kindex: Event-based Achievements
 kindex: Achievements
 kindex: Xbox Live, Achievements
-layout: LandingPage
-author: XBL
-ms.author: player-data
 ms.topic: navigation
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
-ms.date: 11/22/2019
+layout: LandingPage
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Event-based Achievements

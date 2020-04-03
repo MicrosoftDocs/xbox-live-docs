@@ -1,11 +1,13 @@
 ---
 title: XSAPI reference
 description: Xbox Services API (XSAPI) reference.
+kindex: XSAPI reference
+ms.topic: navigation
 layout: LandingPage
-ms.date: 05/09/2019
-ms.topic: article
-keywords: games, xbox live, xbox, xsapi
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # XSAPI reference

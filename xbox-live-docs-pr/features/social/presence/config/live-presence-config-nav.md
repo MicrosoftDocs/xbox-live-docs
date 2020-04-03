@@ -1,15 +1,13 @@
 ---
 title: Rich Presence portal config
 description: Configuring Rich Presence strings at Partner Center.
-layout: LandingPage
 kindex: Rich Presence portal config
-author: jeffshi
-ms.author: jeffshi
-ms.topic: conceptual
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
-edited: 01/09/2020
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
+author: mikehoffms
+ms.author: v-mihof
+ms.date: 11/01/2019
 ---
 
 # Rich Presence portal config

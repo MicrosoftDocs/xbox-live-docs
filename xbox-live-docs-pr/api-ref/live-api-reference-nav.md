@@ -2,12 +2,12 @@
 title: API Reference
 description: Xbox Live API reference, including Xbox Services API (XSAPI), WinRT, Xbox Authentication Library (XAL), XAsync, and RESTful APIs.
 kindex: API Reference
+ms.topic: navigation
 layout: LandingPage
-ms.topic: article
-ms.localizationpriority: medium
-author: mikehoffms
-ms.author: v-mihof
-ms.date: 12/12/2018
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # API Reference

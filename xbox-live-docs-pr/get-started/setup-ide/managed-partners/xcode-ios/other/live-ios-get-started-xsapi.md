@@ -3,10 +3,10 @@ title: Getting started with Xbox Live SDK for iOS
 description: Adding the Xbox Live SDK to an iOS project (older article).
 kindex: Getting started with Xbox Live SDK for iOS
 kindex: iOS, Xbox Live
+ms.topic: conceptual
+ms.localizationpriority: medium
 author: JeffreyShi
 ms.author: jeffshi
-ms.topic: article
-ms.localizationpriority: medium
 ms.date: 03/10/2019
 ---
 

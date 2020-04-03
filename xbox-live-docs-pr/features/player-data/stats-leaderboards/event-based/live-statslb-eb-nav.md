@@ -2,11 +2,12 @@
 title: Event-based Stats & Leaderboards
 description: Event-based Stats & Leaderboards.
 kindex: Event-based Stats & Leaderboards
+ms.topic: navigation
 layout: LandingPage
-author: v-mihof
+ms.localizationpriority: high
+author: mikehoffms
 ms.author: v-mihof
-ms.topic: article
-ms.localizationpriority: medium
+ms.date: 11/01/2019
 ---
 
 # Event-based Stats & Leaderboards

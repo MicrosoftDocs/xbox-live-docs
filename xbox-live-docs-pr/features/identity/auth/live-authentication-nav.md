@@ -1,13 +1,15 @@
 ---
 title: Authentication and sign-in
 description: Signing-in an Xbox Live user in your game.
-layout: LandingPage
 kindex: Authentication and sign-in
 kindex: sign-in
 ms.topic: navigation
+layout: LandingPage
 ms.assetid: 7a9dfb3c-1ccc-4948-a218-37101069c91a
-ms.localizationpriority: medium
-ms.date: 04/04/2017
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Authentication and sign-in

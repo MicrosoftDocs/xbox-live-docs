@@ -3,12 +3,12 @@ title: Configuring Xbox Live services
 description: Configuring Xbox Live services to support various features for your game.
 kindex: Configuring Xbox Live services
 kindex: service configuration
+ms.topic: navigation
 layout: LandingPage
-ms.topic: article
-ms.localizationpriority: medium
-author: mikehoffms
-ms.author: v-mihof
-ms.date: 12/06/2018
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Configuring Xbox Live services

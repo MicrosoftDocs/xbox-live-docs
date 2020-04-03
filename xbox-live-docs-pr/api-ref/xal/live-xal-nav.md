@@ -1,11 +1,14 @@
 ---
 title: XAL reference
 description: Xbox Authentication Library (XAL) reference.
+kindex: XAL reference
+kindex: Xbox Authentication Library (XAL) reference
+ms.topic: navigation
 layout: LandingPage
-ms.date: 05/09/2019
-ms.topic: article
-keywords: games, xbox live, xbox, xal
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # XAL reference

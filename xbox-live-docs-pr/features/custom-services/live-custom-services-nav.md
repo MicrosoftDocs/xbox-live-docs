@@ -1,13 +1,13 @@
 ---
 title: Custom services
-layout: LandingPage
-author: mikehoffms
 description: Using Xbox Live with your own Web services; and configuring relying parties, single sign-on, and access policies.
-ms.author: v-mihof
-ms.date: 12/11/2018
+kindex: Custom services
 ms.topic: article
-keywords: windows 10, uwp, games, xbox, xbox live
-ms.localizationpriority: medium
+layout: LandingPage
+ms.localizationpriority: high
+author: mikehoffms
+ms.author: v-mihof
+ms.date: 11/01/2019
 ---
 
 # Custom services

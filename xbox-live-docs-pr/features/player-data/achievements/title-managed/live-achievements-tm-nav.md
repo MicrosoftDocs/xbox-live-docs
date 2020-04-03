@@ -1,14 +1,15 @@
 ---
 title: Title-managed Achievements
 description: Title-managed Achievements.
-layout: LandingPage
 kindex: Title-managed Achievements
 kindex: Achievements
 kindex: Xbox Live, Achievements
-author: v-mihof
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
+author: mikehoffms
 ms.author: v-mihof
-ms.topic: conceptual
-ms.localizationpriority: medium
+ms.date: 11/01/2019
 ---
 
 # Title-managed Achievements

@@ -3,9 +3,10 @@ title: Xbox Live Trace Analyzer (XBLTraceAnalyzer.exe)
 description: Reviews the service calls made by a title.
 kindex: Xbox Live Trace Analyzer (XBLTraceAnalyzer.exe)
 kindex: trace analyzer
+kindex: XBLTraceAnalyzer.exe
 kindex: service calls, testing
-ms.topic: article
-ms.localizationpriority: medium
+ms.topic: conceptual
+ms.localizationpriority: high
 ms.assetid: b4490fae-d554-403d-bbbc-601af38af0ef
 ms.date: 04/04/2017
 ---

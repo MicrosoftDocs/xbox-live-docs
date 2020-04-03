@@ -4,12 +4,12 @@ description: A player can invite other players to their game sessions. Invited p
 kindex: Invites
 kindex: protocol activation
 kindex: multiplayer
-layout: LandingPage
 ms.topic: navigation
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
-ms.date: 04/04/2017
+layout: LandingPage
+ms.localizationpriority: high
+author: mikehoffms
+ms.author: v-mihof
+ms.date: 11/01/2019
 ---
 
 # Invites

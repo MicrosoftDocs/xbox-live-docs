@@ -2,13 +2,12 @@
 title: Getting Started
 description: Join a developer program, create a game at Partner Center, add the Xbox Live SDK to your IDE, and write basic sign-in code.
 kindex: Getting Started
+ms.topic: navigation
 layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.date: 12/11/2018
-ms.topic: article
-keywords: windows 10, uwp, games, xbox, xbox live
-ms.localizationpriority: medium
+ms.date: 11/01/2019
 ---
 
 # Getting Started

@@ -2,12 +2,12 @@
 title: Title-managed Achievements concepts
 description: Configuring an achievement to deliver rewards, such as gamerscore, art, and in-app rewards.
 kindex: Title-managed Achievements concepts
-author: jeffshi
-ms.author: jeffshi
 ms.topic: navigation
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
+layout: LandingPage
+ms.localizationpriority: high
+author: mikehoffms
+ms.author: v-mihof
+ms.date: 11/01/2019
 ---
 
 # Title-managed Achievements concepts

@@ -1,15 +1,13 @@
 ---
 title: Invites concepts
 description: Conceptual articles about Multiplayer Invites.
-layout: LandingPage
 kindex: Invites concepts
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: navigation
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
-edited: 12/18/2019
+ms.date: 11/01/2019
 ---
 
 # Invites concepts

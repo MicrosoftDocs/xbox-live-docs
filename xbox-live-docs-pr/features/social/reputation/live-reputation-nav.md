@@ -3,12 +3,12 @@ title: Reputation
 description: The Reputation service encourages positive gameplay.
 kindex: Reputation
 kindex: social features
+ms.topic: navigation
 layout: LandingPage
-ms.topic: article
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.localizationpriority: medium
-ms.date: 12/06/2018
+ms.date: 11/01/2019
 ---
 
 # Reputation

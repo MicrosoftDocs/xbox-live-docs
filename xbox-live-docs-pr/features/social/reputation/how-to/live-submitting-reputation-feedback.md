@@ -3,12 +3,10 @@ title: Submitting Reputation feedback
 description: Example code for submitting Reputation feedback.
 kindex: Submitting Reputation feedback
 kindex: Reputation
+ms.topic: conceptual
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: conceptual
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
 ms.date: 01/09/2020
 ---
 
