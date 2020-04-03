@@ -1,8 +1,8 @@
 ---
 title: Multiplayer session browse
 description: Multiplayer session browse enables a title to query for a list of open multiplayer game sessions that meet the specified criteria.
-title: Multiplayer session browse
-title: session browse, multiplayer
+kindex: Multiplayer session browse
+kindex: session browse, multiplayer
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
@@ -10,10 +10,6 @@ ms.assetid: b4b3ed67-9e2c-4c14-9b27-083b8bccb3ce
 ms.localizationpriority: medium
 ms.date: 10/16/2017
 ---
-
-
-
-
 
 # Multiplayer session browse
 

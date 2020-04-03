@@ -1,14 +1,14 @@
 ---
-title: Xbox Live Integration Policies for PC and Mobile Devices
+title: Xbox Live Policies for PC and mobile
 description: Policies for adding Xbox Live to a PC or mobile game.
-kindex: Xbox Live Integration Policies for PC and Mobile Devices
+kindex: Xbox Live Policies for PC and mobile
 kindex: policies
 ms.topic: conceptual
 ms.localizationpriority: high
 ms.date: 10/01/2019
 ---
 
-# Xbox Live Integration Policies for PC and Mobile Devices
+# Xbox Live Policies for PC and mobile
 
 Version 2.0
 

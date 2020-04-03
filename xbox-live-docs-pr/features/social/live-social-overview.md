@@ -11,9 +11,6 @@ ms.assetid: 27b85218-60f3-4eb0-9f7e-fe90e027db5c
 ms.date: 09/18/2017
 ---
 
-
-
-
 # Overview of Social features
 
 Social features in Xbox Live provide a gaming-oriented social network that includes the following information about a user:
@@ -125,11 +122,7 @@ Gamers who join Clubs increase their engagement by 40% and make more friends.
 An important part of the Xbox social system is activity sharing.
 This lets all your friends on Xbox Live know what you've been up to, with the special added benefit of giving your game more exposure for every player getting in the game.
 
-<<<<<<< HEAD
-The following features are meant to help Xbox users discover your game and keep them engaged after they've become yet another loyal fan.
-=======
 The following features help Xbox Live users discover your game and keep them engaged after they've become yet another loyal fan.
->>>>>>> master
 Even better than that, every time they play your game they'll be enticing all their friends to join your legion.
 
 

@@ -1,7 +1,7 @@
 ---
-title: Xbox Live samples
+title: Xbox Live Samples
 description: Xbox Live API samples and Xbox Developer Kit samples.
-kindex: Xbox Live samples
+kindex: Xbox Live Samples
 kindex: samples, Xbox Live
 ms.topic: article
 ms.assetid: 4bb6fa66-34d1-4db9-87c8-7e24ad5afc0a
@@ -9,7 +9,7 @@ ms.localizationpriority: medium
 ms.date: 04/04/2017
 ---
 
-# Xbox Live samples
+# Xbox Live Samples
 
 There are Xbox Live API samples and Xbox Developer Kit samples.
 
