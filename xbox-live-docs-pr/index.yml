@@ -11,7 +11,7 @@ metadata:
   ms.topic: landing-page # Required
   # ms.collection: collection # Optional; Remove if no collection is used.
   author: mlamaute #Required; your GitHub user alias, with correct capitalization.
-  ms.author: mlamaute #Required; microsoft alias of author; optional team alias.
+  ms.author: migreen #Required; microsoft alias of author; optional team alias.
   ms.date: 03/25/2020 #Required; mm/dd/yyyy format.
 
   # Max cards: 12 (currently 10)
@@ -20,7 +20,7 @@ metadata:
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 
-# 4 XBL infotypes + ref, use these:
+# 4 XBL infotypes + ref, use these for the XBL home landing page:
 
       # Describes a product/service from a technical point of view.
       # - linkListType: overview
@@ -43,6 +43,9 @@ metadata:
 
       # Detailed guidance for how to design and deploy an architecture.
       # - linkListType: architecture
+
+      # How to deploy a service.
+      # - linkListType: deploy
 
       # Procedural articles that show the customer how to complete a task.
       # - linkListType: how-to-guide
