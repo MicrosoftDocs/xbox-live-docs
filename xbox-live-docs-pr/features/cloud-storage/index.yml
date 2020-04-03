@@ -80,62 +80,58 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: Connected Storage overview
+          - text: Overview
             url: connected-storage/live-connected-storage-overview.md
-          - text: Connected Storage technical overview
+          - text: Technical overview
             url: connected-storage/live-connected-storage-technical-overview.md
       - linkListType: concept
         links:
           - text: Managing local Connected Storage
             url: connected-storage/concepts/live-connected-storage-xb-storage.md
-          - text: Best practices for Connected Storage
-            url: connected-storage/concepts/live-connected-storage-best-practices.md
-          - text: Managing local Connected Storage
-            url: connected-storage/concepts/live-connected-storage-xb-storage.md
-          - text: Best practices for Connected Storage
+          - text: Best practices
             url: connected-storage/concepts/live-connected-storage-best-practices.md
       - linkListType: sample
         links:
-          - text: Saving data with Connected Storage
+          - text: Saving data
             url: connected-storage/how-to/live-connected-storage-saving.md
-          - text: Loading data with Connected Storage
+          - text: Loading data
             url: connected-storage/how-to/live-connected-storage-loading.md
-          - text: Deleting data with Connected Storage
+          - text: Deleting data
             url: connected-storage/how-to/live-connected-storage-deleting.md
-          - text: Loading data on-demand with Connected Storage
+          - text: Loading data on-demand
             url: connected-storage/how-to/live-connected-storage-loading-on-demand.md
-          - text: Working with Connected Storage buffers
+          - text: Working with buffers
             url: connected-storage/how-to/live-connected-storage-using-buffers.md
   # Card
   - title: Title Storage
     linkLists:
       - linkListType: overview
         links:
-          - text: Title Storage overview
+          - text: Overview
             url: title-storage/live-title-storage-overview.md
       - linkListType: deploy
         links:
-          - text: Configuring Title Storage in Partner Center
+          - text: Partner Center configuration
             url: title-storage/config/live-title-storage-portal-config.md
       - linkListType: sample
         links:
-          - text: Uploading a blob to Title Storage
+          - text: Uploading a blob
             url: title-storage/how-to/live-uploading-title-storage-blob.md
-          - text: Downloading a blob from Title Storage
+          - text: Downloading a blob
             url: title-storage/how-to/live-downloading-title-storage-blob.md
-          - text: Deleting a blob from Title Storage
+          - text: Deleting a blob
             url: title-storage/how-to/live-deleting-title-storage-blob.md
-          - text: Getting Title Storage blob metadata
+          - text: Getting blob metadata
             url: title-storage/how-to/live-getting-title-storage-blob-metadata.md
-          - text: Getting quota info for a Title Storage service configuration
+          - text: Getting quota info for a service configuration
             url: title-storage/how-to/live-getting-title-storage-quota-info.md
-          - text: Storing a JSON blob in Title Storage
+          - text: Storing a JSON blob
             url: title-storage/how-to/live-storing-jsonblobs.md
-          - text: Storing a binary blob in Title Storage
+          - text: Storing a binary blob
             url: title-storage/how-to/live-storing-binary-blobs.md
-          - text: Reading a binary blob from Title Storage
+          - text: Reading a binary blob
             url: title-storage/how-to/live-reading-binary-blobs.md
-          - text: Reading a JSON blob from Title Storage
+          - text: Reading a JSON blob
             url: title-storage/how-to/live-reading-jsonblobs.md
-          - text: Reading a configuration blob from Title Storage
+          - text: Reading a configuration blob
             url: title-storage/how-to/live-reading-configuration-blobs.md
