@@ -4,13 +4,12 @@ description: Example code for Title Storage.
 kindex: Title Storage how-to's
 kindex: Title Storage, Xbox Live
 kindex: storage, Title Storage
-author: v-mihof
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
+author: mikehoffms
 ms.author: v-mihof
-ms.topic: conceptual
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
-edited: 00/00/0000
+ms.date: 11/01/2019
 ---
  
 # Title Storage how-to's

@@ -2,12 +2,12 @@
 title: Title Storage
 description: Title Storage is cloud storage for large amounts of per-user or per-game data, such as player statistics and assets.
 kindex: Title Storage
+ms.topic: navigation
 layout: LandingPage
-ms.topic: article
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.localizationpriority: medium
-ms.date: 12/06/2018
+ms.date: 11/01/2019
 ---
 
 # Title Storage

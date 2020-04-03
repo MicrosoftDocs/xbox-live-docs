@@ -3,11 +3,13 @@ layout: LandingPage
 title: Single Sign-on
 author: mikehoffms
 description: Enables a player using your title to sign into your services by using their Xbox Live sign-in.
+kindex: Single sign-on
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
+author: mikehoffms
 ms.author: v-mihof
-ms.date: 12/06/2018
-ms.topic: article
-keywords: xbox live
-ms.localizationpriority: medium
+ms.date: 11/01/2019
 ---
 
 # Single Sign-on

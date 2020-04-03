@@ -3,7 +3,7 @@ title: Deleting data with Connected Storage
 description: Code examples using Connected Storage to delete blob data and container data.
 kindex: Deleting data with Connected Storage
 kindex: connected storage
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: ccf7488c-5d55-480e-b3aa-412220d03104
 ms.localizationpriority: medium
 ms.date: 02/27/2018

@@ -2,12 +2,12 @@
 title: Best practices for Xbox Live
 description: Best practices for calling Xbox Live APIs, such as proper calling patterns and retry logic.
 kindex: Best practices for Xbox Live
+ms.topic: navigation
 layout: LandingPage
-author: mikehoffms
-ms.author: v-mihof
-ms.topic: article
-ms.localizationpriority: medium
-ms.date: 12/06/2018
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Best practices for Xbox Live

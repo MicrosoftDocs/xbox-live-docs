@@ -1,13 +1,14 @@
 ---
-layout: LandingPage
 title: Testing and Releasing
-author: mikehoffms
 description: Testing, troubleshooting, and publishing a game.
-ms.author: v-mihof
-ms.date: 12/11/2018
-ms.topic: article
-keywords: windows 10, uwp, games, xbox, xbox live, releasing
-ms.localizationpriority: medium
+kindex: Testing and Releasing
+kindex: releasing
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Testing and Releasing

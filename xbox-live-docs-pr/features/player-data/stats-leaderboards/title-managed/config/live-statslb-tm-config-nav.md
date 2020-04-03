@@ -2,13 +2,12 @@
 title: Title-managed Stats & Leaderboards portal config
 description: Configuring title-managed Stats & Leaderboards at Partner Center.
 kindex: Title-managed Stats & Leaderboards portal config
-author: v-mihof
-ms.author: v-mihof
-ms.topic: conceptual
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
-ms.date: 11/20/2019
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Title-managed Stats & Leaderboards portal config

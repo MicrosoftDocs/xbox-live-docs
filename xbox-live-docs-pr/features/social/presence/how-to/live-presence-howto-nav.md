@@ -1,13 +1,13 @@
 ---
 title: Rich Presence how-to's
 description: Example code for Rich Presence strings.
-layout: LandingPage
 kindex: Rich Presence how-to's
-author: mikehoffms
-ms.author: v-mihof
-ms.date: 01/09/2020
 ms.topic: navigation
-ms.localizationpriority: medium
+layout: LandingPage
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Rich Presence how-to's

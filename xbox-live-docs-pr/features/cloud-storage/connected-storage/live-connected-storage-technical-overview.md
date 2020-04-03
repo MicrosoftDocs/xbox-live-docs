@@ -3,7 +3,7 @@ title: Technical overview of Connected Storage
 description: The inner workings of Connected Storage.
 kindex: Technical overview of Connected Storage
 kindex: connected storage
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: a0bacf59-120a-4ffc-85e1-fbeec5db1308
 ms.localizationpriority: medium
 ms.date: 02/27/2018

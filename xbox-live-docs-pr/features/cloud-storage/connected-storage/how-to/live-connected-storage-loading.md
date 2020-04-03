@@ -3,7 +3,7 @@ title: Loading data with Connected Storage
 description: Code examples using Connected Storage to read data by calling ReadAsync or GetAsync.
 kindex: Loading data with Connected Storage
 kindex: connected storage
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: c660a456-fe7d-453a-ae7b-9ecaa2ba0a15
 ms.localizationpriority: medium
 ms.date: 02/27/2018

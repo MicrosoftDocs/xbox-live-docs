@@ -3,11 +3,13 @@ layout: LandingPage
 title: Access Policies
 author: mikehoffms
 description: Configuring access policies to allow other apps, games, and services to access a title's Xbox Live settings.
+kindex: Access policies
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
+author: mikehoffms
 ms.author: v-mihof
-ms.date: 12/06/2018
-ms.topic: article
-keywords: xbox live
-ms.localizationpriority: medium
+ms.date: 11/01/2019
 ---
 
 # Access policies

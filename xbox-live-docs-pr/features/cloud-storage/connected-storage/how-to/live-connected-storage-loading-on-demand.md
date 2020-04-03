@@ -3,7 +3,7 @@ title: Loading data on-demand with Connected Storage
 description: Loading Connected Storage gameplay data on-demand, instead of loading all data at once, for large file saves.
 kindex: Loading data on-demand with Connected Storage
 kindex: connected storage
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: a0797a14-c972-4017-864c-c6ba0d5a3363
 ms.localizationpriority: medium
 ms.date: 02/27/2018

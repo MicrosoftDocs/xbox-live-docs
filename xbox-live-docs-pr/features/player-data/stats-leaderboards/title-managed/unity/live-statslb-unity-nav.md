@@ -1,12 +1,13 @@
 ---
 title: Stats & Leaderboards with Unity
 description: Stats & Leaderboards with Unity.
-layout: LandingPage
 kindex: Stats & Leaderboards with Unity
-author: v-mihof
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
+author: mikehoffms
 ms.author: v-mihof
-ms.topic: conceptual
-ms.localizationpriority: medium
+ms.date: 11/01/2019
 ---
 
 # Stats & Leaderboards with Unity

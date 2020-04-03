@@ -1,15 +1,13 @@
 ---
 title: MPSD concepts
 description: Conceptual articles about Multiplayer Session Directory.
-layout: LandingPage
 kindex: MPSD concepts
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.date: 12/17/2019
-ms.topic: navigation
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
+ms.date: 11/01/2019
 ---
 
 # MPSD concepts

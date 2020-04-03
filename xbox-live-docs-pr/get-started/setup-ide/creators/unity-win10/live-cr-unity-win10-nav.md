@@ -1,11 +1,13 @@
 ---
 title: Unity targeting Windows 10
 description: Setting up Unity targeting Windows 10 to use the Xbox Live SDK, for Creators.
+kindex: Unity targeting Windows 10
+ms.topic: navigation
 layout: LandingPage
-ms.date: 04/19/2019
-ms.topic: article
-keywords: xbox live, games
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Unity targeting Windows 10

@@ -3,8 +3,8 @@ title: Recommended Policy Tests for PC and mobile
 description: Test cases for adding Xbox Live to a PC or mobile game.
 kindex: Recommended Policy Tests for PC and mobile
 kindex: policies
-ms.topic: article
-ms.localizationpriority: medium
+ms.topic: conceptual
+ms.localizationpriority: high
 ms.date: 10/01/2019
 ---
 # Recommended Policy Tests for PC and mobile

@@ -2,14 +2,11 @@
 title: Writing an event to power an event-based Stat
 description: Example code for writing an event to power an event-based Stat.
 kindex: Writing an event to power an event-based Stat
+ms.topic: conceptual
+ms.localizationpriority: high
 author: v-mihof
 ms.author: v-mihof
-ms.topic: conceptual
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
 ms.date: 11/22/2019
-edited: 00/00/0000
 ---
 
 # Writing an event to power an event-based Stat

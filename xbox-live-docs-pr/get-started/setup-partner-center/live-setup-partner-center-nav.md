@@ -3,10 +3,12 @@ title: Setting up a game at Partner Center
 description: Creating a new game at Partner Center, enabling Xbox Live for the game, and publishing the game to a development sandbox.
 kindex: Setting up a game at Partner Center
 kindex: sign-in
+ms.topic: navigation
 layout: LandingPage
-ms.topic: article
-ms.localizationpriority: medium
-ms.date: 02/08/2019
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 # Setting up a game at Partner Center
 

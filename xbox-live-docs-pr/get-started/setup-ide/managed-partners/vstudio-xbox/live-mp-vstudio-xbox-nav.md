@@ -1,11 +1,13 @@
 ---
 title: Visual Studio targeting Xbox
 description: Setting up Visual Studio targeting Xbox to use the Xbox Live SDK, for Managed Partners.
+kindex: Visual Studio targeting Xbox
+ms.topic: navigation
 layout: LandingPage
-ms.date: 02/08/2019
-ms.topic: article
-keywords: xbox live, games
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Visual Studio targeting Xbox

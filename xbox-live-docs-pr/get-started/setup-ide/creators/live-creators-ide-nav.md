@@ -1,11 +1,13 @@
 ---
 title: Setting up an IDE, for Creators
 description: Setting up an IDE to use the Xbox Live SDK, for Creators.
+kindex: Setting up an IDE, for Creators
+ms.topic: navigation
 layout: LandingPage
-ms.date: 04/11/2019
-ms.topic: article
-keywords: xbox live, games
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Setting up an IDE, for Creators

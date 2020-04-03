@@ -7,8 +7,8 @@ kindex: RTA
 author: mikehoffms
 ms.author: v-mihof
 ms.topic: article
-ms.localizationpriority: medium
-ms.date: 12/06/2018
+ms.localizationpriority: high
+ms.date: 11/01/2019
 ---
 
 # Real-Time Activity (RTA) service how-to's

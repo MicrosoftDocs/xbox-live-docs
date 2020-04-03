@@ -40,14 +40,15 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "author": "XBL",
+      "author": "mlamaute",
       "breadcrumb_path": "/gaming/xbox-live/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/xbox-live-docs",
       "searchScope": ["Xbox Live"],
-      "ms.author": "XBL",
-      "ms.prod": "xboxlive",
+      "ms.author": "migreen",
+      "ms.prod": "gaming",
+      "ms.technology": "xboxlive",
       "titleSuffix": "Xbox Live",
       "zone_pivot_group_filename": "xbox-live/zone-pivot-groups.json",
       "_op_documentIdPathDepotMapping": {

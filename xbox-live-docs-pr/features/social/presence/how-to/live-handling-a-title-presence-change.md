@@ -3,10 +3,10 @@ title: Handling a title Presence change
 description: Example code for handling a title Presence change.
 kindex: Handling a title Presence change
 kindex: Presence
+ms.topic: conceptual
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: conceptual
-ms.localizationpriority: medium
 ms.date: 01/09/2020
 ---
 

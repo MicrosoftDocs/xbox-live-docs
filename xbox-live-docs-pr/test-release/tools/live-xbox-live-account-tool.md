@@ -3,13 +3,13 @@ title: Xbox Live Account tool (XboxLiveAccountTool.exe)
 description: Sets up existing test accounts for testing game scenarios.
 kindex: Xbox Live Account tool (XboxLiveAccountTool.exe)
 kindex: account tool
-author: mikehoffms
-ms.author: v-mihof
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
 ms.assetid: ec5959f9-1c60-4aa4-94a6-5d8bdcf77a96
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mikehoffms
+ms.author: v-mihof
 ms.date: 03/12/2018
 ---
 

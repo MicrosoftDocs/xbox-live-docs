@@ -4,9 +4,9 @@ description: Using Fiddler to log and troubleshoot Xbox Live service calls.
 kindex: Using Fiddler to inspect web service calls
 kindex: Fiddler
 kindex: service calls, troubleshooting
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: 7d76e444-027b-4659-80d5-5b2bf56d199e
-ms.localizationpriority: medium
+ms.localizationpriority: high
 ms.date: 04/04/2017
 ---
 

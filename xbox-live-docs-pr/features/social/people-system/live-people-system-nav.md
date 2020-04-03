@@ -3,12 +3,12 @@ title: People System (Friends List)
 description: Manages relationships between gamers, such as only showing a user's real name to close friends.
 kindex: People System (Friends List)
 kindex: friends list
+ms.topic: navigation
 layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: article
-ms.localizationpriority: medium
-ms.date: 12/06/2018
+ms.date: 11/01/2019
 ---
 
 # People System (Friends List)
