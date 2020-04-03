@@ -1,5 +1,5 @@
 ---
-title: "XR-074: Loss of Connectivity to Xbox and Partner Services &diams;"
+title: "XR-074: Loss of Connectivity to Xbox and Partner Services"
 description: Titles must resolve errors with Xbox Live and partner services connectivity.
 kindex: "XR-074: Loss of Connectivity to Xbox and Partner Services &diams;"
 kindex: policies
@@ -8,7 +8,7 @@ ms.localizationpriority: medium
 ms.date: 03/18/2019
 ---
 
-# XR-074: Loss of Connectivity to Xbox and Partner Services &diams;
+# XR-074: Loss of Connectivity to Xbox and Partner Services
 
 Titles must resolve errors with Xbox Live and partner services connectivity. Titles must honor the retry policies set by Xbox Live when attempting to retry a request to the Xbox service after a failure has occurred.  Titles must appropriately manage messaging the user when services are unavailable. For example, if a partner service other than Xbox Live is not available, the game should not indicate that there is an issue with Xbox Live.
 

@@ -299,7 +299,7 @@ landingContent:
       - linkListType: concept
         links:
           - text: Making async calls in the XSAPI C API
-            url: api-ref/xsapi/live-flatc-async-patterns.md
+            url: api-ref/xasync/live-flatc-async-patterns.md
       - linkListType: sample
         links:
           - text: Xbox Live Samples

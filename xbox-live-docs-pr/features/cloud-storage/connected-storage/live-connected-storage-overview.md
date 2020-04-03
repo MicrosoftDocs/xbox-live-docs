@@ -1,5 +1,5 @@
 ---
-title: Overview of Connected Storage
+title: Connected Storage Overview
 description: Connected Storage saves and loads gameplay data and other state data across devices.  Title data is stored locally and also synced to the cloud.
 kindex: Overview of Connected Storage
 kindex: connected storage
@@ -9,7 +9,7 @@ ms.localizationpriority: medium
 ms.date: 02/27/2018
 ---
 
-# Overview of Connected Storage
+# Connected Storage Overview
 
 Connected Storage allows your title to save gameplay data and other relevant state data that should roam between devices.
 

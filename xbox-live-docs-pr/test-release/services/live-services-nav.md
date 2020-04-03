@@ -1,7 +1,7 @@
 ---
-title: Services and APIs
+title: Services
 description: Using services to analyze Xbox Live activity.
-kindex: Services and APIs
+kindex: Services
 ms.topic: navigation
 layout: LandingPage
 ms.localizationpriority: high
@@ -10,7 +10,7 @@ ms.author: migreen
 ms.date: 11/01/2019
 ---
 
-# Services and APIs
+# Services
 
 
 ### In this section

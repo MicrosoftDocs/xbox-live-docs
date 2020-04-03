@@ -1,5 +1,5 @@
 ---
-title: "XR-045: Xbox Live and Account Privileges &diams;"
+title: "XR-045: Xbox Live and Account Privileges"
 description: Titles must check whether the active user has certain privileges before completing certain actions.
 kindex: "XR-045: Xbox Live and Account Privileges &diams;"
 kindex: policies
@@ -8,7 +8,7 @@ ms.localizationpriority: medium
 ms.date: 03/18/2019
 ---
 
-# XR-045: Xbox Live and Account Privileges &diams;
+# XR-045: Xbox Live and Account Privileges
 
 Xbox Live promises users a certain level of privacy and online safety for themselves and their children. In order to deliver on that promise, titles must check whether the active user has certain privileges before completing certain actions on the Xbox Live service or in a title experience.
 

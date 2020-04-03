@@ -1,14 +1,13 @@
 ---
-title: "XR-015: Managing Player Communication"
+title: "XR-015: Privacy and Permissions"
 description: Titles must not transmit user data or allow communication over Xbox Live when the user's privacy & online safety settings do not allow it.
-kindex: "XR-015: Managing Player Communication"
+kindex: "XR-015: Privacy and Permissions"
 ms.topic: conceptual
 ms.localizationpriority: high
 ms.date: 10/01/2019
 ---
 
-# XR-015: Managing Player Communication &diams;
-
+# XR-015: Privacy and Permissions 
 
 Titles must not transmit user data or allow communication over Xbox Live when the user's privacy settings do not allow it.
 

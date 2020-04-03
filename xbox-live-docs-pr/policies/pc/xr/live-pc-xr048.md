@@ -1,5 +1,5 @@
 ---
-title: "XR-048: Profile Settings Usage &diams;"
+title: "XR-048: Profile Settings Usage"
 description: Games must not store user information sourced from Xbox Live, such as profile data, preferences, or display names.
 ms.topic: article
 keywords: windows 10, uwp, games, xbox, xbox live, policies
@@ -7,7 +7,7 @@ ms.localizationpriority: medium
 ms.date: 03/18/2019
 ---
 
-# XR-048: Profile Settings Usage &diams;
+# XR-048: Profile Settings Usage
 
 The Xbox Live service is the source for Xbox Live user profile information.
 Games must not store user information sourced from Xbox Live, such as profile data, preferences, or display names, beyond a locally stored cache used to support loss of network connectivity.

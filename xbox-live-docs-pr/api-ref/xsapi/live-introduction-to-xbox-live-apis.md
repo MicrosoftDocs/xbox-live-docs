@@ -1,7 +1,7 @@
 ---
-title: XSAPI overview
+title: XSAPI Overview
 description: Xbox Live services can be called through client-side XSAPI (WinRT, C++11, or C) or through REST endpoints.
-kindex: XSAPI overview
+kindex: XSAPI Overview
 ms.assetid: 5918c3a2-6529-4f07-b44d-51f9861f91ec
 ms.date: 06/05/2018
 ms.topic: article
@@ -9,7 +9,7 @@ keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 
-# XSAPI overview
+# XSAPI Overview
 
 <!-- article applies to console and pc -->
 
@@ -55,6 +55,7 @@ Comparing the APIs:
 - Supports applications targeting Xbox One XDK platform, and Universal Windows Platform (UWP) x86, x64 and ARM architectures.
 - Errors are handled via exceptions in all languages including C++/CX.
 - C++/WinRT is also supported.  More information about C++/WinRT can be found at [https://moderncpp.com/2016/10/13/cppwinrt-available-on-github/](https://moderncpp.com/2016/10/13/cppwinrt-available-on-github/)
+- For more information on WinRT reference, see <a href="https://docs.microsoft.com/dotnet/api/?view=xboxlive-dotnet-2017.11.20171204.01" target="_blank">Xbox Live WinRT SDK API Reference &#11008;</a>
 
 Here's an example of calling the XSAPI WinRT API using C++/WinRT:
 
