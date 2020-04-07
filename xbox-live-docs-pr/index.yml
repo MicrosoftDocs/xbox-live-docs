@@ -1,66 +1,71 @@
-### YamlMime:Landing
+### YamlMime:Hub
 
 title: Xbox Live documentation # < 60 chars
 summary: Xbox Live is a premier gaming network that connects millions of gamers across the world. # < 160 chars
+brand: Xbox Live
 
 metadata:
   title: Xbox Live documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Xbox Live is a premier gaming network that connects millions of gamers across the world. # Required; article description that is displayed in search results. < 160 chars.
   ms.service: gaming #Required; service per approved list. service slug assigned to your service by ACOM.
   # ms.subservice: subservice # Optional; Remove if no subservice is used.
-  ms.topic: landing-page # Required
+  ms.topic: hub-page # Required
   # ms.collection: collection # Optional; Remove if no collection is used.
   author: mlamaute #Required; your GitHub user alias, with correct capitalization.
   ms.author: mlamaute #Required; microsoft alias of author; optional team alias.
-  ms.date: 03/25/2020 #Required; mm/dd/yyyy format.
+  ms.date: 04/06/2020 #Required; mm/dd/yyyy format.
 
-  # Max cards: 12 (currently 10)
-      # Max linkListTypes in a card: 6 (5: XBL infotypes + ref)
-          # Max links in a linkListType: 10 (< 10) (thus a card can have 6 * 10 = 60 links max)
+# highlightedContent section
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  items:
+    # Card
+    - title: __
+      itemType: __
+      url: __.md
+    # Card
+    - title: __
+      itemType: __
+      url: __.md
+    # Card
+    - title: __
+      itemType: __
+      url: __.md
+    # Card
+    - title: __
+      itemType: __
+      url: __.md
 
-# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+# productDirectory section (optional)
+productDirectory:
+  title: Features # < 60 chars (optional)
+  # summary: sectionsummary # < 160 chars (optional)
+  items:
+    # Card
+    - title: __
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: ./media/index/image1.png
+      summary: __
+      url: __.md
 
-# 4 XBL infotypes + ref, use these:
+# additionalContent section (optional)
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections:
+    - title: Additional Content # < 60 chars (optional)
+      # summary: sectionsummary # < 160 chars (optional)
+      items:
+        # Card
+        - title: __
+          summary: __
+          url: __.md
 
-      # Describes a product/service from a technical point of view.
-      # - linkListType: overview
 
-      # In-depth explanation of functionality related to a service(s) that are fundamental to understanding and use.
-      # - linkListType: concept
 
-      # Related code sample.
-      # - linkListType: sample
 
-      # Documentation for APIs, PowerShell cmdlets, CLI commands, or other types of language-based content.
-      # - linkListType: reference
-# ------------------------------------------
-# non-XBL infotypes, don't use except as overflow bucket to extend the above
-      # Getting started content that targets users that are new to a service or product.
-      # - linkListType: get-started
 
-      # Fundamental day 1 instructions that help new customers quickly use a product or service.
-      # - linkListType: quickstart
-
-      # Detailed guidance for how to design and deploy an architecture.
-      # - linkListType: architecture
-
-      # Procedural articles that show the customer how to complete a task.
-      # - linkListType: how-to-guide
-
-      # Typically Microsoft Learn modules, but can be any learning content.
-      # - linkListType: learn
-
-      # Scenario-based procedures for the top customer tasks.
-      # - linkListType: tutorial
-
-      # Video that supplements the content.
-      # - linkListType: video
-
-      # Download a file related to the service or product.
-      # - linkListType: download
-
-      # Describes recent changes to product or service.
-      # - linkListType: whats-new
 
 landingContent:
 # Cards and links should be based on top customer tasks or top subjects
