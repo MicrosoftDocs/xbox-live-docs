@@ -21,7 +21,7 @@ ms.date: 11/01/2019
 | [Player Data](player-data/live-playerdata-nav.md) | Achievements, player stats, leaderboards, and featured stats. |
 | [Social](social/live-social-nav.md) | Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation. |
 | [Multiplayer](multiplayer/live-multiplayer-nav.md) | Matchmaking, invites, voice and text chat, and networking. |
-| [Cloud Storage](cloud-storage/live-cloud-storage-nav.md) | Connected Storage and Title Storage. |
+| [Cloud Storage](cloud-storage/live-cloud-storage-nav.md) | Includes Connected Storage to store game state, and Title Storage to store player statistics and assets. |
 | [Custom services](custom-services/live-custom-services-nav.md) | Using Xbox Live with your own Web services; and configuring relying parties, single sign-on, and access policies. |
 
 

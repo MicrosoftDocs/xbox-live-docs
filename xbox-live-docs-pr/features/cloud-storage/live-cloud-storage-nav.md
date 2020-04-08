@@ -1,6 +1,6 @@
 ---
 title: Cloud Storage
-description: Connected Storage and Title Storage.
+description: Includes Connected Storage to store game state, and Title Storage to store player statistics and assets.
 kindex: Cloud Storage
 ms.topic: navigation
 layout: LandingPage
