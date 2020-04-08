@@ -2,7 +2,7 @@
 
 title: Xbox Live documentation # < 60 chars
 summary: Xbox Live is a premier gaming network that connects millions of gamers across the world. # < 160 chars
-brand: Xbox Live
+brand: azure
 
 metadata:
   title: Xbox Live documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
