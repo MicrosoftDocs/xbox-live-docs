@@ -1,5 +1,5 @@
 ---
-title: Policies and XRs
+title: Policies and XRs Overview
 description: Xbox Requirements for adding Xbox Live to a game.
 kindex: Policies and XRs
 ms.topic: navigation
@@ -11,11 +11,6 @@ ms.date: 11/01/2019
 ---
 
 # Policies and XRs Overview
-
-
-### In this section
-
-
 
 ### In this section
 
