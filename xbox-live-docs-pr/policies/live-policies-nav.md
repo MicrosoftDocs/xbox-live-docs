@@ -15,8 +15,16 @@ ms.date: 11/01/2019
 
 ### In this section
 
+# Policies and XRs for PC and mobile
+
+
+### In this section
+
 | Article | Description |
 |---------|-------------|
-| [Policies and XRs for PC and mobile](pc/live-policies-pc-nav.md) | Xbox Requirements for adding Xbox Live to a PC game. |
+| [Xbox Live Policies for PC and mobile](live-policies-pc.md) | Policies for adding Xbox Live to a PC or mobile game. |
+| [Recommended Policy Tests for PC and mobile](live-policy-tests-pc.md) | Test cases for adding Xbox Live to a PC or mobile game. |
+| [Xbox Live terminology](live-certification-terminology-pc.md) | Terminology required when using Xbox Live in a PC or mobile game. |
 
-<!-- chm also has Console XRs -->
+
+<!-- {% jumppage its %} -->
