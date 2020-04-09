@@ -1,7 +1,7 @@
 ---
 title: Policies and XRs Overview
 description: Xbox Requirements for adding Xbox Live to a game.
-kindex: Policies and XRs
+kindex: Policies and XRs Overview   
 ms.topic: navigation
 layout: LandingPage
 ms.localizationpriority: high
