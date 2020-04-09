@@ -10,12 +10,11 @@ ms.author: migreen
 ms.date: 11/01/2019
 ---
 
-# Policies and XRs
+# Policies and XRs Overview
 
 
 ### In this section
 
-# Policies and XRs for PC and mobile
 
 
 ### In this section
