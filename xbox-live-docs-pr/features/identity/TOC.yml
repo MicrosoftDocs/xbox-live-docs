@@ -1,0 +1,31 @@
+- name: Identity
+  href: index.yml
+  items:
+    - name: Authentication and sign-in
+      items:
+        - name: Authentication for projects using XAL
+          items:
+            - name: Xbox Authentication Library (XAL) overview
+              href: auth/auth-mobile-xal/live-xal-overview.md
+            - name: Signing-in using XAL
+              href: auth/auth-mobile-xal/live-xal-sign-in.md
+            - name: Using Xbox Live tokens for custom web service authentication
+              href: auth/auth-mobile-xal/live-xal-partner-token.md
+        - name: UWP Authentication and user identity
+          items:
+            - name: Authentication for UWP projects
+              href: auth/auth-uwp/live-auth-for-uwp-projects.md
+            - name: Retrieving the Windows user in a UWP title
+              href: auth/auth-uwp/live-retrieving-system-user-on-uwp.md
+        - name: Authentication for XDK projects
+          href: auth/live-auth-for-xdk-projects.md
+        - name: Troubleshooting Xbox Live sign-in
+          href: auth/live-troubleshooting-sign-in.md
+    - name: Single Point of Presence (SPOP)
+      href: live-single-point-of-presence.md
+    - name: Privileges
+      items:
+        - name: Privileges portal config
+          items:
+            - name: Configuring Privileges in Partner Center
+              href: privileges/config/live-privileges-config.md

@@ -50,7 +50,7 @@ productDirectory:
       # imageSrc should be square in ratio with no whitespace
       imageSrc: ./index-images/Icon_Identity.svg
       summary: User profile, authentication and sign-in, privileges, and privacy settings.
-      url: features/identity/live-identity-nav.md
+      url: features/identity/index.yml
     # Card
     - title: Player Data
       # imageSrc should be square in ratio with no whitespace
@@ -74,7 +74,7 @@ productDirectory:
       # imageSrc should be square in ratio with no whitespace
       imageSrc: ./index-images/Icon_CloudStorage.svg
       summary: Includes Connected Storage to store game state, and Title Storage to store player statistics and assets.
-      url: features/cloud-storage/live-cloud-storage-nav.md
+      url: features/cloud-storage/index.yml
     # Card
     - title: Custom services
       # imageSrc should be square in ratio with no whitespace
