@@ -818,6 +818,7 @@
           href: policies/live-certification-terminology-pc.md
         - name: Supporting Content for XRs for PC and Mobile
           href: policies/xr/live-pc-xrs-nav.md  
+    - name: API Reference
       href: api-ref/live-api-reference-nav.md
       items:
         - name: XSAPI reference
