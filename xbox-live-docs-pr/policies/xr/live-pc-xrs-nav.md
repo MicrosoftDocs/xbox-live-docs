@@ -15,7 +15,7 @@ ms.date: 11/01/2019
 
 # Supporting Content for XRs for PC and Mobile
 
-In support of the [Xbox Live Policies for PC and mobile](../live-policies-pc.md), the following deep dive content is available to support development.
+In support of the the complete list of [Xbox Live Policies for PC and mobile](../live-policies-pc.md), the following deep dive content is available for a sub-set of the requirements to support development.
 
 
 ### In this section
