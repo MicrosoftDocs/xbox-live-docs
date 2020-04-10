@@ -809,7 +809,7 @@
       href: policies/live-policies-nav.md
       items:
         - name: Policies and XRs Overview
-          href: policies/live-policies-pc-nav.md
+          href: policies/live-policies-nav.md
         - name: Xbox Live Policies for PC and Mobile 
           href: policies/live-policies-pc.md
         - name: Recommended XR Policy Tests
