@@ -40,7 +40,6 @@ highlightedContent:
     - title: Adding basic sign-in code
       itemType: get-started
       url: get-started/add-signin-code/live-add-signin-code-nav.md
-
 # productDirectory section (optional)
 productDirectory:
   title: Features # < 60 chars (optional)
@@ -49,46 +48,45 @@ productDirectory:
     # Card
     - title: Identity
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: ./media/index/image1.png
+      imageSrc: ./index-images/Icon_Identity.svg
       summary: User profile, authentication and sign-in, privileges, and privacy settings.
       url: features/identity/live-identity-nav.md
     # Card
     - title: Player Data
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: ./media/index/image1.png
+      imageSrc: ./index-images/Icon_PlayerData.svg
       summary: Achievements, player stats, leaderboards, and featured stats.
       url: features/player-data/live-playerdata-nav.md
     # Card
     - title: Social
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: ./media/index/image1.png
+      imageSrc: ./index-images/Icon_Social.svg
       summary: Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.
       url: features/social/live-social-nav.md
     # Card
     - title: Multiplayer
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: ./media/index/image1.png
+      imageSrc: ./index-images/Icon_Multiplayer.svg
       summary: Matchmaking, invites, voice and text chat, and networking.
       url: features/multiplayer/live-multiplayer-nav.md
     # Card
     - title: Cloud Storage
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: ./media/index/image1.png
+      imageSrc: ./index-images/Icon_CloudStorage.svg
       summary: Includes Connected Storage to store game state, and Title Storage to store player statistics and assets.
       url: features/cloud-storage/live-cloud-storage-nav.md
     # Card
     - title: Custom services
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: ./media/index/image1.png
+      imageSrc: ./index-images/Icon_CustomServices.svg
       summary: Using Xbox Live with your own Web services; and configuring relying parties, single sign-on, and access policies.
       url: features/custom-services/live-custom-services-nav.md
     # Card
     - title: Services spanning multiple features
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: ./media/index/image1.png
+      imageSrc: ./index-images/Icon_SpanFeatures.svg
       summary: RTA (subscribes to state data, user statistics, and presence), TCUI (shows pre-defined user interface displays), and What's New.
       url: features/rta/live-rta-nav.md
-
 # additionalContent section (optional)
 # Card with summary style
 additionalContent:
