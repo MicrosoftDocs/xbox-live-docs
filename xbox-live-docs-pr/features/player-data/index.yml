@@ -77,14 +77,8 @@ landingContent:
             url: live-playerdata-overview.md
           - text: Event-based vs. title-managed Stats
             url: stats-leaderboards/live-stats-eb-vs-tm.md
-          - text: Event-based Stats overview
-            url: stats-leaderboards/event-based/live-stats-eb-overview.md
-          - text: Title-managed Stats overview
-            url: stats-leaderboards/title-managed/live-stats-tm-overview.md
           - text: Event-based vs. title-managed Achievements
             url: achievements/live-achievements-eb-vs-tm.md
-          - text: Title-managed Achievements overview
-            url: achievements/title-managed/live-achievements-tm-overview.md
       - linkListType: concept
         links:
           - text: Designing Xbox Live Experiences
@@ -92,10 +86,10 @@ landingContent:
   # Card
   - title: Event-based Stats & Leaderboards
     linkLists:
-      # - linkListType: overview
-      #   links:
-      #     - text: __
-      #       url: __.md
+      - linkListType: overview
+        links:
+          - text: Event-based Stats overview
+            url: stats-leaderboards/event-based/live-stats-eb-overview.md
       # - linkListType: concept
       #   links:
       #     - text: __
@@ -119,10 +113,10 @@ landingContent:
   # Card
   - title: Title-managed Stats & Leaderboards
     linkLists:
-      # - linkListType: overview
-      #   links:
-      #     - text: __
-      #       url: __.md
+      - linkListType: overview
+        links:
+          - text: Title-managed Stats overview
+            url: stats-leaderboards/title-managed/live-stats-tm-overview.md
       - linkListType: concept
         links:
           - text: Adding player stats and leaderboards to a Unity project
@@ -169,6 +163,10 @@ landingContent:
   # Card
   - title: Title-managed Achievements
     linkLists:
+      - linkListType: overview
+        links:
+          - text: Title-managed Achievements overview
+            url: achievements/title-managed/live-achievements-tm-overview.md
       - linkListType: concept
         links:
           - text: Achievement Rewards
