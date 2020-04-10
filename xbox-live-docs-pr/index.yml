@@ -269,7 +269,7 @@ landingContent:
       - linkListType: overview
         links:
           - text: Xbox Live Policy Overview
-            url: policies/pc/live-policies-nav.md
+            url: policies/live-policies-nav.md
       - linkListType: concept
         links:
           - text: Policies and XRs for PC and mobile
