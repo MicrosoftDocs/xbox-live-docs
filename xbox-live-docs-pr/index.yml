@@ -83,10 +83,10 @@ productDirectory:
       summary: Using Xbox Live with your own Web services; and configuring relying parties, single sign-on, and access policies.
       url: features/custom-services/live-custom-services-nav.md
     # Card
-    - title: Real-Time Activity (RTA) service and Title-callable UI (TCUI)
+    - title: Services spanning multiple features
       # imageSrc should be square in ratio with no whitespace
       imageSrc: ./media/index/image1.png
-      summary: RTA subscribes to state data, user statistics, and presence. TCUI shows pre-defined user interface displays.
+      summary: RTA (subscribes to state data, user statistics, and presence), TCUI (shows pre-defined user interface displays), and What's New.
       url: features/rta/live-rta-nav.md
 
 # additionalContent section (optional)

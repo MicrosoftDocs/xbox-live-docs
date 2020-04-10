@@ -10,10 +10,87 @@ ms.date: 10/23/2018
 
 To see all of the recent code changes to the Xbox Live APIs, you can also check the <a href="https://github.com/Microsoft/xbox-live-api/commits/master" target="_blank">GitHub commit history for the "xbox-live-api" repo &#11008;</a>.
 
-This article covers 2017 and 2018 releases.
+This article covers selected features and releases from 2017 through 2020.
 For 2015 and 2016 releases, see [What's New for older releases of Xbox Live](archived/live-whats-new-archived-nav.md).
 
 
+<!-- ********************************************************************** -->
+___
+## April 2020
+
+
+### Xbox Live Features
+
+
+#### Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)
+
+[Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)](live-pc-sandbox-switcher.md) is a command-line tool that helps manage the Xbox Live sandbox on PC.
+This PC Sandbox Switcher can do the following:
+* Show the name of the current sandbox.
+* Set a sandbox to use.
+* Re-launch the Microsoft Store app, the Xbox app, and the Xbox Companion app in sandbox mode.
+
+
+#### New Multiplayer API: XblFormatSecureDeviceAddress
+
+On platforms that don't have a secure device address, you can call the `XblFormatSecureDeviceAddress` function to generate a value that can be used by the `XblMultiplayerSessionCurrentUserSetSecureDeviceAddressBase64`
+function.
+
+
+#### Bug fixes
+
+- Fixed an issue where the `XblTitleManagedStatsWriteAsync` function was not uploading stat values correctly.
+
+
+<!-- ********************************************************************** -->
+___
+## November 2019
+
+
+### Xbox Live Features
+
+
+#### Xbox Live In-Game Event Writer for XSAPI C API
+
+The Xbox Live In-Game Event Writer API is now available for XSAPI C API.
+Developers can use the `XblEventsWriteInGameEvent` API to submit in-game events.  
+<!-- Developers can use the [XblEventsWriteInGameEvent](xbleventswriteingameevent.md) API to submit in-game events.   -->
+
+
+#### String Verify API is available now for XSAPI C API
+
+When exposing a string to other players, it should be validated to ensure it doesn't violate the Code of Conduct or Terms of Use.
+The String Verify API takes an array of strings and returns a result code for each one, indicating whether it is acceptable on, and a string containing the offending term.
+
+
+<!-- #### Modern Gamertag related API updates
+
+The Profile API, Leaderboards API, and Social Manager API have been updated to support modern gamertags.
+For more information about modern gamertag, see the [modern gamertag](live-modern-gamertags-toc.md) section of the documentation. -->
+
+
+<!-- ********************************************************************** -->
+___
+## September 2019
+
+
+### Xbox Live Features
+
+
+#### Xbox Live Title Storage feature is available now for XSAPI C API
+
+Games can now use the Xbox Live Title Storage API.
+Title Storage is cloud storage service for per-user or per-title data, such as player configurations or title assets.  
+
+
+#### Xbox Live Title-managed Stats feature is available now for XSAPI C API
+
+With title-managed Stats, the title keeps track of the stat values, and sends the values to the service to power out-of-game experiences such as Featured Stats.
+Title-managed Stats was formerly known as Stats 2017.
+
+
+<!-- ********************************************************************** -->
+___
 ## October 2018
 
 
@@ -61,11 +138,15 @@ Xal has taken on the following API layer breaking changes based on API review fe
 - The queue handles passed into Xal's event handlers and initialize method are no longer optional.
 
 
+<!-- ********************************************************************** -->
+___
 ## September 2018
 
 Developers can now use XAL and XSAPI on Android and iOS platforms.
 
 
+<!-- ********************************************************************** -->
+___
 ## June 2018
 
 ### Xbox Live Features
@@ -77,6 +158,8 @@ C APIs are now available for some Xbox Live features. The new API layer provides
 For more information, see [Xbox Live C APIs](../../api-ref/xsapi/live-xsapi-flat-c.md).
 
 
+<!-- ********************************************************************** -->
+___
 ## August 2017
 
 ### Xbox Live features
@@ -90,6 +173,8 @@ Xbox live members can access in-game clubs outside of your game across any Xbox 
 APIs are available to create & manage in-game clubs directly from within your game. These APIs exist in the `xbox::services::clubs` namespace.
 
 
+<!-- ********************************************************************** -->
+___
 ## July 2017
 
 ### Xbox Live features
@@ -110,6 +195,8 @@ These new tournament APIs enable the following scenarios:
 * Track changes to tournaments and teams by using Real Time Activity (RTA) subscriptions.
 
 
+<!-- ********************************************************************** -->
+___
 ## June 2017
 
 
@@ -134,6 +221,8 @@ An updated and improved version of Game Chat is now available.  See [Game Chat](
 * Various bug fixes. Check the [GitHub commit history](https://github.com/Microsoft/xbox-live-api/commits/master) for a full list.
 
 
+<!-- ********************************************************************** -->
+___
 ## May 2017
 
 ### Xbox Services APIs
@@ -147,6 +236,8 @@ An updated and improved version of Game Chat is now available.  See [Game Chat](
 * Fixed "bad json" being returned instead of a valid HTTP error code.
 
 
+<!-- ********************************************************************** -->
+___
 ## April 2017
 
 ### Xbox Services APIs
@@ -168,6 +259,8 @@ These new tournament APIs enable the following scenarios:
 * Track changes to tournaments and teams by using Real Time Activity (RTA) subscriptions.
 
 
+<!-- ********************************************************************** -->
+___
 ## March 2017
 
 ### Xbox Services API
