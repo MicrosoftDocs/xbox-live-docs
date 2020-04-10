@@ -1,0 +1,65 @@
+- name: Cloud Storage
+  href: index.yml
+  items: 
+    - name: Connected Storage vs. Title Storage
+      href: live-connected-storage-vs-title-storage.md
+    - name: Connected Storage
+      href: 
+      items:
+        - name: Overview
+          href: connected-storage/live-connected-storage-overview.md
+        - name: Technical overview
+          href: connected-storage/live-connected-storage-technical-overview.md
+        - name: Concepts
+          href: 
+          items:
+            - name: Managing local Connected Storage
+              href: connected-storage/concepts/live-connected-storage-xb-storage.md
+            - name: Best practices
+              href: connected-storage/concepts/live-connected-storage-best-practices.md
+        - name: Samples
+          href: 
+          items:
+            - name: Saving data
+              href: connected-storage/how-to/live-connected-storage-saving.md
+            - name: Loading data
+              href: connected-storage/how-to/live-connected-storage-loading.md
+            - name: Deleting data
+              href: connected-storage/how-to/live-connected-storage-deleting.md
+            - name: Loading data on-demand
+              href: connected-storage/how-to/live-connected-storage-loading-on-demand.md
+            - name: Working with buffers
+              href: connected-storage/how-to/live-connected-storage-using-buffers.md
+    - name: Title Storage
+      href: 
+      items:
+        - name: Overview
+          href: title-storage/live-title-storage-overview.md
+        - name: How-to guides
+          href: 
+          items:                              
+            - name: Set up in Partner Center
+              href: title-storage/config/live-title-storage-portal-config.md
+        - name: Samples
+          href: 
+          items:
+            - name: Uploading a blob
+              href: title-storage/how-to/live-uploading-title-storage-blob.md
+            - name: Downloading a blob
+              href: title-storage/how-to/live-downloading-title-storage-blob.md
+            - name: Deleting a blob
+              href: title-storage/how-to/live-deleting-title-storage-blob.md
+            - name: Getting blob metadata
+              href: title-storage/how-to/live-getting-title-storage-blob-metadata.md
+            - name: Getting quota info for service configuration
+              href: title-storage/how-to/live-getting-title-storage-quota-info.md
+            - name: Storing a JSON blob
+              href: title-storage/how-to/live-storing-jsonblobs.md
+            - name: Storing a binary blob
+              href: title-storage/how-to/live-storing-binary-blobs.md
+            - name: Reading a binary blob
+              href: title-storage/how-to/live-reading-binary-blobs.md
+            - name: Reading a JSON blob
+              href: title-storage/how-to/live-reading-jsonblobs.md
+            - name: Reading a configuration blob
+              href: title-storage/how-to/live-reading-configuration-blobs.md

@@ -1,0 +1,137 @@
+### YamlMime:Landing
+
+title: Cloud Storage # < 60 chars
+summary: Cloud Storage includes Connected Storage to store game state, and Title Storage to store player statistics and assets. # < 160 chars
+
+metadata:
+  title: Cloud Storage # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Cloud Storage includes Connected Storage to store game state, and Title Storage to store player statistics and assets. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: gaming #Required; service per approved list. service slug assigned to your service by ACOM.
+  # ms.subservice: subservice # Optional; Remove if no subservice is used.
+  ms.topic: landing-page # Required
+  # ms.collection: collection # Optional; Remove if no collection is used.
+  author: mlamaute #Required; your GitHub user alias, with correct capitalization.
+  ms.author: migreen #Required; microsoft alias of author; optional team alias.
+  ms.date: 04/03/2020 #Required; mm/dd/yyyy format.
+
+  # Max cards: 12 (currently 10)
+      # Max linkListTypes in a card: 6 (5: XBL infotypes + ref)
+          # Max links in a linkListType: 10 (< 10) (thus a card can have 6 * 10 = 60 links max)
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+# 4 XBL infotypes + ref, use these:
+
+      # Describes a product/service from a technical point of view.
+      # - linkListType: overview
+
+      # In-depth explanation of functionality related to a service(s) that are fundamental to understanding and use.
+      # - linkListType: concept
+
+      # How to deploy a service.
+      # - linkListType: deploy
+
+      # Related code sample.
+      # - linkListType: sample
+
+      # Documentation for APIs, PowerShell cmdlets, CLI commands, or other types of language-based content.
+      # - linkListType: reference
+# ------------------------------------------
+# non-XBL infotypes, don't use except as overflow bucket to extend the above
+      # Getting started content that targets users that are new to a service or product.
+      # - linkListType: get-started
+
+      # Fundamental day 1 instructions that help new customers quickly use a product or service.
+      # - linkListType: quickstart
+
+      # Detailed guidance for how to design and deploy an architecture.
+      # - linkListType: architecture
+
+      # Procedural articles that show the customer how to complete a task.
+      # - linkListType: how-to-guide
+
+      # Typically Microsoft Learn modules, but can be any learning content.
+      # - linkListType: learn
+
+      # Scenario-based procedures for the top customer tasks.
+      # - linkListType: tutorial
+
+      # Video that supplements the content.
+      # - linkListType: video
+
+      # Download a file related to the service or product.
+      # - linkListType: download
+
+      # Describes recent changes to product or service.
+      # - linkListType: whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card
+  - title: Cloud Storage
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Connected Storage vs. Title Storage
+            url: live-connected-storage-vs-title-storage.md
+  # Card
+  - title: Connected Storage
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Overview
+            url: connected-storage/live-connected-storage-overview.md
+          - text: Technical overview
+            url: connected-storage/live-connected-storage-technical-overview.md
+      - linkListType: concept
+        links:
+          - text: Managing local Connected Storage
+            url: connected-storage/concepts/live-connected-storage-xb-storage.md
+          - text: Best practices
+            url: connected-storage/concepts/live-connected-storage-best-practices.md
+      - linkListType: sample
+        links:
+          - text: Saving data
+            url: connected-storage/how-to/live-connected-storage-saving.md
+          - text: Loading data
+            url: connected-storage/how-to/live-connected-storage-loading.md
+          - text: Deleting data
+            url: connected-storage/how-to/live-connected-storage-deleting.md
+          - text: Loading data on-demand
+            url: connected-storage/how-to/live-connected-storage-loading-on-demand.md
+          - text: Working with buffers
+            url: connected-storage/how-to/live-connected-storage-using-buffers.md
+  # Card
+  - title: Title Storage
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Overview
+            url: title-storage/live-title-storage-overview.md
+      - linkListType: how-to-guide
+        links:
+          - text: Set up in Partner Center
+            url: title-storage/config/live-title-storage-portal-config.md
+      - linkListType: sample
+        links:
+          - text: Uploading a blob
+            url: title-storage/how-to/live-uploading-title-storage-blob.md
+          - text: Downloading a blob
+            url: title-storage/how-to/live-downloading-title-storage-blob.md
+          - text: Deleting a blob
+            url: title-storage/how-to/live-deleting-title-storage-blob.md
+          - text: Getting blob metadata
+            url: title-storage/how-to/live-getting-title-storage-blob-metadata.md
+          - text: Getting quota info for a service configuration
+            url: title-storage/how-to/live-getting-title-storage-quota-info.md
+          - text: Storing a JSON blob
+            url: title-storage/how-to/live-storing-jsonblobs.md
+          - text: Storing a binary blob
+            url: title-storage/how-to/live-storing-binary-blobs.md
+          - text: Reading a binary blob
+            url: title-storage/how-to/live-reading-binary-blobs.md
+          - text: Reading a JSON blob
+            url: title-storage/how-to/live-reading-jsonblobs.md
+          - text: Reading a configuration blob
+            url: title-storage/how-to/live-reading-configuration-blobs.md
