@@ -57,7 +57,7 @@ productDirectory:
       # imageSrc should be square in ratio with no whitespace
       imageSrc: ./media/index/image1.png
       summary: Achievements, player stats, leaderboards, and featured stats.
-      url: features/player-data/live-playerdata-nav.md
+      url: features/player-data/index.yml
     # Card
     - title: Social
       # imageSrc should be square in ratio with no whitespace
