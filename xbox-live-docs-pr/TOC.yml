@@ -808,11 +808,11 @@
     - name: Policies and XRs
       href: policies/live-policies-nav.md
       items:
-        - name: Policies and XRs for PC and mobile
+        - name: Policies and XRs Overview
           href: policies/live-policies-pc-nav.md
-        - name: Xbox Live Policies for PC and mobile
+        - name: Xbox Live Policies for PC and Mobile 
           href: policies/live-policies-pc.md
-        - name: Recommended Policy Tests for PC and mobile
+        - name: Recommended XR Policy Tests
           href: policies/live-policy-tests-pc.md
         - name: Xbox Live terminology
           href: policies/live-certification-terminology-pc.md
