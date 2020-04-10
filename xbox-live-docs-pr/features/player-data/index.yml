@@ -1,0 +1,185 @@
+### YamlMime:Landing
+
+title: Player Data # < 60 chars
+summary: Achievements, player stats, leaderboards, and featured stats. # < 160 chars
+
+metadata:
+  title: Player Data # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Achievements, player stats, leaderboards, and featured stats. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: gaming #Required; service per approved list. service slug assigned to your service by ACOM.
+  # ms.subservice: subservice # Optional; Remove if no subservice is used.
+  ms.topic: landing-page # Required
+  # ms.collection: collection # Optional; Remove if no collection is used.
+  author: mlamaute #Required; your GitHub user alias, with correct capitalization.
+  ms.author: migreen #Required; microsoft alias of author; optional team alias.
+  ms.date: 04/10/2020 #Required; mm/dd/yyyy format.
+
+  # Max cards: 12 (currently 10)
+      # Max linkListTypes in a card: 6 (5: XBL infotypes + ref)
+          # Max links in a linkListType: 10 (< 10) (thus a card can have 6 * 10 = 60 links max)
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+# 4 XBL infotypes + ref, use these:
+
+      # Describes a product/service from a technical point of view.
+      # - linkListType: overview
+
+      # In-depth explanation of functionality related to a service(s) that are fundamental to understanding and use.
+      # - linkListType: concept
+
+      # How to deploy a service.
+      # - linkListType: deploy
+
+      # Related code sample.
+      # - linkListType: sample
+
+      # Documentation for APIs, PowerShell cmdlets, CLI commands, or other types of language-based content.
+      # - linkListType: reference
+# ------------------------------------------
+# non-XBL infotypes, don't use except as overflow bucket to extend the above
+      # Getting started content that targets users that are new to a service or product.
+      # - linkListType: get-started
+
+      # Fundamental day 1 instructions that help new customers quickly use a product or service.
+      # - linkListType: quickstart
+
+      # Detailed guidance for how to design and deploy an architecture.
+      # - linkListType: architecture
+
+      # Procedural articles that show the customer how to complete a task.
+      # - linkListType: how-to-guide
+
+      # Typically Microsoft Learn modules, but can be any learning content.
+      # - linkListType: learn
+
+      # Scenario-based procedures for the top customer tasks.
+      # - linkListType: tutorial
+
+      # Video that supplements the content.
+      # - linkListType: video
+
+      # Download a file related to the service or product.
+      # - linkListType: download
+
+      # Describes recent changes to product or service.
+      # - linkListType: whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card
+  - title: Player Data
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Player Data overview
+            url: live-playerdata-overview.md
+          - text: Event-based vs. title-managed Stats
+            url: stats-leaderboards/live-stats-eb-vs-tm.md
+          - text: Event-based Stats overview
+            url: stats-leaderboards/event-based/live-stats-eb-overview.md
+          - text: Title-managed Stats overview
+            url: stats-leaderboards/title-managed/live-stats-tm-overview.md
+          - text: Event-based vs. title-managed Achievements
+            url: achievements/live-achievements-eb-vs-tm.md
+          - text: Title-managed Achievements overview
+            url: achievements/title-managed/live-achievements-tm-overview.md
+      - linkListType: concept
+        links:
+          - text: Designing Xbox Live Experiences
+            url: live-designing-experiences.md
+  # Card
+  - title: Event-based Stats & Leaderboards
+    linkLists:
+      # - linkListType: overview
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: concept
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: how-to-guide
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: sample
+        links:
+          - text: Writing an event to power an event-based Stat
+            url: stats-leaderboards/event-based/how-to/live-sending-eb-stat.md
+          - text: Getting event-based stats
+            url: stats-leaderboards/event-based/how-to/live-getting-eb-stat.md
+          - text: Handling an event-based stat change
+            url: stats-leaderboards/event-based/how-to/live-handling-eb-stat-change.md
+          - text: Example code for event-based Leaderboards
+            url: stats-leaderboards/event-based/how-to/live-leaderboards-eb-howto.md
+          - text: Sending an event
+            url: stats-leaderboards/event-based/events/how-to/live-sending-an-event.md
+  # Card
+  - title: Title-managed Stats & Leaderboards
+    linkLists:
+      # - linkListType: overview
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: concept
+        links:
+          - text: Adding player stats and leaderboards to a Unity project
+            url: stats-leaderboards/title-managed/unity/live-add-stats-and-leaderboards-in-unity.md
+          - text: Setting up the Leaderboard example scene in Unity
+            url: stats-leaderboards/title-managed/unity/live-setup-leaderboard-example-scene.md
+          - text: Scripting a leaderboard in Unity
+            url: stats-leaderboards/title-managed/unity/live-unity-leaderboard-from-scratch.md
+      - linkListType: how-to-guide
+        links:
+          - text: Configuring title-managed Featured Stats & Leaderboards in Partner Center
+            url: stats-leaderboards/title-managed/config/live-tm-leaderboards-portal.md
+          - text: Portal configuration of title-managed Featured Stats
+            url: stats-leaderboards/featured-stats/config/live-featuredstats-tm-portal.md
+      - linkListType: sample
+        links:
+          - text: Updating title-managed Stats
+            url: stats-leaderboards/title-managed/how-to/live-stats-tm-updating.md
+          - text: Writing title-managed stats
+            url: stats-leaderboards/title-managed/how-to/live-writing-tm-stats.md
+          - text: Title-managed Leaderboards how-to's
+            url: stats-leaderboards/title-managed/how-to/live-leaderboards-tm-howto.md
+  # Card
+  - title: Event-based Achievements
+    linkLists:
+      # - linkListType: overview
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: concept
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: how-to-guide
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: sample
+        links:
+          - text: Getting event-based Achievements
+            url: achievements/event-based/how-to/live-getting-event-based-achievements.md
+          - text: Writing an event to power an event-based Achievement
+            url: achievements/event-based/how-to/live-writing-event-based-achievement.md
+  # Card
+  - title: Title-managed Achievements
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Achievement Rewards
+            url: achievements/title-managed/concepts/live-achievement-rewards.md
+      - linkListType: how-to-guide
+        links:
+          - text: Configuring title-managed Achievements in Partner Center
+            url: achievements/title-managed/config/live-achievements-tm-config.md
+      - linkListType: sample
+        links:
+          - text: Getting title-managed Achievements
+            url: achievements/title-managed/how-to/live-how-to-get-achievements.md
+          - text: Updating title-managed Achievements
+            url: achievements/title-managed/how-to/live-how-to-update-achievements.md
