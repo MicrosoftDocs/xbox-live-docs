@@ -62,13 +62,13 @@ productDirectory:
       # imageSrc should be square in ratio with no whitespace
       imageSrc: ./index-images/Icon_Social.svg
       summary: Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation.
-      url: features/social/live-social-nav.md
+      url: features/social/index.yml
     # Card
     - title: Multiplayer
       # imageSrc should be square in ratio with no whitespace
       imageSrc: ./index-images/Icon_Multiplayer.svg
       summary: Matchmaking, invites, voice and text chat, and networking.
-      url: features/multiplayer/live-multiplayer-nav.md
+      url: features/multiplayer/index.yml
     # Card
     - title: Cloud Storage
       # imageSrc should be square in ratio with no whitespace
