@@ -1,0 +1,293 @@
+### YamlMime:Landing
+
+title: Multiplayer # < 60 chars
+summary: Matchmaking, invites, voice and text chat, and networking. # < 160 chars
+
+metadata:
+  title: Multiplayer # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Matchmaking, invites, voice and text chat, and networking. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: gaming #Required; service per approved list. service slug assigned to your service by ACOM.
+  # ms.subservice: subservice # Optional; Remove if no subservice is used.
+  ms.topic: landing-page # Required
+  # ms.collection: collection # Optional; Remove if no collection is used.
+  author: mlamaute #Required; your GitHub user alias, with correct capitalization.
+  ms.author: migreen #Required; microsoft alias of author; optional team alias.
+  ms.date: 04/10/2020 #Required; mm/dd/yyyy format.
+
+  # Max cards: 12 (currently 10)
+      # Max linkListTypes in a card: 6 (5: XBL infotypes + ref)
+          # Max links in a linkListType: 10 (< 10) (thus a card can have 6 * 10 = 60 links max)
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+# 4 XBL infotypes + ref, use these:
+
+      # Describes a product/service from a technical point of view.
+      # - linkListType: overview
+
+      # In-depth explanation of functionality related to a service(s) that are fundamental to understanding and use.
+      # - linkListType: concept
+
+      # How to deploy a service.
+      # - linkListType: deploy
+
+      # Related code sample.
+      # - linkListType: sample
+
+      # Documentation for APIs, PowerShell cmdlets, CLI commands, or other types of language-based content.
+      # - linkListType: reference
+# ------------------------------------------
+# non-XBL infotypes, don't use except as overflow bucket to extend the above
+      # Getting started content that targets users that are new to a service or product.
+      # - linkListType: get-started
+
+      # Fundamental day 1 instructions that help new customers quickly use a product or service.
+      # - linkListType: quickstart
+
+      # Detailed guidance for how to design and deploy an architecture.
+      # - linkListType: architecture
+
+      # Procedural articles that show the customer how to complete a task.
+      # - linkListType: how-to-guide
+
+      # Typically Microsoft Learn modules, but can be any learning content.
+      # - linkListType: learn
+
+      # Scenario-based procedures for the top customer tasks.
+      # - linkListType: tutorial
+
+      # Video that supplements the content.
+      # - linkListType: video
+
+      # Download a file related to the service or product.
+      # - linkListType: download
+
+      # Describes recent changes to product or service.
+      # - linkListType: whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card
+  - title: Multiplayer
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Multiplayer overview
+            url: features/multiplayer/live-multiplayer-intro.md
+          - text: Common multiplayer scenarios
+            url: features/multiplayer/live-common-multiplayer-scenarios.md
+      - linkListType: concept
+        links:
+          - text: Multiplayer concepts overview
+            url: features/multiplayer/concepts/live-multiplayer-concepts.md
+          - text: Multiplayer roles
+            url: features/multiplayer/concepts/live-multiplayer-roles.md
+          - text: Multiplayer session browse
+            url: features/multiplayer/concepts/live-session-browse.md
+          - text: Intro to calling the Multiplayer service directly
+            url: features/multiplayer/concepts/live-intro-calling-mp-directly.md
+          - text: Configuring the Multiplayer service
+            url: features/multiplayer/concepts/live-configure-the-multiplayer-service.md
+          - text: Multiplayer 2015 FAQ and troubleshooting
+            url: features/multiplayer/concepts/live-multiplayer-2015-faq.md
+          - text: Changing a game from 2014 to 2015 Multiplayer
+            url: features/multiplayer/concepts/live-issues-changing-to-mp-2015.md
+          - text: Migrating an arbiter
+            url: features/multiplayer/concepts/live-migrating-an-arbiter.md
+      # - linkListType: how-to-guide
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: sample
+      #   links:
+      #     - text: __
+      #       url: __.md
+  # Card
+  - title: Xbox Integrated Multiplayer (XIM)
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Xbox Integrated Multiplayer (XIM) overview
+            url: features/multiplayer/xim/live-xim-overview.md
+      - linkListType: concept
+        links:
+          - text: Configuring a XIM project in a manifest
+            url: features/multiplayer/xim/concepts/live-xim-manifest.md
+          - text: XIM release notes
+            url: features/multiplayer/xim/concepts/live-xim-release-notes.md
+      # - linkListType: how-to-guide
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: sample
+        links:
+          - text: Using XIM via C++
+            url: features/multiplayer/xim/how-to/live-using-xim.md
+          - text: Using XIM via C#
+            url: features/multiplayer/xim/how-to/live-using-xim-cs.md
+          - text: Using XIM via Unity with IL2CPP
+            url: features/multiplayer/xim/how-to/live-xim-unity-uwp-il2cpp.md
+          - text: XIM dedicated chat via out-of-band reservations
+            url: features/multiplayer/xim/how-to/live-xim-chat-reservations.md
+  # Card
+  - title: Multiplayer Manager (MPM)
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Multiplayer Manager overview
+            url: features/multiplayer/mpm/live-multiplayer-manager-overview.md
+      - linkListType: concept
+        links:
+          - text: Multiplayer Manager API overview
+            url: features/multiplayer/mpm/concepts/live-multiplayer-manager-api-overview.md
+          - text: Playing a game with friends (flowchart)
+            url: features/multiplayer/mpm/concepts/flowcharts/live-mpm-play-with-friends.md
+          - text: Playing a game by using SmartMatch matchmaking (flowchart)
+            url: features/multiplayer/mpm/concepts/flowcharts/live-mpm-play-with-smartmatch-matchmaking.md
+          - text: Checking Quality of Service for matchmaking (flowchart)
+            url: features/multiplayer/mpm/concepts/flowcharts/live-mpm-use-matchmaking-and-qos.md
+          - text: Sending invites to another player (flowchart)
+            url: features/multiplayer/mpm/concepts/flowcharts/live-mpm-send-invites.md
+          - text: Handling protocol activation (flowchart)
+            url: features/multiplayer/mpm/concepts/flowcharts/live-mpm-on-protocol-activation.md
+          - text: Filling open slots in a multiplayer game (flowchart)
+            url: features/multiplayer/mpm/concepts/flowcharts/live-mpm-fill-open-slots.md
+          - text: Handling host migration (flowchart)
+            url: features/multiplayer/mpm/concepts/flowcharts/live-mpm-host-migration.md
+          - text: Shutting down a multiplayer session (flowchart)
+            url: features/multiplayer/mpm/concepts/flowcharts/live-mpm-shut-down.md
+      # - linkListType: how-to-guide
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: sample
+        links:
+          - text: Enable playing a multiplayer game with friends using Multiplayer Manager
+            url: features/multiplayer/mpm/how-to/live-play-multiplayer-with-friends.md
+          - text: Finding a multiplayer game by using SmartMatch using Multiplayer Manager
+            url: features/multiplayer/mpm/how-to/live-play-multiplayer-with-matchmaking.md
+          - text: Sending game invites using Multiplayer Manager
+            url: features/multiplayer/mpm/how-to/live-send-game-invites.md
+          - text: Handling protocol activation to start a game, using Multiplayer Manager
+            url: features/multiplayer/mpm/how-to/live-handle-protocol-activation.md
+  # Card
+  - title: Multiplayer Session Directory (MPSD)
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Multiplayer Session Directory overview
+            url: features/multiplayer/mpsd/live-mpsd-overview.md
+          - text: Multiplayer Session Directory
+            url: features/multiplayer/mpsd/live-xbox-multiplayer-session-directory.md
+      - linkListType: concept
+        links:
+          - text: Multiplayer Session advanced topics
+            url: features/multiplayer/mpsd/concepts/live-mpsd-details.md
+          - text: Service-to-service multiplayer session management
+            url: features/multiplayer/mpsd/concepts/live-service-to-service.md
+          - text: Game session visibility and joinability
+            url: features/multiplayer/mpsd/concepts/live-game-session-visibility-joinability.md
+          - text: Multiplayer session templates
+            url: features/multiplayer/mpsd/concepts/live-session-templates.md
+          - text: Session template constants
+            url: features/multiplayer/mpsd/concepts/live-session-template-constants.md
+          - text: Using large sessions for Multiplayer
+            url: features/multiplayer/mpsd/concepts/live-large-sessions.md
+      # - linkListType: how-to-guide
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: sample
+        links:
+          - text: Multiplayer tasks
+            url: features/multiplayer/mpsd/how-to/live-mpsd-how-tos.md
+          - text: Multiplayer session status codes
+            url: features/multiplayer/mpsd/how-to/live-mpsd-status-codes.md
+  # Card
+  - title: Invites
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Invites overview
+            url: features/multiplayer/invites/live-multiplayer-invites-overview.md
+      - linkListType: concept
+        links:
+          - text: Flows for multiplayer game invites
+            url: features/multiplayer/invites/concepts/live-multiplayer-invite-flows.md
+          - text: Multiplayer invites for UWP games
+            url: features/multiplayer/invites/concepts/live-multiplayer-invite-uwp.md
+      # - linkListType: how-to-guide
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: sample
+        links:
+          - text: Sending invites
+            url: features/multiplayer/invites/how-to/live-invites-send.md
+          - text: Receiving invites
+            url: features/multiplayer/invites/how-to/live-invites-receive.md
+  # Card
+  - title: SmartMatch Matchmaking
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Matchmaking overview
+            url: features/multiplayer/matchmaking/live-matchmaking-overview.md
+      - linkListType: concept
+        links:
+          - text: Using SmartMatch matchmaking
+            url: features/multiplayer/matchmaking/concepts/live-matchmaking-how-tos.md
+          - text: Target session initialization and QoS
+            url: features/multiplayer/matchmaking/concepts/live-matchmaking-target-session.md
+          - text: Xbox Arena overview
+            url: features/multiplayer/matchmaking/concepts/arena/live-arena-overview.md
+          - text: Arena title integration
+            url: features/multiplayer/matchmaking/concepts/arena/live-arena-title-integration.md
+          - text: Xbox Arena Operations Portal
+            url: features/multiplayer/matchmaking/concepts/arena/live-arena-operations-portal.md
+          - text: UX for discovering Xbox tournaments
+            url: features/multiplayer/matchmaking/concepts/arena/live-discovering-xbox-tournaments.md
+          - text: Join a tournament by using the Arena UI
+            url: features/multiplayer/matchmaking/concepts/arena/live-arena-ux-join-tournament.md
+          - text: UX for match engagement
+            url: features/multiplayer/matchmaking/concepts/arena/live-arena-ux-match-engagement.md
+          - text: UI metadata from Arena APIs
+            url: features/multiplayer/matchmaking/concepts/arena/live-arena-apis-metadata.md
+          - text: UX for Arena notifications
+            url: features/multiplayer/matchmaking/concepts/arena/live-arena-notifications.md
+          - text: UX for Arena participant user scenarios
+            url: features/multiplayer/matchmaking/concepts/arena/live-arena-user-scenarios.md
+      - linkListType: how-to-guide
+        links:
+          - text: Configuring Matchmaking in Partner Center
+            url: features/multiplayer/matchmaking/config/live-matchmaking-config.md
+      # - linkListType: sample
+      #   links:
+      #     - text: __
+      #       url: __.md
+  # Card
+  - title: Game Chat
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Game Chat overview
+            url: features/multiplayer/chat/live-game-chat-2-overview.md
+      # - linkListType: concept
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: how-to-guide
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: sample
+        links:
+          - text: Using the Game Chat 2 C++ API
+            url: features/multiplayer/chat/how-to/live-using-game-chat-2.md
+          - text: Using the Game Chat 2 C# API with WinRT projections
+            url: features/multiplayer/chat/how-to/live-using-game-chat-2-winrt.md
+          - text: Real-time audio manipulation
+            url: features/multiplayer/chat/how-to/live-real-time-audio-manipulation.md
+          - text: Migrating from Game Chat 1 to Game Chat 2
+            url: features/multiplayer/chat/how-to/live-game-chat-2-migration.md

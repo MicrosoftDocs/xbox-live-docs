@@ -1,0 +1,225 @@
+### YamlMime:Landing
+
+title: Social # < 60 chars
+summary: Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation. # < 160 chars
+
+metadata:
+  title: Social # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: gaming #Required; service per approved list. service slug assigned to your service by ACOM.
+  # ms.subservice: subservice # Optional; Remove if no subservice is used.
+  ms.topic: landing-page # Required
+  # ms.collection: collection # Optional; Remove if no collection is used.
+  author: mlamaute #Required; your GitHub user alias, with correct capitalization.
+  ms.author: migreen #Required; microsoft alias of author; optional team alias.
+  ms.date: 04/10/2020 #Required; mm/dd/yyyy format.
+
+  # Max cards: 12 (currently 10)
+      # Max linkListTypes in a card: 6 (5: XBL infotypes + ref)
+          # Max links in a linkListType: 10 (< 10) (thus a card can have 6 * 10 = 60 links max)
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+# 4 XBL infotypes + ref, use these:
+
+      # Describes a product/service from a technical point of view.
+      # - linkListType: overview
+
+      # In-depth explanation of functionality related to a service(s) that are fundamental to understanding and use.
+      # - linkListType: concept
+
+      # How to deploy a service.
+      # - linkListType: deploy
+
+      # Related code sample.
+      # - linkListType: sample
+
+      # Documentation for APIs, PowerShell cmdlets, CLI commands, or other types of language-based content.
+      # - linkListType: reference
+# ------------------------------------------
+# non-XBL infotypes, don't use except as overflow bucket to extend the above
+      # Getting started content that targets users that are new to a service or product.
+      # - linkListType: get-started
+
+      # Fundamental day 1 instructions that help new customers quickly use a product or service.
+      # - linkListType: quickstart
+
+      # Detailed guidance for how to design and deploy an architecture.
+      # - linkListType: architecture
+
+      # Procedural articles that show the customer how to complete a task.
+      # - linkListType: how-to-guide
+
+      # Typically Microsoft Learn modules, but can be any learning content.
+      # - linkListType: learn
+
+      # Scenario-based procedures for the top customer tasks.
+      # - linkListType: tutorial
+
+      # Video that supplements the content.
+      # - linkListType: video
+
+      # Download a file related to the service or product.
+      # - linkListType: download
+
+      # Describes recent changes to product or service.
+      # - linkListType: whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card
+  - title: Social
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Overview of Social features
+            url: live-social-overview.md
+      # - linkListType: concept
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: how-to-guide
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: sample
+      #   links:
+      #     - text: __
+      #       url: __.md
+  # Card
+  - title: __
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Social Manager overview
+            url: social-manager/live-social-manager-overview.md
+      - linkListType: concept
+        links:
+          - text: Privilege codes for Social Manager
+            url: social-manager/concepts/live-socmgr-privilege-codes.md
+          - text: Social Manager memory and performance
+            url: social-manager/concepts/live-socmgr-mem-perf.md
+      # - linkListType: how-to-guide
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: sample
+      #   links:
+      #     - text: __
+      #       url: __.md
+  # Card
+  - title: People System (Friends List)
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: People System (Friends List) overview
+            url: people-system/live-people-system-overview.md
+      - linkListType: concept
+        links:
+          - text: Displaying people from the People System
+            url: people-system/concepts/live-pplsys-displaying-people.md
+      # - linkListType: how-to-guide
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: sample
+        links:
+          - text: Getting a social relationship
+            url: people-system/how-to/live-getting-a-social-relationship.md
+          - text: Handling a social relationship change
+            url: people-system/how-to/live-handling-a-relationship-change.md
+          - text: Programming Social services
+            url: people-system/how-to/live-retrieving-social-relationships-winrt.md
+  # Card
+  - title: Rich Presence
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Rich Presence overview
+            url: presence/live-presence-overview.md
+      - linkListType: concept
+        links:
+          - text: Best practices for Rich Presence
+            url: presence/concepts/live-presence-best-practices.md
+          - text: Policies and limits for Rich Presence strings
+            url: presence/concepts/live-presence-limits.md
+          - text: Rich Presence appendix
+            url: presence/concepts/live-presence-apx.md
+      - linkListType: how-to-guide
+        links:
+          - text: Configuring Rich Presence strings
+            url: presence/config/live-presence-config.md
+          - text: Configuring Rich Presence strings in Partner Center
+            url: presence/config/live-presence-config2.md
+      - linkListType: sample
+        links:
+          - text: Getting a user's Presence
+            url: presence/how-to/live-getting-a-users-presence.md
+          - text: Handling a title Presence change
+            url: presence/how-to/live-handling-a-title-presence-change.md
+          - text: Handling a device Presence change
+            url: presence/how-to/live-handling-a-device-presence-change.md
+          - text: Updating a user's Presence via XSAPI C
+            url: presence/how-to/live-updating-user-presence.md
+          - text: Updating a user's Presence via REST
+            url: presence/how-to/live-updating-presence-rest.md
+          - text: Updating a user's Presence via WinRT
+            url: presence/how-to/live-setting-presence-status.md
+  # Card
+  - title: Localized strings
+    linkLists:
+      # - linkListType: overview
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: concept
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: how-to-guide
+        links:
+          - text: Configuring localized strings in Partner Center
+            url: localized-strings/live-localized-strings-config.md
+      # - linkListType: sample
+      #   links:
+      #     - text: __
+      #       url: __.md
+  # Card
+  - title: Reputation
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Reputation overview
+            url: reputation/live-reputation-overview.md
+      - linkListType: concept
+        links:
+          - text: Sending Reputation feedback from a title
+            url: reputation/concepts/live-sending-reputation-feedback.md
+      # - linkListType: how-to-guide
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: sample
+        links:
+          - text: Submitting Reputation feedback
+            url: reputation/how-to/live-submitting-reputation-feedback.md
+  # Card
+  - title: __
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Clubs
+            url: clubs/live-clubs.md
+      # - linkListType: concept
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: how-to-guide
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: sample
+      #   links:
+      #     - text: __
+      #       url: __.md

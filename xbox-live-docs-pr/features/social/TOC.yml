@@ -1,0 +1,81 @@
+- name: Social
+  href: index.yml
+  items:
+    - name: Overview of Social features
+      href: live-social-overview.md
+    - name: Social Manager
+      items:
+        - name: Social Manager overview
+          href: social-manager/live-social-manager-overview.md
+        - name: Social Manager concepts
+          items:
+            - name: Privilege codes for Social Manager
+              href: social-manager/concepts/live-socmgr-privilege-codes.md
+            - name: Social Manager memory and performance
+              href: social-manager/concepts/live-socmgr-mem-perf.md
+    - name: People System (Friends List)
+      items:
+        - name: People System (Friends List) overview
+          href: people-system/live-people-system-overview.md
+        - name: People System (Friends List) concepts
+          items:
+            - name: Displaying people from the People System
+              href: people-system/concepts/live-pplsys-displaying-people.md
+        - name: People System (Friends List) how-to's
+          items:
+            - name: Getting a social relationship
+              href: people-system/how-to/live-getting-a-social-relationship.md
+            - name: Handling a social relationship change
+              href: people-system/how-to/live-handling-a-relationship-change.md
+            - name: Programming Social services
+              href: people-system/how-to/live-retrieving-social-relationships-winrt.md
+    - name: Rich Presence
+      items:
+        - name: Rich Presence overview
+          href: presence/live-presence-overview.md
+        - name: Rich Presence concepts
+          items:
+            - name: Best practices for Rich Presence
+              href: presence/concepts/live-presence-best-practices.md
+            - name: Policies and limits for Rich Presence strings
+              href: presence/concepts/live-presence-limits.md
+            - name: Rich Presence appendix
+              href: presence/concepts/live-presence-apx.md
+        - name: Rich Presence portal config
+          items:
+            - name: Configuring Rich Presence strings
+              href: presence/config/live-presence-config.md
+            - name: Configuring Rich Presence strings in Partner Center
+              href: presence/config/live-presence-config2.md
+        - name: Rich Presence how-to's
+          items:
+            - name: Getting a user's Presence
+              href: presence/how-to/live-getting-a-users-presence.md
+            - name: Handling a title Presence change
+              href: presence/how-to/live-handling-a-title-presence-change.md
+            - name: Handling a device Presence change
+              href: presence/how-to/live-handling-a-device-presence-change.md
+            - name: Updating a user's Presence via XSAPI C
+              href: presence/how-to/live-updating-user-presence.md
+            - name: Updating a user's Presence via REST
+              href: presence/how-to/live-updating-presence-rest.md
+            - name: Updating a user's Presence via WinRT
+              href: presence/how-to/live-setting-presence-status.md
+    - name: Localized strings
+      items:
+        - name: Configuring localized strings in Partner Center
+          href: localized-strings/live-localized-strings-config.md
+    - name: Reputation
+      items:
+        - name: Reputation overview
+          href: reputation/live-reputation-overview.md
+        - name: Reputation concepts
+          items:
+            - name: Sending Reputation feedback from a title
+              href: reputation/concepts/live-sending-reputation-feedback.md
+        - name: Reputation how-to's
+          items:
+            - name: Submitting Reputation feedback
+              href: reputation/how-to/live-submitting-reputation-feedback.md
+    - name: Clubs
+      href: clubs/live-clubs.md
