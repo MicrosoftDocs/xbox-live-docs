@@ -1,0 +1,241 @@
+### YamlMime:Landing
+
+title: Getting Started # < 60 chars
+summary: Join a developer program, create a game at Partner Center, add the Xbox Live SDK to your IDE, and write basic sign-in code. # < 160 chars
+
+metadata:
+  title: Getting Started # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Join a developer program, create a game at Partner Center, add the Xbox Live SDK to your IDE, and write basic sign-in code. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: gaming #Required; service per approved list. service slug assigned to your service by ACOM.
+  # ms.subservice: subservice # Optional; Remove if no subservice is used.
+  ms.topic: landing-page # Required
+  # ms.collection: collection # Optional; Remove if no collection is used.
+  author: mlamaute #Required; your GitHub user alias, with correct capitalization.
+  ms.author: migreen #Required; microsoft alias of author; optional team alias.
+  ms.date: 04/13/2020 #Required; mm/dd/yyyy format.
+
+  # Max cards: 12 (currently 10)
+      # Max linkListTypes in a card: 6 (5: XBL infotypes + ref)
+          # Max links in a linkListType: 10 (< 10) (thus a card can have 6 * 10 = 60 links max)
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+# 4 XBL infotypes + ref, use these:
+
+      # Describes a product/service from a technical point of view.
+      # - linkListType: overview
+
+      # In-depth explanation of functionality related to a service(s) that are fundamental to understanding and use.
+      # - linkListType: concept
+
+      # How to deploy a service.
+      # - linkListType: deploy
+
+      # Related code sample.
+      # - linkListType: sample
+
+      # Documentation for APIs, PowerShell cmdlets, CLI commands, or other types of language-based content.
+      # - linkListType: reference
+# ------------------------------------------
+# non-XBL infotypes, don't use except as overflow bucket to extend the above
+      # Getting started content that targets users that are new to a service or product.
+      # - linkListType: get-started
+
+      # Fundamental day 1 instructions that help new customers quickly use a product or service.
+      # - linkListType: quickstart
+
+      # Detailed guidance for how to design and deploy an architecture.
+      # - linkListType: architecture
+
+      # Procedural articles that show the customer how to complete a task.
+      # - linkListType: how-to-guide
+
+      # Typically Microsoft Learn modules, but can be any learning content.
+      # - linkListType: learn
+
+      # Scenario-based procedures for the top customer tasks.
+      # - linkListType: tutorial
+
+      # Video that supplements the content.
+      # - linkListType: video
+
+      # Download a file related to the service or product.
+      # - linkListType: download
+
+      # Describes recent changes to product or service.
+      # - linkListType: whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card
+  - title: Getting Started
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Xbox Live overview
+            url: live-xbl-overview.md
+      # - linkListType: concept
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: how-to-guide
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: sample
+      #   links:
+      #     - text: __
+      #       url: __.md
+  # Card
+  - title: Joining a developer program
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Choosing an Xbox Live developer program
+            url: join-dev-program/live-dev-program-overview.md
+          - text: Features supported for each developer program
+            url: join-dev-program/live-feature-comparison-table.md
+      # - linkListType: concept
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: how-to-guide
+        links:
+          - text: Joining the Creators Program
+            url: join-dev-program/live-join-creators-program.md
+          - text: Joining the ID@Xbox Program
+            url: join-dev-program/live-join-id-program.md
+      # - linkListType: sample
+      #   links:
+      #     - text: __
+      #       url: __.md
+  # Card
+  - title: Setting up a game at Partner Center, for Managed Partners
+    linkLists:
+      # - linkListType: overview
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: concept
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: how-to-guide
+        links:
+          - text: Setting up a game at Partner Center, for Managed Partners
+            url: setup-partner-center/live-setup-partner-center-partners.md
+
+          - text: Getting started with Xbox Live, for Managed Partners
+            url: setup-partner-center/legacy/live-get-started-xbl-partner.md
+          - text: Creating an app and publishing it for testing, for Managed Partners
+            url: setup-partner-center/legacy/live-create-new-title-partner.md
+      # - linkListType: sample
+      #   links:
+      #     - text: __
+      #       url: __.md
+  # Card
+  - title: Setting up a game at Partner Center, for Creators
+    linkLists:
+      # - linkListType: overview
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: concept
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: how-to-guide
+        links:
+          - text: Setting up a game at Partner Center, for Creators
+            url: setup-partner-center/live-setup-partner-center-creators.md
+          - text: Getting started with Xbox Live, for Creators
+            url: setup-partner-center/legacy/live-get-started-creators.md
+          - text: Creating an app and publishing it for testing, for Creators
+            url: setup-partner-center/legacy/live-create-and-test-creators-title.md
+          - text: Authorizing test accounts, for Creators
+            url: setup-partner-center/legacy/live-authorize-xbox-live-accounts.md
+      # - linkListType: sample
+      #   links:
+      #     - text: __
+      #       url: __.md
+  # Card
+  - title: Setting up an IDE, for Managed Partners
+    linkLists:
+      # - linkListType: overview
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: concept
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: how-to-guide
+        links:
+          - text: Setting up Android Studio targeting Android
+            url: setup-ide/managed-partners/astudio-android/live-astudio-android-mp.md
+          - text: Setting up Xcode targeting iOS
+            url: setup-ide/managed-partners/xcode-ios/live-xcode-ios-mp.md
+          # retitle in article md:
+          - text: Setting up Visual Studio for UWP games targeting Windows 10
+            url: setup-ide/managed-partners/vstudio-win10/live-get-started-vstudio-uwp.md
+          # retitle in article md:
+          - text: Setting up Visual Studio targeting Xbox console
+            url: setup-ide/managed-partners/vstudio-xbox/live-add-xbl-xdk-project.md
+          # retitle in article md:
+          - text: Setting up Unity targeting Windows 10, with .NET scripting
+          # - text: Add XBL support to Unity for UWP, with .NET scripting
+            url: setup-ide/managed-partners/unity-win10/live-partner-unity-uwp-net.md
+          # retitle in article md:
+          - text: Setting up Unity targeting Windows 10, with IL2CPP scripting
+          # - text: Add XBL support to Unity for UWP, with IL2CPP scripting
+            url: setup-ide/managed-partners/unity-win10/live-partner-unity-uwp-il2cpp.md
+          # retitle in article md:
+          - text: Setting up Unity targeting Xbox console, with IL2CPP scripting
+          # - text: Add XBL support to Unity for XDK, with IL2CPP scripting
+            url: setup-ide/managed-partners/unity-xbox/live-partner-unity-xdk-il2cpp.md
+      # - linkListType: sample
+      #   links:
+      #     - text: __
+      #       url: __.md
+  # Card
+  - title: Setting up an IDE, for Creators
+    linkLists:
+      # - linkListType: overview
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: concept
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: how-to-guide
+        links:
+          - text: Setting up Visual Studio targeting Windows 10
+            url: setup-ide/creators/vstudio-win10/live-develop-creators-title-vstudio.md
+          # retitle in article md:
+          - text: Setting up Unity targeting Windows 10
+            url: setup-ide/creators/unity-win10/live-configure-xbl-in-unity.md
+      # - linkListType: sample
+      #   links:
+      #     - text: __
+      #       url: __.md
+  # Card
+  - title: Setting up Xbox Live
+    linkLists:
+      # - linkListType: overview
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: concept
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: how-to-guide
+        links:
+          - text: Adding basic sign-in code for mobile
+            url: add-signin-code/live-getting-xsapi-to-sign-in.md
+      # - linkListType: sample
+      #   links:
+      #     - text: __
+      #       url: __.md
