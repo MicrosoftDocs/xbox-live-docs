@@ -125,7 +125,6 @@ landingContent:
         links:
           - text: Setting up a game at Partner Center, for Managed Partners
             url: setup-partner-center/live-setup-partner-center-partners.md
-
           - text: Getting started with Xbox Live, for Managed Partners
             url: setup-partner-center/legacy/live-get-started-xbl-partner.md
           - text: Creating an app and publishing it for testing, for Managed Partners
