@@ -1,0 +1,146 @@
+### YamlMime:Landing
+
+title: Custom services # < 60 chars
+summary: Using Xbox Live with your own Web services; and configuring relying parties, single sign-on, and access policies. # < 160 chars
+
+metadata:
+  title: Custom services # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Using Xbox Live with your own Web services; and configuring relying parties, single sign-on, and access policies. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: gaming #Required; service per approved list. service slug assigned to your service by ACOM.
+  # ms.subservice: subservice # Optional; Remove if no subservice is used.
+  ms.topic: landing-page # Required
+  # ms.collection: collection # Optional; Remove if no collection is used.
+  author: mlamaute #Required; your GitHub user alias, with correct capitalization.
+  ms.author: migreen #Required; microsoft alias of author; optional team alias.
+  ms.date: 04/13/2020 #Required; mm/dd/yyyy format.
+
+  # Max cards: 12 (currently 10)
+      # Max linkListTypes in a card: 6 (5: XBL infotypes + ref)
+          # Max links in a linkListType: 10 (< 10) (thus a card can have 6 * 10 = 60 links max)
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+# 4 XBL infotypes + ref, use these:
+
+      # Describes a product/service from a technical point of view.
+      # - linkListType: overview
+
+      # In-depth explanation of functionality related to a service(s) that are fundamental to understanding and use.
+      # - linkListType: concept
+
+      # How to deploy a service.
+      # - linkListType: deploy
+
+      # Related code sample.
+      # - linkListType: sample
+
+      # Documentation for APIs, PowerShell cmdlets, CLI commands, or other types of language-based content.
+      # - linkListType: reference
+# ------------------------------------------
+# non-XBL infotypes, don't use except as overflow bucket to extend the above
+      # Getting started content that targets users that are new to a service or product.
+      # - linkListType: get-started
+
+      # Fundamental day 1 instructions that help new customers quickly use a product or service.
+      # - linkListType: quickstart
+
+      # Detailed guidance for how to design and deploy an architecture.
+      # - linkListType: architecture
+
+      # Procedural articles that show the customer how to complete a task.
+      # - linkListType: how-to-guide
+
+      # Typically Microsoft Learn modules, but can be any learning content.
+      # - linkListType: learn
+
+      # Scenario-based procedures for the top customer tasks.
+      # - linkListType: tutorial
+
+      # Video that supplements the content.
+      # - linkListType: video
+
+      # Download a file related to the service or product.
+      # - linkListType: download
+
+      # Describes recent changes to product or service.
+      # - linkListType: whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card
+  - title: Access policies
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Access Policies overview
+            url: access-policies/live-access-policies-overview.md
+      # - linkListType: concept
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: how-to-guide
+        links:
+          - text: Configuring access policies in Partner Center, for Managed Partners
+            url: access-policies/config/live-access-policies-udc.md
+      # - linkListType: sample
+      #   links:
+      #     - text: __
+      #       url: __.md
+  # Card
+  - title: __
+    linkLists:
+      # - linkListType: overview
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: concept
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: how-to-guide
+        links:
+          - text: Configuring single sign-on in Partner Center, for Managed Partners
+            url: single-sign-on/live-single-sign-on.md
+      # - linkListType: sample
+      #   links:
+      #     - text: __
+      #       url: __.md
+  # Card
+  - title: Web services
+    linkLists:
+      # - linkListType: overview
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: concept
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: how-to-guide
+        links:
+          - text: Setting up Web Services at Partner Center
+            url: web-services/live-web-services.md
+      # - linkListType: sample
+      #   links:
+      #     - text: __
+      #       url: __.md
+  # Card
+  - title: Relying parties
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Relying parties overview
+            url: relying-parties/live-relying-parties-nav.md
+      # - linkListType: concept
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: how-to-guide
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: sample
+      #   links:
+      #     - text: __
+      #       url: __.md
