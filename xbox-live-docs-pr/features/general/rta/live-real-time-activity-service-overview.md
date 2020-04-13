@@ -1,7 +1,7 @@
 ---
-title: Overview of Real-Time Activity service
+title: Real-Time Activity service overview
 description: The Real-Time Activity service enables an application on any device to subscribe to state data, user statistics, and presence.
-kindex: Overview of Real-Time Activity service
+kindex: Real-Time Activity service overview
 kindex: Real-Time Activity service
 kindex: RTA
 ms.topic: article
@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 ms.date: 04/04/2017
 ---
 
-# Overview of Real-Time Activity service
+# Real-Time Activity service overview
 
 The Real-Time Activity (RTA) service allows an application on any device to subscribe to state data, user statistics, and presence.
 

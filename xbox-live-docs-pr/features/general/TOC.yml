@@ -1,0 +1,47 @@
+- name: General features
+  href: index.yml
+  items:
+    - name: Title-callable UI (TCUI)
+      href: tcui/live-tcui-nav.md
+    - name: Real-Time Activity (RTA) service
+      items:
+        - name: Real-Time Activity service overview
+          href: rta/live-real-time-activity-service-overview.md
+        - name: Real-Time Activity (RTA) service concepts
+          items:
+            - name: Registering for player Stat change notifications
+              href: rta/concepts/live-register-for-stat-notifications.md
+            - name: Best Practices for the RTA service
+              href: rta/concepts/live-rta-best-practices.md
+        - name: Real-Time Activity (RTA) service how-to's
+          items:
+            - name: Programming the RTA service
+              href: rta/how-to/live-programming-rta.md
+    - name: What's New
+      items:
+        - name: What's new for Xbox Live
+          href: whats-new/live-whats-new.md
+        - name: What's New for older releases of Xbox Live
+          items:
+            - name: What's new for the Xbox Live SDK - December 2016
+              href: whats-new/archived/live-whats-new-1612.md
+            - name: What's new for the Xbox Live SDK - November 2016
+              href: whats-new/archived/live-whats-new-1611.md
+            - name: What's new for the Xbox Live SDK - August 2016
+              href: whats-new/archived/live-whats-new-1608.md
+            - name: What's new for the Xbox Live SDK - June 2016
+              href: whats-new/archived/live-whats-new-1606.md
+            - name: What's new for the Xbox Live SDK - April 2016
+              href: whats-new/archived/live-whats-new-1604.md
+            - name: What's new for the Xbox Live SDK - March 2016
+              href: whats-new/archived/live-whats-new-1603.md
+            - name: What's new for the Xbox Live SDK - February 2016
+              href: whats-new/archived/live-whats-new-1602.md
+            - name: What's new for the Xbox Live SDK - October 2015
+              href: whats-new/archived/live-whats-new-1510.md
+            - name: What's new for the Xbox Live SDK - September 2015
+              href: whats-new/archived/live-whats-new-1509.md
+            - name: What's new for the Xbox Live SDK - August 2015
+              href: whats-new/archived/live-whats-new-1508.md
+            - name: What's new for the Xbox Live SDK - June 2015
+              href: whats-new/archived/live-whats-new-1506.md

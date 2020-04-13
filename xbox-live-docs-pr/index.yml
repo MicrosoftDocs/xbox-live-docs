@@ -80,13 +80,13 @@ productDirectory:
       # imageSrc should be square in ratio with no whitespace
       imageSrc: ./index-images/Icon_CustomServices.svg
       summary: Using Xbox Live with your own Web services; and configuring relying parties, single sign-on, and access policies.
-      url: features/custom-services/live-custom-services-nav.md
+      url: features/custom-services/index.yml
     # Card
-    - title: Services spanning multiple features
+    - title: General features
       # imageSrc should be square in ratio with no whitespace
       imageSrc: ./index-images/Icon_SpanFeatures.svg
       summary: RTA (subscribes to state data, user statistics, and presence), TCUI (shows pre-defined user interface displays), and What's New.
-      url: features/rta/live-rta-nav.md
+      url: features/general/index.yml
 # additionalContent section (optional)
 # Card with summary style
 additionalContent:
