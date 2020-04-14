@@ -102,7 +102,7 @@ additionalContent:
         # Card
         - title: Testing and Releasing
           summary: Testing, troubleshooting, and publishing a game.
-          url: test-release/live-test-release-nav.md
+          url: test-release/index.yml
         # Card
         - title: Policies and XRs
           summary: Xbox Requirements for adding Xbox Live to a game.
