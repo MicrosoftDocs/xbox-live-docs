@@ -25,17 +25,17 @@ highlightedContent:
       itemType: get-started
       url: get-started/live-xbl-overview.md
     # Card
-    - title: Joining a developer program
+    - title: Choosing an Xbox Live developer program
       itemType: get-started
       url: get-started/join-dev-program/live-dev-program-overview.md
-    # Card
-    - title: Setting up a game at Partner Center, for Managed Partners
-      itemType: get-started
-      url: get-started/setup-partner-center/live-setup-partner-center-partners.md
     # Card
     - title: Setting up a game at Partner Center, for Creators
       itemType: get-started
       url: get-started/setup-partner-center/live-setup-partner-center-creators.md
+    # Card
+    - title: Setting up a game at Partner Center, for Managed Partners
+      itemType: get-started
+      url: get-started/setup-partner-center/live-setup-partner-center-partners.md
     # Card
     - title: Setting up an IDE
       itemType: get-started

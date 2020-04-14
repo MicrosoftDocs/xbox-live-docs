@@ -1,18 +1,18 @@
 ### YamlMime:Landing
 
-title: Custom services # < 60 chars
-summary: Using Xbox Live with your own Web services; and configuring relying parties, single sign-on, and access policies. # < 160 chars
+title: Policies and XRs # < 60 chars
+summary: Xbox Requirements for adding Xbox Live to a game. # < 160 chars
 
 metadata:
-  title: Custom services # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Using Xbox Live with your own Web services; and configuring relying parties, single sign-on, and access policies. # Required; article description that is displayed in search results. < 160 chars.
+  title: Policies and XRs # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Xbox Requirements for adding Xbox Live to a game. # Required; article description that is displayed in search results. < 160 chars.
   ms.service: gaming #Required; service per approved list. service slug assigned to your service by ACOM.
   # ms.subservice: subservice # Optional; Remove if no subservice is used.
   ms.topic: landing-page # Required
   # ms.collection: collection # Optional; Remove if no collection is used.
   author: mlamaute #Required; your GitHub user alias, with correct capitalization.
   ms.author: migreen #Required; microsoft alias of author; optional team alias.
-  ms.date: 04/13/2020 #Required; mm/dd/yyyy format.
+  ms.date: 04/14/2020 #Required; mm/dd/yyyy format.
 
   # Max cards: 12 (currently 10)
       # Max linkListTypes in a card: 6 (5: XBL infotypes + ref)
@@ -69,73 +69,51 @@ landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
   # Card
-  - title: Access policies
+  - title: Policies articles
     linkLists:
       - linkListType: overview
         links:
-          - text: Access Policies overview
-            url: access-policies/live-access-policies-overview.md
-      # - linkListType: concept
+          - text: Policies and XRs overview
+            url: live-policies-nav.md
+      - linkListType: concept
+        links:
+          - text: Xbox Live Policies for PC and mobile
+            url: pc/live-policies-pc.md
+          - text: Xbox Live terminology
+            url: pc/live-certification-terminology-pc.md
+          - text: Recommended Policy Tests for PC and mobile
+            url: pc/live-policy-tests-pc.md
+      # - linkListType: how-to-guide
       #   links:
       #     - text: __
       #       url: __.md
-      - linkListType: how-to-guide
-        links:
-          - text: Configuring access policies in Partner Center, for Managed Partners
-            url: access-policies/config/live-access-policies-udc.md
       # - linkListType: sample
       #   links:
       #     - text: __
       #       url: __.md
   # Card
-  - title: Single Sign-on
+  - title: Xbox Requirements (XRs) for PC and mobile
     linkLists:
       # - linkListType: overview
       #   links:
       #     - text: __
       #       url: __.md
-      # - linkListType: concept
-      #   links:
-      #     - text: __
-      #       url: __.md
-      - linkListType: how-to-guide
+      - linkListType: concept
         links:
-          - text: Configuring single sign-on in Partner Center, for Managed Partners
-            url: single-sign-on/live-single-sign-on.md
-      # - linkListType: sample
-      #   links:
-      #     - text: __
-      #       url: __.md
-  # Card
-  - title: Web services
-    linkLists:
-      # - linkListType: overview
-      #   links:
-      #     - text: __
-      #       url: __.md
-      # - linkListType: concept
-      #   links:
-      #     - text: __
-      #       url: __.md
-      - linkListType: how-to-guide
-        links:
-          - text: Setting up Web Services at Partner Center
-            url: web-services/live-web-services.md
-      # - linkListType: sample
-      #   links:
-      #     - text: __
-      #       url: __.md
-  # Card
-  - title: Relying parties
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: Relying parties overview
-            url: relying-parties/live-relying-parties-nav.md
-      # - linkListType: concept
-      #   links:
-      #     - text: __
-      #       url: __.md
+          - text: "XR-013: Linking Microsoft Accounts with Publisher Accounts"
+            url: pc/xr/live-pc-xr013.md
+          - text: "XR-015: Privacy and Permissions"
+            url: pc/xr/live-pc-xr015.md
+          - text: "XR-045: Xbox Live and Account Privileges"
+            url: pc/xr/live-pc-xr045.md
+          - text: "XR-048: Profile Settings Usage"
+            url: pc/xr/live-pc-xr048.md
+          - text: "XR-062: Achievement Names and Descriptions"
+            url: pc/xr/live-pc-xr062.md
+          - text: "XR-074: Loss of Connectivity to Xbox and Partner Services"
+            url: pc/xr/live-pc-xr074.md
+          - text: "XR-132: Service Access Limitations"
+            url: pc/xr/live-pc-xr132.md
       # - linkListType: how-to-guide
       #   links:
       #     - text: __

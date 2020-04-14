@@ -32,6 +32,7 @@
             - name: Creating an app and publishing it for testing, for Managed Partners
               href: setup-partner-center/legacy/live-create-new-title-partner.md
     - name: Setting up an IDE
+      href: setup-ide/live-setup-ide-nav.md
       items:
         - name: Setting up an IDE, for Creators
           items:

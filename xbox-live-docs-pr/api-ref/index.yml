@@ -1,18 +1,18 @@
 ### YamlMime:Landing
 
-title: Custom services # < 60 chars
-summary: Using Xbox Live with your own Web services; and configuring relying parties, single sign-on, and access policies. # < 160 chars
+title: API Reference # < 60 chars
+summary: Xbox Live API reference, including Xbox Services API (XSAPI), WinRT, Xbox Authentication Library (XAL), XAsync, and RESTful APIs. # < 160 chars
 
 metadata:
-  title: Custom services # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Using Xbox Live with your own Web services; and configuring relying parties, single sign-on, and access policies. # Required; article description that is displayed in search results. < 160 chars.
+  title: API Reference # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Xbox Live API reference, including Xbox Services API (XSAPI), WinRT, Xbox Authentication Library (XAL), XAsync, and RESTful APIs. # Required; article description that is displayed in search results. < 160 chars.
   ms.service: gaming #Required; service per approved list. service slug assigned to your service by ACOM.
   # ms.subservice: subservice # Optional; Remove if no subservice is used.
   ms.topic: landing-page # Required
   # ms.collection: collection # Optional; Remove if no collection is used.
   author: mlamaute #Required; your GitHub user alias, with correct capitalization.
   ms.author: migreen #Required; microsoft alias of author; optional team alias.
-  ms.date: 04/13/2020 #Required; mm/dd/yyyy format.
+  ms.date: 04/14/2020 #Required; mm/dd/yyyy format.
 
   # Max cards: 12 (currently 10)
       # Max linkListTypes in a card: 6 (5: XBL infotypes + ref)
@@ -68,70 +68,21 @@ metadata:
 landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
+# cards planned:
+# XSAPI Reference
+# XAL Reference
+# XAsync Reference
+# REST Reference
+# Xbox Live Samples
   # Card
-  - title: Access policies
+  - title: XSAPI reference
     linkLists:
       - linkListType: overview
         links:
-          - text: Access Policies overview
-            url: access-policies/live-access-policies-overview.md
-      # - linkListType: concept
-      #   links:
-      #     - text: __
-      #       url: __.md
-      - linkListType: how-to-guide
-        links:
-          - text: Configuring access policies in Partner Center, for Managed Partners
-            url: access-policies/config/live-access-policies-udc.md
-      # - linkListType: sample
-      #   links:
-      #     - text: __
-      #       url: __.md
-  # Card
-  - title: Single Sign-on
-    linkLists:
-      # - linkListType: overview
-      #   links:
-      #     - text: __
-      #       url: __.md
-      # - linkListType: concept
-      #   links:
-      #     - text: __
-      #       url: __.md
-      - linkListType: how-to-guide
-        links:
-          - text: Configuring single sign-on in Partner Center, for Managed Partners
-            url: single-sign-on/live-single-sign-on.md
-      # - linkListType: sample
-      #   links:
-      #     - text: __
-      #       url: __.md
-  # Card
-  - title: Web services
-    linkLists:
-      # - linkListType: overview
-      #   links:
-      #     - text: __
-      #       url: __.md
-      # - linkListType: concept
-      #   links:
-      #     - text: __
-      #       url: __.md
-      - linkListType: how-to-guide
-        links:
-          - text: Setting up Web Services at Partner Center
-            url: web-services/live-web-services.md
-      # - linkListType: sample
-      #   links:
-      #     - text: __
-      #       url: __.md
-  # Card
-  - title: Relying parties
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: Relying parties overview
-            url: relying-parties/live-relying-parties-nav.md
+          - text: XSAPI Overview
+            url: xsapi/live-introduction-to-xbox-live-apis.md
+          - text: XSAPI C Overview
+            url: xsapi/live-xsapi-flat-c.md
       # - linkListType: concept
       #   links:
       #     - text: __
@@ -144,3 +95,95 @@ landingContent:
       #   links:
       #     - text: __
       #       url: __.md
+      # - linkListType: reference
+      #   links:
+      #     - text: __
+      #       url: __.md
+  # Card
+  - title: XAL reference
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: XAL reference
+            url: xal/live-xal-nav.md
+      # - linkListType: concept
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: how-to-guide
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: sample
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: reference
+      #   links:
+      #     - text: __
+      #       url: __.md
+  # Card
+  - title: XAsync reference
+    linkLists:
+      # - linkListType: overview
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: concept
+        links:
+          - text: Making async calls in the XSAPI C API
+            url: xasync/live-flatc-async-patterns.md
+      # - linkListType: how-to-guide
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: sample
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: reference
+      #   links:
+      #     - text: __
+      #       url: __.md
+  # Card
+  - title: REST reference
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Xbox Live Services RESTful Reference
+            url: xbox-live-rest/atoc-xboxlivews-reference.md
+      # - linkListType: concept
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: how-to-guide
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: sample
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: reference
+      #   links:
+      #     - text: __
+      #       url: __.md
+  # Card
+  - title: Xbox Live Samples
+    linkLists:
+      # - linkListType: overview
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: concept
+      #   links:
+      #     - text: __
+      #       url: __.md
+      # - linkListType: how-to-guide
+      #   links:
+      #     - text: __
+      #       url: __.md
+      - linkListType: sample
+        links:
+          - text: Xbox Live Samples
+            url: live-samples.md
