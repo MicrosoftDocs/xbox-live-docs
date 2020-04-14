@@ -32,8 +32,9 @@
             - name: Creating an app and publishing it for testing, for Managed Partners
               href: setup-partner-center/legacy/live-create-new-title-partner.md
     - name: Setting up an IDE
-      href: setup-ide/live-setup-ide-nav.md
       items:
+        - name: Supported IDEs
+          href: setup-ide/live-setup-ide-nav.md
         - name: Setting up an IDE, for Creators
           items:
             - name: Visual Studio targeting Windows 10

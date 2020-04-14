@@ -1,7 +1,7 @@
 ---
-title: Setting up an IDE
+title: Supported IDEs
 description: Setting up an IDE to use the Xbox Live SDK, for your target platforms.
-kindex: Setting up an IDE
+kindex: Supported IDEs
 ms.topic: navigation
 layout: LandingPage
 ms.localizationpriority: high
@@ -10,7 +10,7 @@ ms.author: migreen
 ms.date: 11/01/2019
 ---
 
-# Setting up an IDE
+# Supported IDEs
 
 Setting up an IDE to use the Xbox Live SDK, for your target platforms.
 
