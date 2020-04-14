@@ -41,9 +41,10 @@ highlightedContent:
       itemType: get-started
       url: get-started/setup-ide/live-setup-ide-nav.md
     # Card
-    - title: Adding basic sign-in code for mobile
-      itemType: get-started
-      url: get-started/add-signin-code/live-getting-xsapi-to-sign-in.md
+    # restore card section when have more articles in this bucket:
+    # - title: Setting up and initializing the Xbox Live API in your project
+    #   itemType: get-started
+    #   url: __
 # productDirectory section (optional)
 productDirectory:
   title: Features # < 60 chars (optional)
@@ -106,8 +107,8 @@ additionalContent:
         # Card
         - title: Policies and XRs
           summary: Xbox Requirements for adding Xbox Live to a game.
-          url: policies/live-policies-nav.md
+          url: policies/index.yml
         # Card
         - title: API Reference
           summary: Xbox Live API reference, including Xbox Services API (XSAPI), WinRT, Xbox Authentication Library (XAL), XAsync, and RESTful APIs.
-          url: api-ref/live-api-reference-nav.md
+          url: api-ref/index.yml
