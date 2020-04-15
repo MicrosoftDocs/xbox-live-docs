@@ -1766,7 +1766,7 @@
         {
             "source_path": "xbox-live-docs-pr/policies/pc/live-policies-pc-nav.md",
             "redirect_url": "/gaming/xbox-live/policies/live-policies-nav",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/xboxlive-policies.md",
@@ -1776,7 +1776,7 @@
         {
             "source_path": "xbox-live-docs-pr/policies/pc/live-policies-pc.md",
             "redirect_url": "/gaming/xbox-live/policies/live-policies-pc",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/policies/xboxlive-terminology.md",
@@ -1786,7 +1786,7 @@
         {
             "source_path": "xbox-live-docs-pr/policies/pc/live-certification-terminology-pc.md",
             "redirect_url": "/gaming/xbox-live/policies/live-certification-terminology-pc",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/policies/xboxlive-policy-tests.md",
@@ -1796,7 +1796,7 @@
         {
             "source_path": "xbox-live-docs-pr/policies/pc/live-policy-tests-pc.md",
             "redirect_url": "/gaming/xbox-live/policies/live-policy-tests-pc",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/policies/pc/xr/live-pc-xrs-nav.md",
@@ -1811,7 +1811,7 @@
         {
             "source_path": "xbox-live-docs-pr/policies/pc/xr/live-pc-xr013.md",
             "redirect_url": "/gaming/xbox-live/policies/xr/live-pc-xr013",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/policies/xr015.md",
@@ -1821,7 +1821,7 @@
         {
             "source_path": "xbox-live-docs-pr/policies/pc/xr/live-pc-xr015.md",
             "redirect_url": "/gaming/xbox-live/policies/xr/live-pc-xr015",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/policies/xr045.md",
@@ -1831,7 +1831,7 @@
         {
             "source_path": "xbox-live-docs-pr/policies/pc/xr/live-pc-xr045.md",
             "redirect_url": "/gaming/xbox-live/policies/xr/live-pc-xr045",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/policies/xr048.md",
@@ -1841,7 +1841,7 @@
         {
             "source_path": "xbox-live-docs-pr/policies/pc/xr/live-pc-xr048.md",
             "redirect_url": "/gaming/xbox-live/policies/xr/live-pc-xr048",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/policies/xr062.md",
@@ -1851,7 +1851,7 @@
         {
             "source_path": "xbox-live-docs-pr/policies/pc/xr/live-pc-xr062.md",
             "redirect_url": "/gaming/xbox-live/policies/xr/live-pc-xr062",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/policies/xr074.md",
@@ -1861,7 +1861,7 @@
         {
             "source_path": "xbox-live-docs-pr/policies/pc/xr/live-pc-xr074.md",
             "redirect_url": "/gaming/xbox-live/policies/xr/live-pc-xr074",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/policies/xr132.md",
@@ -1871,7 +1871,7 @@
         {
             "source_path": "xbox-live-docs-pr/policies/pc/xr/live-pc-xr132.md",
             "redirect_url": "/gaming/xbox-live/policies/xr/live-pc-xr132",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/api-reference_nav.md",
