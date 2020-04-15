@@ -1758,69 +1758,75 @@
             "redirect_url": "/gaming/xbox-live/test-release/tools/live-fiddler-inspect-web-calls",
             "redirect_document_id": true
         },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/policies/live-policies-nav",
-        //     "redirect_document_id": true
-        // },
         {
             "source_path": "xbox-live-docs-pr/policies/policies_nav.md",
-            "redirect_url": "/gaming/xbox-live/policies/pc/live-policies-pc-nav",
+            "source_path": "xbox-live-docs-pr/policies/pc/live-policies-pc-nav.md",
+            "redirect_url": "/gaming/xbox-live/policies/live-policies-nav",
             "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/xboxlive-policies.md",
-            "redirect_url": "/gaming/xbox-live/policies/pc/live-policies-pc",
+            "source_path": "xbox-live-docs-pr/policies/pc/live-policies-pc.md",
+            "redirect_url": "/gaming/xbox-live/policies/live-policies-pc",
             "redirect_document_id": true
         },
-        {
+{
             "source_path": "xbox-live-docs-pr/policies/xboxlive-terminology.md",
-            "redirect_url": "/gaming/xbox-live/policies/pc/live-certification-terminology-pc",
+            "source_path": "xbox-live-docs-pr/policies/pc/live-certification-terminology-pc.md",
+            "redirect_url": "/gaming/xbox-live/policies/live-certification-terminology-pc",
+            "redirect_document_id": true
+        },
+{
+            "source_path": "xbox-live-docs-pr/policies/xboxlive-policy-tests.md",
+            "source_path": "xbox-live-docs-pr/policies/pc/live-policy-tests-pc.md",
+            "redirect_url": "/gaming/xbox-live/policies/live-policy-tests-pc",
             "redirect_document_id": true
         },
         {
-            "source_path": "xbox-live-docs-pr/policies/xboxlive-policy-tests.md",
-            "redirect_url": "/gaming/xbox-live/policies/pc/live-policy-tests-pc",
+            "source_path": "xbox-live-docs-pr/policies/pc/xr/live-pc-xrs-nav.md",
+            "redirect_url": "/gaming/xbox-live/policies/xr/live-pc-xrs-nav",
             "redirect_document_id": true
         },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xrs-nav",
-        //     "redirect_document_id": true
-        // },
         {
             "source_path": "xbox-live-docs-pr/policies/xr013.md",
-            "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xr013",
+            "source_path": "xbox-live-docs-pr/policies/pc/xr/live-pc-xr013.md",
+            "redirect_url": "/gaming/xbox-live/policies/xr/live-pc-xr013",
             "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/policies/xr015.md",
-            "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xr015",
+            "source_path": "xbox-live-docs-pr/policies/pc/xr/live-pc-xr015.md",
+            "redirect_url": "/gaming/xbox-live/policies/xr/live-pc-xr015",
             "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/policies/xr045.md",
-            "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xr045",
+            "source_path": "xbox-live-docs-pr/policies/pc/xr/live-pc-xr045.md",
+            "redirect_url": "/gaming/xbox-live/policies/xr/live-pc-xr045",
             "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/policies/xr048.md",
-            "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xr048",
+            "source_path": "xbox-live-docs-pr/policies/pc/xr/live-pc-xr048.md",
+            "redirect_url": "/gaming/xbox-live/policies/xr/live-pc-xr048",
             "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/policies/xr062.md",
-            "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xr062",
+            "source_path": "xbox-live-docs-pr/policies/pc/xr/live-pc-xr062.md",
+            "redirect_url": "/gaming/xbox-live/policies/xr/live-pc-xr062",
             "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/policies/xr074.md",
-            "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xr074",
+            "source_path": "xbox-live-docs-pr/policies/pc/xr/live-pc-xr074.md",
+            "redirect_url": "/gaming/xbox-live/policies/xr/live-pc-xr074",
             "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/policies/xr132.md",
-            "redirect_url": "/gaming/xbox-live/policies/pc/xr/live-pc-xr132",
+            "source_path": "xbox-live-docs-pr/policies/pc/xr/live-pc-xr132.md",
+            "redirect_url": "/gaming/xbox-live/policies/xr/live-pc-xr132",
             "redirect_document_id": true
         },
         {
