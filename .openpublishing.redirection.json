@@ -127,11 +127,6 @@
             "redirect_document_id": true
         },
         {
-            "source_path": "xbox-live-docs-pr/get-started-with-creators/create-and-test-a-new-creators-title.md",
-            "redirect_url": "/gaming/xbox-live/get-started/setup-ide/creators/vstudio-win10/live-develop-creators-title-vstudio",
-            "redirect_document_id": true
-        },
-        {
             "source_path": "xbox-live-docs-pr/get-started/setup-ide/creators/vs-win10/develop-creators-title-with-visual-studio.md",
             "redirect_url": "/gaming/xbox-live/get-started/setup-ide/creators/vstudio-win10/live-develop-creators-title-vstudio",
             "redirect_document_id": false
@@ -859,17 +854,7 @@
         {
             "source_path": "xbox-live-docs-pr/social-platform/rich-presence-strings/rich-presence-strings-updating-strings.md",
             "redirect_url": "/gaming/xbox-live/features/social/presence/how-to/live-updating-presence-rest",
-            "redirect_document_id": true
-        },
-        {
-            "source_path": "xbox-live-docs-pr/social-platform/rich-presence-strings/rich-presence-strings-updating-strings.md",
-            "redirect_url": "/gaming/xbox-live/features/social/presence/how-to/live-updating-presence-rest",
             "redirect_document_id": false
-        },
-        {
-            "source_path": "xbox-live-docs-pr/social-platform/rich-presence-strings/programming-rich-presence.md",
-            "redirect_url": "/gaming/xbox-live/features/social/presence/how-to/live-setting-presence-status",
-            "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/social-platform/rich-presence-strings/programming-rich-presence.md",
