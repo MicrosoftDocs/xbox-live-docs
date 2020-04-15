@@ -28,7 +28,7 @@ The domain for these URIs is leaderboards.xboxlive.com.
 
 ## See also
 
-[Stats & Leaderboards](../../../../features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md)
+[Event-based vs. title-managed Stats](../../../../features/player-data/stats-leaderboards/live-stats-eb-vs-tm.md)
 
 
 <a id="ID4EOB"></a>
