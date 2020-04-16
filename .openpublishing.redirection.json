@@ -111,11 +111,18 @@
             "redirect_url": "/gaming/xbox-live/get-started/setup-partner-center/legacy/live-create-new-title-partner",
             "redirect_document_id": false
         },
+
         {
             "source_path": "xbox-live-docs-pr/get-started/setup-ide/setup-ide_nav.md",
-            "redirect_url": "/gaming/xbox-live/get-started/setup-ide/live-setup-ide-nav",
+            "redirect_url": "/gaming/xbox-live/get-started/setup-ide/live-supported-ides",
             "redirect_document_id": true
         },
+        {
+            "source_path": "xbox-live-docs-pr/get-started/setup-ide/live-setup-ide-nav.md",
+            "redirect_url": "/gaming/xbox-live/get-started/setup-ide/live-supported-ides",
+            "redirect_document_id": true
+        },
+
         {
             "source_path": "xbox-live-docs-pr/get-started/setup-ide/creators/creators-ide_nav.md",
             "redirect_url": "/gaming/xbox-live/get-started/setup-ide/creators/live-creators-ide-nav",
@@ -458,7 +465,12 @@
         },
         {
             "source_path": "xbox-live-docs-pr/using-xbox-live/auth/xal.md",
-            "redirect_url": "/gaming/xbox-live/features/identity/auth/auth-mobile-xal/live-xal-nav",
+            "redirect_url": "/gaming/xbox-live/features/identity/auth/auth-mobile-xal/live-xal-overview",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/identity/auth/auth-mobile-xal/live-xal-nav.md",
+            "redirect_url": "/gaming/xbox-live/features/identity/auth/auth-mobile-xal/live-xal-overview",
             "redirect_document_id": true
         },
         {

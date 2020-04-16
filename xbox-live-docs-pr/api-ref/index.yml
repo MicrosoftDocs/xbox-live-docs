@@ -105,7 +105,7 @@ landingContent:
       - linkListType: overview
         links:
           - text: XAL reference
-            url: xal/live-xal-nav.md
+            url: xal/live-xal-overview.md
       # - linkListType: concept
       #   links:
       #     - text: __

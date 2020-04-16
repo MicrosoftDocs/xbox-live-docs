@@ -41,7 +41,7 @@ highlightedContent:
     # Card
     - title: Setting up an IDE
       itemType: get-started
-      url: get-started/setup-ide/live-setup-ide-nav.md
+      url: get-started/setup-ide/live-supported-ides.md
     # Card
     # restore card section when have more articles in this bucket:
     # - title: Setting up and initializing the Xbox Live API in your project

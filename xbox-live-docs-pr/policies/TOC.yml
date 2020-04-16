@@ -2,7 +2,7 @@
   href: index.yml
   items:
     - name: Policies and XRs overview
-      href: live-policies-nav.md
+      href: live-policies-overview.md
     - name: Xbox Live Policies for PC and Mobile
       href: live-policies-pc.md
     - name: Recommended Policy Tests for PC and mobile
@@ -12,7 +12,7 @@
     - name: XRs for PC and Mobile
       items:
         - name: Overview of XRs for PC and Mobile
-          href: xr/live-pc-xrs-nav.md  
+          href: xr/live-pc-xrs-overview.md  
         - name: XR-013 Linking Microsoft Accounts with Publisher Accounts
           href: xr/live-pc-xr013.md
         - name: XR-015 Privacy and Permissions

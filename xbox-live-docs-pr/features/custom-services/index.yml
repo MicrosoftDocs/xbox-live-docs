@@ -131,7 +131,7 @@ landingContent:
       - linkListType: overview
         links:
           - text: Relying parties overview
-            url: relying-parties/live-relying-parties-nav.md
+            url: relying-parties/live-relying-parties-overview.md
       # - linkListType: concept
       #   links:
       #     - text: __
