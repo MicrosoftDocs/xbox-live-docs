@@ -78,11 +78,11 @@ landingContent:
       - linkListType: concept
         links:
           - text: Xbox Live Policies for PC and mobile
-            url: pc/live-policies-pc.md
+            url: live-policies-pc.md
           - text: Xbox Live terminology
-            url: pc/live-certification-terminology-pc.md
+            url: live-certification-terminology-pc.md
           - text: Recommended Policy Tests for PC and mobile
-            url: pc/live-policy-tests-pc.md
+            url: live-policy-tests-pc.md
       # - linkListType: how-to-guide
       #   links:
       #     - text: __
@@ -94,26 +94,26 @@ landingContent:
   # Card
   - title: Xbox Requirements (XRs) for PC and mobile
     linkLists:
-      # - linkListType: overview
-      #   links:
-      #     - text: __
-      #       url: __.md
+      - linkListType: overview
+        links:
+          - text: Overview of XRs for PC and Mobile
+            url: xr/live-pc-xrs-nav.md
       - linkListType: concept
         links:
           - text: "XR-013: Linking Microsoft Accounts with Publisher Accounts"
-            url: pc/xr/live-pc-xr013.md
+            url: xr/live-pc-xr013.md
           - text: "XR-015: Privacy and Permissions"
-            url: pc/xr/live-pc-xr015.md
+            url: xr/live-pc-xr015.md
           - text: "XR-045: Xbox Live and Account Privileges"
-            url: pc/xr/live-pc-xr045.md
+            url: xr/live-pc-xr045.md
           - text: "XR-048: Profile Settings Usage"
-            url: pc/xr/live-pc-xr048.md
+            url: xr/live-pc-xr048.md
           - text: "XR-062: Achievement Names and Descriptions"
-            url: pc/xr/live-pc-xr062.md
+            url: xr/live-pc-xr062.md
           - text: "XR-074: Loss of Connectivity to Xbox and Partner Services"
-            url: pc/xr/live-pc-xr074.md
+            url: xr/live-pc-xr074.md
           - text: "XR-132: Service Access Limitations"
-            url: pc/xr/live-pc-xr132.md
+            url: xr/live-pc-xr132.md
       # - linkListType: how-to-guide
       #   links:
       #     - text: __

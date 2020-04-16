@@ -1,7 +1,10 @@
 ---
-title: Policies and XRs overview
-description: Xbox Requirements for adding Xbox Live to a game.
-kindex: Policies and XRs overview
+title: Overview of XRs for PC and Mobile
+description: Xbox Requirements (XRs) for adding Xbox Live to a game on Windows or mobile.
+kindex: Overview of XRs for PC and Mobile
+kindex: Xbox Requirements (XRs) for Xbox Live
+kindex: Xbox Live, XRs
+kindex: Xbox Live, Xbox Requirements (XRs)
 ms.topic: navigation
 layout: LandingPage
 ms.localizationpriority: high
@@ -10,19 +13,12 @@ ms.author: migreen
 ms.date: 11/01/2019
 ---
 
-# Policies and XRs overview
-
-| Article | Description |
-|---------|-------------|
-| [Xbox Live Policies for PC and mobile](live-policies-pc.md) | Policies for adding Xbox Live to a PC or mobile game. |
-| [Recommended Policy Tests for PC and mobile](live-policy-tests-pc.md) | Test cases for adding Xbox Live to a PC or mobile game. |
-| [Xbox Live terminology](live-certification-terminology-pc.md) | Terminology required when using Xbox Live in a PC or mobile game. |
-| [Overview of XRs for PC and Mobile](xr/live-pc-xrs-nav.md) | Supporting content and deep dives on a subset of XRs to support development. |
-
-
-## XRs for PC and mobile
+# Overview of XRs for PC and Mobile
 
 In support of the the complete list of [Xbox Live Policies for PC and mobile](../live-policies-pc.md), the following deep-dive content is available for a sub-set of the requirements to support development.
+
+
+### In this section
 
 | Article | Description |
 |---------|-------------|
@@ -33,3 +29,5 @@ In support of the the complete list of [Xbox Live Policies for PC and mobile](..
 | [XR-062: Achievement Names and Descriptions](live-pc-xr062.md) | Achievement names and descriptions may contain only content that would merit a rating of PEGI 12, ESRB EVERYONE 10+, or lower. |
 | [XR-074: Loss of Connectivity to Xbox and Partner Services](live-pc-xr074.md) | Titles must resolve errors with Xbox Live and partner services connectivity. |
 | [XR-132: Service Access Limitations](live-pc-xr132.md) | Titles which exceed limits when calling Xbox Live services, or do not adhere to retry policies, may be subjected to rate limiting. |
+
+<!-- {% jumppage its %} -->
