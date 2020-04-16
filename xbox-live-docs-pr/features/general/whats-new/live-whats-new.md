@@ -11,7 +11,7 @@ ms.date: 10/23/2018
 To see all of the recent code changes to the Xbox Live APIs, you can also check the <a href="https://github.com/Microsoft/xbox-live-api/commits/master" target="_blank">GitHub commit history for the "xbox-live-api" repo &#11008;</a>.
 
 This article covers selected features and releases from 2017 through 2020.
-For 2015 and 2016 releases, see [What's New for older releases of Xbox Live](archived/live-whats-new-archived-nav.md).
+For 2015 and 2016 releases, see the What's New article for that month, such as [What's new for the Xbox Live SDK - December 2016](archived/live-whats-new-1612.md).
 
 
 <!-- ********************************************************************** -->
@@ -24,7 +24,7 @@ ___
 
 #### Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)
 
-[Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)](../../test-release/tools/live-pc-sandbox-switcher.md) is a command-line tool that helps manage the Xbox Live sandbox on PC.
+[Xbox Live PC Sandbox Switcher (XBLPCSandbox.exe)](../../../test-release/tools/live-pc-sandbox-switcher.md) is a command-line tool that helps manage the Xbox Live sandbox on PC.
 This PC Sandbox Switcher can do the following:
 * Show the name of the current sandbox.
 * Set a sandbox to use.
@@ -97,7 +97,7 @@ ___
 ### Xbox Live Features
 
 SDK is now available as precompiled binaries (libs), and integrated with a package manager for Android.
-See [Getting started with the Xbox Live APIs on Android](../../get-started/setup-ide/managed-partners/astudio-android/other/live-android-get-started-xsapi.md).
+See [Getting started with the Xbox Live APIs on Android](../../../get-started/setup-ide/managed-partners/astudio-android/other/live-android-get-started-xsapi.md).
 
 
 ### Fixes
@@ -155,7 +155,7 @@ ___
 
 C APIs are now available for some Xbox Live features. The new API layer provides a number of benefits for the supported features, including custom memory management, manual thread management for asynchronous tasks, and a new HTTP library.
 
-For more information, see [Xbox Live C APIs](../../api-ref/xsapi/live-xsapi-flat-c.md).
+For more information, see [XSAPI C overview](../../../api-ref/xsapi/live-xsapi-flat-c.md).
 
 
 <!-- ********************************************************************** -->
@@ -205,7 +205,7 @@ ___
 
 #### Game Chat 2
 
-An updated and improved version of Game Chat is now available.  See [Game Chat](../../features/multiplayer/chat/live-chat-nav.md).
+An updated and improved version of Game Chat is now available.  See [Game Chat overview](../../../features/multiplayer/chat/live-game-chat-2-overview.md).
 
 
 ### Xbox Live tools
@@ -213,7 +213,7 @@ An updated and improved version of Game Chat is now available.  See [Game Chat](
 
 #### Xbox Live PowerShell Module
 
-* PowerShell modules have been added to make it easier to switch sandboxes on your development machine. See [Development tools for Xbox Live](../../test-release/tools/live-tools.md).
+* PowerShell modules have been added to make it easier to switch sandboxes on your development machine. See [Development tools for Xbox Live](../../../test-release/tools/live-tools.md).
 
 
 #### Bug fixes
@@ -269,12 +269,12 @@ ___
 
 We have introduced a simplified Stats API.  Traditionally you had to send events corresponding to stat rules defined at Partner Center and these would update the stat values in the cloud.  We refer to this model as _event-based Stats_.
 
-With _title-managed Stats_, your title is in control of your stat values.  You simply call an API with the most recent stat value, and that gets sent to the service directly without the need for events.  This uses the new `StatsManager` API and you can read more in [Title-managed Stats & Leaderboards](../../features/player-data/stats-leaderboards/title-managed/live-statslb-tm-nav.md).
+With _title-managed Stats_, your title is in control of your stat values.  You simply call an API with the most recent stat value, and that gets sent to the service directly without the need for events.  This uses the new `StatsManager` API. See [Title-managed Stats overview](../../../features/player-data/stats-leaderboards/title-managed/live-stats-tm-overview.md).
 
 
 #### GitHub
 
-Xbox Live API (XSAPI) is now available on GitHub at [https://github.com/Microsoft/xbox-live-api](https://github.com/Microsoft/xbox-live-api).
+Xbox Live API (XSAPI) is now available on GitHub, in the <a href="https://github.com/Microsoft/xbox-live-api" target="_blank">xbox-live-api &#11008;</a> repo.
 
 Using the binaries that come with the XDK or as NuGet packages is still recommended, however you are welcome to use the source and we welcome source code contributions.  
 
@@ -283,7 +283,7 @@ Using the binaries that come with the XDK or as NuGet packages is still recommen
 
 The Xbox Live Creators Program is a developer program offering a subset of Xbox Live functionality to a broader developer audience.  If you are already in the Managed Partners Program, this will not have any impact on you.
 
-See [Choosing an Xbox Live developer program](../../get-started/join-dev-program/live-dev-program-overview.md).
+See [Choosing an Xbox Live developer program](../../../get-started/join-dev-program/live-dev-program-overview.md).
 
 
 ### Documentation
@@ -292,7 +292,7 @@ There are the following revised or new articles.
 
 | Article | Description |
 |---------|-------------|
-| [Xbox Live service configuration IDs, for Managed Partners](../../test-release/portal-config/live-service-config-ids-mp.md) | Updated information on doing service configuration for your Xbox Live Title. |
-| [Configuring Xbox Live in Unity](../../get-started/setup-ide/creators/unity-win10/live-configure-xbl-in-unity.md) | New information on Unity setup for Xbox Live Creators Program developers. |
-| [Xbox Live Sandboxes overview](../../test-release/sandboxes/live-setup-sandbox.md) | A simplified guide to Xbox Live sandboxes and content isolation. |
-| [Xbox Live test accounts](../../test-release/test-accounts/live-test-accounts.md) | Information about how test accounts work, and how to create them on Partner Center. |
+| [Xbox Live service configuration IDs, for Managed Partners](../../../test-release/portal-config/live-service-config-ids-mp.md) | Updated information on doing service configuration for your Xbox Live Title. |
+| [Configuring Xbox Live in Unity](../../../get-started/setup-ide/creators/unity-win10/live-configure-xbl-in-unity.md) | New information on Unity setup for Xbox Live Creators Program developers. |
+| [Xbox Live Sandboxes overview](../../../test-release/sandboxes/live-setup-sandbox.md) | A simplified guide to Xbox Live sandboxes and content isolation. |
+| [Xbox Live test accounts](../../../test-release/test-accounts/live-test-accounts.md) | Information about how test accounts work, and how to create them on Partner Center. |

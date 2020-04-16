@@ -16,21 +16,21 @@ ms.date: 04/04/2017
 
 ### Simplified Achievements
 
-* [Title-managed Achievements](../../../features/player-data/achievements/title-managed/live-achievements-tm-nav.md) are a new and simpler way to configure and use achievements.  You no longer have to send events and have the Xbox Live services decide if your achievement is unlocked.  Your title is in charge of that decision.
+* Title-managed Achievements are a new and simpler way to configure and use achievements.  You no longer have to send events and have the Xbox Live services decide if your achievement is unlocked.  Your title is in charge of that decision.  See [Title-managed Achievements overview](../../../../features/player-data/achievements/title-managed/live-achievements-tm-overview.md).
 * If you have been part of the early pilot of Simplified Achievements we have also added offline support.
 * There's a new sample called SimplifiedAchievements that shows off how easy it is to use.
 
 
 ### Multiplayer
 
-* [Multiplayer session browse](../../../features/multiplayer/concepts/live-session-browse.md) is a new way for your users to find a multiplayer game.  Session Browse allows players to search for a list of open multiplayer game sessions that meet specified criteria.
-* [Multiplayer Manager (MPM)](../../../features/multiplayer/mpm/live-multiplayer-manager-nav.md) now has auto-fill capabilities.  If enabled, Multiplayer Manager will find members via matchmaking to fill open slots during gameplay.
-* A pre-production version of [Xbox Integrated Multiplayer (XIM)](../../../features/multiplayer/xim/live-xim-nav.md) is now available for XDK development.  XIM is a self-contained interface for easily adding multiplayer real-time networking and chat communication to your game through the power of Xbox Live services.
+* [Multiplayer session browse](../../../../features/multiplayer/concepts/live-session-browse.md) is a new way for your users to find a multiplayer game.  Session Browse allows players to search for a list of open multiplayer game sessions that meet specified criteria.
+* [Multiplayer Manager (MPM)](../../../../features/multiplayer/mpm/live-multiplayer-manager-overview.md) now has auto-fill capabilities.  If enabled, Multiplayer Manager will find members via matchmaking to fill open slots during gameplay.
+* A pre-production version of [Xbox Integrated Multiplayer (XIM)](../../../../features/multiplayer/xim/live-xim-overview.md) is now available for XDK development.  XIM is a self-contained interface for easily adding multiplayer real-time networking and chat communication to your game through the power of Xbox Live services.
 
 
 ### Social Manager
 
-* Numerous API changes; see [Social Manager overview](../../../features/social/social-manager/live-social-manager-overview.md):
+* Numerous API changes; see [Social Manager overview](../../../../features/social/social-manager/live-social-manager-overview.md):
     * Social manager has left the experimental namespace. Special thanks to those who were early adopters and gave feedback!
     * `xbox_social_user`
         * `string_t` objects have been changed to `char*` objects
@@ -42,7 +42,7 @@ ms.date: 04/04/2017
         * `users()` API now returns a `std::vector<xbox_social_user*>`. These pointers become invalidated on the next call to `social_manager::do_work()`
         * `get_copy_of_users` return a `std::vector<xbox_social_user>` as a copy of the current users in the social_user_group to the caller. Calling this function may affect `do_work` completion time.
 * Social Manager now will never fail after initialization. Social Manager will retry RTA automatically on disconnection. The `error` and `rta_disconnect_error` events have been deprecated and removed
-* Title can specify custom memory allocators. See the new article [Social Manager memory and performance](../../../features/social/social-manager/concepts/live-socmgr-mem-perf.md).
+* Title can specify custom memory allocators. See the new article [Social Manager memory and performance](../../../../features/social/social-manager/concepts/live-socmgr-mem-perf.md).
 
 
 ### Xbox One UWP
@@ -53,14 +53,14 @@ ms.date: 04/04/2017
 
 ### Other
 
-* Support for C++/WinRT has been added.  See [Introduction to Xbox Live APIs](../../../api-ref/xsapi/live-introduction-to-xbox-live-apis.md).
+* Support for C++/WinRT has been added.  See [Introduction to Xbox Live APIs](../../../../api-ref/xsapi/live-introduction-to-xbox-live-apis.md).
 * New functionality in to add and remove your own logging callbacks.  The diagnostic level will be passed to your callback so you can fine tune your behavior.  See `add_logging_handler` and `remove_logging_handler` in the `microsoft::xbox::services::system::xbox_live_services_settings` namespace
 
 
 ## Documentation
 
-* There is new documentation on [Multiplayer Manager (MPM)](../../../features/multiplayer/mpm/live-multiplayer-manager-nav.md), [Xbox Integrated Multiplayer (XIM)](../../../features/multiplayer/xim/live-xim-nav.md), and [Multiplayer concepts overview](../../../features/multiplayer/concepts/live-multiplayer-concepts.md) for Xbox Live.
-* The [Getting started with Xbox Live, for Managed Partners](../../../get-started/setup-partner-center/legacy/live-get-started-xbl-partner.md) sections have been rewritten.  If you are creating a new Xbox Live enabled title, or are curious about incorporating other Xbox Live functionality into your game, see that article.
+* There is new documentation on [Multiplayer Manager (MPM)](../../../../features/multiplayer/mpm/live-multiplayer-manager-overview.md), [Xbox Integrated Multiplayer (XIM)](../../../../features/multiplayer/xim/live-xim-overview.md), and [Multiplayer concepts overview](../../../../features/multiplayer/concepts/live-multiplayer-concepts.md) for Xbox Live.
+* The [Getting started with Xbox Live, for Managed Partners](../../../../get-started/setup-partner-center/legacy/live-get-started-xbl-partner.md) sections have been rewritten.  If you are creating a new Xbox Live enabled title, or are curious about incorporating other Xbox Live functionality into your game, see that article.
 
 
 ## Tools
