@@ -1,13 +1,13 @@
 - name: Getting Started
   href: index.yml
   items:
-    - name: Overview
+    - name: In this section
       href: live-getstarted-nav.md
     - name: Xbox Live overview
       href: live-xbl-overview.md
     - name: Joining a developer program
       items:
-        - name: Overview
+        - name: In this section
           href: join-dev-program/live-join-dev-program-nav.md
         - name: Choosing an Xbox Live developer program
           href: join-dev-program/live-dev-program-overview.md
@@ -19,7 +19,7 @@
           href: join-dev-program/live-join-id-program.md
     - name: Setting up a game at Partner Center
       items:
-        - name: Overview
+        - name: In this section
           href: setup-partner-center/live-setup-partner-center-nav.md
         - name: Setting up a game at Partner Center, for Creators
           href: setup-partner-center/live-setup-partner-center-creators.md
@@ -27,7 +27,7 @@
           href: setup-partner-center/live-setup-partner-center-partners.md
         - name: Legacy articles about Partner Center setup
           items:
-            - name: Overview
+            - name: In this section
               href: setup-partner-center/legacy/live-legacy-nav.md
             - name: Getting started with Xbox Live, for Creators
               href: setup-partner-center/legacy/live-get-started-creators.md
@@ -41,27 +41,27 @@
               href: setup-partner-center/legacy/live-create-new-title-partner.md
     - name: Setting up an IDE
       items:
-        - name: Overview
+        - name: In this section
           href: setup-ide/live-setup-ide-nav.md
         - name: Setting up an IDE, for Creators
           items:
-            - name: Overview
+            - name: In this section
               href: setup-ide/creators/live-creators-ide-nav.md
             - name: Visual Studio targeting Windows 10
               items:
-                - name: Overview
+                - name: In this section
                   href: setup-ide/creators/vstudio-win10/live-cr-vstudio-win10-nav.md
                 - name: Setting up Visual Studio targeting Windows 10
                   href: setup-ide/creators/vstudio-win10/live-develop-creators-title-vstudio.md
             - name: Unity targeting Windows 10
               items:
-                - name: Overview
+                - name: In this section
                   href: setup-ide/creators/unity-win10/live-cr-unity-win10-nav.md
                 - name: Configuring Xbox Live in Unity
                   href: setup-ide/creators/unity-win10/live-configure-xbl-in-unity.md
                 - name: Signing into Xbox Live in Unity
                   items:
-                    - name: Overview
+                    - name: In this section
                       href: setup-ide/creators/unity-win10/signin/live-unity-signin-nav.md
                     - name: Easy sign-in with the PlayerAuthentication prefab
                       href: setup-ide/creators/unity-win10/signin/live-authentication-prefab-sign-in.md
@@ -79,17 +79,17 @@
                   href: setup-ide/creators/unity-win10/live-check-privileges-unity.md
         - name: Setting up an IDE, for Managed Partners
           items:
-            - name: Overview
+            - name: In this section
               href: setup-ide/managed-partners/live-mp-ide-nav.md
             - name: Android Studio targeting Android
               items:
-                - name: Overview
+                - name: In this section
                   href: setup-ide/managed-partners/astudio-android/live-mp-astudio-android-nav.md
                 - name: Setting up Android Studio targeting Android
                   href: setup-ide/managed-partners/astudio-android/live-astudio-android-mp.md
                 - name: Other articles about Android Studio targeting Android
                   items:
-                    - name: Overview
+                    - name: In this section
                       href: setup-ide/managed-partners/astudio-android/other/live-mp-astudio-android-other-nav.md
                     - name: Getting started with the Xbox Live APIs on Android
                       href: setup-ide/managed-partners/astudio-android/other/live-android-get-started-xsapi.md
@@ -97,19 +97,19 @@
                       href: setup-ide/managed-partners/astudio-android/other/live-android-xal.md
             - name: Xcode targeting iOS
               items:
-                - name: Overview
+                - name: In this section
                   href: setup-ide/managed-partners/xcode-ios/live-mp-xcode-ios-nav.md
                 - name: Setting up Xcode targeting iOS
                   href: setup-ide/managed-partners/xcode-ios/live-xcode-ios-mp.md
                 - name: Other articles about Xcode targeting iOS
                   items:
-                    - name: Overview
+                    - name: In this section
                       href: setup-ide/managed-partners/xcode-ios/other/live-mp-xcode-ios-other-nav.md
                     - name: Getting started with Xbox Live SDK for iOS
                       href: setup-ide/managed-partners/xcode-ios/other/live-ios-get-started-xsapi.md
             - name: Visual Studio targeting Windows 10
               items:
-                - name: Overview
+                - name: In this section
                   href: setup-ide/managed-partners/vstudio-win10/live-mp-vstudio-win10-nav.md
                 - name: Getting started using Visual Studio for UWP games
                   href: setup-ide/managed-partners/vstudio-win10/live-get-started-vstudio-uwp.md
@@ -121,7 +121,7 @@
                   href: setup-ide/managed-partners/vstudio-win10/live-xboxservices-config.md
             - name: Visual Studio targeting Xbox
               items:
-                - name: Overview
+                - name: In this section
                   href: setup-ide/managed-partners/vstudio-xbox/live-mp-vstudio-xbox-nav.md
                 - name: Getting the XDK
                   href: setup-ide/managed-partners/vstudio-xbox/live-where-to-get-xdk.md
@@ -137,7 +137,7 @@
                   href: setup-ide/managed-partners/vstudio-xbox/live-compile-xdk-xbl-api-source.md
             - name: Unity targeting Windows 10
               items:
-                - name: Overview
+                - name: In this section
                   href: setup-ide/managed-partners/unity-win10/live-mp-unity-win10-nav.md
                 - name: Add XBL support to Unity for UWP, with .NET scripting
                   href: setup-ide/managed-partners/unity-win10/live-partner-unity-uwp-net.md
@@ -145,25 +145,25 @@
                   href: setup-ide/managed-partners/unity-win10/live-partner-unity-uwp-il2cpp.md
             - name: Unity targeting Xbox
               items:
-                - name: Overview
+                - name: In this section
                   href: setup-ide/managed-partners/unity-xbox/live-mp-unity-xbox-nav.md
                 - name: Add XBL support to Unity for XDK, with IL2CPP scripting
                   href: setup-ide/managed-partners/unity-xbox/live-partner-unity-xdk-il2cpp.md
     - name: Initializing the Xbox Live API
       items:
-        - name: Overview
+        - name: In this section
           href: add-signin-code/live-add-signin-code-nav.md
         - name: Adding basic sign-in code for mobile
           href: add-signin-code/live-getting-xsapi-to-sign-in.md
     - name: What's New
       items:
-        - name: Overview
+        - name: In this section
           href: whats-new/live-whats-new-nav.md
         - name: What's new for Xbox Live
           href: whats-new/live-whats-new.md
         - name: What's New for older releases of Xbox Live
           items:
-            - name: Overview
+            - name: In this section
               href: whats-new/archived/live-whats-new-archived-nav.md
             - name: What's new for the Xbox Live SDK - December 2016
               href: whats-new/archived/live-whats-new-1612.md

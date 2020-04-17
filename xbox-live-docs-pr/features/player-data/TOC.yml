@@ -1,20 +1,28 @@
 - name: Player Data
   href: index.yml
   items:
+    - name: In this section
+      href: live-playerdata-nav.md
     - name: Player Data overview
       href: live-playerdata-overview.md
     - name: Designing Xbox Live Experiences
       href: live-designing-experiences.md
     - name: Stats & Leaderboards
       items:
+        - name: In this section
+          href: stats-leaderboards/live-stats-leaderboards-nav.md
         - name: Event-based vs. title-managed Stats
           href: stats-leaderboards/live-stats-eb-vs-tm.md
         - name: Event-based Stats & Leaderboards
           items:
+            - name: In this section
+              href: stats-leaderboards/event-based/live-statslb-eb-nav.md
             - name: Event-based Stats overview
               href: stats-leaderboards/event-based/live-stats-eb-overview.md
             - name: Event-based Stats & Leaderboards how-to's
               items:
+                - name: In this section
+                  href: stats-leaderboards/event-based/how-to/live-statslb-eb-howto-nav.md
                 - name: Writing an event to power an event-based Stat
                   href: stats-leaderboards/event-based/how-to/live-sending-eb-stat.md
                 - name: Getting event-based stats
@@ -25,20 +33,30 @@
                   href: stats-leaderboards/event-based/how-to/live-leaderboards-eb-howto.md
             - name: Events
               items: 
+                - name: In this section
+                  href: stats-leaderboards/event-based/events/live-events-nav.md
                 - name: Events how-to's
                   items: 
+                    - name: In this section
+                      href: stats-leaderboards/event-based/events/how-to/live-events-howto-nav.md
                     - name: Sending an event
                       href: stats-leaderboards/event-based/events/how-to/live-sending-an-event.md
         - name: Title-managed Stats & Leaderboards
           items:
+            - name: In this section
+              href: stats-leaderboards/title-managed/live-statslb-tm-nav.md
             - name: Title-managed Stats overview
               href: stats-leaderboards/title-managed/live-stats-tm-overview.md
             - name: Title-managed Stats & Leaderboards portal config
               items:
+                - name: In this section
+                  href: stats-leaderboards/title-managed/config/live-statslb-tm-config-nav.md
                 - name: Configuring title-managed Featured Stats & Leaderboards in Partner Center
                   href: stats-leaderboards/title-managed/config/live-tm-leaderboards-portal.md
             - name: Title-managed Stats & Leaderboards how-to's
               items:
+                - name: In this section
+                  href: stats-leaderboards/title-managed/how-to/live-statslb-tm-howto-nav.md
                 - name: Updating title-managed Stats
                   href: stats-leaderboards/title-managed/how-to/live-stats-tm-updating.md
                 - name: Writing title-managed stats
@@ -47,6 +65,8 @@
                   href: stats-leaderboards/title-managed/how-to/live-leaderboards-tm-howto.md
             - name: Stats & Leaderboards with Unity
               items:
+                - name: In this section
+                  href: stats-leaderboards/title-managed/unity/live-statslb-unity-nav.md
                 - name: Adding player stats and leaderboards to a Unity project
                   href: stats-leaderboards/title-managed/unity/live-add-stats-and-leaderboards-in-unity.md
                 - name: Setting up the Leaderboard example scene in Unity
@@ -55,36 +75,54 @@
                   href: stats-leaderboards/title-managed/unity/live-unity-leaderboard-from-scratch.md
         - name: Featured Stats
           items:
+            - name: In this section
+              href: stats-leaderboards/featured-stats/live-featured-stats-nav.md
             - name: Featured Stats portal config
               items:
+                - name: In this section
+                  href: stats-leaderboards/featured-stats/config/live-featured-stats-config-nav.md
                 - name: Portal configuration of title-managed Featured Stats
                   href: stats-leaderboards/featured-stats/config/live-featuredstats-tm-portal.md
     - name: Achievements
       items:
+        - name: In this section
+          href: achievements/live-achievements-nav.md
         - name: Event-based vs. title-managed Achievements
           href: achievements/live-achievements-eb-vs-tm.md
         - name: Event-based Achievements
           items: 
+            - name: In this section
+              href: achievements/event-based/live-achievements-eb-nav.md
             - name: Event-based Achievements how-to's
               items: 
+                - name: In this section
+                  href: achievements/event-based/how-to/live-achievements-eb-howto-nav.md
                 - name: Getting event-based Achievements
                   href: achievements/event-based/how-to/live-getting-event-based-achievements.md
                 - name: Writing an event to power an event-based Achievement
                   href: achievements/event-based/how-to/live-writing-event-based-achievement.md
         - name: Title-managed Achievements
           items:
+            - name: In this section
+              href: achievements/title-managed/live-achievements-tm-nav.md
             - name: Title-managed Achievements overview
               href: achievements/title-managed/live-achievements-tm-overview.md
             - name: Title-managed Achievements concepts
               items:
+                - name: In this section
+                  href: achievements/title-managed/concepts/live-achievements-tm-concepts-nav.md
                 - name: Achievement Rewards
                   href: achievements/title-managed/concepts/live-achievement-rewards.md
             - name: Title-managed Achievements portal config
               items:
+                - name: In this section
+                  href: achievements/title-managed/config/live-achievements-tm-config-nav.md
                 - name: Configuring title-managed Achievements in Partner Center
                   href: achievements/title-managed/config/live-achievements-tm-config.md
             - name: Title-managed Achievements how-to's
               items:
+                - name: In this section
+                  href: achievements/title-managed/how-to/live-achievements-howto-nav.md
                 - name: Getting title-managed Achievements
                   href: achievements/title-managed/how-to/live-how-to-get-achievements.md
                 - name: Updating title-managed Achievements

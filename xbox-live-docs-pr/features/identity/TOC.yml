@@ -1,15 +1,15 @@
 - name: Identity
   href: index.yml
   items:
-    - name: Overview
+    - name: In this section
       href: live-identity-nav.md
     - name: Authentication and sign-in
       items:
-        - name: Overview
+        - name: In this section
           href: auth/live-authentication-nav.md
         - name: Authentication for projects using XAL
           items:
-            - name: Overview
+            - name: In this section
               href: auth/auth-mobile-xal/live-xal-nav.md
             - name: Xbox Authentication Library (XAL) overview
               href: auth/auth-mobile-xal/live-xal-overview.md
@@ -19,7 +19,7 @@
               href: auth/auth-mobile-xal/live-xal-partner-token.md
         - name: UWP Authentication and user identity
           items:
-            - name: Overview
+            - name: In this section
               href: auth/auth-uwp/live-auth-uwp-nav.md
             - name: Authentication for UWP projects
               href: auth/auth-uwp/live-auth-for-uwp-projects.md
@@ -33,11 +33,11 @@
       href: live-single-point-of-presence.md
     - name: Privileges
       items:
-        - name: Overview
+        - name: In this section
           href: privileges/live-privileges-nav.md
         - name: Privileges portal config
           items:
-            - name: Overview
+            - name: In this section
               href: privileges/config/live-privileges-config-nav.md
             - name: Configuring Privileges in Partner Center
               href: privileges/config/live-privileges-config.md

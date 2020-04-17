@@ -1,19 +1,19 @@
 - name: General features
   href: index.yml
   items:
-    - name: Overview
+    - name: In this section
       href: live-general-nav.md
     - name: Title-callable UI (TCUI)
       href: tcui/live-tcui-overview.md
     - name: Real-Time Activity (RTA) service
       items:
-        - name: Overview
+        - name: In this section
           href: rta/live-rta-nav.md
         - name: Real-Time Activity service overview
           href: rta/live-real-time-activity-service-overview.md
         - name: Real-Time Activity (RTA) service concepts
           items:
-            - name: Overview
+            - name: In this section
               href: rta/concepts/live-rta-concepts-nav.md
             - name: Registering for player Stat change notifications
               href: rta/concepts/live-register-for-stat-notifications.md
@@ -21,9 +21,9 @@
               href: rta/concepts/live-rta-best-practices.md
         - name: Real-Time Activity (RTA) service how-to's
           items:
-            - name: Overview
+            - name: In this section
               href: rta/how-to/live-rta-howto-nav.md
             - name: Programming the RTA service
               href: rta/how-to/live-programming-rta.md
-    - name: Xbox Live Samples
+    - name: Xbox Live samples
       href: samples/live-samples-overview.md

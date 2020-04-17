@@ -1,7 +1,7 @@
 - name: Multiplayer
   href: index.yml
   items:
-    - name: Overview
+    - name: In this section
       href: live-multiplayer-nav.md
     - name: Multiplayer overview
       href: live-multiplayer-intro.md
@@ -9,7 +9,7 @@
       href: live-common-multiplayer-scenarios.md
     - name: Multiplayer concepts
       items:
-        - name: Overview
+        - name: In this section
           href: concepts/live-multiplayer-concepts-nav.md
         - name: Multiplayer concepts overview
           href: concepts/live-multiplayer-concepts.md
@@ -29,13 +29,13 @@
           href: concepts/live-migrating-an-arbiter.md
     - name: Xbox Integrated Multiplayer (XIM)
       items:
-        - name: Overview
+        - name: In this section
           href: xim/live-xim-nav.md
         - name: Xbox Integrated Multiplayer (XIM) overview
           href: xim/live-xim-overview.md
         - name: XIM concepts
           items:
-            - name: Overview
+            - name: In this section
               href: xim/concepts/live-xim-concepts-nav.md
             - name: Configuring a XIM project in a manifest
               href: xim/concepts/live-xim-manifest.md
@@ -43,7 +43,7 @@
               href: xim/concepts/live-xim-release-notes.md
         - name: XIM how-to's
           items:
-            - name: Overview
+            - name: In this section
               href: xim/how-to/live-xim-howto-nav.md
             - name: Using XIM via C++
               href: xim/how-to/live-using-xim.md
@@ -55,19 +55,19 @@
               href: xim/how-to/live-xim-chat-reservations.md
     - name: Multiplayer Manager (MPM)
       items:
-        - name: Overview
+        - name: In this section
           href: mpm/live-multiplayer-manager-nav.md
         - name: Multiplayer Manager overview
           href: mpm/live-multiplayer-manager-overview.md
         - name: Multiplayer Manager concepts
           items:
-            - name: Overview
+            - name: In this section
               href: mpm/concepts/live-mm-concepts-nav.md
             - name: Multiplayer Manager API overview
               href: mpm/concepts/live-multiplayer-manager-api-overview.md
             - name: Multiplayer Manager flowcharts
               items:
-                - name: Overview
+                - name: In this section
                   href: mpm/concepts/flowcharts/live-mm-flowcharts-nav.md
                 - name: Playing a game with friends (flowchart)
                   href: mpm/concepts/flowcharts/live-mpm-play-with-friends.md
@@ -87,7 +87,7 @@
                   href: mpm/concepts/flowcharts/live-mpm-shut-down.md
         - name: Multiplayer Manager how-to's
           items:
-            - name: Overview
+            - name: In this section
               href: mpm/how-to/live-mm-howto-nav.md
             - name: Enable playing a multiplayer game with friends using Multiplayer Manager
               href: mpm/how-to/live-play-multiplayer-with-friends.md
@@ -99,7 +99,7 @@
               href: mpm/how-to/live-handle-protocol-activation.md
     - name: Multiplayer Session Directory (MPSD)
       items:
-        - name: Overview
+        - name: In this section
           href: mpsd/live-mpsd-nav.md
         - name: Multiplayer Session Directory overview
           href: mpsd/live-mpsd-overview.md
@@ -107,7 +107,7 @@
           href: mpsd/live-xbox-multiplayer-session-directory.md
         - name: MPSD concepts
           items:
-            - name: Overview
+            - name: In this section
               href: mpsd/concepts/live-mpsd-concepts-nav.md
             - name: Multiplayer Session advanced topics
               href: mpsd/concepts/live-mpsd-details.md
@@ -123,7 +123,7 @@
               href: mpsd/concepts/live-large-sessions.md
         - name: MPSD how-to's
           items:
-            - name: Overview
+            - name: In this section
               href: mpsd/how-to/live-mpsd-howto-nav.md
             - name: Multiplayer tasks
               href: mpsd/how-to/live-mpsd-how-tos.md
@@ -131,13 +131,13 @@
               href: mpsd/how-to/live-mpsd-status-codes.md
     - name: Invites
       items:
-        - name: Overview
+        - name: In this section
           href: invites/live-invites-nav.md
         - name: Invites overview
           href: invites/live-multiplayer-invites-overview.md
         - name: Invites concepts
           items:
-            - name: Overview
+            - name: In this section
               href: invites/concepts/live-invites-concepts-nav.md
             - name: Flows for multiplayer game invites
               href: invites/concepts/live-multiplayer-invite-flows.md
@@ -145,7 +145,7 @@
               href: invites/concepts/live-multiplayer-invite-uwp.md
         - name: Invites how-to's
           items:
-            - name: Overview
+            - name: In this section
               href: invites/how-to/live-invites-howto-nav.md
             - name: Sending invites
               href: invites/how-to/live-invites-send.md
@@ -153,13 +153,13 @@
               href: invites/how-to/live-invites-receive.md
     - name: SmartMatch Matchmaking
       items:
-        - name: Overview
+        - name: In this section
           href: matchmaking/live-matchmaking-nav.md
         - name: Matchmaking overview
           href: matchmaking/live-matchmaking-overview.md
         - name: Matchmaking concepts
           items:
-            - name: Overview
+            - name: In this section
               href: matchmaking/concepts/live-matchmaking-concepts-nav.md
             - name: Using SmartMatch matchmaking
               href: matchmaking/concepts/live-matchmaking-how-tos.md
@@ -167,7 +167,7 @@
               href: matchmaking/concepts/live-matchmaking-target-session.md
             - name: Xbox Arena
               items:
-                - name: Overview
+                - name: In this section
                   href: matchmaking/concepts/arena/live-arena-nav.md
                 - name: Xbox Arena overview
                   href: matchmaking/concepts/arena/live-arena-overview.md
@@ -189,19 +189,19 @@
                   href: matchmaking/concepts/arena/live-arena-user-scenarios.md
         - name: Matchmaking portal config
           items:
-            - name: Overview
+            - name: In this section
               href: matchmaking/config/live-matchmaking-config-nav.md
             - name: Configuring Matchmaking in Partner Center
               href: matchmaking/config/live-matchmaking-config.md
     - name: Game Chat
       items:
-        - name: Overview
+        - name: In this section
           href: chat/live-chat-nav.md
         - name: Game Chat overview
           href: chat/live-game-chat-2-overview.md
         - name: Game Chat how-to's
           items:
-            - name: Overview
+            - name: In this section
               href: chat/how-to/live-chat-howto-nav.md
             - name: Using the Game Chat 2 C++ API
               href: chat/how-to/live-using-game-chat-2.md

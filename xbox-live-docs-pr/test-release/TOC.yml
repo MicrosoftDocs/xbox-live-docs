@@ -1,13 +1,13 @@
 - name: Testing and Releasing
   href: index.yml
   items:
-    - name: Overview
+    - name: In this section
       href: live-test-release-nav.md
     - name: Xbox Live resources, sites, and downloads
       href: live-sites-downloads.md
     - name: Configuring Xbox Live services
       items:
-        - name: Overview
+        - name: In this section
           href: portal-config/live-portal-config-nav.md
         - name: Portal configuration overview
           href: portal-config/live-portal-config-overview.md
@@ -27,7 +27,7 @@
           href: portal-config/live-service-config-ids-mp.md
     - name: Sandboxes
       items:
-        - name: Overview
+        - name: In this section
           href: sandboxes/live-sandboxes-nav.md
         - name: Xbox Live Sandboxes overview
           href: sandboxes/live-setup-sandbox.md
@@ -37,7 +37,7 @@
           href: sandboxes/live-advanced-sandboxes.md
     - name: Test accounts
       items:
-        - name: Overview
+        - name: In this section
           href: test-accounts/live-test-accounts-nav.md
         - name: Xbox Live test accounts
           href: test-accounts/live-test-accounts.md
@@ -47,7 +47,7 @@
       href: live-testing-on-console.md
     - name: Troubleshooting Xbox Live
       items:
-        - name: Overview
+        - name: In this section
           href: troubleshooting/live-troubleshooting-nav.md
         - name: Troubleshooting Xbox Live Services APIs
           href: troubleshooting/live-troubleshooting-apis.md
@@ -55,7 +55,7 @@
           href: troubleshooting/live-troubleshooting-pc-setup.md
     - name: Best practices for Xbox Live
       items:
-        - name: Overview
+        - name: In this section
           href: best-practices/live-best-practices-nav.md
         - name: Best practices for calling Xbox Live
           href: best-practices/live-best-practices-calling-xbl.md
@@ -65,7 +65,7 @@
           href: best-practices/live-best-practices-offline-play.md
     - name: Error handling
       items:
-        - name: Overview
+        - name: In this section
           href: error-handling/live-error-handling-nav.md
         - name: Types of error handling
           href: error-handling/live-types-of-error-handling.md
@@ -77,7 +77,7 @@
       href: live-port-xbl-code-from-xdk-to-uwp.md
     - name: Tools for Xbox Live
       items:
-        - name: Overview
+        - name: In this section
           href: tools/live-tools-nav.md
         - name: Development tools for Xbox Live
           href: tools/live-tools.md

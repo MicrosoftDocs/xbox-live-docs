@@ -96,7 +96,7 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: Overview of XRs for PC and Mobile
+          - text: Supporting Content for XRs for PC and Mobile
             url: xr/live-pc-xrs-nav.md
       - linkListType: concept
         links:

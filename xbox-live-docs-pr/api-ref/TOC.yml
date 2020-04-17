@@ -1,11 +1,11 @@
 - name: API Reference
   href: index.yml
   items:
-    - name: Overview
+    - name: In this section
       href: live-api-reference-nav.md
     - name: XSAPI reference
       items:
-        - name: Overview
+        - name: In this section
           href: xsapi/live-xsapi-nav.md
         - name: XSAPI overview
           href: xsapi/live-introduction-to-xbox-live-apis.md
@@ -15,7 +15,7 @@
       href: xal/live-xal-nav.md
     - name: XAsync reference
       items:
-        - name: Overview
+        - name: In this section
           href: xasync/live-xasync-nav.md
         - name: Making async calls in the XSAPI C API
           href: xasync/live-flatc-async-patterns.md

@@ -1,13 +1,13 @@
 - name: Cloud Storage
   href: index.yml
   items: 
-    - name: Overview
+    - name: In this section
       href: live-cloud-storage-nav.md
     - name: Connected Storage vs. Title Storage
       href: live-connected-storage-vs-title-storage.md
     - name: Connected Storage
       items:
-        - name: Overview
+        - name: In this section
           href: connected-storage/live-connected-storage-nav.md
         - name: Overview
           href: connected-storage/live-connected-storage-overview.md
@@ -15,7 +15,7 @@
           href: connected-storage/live-connected-storage-technical-overview.md
         - name: Concepts
           items:
-            - name: Overview
+            - name: In this section
               href: connected-storage/concepts/live-connected-storage-concepts-nav.md
             - name: Managing local Connected Storage
               href: connected-storage/concepts/live-connected-storage-xb-storage.md
@@ -23,7 +23,7 @@
               href: connected-storage/concepts/live-connected-storage-best-practices.md
         - name: Samples
           items:
-            - name: Overview
+            - name: In this section
               href: connected-storage/how-to/live-connected-storage-howto-nav.md
             - name: Saving data
               href: connected-storage/how-to/live-connected-storage-saving.md
@@ -37,19 +37,19 @@
               href: connected-storage/how-to/live-connected-storage-using-buffers.md
     - name: Title Storage
       items:
-        - name: Overview
+        - name: In this section
           href: title-storage/live-title-storage-nav.md
         - name: Overview
           href: title-storage/live-title-storage-overview.md
         - name: How-to guides
           items:                              
-            - name: Overview
+            - name: In this section
               href: title-storage/config/live-title-storage-config-nav.md
             - name: Set up in Partner Center
               href: title-storage/config/live-title-storage-portal-config.md
         - name: Samples
           items:
-            - name: Overview
+            - name: In this section
               href: title-storage/how-to/live-title-storage-howto-nav.md
             - name: Uploading a blob
               href: title-storage/how-to/live-uploading-title-storage-blob.md
