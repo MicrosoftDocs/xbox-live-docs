@@ -50,13 +50,13 @@
             - name: Visual Studio targeting Windows 10
               items:
                 - name: Overview
-                  href: setup-ide/creators/live-cr-vstudio-win10-nav.md
+                  href: setup-ide/creators/vstudio-win10/live-cr-vstudio-win10-nav.md
                 - name: Setting up Visual Studio targeting Windows 10
                   href: setup-ide/creators/vstudio-win10/live-develop-creators-title-vstudio.md
             - name: Unity targeting Windows 10
               items:
                 - name: Overview
-                  href: setup-ide/creators/live-cr-unity-win10-nav.md
+                  href: setup-ide/creators/unity-win10/live-cr-unity-win10-nav.md
                 - name: Configuring Xbox Live in Unity
                   href: setup-ide/creators/unity-win10/live-configure-xbl-in-unity.md
                 - name: Signing into Xbox Live in Unity
