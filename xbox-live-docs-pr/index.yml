@@ -39,7 +39,7 @@ highlightedContent:
       itemType: get-started
       url: get-started/setup-ide/live-setup-ide-nav.md
     # Card
-    - title: 4. Adding basic sign-in code
+    - title: 4. Initializing the Xbox Live API
       itemType: get-started
       url: get-started/add-signin-code/live-add-signin-code-nav.md
     # Card
@@ -91,7 +91,7 @@ productDirectory:
     - title: General features
       # imageSrc should be square in ratio with no whitespace
       imageSrc: ./index-images/Icon_SpanFeatures.svg
-      summary: RTA (subscribes to state data, user statistics, and presence) and TCUI (shows pre-defined user interface displays).
+      summary: RTA (subscribes to state data, user statistics, & presence), TCUI (shows pre-defined UI displays), & Xbox Live samples.
       url: features/general/index.yml
 # additionalContent section (optional)
 # Card with summary style

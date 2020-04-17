@@ -149,7 +149,7 @@
                   href: setup-ide/managed-partners/unity-xbox/live-mp-unity-xbox-nav.md
                 - name: Add XBL support to Unity for XDK, with IL2CPP scripting
                   href: setup-ide/managed-partners/unity-xbox/live-partner-unity-xdk-il2cpp.md
-    - name: Adding basic sign-in code
+    - name: Initializing the Xbox Live API
       items:
         - name: Overview
           href: add-signin-code/live-add-signin-code-nav.md
@@ -157,10 +157,14 @@
           href: add-signin-code/live-getting-xsapi-to-sign-in.md
     - name: What's New
       items:
+        - name: Overview
+          href: whats-new/live-whats-new-nav.md
         - name: What's new for Xbox Live
           href: whats-new/live-whats-new.md
         - name: What's New for older releases of Xbox Live
           items:
+            - name: Overview
+              href: whats-new/archived/live-whats-new-archived-nav.md
             - name: What's new for the Xbox Live SDK - December 2016
               href: whats-new/archived/live-whats-new-1612.md
             - name: What's new for the Xbox Live SDK - November 2016

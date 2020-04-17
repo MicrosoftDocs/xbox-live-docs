@@ -1,7 +1,7 @@
 ---
-title: Adding basic sign-in code
+title: Initializing the Xbox Live API
 description: Adding basic sign-in code to sign-in the user and game into Xbox Live services.
-kindex: Adding basic sign-in code
+kindex: Initializing the Xbox Live API
 ms.topic: navigation
 layout: LandingPage
 ms.localizationpriority: high
@@ -10,7 +10,7 @@ ms.author: migreen
 ms.date: 11/01/2019
 ---
 
-# Adding basic sign-in code
+# Initializing the Xbox Live API
 
 
 ### In this section

@@ -21,7 +21,7 @@ ms.date: 11/01/2019
 | [Joining a developer program](join-dev-program/live-join-dev-program-nav.md) | Joining the Creators Program or the ID@Xbox Program. |
 | [Setting up a game app at Partner Center](setup-partner-center/live-setup-partner-center-nav.md) | Creating a new game at Partner Center, enabling Xbox Live for the game, and publishing the game to a development sandbox. |
 | [Setting up an IDE](setup-ide/live-setup-ide-nav.md) | Setting up an IDE to use the Xbox Live SDK, for your target platforms. |
-| [Adding basic sign-in code](add-signin-code/live-add-signin-code-nav.md) | Adding basic sign-in code to sign-in the user and game into Xbox Live services. |
+| [Initializing the Xbox Live API](add-signin-code/live-add-signin-code-nav.md) | Adding basic sign-in code to sign-in the user and game into Xbox Live services. |
 
 
 ### See also

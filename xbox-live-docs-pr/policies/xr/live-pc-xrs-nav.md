@@ -1,7 +1,7 @@
 ---
-title: Supporting Content for XRs for PC and Mobile
+title: Overview of XRs for PC and Mobile
 description: Xbox Requirements (XRs) for adding Xbox Live to a game on Windows or mobile.
-kindex: Supporting Content for XRs for PC and Mobile
+kindex: Overview of XRs for PC and Mobile
 kindex: Xbox Requirements (XRs) for Xbox Live
 kindex: Xbox Live, XRs
 kindex: Xbox Live, Xbox Requirements (XRs)
@@ -13,7 +13,7 @@ ms.author: migreen
 ms.date: 11/01/2019
 ---
 
-# Supporting Content for XRs for PC and Mobile
+# Overview of XRs for PC and Mobile
 
 In support of the the complete list of [Xbox Live Policies for PC and mobile](../live-policies-pc.md), the following deep-dive content is available for a sub-set of the requirements to support development.
 

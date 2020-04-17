@@ -25,3 +25,5 @@
               href: rta/how-to/live-rta-howto-nav.md
             - name: Programming the RTA service
               href: rta/how-to/live-programming-rta.md
+    - name: Xbox Live Samples
+      href: samples/live-samples-overview.md

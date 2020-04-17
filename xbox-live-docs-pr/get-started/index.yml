@@ -220,7 +220,7 @@ landingContent:
       #     - text: __
       #       url: __.md
   # Card
-  - title: Setting up the Xbox Live API
+  - title: Initializing the Xbox Live API
     linkLists:
       # - linkListType: overview
       #   links:

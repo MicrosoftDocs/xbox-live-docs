@@ -21,7 +21,6 @@ ms.date: 11/01/2019
 | [XAL Reference](xal/live-xal-nav.md) | Xbox Authentication Library (XAL) reference. |
 | [XAsync Reference](xasync/live-xasync-nav.md) | Xbox Asynchronous library (XAsync) reference. |
 | [REST Reference](xbox-live-rest/atoc-xboxlivews-reference.md) | Services for managing games and player information. Use the **Xbox.Services** API whenever possible. Use the RESTful interface for newer methods that have not been added to **Xbox.Services** yet. |
-| [Xbox Live Samples](live-samples.md) | Xbox Live API samples and Xbox Developer Kit samples. |
 
 
 ### See also

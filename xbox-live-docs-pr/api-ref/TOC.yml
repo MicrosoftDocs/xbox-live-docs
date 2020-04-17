@@ -1,19 +1,23 @@
 - name: API Reference
   href: index.yml
   items:
+    - name: Overview
+      href: live-api-reference-nav.md
     - name: XSAPI reference
       items:
-        - name: XSAPI Overview
+        - name: Overview
+          href: xsapi/live-xsapi-nav.md
+        - name: XSAPI overview
           href: xsapi/live-introduction-to-xbox-live-apis.md
-        - name: XSAPI C Overview
+        - name: XSAPI C overview
           href: xsapi/live-xsapi-flat-c.md
     - name: XAL reference
       href: xal/live-xal-nav.md
     - name: XAsync reference
       items:
+        - name: Overview
+          href: xasync/live-xasync-nav.md
         - name: Making async calls in the XSAPI C API
           href: xasync/live-flatc-async-patterns.md
     - name: REST reference
       href: xbox-live-rest/TOC.md
-    - name: Xbox Live Samples
-      href: live-samples.md

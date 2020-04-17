@@ -168,22 +168,3 @@ landingContent:
       #   links:
       #     - text: __
       #       url: __.md
-  # Card
-  - title: Xbox Live Samples
-    linkLists:
-      # - linkListType: overview
-      #   links:
-      #     - text: __
-      #       url: __.md
-      # - linkListType: concept
-      #   links:
-      #     - text: __
-      #       url: __.md
-      # - linkListType: how-to-guide
-      #   links:
-      #     - text: __
-      #       url: __.md
-      - linkListType: sample
-        links:
-          - text: Xbox Live Samples
-            url: live-samples.md

@@ -213,4 +213,4 @@ Objective-C++ files enable you to mix Objective-C and C++ code:
 
 ## Next step
 
-Add basic sign-in code; see [Getting Started](../../../live-getstarted-nav.md).
+Initialize the Xbox Live API in your project; see [Initializing the Xbox Live API](../../../add-signin-code/live-add-signin-code-nav.md).
