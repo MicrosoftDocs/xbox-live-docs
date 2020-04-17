@@ -27,26 +27,25 @@ highlightedContent:
       itemType: get-started
       url: get-started/live-xbl-overview.md
     # Card
-    - title: Choosing an Xbox Live developer program
+    - title: 1. Joining a developer program
       itemType: get-started
-      url: get-started/join-dev-program/live-dev-program-overview.md
+      url: get-started/join-dev-program/live-join-dev-program-nav.md
     # Card
-    - title: Setting up a game at Partner Center, for Creators
+    - title: 2. Setting up a game at Partner Center
       itemType: get-started
-      url: get-started/setup-partner-center/live-setup-partner-center-creators.md
+      url: get-started/setup-partner-center/live-setup-partner-center-nav.md
     # Card
-    - title: Setting up a game at Partner Center, for Managed Partners
+    - title: 3. Setting up an IDE
       itemType: get-started
-      url: get-started/setup-partner-center/live-setup-partner-center-partners.md
+      url: get-started/setup-ide/live-setup-ide-nav.md
     # Card
-    - title: Setting up an IDE
+    - title: 4. Adding basic sign-in code
       itemType: get-started
-      url: get-started/setup-ide/live-supported-ides.md
+      url: get-started/add-signin-code/live-add-signin-code-nav.md
     # Card
-    # restore card section when have more articles in this bucket:
-    # - title: Setting up and initializing the Xbox Live API in your project
-    #   itemType: get-started
-    #   url: __
+    - title: What's new for Xbox Live
+      itemType: whats-new
+      url: features/general/whats-new/live-whats-new.md
 # productDirectory section (optional)
 productDirectory:
   title: Features # < 60 chars (optional)

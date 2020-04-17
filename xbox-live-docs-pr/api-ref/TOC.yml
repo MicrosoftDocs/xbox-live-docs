@@ -8,7 +8,7 @@
         - name: XSAPI C Overview
           href: xsapi/live-xsapi-flat-c.md
     - name: XAL reference
-      href: xal/live-xal-overview.md
+      href: xal/live-xal-nav.md
     - name: XAsync reference
       items:
         - name: Making async calls in the XSAPI C API
