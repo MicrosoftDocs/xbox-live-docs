@@ -31,7 +31,7 @@ ms.date: 11/01/2019
 |---------|-------------|
 | [Title-callable UI (TCUI)](general/tcui/live-tcui-overview.md) | Enables your game code to call pre-defined user interface displays. |
 | [Real-Time Activity (RTA) service](general/rta/live-rta-nav.md) | Enables an application on any device to subscribe to state data, user statistics, and presence. |
-| [What's New](whats-new/live-whats-new-nav.md) | New features and functionality in each release of Xbox Live. |
+| [What's New](general/whats-new/live-whats-new-nav.md) | New features and functionality in each release of Xbox Live. |
 
 
 ### See also
