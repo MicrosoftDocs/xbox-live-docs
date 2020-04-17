@@ -12,8 +12,4 @@
 
 ## _include_ custom-services/TOC-custom-services.md
 
-## _include_ tcui/TOC-tcui.md
-
-## _include_ rta/TOC-rta.md
-
-## _include_ whats-new/TOC-whats-new.md
+## _include_ tcui/TOC-general.md

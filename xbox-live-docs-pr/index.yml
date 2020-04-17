@@ -45,7 +45,7 @@ highlightedContent:
     # Card
     - title: What's new for Xbox Live
       itemType: whats-new
-      url: features/general/whats-new/live-whats-new.md
+      url: get-started/whats-new/live-whats-new.md
 # productDirectory section (optional)
 productDirectory:
   title: Features # < 60 chars (optional)
@@ -91,7 +91,7 @@ productDirectory:
     - title: General features
       # imageSrc should be square in ratio with no whitespace
       imageSrc: ./index-images/Icon_SpanFeatures.svg
-      summary: RTA (subscribes to state data, user statistics, and presence), TCUI (shows pre-defined user interface displays), and What's New.
+      summary: RTA (subscribes to state data, user statistics, and presence) and TCUI (shows pre-defined user interface displays).
       url: features/general/index.yml
 # additionalContent section (optional)
 # Card with summary style

@@ -1707,6 +1707,11 @@
             "redirect_document_id": true
         },
         {
+            "source_path": "xbox-live-docs-pr/test-release/services/live-services-nav.md",
+            "redirect_url": "/gaming/xbox-live/test-release/live-test-release-nav",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "xbox-live-docs-pr/xbox-live-resources.md",
             "redirect_url": "/gaming/xbox-live/test-release/live-sites-downloads",
             "redirect_document_id": true
@@ -1816,11 +1821,6 @@
             "redirect_url": "/gaming/xbox-live/test-release/troubleshooting/live-troubleshooting-pc-setup",
             "redirect_document_id": true
         },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/test-release/services/live-services-nav",
-        //     "redirect_document_id": true
-        // },
         {
             "source_path": "xbox-live-docs-pr/using-xbox-live/best-practices/best-practices_nav.md",
             "redirect_url": "/gaming/xbox-live/test-release/services/best-practices/live-best-practices-nav",

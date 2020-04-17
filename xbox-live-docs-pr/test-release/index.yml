@@ -183,23 +183,23 @@ landingContent:
       - linkListType: overview
         links:
           - text: Best practices for calling Xbox Live
-            url: services/best-practices/live-best-practices-calling-xbl.md
+            url: best-practices/live-best-practices-calling-xbl.md
           - text: Types of error handling
-            url: services/error-handling/live-types-of-error-handling.md
+            url: error-handling/live-types-of-error-handling.md
       - linkListType: concept
         links:
           - text: Fine-Grained Rate Limiting
-            url: services/best-practices/live-fine-grained-rate-limiting.md
+            url: best-practices/live-fine-grained-rate-limiting.md
           - text: Best practices for handling offline play
-            url: services/best-practices/live-best-practices-offline-play.md
+            url: best-practices/live-best-practices-offline-play.md
       - linkListType: how-to-guide
         links:
           - text: C++ API error handling
-            url: services/error-handling/live-error-handling-cpp.md
+            url: error-handling/live-error-handling-cpp.md
           - text: WinRT API error handling
-            url: services/error-handling/live-error-handling-winrt.md
+            url: error-handling/live-error-handling-winrt.md
           - text: Porting Xbox Live code from XDK to UWP
-            url: services/live-port-xbl-code-from-xdk-to-uwp.md
+            url: live-port-xbl-code-from-xdk-to-uwp.md
       # - linkListType: sample
       #   links:
       #     - text: __

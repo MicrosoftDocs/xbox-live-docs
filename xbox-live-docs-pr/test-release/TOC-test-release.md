@@ -12,6 +12,10 @@
 
 ## _include_ troubleshooting/TOC-tr-troubleshooting.md
 
-## _include_ services/TOC-tr-services.md
+## _include_ best-practices/TOC-tr-st-best-practices.md
+
+## _include_ error-handling/TOC-tr-st-error-handling.md
+
+## live-port-xbl-code-from-xdk-to-uwp.md
 
 ## _include_ tools/TOC-tr-tools.md

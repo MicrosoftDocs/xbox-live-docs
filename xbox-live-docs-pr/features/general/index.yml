@@ -108,22 +108,3 @@ landingContent:
         links:
           - text: Programming the RTA service
             url: rta/how-to/live-programming-rta.md
-  # Card
-  - title: What's New
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: What's new for Xbox Live
-            url: whats-new/live-whats-new.md
-      # - linkListType: concept
-      #   links:
-      #     - text: __
-      #       url: __.md
-      # - linkListType: how-to-guide
-      #   links:
-      #     - text: __
-      #       url: __.md
-      # - linkListType: sample
-      #   links:
-      #     - text: __
-      #       url: __.md

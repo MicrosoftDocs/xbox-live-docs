@@ -1,10 +1,14 @@
 - name: Testing and Releasing
   href: index.yml
   items:
+    - name: Overview
+      href: live-test-release-nav.md
     - name: Xbox Live resources, sites, and downloads
       href: live-sites-downloads.md
     - name: Configuring Xbox Live services
       items:
+        - name: Overview
+          href: portal-config/live-portal-config-nav.md
         - name: Portal configuration overview
           href: portal-config/live-portal-config-overview.md
         - name: Summary page for Xbox Live configuration
@@ -23,6 +27,8 @@
           href: portal-config/live-service-config-ids-mp.md
     - name: Sandboxes
       items:
+        - name: Overview
+          href: sandboxes/live-sandboxes-nav.md
         - name: Xbox Live Sandboxes overview
           href: sandboxes/live-setup-sandbox.md
         - name: Using Xbox Live sandboxes, for Creators
@@ -31,6 +37,8 @@
           href: sandboxes/live-advanced-sandboxes.md
     - name: Test accounts
       items:
+        - name: Overview
+          href: test-accounts/live-test-accounts-nav.md
         - name: Xbox Live test accounts
           href: test-accounts/live-test-accounts.md
         - name: Broadcasting Xbox Live test accounts to Mixer
@@ -39,32 +47,38 @@
       href: live-testing-on-console.md
     - name: Troubleshooting Xbox Live
       items:
+        - name: Overview
+          href: troubleshooting/live-troubleshooting-nav.md
         - name: Troubleshooting Xbox Live Services APIs
           href: troubleshooting/live-troubleshooting-apis.md
         - name: Troubleshooting Xbox Live setup on Windows 10 PC
           href: troubleshooting/live-troubleshooting-pc-setup.md
-    - name: Services
+    - name: Best practices for Xbox Live
       items:
-        - name: Best practices for Xbox Live
-          items:
-            - name: Best practices for calling Xbox Live
-              href: services/best-practices/live-best-practices-calling-xbl.md
-            - name: Fine-Grained Rate Limiting
-              href: services/best-practices/live-fine-grained-rate-limiting.md
-            - name: Best practices for handling offline play
-              href: services/best-practices/live-best-practices-offline-play.md
-        - name: Error handling
-          items:
-            - name: Types of error handling
-              href: services/error-handling/live-types-of-error-handling.md
-            - name: C++ API error handling
-              href: services/error-handling/live-error-handling-cpp.md
-            - name: WinRT API error handling
-              href: services/error-handling/live-error-handling-winrt.md
-        - name: Porting Xbox Live code from XDK to UWP
-          href: services/live-port-xbl-code-from-xdk-to-uwp.md
+        - name: Overview
+          href: best-practices/live-best-practices-nav.md
+        - name: Best practices for calling Xbox Live
+          href: best-practices/live-best-practices-calling-xbl.md
+        - name: Fine-Grained Rate Limiting
+          href: best-practices/live-fine-grained-rate-limiting.md
+        - name: Best practices for handling offline play
+          href: best-practices/live-best-practices-offline-play.md
+    - name: Error handling
+      items:
+        - name: Overview
+          href: error-handling/live-error-handling-nav.md
+        - name: Types of error handling
+          href: error-handling/live-types-of-error-handling.md
+        - name: C++ API error handling
+          href: error-handling/live-error-handling-cpp.md
+        - name: WinRT API error handling
+          href: error-handling/live-error-handling-winrt.md
+    - name: Porting Xbox Live code from XDK to UWP
+      href: live-port-xbl-code-from-xdk-to-uwp.md
     - name: Tools for Xbox Live
       items:
+        - name: Overview
+          href: tools/live-tools-nav.md
         - name: Development tools for Xbox Live
           href: tools/live-tools.md
         - name: Config as Source tools (XblConfig.exe)

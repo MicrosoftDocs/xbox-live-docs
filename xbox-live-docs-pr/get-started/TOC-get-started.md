@@ -9,3 +9,5 @@
 ## _include_ setup-ide/TOC-setup-ide.md
 
 ## _include_ add-signin-code/TOC-add-signin-code.md
+
+## _include_ whats-new/TOC-whats-new.md
