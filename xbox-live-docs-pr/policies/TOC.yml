@@ -2,7 +2,7 @@
   href: index.yml
   items:
     - name: Policies and XRs overview
-      href: live-policies-overview.md
+      href: live-policies-nav.md
     - name: Xbox Live Policies for PC and Mobile
       href: live-policies-pc.md
     - name: Recommended Policy Tests for PC and mobile
