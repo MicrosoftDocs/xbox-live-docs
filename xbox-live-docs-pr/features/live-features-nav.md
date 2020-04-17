@@ -23,15 +23,7 @@ ms.date: 11/01/2019
 | [Multiplayer](multiplayer/live-multiplayer-nav.md) | Matchmaking, invites, voice and text chat, and networking. |
 | [Cloud Storage](cloud-storage/live-cloud-storage-nav.md) | Includes Connected Storage to store game state, and Title Storage to store player statistics and assets. |
 | [Custom services](custom-services/live-custom-services-nav.md) | Using Xbox Live with your own Web services; and configuring relying parties, single sign-on, and access policies. |
-
-
-#### Services that span multiple features
-
-| Article | Description |
-|---------|-------------|
-| [Title-callable UI (TCUI)](general/tcui/live-tcui-overview.md) | Enables your game code to call pre-defined user interface displays. |
-| [Real-Time Activity (RTA) service](general/rta/live-rta-nav.md) | Enables an application on any device to subscribe to state data, user statistics, and presence. |
-| [What's New](general/whats-new/live-whats-new-nav.md) | New features and functionality in each release of Xbox Live. |
+| [General features](general/live-general-nav.md) | RTA (subscribes to state data, user statistics, and presence), TCUI (shows pre-defined user interface displays), and Xbox Live samples. |
 
 
 ### See also

@@ -23,7 +23,7 @@ ms.date: 11/01/2019
 
 ### See also
 
-* [Xbox Live Samples](../../../api-ref/live-samples.md)
+* [Xbox Live samples](../../general/samples/live-samples.md)
 * [Finding a multiplayer game by using SmartMatch using Multiplayer Manager](../mpm/how-to/live-play-multiplayer-with-matchmaking.md)
 * [Playing a game by using SmartMatch matchmaking (flowchart)](../mpm/concepts/flowcharts/live-mpm-play-with-smartmatch-matchmaking.md)
 * [Checking Quality of Service for matchmaking (flowchart)](../mpm/concepts/flowcharts/live-mpm-use-matchmaking-and-qos.md)

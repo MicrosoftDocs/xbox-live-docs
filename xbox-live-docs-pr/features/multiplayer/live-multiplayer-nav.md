@@ -31,6 +31,4 @@ ms.date: 11/01/2019
 
 ### See also
 
-| Article | Description |
-|---------|-------------|
-| [Xbox Live Samples](../../api-ref/live-samples.md) | Xbox Live API samples and Xbox Developer Kit samples. |
+* [Xbox Live samples](../general/samples/live-samples.md)

@@ -64,7 +64,7 @@ landingContent:
           - text: Programming the RTA service
             url: rta/how-to/live-programming-rta.md
   # Card
-  - title: Xbox Live Samples
+  - title: Xbox Live samples
     linkLists:
       # - linkListType: overview
       #   links:
@@ -80,5 +80,5 @@ landingContent:
       #       url: __.md
       - linkListType: sample
         links:
-          - text: Xbox Live Samples
-            url: samples/live-samples-overview.md
+          - text: Xbox Live samples
+            url: samples/live-samples.md

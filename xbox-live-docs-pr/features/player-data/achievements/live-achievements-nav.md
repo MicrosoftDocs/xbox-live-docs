@@ -24,4 +24,4 @@ ms.date: 11/01/2019
 
 ### See also
 
-* [Xbox Live Samples](../../../api-ref/live-samples.md)
+* [Xbox Live samples](../../general/samples/live-samples.md)

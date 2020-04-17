@@ -45,4 +45,4 @@ TCUI provides the following functions.
 
 ### See also
 
-* [Xbox Live Samples](../../../api-ref/live-samples.md)
+* [Xbox Live samples](../samples/live-samples.md)
