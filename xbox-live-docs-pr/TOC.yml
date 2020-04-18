@@ -192,7 +192,7 @@
                   href: get-started/whats-new/archived/live-whats-new-1506.md
     - name: Features
       href: features/index.yml
-          items:
+      items:
         - name: Identity
           href: features/identity/index.yml
           items:
