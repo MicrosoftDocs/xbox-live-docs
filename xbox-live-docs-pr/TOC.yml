@@ -2,8 +2,9 @@
   href: index.yml
   items:
     - name: Getting Started
-      href: get-started/index.yml
       items:
+        - name: Landing page
+          href: get-started/index.yml
         - name: In this section
           href: get-started/live-getstarted-nav.md
         - name: Xbox Live overview
@@ -191,11 +192,15 @@
                 - name: What's new for the Xbox Live SDK - June 2015
                   href: get-started/whats-new/archived/live-whats-new-1506.md
     - name: Features
-      href: features/index.yml
       items:
+        - name: Landing page
+          href: features/index.yml
+        - name: In this section
+          href: features/live-features-nav.md
         - name: Identity
-          href: features/identity/index.yml
           items:
+            - name: Landing page
+              href: features/identity/index.yml
             - name: In this section
               href: features/identity/live-identity-nav.md
             - name: Authentication and sign-in
@@ -237,8 +242,9 @@
                     - name: Configuring Privileges in Partner Center
                       href: features/identity/privileges/config/live-privileges-config.md
         - name: Player Data
-          href: features/player-data/index.yml
           items:
+            - name: Landing page
+              href: features/player-data/index.yml
             - name: In this section
               href: features/player-data/live-playerdata-nav.md
             - name: Player Data overview
@@ -366,8 +372,9 @@
                         - name: Updating title-managed Achievements
                           href: features/player-data/achievements/title-managed/how-to/live-how-to-update-achievements.md
         - name: Social
-          href: features/social/index.yml
           items:
+            - name: Landing page
+              href: features/social/index.yml
             - name: In this section
               href: features/social/live-social-nav.md
             - name: Overview of Social features
@@ -475,8 +482,9 @@
             - name: Clubs
               href: features/social/clubs/live-clubs.md
         - name: Multiplayer
-          href: features/multiplayer/index.yml
           items:
+            - name: Landing page
+              href: features/multiplayer/index.yml
             - name: In this section
               href: features/multiplayer/live-multiplayer-nav.md
             - name: Multiplayer overview
@@ -688,8 +696,9 @@
                     - name: Migrating from Game Chat 1 to Game Chat 2
                       href: features/multiplayer/chat/how-to/live-game-chat-2-migration.md
         - name: Cloud Storage
-          href: features/cloud-storage/index.yml
           items: 
+            - name: Landing page
+              href: features/cloud-storage/index.yml
             - name: In this section
               href: features/cloud-storage/live-cloud-storage-nav.md
             - name: Connected Storage vs. Title Storage
@@ -761,8 +770,9 @@
                     - name: Reading a configuration blob
                       href: features/cloud-storage/title-storage/how-to/live-reading-configuration-blobs.md
         - name: Custom services
-          href: features/custom-services/index.yml
           items:
+            - name: Landing page
+              href: features/custom-services/index.yml
             - name: In this section
               href: features/custom-services/live-custom-services-nav.md
             - name: Access Policies
@@ -792,8 +802,9 @@
             - name: Relying parties
               href: features/custom-services/relying-parties/live-relying-parties-nav.md
         - name: General features
-          href: features/general/index.yml
           items:
+            - name: Landing page
+              href: features/general/index.yml
             - name: In this section
               href: features/general/live-general-nav.md
             - name: Title-callable UI (TCUI)
@@ -821,8 +832,9 @@
             - name: Xbox Live samples
               href: features/general/samples/live-samples.md
     - name: Testing and Releasing
-      href: test-release/index.yml
       items:
+        - name: Landing page
+          href: test-release/index.yml
         - name: In this section
           href: test-release/live-test-release-nav.md
         - name: Xbox Live resources, sites, and downloads
@@ -922,8 +934,9 @@
             - name: Using Fiddler to inspect web service calls
               href: test-release/tools/live-fiddler-inspect-web-calls.md
     - name: Policies and XRs
-      href: policies/index.yml
       items:
+        - name: Landing page
+          href: policies/index.yml
         - name: In this section
           href: policies/live-policies-nav.md
         - name: Xbox Live Policies for PC and Mobile
@@ -951,8 +964,9 @@
             - name: XR-132 Service Access Limitations
               href: policies/xr/live-pc-xr132.md 
     - name: API Reference
-      href: api-ref/index.yml
       items:
+        - name: Landing page
+          href: api-ref/index.yml
         - name: In this section
           href: api-ref/live-api-reference-nav.md
         - name: XSAPI reference
