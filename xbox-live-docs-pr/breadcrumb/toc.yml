@@ -5,7 +5,3 @@
   - name: Gaming
     tocHref: /gaming
     topicHref: /gaming
-    items:
-    - name: Xbox Live
-      tocHref: /gaming/xbox-live
-      topicHref: /gaming/xbox-live
