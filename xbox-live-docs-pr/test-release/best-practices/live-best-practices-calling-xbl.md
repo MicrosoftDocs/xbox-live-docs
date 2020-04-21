@@ -178,7 +178,7 @@ The Social Manager keeps your friends list, their profiles, and their presence d
 The Social Manager exposes a synchronous API that is very game-engine friendly.
 Games can call the Social Manager APIs frequently, because Social Manager maintains an in-memory cache of the latest information from the service.
 
-See [Social Manager](../../../features/social/social-manager/live-social-manager-nav.md).
+See [Social Manager](../../features/social/social-manager/live-social-manager-nav.md).
 
 
 ### Multiplayer Manager
@@ -187,7 +187,7 @@ For multiplayer session management, the Multiplayer Manager is a drop-in solutio
 The Multiplayer Manager API includes player roster and session management, handles game invites, join in progress, matchmaking, and plugs into your existing networking solution.
 It does all the heavy lifting around implementing traditional multiplayer flows.
 
-See [Multiplayer Manager (MPM)](../../../features/multiplayer/mpm/live-multiplayer-manager-nav.md).
+See [Multiplayer Manager (MPM)](../../features/multiplayer/mpm/live-multiplayer-manager-nav.md).
 
 
 ## Throttling (fine grained rate limiting)
@@ -242,7 +242,7 @@ This simply disables the asserts when in dev sandboxes while using a debug build
 
 ### Using the Xbox Live Trace Analyzer tool
 
-Another option for determining whether your title was throttled is to record a trace of the Xbox Live calls and then analyze that trace using [Trace Analyzer for reviewing service calls](../../tools/live-trace-analyzer.md).
+Another option for determining whether your title was throttled is to record a trace of the Xbox Live calls and then analyze that trace using [Xbox Live Trace Analyzer (XBLTraceAnalyzer.exe)](../tools/live-trace-analyzer.md).
 
 To record a trace, you can either use Fiddler to record a .SAZ file, or by using the built-in trace logging of XSAPI.
 For more information about turning on traces in XSAPI, see the Xbox Live documentation page "Analyze calls to Xbox Live Services". <!-- tbd: link, not found -->

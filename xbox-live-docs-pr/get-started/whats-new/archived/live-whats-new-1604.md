@@ -25,20 +25,20 @@ The Xbox Live SDK supports Windows 10 RTM [Version 10.0.10240] and Visual Studio
 
 ## Documentation
 
-- [Troubleshooting Xbox Live sign-in](../../../../features/identity/auth/live-troubleshooting-sign-in.md) lists some general strategies to debug sign-in failures, as well as steps to follow based on error code.
+- [Troubleshooting Xbox Live sign-in](../../../features/identity/auth/live-troubleshooting-sign-in.md) lists some general strategies to debug sign-in failures, as well as steps to follow based on error code.
 
 - The Marketplace docs for Xbox One (or later) developers only can now be found in the Programming Guide; see <a href="https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/xbox-marketplace/marketplace-and-downloadable-content" target="_blank">Xbox One Marketplace and Downloadable Content &#11008;</a> at Xbox Game Dev (XGD).  UWP developers should continue to consult Partner Center for documentation on the store.
 
-- If you are interested in bringing an Xbox One (or later) title to the Universal Windows Platform, see [Porting Xbox Live code from XDK to UWP](../../../../test-release/services/live-port-xbl-code-from-xdk-to-uwp.md).
+- If you are interested in bringing an Xbox One (or later) title to the Universal Windows Platform, see [Porting Xbox Live code from XDK to UWP](../../../test-release/live-port-xbl-code-from-xdk-to-uwp.md).
 
-- See [Fine-Grained Rate Limiting](../../../../test-release/services/best-practices/live-fine-grained-rate-limiting.md) for a description of how these are enforced for various Xbox Live Service endpoints and scenarios, as well as information about what the limits are.
+- See [Fine-Grained Rate Limiting](../../../test-release/best-practices/live-fine-grained-rate-limiting.md) for a description of how these are enforced for various Xbox Live Service endpoints and scenarios, as well as information about what the limits are.
 
 
 ## Multiplayer Manager
 
 Multiplayer Manager (MPM) is no longer in Experimental status.  We have incorporated feedback from developers using this API and made some of the APIs more consistent with each other.
 Please use the Multiplayer Manager as a starting point when doing your multiplayer development, as it provides a simpler API that manages many of the complexities of the Multiplayer 2015 API for you.
-See [Multiplayer Manager overview](../../../../features/multiplayer/mpm/live-multiplayer-manager-overview.md).
+See [Multiplayer Manager overview](../../../features/multiplayer/mpm/live-multiplayer-manager-overview.md).
 
 Below are some of the new features of the API, as well as a small number of breaking changes.
 

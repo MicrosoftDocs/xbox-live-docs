@@ -66,7 +66,7 @@ Setting a limit per title would ignore the popularity of the titles, and the req
 
 The pairing of User and Title ensures that no title uses more resources than what is appropriate given the number of active users, while also giving each user a consistent slice of the resource pie.
 
-![Rate limiting request and response flowchart](../../../images/FGRL.png)
+![Rate limiting request and response flowchart](../../images/FGRL.png)
 
 The diagram above shows a high-level view of how the request is handled.
 First the request is generated and then received by the desired service.
@@ -206,7 +206,7 @@ See [Best practices for calling Xbox Live](live-best-practices-calling-xbl.md), 
 Another option is to record a trace of the Xbox Live calls, and then analyze that trace using the [Xbox Live Trace Analyzer tool](https://docs.microsoft.com/windows/uwp/xbox-live/tools/analyze-service-calls).
 To record a trace, you can either use Fiddler to record a .SAZ file, or use the built-in trace logging of XSAPI.
 
-To turn on and use traces in XSAPI, see [Trace Analyzer for reviewing service calls](../../tools/live-trace-analyzer.md).
+To turn on and use traces in XSAPI, see [Trace Analyzer for reviewing service calls](../tools/live-trace-analyzer.md).
 Once you have a trace, the Xbox Live Trace Analyzer tool will warn upon detecting throttled calls.
 
 You can find the best practices paper on GDNP and SDK and XDK docs 1602 and higher. <!-- tbd link/clarify -->
@@ -233,7 +233,7 @@ As of **April 2018**, titles exceeding the specified sustained limits by 10x or 
 ### What if we can't adhere to the limits?
 
 See the [Best practices for calling Xbox Live](live-best-practices-calling-xbl.md) and ensure you are following these steps.
-If you are being rate-limited with any of the social services, also consider using [Social Manager](../../../features/social/social-manager/live-social-manager-nav.md)
+If you are being rate-limited with any of the social services, also consider using [Social Manager](../../features/social/social-manager/live-social-manager-nav.md).
 
 If after following these steps, you are still unable to remain under the limits, please reach out to your Developer Account Manager.
 

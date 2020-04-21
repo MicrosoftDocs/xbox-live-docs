@@ -28,7 +28,7 @@ This article also covers:
 
 A UWP title that uses Xbox Live services needs to be configured in <a href="https://partner.microsoft.com/dashboard" target="_blank">Partner Center &#11008;</a>.
 
-See [Getting started using Visual Studio for UWP games](../../get-started/setup-ide/managed-partners/vstudio-win10/live-get-started-vstudio-uwp.md).
+See [Getting started using Visual Studio for UWP games](../get-started/setup-ide/managed-partners/vstudio-win10/live-get-started-vstudio-uwp.md).
 
 Sections in that article include these steps for using Xbox Live services in your title:
 
