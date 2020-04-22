@@ -1,11 +1,11 @@
 ### YamlMime:Landing
 
 title: Getting Started # < 60 chars
-summary: Join a developer program, create a game at Partner Center, add the Xbox Live SDK to your IDE, and write basic sign-in code. # < 160 chars
+summary: To add Xbox Live to your game, join a developer program, create a game at Partner Center, add the Xbox Live SDK to your IDE, and initialize the Xbox Live API. # < 160 chars
 
 metadata:
   title: Getting Started # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Join a developer program, create a game at Partner Center, add the Xbox Live SDK to your IDE, and write basic sign-in code. # Required; article description that is displayed in search results. < 160 chars.
+  description: To add Xbox Live to your game, join a developer program, create a game at Partner Center, add the Xbox Live SDK to your IDE, and initialize the Xbox Live API. # Required; article description that is displayed in search results. < 160 chars.
   ms.service: gaming #Required; service per approved list. service slug assigned to your service by ACOM.
   # ms.subservice: subservice # Optional; Remove if no subservice is used.
   ms.topic: landing-page # Required
