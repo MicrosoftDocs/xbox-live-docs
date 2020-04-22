@@ -1,4 +1,4 @@
-- name: Xbox Live documentation
+- name: Xbox Live
   href: index.yml
   items:
     - name: Getting Started
