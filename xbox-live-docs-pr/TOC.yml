@@ -199,8 +199,6 @@
           href: features/live-features-nav.md
         - name: Identity
           items:
-            - name: Landing page
-              href: features/identity/index.yml
             - name: In this section
               href: features/identity/live-identity-nav.md
             - name: Authentication and sign-in
@@ -243,8 +241,6 @@
                       href: features/identity/privileges/config/live-privileges-config.md
         - name: Player Data
           items:
-            - name: Landing page
-              href: features/player-data/index.yml
             - name: In this section
               href: features/player-data/live-playerdata-nav.md
             - name: Player Data overview
@@ -373,8 +369,6 @@
                           href: features/player-data/achievements/title-managed/how-to/live-how-to-update-achievements.md
         - name: Social
           items:
-            - name: Landing page
-              href: features/social/index.yml
             - name: In this section
               href: features/social/live-social-nav.md
             - name: Overview of Social features
@@ -483,8 +477,6 @@
               href: features/social/clubs/live-clubs.md
         - name: Multiplayer
           items:
-            - name: Landing page
-              href: features/multiplayer/index.yml
             - name: In this section
               href: features/multiplayer/live-multiplayer-nav.md
             - name: Multiplayer overview
@@ -697,8 +689,6 @@
                       href: features/multiplayer/chat/how-to/live-game-chat-2-migration.md
         - name: Cloud Storage
           items: 
-            - name: Landing page
-              href: features/cloud-storage/index.yml
             - name: In this section
               href: features/cloud-storage/live-cloud-storage-nav.md
             - name: Connected Storage vs. Title Storage
@@ -771,8 +761,6 @@
                       href: features/cloud-storage/title-storage/how-to/live-reading-configuration-blobs.md
         - name: Custom services
           items:
-            - name: Landing page
-              href: features/custom-services/index.yml
             - name: In this section
               href: features/custom-services/live-custom-services-nav.md
             - name: Access Policies
@@ -803,8 +791,6 @@
               href: features/custom-services/relying-parties/live-relying-parties-nav.md
         - name: General features
           items:
-            - name: Landing page
-              href: features/general/index.yml
             - name: In this section
               href: features/general/live-general-nav.md
             - name: Title-callable UI (TCUI)
