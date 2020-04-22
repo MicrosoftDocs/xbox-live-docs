@@ -3,8 +3,6 @@
   items:
     - name: Getting Started
       items:
-        - name: Landing page
-          href: get-started/index.yml
         - name: In this section
           href: get-started/live-getstarted-nav.md
         - name: Xbox Live overview
@@ -193,8 +191,6 @@
                   href: get-started/whats-new/archived/live-whats-new-1506.md
     - name: Features
       items:
-        - name: Landing page
-          href: features/index.yml
         - name: In this section
           href: features/live-features-nav.md
         - name: Identity
@@ -819,8 +815,6 @@
               href: features/general/samples/live-samples.md
     - name: Testing and Releasing
       items:
-        - name: Landing page
-          href: test-release/index.yml
         - name: In this section
           href: test-release/live-test-release-nav.md
         - name: Xbox Live resources, sites, and downloads
@@ -921,8 +915,6 @@
               href: test-release/tools/live-fiddler-inspect-web-calls.md
     - name: Policies and XRs
       items:
-        - name: Landing page
-          href: policies/index.yml
         - name: In this section
           href: policies/live-policies-nav.md
         - name: Xbox Live Policies for PC and Mobile
@@ -951,8 +943,6 @@
               href: policies/xr/live-pc-xr132.md 
     - name: API Reference
       items:
-        - name: Landing page
-          href: api-ref/index.yml
         - name: In this section
           href: api-ref/live-api-reference-nav.md
         - name: XSAPI reference
