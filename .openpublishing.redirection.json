@@ -1896,7 +1896,6 @@
             "redirect_url": "/gaming/xbox-live/test-release/troubleshooting/live-troubleshooting-pc-setup",
             "redirect_document_id": true
         },
-// best practices:
         {
             "source_path": "xbox-live-docs-pr/using-xbox-live/best-practices/best-practices_nav.md",
             "redirect_url": "/gaming/xbox-live/test-release/best-practices/live-best-practices-nav",
@@ -1979,12 +1978,12 @@
         },
         {
             "source_path": "xbox-live-docs-pr/using-xbox-live/error-handling/types-of-error-handling.md",
-            "redirect_url": "/gaming/xbox-live/test-release/services/error-handling/live-types-of-error-handling",
+            "redirect_url": "/gaming/xbox-live/test-release/error-handling/live-types-of-error-handling",
             "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/test-release/services-tools/error-handling/live-types-of-error-handling.md",
-            "redirect_url": "/gaming/xbox-live/test-release/services/error-handling/live-types-of-error-handling",
+            "redirect_url": "/gaming/xbox-live/test-release/error-handling/live-types-of-error-handling",
             "redirect_document_id": false
         },
         {
