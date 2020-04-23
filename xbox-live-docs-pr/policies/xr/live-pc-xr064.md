@@ -7,10 +7,6 @@ keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
 ---
 
-
-Version 1.1, 5/1/2020
-
-
 # XR-064: Joinable Game Sessions and Online Play &diams;
 
 On Xbox consoles, titles that offer joinable game sessions must enable joinability through the Xbox shell interface. 
@@ -124,7 +120,7 @@ See also the Xbox One Multiplayer 2015 Developer Flowchart, available for downlo
 
 <br />
 
-# Change history 
+## Change history 
 
 Date | Document version | Change description
 -----|------------------|-------------------
