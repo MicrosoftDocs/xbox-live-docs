@@ -82,10 +82,12 @@ landingContent:
         links:
           - text: Adding basic sign-in code
             url: get-started/add-signin-code/live-add-signin-code-nav.md
-      - linkListType: learn
+      - linkListType: whats-new
         links:
           - text: What's New
             url: get-started/whats-new/live-whats-new.md
+      - linkListType: learn
+        links:
           - text: Getting Started
             url: get-started/live-getstarted-nav.md
 # ================= FEATURE AREA CARDS ==================================================
