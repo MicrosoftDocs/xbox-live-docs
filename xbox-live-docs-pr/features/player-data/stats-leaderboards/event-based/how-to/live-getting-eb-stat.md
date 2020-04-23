@@ -3,14 +3,11 @@ title: Getting event-based stats
 description: Example code for getting event-based stats.
 kindex: Getting event-based stats
 kindex: stats, Xbox Live
+ms.topic: conceptual
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: conceptual
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
 ms.date: 11/22/2019
-edited: 00/00/0000
 ---
 
 # Getting event-based stats

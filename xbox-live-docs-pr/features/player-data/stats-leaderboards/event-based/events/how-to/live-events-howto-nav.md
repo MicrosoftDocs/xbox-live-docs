@@ -2,14 +2,12 @@
 title: Events how-to's
 description: Example code for events for event-based Stats & Leaderboards.
 kindex: Events how-to's
-author: v-mihof
-ms.author: v-mihof
-ms.topic: conceptual
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
-ms.date: 09/14/2017
-edited: 00/00/0000
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Events how-to's

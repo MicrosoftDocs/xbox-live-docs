@@ -2,16 +2,12 @@
 title: What's New for older releases of Xbox Live
 description: What's New for releases of Xbox Live prior to 2017.
 kindex: What's New for older releases of Xbox Live
-layout: LandingPage
 ms.topic: navigation
-author: mikehoffms
-ms.author: v-mihof
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
-ms.assetid:
+layout: LandingPage
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
 ms.date: 01/31/2020
-edited: 00/00/0000
 ---
 
 # What's New for older releases of Xbox Live

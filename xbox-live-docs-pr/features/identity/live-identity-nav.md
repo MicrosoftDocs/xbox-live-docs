@@ -2,12 +2,12 @@
 title: Identity
 description: User profile, authentication and sign-in, privileges, and privacy settings.
 kindex: Identity
+ms.topic: navigation
 layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: article
-ms.localizationpriority: medium
-ms.date: 12/11/2018
+ms.date: 11/01/2019
 ---
 
 # Identity

@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.prod: xboxlive
 ms.technology: 
 ms.date: 09/23/2019
-ms.localizationpriority: medium
+ms.localizationpriority: high
 ---
 
 

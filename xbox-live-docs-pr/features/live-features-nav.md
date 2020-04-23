@@ -2,12 +2,12 @@
 title: Features
 description: Adding Xbox Live features to your game, such as Identity, Social features, Achievements, Cloud Storage, and Multiplayer features; and configuring Custom services to use Xbox Live.
 kindex: Features
+ms.topic: navigation
 layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: article
-ms.localizationpriority: medium
-ms.date: 12/11/2018
+ms.date: 11/01/2019
 ---
 
 # Features

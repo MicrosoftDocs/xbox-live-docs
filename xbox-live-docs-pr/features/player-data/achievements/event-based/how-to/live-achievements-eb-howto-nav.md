@@ -1,17 +1,14 @@
 ---
 title: Event-based Achievements how-to's
 description: Example code for event-based Achievements.
-layout: LandingPage
 kindex: Event-based Achievements how-to's
 kindex: Xbox Live, Achievements
-author: XBL
-ms.author: player-data
 ms.topic: navigation
-ms.prod: gaming
-ms.technology: xboxlive
-ms.date: 11/22/2019
-ms.localizationpriority: medium
-edited: 00/00/0000
+layout: LandingPage
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Event-based Achievements how-to's

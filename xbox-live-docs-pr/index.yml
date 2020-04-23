@@ -268,16 +268,16 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: Xbox Live Integration Policies for PC and Mobile Devices
-            url: policies/pc/live-policies-pc.md
+          - text: Xbox Live Policy Overview
+            url: policies/live-policies-nav.md
       - linkListType: concept
         links:
           - text: Policies and XRs for PC and mobile
-            url: policies/pc/live-policies-pc-nav.md
+            url: policies/live-policies-pc.md
           - text: Xbox Live terminology
-            url: policies/pc/live-certification-terminology-pc.md
+            url: policies/live-certification-terminology-pc.md
           - text: Recommended Policy Tests
-            url: policies/pc/live-policy-tests-pc.md
+            url: policies/live-policy-tests-pc.md
       # - linkListType: sample
       #   links:
       - linkListType: learn
@@ -296,7 +296,7 @@ landingContent:
       - linkListType: concept
         links:
           - text: Making async calls in the XSAPI C API
-            url: api-ref/xsapi/live-flatc-async-patterns.md
+            url: api-ref/xasync/live-flatc-async-patterns.md
       - linkListType: sample
         links:
           - text: Xbox Live Samples

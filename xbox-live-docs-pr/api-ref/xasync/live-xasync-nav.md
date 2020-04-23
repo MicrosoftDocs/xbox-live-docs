@@ -1,11 +1,13 @@
 ---
 title: XAsync reference
 description: Xbox Asynchronous library (XAsync) reference.
+kindex: XAsync reference
+ms.topic: navigation
 layout: LandingPage
-ms.date: 05/09/2019
-ms.topic: article
-keywords: games, xbox live, xbox, xasync
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # XAsync reference
@@ -18,7 +20,7 @@ ms.localizationpriority: medium
 
 | Article | Description |
 |---------|-------------|
-| [Making async calls in the XSAPI C API](../../api-ref/xsapi/live-flatc-async-patterns.md) | Making asynchronous calls using the XSAPI C API. |
+| [Making async calls in the XSAPI C API](live-flatc-async-patterns.md) | Making asynchronous calls using the XSAPI C API. |
 
 
 <!-- ### See also -->

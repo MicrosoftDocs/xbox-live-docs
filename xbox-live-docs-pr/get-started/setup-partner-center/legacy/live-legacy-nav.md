@@ -3,11 +3,12 @@ title: Legacy articles about Partner Center setup
 description: Older articles about Partner Center setup.
 kindex: Legacy articles about Partner Center setup
 kindex: test accounts
+ms.topic: navigation
 layout: LandingPage
-ms.topic: article
-ms.localizationpriority: medium
-author: mikehoffms
-ms.date: 01/24/2019
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Legacy articles about Partner Center setup

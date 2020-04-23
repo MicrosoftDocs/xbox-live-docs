@@ -1,10 +1,12 @@
 ---
 title: Setting up Xcode targeting iOS
 description: Setting up Xcode targeting iOS to use the Xbox Live SDK, for Managed Partners.
-ms.date: 04/19/2019
+kindex: Setting up Xcode targeting iOS
+kindex: Xcode
+kindex: iOS
 ms.topic: article
-keywords: xbox live, games, xcode, ios
-ms.localizationpriority: medium
+ms.localizationpriority: high
+ms.date: 04/19/2019
 ---
 
 # Setting up Xcode targeting iOS

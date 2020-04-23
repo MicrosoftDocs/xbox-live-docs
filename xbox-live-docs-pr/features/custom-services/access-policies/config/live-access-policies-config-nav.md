@@ -2,15 +2,12 @@
 title: Access Policies portal config
 description: Configuring access policies at Partner Center, to allow other apps, games, and services to access a title's Xbox Live settings.
 kindex: Access Policies portal config
+ms.topic: navigation
 layout: LandingPage
-author: v-mihof
+ms.localizationpriority: high
+author: mikehoffms
 ms.author: v-mihof
-ms.topic: landing-page
-ms.prod: gaming
-ms.technology: xboxlive
-ms.date: 01/30/2020
-ms.localizationpriority: medium
-edited: 00/00/0000
+ms.date: 11/01/2019
 ---
 
 # Access Policies portal config

@@ -3,12 +3,12 @@ title: Player Data Reset tool (PlayerReset.exe)
 description: Resets a player's data in test sandboxes.
 kindex: Player Data Reset tool (PlayerReset.exe)
 kindex: reset tool
-author: mikehoffms
-ms.author: v-mihof
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mikehoffms
+ms.author: v-mihof
 ms.date: 03/12/2018
 edited: 00/00/0000
 ---

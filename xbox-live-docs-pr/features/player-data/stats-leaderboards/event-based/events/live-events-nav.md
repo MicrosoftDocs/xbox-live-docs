@@ -3,14 +3,12 @@ title: Events
 description: Player Data includes events, which are used for event-based User Stats.
 kindex: Xbox Live Player Data
 kindex: Player Data, Xbox Live
-author: v-mihof
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
+author: mikehoffms
 ms.author: v-mihof
-ms.topic: conceptual
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
-ms.date: 03/06/2020
-edited: 00/00/0000
+ms.date: 11/01/2019
 ---
 
 # Events

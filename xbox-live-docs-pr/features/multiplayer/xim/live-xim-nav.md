@@ -3,14 +3,12 @@ title: Xbox Integrated Multiplayer (XIM)
 description: An all-in-one multiplayer/networking/chat solution for Xbox Live games.
 kindex: Xbox Integrated Multiplayer (XIM)
 kindex: XIM
+ms.topic: navigation
 layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: navigation
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
-ms.date: 12/06/2018
+ms.date: 11/01/2019
 ---
 
 # Xbox Integrated Multiplayer (XIM)

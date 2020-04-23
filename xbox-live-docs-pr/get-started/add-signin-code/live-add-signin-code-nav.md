@@ -1,13 +1,13 @@
 ---
 title: Adding basic sign-in code
 description: Adding basic sign-in code to sign-in the user and game into Xbox Live services.
+kindex: Adding basic sign-in code
+ms.topic: navigation
 layout: LandingPage
-author: mikehoffms
-ms.author: v-mihof
-ms.date: 04/09/2019
-ms.topic: article
-keywords: windows 10, uwp, games, xbox, xbox live
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Adding basic sign-in code

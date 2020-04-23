@@ -2,12 +2,12 @@
 title: Player Data
 description: Achievements, player stats, leaderboards, and featured stats.
 kindex: Player Data
+ms.topic: navigation
 layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: article
-ms.localizationpriority: medium
-ms.date: 03/07/2019
+ms.date: 11/01/2019
 ---
 
 # Player Data

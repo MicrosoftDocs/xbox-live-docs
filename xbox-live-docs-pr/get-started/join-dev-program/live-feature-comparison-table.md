@@ -3,8 +3,8 @@ title: Features supported for each developer program
 description: Table of Xbox Live features supported for Creators and for Managed Partners.
 kindex: Features supported for each developer program
 kindex: developer programs
-ms.topic: article
-ms.localizationpriority: medium
+ms.topic: conceptual
+ms.localizationpriority: high
 ms.date: 04/11/2019
 ---
 

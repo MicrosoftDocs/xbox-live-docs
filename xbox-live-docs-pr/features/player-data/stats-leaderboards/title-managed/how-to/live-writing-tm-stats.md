@@ -3,14 +3,11 @@ title: Writing title-managed stats
 description: Example code for writing title-managed stats.
 kindex: Writing title-managed stats
 kindex: Leaderboards
-author: XBL
-ms.author: player-data
 ms.topic: conceptual
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
 ms.date: 11/22/2019
-edited: 00/00/0000
 ---
 
 # Writing title-managed stats

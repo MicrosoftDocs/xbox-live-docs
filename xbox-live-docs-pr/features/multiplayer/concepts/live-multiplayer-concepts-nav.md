@@ -3,14 +3,12 @@ title: Multiplayer concepts
 description: Conceptual articles about Xbox Live Multiplayer services.
 kindex: Multiplayer concepts
 kindex: Xbox Live, Multiplayer
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: navigation
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
-ms.date: 09/12/2019
-edited: 09/12/2019
+ms.date: 11/01/2019
 ---
 
 # Multiplayer concepts

@@ -3,7 +3,7 @@ title: Working with Connected Storage buffers
 description: Code examples using Connected Storage buffers.
 kindex: Working with Connected Storage buffers
 kindex: connected storage
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: 1d9d1b52-4bfe-4cd9-8b80-50ca6c0e9ae1
 ms.localizationpriority: medium
 ms.date: 04/04/2017

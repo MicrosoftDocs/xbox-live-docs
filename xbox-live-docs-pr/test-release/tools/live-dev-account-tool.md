@@ -3,15 +3,16 @@ title: Xbox Live Developer Account tool (XblDevAccount.exe)
 description: Manages authentication of a developer account and saves the credentials to be used across other Xbox Live executables.
 kindex: Xbox Live Developer Account tool (XblDevAccount.exe)
 kindex: Dev Account tool
-author: mikehoffms
-ms.author: v-mihof
+kindex: XblDevAccount.exe
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mikehoffms
+ms.author: v-mihof
 ms.date: 03/12/2018
-edited: 00/00/0000
 ---
+
 
 # Xbox Live Developer Account tool (XblDevAccount.exe)
 

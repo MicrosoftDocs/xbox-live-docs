@@ -1,13 +1,13 @@
 ---
 title: Cloud Storage
 description: Connected Storage and Title Storage.
+kindex: Cloud Storage
+ms.topic: navigation
 layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.date: 12/11/2018
-ms.topic: article
-keywords: windows 10, uwp, games, xbox, xbox live
-ms.localizationpriority: medium
+ms.date: 11/01/2019
 ---
 
 # Cloud Storage

@@ -1,12 +1,14 @@
 ---
 title: Privilege codes for Social Manager
 description: Privilege codes for Social Manager.
+kindex: Privilege codes for Social Manager
+kindex: Social Manager
+kindex: codes, privilege
+ms.topic: reference
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
 ms.date: 04/25/2019
-ms.topic: article
-keywords: games, xbox live, social manager
-ms.localizationpriority: medium
 ---
 
 # Privilege codes for Social Manager

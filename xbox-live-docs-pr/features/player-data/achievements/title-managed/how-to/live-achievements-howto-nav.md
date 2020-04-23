@@ -2,13 +2,12 @@
 title: Title-managed Achievements how-to's
 description: Example code for title-managed Achievements.
 kindex: Title-managed Achievements how-to's
-author: v-mihof
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
+author: mikehoffms
 ms.author: v-mihof
-ms.topic: conceptual
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
-ms.date: 09/23/2019
+ms.date: 11/01/2019
 ---
 
 # Title-managed Achievements how-to's

@@ -4,14 +4,12 @@ description: Xbox Arena runs tournaments for your game.
 kindex: Xbox Arena
 kindex: arena
 kindex: tournament
+ms.topic: navigation
 layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: navigation
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
-ms.date: 12/06/2018
+ms.date: 11/01/2019
 ---
 
 # Xbox Arena

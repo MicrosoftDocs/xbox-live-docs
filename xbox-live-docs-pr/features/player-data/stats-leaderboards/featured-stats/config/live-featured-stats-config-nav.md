@@ -1,12 +1,13 @@
 ---
 title: Featured Stats portal config
 description: Configuring Featured Stats at Partner Center.
-layout: LandingPage
 kindex: Featured Stats portal config
-author: v-mihof
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
+author: mikehoffms
 ms.author: v-mihof
-ms.topic: conceptual
-ms.localizationpriority: medium
+ms.date: 11/01/2019
 ---
 
 # Featured Stats portal config

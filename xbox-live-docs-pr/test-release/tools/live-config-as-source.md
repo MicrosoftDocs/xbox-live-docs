@@ -2,15 +2,16 @@
 title: Config as Source tools (XblConfig.exe)
 description: Enables advanced users to integrate their tools with Xbox Live configuration services.
 kindex: Config as Source tools (XblConfig.exe)
-author: mikehoffms
-ms.author: v-mihof
+kindex: XblConfig.exe
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mikehoffms
+ms.author: v-mihof
 ms.date: 03/12/2018
-edited: 00/00/0000
 ---
+
 
 # Config as Source tools (XblConfig.exe)
 

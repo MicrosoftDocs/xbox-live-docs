@@ -1,15 +1,16 @@
 ---
-title: Title-managed Stats & Leaderboards
-description: Title-managed Stats track a player's progress and prowess in a game. With title-managed Stats, your game owns and maintains the stats, and sends the stat values to the server for display upon request.
+title: Title-managed Stats & Leaderboards how-to's
+description: How-to articles about title-managed Stats & Leaderboards, such as example code for tasks.
+kindex: Title-managed Stats & Leaderboards how-to's
+ms.topic: navigation
 layout: LandingPage
-kindex: Title-managed Stats & Leaderboards
-author: v-mihof
+ms.localizationpriority: high
+author: mikehoffms
 ms.author: v-mihof
-ms.topic: conceptual
-ms.localizationpriority: medium
+ms.date: 11/01/2019
 ---
 
-# Title-managed Stats & Leaderboards
+# Title-managed Stats & Leaderboards how-to's
 
 
 ### In this section

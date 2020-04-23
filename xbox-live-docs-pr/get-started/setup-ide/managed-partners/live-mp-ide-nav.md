@@ -1,11 +1,13 @@
 ---
 title: Setting up an IDE, for Managed Partners
 description: Setting up an IDE to use the Xbox Live SDK, for Managed Partners.
+kindex: Setting up an IDE, for Managed Partners
+ms.topic: navigation
 layout: LandingPage
-ms.date: 02/08/2019
-ms.topic: article
-keywords: xbox live, games
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Setting up an IDE, for Managed Partners
