@@ -4,10 +4,6 @@ author: mwester
 ms.topic: article   
 description: TBD
 ---
-
-Version 1.1, 5/1/2020
-
-
 # XR-067: Maintaining Multiplayer Session State &diams;
 
 On Xbox consoles, titles with online multiplayer functionality must maintain session-state information in the Xbox Multiplayer Session Directory (MPSD). 
@@ -52,7 +48,7 @@ Net Rumble Cross Play, a code sample available from Samples on GDN
 
 
 
-# Change history 
+## Change history 
 
 Date | Document version | Change description
 -----|------------------|-------------------
