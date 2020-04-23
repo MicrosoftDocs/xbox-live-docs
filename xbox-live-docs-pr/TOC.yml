@@ -790,7 +790,11 @@
             - name: In this section
               href: features/general/live-general-nav.md
             - name: Title-callable UI (TCUI)
-              href: features/general/tcui/live-tcui-overview.md
+              items:
+                - name: In this section
+                  href: features/general/tcui/live-tcui-nav.md
+                - name: Title-callable UI (TCUI) overview
+                  href: features/general/tcui/live-tcui-overview.md
             - name: Real-Time Activity (RTA) service
               items:
                 - name: In this section

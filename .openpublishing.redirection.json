@@ -1723,48 +1723,73 @@
         // },
         {
             "source_path": "xbox-live-docs-pr/features/tcui/tcui_nav.md",
-            "redirect_url": "/gaming/xbox-live/features/tcui/live-tcui-nav",
+            "redirect_url": "/gaming/xbox-live/features/general/tcui/live-tcui-nav",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/tcui/live-tcui-nav.md",
+            "redirect_url": "/gaming/xbox-live/features/general/tcui/live-tcui-overview",
             "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/real-time-activity-service/real-time-activity-service_nav.md",
-            "redirect_url": "/gaming/xbox-live/features/general/rta/live-real-time-activity-service-overview",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/live-rta-nav",
             "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/features/rta/live-rta-nav.md",
-            "redirect_url": "/gaming/xbox-live/features/general/rta/live-real-time-activity-service-overview",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/live-rta-nav",
             "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/real-time-activity-service/real-time-activity-service.md",
-            "redirect_url": "/gaming/xbox-live/features/rta/live-real-time-activity-service-overview",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/live-real-time-activity-service-overview",
             "redirect_document_id": true
         },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/features/rta/concepts/live-rta-concepts-nav",
-        //     "redirect_document_id": true
-        // },
+        {
+            "source_path": "xbox-live-docs-pr/features/rta/live-real-time-activity-service-overview.md",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/live-real-time-activity-service-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/rta/concepts/live-rta-concepts-nav.md",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/concepts/live-rta-concepts-nav",
+            "redirect_document_id": true
+        },
         {
             "source_path": "xbox-live-docs-pr/real-time-activity-service/register-for-stat-notifications.md",
-            "redirect_url": "/gaming/xbox-live/features/rta/concepts/live-register-for-stat-notifications",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/concepts/live-register-for-stat-notifications",
             "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/rta/concepts/live-register-for-stat-notifications.md",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/concepts/live-register-for-stat-notifications",
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/real-time-activity-service/rta-best-practices.md",
-            "redirect_url": "/gaming/xbox-live/features/rta/concepts/live-rta-best-practices",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/concepts/live-rta-best-practices",
             "redirect_document_id": true
         },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/features/rta/how-to/live-rta-howto-nav",
-        //     "redirect_document_id": true
-        // },
+        {
+            "source_path": "xbox-live-docs-pr/features/rta/concepts/live-rta-best-practices.md",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/concepts/live-rta-best-practices",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/rta/how-to/live-rta-howto-nav.md",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/how-to/live-rta-howto-nav",
+            "redirect_document_id": true
+        },
         {
             "source_path": "xbox-live-docs-pr/real-time-activity-service/programming-the-real-time-activity-service.md",
-            "redirect_url": "/gaming/xbox-live/features/rta/how-to/live-programming-rta",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/how-to/live-programming-rta",
             "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/rta/how-to/live-programming-rta.md",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/how-to/live-programming-rta",
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/samples.md",
