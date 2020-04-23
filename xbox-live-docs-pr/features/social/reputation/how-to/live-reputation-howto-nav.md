@@ -1,7 +1,7 @@
 ---
-title: Reputation how-to's
+title: Reputation example code
 description: Example code for Reputation.
-kindex: Reputation how-to's
+kindex: Reputation example code
 ms.topic: navigation
 layout: LandingPage
 ms.localizationpriority: high
@@ -10,7 +10,7 @@ ms.author: migreen
 ms.date: 11/01/2019
 ---
 
-# Reputation how-to's
+# Reputation example code
 
 
 ### In this section

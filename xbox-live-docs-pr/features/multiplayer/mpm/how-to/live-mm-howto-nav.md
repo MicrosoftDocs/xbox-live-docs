@@ -1,7 +1,7 @@
 ---
-title: Multiplayer Manager how-to's
+title: Multiplayer Manager example code
 description: Example code for Multiplayer Manager.
-kindex: Multiplayer Manager how-to's
+kindex: Multiplayer Manager example code
 ms.topic: navigation
 layout: LandingPage
 ms.localizationpriority: high
@@ -10,7 +10,7 @@ ms.author: v-mihof
 ms.date: 11/01/2019
 ---
 
-# Multiplayer Manager how-to's
+# Multiplayer Manager example code
 
 
 ### In this section

@@ -1,7 +1,7 @@
 ---
-title: XIM how-to's
+title: XIM example code
 description: Example code for Xbox Integrated Multiplayer.
-kindex: XIM how-to's
+kindex: XIM example code
 kindex: Xbox Integrated Multiplayer
 ms.topic: navigation
 layout: LandingPage
@@ -11,7 +11,7 @@ ms.author: v-mihof
 ms.date: 11/01/2019
 ---
 
-# XIM how-to's
+# XIM example code
 
 
 ### In this section

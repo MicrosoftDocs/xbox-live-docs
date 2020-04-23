@@ -1,7 +1,7 @@
 ---
-title: MPSD how-to's
+title: MPSD example code
 description: Example code for Multiplayer Session Directory.
-kindex: MPSD how-to's
+kindex: MPSD example code
 ms.topic: navigation
 layout: LandingPage
 ms.localizationpriority: high
@@ -10,7 +10,7 @@ ms.author: v-mihof
 ms.date: 11/01/2019
 ---
 
-# MPSD how-to's
+# MPSD example code
 
 
 ### In this section

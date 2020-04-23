@@ -1,7 +1,7 @@
 ---
-title: Events how-to's
+title: Events example code
 description: Example code for events for event-based Stats & Leaderboards.
-kindex: Events how-to's
+kindex: Events example code
 ms.topic: navigation
 layout: LandingPage
 ms.localizationpriority: high
@@ -10,7 +10,7 @@ ms.author: migreen
 ms.date: 11/01/2019
 ---
 
-# Events how-to's
+# Events example code
 
 These articles only apply if you are using event-based User Stats, not title-managed User Stats.
 

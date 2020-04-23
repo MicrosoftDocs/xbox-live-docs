@@ -239,7 +239,7 @@
           items:
             - name: In this section
               href: features/player-data/live-playerdata-nav.md
-            - name: Player Data overview
+            - name: Overview
               href: features/player-data/live-playerdata-overview.md
             - name: Designing Xbox Live Experiences
               href: features/player-data/live-designing-experiences.md
@@ -255,7 +255,7 @@
                       href: features/player-data/stats-leaderboards/event-based/live-statslb-eb-nav.md
                     - name: Event-based Stats overview
                       href: features/player-data/stats-leaderboards/event-based/live-stats-eb-overview.md
-                    - name: Event-based Stats & Leaderboards how-to's
+                    - name: Example code
                       items:
                         - name: In this section
                           href: features/player-data/stats-leaderboards/event-based/how-to/live-statslb-eb-howto-nav.md
@@ -271,7 +271,7 @@
                       items: 
                         - name: In this section
                           href: features/player-data/stats-leaderboards/event-based/events/live-events-nav.md
-                        - name: Events how-to's
+                        - name: Events example code
                           items: 
                             - name: In this section
                               href: features/player-data/stats-leaderboards/event-based/events/how-to/live-events-howto-nav.md
@@ -283,13 +283,13 @@
                       href: features/player-data/stats-leaderboards/title-managed/live-statslb-tm-nav.md
                     - name: Title-managed Stats overview
                       href: features/player-data/stats-leaderboards/title-managed/live-stats-tm-overview.md
-                    - name: Title-managed Stats & Leaderboards portal config
+                    - name: Portal config
                       items:
                         - name: In this section
                           href: features/player-data/stats-leaderboards/title-managed/config/live-statslb-tm-config-nav.md
                         - name: Configuring title-managed Featured Stats & Leaderboards in Partner Center
                           href: features/player-data/stats-leaderboards/title-managed/config/live-tm-leaderboards-portal.md
-                    - name: Title-managed Stats & Leaderboards how-to's
+                    - name: Example code
                       items:
                         - name: In this section
                           href: features/player-data/stats-leaderboards/title-managed/how-to/live-statslb-tm-howto-nav.md
@@ -297,7 +297,7 @@
                           href: features/player-data/stats-leaderboards/title-managed/how-to/live-stats-tm-updating.md
                         - name: Writing title-managed stats
                           href: features/player-data/stats-leaderboards/title-managed/how-to/live-writing-tm-stats.md
-                        - name: Title-managed Leaderboards how-to's
+                        - name: Title-managed Leaderboards example code
                           href: features/player-data/stats-leaderboards/title-managed/how-to/live-leaderboards-tm-howto.md
                     - name: Stats & Leaderboards with Unity
                       items:
@@ -329,7 +329,7 @@
                   items: 
                     - name: In this section
                       href: features/player-data/achievements/event-based/live-achievements-eb-nav.md
-                    - name: Event-based Achievements how-to's
+                    - name: Example code
                       items: 
                         - name: In this section
                           href: features/player-data/achievements/event-based/how-to/live-achievements-eb-howto-nav.md
@@ -341,21 +341,21 @@
                   items:
                     - name: In this section
                       href: features/player-data/achievements/title-managed/live-achievements-tm-nav.md
-                    - name: Title-managed Achievements overview
+                    - name: Overview
                       href: features/player-data/achievements/title-managed/live-achievements-tm-overview.md
-                    - name: Title-managed Achievements concepts
+                    - name: Concepts
                       items:
                         - name: In this section
                           href: features/player-data/achievements/title-managed/concepts/live-achievements-tm-concepts-nav.md
                         - name: Achievement Rewards
                           href: features/player-data/achievements/title-managed/concepts/live-achievement-rewards.md
-                    - name: Title-managed Achievements portal config
+                    - name: Portal config
                       items:
                         - name: In this section
                           href: features/player-data/achievements/title-managed/config/live-achievements-tm-config-nav.md
                         - name: Configuring title-managed Achievements in Partner Center
                           href: features/player-data/achievements/title-managed/config/live-achievements-tm-config.md
-                    - name: Title-managed Achievements how-to's
+                    - name: Example code
                       items:
                         - name: In this section
                           href: features/player-data/achievements/title-managed/how-to/live-achievements-howto-nav.md
@@ -367,15 +367,15 @@
           items:
             - name: In this section
               href: features/social/live-social-nav.md
-            - name: Overview of Social features
+            - name: Overview
               href: features/social/live-social-overview.md
             - name: Social Manager
               items:
                 - name: In this section
                   href: features/social/social-manager/live-social-manager-nav.md
-                - name: Social Manager overview
+                - name: Overview
                   href: features/social/social-manager/live-social-manager-overview.md
-                - name: Social Manager concepts
+                - name: Concepts
                   items:
                     - name: In this section
                       href: features/social/social-manager/concepts/live-socmgr-concepts-nav.md
@@ -387,15 +387,15 @@
               items:
                 - name: In this section
                   href: features/social/people-system/live-people-system-nav.md
-                - name: People System (Friends List) overview
+                - name: Overview
                   href: features/social/people-system/live-people-system-overview.md
-                - name: People System (Friends List) concepts
+                - name: Concepts
                   items:
                     - name: In this section
                       href: features/social/people-system/concepts/live-people-system-concepts-nav.md
                     - name: Displaying people from the People System
                       href: features/social/people-system/concepts/live-pplsys-displaying-people.md
-                - name: People System (Friends List) how-to's
+                - name: Example code
                   items:
                     - name: In this section
                       href: features/social/people-system/how-to/live-pplsys-howto-nav.md
@@ -409,9 +409,9 @@
               items:
                 - name: In this section
                   href: features/social/presence/live-presence-nav.md
-                - name: Rich Presence overview
+                - name: Overview
                   href: features/social/presence/live-presence-overview.md
-                - name: Rich Presence concepts
+                - name: Concepts
                   items:
                     - name: In this section
                       href: features/social/presence/concepts/live-presence-concepts-nav.md
@@ -421,7 +421,7 @@
                       href: features/social/presence/concepts/live-presence-limits.md
                     - name: Rich Presence appendix
                       href: features/social/presence/concepts/live-presence-apx.md
-                - name: Rich Presence portal config
+                - name: Portal config
                   items:
                     - name: In this section
                       href: features/social/presence/config/live-presence-config-nav.md
@@ -429,7 +429,7 @@
                       href: features/social/presence/config/live-presence-config.md
                     - name: Configuring Rich Presence strings in Partner Center
                       href: features/social/presence/config/live-presence-config2.md
-                - name: Rich Presence how-to's
+                - name: Example code
                   items:
                     - name: In this section
                       href: features/social/presence/how-to/live-presence-howto-nav.md
@@ -455,15 +455,15 @@
               items:
                 - name: In this section
                   href: features/social/reputation/live-reputation-nav.md
-                - name: Reputation overview
+                - name: Overview
                   href: features/social/reputation/live-reputation-overview.md
-                - name: Reputation concepts
+                - name: Concepts
                   items:
                     - name: In this section
                       href: features/social/reputation/concepts/live-reputation-concepts-nav.md
                     - name: Sending Reputation feedback from a title
                       href: features/social/reputation/concepts/live-sending-reputation-feedback.md
-                - name: Reputation how-to's
+                - name: Example code
                   items:
                     - name: In this section
                       href: features/social/reputation/how-to/live-reputation-howto-nav.md
@@ -475,11 +475,11 @@
           items:
             - name: In this section
               href: features/multiplayer/live-multiplayer-nav.md
-            - name: Multiplayer overview
+            - name: Overview
               href: features/multiplayer/live-multiplayer-intro.md
             - name: Common multiplayer scenarios
               href: features/multiplayer/live-common-multiplayer-scenarios.md
-            - name: Multiplayer concepts
+            - name: Concepts
               items:
                 - name: In this section
                   href: features/multiplayer/concepts/live-multiplayer-concepts-nav.md
@@ -505,7 +505,7 @@
                   href: features/multiplayer/xim/live-xim-nav.md
                 - name: Xbox Integrated Multiplayer (XIM) overview
                   href: features/multiplayer/xim/live-xim-overview.md
-                - name: XIM concepts
+                - name: Concepts
                   items:
                     - name: In this section
                       href: features/multiplayer/xim/concepts/live-xim-concepts-nav.md
@@ -513,7 +513,7 @@
                       href: features/multiplayer/xim/concepts/live-xim-manifest.md
                     - name: XIM release notes
                       href: features/multiplayer/xim/concepts/live-xim-release-notes.md
-                - name: XIM how-to's
+                - name: Example code
                   items:
                     - name: In this section
                       href: features/multiplayer/xim/how-to/live-xim-howto-nav.md
@@ -529,9 +529,9 @@
               items:
                 - name: In this section
                   href: features/multiplayer/mpm/live-multiplayer-manager-nav.md
-                - name: Multiplayer Manager overview
+                - name: Overview
                   href: features/multiplayer/mpm/live-multiplayer-manager-overview.md
-                - name: Multiplayer Manager concepts
+                - name: Concepts
                   items:
                     - name: In this section
                       href: features/multiplayer/mpm/concepts/live-mm-concepts-nav.md
@@ -557,7 +557,7 @@
                           href: features/multiplayer/mpm/concepts/flowcharts/live-mpm-host-migration.md
                         - name: Shutting down a multiplayer session (flowchart)
                           href: features/multiplayer/mpm/concepts/flowcharts/live-mpm-shut-down.md
-                - name: Multiplayer Manager how-to's
+                - name: Example code
                   items:
                     - name: In this section
                       href: features/multiplayer/mpm/how-to/live-mm-howto-nav.md
@@ -573,11 +573,11 @@
               items:
                 - name: In this section
                   href: features/multiplayer/mpsd/live-mpsd-nav.md
-                - name: Multiplayer Session Directory overview
+                - name: Overview
                   href: features/multiplayer/mpsd/live-mpsd-overview.md
                 - name: Multiplayer Session Directory
                   href: features/multiplayer/mpsd/live-xbox-multiplayer-session-directory.md
-                - name: MPSD concepts
+                - name: Concepts
                   items:
                     - name: In this section
                       href: features/multiplayer/mpsd/concepts/live-mpsd-concepts-nav.md
@@ -593,7 +593,7 @@
                       href: features/multiplayer/mpsd/concepts/live-session-template-constants.md
                     - name: Using large sessions for Multiplayer
                       href: features/multiplayer/mpsd/concepts/live-large-sessions.md
-                - name: MPSD how-to's
+                - name: Example code
                   items:
                     - name: In this section
                       href: features/multiplayer/mpsd/how-to/live-mpsd-howto-nav.md
@@ -605,9 +605,9 @@
               items:
                 - name: In this section
                   href: features/multiplayer/invites/live-invites-nav.md
-                - name: Invites overview
+                - name: Overview
                   href: features/multiplayer/invites/live-multiplayer-invites-overview.md
-                - name: Invites concepts
+                - name: Concepts
                   items:
                     - name: In this section
                       href: features/multiplayer/invites/concepts/live-invites-concepts-nav.md
@@ -615,7 +615,7 @@
                       href: features/multiplayer/invites/concepts/live-multiplayer-invite-flows.md
                     - name: Multiplayer invites for UWP games
                       href: features/multiplayer/invites/concepts/live-multiplayer-invite-uwp.md
-                - name: Invites how-to's
+                - name: Example code
                   items:
                     - name: In this section
                       href: features/multiplayer/invites/how-to/live-invites-howto-nav.md
@@ -627,9 +627,9 @@
               items:
                 - name: In this section
                   href: features/multiplayer/matchmaking/live-matchmaking-nav.md
-                - name: Matchmaking overview
+                - name: Overview
                   href: features/multiplayer/matchmaking/live-matchmaking-overview.md
-                - name: Matchmaking concepts
+                - name: Concepts
                   items:
                     - name: In this section
                       href: features/multiplayer/matchmaking/concepts/live-matchmaking-concepts-nav.md
@@ -659,7 +659,7 @@
                           href: features/multiplayer/matchmaking/concepts/arena/live-arena-notifications.md
                         - name: UX for Arena participant user scenarios
                           href: features/multiplayer/matchmaking/concepts/arena/live-arena-user-scenarios.md
-                - name: Matchmaking portal config
+                - name: Portal config
                   items:
                     - name: In this section
                       href: features/multiplayer/matchmaking/config/live-matchmaking-config-nav.md
@@ -669,9 +669,9 @@
               items:
                 - name: In this section
                   href: features/multiplayer/chat/live-chat-nav.md
-                - name: Game Chat overview
+                - name: Overview
                   href: features/multiplayer/chat/live-game-chat-2-overview.md
-                - name: Game Chat how-to's
+                - name: Example code
                   items:
                     - name: In this section
                       href: features/multiplayer/chat/how-to/live-chat-howto-nav.md
@@ -697,7 +697,7 @@
                   href: features/cloud-storage/connected-storage/live-connected-storage-overview.md
                 - name: Technical overview
                   href: features/cloud-storage/connected-storage/live-connected-storage-technical-overview.md
-                - name: Concepts
+                - name: Connected Storage concepts
                   items:
                     - name: In this section
                       href: features/cloud-storage/connected-storage/concepts/live-connected-storage-concepts-nav.md
@@ -705,7 +705,7 @@
                       href: features/cloud-storage/connected-storage/concepts/live-connected-storage-xb-storage.md
                     - name: Best practices
                       href: features/cloud-storage/connected-storage/concepts/live-connected-storage-best-practices.md
-                - name: Samples
+                - name: Example code
                   items:
                     - name: In this section
                       href: features/cloud-storage/connected-storage/how-to/live-connected-storage-howto-nav.md
@@ -725,13 +725,13 @@
                   href: features/cloud-storage/title-storage/live-title-storage-nav.md
                 - name: Overview
                   href: features/cloud-storage/title-storage/live-title-storage-overview.md
-                - name: How-to guides
+                - name: Portal config
                   items:                              
                     - name: In this section
                       href: features/cloud-storage/title-storage/config/live-title-storage-config-nav.md
                     - name: Set up in Partner Center
                       href: features/cloud-storage/title-storage/config/live-title-storage-portal-config.md
-                - name: Samples
+                - name: Example code
                   items:
                     - name: In this section
                       href: features/cloud-storage/title-storage/how-to/live-title-storage-howto-nav.md
@@ -763,9 +763,9 @@
               items:
                 - name: In this section
                   href: features/custom-services/access-policies/live-access-policies-nav.md
-                - name: Access Policies Overview
+                - name: Overview
                   href: features/custom-services/access-policies/live-access-policies-overview.md
-                - name: Access Policies portal config
+                - name: Portal config
                   items:
                     - name: In this section
                       href: features/custom-services/access-policies/config/live-access-policies-config-nav.md
@@ -801,7 +801,7 @@
                   href: features/general/rta/live-rta-nav.md
                 - name: Real-Time Activity service overview
                   href: features/general/rta/live-real-time-activity-service-overview.md
-                - name: Real-Time Activity (RTA) service concepts
+                - name: Concepts
                   items:
                     - name: In this section
                       href: features/general/rta/concepts/live-rta-concepts-nav.md
@@ -809,7 +809,7 @@
                       href: features/general/rta/concepts/live-register-for-stat-notifications.md
                     - name: Best Practices for the RTA service
                       href: features/general/rta/concepts/live-rta-best-practices.md
-                - name: Real-Time Activity (RTA) service how-to's
+                - name: Example code
                   items:
                     - name: In this section
                       href: features/general/rta/how-to/live-rta-howto-nav.md

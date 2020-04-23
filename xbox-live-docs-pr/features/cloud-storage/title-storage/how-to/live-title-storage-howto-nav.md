@@ -1,7 +1,7 @@
 ---
-title: Title Storage how-to's
+title: Title Storage example code
 description: Example code for Title Storage.
-kindex: Title Storage how-to's
+kindex: Title Storage example code
 kindex: Title Storage, Xbox Live
 kindex: storage, Title Storage
 ms.topic: navigation
@@ -12,7 +12,7 @@ ms.author: v-mihof
 ms.date: 11/01/2019
 ---
  
-# Title Storage how-to's
+# Title Storage example code
 
 
 ### In this section

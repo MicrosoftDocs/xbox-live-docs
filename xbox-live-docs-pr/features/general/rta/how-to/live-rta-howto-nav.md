@@ -1,8 +1,8 @@
 ---
-title: Real-Time Activity (RTA) service how-to's
+title: Real-Time Activity (RTA) service example code
 description: Example code for Real-Time Activity service.
 layout: LandingPage
-kindex: Real-Time Activity (RTA) service how-to's
+kindex: Real-Time Activity (RTA) service example code
 kindex: RTA
 author: mikehoffms
 ms.author: v-mihof
@@ -11,7 +11,7 @@ ms.localizationpriority: high
 ms.date: 11/01/2019
 ---
 
-# Real-Time Activity (RTA) service how-to's
+# Real-Time Activity (RTA) service example code
 
 
 ### In this section

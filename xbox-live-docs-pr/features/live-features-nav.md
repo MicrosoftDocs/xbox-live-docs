@@ -15,8 +15,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Identity](identity/live-identity-nav.md) | User profile, authentication and sign-in, privileges, and privacy settings. |
 | [Player Data](player-data/live-playerdata-nav.md) | Achievements, player stats, leaderboards, and featured stats. |
 | [Social](social/live-social-nav.md) | Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation. |

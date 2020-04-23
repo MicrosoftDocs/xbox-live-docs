@@ -1,7 +1,7 @@
 ---
-title: Title-managed Achievements how-to's
+title: Title-managed Achievements example code
 description: Example code for title-managed Achievements.
-kindex: Title-managed Achievements how-to's
+kindex: Title-managed Achievements example code
 ms.topic: navigation
 layout: LandingPage
 ms.localizationpriority: high
@@ -10,7 +10,7 @@ ms.author: v-mihof
 ms.date: 11/01/2019
 ---
 
-# Title-managed Achievements how-to's
+# Title-managed Achievements example code
 
 
 ### In this section

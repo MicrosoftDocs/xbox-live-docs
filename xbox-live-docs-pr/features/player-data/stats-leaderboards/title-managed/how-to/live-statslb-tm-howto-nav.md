@@ -1,7 +1,7 @@
 ---
-title: Title-managed Stats & Leaderboards how-to's
+title: Title-managed Stats & Leaderboards example code
 description: How-to articles about title-managed Stats & Leaderboards, such as example code for tasks.
-kindex: Title-managed Stats & Leaderboards how-to's
+kindex: Title-managed Stats & Leaderboards example code
 ms.topic: navigation
 layout: LandingPage
 ms.localizationpriority: high
@@ -10,7 +10,7 @@ ms.author: v-mihof
 ms.date: 11/01/2019
 ---
 
-# Title-managed Stats & Leaderboards how-to's
+# Title-managed Stats & Leaderboards example code
 
 
 ### In this section

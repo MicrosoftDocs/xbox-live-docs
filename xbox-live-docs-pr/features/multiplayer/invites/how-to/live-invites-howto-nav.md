@@ -1,7 +1,7 @@
 ---
-title: Invites how-to's
+title: Invites example code
 description: Example code for Multiplayer Invites.
-kindex: Invites how-to's
+kindex: Invites example code
 ms.topic: navigation
 layout: LandingPage
 ms.localizationpriority: high
@@ -10,7 +10,7 @@ ms.author: v-mihof
 ms.date: 11/01/2019
 ---
 
-# Invites how-to's
+# Invites example code
 
 
 ### In this section

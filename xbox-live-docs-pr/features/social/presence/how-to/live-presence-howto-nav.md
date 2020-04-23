@@ -1,7 +1,7 @@
 ---
-title: Rich Presence how-to's
+title: Rich Presence example code
 description: Example code for Rich Presence strings.
-kindex: Rich Presence how-to's
+kindex: Rich Presence example code
 ms.topic: navigation
 layout: LandingPage
 ms.localizationpriority: high
@@ -10,7 +10,7 @@ ms.author: migreen
 ms.date: 11/01/2019
 ---
 
-# Rich Presence how-to's
+# Rich Presence example code
 
 
 ### In this section

@@ -1,7 +1,7 @@
 ---
-title: Connected Storage how-to's
+title: Connected Storage example code
 description: Example code for Connected Storage.
-kindex: Connected Storage how-to's
+kindex: Connected Storage example code
 kindex: Xbox Live Connected Storage
 kindex: Connected Storage, Xbox Live
 kindex: Storage, Connected Storage
@@ -14,7 +14,8 @@ ms.localizationpriority: high
 ms.date: 11/01/2019
 ---
 
-# Connected Storage how-to's
+# Connected Storage example code
+
 
 ### In this section
 
