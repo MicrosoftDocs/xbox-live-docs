@@ -110,7 +110,7 @@ landingContent:
             url: features/cloud-storage/live-cloud-storage-nav.md
           - text: Custom services (web services, relying parties, single sign-on, access policies)
             url: features/custom-services/live-custom-services-nav.md
-          - text: General features (TCUI, RTA, What's New)
+          - text: General features (TCUI, RTA, Samples)
             url: features/general/live-general-nav.md
   # Card
   - title: Identity
