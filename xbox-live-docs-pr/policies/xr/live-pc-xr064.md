@@ -1,11 +1,17 @@
 
 ---
 title: XR-064 Joinable Game Sessions and Online Play
-permalink: "en-us/partner/XR064.html"
-author: mwester
-ms.topic: conceptual
-description: TBD
+description: On devices other than Xbox consoles, titles which offer cross platform multiplayer with Xbox consoles must enable joins through the Game Bar experience.
+ms.date: 03/18/2019
+ms.topic: article
+keywords: windows 10, uwp, games, xbox, xbox live, policies
+ms.localizationpriority: medium
 ---
+
+
+description: Achievement names and descriptions may contain only content that would merit a rating of PEGI 12, ESRB EVERYONE 10+, or lower.
+
+
 
 Version 1.1, 5/1/2020
 
