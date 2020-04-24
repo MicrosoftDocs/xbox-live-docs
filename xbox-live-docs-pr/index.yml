@@ -40,7 +40,7 @@ landingContent:
             url: get-started/setup-ide/live-setup-ide-nav.md
       - linkListType: sample
         links:
-          - text: Adding basic sign-in code
+          - text: Initializing the Xbox Live API
             url: get-started/add-signin-code/live-add-signin-code-nav.md
       - linkListType: whats-new
         links:
@@ -228,8 +228,6 @@ landingContent:
             url: test-release/live-testing-on-console.md
           - text: Troubleshooting Xbox Live Services APIs
             url: test-release/troubleshooting/live-troubleshooting-apis.md
-          - text: Types of error handling
-            url: test-release/error-handling/live-types-of-error-handling.md
       # - linkListType: sample
       #   links:
       - linkListType: download
