@@ -70,6 +70,8 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
+          - text: In this section
+            url: get-started/live-getstarted-nav.md
           - text: Xbox Live overview 
             url: get-started/live-xbl-overview.md
       - linkListType: concept
@@ -86,16 +88,14 @@ landingContent:
         links:
           - text: What's New
             url: get-started/whats-new/live-whats-new.md
-      - linkListType: learn
-        links:
-          - text: Getting Started
-            url: get-started/live-getstarted-nav.md
 # ================= FEATURE AREA CARDS ==================================================
   # Card
   - title: Identity
     linkLists:
       - linkListType: overview
         links:
+          - text: In this section
+            url: features/identity/live-identity-nav.md
           - text: Xbox Authentication Library (XAL) overview
             url: features/identity/auth/auth-mobile-xal/live-xal-overview.md
       - linkListType: concept
@@ -108,15 +108,13 @@ landingContent:
             url: features/identity/privileges/config/live-privileges-config.md
 #      - linkListType: sample
 #        links:
-      - linkListType: learn
-        links:
-          - text: Identity
-            url: features/identity/live-identity-nav.md
   # Card
   - title: Player Data
     linkLists:
       - linkListType: overview
         links:
+          - text: In this section
+            url: features/player-data/live-playerdata-nav.md
           - text: Player Data overview
             url: features/player-data/live-playerdata-overview.md
           - text: Event-based Stats overview
@@ -135,15 +133,13 @@ landingContent:
             url: features/player-data/achievements/title-managed/concepts/live-achievement-rewards.md
       # - linkListType: sample
       #   links:
-      - linkListType: learn
-        links:
-          - text: Player Data
-            url: features/player-data/live-playerdata-nav.md
   # Card
   - title: Social
     linkLists:
       - linkListType: overview
         links:
+          - text: In this section
+            url: features/social/live-social-nav.md
           - text: Overview of Social features
             url: features/social/live-social-overview.md
           - text: Social Manager overview
@@ -160,15 +156,13 @@ landingContent:
             url: features/social/reputation/concepts/live-sending-reputation-feedback.md
       # - linkListType: sample
       #   links:
-      - linkListType: learn
-        links:
-        - text: Social
-          url: features/social/live-social-nav.md
   # Card
   - title: Multiplayer
     linkLists:
       - linkListType: overview
         links:
+          - text: In this section
+            url: features/multiplayer/live-multiplayer-nav.md
           - text: Multiplayer overview
             url: features/multiplayer/live-multiplayer-intro.md
       - linkListType: concept
@@ -187,15 +181,13 @@ landingContent:
             url: features/multiplayer/mpsd/concepts/live-session-templates.md
       # - linkListType: sample
       #   links:
-      - linkListType: learn
-        links:
-          - text: Multiplayer
-            url: features/multiplayer/live-multiplayer-nav.md
   # Card
   - title: Cloud Storage
     linkLists:
       - linkListType: overview
         links:
+          - text: In this section
+            url: features/cloud-storage/title-storage/live-title-storage-nav.md
           - text: Connected Storage vs. Title Storage
             url: features/cloud-storage/live-connected-storage-vs-title-storage.md
           - text: Connected Storage overview
@@ -210,15 +202,13 @@ landingContent:
             url: features/cloud-storage/connected-storage/concepts/live-connected-storage-best-practices.md
       # - linkListType: sample
       #   links:
-      - linkListType: learn
-        links:
-          - text: Title Storage
-            url: features/cloud-storage/title-storage/live-title-storage-nav.md
   # Card
   - title: Custom services
     linkLists:
       - linkListType: overview
         links:
+          - text: In this section
+            url: features/custom-services/live-custom-services-nav.md
           - text: Overview of configuring access policies
             url: features/custom-services/access-policies/live-access-policies-overview.md
       - linkListType: concept
@@ -231,15 +221,13 @@ landingContent:
             url: features/custom-services/relying-parties/live-relying-parties-nav.md
       # - linkListType: sample
       #   links:
-      - linkListType: learn
-        links:
-          - text: Custom services
-            url: features/custom-services/live-custom-services-nav.md
   # Card
   - title: General features
     linkLists:
       - linkListType: overview
         links:
+          - text: In this section
+            url: features/general/live-general-nav.md
           - text: Title-callable UI (TCUI)
             url: features/general/tcui/live-tcui-overview.md
           - text: Real-Time Activity service overview
@@ -260,16 +248,14 @@ landingContent:
             url: features/general/rta/how-to/live-programming-rta.md
           - text: Xbox Live samples
             url: features/general/samples/live-samples.md
-      - linkListType: learn
-        links:
-          - text: General features
-            url: features/general/live-general-nav.md
 # ================= / END OF FEATURE AREA CARDS =============================================
   # Card
   - title: Testing and Releasing
     linkLists:
       - linkListType: overview
         links:
+          - text: In this section
+            url: test-release/live-test-release-nav.md
           - text: Xbox Live Sandboxes overview
             url: test-release/sandboxes/live-setup-sandbox.md
       - linkListType: concept
@@ -294,15 +280,13 @@ landingContent:
             url: test-release/tools/live-tools-nav.md
           - text: Xbox Live resources, sites, and downloads
             url: test-release/live-sites-downloads.md
-      - linkListType: learn
-        links:
-          - text: Testing and Releasing
-            url: test-release/live-test-release-nav.md
   # Card
   - title: Policies and XRs
     linkLists:
       - linkListType: overview
         links:
+          - text: In this section
+            url: policies/live-policies-nav.md
           - text: Policies and XRs overview
             url: policies/live-policies-nav.md
       - linkListType: concept
@@ -315,10 +299,6 @@ landingContent:
             url: policies/live-policy-tests-pc.md
       # - linkListType: sample
       #   links:
-      - linkListType: learn
-        links:
-          - text: Policies and XRs
-            url: policies/live-policies-nav.md
   # Card
   - title: API Reference
     linkLists:
