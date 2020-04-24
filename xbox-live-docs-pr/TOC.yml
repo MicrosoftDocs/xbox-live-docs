@@ -229,7 +229,7 @@
               items:
                 - name: In this section
                   href: features/identity/privileges/live-privileges-nav.md
-                - name: Privileges portal config
+                - name: Portal config
                   items:
                     - name: In this section
                       href: features/identity/privileges/config/live-privileges-config-nav.md
@@ -281,7 +281,7 @@
                   items:
                     - name: In this section
                       href: features/player-data/stats-leaderboards/title-managed/live-statslb-tm-nav.md
-                    - name: Title-managed Stats overview
+                    - name: Overview
                       href: features/player-data/stats-leaderboards/title-managed/live-stats-tm-overview.md
                     - name: Portal config
                       items:
@@ -313,7 +313,7 @@
                   items:
                     - name: In this section
                       href: features/player-data/stats-leaderboards/featured-stats/live-featured-stats-nav.md
-                    - name: Featured Stats portal config
+                    - name: Portal config
                       items:
                         - name: In this section
                           href: features/player-data/stats-leaderboards/featured-stats/config/live-featured-stats-config-nav.md
