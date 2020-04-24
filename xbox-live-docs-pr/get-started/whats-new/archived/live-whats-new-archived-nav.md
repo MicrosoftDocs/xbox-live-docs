@@ -15,8 +15,8 @@ ms.date: 01/31/2020
 
 ### In this section
 
-| Article |
-|---------|
+|     |
+| --- |
 | [What's new for the Xbox Live SDK - December 2016](live-whats-new-1612.md) |
 | [What's new for the Xbox Live SDK - November 2016](live-whats-new-1611.md) |
 | [What's new for the Xbox Live SDK - August 2016](live-whats-new-1608.md) |

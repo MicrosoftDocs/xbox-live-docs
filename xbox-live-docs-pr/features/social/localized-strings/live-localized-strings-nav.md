@@ -17,6 +17,6 @@ Xbox Live localized strings.
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Configuring localized strings in Partner Center](live-localized-strings-config.md) | Configuring localized strings in Partner Center. |

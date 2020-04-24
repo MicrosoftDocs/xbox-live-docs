@@ -15,8 +15,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Adding basic sign-in code for mobile](live-getting-xsapi-to-sign-in.md) | Adding code to a mobile game to enable basic sign-in to Xbox Live. |
 
 <!-- 

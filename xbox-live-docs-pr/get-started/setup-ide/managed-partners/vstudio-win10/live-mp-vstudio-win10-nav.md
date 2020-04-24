@@ -17,8 +17,8 @@ Setting up Visual Studio targeting Windows 10 to use the Xbox Live SDK, for Mana
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Get started using Visual Studio for UWP games](live-get-started-vstudio-uwp.md) | Setting up a Visual Studio project to enable Xbox Live for a UWP game. |
 | [Add an XSAPI binary package to a UWP project](live-add-xbl-apis-binary-uwp.md) | Using NuGet to add the Xbox Live APIs binary package to your UWP project. |
 | [Add and compile XSAPI source code into a UWP project](live-add-xbl-source-uwp.md) | Adding and compiling the Xbox Live APIs source in your UWP project. |

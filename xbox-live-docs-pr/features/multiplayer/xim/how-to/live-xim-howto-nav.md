@@ -16,8 +16,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Using XIM via C++](live-using-xim.md) | Using Xbox Integrated Multiplayer (XIM) with C++. |
 | [Using XIM via C#](live-using-xim-cs.md) | Using Xbox Integrated Multiplayer (XIM) with C#. |
 | [Using XIM via Unity with IL2CPP](live-xim-unity-uwp-il2cpp.md) | Using Xbox Integrated Multiplayer with Unity for UWP with the IL2CPP scripting backend. |

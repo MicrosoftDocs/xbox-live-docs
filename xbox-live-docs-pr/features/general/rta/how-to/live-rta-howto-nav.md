@@ -16,6 +16,6 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Programming the RTA service](live-programming-rta.md) | Example code for calling the Real-Time Activity Service. |

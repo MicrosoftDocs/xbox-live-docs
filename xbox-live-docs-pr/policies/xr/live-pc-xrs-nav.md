@@ -20,8 +20,8 @@ In support of the the complete list of [Xbox Live Policies for PC and mobile](..
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [XR-013: Linking Microsoft Accounts with Publisher Accounts](live-pc-xr013.md) | On Xbox One, titles that use partner-hosted services or accounts that require credentials must link that account with the user's Microsoft account. |
 | [XR-015: Privacy and Permissions](live-pc-xr015.md) | Titles must not transmit user data or allow communication over Xbox Live when the user's privacy & online safety settings do not allow it. |
 | [XR-045: Xbox Live and Account Privileges](live-pc-xr045.md) | Titles must check whether the active user has certain privileges before completing certain actions. |

@@ -15,8 +15,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Development tools for Xbox Live](live-tools.md) | Tools to help develop and test an Xbox Live-enabled title. |
 | [Config as Source tools (XblConfig.exe)](live-config-as-source.md) | Enables advanced users to integrate their tools with Xbox Live configuration services. |
 | [Global Storage tool (GlobalStorage.exe)](live-global-storage-tool.md) | GlobalStorage.exe is used to manage title global storage in test sandboxes, before publish to RETAIL. |

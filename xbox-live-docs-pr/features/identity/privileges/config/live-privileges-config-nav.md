@@ -15,8 +15,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Configuring Privileges in Partner Center](live-privileges-config.md) | Configuring privileges in Partner Center. |
 
 <!-- {% jumppage its %} -->

@@ -15,7 +15,7 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Sending invites](live-invites-send.md) | Example code for sending multiplayer invites. |
 | [Receiving invites](live-invites-receive.md) | Example code to receive multiplayer invites. |

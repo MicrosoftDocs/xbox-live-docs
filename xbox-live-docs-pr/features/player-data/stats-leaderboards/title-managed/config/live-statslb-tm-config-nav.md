@@ -15,6 +15,6 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Configuring title-managed Featured Stats & Leaderboards in Partner Center](live-tm-leaderboards-portal.md) | Configuring title-managed Featured Stats & Leaderboards in Partner Center. |

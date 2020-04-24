@@ -15,7 +15,7 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Getting title-managed Achievements](live-how-to-get-achievements.md) | Example code for getting title-managed Achievements. |
 | [Updating title-managed Achievements](live-how-to-update-achievements.md) | Example code for updating title-managed Achievements. |

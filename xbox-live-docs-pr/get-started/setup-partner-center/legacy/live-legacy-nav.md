@@ -16,8 +16,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Getting started with Xbox Live, for Creators](live-get-started-creators.md) | All the high-level steps, from joining the Creators Program, through releasing your game. |
 | [Creating a game and publishing it for testing, for Creators](live-create-and-test-creators-title.md) | Creating a new Creators game in Partner Center, and publishing it to the test environment. |
 | [Authorizing test accounts, for Creators](live-authorize-xbox-live-accounts.md) | Authorizing a public Xbox Live account for testing in your development environment. |

@@ -15,6 +15,6 @@ ms.date: 04/22/2020
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Title-callable UI (TCUI)](live-tcui-overview.md) | Enables your game code to call pre-defined user interface displays. |

@@ -21,8 +21,8 @@ XSAPI enables accessing Xbox Live features.
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [XSAPI overview](../../api-ref/xsapi/live-introduction-to-xbox-live-apis.md) | Xbox Live services can be called through client-side XSAPI (WinRT, C++11, or C) or through REST endpoints. |
 | [XSAPI C overview](../../api-ref/xsapi/live-xsapi-flat-c.md) | XSAPI's C API for the Xbox Live service. |
 | <a href="https://docs.microsoft.com/dotnet/api/?view=xboxlive-dotnet-2017.11.20171204.01" target="_blank">XSAPI WinRT Reference &#11008;</a> | Xbox Live WinRT SDK API Reference. |
@@ -30,6 +30,6 @@ XSAPI enables accessing Xbox Live features.
 
 ### See also
 
-<a href="https://github.com/Microsoft/xbox-live-api" target="_blank">C++ and WinRT XSAPI &#11008;</a> -
-C++ and WinRT version of the Xbox Services API (XSAPI) that enables game developers to access Xbox Live.
-Hosted at GitHub.
+* <a href="https://github.com/Microsoft/xbox-live-api" target="_blank">C++ and WinRT XSAPI &#11008;</a> -
+  C++ and WinRT version of the Xbox Services API (XSAPI) that enables game developers to access Xbox Live.
+  Hosted at GitHub.

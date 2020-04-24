@@ -15,8 +15,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Writing an event to power an event-based Stat](live-sending-eb-stat.md) | Example code for writing an event to power an event-based Stat. |
 | [Getting event-based stats](live-getting-eb-stat.md) | Example code for getting event-based stats. |
 | [Handling an event-based stat change](live-handling-eb-stat-change.md) | Example code for handling an event-based stat change. |

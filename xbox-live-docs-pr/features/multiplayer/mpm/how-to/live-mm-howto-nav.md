@@ -15,8 +15,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Enable playing a multiplayer game with friends using Multiplayer Manager](live-play-multiplayer-with-friends.md) | Using Multiplayer Manager to enable playing a multiplayer game online with friends. |
 | [Finding a multiplayer game by using SmartMatch using Multiplayer Manager](live-play-multiplayer-with-matchmaking.md) | Using Multiplayer Manager to enable a player to find a multiplayer game by using SmartMatch matchmaking. |
 | [Sending game invites using Multiplayer Manager](live-send-game-invites.md) | Using Multiplayer Manager to enable a player to send game invites to other players to join the game. |

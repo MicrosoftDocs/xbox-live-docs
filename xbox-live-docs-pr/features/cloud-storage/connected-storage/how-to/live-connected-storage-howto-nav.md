@@ -19,8 +19,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Saving data with Connected Storage](live-connected-storage-saving.md) | Code examples using Connected Storage to save gameplay data. |
 | [Loading data with Connected Storage](live-connected-storage-loading.md) | Code examples using Connected Storage to save gameplay data. |
 | [Deleting data with Connected Storage](live-connected-storage-deleting.md) | Code examples using Connected Storage to delete blob data and container data. |

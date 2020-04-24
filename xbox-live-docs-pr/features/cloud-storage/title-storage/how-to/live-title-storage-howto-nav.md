@@ -17,8 +17,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Uploading a blob to Title Storage](live-uploading-title-storage-blob.md) | Example code for uploading a blob to Title Storage. |
 | [Downloading a blob from Title Storage](live-downloading-title-storage-blob.md) | Example code for downloading a blob from Title Storage |
 | [Deleting a blob from Title Storage](live-deleting-title-storage-blob.md) | Example code for deleting a blob from Title Storage. |

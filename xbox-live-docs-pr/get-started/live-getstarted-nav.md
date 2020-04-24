@@ -17,8 +17,8 @@ To get started adding Xbox Live functionality to your game, do steps 1 through 4
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Xbox Live overview](live-xbl-overview.md) | Xbox Live provides the greatest player community for your game on the most advanced cross-platform multiplayer network. |
 | [1. Joining a developer program](join-dev-program/live-join-dev-program-nav.md) | Joining the Creators Program or the ID@Xbox Program. |
 | [2. Setting up a game app at Partner Center](setup-partner-center/live-setup-partner-center-nav.md) | Creating a new game at Partner Center, enabling Xbox Live for the game, and publishing the game to a development sandbox. |
@@ -28,8 +28,8 @@ To get started adding Xbox Live functionality to your game, do steps 1 through 4
 
 ### See also
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Features](../features/live-features-nav.md) | Adding Xbox Live features to your game, such as Identity, Social features, Achievements, Cloud Storage, and Multiplayer features; and using Xbox Live with your own custom services. |
 | [Testing and Releasing](../test-release/live-test-release-nav.md) | Testing, troubleshooting, and publishing a game. |
 | [Xbox Live samples](../features/general/samples/live-samples.md) | Xbox Live API samples and Xbox Developer Kit samples. |

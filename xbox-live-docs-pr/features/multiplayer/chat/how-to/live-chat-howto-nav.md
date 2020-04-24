@@ -15,8 +15,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Using the Game Chat 2 C++ API](live-using-game-chat-2.md) | Using the C++ API of Game Chat 2 to add voice and text communication to your game. |
 | [Using the Game Chat 2 C# API with WinRT projections](live-using-game-chat-2-winrt.md) | Using the C# API of Game Chat 2 with WinRT projections to add voice and text communication to your game. |
 | [Real-time audio manipulation](live-real-time-audio-manipulation.md) | Inspecting and effects-processing the chat audio that is captured by Game Chat 2. |

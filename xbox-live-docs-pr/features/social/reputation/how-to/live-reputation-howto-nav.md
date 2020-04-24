@@ -15,6 +15,6 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Submitting Reputation feedback](live-submitting-reputation-feedback.md) | Example code for submitting Reputation feedback. |

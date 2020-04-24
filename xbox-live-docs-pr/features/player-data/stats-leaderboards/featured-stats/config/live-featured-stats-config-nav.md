@@ -15,6 +15,6 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Portal configuration of title-managed Featured Stats](live-featuredstats-tm-portal.md) | Configuring title-managed Featured Stats at Partner Center. |

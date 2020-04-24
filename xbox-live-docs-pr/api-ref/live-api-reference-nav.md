@@ -15,8 +15,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [XSAPI Reference](xsapi/live-xsapi-nav.md) | Xbox Services API (XSAPI) reference. |
 | [XAL Reference](xal/live-xal-nav.md) | Xbox Authentication Library (XAL) reference. |
 | [XAsync Reference](xasync/live-xasync-nav.md) | Xbox Asynchronous library (XAsync) reference. |
@@ -25,7 +25,7 @@ ms.date: 11/01/2019
 
 ### See also
 
-<a href="https://aka.ms/xboxliveuwpdocs" target="_blank">Download XboxLiveAPIs.chm &#11008;</a>. Contains:
-* Xbox Live reference for Universal Windows Platform (UWP)
-* Xbox Live reference for Xbox Development Kit (XDK)
-* Xbox Live Services RESTful reference
+* <a href="https://aka.ms/xboxliveuwpdocs" target="_blank">Download XboxLiveAPIs.chm &#11008;</a>. Contains:
+  * Xbox Live reference for Universal Windows Platform (UWP)
+  * Xbox Live reference for Xbox Development Kit (XDK)
+  * Xbox Live Services RESTful reference

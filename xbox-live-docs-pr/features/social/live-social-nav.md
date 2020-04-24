@@ -15,8 +15,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Overview of Social features](live-social-overview.md) | Gaming-oriented social network features including user profiles, gamerscore, achievements, clubs, and activity feed. |
 | [Social Manager](social-manager/live-social-manager-nav.md) | The Xbox Live Social Manager API simplifies keeping track of online friends and their gaming activity. |
 | [People System (Friends List)](people-system/live-people-system-nav.md) | Manages relationships between gamers, such as only showing a user's real name to close friends. |

@@ -16,8 +16,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Multiplayer overview](live-multiplayer-intro.md) | Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat. |
 | [Common multiplayer scenarios](live-common-multiplayer-scenarios.md) | Which Xbox Live functionality supports various multiplayer scenarios, including Comparative (Indirect) Play, Online Play with friends, Skill-Based Matchmaking, and Tournaments. |
 | [Multiplayer concepts](concepts/live-multiplayer-concepts-nav.md) | Conceptual articles about Xbox Live Multiplayer services. |

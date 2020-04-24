@@ -17,7 +17,7 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Access Policies Overview](live-access-policies-overview.md) | Configuring access policies to allow other apps, games, and services to access a title's Xbox Live settings. |
 | [Access Policies portal config](../../../features/custom-services/access-policies/config/live-access-policies-config-nav.md) | Configuring access policies at Partner Center, to allow other apps, games, and services to access a title's Xbox Live settings. |

@@ -17,6 +17,6 @@ These articles only apply if you are using event-based User Stats, not title-man
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Sending an event](live-sending-an-event.md) | Example code for sending an event, for event-based Stats & Leaderboards. |

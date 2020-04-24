@@ -18,8 +18,8 @@ The Real-Time Activity service enables an application on any device to subscribe
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Overview of Real-Time Activity service](live-real-time-activity-service-overview.md) | The Real-Time Activity service enables an application on any device to subscribe to state data, user statistics, and presence. |
 | [Real-Time Activity (RTA) service concepts](concepts/live-rta-concepts-nav.md) | Conceptual articles about the Real-Time Activity service. |
 | [Real-Time Activity (RTA) service how-to's](how-to/live-rta-howto-nav.md) | Example code for Real-Time Activity service. |

@@ -22,8 +22,8 @@ XAL provides a consistent API and user model across all platforms.
 
 <!-- ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [__](__) | __ |
 | [__](__) | __ |
 | [__](__) | __ | -->

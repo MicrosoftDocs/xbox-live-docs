@@ -20,8 +20,8 @@ To publish a game for testing or public release, first complete the <a href="../
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Xbox Live resources, sites, and downloads](live-sites-downloads.md) | Download resources for Xbox Live development, such as tools and API Reference. |
 | [Configuring Xbox Live services](portal-config/live-portal-config-nav.md) | Configuring Xbox Live services to support various features for your game. |
 | [Sandboxes](sandboxes/live-sandboxes-nav.md) | Sandboxes are for testing and publishing in an isolated environment. |
@@ -36,7 +36,7 @@ To publish a game for testing or public release, first complete the <a href="../
 
 ### See also
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | <a href="https://docs.microsoft.com/windows/uwp/publish/" target="_blank">Publish Windows apps and games &#11008;</a> | Submitting a game for certification and listing it in the Microsoft Store. |
 | <a href="https://docs.microsoft.com/legal/windows/agreements/store-policies" target="_blank">Microsoft Store Policies &#11008;</a> | Includes Gaming Policies and Xbox Policies. |

@@ -14,8 +14,8 @@ ms.date: 11/01/2019
 
 # SmartMatch Matchmaking
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Matchmaking overview](live-matchmaking-overview.md) | The SmartMatch matchmaking service selects compatible players in a multiplayer game. |
 | [Matchmaking concepts](concepts/live-matchmaking-concepts-nav.md) | SmartMatch matchmaking groups players based on user information and the matchmaking request for the users who want to play together. |
 | [Matchmaking portal config](config/live-matchmaking-config-nav.md) | Configuring Matchmaking at Partner Center. |

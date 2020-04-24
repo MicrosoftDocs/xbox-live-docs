@@ -16,8 +16,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Multiplayer concepts overview](live-multiplayer-concepts.md) | Concepts used by Multiplayer systems, including multiplayer session, multiplayer service session directory, SmartMatch matchmaking, and quality of service (QoS). |
 | [Configuring the Multiplayer service](live-configure-the-multiplayer-service.md) | Configuring the Multiplayer Service, including session templates, SmartMatch hoppers, and custom invite strings. |
 | [Multiplayer 2015 FAQ and troubleshooting](live-multiplayer-2015-faq.md) | FAQs and troubleshooting for Multiplayer 2015. |

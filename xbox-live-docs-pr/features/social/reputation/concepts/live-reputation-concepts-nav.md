@@ -16,6 +16,6 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Sending Reputation feedback from a title](live-sending-reputation-feedback.md) | Promoting positive player experiences by sending player feedback to the Reputation service. |

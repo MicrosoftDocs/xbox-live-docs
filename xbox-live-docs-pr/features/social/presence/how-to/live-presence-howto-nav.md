@@ -15,8 +15,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Getting a user's Presence](live-getting-a-users-presence.md) | Example code for getting a user's Presence. |
 | [Handling a title Presence change](live-handling-a-title-presence-change.md) | Example code for handling a title Presence change. |
 | [Handling a device Presence change](live-handling-a-device-presence-change.md) | Example code for handling a device Presence change. |

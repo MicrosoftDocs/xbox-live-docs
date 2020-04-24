@@ -17,7 +17,7 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Authentication for UWP projects](live-auth-for-uwp-projects.md) | Signing-in Xbox Live users in a Universal Windows Platform (UWP) title. |
 | [Retrieving the Windows user in a UWP title](live-retrieving-system-user-on-uwp.md) | Retrieving the Windows System User in a Universal Windows Platform (UWP) game. |

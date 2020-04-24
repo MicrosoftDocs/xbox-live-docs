@@ -18,8 +18,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Game Chat overview](live-game-chat-2-overview.md) | Adding voice and text communication to your game by using Xbox Live Game Chat 2. |
 | [Game Chat how-to's](how-to/live-chat-howto-nav.md) | Example code for Game Chat 2. |
 
