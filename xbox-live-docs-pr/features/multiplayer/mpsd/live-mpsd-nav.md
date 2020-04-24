@@ -13,8 +13,8 @@ ms.date: 11/01/2019
 
 # Multiplayer Session Directory (MPSD)
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Multiplayer Session Directory overview](live-mpsd-overview.md) | Enables a title to share the information needed to connect a group of users, to create a multiplayer session. |
 | [Multiplayer Session Directory](live-xbox-multiplayer-session-directory.md) | Creating multiplayer sessions by using the Xbox Live Multiplayer Session Directory (MPSD) service. |
 | [MPSD concepts](concepts/live-mpsd-concepts-nav.md) | Conceptual articles about Multiplayer Session Directory. |

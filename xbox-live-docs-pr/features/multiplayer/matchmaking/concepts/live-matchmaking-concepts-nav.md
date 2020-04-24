@@ -15,8 +15,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Using SmartMatch matchmaking](live-matchmaking-how-tos.md) | Using SmartMatch to match players in a multiplayer game. |
 | [Target session initialization and QoS](live-matchmaking-target-session.md) | After players are matched into a target session, the title confirms enough players have joined and can connect. |
 | [Xbox Arena](arena/live-arena-nav.md) | Xbox Arena runs tournaments for your game. |

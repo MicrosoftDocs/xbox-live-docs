@@ -115,5 +115,5 @@ File management actions:
 
 | Article | Description |
 |---------|-------------|
-| [Title Storage documentation](../live-title-storage-nav.md) | Universal, Trusted, Global Storage and storage file types. |
+| [Title Storage overview](../live-title-storage-overview.md) | Universal, Trusted, Global Storage and storage file types. |
 | [Connected Storage documentation](../../connected-storage/live-connected-storage-overview.md) | Saving game progress in the cloud so that you can continue your game between devices. |

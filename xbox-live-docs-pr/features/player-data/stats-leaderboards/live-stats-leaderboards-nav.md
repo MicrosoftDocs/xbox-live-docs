@@ -15,8 +15,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Event-based vs. title-managed Stats](live-stats-eb-vs-tm.md) | Event-based vs. title-managed Stats |
 | [Event-based Stats & Leaderboards](event-based/live-statslb-eb-nav.md) | Event-based Stats & Leaderboards. |
 | [Title-managed Stats & Leaderboards](title-managed/live-statslb-tm-nav.md) | Title-managed Stats track a player's progress and prowess in a game. With title-managed Stats, your game owns and maintains the stats, and sends the stat values to the server for display upon request. |
@@ -24,4 +24,4 @@ ms.date: 11/01/2019
 
 ### See also
 
-* [Xbox Live Samples](../../../api-ref/live-samples.md)
+* [Xbox Live samples](../../general/samples/live-samples.md)

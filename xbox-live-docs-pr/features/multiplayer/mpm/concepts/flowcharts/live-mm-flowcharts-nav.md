@@ -19,8 +19,8 @@ These flowchart diagrams depict implementing specific Multiplayer Manager scenar
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Playing a game with friends (flowchart)](live-mpm-play-with-friends.md) | Flowcharts showing how to start a new multiplayer game by adding and inviting friends to the game. |
 | [Playing a game by using SmartMatch matchmaking (flowchart)](live-mpm-play-with-smartmatch-matchmaking.md) | Flowcharts showing how to start a new multiplayer game by adding and inviting friends to the game, and then using SmartMatch matchmaking to fill any open slots with other Xbox Live members. |
 | [Checking Quality of Service for matchmaking (flowchart)](live-mpm-use-matchmaking-and-qos.md) | Flowcharts showing when to perform Quality of Service (QoS) checks in a matchmaking work flow. |

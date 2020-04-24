@@ -14,8 +14,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Access Policies](access-policies/live-access-policies-nav.md) | Configuring access policies to allow other apps, games, and services to access a title's Xbox Live settings. |
 | [Single Sign-On](single-sign-on/live-single-sign-on-nav.md) | Enables a player using your title to sign into your services by using their Xbox Live sign-in. |
 | [Web services](web-services/live-web-services-nav.md) | Creating a Web service for an Xbox Live-enabled app. |

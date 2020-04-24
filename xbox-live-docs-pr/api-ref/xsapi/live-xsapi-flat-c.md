@@ -1,14 +1,14 @@
 ---
-title: XSAPI C Overview
+title: XSAPI C overview
 description: XSAPI's C API for the Xbox Live service.
-kindex: XSAPI C Overview
+kindex: XSAPI C overview
 ms.topic: article
 keywords: xbox live, xbox, games, uwp, windows 10, xbox one, c, xsapi
 ms.localizationpriority: medium
 ms.date: 06/05/2018
 ---
 
-# XSAPI C Overview
+# XSAPI C overview
 
 In June 2018, a new, C API layer was added to XSAPI.
 This new API layer solves some issues that occurred with the C++ and WinRT API layers.

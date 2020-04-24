@@ -15,7 +15,7 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Privilege codes for Social Manager](live-socmgr-privilege-codes.md) | Privilege codes for Social Manager. |
 | [Social Manager memory and performance](live-socmgr-mem-perf.md) | Memory and performance considerations when using the Social Manager API. |

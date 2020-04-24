@@ -20,21 +20,23 @@ To publish a game for testing or public release, first complete the <a href="../
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Xbox Live resources, sites, and downloads](live-sites-downloads.md) | Download resources for Xbox Live development, such as tools and API Reference. |
 | [Configuring Xbox Live services](portal-config/live-portal-config-nav.md) | Configuring Xbox Live services to support various features for your game. |
 | [Sandboxes](sandboxes/live-sandboxes-nav.md) | Sandboxes are for testing and publishing in an isolated environment. |
 | [Test accounts](test-accounts/live-test-accounts-nav.md) | Creating accounts for testing your Xbox Live-enabled game during development. |
 | [Testing on the Xbox One console](live-testing-on-console.md) | Testing Xbox Live services on the Xbox One console. |
 | [Troubleshooting Xbox Live](troubleshooting/live-troubleshooting-nav.md) | Troubleshooting Xbox Live development, such as by logging responses, checking the dev PC setup, checking the sign-in sandbox, and logging calls. |
-| [Services and APIs](services/live-services-nav.md) | Using services to analyze Xbox Live activity. |
+| [Best practices for Xbox Live](best-practices/live-best-practices-nav.md) | Best practices for calling Xbox Live APIs, such as proper calling patterns and retry logic. |
+| [Error handling](error-handling/live-error-handling-nav.md) | Handling errors when calling an Xbox Live service through XSAPI, C++, or WinRT. |
+| [Porting Xbox Live code from XDK to UWP](live-port-xbl-code-from-xdk-to-uwp.md) | Porting Xbox Live code from the Xbox Development Kit (XDK) platform to the Universal Windows Platform (UWP). |
 | [Tools for Xbox Live](tools/live-tools-nav.md) | Tools to help develop and test an Xbox Live-enabled title. |
 
 
 ### See also
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | <a href="https://docs.microsoft.com/windows/uwp/publish/" target="_blank">Publish Windows apps and games &#11008;</a> | Submitting a game for certification and listing it in the Microsoft Store. |
 | <a href="https://docs.microsoft.com/legal/windows/agreements/store-policies" target="_blank">Microsoft Store Policies &#11008;</a> | Includes Gaming Policies and Xbox Policies. |

@@ -15,8 +15,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Player Data overview](live-playerdata-overview.md) | Player Data includes User Stats, Leaderboards, Achievements, and Featured Stats. |
 | [Designing Xbox Live Experiences](live-designing-experiences.md) | Designing experiences for Player Data, including player stats, leaderboards, and achievements. |
 | [Stats & Leaderboards](stats-leaderboards/live-stats-leaderboards-nav.md) | How a player has performed and which players have the top stats. |

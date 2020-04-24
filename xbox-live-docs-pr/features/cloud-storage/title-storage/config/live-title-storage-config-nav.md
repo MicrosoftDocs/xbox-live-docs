@@ -14,8 +14,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Configuring Title Storage in Partner Center](live-title-storage-portal-config.md) |  Configuring Title Storage on Partner Center, for game-save in the cloud. |
 
 <!-- {% jumppage its %} -->

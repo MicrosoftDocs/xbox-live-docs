@@ -17,8 +17,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Xbox Arena overview](live-arena-overview.md) | Using Xbox Arena to run tournaments for your game. |
 | [Arena title integration](live-arena-title-integration.md) | Adding support in a game for the Arena platform, which allows Tournament Organizers to create and operate tournaments. |
 | [Xbox Arena Operations Portal](live-arena-operations-portal.md) | Using the Xbox Arena Operations Portal to manage official tournaments for your game. |

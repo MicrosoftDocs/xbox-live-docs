@@ -19,8 +19,8 @@ Signing-in an Xbox Live user in your game.
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Authentication for mobile projects using XAL](auth-mobile-xal/live-xal-nav.md) | An introduction to XAL and how to integrate it into your Xbox Live project. |
 | [UWP Authentication and user identity](auth-uwp/live-auth-uwp-nav.md) | Signing-in Xbox Live users in a Universal Windows Platform (UWP) title. |
 | [Authentication for XDK projects](live-auth-for-xdk-projects.md) | Signing-in Xbox Live users in an Xbox Development Kit (XDK) title. |
