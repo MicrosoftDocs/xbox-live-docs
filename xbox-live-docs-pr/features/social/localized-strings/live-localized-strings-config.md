@@ -29,7 +29,11 @@ Add configuration by doing the following:
 
 ![Screenshot of the localized strings configuration page in Partner Center](live-localized-strings-config-images/localized-strings-1.png)
 
-3. You can add the localized strings by duplicating the <Value locale="en-US">Mazes Played</Value> tag and changing the value of the locale to the language of your choice and the value of the localized string.  To avoid errors, you must have at least one value tag within the developer display locale.
+3. You can add the localized strings by duplicating the tag `<Value locale="en-US">Mazes Played</Value>` and changing the value of the locale to the language and country of your choice and the value of the localized string.  To avoid errors, you must have at least one `Value` tag within the developer display locale.
+
+   The value of the `locale` attribute must include the language code followed by a hyphen (-) and the country code.
+   For example, `locale="en-US"` means the English language as used in the United States.
+   See <a href="https://docs.microsoft.com/en-us/partner-center/develop/partner-center-supported-languages-and-locales" target="_blank">Partner Center supported languages and locales &#11008;</a>.
 
 ![edit localized strings](live-localized-strings-config-images/localized-strings.gif)
 
@@ -37,10 +41,10 @@ Add configuration by doing the following:
 
 ![Image of the button to upload the localization.xml file](live-localized-strings-config-images/localized-strings-2.png)
 
-The following errors might appear when you upload the localization.xml file:
+The following errors might appear when you upload the `localization.xml` file:
 
 | Error | Reason |
 |---------------------------|-------------|
-| Failed XSD Validation: The element 'LocalizedString' in namespace 'http://config.mgt.xboxlive.com/schema/localization/1' cannot contain text. List of possible elements expected: 'Value' in namespace 'http://config.mgt.xboxlive.com/schema/localization/1' | This occurs when the XML document is malformed |
-| Localization string is missing an entry for the developer display locale | This occurs when a localized string is missing an entry whose locale does not match the dev display locale |
-| Failed XSD Validation: The 'locale' attribute is invalid - The value ' ' is invalid according to its datatype 'http://config.mgt.xboxlive.com/schema/localization/1:NonEmptyString' - The Pattern constraint failed. | This occurs when a localized string is missing the locale value in the <Value> tag|
+| Failed XSD Validation: The element 'LocalizedString' in namespace 'http://config.mgt.xboxlive.com/schema/localization/1' cannot contain text. List of possible elements expected: 'Value' in namespace 'http://config.mgt.xboxlive.com/schema/localization/1' | This occurs when the XML document is malformed. |
+| Localization string is missing an entry for the developer display locale | This occurs when a localized string is missing an entry whose locale does not match the dev display locale. |
+| Failed XSD Validation: The 'locale' attribute is invalid - The value ' ' is invalid according to its datatype 'http://config.mgt.xboxlive.com/schema/localization/1:NonEmptyString' - The Pattern constraint failed. | This occurs when a localized string is missing the locale value in the `<Value>` tag. The value of the `locale` attribute must include the language code followed by a hyphen (-) and the country code. |
