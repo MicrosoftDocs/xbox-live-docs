@@ -26,26 +26,23 @@ Net Rumble Cross Play, a code sample available from Samples on GDN
 ## Certification Test Cases
 
 **067-01 Maintaining Session State**   
-  
-  
->
->**Test Steps**  
+
+**Test Steps**
 >1. Sign into an Xbox Live profile and launch the title on multiple devices.
 >2. Complete an Xbox Live game session with all players.
->3. Return Home and view the Recent Players list to verify that all players from the game session are included.
->4. Repeat steps [1] – [3] several more times but this time using new accounts each time.
->5. Repeat steps [1] – [4] but this time have one or more player(s) leave during gameplay and ensure their profile(s) still appear in the Recent Players list during step [2].  
->
->**Expected Result**  
->Users must be able to review all players from each and every recently played game session.  
->
->**Pass Examples**  
-> 1. All profiles are included in the device's Recent Players list.  
->
->**Fail Examples**  
-> 1. Not all the profiles are included in the device's Recent Players list.
->2. Users who quit during multiplayer gameplay do not appear in the Recent Players list.  
+>3. Using the Xbox Companion App on a PC, view the Recent Players list to verify that all players from the game session are included (from the Friends List navbar on the right side of the app select “Recent Players” from the dropdown.
+>5. Repeat steps [1] – [3] several more times but this time using new accounts each time.
+>6. Repeat steps [1] – [4] but this time have one or more player(s) leave during gameplay and ensure their profile(s) still appear in the Recent Players list during step [2].
 
+**Expected Result**
+>Users must be able to review all players from each and every recently played game session.
+
+**Pass Examples**
+>1. All profiles are included in the device’s Recent Players list.
+
+**Fail Examples**
+>1. Not all the profiles are included in the device’s Recent Players list.
+>2. Users who quit during multiplayer gameplay do not appear in the Recent Players list.
 
 
 ## Change history 

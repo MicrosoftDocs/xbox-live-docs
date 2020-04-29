@@ -480,7 +480,7 @@ All achievements can be gained without being required to purchase additional in-
 >2. No achievements require additional in-title content.  
 
 **Fail Examples**  
-> 1. The user is required to purchase additional in-title content to unlock an achievement defined by the base title.
+>1. The user is required to purchase additional in-title content to unlock an achievement defined by the base title.
 
 <br />
 
@@ -490,8 +490,127 @@ Achievements must not be shared across titles. When a single title is supported 
 ### Modifying Active Achievements (XR-060)
 After an achievement has been published to users, it cannot be removed, nor can its unlock rules or rewards be changed. Achievement text strings (name, description) or art (icons/background) can be modified.
  
- 
-### [Achievement Names and Descriptions (XR-062)](xr/live-pc-xr062.md)
+ ### [Achievement Names and Descriptions (XR-062)](xr/live-pc-xr062.md)
 Achievement names and descriptions may contain only content that would merit a rating of PEGI 12, ESRB EVERYONE 10+, or lower.
 
 Achievement names and descriptions may not contain what is commonly considered profanity in a clear text or redacted form.
+
+
+## **Multiplayer sessions**
+
+The requirements in this category pertain to game titles that provide multiplayer sessions on Xbox Live. Xbox Live offers a consistent and simple way to find multiplayer sessions and to fine-tune the parameters used to find those sessions.
+
+### [Joinable Game Sessions and Online Play (XR-064)](xr/live-pc-xr064.md)
+
+On Xbox consoles, titles that offer joinable game sessions must enable joinability through the Xbox shell interface. 
+
+On devices other than Xbox consoles, titles which offer cross platform multiplayer with Xbox consoles must enable joins through the Game Bar experience.
+
+### Test Cases
+
+**064-01 Joining a Game Session from Outside the Game**
+
+**Configuration: 2 Xbox Live Profiles**
+>* Device 1 Profile A – Friends with Profile B
+>* Device 2 Profile B – Friends with Profile A
+
+**Test Steps**
+>1. Using Profile A, create a joinable game session.
+>2. Using Profile B not running the title, access the Friends List via Game Bar and verify that the Profile A is listed as joinable.
+>* It is possible that some games may only support private multiplayer sessions and therefore not appear as joinable for Profile B, in which case please jump to step [5].
+>3. Profile B join Profile A’s game.
+>4. Confirm that both profiles are placed into the game experience together.
+>5. Repeat steps [1] – [5] but this time, instead of Profile B joining through Game Bar, have Profile A send a game invite via Game Bar to Profile B and make sure Profile B can receive, accept, and join Profile A.
+
+**Expected Result**  
+>User B must be able to join user A’s game and progress into the game experience together. For games that only support private multiplayer sessions and therefore do not appear as joinable for Profile B, it is acceptable for invites to be the only mechanism to join Profile A. For multiplayer game sessions that only support joining the session via matchmaking (e.g. ranked matches), it is acceptable to not support joining via Game Bar.  Titles which offer cross platform multiplayer with Xbox consoles must enable joins through the Game Bar experience.
+
+**Pass Examples**
+>1. Both profiles are placed into the game experience together.
+>2. User B is able to join user A’s game and progress into the game experience together.
+>3. User A does not appear as joinable in the Friends List via Game Bar because the game only supports private multiplayer sessions, however user A can send user B a game invitation via Game Bar.
+>4. User A does not appear as joinable and is unable to send game invites via Game Bar while participating in a session that only supports joining via matchmaking (e.g. ranked matches).
+
+**Fail Examples**
+>1. User B is not able to successfully join User A’s game and is not placed in the game experience.
+>2. User A does not appear as joinable in Game Bar because the game only supports private multiplayer sessions, and user A cannot send user B a game invitation via Game Bar.
+
+**064-02 Joining a Game Session from the Same Game**
+
+**Configuration: 2 Xbox Live Profiles**
+>* Device 1 Profile A – Friends with Profile B
+>* Device 2 Profile B – Friends with Profile A
+
+**Test Steps**
+>1. Using Profile A, launch the title and create a joinable game session within the title.
+>2. Using Profile B, launch the same title and enter some experience within the title.
+>3. Using Profile B, join Profile A’s game via Game Bar.
+>* It is possible that some games may only support private multiplayer sessions and therefore do not appear as joinable for Profile B, in which case please jump to step [5].
+>4. Confirm that both profiles are placed into the game experience together.
+>5. Repeat steps [1] – [4] but this time instead of Profile B joining through Game Bar, have Profile A send a game invite via Game Bar to Profile B and make sure Profile B can receive, accept, and join Profile A.
+
+**Expected Result**
+>User B must be able to join user A’s game and progress into the game experience together. For games that only support private multiplayer sessions and therefore do not appear as joinable for Profile B, it is acceptable for invites to be the only mechanism to join Profile A. For multiplayer game sessions that only support joining the session via matchmaking (e.g. ranked matches), it is acceptable to not support joining via Game Bar. Titles which offer cross platform multiplayer with Xbox consoles must enable joins through the Game Bar experience.
+
+**Pass Examples**
+>1. Both profiles are placed into the game experience together.
+>2. User B is able to join user A’s game and progress into the game experience together.
+>3. User A does not appear as joinable in Game Bar because the game only supports private multiplayer sessions, however user A can send user B a game invitation via Game Bar.
+>4. User A does not appear as joinable and is unable to send game invites via Game Bar while participating in a session that only supports joining via matchmaking (e.g. ranked matches).
+
+**Fail Examples**
+>1. User B is not able to successfully join User A’s game and is not placed in the game experience.
+>2. User A does not appear as joinable in Game Bar because the game only supports private multiplayer sessions, and user A cannot send user B a game invitation via Game Bar.
+
+**064-05 Non-Joinable Game**
+
+**Configuration: 3 Xbox Live Profiles each signed into a different devices**
+>* Device 1 Profile A - Friends with Profiles B & C
+>* Device 2 Profile B - Friends with Profile A
+>* Device 3 Profile C - Friends with Profile A
+
+**Test Steps**
+>1. Using Profile A, launch the title and create a joinable game session.
+>2. Using Profile A, invite profiles B and C to the game.
+>3. Using Profile A, enter a game session so there is only one remaining slot after A joins.
+>4. Using Profile B, accept the invite.
+>5. Confirm Profiles A & B are playing together.
+>6. Using Profile C, accept the invite and attempt to join the game session.
+
+**Expected Result**
+>Profile C is asked to wait until the next opportunity to jump in or Profile C is messaged the reason for the failure to join the game session.
+
+**Pass Examples**
+>1. Profile C is asked to wait until the next opportunity to jump in.
+>2. Profile C is messaged the reason for the failure to join the game session.
+
+**Fail Examples**
+>1. Profile C is not asked to wait until the next opportunity to jump in and Profile C is not messaged for the failure to join.
+
+   
+### [Maintaining Multiplayer Session State (XR-067)](xr/live-pc-xr067.md)
+
+On Xbox consoles, titles with online multiplayer functionality must maintain session-state information in the Xbox Multiplayer Session Directory (MPSD). 
+
+On devices other than Xbox consoles, titles which offer cross platform multiplayer with Xbox consoles must maintain session-state information in the Xbox Multiplayer Session Directory (MPSD).
+
+### Test Cases
+
+**067-01 Maintaining Session State**
+
+**Test Steps**
+>1. Sign into an Xbox Live profile and launch the title on multiple devices.
+>2. Complete an Xbox Live game session with all players.
+>3. Using the Xbox Companion App, view the Recent Players list to verify that all players from the game session are included (from the Friends List navbar on the right side of the app select “Recent Players” from the dropdown.
+>5. Repeat steps [1] – [3] several more times but this time using new accounts each time.
+>6. Repeat steps [1] – [4] but this time have one or more player(s) leave during gameplay and ensure their profile(s) still appear in the Recent Players list during step [2].
+
+**Expected Result**
+>Users must be able to review all players from each and every recently played game session.
+
+**Pass Examples**
+>1. All profiles are included in the device’s Recent Players list.
+
+**Fail Examples**
+>1. Not all the profiles are included in the device’s Recent Players list.
+>2. Users who quit during multiplayer gameplay do not appear in the Recent Players list.

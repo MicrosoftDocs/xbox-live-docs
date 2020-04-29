@@ -31,92 +31,86 @@ See also the Xbox One Multiplayer 2015 Developer Flowchart, available for downlo
 
 ## Additional Resources
 
-
 ## Certification Test Cases
 
-**064-01 Joining a Game Session from Outside the Game**   
-  
->**Configuration:**   2 Xbox Live Profiles
+**064-01 Joining a Game Session from Outside the Game**
+
+**Configuration: 2 Xbox Live Profiles**
 >* Device 1 Profile A – Friends with Profile B
->* Device 2 Profile B – Friends with Profile A  
->
->**Test Steps**  
+>* Device 2 Profile B – Friends with Profile A
+
+**Test Steps**
 >1. Using Profile A, create a joinable game session.
->2. Using Profile B not running the title, access the Friends List via the Xbox shell interface and verify that the Profile A is listed as joinable.
->* It is possible that some games may only support private multiplayer sessions and therefore not appear as joinable for Profile B, in which case please jump to step [6].
+>2. Using Profile B not running the title, access the Friends List via Game Bar and verify that the Profile A is listed as joinable.
+>* It is possible that some games may only support private multiplayer sessions and therefore not appear as joinable for Profile B, in which case please jump to step [5].
 >3. Profile B join Profile A’s game.
 >4. Confirm that both profiles are placed into the game experience together.
->5. Repeat steps [1] - [4] with Profile B while the title is in a suspended state.
->* Wait at least 30 seconds for the title to fully suspend and for the suspension to interrupt any HTTP request.  
->6. Repeat steps [1] – [5] but this time, instead of Profile B joining through the Friends List, have Profile A send a game invite via the system shell to Profile B and make sure Profile B can receive, accept, and join Profile A.
->
->**Expected Result**  
->User B must be able to join user A’s game and progress into the game experience together. For games that only support private multiplayer sessions and therefore do not appear as joinable for Profile B, it is acceptable for invites to be the only mechanism to join Profile A. For multiplayer game sessions that only support joining the session via matchmaking (e.g. ranked matches), it is acceptable to not support joining via the Xbox shell interface. For titles that support cross-platform multiplayer, users must be able to join between an Xbox One Console and PC.  
->
->**Pass Examples**  
+>5. Repeat steps [1] – [5] but this time, instead of Profile B joining through Game Bar, have Profile A send a game invite via Game Bar to Profile B and make sure Profile B can receive, accept, and join Profile A.
+
+**Expected Result**  
+>User B must be able to join user A’s game and progress into the game experience together. For games that only support private multiplayer sessions and therefore do not appear as joinable for Profile B, it is acceptable for invites to be the only mechanism to join Profile A. For multiplayer game sessions that only support joining the session via matchmaking (e.g. ranked matches), it is acceptable to not support joining via Game Bar.  Titles which offer cross platform multiplayer with Xbox consoles must enable joins through the Game Bar experience.
+
+**Pass Examples**
 >1. Both profiles are placed into the game experience together.
->2. User B is able to join user A's game and progress into the game experience together.  
->3. User A does not appear as joinable in the Friends List via the Xbox shell interface because the game only supports private multiplayer sessions, however user A can send user B a game invitation via the system shell.
->4. User A does not appear as joinable and is unable to send game invites via the Xbox shell interface whilst participating in a session that only supports joining via matchmaking (e.g. ranked matches).
->
->**Fail Examples**  
-> 1. User B is not able to successfully join User A’s game and is not placed in the game experience.  
-> 2. User A does not appear as joinable in the Friends List via the Xbox shell interface because the game only supports private multiplayer sessions, and user A cannot send user B a game invitation via the system shell.
+>2. User B is able to join user A’s game and progress into the game experience together.
+>3. User A does not appear as joinable in the Friends List via Game Bar because the game only supports private multiplayer sessions, however user A can send user B a game invitation via Game Bar.
+>4. User A does not appear as joinable and is unable to send game invites via Game Bar while participating in a session that only supports joining via matchmaking (e.g. ranked matches).
 
-<br />
+**Fail Examples**
+>1. User B is not able to successfully join User A’s game and is not placed in the game experience.
+>2. User A does not appear as joinable in Game Bar because the game only supports private multiplayer sessions, and user A cannot send user B a game invitation via Game Bar.
 
-**064-02 Joining a Game Session from the Same Game**   
-  
->**Configuration:**   2 Xbox Live Profiles
+**064-02 Joining a Game Session from the Same Game**
+
+**Configuration: 2 Xbox Live Profiles**
 >* Device 1 Profile A – Friends with Profile B
->* Device 2 Profile B – Friends with Profile A  
->
->**Test Steps**  
+>* Device 2 Profile B – Friends with Profile A
+
+**Test Steps**
 >1. Using Profile A, launch the title and create a joinable game session within the title.
 >2. Using Profile B, launch the same title and enter some experience within the title.
->3. Using Profile B, access the Friends List via the Xbox shell interface  and select to join Profile A’s game.
+>3. Using Profile B, join Profile A’s game via Game Bar.
 >* It is possible that some games may only support private multiplayer sessions and therefore do not appear as joinable for Profile B, in which case please jump to step [5].
->4. Confirm that both profiles are placed into the game experience together.  
->5. Repeat steps [1] – [4] but this time instead of Profile B joining through the Friends List via the Xbox shell interface, have Profile A send a game invite via the system shell to Profile B and make sure Profile B can receive, accept, and join Profile A.
->
->**Expected Result**  
->User B must be able to join user A’s game and progress into the game experience together. For games that only support private multiplayer sessions and therefore do not appear as joinable for Profile B, it is acceptable for invites to be the only mechanism to join Profile A. For multiplayer game sessions that only support joining the session via matchmaking (e.g. ranked matches), it is acceptable to not support joining via the Xbox shell interface. For titles that support cross-platform multiplayer, users must be able to join between an Xbox One Console and PC.
->
->**Pass Examples**  
->1. Both profiles are placed into the game experience together.
->2. User B is able to join user A's game and progress into the game experience together.
->3. User A does not appear as joinable in the Friends List via the Xbox shell interface because the game only supports private multiplayer sessions, however user A can send user B a game invitation via the system shell.
->4. User A does not appear as joinable and is unable to send game invites via the Xbox shell interface whilst participating in a session that only supports joining via matchmaking (e.g. ranked matches).
->
->**Fail Examples**  
->1. User B is not able to successfully join User A’s game and is not placed in the game experience.
->2. User A does not appear as joinable in the Friends List via the Xbox shell interface because the game only supports private multiplayer sessions, and user A cannot send user B a game invitation via the system shell.
-<br />
+>4. Confirm that both profiles are placed into the game experience together.
+>5. Repeat steps [1] – [4] but this time instead of Profile B joining through Game Bar, have Profile A send a game invite via Game Bar to Profile B and make sure Profile B can receive, accept, and join Profile A.
 
-**064-05 Non-Joinable Game**   
-  
->**Configuration:**   3 Xbox Live Profiles each signed into a different devices
+**Expected Result**
+>User B must be able to join user A’s game and progress into the game experience together. For games that only support private multiplayer sessions and therefore do not appear as joinable for Profile B, it is acceptable for invites to be the only mechanism to join Profile A. For multiplayer game sessions that only support joining the session via matchmaking (e.g. ranked matches), it is acceptable to not support joining via Game Bar. Titles which offer cross platform multiplayer with Xbox consoles must enable joins through the Game Bar experience.
+
+**Pass Examples**
+>1. Both profiles are placed into the game experience together.
+>2. User B is able to join user A’s game and progress into the game experience together.
+>3. User A does not appear as joinable in Game Bar because the game only supports private multiplayer sessions, however user A can send user B a game invitation via Game Bar.
+>4. User A does not appear as joinable and is unable to send game invites via Game Bar while participating in a session that only supports joining via matchmaking (e.g. ranked matches).
+
+**Fail Examples**
+>1. User B is not able to successfully join User A’s game and is not placed in the game experience.
+>2. User A does not appear as joinable in Game Bar because the game only supports private multiplayer sessions, and user A cannot send user B a game invitation via Game Bar.
+
+**064-05 Non-Joinable Game**
+
+**Configuration: 3 Xbox Live Profiles each signed into a different devices**
 >* Device 1 Profile A - Friends with Profiles B & C
 >* Device 2 Profile B - Friends with Profile A
->* Device 3 Profile C - Friends with Profile A  
->
->**Test Steps**  
+>* Device 3 Profile C - Friends with Profile A
+
+**Test Steps**
 >1. Using Profile A, launch the title and create a joinable game session.
 >2. Using Profile A, invite profiles B and C to the game.
 >3. Using Profile A, enter a game session so there is only one remaining slot after A joins.
 >4. Using Profile B, accept the invite.
 >5. Confirm Profiles A & B are playing together.
->6. Using Profile C, accept the invite and attempt to join the game session.  
->
->**Expected Result**  
->Profile C is asked to wait until the next opportunity to jump in or Profile C is messaged the reason for the failure to join the game session.  
->
->**Pass Examples**  
-> 1. Profile C is asked to wait until the next opportunity to jump in.
->2. Profile C is messaged the reason for the failure to join the game session.  
->
->**Fail Examples**  
-> 1. Profile C is not asked to wait until the next opportunity to jump in and Profile C is not messaged for the failure to join.  
+>6. Using Profile C, accept the invite and attempt to join the game session.
+
+**Expected Result**
+>Profile C is asked to wait until the next opportunity to jump in or Profile C is messaged the reason for the failure to join the game session.
+
+**Pass Examples**
+>1. Profile C is asked to wait until the next opportunity to jump in.
+>2. Profile C is messaged the reason for the failure to join the game session.
+
+**Fail Examples**
+>1. Profile C is not asked to wait until the next opportunity to jump in and Profile C is not messaged for the failure to join. 
 
 <br />
 
