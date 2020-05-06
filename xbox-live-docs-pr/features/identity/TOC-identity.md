@@ -5,3 +5,5 @@
 ## live-single-point-of-presence.md
 
 ## _include_ privileges/TOC-id-privileges.md
+
+## _include_ privacy/TOC-id-privacy.md

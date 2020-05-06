@@ -681,6 +681,16 @@
             "redirect_url": "/gaming/xbox-live/features/identity/privileges/config/live-privileges-config",
             "redirect_document_id": true
         },
+        // {
+        //     "source_path": "xbox-live-docs-pr/__.md",
+        //     "redirect_url": "/gaming/xbox-live/features/identity/privacy/live-privacy-permissions-nav",
+        //     "redirect_document_id": true
+        // },
+        // {
+        //     "source_path": "xbox-live-docs-pr/__.md",
+        //     "redirect_url": "/gaming/xbox-live/features/identity/privacy/live-privacy-overview.md",
+        //     "redirect_document_id": true
+        // },
         {
             "source_path": "xbox-live-docs-pr/data-platform/player-data_nav.md",
             "redirect_url": "/gaming/xbox-live/features/player-data/live-playerdata-nav",
