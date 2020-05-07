@@ -1,6 +1,6 @@
 ---
 title: Privacy and Permissions
-description: Privacy and Permissions.
+description: Protects users by respecting their preferences and providing the social experiences they want.
 kindex: Privacy and Permissions
 kindex: Permissions and Privacy
 ms.topic: navigation
