@@ -18,7 +18,7 @@ Troubleshoot Xbox Live development, such as by logging responses, checking the d
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Troubleshooting Xbox Live Services APIs](live-troubleshooting-apis.md) | Hooking up the response logger and enabling debug tracing. |
 | [Troubleshooting Xbox Live setup on Windows 10 PC](live-troubleshooting-pc-setup.md) | Ensuring that your Windows 10 PC is set up as an Xbox Live development environment. |

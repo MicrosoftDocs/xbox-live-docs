@@ -15,6 +15,6 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Setting up Web Services at Partner Center](live-web-services.md) | Creating a Web service for an Xbox Live-enabled app. |

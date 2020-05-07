@@ -17,6 +17,6 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Configuring title-managed Achievements in Partner Center](live-achievements-tm-config.md) | Configuring Achievements in Partner Center, to deliver rewards. |

@@ -17,8 +17,8 @@ Setting up Unity targeting Windows 10 to use the Xbox Live SDK, for Creators.
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Configuring Xbox Live in Unity](live-configure-xbl-in-unity.md) | Use the Xbox Live Unity plugin to configure Xbox Live in your Unity game. |
 | [Signing into Xbox Live in Unity](signin/live-unity-signin-nav.md) | Signing into Xbox Live in Unity. |
 | [Testing a Unity game build in Visual Studio](live-test-vstudio-build.md) | Checklist for testing Unity builds in Visual Studio. |

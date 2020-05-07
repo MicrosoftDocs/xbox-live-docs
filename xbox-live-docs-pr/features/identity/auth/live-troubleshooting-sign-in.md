@@ -15,12 +15,13 @@ There are several issues that can cause difficulty signing-in.
 To minimize the chance of unexpected errors, do the steps in [Getting started using Visual Studio for UWP games](../../../get-started/setup-ide/managed-partners/vstudio-win10/live-get-started-vstudio-uwp.md).
 
 
-## Common Issues
+## Common issues
 
 
-### Sandbox Problems
+### Sandbox problems
 
-You should familiarize yourself with the concept of [Sandboxes](../../../test-release/sandboxes/live-sandboxes-nav.md) and how they pertain to Xbox Live.
+You should familiarize yourself with the concept of sandboxes and how they pertain to Xbox Live.
+See [Xbox Live Sandboxes overview](../../../test-release/sandboxes/live-setup-sandbox.md).
 
 Sandboxes enforce content isolation and access control before retail release.
 Users without access to your development sandbox cannot perform any read or write operations that pertain to your title.

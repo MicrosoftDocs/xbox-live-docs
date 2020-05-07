@@ -15,7 +15,7 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Configuring Rich Presence strings](live-presence-config.md) | Configuring Rich Presence strings. |
 | [Configuring Rich Presence strings in Partner Center](live-presence-config2.md) | Configuring Rich Presence strings in Partner Center, to show what a user is currently doing within a game. |

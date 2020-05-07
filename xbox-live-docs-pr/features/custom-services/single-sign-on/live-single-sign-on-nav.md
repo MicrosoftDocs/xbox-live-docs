@@ -20,6 +20,6 @@ This lets a player that is signed into Xbox Live run an app or game for your ser
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Configuring single sign-on in Partner Center, for Managed Partners](live-single-sign-on.md) | Configuring single sign-on in Partner Center to allow a title to sign a user into your services by using their Xbox Live ID. |

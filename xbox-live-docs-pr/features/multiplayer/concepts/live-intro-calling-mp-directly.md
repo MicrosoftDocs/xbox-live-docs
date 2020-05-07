@@ -17,7 +17,7 @@ ms.date: 04/04/2017
 
 | Note |
 |---|
-| This article is for advanced API usage, by calling Multiplayer APIs directly.  As a starting point, try using [Multiplayer Manager](../mpm/live-multiplayer-manager-nav.md) instead, which significantly simplifies development.  Please let your DAM know if you find an unsupported scenario in the Multiplayer Manager. |
+| This article is for advanced API usage, by calling Multiplayer APIs directly.  As a starting point, try using [Multiplayer Manager](../mpm/live-multiplayer-manager-overview.md) instead, which significantly simplifies development.  Please let your DAM know if you find an unsupported scenario in the Multiplayer Manager. |
 
 
 ## About the Multiplayer System
@@ -46,7 +46,7 @@ Multiplayer is a system that consists of multiple components.
 Multiplayer session directory (MPSD) is a service that holds a collection of sessions.
 A session is defined as a secure document residing in the cloud and representing a group of people playing a game.
 
-For MPSD details, see [Multiplayer Session Directory (MPSD)](../mpsd/live-mpsd-nav.md).
+For MPSD details, see [Multiplayer Session Directory overview](../mpsd/live-mpsd-overview.md).
 
 
 #### Multiplayer APIs
@@ -86,7 +86,7 @@ For details about Xbox secure sockets, see **Networking Overviews**.
 #### Xbox Live Real-time Activity Service
 
 2015 Multiplayer uses the **real-time activity service** to allow titles to subscribe to MPSD session changes, and enable automatic detection of client disconnects.
-More information is provided in [Real-Time Activity (RTA) service](../../rta/live-rta-nav.md).
+More information is provided in [Real-Time Activity service overview](../../general/rta/live-real-time-activity-service-overview.md).
 
 
 #### Xbox Live Matchmaking Service

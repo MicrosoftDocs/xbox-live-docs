@@ -15,8 +15,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Connected Storage Overview](live-connected-storage-overview.md) | Connected Storage saves and loads gameplay data and other state data across devices. Title data is stored locally and also synced to the cloud. |
 | [Saving data with Connected Storage](how-to/live-connected-storage-saving.md) | Code examples using Connected Storage to save gameplay data. |
 | [Loading data with Connected Storage](how-to/live-connected-storage-loading.md) | Code examples using Connected Storage to save gameplay data. |
@@ -30,4 +30,4 @@ ms.date: 11/01/2019
 
 ### See also
 
-* [Xbox Live Samples](../../../api-ref/live-samples.md)
+* [Xbox Live samples](../../general/samples/live-samples.md)

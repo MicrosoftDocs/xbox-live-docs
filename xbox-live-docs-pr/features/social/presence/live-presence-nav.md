@@ -18,8 +18,8 @@ If you write code to use *Rich Presence*, the Rich Presence string also indicate
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Rich Presence overview](live-presence-overview.md) | Rich Presence shows what activity a user is currently doing, in which area of the game. |
 | [Rich Presence concepts](concepts/live-presence-concepts-nav.md) | Concepts about Rich Presence strings. |
 | [Rich Presence portal config](config/live-presence-config-nav.md) | Configuring Rich Presence strings at Partner Center. |

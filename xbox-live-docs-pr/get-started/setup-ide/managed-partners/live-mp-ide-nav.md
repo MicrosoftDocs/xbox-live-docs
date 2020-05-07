@@ -17,8 +17,8 @@ Prerequisite: Set up a game at Partner Center; see [Getting Started](../../live-
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Android Studio targeting Android](astudio-android/live-mp-astudio-android-nav.md) | Setting up Android Studio targeting Android to use the Xbox Live SDK, for Managed Partners. |
 | [Xcode targeting iOS](xcode-ios/live-mp-xcode-ios-nav.md) | Setting up Xcode targeting iOS to use the Xbox Live SDK, for Managed Partners. |
 | [Visual Studio targeting Windows 10](vstudio-win10/live-mp-vstudio-win10-nav.md) | Setting up Visual Studio targeting Windows 10 to use the Xbox Live SDK, for Managed Partners. |

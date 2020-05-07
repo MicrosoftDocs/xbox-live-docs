@@ -1,6 +1,6 @@
 ---
 title: Multiplayer session browse
-description: Multiplayer session browse enables a title to query for a list of open multiplayer game sessions that meet the specified criteria.
+description: Enables a title to query for a list of open multiplayer game sessions that meet the specified criteria.
 kindex: Multiplayer session browse
 kindex: session browse, multiplayer
 ms.topic: conceptual

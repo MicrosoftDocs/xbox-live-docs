@@ -15,7 +15,7 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Social Manager overview](live-social-manager-overview.md) | The Xbox Live Social Manager API simplifies keeping track of online friends and their gaming activity. |
 | [Social Manager concepts](concepts/live-socmgr-concepts-nav.md) | Conceptual articles about the Xbox Live Social Manager API. |

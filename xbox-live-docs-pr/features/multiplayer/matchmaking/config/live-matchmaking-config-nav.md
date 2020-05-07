@@ -15,6 +15,6 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Configuring Matchmaking in Partner Center](live-matchmaking-config.md) | Configuring Partner Center to select compatible players. |

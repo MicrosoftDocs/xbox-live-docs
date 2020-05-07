@@ -437,6 +437,166 @@
             "redirect_document_id": true
         },
         {
+            "source_path": "xbox-live-docs-pr/whats-new/whats-new.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/live-whats-new-nav",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/whats-new/live-whats-new-nav.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/live-whats-new-nav",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/whats-new/live-whats-new.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/live-whats-new",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/whats-new/1703-whats-new.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/live-whats-new",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/whats-new/1704-whats-new.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/live-whats-new",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/whats-new/1705-whats-new.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/live-whats-new",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/whats-new/1706-whats-new.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/live-whats-new",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/whats-new/1707-whats-new.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/live-whats-new",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/whats-new/1708-whats-new.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/live-whats-new",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/whats-new/archived/live-whats-new-archived-nav.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-archived-nav",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/whats-new/1612-whats-new.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1612",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/whats-new/archived/live-whats-new-1612.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1612",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/whats-new/1611-whats-new.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1611",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/whats-new/archived/live-whats-new-1611.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1611",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/whats-new/1608-whats-new.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1608",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/whats-new/archived/live-whats-new-1608.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1608",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/whats-new/1606-whats-new.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1606",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/whats-new/archived/live-whats-new-1606.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1606",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/whats-new/1604-whats-new.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1604",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/whats-new/archived/live-whats-new-1604.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1604",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/whats-new/1603-whats-new.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1603",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/whats-new/archived/live-whats-new-1603.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1603",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/whats-new/1602-whats-new.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1602",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/whats-new/archived/live-whats-new-1602.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1602",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/whats-new/1510-whats-new.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1510",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/whats-new/archived/live-whats-new-1510.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1510",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/whats-new/1509-whats-new.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1509",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/whats-new/archived/live-whats-new-1509.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1509",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/whats-new/1508-whats-new.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1508",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/whats-new/archived/live-whats-new-1508.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1508",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/whats-new/1506-whats-new.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1506",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/whats-new/archived/live-whats-new-1506.md",
+            "redirect_url": "/gaming/xbox-live/get-started/whats-new/archived/live-whats-new-1506",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "xbox-live-docs-pr/features/features_nav.md",
             "redirect_url": "/gaming/xbox-live/features/live-features-nav",
             "redirect_document_id": true
@@ -1563,143 +1723,93 @@
         // },
         {
             "source_path": "xbox-live-docs-pr/features/tcui/tcui_nav.md",
-            "redirect_url": "/gaming/xbox-live/features/tcui/live-tcui-nav",
+            "redirect_url": "/gaming/xbox-live/features/general/tcui/live-tcui-nav",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/tcui/live-tcui-nav.md",
+            "redirect_url": "/gaming/xbox-live/features/general/tcui/live-tcui-overview",
             "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/real-time-activity-service/real-time-activity-service_nav.md",
-            "redirect_url": "/gaming/xbox-live/features/rta/live-rta-nav",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/live-rta-nav",
             "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/rta/live-rta-nav.md",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/live-rta-nav",
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/real-time-activity-service/real-time-activity-service.md",
-            "redirect_url": "/gaming/xbox-live/features/rta/live-real-time-activity-service-overview",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/live-real-time-activity-service-overview",
             "redirect_document_id": true
         },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/features/rta/concepts/live-rta-concepts-nav",
-        //     "redirect_document_id": true
-        // },
+        {
+            "source_path": "xbox-live-docs-pr/features/rta/live-real-time-activity-service-overview.md",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/live-real-time-activity-service-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/rta/concepts/live-rta-concepts-nav.md",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/concepts/live-rta-concepts-nav",
+            "redirect_document_id": true
+        },
         {
             "source_path": "xbox-live-docs-pr/real-time-activity-service/register-for-stat-notifications.md",
-            "redirect_url": "/gaming/xbox-live/features/rta/concepts/live-register-for-stat-notifications",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/concepts/live-register-for-stat-notifications",
             "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/rta/concepts/live-register-for-stat-notifications.md",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/concepts/live-register-for-stat-notifications",
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/real-time-activity-service/rta-best-practices.md",
-            "redirect_url": "/gaming/xbox-live/features/rta/concepts/live-rta-best-practices",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/concepts/live-rta-best-practices",
             "redirect_document_id": true
         },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/features/rta/how-to/live-rta-howto-nav",
-        //     "redirect_document_id": true
-        // },
+        {
+            "source_path": "xbox-live-docs-pr/features/rta/concepts/live-rta-best-practices.md",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/concepts/live-rta-best-practices",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/features/rta/how-to/live-rta-howto-nav.md",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/how-to/live-rta-howto-nav",
+            "redirect_document_id": true
+        },
         {
             "source_path": "xbox-live-docs-pr/real-time-activity-service/programming-the-real-time-activity-service.md",
-            "redirect_url": "/gaming/xbox-live/features/rta/how-to/live-programming-rta",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/how-to/live-programming-rta",
             "redirect_document_id": true
         },
         {
-            "source_path": "xbox-live-docs-pr/whats-new/whats-new.md",
-            "redirect_url": "/gaming/xbox-live/features/whats-new/live-whats-new-nav",
-            "redirect_document_id": true
-        },
-        {
-            "source_path": "xbox-live-docs-pr/whats-new/1703-whats-new.md",
-            "redirect_url": "/gaming/xbox-live/features/whats-new/live-whats-new",
-            "redirect_document_id": true
-        },
-        {
-            "source_path": "xbox-live-docs-pr/whats-new/1704-whats-new.md",
-            "redirect_url": "/gaming/xbox-live/features/whats-new/live-whats-new",
+            "source_path": "xbox-live-docs-pr/features/rta/how-to/live-programming-rta.md",
+            "redirect_url": "/gaming/xbox-live/features/general/rta/how-to/live-programming-rta",
             "redirect_document_id": false
         },
         {
-            "source_path": "xbox-live-docs-pr/whats-new/1705-whats-new.md",
-            "redirect_url": "/gaming/xbox-live/features/whats-new/live-whats-new",
+            "source_path": "xbox-live-docs-pr/samples.md",
+            "redirect_url": "/gaming/xbox-live/features/general/samples/live-samples",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/api-ref/live-samples.md",
+            "redirect_url": "/gaming/xbox-live/features/general/samples/live-samples",
             "redirect_document_id": false
-        },
-        {
-            "source_path": "xbox-live-docs-pr/whats-new/1706-whats-new.md",
-            "redirect_url": "/gaming/xbox-live/features/whats-new/live-whats-new",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "xbox-live-docs-pr/whats-new/1707-whats-new.md",
-            "redirect_url": "/gaming/xbox-live/features/whats-new/live-whats-new",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "xbox-live-docs-pr/whats-new/1708-whats-new.md",
-            "redirect_url": "/gaming/xbox-live/features/whats-new/live-whats-new",
-            "redirect_document_id": false
-        },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/features/whats-new/archived/live-whats-new-archived-nav",
-        //     "redirect_document_id": true
-        // },
-        {
-            "source_path": "xbox-live-docs-pr/whats-new/1612-whats-new.md",
-            "redirect_url": "/gaming/xbox-live/features/whats-new/archived/live-whats-new-1612",
-            "redirect_document_id": true
-        },
-        {
-            "source_path": "xbox-live-docs-pr/whats-new/1611-whats-new.md",
-            "redirect_url": "/gaming/xbox-live/features/whats-new/archived/live-whats-new-1611",
-            "redirect_document_id": true
-        },
-        {
-            "source_path": "xbox-live-docs-pr/whats-new/1608-whats-new.md",
-            "redirect_url": "/gaming/xbox-live/features/whats-new/archived/live-whats-new-1608",
-            "redirect_document_id": true
-        },
-        {
-            "source_path": "xbox-live-docs-pr/whats-new/1606-whats-new.md",
-            "redirect_url": "/gaming/xbox-live/features/whats-new/archived/live-whats-new-1606",
-            "redirect_document_id": true
-        },
-        {
-            "source_path": "xbox-live-docs-pr/whats-new/1604-whats-new.md",
-            "redirect_url": "/gaming/xbox-live/features/whats-new/archived/live-whats-new-1604",
-            "redirect_document_id": true
-        },
-        {
-            "source_path": "xbox-live-docs-pr/whats-new/1603-whats-new.md",
-            "redirect_url": "/gaming/xbox-live/features/whats-new/archived/live-whats-new-1603",
-            "redirect_document_id": true
-        },
-        {
-            "source_path": "xbox-live-docs-pr/whats-new/1602-whats-new.md",
-            "redirect_url": "/gaming/xbox-live/features/whats-new/archived/live-whats-new-1602",
-            "redirect_document_id": true
-        },
-        {
-            "source_path": "xbox-live-docs-pr/whats-new/1510-whats-new.md",
-            "redirect_url": "/gaming/xbox-live/features/whats-new/archived/live-whats-new-1510",
-            "redirect_document_id": true
-        },
-        {
-            "source_path": "xbox-live-docs-pr/whats-new/1509-whats-new.md",
-            "redirect_url": "/gaming/xbox-live/features/whats-new/archived/live-whats-new-1509",
-            "redirect_document_id": true
-        },
-        {
-            "source_path": "xbox-live-docs-pr/whats-new/1508-whats-new.md",
-            "redirect_url": "/gaming/xbox-live/features/whats-new/archived/live-whats-new-1508",
-            "redirect_document_id": true
-        },
-        {
-            "source_path": "xbox-live-docs-pr/whats-new/1506-whats-new.md",
-            "redirect_url": "/gaming/xbox-live/features/whats-new/archived/live-whats-new-1506",
-            "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/releasing/releasing_nav.md",
             "redirect_url": "/gaming/xbox-live/test-release/live-test-release-nav",
             "redirect_document_id": true
+        },
+        {
+            "source_path": "xbox-live-docs-pr/test-release/services/live-services-nav.md",
+            "redirect_url": "/gaming/xbox-live/test-release/live-test-release-nav",
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/xbox-live-resources.md",
@@ -1811,104 +1921,144 @@
             "redirect_url": "/gaming/xbox-live/test-release/troubleshooting/live-troubleshooting-pc-setup",
             "redirect_document_id": true
         },
-        // {
-        //     "source_path": "xbox-live-docs-pr/__.md",
-        //     "redirect_url": "/gaming/xbox-live/test-release/services/live-services-nav",
-        //     "redirect_document_id": true
-        // },
         {
             "source_path": "xbox-live-docs-pr/using-xbox-live/best-practices/best-practices_nav.md",
-            "redirect_url": "/gaming/xbox-live/test-release/services/best-practices/live-best-practices-nav",
+            "redirect_url": "/gaming/xbox-live/test-release/best-practices/live-best-practices-nav",
             "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/test-release/services-tools/best-practices/live-best-practices-nav.md",
-            "redirect_url": "/gaming/xbox-live/test-release/services/best-practices/live-best-practices-nav",
+            "redirect_url": "/gaming/xbox-live/test-release/best-practices/live-best-practices-nav",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/test-release/services/best-practices/live-best-practices-nav.md",
+            "redirect_url": "/gaming/xbox-live/test-release/best-practices/live-best-practices-nav",
             "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/using-xbox-live/best-practices/best-practices-for-calling-xbox-live.md",
-            "redirect_url": "/gaming/xbox-live/test-release/services/best-practices/live-best-practices-calling-xbl",
+            "redirect_url": "/gaming/xbox-live/test-release/best-practices/live-best-practices-calling-xbl",
             "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/test-release/services-tools/best-practices/live-best-practices-calling-xbl.md",
-            "redirect_url": "/gaming/xbox-live/test-release/services/best-practices/live-best-practices-calling-xbl",
+            "redirect_url": "/gaming/xbox-live/test-release/best-practices/live-best-practices-calling-xbl",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/test-release/services/best-practices/live-best-practices-calling-xbl.md",
+            "redirect_url": "/gaming/xbox-live/test-release/best-practices/live-best-practices-calling-xbl",
             "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/using-xbox-live/best-practices/fine-grained-rate-limiting.md",
-            "redirect_url": "/gaming/xbox-live/test-release/services/best-practices/live-fine-grained-rate-limiting",
+            "redirect_url": "/gaming/xbox-live/test-release/best-practices/live-fine-grained-rate-limiting",
             "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/test-release/services-tools/best-practices/live-fine-grained-rate-limiting.md",
-            "redirect_url": "/gaming/xbox-live/test-release/services/best-practices/live-fine-grained-rate-limiting",
+            "redirect_url": "/gaming/xbox-live/test-release/best-practices/live-fine-grained-rate-limiting",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/test-release/services/best-practices/live-fine-grained-rate-limiting.md",
+            "redirect_url": "/gaming/xbox-live/test-release/best-practices/live-fine-grained-rate-limiting",
             "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/using-xbox-live/best-practices/best-practices-for-offline.md",
-            "redirect_url": "/gaming/xbox-live/test-release/services/best-practices/live-best-practices-offline-play",
+            "redirect_url": "/gaming/xbox-live/test-release/best-practices/live-best-practices-offline-play",
             "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/test-release/services-tools/best-practices/live-best-practices-offline-play.md",
-            "redirect_url": "/gaming/xbox-live/test-release/services/best-practices/live-best-practices-offline-play",
+            "redirect_url": "/gaming/xbox-live/test-release/best-practices/live-best-practices-offline-play",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/test-release/services/best-practices/live-best-practices-offline-play.md",
+            "redirect_url": "/gaming/xbox-live/test-release/best-practices/live-best-practices-offline-play",
             "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/using-xbox-live/error-handling/error-handling.md",
-            "redirect_url": "/gaming/xbox-live/test-release/services/error-handling/live-error-handling-nav",
+            "redirect_url": "/gaming/xbox-live/test-release/error-handling/live-error-handling-nav",
             "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/using-xbox-live/error-handling/error-handling_nav.md",
-            "redirect_url": "/gaming/xbox-live/test-release/services/error-handling/live-error-handling-nav",
+            "redirect_url": "/gaming/xbox-live/test-release/error-handling/live-error-handling-nav",
             "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/test-release/services-tools/error-handling/live-error-handling-nav.md",
-            "redirect_url": "/gaming/xbox-live/test-release/services/error-handling/live-error-handling-nav",
+            "redirect_url": "/gaming/xbox-live/test-release/error-handling/live-error-handling-nav",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/test-release/services/error-handling/live-error-handling-nav.md",
+            "redirect_url": "/gaming/xbox-live/test-release/error-handling/live-error-handling-nav",
             "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/using-xbox-live/error-handling/types-of-error-handling.md",
-            "redirect_url": "/gaming/xbox-live/test-release/services/error-handling/live-types-of-error-handling",
+            "redirect_url": "/gaming/xbox-live/test-release/error-handling/live-types-of-error-handling",
             "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/test-release/services-tools/error-handling/live-types-of-error-handling.md",
-            "redirect_url": "/gaming/xbox-live/test-release/services/error-handling/live-types-of-error-handling",
+            "redirect_url": "/gaming/xbox-live/test-release/error-handling/live-types-of-error-handling",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/test-release/services/error-handling/live-types-of-error-handling.md",
+            "redirect_url": "/gaming/xbox-live/test-release/error-handling/live-types-of-error-handling",
             "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/using-xbox-live/error-handling/error-handling-cpp.md",
-            "redirect_url": "/gaming/xbox-live/test-release/services/error-handling/live-error-handling-cpp",
+            "redirect_url": "/gaming/xbox-live/test-release/error-handling/live-error-handling-cpp",
             "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/test-release/services-tools/error-handling/live-error-handling-cpp.md",
-            "redirect_url": "/gaming/xbox-live/test-release/services/error-handling/live-error-handling-cpp",
+            "redirect_url": "/gaming/xbox-live/test-release/error-handling/live-error-handling-cpp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/test-release/services/error-handling/live-error-handling-cpp.md",
+            "redirect_url": "/gaming/xbox-live/test-release/error-handling/live-error-handling-cpp",
             "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/using-xbox-live/error-handling/error-handling-winrt.md",
-            "redirect_url": "/gaming/xbox-live/test-release/services/error-handling/live-error-handling-winrt",
+            "redirect_url": "/gaming/xbox-live/test-release/error-handling/live-error-handling-winrt",
             "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/test-release/services-tools/error-handling/live-error-handling-winrt.md",
-            "redirect_url": "/gaming/xbox-live/test-release/services/error-handling/live-error-handling-winrt",
+            "redirect_url": "/gaming/xbox-live/test-release/error-handling/live-error-handling-winrt",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/test-release/services/error-handling/live-error-handling-winrt.md",
+            "redirect_url": "/gaming/xbox-live/test-release/error-handling/live-error-handling-winrt",
             "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/using-xbox-live/porting-xbox-live-code-from-xdk-to-uwp.md",
-            "redirect_url": "/gaming/xbox-live/test-release/services/live-port-xbl-code-from-xdk-to-uwp",
+            "redirect_url": "/gaming/xbox-live/test-release/live-port-xbl-code-from-xdk-to-uwp",
             "redirect_document_id": true
         },
         {
             "source_path": "xbox-live-docs-pr/test-release/services-tools/live-port-xbl-code-from-xdk-to-uwp.md",
-            "redirect_url": "/gaming/xbox-live/test-release/services/live-port-xbl-code-from-xdk-to-uwp",
+            "redirect_url": "/gaming/xbox-live/test-release/live-port-xbl-code-from-xdk-to-uwp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "xbox-live-docs-pr/test-release/services/live-port-xbl-code-from-xdk-to-uwp.md",
+            "redirect_url": "/gaming/xbox-live/test-release/live-port-xbl-code-from-xdk-to-uwp",
             "redirect_document_id": false
         },
         {
@@ -3819,11 +3969,6 @@
         {
             "source_path": "xbox-live-docs-pr/xbox-live-rest/additional/httpstatuscodes.md",
             "redirect_url": "/gaming/xbox-live/api-ref/xbox-live-rest/additional/httpstatuscodes",
-            "redirect_document_id": true
-        },
-        {
-            "source_path": "xbox-live-docs-pr/samples.md",
-            "redirect_url": "/gaming/xbox-live/api-ref/live-samples",
             "redirect_document_id": true
         },
         // orphans; not in current TOC:

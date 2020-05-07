@@ -15,8 +15,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Setting up an IDE, for Creators](creators/live-creators-ide-nav.md) | Setting up an IDE to use the Xbox Live SDK, for Creators.  |
 | [Setting up an IDE, for Managed Partners](managed-partners/live-mp-ide-nav.md) | Setting up an IDE to use the Xbox Live SDK, for Managed Partners. |
 
