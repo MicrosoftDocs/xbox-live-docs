@@ -1,10 +1,13 @@
 ---
-title: XR-064 Joinable Game Sessions and Online Play
+title: "XR-064: Joinable Game Sessions and Online Play"
 description: On devices other than Xbox consoles, titles which offer cross platform multiplayer with Xbox consoles must enable joins through the Game Bar experience.
-ms.date: 03/18/2019
+kindex: "XR-064: Joinable Game Sessions and Online Play"
+kindex: policies
 ms.topic: article
-keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
+author: mwester
+ms.author: mwester
+ms.date: 03/18/2019
 ---
 
 # XR-064: Joinable Game Sessions and Online Play &diams;
@@ -17,7 +20,6 @@ On devices other than Xbox consoles, titles which offer cross platform multiplay
 ## More Information
 If a user is in a joinable multiplayer or co-op experience, titles must enable platform joins. A joinable multiplayer experience is one where players can intentionally play together. Examples include, but are not limited to, directly joining another player, sending and receiving invites, private lobbies and password-protected experiences.  If a user is no longer in an experience that supports joining, the user must not appear as available for joining.
 
-
 When a user joins a game session but the experience is no longer joinable by that user for any reason, the title can choose to either:
 * Ask the user to wait until the next opportunity to jump in.
 * Give the user a clear message explaining the reason for the join failure.
@@ -25,7 +27,7 @@ When a user joins a game session but the experience is no longer joinable by tha
 
 ## Implementation Guidance and Best Practices
 
-Titles are highly encouraged to use the 2015 Multiplayer API flows, and must utilize the activity handle for correctly advertising joinability in the Xbox shell interface. For information about properly setting and clearing the activity handle, see the XDK documentation. 
+Titles are highly encouraged to use the 2015 Multiplayer API flows, and must utilize the activity handle for correctly advertising joinability in the Xbox shell interface. For information about properly setting and clearing the activity handle, see the XDK documentation.
 
 See also the Xbox One Multiplayer 2015 Developer Flowchart, available for download for Xbox console developers on the Game Developer Network, or for Xbox on Windows 10 developers on the forums.
 

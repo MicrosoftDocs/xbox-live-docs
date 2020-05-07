@@ -27,6 +27,8 @@ In support of the the complete list of [Xbox Live Policies for PC and mobile](..
 | [XR-045: Xbox Live and Account Privileges](live-pc-xr045.md) | Titles must check whether the active user has certain privileges before completing certain actions. |
 | [XR-048: Profile Settings Usage](live-pc-xr048.md) | Games must not store user information sourced from Xbox Live, such as profile data, preferences, or display names. |
 | [XR-062: Achievement Names and Descriptions](live-pc-xr062.md) | Achievement names and descriptions may contain only content that would merit a rating of PEGI 12, ESRB EVERYONE 10+, or lower. |
+| [XR-064: Joinable Game Sessions and Online Play](live-pc-xr064.md) | On devices other than Xbox consoles, titles which offer cross platform multiplayer with Xbox consoles must enable joins through the Game Bar experience. |
+| [XR-067: Maintaining Multiplayer Session State](live-pc-xr067.md) | Online multiplayer console titles, and non-console titles which offer cross-platform multiplayer functionality with consoles, must maintain session-state information in MPSD. |
 | [XR-074: Loss of Connectivity to Xbox and Partner Services](live-pc-xr074.md) | Titles must resolve errors with Xbox Live and partner services connectivity. |
 | [XR-132: Service Access Limitations](live-pc-xr132.md) | Titles which exceed limits when calling Xbox Live services, or do not adhere to retry policies, may be subjected to rate limiting. |
 
