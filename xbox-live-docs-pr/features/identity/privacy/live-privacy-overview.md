@@ -1,7 +1,7 @@
 ---
-title: Privacy and permissions overview
+title: Privacy and Permissions overview
 description: The Xbox Live Privacy service protects users by respecting their preferences and providing the social experiences they want.
-kindex: Privacy and permissions overview
+kindex: Privacy and Permissions overview
 author: v-mihof
 ms.author: v-mihof
 ms.topic: conceptual
@@ -12,7 +12,7 @@ edited: 00/00/0000
 security: linked
 ---
 
-# Privacy and permissions overview
+# Privacy and Permissions overview
 
 The Xbox Live Privacy service protects users by respecting their preferences and providing the social experiences they want.
 The Privacy service supports permission checking, Mute lists, and Avoid lists through both an XSAPI API and a REST API.

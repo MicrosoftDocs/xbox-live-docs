@@ -19,7 +19,7 @@ edited: 00/00/0000
 
 |     |     |
 | --- | --- |
-| [Privacy and permissions overview](live-privacy-overview.md) | The Xbox Live Privacy service protects users by respecting their preferences and providing the social experiences they want. |
+| [Privacy and Permissions overview](live-privacy-overview.md) | The Xbox Live Privacy service protects users by respecting their preferences and providing the social experiences they want. |
 
 
 ### See also
