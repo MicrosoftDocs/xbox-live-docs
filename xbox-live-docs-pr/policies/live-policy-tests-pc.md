@@ -544,7 +544,8 @@ On devices other than Xbox consoles, titles which offer cross platform multiplay
 **Test Steps**
 >1. Using Profile A, launch the title and create a joinable game session within the title.
 >2. Using Profile B, launch the same title and enter some experience within the title.
->3. Using Profile B, join Profile A’s game via Game Bar. (It is possible that some games may only support private multiplayer sessions and therefore do not appear as joinable for Profile B, in which case please jump to step [5].)
+>3. Using Profile B, join Profile A’s game via Game Bar.
+>* It is possible that some games may only support private multiplayer sessions and therefore do not appear as joinable for Profile B, in which case please jump to step [5].
 >4. Confirm that both profiles are placed into the game experience together.
 >5. Repeat steps [1] – [4] but this time instead of Profile B joining through Game Bar, have Profile A send a game invite via Game Bar to Profile B and make sure Profile B can receive, accept, and join Profile A.
 
