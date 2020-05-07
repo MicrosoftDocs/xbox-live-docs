@@ -74,7 +74,7 @@ See also the Xbox One Multiplayer 2015 Developer Flowchart, available for downlo
 >3. Using Profile B, join Profile A’s game via Game Bar.
     >* It is possible that some games may only support private multiplayer sessions and therefore do not appear as joinable for Profile B, in which case please jump to step [5].
 >4. Confirm that both profiles are placed into the game experience together.
->5. Repeat steps [1] – [4] but this time instead of Profile B joining through Game Bar, have Profile A send a game invite via Game Bar to Profile B and make sure Profile B can receive, accept, and join Profile A.
+>5. Repeat steps 1 – 4 but this time instead of Profile B joining through Game Bar, have Profile A send a game invite via Game Bar to Profile B and make sure Profile B can receive, accept, and join Profile A.
 
 **Expected Result**
 >User B must be able to join user A’s game and progress into the game experience together. For games that only support private multiplayer sessions and therefore do not appear as joinable for Profile B, it is acceptable for invites to be the only mechanism to join Profile A. For multiplayer game sessions that only support joining the session via matchmaking (e.g. ranked matches), it is acceptable to not support joining via Game Bar. Titles which offer cross platform multiplayer with Xbox consoles must enable joins through the Game Bar experience.
