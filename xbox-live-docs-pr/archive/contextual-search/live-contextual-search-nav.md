@@ -19,7 +19,7 @@ Contextual Search automatically tags broadcasts and game clips with real-time st
 
 ## In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Contextual Search overview](live-contextual-search-overview.md) | Contextual Search automatically tags broadcasts and game clips with real-time stats such as ranking, current level, weapons, and K/D ratio. |
 | [Configuring Contextual Search](live-configuring-contextual-search.md) | Configuring Contextual Search to tag game clips and broadcasts. |

@@ -16,7 +16,7 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Configuring a XIM project in a manifest](live-xim-manifest.md) | Configuring your UWP app manifests to work with Xbox Integrated Multiplayer (XIM). |
 | [XIM release notes](live-xim-release-notes.md) | Release notes about Xbox Integrated Multiplayer. |

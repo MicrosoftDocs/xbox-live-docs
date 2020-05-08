@@ -15,8 +15,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Privileges portal config](config/live-privileges-config-nav.md) | Configuring privileges for Xbox Live at Partner Center. |
 
 

@@ -15,6 +15,6 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Achievement Rewards](live-achievement-rewards.md) | Configuring an achievement to deliver rewards, such as gamerscore, art, and in-app rewards. |

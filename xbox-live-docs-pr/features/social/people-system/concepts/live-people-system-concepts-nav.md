@@ -16,6 +16,6 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Displaying people from the People System](live-pplsys-displaying-people.md) | The code flow to display people by using the People System. |

@@ -17,7 +17,7 @@ Setting up Xcode targeting iOS to use the Xbox Live SDK, for Managed Partners.
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Setting up Xcode targeting iOS](live-xcode-ios-mp.md) | Setting up Xcode targeting iOS to use the Xbox Live SDK, for Managed Partners. |
 | [Other articles about Xcode targeting iOS](other/live-mp-xcode-ios-other-nav.md) | Articles about Xcode targeting iOS, other than initial IDE setup, for Managed Partners. |

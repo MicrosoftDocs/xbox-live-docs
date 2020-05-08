@@ -18,8 +18,8 @@ Configuring Xbox Live services for your game.
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Portal configuration overview](live-portal-config-overview.md) | Configuring Xbox Live services at Partner Center. |
 | [Summary page for Xbox Live configuration](live-portal-summary-tab.md) | Using the Summary tab in Partner Center. |
 | [Configuring Xbox Live Setup in Partner Center](live-config-xbl-setup.md) | Configuring Xbox Live Setup at Partner Center. |

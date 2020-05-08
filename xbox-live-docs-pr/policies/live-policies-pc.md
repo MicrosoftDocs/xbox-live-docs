@@ -10,7 +10,7 @@ ms.date: 10/01/2019
 
 # Xbox Live Policies for PC and mobile
 
-Version 2.0
+Version 2.1
 
 
 ## Introduction
@@ -184,3 +184,19 @@ After an achievement has been published to users, it cannot be removed, nor can 
 Achievement names and descriptions may contain only content that would merit a rating of PEGI 12, ESRB EVERYONE 10+, or lower.
 
 Achievement names and descriptions may not contain what is commonly considered profanity in a clear text or redacted form.
+
+## **Multiplayer sessions**
+
+The requirements in this category pertain to game titles that provide multiplayer sessions on Xbox Live. Xbox Live offers a consistent and simple way to find multiplayer sessions and to fine-tune the parameters used to find those sessions.
+
+### [Joinable Game Sessions and Online Play (XR-064)](xr/live-pc-xr064.md)
+
+On Xbox consoles, titles that offer joinable game sessions must enable joinability through the Xbox shell interface. 
+
+On devices other than Xbox consoles, titles which offer cross platform multiplayer with Xbox consoles must enable joins through the Game Bar experience.
+
+### [Maintaining Multiplayer Session State (XR-067)](xr/live-pc-xr067.md)
+
+On Xbox consoles, titles with online multiplayer functionality must maintain session-state information in the Xbox Multiplayer Session Directory (MPSD). 
+
+On devices other than Xbox consoles, titles which offer cross platform multiplayer with Xbox consoles must maintain session-state information in the Xbox Multiplayer Session Directory (MPSD).

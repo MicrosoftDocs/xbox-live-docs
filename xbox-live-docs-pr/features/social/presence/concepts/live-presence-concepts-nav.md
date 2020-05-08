@@ -15,8 +15,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Best practices for Rich Presence](live-presence-best-practices.md) | Best practices for using Xbox Live Rich Presence. |
 | [Policies and limits for Rich Presence strings](live-presence-limits.md) | Policies and limits for Rich Presence strings. |
 | [Rich Presence appendix](live-presence-apx.md) | Using stats from the Player Data in Rich Presence strings. |

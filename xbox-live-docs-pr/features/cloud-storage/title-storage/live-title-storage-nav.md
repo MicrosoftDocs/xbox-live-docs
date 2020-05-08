@@ -15,8 +15,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Overview of Title Storage](live-title-storage-overview.md) | Title Storage is cloud storage for large amounts of per-user or per-game data, such as player statistics and assets. |
 | [Title Storage portal config](config/live-title-storage-config-nav.md) | Configuring Title Storage at Partner Center. |
 | [Title Storage how-tos](how-to/live-title-storage-howto-nav.md) | Example code for Title Storage. |
@@ -24,4 +24,4 @@ ms.date: 11/01/2019
 
 ### See also
 
-[Xbox Live Samples](../../../api-ref/live-samples.md)
+* [Xbox Live samples](../../general/samples/live-samples.md)

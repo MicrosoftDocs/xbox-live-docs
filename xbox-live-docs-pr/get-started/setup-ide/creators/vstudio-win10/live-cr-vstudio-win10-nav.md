@@ -17,8 +17,8 @@ Setting up Visual Studio targeting Windows 10 to use the Xbox Live SDK, for Crea
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Setting up Visual Studio targeting Windows 10](live-develop-creators-title-vstudio.md) | Setting up Visual Studio to use the Xbox Live SDK. |
 
 <!-- 

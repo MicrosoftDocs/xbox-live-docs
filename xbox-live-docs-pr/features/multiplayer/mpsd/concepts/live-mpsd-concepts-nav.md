@@ -15,8 +15,8 @@ ms.date: 11/01/2019
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Multiplayer Session advanced topics](live-mpsd-details.md) | Details about multiplayer sessions. |
 | [Service-to-service multiplayer session management](live-service-to-service.md) | Using service-to-service calling patterns with MPSD. |
 | [Game session visibility and joinability](live-game-session-visibility-joinability.md) | Visibility and joinability of multiplayer game sessions and game parties. |

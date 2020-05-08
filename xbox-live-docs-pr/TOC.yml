@@ -1,14 +1,16 @@
-- name: Xbox Live documentation
+- name: Xbox Live
   href: index.yml
   items:
     - name: Getting Started
-      href: get-started/live-getstarted-nav.md
       items:
+        - name: In this section
+          href: get-started/live-getstarted-nav.md
         - name: Xbox Live overview
           href: get-started/live-xbl-overview.md
         - name: Joining a developer program
-          href: get-started/join-dev-program/live-join-dev-program-nav.md
           items:
+            - name: In this section
+              href: get-started/join-dev-program/live-join-dev-program-nav.md
             - name: Choosing an Xbox Live developer program
               href: get-started/join-dev-program/live-dev-program-overview.md
             - name: Features supported for each developer program
@@ -18,15 +20,17 @@
             - name: Joining the ID@Xbox Program
               href: get-started/join-dev-program/live-join-id-program.md
         - name: Setting up a game at Partner Center
-          href: get-started/setup-partner-center/live-setup-partner-center-nav.md
           items:
+            - name: In this section
+              href: get-started/setup-partner-center/live-setup-partner-center-nav.md
             - name: Setting up a game at Partner Center, for Creators
               href: get-started/setup-partner-center/live-setup-partner-center-creators.md
             - name: Setting up a game at Partner Center, for Managed Partners
               href: get-started/setup-partner-center/live-setup-partner-center-partners.md
             - name: Legacy articles about Partner Center setup
-              href: get-started/setup-partner-center/legacy/live-legacy-nav.md
               items:
+                - name: In this section
+                  href: get-started/setup-partner-center/legacy/live-legacy-nav.md
                 - name: Getting started with Xbox Live, for Creators
                   href: get-started/setup-partner-center/legacy/live-get-started-creators.md
                 - name: Creating an app and publishing it for testing, for Creators
@@ -38,24 +42,29 @@
                 - name: Creating an app and publishing it for testing, for Managed Partners
                   href: get-started/setup-partner-center/legacy/live-create-new-title-partner.md
         - name: Setting up an IDE
-          href: get-started/setup-ide/live-setup-ide-nav.md
           items:
+            - name: In this section
+              href: get-started/setup-ide/live-setup-ide-nav.md
             - name: Setting up an IDE, for Creators
-              href: get-started/setup-ide/creators/live-creators-ide-nav.md
               items:
+                - name: In this section
+                  href: get-started/setup-ide/creators/live-creators-ide-nav.md
                 - name: Visual Studio targeting Windows 10
-                  href: get-started/setup-ide/creators/vstudio-win10/live-cr-vstudio-win10-nav.md
                   items:
+                    - name: In this section
+                      href: get-started/setup-ide/creators/vstudio-win10/live-cr-vstudio-win10-nav.md
                     - name: Setting up Visual Studio targeting Windows 10
                       href: get-started/setup-ide/creators/vstudio-win10/live-develop-creators-title-vstudio.md
                 - name: Unity targeting Windows 10
-                  href: get-started/setup-ide/creators/unity-win10/live-cr-unity-win10-nav.md
                   items:
+                    - name: In this section
+                      href: get-started/setup-ide/creators/unity-win10/live-cr-unity-win10-nav.md
                     - name: Configuring Xbox Live in Unity
                       href: get-started/setup-ide/creators/unity-win10/live-configure-xbl-in-unity.md
                     - name: Signing into Xbox Live in Unity
-                      href: get-started/setup-ide/creators/unity-win10/signin/live-unity-signin-nav.md
                       items:
+                        - name: In this section
+                          href: get-started/setup-ide/creators/unity-win10/signin/live-unity-signin-nav.md
                         - name: Easy sign-in with the PlayerAuthentication prefab
                           href: get-started/setup-ide/creators/unity-win10/signin/live-authentication-prefab-sign-in.md
                         - name: Scripting Sign-In with the SignInManager in Unity
@@ -71,33 +80,39 @@
                     - name: Checking user privilege settings in Unity
                       href: get-started/setup-ide/creators/unity-win10/live-check-privileges-unity.md
             - name: Setting up an IDE, for Managed Partners
-              href: get-started/setup-ide/managed-partners/live-mp-ide-nav.md
               items:
+                - name: In this section
+                  href: get-started/setup-ide/managed-partners/live-mp-ide-nav.md
                 - name: Android Studio targeting Android
-                  href: get-started/setup-ide/managed-partners/astudio-android/live-mp-astudio-android-nav.md
                   items:
+                    - name: In this section
+                      href: get-started/setup-ide/managed-partners/astudio-android/live-mp-astudio-android-nav.md
                     - name: Setting up Android Studio targeting Android
                       href: get-started/setup-ide/managed-partners/astudio-android/live-astudio-android-mp.md
                     - name: Other articles about Android Studio targeting Android
-                      href: get-started/setup-ide/managed-partners/astudio-android/other/live-mp-astudio-android-other-nav.md
                       items:
+                        - name: In this section
+                          href: get-started/setup-ide/managed-partners/astudio-android/other/live-mp-astudio-android-other-nav.md
                         - name: Getting started with the Xbox Live APIs on Android
                           href: get-started/setup-ide/managed-partners/astudio-android/other/live-android-get-started-xsapi.md
                         - name: Setting up Visual Studio for XAL login on Android
                           href: get-started/setup-ide/managed-partners/astudio-android/other/live-android-xal.md
                 - name: Xcode targeting iOS
-                  href: get-started/setup-ide/managed-partners/xcode-ios/live-mp-xcode-ios-nav.md
                   items:
+                    - name: In this section
+                      href: get-started/setup-ide/managed-partners/xcode-ios/live-mp-xcode-ios-nav.md
                     - name: Setting up Xcode targeting iOS
                       href: get-started/setup-ide/managed-partners/xcode-ios/live-xcode-ios-mp.md
                     - name: Other articles about Xcode targeting iOS
-                      href: get-started/setup-ide/managed-partners/xcode-ios/other/live-mp-xcode-ios-other-nav.md
                       items:
+                        - name: In this section
+                          href: get-started/setup-ide/managed-partners/xcode-ios/other/live-mp-xcode-ios-other-nav.md
                         - name: Getting started with Xbox Live SDK for iOS
                           href: get-started/setup-ide/managed-partners/xcode-ios/other/live-ios-get-started-xsapi.md
                 - name: Visual Studio targeting Windows 10
-                  href: get-started/setup-ide/managed-partners/vstudio-win10/live-mp-vstudio-win10-nav.md
                   items:
+                    - name: In this section
+                      href: get-started/setup-ide/managed-partners/vstudio-win10/live-mp-vstudio-win10-nav.md
                     - name: Getting started using Visual Studio for UWP games
                       href: get-started/setup-ide/managed-partners/vstudio-win10/live-get-started-vstudio-uwp.md
                     - name: Add an XSAPI binary package to a UWP project
@@ -107,8 +122,9 @@
                     - name: The XboxServices.config file for UWP games
                       href: get-started/setup-ide/managed-partners/vstudio-win10/live-xboxservices-config.md
                 - name: Visual Studio targeting Xbox
-                  href: get-started/setup-ide/managed-partners/vstudio-xbox/live-mp-vstudio-xbox-nav.md
                   items:
+                    - name: In this section
+                      href: get-started/setup-ide/managed-partners/vstudio-xbox/live-mp-vstudio-xbox-nav.md
                     - name: Getting the XDK
                       href: get-started/setup-ide/managed-partners/vstudio-xbox/live-where-to-get-xdk.md
                     - name: Configuring an Xbox development console
@@ -122,34 +138,73 @@
                     - name: Compile the XDK Xbox Live API source
                       href: get-started/setup-ide/managed-partners/vstudio-xbox/live-compile-xdk-xbl-api-source.md
                 - name: Unity targeting Windows 10
-                  href: get-started/setup-ide/managed-partners/unity-win10/live-mp-unity-win10-nav.md
                   items:
+                    - name: In this section
+                      href: get-started/setup-ide/managed-partners/unity-win10/live-mp-unity-win10-nav.md
                     - name: Add XBL support to Unity for UWP, with .NET scripting
                       href: get-started/setup-ide/managed-partners/unity-win10/live-partner-unity-uwp-net.md
                     - name: Add XBL support to Unity for UWP, with IL2CPP scripting
                       href: get-started/setup-ide/managed-partners/unity-win10/live-partner-unity-uwp-il2cpp.md
                 - name: Unity targeting Xbox
-                  href: get-started/setup-ide/managed-partners/unity-xbox/live-mp-unity-xbox-nav.md
                   items:
+                    - name: In this section
+                      href: get-started/setup-ide/managed-partners/unity-xbox/live-mp-unity-xbox-nav.md
                     - name: Add XBL support to Unity for XDK, with IL2CPP scripting
                       href: get-started/setup-ide/managed-partners/unity-xbox/live-partner-unity-xdk-il2cpp.md
-        - name: Adding basic sign-in code
-          href: get-started/add-signin-code/live-add-signin-code-nav.md
+        - name: Initializing the Xbox Live API
           items:
+            - name: In this section
+              href: get-started/add-signin-code/live-add-signin-code-nav.md
             - name: Adding basic sign-in code for mobile
               href: get-started/add-signin-code/live-getting-xsapi-to-sign-in.md
-    - name: Features
-      href: features/live-features-nav.md
-      items:
-        - name: Identity
-          href: features/identity/live-identity-nav.md
+        - name: What's New
           items:
-            - name: Authentication and sign-in
-              href: features/identity/auth/live-authentication-nav.md
+            - name: In this section
+              href: get-started/whats-new/live-whats-new-nav.md
+            - name: What's new for Xbox Live
+              href: get-started/whats-new/live-whats-new.md
+            - name: What's New for older releases of Xbox Live
               items:
+                - name: In this section
+                  href: get-started/whats-new/archived/live-whats-new-archived-nav.md
+                - name: What's new for the Xbox Live SDK - December 2016
+                  href: get-started/whats-new/archived/live-whats-new-1612.md
+                - name: What's new for the Xbox Live SDK - November 2016
+                  href: get-started/whats-new/archived/live-whats-new-1611.md
+                - name: What's new for the Xbox Live SDK - August 2016
+                  href: get-started/whats-new/archived/live-whats-new-1608.md
+                - name: What's new for the Xbox Live SDK - June 2016
+                  href: get-started/whats-new/archived/live-whats-new-1606.md
+                - name: What's new for the Xbox Live SDK - April 2016
+                  href: get-started/whats-new/archived/live-whats-new-1604.md
+                - name: What's new for the Xbox Live SDK - March 2016
+                  href: get-started/whats-new/archived/live-whats-new-1603.md
+                - name: What's new for the Xbox Live SDK - February 2016
+                  href: get-started/whats-new/archived/live-whats-new-1602.md
+                - name: What's new for the Xbox Live SDK - October 2015
+                  href: get-started/whats-new/archived/live-whats-new-1510.md
+                - name: What's new for the Xbox Live SDK - September 2015
+                  href: get-started/whats-new/archived/live-whats-new-1509.md
+                - name: What's new for the Xbox Live SDK - August 2015
+                  href: get-started/whats-new/archived/live-whats-new-1508.md
+                - name: What's new for the Xbox Live SDK - June 2015
+                  href: get-started/whats-new/archived/live-whats-new-1506.md
+    - name: Features
+      items:
+        - name: In this section
+          href: features/live-features-nav.md
+        - name: Identity
+          items:
+            - name: In this section
+              href: features/identity/live-identity-nav.md
+            - name: Authentication and sign-in
+              items:
+                - name: In this section
+                  href: features/identity/auth/live-authentication-nav.md
                 - name: Authentication for projects using XAL
-                  href: features/identity/auth/auth-mobile-xal/live-xal-nav.md
                   items:
+                    - name: In this section
+                      href: features/identity/auth/auth-mobile-xal/live-xal-nav.md
                     - name: Xbox Authentication Library (XAL) overview
                       href: features/identity/auth/auth-mobile-xal/live-xal-overview.md
                     - name: Signing-in using XAL
@@ -157,8 +212,9 @@
                     - name: Using Xbox Live tokens for custom web service authentication
                       href: features/identity/auth/auth-mobile-xal/live-xal-partner-token.md
                 - name: UWP Authentication and user identity
-                  href: features/identity/auth/auth-uwp/live-auth-uwp-nav.md
                   items:
+                    - name: In this section
+                      href: features/identity/auth/auth-uwp/live-auth-uwp-nav.md
                     - name: Authentication for UWP projects
                       href: features/identity/auth/auth-uwp/live-auth-for-uwp-projects.md
                     - name: Retrieving the Windows user in a UWP title
@@ -170,33 +226,39 @@
             - name: Single Point of Presence (SPOP)
               href: features/identity/live-single-point-of-presence.md
             - name: Privileges
-              href: features/identity/privileges/live-privileges-nav.md
               items:
-                - name: Privileges portal config
-                  href: features/identity/privileges/config/live-privileges-config-nav.md
+                - name: In this section
+                  href: features/identity/privileges/live-privileges-nav.md
+                - name: Portal config
                   items:
+                    - name: In this section
+                      href: features/identity/privileges/config/live-privileges-config-nav.md
                     - name: Configuring Privileges in Partner Center
                       href: features/identity/privileges/config/live-privileges-config.md
         - name: Player Data
-          href: features/player-data/live-playerdata-nav.md
           items:
-            - name: Player Data overview
+            - name: In this section
+              href: features/player-data/live-playerdata-nav.md
+            - name: Overview
               href: features/player-data/live-playerdata-overview.md
             - name: Designing Xbox Live Experiences
               href: features/player-data/live-designing-experiences.md
             - name: Stats & Leaderboards
-              href: features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md
               items:
+                - name: In this section
+                  href: features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md
                 - name: Event-based vs. title-managed Stats
                   href: features/player-data/stats-leaderboards/live-stats-eb-vs-tm.md
                 - name: Event-based Stats & Leaderboards
-                  href: features/player-data/stats-leaderboards/event-based/live-statslb-eb-nav.md
                   items:
+                    - name: In this section
+                      href: features/player-data/stats-leaderboards/event-based/live-statslb-eb-nav.md
                     - name: Event-based Stats overview
                       href: features/player-data/stats-leaderboards/event-based/live-stats-eb-overview.md
-                    - name: Event-based Stats & Leaderboards how-to's
-                      href: features/player-data/stats-leaderboards/event-based/how-to/live-statslb-eb-howto-nav.md
+                    - name: Example code
                       items:
+                        - name: In this section
+                          href: features/player-data/stats-leaderboards/event-based/how-to/live-statslb-eb-howto-nav.md
                         - name: Writing an event to power an event-based Stat
                           href: features/player-data/stats-leaderboards/event-based/how-to/live-sending-eb-stat.md
                         - name: Getting event-based stats
@@ -206,35 +268,41 @@
                         - name: Example code for event-based Leaderboards
                           href: features/player-data/stats-leaderboards/event-based/how-to/live-leaderboards-eb-howto.md
                     - name: Events
-                      href: features/player-data/stats-leaderboards/event-based/events/live-events-nav.md
                       items: 
-                        - name: Events how-to's
-                          href: features/player-data/stats-leaderboards/event-based/events/how-to/live-events-howto-nav.md
+                        - name: In this section
+                          href: features/player-data/stats-leaderboards/event-based/events/live-events-nav.md
+                        - name: Events example code
                           items: 
+                            - name: In this section
+                              href: features/player-data/stats-leaderboards/event-based/events/how-to/live-events-howto-nav.md
                             - name: Sending an event
                               href: features/player-data/stats-leaderboards/event-based/events/how-to/live-sending-an-event.md
                 - name: Title-managed Stats & Leaderboards
-                  href: features/player-data/stats-leaderboards/title-managed/live-statslb-tm-nav.md
                   items:
-                    - name: Title-managed Stats overview
+                    - name: In this section
+                      href: features/player-data/stats-leaderboards/title-managed/live-statslb-tm-nav.md
+                    - name: Overview
                       href: features/player-data/stats-leaderboards/title-managed/live-stats-tm-overview.md
-                    - name: Title-managed Stats & Leaderboards portal config
-                      href: features/player-data/stats-leaderboards/title-managed/config/live-statslb-tm-config-nav.md
+                    - name: Portal config
                       items:
+                        - name: In this section
+                          href: features/player-data/stats-leaderboards/title-managed/config/live-statslb-tm-config-nav.md
                         - name: Configuring title-managed Featured Stats & Leaderboards in Partner Center
                           href: features/player-data/stats-leaderboards/title-managed/config/live-tm-leaderboards-portal.md
-                    - name: Title-managed Stats & Leaderboards how-to's
-                      href: features/player-data/stats-leaderboards/title-managed/how-to/live-statslb-tm-howto-nav.md
+                    - name: Example code
                       items:
+                        - name: In this section
+                          href: features/player-data/stats-leaderboards/title-managed/how-to/live-statslb-tm-howto-nav.md
                         - name: Updating title-managed Stats
                           href: features/player-data/stats-leaderboards/title-managed/how-to/live-stats-tm-updating.md
                         - name: Writing title-managed stats
                           href: features/player-data/stats-leaderboards/title-managed/how-to/live-writing-tm-stats.md
-                        - name: Title-managed Leaderboards how-to's
+                        - name: Title-managed Leaderboards example code
                           href: features/player-data/stats-leaderboards/title-managed/how-to/live-leaderboards-tm-howto.md
                     - name: Stats & Leaderboards with Unity
-                      href: features/player-data/stats-leaderboards/title-managed/unity/live-statslb-unity-nav.md
                       items:
+                        - name: In this section
+                          href: features/player-data/stats-leaderboards/title-managed/unity/live-statslb-unity-nav.md
                         - name: Adding player stats and leaderboards to a Unity project
                           href: features/player-data/stats-leaderboards/title-managed/unity/live-add-stats-and-leaderboards-in-unity.md
                         - name: Setting up the Leaderboard example scene in Unity
@@ -242,80 +310,95 @@
                         - name: Scripting a leaderboard in Unity
                           href: features/player-data/stats-leaderboards/title-managed/unity/live-unity-leaderboard-from-scratch.md
                 - name: Featured Stats
-                  href: features/player-data/stats-leaderboards/featured-stats/live-featured-stats-nav.md
                   items:
-                    - name: Featured Stats portal config
-                      href: features/player-data/stats-leaderboards/featured-stats/config/live-featured-stats-config-nav.md
+                    - name: In this section
+                      href: features/player-data/stats-leaderboards/featured-stats/live-featured-stats-nav.md
+                    - name: Portal config
                       items:
+                        - name: In this section
+                          href: features/player-data/stats-leaderboards/featured-stats/config/live-featured-stats-config-nav.md
                         - name: Portal configuration of title-managed Featured Stats
                           href: features/player-data/stats-leaderboards/featured-stats/config/live-featuredstats-tm-portal.md
             - name: Achievements
-              href: features/player-data/achievements/live-achievements-nav.md
               items:
+                - name: In this section
+                  href: features/player-data/achievements/live-achievements-nav.md
                 - name: Event-based vs. title-managed Achievements
                   href: features/player-data/achievements/live-achievements-eb-vs-tm.md
                 - name: Event-based Achievements
-                  href: features/player-data/achievements/event-based/live-achievements-eb-nav.md
                   items: 
-                    - name: Event-based Achievements how-to's
-                      href: features/player-data/achievements/event-based/how-to/live-achievements-eb-howto-nav.md
+                    - name: In this section
+                      href: features/player-data/achievements/event-based/live-achievements-eb-nav.md
+                    - name: Example code
                       items: 
+                        - name: In this section
+                          href: features/player-data/achievements/event-based/how-to/live-achievements-eb-howto-nav.md
                         - name: Getting event-based Achievements
                           href: features/player-data/achievements/event-based/how-to/live-getting-event-based-achievements.md
                         - name: Writing an event to power an event-based Achievement
                           href: features/player-data/achievements/event-based/how-to/live-writing-event-based-achievement.md
                 - name: Title-managed Achievements
-                  href: features/player-data/achievements/title-managed/live-achievements-tm-nav.md
                   items:
-                    - name: Title-managed Achievements overview
+                    - name: In this section
+                      href: features/player-data/achievements/title-managed/live-achievements-tm-nav.md
+                    - name: Overview
                       href: features/player-data/achievements/title-managed/live-achievements-tm-overview.md
-                    - name: Title-managed Achievements concepts
-                      href: features/player-data/achievements/title-managed/concepts/live-achievements-tm-concepts-nav.md
+                    - name: Concepts
                       items:
+                        - name: In this section
+                          href: features/player-data/achievements/title-managed/concepts/live-achievements-tm-concepts-nav.md
                         - name: Achievement Rewards
                           href: features/player-data/achievements/title-managed/concepts/live-achievement-rewards.md
-                    - name: Title-managed Achievements portal config
-                      href: features/player-data/achievements/title-managed/config/live-achievements-tm-config-nav.md
+                    - name: Portal config
                       items:
+                        - name: In this section
+                          href: features/player-data/achievements/title-managed/config/live-achievements-tm-config-nav.md
                         - name: Configuring title-managed Achievements in Partner Center
                           href: features/player-data/achievements/title-managed/config/live-achievements-tm-config.md
-                    - name: Title-managed Achievements how-to's
-                      href: features/player-data/achievements/title-managed/how-to/live-achievements-howto-nav.md
+                    - name: Example code
                       items:
+                        - name: In this section
+                          href: features/player-data/achievements/title-managed/how-to/live-achievements-howto-nav.md
                         - name: Getting title-managed Achievements
                           href: features/player-data/achievements/title-managed/how-to/live-how-to-get-achievements.md
                         - name: Updating title-managed Achievements
                           href: features/player-data/achievements/title-managed/how-to/live-how-to-update-achievements.md
         - name: Social
-          href: features/social/live-social-nav.md
           items:
-            - name: Overview of Social features
+            - name: In this section
+              href: features/social/live-social-nav.md
+            - name: Overview
               href: features/social/live-social-overview.md
             - name: Social Manager
-              href: features/social/social-manager/live-social-manager-nav.md
               items:
-                - name: Social Manager overview
+                - name: In this section
+                  href: features/social/social-manager/live-social-manager-nav.md
+                - name: Overview
                   href: features/social/social-manager/live-social-manager-overview.md
-                - name: Social Manager concepts
-                  href: features/social/social-manager/concepts/live-socmgr-concepts-nav.md
+                - name: Concepts
                   items:
+                    - name: In this section
+                      href: features/social/social-manager/concepts/live-socmgr-concepts-nav.md
                     - name: Privilege codes for Social Manager
                       href: features/social/social-manager/concepts/live-socmgr-privilege-codes.md
                     - name: Social Manager memory and performance
                       href: features/social/social-manager/concepts/live-socmgr-mem-perf.md
             - name: People System (Friends List)
-              href: features/social/people-system/live-people-system-nav.md
               items:
-                - name: People System (Friends List) overview
+                - name: In this section
+                  href: features/social/people-system/live-people-system-nav.md
+                - name: Overview
                   href: features/social/people-system/live-people-system-overview.md
-                - name: People System (Friends List) concepts
-                  href: features/social/people-system/concepts/live-people-system-concepts-nav.md
+                - name: Concepts
                   items:
+                    - name: In this section
+                      href: features/social/people-system/concepts/live-people-system-concepts-nav.md
                     - name: Displaying people from the People System
                       href: features/social/people-system/concepts/live-pplsys-displaying-people.md
-                - name: People System (Friends List) how-to's
-                  href: features/social/people-system/how-to/live-pplsys-howto-nav.md
+                - name: Example code
                   items:
+                    - name: In this section
+                      href: features/social/people-system/how-to/live-pplsys-howto-nav.md
                     - name: Getting a social relationship
                       href: features/social/people-system/how-to/live-getting-a-social-relationship.md
                     - name: Handling a social relationship change
@@ -323,29 +406,33 @@
                     - name: Programming Social services
                       href: features/social/people-system/how-to/live-retrieving-social-relationships-winrt.md
             - name: Rich Presence
-              href: features/social/presence/live-presence-nav.md
               items:
-                - name: Rich Presence overview
+                - name: In this section
+                  href: features/social/presence/live-presence-nav.md
+                - name: Overview
                   href: features/social/presence/live-presence-overview.md
-                - name: Rich Presence concepts
-                  href: features/social/presence/concepts/live-presence-concepts-nav.md
+                - name: Concepts
                   items:
+                    - name: In this section
+                      href: features/social/presence/concepts/live-presence-concepts-nav.md
                     - name: Best practices for Rich Presence
                       href: features/social/presence/concepts/live-presence-best-practices.md
                     - name: Policies and limits for Rich Presence strings
                       href: features/social/presence/concepts/live-presence-limits.md
                     - name: Rich Presence appendix
                       href: features/social/presence/concepts/live-presence-apx.md
-                - name: Rich Presence portal config
-                  href: features/social/presence/config/live-presence-config-nav.md
+                - name: Portal config
                   items:
+                    - name: In this section
+                      href: features/social/presence/config/live-presence-config-nav.md
                     - name: Configuring Rich Presence strings
                       href: features/social/presence/config/live-presence-config.md
                     - name: Configuring Rich Presence strings in Partner Center
                       href: features/social/presence/config/live-presence-config2.md
-                - name: Rich Presence how-to's
-                  href: features/social/presence/how-to/live-presence-howto-nav.md
+                - name: Example code
                   items:
+                    - name: In this section
+                      href: features/social/presence/how-to/live-presence-howto-nav.md
                     - name: Getting a user's Presence
                       href: features/social/presence/how-to/live-getting-a-users-presence.md
                     - name: Handling a title Presence change
@@ -359,37 +446,43 @@
                     - name: Updating a user's Presence via WinRT
                       href: features/social/presence/how-to/live-setting-presence-status.md
             - name: Localized strings
-              href: features/social/localized-strings/live-localized-strings-nav.md
               items:
+                - name: In this section
+                  href: features/social/localized-strings/live-localized-strings-nav.md
                 - name: Configuring localized strings in Partner Center
                   href: features/social/localized-strings/live-localized-strings-config.md
             - name: Reputation
-              href: features/social/reputation/live-reputation-nav.md
               items:
-                - name: Reputation overview
+                - name: In this section
+                  href: features/social/reputation/live-reputation-nav.md
+                - name: Overview
                   href: features/social/reputation/live-reputation-overview.md
-                - name: Reputation concepts
-                  href: features/social/reputation/concepts/live-reputation-concepts-nav.md
+                - name: Concepts
                   items:
+                    - name: In this section
+                      href: features/social/reputation/concepts/live-reputation-concepts-nav.md
                     - name: Sending Reputation feedback from a title
                       href: features/social/reputation/concepts/live-sending-reputation-feedback.md
-                - name: Reputation how-to's
-                  href: features/social/reputation/how-to/live-reputation-howto-nav.md
+                - name: Example code
                   items:
+                    - name: In this section
+                      href: features/social/reputation/how-to/live-reputation-howto-nav.md
                     - name: Submitting Reputation feedback
                       href: features/social/reputation/how-to/live-submitting-reputation-feedback.md
             - name: Clubs
               href: features/social/clubs/live-clubs.md
         - name: Multiplayer
-          href: features/multiplayer/live-multiplayer-nav.md
           items:
-            - name: Multiplayer overview
+            - name: In this section
+              href: features/multiplayer/live-multiplayer-nav.md
+            - name: Overview
               href: features/multiplayer/live-multiplayer-intro.md
             - name: Common multiplayer scenarios
               href: features/multiplayer/live-common-multiplayer-scenarios.md
-            - name: Multiplayer concepts
-              href: features/multiplayer/concepts/live-multiplayer-concepts-nav.md
+            - name: Concepts
               items:
+                - name: In this section
+                  href: features/multiplayer/concepts/live-multiplayer-concepts-nav.md
                 - name: Multiplayer concepts overview
                   href: features/multiplayer/concepts/live-multiplayer-concepts.md
                 - name: Multiplayer roles
@@ -407,20 +500,23 @@
                 - name: Migrating an arbiter
                   href: features/multiplayer/concepts/live-migrating-an-arbiter.md
             - name: Xbox Integrated Multiplayer (XIM)
-              href: features/multiplayer/xim/live-xim-nav.md
               items:
+                - name: In this section
+                  href: features/multiplayer/xim/live-xim-nav.md
                 - name: Xbox Integrated Multiplayer (XIM) overview
                   href: features/multiplayer/xim/live-xim-overview.md
-                - name: XIM concepts
-                  href: features/multiplayer/xim/concepts/live-xim-concepts-nav.md
+                - name: Concepts
                   items:
+                    - name: In this section
+                      href: features/multiplayer/xim/concepts/live-xim-concepts-nav.md
                     - name: Configuring a XIM project in a manifest
                       href: features/multiplayer/xim/concepts/live-xim-manifest.md
                     - name: XIM release notes
                       href: features/multiplayer/xim/concepts/live-xim-release-notes.md
-                - name: XIM how-to's
-                  href: features/multiplayer/xim/how-to/live-xim-howto-nav.md
+                - name: Example code
                   items:
+                    - name: In this section
+                      href: features/multiplayer/xim/how-to/live-xim-howto-nav.md
                     - name: Using XIM via C++
                       href: features/multiplayer/xim/how-to/live-using-xim.md
                     - name: Using XIM via C#
@@ -430,18 +526,21 @@
                     - name: XIM dedicated chat via out-of-band reservations
                       href: features/multiplayer/xim/how-to/live-xim-chat-reservations.md
             - name: Multiplayer Manager (MPM)
-              href: features/multiplayer/mpm/live-multiplayer-manager-nav.md
               items:
-                - name: Multiplayer Manager overview
+                - name: In this section
+                  href: features/multiplayer/mpm/live-multiplayer-manager-nav.md
+                - name: Overview
                   href: features/multiplayer/mpm/live-multiplayer-manager-overview.md
-                - name: Multiplayer Manager concepts
-                  href: features/multiplayer/mpm/concepts/live-mm-concepts-nav.md
+                - name: Concepts
                   items:
+                    - name: In this section
+                      href: features/multiplayer/mpm/concepts/live-mm-concepts-nav.md
                     - name: Multiplayer Manager API overview
                       href: features/multiplayer/mpm/concepts/live-multiplayer-manager-api-overview.md
                     - name: Multiplayer Manager flowcharts
-                      href: features/multiplayer/mpm/concepts/flowcharts/live-mm-flowcharts-nav.md
                       items:
+                        - name: In this section
+                          href: features/multiplayer/mpm/concepts/flowcharts/live-mm-flowcharts-nav.md
                         - name: Playing a game with friends (flowchart)
                           href: features/multiplayer/mpm/concepts/flowcharts/live-mpm-play-with-friends.md
                         - name: Playing a game by using SmartMatch matchmaking (flowchart)
@@ -458,9 +557,10 @@
                           href: features/multiplayer/mpm/concepts/flowcharts/live-mpm-host-migration.md
                         - name: Shutting down a multiplayer session (flowchart)
                           href: features/multiplayer/mpm/concepts/flowcharts/live-mpm-shut-down.md
-                - name: Multiplayer Manager how-to's
-                  href: features/multiplayer/mpm/how-to/live-mm-howto-nav.md
+                - name: Example code
                   items:
+                    - name: In this section
+                      href: features/multiplayer/mpm/how-to/live-mm-howto-nav.md
                     - name: Enable playing a multiplayer game with friends using Multiplayer Manager
                       href: features/multiplayer/mpm/how-to/live-play-multiplayer-with-friends.md
                     - name: Finding a multiplayer game by using SmartMatch using Multiplayer Manager
@@ -470,15 +570,17 @@
                     - name: Handling protocol activation to start a game, using Multiplayer Manager
                       href: features/multiplayer/mpm/how-to/live-handle-protocol-activation.md
             - name: Multiplayer Session Directory (MPSD)
-              href: features/multiplayer/mpsd/live-mpsd-nav.md
               items:
-                - name: Multiplayer Session Directory overview
+                - name: In this section
+                  href: features/multiplayer/mpsd/live-mpsd-nav.md
+                - name: Overview
                   href: features/multiplayer/mpsd/live-mpsd-overview.md
                 - name: Multiplayer Session Directory
                   href: features/multiplayer/mpsd/live-xbox-multiplayer-session-directory.md
-                - name: MPSD concepts
-                  href: features/multiplayer/mpsd/concepts/live-mpsd-concepts-nav.md
+                - name: Concepts
                   items:
+                    - name: In this section
+                      href: features/multiplayer/mpsd/concepts/live-mpsd-concepts-nav.md
                     - name: Multiplayer Session advanced topics
                       href: features/multiplayer/mpsd/concepts/live-mpsd-details.md
                     - name: Service-to-service multiplayer session management
@@ -491,47 +593,54 @@
                       href: features/multiplayer/mpsd/concepts/live-session-template-constants.md
                     - name: Using large sessions for Multiplayer
                       href: features/multiplayer/mpsd/concepts/live-large-sessions.md
-                - name: MPSD how-to's
-                  href: features/multiplayer/mpsd/how-to/live-mpsd-howto-nav.md
+                - name: Example code
                   items:
+                    - name: In this section
+                      href: features/multiplayer/mpsd/how-to/live-mpsd-howto-nav.md
                     - name: Multiplayer tasks
                       href: features/multiplayer/mpsd/how-to/live-mpsd-how-tos.md
                     - name: Multiplayer session status codes
                       href: features/multiplayer/mpsd/how-to/live-mpsd-status-codes.md
             - name: Invites
-              href: features/multiplayer/invites/live-invites-nav.md
               items:
-                - name: Invites overview
+                - name: In this section
+                  href: features/multiplayer/invites/live-invites-nav.md
+                - name: Overview
                   href: features/multiplayer/invites/live-multiplayer-invites-overview.md
-                - name: Invites concepts
-                  href: features/multiplayer/invites/concepts/live-invites-concepts-nav.md
+                - name: Concepts
                   items:
+                    - name: In this section
+                      href: features/multiplayer/invites/concepts/live-invites-concepts-nav.md
                     - name: Flows for multiplayer game invites
                       href: features/multiplayer/invites/concepts/live-multiplayer-invite-flows.md
                     - name: Multiplayer invites for UWP games
                       href: features/multiplayer/invites/concepts/live-multiplayer-invite-uwp.md
-                - name: Invites how-to's
-                  href: features/multiplayer/invites/how-to/live-invites-howto-nav.md
+                - name: Example code
                   items:
+                    - name: In this section
+                      href: features/multiplayer/invites/how-to/live-invites-howto-nav.md
                     - name: Sending invites
                       href: features/multiplayer/invites/how-to/live-invites-send.md
                     - name: Receiving invites
                       href: features/multiplayer/invites/how-to/live-invites-receive.md
             - name: SmartMatch Matchmaking
-              href: features/multiplayer/matchmaking/live-matchmaking-nav.md
               items:
-                - name: Matchmaking overview
+                - name: In this section
+                  href: features/multiplayer/matchmaking/live-matchmaking-nav.md
+                - name: Overview
                   href: features/multiplayer/matchmaking/live-matchmaking-overview.md
-                - name: Matchmaking concepts
-                  href: features/multiplayer/matchmaking/concepts/live-matchmaking-concepts-nav.md
+                - name: Concepts
                   items:
+                    - name: In this section
+                      href: features/multiplayer/matchmaking/concepts/live-matchmaking-concepts-nav.md
                     - name: Using SmartMatch matchmaking
                       href: features/multiplayer/matchmaking/concepts/live-matchmaking-how-tos.md
                     - name: Target session initialization and QoS
                       href: features/multiplayer/matchmaking/concepts/live-matchmaking-target-session.md
                     - name: Xbox Arena
-                      href: features/multiplayer/matchmaking/concepts/arena/live-arena-nav.md
                       items:
+                        - name: In this section
+                          href: features/multiplayer/matchmaking/concepts/arena/live-arena-nav.md
                         - name: Xbox Arena overview
                           href: features/multiplayer/matchmaking/concepts/arena/live-arena-overview.md
                         - name: Arena title integration
@@ -550,19 +659,22 @@
                           href: features/multiplayer/matchmaking/concepts/arena/live-arena-notifications.md
                         - name: UX for Arena participant user scenarios
                           href: features/multiplayer/matchmaking/concepts/arena/live-arena-user-scenarios.md
-                - name: Matchmaking portal config
-                  href: features/multiplayer/matchmaking/config/live-matchmaking-config-nav.md
+                - name: Portal config
                   items:
+                    - name: In this section
+                      href: features/multiplayer/matchmaking/config/live-matchmaking-config-nav.md
                     - name: Configuring Matchmaking in Partner Center
                       href: features/multiplayer/matchmaking/config/live-matchmaking-config.md
             - name: Game Chat
-              href: features/multiplayer/chat/live-chat-nav.md
               items:
-                - name: Game Chat overview
+                - name: In this section
+                  href: features/multiplayer/chat/live-chat-nav.md
+                - name: Overview
                   href: features/multiplayer/chat/live-game-chat-2-overview.md
-                - name: Game Chat how-to's
-                  href: features/multiplayer/chat/how-to/live-chat-howto-nav.md
+                - name: Example code
                   items:
+                    - name: In this section
+                      href: features/multiplayer/chat/how-to/live-chat-howto-nav.md
                     - name: Using the Game Chat 2 C++ API
                       href: features/multiplayer/chat/how-to/live-using-game-chat-2.md
                     - name: Using the Game Chat 2 C# API with WinRT projections
@@ -572,152 +684,149 @@
                     - name: Migrating from Game Chat 1 to Game Chat 2
                       href: features/multiplayer/chat/how-to/live-game-chat-2-migration.md
         - name: Cloud Storage
-          href: features/cloud-storage/live-cloud-storage-nav.md
-          items:
+          items: 
+            - name: In this section
+              href: features/cloud-storage/live-cloud-storage-nav.md
             - name: Connected Storage vs. Title Storage
               href: features/cloud-storage/live-connected-storage-vs-title-storage.md
             - name: Connected Storage
-              href: features/cloud-storage/connected-storage/live-connected-storage-nav.md
               items:
-                - name: Connected Storage Overview
+                - name: In this section
+                  href: features/cloud-storage/connected-storage/live-connected-storage-nav.md
+                - name: Overview
                   href: features/cloud-storage/connected-storage/live-connected-storage-overview.md
-                - name: Technical overview of Connected Storage
+                - name: Technical overview
                   href: features/cloud-storage/connected-storage/live-connected-storage-technical-overview.md
                 - name: Connected Storage concepts
-                  href: features/cloud-storage/connected-storage/concepts/live-connected-storage-concepts-nav.md
                   items:
+                    - name: In this section
+                      href: features/cloud-storage/connected-storage/concepts/live-connected-storage-concepts-nav.md
                     - name: Managing local Connected Storage
                       href: features/cloud-storage/connected-storage/concepts/live-connected-storage-xb-storage.md
-                    - name: Best practices for Connected Storage
+                    - name: Best practices
                       href: features/cloud-storage/connected-storage/concepts/live-connected-storage-best-practices.md
-                - name: Connected Storage how-to's
-                  href: features/cloud-storage/connected-storage/how-to/live-connected-storage-howto-nav.md
+                - name: Example code
                   items:
-                    - name: Saving data with Connected Storage
+                    - name: In this section
+                      href: features/cloud-storage/connected-storage/how-to/live-connected-storage-howto-nav.md
+                    - name: Saving data
                       href: features/cloud-storage/connected-storage/how-to/live-connected-storage-saving.md
-                    - name: Loading data with Connected Storage
+                    - name: Loading data
                       href: features/cloud-storage/connected-storage/how-to/live-connected-storage-loading.md
-                    - name: Deleting data with Connected Storage
+                    - name: Deleting data
                       href: features/cloud-storage/connected-storage/how-to/live-connected-storage-deleting.md
-                    - name: Loading data on-demand with Connected Storage
+                    - name: Loading data on-demand
                       href: features/cloud-storage/connected-storage/how-to/live-connected-storage-loading-on-demand.md
-                    - name: Working with Connected Storage buffers
+                    - name: Working with buffers
                       href: features/cloud-storage/connected-storage/how-to/live-connected-storage-using-buffers.md
             - name: Title Storage
-              href: features/cloud-storage/title-storage/live-title-storage-nav.md
               items:
-                - name: Title Storage overview
+                - name: In this section
+                  href: features/cloud-storage/title-storage/live-title-storage-nav.md
+                - name: Overview
                   href: features/cloud-storage/title-storage/live-title-storage-overview.md
-                - name: Title Storage portal config
-                  href: features/cloud-storage/title-storage/config/live-title-storage-config-nav.md
-                  items:
-                    - name: Configuring Title Storage in Partner Center
+                - name: Portal config
+                  items:                              
+                    - name: In this section
+                      href: features/cloud-storage/title-storage/config/live-title-storage-config-nav.md
+                    - name: Set up in Partner Center
                       href: features/cloud-storage/title-storage/config/live-title-storage-portal-config.md
-                - name: Title Storage how-to's
-                  href: features/cloud-storage/title-storage/how-to/live-title-storage-howto-nav.md
+                - name: Example code
                   items:
-                    - name: Uploading a blob to Title Storage
+                    - name: In this section
+                      href: features/cloud-storage/title-storage/how-to/live-title-storage-howto-nav.md
+                    - name: Uploading a blob
                       href: features/cloud-storage/title-storage/how-to/live-uploading-title-storage-blob.md
-                    - name: Downloading a blob from Title Storage
+                    - name: Downloading a blob
                       href: features/cloud-storage/title-storage/how-to/live-downloading-title-storage-blob.md
-                    - name: Deleting a blob from Title Storage
+                    - name: Deleting a blob
                       href: features/cloud-storage/title-storage/how-to/live-deleting-title-storage-blob.md
-                    - name: Getting Title Storage blob metadata
+                    - name: Getting blob metadata
                       href: features/cloud-storage/title-storage/how-to/live-getting-title-storage-blob-metadata.md
-                    - name: Getting quota info for a Title Storage service configuration
+                    - name: Getting quota info for service configuration
                       href: features/cloud-storage/title-storage/how-to/live-getting-title-storage-quota-info.md
-                    - name: Storing a JSON blob in Title Storage
+                    - name: Storing a JSON blob
                       href: features/cloud-storage/title-storage/how-to/live-storing-jsonblobs.md
-                    - name: Storing a binary blob in Title Storage
+                    - name: Storing a binary blob
                       href: features/cloud-storage/title-storage/how-to/live-storing-binary-blobs.md
-                    - name: Reading a binary blob from Title Storage
+                    - name: Reading a binary blob
                       href: features/cloud-storage/title-storage/how-to/live-reading-binary-blobs.md
-                    - name: Reading a JSON blob from Title Storage
+                    - name: Reading a JSON blob
                       href: features/cloud-storage/title-storage/how-to/live-reading-jsonblobs.md
-                    - name: Reading a configuration blob from Title Storage
+                    - name: Reading a configuration blob
                       href: features/cloud-storage/title-storage/how-to/live-reading-configuration-blobs.md
         - name: Custom services
-          href: features/custom-services/live-custom-services-nav.md
           items:
+            - name: In this section
+              href: features/custom-services/live-custom-services-nav.md
             - name: Access Policies
-              href: features/custom-services/access-policies/live-access-policies-nav.md
               items:
-                - name: Access Policies Overview
+                - name: In this section
+                  href: features/custom-services/access-policies/live-access-policies-nav.md
+                - name: Overview
                   href: features/custom-services/access-policies/live-access-policies-overview.md
-                - name: Access Policies portal config
-                  href: features/custom-services/access-policies/config/live-access-policies-config-nav.md
+                - name: Portal config
                   items:
+                    - name: In this section
+                      href: features/custom-services/access-policies/config/live-access-policies-config-nav.md
                     - name: Configuring access policies in Partner Center, for Managed Partners
                       href: features/custom-services/access-policies/config/live-access-policies-udc.md
             - name: Single Sign-on
-              href: features/custom-services/single-sign-on/live-single-sign-on-nav.md
               items:
+                - name: In this section
+                  href: features/custom-services/single-sign-on/live-single-sign-on-nav.md
                 - name: Configuring single sign-on in Partner Center, for Managed Partners
                   href: features/custom-services/single-sign-on/live-single-sign-on.md
             - name: Web services
-              href: features/custom-services/web-services/live-web-services-nav.md
               items:
+                - name: In this section
+                  href: features/custom-services/web-services/live-web-services-nav.md
                 - name: Setting up Web Services at Partner Center
                   href: features/custom-services/web-services/live-web-services.md
             - name: Relying parties
               href: features/custom-services/relying-parties/live-relying-parties-nav.md
-        - name: Title-callable UI (TCUI)
-          href: features/tcui/live-tcui-nav.md
-        - name: Real-Time Activity (RTA) service
-          href: features/rta/live-rta-nav.md
+        - name: General features
           items:
-            - name: Overview of Real-Time Activity service
-              href: features/rta/live-real-time-activity-service-overview.md
-            - name: Real-Time Activity (RTA) service concepts
-              href: features/rta/concepts/live-rta-concepts-nav.md
+            - name: In this section
+              href: features/general/live-general-nav.md
+            - name: Title-callable UI (TCUI)
               items:
-                - name: Registering for player Stat change notifications
-                  href: features/rta/concepts/live-register-for-stat-notifications.md
-                - name: Best Practices for the RTA service
-                  href: features/rta/concepts/live-rta-best-practices.md
-            - name: Real-Time Activity (RTA) service how-to's
-              href: features/rta/how-to/live-rta-howto-nav.md
+                - name: In this section
+                  href: features/general/tcui/live-tcui-nav.md
+                - name: Title-callable UI (TCUI) overview
+                  href: features/general/tcui/live-tcui-overview.md
+            - name: Real-Time Activity (RTA) service
               items:
-                - name: Programming the RTA service
-                  href: features/rta/how-to/live-programming-rta.md
-        - name: What's New
-          href: features/whats-new/live-whats-new-nav.md
-          items:
-            - name: What's new for Xbox Live
-              href: features/whats-new/live-whats-new.md
-            - name: What's New for older releases of Xbox Live
-              href: features/whats-new/archived/live-whats-new-archived-nav.md
-              items:
-                - name: What's new for the Xbox Live SDK - December 2016
-                  href: features/whats-new/archived/live-whats-new-1612.md
-                - name: What's new for the Xbox Live SDK - November 2016
-                  href: features/whats-new/archived/live-whats-new-1611.md
-                - name: What's new for the Xbox Live SDK - August 2016
-                  href: features/whats-new/archived/live-whats-new-1608.md
-                - name: What's new for the Xbox Live SDK - June 2016
-                  href: features/whats-new/archived/live-whats-new-1606.md
-                - name: What's new for the Xbox Live SDK - April 2016
-                  href: features/whats-new/archived/live-whats-new-1604.md
-                - name: What's new for the Xbox Live SDK - March 2016
-                  href: features/whats-new/archived/live-whats-new-1603.md
-                - name: What's new for the Xbox Live SDK - February 2016
-                  href: features/whats-new/archived/live-whats-new-1602.md
-                - name: What's new for the Xbox Live SDK - October 2015
-                  href: features/whats-new/archived/live-whats-new-1510.md
-                - name: What's new for the Xbox Live SDK - September 2015
-                  href: features/whats-new/archived/live-whats-new-1509.md
-                - name: What's new for the Xbox Live SDK - August 2015
-                  href: features/whats-new/archived/live-whats-new-1508.md
-                - name: What's new for the Xbox Live SDK - June 2015
-                  href: features/whats-new/archived/live-whats-new-1506.md
+                - name: In this section
+                  href: features/general/rta/live-rta-nav.md
+                - name: Real-Time Activity service overview
+                  href: features/general/rta/live-real-time-activity-service-overview.md
+                - name: Concepts
+                  items:
+                    - name: In this section
+                      href: features/general/rta/concepts/live-rta-concepts-nav.md
+                    - name: Registering for player Stat change notifications
+                      href: features/general/rta/concepts/live-register-for-stat-notifications.md
+                    - name: Best Practices for the RTA service
+                      href: features/general/rta/concepts/live-rta-best-practices.md
+                - name: Example code
+                  items:
+                    - name: In this section
+                      href: features/general/rta/how-to/live-rta-howto-nav.md
+                    - name: Programming the RTA service
+                      href: features/general/rta/how-to/live-programming-rta.md
+            - name: Xbox Live samples
+              href: features/general/samples/live-samples.md
     - name: Testing and Releasing
-      href: test-release/live-test-release-nav.md
       items:
+        - name: In this section
+          href: test-release/live-test-release-nav.md
         - name: Xbox Live resources, sites, and downloads
           href: test-release/live-sites-downloads.md
         - name: Configuring Xbox Live services
-          href: test-release/portal-config/live-portal-config-nav.md
           items:
+            - name: In this section
+              href: test-release/portal-config/live-portal-config-nav.md
             - name: Portal configuration overview
               href: test-release/portal-config/live-portal-config-overview.md
             - name: Summary page for Xbox Live configuration
@@ -735,8 +844,9 @@
             - name: Xbox Live service configuration IDs, for Managed Partners
               href: test-release/portal-config/live-service-config-ids-mp.md
         - name: Sandboxes
-          href: test-release/sandboxes/live-sandboxes-nav.md
           items:
+            - name: In this section
+              href: test-release/sandboxes/live-sandboxes-nav.md
             - name: Xbox Live Sandboxes overview
               href: test-release/sandboxes/live-setup-sandbox.md
             - name: Using Xbox Live sandboxes, for Creators
@@ -744,8 +854,9 @@
             - name: Advanced Xbox Live sandboxes
               href: test-release/sandboxes/live-advanced-sandboxes.md
         - name: Test accounts
-          href: test-release/test-accounts/live-test-accounts-nav.md
           items:
+            - name: In this section
+              href: test-release/test-accounts/live-test-accounts-nav.md
             - name: Xbox Live test accounts
               href: test-release/test-accounts/live-test-accounts.md
             - name: Broadcasting Xbox Live test accounts to Mixer
@@ -753,38 +864,39 @@
         - name: Testing on the Xbox console
           href: test-release/live-testing-on-console.md
         - name: Troubleshooting Xbox Live
-          href: test-release/troubleshooting/live-troubleshooting-nav.md
           items:
+            - name: In this section
+              href: test-release/troubleshooting/live-troubleshooting-nav.md
             - name: Troubleshooting Xbox Live Services APIs
               href: test-release/troubleshooting/live-troubleshooting-apis.md
             - name: Troubleshooting Xbox Live setup on Windows 10 PC
               href: test-release/troubleshooting/live-troubleshooting-pc-setup.md
-        - name: Services
-          href: test-release/services/live-services-nav.md
+        - name: Best practices for Xbox Live
           items:
-            - name: Best practices for Xbox Live
-              href: test-release/services/best-practices/live-best-practices-nav.md
-              items:
-                - name: Best practices for calling Xbox Live
-                  href: test-release/services/best-practices/live-best-practices-calling-xbl.md
-                - name: Fine-Grained Rate Limiting
-                  href: test-release/services/best-practices/live-fine-grained-rate-limiting.md
-                - name: Best practices for handling offline play
-                  href: test-release/services/best-practices/live-best-practices-offline-play.md
-            - name: Error handling
-              href: test-release/services/error-handling/live-error-handling-nav.md
-              items:
-                - name: Types of error handling
-                  href: test-release/services/error-handling/live-types-of-error-handling.md
-                - name: C++ API error handling
-                  href: test-release/services/error-handling/live-error-handling-cpp.md
-                - name: WinRT API error handling
-                  href: test-release/services/error-handling/live-error-handling-winrt.md
-            - name: Porting Xbox Live code from XDK to UWP
-              href: test-release/services/live-port-xbl-code-from-xdk-to-uwp.md
+            - name: In this section
+              href: test-release/best-practices/live-best-practices-nav.md
+            - name: Best practices for calling Xbox Live
+              href: test-release/best-practices/live-best-practices-calling-xbl.md
+            - name: Fine-Grained Rate Limiting
+              href: test-release/best-practices/live-fine-grained-rate-limiting.md
+            - name: Best practices for handling offline play
+              href: test-release/best-practices/live-best-practices-offline-play.md
+        - name: Error handling
+          items:
+            - name: In this section
+              href: test-release/error-handling/live-error-handling-nav.md
+            - name: Types of error handling
+              href: test-release/error-handling/live-types-of-error-handling.md
+            - name: C++ API error handling
+              href: test-release/error-handling/live-error-handling-cpp.md
+            - name: WinRT API error handling
+              href: test-release/error-handling/live-error-handling-winrt.md
+        - name: Porting Xbox Live code from XDK to UWP
+          href: test-release/live-port-xbl-code-from-xdk-to-uwp.md
         - name: Tools for Xbox Live
-          href: test-release/tools/live-tools-nav.md
           items:
+            - name: In this section
+              href: test-release/tools/live-tools-nav.md
             - name: Development tools for Xbox Live
               href: test-release/tools/live-tools.md
             - name: Config as Source tools (XblConfig.exe)
@@ -806,49 +918,56 @@
             - name: Using Fiddler to inspect web service calls
               href: test-release/tools/live-fiddler-inspect-web-calls.md
     - name: Policies and XRs
-      href: policies/live-policies-nav.md
       items:
-        - name: Xbox Live Policies for PC and Mobile 
+        - name: In this section
+          href: policies/live-policies-nav.md
+        - name: Xbox Live Policies for PC and Mobile
           href: policies/live-policies-pc.md
-        - name: Recommended XR Policy Tests
+        - name: Recommended Policy Tests for PC and mobile
           href: policies/live-policy-tests-pc.md
         - name: Xbox Live terminology
           href: policies/live-certification-terminology-pc.md
-        - name: Supporting Content for XRs for PC and Mobile
-          href: policies/xr/live-pc-xrs-nav.md  
+        - name: XRs for PC and Mobile
           items:
-          - name: XR-013 Linking Microsoft Accounts with Publisher Accounts
-            href: policies/xr/live-pc-xr013.md
-          - name: XR-015 Privacy and Permissions
-            href: policies/xr/live-pc-xr015.md
-          - name: XR-045 Xbox Live and Account Privileges
-            href: policies/xr/live-pc-xr045.md
-          - name: XR-048 Profile Settings Usage
-            href: policies/xr/live-pc-xr048.md
-          - name: XR-062 Achievement Names and Descriptions
-            href: policies/xr/live-pc-xr062.md 
-          - name: XR-074 Loss of Connectivity to Xbox and Partner Services
-            href: policies/xr/live-pc-xr074.md 
-          - name: XR-132 Service Access Limitations"
-            href: policies/xr/live-pc-xr132.md 
+            - name: In this section
+              href: policies/xr/live-pc-xrs-nav.md  
+            - name: "XR-013: Linking Microsoft Accounts with Publisher Accounts"
+              href: policies/xr/live-pc-xr013.md
+            - name: "XR-015: Privacy and Permissions"
+              href: policies/xr/live-pc-xr015.md
+            - name: "XR-045: Xbox Live and Account Privileges"
+              href: policies/xr/live-pc-xr045.md
+            - name: "XR-048: Profile Settings Usage"
+              href: policies/xr/live-pc-xr048.md
+            - name: "XR-062: Achievement Names and Descriptions"
+              href: policies/xr/live-pc-xr062.md 
+            - name: "XR-064: Joinable Game Sessions and Online Play"
+              href: policies/xr/live-pc-xr064.md 
+            - name: "XR-067: Maintaining Multiplayer Session State"
+              href: policies/xr/live-pc-xr067.md 
+            - name: "XR-074: Loss of Connectivity to Xbox and Partner Services"
+              href: policies/xr/live-pc-xr074.md 
+            - name: "XR-132: Service Access Limitations"
+              href: policies/xr/live-pc-xr132.md 
     - name: API Reference
-      href: api-ref/live-api-reference-nav.md
       items:
+        - name: In this section
+          href: api-ref/live-api-reference-nav.md
         - name: XSAPI reference
-          href: api-ref/xsapi/live-xsapi-nav.md
           items:
-            - name: XSAPI Overview
+            - name: In this section
+              href: api-ref/xsapi/live-xsapi-nav.md
+            - name: XSAPI overview
               href: api-ref/xsapi/live-introduction-to-xbox-live-apis.md
-            - name: XSAPI C Overview
+            - name: XSAPI C overview
               href: api-ref/xsapi/live-xsapi-flat-c.md
         - name: XAL reference
           href: api-ref/xal/live-xal-nav.md
         - name: XAsync reference
-          href: api-ref/xasync/live-xasync-nav.md
           items:
+            - name: In this section
+              href: api-ref/xasync/live-xasync-nav.md
             - name: Making async calls in the XSAPI C API
               href: api-ref/xasync/live-flatc-async-patterns.md
         - name: REST reference
           href: api-ref/xbox-live-rest/TOC.md
-        - name: Xbox Live Samples
-          href: api-ref/live-samples.md
