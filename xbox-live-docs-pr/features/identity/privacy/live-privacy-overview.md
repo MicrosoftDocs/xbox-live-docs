@@ -32,9 +32,7 @@ For example, if you ask "Can the user can communicate with the target?", the Pri
 * What is the relationship between the users?
 * Is the actor on the target's Avoid list?
 
-**Reference**
-<!-- * [XblPrivacyCheckPermissionAsync](xblprivacycheckpermissionasync.md) -->
-* [GET (/users/{requestorId}/permission/validate)](https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/privacy/uri-privacyusersrequestoridpermissionvalidateget)
+See <!-- * [XblPrivacyCheckPermissionAsync](xblprivacycheckpermissionasync.md) or --> [GET (/users/{requestorId}/permission/validate)](https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/privacy/uri-privacyusersrequestoridpermissionvalidateget).
 
 
 ## Mute list
@@ -49,9 +47,7 @@ However, you might find some scenarios where it's helpful to retrieve a Mute lis
 
 Games are not allowed to add people to a given user's Mute list.
 
-**Reference**
-<!-- * [XblPrivacyGetMuteListAsync](xblprivacygetmutelistasync.md) -->
-* [GET (/users/{ownerId}/people/mute)](https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/privacy/uri-privacyusersowneridpeoplemuteget)
+See <!-- * [XblPrivacyGetMuteListAsync](xblprivacygetmutelistasync.md) or --> [GET (/users/{ownerId}/people/mute)](https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/privacy/uri-privacyusersowneridpeoplemuteget).
 
 
 ## Avoid list
@@ -63,6 +59,4 @@ For example, in a scenario where Permissions is asked, "Can the user send a text
 
 Games are not allowed to add people to a user's Avoid list.
 
-**Reference**
-<!-- * [XblPrivacyGetAvoidListAsync](xblprivacygetavoidlistasync.md) -->
-* [GET (/users/{ownerId}/people/avoid)](https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/privacy/uri-privacyusersxuidpeopleavoidget)
+See <!-- * [XblPrivacyGetAvoidListAsync](xblprivacygetavoidlistasync.md) or --> [GET (/users/{ownerId}/people/avoid)](https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/privacy/uri-privacyusersxuidpeopleavoidget).
