@@ -1,10 +1,13 @@
 ---
 title: "XR-062: Achievement Names and Descriptions"
 description: Achievement names and descriptions may contain only content that would merit a rating of PEGI 12, ESRB EVERYONE 10+, or lower.
-ms.date: 03/18/2019
+kindex: "XR-062: Achievement Names and Descriptions"
+kindex: policies
 ms.topic: article
-keywords: windows 10, uwp, games, xbox, xbox live, policies
 ms.localizationpriority: medium
+author: mwester
+ms.author: mwester
+ms.date: 03/18/2019
 ---
 
 # XR-062: Achievement Names and Descriptions

@@ -2246,6 +2246,16 @@
             "redirect_url": "/gaming/xbox-live/policies/xr/live-pc-xr062",
             "redirect_document_id": false
         },
+        // {
+        //     "source_path": "xbox-live-docs-pr/__.md",
+        //     "redirect_url": "/gaming/xbox-live/policies/xr/live-pc-xr064",
+        //     "redirect_document_id": false
+        // },
+        // {
+        //     "source_path": "xbox-live-docs-pr/__.md",
+        //     "redirect_url": "/gaming/xbox-live/policies/xr/live-pc-xr067",
+        //     "redirect_document_id": false
+        // },
         {
             "source_path": "xbox-live-docs-pr/policies/xr074.md",
             "redirect_url": "/gaming/xbox-live/policies/xr/live-pc-xr074",

@@ -937,19 +937,23 @@
           items:
             - name: In this section
               href: policies/xr/live-pc-xrs-nav.md  
-            - name: XR-013 Linking Microsoft Accounts with Publisher Accounts
+            - name: "XR-013: Linking Microsoft Accounts with Publisher Accounts"
               href: policies/xr/live-pc-xr013.md
-            - name: XR-015 Privacy and Permissions
+            - name: "XR-015: Privacy and Permissions"
               href: policies/xr/live-pc-xr015.md
-            - name: XR-045 Xbox Live and Account Privileges
+            - name: "XR-045: Xbox Live and Account Privileges"
               href: policies/xr/live-pc-xr045.md
-            - name: XR-048 Profile Settings Usage
+            - name: "XR-048: Profile Settings Usage"
               href: policies/xr/live-pc-xr048.md
-            - name: XR-062 Achievement Names and Descriptions
+            - name: "XR-062: Achievement Names and Descriptions"
               href: policies/xr/live-pc-xr062.md 
-            - name: XR-074 Loss of Connectivity to Xbox and Partner Services
+            - name: "XR-064: Joinable Game Sessions and Online Play"
+              href: policies/xr/live-pc-xr064.md 
+            - name: "XR-067: Maintaining Multiplayer Session State"
+              href: policies/xr/live-pc-xr067.md 
+            - name: "XR-074: Loss of Connectivity to Xbox and Partner Services"
               href: policies/xr/live-pc-xr074.md 
-            - name: XR-132 Service Access Limitations
+            - name: "XR-132: Service Access Limitations"
               href: policies/xr/live-pc-xr132.md 
     - name: API Reference
       items:
