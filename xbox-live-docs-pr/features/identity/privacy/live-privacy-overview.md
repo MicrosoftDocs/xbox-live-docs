@@ -2,15 +2,17 @@
 title: Privacy and Permissions overview
 description: The Xbox Live Privacy service protects users by respecting their preferences and providing the social experiences they want.
 kindex: Privacy and Permissions overview
-author: v-mihof
-ms.author: v-mihof
+kindex: permissions
 ms.topic: conceptual
-ms.prod: xbox
-ms.technology: xboxgc
-ms.localizationpriority: medium
-edited: 00/00/0000
-security: linked
+ms.localizationpriority: high
+author: mlamaute
+ms.author: jodoyle
+ms.date: 05/12/2020
 ---
+
+
+
+
 
 # Privacy and Permissions overview
 
@@ -30,6 +32,10 @@ For example, if you ask "Can the user can communicate with the target?", the Pri
 * What is the relationship between the users?
 * Is the actor on the target's Avoid list?
 
+**Reference**
+<!-- * [XblPrivacyCheckPermissionAsync](xblprivacycheckpermissionasync.md) -->
+* [GET (/users/{requestorId}/permission/validate)](https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/privacy/uri-privacyusersrequestoridpermissionvalidateget)
+
 
 ## Mute list
 
@@ -43,6 +49,10 @@ However, you might find some scenarios where it's helpful to retrieve a Mute lis
 
 Games are not allowed to add people to a given user's Mute list.
 
+**Reference**
+<!-- * [XblPrivacyGetMuteListAsync](xblprivacygetmutelistasync.md) -->
+* [GET (/users/{ownerId}/people/mute)](https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/privacy/uri-privacyusersowneridpeoplemuteget)
+
 
 ## Avoid list
 
@@ -52,3 +62,7 @@ There may be some scenarios where retrieving the Avoid list is valuable, but che
 For example, in a scenario where Permissions is asked, "Can the user send a text message to this other user?", the Privacy service consults the Avoid lists as part of the permission check, so there's no need to check the Avoid list in addition.
 
 Games are not allowed to add people to a user's Avoid list.
+
+**Reference**
+<!-- * [XblPrivacyGetAvoidListAsync](xblprivacygetavoidlistasync.md) -->
+* [GET (/users/{ownerId}/people/avoid)](https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/privacy/uri-privacyusersxuidpeopleavoidget)
