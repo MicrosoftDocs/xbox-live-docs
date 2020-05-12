@@ -235,6 +235,12 @@
                       href: features/identity/privileges/config/live-privileges-config-nav.md
                     - name: Configuring Privileges in Partner Center
                       href: features/identity/privileges/config/live-privileges-config.md
+            - name: Privacy and Permissions
+              items:
+                - name: In this section
+                  href: features/identity/privacy/live-privacy-permissions-nav.md
+                - name: Overview
+                  href: features/identity/privacy/live-privacy-overview.md
         - name: Player Data
           items:
             - name: In this section
