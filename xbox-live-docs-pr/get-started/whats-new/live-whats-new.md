@@ -24,8 +24,8 @@ ___
 
 #### Updating only the specified title-managed Stats
 
-Previously, you had specify all of the stats in a single API call ([XblTitleManagedStatsWriteAsync](xbltitlemanagedstatswriteasync.md)).
-Now, you can send specified stats that you want to update, by calling [XblTitleManagedStatsUpdateStatsAsync](xbltitlemanagedstatsupdatestatsasync.md), which selectively updates the calling user’s stats.
+Previously, you had specify all of the stats in a single API call `XblTitleManagedStatsWriteAsync`.
+Now, you can send specified stats that you want to update, by calling `XblTitleManagedStatsUpdateStatsAsync`, which selectively updates the calling user’s stats.
 A specified stat will only be overwritten if it already exists; any stats that are not specified in the call to `XblTitleManagedStatsUpdateStatsAsync` will remain unchanged.
 
 See [Writing title-managed stats](../../features/player-data/stats-leaderboards/title-managed/how-to/live-writing-tm-stats.md).
