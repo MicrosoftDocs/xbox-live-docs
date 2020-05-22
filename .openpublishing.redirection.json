@@ -1146,6 +1146,46 @@
             "redirect_url": "/gaming/xbox-live/features/multiplayer/concepts/live-migrating-an-arbiter",
             "redirect_document_id": true
         },
+        // {
+        //     "source_path": "xbox-live-docs-pr/__.md",
+        //     "redirect_url": "/gaming/xbox-live/features/multiplayer/mpa/live-mpa-nav",
+        //     "redirect_document_id": true
+        // },
+        // {
+        //     "source_path": "xbox-live-docs-pr/__.md",
+        //     "redirect_url": "/gaming/xbox-live/features/multiplayer/mpa/live-mpa-overview",
+        //     "redirect_document_id": true
+        // },
+        // {
+        //     "source_path": "xbox-live-docs-pr/__.md",
+        //     "redirect_url": "/gaming/xbox-live/features/multiplayer/mpa/concepts/live-mpa-concepts-nav",
+        //     "redirect_document_id": true
+        // },
+        // {
+        //     "source_path": "xbox-live-docs-pr/__.md",
+        //     "redirect_url": "/gaming/xbox-live/features/multiplayer/mpa/concepts/live-mpa-activities",
+        //     "redirect_document_id": true
+        // },
+        // {
+        //     "source_path": "xbox-live-docs-pr/__.md",
+        //     "redirect_url": "/gaming/xbox-live/features/multiplayer/mpa/concepts/live-mpa-invites",
+        //     "redirect_document_id": true
+        // },
+        // {
+        //     "source_path": "xbox-live-docs-pr/__.md",
+        //     "redirect_url": "/gaming/xbox-live/features/multiplayer/mpa/concepts/live-mpa-recent-players",
+        //     "redirect_document_id": true
+        // },
+        // {
+        //     "source_path": "xbox-live-docs-pr/__.md",
+        //     "redirect_url": "/gaming/xbox-live/features/multiplayer/mpa/how-to/live-mpa-how-to-nav",
+        //     "redirect_document_id": true
+        // },
+        // {
+        //     "source_path": "xbox-live-docs-pr/__.md",
+        //     "redirect_url": "/gaming/xbox-live/features/multiplayer/mpa/how-to/live-mpa-client-how-to",
+        //     "redirect_document_id": true
+        // },
         {
             "source_path": "xbox-live-docs-pr/multiplayer/xbox-integrated-multiplayer/xbox-integrated-multiplayer.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/xim/live-xim-nav",

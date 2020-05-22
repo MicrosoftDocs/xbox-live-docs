@@ -16,6 +16,25 @@ For 2015 and 2016 releases, see the What's New article for that month, such as [
 
 <!-- ********************************************************************** -->
 ___
+## June 2020
+
+
+### Xbox Live Features
+
+
+#### Multiplayer Activity (MPA)
+
+The Multiplayer Activity (MPA) feature simplifies platform integration for player activities (joins), invites, and recent players.
+The feature space will also allow players to launch into your game from their social graph, even if the title itself is not running.
+Using MPA provides developers with increased opportunities for their user base to engage in social play and joinable multiplayer scenarios.
+
+Important to note however, is that titles that wish to make use of MPA at this time must have their own session management systems, and not be dependent on use of MPSD.
+
+See [Multiplayer Activity (MPA)](live-mpa-nav.md).
+
+
+<!-- ********************************************************************** -->
+___
 ## May 2020
 
 
