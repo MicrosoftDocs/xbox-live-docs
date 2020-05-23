@@ -56,7 +56,7 @@ A title should have the following flow for handling multiplayer experiences:
    activity](how-to/live-mpa-client-how-to.md#setting-an-activity) to represent
    this.
    * Both Xbox Live and other players in the title may [retrieve this
-     activity](how-to/live-mpa-client-how-to.md#getting-an-activity). Depending
+     activity](how-to/live-mpa-client-how-to.md#getting-activities). Depending
      on their relationship to Player A, the activity they receive may also
      include a connection string, which they may use it to join the game in
      progress.
@@ -77,14 +77,12 @@ A title should have the following flow for handling multiplayer experiences:
 A server may act on behalf of clients for any of these items.  In addition, a
 server can:
 
-* Record [bidirectional
-  lists](concepts/live-mpa-recent-players.md#Unidirectional-players-vs-Bidirectional-groups)
-  of recent players.
+* Record [bidirectional lists](concepts/live-mpa-recent-players.md#upvbg) of recent players.
 * Send an invite on behalf of a user.
 * Retrieve activities for multiple users at once, as opposed to one at a time.
 
-See the forthcoming [Xbox Live Services RESTful
-Reference](https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/atoc-xboxlivews-reference).
+See the forthcoming <a href="https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/atoc-xboxlivews-reference" target="_blank">Xbox Live Services RESTful Reference &#11008;</a>.
+
 
 ## More details
 

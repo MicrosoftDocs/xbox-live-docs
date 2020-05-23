@@ -30,7 +30,7 @@ Using MPA provides developers with increased opportunities for their user base t
 
 Important to note however, is that titles that wish to make use of MPA at this time must have their own session management systems, and not be dependent on use of MPSD.
 
-See [Multiplayer Activity (MPA)](live-mpa-nav.md).
+See [Multiplayer Activity (MPA)](../../features/multiplayer/mpa/live-mpa-nav.md).
 
 
 <!-- ********************************************************************** -->

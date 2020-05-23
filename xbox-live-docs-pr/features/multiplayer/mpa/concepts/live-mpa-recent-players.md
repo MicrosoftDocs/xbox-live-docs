@@ -25,6 +25,9 @@ prevent flooding the recent players list with extraneous users. For instance, a
 record players that have actually interacted with each other, as opposed to
 submitting that all 100 players have played with each other.
 
+
+<a name="upvbg"></a>
+
 ## Unidirectional players vs. Bidirectional groups
 
 MPA accepts two concepts of player interaction. In the unidirectional case, the
