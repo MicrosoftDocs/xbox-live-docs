@@ -44,8 +44,8 @@ You can change this by configuring data sharing on Partner Center.
    A new row is added to the bottom of the list of apps/services configured to access that setting.
 
    In Game DVR, by default, a row exists for "Anonymous".
-   The **Anonymous** app/service type allows Xbox Live to share game clips within Xbox experiences; for example, this type causes Game DVR clips to appear in the game hubs for titles.
-   New titles are configured as **Anonymous** by default, for Game DVR.
+   The Anonymous app/service type allows Xbox Live to share game clips within Xbox experiences; for example, this type causes Game DVR clips to appear in the game hubs for titles.
+   New titles are configured as Anonymous by default, for Game DVR.
    Do not delete the Anonymous type from the Game DVR section.
 
 5. Select the type of app or service in the drop-down box (such as **Dev Center app** or **Anonymous**), and fill-in the detail box to indicate the app, title ID, or service ID of the app or service that will access the data.

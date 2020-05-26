@@ -32,7 +32,7 @@ To configure Game DVR strings that are associated with your game, you can use [P
 
 2. In the middle of the window, expand **Xbox Live**, then click **Gameplay settings**. The "Gameplay Setting" page appears.
 
-3. Click **Game DVR** or **Game Clips**. The "Gameplay Setting" page is refreshed and "GameDVR" is underlined in the navigation bar, and the Game Clips information appears.
+3. Click **Game DVR** or **Game Clips**. The "Gameplay Setting" page is refreshed and the Game Clips information appears.
 
 4. Click the **Create new string** button. The "New game dvr string" dialog box appears.
 
