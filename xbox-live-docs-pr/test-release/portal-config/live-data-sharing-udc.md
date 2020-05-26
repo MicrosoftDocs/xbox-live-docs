@@ -2,15 +2,19 @@
 title: Configuring data sharing in Partner Center
 description: Configuring data sharing in Partner Center to allow other apps, games, and services to access the Xbox Live settings.
 kindex: Configuring data sharing in Partner Center
+kindex: feature area sharing
+kindex: Access Policies
+kindex: data sharing
 kindex: UDC
 kindex: Universal Developer Center
-ms.topic: article
+ms.topic: conceptual
 ms.localizationpriority: medium
-ms.assetid:
 author: KevinAsgari
 ms.author: kevinasg
 ms.date: 02/21/2018
 ---
+
+
 
 
 
@@ -32,9 +36,9 @@ You can change this by configuring data sharing on Partner Center.
 
 2. In the middle of the window, expand **Xbox Live**, then click **Gameplay settings**. The "Gameplay Setting" page appears.
 
-3. Click the **Access Policies** link. The "Gameplay Setting" page is refreshed to show the "Feature area sharing" page, and "Access Policies" is underlined in the navigation bar.
+3. Click the **Access Policies** link. The "Feature area sharing" page appears within the "Gameplay Setting" page.
 
-   ![Access Policies page, "Add app or service" UI](../../images/dev-center/data-sharing-2.png)
+   ![The "Feature area sharing" page, with "Add app or service" UI](../../images/dev-center/data-sharing-2.png)
 
 4. Click the setting you want to grant access to, such as **Game DVR** or **Leaderboards**, and then click the **Add app/service** button.
    A new row is added to the bottom of the list of apps/services configured to access that setting.
@@ -50,4 +54,4 @@ You can change this by configuring data sharing on Partner Center.
 
 7. Repeat for each setting, and for each app or service that needs access to those settings. To remove an entry, click **Delete**.
 
-8. When you are finished, click the **Save** button to save your changes.
+8. When you are finished, click the **Save** button.
