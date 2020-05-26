@@ -7,8 +7,15 @@ kindex: Partner Center
 ms.topic: article
 ms.assetid: e0f307d2-ea02-48ea-bcdf-828272a894d4
 ms.localizationpriority: medium
+author: mikehoffms
+ms.author: v-mihof
 ms.date: 10/30/2017
 ---
+
+
+
+
+
 
 # Configuring Game DVR in Partner Center
 
@@ -30,3 +37,7 @@ Add configuration by doing the following:
 3. In the modal that pops up, enter the Game DVR string. Once completed, click **Confirm**.
 
 ![Image of the new game dvr string dialog](../../images/dev-center/game-dvr/game-dvr-1.png)
+
+If the **Anonymous** menuitem is selected, as shown in [Configuring data sharing in Partner Center](live-data-sharing-udc.md), this allows Xbox Live to share game clips within Xbox experiences.
+For example, if the **Anonymous** menuitem is selected in the Game DVR section, it causes Game DVR clips to appear in the game hubs for titles.
+New titles are configured as **Anonymous** by default.
