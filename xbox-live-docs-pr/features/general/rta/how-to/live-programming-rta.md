@@ -6,6 +6,8 @@ kindex: RTA
 ms.topic: article
 ms.localizationpriority: medium
 ms.assetid: 98cdcb1f-41d8-43db-98fc-6647755d3b17
+author: mlamaute
+ms.author: migreen
 ms.date: 04/04/2017
 ---
 
@@ -127,6 +129,6 @@ void Example_RealTimeActivity_UnsubscribeFromStatisticChangeAsync()
 ```
 
 > [!IMPORTANT]
-> The Real-Time Activity service will disconnect after two hours of use, your code must be able to detect this and re-establish a connection to the Real-Time Activity service if it is still needed. This is done primarily to ensure that auth tokens are refreshed upon expiration.
+> The Real-Time Activity service will disconnect after two hours of use, your code must be able to detect this and re-establish a connection to the Real-Time Activity service if it is still needed. This is done primarily to ensure that auth tokens are refreshed upon expiration. XSAPI will handle this for the title by proactively reconnecting to RTA and resubmitting subscriptions after 90 minutes.
 > 
-> If a client uses RTA for multiplayer sessions, and is disconnected for thirty seconds, the Multiplayer Session Directory(MPSD) detects that the RTA session is closed, and kicks the user out of the session. It's up to the RTA client to detect when the connection is closed and initiate a reconnect and resubscribe before MPSD ends the session.
+> If a client uses RTA for multiplayer sessions, and is disconnected for thirty seconds, the Multiplayer Session Directory (MPSD) detects that the RTA session is closed, and kicks the user out of the session. It's up to the RTA client to detect when the connection is closed and initiate a reconnect and resubscribe before MPSD ends the session.
