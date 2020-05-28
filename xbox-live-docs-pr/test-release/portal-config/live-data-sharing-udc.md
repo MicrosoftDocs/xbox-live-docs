@@ -2,15 +2,21 @@
 title: Configuring data sharing in Partner Center
 description: Configuring data sharing in Partner Center to allow other apps, games, and services to access the Xbox Live settings.
 kindex: Configuring data sharing in Partner Center
+kindex: feature area sharing
+kindex: Access Policies
+kindex: data sharing
 kindex: UDC
 kindex: Universal Developer Center
-ms.topic: article
+ms.topic: conceptual
 ms.localizationpriority: medium
-ms.assetid:
 author: KevinAsgari
 ms.author: kevinasg
 ms.date: 02/21/2018
 ---
+
+
+
+
 
 # Configuring data sharing in Partner Center
 
@@ -26,18 +32,26 @@ You can change this by configuring data sharing on Partner Center.
 
 ## To add configuration:
 
-1. After selecting your title in [Partner Center](https://developer.microsoft.com/dashboard/windows/overview), navigate to **Services** > **Xbox Live**.
+1. Go to [Partner Center](https://developer.microsoft.com/dashboard/windows/overview) and then select your title.
 
-2. Click on the link to **Data sharing**.
+2. In the middle of the window, expand **Xbox Live**, then click **Gameplay settings**. The "Gameplay Setting" page appears.
 
-3. Click on the setting you want to grant access to, and click the Add app/service button. This will add a new row to the bottom of the list of apps/services configured to access that setting.
+3. Click the **Access Policies** link. The "Feature area sharing" page appears within the "Gameplay Setting" page.
 
-4. Select the type of app or service in the dropdown box, and fill in the detail box to indicate the app, title id, or service id of the app or service that will access the data.
+   ![The "Feature area sharing" page, with "Add app or service" UI](../../images/dev-center/data-sharing-2.png)
 
-5. Select if the app or service can only read the data, or if it has full access to the data.
+4. Click the setting you want to grant access to, such as **Game DVR** or **Leaderboards**, and then click the **Add app/service** button.
+   A new row is added to the bottom of the list of apps/services configured to access that setting.
 
-6. Repeat for each setting, and for each app or service that needs access to those settings. You can click **Delete** to remove an entry.
+   In Game DVR, by default, a row exists for "Anonymous".
+   The Anonymous app/service type allows Xbox Live to share game clips within Xbox experiences; for example, this type causes Game DVR clips to appear in the game hubs for titles.
+   New titles are configured as Anonymous by default, for Game DVR.
+   Do not delete the Anonymous type from the Game DVR section.
 
-7. When you are finished, click the **Save** button to save your changes.
+5. Select the type of app or service in the drop-down box (such as **Dev Center app** or **Anonymous**), and fill-in the detail box to indicate the app, title ID, or service ID of the app or service that will access the data.
 
-![Data sharing add app or service screen](../../images/dev-center/data-sharing-2.png)
+6. Select whether the app or service can only read the data, or if it has full access to the data.
+
+7. Repeat for each setting, and for each app or service that needs access to those settings. To remove an entry, click **Delete**.
+
+8. When you are finished, click the **Save** button.
