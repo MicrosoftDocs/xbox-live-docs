@@ -15,7 +15,6 @@ ms.date: 04/04/2017
 
 This article contains the following sections:
 * [Connecting to the Real-Time Activity Service from Xbox Live](#connecting-to-the-real-time-activity-service-from-xbox-live)
-* [Creating a statistic](#creating-a-statistic)
 * [Disconnecting from the Real-Time Activity service](#disconnecting-from-the-real-time-activity-service)
 * [Subscribing to a statistic from the Real-Time Activity service](#subscribing-to-a-statistic-from-the-real-time-activity-service)
 * [Unsubscribing from a statistic from the Real-Time Activity service](#unsubscribing-from-a-statistic-from-the-real-time-activity-service)
