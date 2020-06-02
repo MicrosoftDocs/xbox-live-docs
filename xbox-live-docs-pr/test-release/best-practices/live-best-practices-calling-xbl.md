@@ -8,6 +8,12 @@ ms.localizationpriority: medium
 ms.date: 04/04/2017
 ---
 
+
+
+
+
+
+
 # Best practices for calling Xbox Live
 
 The Xbox Live services can be called from two primary ways: using the Xbox Services API (XSAPI), or calling the REST endpoints directly.
@@ -125,7 +131,7 @@ XSAPI has two types of error handling patterns:
 
 For details on best practices of error handling, see [Error handling](../error-handling/live-error-handling-nav.md).
 
-For a video that covers this, see the talk in [*Xfest 2015 Videos*](https://developer.xboxlive.com/en-us/platform/documentlibrary/events/Pages/Xfest2015.aspx) called *XSAPI: C++, No Exceptions!*
+For a video that covers this, see the talk in <a href="http://aka.ms/xgddl" target="_blank">Xfest 2015 Videos &#11008;</a> called *XSAPI: C++, No Exceptions!*
 
 
 ## Best calling patterns
@@ -153,6 +159,22 @@ To know what the information client is interested in, the client must first subs
 This avoids polling the service to detect changes since you will be told exactly when the item changes.
 
 XSAPI exposes the RTA service as a set of subscribe APIs that clients can use.
+
+**C API:**
+Each of these APIs have corresponding `*ChangedHandler` APIs which take in a callback function that will be called when an item changes.
+
+* [XblPresenceSubscribeToDevicePresenceChange](xblpresencesubscribetodevicepresencechange.md)
+<br>
+* [XblPresenceSubscribeToTitlePresenceChange](xblpresencesubscribetotitlepresencechange.md)
+<br>
+* [XblUserStatisticsSubscribeToStatisticChange](xbluserstatisticssubscribetostatisticchange.md)
+<br>
+* [XblSocialSubscribeToSocialRelationshipChange](xblsocialsubscribetosocialrelationshipchange.md)
+<br>
+ 
+
+**C++ API:**
+
 Each of these APIs have corresponding `*_changed_handler` APIs which take in a callback function that will be called when an item changes.
 
 * `presence_service::subscribe_to_device_presence_change`
@@ -228,6 +250,12 @@ If you are using XSAPI, APIs will return an `http_status_429_too_many_requests` 
 When using XSAPI, if the call is throttled while in a developer sandbox and using a debug build of the title, it will assert to immediately let the developer know that a throttle occurred.
 This is to avoid unintentionally missing 429 throttle error due to incorrectly written code.
 If you wish to disable these asserts to continue working without fixing the offending code, you can call this API:
+
+**C API**
+
+<!-- todo: copy from chm -->
+
+**C++ API**
 
 ```cpp
 xboxLiveContext->settings()->disable_asserts_for_xbox_live_throttling_in_dev_sandboxes(
