@@ -36,7 +36,7 @@ You can see a flowchart of the process here: [Sending invites to another player 
 
 | Method | Event triggered |
 | -----|----------------|
-| `multiplayer_lobby_session::invite_friends()` | `invite_sent` |
+| `multiplayer_lobby_session::invite_friends()` (C++) | `invite_sent` (C++) |
 
 Calling `XblMultiplayerManagerLobbySessionInviteFriends` (C) or `invite_friends()` (C++) will bring up the standard Xbox UI for inviting friends.
 This displays a UI that allows the player to select friends or recent players to invite to the game.
@@ -60,8 +60,8 @@ if (result.err())
 
 **Functions performed by Multiplayer Manager for Xbox Platform Invite TCUI**
 
-* Brings up the Xbox stock title callable UI (TCUI)
-* Sends invite directly to the selected players
+* Brings up the Xbox stock title callable UI (TCUI).
+* Sends invite directly to the selected players.
 
 
 ### 2) Title-implemented custom UI<a name="title-implemented-custom-ui">
@@ -74,7 +74,7 @@ Your title can implement a custom TCUI for viewing online friends and inviting t
 Games can use the `XblMultiplayerManagerLobbySessionInviteUsers` C method or the `invite_users()` C++ method to send invites to a set of people defined by their Xbox Live User IDs.
 This is useful if you prefer to use your own in-game UI instead of the stock Xbox UI.
 
-**C API**
+**C API:**
 <!-- XblMultiplayerManagerLobbySessionInviteUsers_C.md -->
 ```cpp
 size_t xuidsCount = 1;
@@ -92,7 +92,7 @@ HRESULT hr = XblMultiplayerManagerLobbySessionInviteUsers(
 <!-- **Reference**
 * [XblMultiplayerManagerLobbySessionInviteUsers](xblmultiplayermanagerlobbysessioninviteusers.md) -->
 
-**C++ API**
+**C++ API:**
 ```cpp
 std::vector<string_t>& xboxUserIds;
 xboxUserIds.push_back();  // Add xbox_user_ids from your in-game roster list
