@@ -3,12 +3,14 @@ title: Xbox Live overview
 description: Xbox Live provides the greatest player community for your game on the most advanced cross-platform multiplayer network.
 kindex: Xbox Live overview
 ms.topic: conceptual
-ms.prod: gaming
-ms.technology: xboxlive
 ms.assetid: 5a402113-b485-46f3-a30e-73f4b71492b6
 ms.localizationpriority: medium
+author: mlamaute
+ms.author: migreen
 ms.date: 04/04/2017
 ---
+
+
 
 # Xbox Live overview
 
@@ -27,6 +29,9 @@ Here are some reasons to add Xbox Live to your game:
 
 - With cross-device multiplayer, gamers can play with your friends regardless of whether they play on the Xbox One (or later) console or a Windows 10 PC.
 
+
+## Joining a developers program
+
 With the Xbox Live Creators Program, anyone with a [Partner Center](https://partner.microsoft.com/dashboard) account can build an Xbox Live enabled Universal Windows Platform (UWP) game that can run on both Windows 10 PCs and Xbox One (or later) consoles.
 
 For game developers that want to take advantage of the full Xbox Live experience, including multiplayer, achievements, and native Xbox console development, see [Choosing an Xbox Live developer program](join-dev-program/live-dev-program-overview.md).
@@ -43,7 +48,7 @@ In addition to the REST APIs, there are client-side APIs that wrap the REST func
 See [Introduction to Xbox Live APIs](../api-ref/xsapi/live-introduction-to-xbox-live-apis.md).
 
 
-## Join the Creators or ID program
+## Joining the Creators or ID program
 
 The following guides can help you get started with Xbox Live development, regardless of whether you are a UWP or Xbox console developer.
 There are also guides for getting setup with game engines.
@@ -55,19 +60,12 @@ There are also guides for getting setup with game engines.
 | [Getting started with Xbox Live, for Managed Partners](setup-partner-center/legacy/live-get-started-xbl-partner.md) | How to get started with Xbox Live as a developer in the Managed Partners Program. |
 
 
-## Using Xbox Live
 
-Once you have a title created and the fundamentals working, this section provides necessary background before you jump in and start coding.
-
-| Article | Description |
-|---------|-------------|
-| [Error handling](../test-release/error-handling/live-error-handling-nav.md) | Handling errors when calling an Xbox Live service through XSAPI. |
-| [Authentication and sign-in](../features/identity/auth/live-authentication-nav.md) | Signing-in an Xbox Live user in your title. |
-| [Best practices for calling Xbox Live](../test-release/best-practices/live-best-practices-calling-xbl.md) | Familiarize yourself with the basics on Xbox Live calling patterns and best-practices to ensure your title performs well and doesn't get rate limited.
-| [Troubleshooting Xbox Live Services APIs](../test-release/troubleshooting/live-troubleshooting-apis.md) | Common issues you may encounter and suggestions on how to fix them.
+<!-- ====================================================================== -->
+## Feature areas
 
 
-## Player Data
+### Player Data
 
 Xbox Live Player Data drives the usage of player stats, achievements, and leaderboards.
 Read this series of articles to learn more about how to use these in your title.
@@ -79,7 +77,7 @@ Read this series of articles to learn more about how to use these in your title.
 | [Achievements](../features/player-data/achievements/live-achievements-nav.md) | Achievements are one of the most well known features in Xbox Live, and a great driver of player engagement. Learn how to use them in your title.
 
 
-## Social features
+### Social features
 
 Xbox Live social features can organically grow your audience, spreading awareness to over 55 million active users.
 This section describes how to get started with the Xbox Live social features.
@@ -89,7 +87,7 @@ This section describes how to get started with the Xbox Live social features.
 | [Social](../features/social/live-social-nav.md) | If you can sign-in a user, then you can start using Xbox Live's Social features, such as Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation. |
 
 
-## Multiplayer features
+### Multiplayer features
 
 Multiplayer is a great way to extend the lifetime of your title and keep gameplay experiences fresh.
 Xbox Live provides extensive multiplayer and matchmaking features.
@@ -103,12 +101,10 @@ You also have several options of API that provide varying levels of simplicity v
 | [Multiplayer Manager (MPM)](../features/multiplayer/mpm/live-multiplayer-manager-nav.md) | Multiplayer Manager provides a high-level API focused on common multiplayer scenarios, including adding multiplayer functionality by managing sessions, matchmaking, and game invites. Provides a state- and event-based programming model. |
 
 
-
-## Cloud Storage
+### Cloud Storage
 
 Xbox Live Cloud Storage provides both Title Storage and Connected Storage.
-These are two different but complementary services:  
-
+These are two different but complementary services.
 *  *Connected Storage* allows you to implement game saves in the cloud, that will roam across devices regardless of where a user is signed-in.
 *  *Title Storage* lets you store blobs of data that can be per user or per title and shared across different users.
 
