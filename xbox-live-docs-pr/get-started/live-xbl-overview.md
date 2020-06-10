@@ -48,19 +48,6 @@ In addition to the REST APIs, there are client-side APIs that wrap the REST func
 See [Introduction to Xbox Live APIs](../api-ref/xsapi/live-introduction-to-xbox-live-apis.md).
 
 
-## Joining the Creators or ID program
-
-The following guides can help you get started with Xbox Live development, regardless of whether you are a UWP or Xbox console developer.
-There are also guides for getting setup with game engines.
-
-| Article | Description |
-|---------|-------------|
-| [Choosing an Xbox Live developer program](join-dev-program/live-dev-program-overview.md) | The various developer programs that enable Xbox Live development. |
-| [Getting started with Xbox Live, for Creators](setup-partner-center/legacy/live-get-started-creators.md) | How to get started with Xbox Live in the Xbox Live Creators Program. |
-| [Getting started with Xbox Live, for Managed Partners](setup-partner-center/legacy/live-get-started-xbl-partner.md) | How to get started with Xbox Live as a developer in the Managed Partners Program. |
-
-
-
 <!-- ====================================================================== -->
 ## Feature areas
 
@@ -68,7 +55,6 @@ There are also guides for getting setup with game engines.
 ### Player Data
 
 Xbox Live Player Data drives the usage of player stats, achievements, and leaderboards.
-Read this series of articles to learn more about how to use these in your title.
 
 | Article | Description |
 |---------|-------------|
@@ -80,11 +66,10 @@ Read this series of articles to learn more about how to use these in your title.
 ### Social features
 
 Xbox Live social features can organically grow your audience, spreading awareness to over 55 million active users.
-This section describes how to get started with the Xbox Live social features.
 
 | Article | Description |
 |---------|-------------|
-| [Social](../features/social/live-social-nav.md) | If you can sign-in a user, then you can start using Xbox Live's Social features, such as Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation. |
+| [Social](../features/social/live-social-nav.md) | If you can sign-in a user, then you can start using Xbox Live's social features, such as utilizing a user's social graph, Rich Presence, Friends list (People system), activity feed (presence strings), and reputation. |
 
 
 ### Multiplayer features
