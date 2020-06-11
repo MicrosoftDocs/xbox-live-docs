@@ -99,3 +99,67 @@
                   href: uri/dvr/uri-usersowneridscidclipsgameclipid.md
                 - name: GET (/users/{ownerId}/scids/{scid}/clips/{gameClipId})
                   href: uri/dvr/uri-usersowneridscidclipsgameclipidget.md
+        - name: Gamerpic URIs
+          items:
+            - name: In this section
+              href: uri/gamerpic/atoc-reference-gamerpic.md
+            - name: /users/me/gamerpic
+              items:
+                - name: In this section
+                  href: uri/gamerpic/uri-usersmegamerpic.md
+                - name: PUT (/users/me/gamerpic)
+                  href: uri/gamerpic/uri-usersmegamerpicput.md
+        - name: Leaderboards URIs
+          items:
+            - name: In this section
+              href: uri/leaderboard/atoc-reference-leaderboard.md
+            - name: /scids/{scid}/leaderboards/{leaderboardname}
+              items:
+                - name: In this section
+                  href: uri/leaderboard/uri-scidsscidleaderboardsleaderboardname.md
+                - name: GET (/scids/{scid}/leaderboards/{leaderboardname})
+                  href: uri/leaderboard/uri-scidsscidleaderboardsleaderboardnameget.md
+                - name: GET (/scids/{scid}/leaderboards/{leaderboardname}?include=valuemetadata)
+                  href: uri/leaderboard/uri-scidsscidleaderboardsleaderboardnamegetvaluemetadata.md
+            - name: /users/xuid({xuid})/scids/{scid}/stats/{statname)/people/{all|favorite}
+              items:
+                - name: In this section
+                  href: uri/leaderboard/uri-usersxuidscidstatnamepeople.md
+                - name: GET (/users/xuid({xuid})/scids/{scid}/stats/{statname)/people/{all|favorite})
+                  href: uri/leaderboard/uri-usersxuidscidstatnamepeopleget.md
+        - name: Lists URIs
+          items:
+            - name: In this section
+              href: uri/lists/atoc-reference-lists.md
+            - name: /users/xuid(xuid)/lists/PINS/{listname}
+              items:
+                - name: In this section
+                  href: uri/lists/uri-usersxuidlistspinslistname.md
+                - name: DELETE (/users/xuid(xuid)/lists/PINS/{listname})
+                  href: uri/lists/uri-usersxuidlistspinslistnamedelete.md
+                - name: GET (/users/xuid(xuid)/lists/PINS/{listname})
+                  href: uri/lists/uri-usersxuidlistspinslistnameget.md
+                - name: POST (/users/xuid(xuid)/lists/PINS/{listname})
+                  href: uri/lists/uri-usersxuidlistspinslistnamepost.md
+                - name: PUT (/users/xuid(xuid)/lists/PINS/{listname})
+                  href: uri/lists/uri-usersxuidlistspinslistnameput.md
+            - name: /users/xuid(xuid)/lists/PINS/{listname}/ContainsItems
+              items:
+                - name: In this section
+                  href: uri/lists/uri-usersxuidlistspinslistnamecontainsitems.md
+                - name: POST /users/xuid(xuid)/lists/PINS/{listname}/ContainsItems
+                  href: uri/lists/uri-usersxuidlistspinslistnamecontainsitemspost.md
+            - name: /users/xuid(xuid)/lists/PINS/{listname}/index({index})?insertIndex={insertIndex}
+              items:
+                - name: In this section
+                  href: uri/lists/uri-usersxuidlistspinslistnameindex.md
+                - name: POST /users/xuid(xuid)/lists/PINS/{listname}/index({index})?insertIndex={insertIndex}
+                  href: uri/lists/uri-usersxuidlistspinslistnameindexpost.md
+            - name: /users/xuid(xuid)/lists/PINS/{listname}/RemoveItems
+              items:
+                - name: In this section
+                  href: uri/lists/uri-usersxuidlistspinslistnameremoveitems.md
+                - name: DELETE /users/xuid(xuid)/lists/PINS/{listname}/RemoveItems
+                  href: uri/lists/uri-usersxuidlistspinslistnameremoveitemsdelete.md
+                - name: POST /users/xuid(xuid)/lists/PINS/{listname}/RemoveItems
+                  href: uri/lists/uri-usersxuidlistspinslistnameremoveitemspost.md
