@@ -1,0 +1,23 @@
+- name: Xbox Live Services RESTful Reference
+  href: atoc-xboxlivews-reference.md
+  items:
+    - name: Universal Resource Identifier (URI) Reference
+      items:
+        - name: In this section
+          href: uri/atoc-xboxlivews-reference-uris.md
+        - name: Achievements URIs
+          items:
+            - name: In this section
+              href: uri/achievements/atoc-reference-achievementsv2.md
+            - name: /users/xuid({xuid})/achievements
+              items:
+                - name: In this section
+                  href: uri/achievements/uri-achievementsusersxuidachievementsv2.md
+                - name: GET (/users/xuid({xuid})/achievements)
+                  href: uri/achievements/uri-achievementsusersxuidachievementsgetv2.md
+            - name: /users/xuid({xuid})/achievements/{scid}/{achievementid}
+              items:
+                - name: In this section
+                  href: uri/achievements/uri-usersxuidachievementsscidachievementid.md
+                - name: GET (/users/xuid({xuid})/achievements/{scid}/{achievementid})
+                  href: uri/achievements/uri-usersxuidachievementsscidachievementidget.md
