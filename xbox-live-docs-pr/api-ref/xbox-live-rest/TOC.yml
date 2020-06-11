@@ -729,3 +729,185 @@
                   href: uri/userstats/uri-usersxuidscidsscidstatsget.md
                 - name: GET (/users/xuid({xuid})/scids/{scid}/stats?include=valuemetadata)
                   href: uri/userstats/uri-usersxuidscidsscidstatsgetvaluemetadata.md
+    - name: JavaScript Object Notation (JSON) Object Reference
+      items:
+        - name: In this section
+          href: json/atoc-xboxlivews-reference-json.md
+        - name: Achievement (JSON)
+          href: json/json-achievementv2.md
+        - name: ActivityRecord (JSON)
+          href: json/json-activityrecord.md
+        - name: ActivityRequest (JSON)
+          href: json/json-activityrequest.md
+        - name: AggregateSessionsResponse (JSON)
+          href: json/json-aggregatesessionsresponse.md
+        - name: BatchRequest (JSON)
+          href: json/json-batchrequest.md
+        - name: DeviceEndpoint (JSON)
+          href: json/json-deviceendpoint.md
+        - name: DeviceRecord (JSON)
+          href: json/json-devicerecord.md
+        - name: Feedback (JSON)
+          href: json/json-feedback.md
+        - name: GameClip (JSON)
+          href: json/json-gameclip.md
+        - name: GameClipsServiceErrorResponse (JSON)
+          href: json/json-gameclipsserviceerrorresponse.md
+        - name: GameClipThumbnail (JSON)
+          href: json/json-gameclipthumbnail.md
+        - name: GameClipUri (JSON)
+          href: json/json-gameclipuri.md
+        - name: GameMessage (JSON)
+          href: json/json-gamemessage.md
+        - name: GameResult (JSON)
+          href: json/json-gameresult.md
+        - name: GameSession (JSON)
+          href: json/json-gamesession.md
+        - name: GameSessionSummary (JSON)
+          href: json/json-gamesessionsummary.md
+        - name: GetClipResponse (JSON)
+          href: json/json-getclipresponse.md
+        - name: HopperStatsResults (JSON)
+          href: json/json-hopperstatsresults.md
+        - name: InitialUploadRequest (JSON)
+          href: json/json-initialuploadrequest.md
+        - name: InitialUploadResponse (JSON)
+          href: json/json-initialuploadresponse.md
+        - name: InventoryItem (JSON)
+          href: json/json-inventoryitem.md
+        - name: LastSeenRecord (JSON)
+          href: json/json-lastseenrecord.md
+        - name: MatchTicket (JSON)
+          href: json/json-matchticket.md
+        - name: MediaAsset (JSON)
+          href: json/json-mediaasset.md
+        - name: MediaRecord (JSON)
+          href: json/json-mediarecord.md
+        - name: MediaRequest (JSON)
+          href: json/json-mediarequest.md
+        - name: MultiplayerActivityDetails (JSON)
+          href: json/json-multiplayeractivitydetails.md
+        - name: MultiplayerSessionReference (JSON)
+          href: json/json-multiplayersessionreference.md
+        - name: MultiplayerSessionRequest (JSON)
+          href: json/json-multiplayersessionrequest.md
+        - name: MultiplayerSession (JSON)
+          href: json/json-multiplayersession.md
+        - name: PagingInfo (JSON)
+          href: json/json-paginginfo.md
+        - name: PeopleList (JSON)
+          href: json/json-peoplelist.md
+        - name: PermissionCheckBatchRequest (JSON)
+          href: json/json-permissioncheckbatchrequest.md
+        - name: PermissionCheckBatchResponse (JSON)
+          href: json/json-permissioncheckbatchresponse.md
+        - name: PermissionCheckBatchUserResponse (JSON)
+          href: json/json-permissioncheckbatchuserresponse.md
+        - name: PermissionCheckResponse (JSON)
+          href: json/json-permissioncheckresponse.md
+        - name: PermissionCheckResult (JSON)
+          href: json/json-permissioncheckresult.md
+        - name: Person (JSON)
+          href: json/json-person.md
+        - name: PersonSummary (JSON)
+          href: json/json-personsummary.md
+        - name: Player (JSON)
+          href: json/json-player.md
+        - name: PresenceRecord (JSON)
+          href: json/json-presencerecord.md
+        - name: Profile (JSON)
+          href: json/json-profile.md
+        - name: Progression (JSON)
+          href: json/json-progression.md
+        - name: Property (JSON)
+          href: json/json-property.md
+        - name: QueryClipsResponse (JSON)
+          href: json/json-queryclipsresponse.md
+        - name: quotaInfo (JSON)
+          href: json/json-quota.md
+        - name: Requirement (JSON)
+          href: json/json-requirement.md
+        - name: ResetReputation (JSON)
+          href: json/json-resetreputation.md
+        - name: Reward (JSON)
+          href: json/json-reward.md
+        - name: RichPresenceRequest (JSON)
+          href: json/json-richpresencerequest.md
+        - name: ServiceError (JSON)
+          href: json/json-serviceerror.md
+        - name: ServiceErrorResponse (JSON)
+          href: json/json-serviceerrorresponse.md
+        - name: SessionEntry (JSON)
+          href: json/json-sessionentry.md
+        - name: TitleAssociation (JSON)
+          href: json/json-titleassociation.md
+        - name: TitleBlob (JSON)
+          href: json/json-titleblob.md
+        - name: TitleRecord (JSON)
+          href: json/json-titlerecord.md
+        - name: TitleRequest (JSON)
+          href: json/json-titlerequest.md
+        - name: UpdateMetadataRequest (JSON)
+          href: json/json-updatemetadatarequest.md
+        - name: User (JSON)
+          href: json/json-user.md
+        - name: UserClaims (JSON)
+          href: json/json-userclaims.md
+        - name: UserList (JSON)
+          href: json/json-userlist.md
+        - name: UserSettings (JSON)
+          href: json/json-usersettings.md
+        - name: UserTitle (JSON)
+          href: json/json-usertitlev2.md
+        - name: VerifyStringResult (JSON)
+          href: json/json-verifystringresult.md
+        - name: XuidList (JSON)
+          href: json/json-xuidlist.md
+    - name: Enumerations Used In JavaScript Object Notation (JSON) Objects
+      items:
+        - name: In this section
+          href: enums/atoc-xboxlivews-reference-enums.md
+        - name: GameClipSource Enumeration
+          href: enums/gvr-enum-gameclipsource.md
+        - name: GameClipState Enumeration
+          href: enums/gvr-enum-gameclipstate.md
+        - name: GameClipType Enumeration
+          href: enums/gvr-enum-gamecliptypes.md
+        - name: GameClipUriType Enumeration
+          href: enums/gvr-enum-gameclipuritype.md
+        - name: GameClipVisibility Enumeration
+          href: enums/gvr-enum-gameclipvisibility.md
+        - name: ThumbnailSource Enumeration
+          href: enums/gvr-enum-thumbnailsource.md
+        - name: ThumbnailType Enumeration
+          href: enums/gvr-enum-thumbnailtype.md
+        - name: PermissionId Enumeration
+          href: enums/privacy-enum-permissionid.md
+    - name: Additional Reference
+      items:
+        - name: In this section
+          href: additional/atoc-xboxlivews-reference-additional.md
+        - name: Authorization Types
+          href: additional/authorizationtypes.md
+        - name: Data Type Overview
+          href: additional/datatypeoverview.md
+        - name: Auxiliary EDS APIs
+          href: additional/eds-apis.md
+        - name: EDS Authorization
+          href: additional/edsauthorization.md
+        - name: EDS Common Headers
+          href: additional/edscommonheaders.md
+        - name: EDS Parameters
+          href: additional/edsparameters.md
+        - name: EDS Query Refiners
+          href: additional/edsqueryrefiners.md
+        - name: EDS Reverse Lookup for Video
+          href: additional/edsreverselookup.md
+        - name: EDS Tables
+          href: additional/edstables.md
+        - name: Paging Parameters
+          href: additional/pagingparameters.md
+        - name: Standard HTTP Request and Response Headers
+          href: additional/httpstandardheaders.md
+        - name: Standard HTTP status codes
+          href: additional/httpstatuscodes.md
