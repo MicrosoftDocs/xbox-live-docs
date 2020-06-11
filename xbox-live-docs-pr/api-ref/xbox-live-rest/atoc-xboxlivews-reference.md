@@ -24,3 +24,8 @@ Xbox Live Services is a set of services for managing games and player informatio
 | [JavaScript Object Notation (JSON) Object Reference](json/atoc-xboxlivews-reference-json.md) | Reference material for the JavaScript Object Notation (JSON) objects used with Xbox Live Services. |
 | [Enumerations Used In JavaScript Object Notation (JSON) Objects](enums/atoc-xboxlivews-reference-enums.md) | Reference material for the enumerations used in JavaScript Object Notation (JSON) objects used with Xbox Live Services. |
 | [Additional Reference](additional/atoc-xboxlivews-reference-additional.md) | Supplementary reference material for Xbox Live Services, including authorization types, data types, standard HTTP status codes and headers, paging parameters, and Entertainment Discovery Services (EDS). |
+
+
+### See also
+
+[Xbox Live documentation](../../index.yml)
