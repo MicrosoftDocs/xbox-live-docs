@@ -319,3 +319,413 @@
                   href: uri/people/uri-usersowneridsummary.md
                 - name: GET (/users/{ownerId}/summary)
                   href: uri/people/uri-usersowneridsummaryget.md
+        - name: Presence URIs
+          items:
+            - name: In this section
+              href: uri/presence/atoc-reference-presence.md
+            - name: /users/batch
+              items:
+                - name: In this section
+                  href: uri/presence/uri-usersbatch.md
+                - name: POST (/users/batch)
+                  href: uri/presence/uri-usersbatchpost.md
+            - name: /users/me
+              items:
+                - name: In this section
+                  href: uri/presence/uri-usersme.md
+                - name: GET (/users/me)
+                  href: uri/presence/uri-usersmeget.md
+            - name: /users/me/groups/{moniker}
+              items:
+                - name: In this section
+                  href: uri/presence/uri-usersmegroupsmoniker.md
+                - name: GET (/users/me/groups/{moniker})
+                  href: uri/presence/uri-usersmegroupsmonikerget.md
+            - name: /users/xuid({xuid})
+              items:
+                - name: In this section
+                  href: uri/presence/uri-usersxuid.md
+                - name: GET (/users/xuid({xuid}))
+                  href: uri/presence/uri-usersxuidget.md
+            - name: /users/xuid({xuid})/devices/current/titles/current
+              items:
+                - name: In this section
+                  href: uri/presence/uri-usersxuiddevicescurrenttitlescurrent.md
+                - name: DELETE (/users/xuid({xuid})/devices/current/titles/current)
+                  href: uri/presence/uri-usersxuiddevicescurrenttitlescurrentdelete.md
+                - name: POST (/users/xuid({xuid})/devices/current/titles/current)
+                  href: uri/presence/uri-usersxuiddevicescurrenttitlescurrentpost.md
+            - name: /users/xuid({xuid})/groups/{moniker}
+              items:
+                - name: In this section
+                  href: uri/presence/uri-usersxuidgroupsmoniker.md
+                - name: GET (/users/xuid({xuid})/groups/{moniker})
+                  href: uri/presence/uri-usersxuidgroupsmonikerget.md
+            - name: /users/xuid({xuid})/groups/{moniker}/broadcasting
+              items:
+                - name: In this section
+                  href: uri/presence/uri-usersxuidgroupsmonikerbroadcasting.md
+                - name: GET (/users/xuid({xuid})/groups/{moniker}/broadcasting)
+                  href: uri/presence/uri-usersxuidgroupsmonikerbroadcastingget.md
+            - name: /users/xuid({xuid})/groups/{moniker}/broadcasting/count
+              items:
+                - name: In this section
+                  href: uri/presence/uri-usersxuidgroupsmonikerbroadcastingcount.md
+                - name: GET (/users/xuid({xuid})/groups/{moniker}/broadcasting/count)
+                  href: uri/presence/uri-usersxuidgroupsmonikerbroadcastingcountget.md
+        - name: Privacy URIs
+          items:
+            - name: In this section
+              href: uri/privacy/atoc-reference-privacyv2.md
+            - name: /users/{ownerId}/people/mute
+              items:
+                - name: In this section
+                  href: uri/privacy/uri-privacyusersowneridpeoplemute.md
+                - name: GET (/users/{ownerId}/people/mute)
+                  href: uri/privacy/uri-privacyusersowneridpeoplemuteget.md
+            - name: /users/{requestorId}/permission/validate
+              items:
+                - name: In this section
+                  href: uri/privacy/uri-privacyusersrequestoridpermissionvalidate.md
+                - name: GET (/users/{requestorId}/permission/validate)
+                  href: uri/privacy/uri-privacyusersrequestoridpermissionvalidateget.md
+                - name: POST (/users/{requestorId}/permission/validate)
+                  href: uri/privacy/uri-privacyusersrequestoridpermissionvalidatepost.md
+            - name: /users/{ownerId}/people/avoid
+              items:
+                - name: In this section
+                  href: uri/privacy/uri-privacyusersxuidpeopleavoid.md
+                - name: GET (/users/{ownerId}/people/avoid)
+                  href: uri/privacy/uri-privacyusersxuidpeopleavoidget.md
+        - name: Profiles URIs
+          items:
+            - name: In this section
+              href: uri/profileV2/atoc-reference-profiles.md
+            - name: /users/batch/profile/settings
+              items:
+                - name: In this section
+                  href: uri/profileV2/uri-usersbatchprofilesettings.md
+                - name: POST (/users/batch/profile/settings)
+                  href: uri/profileV2/uri-usersbatchprofilesettingspost.md
+            - name: /users/{userId}/profile/settings/people/{userList}?settings={settings}
+              items:
+                - name: In this section
+                  href: uri/profileV2/uri-usersuseridprofilesettingspeopleuserlist.md
+                - name: GET (/users/{userId}/profile/settings/people/{userList})
+                  href: uri/profileV2/uri-usersuseridprofilesettingspeopleuserlistget.md
+        - name: Reputation URIs
+          items:
+            - name: In this section
+              href: uri/reputation/atoc-reference-reputation.md
+            - name: /users/xuid({xuid})/feedback
+              items:
+                - name: In this section
+                  href: uri/reputation/uri-reputationusersxuidfeedback.md
+                - name: POST (/users/xuid({xuid})/feedback)
+                  href: uri/reputation/uri-reputationusersxuidfeedbackpost.md
+            - name: /users/batchfeedback
+              items:
+                - name: In this section
+                  href: uri/reputation/uri-reputationusersbatchfeedback.md
+                - name: POST (/users/batchfeedback)
+                  href: uri/reputation/uri-reputationusersbatchfeedbackpost.md
+            - name: /users/me/resetreputation
+              items:
+                - name: In this section
+                  href: uri/reputation/uri-usersmeresetreputation.md
+                - name: POST (/users/me/resetreputation)
+                  href: uri/reputation/uri-usersmeresetreputationpost.md
+            - name: /users/xuid({xuid})/deleteuserdata
+              items:
+                - name: In this section
+                  href: uri/reputation/uri-usersxuiddeleteuserdata.md
+                - name: POST (/users/xuid({xuid})/deleteuserdata)
+                  href: uri/reputation/uri-usersxuiddeleteuserdatapost.md
+            - name: /users/xuid({xuid})/resetreputation
+              items:
+                - name: In this section
+                  href: uri/reputation/uri-usersxuidresetreputation.md
+                - name: POST (/users/xuid({xuid})/resetreputation)
+                  href: uri/reputation/uri-usersxuidresetreputationpost.md
+        - name: Session Directory URIs
+          items:
+            - name: In this section
+              href: uri/sessiondirectory/atoc-reference-sessiondirectory.md
+            - name: /handles
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-handles.md
+                - name: POST (/handles)
+                  href: uri/sessiondirectory/uri-handlespost.md
+            - name: /handles/{handleId}
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-handleshandleid.md
+                - name: DELETE (/handles/{handleId})
+                  href: uri/sessiondirectory/uri-handleshandleiddelete.md
+                - name: GET (/handles/{handle-id})
+                  href: uri/sessiondirectory/uri-handleshandleidget.md
+            - name: /handles/{handleId}/session
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-handleshandleidsession.md
+                - name: GET (/handles/{handleId}/session)
+                  href: uri/sessiondirectory/uri-handleshandleidsessionget.md
+                - name: PUT (/handles/{handle-id}/session)
+                  href: uri/sessiondirectory/uri-handleshandleidsessionput.md
+            - name: /handles/query
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-handlesquery.md
+                - name: POST (/handles/query)
+                  href: uri/sessiondirectory/uri-handlesquerypost.md
+                - name: POST (/handles/query?include=relatedInfo)
+                  href: uri/sessiondirectory/uri-handlesqueryincludepost.md
+            - name: /serviceconfigs/{scid}/batch
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-serviceconfigsscidbatch.md
+                - name: POST (/serviceconfigs/{scid}/batch)
+                  href: uri/sessiondirectory/uri-serviceconfigsscidbatchpost.md
+            - name: /serviceconfigs/{scid}/sessions
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessions.md
+                - name: GET (/serviceconfigs/{scid}/sessions)
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessionsget.md
+            - name: /serviceconfigs/{scid}/sessiontemplates
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplates.md
+                - name: GET (/serviceconfigs/{scid}/sessiontemplates)
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatesget.md
+            - name: /serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatename.md
+                - name: GET (/serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName})
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenameget.md
+            - name: /serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/batch
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-serviceconfigscidsessiontemplatessessiontemplatenamebatch.md
+                - name: POST (/serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/batch)
+                  href: uri/sessiondirectory/uri-serviceconfigscidsessiontemplatessessiontemplatenamebatchpost.md
+            - name: /serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessions.md
+                - name: GET (/serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions)
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessionsget.md
+            - name: /serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions/{sessionName}
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessionssessionname.md
+                - name: GET (/serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions/{sessionName})
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessionssessionnameget.md
+                - name: PUT (/serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions/{sessionName})
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessionssessionnameput.md
+            - name: /serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions/{sessionName}/members/{index}
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessionnamemembersindex.md
+                - name: DELETE (/serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions/{sessionName}/members/{index})
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessionnamemembersindexdelete.md
+            - name: /serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions/{sessionName}/members/me
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessionssessionnamemembersme.md
+                - name: DELETE (/serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions/{sessionName}/members/me)
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessionssessionnamemembersmedelete.md
+            - name: /serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions/{sessionName}/servers/{server-name}
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessionnamemembersservername.md
+                - name: DELETE (/serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions/{sessionName}/servers/{server-name})
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessionnamemembersservernamedelete.md
+        - name: Achievement Title History URIs
+          items:
+            - name: In this section
+              href: uri/titlehistory/atoc-reference-titlehistoryv2.md
+            - name: /users/xuid({xuid})/history/titles
+              items:
+                - name: In this section
+                  href: uri/titlehistory/uri-titlehistoryusersxuidhistorytitlesv2.md
+                - name: GET (/users/xuid({xuid})/history/titles)
+                  href: uri/titlehistory/uri-titlehistoryusersxuidhistorytitlesgetv2.md
+        - name: Title Storage URIs
+          items:
+            - name: In this section
+              href: uri/storage/atoc-reference-storagev2.md
+            - name: /global/scids/{scid}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-globalscidsscid.md
+                - name: GET (/global/scids/{scid})
+                  href: uri/storage/uri-globalscidsscid-get.md
+            - name: /global/scids/{scid}/data/{path}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-globalscidssciddatapath.md
+                - name: GET (/global/scids/{scid}/data/{path})
+                  href: uri/storage/uri-globalscidssciddatapath-get.md
+            - name: /global/scids/{scid}/data/{pathAndFileName},{type}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-globalscidssciddatapathandfilenametype.md
+                - name: GET (/global/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-globalscidssciddatapathandfilenametype-get.md
+            - name: /json/users/batch/scids/{scid}/data/{pathAndFileName},json
+              items:
+                - name: In this section
+                  href: uri/storage/uri-jsonusersbatchscidssciddatapathandfilenametype.md
+                - name: POST (/json/users/batch/scids/{scid}/data/{pathAndFileName},json)
+                  href: uri/storage/uri-jsonusersbatchscidssciddatapathandfilenametype-post.md
+            - name: /json/users/xuid({xuid})/scids/{scid}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-jsonusersxuidscidsscid.md
+                - name: GET (/json/users/xuid({xuid})/scids/{scid})
+                  href: uri/storage/uri-jsonusersxuidscidsscid-get.md
+            - name: /json/users/xuid({xuid})/scids/{scid}/data/{path}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-jsonusersxuidscidssciddatapath.md
+                - name: GET (/json/users/xuid({xuid})/scids/{scid}/data/{path})
+                  href: uri/storage/uri-jsonusersxuidscidssciddatapath-get.md
+            - name: /json/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},json
+              items:
+                - name: In this section
+                  href: uri/storage/uri-jsonusersxuidscidssciddatapathandfilenametype.md
+                - name: DELETE (/json/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},json)
+                  href: uri/storage/uri-jsonusersxuidscidssciddatapathandfilenametype-delete.md
+                - name: GET (/json/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},json)
+                  href: uri/storage/uri-jsonusersxuidscidssciddatapathandfilenametype-get.md
+                - name: PUT (/json/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},json)
+                  href: uri/storage/uri-jsonusersxuidscidssciddatapathandfilenametype-put.md
+            - name: /sessions/{sessionId}/scids/{scid}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-sessionssessionidscidsscid.md
+                - name: GET (/sessions/{sessionId}/scids/{scid})
+                  href: uri/storage/uri-sessionssessionidscidsscid-get.md
+            - name: /sessions/{sessionId}/scids/{scid}/data/{path}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-sessionssessionidscidssciddatapath.md
+                - name: GET (/sessions/{sessionId}/scids/{scid}/data/{path})
+                  href: uri/storage/uri-sessionssessionidscidssciddatapath-get.md
+            - name: /sessions/{sessionId}/scids/{scid}/data/{pathAndFileName},{type}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-sessionssessionidscidssciddatapathandfilenametype.md
+                - name: DELETE (/sessions/{sessionId}/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-sessionssessionidscidssciddatapathandfilenametype-delete.md
+                - name: GET (/sessions/{sessionId}/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-sessionssessionidscidssciddatapathandfilenametype-get.md
+                - name: PUT (/sessions/{sessionId}/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-sessionssessionidscidssciddatapathandfilenametype-put.md
+            - name: /trustedplatform/users/batch/scids/{scid}/data/{pathAndFileName},{type}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-trustedplatformusersbatchscidssciddatapathandfilenametype.md
+                - name: POST (/trustedplatform/users/batch/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-trustedplatformusersbatchscidssciddatapathandfilenametype-post.md
+            - name: /trustedplatform/users/xuid({xuid})/scids/{scid}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-trustedplatformusersxuidscidsscid.md
+                - name: GET (/trustedplatform/users/xuid({xuid})/scids/{scid})
+                  href: uri/storage/uri-trustedplatformusersxuidscidsscid-get.md
+            - name: /trustedplatform/users/xuid({xuid})/scids/{scid}/data/{path}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-trustedplatformusersxuidscidssciddatapath.md
+                - name: GET (/trustedplatform/users/xuid({xuid})/scids/{scid}/data/{path})
+                  href: uri/storage/uri-trustedplatformusersxuidscidssciddatapath-get.md
+            - name: /trustedplatform/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},{type}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-trustedplatformusersxuidscidssciddatapathandfilenametype.md
+                - name: DELETE (/trustedplatform/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-trustedplatformusersxuidscidssciddatapathandfilenametype-delete.md
+                - name: GET (/trustedplatform/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-trustedplatformusersxuidscidssciddatapathandfilenametype-get.md
+                - name: PUT (/trustedplatform/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-trustedplatformusersxuidscidssciddatapathandfilenametype-put.md
+            - name: /untrustedplatform/users/batch/scids/{scid}/data/{pathAndFileName},{type}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-untrustedplatformusersbatchscidssciddatapathandfilenametype.md
+                - name: POST (/untrustedplatform/users/batch/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-untrustedplatformusersbatchscidssciddatapathandfilenametype-post.md
+            - name: /untrustedplatform/users/xuid({xuid})/scids/{scid}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-untrustedplatformusersxuidscidsscid.md
+                - name: GET (/untrustedplatform/users/xuid({xuid})/scids/{scid})
+                  href: uri/storage/uri-untrustedplatformusersxuidscidsscid-get.md
+            - name: /untrustedplatform/users/xuid({xuid})/scids/{scid}/data/{path}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-untrustedplatformusersxuidscidssciddatapath.md
+                - name: GET (/untrustedplatform/users/xuid({xuid})/scids/{scid}/data/{path})
+                  href: uri/storage/uri-untrustedplatformusersxuidscidssciddatapath-get.md
+            - name: /untrustedplatform/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},{type}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-untrustedplatformusersxuidscidssciddatapathandfilenametype.md
+                - name: DELETE (/untrustedplatform/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-untrustedplatformusersxuidscidssciddatapathandfilenametype-delete.md
+                - name: GET (/untrustedplatform/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-untrustedplatformusersxuidscidssciddatapathandfilenametype-get.md
+                - name: PUT (/untrustedplatform/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-untrustedplatformusersxuidscidssciddatapathandfilenametype-put.md
+        - name: System Strings Validatation URIs
+          items:
+            - name: In this section
+              href: uri/stringserver/atoc-reference-systemstringsvalidate.md
+            - name: /system/strings/validate
+              items:
+                - name: In this section
+                  href: uri/stringserver/uri-systemstringsvalidate.md
+                - name: POST (/system/strings/validate)
+                  href: uri/stringserver/uri-systemstringsvalidatepost.md
+        - name: Users URIs
+          items:
+            - name: In this section
+              href: uri/users/atoc-reference-users.md
+            - name: /users/xuid({xuid})/inbox
+              items:
+                - name: In this section
+                  href: uri/users/uri-usersxuidinbox.md
+                - name: GET (/users/xuid({xuid})/inbox)
+                  href: uri/users/uri-usersxuidinboxget.md
+                - name: DELETE (/users/xuid({xuid})/inbox/{messageId})
+                  href: uri/users/uri-usersxuidinboxmessageiddelete.md
+                - name: GET (/users/xuid({xuid})/inbox/{messageId})
+                  href: uri/users/uri-usersxuidinboxmessageidget.md
+            - name: /users/xuid({xuid})/outbox
+              items:
+                - name: In this section
+                  href: uri/users/uri-usersxuidoutbox.md
+                - name: POST (/users/xuid({xuid})/outbox)
+                  href: uri/users/uri-usersxuidoutboxpost.md
+        - name: User Statistics URIs
+          items:
+            - name: In this section
+              href: uri/userstats/atoc-reference-userstats.md
+            - name: /batch
+              items:
+                - name: In this section
+                  href: uri/userstats/uri-batch.md
+                - name: POST (/batch)
+                  href: uri/userstats/uri-batchpost.md
+            - name: /users/xuid({xuid})/scids/{scid}/stats
+              items:
+                - name: In this section
+                  href: uri/userstats/uri-usersxuidscidsscidstats.md
+                - name: GET (/users/xuid({xuid})/scids/{scid}/stats)
+                  href: uri/userstats/uri-usersxuidscidsscidstatsget.md
+                - name: GET (/users/xuid({xuid})/scids/{scid}/stats?include=valuemetadata)
+                  href: uri/userstats/uri-usersxuidscidsscidstatsgetvaluemetadata.md
