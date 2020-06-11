@@ -163,3 +163,159 @@
                   href: uri/lists/uri-usersxuidlistspinslistnameremoveitemsdelete.md
                 - name: POST /users/xuid(xuid)/lists/PINS/{listname}/RemoveItems
                   href: uri/lists/uri-usersxuidlistspinslistnameremoveitemspost.md
+        - name: Marketplace URIs
+          items:
+            - name: In this section
+              href: uri/marketplace/atoc-reference-marketplace.md
+            - name: /users/me/inventory
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-inventory.md
+                - name: GET (/users/me/inventory)
+                  href: uri/marketplace/uri-inventoryget.md
+            - name: /users/me/consumables/{itemID}
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-inventoryconsumablesitemurl.md
+                - name: POST ({itemID})
+                  href: uri/marketplace/uri-inventoryconsumablesitemurlpost.md
+            - name: /inventory/{itemID}
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-inventoryitemurl.md
+                - name: GET (/inventory/{itemID})
+                  href: uri/marketplace/uri-inventoryitemurlget.md
+            - name: /media/{marketplaceId}/crossMediaGroupSearch
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-localecrossmediagroupsearch.md
+                - name: GET (/media/{marketplaceId}/crossMediaGroupSearch)
+                  href: uri/marketplace/uri-localecrossmediagroupsearchget.md
+            - name: /media/{marketplaceId}/browse
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalebrowse.md
+                - name: GET (media/{marketplaceId}/browse)
+                  href: uri/marketplace/uri-medialocalebrowseget.md
+            - name: /media/{marketplaceId}/contentRating
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalecontentrating.md
+                - name: GET (/media/{marketplaceId}/contentRating)
+                  href: uri/marketplace/uri-medialocalecontentratingget.md
+            - name: /media/{marketplaceId}/details
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocaledetails.md
+                - name: GET (/media/{marketplaceId}/details)
+                  href: uri/marketplace/uri-medialocaledetailsget.md
+            - name: /media/{marketplaceId}/fields
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalefields.md
+                - name: GET (/media/{marketplaceId}/fields)
+                  href: uri/marketplace/uri-medialocalefieldsget.md
+            - name: /media/{marketplaceId}/metadata/mediaGroups
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalemetadatamediagroups.md
+                - name: GET (/media/{marketplaceId}/metadata/mediaGroups)
+                  href: uri/marketplace/uri-medialocalemetadatamediagroupsget.md
+            - name: /media/{marketplaceId}/metadata/mediaGroups/{mediagroup}/mediaItemTypes
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalemetadatamediagroupsmediaitemtypes.md
+                - name: GET (/media/{marketplaceId}/metadata/mediaGroups/{mediagroup}/mediaItemTypes)
+                  href: uri/marketplace/uri-medialocalemetadatamediagroupsmediaitemtypesget.md
+            - name: /media/{marketplaceId}/metadata/mediaItemTypes/{mediaItemType}/fields
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalemetadatamediaitemtypefields.md
+                - name: GET (/media/{marketplaceId}/metadata/mediaItemTypes/{mediaItemType}/fields)
+                  href: uri/marketplace/uri-medialocalemetadatamediaitemtypefieldsget.md
+            - name: /media/{marketplaceId}/metadata/mediaItemTypes/{mediaitemtype}/queryrefiners
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalemetadatamediaitemtypequeryrefiners.md
+                - name: GET (/media/{marketplaceId}/metadata/mediaItemTypes/{mediaitemtype}/queryrefiners)
+                  href: uri/marketplace/uri-medialocalemetadatamediaitemtypequeryrefinersget.md
+            - name: /media/{marketplaceId}/metadata/mediaItemTypes/{mediaitemtype}/queryrefiners/{queryrefinername}
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalemetadatamediaitemtypequeryrefinersqueryrefinername.md
+                - name: GET (/media/{marketplaceId}/metadata/mediaItemTypes/{mediaitemtype}/queryrefiners/{queryrefinername})
+                  href: uri/marketplace/uri-medialocalemetadatamediaitemtypequeryrefinersqueryrefinernameget.md
+            - name: /media/{marketplaceId}/metadata/mediaItemTypes/{mediaitemtype}/queryrefiners/{queryRefiner}/subQueryRefinerValues
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalemediaitemtypequeryrefinersubqueryrefinervalues.md
+                - name: GET (/media/{marketplaceId}/metadata/mediaItemTypes/{mediaitemtype}/queryrefiners/{queryRefiner}/subQueryRefinerValues)
+                  href: uri/marketplace/uri-medialocalemediaitemtypequeryrefinersubqueryrefinervaluesget.md
+            - name: /media/{marketplaceId}/metadata/mediaItemTypes
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalemetadatamediaitemtypes.md
+                - name: GET (/media/{marketplaceId}/metadata/mediaItemTypes)
+                  href: uri/marketplace/uri-medialocalemetadatamediaitemtypesget.md
+            - name: /media/{marketplaceId}/metadata/mediaItemTypes/{mediaitemtype}/sortorders
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalemetadatamediaitemtypesortorders.md
+                - name: GET (/media/{marketplaceId}/metadata/mediaItemTypes/{mediaitemtype}/sortorders)
+                  href: uri/marketplace/uri-medialocalemetadatamediaitemtypesortordersget.md
+            - name: /media/{marketplaceId}/singleMediaGroupSearch
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalesinglemediagroupsearch.md
+                - name: GET (media/{marketplaceId}/singleMediaGroupSearch)
+                  href: uri/marketplace/uri-medialocalesinglemediagroupsearchget.md
+        - name: Matchmaking URIs
+          items:
+            - name: In this section
+              href: uri/matchtickets/atoc-reference-matchtickets.md
+            - name: /serviceconfigs/{scid}/hoppers/{hoppername}
+              items:
+                - name: In this section
+                  href: uri/matchtickets/uri-serviceconfigsscidhoppershoppername.md
+                - name: POST (/serviceconfigs/{scid}/hoppers/{hoppername})
+                  href: uri/matchtickets/uri-serviceconfigsscidhoppershoppernamepost.md
+            - name: /serviceconfigs/{scid}/hoppers/{name}/stats
+              items:
+                - name: In this section
+                  href: uri/matchtickets/uri-serviceconfigsscidhoppershoppernamestats.md
+                - name: GET (/serviceconfigs/{scid}/hoppers/{name}/stats)
+                  href: uri/matchtickets/uri-serviceconfigsscidhoppershoppernamestatsget.md
+            - name: /serviceconfigs/{scid}/hoppers/{hoppername}/tickets/{ticketid}
+              items:
+                - name: In this section
+                  href: uri/matchtickets/uri-scidhoppernameticketid.md
+                - name: DELETE (/serviceconfigs/{scid}/hoppers/{hoppername}/tickets/{ticketid})
+                  href: uri/matchtickets/uri-scidhoppernameticketiddelete.md
+        - name: People URIs
+          items:
+            - name: In this section
+              href: uri/people/atoc-reference-people.md
+            - name: /users/{ownerId}/people
+              items:
+                - name: In this section
+                  href: uri/people/uri-usersowneridpeople.md
+                - name: GET (/users/{ownerId}/people)
+                  href: uri/people/uri-usersowneridpeopleget.md
+            - name: /users/{ownerId}/people/{targetid}
+              items:
+                - name: In this section
+                  href: uri/people/uri-usersowneridpeopletargetid.md
+                - name: GET (/users/{ownerId}/people/{targetid})
+                  href: uri/people/uri-usersowneridpeopletargetidget.md
+            - name: /users/{ownerId}/people/xuids
+              items:
+                - name: In this section
+                  href: uri/people/uri-usersowneridpeoplexuids.md
+                - name: POST (/users/{ownerId}/people/xuids)
+                  href: uri/people/uri-usersowneridpeoplexuidspost.md
+            - name: /users/{ownerId}/summary
+              items:
+                - name: In this section
+                  href: uri/people/uri-usersowneridsummary.md
+                - name: GET (/users/{ownerId}/summary)
+                  href: uri/people/uri-usersowneridsummaryget.md
