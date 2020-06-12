@@ -43,7 +43,7 @@ Decide between making an Xbox Development Kit (XDK), Universal Windows Platform 
 ## 2. Ensure that you have a title created in Partner Center
 
 Every Xbox Live title must be defined in Partner Center before you will be able to sign-in and make Xbox Live Service calls.
-See [Setting up a game at Partner Center, for Managed Partners](../live-setup-partner-center-partners.md).
+See [Setting up an app or game at Partner Center, for Managed Partners](../live-setup-partner-center-partners.md).
 
 
 ## 3. Follow the appropriate guide to setup your IDE or game engine
