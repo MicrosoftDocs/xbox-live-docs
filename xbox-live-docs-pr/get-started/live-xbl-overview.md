@@ -87,6 +87,11 @@ This section describes how to get started with the Xbox Live social features.
 | Article | Description |
 |---------|-------------|
 | [Social](../features/social/live-social-nav.md) | If you can sign-in a user, then you can start using Xbox Live's Social features, such as Friends list (People system), official and in-game clubs, activity feed (presence strings), and reputation. |
+| [Social Manager](../features/social/social-manager/live-social-manager-nav.md) | The Xbox Live Social Manager API simplifies keeping track of online friends and their gaming activity. |
+| [People System (Friends List)](../features/social/people-system/live-people-system-nav.md) | Manages relationships between gamers, such as only showing a user's real name to close friends. |
+| [Rich Presence](../features/social/presence/live-presence-nav.md) | Shows what activity a user is currently doing, in which area of the game. |
+| [Localized strings](../features/social/localized-strings/live-localized-strings-nav.md) | Configuring UI strings in various languages for an Xbox Live game at Partner Center. |
+| [Reputation](../features/social/reputation/live-reputation-nav.md) | The Reputation service encourages positive gameplay. |
 
 
 ## Multiplayer features
@@ -99,9 +104,12 @@ You also have several options of API that provide varying levels of simplicity v
 |---------|-------------|
 | [Multiplayer overview](../features/multiplayer/live-multiplayer-intro.md) | If you are new to Xbox Live multiplayer development, or are unfamiliar with new APIs such as Multiplayer Manager and Xbox Integrated Multiplayer (XIM), start here. |
 | [Common multiplayer scenarios](../features/multiplayer/live-common-multiplayer-scenarios.md) | Suggestions and guidance on how you might incorporate multiplayer into your title. |
+| [Multiplayer Activity (MPA)](../features/multiplayer/mpa/live-mpa-nav.md) | Simplifies platform integration for player activities (joins), invites, and recent players, and allows players to launch into your game from their social graph. |
 | [Xbox Integrated Multiplayer (XIM)](../features/multiplayer/xim/live-xim-nav.md) | Xbox Integrated Multiplayer (XIM) is an easy self-contained interface for adding multiplayer, real-time networking, and chat to your title. |
 | [Multiplayer Manager (MPM)](../features/multiplayer/mpm/live-multiplayer-manager-nav.md) | Multiplayer Manager provides a high-level API focused on common multiplayer scenarios, including adding multiplayer functionality by managing sessions, matchmaking, and game invites. Provides a state- and event-based programming model. |
-
+| [Multiplayer Session Directory (MPSD)](../features/multiplayer/mpsd/live-mpsd-nav.md) | Shares information to connect a group of users. Coordinates with the shell and console operating system in sending/accepting invites and in being joined via the gamer card. |
+| [Invites](../features/multiplayer/invites/live-invites-nav.md) | A player can invite other players to their game sessions. Invited players receive a game invite, and the title uses this information to join the existing session and multiplayer experience. |
+| [SmartMatch Matchmaking](../features/multiplayer/matchmaking/live-matchmaking-nav.md) | The SmartMatch matchmaking service selects compatible players in a multiplayer game. |
 
 
 ## Cloud Storage
