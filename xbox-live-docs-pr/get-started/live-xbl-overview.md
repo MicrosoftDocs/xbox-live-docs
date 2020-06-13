@@ -56,7 +56,7 @@ See [Introduction to Xbox Live APIs](../api-ref/xsapi/live-introduction-to-xbox-
 
 Xbox Live Player Data drives the usage of player stats, achievements, and leaderboards.
 
-| Article | Description |
+|  |  |
 |---------|-------------|
 | [Player Data](../features/player-data/live-playerdata-nav.md) | A brief overview of the Player Data system, as well as guidance on how to best incorporate stats, leaderboards, and achievements into your title.
 | [Stats & Leaderboards](../features/player-data/stats-leaderboards/live-stats-leaderboards-nav.md) | Stats are the foundation of leaderboards.  Leaderboards bring out your users' competitive sides by intelligently incorporating leaderboards.
@@ -67,7 +67,7 @@ Xbox Live Player Data drives the usage of player stats, achievements, and leader
 
 Xbox Live social features can organically grow your audience, spreading awareness to over 55 million active users.
 
-| Article | Description |
+|  |  |
 |---------|-------------|
 | [Social](../features/social/live-social-nav.md) | If you can sign-in a user, then you can start using Xbox Live's social features, such as utilizing a user's social graph, Rich Presence, Friends list (People system), activity feed (presence strings), and reputation. |
 
@@ -78,7 +78,7 @@ Multiplayer is a great way to extend the lifetime of your title and keep gamepla
 Xbox Live provides extensive multiplayer and matchmaking features.
 You also have several options of API that provide varying levels of simplicity vs flexibility.
 
-| Article | Description |
+|  |  |
 |---------|-------------|
 | [Multiplayer overview](../features/multiplayer/live-multiplayer-intro.md) | If you are new to Xbox Live multiplayer development, or are unfamiliar with new APIs such as Multiplayer Manager and Xbox Integrated Multiplayer (XIM), start here. |
 | [Common multiplayer scenarios](../features/multiplayer/live-common-multiplayer-scenarios.md) | Suggestions and guidance on how you might incorporate multiplayer into your title. |
@@ -93,7 +93,7 @@ These are two different but complementary services.
 *  *Connected Storage* allows you to implement game saves in the cloud, that will roam across devices regardless of where a user is signed-in.
 *  *Title Storage* lets you store blobs of data that can be per user or per title and shared across different users.
 
-| Article | Description |
+|  |  |
 |---------|-------------|
 | [Connected Storage vs. Title Storage](../features/cloud-storage/live-connected-storage-vs-title-storage.md) | Xbox Live Cloud Storage includes Connected Storage to store game state, and Title Storage to store player statistics and assets. |
 | [Connected Storage](../features/cloud-storage/connected-storage/live-connected-storage-nav.md) | Connected Storage saves and loads gameplay data and other state data across devices. Title data is stored locally and also synced to the cloud. |
