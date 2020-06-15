@@ -157,7 +157,7 @@ The following Xbox Live features are supported for Creators or for Managed Partn
 <td class="xbl-features-optional">Optional</td>
 </tr>
 <tr>
-<td>Multiplayer Activity</td>
+<td>Multiplayer Activity (MPA)</td>
 <td>Simplifies platform integration for player activities (joins), invites, and recent players, and allows players to launch into your game from their social graph.
 If it's a multiplayer game, Managed Partners must use either MPSD or MPA.</td>
 <td class="xbl-features-notavailable">Not Supported</td>
