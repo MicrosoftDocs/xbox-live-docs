@@ -5,8 +5,16 @@ kindex: Best practices for calling Xbox Live
 ms.topic: article
 ms.assetid: f4c7156b-7736-41e5-9b3d-e87cc8dd2531
 ms.localizationpriority: medium
+author: v-mihof
+ms.author: v-mihof
 ms.date: 04/04/2017
 ---
+
+
+
+
+
+
 
 # Best practices for calling Xbox Live
 
@@ -30,22 +38,30 @@ This means that if failures occur when calling these endpoints, the APIs will no
 
 The full list of non-idempotent APIs are:
 
+**C API:**
+* `XblMatchmakingCreateMatchTicketAsync`
+* `XblMultiplayerWriteSessionAsync`
+* `XblMultiplayerWriteSessionByHandleAsync`
+* `XblMultiplayerSendInvitesAsync`
+* `XblSocialSubmitReputationFeedbackAsync`
+* `XblSocialSubmitBatchReputationFeedbackAsync`
+<!-- 
+* [XblMatchmakingCreateMatchTicketAsync](xblmatchmakingcreatematchticketasync.md)
+* [XblMultiplayerWriteSessionAsync](xblmultiplayerwritesessionasync.md)
+* [XblMultiplayerWriteSessionByHandleAsync](xblmultiplayerwritesessionbyhandleasync.md)
+* [XblMultiplayerSendInvitesAsync](xblmultiplayersendinvitesasync.md)
+* [XblSocialSubmitReputationFeedbackAsync](xblsocialsubmitreputationfeedbackasync.md)
+* [XblSocialSubmitBatchReputationFeedbackAsync](xblsocialsubmitbatchreputationfeedbackasync.md) -->
+
+**C++ API:**
 * game\_server\_platform\_service::allocate\_cluster()
-<br>
 * game\_server\_platform\_service::allocate\_cluster\_inline()
-<br>
 * game\_server\_platform\_service::allocate\_session\_host()
-<br>
 * matchmaking\_service::create\_match\_ticket()
-<br>
 * multiplayer\_service::write\_session()
-<br>
 * multiplayer\_service::write\_session\_by\_handle()
-<br>
 * multiplayer\_service::send\_invites()
-<br>
 * reputation\_service::submit\_batch\_reputation\_feedback()
-<br>
 * reputation\_service::submit\_reputation\_feedback()
  
 
@@ -79,43 +95,42 @@ XSAPI now implements this best practice.
 If a failure HTTP status code and "Retry-After" header was returned for any API, additional calls to that same API before the Retry-After time will immediately return with the original error without hitting the service.
 
 When retrying a call, it is best practice to perform exponential back-off with a random jitter to spread out the load to the service.
-XSAPI starts with a default delay of 2 seconds which is controlled using `xbox_live_context_settings::set_http_retry_delay()`.
+XSAPI starts with a default delay of 2 seconds which is controlled using `XblContextSettingsSetHttpRetryDelay` (C API) or `xbox_live_context_settings::set_http_retry_delay()` (C++ API).
 This means by default each retry does an exponential back-off of 2, 4, 8, etc seconds and it jitters the delay between the current and next back-off value based on the response time to further spread out load across the set of devices attempting the retry.
 
 Titles should be in control of how long to spend retrying a call.
-Using XSAPI, developers have direct control of this by using the function `xbox_live_context_settings::set_http_timeout_window()`.
+Using XSAPI, developers have direct control of this by using the function `XblContextSettingsSetHttpTimeoutWindow` (C API) or `xbox_live_context_settings::set_http_timeout_window()` (C++ API).
 By default, this is set to 20 seconds.
 Setting this to 0 seconds will effectively turn off retry logic.
 
 
 ### Dynamic adjustment of the internal HTTP timeout
 
-XSAPI dynamically adjusts the internal HTTP timeout, based on how much time remains in the `http_timeout_window()`.
+XSAPI dynamically adjusts the internal HTTP timeout, based on how much time remains in the `XblContextSettingsGetHttpTimeoutWindow` (C API) or `http_timeout_window()` (C++ API).
 
 The internal HTTP timeout controls how long the OS spends doing the HTTP network operation before it aborts.
 
-The call will not be retried unless there remains at least 5 seconds left in the `http_timeout_window()`, to give an enough reasonable time for the call to complete.
-This rule doesn't apply to the first call, so setting the `http_timeout_window()` to 0 is acceptable, and will result in a single call.
+The call will not be retried unless there remains at least 5 seconds left in the `XblContextSettingsGetHttpTimeoutWindow` or `http_timeout_window()`, to give an enough reasonable time for the call to complete.
+This rule doesn't apply to the first call, so setting the `XblContextSettingsSetHttpTimeoutWindow` or `http_timeout_window()` to 0 is acceptable, and will result in a single call.
 
-This logic has the effect that `http_timeout_window()` is more deterministic about when the API call will return.
+This logic has the effect that `XblContextSettingsGetHttpTimeoutWindow` or `http_timeout_window()` is more deterministic about when the API call will return.
 
 If a "Retry-After" header was returned, no retries will be made until after the "Retry-After" time has been reached.
-If the "Retry-After" time is after the `http_timeout_window()`, then the call return at the end of the `http_timeout_window()`.
+If the "Retry-After" time is after the `XblContextSettingsGetHttpTimeoutWindow` or `http_timeout_window()`, then the call return at the end of the `XblContextSettingsGetHttpTimeoutWindow` or `http_timeout_window()`.
 
 
 ## Error handling
 
 Title developers should **always** use proper error handling for **every** service call, they need to ensure that they are handling failed responses properly.
- 
-There are many real-world conditions that can result in a request to Xbox Live to return failure codes, such as
 
-1. Network is not available. For example, the device lost 4G, lost Wi-Fi, or the network went down.
-2.  Too much load on services over load (503).
-3.  A failure happened on the service (500).
-4.  Too many requests where sent to the service (429).
-5.  Write operation conflict (412). For example, another player in a multiplayer session submitted a change first.
-6.  The user has been banned or does not have permission.
-7.  User has signed-out.
+There are many real-world conditions that can result in a request to Xbox Live to return failure codes, such as:
+* Network is not available. For example, the device lost 4G, lost Wi-Fi, or the network went down.
+* Too much load on services over load (503).
+* A failure happened on the service (500).
+* Too many requests where sent to the service (429).
+* Write operation conflict (412). For example, another player in a multiplayer session submitted a change first.
+* The user has been banned or does not have permission.
+* User has signed-out.
 
 Proper error handler is crucial to ensure that the game functions correctly in these conditions.
 
@@ -125,7 +140,7 @@ XSAPI has two types of error handling patterns:
 
 For details on best practices of error handling, see [Error handling](../error-handling/live-error-handling-nav.md).
 
-For a video that covers this, see the talk in [*Xfest 2015 Videos*](https://developer.xboxlive.com/en-us/platform/documentlibrary/events/Pages/Xfest2015.aspx) called *XSAPI: C++, No Exceptions!*
+For a video that covers this, see the talk in <a href="http://aka.ms/xgddl" target="_blank">Xfest 2015 Videos &#11008;</a> called *XSAPI: C++, No Exceptions!*
 
 
 ## Best calling patterns
@@ -153,17 +168,25 @@ To know what the information client is interested in, the client must first subs
 This avoids polling the service to detect changes since you will be told exactly when the item changes.
 
 XSAPI exposes the RTA service as a set of subscribe APIs that clients can use.
-Each of these APIs have corresponding `*_changed_handler` APIs which take in a callback function that will be called when an item changes.
+Each of these APIs have corresponding `*ChangedHandler` C APIs (or `*_changed_handler` C++ APIs) which take in a callback function that will be called when an item changes.
 
+**C API:**
+* `XblPresenceSubscribeToDevicePresenceChange`
+* `XblPresenceSubscribeToTitlePresenceChange`
+* `XblUserStatisticsSubscribeToStatisticChange`
+* `XblSocialSubscribeToSocialRelationshipChange`
+<!-- 
+* [XblPresenceSubscribeToDevicePresenceChange](xblpresencesubscribetodevicepresencechange.md)
+* [XblPresenceSubscribeToTitlePresenceChange](xblpresencesubscribetotitlepresencechange.md)
+* [XblUserStatisticsSubscribeToStatisticChange](xbluserstatisticssubscribetostatisticchange.md)
+* [XblSocialSubscribeToSocialRelationshipChange](xblsocialsubscribetosocialrelationshipchange.md) -->
+
+**C++ API:**
 * `presence_service::subscribe_to_device_presence_change`
-<br>
 * `presence_service::subscribe_to_title_presence_change`
-<br>
 * `user_statistics_service::subscribe_to_statistic_change`
-<br>
 * `social_service::subscribe_to_social_relationship_change`
-<br>
- 
+
 
 ## Use Xbox Live client-side managers
 
@@ -220,24 +243,34 @@ For example:
 }
 ```
 
-If you are using XSAPI, APIs will return an `http_status_429_too_many_requests` error, and will set the error message to show detail about how the API was throttled.
+If you are using XSAPI, APIs will return an `HTTP_E_STATUS_429_TOO_MANY_REQUESTS` (C API) or `http_status_429_too_many_requests` (C++ API) error, and will set the error message to show detail about how the API was throttled.
 
 
 ### Using debug asserts
 
 When using XSAPI, if the call is throttled while in a developer sandbox and using a debug build of the title, it will assert to immediately let the developer know that a throttle occurred.
 This is to avoid unintentionally missing 429 throttle error due to incorrectly written code.
-If you wish to disable these asserts to continue working without fixing the offending code, you can call this API:
+If you wish to disable these asserts to continue working without fixing the offending code, you can call `XblDisableAssertsForXboxLiveThrottlingInDevSandboxes` (C) or `disable_asserts_for_xbox_live_throttling_in_dev_sandboxes` (C++), as follows.
 
+<!-- [XblDisableAssertsForXboxLiveThrottlingInDevSandboxes](xbldisableassertsforxboxlivethrottlingindevsandboxes.md) -->
+
+Note that this API will not prevent your title from being throttled.
+Your title will still be throttled.
+This simply disables the asserts when in dev sandboxes while using a debug build.
+
+**C API:**
+```cpp
+XblDisableAssertsForXboxLiveThrottlingInDevSandboxes(
+    XblConfigSetting::ThisCodeNeedsToBeChanged
+);
+```
+
+**C++ API:**
 ```cpp
 xboxLiveContext->settings()->disable_asserts_for_xbox_live_throttling_in_dev_sandboxes(
   xbox_live_context_throttle_setting::this_code_needs_to_be_changed_to_avoid_throttling
 );
 ```
-
-but note that this API will not prevent your title from being throttled.
-Your title will still be throttled.
-This simply disables the asserts when in dev sandboxes while using a debug build. 
 
 
 ### Using the Xbox Live Trace Analyzer tool
@@ -245,11 +278,11 @@ This simply disables the asserts when in dev sandboxes while using a debug build
 Another option for determining whether your title was throttled is to record a trace of the Xbox Live calls and then analyze that trace using [Xbox Live Trace Analyzer (XBLTraceAnalyzer.exe)](../tools/live-trace-analyzer.md).
 
 To record a trace, you can either use Fiddler to record a .SAZ file, or by using the built-in trace logging of XSAPI.
-For more information about turning on traces in XSAPI, see the Xbox Live documentation page "Analyze calls to Xbox Live Services". <!-- tbd: link, not found -->
+For more information about turning on traces in XSAPI, see the Xbox Live article "Analyze calls to Xbox Live Services". <!-- tbd: link, not found -->
 Once you have a trace, the Xbox Live Trace Analyzer tool will warn you when it detects throttled calls.
 
 
-## Is Xbox Live Up?
+## Is Xbox Live up?
 
 Xbox Live is a collection of microservices that expose Xbox Live features such as profile, friends and presence, stats, leaderboards, achievements, multiplayer, and matchmaking.
 There isn't a single server or endpoint that defines whether Xbox Live is up.

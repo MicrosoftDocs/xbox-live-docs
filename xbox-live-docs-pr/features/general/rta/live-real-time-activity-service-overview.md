@@ -1,6 +1,6 @@
 ---
 title: Real-Time Activity service overview
-description: The Real-Time Activity service enables an application on any device to subscribe to state data, user statistics, and presence.
+description: Enables an application on any device to subscribe to state data, user statistics, and presence.
 kindex: Real-Time Activity service overview
 kindex: Real-Time Activity service
 kindex: RTA

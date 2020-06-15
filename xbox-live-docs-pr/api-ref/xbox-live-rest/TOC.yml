@@ -1,0 +1,913 @@
+- name: Xbox Live Services RESTful Reference
+  href: atoc-xboxlivews-reference.md
+  items:
+    - name: Universal Resource Identifier (URI) Reference
+      items:
+        - name: In this section
+          href: uri/atoc-xboxlivews-reference-uris.md
+        - name: Achievements URIs
+          items:
+            - name: In this section
+              href: uri/achievements/atoc-reference-achievementsv2.md
+            - name: /users/xuid({xuid})/achievements
+              items:
+                - name: In this section
+                  href: uri/achievements/uri-achievementsusersxuidachievementsv2.md
+                - name: GET (/users/xuid({xuid})/achievements)
+                  href: uri/achievements/uri-achievementsusersxuidachievementsgetv2.md
+            - name: /users/xuid({xuid})/achievements/{scid}/{achievementid}
+              items:
+                - name: In this section
+                  href: uri/achievements/uri-usersxuidachievementsscidachievementid.md
+                - name: GET (/users/xuid({xuid})/achievements/{scid}/{achievementid})
+                  href: uri/achievements/uri-usersxuidachievementsscidachievementidget.md
+        - name: Game Server URIs
+          items:
+            - name: In this section
+              href: uri/gsdk/atoc-gsdk-uri-reference.md
+            - name: /qosservers
+              items:
+                - name: In this section
+                  href: uri/gsdk/uri-qosservers.md
+                - name: GET (/qosservers)
+                  href: uri/gsdk/uri-qosservers-get.md
+            - name: /titles/{titleId}/clusters
+              items:
+                - name: In this section
+                  href: uri/gsdk/uri-titlestitleidclusters.md
+                - name: POST (/titles/{titleId}/clusters)
+                  href: uri/gsdk/uri-titlestitleidclusters-post.md
+            - name: /titles/{titleId}/variants
+              items:
+                - name: In this section
+                  href: uri/gsdk/uri-titlestitleidvariants.md
+                - name: POST (/titles/{titleId}/variants)
+                  href: uri/gsdk/uri-titlestitleidvariants-post.md
+            - name: /titles/{titleId}/sessionhosts
+              items:
+                - name: In this section
+                  href: uri/gsdk/uri-titlestitleidsessionhosts.md
+                - name: POST (/titles/{Title Id}/sessionhosts)
+                  href: uri/gsdk/uri-titlestitleidsessionhosts-post.md
+            - name: /titles/{titleId}/sessions/{sessionId}/allocationStatus
+              items:
+                - name: In this section
+                  href: uri/gsdk/uri-titlestitleidsessionssessionidallocationstatus.md
+                - name: GET (/titles/{titleId}/sessions/{sessionId}/allocationStatus)
+                  href: uri/gsdk/uri-titlestitleidsessionssessionidallocationstatus-get.md
+        - name: Game DVR URIs
+          items:
+            - name: In this section
+              href: uri/dvr/atoc-reference-dvr.md
+            - name: /public/scids/{scid}/clips
+              items:
+                - name: In this section
+                  href: uri/dvr/uri-publicscidclips.md
+                - name: GET (/public/scids/{scid}/clips)
+                  href: uri/dvr/uri-publicscidclipsget.md
+            - name: /{uri}
+              items:
+                - name: In this section
+                  href: uri/dvr/uri-uri.md
+                - name: GET (/{uri})
+                  href: uri/dvr/uri-uriget.md
+                - name: PUT (/{uri})
+                  href: uri/dvr/uri-uriput.md
+            - name: /users/me/scids/{scid}/clips
+              items:
+                - name: In this section
+                  href: uri/dvr/uri-usersmescidclips.md
+                - name: POST (/users/me/scids/{scid}/clips)
+                  href: uri/dvr/uri-usersmescidclipspost.md
+            - name: /users/me/scids/{scid}/clips/{gameClipId}
+              items:
+                - name: In this section
+                  href: uri/dvr/uri-usersmescidclipsgameclipid.md
+                - name: DELETE (/users/me/scids/{scid}/clips/{gameClipId})
+                  href: uri/dvr/uri-usersmescidclipsgameclipiddelete.md
+                - name: POST (/users/me/scids/{scid}/clips/{gameClipId})
+                  href: uri/dvr/uri-usersmescidclipsgameclipidpost.md
+            - name: /users/{ownerId}/clips
+              items:
+                - name: In this section
+                  href: uri/dvr/uri-usersowneridclips.md
+                - name: GET (/users/{ownerId}/clips)
+                  href: uri/dvr/uri-usersowneridclipsget.md
+            - name: /users/{ownerId}/scids/{scid}/clips/{gameClipId}
+              items:
+                - name: In this section
+                  href: uri/dvr/uri-usersowneridscidclipsgameclipid.md
+                - name: GET (/users/{ownerId}/scids/{scid}/clips/{gameClipId})
+                  href: uri/dvr/uri-usersowneridscidclipsgameclipidget.md
+        - name: Gamerpic URIs
+          items:
+            - name: In this section
+              href: uri/gamerpic/atoc-reference-gamerpic.md
+            - name: /users/me/gamerpic
+              items:
+                - name: In this section
+                  href: uri/gamerpic/uri-usersmegamerpic.md
+                - name: PUT (/users/me/gamerpic)
+                  href: uri/gamerpic/uri-usersmegamerpicput.md
+        - name: Leaderboards URIs
+          items:
+            - name: In this section
+              href: uri/leaderboard/atoc-reference-leaderboard.md
+            - name: /scids/{scid}/leaderboards/{leaderboardname}
+              items:
+                - name: In this section
+                  href: uri/leaderboard/uri-scidsscidleaderboardsleaderboardname.md
+                - name: GET (/scids/{scid}/leaderboards/{leaderboardname})
+                  href: uri/leaderboard/uri-scidsscidleaderboardsleaderboardnameget.md
+                - name: GET (/scids/{scid}/leaderboards/{leaderboardname}?include=valuemetadata)
+                  href: uri/leaderboard/uri-scidsscidleaderboardsleaderboardnamegetvaluemetadata.md
+            - name: /users/xuid({xuid})/scids/{scid}/stats/{statname)/people/{all|favorite}
+              items:
+                - name: In this section
+                  href: uri/leaderboard/uri-usersxuidscidstatnamepeople.md
+                - name: GET (/users/xuid({xuid})/scids/{scid}/stats/{statname)/people/{all|favorite})
+                  href: uri/leaderboard/uri-usersxuidscidstatnamepeopleget.md
+        - name: Lists URIs
+          items:
+            - name: In this section
+              href: uri/lists/atoc-reference-lists.md
+            - name: /users/xuid(xuid)/lists/PINS/{listname}
+              items:
+                - name: In this section
+                  href: uri/lists/uri-usersxuidlistspinslistname.md
+                - name: DELETE (/users/xuid(xuid)/lists/PINS/{listname})
+                  href: uri/lists/uri-usersxuidlistspinslistnamedelete.md
+                - name: GET (/users/xuid(xuid)/lists/PINS/{listname})
+                  href: uri/lists/uri-usersxuidlistspinslistnameget.md
+                - name: POST (/users/xuid(xuid)/lists/PINS/{listname})
+                  href: uri/lists/uri-usersxuidlistspinslistnamepost.md
+                - name: PUT (/users/xuid(xuid)/lists/PINS/{listname})
+                  href: uri/lists/uri-usersxuidlistspinslistnameput.md
+            - name: /users/xuid(xuid)/lists/PINS/{listname}/ContainsItems
+              items:
+                - name: In this section
+                  href: uri/lists/uri-usersxuidlistspinslistnamecontainsitems.md
+                - name: POST /users/xuid(xuid)/lists/PINS/{listname}/ContainsItems
+                  href: uri/lists/uri-usersxuidlistspinslistnamecontainsitemspost.md
+            - name: /users/xuid(xuid)/lists/PINS/{listname}/index({index})?insertIndex={insertIndex}
+              items:
+                - name: In this section
+                  href: uri/lists/uri-usersxuidlistspinslistnameindex.md
+                - name: POST /users/xuid(xuid)/lists/PINS/{listname}/index({index})?insertIndex={insertIndex}
+                  href: uri/lists/uri-usersxuidlistspinslistnameindexpost.md
+            - name: /users/xuid(xuid)/lists/PINS/{listname}/RemoveItems
+              items:
+                - name: In this section
+                  href: uri/lists/uri-usersxuidlistspinslistnameremoveitems.md
+                - name: DELETE /users/xuid(xuid)/lists/PINS/{listname}/RemoveItems
+                  href: uri/lists/uri-usersxuidlistspinslistnameremoveitemsdelete.md
+                - name: POST /users/xuid(xuid)/lists/PINS/{listname}/RemoveItems
+                  href: uri/lists/uri-usersxuidlistspinslistnameremoveitemspost.md
+        - name: Marketplace URIs
+          items:
+            - name: In this section
+              href: uri/marketplace/atoc-reference-marketplace.md
+            - name: /users/me/inventory
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-inventory.md
+                - name: GET (/users/me/inventory)
+                  href: uri/marketplace/uri-inventoryget.md
+            - name: /users/me/consumables/{itemID}
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-inventoryconsumablesitemurl.md
+                - name: POST ({itemID})
+                  href: uri/marketplace/uri-inventoryconsumablesitemurlpost.md
+            - name: /inventory/{itemID}
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-inventoryitemurl.md
+                - name: GET (/inventory/{itemID})
+                  href: uri/marketplace/uri-inventoryitemurlget.md
+            - name: /media/{marketplaceId}/crossMediaGroupSearch
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-localecrossmediagroupsearch.md
+                - name: GET (/media/{marketplaceId}/crossMediaGroupSearch)
+                  href: uri/marketplace/uri-localecrossmediagroupsearchget.md
+            - name: /media/{marketplaceId}/browse
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalebrowse.md
+                - name: GET (media/{marketplaceId}/browse)
+                  href: uri/marketplace/uri-medialocalebrowseget.md
+            - name: /media/{marketplaceId}/contentRating
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalecontentrating.md
+                - name: GET (/media/{marketplaceId}/contentRating)
+                  href: uri/marketplace/uri-medialocalecontentratingget.md
+            - name: /media/{marketplaceId}/details
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocaledetails.md
+                - name: GET (/media/{marketplaceId}/details)
+                  href: uri/marketplace/uri-medialocaledetailsget.md
+            - name: /media/{marketplaceId}/fields
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalefields.md
+                - name: GET (/media/{marketplaceId}/fields)
+                  href: uri/marketplace/uri-medialocalefieldsget.md
+            - name: /media/{marketplaceId}/metadata/mediaGroups
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalemetadatamediagroups.md
+                - name: GET (/media/{marketplaceId}/metadata/mediaGroups)
+                  href: uri/marketplace/uri-medialocalemetadatamediagroupsget.md
+            - name: /media/{marketplaceId}/metadata/mediaGroups/{mediagroup}/mediaItemTypes
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalemetadatamediagroupsmediaitemtypes.md
+                - name: GET (/media/{marketplaceId}/metadata/mediaGroups/{mediagroup}/mediaItemTypes)
+                  href: uri/marketplace/uri-medialocalemetadatamediagroupsmediaitemtypesget.md
+            - name: /media/{marketplaceId}/metadata/mediaItemTypes/{mediaItemType}/fields
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalemetadatamediaitemtypefields.md
+                - name: GET (/media/{marketplaceId}/metadata/mediaItemTypes/{mediaItemType}/fields)
+                  href: uri/marketplace/uri-medialocalemetadatamediaitemtypefieldsget.md
+            - name: /media/{marketplaceId}/metadata/mediaItemTypes/{mediaitemtype}/queryrefiners
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalemetadatamediaitemtypequeryrefiners.md
+                - name: GET (/media/{marketplaceId}/metadata/mediaItemTypes/{mediaitemtype}/queryrefiners)
+                  href: uri/marketplace/uri-medialocalemetadatamediaitemtypequeryrefinersget.md
+            - name: /media/{marketplaceId}/metadata/mediaItemTypes/{mediaitemtype}/queryrefiners/{queryrefinername}
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalemetadatamediaitemtypequeryrefinersqueryrefinername.md
+                - name: GET (/media/{marketplaceId}/metadata/mediaItemTypes/{mediaitemtype}/queryrefiners/{queryrefinername})
+                  href: uri/marketplace/uri-medialocalemetadatamediaitemtypequeryrefinersqueryrefinernameget.md
+            - name: /media/{marketplaceId}/metadata/mediaItemTypes/{mediaitemtype}/queryrefiners/{queryRefiner}/subQueryRefinerValues
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalemediaitemtypequeryrefinersubqueryrefinervalues.md
+                - name: GET (/media/{marketplaceId}/metadata/mediaItemTypes/{mediaitemtype}/queryrefiners/{queryRefiner}/subQueryRefinerValues)
+                  href: uri/marketplace/uri-medialocalemediaitemtypequeryrefinersubqueryrefinervaluesget.md
+            - name: /media/{marketplaceId}/metadata/mediaItemTypes
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalemetadatamediaitemtypes.md
+                - name: GET (/media/{marketplaceId}/metadata/mediaItemTypes)
+                  href: uri/marketplace/uri-medialocalemetadatamediaitemtypesget.md
+            - name: /media/{marketplaceId}/metadata/mediaItemTypes/{mediaitemtype}/sortorders
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalemetadatamediaitemtypesortorders.md
+                - name: GET (/media/{marketplaceId}/metadata/mediaItemTypes/{mediaitemtype}/sortorders)
+                  href: uri/marketplace/uri-medialocalemetadatamediaitemtypesortordersget.md
+            - name: /media/{marketplaceId}/singleMediaGroupSearch
+              items:
+                - name: In this section
+                  href: uri/marketplace/uri-medialocalesinglemediagroupsearch.md
+                - name: GET (media/{marketplaceId}/singleMediaGroupSearch)
+                  href: uri/marketplace/uri-medialocalesinglemediagroupsearchget.md
+        - name: Matchmaking URIs
+          items:
+            - name: In this section
+              href: uri/matchtickets/atoc-reference-matchtickets.md
+            - name: /serviceconfigs/{scid}/hoppers/{hoppername}
+              items:
+                - name: In this section
+                  href: uri/matchtickets/uri-serviceconfigsscidhoppershoppername.md
+                - name: POST (/serviceconfigs/{scid}/hoppers/{hoppername})
+                  href: uri/matchtickets/uri-serviceconfigsscidhoppershoppernamepost.md
+            - name: /serviceconfigs/{scid}/hoppers/{name}/stats
+              items:
+                - name: In this section
+                  href: uri/matchtickets/uri-serviceconfigsscidhoppershoppernamestats.md
+                - name: GET (/serviceconfigs/{scid}/hoppers/{name}/stats)
+                  href: uri/matchtickets/uri-serviceconfigsscidhoppershoppernamestatsget.md
+            - name: /serviceconfigs/{scid}/hoppers/{hoppername}/tickets/{ticketid}
+              items:
+                - name: In this section
+                  href: uri/matchtickets/uri-scidhoppernameticketid.md
+                - name: DELETE (/serviceconfigs/{scid}/hoppers/{hoppername}/tickets/{ticketid})
+                  href: uri/matchtickets/uri-scidhoppernameticketiddelete.md
+        - name: People URIs
+          items:
+            - name: In this section
+              href: uri/people/atoc-reference-people.md
+            - name: /users/{ownerId}/people
+              items:
+                - name: In this section
+                  href: uri/people/uri-usersowneridpeople.md
+                - name: GET (/users/{ownerId}/people)
+                  href: uri/people/uri-usersowneridpeopleget.md
+            - name: /users/{ownerId}/people/{targetid}
+              items:
+                - name: In this section
+                  href: uri/people/uri-usersowneridpeopletargetid.md
+                - name: GET (/users/{ownerId}/people/{targetid})
+                  href: uri/people/uri-usersowneridpeopletargetidget.md
+            - name: /users/{ownerId}/people/xuids
+              items:
+                - name: In this section
+                  href: uri/people/uri-usersowneridpeoplexuids.md
+                - name: POST (/users/{ownerId}/people/xuids)
+                  href: uri/people/uri-usersowneridpeoplexuidspost.md
+            - name: /users/{ownerId}/summary
+              items:
+                - name: In this section
+                  href: uri/people/uri-usersowneridsummary.md
+                - name: GET (/users/{ownerId}/summary)
+                  href: uri/people/uri-usersowneridsummaryget.md
+        - name: Presence URIs
+          items:
+            - name: In this section
+              href: uri/presence/atoc-reference-presence.md
+            - name: /users/batch
+              items:
+                - name: In this section
+                  href: uri/presence/uri-usersbatch.md
+                - name: POST (/users/batch)
+                  href: uri/presence/uri-usersbatchpost.md
+            - name: /users/me
+              items:
+                - name: In this section
+                  href: uri/presence/uri-usersme.md
+                - name: GET (/users/me)
+                  href: uri/presence/uri-usersmeget.md
+            - name: /users/me/groups/{moniker}
+              items:
+                - name: In this section
+                  href: uri/presence/uri-usersmegroupsmoniker.md
+                - name: GET (/users/me/groups/{moniker})
+                  href: uri/presence/uri-usersmegroupsmonikerget.md
+            - name: /users/xuid({xuid})
+              items:
+                - name: In this section
+                  href: uri/presence/uri-usersxuid.md
+                - name: GET (/users/xuid({xuid}))
+                  href: uri/presence/uri-usersxuidget.md
+            - name: /users/xuid({xuid})/devices/current/titles/current
+              items:
+                - name: In this section
+                  href: uri/presence/uri-usersxuiddevicescurrenttitlescurrent.md
+                - name: DELETE (/users/xuid({xuid})/devices/current/titles/current)
+                  href: uri/presence/uri-usersxuiddevicescurrenttitlescurrentdelete.md
+                - name: POST (/users/xuid({xuid})/devices/current/titles/current)
+                  href: uri/presence/uri-usersxuiddevicescurrenttitlescurrentpost.md
+            - name: /users/xuid({xuid})/groups/{moniker}
+              items:
+                - name: In this section
+                  href: uri/presence/uri-usersxuidgroupsmoniker.md
+                - name: GET (/users/xuid({xuid})/groups/{moniker})
+                  href: uri/presence/uri-usersxuidgroupsmonikerget.md
+            - name: /users/xuid({xuid})/groups/{moniker}/broadcasting
+              items:
+                - name: In this section
+                  href: uri/presence/uri-usersxuidgroupsmonikerbroadcasting.md
+                - name: GET (/users/xuid({xuid})/groups/{moniker}/broadcasting)
+                  href: uri/presence/uri-usersxuidgroupsmonikerbroadcastingget.md
+            - name: /users/xuid({xuid})/groups/{moniker}/broadcasting/count
+              items:
+                - name: In this section
+                  href: uri/presence/uri-usersxuidgroupsmonikerbroadcastingcount.md
+                - name: GET (/users/xuid({xuid})/groups/{moniker}/broadcasting/count)
+                  href: uri/presence/uri-usersxuidgroupsmonikerbroadcastingcountget.md
+        - name: Privacy URIs
+          items:
+            - name: In this section
+              href: uri/privacy/atoc-reference-privacyv2.md
+            - name: /users/{ownerId}/people/mute
+              items:
+                - name: In this section
+                  href: uri/privacy/uri-privacyusersowneridpeoplemute.md
+                - name: GET (/users/{ownerId}/people/mute)
+                  href: uri/privacy/uri-privacyusersowneridpeoplemuteget.md
+            - name: /users/{requestorId}/permission/validate
+              items:
+                - name: In this section
+                  href: uri/privacy/uri-privacyusersrequestoridpermissionvalidate.md
+                - name: GET (/users/{requestorId}/permission/validate)
+                  href: uri/privacy/uri-privacyusersrequestoridpermissionvalidateget.md
+                - name: POST (/users/{requestorId}/permission/validate)
+                  href: uri/privacy/uri-privacyusersrequestoridpermissionvalidatepost.md
+            - name: /users/{ownerId}/people/avoid
+              items:
+                - name: In this section
+                  href: uri/privacy/uri-privacyusersxuidpeopleavoid.md
+                - name: GET (/users/{ownerId}/people/avoid)
+                  href: uri/privacy/uri-privacyusersxuidpeopleavoidget.md
+        - name: Profiles URIs
+          items:
+            - name: In this section
+              href: uri/profileV2/atoc-reference-profiles.md
+            - name: /users/batch/profile/settings
+              items:
+                - name: In this section
+                  href: uri/profileV2/uri-usersbatchprofilesettings.md
+                - name: POST (/users/batch/profile/settings)
+                  href: uri/profileV2/uri-usersbatchprofilesettingspost.md
+            - name: /users/{userId}/profile/settings/people/{userList}?settings={settings}
+              items:
+                - name: In this section
+                  href: uri/profileV2/uri-usersuseridprofilesettingspeopleuserlist.md
+                - name: GET (/users/{userId}/profile/settings/people/{userList})
+                  href: uri/profileV2/uri-usersuseridprofilesettingspeopleuserlistget.md
+        - name: Reputation URIs
+          items:
+            - name: In this section
+              href: uri/reputation/atoc-reference-reputation.md
+            - name: /users/xuid({xuid})/feedback
+              items:
+                - name: In this section
+                  href: uri/reputation/uri-reputationusersxuidfeedback.md
+                - name: POST (/users/xuid({xuid})/feedback)
+                  href: uri/reputation/uri-reputationusersxuidfeedbackpost.md
+            - name: /users/batchfeedback
+              items:
+                - name: In this section
+                  href: uri/reputation/uri-reputationusersbatchfeedback.md
+                - name: POST (/users/batchfeedback)
+                  href: uri/reputation/uri-reputationusersbatchfeedbackpost.md
+            - name: /users/me/resetreputation
+              items:
+                - name: In this section
+                  href: uri/reputation/uri-usersmeresetreputation.md
+                - name: POST (/users/me/resetreputation)
+                  href: uri/reputation/uri-usersmeresetreputationpost.md
+            - name: /users/xuid({xuid})/deleteuserdata
+              items:
+                - name: In this section
+                  href: uri/reputation/uri-usersxuiddeleteuserdata.md
+                - name: POST (/users/xuid({xuid})/deleteuserdata)
+                  href: uri/reputation/uri-usersxuiddeleteuserdatapost.md
+            - name: /users/xuid({xuid})/resetreputation
+              items:
+                - name: In this section
+                  href: uri/reputation/uri-usersxuidresetreputation.md
+                - name: POST (/users/xuid({xuid})/resetreputation)
+                  href: uri/reputation/uri-usersxuidresetreputationpost.md
+        - name: Session Directory URIs
+          items:
+            - name: In this section
+              href: uri/sessiondirectory/atoc-reference-sessiondirectory.md
+            - name: /handles
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-handles.md
+                - name: POST (/handles)
+                  href: uri/sessiondirectory/uri-handlespost.md
+            - name: /handles/{handleId}
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-handleshandleid.md
+                - name: DELETE (/handles/{handleId})
+                  href: uri/sessiondirectory/uri-handleshandleiddelete.md
+                - name: GET (/handles/{handle-id})
+                  href: uri/sessiondirectory/uri-handleshandleidget.md
+            - name: /handles/{handleId}/session
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-handleshandleidsession.md
+                - name: GET (/handles/{handleId}/session)
+                  href: uri/sessiondirectory/uri-handleshandleidsessionget.md
+                - name: PUT (/handles/{handle-id}/session)
+                  href: uri/sessiondirectory/uri-handleshandleidsessionput.md
+            - name: /handles/query
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-handlesquery.md
+                - name: POST (/handles/query)
+                  href: uri/sessiondirectory/uri-handlesquerypost.md
+                - name: POST (/handles/query?include=relatedInfo)
+                  href: uri/sessiondirectory/uri-handlesqueryincludepost.md
+            - name: /serviceconfigs/{scid}/batch
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-serviceconfigsscidbatch.md
+                - name: POST (/serviceconfigs/{scid}/batch)
+                  href: uri/sessiondirectory/uri-serviceconfigsscidbatchpost.md
+            - name: /serviceconfigs/{scid}/sessions
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessions.md
+                - name: GET (/serviceconfigs/{scid}/sessions)
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessionsget.md
+            - name: /serviceconfigs/{scid}/sessiontemplates
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplates.md
+                - name: GET (/serviceconfigs/{scid}/sessiontemplates)
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatesget.md
+            - name: /serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatename.md
+                - name: GET (/serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName})
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenameget.md
+            - name: /serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/batch
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-serviceconfigscidsessiontemplatessessiontemplatenamebatch.md
+                - name: POST (/serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/batch)
+                  href: uri/sessiondirectory/uri-serviceconfigscidsessiontemplatessessiontemplatenamebatchpost.md
+            - name: /serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessions.md
+                - name: GET (/serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions)
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessionsget.md
+            - name: /serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions/{sessionName}
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessionssessionname.md
+                - name: GET (/serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions/{sessionName})
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessionssessionnameget.md
+                - name: PUT (/serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions/{sessionName})
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessionssessionnameput.md
+            - name: /serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions/{sessionName}/members/{index}
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessionnamemembersindex.md
+                - name: DELETE (/serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions/{sessionName}/members/{index})
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessionnamemembersindexdelete.md
+            - name: /serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions/{sessionName}/members/me
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessionssessionnamemembersme.md
+                - name: DELETE (/serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions/{sessionName}/members/me)
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessionssessionnamemembersmedelete.md
+            - name: /serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions/{sessionName}/servers/{server-name}
+              items:
+                - name: In this section
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessionnamemembersservername.md
+                - name: DELETE (/serviceconfigs/{scid}/sessiontemplates/{sessionTemplateName}/sessions/{sessionName}/servers/{server-name})
+                  href: uri/sessiondirectory/uri-serviceconfigsscidsessiontemplatessessiontemplatenamesessionnamemembersservernamedelete.md
+        - name: Achievement Title History URIs
+          items:
+            - name: In this section
+              href: uri/titlehistory/atoc-reference-titlehistoryv2.md
+            - name: /users/xuid({xuid})/history/titles
+              items:
+                - name: In this section
+                  href: uri/titlehistory/uri-titlehistoryusersxuidhistorytitlesv2.md
+                - name: GET (/users/xuid({xuid})/history/titles)
+                  href: uri/titlehistory/uri-titlehistoryusersxuidhistorytitlesgetv2.md
+        - name: Title Storage URIs
+          items:
+            - name: In this section
+              href: uri/storage/atoc-reference-storagev2.md
+            - name: /global/scids/{scid}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-globalscidsscid.md
+                - name: GET (/global/scids/{scid})
+                  href: uri/storage/uri-globalscidsscid-get.md
+            - name: /global/scids/{scid}/data/{path}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-globalscidssciddatapath.md
+                - name: GET (/global/scids/{scid}/data/{path})
+                  href: uri/storage/uri-globalscidssciddatapath-get.md
+            - name: /global/scids/{scid}/data/{pathAndFileName},{type}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-globalscidssciddatapathandfilenametype.md
+                - name: GET (/global/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-globalscidssciddatapathandfilenametype-get.md
+            - name: /json/users/batch/scids/{scid}/data/{pathAndFileName},json
+              items:
+                - name: In this section
+                  href: uri/storage/uri-jsonusersbatchscidssciddatapathandfilenametype.md
+                - name: POST (/json/users/batch/scids/{scid}/data/{pathAndFileName},json)
+                  href: uri/storage/uri-jsonusersbatchscidssciddatapathandfilenametype-post.md
+            - name: /json/users/xuid({xuid})/scids/{scid}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-jsonusersxuidscidsscid.md
+                - name: GET (/json/users/xuid({xuid})/scids/{scid})
+                  href: uri/storage/uri-jsonusersxuidscidsscid-get.md
+            - name: /json/users/xuid({xuid})/scids/{scid}/data/{path}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-jsonusersxuidscidssciddatapath.md
+                - name: GET (/json/users/xuid({xuid})/scids/{scid}/data/{path})
+                  href: uri/storage/uri-jsonusersxuidscidssciddatapath-get.md
+            - name: /json/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},json
+              items:
+                - name: In this section
+                  href: uri/storage/uri-jsonusersxuidscidssciddatapathandfilenametype.md
+                - name: DELETE (/json/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},json)
+                  href: uri/storage/uri-jsonusersxuidscidssciddatapathandfilenametype-delete.md
+                - name: GET (/json/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},json)
+                  href: uri/storage/uri-jsonusersxuidscidssciddatapathandfilenametype-get.md
+                - name: PUT (/json/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},json)
+                  href: uri/storage/uri-jsonusersxuidscidssciddatapathandfilenametype-put.md
+            - name: /sessions/{sessionId}/scids/{scid}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-sessionssessionidscidsscid.md
+                - name: GET (/sessions/{sessionId}/scids/{scid})
+                  href: uri/storage/uri-sessionssessionidscidsscid-get.md
+            - name: /sessions/{sessionId}/scids/{scid}/data/{path}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-sessionssessionidscidssciddatapath.md
+                - name: GET (/sessions/{sessionId}/scids/{scid}/data/{path})
+                  href: uri/storage/uri-sessionssessionidscidssciddatapath-get.md
+            - name: /sessions/{sessionId}/scids/{scid}/data/{pathAndFileName},{type}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-sessionssessionidscidssciddatapathandfilenametype.md
+                - name: DELETE (/sessions/{sessionId}/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-sessionssessionidscidssciddatapathandfilenametype-delete.md
+                - name: GET (/sessions/{sessionId}/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-sessionssessionidscidssciddatapathandfilenametype-get.md
+                - name: PUT (/sessions/{sessionId}/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-sessionssessionidscidssciddatapathandfilenametype-put.md
+            - name: /trustedplatform/users/batch/scids/{scid}/data/{pathAndFileName},{type}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-trustedplatformusersbatchscidssciddatapathandfilenametype.md
+                - name: POST (/trustedplatform/users/batch/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-trustedplatformusersbatchscidssciddatapathandfilenametype-post.md
+            - name: /trustedplatform/users/xuid({xuid})/scids/{scid}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-trustedplatformusersxuidscidsscid.md
+                - name: GET (/trustedplatform/users/xuid({xuid})/scids/{scid})
+                  href: uri/storage/uri-trustedplatformusersxuidscidsscid-get.md
+            - name: /trustedplatform/users/xuid({xuid})/scids/{scid}/data/{path}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-trustedplatformusersxuidscidssciddatapath.md
+                - name: GET (/trustedplatform/users/xuid({xuid})/scids/{scid}/data/{path})
+                  href: uri/storage/uri-trustedplatformusersxuidscidssciddatapath-get.md
+            - name: /trustedplatform/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},{type}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-trustedplatformusersxuidscidssciddatapathandfilenametype.md
+                - name: DELETE (/trustedplatform/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-trustedplatformusersxuidscidssciddatapathandfilenametype-delete.md
+                - name: GET (/trustedplatform/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-trustedplatformusersxuidscidssciddatapathandfilenametype-get.md
+                - name: PUT (/trustedplatform/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-trustedplatformusersxuidscidssciddatapathandfilenametype-put.md
+            - name: /untrustedplatform/users/batch/scids/{scid}/data/{pathAndFileName},{type}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-untrustedplatformusersbatchscidssciddatapathandfilenametype.md
+                - name: POST (/untrustedplatform/users/batch/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-untrustedplatformusersbatchscidssciddatapathandfilenametype-post.md
+            - name: /untrustedplatform/users/xuid({xuid})/scids/{scid}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-untrustedplatformusersxuidscidsscid.md
+                - name: GET (/untrustedplatform/users/xuid({xuid})/scids/{scid})
+                  href: uri/storage/uri-untrustedplatformusersxuidscidsscid-get.md
+            - name: /untrustedplatform/users/xuid({xuid})/scids/{scid}/data/{path}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-untrustedplatformusersxuidscidssciddatapath.md
+                - name: GET (/untrustedplatform/users/xuid({xuid})/scids/{scid}/data/{path})
+                  href: uri/storage/uri-untrustedplatformusersxuidscidssciddatapath-get.md
+            - name: /untrustedplatform/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},{type}
+              items:
+                - name: In this section
+                  href: uri/storage/uri-untrustedplatformusersxuidscidssciddatapathandfilenametype.md
+                - name: DELETE (/untrustedplatform/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-untrustedplatformusersxuidscidssciddatapathandfilenametype-delete.md
+                - name: GET (/untrustedplatform/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-untrustedplatformusersxuidscidssciddatapathandfilenametype-get.md
+                - name: PUT (/untrustedplatform/users/xuid({xuid})/scids/{scid}/data/{pathAndFileName},{type})
+                  href: uri/storage/uri-untrustedplatformusersxuidscidssciddatapathandfilenametype-put.md
+        - name: System Strings Validatation URIs
+          items:
+            - name: In this section
+              href: uri/stringserver/atoc-reference-systemstringsvalidate.md
+            - name: /system/strings/validate
+              items:
+                - name: In this section
+                  href: uri/stringserver/uri-systemstringsvalidate.md
+                - name: POST (/system/strings/validate)
+                  href: uri/stringserver/uri-systemstringsvalidatepost.md
+        - name: Users URIs
+          items:
+            - name: In this section
+              href: uri/users/atoc-reference-users.md
+            - name: /users/xuid({xuid})/inbox
+              items:
+                - name: In this section
+                  href: uri/users/uri-usersxuidinbox.md
+                - name: GET (/users/xuid({xuid})/inbox)
+                  href: uri/users/uri-usersxuidinboxget.md
+                - name: DELETE (/users/xuid({xuid})/inbox/{messageId})
+                  href: uri/users/uri-usersxuidinboxmessageiddelete.md
+                - name: GET (/users/xuid({xuid})/inbox/{messageId})
+                  href: uri/users/uri-usersxuidinboxmessageidget.md
+            - name: /users/xuid({xuid})/outbox
+              items:
+                - name: In this section
+                  href: uri/users/uri-usersxuidoutbox.md
+                - name: POST (/users/xuid({xuid})/outbox)
+                  href: uri/users/uri-usersxuidoutboxpost.md
+        - name: User Statistics URIs
+          items:
+            - name: In this section
+              href: uri/userstats/atoc-reference-userstats.md
+            - name: /batch
+              items:
+                - name: In this section
+                  href: uri/userstats/uri-batch.md
+                - name: POST (/batch)
+                  href: uri/userstats/uri-batchpost.md
+            - name: /users/xuid({xuid})/scids/{scid}/stats
+              items:
+                - name: In this section
+                  href: uri/userstats/uri-usersxuidscidsscidstats.md
+                - name: GET (/users/xuid({xuid})/scids/{scid}/stats)
+                  href: uri/userstats/uri-usersxuidscidsscidstatsget.md
+                - name: GET (/users/xuid({xuid})/scids/{scid}/stats?include=valuemetadata)
+                  href: uri/userstats/uri-usersxuidscidsscidstatsgetvaluemetadata.md
+    - name: JavaScript Object Notation (JSON) Object Reference
+      items:
+        - name: In this section
+          href: json/atoc-xboxlivews-reference-json.md
+        - name: Achievement (JSON)
+          href: json/json-achievementv2.md
+        - name: ActivityRecord (JSON)
+          href: json/json-activityrecord.md
+        - name: ActivityRequest (JSON)
+          href: json/json-activityrequest.md
+        - name: AggregateSessionsResponse (JSON)
+          href: json/json-aggregatesessionsresponse.md
+        - name: BatchRequest (JSON)
+          href: json/json-batchrequest.md
+        - name: DeviceEndpoint (JSON)
+          href: json/json-deviceendpoint.md
+        - name: DeviceRecord (JSON)
+          href: json/json-devicerecord.md
+        - name: Feedback (JSON)
+          href: json/json-feedback.md
+        - name: GameClip (JSON)
+          href: json/json-gameclip.md
+        - name: GameClipsServiceErrorResponse (JSON)
+          href: json/json-gameclipsserviceerrorresponse.md
+        - name: GameClipThumbnail (JSON)
+          href: json/json-gameclipthumbnail.md
+        - name: GameClipUri (JSON)
+          href: json/json-gameclipuri.md
+        - name: GameMessage (JSON)
+          href: json/json-gamemessage.md
+        - name: GameResult (JSON)
+          href: json/json-gameresult.md
+        - name: GameSession (JSON)
+          href: json/json-gamesession.md
+        - name: GameSessionSummary (JSON)
+          href: json/json-gamesessionsummary.md
+        - name: GetClipResponse (JSON)
+          href: json/json-getclipresponse.md
+        - name: HopperStatsResults (JSON)
+          href: json/json-hopperstatsresults.md
+        - name: InitialUploadRequest (JSON)
+          href: json/json-initialuploadrequest.md
+        - name: InitialUploadResponse (JSON)
+          href: json/json-initialuploadresponse.md
+        - name: InventoryItem (JSON)
+          href: json/json-inventoryitem.md
+        - name: LastSeenRecord (JSON)
+          href: json/json-lastseenrecord.md
+        - name: MatchTicket (JSON)
+          href: json/json-matchticket.md
+        - name: MediaAsset (JSON)
+          href: json/json-mediaasset.md
+        - name: MediaRecord (JSON)
+          href: json/json-mediarecord.md
+        - name: MediaRequest (JSON)
+          href: json/json-mediarequest.md
+        - name: MultiplayerActivityDetails (JSON)
+          href: json/json-multiplayeractivitydetails.md
+        - name: MultiplayerSessionReference (JSON)
+          href: json/json-multiplayersessionreference.md
+        - name: MultiplayerSessionRequest (JSON)
+          href: json/json-multiplayersessionrequest.md
+        - name: MultiplayerSession (JSON)
+          href: json/json-multiplayersession.md
+        - name: PagingInfo (JSON)
+          href: json/json-paginginfo.md
+        - name: PeopleList (JSON)
+          href: json/json-peoplelist.md
+        - name: PermissionCheckBatchRequest (JSON)
+          href: json/json-permissioncheckbatchrequest.md
+        - name: PermissionCheckBatchResponse (JSON)
+          href: json/json-permissioncheckbatchresponse.md
+        - name: PermissionCheckBatchUserResponse (JSON)
+          href: json/json-permissioncheckbatchuserresponse.md
+        - name: PermissionCheckResponse (JSON)
+          href: json/json-permissioncheckresponse.md
+        - name: PermissionCheckResult (JSON)
+          href: json/json-permissioncheckresult.md
+        - name: Person (JSON)
+          href: json/json-person.md
+        - name: PersonSummary (JSON)
+          href: json/json-personsummary.md
+        - name: Player (JSON)
+          href: json/json-player.md
+        - name: PresenceRecord (JSON)
+          href: json/json-presencerecord.md
+        - name: Profile (JSON)
+          href: json/json-profile.md
+        - name: Progression (JSON)
+          href: json/json-progression.md
+        - name: Property (JSON)
+          href: json/json-property.md
+        - name: QueryClipsResponse (JSON)
+          href: json/json-queryclipsresponse.md
+        - name: quotaInfo (JSON)
+          href: json/json-quota.md
+        - name: Requirement (JSON)
+          href: json/json-requirement.md
+        - name: ResetReputation (JSON)
+          href: json/json-resetreputation.md
+        - name: Reward (JSON)
+          href: json/json-reward.md
+        - name: RichPresenceRequest (JSON)
+          href: json/json-richpresencerequest.md
+        - name: ServiceError (JSON)
+          href: json/json-serviceerror.md
+        - name: ServiceErrorResponse (JSON)
+          href: json/json-serviceerrorresponse.md
+        - name: SessionEntry (JSON)
+          href: json/json-sessionentry.md
+        - name: TitleAssociation (JSON)
+          href: json/json-titleassociation.md
+        - name: TitleBlob (JSON)
+          href: json/json-titleblob.md
+        - name: TitleRecord (JSON)
+          href: json/json-titlerecord.md
+        - name: TitleRequest (JSON)
+          href: json/json-titlerequest.md
+        - name: UpdateMetadataRequest (JSON)
+          href: json/json-updatemetadatarequest.md
+        - name: User (JSON)
+          href: json/json-user.md
+        - name: UserClaims (JSON)
+          href: json/json-userclaims.md
+        - name: UserList (JSON)
+          href: json/json-userlist.md
+        - name: UserSettings (JSON)
+          href: json/json-usersettings.md
+        - name: UserTitle (JSON)
+          href: json/json-usertitlev2.md
+        - name: VerifyStringResult (JSON)
+          href: json/json-verifystringresult.md
+        - name: XuidList (JSON)
+          href: json/json-xuidlist.md
+    - name: Enumerations Used In JavaScript Object Notation (JSON) Objects
+      items:
+        - name: In this section
+          href: enums/atoc-xboxlivews-reference-enums.md
+        - name: GameClipSource Enumeration
+          href: enums/gvr-enum-gameclipsource.md
+        - name: GameClipState Enumeration
+          href: enums/gvr-enum-gameclipstate.md
+        - name: GameClipType Enumeration
+          href: enums/gvr-enum-gamecliptypes.md
+        - name: GameClipUriType Enumeration
+          href: enums/gvr-enum-gameclipuritype.md
+        - name: GameClipVisibility Enumeration
+          href: enums/gvr-enum-gameclipvisibility.md
+        - name: ThumbnailSource Enumeration
+          href: enums/gvr-enum-thumbnailsource.md
+        - name: ThumbnailType Enumeration
+          href: enums/gvr-enum-thumbnailtype.md
+        - name: PermissionId Enumeration
+          href: enums/privacy-enum-permissionid.md
+    - name: Additional Reference
+      items:
+        - name: In this section
+          href: additional/atoc-xboxlivews-reference-additional.md
+        - name: Authorization Types
+          href: additional/authorizationtypes.md
+        - name: Data Type Overview
+          href: additional/datatypeoverview.md
+        - name: Auxiliary EDS APIs
+          href: additional/eds-apis.md
+        - name: EDS Authorization
+          href: additional/edsauthorization.md
+        - name: EDS Common Headers
+          href: additional/edscommonheaders.md
+        - name: EDS Parameters
+          href: additional/edsparameters.md
+        - name: EDS Query Refiners
+          href: additional/edsqueryrefiners.md
+        - name: EDS Reverse Lookup for Video
+          href: additional/edsreverselookup.md
+        - name: EDS Tables
+          href: additional/edstables.md
+        - name: Paging Parameters
+          href: additional/pagingparameters.md
+        - name: Standard HTTP Request and Response Headers
+          href: additional/httpstandardheaders.md
+        - name: Standard HTTP status codes
+          href: additional/httpstatuscodes.md

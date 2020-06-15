@@ -6,6 +6,8 @@ kindex: RTA
 ms.topic: article
 ms.assetid: 543b78e3-d06b-4969-95db-2cb996a8bbd3
 ms.localizationpriority: medium
+author: mlamaute
+ms.author: migreen
 ms.date: 04/04/2017
 ---
 
@@ -36,6 +38,7 @@ RTA connections are closed after two hours by design, which will force the clien
 This is done because the auth token for the connection is cached to save on message bandwidth.
 Eventually that token will expire.
 By closing the connection and forcing the client to reconnect, the client is forced to refresh the auth token.
+XSAPI will handle this for the title by proactively reconnecting to RTA and resubmitting subscriptions after 90 minutes.
 
 A client could also get disconnected due to a user's ISP having issues or when the process for the title is suspended.
 When this happens, a WebSocket event is raised to let the client know.
@@ -86,9 +89,8 @@ To keep your app agnostic of any new messages, we recommend that your title simp
 ## Throttles
 
 RTA enforces certain throttles on the service:
-
--   UserStats: 1000
--   Presence: 2500
+- UserStats: 1000
+- Presence: 2500
 
 If a client hits the throttling limit it will either receive an error as part of a subscribe/unsubscribe call, or it will be disconnected.
 In either case, more information about the throttling limitation that was hit will be available to the client along with the error message or disconnect message.
