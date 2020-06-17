@@ -19,7 +19,7 @@ ms.date: 11/01/2019
 
 |     |     |
 | --- | --- |
-| [Event-based Achievements how-to's](how-to/live-achievements-eb-howto-nav.md) | Example code for event-based Achievements. |
+| [Event-based Achievements example code](how-to/live-achievements-eb-howto-nav.md) | Example code for event-based Achievements. |
 
 
 ### See also

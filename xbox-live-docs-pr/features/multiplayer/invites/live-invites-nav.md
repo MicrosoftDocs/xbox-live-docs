@@ -18,7 +18,7 @@ ms.date: 11/01/2019
 | --- | --- |
 | [Invites overview](live-multiplayer-invites-overview.md) | A player can invite other players to their game sessions. Invited players receive a game invite, and the title uses this information to join the existing session and multiplayer experience. |
 | [Invites concepts](concepts/live-invites-concepts-nav.md) | Conceptual articles about Multiplayer Invites. |
-| [Invites how-to's](how-to/live-invites-howto-nav.md) | Example code for Multiplayer Invites. |
+| [Invites example code](how-to/live-invites-howto-nav.md) | Example code for Multiplayer Invites. |
 
 
 ### See also

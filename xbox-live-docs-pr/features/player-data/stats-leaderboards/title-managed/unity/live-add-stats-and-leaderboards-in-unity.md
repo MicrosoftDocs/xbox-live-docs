@@ -126,7 +126,7 @@ Therefore, leaderboard data is read-only, as you cannot modify them directly.
 
 The Xbox Live Unity plugin provides a sample leaderboard prefab that you can use to understand how to implement leaderboards in your game.
 
-For more information about leaderboards, see [Title-managed Leaderboards how-to's](../how-to/live-leaderboards-tm-howto.md).
+For more information about leaderboards, see [Title-managed Leaderboards example code](../how-to/live-leaderboards-tm-howto.md).
 
 
 ## Using the leaderboard prefabs
