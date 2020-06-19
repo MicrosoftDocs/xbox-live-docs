@@ -505,6 +505,28 @@
                   href: features/multiplayer/concepts/live-issues-changing-to-mp-2015.md
                 - name: Migrating an arbiter
                   href: features/multiplayer/concepts/live-migrating-an-arbiter.md
+            - name: Multiplayer Activity (MPA)
+              items:
+                - name: In this section
+                  href: features/multiplayer/mpa/live-mpa-nav.md
+                - name: Overview
+                  href: features/multiplayer/mpa/live-mpa-overview.md
+                - name: Concepts
+                  items:
+                    - name: In this section
+                      href: features/multiplayer/mpa/concepts/live-mpa-concepts-nav.md
+                    - name: Activities
+                      href: features/multiplayer/mpa/concepts/live-mpa-activities.md
+                    - name: Invites
+                      href: features/multiplayer/mpa/concepts/live-mpa-invites.md
+                    - name: Recent Players
+                      href: features/multiplayer/mpa/concepts/live-mpa-recent-players.md
+                - name: Example code
+                  items:
+                    - name: In this section
+                      href: features/multiplayer/mpa/how-to/live-mpa-how-to-nav.md
+                    - name: Example code for Multiplayer Activity
+                      href: features/multiplayer/mpa/how-to/live-mpa-client-how-to.md
             - name: Xbox Integrated Multiplayer (XIM)
               items:
                 - name: In this section
