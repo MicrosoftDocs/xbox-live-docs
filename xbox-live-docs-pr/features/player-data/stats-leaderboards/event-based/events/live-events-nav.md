@@ -20,4 +20,4 @@ These articles only apply if you are using event-based User Stats, not title-man
 
 |     |     |
 | --- | --- |
-| [Events how-to's](how-to/live-events-howto-nav.md) | Example code for events for event-based Stats & Leaderboards. |
+| [Events example code](how-to/live-events-howto-nav.md) | Example code for events for event-based Stats & Leaderboards. |

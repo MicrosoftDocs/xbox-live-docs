@@ -1,14 +1,14 @@
 ---
-title: Title-managed Leaderboards how-to's
+title: Title-managed Leaderboards example code
 description: Defining leaderboards to compare players by showing selected stats for a game.
-kindex: Title-managed Leaderboards how-to's
+kindex: Title-managed Leaderboards example code
 ms.topic: article
 ms.assetid: 132604f9-6107-4479-9246-f8f497978db7
 ms.localizationpriority: medium
 ms.date: 09/28/2018
 ---
 
-# Title-managed Leaderboards how-to's
+# Title-managed Leaderboards example code
 
 <!-- 
 old path & filename:
