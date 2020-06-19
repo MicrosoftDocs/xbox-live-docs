@@ -18,7 +18,7 @@ ms.date: 11/01/2019
 |     |     |
 | --- | --- |
 | [Event-based Stats overview](live-stats-eb-overview.md) | The game sends events to your Xbox Live service configuration at the developer portal. These events are handled by stat rules to update stats on the server. The game can then retrieve the updated stats from the server. |
-| [Event-based Stats & Leaderboards how-to's](how-to/live-statslb-eb-howto-nav.md) | Example code for event-based Stats & Leaderboards. |
+| [Event-based Stats & Leaderboards example code](how-to/live-statslb-eb-howto-nav.md) | Example code for event-based Stats & Leaderboards. |
 | [Events](events/live-events-nav.md) | Player Data includes events, which are used for event-based User Stats. |
 
 
