@@ -57,7 +57,7 @@ See <a href="https://dev.mixer.com/guides/test-streams/introduction" target="_bl
 
 If you can't broadcast from an Xbox One (or later) console:
 1. Make sure you are signed in.
-2. Make sure the game has a Title ID and Service Configuration that you have access to.
+2. Make sure the game has a Title ID and Service Configuration that you have access to. See [Setting up an app or game at Partner Center, for Managed Partners](../../get-started/setup-partner-center/live-setup-partner-center-partners.md).
 
 
 **Video is not showing the correct frames**
