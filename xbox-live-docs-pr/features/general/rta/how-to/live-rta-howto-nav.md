@@ -1,13 +1,13 @@
 ---
 title: Real-Time Activity (RTA) service example code
 description: Example code for Real-Time Activity service.
-layout: LandingPage
 kindex: Real-Time Activity (RTA) service example code
 kindex: RTA
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: article
-ms.localizationpriority: high
 ms.date: 11/01/2019
 ---
 

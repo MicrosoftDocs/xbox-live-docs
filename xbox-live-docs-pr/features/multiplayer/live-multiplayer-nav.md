@@ -21,6 +21,7 @@ ms.date: 11/01/2019
 | [Multiplayer overview](live-multiplayer-intro.md) | Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat. |
 | [Common multiplayer scenarios](live-common-multiplayer-scenarios.md) | Which Xbox Live functionality supports various multiplayer scenarios, including Comparative (Indirect) Play, Online Play with friends, Skill-Based Matchmaking, and Tournaments. |
 | [Multiplayer concepts](concepts/live-multiplayer-concepts-nav.md) | Conceptual articles about Xbox Live Multiplayer services. |
+| [Multiplayer Activity (MPA)](mpa/live-mpa-nav.md) | Simplifies platform integration for player activities (joins), invites, and recent players, and allows players to launch into your game from their social graph. |
 | [Xbox Integrated Multiplayer (XIM)](xim/live-xim-nav.md) | An all-in-one multiplayer/networking/chat solution for Xbox Live games. |
 | [Multiplayer Manager (MPM)](mpm/live-multiplayer-manager-nav.md) | High-level API for adding multiplayer functionality by managing sessions, matchmaking, and game invites. Provides a state- and event-based programming model. |
 | [Multiplayer Session Directory (MPSD)](mpsd/live-mpsd-nav.md) | Shares information to connect a group of users. Coordinates with the shell and console operating system in sending/accepting invites and in being joined via the gamer card. |

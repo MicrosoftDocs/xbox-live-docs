@@ -23,7 +23,7 @@ metadata:
 landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
-  # Card
+  # Card with 6 links (5)
   - title: Getting Started
     linkLists:
       - linkListType: overview
@@ -38,16 +38,16 @@ landingContent:
             url: get-started/join-dev-program/live-dev-program-overview.md
           - text: Setting up an IDE
             url: get-started/setup-ide/live-setup-ide-nav.md
-      - linkListType: sample
-        links:
-          - text: Initializing the Xbox Live API
-            url: get-started/add-signin-code/live-add-signin-code-nav.md
+      # - linkListType: sample
+      #   links:
+      #     - text: Initializing the Xbox Live API
+      #       url: get-started/add-signin-code/live-add-signin-code-nav.md
       - linkListType: whats-new
         links:
           - text: What's New
             url: get-started/whats-new/live-whats-new.md
 # ================= FEATURE AREA CARDS ==================================================
-  # Card
+  # Card with 5 links
   - title: Identity
     linkLists:
       - linkListType: overview
@@ -66,7 +66,7 @@ landingContent:
             url: features/identity/privileges/config/live-privileges-config.md
 #      - linkListType: sample
 #        links:
-  # Card
+  # Card with 8 links (5)
   - title: Player Data
     linkLists:
       - linkListType: overview
@@ -75,12 +75,12 @@ landingContent:
             url: features/player-data/live-playerdata-nav.md
           - text: Player Data overview
             url: features/player-data/live-playerdata-overview.md
-          - text: Event-based Stats overview
-            url: features/player-data/stats-leaderboards/event-based/live-stats-eb-overview.md
-          - text: Title-managed Stats overview
-            url: features/player-data/stats-leaderboards/title-managed/live-stats-tm-overview.md
-          - text: Title-managed Achievements overview
-            url: features/player-data/achievements/title-managed/live-achievements-tm-overview.md
+          # - text: Event-based Stats overview
+          #   url: features/player-data/stats-leaderboards/event-based/live-stats-eb-overview.md
+          # - text: Title-managed Stats overview
+          #   url: features/player-data/stats-leaderboards/title-managed/live-stats-tm-overview.md
+          # - text: Title-managed Achievements overview
+          #   url: features/player-data/achievements/title-managed/live-achievements-tm-overview.md
       - linkListType: concept
         links:
           - text: Event-based vs. title-managed Stats
@@ -91,7 +91,7 @@ landingContent:
             url: features/player-data/achievements/title-managed/concepts/live-achievement-rewards.md
       # - linkListType: sample
       #   links:
-  # Card
+  # Card with 7 links (5)
   - title: Social
     linkLists:
       - linkListType: overview
@@ -108,13 +108,13 @@ landingContent:
         links:
           - text: Displaying people from the People System
             url: features/social/people-system/concepts/live-pplsys-displaying-people.md
-          - text: Best practices for Rich Presence
-            url: features/social/presence/concepts/live-presence-best-practices.md
-          - text: Sending Reputation feedback from a title
-            url: features/social/reputation/concepts/live-sending-reputation-feedback.md
+          # - text: Best practices for Rich Presence
+          #   url: features/social/presence/concepts/live-presence-best-practices.md
+          # - text: Sending Reputation feedback from a title
+          #   url: features/social/reputation/concepts/live-sending-reputation-feedback.md
       # - linkListType: sample
       #   links:
-  # Card
+  # Card with 8 links (5)
   - title: Multiplayer
     linkLists:
       - linkListType: overview
@@ -129,17 +129,17 @@ landingContent:
             url: features/multiplayer/concepts/live-multiplayer-roles.md
           - text: Multiplayer session browse
             url: features/multiplayer/concepts/live-session-browse.md
-          - text: Intro to calling the Multiplayer service directly
-            url: features/multiplayer/concepts/live-intro-calling-mp-directly.md
+          # - text: Intro to calling the Multiplayer service directly
+          #   url: features/multiplayer/concepts/live-intro-calling-mp-directly.md
           - text: Configuring the Multiplayer service
             url: features/multiplayer/concepts/live-configure-the-multiplayer-service.md
-          - text: Game session visibility and joinability
-            url: features/multiplayer/mpsd/concepts/live-game-session-visibility-joinability.md
-          - text: Multiplayer session templates
-            url: features/multiplayer/mpsd/concepts/live-session-templates.md
+          # - text: Game session visibility and joinability
+          #   url: features/multiplayer/mpsd/concepts/live-game-session-visibility-joinability.md
+          # - text: Multiplayer session templates
+          #   url: features/multiplayer/mpsd/concepts/live-session-templates.md
       # - linkListType: sample
       #   links:
-  # Card
+  # Card with 6 links (5)
   - title: Cloud Storage
     linkLists:
       - linkListType: overview
@@ -154,13 +154,13 @@ landingContent:
             url: features/cloud-storage/title-storage/live-title-storage-overview.md
       - linkListType: concept
         links:
-          - text: Managing local Connected Storage
-            url: features/cloud-storage/connected-storage/concepts/live-connected-storage-xb-storage.md
+          # - text: Managing local Connected Storage
+          #   url: features/cloud-storage/connected-storage/concepts/live-connected-storage-xb-storage.md
           - text: Best practices for Connected Storage
             url: features/cloud-storage/connected-storage/concepts/live-connected-storage-best-practices.md
       # - linkListType: sample
       #   links:
-  # Card
+  # Card with 5 links
   - title: Custom services
     linkLists:
       - linkListType: overview
@@ -179,7 +179,7 @@ landingContent:
             url: features/custom-services/relying-parties/live-relying-parties-nav.md
       # - linkListType: sample
       #   links:
-  # Card
+  # Card with 7 links (5)
   - title: General features
     linkLists:
       - linkListType: overview
@@ -194,20 +194,20 @@ landingContent:
         links:
           - text: Registering for player Stat change notifications
             url: features/general/rta/concepts/live-register-for-stat-notifications.md
-          - text: Best Practices for the RTA service
-            url: features/general/rta/concepts/live-rta-best-practices.md
+          # - text: Best Practices for the RTA service
+          #   url: features/general/rta/concepts/live-rta-best-practices.md
       # - linkListType: how-to-guide
       #   links:
       #     - text: __
       #       url: __.md
       - linkListType: sample
         links:
-          - text: Programming the RTA service
-            url: features/general/rta/how-to/live-programming-rta.md
+          # - text: Programming the RTA service
+          #   url: features/general/rta/how-to/live-programming-rta.md
           - text: Xbox Live samples
             url: features/general/samples/live-samples.md
 # ================= / END OF FEATURE AREA CARDS =============================================
-  # Card
+  # Card with 9 links (5)
   - title: Testing and Releasing
     linkLists:
       - linkListType: overview
@@ -218,16 +218,16 @@ landingContent:
             url: test-release/sandboxes/live-setup-sandbox.md
       - linkListType: concept
         links:
-          - text: Best practices for calling Xbox Live
-            url: test-release/best-practices/live-best-practices-calling-xbl.md
+          # - text: Best practices for calling Xbox Live
+            # url: test-release/best-practices/live-best-practices-calling-xbl.md
           - text: Fine-Grained Rate Limiting
             url: test-release/best-practices/live-fine-grained-rate-limiting.md
-          - text: Xbox Live test accounts
-            url: test-release/test-accounts/live-test-accounts.md
-          - text: Testing on the Xbox One console
-            url: test-release/live-testing-on-console.md
-          - text: Troubleshooting Xbox Live Services APIs
-            url: test-release/troubleshooting/live-troubleshooting-apis.md
+          # - text: Xbox Live test accounts
+          #   url: test-release/test-accounts/live-test-accounts.md
+          # - text: Testing on the Xbox One console
+          #   url: test-release/live-testing-on-console.md
+          # - text: Troubleshooting Xbox Live Services APIs
+          #   url: test-release/troubleshooting/live-troubleshooting-apis.md
       # - linkListType: sample
       #   links:
       - linkListType: download
@@ -236,7 +236,7 @@ landingContent:
             url: test-release/tools/live-tools-nav.md
           - text: Xbox Live resources, sites, and downloads
             url: test-release/live-sites-downloads.md
-  # Card
+  # Card with 5 links
   - title: Policies and XRs
     linkLists:
       - linkListType: overview
@@ -255,21 +255,21 @@ landingContent:
             url: policies/live-policy-tests-pc.md
       # - linkListType: sample
       #   links:
-  # Card
+  # Card with 8 links (5)
   - title: API Reference
     linkLists:
       - linkListType: overview
         links:
           - text: In this section
             url: api-ref/live-api-reference-nav.md
-          - text: Introduction to XSAPI APIs
-            url: api-ref/xsapi/live-introduction-to-xbox-live-apis.md
-          - text: Introduction to the XSAPI C API
-            url: api-ref/xsapi/live-xsapi-flat-c.md
-      - linkListType: concept
-        links:
-          - text: Making async calls in the XSAPI C API
-            url: api-ref/xasync/live-flatc-async-patterns.md
+          # - text: Introduction to XSAPI APIs
+          #   url: api-ref/xsapi/live-introduction-to-xbox-live-apis.md
+          # - text: Introduction to the XSAPI C API
+          #   url: api-ref/xsapi/live-xsapi-flat-c.md
+      # - linkListType: concept
+      #   links:
+      #     - text: Making async calls in the XSAPI C API
+      #       url: api-ref/xasync/live-flatc-async-patterns.md
       - linkListType: reference
         links:
           - text: XSAPI Reference
