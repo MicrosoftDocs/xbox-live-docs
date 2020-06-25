@@ -11,6 +11,10 @@ ms.localizationpriority: medium
 ms.date: 04/04/2017
 ---
 
+
+
+
+
 # Multiplayer Session Directory overview
 
 Multiplayer Session Directory (MPSD) enables titles to share the basic information needed to connect a group of users.
@@ -20,10 +24,10 @@ MPSD centralizes a game's multiplayer system metadata across multiple clients.
 MPSD ensures that session functionality is synchronized and consistent.
 
 MPSD is a service operating in the Xbox Live cloud.
-MPSD is wrapped by the **MultiplayerService Class**.
+MPSD is wrapped by the `MultiplayerService` class.
+
 
 <!-- **Contents**
-
 * [MPSD Sessions](#mpsd-sessions)
 * [MPSD Change Notification Handling and Disconnect Detection](#mpsd-change-notification-handling-and-disconnect-detection)
 * [MPSD Handles to Sessions](#mpsd-handles-to-sessions)
@@ -37,7 +41,7 @@ MPSD is wrapped by the **MultiplayerService Class**.
 
 ## MPSD Sessions
 
-An MPSD session is represented by the **MultiplayerSession Class** as the scenario in which one or more people use a game.
+An MPSD session is represented by the `MultiplayerSession` class as the scenario in which one or more people use a game.
 A session is stored by MPSD as a secure JSON document residing in the Xbox Live cloud.
 
 Specifically, an MPSD session has the following characteristics:
@@ -72,31 +76,29 @@ The connection is used to:
 
 The XSAPI library manages the connection between the client and MPSD.
 
-1. First, the title calls the **MultiplayerService.EnableMultiplayerSubscriptions Method**. This method tells XSAPI that the client intends to use a real-time activity connection for multiplayer purposes.
+1. First, the title calls the `MultiplayerService.EnableMultiplayerSubscriptions` method. This method tells XSAPI that the client intends to use a real-time activity connection for multiplayer purposes.
 
-2. Then, when the title makes its first call to the **MultiplayerService.WriteSessionAsync Method** or the **MultiplayerService.WriteSessionByHandleAsync Method**, with the current user set to the Active state, a connection is created and hooked up to MPSD.
+2. Then, when the title makes its first call to the `MultiplayerService.WriteSessionAsync` method or the `MultiplayerService.WriteSessionByHandleAsync` method, with the current user set to the Active state, a connection is created and hooked up to MPSD.
 
-| Note |
-|---|
-| To enable session notifications and detect disconnections, the session template must set the `connectionRequiredForActiveMembers` to `true`. |
+> [!NOTE]
+> To enable session notifications and detect disconnections, the session template must set the `connectionRequiredForActiveMembers` to `true`.
 
-| Note |
-|---|
-| In former versions of XSAPI, titles called the **RealTimeActivityService.ConnectAsync Method** to create user connections to the real-time activity service. For the 2015 Multiplayer, this method does nothing, and the connection is created on demand. |
+> [!NOTE]
+> In former versions of XSAPI, titles called the `RealTimeActivityService.ConnectAsync` method to create user connections to the real-time activity service. For the 2015 Multiplayer, this method does nothing, and the connection is created on demand.
 
 
 ### Subscribing for Session Changes
 
 MPSD uses a "shoulder tap" as a lightweight notification that something of interest has changed.
 The title should retrieve the modified resource to determine the exact nature of the change.
-With subscriptions enabled, the title can subscribe for shoulder taps on session changes with a call to the **MultiplayerSession.SetSessionChangeSubscription Method**.
+With subscriptions enabled, the title can subscribe for shoulder taps on session changes with a call to the `MultiplayerSession.SetSessionChangeSubscription` method.
 
 See the section [Subscribe for MPSD session change notifications](how-to/live-mpsd-how-tos.md#sfmscn) in the article "Multiplayer tasks".
 
 
 ### Handling Shoulder Taps
 
-When a change to a session matches the title's subscription for that session, MPSD notifies the title of the change using the **RealTimeActivityService.MultiplayerSessionChanged Event**.
+When a change to a session matches the title's subscription for that session, MPSD notifies the title of the change using the `RealTimeActivityService.MultiplayerSessionChanged` event.
 The title should then retrieve the session and compare the retrieved version of the session with the previous cached view, and take actions appropriately.
 
 
@@ -105,18 +107,19 @@ The title should then retrieve the session and compare the retrieved version of 
 The title can also be notified about changes in the health of the connection to MPSD.
 
 Two events signal these changes:
-- ** RealTimeActivityService.MultiplayerSubscriptionsLost Event ** -- fired when the title's connection to MPSD using the real-time activity service is lost. When this event occurs, the title should shut down the multiplayer.
-- ** RealTimeActivityService.ConnectionStateChanged Event ** -- fired upon a temporary change in the health of the title's connection to the real-time activity service. The title is not required to take any action upon receiving this event, but it might be useful to use the event for diagnostic purposes.
+- `RealTimeActivityService.MultiplayerSubscriptionsLost` event -- fired when the title's connection to MPSD using the real-time activity service is lost. When this event occurs, the title should shut down the multiplayer.
+- `RealTimeActivityService.ConnectionStateChanged` event -- fired upon a temporary change in the health of the title's connection to the real-time activity service. The title is not required to take any action upon receiving this event, but it might be useful to use the event for diagnostic purposes.
 
 
 ### Disconnecting Clients
 
-Clients for your title disconnect from MPSD when the title disables notifications with a call to the **RealTimeActivityService.DisableMultiplayerSubscriptions Method**.
-Shortly after this call, the **MultiplayerSubscriptionsLost** event fires, indicating that a client has disconnected from MPSD.
+Clients for your title disconnect from MPSD when the title disables notifications with a call to the `RealTimeActivityService.DisableMultiplayerSubscriptions` method.
+Shortly after this call, the `MultiplayerSubscriptionsLost` event fires, indicating that a client has disconnected from MPSD.
 
-| Note|
-|---|
-| In earlier multiplayer versions, titles called the ** RealTimeActivityService.Disconnect Method ** to disconnect from the real-time activity service. For the 2015 Multiplayer, this method does nothing. The disconnection occurs automatically after **DisableMultiplayerSubscriptions** is called, if there are no users of the web socket connection, for example, a real-time activity service subscription to presence. |
+> [!NOTE]
+> In earlier multiplayer versions, titles called the `RealTimeActivityService.Disconnect` method to disconnect from the real-time activity service.
+> For the 2015 Multiplayer, this method does nothing.
+> The disconnection occurs automatically after `DisableMultiplayerSubscriptions` is called, if there are no users of the web socket connection, for example, a real-time activity service subscription to presence.
 
 
 ### Disconnect Detection
@@ -136,9 +139,8 @@ It is similar to a file handle.
 All handles have a handle ID (GUID) and a full session reference consisting of service configuration ID (SCID), session template, and session name.
 A handle cannot be updated, but it can be created, read, and deleted.
 
-| Note |
-|---|
-| A handle can point to a session that does not exist. Creating a handle using a nonexistent session name does not cause a new session to be created. |
+> [!NOTE]
+> A handle can point to a session that does not exist. Creating a handle using a nonexistent session name does not cause a new session to be created.
 
 
 ### Handle Types
@@ -154,30 +156,29 @@ Type-specific data includes source person, target person, and context string des
 An invite handle grants read-write access to an open session.
 If the session is closed, the handle grants read-only session access.
 
-| Note |
-|---|
-| MPSD can create an invite even if the session is full or closed. |
+> [!NOTE]
+> MPSD can create an invite even if the session is full or closed.
 
 
 #### Activity Handle
 
 An activity handle indicates what a user is doing at the moment.
-The user's activity is represented by the **MultiplayerActivityDetails Class**.
+The user's activity is represented by the `MultiplayerActivityDetails` class.
 
-| Note |
-|---|
-| An activity handle can also be explicitly deleted, but only by the owning title for a specific user. This deletion is done using the **MultiplayerService.ClearActivityAsync Method**. |
+> [!NOTE]
+> An activity handle can also be explicitly deleted, but only by the owning title for a specific user.
+> This deletion is done using the `MultiplayerService.ClearActivityAsync` method.
 
 
 ### Creating an Invite Handle
 
-To create an invite handle, the title calls the **MultiplayerService.SendInvitesAsync Method**.
+To create an invite handle, the title calls the `MultiplayerService.SendInvitesAsync` method.
 The method sends an invite to the specified users in the form of a UI toast that the recipients can act on to accept the invite.
 
 
 ### Creating an Activity Handle
 
-To create an activity handle, the title calls the **MultiplayerService.SetActivityAsync Method**.
+To create an activity handle, the title calls the `MultiplayerService.SetActivityAsync` method.
 MPSD sets the new handle ID as the session member's bound activity.
 
 If there was a previous bound activity, MPSD deletes the corresponding handle.
@@ -206,9 +207,9 @@ Synchronization of session updates by MPSD use two related high-level implementa
 
 - Arbiter updates shared portions of the session. If your implementation involves a single arbiter, you can avoid using synchronized updates for most write operations. The title can avoid synchronization for (1) any update that the arbiter makes to shared portions of the session, unless they are related to communicating the arbiter's identity, and (2) any update that a title makes to the member area within the session.
 
-| Note |
-|---|
-| Although the above update types do not need synchronization, it is still important to synchronize any updates to the ** MultiplayerSessionProperties.HostDeviceToken Property **. That property is used to communicate the identity of the arbiter, for example, as part of arbiter migration. |
+> [!NOTE]
+> Although the above update types do not need synchronization, it is still important to synchronize any updates to the `MultiplayerSessionProperties.HostDeviceToken` property.
+> That property is used to communicate the identity of the arbiter, for example, as part of arbiter migration.
 
 - All clients update shared portions of the session. In this case, all updates to shared portions of the session must be synchronized. However, titles can still write to their own member areas without synchronization.
 
@@ -217,24 +218,24 @@ Synchronization of session updates by MPSD use two related high-level implementa
 
 The following multiplayer WinRT API methods implement optimistic concurrency:
 
-- **MultiplayerService.WriteSessionAsync Method**
-- **MultiplayerService.WriteSessionByHandleAsync Method**
-- **MultiplayerService.TryWriteSessionAsync Method**
-- **MultiplayerService.TryWriteSessionByHandleAsync Method**
+- `MultiplayerService.WriteSessionAsync` method
+- `MultiplayerService.WriteSessionByHandleAsync` method
+- `MultiplayerService.TryWriteSessionAsync` method
+- `MultiplayerService.TryWriteSessionByHandleAsync` method
 
-Each write method accepts a **MultiplayerSessionWriteMode Enumeration** value.
+Each write method accepts a `MultiplayerSessionWriteMode` enumeration value.
 Passing the value SynchronizedUpdate makes use of optimistic concurrency for updates.
 
 Other values in the enumeration help resolve potential conflicts upon the initial creation of a session.
 Any write to a portion of the MPSD session that can potentially be written to by another title must use a synchronized update.
 However, not all writes must be protected.
 
-If your title attempts to write the local session object to MPSD using one of the write session methods and receives an HTTP/412 status code, it should refresh the local copy by issuing a **MultiplayerService.GetCurrentSessionAsync Method** call to get the latest server version of the session before attempting the write again.
+If your title attempts to write the local session object to MPSD using one of the write session methods and receives an HTTP/412 status code, it should refresh the local copy by issuing a `MultiplayerService.GetCurrentSessionAsync` method call to get the latest server version of the session before attempting the write again.
 Otherwise, the local session document continues to contain the bad data and the calls to write the session continue to fail.
 
-| Note |
-|---|
-| If the title is using one of the **TryWrite\*** methods, the updated session is returned in the case of an HTTP/412 status code. This behavior avoids the need to call **GetCurrentSessionAsync**. |
+> [!NOTE]
+> If the title is using one of the `TryWrite*` methods, the updated session is returned in the case of an HTTP/412 status code.
+> This behavior avoids the need to call `GetCurrentSessionAsync`.
 
 When the title calls one of the write session methods, an updated version of the session might be returned.
 If an updated version of the session is returned, the title should switch its local cached copy to this new version in a thread-safe way.
@@ -251,17 +252,16 @@ The ETag passed in the write request should be the one that the MPSD returns wit
 ## Calling MPSD
 
 There are two ways for the title to access MPSD in order to use the multiplayer system and matchmaking:
-- Recommended. Use the multiplayer WinRT API, which contains classes that act as wrappers for RESTful functionality. See **Microsoft.Xbox.Services.Multiplayer Namespace**. For SmartMatch matchmaking, use the matchmaking WinRT API, represented by the **Microsoft.Xbox.Services.Matchmaking Namespace**.
-- Use direct standard HTTP calls to the multiplayer and matchmaking REST APIs, included in the **Xbox Live Services RESTful Reference**. The applicable URIs are described in **Session Directory URIs** (for multiplayer) and **Matchmaking URIs** (for matchmaking). Related JSON objects are described in the **JavaScript Object Notation (JSON) Object Reference**.
+- Recommended. Use the multiplayer WinRT API, which contains classes that act as wrappers for RESTful functionality. See `Microsoft.Xbox.Services.Multiplayer` namespace. For SmartMatch matchmaking, use the matchmaking WinRT API, represented by the `Microsoft.Xbox.Services.Matchmaking` namespace.
+- Use direct standard HTTP calls to the multiplayer and matchmaking REST APIs, included in the [Xbox Live Services RESTful Reference](../../../api-ref/xbox-live-rest/atoc-xboxlivews-reference.md). The applicable URIs are described in **Session Directory URIs** (for multiplayer) and **Matchmaking URIs** (for matchmaking). Related JSON objects are described in the **JavaScript Object Notation (JSON) Object Reference**.
 
 
 ### Using the Multiplayer WinRT API to Call MPSD
 
 The recommended way to call MPSD is to use the multiplayer WinRT API and the matchmaking WinRT API.
 
-| Note |
-|---|
-| The XDK samples are written using the multiplayer and matchmaking WinRT APIs and the other elements of XSAPI. |
+> [!NOTE]
+> The XDK samples are written using the multiplayer and matchmaking WinRT APIs and the other elements of XSAPI.
 
 Use of wrapper code for the underlying REST functionality allows for a more traditional approach to using client-side API methods without having to handle HTTP traffic for each call.
 Both a binary and a source for XSAPI are shipped with the XDK.
@@ -284,7 +284,7 @@ To perform a hypothetical PUT request that returns the result of the merge witho
 The requests and responses for the multiplayer and matchmaking REST API methods are JSON documents.
 For a multiplayer session request structure, see **MultiplayerSessionRequest (JSON)**.
 
-An associated response structure is shown in **MultiplayerSession (JSON)**.
+An associated response structure is shown in [MultiplayerSession (JSON)](../../../api-ref/xbox-live-rest/json/json-multiplayersession.md).
 The response structure frames the session members as a linked list and fills in other read-only properties of the session and its members.
 
 
@@ -300,9 +300,8 @@ You can set up queries for basic session information using the session directory
 The result of a query is a JSON array of session references, with some session data included inline.
 By default, a query retrieves up to 100 non-private sessions.
 
-| Note |
-|---|
-| Every query must include either a keyword filter, an XUID filter, or both. |
+> [!NOTE]
+> Every query must include either a keyword filter, an XUID filter, or both.
 
 
 #### Query for Session Templates
@@ -329,15 +328,14 @@ The tool is intended only to be used for development sandboxes.
 
 ### Accessing Multiplayer Session Explorer
 
-| Note |
-|---|
-| To use the tool, you must be signed in. Your browsing is limited to sessions that have the signed-in user as a member. |
+> [!NOTE]
+> To use the tool, you must be signed in. Your browsing is limited to sessions that have the signed-in user as a member.
 
 To access Multiplayer Session Explorer, open Internet Explorer on your Xbox One (or later) console, press the **View** button, and enter <https://sessiondirectory.xboxlive.com/debug> in the **Address** field.
 
-| Note |
-|---|
-| You will receive an HTTP/404 status code if you attempt to access the tool in the RETAIL sandbox. For more about this code, see [Multiplayer session status codes](how-to/live-mpsd-status-codes.md). |
+> [!NOTE]
+> You will receive an HTTP/404 status code if you attempt to access the tool in the RETAIL sandbox.
+> For more about this code, see [Multiplayer session status codes](how-to/live-mpsd-status-codes.md).
 
 
 ### Using Multiplayer Session Explorer
