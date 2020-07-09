@@ -220,7 +220,7 @@ Update the Android Manifest to include the permissions which Xbox Live requires 
 4. Just after the main `launcher` element, add a new activity, as follows:
 
 ```xml
-<activity android:name="com.microsoft.xal.browser.WebView" android:launchMode="singleTask">
+<activity android:name="com.microsoft.xal.browser.IntentHandler" android:launchMode="singleTask">
     <intent-filter>
         <action android:name="android.intent.action.VIEW" />
         <!-- TODO: Replace the last part of scheme (after ms-xal-) with your client ID -->
@@ -231,7 +231,7 @@ Update the Android Manifest to include the permissions which Xbox Live requires 
 </activity>
 ```
 
-This will make sure that the application can grab the WebView to display the log-in screen when needed.
+This will make sure that when the web-based auth flow finishes, the results are directed back into the app.
 
 
 ## Prepare native files to initialize and cleanup Xbox Live
