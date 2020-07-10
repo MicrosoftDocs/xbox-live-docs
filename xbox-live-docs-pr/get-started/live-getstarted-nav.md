@@ -24,6 +24,7 @@ To get started adding Xbox Live functionality to your game, do steps 1 through 4
 | [2. Setting up a game app at Partner Center](setup-partner-center/live-setup-partner-center-nav.md) | Creating a new game at Partner Center, enabling Xbox Live for the game, and publishing the game to a development sandbox. |
 | [3. Setting up an IDE](setup-ide/live-setup-ide-nav.md) | Setting up an IDE to use the Xbox Live SDK, for your target platforms. |
 | [4. Initializing the Xbox Live API](add-signin-code/live-add-signin-code-nav.md) | Adding basic sign-in code to sign-in the user and game into Xbox Live services. |
+| [What's New](whats-new/live-whats-new-nav.md) | What's New in each release of Xbox Live. |
 
 
 ### See also

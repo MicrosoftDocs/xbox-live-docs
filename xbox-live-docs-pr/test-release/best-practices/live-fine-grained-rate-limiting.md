@@ -149,13 +149,13 @@ These limits are the same across all sandboxes and titles.
 | Profile                 | 10                     | 30                      | N/A                     | 300
 | MPSD                    | 30                     | 300                     | N/A                     | 3000
 | Search Handle (MPSD)    | Read 1, Write 1        | Read 20, Write 20       | N/A                     | Read 20, Write 20
-| Presence                | Read 10, Write 3       | Read 100, Write 30      | N/A                     | Read 1000, Write 300
+| Presence                | Read 30, Write 3       | Read 100, Write 30      | N/A                     | Read 100, Write 30
 | Social                  | 10                     | 30                      | N/A                     | 300
 | Leaderboards            | 30                     | 100                     | N/A                     | 1000
 | Achievements            | 100                    | 300                     | N/A                     | 3000
 | Smart Match             | 10                     | 100                     | N/A                     | 1000
 | User Posts              | 100                    | 300                     | N/A                     | 3000
-| Stats Write             | 100                    | 300                     | N/A                     | 3000
+| Stats Write             | 10                     | 10                      | N/A                     | 300
 | Privacy                 | 10                     | 30                      | N/A                     | 300
 | Clubs                   | 10                     | 30                      | N/A                     | 300
 | Collections             | 100                    | 100                     | 200                     | 300
