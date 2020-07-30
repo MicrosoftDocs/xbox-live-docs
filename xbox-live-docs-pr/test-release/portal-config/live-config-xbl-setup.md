@@ -55,7 +55,7 @@ You can check the devices to enable them.
 ![Image of the selection check boxes to select the device families in Partner Center](../../images/dev-center/xbox-live-setup/xbox-live-setup-4.png)
 
 
-## XBL Embargo date
+## XBL Embargo
 <!-- This explanation of Embargo was copied from the Partner Center page UI: -->
 **What is RETAIL XBL embargo?**
 
@@ -74,6 +74,15 @@ The date that you select determines when your Xbox Live configuration goes live 
 
 XBL Embargo only impacts Xbox Live-related features, and does not impact pricing and availability.
 For more information on pricing, see [Pricing and Offers.](https://docs.microsoft.com/partner-center/pricing-and-offers)
+
+**Testing Multiplayer invites in Embargo**
+
+Available to your title is the ability to send multiplayer invites via the Xbox UI with Embargo enabled. 
+> [!NOTE] 
+> It is possible to send multiplayer invites to any user on Xbox Live with this feature enabled. 
+>
+It is recommended that the name you choose for your title is something you are comfortable sharing publicly in case of an accidental invite being sent.
+The name chosen will appear in the invite sent to users. To change the name of your title, please see the "Title names" section above.
 
 **Xbox Live features that are embargoed:**
 
@@ -106,13 +115,15 @@ Notes for features marked \*:
 
 1. In Partner Center, select your title, click **Xbox Live**, and then click **Xbox Live Settings**. The "Xbox Live configuration" page appears.
 
-2. In the **Embargo date** section, select the **Set embargo date** check box.  A date box appears: ![Setting the embargo date in Partner Center](live-config-xbl-setup-images/embargo1.png)
+2. In the **Embargo date** section, select the **Set embargo date** check box.  A date box appears: ![Setting the embargo date in Partner Center](live-config-xbl-setup-images/embargo4.png)
 
-3. Click the date box to expand the date: ![Setting the embargo date in Partner Center](live-config-xbl-setup-images/embargo2.png)
+3. Click the date box to expand the date: <p>![Setting the embargo date in Partner Center](live-config-xbl-setup-images/embargo5.png)</p>
 
 4. Select the date and time.
 
-5. Click the **OK** button, and then at the bottom of the page, click the **Save** button.
+5. If you you like to also test multiplayer with your title, select the **Allow Multiplayer Invites in Embargo** check box. 
+
+6. Click the **OK** button, and then at the bottom of the page, click the **Save** button.
 
 Note: 
 * The embargo date is set, but will not take effect until you have published.
