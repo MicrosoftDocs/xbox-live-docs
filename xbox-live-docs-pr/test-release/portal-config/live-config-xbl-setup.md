@@ -106,9 +106,9 @@ Notes for features marked \*:
 
 1. In Partner Center, select your title, click **Xbox Live**, and then click **Xbox Live Settings**. The "Xbox Live configuration" page appears.
 
-2. In the **Embargo date** section, select the **Set embargo date** check box.  A date box appears: ![Setting the embargo date in Partner Center](live-config-xbl-setup-images/embargo1.png)
+2. In the **Embargo date** section, select the **Set embargo date** check box.  A date box appears: ![Setting the embargo date in Partner Center](live-config-xbl-setup-images/embargo4.png)
 
-3. Click the date box to expand the date: ![Setting the embargo date in Partner Center](live-config-xbl-setup-images/embargo2.png)
+3. Click the date box to expand the date: ![Setting the embargo date in Partner Center](live-config-xbl-setup-images/embargo5.png)
 
 4. Select the date and time.
 
