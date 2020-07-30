@@ -108,7 +108,7 @@ Notes for features marked \*:
 
 2. In the **Embargo date** section, select the **Set embargo date** check box.  A date box appears: ![Setting the embargo date in Partner Center](live-config-xbl-setup-images/embargo4.png)
 
-3. Click the date box to expand the date: ![Setting the embargo date in Partner Center](live-config-xbl-setup-images/embargo5.png)
+3. Click the date box to expand the date:  ![Setting the embargo date in Partner Center](live-config-xbl-setup-images/embargo5.png)
 
 4. Select the date and time.
 
