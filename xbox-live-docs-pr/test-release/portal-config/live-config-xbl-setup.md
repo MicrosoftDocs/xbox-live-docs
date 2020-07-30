@@ -77,9 +77,9 @@ For more information on pricing, see [Pricing and Offers.](https://docs.microsof
 
 **Testing Multiplayer invites in Embargo**
 
-Also available to your title is the ability to test multiplayer with embargo enabled. [NOTE] Multiplayer invites are not protected with the Retail XBL Embargo feature. 
-It is possible to send invites to any user on Xbox Live. It is recommended that the name you choose for your title is something you are comfortable sharing publicly in case of an accident invite being sent.
-The name chosen will appear in the invite sent to users.
+Also available to your title is the ability to send multiplayer invites via the Xbox UI with Embargo enabled. [NOTE] It is possible to send multiplayer invites to any user on Xbox Live with this feature enabled. 
+It is recommended that the name you choose for your title is something you are comfortable sharing publicly in case of an accidental invite being sent.
+The name chosen will appear in the invite sent to users. To change the name of your title, please see the title names section above.
 
 **Xbox Live features that are embargoed:**
 
