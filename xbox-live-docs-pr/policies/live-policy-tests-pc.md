@@ -355,7 +355,7 @@ During the gameplay session, titles which offer communication between Xbox Live 
 >**Configuration:** 
 >* Create a set of profiles with “Others can communicate with voice, text or invites” to Everyone, Friends and Blocked.
 >* For titles that support communication outside of Xbox Live, create a set of profiles with “You can communicate outside of Xbox Live with voice & text” to Allow, In-game friends and Blocked.
->* Note:  The difference between the “Allow” and “In-game friends” friends options are that “Allow” means you can talk to everyone cross network (including players you meet in random matchmaking). “In-game friends” are people you’ve explicitly chosen to play with by adding them to an in-game friends list.
+>   * Note:  The difference between the “Allow” and “In-game friends” friends options are that “Allow” means you can talk to everyone cross network (including players you meet in random matchmaking). “In-game friends” are people you’ve explicitly chosen to play with by adding them to an in-game friends list.
 
 >**Test Steps**  
 >1. On Device 1, sign in to a profile that has been configured with the specific set of permissions per the Configuration.
