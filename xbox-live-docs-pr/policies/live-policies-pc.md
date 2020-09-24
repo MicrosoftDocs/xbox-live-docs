@@ -131,7 +131,7 @@ Xbox Live promises users a certain level of privacy and online safety for themse
 
 ### [Managing Player Communication (XR-015)](xr/live-pc-xr015.md)
 
-TTitles must not transmit user data or allow communication over Xbox Live when the user's privacy & online safety settings do not allow it.
+Titles must not transmit user data or allow communication over Xbox Live when the user's privacy & online safety settings do not allow it.
 
 Titles meet this XR by retrieving data from Xbox Live services. If the title uses its own services, it must check the user's privacy permissions at the beginning of a session or when a new user joins the session. For user-initiated scenarios outside of sessions, titles meet this requirement by checking privacy prior to displaying the user's data and before performing the action. The following list of privacy settings is available for titles to check:
 
