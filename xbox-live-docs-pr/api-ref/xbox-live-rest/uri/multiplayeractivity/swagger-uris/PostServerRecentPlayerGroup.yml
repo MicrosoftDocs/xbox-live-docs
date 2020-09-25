@@ -1,0 +1,8 @@
+### YamlMime:RESTOperationGroup
+uid: documentation-preview.postserverrecentplayergroup
+name: Post Server Recent Player Group
+apiVersion: 1.0.0
+service: Documentation Preview
+operations:
+- uid: documentation-preview.postserverrecentplayergroup.postserverrecentplayergroup
+  summary: "Appends to or updates all users' recent players within a group (bidirectional).  \nThis API allows a game server to append to a set of \nusers' lists of recent players, and to update existing recent player\nentries. All users within a group are added to each other's recent players lists (bidirectional).\nExample of recent player groups: [ [A,B,C], [A,D], [E,F] ]. A met B, C and D. B met A and C. D only met A. Etc."

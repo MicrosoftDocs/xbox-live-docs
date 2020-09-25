@@ -1,0 +1,52 @@
+- name: In This Section
+  href: atoc-reference-multiplayer-activity.md
+- name: /titles/{titleId}/users/{xuid}/activities
+  items:
+  - name: URI Overview
+    href: swagger-uris/GetActivity.yml
+  - name: GET /titles/{titleId}/users/{xuid}/activities
+    href: swagger-uris/GetActivity/GetActivity.yml
+  - name: URI Overview
+    href: swagger-uris/UpdateActivity.yml
+  - name: PUT /titles/{titleId}/users/{xuid}/activities
+    href: swagger-uris/UpdateActivity/UpdateActivity.yml
+  - name: URI Overview
+    href: swagger-uris/DeleteActivity.yml
+  - name: DELETE /titles/{titleId}/users/{xuid}/activities
+    href: swagger-uris/DeleteActivity/DeleteActivity.yml
+- name: /titles/{titleId}/activities/query
+  items:
+  - name: URI Overview
+    href: swagger-uris/ExternalGetActivityBatch.yml
+  - name: POST /titles/{titleId}/activities/query
+    href: swagger-uris/ExternalGetActivityBatch/ExternalGetActivityBatch.yml
+- name: /titles/{titleId}/recentplayers
+  items:
+  - name: URI Overview
+    href: swagger-uris/PostUniRecentPlayers.yml
+  - name: POST /titles/{titleId}/recentplayers
+    href: swagger-uris/PostUniRecentPlayers/PostUniRecentPlayers.yml
+- name: /titles/{titleId}/recentplayers/server
+  items:
+  - name: URI Overview
+    href: swagger-uris/PostServerUniRecentPlayers.yml
+  - name: POST /titles/{titleId}/recentplayers/server
+    href: swagger-uris/PostServerUniRecentPlayers/PostServerUniRecentPlayers.yml
+- name: /titles/{titleId}/recentplayergroups/server
+  items:
+  - name: URI Overview
+    href: swagger-uris/PostServerRecentPlayerGroup.yml
+  - name: POST /titles/{titleId}/recentplayergroups/server
+    href: swagger-uris/PostServerRecentPlayerGroup/PostServerRecentPlayerGroup.yml
+- name: /titles/{titleId}/invites
+  items:
+  - name: URI Overview
+    href: swagger-uris/sendInvite.yml
+  - name: POST /titles/{titleId}/invites
+    href: swagger-uris/sendInvite/sendInvite.yml
+- name: /titles/{titleId}/invites/server
+  items:
+  - name: URI Overview
+    href: swagger-uris/sendServerInvite.yml
+  - name: POST /titles/{titleId}/invites/server
+    href: swagger-uris/sendServerInvite/sendServerInvite.yml

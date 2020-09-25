@@ -1,0 +1,223 @@
+### YamlMime:RESTOperation
+uid: documentation-preview.externalgetactivitybatch.externalgetactivitybatch
+name: Get Activity Batch
+service: Documentation Preview
+groupName: Get Activity Batch
+apiVersion: 1.0.0
+summary: "Gets a batch of multiplayer activities for a list of users.  \nThis API allows clients and services to get a batch of activities for a list of\nusers.\n\nThis API can return partial results; any given user will have its complete\nset of activities, but some users may have no activities at all.\nIf we found activities for a subset of users, we return those. For the\nusers whose activities were not found, we return an empty\nlist for that user. For the users whose activities couldn't be fetched\ndue to an internal error, we return null for that user; the\nclient should retry the call. In short, a user can have a list of\nactivities, an empty list or null."
+consumes:
+- application/json
+produces:
+- application/json
+paths:
+- content: POST /titles/{titleId}/activities/query
+uriParameters:
+- name: titleId
+  in: path
+  isRequired: true
+  description: The titleId of the game that the request is being sent for.
+  types:
+  - uid: integer
+responses:
+- name: 200 OK
+  description: The return object contains a list of activities for each user. If the user does not have a current activity, the activity list for that user will be empty. If there was a service issue getting a user's activities, the activity list for that user will be null.
+  types:
+  - uid: GetActivityBatchResponse
+- name: 400 Bad Request
+  description: >
+    An error occurred while processing the request. Possible error codes.
+
+    * InvalidRequest - The request payload is invalid.
+
+    * AuthorizationError: The caller is not allowed to access the resource.
+  types:
+  - uid: ErrorResponse
+- name: Other Status Codes
+  headers:
+  - name: Retry-After
+    value: integer
+  description: Too many requests.
+  types:
+  - uid: ThrottledEntity
+requestBody:
+- name: default
+  parameters:
+  - name: users
+    in: body
+    isRequired: true
+    description: The Ids of the users whose activity information needs to be retrieved. Up to 30 users are supported.
+    types:
+    - uid: string
+      isArray: true
+requestHeader:
+- name: Authorization
+  in: header
+  isRequired: true
+  description: Caller must supply an XToken in the XBL 3.0 authorization format. (e.g. Authorization&#58; XBL3.0 x=2553948354698;&lt;encrypted token&gt;)
+  types:
+  - uid: string
+- name: Content-Type
+  in: header
+  isRequired: true
+  description: ContentType must be set to application/json
+  types:
+  - uid: string
+definitions:
+- name: GetActivityBatchResponse
+  kind: object
+  properties:
+  - name: userActivities
+    description: ''
+    types:
+    - uid: UserActivity
+      isArray: true
+- name: ErrorResponse
+  kind: object
+  properties:
+  - name: debugMessage
+    description: Human readable version of the error message that can be used for debugging.
+    types:
+    - uid: string
+  - name: errorCode
+    description: Error code enum.
+    types:
+    - uid: string
+- name: ThrottledEntity
+  kind: object
+  properties:
+  - name: currentRequests
+    description: Current number of requests - concurrency or rate.
+    types:
+    - uid: string
+  - name: debugMessage
+    description: Human readable version of the throttle message that can be used for debugging.
+    types:
+    - uid: string
+  - name: limitType
+    description: The limit type i.e. concurrency or rate.
+    types:
+    - uid: string
+  - name: maxRequests
+    description: Max request allowed - concurrency or rate.
+    types:
+    - uid: string
+  - name: periodInSeconds
+    description: The period in seconds that applies when rate or concurrency limits are exceeded.
+    types:
+    - uid: string
+  - name: version
+    description: Current throttle contract version.
+    types:
+    - uid: string
+- name: GetActivityBatchRequest
+  kind: object
+  properties:
+  - name: users
+    description: The Ids of the users whose activity information needs to be retrieved. Up to 30 users are supported.
+    types:
+    - uid: string
+      isArray: true
+- name: UserActivity
+  kind: object
+  properties:
+  - name: activities
+    description: ''
+    types:
+    - uid: GetActivityResponse
+      isArray: true
+  - name: userId
+    description: ''
+    types:
+    - uid: string
+- name: GetActivityResponse
+  kind: object
+  properties:
+  - name: connectionString
+    description: The connection string is the object passed to the connecting client in order to join the game. The connection string usually contains information like the server IP to enable the joining user to connect. The length of the connection string is restricted to 512 characters.
+    types:
+    - uid: string
+  - name: currentPlayers
+    description: The number of players already playing with the user in a multiplayer activity.
+    types:
+    - uid: integer
+  - name: groupId
+    description: >-
+      A unique identifier to group all the users playing as
+
+      part of the same game.
+    types:
+    - uid: string
+  - name: joinRestriction
+    description: The setting which enables who can join the current player.
+    types:
+    - uid: JoinRestriction
+  - name: maxPlayers
+    description: The maximum number of players who can play with this player in the current activity.
+    types:
+    - uid: integer
+  - name: platform
+    description: ''
+    types:
+    - uid: Platform
+  - name: sequenceNumber
+    description: >-
+      This is a string representation of a monotonically increasing number
+
+      (ulong) that the client must pass in for each request. It is used to
+
+      guarantee the ordering of the updates to an activity. A good example
+
+      of a sequenceNumber can be the unix time of the client since it's
+
+      guaranteed to be increasing. Must be greater than 0, and cannot be
+
+      greater than the maximum ulong.
+    types:
+    - uid: string
+  - name: titleId
+    description: The titleId of the game for which the activity was requested.
+    types:
+    - uid: integer
+- name: JoinRestriction
+  description: The setting which enables who can join the current player.
+  kind: enum
+  properties:
+  - name: Public
+    types:
+    - uid: string
+  - name: InviteOnly
+    types:
+    - uid: string
+  - name: Followed
+    types:
+    - uid: string
+- name: Platform
+  kind: enum
+  properties:
+  - name: XboxOne
+    types:
+    - uid: string
+  - name: WindowsOneCore
+    types:
+    - uid: string
+  - name: IOS
+    types:
+    - uid: string
+  - name: Android
+    types:
+    - uid: string
+  - name: Nintendo
+    types:
+    - uid: string
+  - name: PlayStation
+    types:
+    - uid: string
+  - name: Win32
+    types:
+    - uid: string
+  - name: Scarlett
+    types:
+    - uid: string
+examples: []
+security: []
+errorCodes: []
