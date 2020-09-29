@@ -77,7 +77,7 @@ For more information on pricing, see [Pricing and Offers.](https://docs.microsof
 
 **Testing Multiplayer invites in Embargo**
 
-Available to your title is the ability to send multiplayer invites via the Xbox UI with Embargo enabled. 
+Available to your title is the ability to send multiplayer invites via the Xbox UI with Embargo enabled. This includes support for titles being tested on both Windows 10 PC and Xbox consoles.
 > [!NOTE] 
 > It is possible to send multiplayer invites to any user on Xbox Live with this feature enabled. 
 >
@@ -115,7 +115,7 @@ Notes for features marked \*:
 
 1. In Partner Center, select your title, click **Xbox Live**, and then click **Xbox Live Settings**. The "Xbox Live configuration" page appears.
 
-2. In the **Embargo date** section, select the **Set embargo date** check box.  A date box appears: ![Setting the embargo date in Partner Center](live-config-xbl-setup-images/embargo4.png)
+2. In the **Embargo date** section, select the **Set embargo date** check box.  A date box appears: <p>![Setting the embargo date in Partner Center](live-config-xbl-setup-images/embargo4.png)</p>
 
 3. Click the date box to expand the date: <p>![Setting the embargo date in Partner Center](live-config-xbl-setup-images/embargo5.png)</p>
 
