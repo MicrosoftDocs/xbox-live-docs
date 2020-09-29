@@ -1,0 +1,8 @@
+### YamlMime:RESTOperationGroup
+uid: documentation-preview.getactivity
+name: Get Activity
+apiVersion: 1.0.0
+service: Documentation Preview
+operations:
+- uid: documentation-preview.getactivity.getactivity
+  summary: "Gets the activity for a user playing a specific title.  \nThis API allows a game client or server to get the activity for a user playing a particular title."

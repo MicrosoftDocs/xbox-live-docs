@@ -1,0 +1,8 @@
+### YamlMime:RESTOperationGroup
+uid: documentation-preview.externalgetactivitybatch
+name: Get Activity Batch
+apiVersion: 1.0.0
+service: Documentation Preview
+operations:
+- uid: documentation-preview.externalgetactivitybatch.externalgetactivitybatch
+  summary: "Gets a batch of multiplayer activities for a list of users.  \nThis API allows clients and services to get a batch of activities for a list of\nusers.\n\nThis API can return partial results; any given user will have its complete\nset of activities, but some users may have no activities at all.\nIf we found activities for a subset of users, we return those. For the\nusers whose activities were not found, we return an empty\nlist for that user. For the users whose activities couldn't be fetched\ndue to an internal error, we return null for that user; the\nclient should retry the call. In short, a user can have a list of\nactivities, an empty list or null."

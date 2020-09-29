@@ -1,0 +1,8 @@
+### YamlMime:RESTOperationGroup
+uid: documentation-preview.deleteactivity
+name: Delete Activity
+apiVersion: 1.0.0
+service: Documentation Preview
+operations:
+- uid: documentation-preview.deleteactivity.deleteactivity
+  summary: "Deletes the activity for a user playing a specific title.  \nThis API allows a game client to delete the activity for a user playing a particular title.\nA title should delete the activity for a user as soon as they leave the multiplayer activity.\nA user's activity may eventually be cleaned up by a presence check if the title fails to delete the activity."

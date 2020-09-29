@@ -1,0 +1,171 @@
+### YamlMime:RESTOperation
+uid: documentation-preview.sendinvite.sendinvite
+name: send Invite
+service: Documentation Preview
+groupName: send Invite
+apiVersion: 1.0.0
+summary: "Send an invite to an Xbox Live user.  \nThis API allows a game client to send an invite to an Xbox Live user for a specific title.\nThe invite is sent to all registered endpoints, regardless of platform."
+consumes:
+- application/json
+produces:
+- application/json
+paths:
+- content: POST /titles/{titleId}/invites
+uriParameters:
+- name: titleId
+  in: path
+  isRequired: true
+  description: The titleId of the game that the request is being sent for.
+  types:
+  - uid: integer
+responses:
+- name: 204 No Content
+  description: The invite was sent successfully.
+- name: 400 Bad Request
+  description: >
+    An error occurred while processing the request. Possible error codes.
+
+    * InvalidRequest - The request payload is invalid.
+
+    * AuthorizationError: The caller is not allowed to access the resource.
+  types:
+  - uid: ErrorResponse
+- name: Other Status Codes
+  headers:
+  - name: Retry-After
+    value: integer
+  description: Too many requests.
+  types:
+  - uid: ThrottledEntity
+requestBody:
+- name: default
+  parameters:
+  - name: connectionString
+    in: body
+    description: >-
+      The connection string is what gets passed to the game when the invite reaches the user. The connection string usually contains information like the server IP to enable the invited user to join.
+
+      If the connection string field is left empty then the title is invoked with an empty connection string.
+
+      The length of the connection string is restricted to 512 characters.
+    types:
+    - uid: string
+  - name: invitedUsers
+    in: body
+    isRequired: true
+    description: The XUID of the users the invite is being sent to. The XUID is represented as a base 10 integer. The maximum is 16 XUIDs.
+    types:
+    - uid: string
+      isArray: true
+  - name: platform
+    in: body
+    description: ''
+    types:
+    - uid: Platform
+requestHeader:
+- name: Authorization
+  in: header
+  isRequired: true
+  description: Caller must supply an XToken in the XBL 3.0 authorization format. (e.g. Authorization&#58; XBL3.0 x=2553948354698;&lt;encrypted token&gt;)
+  types:
+  - uid: string
+- name: Content-Type
+  in: header
+  isRequired: true
+  description: ContentType must be set to application/json
+  types:
+  - uid: string
+definitions:
+- name: ErrorResponse
+  kind: object
+  properties:
+  - name: debugMessage
+    description: Human readable version of the error message that can be used for debugging.
+    types:
+    - uid: string
+  - name: errorCode
+    description: Error code enum.
+    types:
+    - uid: string
+- name: ThrottledEntity
+  kind: object
+  properties:
+  - name: currentRequests
+    description: Current number of requests - concurrency or rate.
+    types:
+    - uid: string
+  - name: debugMessage
+    description: Human readable version of the throttle message that can be used for debugging.
+    types:
+    - uid: string
+  - name: limitType
+    description: The limit type i.e. concurrency or rate.
+    types:
+    - uid: string
+  - name: maxRequests
+    description: Max request allowed - concurrency or rate.
+    types:
+    - uid: string
+  - name: periodInSeconds
+    description: The period in seconds that applies when rate or concurrency limits are exceeded.
+    types:
+    - uid: string
+  - name: version
+    description: Current throttle contract version.
+    types:
+    - uid: string
+- name: SendInviteRequest
+  description: >
+    If the platform is not set in the request, the invite will allow the recipient to join on any platform the game can be played on. Otherwise, it will include only the listed platform. (Note: the exception to this is that if Scarlett is not configured as a platform,
+
+    then invites specifying XboxOne will also be sent to Scarlett devices.)
+  kind: object
+  properties:
+  - name: connectionString
+    description: >-
+      The connection string is what gets passed to the game when the invite reaches the user. The connection string usually contains information like the server IP to enable the invited user to join.
+
+      If the connection string field is left empty then the title is invoked with an empty connection string.
+
+      The length of the connection string is restricted to 512 characters.
+    types:
+    - uid: string
+  - name: invitedUsers
+    description: The XUID of the users the invite is being sent to. The XUID is represented as a base 10 integer. The maximum is 16 XUIDs.
+    types:
+    - uid: string
+      isArray: true
+  - name: platform
+    description: ''
+    types:
+    - uid: Platform
+- name: Platform
+  kind: enum
+  properties:
+  - name: XboxOne
+    types:
+    - uid: string
+  - name: WindowsOneCore
+    types:
+    - uid: string
+  - name: IOS
+    types:
+    - uid: string
+  - name: Android
+    types:
+    - uid: string
+  - name: Nintendo
+    types:
+    - uid: string
+  - name: PlayStation
+    types:
+    - uid: string
+  - name: Win32
+    types:
+    - uid: string
+  - name: Scarlett
+    types:
+    - uid: string
+examples: []
+security: []
+errorCodes: []

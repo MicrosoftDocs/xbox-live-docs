@@ -1,0 +1,8 @@
+### YamlMime:RESTOperationGroup
+uid: documentation-preview.sendinvite
+name: send Invite
+apiVersion: 1.0.0
+service: Documentation Preview
+operations:
+- uid: documentation-preview.sendinvite.sendinvite
+  summary: "Send an invite to an Xbox Live user.  \nThis API allows a game client to send an invite to an Xbox Live user for a specific title.\nThe invite is sent to all registered endpoints, regardless of platform."

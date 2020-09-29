@@ -291,6 +291,8 @@
                   href: uri/matchtickets/uri-scidhoppernameticketid.md
                 - name: DELETE (/serviceconfigs/{scid}/hoppers/{hoppername}/tickets/{ticketid})
                   href: uri/matchtickets/uri-scidhoppernameticketiddelete.md
+        - name: Multiplayer Activity URIs
+          href: uri/multiplayeractivity/TOC.yml
         - name: People URIs
           items:
             - name: In this section

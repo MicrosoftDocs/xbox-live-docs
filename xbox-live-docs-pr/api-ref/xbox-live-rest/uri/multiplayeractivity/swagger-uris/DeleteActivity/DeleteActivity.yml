@@ -1,0 +1,133 @@
+### YamlMime:RESTOperation
+uid: documentation-preview.deleteactivity.deleteactivity
+name: Delete Activity
+service: Documentation Preview
+groupName: Delete Activity
+apiVersion: 1.0.0
+summary: "Deletes the activity for a user playing a specific title.  \nThis API allows a game client to delete the activity for a user playing a particular title.\nA title should delete the activity for a user as soon as they leave the multiplayer activity.\nA user's activity may eventually be cleaned up by a presence check if the title fails to delete the activity."
+consumes:
+- application/json
+produces:
+- application/json
+paths:
+- content: DELETE /titles/{titleId}/users/{xuid}/activities
+uriParameters:
+- name: titleId
+  in: path
+  isRequired: true
+  description: The titleId of the game that the request is being sent for.
+  types:
+  - uid: integer
+- name: xuid
+  in: path
+  isRequired: true
+  description: The XUID of the user being referred to in the current request. The XUID is represented as a base 10 integer.
+  types:
+  - uid: string
+responses:
+- name: 204 No Content
+  description: The item was deleted.
+- name: 400 Bad Request
+  description: "An error occurred while processing the request. Possible error codes: \n* RequestValidationError: The request validation has failed.\n* AuthorizationError: The caller is not allowed to access the resource.\n"
+  types:
+  - uid: ErrorResponse
+- name: Other Status Codes
+  headers:
+  - name: Retry-After
+    value: integer
+  description: Too many requests.
+  types:
+  - uid: ThrottledEntity
+requestBody:
+- name: default
+  parameters:
+  - name: sequenceNumber
+    in: body
+    isRequired: true
+    description: >-
+      This is a string representation of a monotonically increasing number
+
+      (ulong) that the client must pass in for each request. It is used to
+
+      guarantee the ordering of the updates to an activity. A good example
+
+      of a sequenceNumber can be the unix time of the client since it's
+
+      guaranteed to be increasing. Must be greater than 0, and cannot be
+
+      greater than the maximum ulong.
+    types:
+    - uid: string
+requestHeader:
+- name: Authorization
+  in: header
+  isRequired: true
+  description: Caller must supply an XToken in the XBL 3.0 authorization format. (e.g. Authorization&#58; XBL3.0 x=2553948354698;&lt;encrypted token&gt;)
+  types:
+  - uid: string
+- name: Content-Type
+  in: header
+  isRequired: true
+  description: ContentType must be set to application/json
+  types:
+  - uid: string
+definitions:
+- name: ErrorResponse
+  kind: object
+  properties:
+  - name: debugMessage
+    description: Human readable version of the error message that can be used for debugging.
+    types:
+    - uid: string
+  - name: errorCode
+    description: Error code enum.
+    types:
+    - uid: string
+- name: ThrottledEntity
+  kind: object
+  properties:
+  - name: currentRequests
+    description: Current number of requests - concurrency or rate.
+    types:
+    - uid: string
+  - name: debugMessage
+    description: Human readable version of the throttle message that can be used for debugging.
+    types:
+    - uid: string
+  - name: limitType
+    description: The limit type i.e. concurrency or rate.
+    types:
+    - uid: string
+  - name: maxRequests
+    description: Max request allowed - concurrency or rate.
+    types:
+    - uid: string
+  - name: periodInSeconds
+    description: The period in seconds that applies when rate or concurrency limits are exceeded.
+    types:
+    - uid: string
+  - name: version
+    description: Current throttle contract version.
+    types:
+    - uid: string
+- name: DeleteActivityRequest
+  kind: object
+  properties:
+  - name: sequenceNumber
+    description: >-
+      This is a string representation of a monotonically increasing number
+
+      (ulong) that the client must pass in for each request. It is used to
+
+      guarantee the ordering of the updates to an activity. A good example
+
+      of a sequenceNumber can be the unix time of the client since it's
+
+      guaranteed to be increasing. Must be greater than 0, and cannot be
+
+      greater than the maximum ulong.
+    types:
+    - uid: string
+examples: []
+security: []
+errorCodes: []

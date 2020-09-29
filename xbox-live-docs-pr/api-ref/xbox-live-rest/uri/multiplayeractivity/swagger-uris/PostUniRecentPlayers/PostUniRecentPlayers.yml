@@ -1,0 +1,157 @@
+### YamlMime:RESTOperation
+uid: documentation-preview.postunirecentplayers.postunirecentplayers
+name: Post Recent Players
+service: Documentation Preview
+groupName: Post Recent Players
+apiVersion: 1.0.0
+summary: "Appends to or updates a user's list of recent players (unidirectional).  \nThis API allows a game client to append to\na user's list of recent players, and to update existing recent player\nentries. This call only affects the caller's recent players list (unidirectional)."
+consumes:
+- application/json
+produces:
+- application/json
+paths:
+- content: POST /titles/{titleId}/recentplayers
+uriParameters:
+- name: titleId
+  in: path
+  isRequired: true
+  description: The titleId of the game that the request is being sent for.
+  types:
+  - uid: integer
+responses:
+- name: 204 No Content
+  description: The recent players request was sent successfully.
+- name: 400 Bad Request
+  description: >
+    An error occurred while processing the request. Possible error codes:
+
+    * RequestValidationError: The request validation has failed.
+
+    * AuthorizationError: The caller is not allowed to access the resource.
+  types:
+  - uid: ErrorResponse
+- name: Other Status Codes
+  headers:
+  - name: Retry-After
+    value: integer
+  description: Too many requests.
+  types:
+  - uid: ThrottledEntity
+requestBody:
+- name: default
+  parameters:
+  - name: recentPlayers
+    in: body
+    isRequired: true
+    description: The array of recent players for this user. There should be at least 1 recent players and at most 100 recent players.
+    types:
+    - uid: UnidirectionalRecentPlayer
+      isArray: true
+requestHeader:
+- name: Authorization
+  in: header
+  isRequired: true
+  description: Caller must supply an XToken in the XBL 3.0 authorization format. (e.g. Authorization&#58; XBL3.0 x=2553948354698;&lt;encrypted token&gt;)
+  types:
+  - uid: string
+- name: Content-Type
+  in: header
+  isRequired: true
+  description: ContentType must be set to application/json
+  types:
+  - uid: string
+definitions:
+- name: UnidirectionalRecentPlayer
+  kind: object
+  properties:
+  - name: encounterType
+    description: >-
+      The type of recent players encounter. This field is optional and defaults to Default.
+
+      Default has no prescribed meaning - it is up to the caller to interpret this value appropriately.
+    types:
+    - uid: EncounterType
+  - name: id
+    description: The Id (a XUID base 10 integer) of another user.
+    types:
+    - uid: string
+  - name: network
+    description: The network the other user was encountered on.
+    types:
+    - uid: Network
+  - name: timestamp
+    description: ''
+    types:
+    - uid: string
+- name: ErrorResponse
+  kind: object
+  properties:
+  - name: debugMessage
+    description: Human readable version of the error message that can be used for debugging.
+    types:
+    - uid: string
+  - name: errorCode
+    description: Error code enum.
+    types:
+    - uid: string
+- name: ThrottledEntity
+  kind: object
+  properties:
+  - name: currentRequests
+    description: Current number of requests - concurrency or rate.
+    types:
+    - uid: string
+  - name: debugMessage
+    description: Human readable version of the throttle message that can be used for debugging.
+    types:
+    - uid: string
+  - name: limitType
+    description: The limit type i.e. concurrency or rate.
+    types:
+    - uid: string
+  - name: maxRequests
+    description: Max request allowed - concurrency or rate.
+    types:
+    - uid: string
+  - name: periodInSeconds
+    description: The period in seconds that applies when rate or concurrency limits are exceeded.
+    types:
+    - uid: string
+  - name: version
+    description: Current throttle contract version.
+    types:
+    - uid: string
+- name: ClientRecentPlayersRequest
+  kind: object
+  properties:
+  - name: recentPlayers
+    description: The array of recent players for this user. There should be at least 1 recent players and at most 100 recent players.
+    types:
+    - uid: UnidirectionalRecentPlayer
+      isArray: true
+- name: EncounterType
+  description: >
+    The type of recent players encounter. This field is optional and defaults to Default.
+
+    Default has no prescribed meaning - it is up to the caller to interpret this value appropriately.
+  kind: enum
+  properties:
+  - name: Default
+    types:
+    - uid: string
+  - name: Teammate
+    types:
+    - uid: string
+  - name: Opponent
+    types:
+    - uid: string
+- name: Network
+  description: The network the other user was encountered on.
+  kind: enum
+  properties:
+  - name: XboxLive
+    types:
+    - uid: string
+examples: []
+security: []
+errorCodes: []

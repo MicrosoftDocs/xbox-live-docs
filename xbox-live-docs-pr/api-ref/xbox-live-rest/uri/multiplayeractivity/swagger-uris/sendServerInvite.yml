@@ -1,0 +1,8 @@
+### YamlMime:RESTOperationGroup
+uid: documentation-preview.sendserverinvite
+name: send Server Invite
+apiVersion: 1.0.0
+service: Documentation Preview
+operations:
+- uid: documentation-preview.sendserverinvite.sendserverinvite
+  summary: "Sends an invite to an Xbox user with the given connection string.  \nThis API allows a game server to send an invite to an Xbox Live user. The body of the request contains a connection string that is used by the invitee to join the server. The connection string could contain the game server IP or a pointer to a session that the user is in.\nThe invite is sent to all registered endpoints, regardless of platform."

@@ -1,0 +1,8 @@
+### YamlMime:RESTOperationGroup
+uid: documentation-preview.postunirecentplayers
+name: Post Recent Players
+apiVersion: 1.0.0
+service: Documentation Preview
+operations:
+- uid: documentation-preview.postunirecentplayers.postunirecentplayers
+  summary: "Appends to or updates a user's list of recent players (unidirectional).  \nThis API allows a game client to append to\na user's list of recent players, and to update existing recent player\nentries. This call only affects the caller's recent players list (unidirectional)."

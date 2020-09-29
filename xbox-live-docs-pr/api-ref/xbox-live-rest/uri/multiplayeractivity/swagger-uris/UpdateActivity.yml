@@ -1,0 +1,8 @@
+### YamlMime:RESTOperationGroup
+uid: documentation-preview.updateactivity
+name: Update Activity
+apiVersion: 1.0.0
+service: Documentation Preview
+operations:
+- uid: documentation-preview.updateactivity.updateactivity
+  summary: "Sets or updates the activity for a user playing a specific title.  \nThis API allows a game client or server to set/update the multiplayer activity for a user playing a particular title. The activity must be set as soon as the user is active in a multiplayer activity.\nXbox Live users will be able to subscribe to changes in activity for other users (generally friends) and these updates will be pushed to the Xbox clients via RTA."

@@ -1,0 +1,247 @@
+### YamlMime:RESTOperation
+uid: documentation-preview.updateactivity.updateactivity
+name: Update Activity
+service: Documentation Preview
+groupName: Update Activity
+apiVersion: 1.0.0
+summary: "Sets or updates the activity for a user playing a specific title.  \nThis API allows a game client or server to set/update the multiplayer activity for a user playing a particular title. The activity must be set as soon as the user is active in a multiplayer activity.\nXbox Live users will be able to subscribe to changes in activity for other users (generally friends) and these updates will be pushed to the Xbox clients via RTA."
+consumes:
+- application/json
+produces:
+- application/json
+paths:
+- content: PUT /titles/{titleId}/users/{xuid}/activities
+uriParameters:
+- name: titleId
+  in: path
+  isRequired: true
+  description: The titleId of the game that the request is being sent for.
+  types:
+  - uid: integer
+- name: xuid
+  in: path
+  isRequired: true
+  description: The XUID of the user being referred to in the current request. The XUID is represented as a base 10 integer.
+  types:
+  - uid: string
+responses:
+- name: 204 No Content
+  description: The activity was set successfully.
+- name: 400 Bad Request
+  description: >
+    An error occurred while processing the request. Possible error codes:
+
+    * RequestValidationError: The request validation has failed.
+
+    * AuthorizationError: The caller is not allowed to access the resource.
+  types:
+  - uid: ErrorResponse
+- name: Other Status Codes
+  headers:
+  - name: Retry-After
+    value: integer
+  description: Too many requests.
+  types:
+  - uid: ThrottledEntity
+requestBody:
+- name: default
+  parameters:
+  - name: connectionString
+    in: body
+    isRequired: true
+    description: >-
+      The connection string is the object passed to the connecting client in order to join the game. The connection string usually contains information like the server IP to enable the joining user to connect.
+
+      The length of the connection string is restricted to 512 characters.
+    types:
+    - uid: string
+  - name: currentPlayers
+    in: body
+    description: The number of players already playing with the user in a multiplayer activity.
+    types:
+    - uid: integer
+  - name: groupId
+    in: body
+    description: >-
+      A unique identifier to group all the users playing as
+
+      part of the same game.
+    types:
+    - uid: string
+  - name: joinRestriction
+    in: body
+    isRequired: true
+    description: The setting which enables who can join the current player.
+    types:
+    - uid: JoinRestriction
+  - name: maxPlayers
+    in: body
+    description: The maximum number of players who can play with this player in the current activity.
+    types:
+    - uid: integer
+  - name: platform
+    in: body
+    description: ''
+    types:
+    - uid: Platform
+  - name: sequenceNumber
+    in: body
+    isRequired: true
+    description: >-
+      This is a string representation of a monotonically increasing number
+
+      (ulong) that the client must pass in for each request. It is used to
+
+      guarantee the ordering of the updates to an activity. A good example
+
+      of a sequenceNumber can be the unix time of the client since it's
+
+      guaranteed to be increasing. Must be greater than 0, and cannot be
+
+      greater than the maximum ulong.
+    types:
+    - uid: string
+requestHeader:
+- name: Authorization
+  in: header
+  isRequired: true
+  description: Caller must supply an XToken in the XBL 3.0 authorization format. (e.g. Authorization&#58; XBL3.0 x=2553948354698;&lt;encrypted token&gt;)
+  types:
+  - uid: string
+- name: Content-Type
+  in: header
+  isRequired: true
+  description: ContentType must be set to application/json
+  types:
+  - uid: string
+definitions:
+- name: ErrorResponse
+  kind: object
+  properties:
+  - name: debugMessage
+    description: Human readable version of the error message that can be used for debugging.
+    types:
+    - uid: string
+  - name: errorCode
+    description: Error code enum.
+    types:
+    - uid: string
+- name: ThrottledEntity
+  kind: object
+  properties:
+  - name: currentRequests
+    description: Current number of requests - concurrency or rate.
+    types:
+    - uid: string
+  - name: debugMessage
+    description: Human readable version of the throttle message that can be used for debugging.
+    types:
+    - uid: string
+  - name: limitType
+    description: The limit type i.e. concurrency or rate.
+    types:
+    - uid: string
+  - name: maxRequests
+    description: Max request allowed - concurrency or rate.
+    types:
+    - uid: string
+  - name: periodInSeconds
+    description: The period in seconds that applies when rate or concurrency limits are exceeded.
+    types:
+    - uid: string
+  - name: version
+    description: Current throttle contract version.
+    types:
+    - uid: string
+- name: SetActivityRequest
+  description: "If the platform for the activity is set within the request it will only\nbe joinable on that platform. If the platform is not set then the\nactivity would be joinable on all platforms that the game is available\nto be played on. \n"
+  kind: object
+  properties:
+  - name: connectionString
+    description: >-
+      The connection string is the object passed to the connecting client in order to join the game. The connection string usually contains information like the server IP to enable the joining user to connect.
+
+      The length of the connection string is restricted to 512 characters.
+    types:
+    - uid: string
+  - name: currentPlayers
+    description: The number of players already playing with the user in a multiplayer activity.
+    types:
+    - uid: integer
+  - name: groupId
+    description: >-
+      A unique identifier to group all the users playing as
+
+      part of the same game.
+    types:
+    - uid: string
+  - name: joinRestriction
+    description: The setting which enables who can join the current player.
+    types:
+    - uid: JoinRestriction
+  - name: maxPlayers
+    description: The maximum number of players who can play with this player in the current activity.
+    types:
+    - uid: integer
+  - name: platform
+    description: ''
+    types:
+    - uid: Platform
+  - name: sequenceNumber
+    description: >-
+      This is a string representation of a monotonically increasing number
+
+      (ulong) that the client must pass in for each request. It is used to
+
+      guarantee the ordering of the updates to an activity. A good example
+
+      of a sequenceNumber can be the unix time of the client since it's
+
+      guaranteed to be increasing. Must be greater than 0, and cannot be
+
+      greater than the maximum ulong.
+    types:
+    - uid: string
+- name: JoinRestriction
+  description: The setting which enables who can join the current player.
+  kind: enum
+  properties:
+  - name: Public
+    types:
+    - uid: string
+  - name: InviteOnly
+    types:
+    - uid: string
+  - name: Followed
+    types:
+    - uid: string
+- name: Platform
+  kind: enum
+  properties:
+  - name: XboxOne
+    types:
+    - uid: string
+  - name: WindowsOneCore
+    types:
+    - uid: string
+  - name: IOS
+    types:
+    - uid: string
+  - name: Android
+    types:
+    - uid: string
+  - name: Nintendo
+    types:
+    - uid: string
+  - name: PlayStation
+    types:
+    - uid: string
+  - name: Win32
+    types:
+    - uid: string
+  - name: Scarlett
+    types:
+    - uid: string
+examples: []
+security: []
+errorCodes: []
