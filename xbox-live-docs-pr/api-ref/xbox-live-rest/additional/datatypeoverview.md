@@ -21,7 +21,7 @@ These articles provide an overview of those types.
 | setting| One of the title-specific settings in a UserSettings object.| 
 | UserClaims| A simple JSON object containing the user's XUID and gamertag.| 
 | UserSettings| A JSON object containing a collection of title-specific settings or preferences for the current authenticated user. UserSettings can contain arbitrary data, possibly related to in-game activity.| 
-| XUID| The user's Xbox User ID, a unique unsigned long integer. Not meant to be human-readable.| 
+| XUID| The user's Xbox User ID, a unique unsigned long long integer. Not meant to be human-readable.| 
 
 
 <a id="ID4E6D"></a>
