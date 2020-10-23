@@ -81,7 +81,6 @@ Absolutely! All new titles are welcomed and encouraged to make use of title-mana
 
 Usage data across Xbox games has shown that the current implementation and presentation of challenges does not fulfill a need for most game developers.
 We will continue gathering developer input and feedback in this space and endeavor to deliver future features that are more on point with developer needs.
-Xbox Arena is an example of a feature that introduces competitive capabilities for Xbox games in a new, but similar, direction.
 
 
 

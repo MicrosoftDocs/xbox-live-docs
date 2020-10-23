@@ -49,10 +49,9 @@ Partner Center is used for configuring and managing UWP games, including games t
 #### Using Partner Center to configure UWP titles
 
 You use Partner Center to configure UWP titles for all kinds of requirements, including:
-1. You are using Arena.
-2. You have existing users, groups, and permissions set up on Partner Center.
-3. You are using tools on Partner Center such as the Tournaments Tool or Multiplayer Session Directory session history viewer.
-4. You are developing a title that will have cross-platform play between an Xbox One (or later) XDK-based game and UWP PC/mobile version of the same game.
+1. You have existing users, groups, and permissions set up on Partner Center.
+2. You are using tools on Partner Center such as the Tournaments Tool or Multiplayer Session Directory session history viewer.
+3. You are developing a title that will have cross-platform play between an Xbox One (or later) XDK-based game and UWP PC/mobile version of the same game.
 
 See below for how to use Partner Center to configure a UWP title.
 
