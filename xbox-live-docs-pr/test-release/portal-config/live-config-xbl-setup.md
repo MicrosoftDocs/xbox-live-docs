@@ -52,7 +52,10 @@ This configuration allows you to choose the type of devices on which your title 
 By default, all device families are enabled.
 You can check the devices to enable them.
 
-![Image of the selection check boxes to select the device families in Partner Center](../../images/dev-center/xbox-live-setup/xbox-live-setup-4.png)
+> [!NOTE]
+>If your title is running on Xbox One and Xbox Series X|S and want users on both devices to play together, please ensure you're using the crossplay capability within your multiplayer configuration. 
+
+![Image of the selection check boxes to select the device families in Partner Center](../../images/dev-center/xbox-live-setup/xbox-live-setup-7.png)
 
 
 ## XBL Embargo
