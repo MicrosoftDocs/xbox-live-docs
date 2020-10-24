@@ -1484,102 +1484,102 @@
       {
         "source_path": "xbox-live-docs-pr/multiplayer/arena/xbox-arena.md",
         "redirect_url": "/gaming/xbox-live/features/multiplayer/matchmaking/live-matchmaking-nav",
-        "redirect_document_id": true
+        "redirect_document_id": false
       },
       {
         "source_path": "xbox-live-docs-pr/multiplayer/arena/xbox-arena-overview.md",
         "redirect_url": "gaming/xbox-live/features/multiplayer/matchmaking/live-matchmaking-nav",
-        "redirect_document_id": true
+        "redirect_document_id": false
       },
         {
             "source_path": "xbox-live-docs-pr/multiplayer/arena/arena-title-integration.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/matchmaking/live-matchmaking-nav",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/multiplayer/arena/operations-portal.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/matchmaking/live-matchmaking-nav",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/multiplayer/arena/discovering-xbox-tournaments.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/matchmaking/live-matchmaking-nav",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/multiplayer/arena/arena-ux-join-tournament.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/matchmaking/live-matchmaking-nav",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/multiplayer/arena/arena-ux-match-engagement.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/matchmaking/live-matchmaking-nav",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/multiplayer/arena/arena-apis-metadata.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/matchmaking/live-matchmaking-nav",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/multiplayer/arena/arena-notifications.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/matchmaking/live-matchmaking-nav",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/multiplayer/arena/arena-user-scenarios.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/matchmaking/live-matchmaking-nav",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/multiplayer/arena/live-arena-apis-metadata.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/matchmaking/live-matchmaking-nav",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/multiplayer/arena/live-arena-nav.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/matchmaking/live-matchmaking-nav",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/multiplayer/arena/live-arena-notifications.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/matchmaking/live-matchmaking-nav",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/multiplayer/arena/live-arena-operations-portal.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/matchmaking/live-matchmaking-nav",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/multiplayer/arena/live-arena-overview.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/matchmaking/live-matchmaking-nav",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/multiplayer/arena/live-arena-title-integration.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/matchmaking/live-matchmaking-nav",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/multiplayer/arena/live-arena-user-scenarios.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/matchmaking/live-matchmaking-nav",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/multiplayer/arena/live-arena-ux-join-tournament.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/matchmaking/live-matchmaking-nav",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/multiplayer/arena/live-arena-ux-match-engagement.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/matchmaking/live-matchmaking-nav",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "xbox-live-docs-pr/multiplayer/arena/live-discovering-xbox-tournaments.md",
             "redirect_url": "/gaming/xbox-live/features/multiplayer/matchmaking/live-matchmaking-nav",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         
 
