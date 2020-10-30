@@ -76,10 +76,9 @@ The networking and Game Chat 2 APIs are documented in the Xbox One XDK and the X
 See [Game Chat overview](chat/live-game-chat-2-overview.md).
 
 
-#### Servers and tournaments
+#### Servers  
 
 If you are hosting dedicated servers for your multiplayer game, Multiplayer Manager (MPM) is the best choice.
-MPM is also well-suited for advanced scenarios such as integration with Xbox Live Tournaments.
 
 See [Multiplayer Manager overview](mpm/live-multiplayer-manager-overview.md).
 
