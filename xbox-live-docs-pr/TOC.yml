@@ -665,28 +665,6 @@
                       href: features/multiplayer/matchmaking/concepts/live-matchmaking-how-tos.md
                     - name: Target session initialization and QoS
                       href: features/multiplayer/matchmaking/concepts/live-matchmaking-target-session.md
-                    - name: Xbox Arena
-                      items:
-                        - name: In this section
-                          href: features/multiplayer/matchmaking/concepts/arena/live-arena-nav.md
-                        - name: Xbox Arena overview
-                          href: features/multiplayer/matchmaking/concepts/arena/live-arena-overview.md
-                        - name: Arena title integration
-                          href: features/multiplayer/matchmaking/concepts/arena/live-arena-title-integration.md
-                        - name: Xbox Arena Operations Portal
-                          href: features/multiplayer/matchmaking/concepts/arena/live-arena-operations-portal.md
-                        - name: UX for discovering Xbox tournaments
-                          href: features/multiplayer/matchmaking/concepts/arena/live-discovering-xbox-tournaments.md
-                        - name: Join a tournament by using the Arena UI
-                          href: features/multiplayer/matchmaking/concepts/arena/live-arena-ux-join-tournament.md
-                        - name: UX for match engagement
-                          href: features/multiplayer/matchmaking/concepts/arena/live-arena-ux-match-engagement.md
-                        - name: UI metadata from Arena APIs
-                          href: features/multiplayer/matchmaking/concepts/arena/live-arena-apis-metadata.md
-                        - name: UX for Arena notifications
-                          href: features/multiplayer/matchmaking/concepts/arena/live-arena-notifications.md
-                        - name: UX for Arena participant user scenarios
-                          href: features/multiplayer/matchmaking/concepts/arena/live-arena-user-scenarios.md
                 - name: Portal config
                   items:
                     - name: In this section

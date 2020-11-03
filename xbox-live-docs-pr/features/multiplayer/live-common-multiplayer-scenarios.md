@@ -1,6 +1,6 @@
 ---
 title: Common multiplayer scenarios
-description: Which Xbox Live functionality supports various multiplayer scenarios, including Comparative (Indirect) Play, Online Play with friends, Skill-Based Matchmaking, and Tournaments.
+description: Which Xbox Live functionality supports various multiplayer scenarios, including Comparative (Indirect) Play, Online Play with friends, and Skill-Based Matchmaking.
 kindex: Common multiplayer scenarios
 kindex: multiplayer
 ms.topic: conceptual
@@ -194,22 +194,3 @@ Developers should note that true player dynamics for session lists can only be t
 Tools are available to simplify network condition, TrueSkill and SmartMatch testing.
 
 
-## Tournaments
-
-Tournaments allow for skilled gamers to compete with each other in an organized format.
-Typically, tournaments are hosted and organized by independent third party organizations.
-
-Xbox Live has added a new feature in 2016 to allow titles to use Xbox Live matchmaking in conjunction with approved third party tournament organizers.
-This feature allows titles to seamlessly integrate tournaments with the Xbox shell experience, without requiring players to register on external websites.
-
-This type of multiplayer can be achieved by using Xbox Live services such as:
-
-* Presence
-* Stats
-* Social
-* Reputation
-* Multiplayer
-* SmartMatch matchmaking
-* Tournaments
-
-Testing this scenario requires a large set of Xbox Live accounts and devices.

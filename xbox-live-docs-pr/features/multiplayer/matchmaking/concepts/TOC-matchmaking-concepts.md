@@ -4,4 +4,3 @@
 
 ## live-matchmaking-target-session.md
 
-## _include_ arena/TOC-matchmaking-arena.md
