@@ -1999,6 +1999,11 @@
             "redirect_document_id": true
         },
         {
+            "source_path": "xbox-live-docs-pr/test-release/test-accounts/live-test-accounts-broadcast-mixer.md",
+            "redirect_url": "/gaming/xbox-live/test-release/test-accounts/live-test-accounts-nav",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "xbox-live-docs-pr/testing-on-console.md",
             "redirect_url": "/gaming/xbox-live/test-release/live-testing-on-console",
             "redirect_document_id": true
