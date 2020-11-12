@@ -5,12 +5,12 @@ kindex: Xbox Live Policies for PC and mobile
 kindex: policies
 ms.topic: conceptual
 ms.localizationpriority: high
-ms.date: 10/01/2019
+ms.date: 12/12/2020
 ---
 
 # Xbox Live Policies for PC and mobile
 
-Version 2.1
+Version 2.2
 
 
 ## Introduction
