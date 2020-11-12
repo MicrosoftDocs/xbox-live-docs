@@ -166,8 +166,15 @@ Note: "Semi-annual" means January–June, July–December.
 
 Titles must provide a way for a user to earn all achievements defined by the base title without being required to purchase additional in-title content.
 
-Titles must not allow users to earn achievements by simply making purchases. For titles that have any achievement that unlocks based on a real-money purchase, that achievement must also be unlockable through in-title activity or in-title currency that was earned through in-title activity. 
- 
+Achievements must be unlocked through in-game actions, gameplay, and/or experiences.
+
+Titles must not provide players alternative options that unlock achievements directly without corresponding gameplay activity. A non-exhaustive list of disallowed options:
+
+* A real-money purchase
+
+* In-game cheat codes, consoles, or menu options
+
+These options may be used to reduce the difficulty of the gameplay required to unlock achievements.
 
 ### Achievements Across Multiple Titles or Platforms (XR-058)
 
