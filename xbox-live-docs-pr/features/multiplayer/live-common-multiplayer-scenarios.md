@@ -178,8 +178,7 @@ The matchmaking service uses rules that use these match paramerters to find a mo
 Depending on game design, match parameters are configured directly by the player or are automatically set by the title.
 
 
-Xbox Live SmartMatch provides a set of rules that can be used for skill-based matchmaking.
-The SmartMatch service uses an Xbox Live feature called TrueSkill to help evaluate the relative skill of a player.
+Xbox Live SmartMatch provides a set of rules that can be used for skill-based matchmaking. The SmartMatch service does not integrate any skill algorithm directly, so it is up to the developer to use their own skill algorithm to calculate and provide those values into a SmartMatch rule that will use it in evaluating players.
 
 This type of multiplayer can use similar services as the previous scenario:
 
