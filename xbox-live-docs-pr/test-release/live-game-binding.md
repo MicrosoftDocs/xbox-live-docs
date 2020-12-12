@@ -98,8 +98,11 @@ Now it is time to setup your secondary product with access to the XBL config in 
 8.	Clicking that button will open a modal where you will have the ability to bind this secondary product to the primary product. Here you can enter the name or Store ID of the primary product and click save.  
 9.	After finding the correct primary title, click save. This will kick off an internal process that will setup your secondary title correctly. This process will not have an impact on the primary product and only makes changes to the secondary product’s config. 
  
-10.	After the process completes the page will refresh and you will now see the primary game’s XBL configuration within the secondary. From the secondary product, this will remain as read only. To edit the configuration, you will be able to click the edit button which will link you to the primary product to make changes. Changes made to XBL Config will impact both versions of the title. If you wish to unbind the title in the future, you can do so via the “Unbind Configuration” button and have your previous XBL configuration for the secondary product return. 
->[!note] if you wish to bind another product to the primary title, follow steps 4-10. You will be able to view all bound products from the primary title. 
+10.	After the process completes the page will refresh and you will now see the primary game’s XBL configuration within the secondary. From the secondary product, this will remain as read only. 
+To edit the configuration, you will be able to click the edit button which will link you to the primary product to make changes. Changes made to XBL Config will impact both versions of the title. 
+If you wish to unbind the title in the future, you can do so via the “Unbind Configuration” button and have your previous XBL configuration for the secondary product return.
+ 
+> [!NOTE] If you wish to bind another product to the primary title, follow steps 4-10. You will be able to view all bound products from the primary title. 
 >
 
 ## Summary
