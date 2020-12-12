@@ -32,7 +32,7 @@ To publish a game for testing or public release, first complete the <a href="../
 | [Error handling](error-handling/live-error-handling-nav.md) | Handling errors when calling an Xbox Live service through XSAPI, C++, or WinRT. |
 | [Porting Xbox Live code from XDK to UWP](live-port-xbl-code-from-xdk-to-uwp.md) | Porting Xbox Live code from the Xbox Development Kit (XDK) platform to the Universal Windows Platform (UWP). |
 | [Tools for Xbox Live](tools/live-tools-nav.md) | Tools to help develop and test an Xbox Live-enabled title. |
-
+| [XBL Game Binding](live-game-binding.md) | Overview of the XBL Game Binding Feature |
 
 ### See also
 
