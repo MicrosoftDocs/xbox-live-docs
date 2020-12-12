@@ -92,13 +92,18 @@ You may be starting fresh with neither product created in Partner Center. The fi
 Now it is time to setup your secondary product with access to the XBL config in the primary product. 
 
 1. Create the secondary product in Partner Center as a Game. 
+> ![Product Creation](../images/game_binding/Product_creation.png)
 2.	Reach out to your Microsoft representative and get explain the purpose that this title will be sharing XBL with the primary title. 
 Ensure you meet the criteria for game binding in your business justification.
 3.	After being content approved, you will now have two titles that are XBL Enabled for the moment. 
 4.	In the secondary product navigate to Xbox Live -> Gameplay settings, there in the top right of the page you will see a new button named “Bind Configuration”.
+![Bind Configuration](../images/game_binding/Gameplay_settings.png)
 5.	Clicking that button will open a modal where you will have the ability to bind this secondary product to the primary product. 
 Here you can enter the name or Store ID of the primary product and click save.  
-6.	After finding the correct primary title, click save. This will kick off an internal process that will setup your secondary title correctly. This process will not have an impact on the primary product and only makes changes to the secondary product’s config. 
+![Binding Picker](../images/game_binding/Bind_Config.png)
+6.	After finding the correct primary title, click save. This will kick off an internal process that will setup your secondary title correctly. This process will not have an impact on the primary product and only makes changes to the secondary product’s config.
+<br/>
+![Secondary Binding Status](../images/game_binding/Secondary_Binding.png) 
 7.	After the process completes the page will refresh and you will now see the primary game’s XBL configuration within the secondary. From the secondary product, this will remain as read only. 
 To edit the configuration, you will be able to click the edit button which will link you to the primary product to make changes. Changes made to XBL Config will impact both versions of the title. 
 If you wish to unbind the title in the future, you can do so via the “Unbind Configuration” button and have your previous XBL configuration for the secondary product return.
@@ -106,6 +111,26 @@ If you wish to unbind the title in the future, you can do so via the “Unbind C
 > [!NOTE] 
 > If you wish to bind another product to the primary title, follow steps 1-7. You will be able to view all bound products from the primary title. 
 
+**Secondary Product Packge Setup**
+<br />
+After completing the above steps, you can now begin the process of correctly setting up your secondary game package. 
+You can find the correct identifiers on the Xbox Live -> Xbox Live Settings page within your secondary title.  <br /> 
+![Xbox Live Identifiers](../images/game_binding/Xbox_Live_Identifiers.png)
+ <br /> 
+If your secondary title is built: 
+- **On the GDK**: Use the TitleID and Identity the MicrosoftGame.config file found in the above source
+- **On the XDK**: Identity, TitleID and SCID in the Package.appmanifest file found in the above source 
+
+## Frequently Asked Questions
+**Should I include additional identifiers in my secondary product that are found in my primary product?**
+<br /> 
+No, you should only use the specific primary identity details found in the secondary’s game setup page. 
+As an example, each product should have their own unique MSA APP ID to avoid any unforseen consequences.  
+
+**What happens if I Unbind the secondary title?**
+<br />
+he previously configured XBL config will now be editable again from the secondary product. You can make changes independent of the primary title. 
+You will need to also make changes to the secondary product’s package to see XBL features be accessible from the secondary product. 
 
 ## Summary
 XBL Game Binding Allows publishers greater flexibility to differentiate products between genearations and keep their player communities intact.
