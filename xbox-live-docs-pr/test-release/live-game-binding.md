@@ -90,33 +90,22 @@ You may be starting fresh with neither product created in Partner Center. The fi
 **Secondary Product Setup In Partner Center**
 <br/>
 Now it is time to setup your secondary product with access to the XBL config in the primary product. 
-4.	Create the secondary product in Partner Center as a Game.   
-5.	Reach out to your Microsoft representative and get explain the purpose that this title will be sharing XBL with the primary title. Ensure you meet the criteria for game binding in your business justification.
-6.	After being content approved, you will now have two titles that are XBL Enabled for the moment. 
-7.	In the secondary product navigate to Xbox Live -> Gameplay settings, there in the top right of the page you will see a new button named “Bind Configuration”.
- 
-8.	Clicking that button will open a modal where you will have the ability to bind this secondary product to the primary product. Here you can enter the name or Store ID of the primary product and click save.  
-9.	After finding the correct primary title, click save. This will kick off an internal process that will setup your secondary title correctly. This process will not have an impact on the primary product and only makes changes to the secondary product’s config. 
- 
-10.	After the process completes the page will refresh and you will now see the primary game’s XBL configuration within the secondary. From the secondary product, this will remain as read only. 
+
+1. Create the secondary product in Partner Center as a Game. 
+2.	Reach out to your Microsoft representative and get explain the purpose that this title will be sharing XBL with the primary title. 
+Ensure you meet the criteria for game binding in your business justification.
+3.	After being content approved, you will now have two titles that are XBL Enabled for the moment. 
+4.	In the secondary product navigate to Xbox Live -> Gameplay settings, there in the top right of the page you will see a new button named “Bind Configuration”.
+5.	Clicking that button will open a modal where you will have the ability to bind this secondary product to the primary product. 
+Here you can enter the name or Store ID of the primary product and click save.  
+6.	After finding the correct primary title, click save. This will kick off an internal process that will setup your secondary title correctly. This process will not have an impact on the primary product and only makes changes to the secondary product’s config. 
+7.	After the process completes the page will refresh and you will now see the primary game’s XBL configuration within the secondary. From the secondary product, this will remain as read only. 
 To edit the configuration, you will be able to click the edit button which will link you to the primary product to make changes. Changes made to XBL Config will impact both versions of the title. 
 If you wish to unbind the title in the future, you can do so via the “Unbind Configuration” button and have your previous XBL configuration for the secondary product return.
- 
-> [!NOTE] If you wish to bind another product to the primary title, follow steps 4-10. You will be able to view all bound products from the primary title. 
->
+
+> [!NOTE] 
+> If you wish to bind another product to the primary title, follow steps 1-7. You will be able to view all bound products from the primary title. 
+
 
 ## Summary
-
-The API changes and new requirements outlined in this white paper are ones that you are likely to encounter when porting existing game code from the Xbox One XDK to the new UWP.
-Particular emphasis has been given to application and environment setup, as well as feature areas related to Xbox Live services, such as multiplayer and connected storage.
-
-For more information, follow the links provided throughout this article and in the following references, and be sure to visit the "Windows 10" section of the [developer forums](https://forums.xboxlive.com) for more help, answers, and news.
-
-
-## See also
-
--   [Porting from Xbox One to Windows 10](https://developer.xboxlive.com/en-us/platform/development/education/Documents/Porting%20from%20Xbox%20One%20to%20Windows%2010.aspx)
-
--   [Xbox One White Papers](https://developer.xboxlive.com/en-us/platform/development/education/Pages/WhitePapers.aspx)
-
--   [Samples](https://developer.xboxlive.com/en-us/platform/development/education/Pages/Samples.aspx)
+XBL Game Binding Allows publishers greater flexibility to differentiate products between genearations and keep their player communities intact.
