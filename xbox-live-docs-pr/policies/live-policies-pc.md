@@ -159,10 +159,10 @@ Minimum achievements | 10 | 0 | 10
 Maximum achievements | 100 | 100 | 500
 Gamerscore | 1000 | 1000 | 5000
 
-Note: "Semi-annual" means January–June, July–December.
+Note: “Semi-annual” means January–June, July–December. Base game achievements and Gamerscore do not count towards the semi-annual limits.
 
 
-### No Additional Purchases Required for Base Achievements (XR-057)
+### Unlocking Achievements  (XR-057)
 
 Titles must provide a way for a user to earn all achievements defined by the base title without being required to purchase additional in-title content.
 
