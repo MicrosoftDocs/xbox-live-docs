@@ -1,6 +1,6 @@
 ---
 title: Xbox Live Sandboxes overview
-description: Publishing a game to a development sandbox, to work on changes to the title in an isolated environment.
+description: Publishing a game to a development sandbox to enable work in an isolated environment.
 kindex: Xbox Live Sandboxes overview
 ms.topic: article
 ms.assetid: a5acb5bf-dc11-4dff-aa94-6d1f01472d2a
@@ -184,7 +184,6 @@ This keeps both groups isolated.
 
 #### Broadcasting
 
-To prevent leaking title information accidentally, broadcasting through Mixer is also content-isolated.
 Broadcasts are automatically redirected into a development stream that is not accessible by other players.
 Titles that need to test specific broadcast functionality can do so through a limited Beta release in a retail scenario.
 

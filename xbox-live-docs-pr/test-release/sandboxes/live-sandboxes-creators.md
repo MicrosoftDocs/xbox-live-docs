@@ -1,6 +1,6 @@
 ---
 title: Using Xbox Live sandboxes, for Creators
-description: Publishing a game to a development sandbox, to work on changes to the title in an isolated environment.
+description: Publishing a game to a development sandbox to enable work by Creators in an isolated environment.
 kindex: Using Xbox Live sandboxes, for Creators
 ms.topic: article
 ms.localizationpriority: medium
