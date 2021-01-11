@@ -88,4 +88,4 @@ To access this information, you must have a Microsoft Account (MSA) that has bee
 
 * [XGD > Xbox One > Xbox Live](https://developer.microsoft.com/games/xbox/partner/live-home) - Jump pages for Xbox Live resources.
 * [XGD > Xbox One > White papers](https://developer.microsoft.com/games/xbox/partner/development-education-whitepapers) - The section "Xbox Live and Networking" contains about 30 white papers.
-* [XGD > XDK > Xbox Live Services](https://developer.microsoft.com/games/xbox/docs/xdk/xbox-live-services) - Additional articles about User Privileges, Player Data, Marketplace, and Cloud Compute.
+* [XGD > XDK > Xbox Live Services](https://developer.microsoft.com/games/xbox/docs/xdk/xbox-live-services) - Additional articles about User Privileges, Player Data, and Marketplace.

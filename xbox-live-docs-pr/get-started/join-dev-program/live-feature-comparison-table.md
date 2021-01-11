@@ -177,10 +177,6 @@ If it's a multiplayer game, Managed Partners must use either MPSD or MPA.</td>
 <td class="xbl-features-optional">Optional</td>
 </tr>
 <tr>
-<td>Xbox Live Compute</td>
-<td>Deploy executables and assets which your title can communicate with, to offload computation from the client.</td>
-<td class="xbl-features-notavailable">Not Supported</td>
-<td class="xbl-features-optional">Optional</td>
 </tr>
 
 

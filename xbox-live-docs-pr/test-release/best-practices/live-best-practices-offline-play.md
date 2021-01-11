@@ -114,10 +114,10 @@ You may report the service error to the user if gameplay cannot continue.
 Ideally, gameplay should continue or you should allow the user to continue in an area of the game that doesn’t require the online service.
 
 
-## Offline scenario: when Xbox Live cloud compute is down
+## Offline scenario: when your cloud service is down
 
 One of the Xbox showcases is cloud power.
-Some games may rely completely on an always-connected service such as Xbox Live cloud compute, which allows accessing additional compute capabilities or always-available game servers.
+Some games may rely completely on an always-connected service such as Azure PlayFab Servers, which allows accessing additional compute capabilities or always-available game servers.
 This always connected mode is both allowed and encouraged where it enhances the experience for players.
 
 If your game uses this mode, then we recommend that your game be resilient to service interruptions (of multiple seconds and up to one minute) that are due to either total loss of Internet connectivity or loss of a particular cloud service.

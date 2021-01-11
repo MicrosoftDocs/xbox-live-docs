@@ -965,7 +965,7 @@ The stage progresses from *joining* to *measuring* to *evaluating*.
 ## Xbox Cloud Compute session
 
 An Xbox Cloud Compute session contains the ordered list of case-insensitive connection strings that the session could use to connect to a game server.
-Generally, titles should use the first string on the list, but sophisticated titles could use a custom mechanism (such as Xbox Live Compute) for choosing one of the others (for instance, based on load).
+Generally, titles should use the first string on the list, but sophisticated titles could use a custom mechanism for choosing one of the others (for instance, based on load).
 
 ```json
     "serverConnectionStringCandidates": [ "west.thunderhead.azure.com", "east.thunderhead.azure.com" ],
