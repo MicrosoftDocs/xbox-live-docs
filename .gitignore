@@ -6,3 +6,6 @@ _themes*/
 _repo.*/
 
 .openpublishing.buildcore.ps1
+/.vs/xbox-live-docs-pr/v15
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json

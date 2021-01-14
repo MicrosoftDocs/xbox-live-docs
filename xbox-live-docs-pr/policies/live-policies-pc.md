@@ -2,7 +2,6 @@
 title: Xbox Live Policies for PC and mobile
 description: Policies for adding Xbox Live to a PC or mobile game.
 kindex: Xbox Live Policies for PC and mobile
-kindex: policies
 ms.topic: conceptual
 ms.localizationpriority: high
 ms.date: 12/12/2020
@@ -159,10 +158,10 @@ Minimum achievements | 10 | 0 | 10
 Maximum achievements | 100 | 100 | 500
 Gamerscore | 1000 | 1000 | 5000
 
-Note: "Semi-annual" means January–June, July–December.
+Note: “Semi-annual” means January–June, July–December. Base game achievements and Gamerscore do not count towards the semi-annual limits.
 
 
-### No Additional Purchases Required for Base Achievements (XR-057)
+### Unlocking Achievements  (XR-057)
 
 Titles must provide a way for a user to earn all achievements defined by the base title without being required to purchase additional in-title content.
 

@@ -1,8 +1,9 @@
 ---
 title: Features supported for each developer program
 description: Table of Xbox Live features supported for Creators and for Managed Partners.
-kindex: Features supported for each developer program
-kindex: developer programs
+kindex: 
+- Features supported for each developer program
+- developer programs
 ms.topic: conceptual
 ms.localizationpriority: high
 ms.date: 04/11/2019
@@ -137,7 +138,7 @@ The following Xbox Live features are supported for Creators or for Managed Partn
 </tr>
 <tr>
 <td>Broadcast</td>
-<td>Players can live broadcast their gameplay via streaming services like Mixer and Twitch.</td>
+<td>Players can live broadcast their gameplay via streaming services like Twitch.</td>
 <td class="xbl-features-automatic">Automatic</td>
 <td class="xbl-features-automatic">Automatic</td>
 </tr>
@@ -176,10 +177,6 @@ If it's a multiplayer game, Managed Partners must use either MPSD or MPA.</td>
 <td class="xbl-features-optional">Optional</td>
 </tr>
 <tr>
-<td>Xbox Live Compute</td>
-<td>Deploy executables and assets which your title can communicate with, to offload computation from the client.</td>
-<td class="xbl-features-notavailable">Not Supported</td>
-<td class="xbl-features-optional">Optional</td>
 </tr>
 
 

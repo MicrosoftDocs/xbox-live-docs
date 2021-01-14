@@ -17,7 +17,7 @@ ms.date: 04/04/2017
 
 | Note |
 |---|
-| This article is for advanced API usage, by calling Multiplayer APIs directly.  As a starting point, try using [Multiplayer Manager](../mpm/live-multiplayer-manager-overview.md) instead, which significantly simplifies development.  Please let your DAM know if you find an unsupported scenario in the Multiplayer Manager. |
+| This article is for advanced API usage, by calling Multiplayer APIs directly.  As a starting point, try using [Multiplayer Manager](../mpm/live-multiplayer-manager-overview.md) instead, which significantly simplifies development.  Please let your Microsoft representative know if you find an unsupported scenario in the Multiplayer Manager. |
 
 
 ## About the Multiplayer System
@@ -104,9 +104,7 @@ See [Reputation](../../social/reputation/live-reputation-nav.md).
 
 #### Xbox Live Compute
 
-Xbox Live Compute provides cloud processing power for titles using 2015 Multiplayer.
-For more information on using Xbox Live Compute, see [Using Xbox Live Compute in Multiplayer](https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/xbox-live-compute/using-xbox-live-compute-in-multiplayer).
-
+Xbox Live Compute is no longer available and has been discontinued. For titles that need server hosting and cloud processing power, use [Azure PlayFab multiplayer servers](https://docs.microsoft.com/gaming/playfab/features/multiplayer/servers/) instead.
 
 ### Typical 2015 Multiplayer Architectures
 
@@ -130,7 +128,7 @@ For more information, see *Introduction to Winsock on Xbox One*.
 
 | Note |
 |---|
-| Xbox Live Compute instances can be used as the servers in the client-server architecture. |
+| PlayFab server instances can be used as the servers in the client-server architecture. |
 
 ![Diagram of client server architecture](live-intro-calling-mp-directly-images/Mult2015ArchClientServer.png)
 
@@ -190,7 +188,7 @@ It allowed a title to:
 | MPSD Session | A secure document that resides in the multiplayer session directory (MPSD) within the Xbox Live cloud. It contains a group of users who might be connected while running a title on Xbox One (or later), along with metadata about the users and their game. See [Multiplayer Session advanced topics](../mpsd/concepts/live-mpsd-details.md). |
 | Multiplayer Session Directory (MPSD) | The service operating in the cloud that the multiplayer system uses to store and retrieve sessions. See [Multiplayer Session Directory (MPSD)](../mpsd/live-mpsd-nav.md). |
 | Party App | An Xbox One (or later) system snap app that allows users to view and manage their parties. |
-| Server Session | A game session created by Xbox Live Compute processing. See [Multiplayer Session advanced topics](../mpsd/concepts/live-mpsd-details.md). |
+| Server Session | A game session created by PlayFab Multiplayer Servers. See [Multiplayer Session advanced topics](../mpsd/concepts/live-mpsd-details.md). |
 | Shoulder Tap | A notification from MPSD to a title that a potentially interesting change has occurred on the service. The shoulder tap is a quick reminder, often less informational than a regular notification. See the section [MPSD Change Notification Handling and Disconnect Detection](../mpsd/live-mpsd-overview.md#mpsd-change-notification-handling-and-disconnect-detection) in the article "Multiplayer Session Directory overview". |
 | SmartMatch Matchmaking | An Xbox Live matchmaking capability available to Xbox One (or later) titles, implemented by the matchmaking service. Using MPSD and matchmaking, the title makes a request to be matched and is notified later that a matched group has been found. See [Matchmaking overview](../matchmaking/live-matchmaking-overview.md). |
 
@@ -276,10 +274,7 @@ The clients are notified of the match and perform quality of service (QoS) to va
 
 ### Xbox Live Compute Service
 
-The Xbox Live Compute service enables developers to harness the elastic compute power of the cloud, and enables larger multiplayer scenarios than were possible in a peer-to-peer network.
-
-See <a href="https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/xbox-live-compute/using-xbox-live-compute-in-multiplayer" target="_blank">Using Xbox Live Compute in Multiplayer &#11008;</a> in the XDK docs (requires Managed Partner access), or see that article in `XboxOneXDK.chm`.
-
+Xbox Live Compute service is no longer available and has been discontinued. For titles that need server hosting and cloud processing power to enable multiplayer scenarios, use [PlayFab multiplayer servers](https://docs.microsoft.com/gaming/playfab/features/multiplayer/servers/).
 
 ## See also
 

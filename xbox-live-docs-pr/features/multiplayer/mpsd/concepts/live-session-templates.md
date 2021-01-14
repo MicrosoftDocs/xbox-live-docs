@@ -199,7 +199,7 @@ When you create your SmartMatch hopper, use this template as the target session 
 
 ### Basic session template for client-server game session
 
-You can use this template for a title that does not perform peer-to-peer communication and does not use Xbox Live Compute, but instead has clients connect to a third-party hosted server.
+You can use this template for a title that does not perform peer-to-peer communication but instead has clients connect to a third-party hosted server.
 
 ```json
     {
@@ -318,7 +318,7 @@ The following is an example of a peer-to-peer game session template with QoS.
 ```
 
 
-#### Client-server (Xbox Live Compute) lobby/matchmaking session template with QoS
+#### Client-server lobby/matchmaking session template with QoS
 
 Use this template to create a lobby session or a matchmaking session using QoS.
 This template is not intended to be used to configure a game session.
