@@ -1,12 +1,11 @@
 ---
-title: Xbox Live Game Binding
-description: Porting Xbox Live code from the Xbox Development Kit (XDK) platform to the Universal Windows Platform (UWP).
-kindex: Porting Xbox Live code from XDK to UWP
-kindex: XDK, porting
+title: (Beta) Xbox Live Game Binding
+description: Guide and overview for the XBL game Binding Feature
+kindex: XBL Game Binding How To
+kindex: Binding, XBL Configuration 
 ms.topic: article
-ms.assetid: 69939f95-44ad-4ffd-851f-59b0745907c8
 ms.localizationpriority: medium
-ms.date: 04/04/2017
+ms.date: 12/17/2020
 ---
 
 # Overview
@@ -28,7 +27,8 @@ At the core of this feature is a partner center config change that will allow tw
 ### Benefits
 
 One key reason for creating two separate products may be because the studio has put more resources into creating the Scarlett version of their title and thus want to sell it separately. 
-Choosing this method might be ideal for developers that want to keep their player base intact despite having games that spans multiple generations. 
+Choosing this method might be ideal for developers that want to keep their player base intact despite having games that span multiple generations. 
+This feature also allows for a seamless transition for players who purchase multiple versions of the title to resume game progression and achievement unlocks.
 It also does not require any changes to the primary title which gives your studio additional flexibility to add a secondary version later.
 
 
@@ -53,14 +53,6 @@ If a title has a PC version, it is best for them to stick to sharing all package
 
  To ensure we had absolute confidence in the feature, the feature crew has tested XBL at all stages of using the feature (e.g. Pre, Bounded, Post Bound). 
  This test was accomplished using the following parameters:
-
-**Test Products**
-
-The below table represents the test products that were created to run the feature through its paces. These were designed to maximize the surface area of how XBL is being used by developers today. 
--	Primary Game Gen 8 ERA using Stats/Achievements 2013 and latest XDK
--	Primary Game Gen 8 ERA using Stats/Achievements 2017 and latest XDK
--	Secondary Game Gen 8 ERA using Stats/Achievements 2013 latest XDK
--	Secondary Game Gen 8 ERA using Stats/Achievements 2017 latest XDK
 
 **XBL Features Tested**
 
@@ -95,16 +87,17 @@ Now it is time to setup your secondary product with access to the XBL config in 
 > ![Product Creation](../images/game_binding/Product_creation.png)
 2.	Reach out to your Microsoft representative and get explain the purpose that this title will be sharing XBL with the primary title. 
 Ensure you meet the criteria for game binding in your business justification.
-3.	After being content approved, you will now have two titles that are XBL Enabled for the moment. 
-4.	In the secondary product navigate to Xbox Live -> Gameplay settings, there in the top right of the page you will see a new button named “Bind Configuration”.
+3.	After being content approved, you will now have two titles that are XBL Enabled for the moment.
+5.  When selecting platforms within the secondary product, ensure that Windows 10 PC is not selected as that platform is not currently supported for Game Binding. Also if this title is planning to use cross play between generations, ensure you've added the crossplay capability.
+6.	In the secondary product navigate to Xbox Live -> Gameplay settings, there in the top right of the page you will see a new button named “Bind Configuration”.
 ![Bind Configuration](../images/game_binding/Gameplay_settings.png)
-5.	Clicking that button will open a modal where you will have the ability to bind this secondary product to the primary product. 
+7.	Clicking that button will open a modal where you will have the ability to bind this secondary product to the primary product. 
 Here you can enter the name or Store ID of the primary product and click save.  
 ![Binding Picker](../images/game_binding/Bind_Config.png)
-6.	After finding the correct primary title, click save. This will kick off an internal process that will setup your secondary title correctly. This process will not have an impact on the primary product and only makes changes to the secondary product’s config.
+8.	After finding the correct primary title, click save. This will kick off an internal process that will setup your secondary title correctly. This process will not have an impact on the primary product and only makes changes to the secondary product’s config.
 <br/>
 ![Secondary Binding Status](../images/game_binding/Secondary_Binding.png) 
-7.	After the process completes the page will refresh and you will now see the primary game’s XBL configuration within the secondary. From the secondary product, this will remain as read only. 
+9.	After the process completes the page will refresh and you will now see the primary game’s XBL configuration within the secondary. From the secondary product, this will remain as read only. 
 To edit the configuration, you will be able to click the edit button which will link you to the primary product to make changes. Changes made to XBL Config will impact both versions of the title. 
 If you wish to unbind the title in the future, you can do so via the “Unbind Configuration” button and have your previous XBL configuration for the secondary product return.
 
@@ -121,6 +114,10 @@ If your secondary title is built:
 - **On the GDK**: Use the TitleID and Identity the MicrosoftGame.config file found in the above source
 - **On the XDK**: Identity, TitleID and SCID in the Package.appmanifest file found in the above source 
 
+> [!NOTE] 
+> Within the secondary product's configuration, please ensure to only test in sandboxes that have been configured and setup in the primary product's configuration.
+Testing Xbox Live, for example will not work if Xbox Live has not been configured within that sandbox
+
 ## Frequently Asked Questions
 **Should I include additional identifiers in my secondary product that are found in my primary product?**
 <br /> 
@@ -129,8 +126,9 @@ As an example, each product should have their own unique MSA APP ID to avoid any
 
 **What happens if I Unbind the secondary title?**
 <br />
-he previously configured XBL config will now be editable again from the secondary product. You can make changes independent of the primary title. 
-You will need to also make changes to the secondary product’s package to see XBL features be accessible from the secondary product. 
+The previously configured XBL config will now be unhidden and editable again from the secondary product. In other words, this restores the secondary product to the unbound state. 
+You can make changes independent of the primary title. 
+You will need to also make changes to the secondary product’s package to see XBL features be accessible from the secondary product. The entire unbinding process has no effect on the primary product.
 
 ## Summary
 XBL Game Binding Allows publishers greater flexibility to differentiate products between genearations and keep their player communities intact.
