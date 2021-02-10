@@ -37,7 +37,7 @@ There following lists describes the major classes that you should understand:
 * [Multiplayer Game Session class](#multiplayer-game-session-class)
 
 
-## Multiplayer Manager class <a name="multiplayer-manager-class">
+## Multiplayer Manager class <a name="multiplayer-manager-class"></a>
 
 | language | class |
 | --- | --- |
@@ -68,7 +68,7 @@ For a complete descriptive list of class members, see the reference.
 | GameSession |  game_session() | A handle to an object that represents the game session. |
 
 
-## Multiplayer Event class <a name="multiplayer-event-class">
+## Multiplayer Event class <a name="multiplayer-event-class"></a>
 
 | language | class |
 | --- | --- |
@@ -86,7 +86,7 @@ For example, if the `event_type` is `member_joined`, then you would cast the `ev
 Your game should handle each of the events as necessary after calling `do_work()`.
 
 
-## Multiplayer Member class <a name="multiplayer-member-class">
+## Multiplayer Member class <a name="multiplayer-member-class"></a>
 
 | language | class |
 | --- | --- |
@@ -97,7 +97,7 @@ This class represents a player in a lobby or game session.
 The class contains properties about the member, including the XboxUserID for the player, the network connection address for the player, custom properties for each player, and more.
 
 
-## Multiplayer Lobby Session class <a name="multiplayer-lobby-session-class">
+## Multiplayer Lobby Session class <a name="multiplayer-lobby-session-class"></a>
 
 | language | class |
 | --- | --- |
@@ -131,7 +131,7 @@ For a complete descriptive list of class members, see the reference.
 | Host | host() | The host member for the lobby. |
 
 
-## Multiplayer Game Session class <a name="multiplayer-game-session-class">
+## Multiplayer Game Session class <a name="multiplayer-game-session-class"></a>
 
 | language | class |
 | --- | --- |

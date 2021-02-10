@@ -17,7 +17,7 @@ ms.date: 04/04/2017
 
 | Note |
 |---|
-| This article is for advanced API usage, by calling Multiplayer APIs directly.  As a starting point, try using [Multiplayer Manager](../mpm/live-multiplayer-manager-overview.md) instead, which significantly simplifies development.  Please let your Microsoft representative know if you find an unsupported scenario in the Multiplayer Manager. |
+| This article is for advanced API usage, by calling Multiplayer APIs directly. For an overview of multiplayer features when developing titles using the GDK, see [Multiplayer overview (secure site)](https://aka.ms/gdkdocs), [Xbox and PC multiplayer design guidance (secure site)](https://aka.ms/gdkdocs), and [Cross-platform multiplayer design guidance (secure site)](https://aka.ms/gdkdocs). |
 
 
 ## About the Multiplayer System
@@ -282,5 +282,3 @@ Xbox Live Compute service is no longer available and has been discontinued. For 
 * [Matchmaking overview](../matchmaking/live-matchmaking-overview.md)
 * [Real-Time Activity (RTA) service](../../rta/live-rta-nav.md)
 * [Reputation](../../social/reputation/live-reputation-nav.md)
-* <a href="https://developer.microsoft.com/games/xbox/docs/xboxlive/xbox-live-partners/xbox-live-compute/using-xbox-live-compute-in-multiplayer" target="_blank">Using Xbox Live Compute in Multiplayer &#11008;</a>
-(requires Managed Partner access)

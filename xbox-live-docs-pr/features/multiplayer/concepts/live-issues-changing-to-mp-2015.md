@@ -16,7 +16,7 @@ This article describes issues that you must consider when adapting a 2014 Multip
 
 <!-- from ~\multiplayer\multiplayer-appendix\multiplayer-appendix.md: -->
 > **Note**  
-The Multiplayer 2015 service, described in this article, is for advanced API usage.  As a starting point, instead use [Multiplayer Manager (MPM)](../mpm/live-multiplayer-manager-nav.md), which significantly simplifies development. If you find an unsupported scenario in the Multiplayer Manager API, please let your DAM know.
+The Multiplayer 2015 service, described in this article, is for advanced API usage. For an overview of multiplayer features when developing titles using the GDK,  see [Multiplayer overview](../../../multiplayer/multiplayer-intro.md), [Xbox and PC multiplayer design guidance](../../../multiplayer/multiplayer-design-guidance-xbox-pc-gdk.md), and [Cross-platform multiplayer design guidance](../../../multiplayer/multiplayer-design-guidance-cross-platform.md).
 
 > **Note**  
 The previous version of the multiplayer system is Multiplayer 2014.
