@@ -19,3 +19,5 @@
 ## live-port-xbl-code-from-xdk-to-uwp.md
 
 ## _include_ tools/TOC-tr-tools.md
+
+## _include_ live-game-binding.md
