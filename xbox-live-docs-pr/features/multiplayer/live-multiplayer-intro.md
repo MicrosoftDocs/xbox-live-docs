@@ -6,7 +6,7 @@ author: joanlee
 ms.author: joanlee
 ms.topic: conceptual
 ms.prod: gaming
-ms.technology: xboxlive
+ms.technology: xboxservices
 ms.localizationpriority: medium
 ms.date: 01/17/2021
 edited: 01/17/2021
@@ -18,7 +18,7 @@ Xbox Live multiplayer helps you create real-time multiplayer gameplay experience
 
 These multiplayer features can be used to create interactions such as chatting and playing together over the Internet **for Xbox Live users**. These interactions can help to dramatically extend the life and usage of your title beyond typical solo play.
 
-They can also be used in combination with your custom solutions and PlayFab Multiplayer features. To learn how you can mix and match these features when developing titles using the GDK, see [Multiplayer overview (secure site)](https://aka.ms/gdkdocs), [Xbox and PC multiplayer design guidance (secure site)](https://aka.ms/gdkdocs), and [Cross-platform multiplayer design guidance (secure site)](https://aka.ms/gdkdocs). If your titles need server hosting, see [Azure PlayFab Multiplayer Servers (MPS)](https://docs.microsoft.com/gaming/playfab/features/multiplayer/servers/). 
+They can also be used in combination with your custom solutions and PlayFab Multiplayer features. To learn how you can mix and match these features when developing titles using the GDK, see [Multiplayer overview (secure site)](https://developer.microsoft.com/en-us/games/xbox/docs/gdk/multiplayer-intro), [Xbox and PC multiplayer design guidance (secure site)](https://developer.microsoft.com/en-us/games/xbox/docs/gdk/multiplayer-design-guidance-xbox-pc-gdk), and [Cross-platform multiplayer design guidance (secure site)](https://developer.microsoft.com/en-us/games/xbox/docs/gdk/multiplayer-design-guidance-cross-platform). If your titles need server hosting, see [Azure PlayFab Multiplayer Servers (MPS)](https://docs.microsoft.com/gaming/playfab/features/multiplayer/servers/). 
 
 By building a great multiplayer experience, your title would be able to leverage the large social network of Xbox Live gamers to help increase the user base for your game and promote a sustained community of dedicated fans playing together.
 

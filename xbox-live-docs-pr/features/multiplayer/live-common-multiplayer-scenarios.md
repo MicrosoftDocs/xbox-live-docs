@@ -1,11 +1,10 @@
 ---
 title: Common multiplayer scenarios
 description: Which Xbox Live functionality supports various multiplayer scenarios, including Comparative (Indirect) Play, Online Play with friends, and Skill-Based Matchmaking.
-kindex: Common multiplayer scenarios
-kindex: multiplayer
+kindex: Common multiplayer scenarios, multiplayer
 ms.topic: conceptual
 ms.prod: gaming
-ms.technology: xboxlive
+ms.technology: xboxservices
 ms.assetid: 470914df-cbb5-4580-b33a-edb353873e32
 ms.localizationpriority: medium
 ms.date: 04/04/2017

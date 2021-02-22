@@ -4,7 +4,7 @@ description: Changing a title from 2014 Multiplayer to 2015 Multiplayer.
 kindex: Changing a game from 2014 to 2015 Multiplayer
 ms.topic: conceptual
 ms.prod: gaming
-ms.technology: xboxlive
+ms.technology: xboxservices
 ms.assetid: 206f8fe4-c7aa-44b8-923b-18f679d8439f
 ms.localizationpriority: medium
 ms.date: 04/04/2017
@@ -16,7 +16,7 @@ This article describes issues that you must consider when adapting a 2014 Multip
 
 <!-- from ~\multiplayer\multiplayer-appendix\multiplayer-appendix.md: -->
 > **Note**  
-The Multiplayer 2015 service, described in this article, is for advanced API usage. For an overview of multiplayer features when developing titles using the GDK,  see [Multiplayer overview](../../../multiplayer/multiplayer-intro.md), [Xbox and PC multiplayer design guidance](../../../multiplayer/multiplayer-design-guidance-xbox-pc-gdk.md), and [Cross-platform multiplayer design guidance](../../../multiplayer/multiplayer-design-guidance-cross-platform.md).
+The Multiplayer 2015 service, described in this article, is for advanced API usage. For an overview of multiplayer features when developing titles using the GDK,  see [Multiplayer overview](https://developer.microsoft.com/en-us/games/xbox/docs/gdk/multiplayer-intro), [Xbox and PC multiplayer design guidance](https://developer.microsoft.com/en-us/games/xbox/docs/gdk/multiplayer-design-guidance-xbox-pc-gdk), and [Cross-platform multiplayer design guidance](https://developer.microsoft.com/en-us/games/xbox/docs/gdk/multiplayer-design-guidance-cross-platform).
 
 > **Note**  
 The previous version of the multiplayer system is Multiplayer 2014.
