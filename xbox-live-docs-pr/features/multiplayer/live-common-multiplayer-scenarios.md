@@ -1,11 +1,10 @@
 ---
 title: Common multiplayer scenarios
 description: Which Xbox Live functionality supports various multiplayer scenarios, including Comparative (Indirect) Play, Online Play with friends, and Skill-Based Matchmaking.
-kindex: Common multiplayer scenarios
-kindex: multiplayer
+kindex: Common multiplayer scenarios, multiplayer
 ms.topic: conceptual
 ms.prod: gaming
-ms.technology: xboxlive
+ms.technology: xboxservices
 ms.assetid: 470914df-cbb5-4580-b33a-edb353873e32
 ms.localizationpriority: medium
 ms.date: 04/04/2017
@@ -17,9 +16,9 @@ There are many different types of multiplayer scenarios, and choosing the right 
 
 Even games that are mostly single-player experiences can benefit from competitive Xbox Live features such as Leaderboards, Stats, or Social elements.
 
-The following list describes some of the more common multiplayer scenarios that you can implement with Xbox Live.
-The list is ordered in terms of complexity and amount of work required to implement and test, and you should consider these factors when deciding on type scenarios that you want your game to support.
+The following list describes some of the more common multiplayer scenarios that you can implement with Xbox services. If you're looking to combine both Xbox Live and PlayFab offerings, see [Multiplayer overview (secure site)](https://aka.ms/gdkdocs).
 
+The list is ordered in terms of complexity and amount of work required to implement and test, and you should consider these factors when deciding on type scenarios that you want your game to support.
 
 ## Comparative (Indirect) Play
 
@@ -79,7 +78,7 @@ Parental controls that limit interactions with strangers are also enforced throu
 
 This type of multiplayer can be achieved by using the following Xbox Live services:
 
-* Multiplayer Manager
+* Multiplayer Session Directory (MPSD) or Multiplayer Manager (MPM)
 * Presence
 * Stats
 * Social Manager
@@ -105,7 +104,7 @@ A session list is most effective when games have a small active multiplayer comm
 
 This type of multiplayer can use similar services as the previous scenario:
 
-* Multiplayer Manager
+* Multiplayer Session Directory (MPSD)
 * [Multiplayer session browse](concepts/live-session-browse.md)
 * Presence
 * Stats
@@ -119,22 +118,20 @@ Testing this scenario requires a large set of Xbox Live accounts and devices to 
 This scenario is similar to the Session List scenario, however it diverges from it in important points.
 Instead of a game list in the title the platform provides functionality to list game sessions outside the game.
 
-These "Looking For Group" advertisements are aimed to provide a more social experience and include gameplay, skill, and social relationship restrictions.
+These "Looking For Group (LFG)" advertisements are aimed to provide a more social experience and include gameplay, skill, and social relationship restrictions.
 This allows a game to provide an improved experience over session lists and also gives the creator of the session more control.
 
 The player who created the "looking for group" session can approve or deny requests to join their group from other players.
 This allows gamers to find other gamers that share their playstyle preferences.
 
-The Xbox Live LFG service is new for 2016, and preview APIs are expected to be available for titles in May.
-
 This type of multiplayer can use similar services as the previous scenario:
 
-* Multiplayer Manager
+* Multiplayer Session Directory (MPSD)
 * Xbox Looking for Group
 * Presence
 * Stats
 * Social Manager
-* LFG service
+* Xbox Live LFG service
 
 Testing this scenario requires a large set of Xbox Live accounts and devices to test.
 
@@ -158,7 +155,7 @@ These checks ensure that the network connectivity between two players is suffici
 This is different than in the Online Play with friends scenario since it is possible to repeat matchmaking and find other players in case of a bad network connection.
 
 This type of multiplayer can use similar services as the previous scenario:
-* Multiplayer Manager
+* Multiplayer Session Directory (MPSD)
 * Presence
 * Stats
 * Social Manager
@@ -182,7 +179,7 @@ Xbox Live SmartMatch provides a set of rules that can be used for skill-based ma
 
 This type of multiplayer can use similar services as the previous scenario:
 
-* Multiplayer Manager
+* Multiplayer Session Directory (MPSD)
 * Presence
 * Stats
 * Social Manager
