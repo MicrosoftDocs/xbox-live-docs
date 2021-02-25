@@ -12,7 +12,7 @@ ms.date: 12/17/2020
 
 Use this topic to set up two console products that share the Xbox Live service configuration.  
 
->![alert](note.gif) **NOTE:** Please contact your Microsoft account manager to begin using the Xbox Live Game Binding feature. 
+>[!NOTE] Please contact your Microsoft account manager to begin using the Xbox Live Game Binding feature. 
 
 <a name="_Setting_up_and"></a>
 
@@ -35,7 +35,7 @@ This method is ideal if you want to keep your userbase intact across multiple co
 
 You can use Xbox Live Game Binding for a seamless gaming experience for users who purchase multiple versions of the title and want to resume game progression and achievement unlocks.  
 
->![alert](note.gif) **NOTE:** This doesn't require any changes to the primary title, and you can flexibly add a secondary version later.
+>[!NOTE] This doesn't require any changes to the primary title, and you can flexibly add a secondary version later.
   
   
 ## Policy and use of Xbox Live Game Binding
@@ -45,14 +45,14 @@ The following are policies you're required to agree to before using Xbox Live Ga
  * The title only binds console products together, such as the Xbox Series version of the title to the Xbox One version of the title. 
  * The title only selects the platforms it's using for game binding in Partner Center. 
    * There's special work that must be done to support cross-generational play. 
-   >![alert](note.gif) **NOTE:** If the title only supports the Xbox One family of consoles for the binding, we don't recommend selecting the Xbox Series family of consoles as a supported platform. As a workaround, you can add the cross-generational play capability to your multiplayer configuration.
+   > [!NOTE] If the title only supports the Xbox One family of consoles for the binding, we don't recommend selecting the Xbox Series family of consoles as a supported platform. As a workaround, you can add the cross-generational play capability to your multiplayer configuration.
  * All titles that share the primary title configuration are close to carbon copies of the original, or they're the same title with a stripped-down experience. 
    * Ensure that there's a clear distinction between the product offerings in the store to set the right expectation with users. 
  * Once the secondary product has released to GA, it can't be unbound. Binding and unbinding titles is only supported while the secondary product is in production and isn't released to users. 
  * Titles are comfortable with Xbox Live changes that are made to bound products.
  * No versions are currently running on Windows PC.
 
->![alert](note.gif) **NOTE:** There are plans to expand the scope and offerings of this feature. 
+> [!NOTE] There are plans to expand the scope and offerings of this feature. 
 
 ## What if you want to use Xbox Live Game Binding with Windows PC?
 
@@ -74,7 +74,7 @@ For our testing, it was essential that all products were in a working state duri
 
 Use the following sections and steps to set up and configure your title for Xbox Live Game Binding. This process requires work on the secondary product, but it doesn't require work for the primary product.  
 
->![alert](note.gif) **NOTE:** Don't start configuring your product for Xbox Live Game Binding until the feature team has onboarded customers to use the feature.
+>[!NOTE] Don't start configuring your product for Xbox Live Game Binding until the feature team has onboarded customers to use the feature.
 
 ### Entering the flight 
   
@@ -103,21 +103,21 @@ Now it's time to set up your secondary product with access to the Xbox Live conf
     * Ensure that you meet the criteria for game binding in your business justification.
     * After approval from your Microsoft account manager, both of your products are Xbox Live-enabled.
  1. When selecting the correct platforms for your secondary product, ensure that **Windows 10 PC** isn't selected. Windows PC isn't supported for Xbox Live Game Binding. 
-    >![alert](note.gif) **NOTE:** If you want to use cross-generational play with your product, ensure that you've added that capability in Partner Center.
+    >[!NOTE] If you want to use cross-generational play with your product, ensure that you've added that capability in Partner Center.
  1. From your secondary product, select **Xbox Live** > **Gameplay settings**. 
  1. From the top-right of the page, select **Bind Configuration** as shown in the following screenshot.
     >![Screenshot of the Bind Configuration button in Partner Center](../images/game_binding/Gameplay_settings.png)
  1. After selecting **Bind Configuration**, use the details on the page to bind your secondary product to your primary product. Enter the Product Name or Store ID of the primary product, and then select **Save** as shown in the following screenshot.  
     >![Screenshot of the Bind Configuration window in Partner Center](../images/game_binding/Bind_Config.png)
  1.	After selecting **Save**, an internal process sets up your secondary title. 
-    >![alert](note.gif) **NOTE:** This process doesn't impact the primary product, and it only makes changes to the secondary product’s configuration as shown in the following screenshot.  
+    >[!NOTE] This process doesn't impact the primary product, and it only makes changes to the secondary product’s configuration as shown in the following screenshot.  
     >![Screenshot of the binding process for the secondary product in Partner Center](../images/game_binding/Secondary_Binding.png) 
  
 After the process completes, the page refreshes with the Xbox Live configuration of the primary product shown within the secondary, and it will remain as read-only.  
 
 To edit the configuration, select the **Edit** button. This button takes you to the primary product to make changes. Changes that are made to a Xbox Live configuration impact both versions of the title.  
 
->![alert](note.gif) **NOTE:** If you want to unbind the products, you can do so via the **Unbind Configuration** button. This option restores your previous Xbox Live configuration for the secondary product.  
+>[!NOTE] If you want to unbind the products, you can do so via the **Unbind Configuration** button. This option restores your previous Xbox Live configuration for the secondary product.  
 >  
 >If you want to bind another product to your primary product, complete the steps above for a new secondary product.  
 
@@ -135,7 +135,7 @@ If your secondary title is built by using the Microsoft Game Development Kit (GD
 
 If your secondary title is built by using the Xbox Development Kit (XDK), use the Identity, TitleID and SCID in the *Package.appmanifest* file that's found on the **Xbox Live configuration** page. 
 
->![alert](note.gif) **NOTE:** Within the configuration of the secondary product, please ensure that you only test in sandboxes that are configured and set up in the configuration of the primary product. For example, testing Xbox Live features won't work if Xbox Live isn't configured in that sandbox. 
+>[!NOTE] Within the configuration of the secondary product, please ensure that you only test in sandboxes that are configured and set up in the configuration of the primary product. For example, testing Xbox Live features won't work if Xbox Live isn't configured in that sandbox. 
 
 ## Frequently Asked Questions
   
