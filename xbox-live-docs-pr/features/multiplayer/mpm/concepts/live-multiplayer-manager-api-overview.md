@@ -3,8 +3,6 @@ title: Multiplayer Manager API overview
 description: The most important classes and methods in the Multiplayer Manager API.
 kindex: Multiplayer Manager API overview
 ms.topic: conceptual
-ms.prod: gaming
-ms.technology: xboxlive
 ms.assetid: 658babf5-d43e-4f5d-a5c5-18c08fe69a66
 ms.localizationpriority: medium
 ms.date: 04/04/2017
