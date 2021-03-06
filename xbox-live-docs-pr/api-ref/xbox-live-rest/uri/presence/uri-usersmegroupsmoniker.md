@@ -22,7 +22,7 @@ The domain for these URIs is `userpresence.xboxlive.com`.
  
 | Parameter| Type| Description| 
 | --- | --- | --- | 
-| moniker| string| String defining the group of users. The only accepted moniker at present is "People", with a capital 'P'.| 
+| moniker| string| String defining the group of users. The only accepted moniker at present is "People" with an uppercase 'P'.| 
   
 <a id="ID4ERB"></a>
 

@@ -41,7 +41,7 @@ Retrieves the count of the broadcasting users specified by the groups moniker re
 | Parameter| Type| Description| 
 | --- | --- | --- | 
 | xuid| string| Xbox User ID (XUID) of the user related to the XUIDs in the Group.| 
-| moniker| string| String defining the group of users. The only accepted moniker at present is "People", with a capital 'P'.| 
+| moniker| string| String defining the group of users. The only accepted moniker at present is "People" with an uppercase 'P'.| 
   
 <a id="ID4EJB"></a>
 

@@ -81,7 +81,7 @@ To render a rich list of online users that are in the current user's people list
 * Favorite indicator [People]
 * Display picture [Profile]
 * GameDisplayName [Profile]
-* Basic online status (green ball) [Presence]
+* Basic online status (green circle) [Presence]
 
 
 **Call flow:**

@@ -29,7 +29,7 @@ The basic flow of generating a title gamerpic is as follows:
   
 The ability to set a title gamerpic is controlled by an enforcement-only privilege (211). If enforcement revokes the privilege, the user will be prevented from saving a title gamerpic, and the service will return 403. Titles should call CheckPrivilege to verify that users are permitted to share content (priv 211).
  
-Presently, in order to use this service, your title must be whitelisted. To request approval, email `slsgamerpics@microsoft.com`.
+Presently, in order to use this service, your title must be allow listed. To request approval, email `slsgamerpics@microsoft.com`.
  
 <a id="ID4EGC"></a>
 

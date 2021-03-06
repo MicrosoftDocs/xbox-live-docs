@@ -49,7 +49,7 @@ None of the APIs below accept any query parameters.
 
 ### Combined Content Rating Generator
 
-Enforcing parental controls over the content children are allowed to see is a complicated task. Not only does each media item type have its own rating system, but those rating systems can vary from country to country. This means that there are several different pieces of data that need to be specified to properly filter all items.
+Enforcing parental controls over the content children are allowed to see is a complicated task. Not only does each media item type have its own rating system, but those rating systems can vary from country/region to country/region. This means that there are several different pieces of data that need to be specified to properly filter all items.
 
 Instead of specifying all of the parameters in all API calls, this API generates a value to pass into combinedContentRating parameters in other APIs and still communicate the same information. This is designed to make the APIs easier to use and maintain, as the several parameters passed into this API are collapsed into a single, reusable value for the other APIs.
 
