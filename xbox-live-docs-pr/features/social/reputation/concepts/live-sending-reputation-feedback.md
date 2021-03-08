@@ -251,7 +251,7 @@ We are always adjusting the weights to make the system better.
 ### Q: Can I undo feedback I've sent on a user?
 
 A: No, feedback is final.
-If you believe your title has a bug and is sending erroneous feedback, let us know and we'll blacklist your title until you fix the bug.
+If you believe your title has a bug and is sending erroneous feedback, let us know and we'll deny list your title until you fix the bug.
 
 
 ### Q: Can I see the feedback sent for my title from users?

@@ -5,11 +5,9 @@ kindex: Xbox Live multiplayer overview
 author: joanlee
 ms.author: joanlee
 ms.topic: conceptual
-ms.prod: gaming
-ms.technology: xboxservices
 ms.localizationpriority: medium
 ms.date: 01/17/2021
-edited: 01/17/2021
+
 ---
 
 # Xbox Live multiplayer overview

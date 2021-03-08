@@ -40,7 +40,7 @@ Retrieves the users in the group specified by the moniker related to the user in
  
 | Parameter| Type| Description| 
 | --- | --- | --- | 
-| moniker| string| String defining the group of users. The only accepted moniker at present is "People", with a capital 'P'.| 
+| moniker| string| String defining the group of users. The only accepted moniker at present is "People" with an uppercase 'P'.| 
   
 <a id="ID4EJB"></a>
 

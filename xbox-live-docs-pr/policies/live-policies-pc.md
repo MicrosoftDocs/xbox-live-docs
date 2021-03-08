@@ -1,31 +1,31 @@
 ---
 title: Xbox Live Policies for PC and mobile
-description: Policies for adding Xbox Live to a PC or mobile game.
+description: Policies for adding Xbox Live to a PC, mobile or Creators Program game.
 kindex: Xbox Live Policies for PC and mobile
 ms.topic: conceptual
 ms.localizationpriority: high
-ms.date: 12/12/2020
+ms.date: 3/1/2021
 ---
 
-# Xbox Live Policies for PC and mobile
+# Xbox Live Policies for PC, Mobile, and Creators Program
 
-Version 2.2
+Version 2.3
 
 
 ## Introduction
 
-The following policies apply when Xbox Live is integrated into a mobile, PC, or console device other than the Xbox One console.
+The following policies apply when Xbox Live is integrated into a mobile, PC, or console device other than an Xbox console.
 
->If your game is targeting Xbox One, see [Xbox Requirements](https://developer.microsoft.com/games/xbox/partner/certification-requirements) for the Xbox Live and Xbox Policies which apply on that platform. If you have trouble accessing that page, please contact your Microsoft representative. Interested in bringing your PC/Mobile game to Xbox One console? Visit the [ID@Xbox program](https://www.xbox.com/Developers/id) for more information on how to apply.
+>If your game is targeting an Xbox console, see [Xbox Requirements](https://developer.microsoft.com/games/xbox/partner/certification-requirements) for the Xbox Live and Xbox Policies which apply on that platform. If you have trouble accessing that page, please contact your Microsoft representative. Interested in bringing your PC/Mobile game to an Xbox console? Visit the [ID@Xbox program](https://www.xbox.com/Developers/id) for more information on how to apply.
 >
->For developers in the Xbox Live Creators Program, visit the[ Microsoft Store Policies](https://docs.microsoft.com/legal/windows/agreements/store-policies) for all policies relating to the submission of your game to the Store across all Microsoft Devices (PC, Xbox One, Hololens, etc). Note that there are additional requirements for apps that are primarily gaming experiences or target the Xbox One console, detailed in the section titled "Gaming and Xbox". Xbox Live on devices not supported by the Microsoft Store is not available to the Creators Program at this time. Visit the [Xbox Live Creators Program](https://www.xbox.com/developers/creators-program/) for information on getting started.
+>For developers in the Xbox Live Creators Program, in addition to the Xbox Live Policies below (for supported features in the creators program) visit the[ Microsoft Store Policies](https://docs.microsoft.com/legal/windows/agreements/store-policies) for store policies relating to the submission of your game to the Store across all Microsoft Devices (PC, Xbox consoles, Hololens, etc). Note that there are additional requirements for apps that are primarily gaming experiences or target Xbox consoles, detailed in the section titled "Gaming and Xbox". Xbox Live on devices not supported by the Microsoft Store is not available to the Creators Program at this time. Visit the [Xbox Live Creators Program](https://www.xbox.com/developers/creators-program/) for information on getting started.
 >
 Adherence to these integration policies will ensure successful deployment of Xbox Live in your game and consistent implementation across the gaming ecosystem. Failure to adhere to these policies may result in revocation of access to the Xbox Live service by your title.
 
 
 ## Store policies
 
-Games which use Xbox Live are still subject to the store polices for the application platforms which they  submit their game to. For Microsoft Store, the store policies are located [here](https://docs.microsoft.com/legal/windows/agreements/store-policies). For developers not in the Xbox Live Creators program, the policies on this page supercede store policies 10.13.5, 10.13.6, 10.13.7, 10.13.8, 10.13.9, and 10.13.11.
+Games which use Xbox Live are still subject to the store polices for the application platforms which they  submit their game to. For Microsoft Store, the store policies are located [here](https://docs.microsoft.com/legal/windows/agreements/store-policies). 
 
 For PC games submitted to the Microsoft Store which have Xbox Live, there will be pre release testing to ensure that the Xbox Live implementation functions correctly and that parental controls are respected prior to release.  This testing will occur in parallel to normal store testing, adding no additional delays to your publishing timeline on the Microsoft Store.  
 
@@ -71,7 +71,7 @@ Titles must use the naming standards defined in the latest release of the [Xbox 
 
 ### Display Name and Gamerpic (XR-046)
 
-On Xbox One, titles must use the Gamertag function to display the user's gamertag as their primary display name. 
+On Xbox consoles, titles must use the Gamertag function to display the user's gamertag as their primary display name. 
 
 On non console platforms, while not required, we recommend you use the Xbox Live player's gamertag in the appropriate locations within the game title's experience. 
 
@@ -199,7 +199,7 @@ The requirements in this category pertain to game titles that provide multiplaye
 
 On Xbox consoles, titles that offer joinable game sessions must enable joinability through the Xbox shell interface. 
 
-On devices other than Xbox consoles, titles which offer cross platform multiplayer with Xbox consoles must enable joins through the Game Bar experience.
+Titles that offer cross platform multiplayer with Xbox consoles from PC devices using Xbox sign in must also enable joins through the Game Bar experience.
 
 ### [Maintaining Multiplayer Session State (XR-067)](xr/live-pc-xr067.md)
 

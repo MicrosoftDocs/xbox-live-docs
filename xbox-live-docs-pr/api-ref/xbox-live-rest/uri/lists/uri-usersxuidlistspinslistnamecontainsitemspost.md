@@ -83,7 +83,7 @@ The service returns one of the status codes in this section in response to a req
 | 404| Not Found | The caller does not have access to the resource. This indicates that no such list has been created.| 
 | 412| Precondition Failed | Indicates that the version of the list has changed and a modify request has failed. A modify request is an insert, update, or remove. The service checks the <b>If-Match</b> header for the list version. If it does not match the current version of the list, then the operation fails and this is returned along with the current list metadata (which includes the current version). | 
 | 500| Internal Server Error | The service is refusing the request due to a server-side error.| 
-| 501| Not Implemented | The caller requested a URI that has not been implemented on the server. (Currently only used when a request is made for a list name that is not whitelisted.)| 
+| 501| Not Implemented | The caller requested a URI that has not been implemented on the server. (Currently only used when a request is made for a list name that is not allow listed.)| 
 | 503| Service Unavailable | The server is refusing the request, usually due to excessive load. After a delay (see the <b>Retry-after</b> header), the request can be retried. | 
   
 <a id="ID4EVAAC"></a>

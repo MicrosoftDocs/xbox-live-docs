@@ -64,7 +64,7 @@ The request body is an array of strings, with no limits on the size of the array
     [
         "Poppycock",
         "The quick brown fox jumped over the lazy dog.",
-        "Hey, want to hang out?",
+        "Hey, want to play games together?",
         "oh noes"
     ]
 }

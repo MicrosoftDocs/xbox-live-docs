@@ -23,7 +23,7 @@ To join the Xbox Live Creators Program:
    
    ![Registration Account info initial page](live-join-creators-program-images/reg-acct-info-short-pg.jpg)
 
-2. In the **Account country/region** drop-down list, pick a country.
+2. In the **Account country/region** drop-down list, select a country/region.
 
    Additional sections are added to the page:
 
