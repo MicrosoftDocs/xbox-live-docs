@@ -12,17 +12,20 @@ ms.date: 03/18/2019
 
 # XR-067: Maintaining Multiplayer Session State &diams;
 
-On Xbox consoles, titles with online multiplayer functionality must maintain session-state information in the Xbox Multiplayer Session Directory (MPSD).
 
-On devices other than Xbox consoles, titles which offer cross-platform multiplayer functionality with Xbox consoles must maintain session-state information in the Xbox Multiplayer Session Directory (MPSD).
+On Xbox consoles, titles with online multiplayer functionality must maintain session-state information on Xbox Live.  Titles do this through the Xbox Multiplayer Session Directory (MPSD) or if a title has their own multiplayer session state functionality, they may choose to instead record player interactions using the Multiplayer Activity Recent Player feature.
+
+On devices other than Xbox consoles, titles which offer cross platform multiplayer with Xbox consoles must maintain session-state information in the Xbox Multiplayer Session Directory (MPSD).   If they have their own session state functionality,  they may choose to instead record player interactions using the Multiplayer Activity Recent Player feature.
 
 ## More Information
 When multiple users are playing together in a networked experience, that grouping of players must have at least one session in the MPSD containing all the players. When a session is in interactive multiplayer gameplay, the gameplay capability in the multiplayer session must be set to True.  As players join and leave the experience, they must be added to and removed from the MPSD session, respectively.
 
 Intent: Ensure that the Xbox system is aware of the users who are playing together online. This information is used to support the recent players list, player feedback, usage reporting, and other platform features.
 
+If a title does not require MPSD to function and instead uses the Multiplayer Activity Recent Players feature, it is assumed that the title will record all meaningful interactions that occur in gameplay. Those interactions may include all players in a gameplay session, or a subset of players if the gameplay session is large and players interactions are limited to a smaller set of the total players.
 
-## Implementation Guidance and Best Practices
+For information on MPSD using Game Core, read the [Multiplayer Session Directory overview](https://developer.microsoft.com/games/xbox/docs/gdk/live-mpsd-overview)
+
 
 ## Additional Resources
 
