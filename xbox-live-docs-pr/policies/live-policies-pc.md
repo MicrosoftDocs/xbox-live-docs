@@ -71,13 +71,18 @@ Titles must use the naming standards defined in the latest release of the [Xbox 
 
 ### Display Name and Gamerpic (XR-046)
 
-On Xbox consoles, titles must use the Gamertag function to display the user's gamertag as their primary display name. 
+On Xbox consoles, titles must use the Gamertag as their primary display name.
+Based on development architecture and design choice titles can choose between the player’s modern gamertag (Game Core) or their classic gamertag (ERA or Game Core)
 
-On non console platforms, while not required, we recommend you use the Xbox Live player's gamertag in the appropriate locations within the game title's experience. 
+On non console platforms, while not required, we recommend you use the Xbox Live player’s gamertag in the appropriate locations within the game title’s experience.
 
-If titles show the user's gamerpic, the corresponding GameDisplayPic function must be used. These items are returned by the get_user_profile or GetUserProfileAsync Xbox Live APIs. When the gamertag is displayed, all 15 characters of any gamertag must be displayed correctly. Gamertags can include only ASCII characters a--z, A--Z, 0--9, comma (,), and space (ASCII character 0x20).
+The gamertag used must be displayed correctly in the title based on the gamertag type used:
 
+* **Modern Gamertag:**  Display all 16 characters of the unique modern gamertag, which includes up to 12 characters of the modern gamertag, followed by # and the suffix number (if present). For example: Major Nelson (no suffix present) or Major Nelson#881. If modern gamertags are used, all Unicode character ranges available for modern gamertags must be supported. For more modern gamertag information and best practices visit the Game Core development documentation article 'Overview of modern gamertags'
+* **Classic Gamertag:**  Correctly display all 15 characters of the classic gamertag. Classic gamertags include only ASCII characters a–z, A–Z, 0–9, comma (,), and space (ASCII character 0x20). For example: Major Nelson
 
+In Game Core these items are returned using the **XUserGetGamertag** API.  In ERA the gamertag is obtained using the **GetUserProfileAsync** API.
+ 
 ### [Profile Settings Usage (XR-048)](xr/live-pc-xr048.md)
 
 The Xbox Live service is the source for Xbox Live user profile information. Games must not store user information sourced from Xbox Live, such as profile data, preferences, or display names, beyond a locally stored cache used to support loss of network connectivity. Any such caches must be updated on the next available connection to the service. 
@@ -126,6 +131,9 @@ Xbox Live promises users a certain level of privacy and online safety for themse
 |Shared gaming sessions|189|XPRIVILEGE_SESSIONS|Allows a user to participate in connected single-player experiences in shared environments. These experiences must not have any features covered under privilege 252 or 254 (Communications and Multiplayer, respectively). Use of this privilege is a title capability that requires platform approval.|
 |User-generated content (UGC)|247|XPRIVILEGE_USER_CREATED_CONTENT|Allows a user to see other users' UGC online, download other users' UGC, or share their own UGC online. This does not restrict usage of previously downloaded UGC. |
 |Sharing to a social network|220|XPRIVILEGE_SOCIAL_NETWORK_SHARING|Xbox One Only: Allows a user to share information, including game progress, Kinect-generated content, game clips, and so on outside of Xbox Live.|
+
+
+Free to play titles, demos, or betas can be configured to allow multiplayer gameplay (ID 254) for players who are not Xbox Live Gold subscribers.  This is done via a service side configuration and can be initiated by contacting your Microsoft representative.  These titles must continue to check for the multiplayer game privilege to ensure that parental controls and player choices are respected.
 
 
 ### [Managing Player Communication (XR-015)](xr/live-pc-xr015.md)
@@ -201,8 +209,10 @@ On Xbox consoles, titles that offer joinable game sessions must enable joinabili
 
 Titles that offer cross platform multiplayer with Xbox consoles from PC devices using Xbox sign in must also enable joins through the Game Bar experience.
 
+
 ### [Maintaining Multiplayer Session State (XR-067)](xr/live-pc-xr067.md)
 
-On Xbox consoles, titles with online multiplayer functionality must maintain session-state information in the Xbox Multiplayer Session Directory (MPSD). 
+On Xbox consoles, titles with online multiplayer functionality must maintain session-state information on Xbox Live.  Titles do this through the Xbox Multiplayer Session Directory (MPSD) or if a title has their own multiplayer session state functionality, they may choose to instead record player interactions using the Multiplayer Activity Recent Player feature.
 
-On devices other than Xbox consoles, titles which offer cross platform multiplayer with Xbox consoles must maintain session-state information in the Xbox Multiplayer Session Directory (MPSD).
+On devices other than Xbox consoles, titles which offer cross platform multiplayer with Xbox consoles must maintain session-state information in the Xbox Multiplayer Session Directory (MPSD).   If they have their own session state functionality,  they may choose to instead record player interactions using the Multiplayer Activity Recent Player feature.
+
