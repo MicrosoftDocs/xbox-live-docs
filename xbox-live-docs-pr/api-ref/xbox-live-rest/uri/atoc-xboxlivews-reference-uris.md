@@ -28,6 +28,7 @@ This section provides detail about the Uniform Resource Identifiers (URIs) and H
 | [Lists URIs](lists/atoc-reference-lists.md) | URIs and associated HTTP methods for PINs. |
 | [Marketplace URIs](marketplace/atoc-reference-marketplace.md) | URIs and associated HTTP methods for Xbox marketplace services. |
 | [Matchmaking URIs](matchtickets/atoc-reference-matchtickets.md) | URIs and associated HTTP/REST methods for matchmaking. |
+| [Multiplayer Activity URIs](multiplayeractivity/atoc-reference-multiplayer-activity.md) | URIs and associated HTTP/REST methods for multiplayer activity. |
 | [People URIs](people/atoc-reference-people.md) | URIs and associated HTTP methods the people system. |
 | [Presence URIs](presence/atoc-reference-presence.md) | URIs and associated HTTP methods for presence. |
 | [Privacy URIs](privacy/atoc-reference-privacyv2.md) | URIs and associated HTTP methods for privacy. |
