@@ -2,7 +2,6 @@
 title: Xbox Live test accounts
 description: Creating accounts for testing your Xbox Live-enabled game during development.
 kindex: Xbox Live test accounts
-kindex: test accounts
 ms.topic: article
 ms.localizationpriority: medium
 ms.assetid: e8076233-c93c-4961-86ac-27ec74917ebc
@@ -60,9 +59,9 @@ You can click on "Create a new account(s)" and you will enter a two page wizard 
 ![Partner Center new test account wizard page 2](live-test-accounts-images/testaccount-creation2.JPG)
 
 To view or edit a batch, select the batch name. You will need to wait until creation or update processes have completed before viewing your batch details. You can edit the batch keywords, sandboxes and the expiry date of the sandbox access. On the expiration date, the test accounts in the batch will no longer have access to any sandboxes.
-![Partner Center test account index page](live-test-accounts-images/testaccount-properties.JPG)
+![Partner Center test account batch properties page](live-test-accounts-images/testaccount-properties.JPG)
 You can then navigate to see the underlying test accounts using the batch accounts left nav option, or click "View batch accounts". There you can search or scroll through the Xbox Live Test Accounts of the batch.
-![Partner Center test account index page](live-test-accounts-images/testaccount-batch-accounts.JPG)
+![Partner Center batch test accounts](live-test-accounts-images/testaccount-batch-accounts.JPG)
 
 ## Exporting Test Accounts
 
