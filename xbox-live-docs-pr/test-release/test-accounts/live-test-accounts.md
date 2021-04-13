@@ -53,20 +53,16 @@ Screenshot showing where to find this:
 Once you click on "Xbox test accounts", you will see a summary of any existing test account batches if you have any.
 You also have the option to create new test accounts.
 
-![Partner Center test account editing and creation screenshot](live-test-accounts-images/testaccount_summary.JPG)
+![Partner Center test account main page screenshot](live-test-accounts-images/testaccount-index.JPG)
 
-You can click on "Create a new account(s)" and you will enter a two page wizard flow to create test accounts.
-
-![Partner Center new test account dialogue box screenshot 1](live-test-accounts-images/testaccount_new.JPG)
-
-![Partner Center new test account dialogue box screenshot 2](live-test-accounts-images/testaccount_new2.JPG)
-
-You can select sandboxes you would like the Test Accounts created within the batch to gain access to. If you do not see any sandbox options available ask your manager to provide you sandbox access.
+You can click on "Create a new account(s)" and you will enter a two page wizard flow to create test accounts. You can select sandboxes you would like the Test Accounts created within the batch to gain access to. If you do not see any sandbox options available ask your manager to provide you sandbox access.
+![Partner Center new test account wizard page 1](live-test-accounts-images/testaccount-creation1.JPG)
+![Partner Center new test account wizard page 2](live-test-accounts-images/testaccount-creation2.JPG)
 
 To view or edit a batch, select the batch name. You will need to wait until creation or update processes have completed before viewing your batch details. You can edit the batch keywords, sandboxes and the expiry date of the sandbox access. On the expiration date, the test accounts in the batch will no longer have access to any sandboxes.
-
+![Partner Center test account index page](live-test-accounts-images/testaccount-properties.JPG)
 You can then navigate to see the underlying test accounts using the batch accounts left nav option, or click "View batch accounts". There you can search or scroll through the Xbox Live Test Accounts of the batch.
-
+![Partner Center test account index page](live-test-accounts-images/testaccount-batch-accounts.JPG)
 
 ## Exporting Test Accounts
 
