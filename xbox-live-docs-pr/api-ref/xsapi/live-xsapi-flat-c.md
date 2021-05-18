@@ -17,7 +17,7 @@ The C API does not yet cover all XSAPI features, but additional features are bei
 All three API layers (C, C++, and WinRT) will continue to be supported and have additional features added over time.
 
 > [!NOTE]
-> The C APIs currently only work with titles that use the Xbox Developer Kit (XDK). They do not support UWP games at this time.
+> The C APIs currently only work with titles that use the GDK and XDK. They do not support UWP games at this time.
 
 
 ## Features covered by the C APIs
@@ -76,7 +76,7 @@ However, only the C APIs can take advantage of the custom memory and thread mana
 
 ## Where to view the C APIs
 
-<!-- todo: link to the XSAPI C API Reference -->
 - The XSAPI C header files (included in the Xbox Live SDK)
+- [XSAPI C API reference (secure link)](https://developer.microsoft.com/en-us/games/xbox/docs/gdk/atoc-xsapi-c)
 - <a href="https://github.com/Microsoft/xbox-live-samples" target="_blank">Sample code using the new C APIs &#11008;</a>
 - <a href="https://github.com/Microsoft/libHttpClient" target="_blank">libHttpClient &#11008;</a>

@@ -79,6 +79,7 @@ Parental controls that limit interactions with strangers are also enforced throu
 
 This type of multiplayer can be achieved by using the following Xbox Live services:
 
+* Multiplayer Activity (MPA)
 * Multiplayer Session Directory (MPSD) or Multiplayer Manager (MPM)
 * Presence
 * Stats
@@ -114,7 +115,7 @@ This type of multiplayer can use similar services as the previous scenario:
 Testing this scenario requires a large set of Xbox Live accounts and devices to test accurately. Developers should note that true player dynamics for session lists can only be tested with large player bases.
 
 
-## Online Play though Looking for group
+## Online Play through Looking for group
 
 This scenario is similar to the Session List scenario, however it diverges from it in important points.
 Instead of a game list in the title the platform provides functionality to list game sessions outside the game.
@@ -125,14 +126,12 @@ This allows a game to provide an improved experience over session lists and also
 The player who created the "looking for group" session can approve or deny requests to join their group from other players.
 This allows gamers to find other gamers that share their playstyle preferences.
 
-This type of multiplayer can use similar services as the previous scenario:
+Title developers cannot implement this inside their game today, but rather enable its functionality out of game by advertising joinable activities 
+through other means. That implmentation is done via other similar services explained in previous scenarios:
 
+* Multiplayer Activity (MPA)
 * Multiplayer Session Directory (MPSD)
-* Xbox Looking for Group
 * Presence
-* Stats
-* Social Manager
-* Xbox Live LFG service
 
 Testing this scenario requires a large set of Xbox Live accounts and devices to test.
 
@@ -145,9 +144,9 @@ Instead of selecting friends, the game provides a simple matchmaking flow that a
 The matchmaking flow in this scenario is simple: players search and find other players without any significant matchmaking configuration.
 This scenario works best with a larger online audiences.
 
-**Reputation and block lists:**
-To match players together appropriately, any matchmaking should try to honor reputation and block lists on Xbox Live.
-The Xbox Live SmartMatch service handles these restrictions automatically.
+**Block lists:**
+To match players together appropriately, any matchmaking should try to honor block lists on Xbox Live.
+The Xbox Live SmartMatch service handles these restrictions automatically, and allows for opt out in ranked matchmaking where that is not desired.
 Honoring restrictions like these helps to ensure a safer and better experience for players.
 
 **QoS networking checks:**

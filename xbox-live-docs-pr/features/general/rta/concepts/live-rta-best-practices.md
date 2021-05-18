@@ -26,51 +26,36 @@ Once the connection has been established, your app can make requests to subscrib
 On a successful subscription, RTA will return the current value and some additional metadata, like type of statistic, as part of the response payload.
 Then, RTA will forward any updates that happen to the statistic while the client is subscribed.
 
-When your title doesn't require real-time updates on a statistic, it should terminate its subscription to that statistic.
+When your title doesn't require real-time updates on a statistic, it should stop tracking that statistic.
 
 
-## Handling Disconnects
+## Disconnects
 
 A title should be aware that when the authentication token for the user expires, the session will be terminated by the service.
-The title needs to be capable of detecting when such event happens, reconnect and re-subscribe to all the statistics it was previously subscribed to.
 
 RTA connections are closed after two hours by design, which will force the client to reconnect.
 This is done because the auth token for the connection is cached to save on message bandwidth.
 Eventually that token will expire.
 By closing the connection and forcing the client to reconnect, the client is forced to refresh the auth token.
 XSAPI will handle this for the title by proactively reconnecting to RTA and resubmitting subscriptions after 90 minutes.
-
 A client could also get disconnected due to a user's ISP having issues or when the process for the title is suspended.
-When this happens, a WebSocket event is raised to let the client know.
-In general, it is best practice to be able to handle disconnects from the service.
+
+In each of these cases, if the title has registered for RTA connection state changed events, a disconnected event will be raised. Note that in general, no action from the title is required upon disconnection, but the title may want to update UI to reflect that RTA connectivity has been lost. XSAPI will automatically try to reestablish the WebSocket connection and will automatically maintain any existing Real-Time activity service subscriptions.
 
 > [!WARNING]
-> If a client uses RTA for multiplayer sessions, and is disconnected for thirty seconds, the Multiplayer Session Directory (MPSD) detects that the RTA session is closed, and kicks the user out of the session. It's up to the RTA client to detect when the connection is closed and initiate a reconnect and resubscribe before the MPSD ends the session. See also [Multiplayer Session Directory overview](../../../multiplayer/mpsd/live-mpsd-overview.md).
-
-
-## Managing Subscriptions
-
-In relation to managing subscriptions when a token expires, your title should track at all times which subscriptions have been made.
-Upon successfully subscribing, RTA returns a unique identifier for each subscribed statistic.
-In all future updates to that statistic, the identifier will be used instead of the name of the statistic.
-This is done to save bandwidth.
-Clients are responsible for maintaining their own mapping of statistics to RTA subscription IDs.
-
+> If a client uses RTA for multiplayer sessions, and is disconnected for thirty seconds, the Multiplayer Session Directory (MPSD) detects that the RTA session is closed, and kicks the user out of the session. XSAPI will automatically reestablish the RTA connection, but it is the responsibility of the title to rewrite their MPSD sessions once the RTA subscription has been reestablished. See also [Multiplayer Session Directory overview](../../../multiplayer/mpsd/live-mpsd-overview.md).
 
 ## Unsubscribing
 
-Having unused subscriptions is not recommended.
-The service limits the number of subscriptions a user can have per title at a given time.
+Its not recommended to track statistics for which real-time updates aren't needed. 
+Each tracked statistic corresponds to an RTA subscription, and the service limits the number of subscriptions a user can have per title at a given time.
 If you are subscribing to everything and anything, you may hit that limit, and this may prevent subscription to some important statistics.
 (For more information about subscription limits, see **Throttles**, below.)
 
-For example, your title might only need a subscription to a certain scene.
-When the user enters that scene, your title should subscribe.
-When the user leaves that scene, those statistics should be unsubscribed.
-Similarly, there is an `unsubscribe-all` message that can be used if no subscriptions are needed.
-
-After unsubscribing, the subscription identifier for that statistic will no longer be used.
-
+For example, your title might only need updates for a statistic within a certain scene.
+When the user enters that scene, your title should track that statistic.
+When the user leaves that scene, your title should stop tracking the statistic.
+Similarly, if statistics change notifications are no longer needed at all, removing all statistic change handlers will automatically cause XSAPI to tear down the related RTA subscriptions.
 
 ## Awareness of Latent Items in the Queue
 

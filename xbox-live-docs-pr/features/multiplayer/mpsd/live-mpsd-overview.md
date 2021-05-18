@@ -117,7 +117,7 @@ Clients for your title disconnect from MPSD when the title disables notification
 Shortly after this call, the `MultiplayerSubscriptionsLost` event fires, indicating that a client has disconnected from MPSD.
 
 > [!NOTE]
-> In earlier multiplayer versions, titles called the `RealTimeActivityService.Disconnect` method to disconnect from the real-time activity service.
+> In earlier multiplayer versions, titles called `XblRealTimeActivityDeactivate` to disconnect from the real-time activity service.
 > For the 2015 Multiplayer, this method does nothing.
 > The disconnection occurs automatically after `DisableMultiplayerSubscriptions` is called, if there are no users of the web socket connection, for example, a real-time activity service subscription to presence.
 
@@ -129,6 +129,48 @@ An ungraceful disconnect might occur when a player's network fails, or when a ti
 
 MPSD changes the disconnected player's state from Active to Inactive, and notifies other session members of the change as appropriate, based on the members' subscriptions to the session.
 
+#### Handling RTA Reconnects
+
+Within the GDK, XSAPI will attempt to reconnect to RTA on disconnects and resubmit RTA subscriptions (see [Best Practices for the RTA service](../../general/rta/concepts/live-rta-best-practices.md)). Resubmitting the multiplayer RTA subscription will update the connection id used to associate a user in an MPSD session with a client RTA connection.
+
+XSAPI will notify the title that the MPSD connection id has changed via [XblMultiplayerAddConnectionIdChangedHandler (secure link)](https://developer.microsoft.com/en-us/games/xbox/docs/gdk/xblmultiplayeraddconnectionidchangedhandler). Inside the callback, the title will have to write the new connection id to the MPSD session. The new connection id can be written to the session by calling [XblMultiplayerSessionCurrentUserSetStatus (secure link)](https://developer.microsoft.com/en-us/games/xbox/docs/gdk/xblmultiplayersessioncurrentusersetstatus) and then writing to the session by calling [XblMultiplayerWriteSessionAsync (secure link)](https://developer.microsoft.com/en-us/games/xbox/docs/gdk/xblmultiplayerwritesessionasync). 
+
+<!-- DocsAddConnectionIdChangedHandler.md --> 
+```cpp
+void* context{ nullptr };
+XblFunctionContext connectionIdChangedFunctionContext = XblMultiplayerAddConnectionIdChangedHandler(
+    xblContextHandle,
+    [](void* context) {
+        XblMultiplayerSessionHandle sessionHandle; // Retrieve the MPSD session to update
+        XblMultiplayerSessionCurrentUserSetStatus(sessionHandle, XblMultiplayerSessionMemberStatus::Active);
+
+        auto asyncBlock = std::make_unique<XAsyncBlock>();
+        asyncBlock->queue = queue;
+        asyncBlock->context = nullptr;
+        asyncBlock->callback = [](XAsyncBlock* asyncBlock)
+        {
+            std::unique_ptr<XAsyncBlock> asyncBlockPtr{ asyncBlock };
+
+            XblMultiplayerSessionHandle sessionHandle;
+            HRESULT hr = XblMultiplayerWriteSessionResult(asyncBlock, &sessionHandle);
+            if (SUCCEEDED(hr))
+            {
+                // If the write call succeeds, the connection id has been updated and no further action is needed.
+            }
+            else
+            {
+                // If the write call fails, it is likely the user has been removed from the session.
+            }
+        };
+
+        auto hr = XblMultiplayerWriteSessionAsync(xblContextHandle, sessionHandle, XblMultiplayerSessionWriteMode::UpdateExisting, asyncBlock.get());
+        if (SUCCEEDED(hr))
+        {
+            asyncBlock.release();
+        }
+    }, 
+    context);
+```
 
 <a id="mpsd-handles-to-sessions"></a>
 

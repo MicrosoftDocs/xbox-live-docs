@@ -18,16 +18,15 @@ ms.assetid: f3a6c8bc-4f73-4b99-ac51-aadee73c8cfa
 Xbox Live provides extensive support for adding multiplayer functionality to your titles, allowing your game to connect Xbox Live members across the world.
 This includes rich matchmaking scenarios, the ability for a player to join a friend's game in progress, and more.
 
-However, implementing Xbox Live multiplayer by using the Multiplayer 2015 APIs directly can be a complex task, requiring a large degree of design and testing to verify that you are following the best practices, and meeting certification requirements.
+Implementing Xbox Live multiplayer by using the Multiplayer APIs directly can be a complex task, requiring a large degree of design and testing to verify that you are following the best practices, and meeting certification requirements.
 
 Multiplayer Manager makes it easy to add multiplayer functionality to your game by managing sessions and matchmaking, and by providing a state and event based programming model.
 
-Multiplayer Manager is a set of APIs designed to make it easy to implement multiplayer scenarios for your Xbox Live game.
+Multiplayer Manager is a set of APIs designed to make it easy to implement multiplayer scenarios for Xbox Live games with peer-hosted multiplayer designs.
+
 It provides an API that is oriented around common multiplayer scenarios such as playing multiplayer games with friends, handling game invites, handling join in progress, matchmaking, and more.
 
-Multiplayer Manager supports multiple local users and makes it easier for your title to integrate with Multiplayer Session Directory if you are using a third party matchmaking service.
-Many of these scenarios can be accomplished with just a few API calls.
-
+Multiplayer Manager supports multiple local users and makes it easier for your title to integrate with Multiplayer Session Directory if you are using a third party matchmaking service. Many of these scenarios can be accomplished with just a few API calls.
 
 ## Key Features
 
@@ -36,13 +35,17 @@ These are the main features of the Multiplayer Manager API:
 * Easy session management and Xbox Live Matchmaking
 * State and event based programming model.
 * Ensures Xbox Live Best Practices  along with being Multiplayer XR compliant.
-* Supports both Xbox One (or later) XDK and UWP titles.
-* Implements [Multiplayer 2015 flowcharts](https://developer.xboxlive.com/en-us/platform/development/education/Documents/Xbox%20One%20Multiplayer%202015%20Developer%20Flowcharts.aspx).
-* Works alongside the traditional Multiplayer 2015 APIs.
+* Implements Multiplayer 2015 flowcharts
+
 <!-- keep /en-us/ in URL else 404 
 .zip contains:
 Xbox_One_Multiplayer_2015_Developer_Flowcharts.pdf - 14 pages/diagrams
 Xbox_One_Multiplayer_2015_Developer_Flowcharts.vsd updated Nov. 7, 2016 -->
+
+Important notes about Multiplayer Manager API design:
+
+* Large MPSD sessions (>100 members) are not supported.
+* Targets only peer-hosted multiplayer designs. Titles with dedicated servers should use the [Multiplayer Activity Service](live-mpa-overview.md) or [Multiplayer Service APIs](live-mpsd-overview.md) and [service-to-service calls](live-title-service-calls-xbox-live.md) instead. 
 
 >**Important** - Your game must still implement required events for online multiplayer in order to pass certification.
 
@@ -211,11 +214,13 @@ A high-level overview of the API can be found at [Multiplayer Manager API overvi
 
 ## What Multiplayer Manager does not do
 
-While Multiplayer Manager makes it much easier to implement multiplayer scenarios and abstracts some of the data from the developer, there are a few things Multiplayer Manager does not handle, or is not best suited for:
+While Multiplayer Manager makes it much easier to implement multiplayer scenarios and abstracts some of the data from the developer, there are a few things Multiplayer Manager does not handle:
 * Persistent online server games, such as MMOs, or other game types that require large sessions (over 100 players in a session).
 * Server to server session management.
+* Throttling of MPSD calls to adhere to [Fine Grained Rate Limiting](live-fine-grained-rate-limiting.md).
+* Mixing of Multiplayer Service APIs and Multiplayer Manager APIs.
 
->Multiplayer Manager is not tied to any specific network technology, and should work with any network layer.
+> Multiplayer Manager is not tied to any specific network technology, and should work with any network communication layer.
 
 
 ## Next Steps
@@ -225,4 +230,4 @@ For a working example of the API, see either the C++ or WinRT *Multiplayer* samp
 The API documentation can be found in the C++ or WinRT guides in the `Microsoft::Xbox::Services::Multiplayer::Manager` namespace.
 You can also see the `multiplayer_manager.h` header.
 
-If you have any questions, feedback, or run into any issues using the Multiplayer Manager, contact your DAM or post a support thread on the forums at [https://forums.xboxlive.com](https://forums.xboxlive.com).
+If you have any questions, feedback, or run into any issues using the Multiplayer Manager, contact your Microsoft representative or post a support thread on the [Xbox developer forums (secure access link)](https://forums.xboxlive.com).

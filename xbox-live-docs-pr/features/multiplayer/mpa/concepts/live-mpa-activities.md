@@ -35,11 +35,13 @@ Activities contain the following information:
 
 Field | Purpose | Notes
 ------|---------|--------------
+`xuid` | The XboxUserId of the user who created the activity. | Used when querying activities only. Users can only set activity for themselves.
 `connectionString` | Title-defined string which is opaque to MPA. Contains information a title can use to connect to another player. | Must be less than 256 characters.
 `joinRestriction` | Represents who may see the connection string in this activity. See Privacy, below, for more details. | Must be `Public`, `Followed`, `InviteOnly`.
 `maxPlayers` | Maximum allowed players in this activity. | Optional. If specified, must be > 1 and <= 100.
 `currentPlayers` | Current number of players in this activity. | Optional. If specified, must be > 0 and <= 100.
 `groupId` | A title-defined Id. Players with the same groupID are recognized in MPA to be playing together. | Must be < 128 characters.
+`platform` | The platform on which the activity was created. | Used when querying activities only. The platform will be automatically inferred when setting an activity.
 
 ## Privacy
 A title may wish to allow only a subset of the users on its social graph to join
@@ -51,6 +53,14 @@ Value | Meaning
 `Public` | All players may join this activity.
 `Followed` | If the activity creator follows another player, that player may join.
 `InviteOnly` | No players may join this activity, unless responding to an invite.
+
+## Supporting crossplay activities
+
+When creating an activity in the GDK, titles may specify an `allowCrossplay` flag.
+If `false`, the GDK automatically fills the platform field of an invite with the
+current platform. If `true`, it leaves the platform field `null`, indicating that
+the invite is cross platform. The list of platforms allowed via crossplay is defined by title 
+configuration. Console generations are considered crossplay in this scenario.
 
 ## Retrieving activities
 When retrieving activities for other players, sometimes the connection string is

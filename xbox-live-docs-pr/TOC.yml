@@ -501,8 +501,6 @@
                   href: features/multiplayer/concepts/live-configure-the-multiplayer-service.md
                 - name: Multiplayer 2015 FAQ and troubleshooting
                   href: features/multiplayer/concepts/live-multiplayer-2015-faq.md
-                - name: Changing a game from 2014 to 2015 Multiplayer
-                  href: features/multiplayer/concepts/live-issues-changing-to-mp-2015.md
                 - name: Migrating an arbiter
                   href: features/multiplayer/concepts/live-migrating-an-arbiter.md
             - name: Multiplayer Activity (MPA)
@@ -611,8 +609,6 @@
                       href: features/multiplayer/mpsd/concepts/live-mpsd-concepts-nav.md
                     - name: Multiplayer Session advanced topics
                       href: features/multiplayer/mpsd/concepts/live-mpsd-details.md
-                    - name: Service-to-service multiplayer session management
-                      href: features/multiplayer/mpsd/concepts/live-service-to-service.md
                     - name: Game session visibility and joinability
                       href: features/multiplayer/mpsd/concepts/live-game-session-visibility-joinability.md
                     - name: Multiplayer session templates
