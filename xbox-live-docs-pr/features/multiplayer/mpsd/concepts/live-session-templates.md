@@ -45,8 +45,6 @@ MPSD effectively "upgrades" these requests to version 107 at run time.
 > **Note:** It is permissible to use a different contract version in the request from what is used in the session template.
 
 If necessary, you can change a session template from version 104/105 to version 107.
-For instructions, see migrating instructions in [Changing a game from 2014 to 2015 Multiplayer](../../concepts/live-issues-changing-to-mp-2015.md).
-
 
 ## Session template default values
 

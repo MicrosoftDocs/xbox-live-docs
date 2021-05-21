@@ -56,7 +56,7 @@ connectionRequiredForActiveMembers | Indicates if a connection is required in or
 cloudCompute (deprecated since Xbox Live Compute is no longer available as a service) | Enables clients to request that a cloud compute instance be allocated on behalf of the session. | true, false | false
 autoPopulateServerCandidates | Automatically calculate and set 'serverConnectionStringCandidates' from 'serverMeasurements'. This capability can't be set on large sessions. | true, false | false
 userAuthorizationStyle | Indicates if the session supports calls from platforms without strong title identity. This capability can't be set on large sessions.</br></br>Setting the `userAuthorizationStyle` capability to `true` defaults the `readRestriction` and `joinRestriction`of the session to `local` instead of `none`. This means that titles must use search handles or transfer handles to join a game session.| true, false | false
-crossplay | Indicates that the session supports cross play between PC and Xbox One (or later) devices. | true, false | false
+crossPlay | Indicates that the session supports cross play between PC and Xbox One (or later) devices. | true, false | false
 broadcast | Indicates that the session represents a broadcast. The name of the session must be the xuid of the broadcaster. Requires the "large" capability. | true, false | false
 team | Indicates that the session represents a tournament team. This capability can't be set on 'large' or 'gameplay' sessions. | true, false | false
 arbitration | Indicates that the session must be created by a service principal that adds the 'arbitration' server entry. Can't be set on 'large' sessions, but requires 'gameplay'. | true, false | false
@@ -272,11 +272,13 @@ ownership policy | Description | valid values | default
 -- | -- | -- | --
 migration | Indicates the behavior that occurs when the last owner leaves the session. If the migration policy is set to "endsession", expire the session. If the migration policy is set to "oldest", select the member with the oldest join time to become the new owner of the session. | "oldest", "endsession" | "endsession"
 allowNonOwnerInviteHandles | Indicates invite behavior for session members that are not the owner. By default, non-owners cannot send invites for a session. | true, false | false 
+nonOwnerModifiableSystemProperties | A list of system property names that non-owners can modify on sessions with capability hasOwners == true } | List of system property names
 
 Example:
 ```json
 "ownershipPolicies": {
      "migration": "oldest",
-     "allowNonOwnerInviteHandles": true
+     "allowNonOwnerInviteHandles": true,
+     "nonOwnerModifiableSystemProperties": ["joinRestriction", "closed"] 
 }
 ```

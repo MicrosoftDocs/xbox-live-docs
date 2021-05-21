@@ -53,8 +53,6 @@ Secondary access checks, such as session membership validation, are performed at
 This article assumes that your template uses contract version 107, which is the version used by the current MPSD for Xbox One (or later).
 
 If you have defined templates based on contract version 105 (identical to 104), you must change these to support version 107.
-For instructions, see [Changing a game from 2014 to 2015 Multiplayer](../../concepts/live-issues-changing-to-mp-2015.md).
-
 
 ### Session Reference
 

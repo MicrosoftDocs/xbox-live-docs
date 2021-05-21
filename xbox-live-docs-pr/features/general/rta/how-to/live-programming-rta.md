@@ -13,97 +13,99 @@ ms.date: 04/04/2017
 
 # Programming the RTA service
 
-This article contains the following sections:
-* [Connecting to the Real-Time Activity Service from Xbox Live](#connecting-to-the-real-time-activity-service-from-xbox-live)
-* [Disconnecting from the Real-Time Activity service](#disconnecting-from-the-real-time-activity-service)
-* [Subscribing to a statistic from the Real-Time Activity service](#subscribing-to-a-statistic-from-the-real-time-activity-service)
-* [Unsubscribing from a statistic from the Real-Time Activity service](#unsubscribing-from-a-statistic-from-the-real-time-activity-service)
+This topic demonstrates how to call the Real-Time Activity (RTA) service by using the following flat C code examples.
 
+* [Registering a handler to get statistic change events from the RTA service](#registering-a-handler-to-get-statistic-changes-events-from-the-Real-Time-Activity-service)
+* [Unregistering from the RTA service](#unregistering-from-the-Real-Time-Activity-service)
 
-## Connecting to the Real-Time Activity Service from Xbox Live
+<a id="registering-a-handler-to-get-statistic-changes-events-from-the-Real-Time-Activity-service"></a>
 
-Applications must connect to the Real-Time Activity (RTA) service to get event information from Xbox Live.
+## Registering a handler to get statistic change events from the RTA service
 
-> [!NOTE]
-> The examples used in this article indicate method calls for one user. However, your title must make these calls for all users to connect to and disconnect from the Real-Time Activity (RTA) service.
+You define your statistics and configure them for RTA in [Partner Center](https://partner.microsoft.com/dashboard). For more information, see the following:
 
-**C API**
-<!-- XblRealTimeActivityActivate.md --> 
-```cpp
-HRESULT hr = XblRealTimeActivityActivate(xboxLiveContext);
-```
+* [Configuring title-managed featured stats and leaderboards in Partner Center](../../../player-data/stats-leaderboards/title-managed/config/live-tm-leaderboards-portal.md)
 
-## Disconnecting from the Real-Time Activity service
+* [Registering for player stat change notifications](../concepts/live-register-for-stat-notifications.md)
 
-**C API**
-<!-- XblRealTimeActivityDeactivate.md --> 
-```cpp
-HRESULT hr = XblRealTimeActivityDeactivate(xboxLiveContext);
-```
+>![NOTE]
+> If you're an event-based statistics developer, contact your developer account manager (DAM) for information about portal configuration of event-based statistics in [Partner Center](https://partner.microsoft.com/dashboard). For more information, see Configure Xbox Live stats and stat rules in Partner Center [(Xbox Developer Downloads > Xbox One > All Xbox One XDK CHMs)](https://www.microsoft.com/en-us/software-download/devcenter).
 
-## Subscribing to a statistic from the Real-Time Activity service
+Within your title, you need to configure the statistics that you want RTA to track. Title handlers are invoked whenever one of the configured statistics changes as shown in the following code example.
 
-You define your stats and configure them for RTA in [Partner Center](https://partner.microsoft.com/dashboard).
-See [Configuring title-managed Featured Stats & Leaderboards in Partner Center](../../../player-data/stats-leaderboards/title-managed/config/live-tm-leaderboards-portal.md).
-See [Registering for player Stat change notifications](../concepts/live-register-for-stat-notifications.md).
+#### Flat C
 
-> [!NOTE]
-> An event-based Stats developer will need to contact their DAM for information about portal configuration of event-based Stats in [Partner Center](https://partner.microsoft.com/dashboard). Secure docs portal: [Configure Xbox Live stats and stat rules in Partner Center](https://developer.microsoft.com/games/xbox/docs/xdk/windows-configure-stats-2013).
-
-Applications subscribe to a Real-Time Activity (RTA) to get updates when the statistics configured in Partner Center change.
-
-**C API**
 <!-- DocsSubscribeToStatisticChange.md -->
 ```cpp
-// Subscribe for statistic change events
-std::string statisticName = "totalPuzzlesSolved";
-XblRealTimeActivitySubscriptionHandle subscriptionHandle{ nullptr };
-HRESULT hr = XblUserStatisticsSubscribeToStatisticChange(
-    xblContextHandle,
-    xboxUserId,
-    scid,
-    statisticName.c_str(),
-    &subscriptionHandle
-);
-
-// Add a statistic changed handler
+// Add a statistic changed handler.
 void* context{ nullptr };
 XblFunctionContext statisticChangedFunctionContext = XblUserStatisticsAddStatisticChangedHandler(
     xboxLiveContext,
     [](XblStatisticChangeEventArgs eventArgs, void* context)
     {
-        // Handle stat change 
+        // Handle statistic change. 
         LogToScreen("Statistic changed callback: stat changed (%s = %s)",
             eventArgs.latestStatistic.statisticName,
             eventArgs.latestStatistic.value);
     },
     context
     );
+
+// Configure the statistics that you want RTA to track. Titles only receive real-time updates for tracked statistics.
+// Note that you can update the set of tracked statistics independently from the handlers.
+std::vector<const char*> statisticNames{ "TotalPuzzlesSolved" };
+HRESULT hr = XblUserStatisticsTrackStatistics(
+    xblContextHandle,
+    &xboxUserId,
+    1,
+    scid,
+    statisticNames.data(),
+    statisticNames.size()
+);
 ```
 
+<a id="unregistering-from-the-Real-Time-Activity-service"></a>
 
-## Unsubscribing from a statistic from the Real-Time Activity service
+## Unregistering from the RTA service
 
-Applications subscribe to a statistic from the Real-Time Activity (RTA) service to get updates when the statistic changes.
-When these updates are no longer needed, the subscription can be terminated, as follows.
+When updates are no longer needed for a particular statistic (or a set of statistics), your title should simply stop tracking that statistic. 
+If statistics updates are no longer needed altogether, removing all registered handlers automatically removes the related RTA subscriptions as shown in the following code example.
 
-**C API**
+#### Flat C
+
 <!-- DocsUnsubscribeFromStatisticChange.md -->
 ```cpp
-// Remove the statistic changed handler
+// Stop receiving updates for a particular statistic.   
+std::vector<const char*> statisticNames{ "TotalPuzzlesSolved" }; 
+HRESULT hr = XblUserStatisticsStopTrackingStatistics(
+    xblContextHandle,
+    &xboxUserId,
+    1,
+    scid,
+    statisticNames.data(),
+    statisticNames.size()
+);
+
+// Alternatively, stop receiving updates for statistics changes altogether.
 XblUserStatisticsRemoveStatisticChangedHandler(
     xblContextHandle,
     statisticChangedFunctionContext
 );
-
-// Unsubscribe for statistic change events
-HRESULT hr = XblUserStatisticsUnsubscribeFromStatisticChange(
-    xboxLiveContext,
-    statisticChangeSubscriptionHandle
-);
 ```
 
-> [!IMPORTANT]
-> The Real-Time Activity service will disconnect after two hours of use, your code must be able to detect this and re-establish a connection to the Real-Time Activity service if it is still needed. This is done primarily to ensure that auth tokens are refreshed upon expiration. XSAPI will handle this for the title by proactively reconnecting to RTA and resubmitting subscriptions after 90 minutes.
-> 
-> If a client uses RTA for multiplayer sessions, and is disconnected for thirty seconds, the Multiplayer Session Directory (MPSD) detects that the RTA session is closed, and kicks the user out of the session. It's up to the RTA client to detect when the connection is closed and initiate a reconnect and resubscribe before MPSD ends the session.
+> ![IMPORTANT]
+> If a client uses RTA for multiplayer sessions, and is disconnected for thirty seconds, the Multiplayer Session Directory (MPSD) detects that the RTA session is closed, and removes the player from the session. XSAPI then automatically reestablishes the RTA connection. However, it's the title's responsibility to rewrite its MPSD sessions after the RTA subscription has been reestablished.
+
+## See also
+
+<!-- [XblFunctionContext](__.md) -->  
+
+[XblStatisticChangeEventArgs (secure link)](https://developer.microsoft.com/en-us/games/xbox/docs/gdk/xblstatisticchangeeventargs)  
+
+[XblUserStatisticsAddStatisticChangedHandler (secure link)](https://developer.microsoft.com/en-us/games/xbox/docs/gdk/xbluserstatisticsaddstatisticchangedhandler)  
+
+<!-- [XblUserStatisticsTrackStatistics](xbluserstatisticstrackstatistics.md) -->  
+
+[XblUserStatisticsRemoveStatisticChangedHandler (secure link)](https://developer.microsoft.com/en-us/games/xbox/docs/gdk/xbluserstatisticsremovestatisticchangedhandler)  
+
+<!-- [XblUserStatisticsStopTrackingStatistics](xbluserstatisticsstoptrackingstatistics.md) -->  

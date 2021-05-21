@@ -12,6 +12,4 @@
 
 ## live-multiplayer-2015-faq.md
 
-## live-issues-changing-to-mp-2015.md
-
 ## live-migrating-an-arbiter.md

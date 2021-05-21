@@ -23,16 +23,16 @@ send an invite with the following information:
 
 Field | Purpose | Notes
 ------|---------|--------------
-`invitedUsers` | One or more users to invite. |
-`platform` | Indicates which platform may join using this invite. | See "Supporting crossplay Invites" below.
+`xuids` | The XboxUserIds of one or more users to invite. |
+`allowCrossPlatformJoin` | Indicates whether players on other platforms will receive the invite. | See "Supporting crossplay Invites" below.
 `connectionString` | Title-defined string which is opaque to MPA. Contains information a title can use to connect to another player. | Must be less than 256 characters.
 
 ## Supporting crossplay invites
 
-When creating an activity in the GDK, titles may specify an `allowCrossplay` flag.
-If `false`, the GDK automatically fills the platform field of an invite with the
-current platform. If `true`, it leaves the platform field `null`, indicating that
-the invite is cross platform.
+When creating an activity or sending an invite in the GDK, titles may specify an 
+`allowCrossPlatformJoin` flag.  If `false`, the GDK automatically fills the platform field with the
+current platform and the invite will only be received by players on that platform. If `true`, 
+it leaves the platform field `null`, indicating that the invite is cross platform.
 
 ## Sending invites from a server
 

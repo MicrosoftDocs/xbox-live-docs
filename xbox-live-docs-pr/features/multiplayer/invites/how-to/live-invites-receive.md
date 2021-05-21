@@ -15,6 +15,11 @@ ms.date: 10/01/2019
 In order for your game to receive game invites, your game registers for the multiplayer protocol and the game invite callbacks.
 Your game receives invites for the local user, and then joins that user to the multiplayer session.
 
+## Prerequisite
+
+In order to receive game invite notifications on a PC, you must have the Game Bar app installed.  
+The Game Bar app is installed by default on Windows 10 version 1903 (May 2019 Update) or later.  You can hit Windows Key + G to launch the Game Bar app to verify that it has been installed correctly.  
+If for some reason the Game Bar app is not installed, you can download it from the Windows Store: [Game Bar app](https://www.microsoft.com/store/productId/9NZKPSTSNW4P)
 
 ## Registering for multiplayer protocol
 

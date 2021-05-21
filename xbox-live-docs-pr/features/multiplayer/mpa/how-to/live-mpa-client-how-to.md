@@ -154,6 +154,8 @@ if (SUCCEEDED(hr))
 
 ## Invites
 
+### Sending Invites
+
 Players may wish to send invites directly to one or more other players. Before
 sending an invite, the title should ensure an activity is set. This ensures
 continuity between the shell and your title, as the shell sends invites based on
@@ -167,8 +169,6 @@ For more details on an invite's contents, refer to the [Invite
 concepts](../concepts/live-mpa-invites.md#invites) page
 
 A code example for sending invites is below.
-
-### Sending Invites
 
 <!-- XblMultiplayerActivitySendInvitesAsync_C.md -->
 ```cpp
@@ -184,7 +184,7 @@ HRESULT hr = XblMultiplayerActivitySendInvitesAsync(
     xblContext,
     &xuid,
     1,
-    false,
+    true, // Setting false will send the invite to only users on the sender's platform
     "dummyConnectionString",
     async.get()
 );
@@ -199,6 +199,52 @@ if (SUCCEEDED(hr))
 * [XAsyncBlock](xasyncblock.md)
 * [XAsyncGetStatus](xasyncgetstatus.md)
 * [XblMultiplayerActivitySendInvitesAsync](xblmultiplayeractivitysendinvitesasync.md) -->
+
+### Receiving Invites
+To be notified when a player has accepted an invitation, titles can register for
+invite notifications with `XGameInviteRegisterForEvent`. Each time an invite is accepted, a formatted URI
+will be passed to the title through the registered callback. That URI can be parsed to determine
+the invite sender, receiver, and connection string. The connection string is title specific
+and is set when the multiplayer activity is created. For titles using the Multiplayer Activity
+service, the full format of the URI is as follows:
+
+Platform | Format
+------|--------------
+GDK or XDK on console | `ms-xbl-<titleId>://inviteAccept?invitedUser=<xuid>&sender=<xuid>&connectionString=<conntectionString>`
+GDK or UWP on PC | `ms-xbl-multiplayer://inviteAccept?invitedUser=<xuid>&sender=<xuid>&connectionString=<conntectionString>`
+
+When invite notifications are no longer needed, the callback can be unregistered with `XGameInviteUnregisterForEvent`.
+A code sample for registering and handling accepted invites is below.
+<!-- XblMultiplayerActivitySendInvitesAsync_C.md -->
+```cpp
+void CALLBACK MyXGameInviteEventCallback(
+    _In_opt_ void* context,
+    _In_ const char* inviteUri)
+{
+    if (inviteUri != nullptr)
+    {
+        std::string uri{ inviteUri };
+        size_t invitedUserBegin = uri.find("invitedUser=");
+        size_t senderBegin = uri.find("sender=");
+        std::string invitedUser = uri.substr(invitedUserBegin, uri.find('&', invitedUserBegin) - invitedUserBegin);
+        std::string sender = uri.substr(senderBegin, uri.find('&', senderBegin) - senderBegin);
+        std::string connectionString = uri.substr(uri.find("connectionString="));
+        // ...
+    }
+}
+XTaskQueueRegistrationToken token = { 0 };
+HRESULT hr = XGameInviteRegisterForEvent(
+    queue,
+    nullptr,
+    MyXGameInviteEventCallback,
+    &token
+    );
+// ...
+bool result = XGameInviteUnregisterForEvent(token, true);
+```
+<!-- **Reference:**
+* [XGameInviteRegisterForEvent](xgameinviteregisterforevent.md)
+* [XGameInviteUnregisterForEvent](xgameinviteunregisterforevent.md)-->
 
 ## Recent Players
 
