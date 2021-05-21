@@ -79,7 +79,6 @@ Xbox Live Services defines JSON objects that are used in requests to, and respon
 | [TitleBlob (JSON)](json-titleblob.md) | Contains information about a title from storage.
 | [TitleRecord (JSON)](json-titlerecord.md) | Information about a title, including its name and a last-modified timestamp.
 | [TitleRequest (JSON)](json-titlerequest.md) | Request for information about a title.
-| [UpdateMetadataRequest (JSON)](json-updatemetadatarequest.md) | The metadata that should be updated for a clip.
 | [User (JSON)](json-user.md) | Contains user leaderboard data.
 | [UserClaims (JSON)](json-userclaims.md) | Returns information about the current authenticated user.
 | [UserList (JSON)](json-userlist.md) | A collection of [User](json-user.md) objects.

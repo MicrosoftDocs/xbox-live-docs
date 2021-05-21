@@ -737,8 +737,6 @@
           href: json/json-titlerecord.md
         - name: TitleRequest (JSON)
           href: json/json-titlerequest.md
-        - name: UpdateMetadataRequest (JSON)
-          href: json/json-updatemetadatarequest.md
         - name: User (JSON)
           href: json/json-user.md
         - name: UserClaims (JSON)

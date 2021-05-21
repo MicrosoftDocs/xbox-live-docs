@@ -21,7 +21,7 @@ The domain for these URIs is `userstats.xboxlive.com`.
 Title developers can mark statistics as open or restricted with Partner Center. Leaderboards are open statistics. Open statistics can be accessed by Smartglass, as well as iOS, Android, Windows, Windows Phone, and web applications, as long as the user is authorized to the sandbox. User authorization to a sandbox is managed through Partner Center.
   
   * [Remarks](#ID4ET)
-  * [Remarks](#ID4EFB)
+  * [Description](#ID4EFB)
   * [Authorization](#ID4EUB)
   * [Required Request Headers](#ID4ETC)
   * [Optional Request Headers](#ID4E3D)
@@ -32,7 +32,7 @@ Title developers can mark statistics as open or restricted with Partner Center. 
 <a id="ID4EFB"></a>
 
  
-## Remarks
+## Description
  
 The caller provides a message body with an array of users, service configuration IDs (SCIDs) and a list of statistic names per SCIDs for which to retrieve those statistics.
  

@@ -207,10 +207,12 @@ will be passed to the title through the registered callback. That URI can be par
 the invite sender, receiver, and connection string. The connection string is title specific
 and is set when the multiplayer activity is created. For titles using the Multiplayer Activity
 service, the full format of the URI is as follows:
+
 Platform | Format
 ------|--------------
 GDK or XDK on console | `ms-xbl-<titleId>://inviteAccept?invitedUser=<xuid>&sender=<xuid>&connectionString=<conntectionString>`
 GDK or UWP on PC | `ms-xbl-multiplayer://inviteAccept?invitedUser=<xuid>&sender=<xuid>&connectionString=<conntectionString>`
+
 When invite notifications are no longer needed, the callback can be unregistered with `XGameInviteUnregisterForEvent`.
 A code sample for registering and handling accepted invites is below.
 <!-- XblMultiplayerActivitySendInvitesAsync_C.md -->
