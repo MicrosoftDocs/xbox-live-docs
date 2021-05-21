@@ -4,8 +4,6 @@ description: High-level API for adding multiplayer functionality by managing ses
 author: KevinAsgari
 ms.author: kevinasg
 ms.topic: overview
-ms.prod: gaming
-ms.technology: xboxlive
 ms.date: 04/04/2017
 ms.localizationpriority: medium
 ms.assetid: f3a6c8bc-4f73-4b99-ac51-aadee73c8cfa
@@ -45,7 +43,7 @@ Xbox_One_Multiplayer_2015_Developer_Flowcharts.vsd updated Nov. 7, 2016 -->
 Important notes about Multiplayer Manager API design:
 
 * Large MPSD sessions (>100 members) are not supported.
-* Targets only peer-hosted multiplayer designs. Titles with dedicated servers should use the [Multiplayer Activity Service](live-mpa-overview.md) or [Multiplayer Service APIs](live-mpsd-overview.md) and [service-to-service calls](live-title-service-calls-xbox-live.md) instead. 
+* Targets only peer-hosted multiplayer designs. Titles with dedicated servers should use the [Multiplayer Activity feature overview](../mpa/live-mpa-overview.md) or [Multiplayer Session Directory overview](../mpsd/live-mpsd-overview.md) instead.
 
 >**Important** - Your game must still implement required events for online multiplayer in order to pass certification.
 
@@ -215,13 +213,13 @@ A high-level overview of the API can be found at [Multiplayer Manager API overvi
 ## What Multiplayer Manager does not do
 
 While Multiplayer Manager makes it much easier to implement multiplayer scenarios and abstracts some of the data from the developer, there are a few things Multiplayer Manager does not handle:
+
 * Persistent online server games, such as MMOs, or other game types that require large sessions (over 100 players in a session).
 * Server to server session management.
-* Throttling of MPSD calls to adhere to [Fine Grained Rate Limiting](live-fine-grained-rate-limiting.md).
+* Throttling of MPSD calls to adhere to [Fine-Grained Rate Limiting](../../../test-release/best-practices/live-fine-grained-rate-limiting.md).
 * Mixing of Multiplayer Service APIs and Multiplayer Manager APIs.
 
 > Multiplayer Manager is not tied to any specific network technology, and should work with any network communication layer.
-
 
 ## Next Steps
 
