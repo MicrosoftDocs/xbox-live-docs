@@ -124,7 +124,7 @@ No objects are sent in the body of this request.
 If there is no existing record for the user, a record with no devices is returned.
 
 
-```cpp
+```json
 {
   xuid:"0123456789",
   state:"online",
