@@ -149,7 +149,7 @@ Titles meet this XR by retrieving data from Xbox Live services. If the title use
 
 During the gameplay session, titles which offer communication between Xbox Live and non-Xbox Live network players must offer the ability to mute any non-Xbox Live players for the duration of the session.
 
-### [User Generated Content (XR-018:)](xr/live-pc-XR018.md) \* 
+### [User Generated Content (XR-018)](xr/live-pc-XR018.md) \* 
 
 User generated content is content that users contribute to an app or product and can be viewed or accessed by other users in an online state. If your product contains UGC, you must: 
 
