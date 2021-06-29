@@ -4,12 +4,12 @@ description: Policies for adding Xbox Live to a PC, mobile or Creators Program g
 kindex: Xbox Live Policies for PC and mobile
 ms.topic: conceptual
 ms.localizationpriority: high
-ms.date: 3/1/2021
+ms.date: 7/1/2021
 ---
 
 # Xbox Live Policies for PC, Mobile, and Creators Program
 
-Version 2.3
+Version 2.4
 
 
 ## Introduction
@@ -148,6 +148,17 @@ Titles meet this XR by retrieving data from Xbox Live services. If the title use
 |CommunicateUsingVoice |Check whether or not the user can communicate using voice with the target user. |
 
 During the gameplay session, titles which offer communication between Xbox Live and non-Xbox Live network players must offer the ability to mute any non-Xbox Live players for the duration of the session.
+
+### [User Generated Content (XR-018:)](xr/live-pc-XR018.md) \* 
+
+User generated content is content that users contribute to an app or product and can be viewed or accessed by other users in an online state. If your product contains UGC, you must: 
+
+* Publish and make available to users a product terms of service and/or content guidelines for User Generated Content either in game or on a title’s website 
+* Provide a means for users to report inappropriate or harmful content within the product to the developer for review and removal/disablement if in violation of content guidelines and/or implement a method for proactive detection of inappropriate or harmful UGC (for example, text filtering) 
+* Titles must remove/disable UGC when requested by Microsoft 
+* Gracefully handle scenarios in which a user does not have access to UGC in game 
+* Titles integrated with 3rd party mod platforms must integrate with the product’s report / complaint API if available and must moderate content if required by respective 3rd party contracts 
+* Titles integrated with 3rd party mod platforms must present a disclaimer, dialog, or visual cue to users if the content is not sourced from the developer 
 
 ## Achievements and awards
 
