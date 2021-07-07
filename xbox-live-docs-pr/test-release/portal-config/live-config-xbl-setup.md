@@ -48,11 +48,16 @@ By default, the default locale is set to English (en-US).
 
 ## Device families
 
-This configuration allows you to choose the type of devices on which your title can access Xbox Live.
-By default, all device families are enabled.
-You can check the devices to enable them.
+This configuration allows you to choose the type of device on which your title can access Xbox Services.
+By default, only some device families are enabled.
+You can check or uncheck the devices at any time to change which devices your game can access Xbox Services.
+After clicking save at the bottom of the page, make sure to publsih your changes in the sandbox you are testing in.
 
-![Image of the selection check boxes to select the device families in Partner Center](../../images/dev-center/xbox-live-setup/xbox-live-setup-4.png)
+> [!NOTE]
+>If your title is enabled on both Xbox One and Xbox Series X|S and you want users on both devices to play together, please ensure you're using the crossplay capability within your multiplayer configuration. 
+If you do not add crossplay capability to your multiplayer configuration then players on Xbox One will not be able to play with players on Xbox Series X|S.
+> 
+![Image of the selection check boxes to select the device families in Partner Center](../../images/dev-center/xbox-live-setup/xbox-live-setup-7.png)
 
 
 ## XBL Embargo
