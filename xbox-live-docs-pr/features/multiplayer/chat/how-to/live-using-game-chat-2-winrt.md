@@ -18,7 +18,7 @@ This is a brief walkthrough on using the C# API of Game Chat 2 with WinRT projec
 Game developers wanting to access Game Chat 2 through C++ should instead see [Using the Game Chat 2 C++ API](live-using-game-chat-2.md).
 
 
-## Prerequisites <a name="prereq">
+## Prerequisites <a name="prereq"></a>
 
 In order to consume Game Chat 2, you must include the [Microsoft.Xbox.Services.GameChat2 nuget package](https://www.nuget.org/packages/Microsoft.Xbox.Game.Chat.2.WinRT.UWP/).
 
@@ -37,7 +37,7 @@ AppXManifest capabilities are described in more detail in their respective secti
  </Package>
 ```
 
-## Initialization <a name="init">
+## Initialization <a name="init"></a>
 
 You begin interacting with the library by instantiating a `GameChat2ChatManager` object with the maximum number of concurrent chat users expected to be added to the instance.
 To change this value, the `GameChat2ChatManager` object must be disposed and recreated with the desired value.
@@ -66,7 +66,7 @@ myGameChat2ChatManager.DefaultAudioRenderVolume = myDefaultAudioRenderVolume;
 myGameChat2ChatManager.AudioEncodingTypeAndBitRate = myAudioEncodingTypeAndBitRate;
 ```
 
-## Configuring users <a name="config">
+## Configuring users <a name="config"></a>
 
 Once the instance is initialized, you must add the local users to the GC2 instance.
 In this example, User A will represent a local user.
@@ -158,7 +158,7 @@ Any informational methods called after the user object is invalidated will refle
 Other methods will throw an error when called.
 
 
-## Processing data frames <a name="data">
+## Processing data frames <a name="data"></a>
 
 Game Chat 2 does not have its own transport layer; this must be provided by the app.
 This plugin is managed by the app's regular, frequent calls to the `GameChat2ChatManager.GetDataFrames()`.
@@ -187,7 +187,7 @@ The more frequently the data frames are processed, the lower the audio latency a
 The audio is coalesced into 40 ms data frames; this is the suggested polling period.
 
 
-## Processing state changes <a name="state">
+## Processing state changes <a name="state"></a>
 
 Game Chat 2 provides updates to the app, such as received text messages, through the app's regular, frequent calls to the `GameChat2ChatManager.GetStateChanges()` method.
 It's designed to operate quickly such that it can be called every graphics frame in your UI rendering loop.
@@ -222,7 +222,7 @@ foreach (IGameChat2StateChange stateChange in stateChanges)
 }
 ```
 
-## Text chat <a name="text">
+## Text chat <a name="text"></a>
 
 To send text chat, use `GameChat2ChatUserLocal.SendChatText()`.
 For example:
@@ -240,7 +240,7 @@ If a pair of users have been configured to allow text chat, but privilege or pri
 Supporting text chat input and display is required for accessibility (see [Accessibility](#access) for more details).
 
 
-## Accessibility <a name="access">
+## Accessibility <a name="access"></a>
 
 Supporting text chat input and display is required.
 Text input is required because, even on platforms or game genres that historically haven't had widespread physical keyboard use, users may configure the system to use text-to-speech assistive technologies.
@@ -285,7 +285,7 @@ Most of the network traffic is the upload of encoded audio.
 The websocket uploads audio that has already been encoded by Game Chat 2 in the "normal" voice chat path; the app has control over the bitrate via `GameChat2ChatManager.AudioEncodingTypeAndBitrate`.
 
 
-## UI <a name="UI">
+## UI <a name="UI"></a>
 
 It's recommended that anywhere players are shown, particularly in a list of gamertags such as a scoreboard, that you also display muted/speaking icons as feedback for the user.
 The `IGameChat2ChatUser.ChatIndicator` property represents the current, instantaneous status of chat for that player.
@@ -318,7 +318,7 @@ The value of `IGameChat2ChatUser.ChatIndicator` is expected to change frequently
 It is designed to support apps polling it every UI frame as a result.
 
 
-## Muting <a name="mute">
+## Muting <a name="mute"></a>
 
 The `GameChat2ChatUserLocal.MicrophoneMuted` property can be used to toggle the mute state of a local user's microphone.
 When the microphone is muted, no audio from that microphone will be captured.
@@ -331,7 +331,7 @@ The `GameChat2ChatUserLocal.SetRemoteUserMuted()` method can be used to toggle t
 When the remote user is muted, the local user won't hear any audio or receive any text messages from the remote user.
 
 
-## Bad reputation auto-mute <a name="automute">
+## Bad reputation auto-mute <a name="automute"></a>
 
 Typically remote users will start off unmuted.
 Game Chat 2 will start the users in a muted state when (1) the remote user isn't friends with the local user, and (2) the remote user has a bad reputation flag.
@@ -340,7 +340,7 @@ When users are muted due to this operation, `IGameChat2ChatUser.ChatIndicator` w
 This state will be overridden by the first call to `GameChat2ChatUserLocal.SetRemoteUserMuted()` that includes the remote user as the target user.
 
 
-## Privilege and privacy <a name="priv">
+## Privilege and privacy <a name="priv"></a>
 
 On top of the communication relationship configured by the game, Game Chat 2 enforces privilege and privacy restrictions.
 Game Chat 2 performs privilege and privacy restriction lookups when a user is first added; the user's `IGameChat2ChatUser.ChatIndicator` will always return `GameChat2UserChatIndicator.Silent` until those operations complete.
@@ -355,7 +355,7 @@ For example, if the lookup operations are still in progress, the `GameChat2Commu
 This method is expected to be used in development and debugging scenarios; it should not be used to influence UI (see [UI](#UI)).
 
 
-## Cleanup <a name="cleanup">
+## Cleanup <a name="cleanup"></a>
 
 When the app no longer needs communications via Game Chat 2, you should call `GameChat2ChatManager.Dispose()`.
 This allows Game Chat 2 to reclaim resources that were allocated to manage the communications.
