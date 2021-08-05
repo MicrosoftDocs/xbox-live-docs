@@ -5,11 +5,9 @@ ms.topic: conceptual
 description: TBD
 ---
 
+# XR-018: User Generated Content \* 
 
 Version 1.4, 7/1/2021
-
-
-# XR-018: User Generated Content \* 
 
 User generated content is content that users contribute to an app or product and can be viewed or accessed by other users in an online state. If your product contains UGC, you must: 
 
@@ -54,7 +52,7 @@ Titles that leverage UGC as its core gameplay mechanic must comply with this XR.
 
 ### Proactive Detection of Harmful or Inappropriate Text 
 
-Titles that use the [StringService](https://docs.microsoft.com/en-us/dotnet/api/microsoft.xbox.services.system.stringservice?view=xboxlive-dotnet-2017.11.20171204.01) API meet the proactive detection requirement (for text scenarios) automatically. Titles should default to leveraging the StringService API, but if there are technical or other limiting circumstances, titles can choose to implement their own variant of text filtering by restricting a set of terms from being displayed to another player on Xbox services. See the [list of core words](https://aka.ms/forbidden-terms-games) that must be blocked or obfuscated from non-local players on Xbox services.  
+Titles that use the [StringService](https://docs.microsoft.com/dotnet/api/microsoft.xbox.services.system.stringservice?view=xboxlive-dotnet-2017.11.20171204.01&preserve-view=true) API meet the proactive detection requirement (for text scenarios) automatically. Titles should default to leveraging the StringService API, but if there are technical or other limiting circumstances, titles can choose to implement their own variant of text filtering by restricting a set of terms from being displayed to another player on Xbox services. See the [list of core words](https://aka.ms/forbidden-terms-games) that must be blocked or obfuscated from non-local players on Xbox services.  
 
 ### Terms of Service and/or Content Guidelines
 
@@ -64,8 +62,8 @@ Titles must publish and make available to users a product terms of service and/o
 
 There are other XRs that you must comply with when implementing UGC: 
 
-* **Console Games Only** [XR-007 (Cross-Network play, Data Usage, and Companion App Interactions)](https://developer.microsoft.com/en-us/games/xbox/partner/xr007): If your title supports cross-network play, ensure the title is compliant with UGC requirements outlined in XR-007 
-* [XR-045 (Xbox Network and Account Privileges)](https://developer.microsoft.com/en-us/games/xbox/partner/xr045): Ensure proper privilege checks are occurring 
+* **Console Games Only** [XR-007 (Cross-Network play, Data Usage, and Companion App Interactions)](https://developer.microsoft.com/games/xbox/partner/xr007): If your title supports cross-network play, ensure the title is compliant with UGC requirements outlined in XR-007 
+* [XR-045 (Xbox Network and Account Privileges)](https://developer.microsoft.com/games/xbox/partner/xr045): Ensure proper privilege checks are occurring 
 
 ## Exemptions
 
