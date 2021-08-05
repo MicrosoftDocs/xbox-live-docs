@@ -240,6 +240,7 @@ If a pair of users have been configured to allow text chat, but privilege or pri
 Supporting text chat input and display is required for accessibility (see [Accessibility](#access) for more details).
 
 
+<a id="access"></a>
 ## Accessibility
 
 Supporting text chat input and display is required.
@@ -285,6 +286,7 @@ Most of the network traffic is the upload of encoded audio.
 The websocket uploads audio that has already been encoded by Game Chat 2 in the "normal" voice chat path; the app has control over the bitrate via `GameChat2ChatManager.AudioEncodingTypeAndBitrate`.
 
 
+<a id="ui"></a>
 ## UI
 
 It's recommended that anywhere players are shown, particularly in a list of gamertags such as a scoreboard, that you also display muted/speaking icons as feedback for the user.
@@ -352,7 +354,7 @@ Platform communication restrictions apply to both voice and text chat; there wil
 It returns the communication relationship enforced by Game Chat 2 in the form of `GameChat2CommunicationRelationship` and the reason the relationship may not be equal to the configured relationship in the form of `GameChat2CommunicationRelationshipAdjuster`.
 
 For example, if the lookup operations are still in progress, the `GameChat2CommunicationRelationshipAdjuster` will be `GameChat2CommunicationRelationshipAdjuster.Initializing`.
-This method is expected to be used in development and debugging scenarios; it should not be used to influence UI (see [UI](#UI)).
+This method is expected to be used in development and debugging scenarios; it should not be used to influence UI (see [UI](#ui)).
 
 
 ## Cleanup
