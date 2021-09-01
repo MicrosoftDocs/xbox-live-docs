@@ -245,14 +245,6 @@ landingContent:
             url: policies/live-policies-nav.md
           - text: Policies and XRs overview
             url: policies/live-policies-nav.md
-      - linkListType: concept
-        links:
-          - text: Policies and XRs for PC and mobile
-            url: policies/live-policies-pc.md
-          - text: Xbox Live terminology
-            url: policies/live-certification-terminology-pc.md
-          - text: Recommended Policy Tests
-            url: policies/live-policy-tests-pc.md
       # - linkListType: sample
       #   links:
   # Card with 8 links (5)
