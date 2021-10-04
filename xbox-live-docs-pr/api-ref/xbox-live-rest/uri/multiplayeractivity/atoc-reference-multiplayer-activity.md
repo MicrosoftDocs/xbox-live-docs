@@ -21,39 +21,39 @@ The domain for these URIs is multiplayeractivity.xboxlive.com.
 
 [/titles/{titleId}/users/{xuid}/activities](swagger-uris/GetActivity.yml)
   
-Gets the activity for a user playing a specific title. Uses the GET operation.  
+Gets the activity for a user playing a specific title. Uses the GET operation. Client and Service callable. 
   
 [/titles/{titleId}/users/{xuid}/activities](swagger-uris/UpdateActivity.yml)
   
-Sets or updates the activity for a user playing a specific title. Uses the PUT operation.  
+Sets or updates the activity for a user playing a specific title. Uses the POST operation. Client and Service callable. 
   
 [/titles/{titleId}/users/{xuid}/activities](swagger-uris/DeleteActivity.yml)
   
-Deletes the activity for a user playing a specific title. Uses the DELETE operation.  
+Deletes the activity for a user playing a specific title. Uses the DELETE operation. Client and Service callable.
   
 [/titles/{titleId}/activities/query](swagger-uris/ExternalGetActivityBatch.yml)
   
-Gets a batch of multiplayer activities for a list of users. Uses the POST operation.  
+Gets a batch of multiplayer activities for a list of users. Uses the POST operation. Client and Service callable.
   
 [/titles/{titleId}/recentplayers](swagger-uris/PostUniRecentPlayers.yml)
 
-Appends to or updates a user's list of recent players (unidirectional). Uses the POST operation.  
+Appends to or updates a user's list of recent players (unidirectional). Uses the POST operation. Client callable only. 
   
 [/titles/{titleId}/recentplayers/server](swagger-uris/PostServerUniRecentPlayers.yml)
 
-Appends to or updates a set of users' lists of recent players (unidirectional). This is essentially a batch API of the client API, for servers. Uses the POST operation.  
+Appends to or updates a set of users' lists of recent players (unidirectional). This is essentially a batch API of the client API, for servers. Uses the POST operation. Service callable only.  
   
 [/titles/{titleId}/recentplayergroups/server](swagger-uris/PostServerRecentPlayerGroup.yml)
 
-Appends to or updates all users' recent players within a group (bidirectional). Uses the POST operation.  
+Appends to or updates all users' recent players within a group (bidirectional). Uses the POST operation. Service callable only. 
 
 [/titles/{titleId}/invites](swagger-uris/sendInvite.yml)
 
-Send an invite to an Xbox Live user. Uses the POST operation.  
+Send an invite to an Xbox Live user. Uses the POST operation. Client callable only.
 
 [/titles/{titleId}/invites/server](swagger-uris/sendServerInvite.yml)
 
-Sends an invite to an Xbox user with the given connection string.  Uses the POST operation.  
+Sends an invite to an Xbox user with the given connection string.  Uses the POST operation. Service callable only. 
 
 <a id="ID4EAC"></a>
 
