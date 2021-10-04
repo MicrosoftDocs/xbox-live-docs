@@ -14,12 +14,7 @@ ms.date: 04/04/2017
 
 
 
-# Multiplayer 2015 FAQ and troubleshooting
-
-
-### I am developing a new title. Which multiplayer API elements should I use?
-
-Multiplayer 2014 functionality will continue to apply for existing titles, but the associated API elements will likely be deprecated.
+# Multiplayer FAQ and troubleshooting
 
 
 ### How can I access the new multiplayer API from a service?
@@ -168,11 +163,6 @@ If the title is constrained or not running, the shell provides a notification th
 On Xbox One (or later), simply creating a session isn't enough for matchmaking to find the new session. You must create a match ticket to start advertising the session to the matchmaking service. See [Matchmaking overview](../matchmaking/live-matchmaking-overview.md).
 
 
-### What is the key difference between the way parties are properly used by Multiplayer 2015 and the way they were used in Multiplayer 2014?
-
-In Multiplayer 2015, the multiplayer API defines no system-level game party, only chat parties. Instead of using game parties, the title uses sessions to control joining, invites, and related features. For Multiplayer 2014, the multiplayer API on Xbox One prominently used the game party concept (**Party** class), which effectively implements a system-level join lobby instead of game invites.
-
-
 ### If a game session has open player slots and supports join in progress, why would users not be able to find the session once it has started?
 
 When a game session starts, it is no longer advertised on the matchmaking service. If player slots become available within the session and the arbiter (host) wants to attract new players, the arbiter must create a new match ticket for the in-progress session with the **MatchmakingService.CreateMatchTicketAsync** method. The ticket advertises the session again and finds more players. See [Matchmaking overview](../matchmaking/live-matchmaking-overview.md).
@@ -186,11 +176,6 @@ Yes. This is especially useful in cases where your title uses multiple sessions 
 ### When large game sessions are playing in my title, why aren't all session members seeing the game invite toast?
 
 When your title adds a user to the session through joining, the title always sets the **MultiplayerSessionMember.InitializeRequested** property to true. This tells MPSD to wait for the rest of the session members before moving the game out of the initialization stage. Otherwise, users have a very short window in which to join and can miss toasts and notifications of session changes.
-
-
-### I am seeing inconsistent game behavior and have received protocol activation information referencing game party features.
-
-This indicates that you are mixing Multiplayer 2014 and Multiplayer 2015 functionality. The API for Multiplayer 2015 should never be used with code written for Multiplayer 2014.
 
 
 ### Why am I seeing the syntax for v105 session documents in my traces although I have configured a v107 session template?
