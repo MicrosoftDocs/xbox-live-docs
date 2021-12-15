@@ -41,7 +41,7 @@ You can also create multiple test accounts at once.
 
 To go to the Test Account management page in Partner Center:
 1. Go to [Partner Center](https://partner.microsoft.com/dashboard).
-2. Click on the gear icon at the top right to go to Developer settings.
+2. Click on the gear icon at the top right to go to Account settings.
 3. Expand Xbox Live
 4. Click **Xbox test accounts**.
 

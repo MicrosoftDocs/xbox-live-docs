@@ -13,10 +13,6 @@ ms.localizationpriority: medium
 ms.date: 04/04/2017
 ---
 
-
-
-
-
 # Finding a multiplayer game by using SmartMatch using Multiplayer Manager
 
 Sometimes, a gamer may not have enough friends online when they want to play a game, or they just want to play against random people online.
@@ -40,8 +36,9 @@ Step 4 would typically be initiated on the invitee's machine following app launc
 
 See [Playing a game by using SmartMatch matchmaking (flowchart)](../concepts/flowcharts/live-mpm-play-with-smartmatch-matchmaking.md).
 
+<a id="initialize-multiplayer-manager"></a>
 
-### 1) Initialize Multiplayer Manager <a name="initialize-multiplayer-manager">
+### 1) Initialize Multiplayer Manager
 
 | Call | Event triggered |
 |-----|----------------|
@@ -51,25 +48,19 @@ The lobby session object is automatically created upon initializing the Multipla
 Note that this does not create the lobby session instance on the service.
 
 
-**C API**
-<!-- XblMultiplayerManagerInitialize_C.md -->
-```cpp
+```c
 HRESULT hr = XblMultiplayerManagerInitialize(lobbySessionTemplateName, queueUsedByMultiplayerManager);
 ```
 
-<!-- **Reference**
-* [XblMultiplayerManagerInitialize](xblmultiplayermanagerinitialize.md) -->
-
-
-**C++ API**
 ```cpp
 auto mpInstance = multiplayer_manager::get_singleton_instance();
 
 mpInstance->initialize(lobbySessionTemplateName);
 ```
 
+<a id="create-lobby"></a>
 
-### 2) Create the lobby session by adding local users<a name="create-lobby">
+### 2) Create the lobby session by adding local users
 
 | Method | Event triggered |
 |-----|----------------|
@@ -91,10 +82,8 @@ You must repeat this process for all locally signed-in users.
 
 ### Adding a single local user
 
-
-**C API**
 <!-- DocsMultiplayerManagerAddLocalUser_Single_C.md -->
-```cpp
+```c
 HRESULT hr = XblMultiplayerManagerLobbySessionAddLocalUser(xblUserHandle);
 
 if (!SUCCEEDED(hr))
@@ -129,8 +118,6 @@ if (!SUCCEEDED(hr))
 * [XblMultiplayerManagerLobbySessionSetLocalMemberConnectionAddress](xblmultiplayermanagerlobbysessionsetlocalmemberconnectionaddress.md)
 * [XblMultiplayerManagerLobbySessionSetProperties](xblmultiplayermanagerlobbysessionsetproperties.md) -->
 
-
-**C++ API**
 ```cpp
 auto mpInstance = multiplayer_manager::get_singleton_instance();
 
@@ -149,13 +136,11 @@ mpInstance->lobby_session()->set_local_member_connection_address(
 mpInstance->lobby_session()->set_local_member_properties(xboxLivecontext->user(), ..., ...)
 ```
 
-
 ### Adding multiple local users
 
 
-**C API**
 <!-- DocsMultiplayerManagerAddLocalUser_Multiple_C.md -->
-```cpp
+```c
 std::vector<XblUserHandle> xblUsers;
 for (XblUserHandle xblUserHandle : xblUsers)
 {
@@ -190,8 +175,6 @@ for (XblUserHandle xblUserHandle : xblUsers)
 * [XblMultiplayerManagerLobbySessionSetProperties](xblmultiplayermanagerlobbysessionsetproperties.md) -->
 <!-- * [XblUserHandle](xbluserhandle.md) -->
 
-
-**C++ API**
 ```cpp
 auto mpInstance = multiplayer_manager::get_singleton_instance();
 string_t connectionAddress = L"1.1.1.1";
@@ -232,8 +215,9 @@ In case of a failure, an error message will be provided detailing the reasons of
 * Register for Session Change Events
 * Set Lobby Session as Active Session
 
+<a id="send-invites"></a>
 
-### 3) Send invites to friends (optional) <a name="send-invites">
+### 3) Send invites to friends (optional)
 
 | Method | Event triggered |
 | -----|----------------|
@@ -248,9 +232,8 @@ Games can also use the `invite_users()` method to send invites to a set of peopl
 This is useful if you prefer to use your own in-game UI instead of the stock Xbox UI.
 
 
-**C API**
 <!-- XblMultiplayerManagerLobbySessionInviteUsers_C.md -->
-```cpp
+```c
 size_t xuidsCount = 1;
 uint64_t xuids[1] = {};
 xuids[0] = 1234567891234567;
@@ -267,7 +250,6 @@ HRESULT hr = XblMultiplayerManagerLobbySessionInviteUsers(
 * [XblMultiplayerManagerLobbySessionInviteUsers](xblmultiplayermanagerlobbysessioninviteusers.md) -->
 
 
-**C++ API**
 ```cpp
 auto result = mpInstance->lobby_session()->invite_friends(xboxLiveContext);
 if (result.err())
@@ -281,8 +263,9 @@ if (result.err())
 * Brings up the Xbox stock title callable UI (TCUI)
 * Sends invite directly to the selected players
 
+<a id="accept-invites"></a>
 
-### 4) Accept invites (optional) <a name="accept-invites">
+### 4) Accept invites (optional) 
 
 | Method | Event triggered |
 | -----|----------------|
@@ -304,9 +287,8 @@ Finally, the Multiplayer Manager will auto join the user into the game session i
 The title will be notified through the `join_game_completed` event providing an appropriate error code and message.
 
 
-**C API**
 <!-- DocsMultiplayerManagerJoinLobby_C.md -->
-```cpp
+```c
 HRESULT hr = XblMultiplayerManagerJoinLobby(inviteHandleId, xblUserHandle);
 if (!SUCCEEDED(hr))
 {
@@ -324,7 +306,6 @@ hr = XblMultiplayerManagerLobbySessionSetLocalMemberConnectionAddress(
 * [XblMultiplayerManagerLobbySessionSetLocalMemberConnectionAddress](xblmultiplayermanagerlobbysessionsetlocalmemberconnectionaddress.md) -->
 
 
-**C++ API**
 ```cpp
 auto result = mpInstance().join_lobby(IProtocolActivatedEventArgs^ args);
 if (result.err())
@@ -352,8 +333,9 @@ Error/success is handled via the `join_lobby_completed` event.
 * Join Game Session (if exists)
  * Uses transfer handle
 
+<a id="find-match"></a>
 
-### 5) Find match <a name="find-match">
+### 5) Find match
 
 | Call | Event triggered |
 |-----|----------------|
@@ -367,9 +349,8 @@ Before you can call `find_match()`, you must first configure hoppers in your ser
 A hopper defines the rules that SmartMatch uses to match players.
 
 
-**C API**
 <!-- XblMultiplayerManagerFindMatch_C.md -->
-```cpp
+```c
 uint32_t timeoutInSeconds = 30;
 HRESULT hr = XblMultiplayerManagerFindMatch(hopperName, attributesJson, timeoutInSeconds);
 if (!SUCCEEDED(hr))
@@ -381,8 +362,6 @@ if (!SUCCEEDED(hr))
 <!-- **Reference**
 * [XblMultiplayerManagerFindMatch](xblmultiplayermanagerfindmatch.md) -->
 
-
-**C++ API**
 ```cpp
 auto result = mpInstance.find_match(HOPPER_NAME);
 if (result.err())
