@@ -63,6 +63,16 @@ To view or edit a batch, select the batch name. You will need to wait until crea
 You can then navigate to see the underlying test accounts using the batch accounts left nav option, or click "View batch accounts". There you can search or scroll through the Xbox Live Test Accounts of the batch.
 ![Partner Center batch test accounts](live-test-accounts-images/testaccount-batch-accounts.JPG)
 
+## Add Granular Permissions
+If you are a managed partner and would like to allow more members of your team to create test accounts, the granular permission might be the right choice. This permission limits their view to only the accounts they created. After the privilege is set for select users (or groups), Account admins will still be able to see all Test Accounts created in the studio.
+
+To add this permission in Partner Center:
+1. Click on the gear icon at the top right to go to Account settings.
+2. Select **User Management** on the left navigation pane.
+3. Select or search for the user (or group) you'd like to modify
+4. On the **customize permission** tab, select Test account (owned) and click save at the bottom of the page.
+![Partner Center granular permissions](live-test-accounts-images/testaccount-granular-permissions.JPG)
+
 ## Exporting Test Accounts
 
 If you are in the Managed Partners Program, then you may also export the test accounts for viewing. 
