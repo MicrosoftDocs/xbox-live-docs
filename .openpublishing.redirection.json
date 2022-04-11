@@ -10224,5 +10224,10 @@
 			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/live/get-started/live-xbl-overview",
 			"redirect_document_id": true
 		},
+				{
+			"source_path": "xbox-live-docs-pr/index.yml",
+			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/live/get-started/live-xbl-overview",
+			"redirect_document_id": true
+		},
     ]
 }
