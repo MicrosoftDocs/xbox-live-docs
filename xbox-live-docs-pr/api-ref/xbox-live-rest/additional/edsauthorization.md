@@ -56,7 +56,7 @@ The basic identity tokens - for User, Device, and Title - are provided by the Xb
  
 ## 3.0 Tokens: Multiuser vs. Single User
  
-This is the form of the 3.0 token: `XBL3.0 x=&lt;hash>;&lt;token>`
+This is the form of the 3.0 token: `XBL3.0 x=<hash><token>`
  
 Depending on the &lt;hash>, the token is treated differently:
  
