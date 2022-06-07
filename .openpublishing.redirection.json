@@ -4931,7 +4931,97 @@
 		},
 		{
 			"source_path": "xbox-live-docs-pr/api-ref/xbox-live-rest/uri/multiplayeractivity/atoc-reference-multiplayer-activity.md",
-			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/live/get-started/live-xbl-overview",
+			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/reference/live/rest/uri/multiplayeractivity/atoc-reference-multiplayer-activity",
+			"redirect_document_id": true
+		},
+		{
+			"source_path": "https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/multiplayeractivity/swagger-uris/deleteactivity",
+			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/reference/live/rest/uri/multiplayeractivity/swagger-uris/uri-deleteactivity",
+			"redirect_document_id": true
+		},
+		{
+			"source_path": "https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/multiplayeractivity/swagger-uris/deleteactivity/deleteactivity",
+			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/reference/live/rest/uri/multiplayeractivity/swagger-uris/uri-deleteactivity",
+			"redirect_document_id": true
+		},
+		{
+			"source_path": "https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/multiplayeractivity/swagger-uris/externalgetactivitybatch",
+			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/reference/live/rest/uri/multiplayeractivity/swagger-uris/uri-externalgetactivitybatch",
+			"redirect_document_id": true
+		},
+		{
+			"source_path": "https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/multiplayeractivity/swagger-uris/externalgetactivitybatch/externalgetactivitybatch",
+			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/reference/live/rest/uri/multiplayeractivity/swagger-uris/uri-externalgetactivitybatch",
+			"redirect_document_id": true
+		},
+		{
+			"source_path": "https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/multiplayeractivity/swagger-uris/getactivity",
+			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/reference/live/rest/uri/multiplayeractivity/swagger-uris/uri-getactivity",
+			"redirect_document_id": true
+		},
+		{
+			"source_path": "https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/multiplayeractivity/swagger-uris/getactivity/getactivity",
+			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/reference/live/rest/uri/multiplayeractivity/swagger-uris/uri-getactivity",
+			"redirect_document_id": true
+		},
+		{
+			"source_path": "https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/multiplayeractivity/swagger-uris/postserverrecentplayergroup",
+			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/reference/live/rest/uri/multiplayeractivity/swagger-uris/uri-postserverrecentplayergroup",
+			"redirect_document_id": true
+		},
+		{
+			"source_path": "https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/multiplayeractivity/swagger-uris/postserverrecentplayergroup/postserverrecentplayergroup",
+			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/reference/live/rest/uri/multiplayeractivity/swagger-uris/uri-postserverrecentplayergroup",
+			"redirect_document_id": true
+		},
+		{
+			"source_path": "https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/multiplayeractivity/swagger-uris/postserverunirecentplayers",
+			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/reference/live/rest/uri/multiplayeractivity/swagger-uris/uri-postserverunirecentplayers",
+			"redirect_document_id": true
+		},
+		{
+			"source_path": "https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/multiplayeractivity/swagger-uris/postserverunirecentplayers/postserverunirecentplayers",
+			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/reference/live/rest/uri/multiplayeractivity/swagger-uris/uri-postserverunirecentplayers",
+			"redirect_document_id": true
+		},
+		{
+			"source_path": "https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/multiplayeractivity/swagger-uris/postunirecentplayers",
+			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/reference/live/rest/uri/multiplayeractivity/swagger-uris/uri-postunirecentplayers",
+			"redirect_document_id": true
+		},
+		{
+			"source_path": "https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/multiplayeractivity/swagger-uris/postunirecentplayers/postunirecentplayers",
+			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/reference/live/rest/uri/multiplayeractivity/swagger-uris/uri-postunirecentplayers",
+			"redirect_document_id": true
+		},
+		{
+			"source_path": "https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/multiplayeractivity/swagger-uris/sendinvite",
+			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/reference/live/rest/uri/multiplayeractivity/swagger-uris/uri-sendinvite",
+			"redirect_document_id": true
+		},
+		{
+			"source_path": "https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/multiplayeractivity/swagger-uris/sendinvite/sendinvite",
+			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/reference/live/rest/uri/multiplayeractivity/swagger-uris/uri-sendinvite",
+			"redirect_document_id": true
+		},
+		{
+			"source_path": "https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/multiplayeractivity/swagger-uris/sendserverinvite",
+			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/reference/live/rest/uri/multiplayeractivity/swagger-uris/uri-sendserverinvite",
+			"redirect_document_id": true
+		},
+		{
+			"source_path": "https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/multiplayeractivity/swagger-uris/sendserverinvite/sendserverinvite",
+			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/reference/live/rest/uri/multiplayeractivity/swagger-uris/uri-sendserverinvite",
+			"redirect_document_id": true
+		},
+		{
+			"source_path": "https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/multiplayeractivity/swagger-uris/updateactivity",
+			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/reference/live/rest/uri/multiplayeractivity/swagger-uris/uri-updateactivity",
+			"redirect_document_id": true
+		},
+		{
+			"source_path": "https://docs.microsoft.com/gaming/xbox-live/api-ref/xbox-live-rest/uri/multiplayeractivity/swagger-uris/updateactivity/updateactivity",
+			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/reference/live/rest/uri/multiplayeractivity/swagger-uris/uri-updateactivity",
 			"redirect_document_id": true
 		},
 		{
