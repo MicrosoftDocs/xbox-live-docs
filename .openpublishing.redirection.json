@@ -4995,7 +4995,7 @@
 			"redirect_document_id": true
 		},
 		{
-			"source_path": "xbox-live-docs-pr/api-ref/xbox-live-rest/uri/multiplayeractivity/swagger-uris/sendinvite",
+			"source_path": "xbox-live-docs-pr/api-ref/xbox-live-rest/uri/multiplayeractivity/swagger-uris/sendinvite.yml",
 			"redirect_url": "https://docs.microsoft.com/gaming/gdk/_content/gc/reference/live/rest/uri/multiplayeractivity/swagger-uris/uri-sendinvite",
 			"redirect_document_id": true
 		},
