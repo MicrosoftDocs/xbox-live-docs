@@ -36,7 +36,7 @@ The only content type this API supports is "application/json", which is required
 ## URI parameters 
  
 | Parameter| Type| Description| 
-| --- | --- | --- | 
+| --- | --- | --- |
 | xuid | unsigned 64-bit integer | The Xbox User ID (XUID) of the player who is making the request. | 
 | messageId | string[50] | ID of the message being retrieved or deleted. | 
   
@@ -62,7 +62,7 @@ No objects are sent in the body of this request.
 The service returns one of the status codes in this section in response to a request made with this method on this resource. For a complete list of standard HTTP status codes used with Xbox Live Services, see [Standard HTTP status codes](../../additional/httpstatuscodes.md).
  
 | Code| Description| 
-| --- | --- | --- | --- | --- | 
+| --- | --- |
 | 204| Success.| 
 | 403| The XUID cannot be converted or a valid XUID claim cannot be found.| 
 | 404| Message ID in the URI cannot be parsed or an XUID is missing in the URI.| 
@@ -76,7 +76,7 @@ The service returns one of the status codes in this section in response to a req
 In case of error, the service may return an errorResponse object, which may contain values from the environment of the service.
  
 | Property| Type| Description| 
-| --- | --- | --- | --- | --- | --- | --- | --- | 
+| --- | --- | --- |
 | errorSource| string| An indication of where the error originated.| 
 | errorCode| int| Numeric code associated with the error (can be null).| 
 | errorMessage| string| Details of the error if configured to show details.| 
