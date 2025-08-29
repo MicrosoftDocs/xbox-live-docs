@@ -8,7 +8,7 @@ ms.technology: xboxlive
 ms.assetid: 380a29bf-41a7-4817-9c57-f48f2b824b52
 ms.localizationpriority: high
 author: StaceyHaffner
-ms.author: kevinasg
+ms.author: jenelleb
 ms.date: 06/13/2018
 edited: 00/00/0000
 ---

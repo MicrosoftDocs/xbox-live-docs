@@ -2,7 +2,7 @@
 title: Multiplayer Manager overview
 description: High-level API for adding multiplayer functionality by managing sessions, matchmaking, and game invites. Provides a state- and event-based programming model.
 author: KevinAsgari
-ms.author: kevinasg
+ms.author: jenelleb
 ms.topic: overview
 ms.date: 04/04/2017
 ms.localizationpriority: medium

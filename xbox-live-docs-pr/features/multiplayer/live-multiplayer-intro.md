@@ -3,7 +3,7 @@ title: Xbox Live multiplayer overview
 description: Multiplayer features in Xbox Live include Multiplayer Session Directory, matchmaking, networking, voice chat, and text chat.
 kindex: Xbox Live multiplayer overview
 author: joanlee
-ms.author: joanlee
+ms.author: jenelleb
 ms.topic: conceptual
 ms.localizationpriority: medium
 ms.date: 01/17/2021

@@ -5,7 +5,7 @@ kindex: Getting started with the Xbox Live APIs on Android
 kindex: Android, Xbox Live
 ms.topic: conceptual
 author: KevinAsgari
-ms.author: kevinasg
+ms.author: jenelleb
 ms.localizationpriority: medium
 ms.date: 09/21/2018
 ---
