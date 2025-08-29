@@ -4,7 +4,7 @@ description: Learn how to add and compile the Xbox Live APIs source in your iOS 
 kindex: Get started with Xbox Live APIs on iOS
 kindex: iOS
 author: KevinAsgari
-ms.author: kevinasg
+ms.author: jenelleb
 ms.topic: article
 ms.localizationpriority: medium
 ms.date: 09/21/2018

@@ -4,7 +4,7 @@ description: The Reputation service encourages positive gameplay.
 kindex: Overview of the Reputation service
 kindex: Reputation
 author: KevinAsgari
-ms.author: kevinasg
+ms.author: jenelleb
 ms.topic: conceptual
 ms.localizationpriority: medium
 ms.assetid: f8966184-5db7-4cab-93ca-9a0250a6077d
